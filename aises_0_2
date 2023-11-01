@@ -1,0 +1,116 @@
+Preface
+<h1 class="unnumbered" id="preface">Preface</h1>
+<p>Artificial Intelligence (AI) is rapidly embedding itself within
+militaries, economies, and societies, reshaping their very foundations.
+Given the depth and breadth of its consequences, it has never been more
+pressing to understand how to ensure that AI systems are safe, ethical,
+and have a positive societal impact.<br />
+This textbook aims to provide a comprehensive approach to understanding
+AI risk. Our primary goals include consolidating fragmented knowledge on
+AI risk, increasing the precision of core ideas and reducing barriers to
+entry by making content simpler and more comprehensible. The book has
+been designed to be accessible to undergraduates from diverse academic
+backgrounds. You do not need to have studied AI, philosophy, or other
+such topics. The content is skimmable and somewhat modular, so that you
+can choose which chapters to read. We introduce formulas in a few places
+to specify claims more precisely, but readers with less mathematical
+knowledge should be able to understand the arguments without
+these.<br />
+A full understanding of the risks posed by AI requires knowledge in
+several disparate academic disciplines, which have so far not been
+combined in a single text. This book was written to fill that gap. This
+textbook moves beyond the confines of machine learning to provide a
+holistic understanding of AI risk. We draw on well-established ideas and
+frameworks from the fields of engineering, economics, biology, physics,
+philosophy and other disciplines that can provide insights into AI risks
+and how to manage them. Our aim is to equip readers with a solid
+understanding of the technical, ethical, and governance challenges that
+we will need to meet in order to harness advanced AI in a beneficial
+way.<br />
+In order to have a solid grasp of the challenges of AI safety, it is
+important to consider the broader context within which AI systems are
+being developed and applied. The decisions of and interplay between AI
+developers, policy-makers, militaries and other actors will play an
+important role in shaping this context. Since AI influences many
+different spheres, we have deliberately selected time-tested, formal
+frameworks to provide multiple lenses for thinking about AI and its
+impacts. The frameworks and concepts we use are highly general and are
+useful for reasoning about various forms of intelligence, ranging from
+nonhuman animals to humans, corporations, states, and AI systems. While
+some sections of the book focus more directly on AI risks that have
+already been identified and discussed today, others set out a systematic
+introduction to ideas from game theory, utility theory, complex systems,
+ethics, and more. We hope that providing these flexible conceptual tools
+helps readers to robustly adapt to the ever-changing landscape of AI
+risks.<br />
+This book does not aim to be the final word on all possible AI risks, as
+research on AI risk is still relatively new. Rather, we aim to highlight
+the dynamics and frameworks that we have found highly productive for
+thinking about various AI risks. Given the broad scope of the problems
+involved, it is easy to become disoriented. Our hope is that this
+textbook provides some scaffolding for others to use as they build out a
+more detailed picture of these risks and the potential responses to
+them.<br />
+The textbook’s content falls into three sections: Safety, Ethics, and
+Society. In the section, we discuss how to make individual AI systems
+more safe. However, if we can make them safe, how should we direct them?
+To answer this, we turn to the Ethics section and discuss how to make AI
+systems promote human values. Finally, in the Society section, we turn
+to the numerous challenges that emerge when there are multiple AI
+systems or multiple AI developers with competing interests.<br />
+The section aims to provide an overview of core challenges in safely
+building advanced AI systems. It draws on key insights from both machine
+learning research and from general theories of safety engineering and
+complex systems which provide a powerful lens on these issues. gives an
+accessible and non-mathematical explanation of current AI systems,
+setting out concepts in machine learning, deep learning, scaling laws,
+and so on. With this background established, we can move on to . Here,
+we explore challenges in making individual AI systems safer, such as
+bias, transparency, and emergence. In , we discuss how to create safer
+organizations, including those developing and deploying AI. The need for
+a robust safety culture at organizations developing AI is crucial, so
+organizations do not prioritize profit at the expense of safety. In our
+discussion of safety engineering, we rely on complex systems-based
+models and methods, as they are dominant in safety science research.
+Next, in , we show that analyzing AIs as complex systems helps us to
+better understand the difficulty of predicting how they will respond to
+external pressures or controlling the goals that may emerge in such
+systems. More generally, this chapter provides us with a useful
+vocabulary for discussing various systems.<br />
+The section focusses on how to instill objectives and constraints in AI
+systems in order to avert severe risks and ensure positive outcomes. In
+, we introduce the challenge of giving AI systems objectives that will
+reliably lead to beneficial outcomes for society, and discuss various
+proposals along with the challenges they face. discusses how to model
+self-interested AI agents, challenges we might face in adjusting their
+goals if these turn out to be faulty, as well as tools for shaping AI
+systems’ risk tolerance. dives deeper into the question of how to ensure
+that AI systems behave in ways that reflect our values. We think we
+should not try to reinvent ethics from scratch and should instead draw
+from existing ethical systems, so the chapter aims to give readers a
+background in major theories and concepts in normative ethics.<br />
+The final section on has two chapters: and . In , we utilize game theory
+to illustrate the many ways in which multiple agents (humans, AIs,
+groups of humans and AIs) can fail to secure good outcomes and come into
+conflict. We also consider the evolutionary dynamics shaping AI
+development and how this drives many AI risks. These frameworks help us
+to understand the challenges of managing competitive pressures between
+AI developers, militaries, or AI systems themselves. Finally, in the
+chapter, we discuss strategic variables such as the rate at which AI
+evolves and how widely it is distributed. We introduce a variety of
+potential paths for managing AI risks, including corporate governance,
+national regulation, and international coordination.<br />
+Before all these chapters, we provide an informal overview of AI risks,
+which summarises many of the key concerns discussed in this book. We
+outline some scenarios where AI systems could cause catastrophic
+outcomes. We split risks across four categories: malicious use, AI arms
+race dynamics, organizational risks, and rogue AIs. These categories can
+be loosely mapped onto the risks discussed in more depth in , , , and
+chapters, respectively. However, this mapping is imperfect as many of
+the risks and frameworks discussed in the textbook are more general and
+cut across scenarios. Nonetheless, we hope that these scenarios give
+readers a more concrete picture of the risks that we explore in this
+book.<br />
+<br />
+Dan Hendrycks<br />
+Center for AI Safety</p>
