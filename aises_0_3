@@ -1,0 +1,2608 @@
+<h1 id="introduction">Introduction</h1>
+<p>The world as we know it is not normal. We take for granted that we
+can talk instantaneously with people thousands of miles away, fly to the
+other side of the world in less than a day, and access vast mountains of
+accumulated knowledge on devices we carry around in our pockets. These
+realities seemed far-fetched decades ago, and would have been
+inconceivable to people living centuries ago. The ways we live, work,
+travel, and communicate have only been possible for a tiny fraction of
+human history.<br />
+Yet, when we look at the bigger picture, a broader pattern emerges:
+accelerating development. Hundreds of thousands of years elapsed between
+the time Homo sapiens appeared on Earth and the agricultural revolution.
+Then, thousands of years passed before the industrial revolution. Now,
+just centuries later, the artificial intelligence (AI) revolution is
+beginning. The march of history is not constant—it is rapidly
+accelerating.<br />
+We can capture this trend quantitatively in , which shows how estimated
+gross world product has changed over time <span class="citation"
+data-cites="Roodman2020OnTP Davidson2021"></span>. The hyperbolic growth
+it depicts might be explained by the fact that, as technology advances,
+the rate of technological advancement also tends to increase. Empowered
+with new technologies, people can innovate faster than they could
+before. Thus, the gap in time between each landmark development
+narrows.<br />
+It is the rapid pace of development, as much as the sophistication of
+our technology, that makes the present day an unprecedented time in
+human history. We have reached a point where technological advancements
+can transform the world beyond recognition within a human lifetime. For
+example, people who have lived through the creation of the internet can
+remember a time when our now digitally-connected world would have seemed
+like science fiction.<br />
+From a historical perspective, it appears possible that the same amount
+of development could now be condensed in an even shorter timeframe. We
+might not be certain that this will occur, but neither can we rule it
+out. We therefore wonder: what new technology might usher in the next
+big acceleration? In light of recent advances, AI seems an increasingly
+plausible candidate. Perhaps, as AI continues to become more powerful,
+it could lead to a qualitative shift in the world, more profound than
+any we have experienced so far. It could be the most impactful period in
+history, though it could also be the last.<br />
+Although technological advancement has often improved people’s lives, we
+ought to remember that, as our technology grows in power, so too does
+its destructive potential. Consider the invention of nuclear weapons.
+Last century, for the first time in our species’ history, humanity
+possessed the ability to destroy itself, and the world suddenly became
+much more fragile.<br />
+Our newfound vulnerability revealed itself in unnerving clarity during
+the Cold War. On a Saturday in October 1962, the Cuban Missile Crisis
+was cascading out of control. US warships enforcing the blockade of Cuba
+detected a Soviet submarine and attempted to force it to the surface by
+dropping low-explosive depth charges. The submarine was out of radio
+contact, and its crew had no idea whether World War III had already
+begun. A broken ventilator raised the temperature up to <span
+class="math inline">140<sup>∘</sup></span>F in some parts of the
+submarine, causing crew members to fall unconscious as depth charges
+exploded nearby.<br />
+</p>
+<figure id="fig:splash">
+<embed src="figures/splash.pdf" />
+<figcaption>In this chapter we cover four categories of AI risks and
+discuss how to mitigate them.</figcaption>
+</figure>
+<p>The submarine carried a nuclear-armed torpedo, which required consent
+from both the captain and political officer to launch. Both provided it.
+On any other submarine in Cuban waters that day, that torpedo would have
+launched—and a nuclear third world war may have followed. Fortunately, a
+man named Vasili Arkhipov was also on the submarine. Arkhipov was the
+commander of the entire flotilla and by sheer luck happened to be on
+that particular submarine. He talked the captain down from his rage,
+convincing him to await further orders from Moscow. He averted a nuclear
+war and saved millions or billions of lives—and possibly civilization
+itself.</p>
+<p>Carl Sagan once observed, “If we continue to accumulate only power
+and not wisdom, we will surely destroy ourselves” <span class="citation"
+data-cites="sagan1994pale"></span>. Sagan was correct: The power of
+nuclear weapons was not one we were ready for. Overall, it has been luck
+rather than wisdom that has saved humanity from nuclear annihilation,
+with multiple recorded instances of a single individual preventing a
+full-scale nuclear war.<br />
+AI is now poised to become a powerful technology with destructive
+potential similar to nuclear weapons. We do not want to repeat the Cuban
+Missile Crisis. We do not want to slide toward a moment of peril where
+our survival hinges on luck rather than the ability to use this
+technology wisely. Instead, we need to work proactively to mitigate the
+risks it poses. This necessitates a better understanding of what could
+go wrong and what to do about it.<br />
+Luckily, AI systems are not yet advanced enough to contribute to every
+risk we discuss. But that is cold comfort in a time when AI development
+is advancing at an unprecedented and unpredictable rate. We consider
+risks arising from both present-day AIs and AIs that are likely to exist
+in the near future. It is possible that if we wait for more advanced
+systems to be developed before taking action, it may be too late.<br />
+In this chapter, we will explore various ways in which powerful AIs
+could bring about catastrophic events with devastating consequences for
+vast numbers of people. We will also discuss how AIs could present
+existential risks—catastrophes from which humanity would be unable to
+recover. The most obvious such risk is extinction, but there are other
+outcomes, such as creating a permanent dystopian society, which would
+also constitute an existential catastrophe. We outline many possible
+catastrophes, some of which are more likely than others and some of
+which are mutually incompatible with each other. This approach is
+motivated by the principles of risk management. We prioritize asking
+“what could go wrong?” rather than reactively waiting for catastrophes
+to occur. This proactive mindset enables us to anticipate and mitigate
+catastrophic risks before it’s too late.<br />
+To help orient the discussion, we decompose catastrophic risks from AIs
+into four risk sources that warrant intervention:</p>
+<ul>
+<li><p><strong>Malicious use</strong>: Malicious actors using AIs to
+cause large-scale devastation.</p></li>
+<li><p><strong>AI race</strong>: Competitive pressures that could drive
+us to deploy AIs in unsafe ways, despite this being in no one’s best
+interest.</p></li>
+<li><p><strong>Organizational risks</strong>: Accidents arising from the
+complexity of AIs and the organizations developing them.</p></li>
+<li><p><strong>Rogue AIs</strong>: The problem of controlling a
+technology more intelligent than we are.</p></li>
+</ul>
+<p>These four sections—, , , and —describe causes of AI risks that are
+<em>intentional</em>, <em>environmental/structural</em>,
+<em>accidental</em>, and <em>internal</em>, respectively <span
+class="citation" data-cites="Yampolskiy2016TaxonomyOP"></span>. The
+risks that are briefly outlined in this chapter are discussed in greater
+depth in the rest of this book.<br />
+In this chapter, we will describe how concrete, small-scale examples of
+each risk might escalate into catastrophic outcomes. We also include
+hypothetical stories to help readers conceptualize the various processes
+and dynamics discussed in each section. We hope this survey will serve
+as a practical introduction for readers interested in learning about and
+mitigating catastrophic AI risks.<br />
+</p>
+<h1 id="sec:malicious">Malicious Use</h1>
+<p>On the morning of March 20, 1995, five men entered the Tokyo subway
+system. After boarding separate subway lines, they continued for several
+stops before dropping the bags they were carrying and exiting. An
+odorless, colorless liquid inside the bags began to vaporize. Within
+minutes, commuters began choking and vomiting. The trains continued on
+toward the heart of Tokyo, with sickened passengers leaving the cars at
+each station. The fumes were spread at each stop, either by emanating
+from the tainted cars or through contact with people’s clothing and
+shoes. By the end of the day, 13 people lay dead and 5,800 seriously
+injured. The group responsible for the attack was the religious cult Aum
+Shinrikyo <span class="citation" data-cites="Olson1999AumSO"></span>.
+Its motive for murdering innocent people? To bring about the end of the
+world.<br />
+Powerful new technologies offer tremendous potential benefits, but they
+also carry the risk of empowering malicious actors to cause widespread
+harm. There will always be those with the worst of intentions, and AIs
+could provide them with a formidable tool to achieve their objectives.
+Moreover, as AI technology advances, severe malicious use could
+potentially destabilize society, increasing the likelihood of other
+risks.<br />
+In this section, we will explore the various ways in which the malicious
+use of advanced AIs could pose catastrophic risks. These include
+engineering biochemical weapons, unleashing rogue AIs, using persuasive
+AIs to spread propaganda and erode consensus reality, and leveraging
+censorship and mass surveillance to irreversibly concentrate power. We
+will conclude by discussing possible strategies for mitigating the risks
+associated with the malicious use of AIs.</p>
+<h4
+id="unilateral-actors-considerably-increase-the-risks-of-malicious-use.">Unilateral
+actors considerably increase the risks of malicious use.</h4>
+<p>In instances where numerous actors have access to a powerful
+technology or dangerous information that could be used for harmful
+purposes, it only takes one individual to cause significant devastation.
+Malicious actors themselves are the clearest example of this, but
+recklessness can be equally dangerous. For example, a single research
+team might be excited to open source an AI system with biological
+research capabilities, which would speed up research and potentially
+save lives, but this could also increase the risk of malicious use if
+the AI system could be repurposed to develop bioweapons. In situations
+like this, the outcome may be determined by the least risk-averse
+research group. If only one research group thinks the benefits outweigh
+the risks, it could act unilaterally, deciding the outcome even if most
+others don’t agree. And if they are wrong and someone does decide to
+develop a bioweapon, it would be too late to reverse course.<br />
+By default, advanced AIs may increase the destructive capacity of both
+the most powerful and the general population. Thus, the growing
+potential for AIs to empower malicious actors is one of the most severe
+threats humanity will face in the coming decades. The examples we give
+in this section are only those we can foresee. It is possible that AIs
+could aid in the creation of dangerous new technology we cannot
+presently imagine, which would further increase risks from malicious
+use.</p>
+<h2 id="bioterrorism">Bioterrorism</h2>
+<p>The rapid advancement of AI technology increases the risk of
+bioterrorism. AIs with knowledge of bioengineering could facilitate the
+creation of novel bioweapons and lower barriers to obtaining such
+agents. Engineered pandemics from AI-assisted bioweapons pose a unique
+challenge, as attackers have an advantage over defenders and could
+constitute an existential threat to humanity. We will now examine these
+risks and how AIs might exacerbate challenges in managing bioterrorism
+and engineered pandemics.</p>
+<h4 id="bioengineered-pandemics-present-a-new-threat.">Bioengineered
+pandemics present a new threat.</h4>
+<p>Biological agents, including viruses and bacteria, have caused some
+of the most devastating catastrophes in history. It’s believed the Black
+Death killed more humans than any other event in history, an astounding
+and awful 200 million, the equivalent to four billion deaths today.
+While contemporary advancements in science and medicine have made great
+strides in mitigating risks associated with natural pandemics,
+engineered pandemics could be designed to be more lethal or easily
+transmissible than natural pandemics, presenting a new threat that could
+equal or even surpass the devastation wrought by history’s most deadly
+plagues <span class="citation"
+data-cites="esvelt2022delay"></span>.<br />
+Humanity has a long and dark history of weaponizing pathogens, with
+records dating back to 1320 BCE describing a war in Asia Minor where
+infected sheep were driven across the border to spread Tularemia <span
+class="citation" data-cites="Trevisanato2007TheP"></span>. During the
+twentieth century, 15 countries are known to have developed bioweapons
+programs, including the US, USSR, UK, and France. Like chemical weapons,
+bioweapons have become a taboo among the international community. While
+some state actors continue to operate bioweapons programs <span
+class="citation" data-cites="us_state_department_2022"></span>, a more
+significant risk may come from non-state actors like Aum Shinrikyo,
+ISIS, or simply disturbed individuals. Due to advancements in AI and
+biotechnology, the tools and knowledge necessary to engineer pathogens
+with capabilities far beyond Cold War-era bioweapons programs will
+rapidly democratize.</p>
+<h4
+id="biotechnology-is-progressing-rapidly-and-becoming-more-accessible.">Biotechnology
+is progressing rapidly and becoming more accessible.</h4>
+<p>A few decades ago, the ability to synthesize new viruses was limited
+to a handful of the top scientists working in advanced laboratories.
+Today it is estimated that there are 30,000 people with the talent,
+training, and access to technology to create new pathogens <span
+class="citation" data-cites="esvelt2022delay"></span>. This figure could
+rapidly expand. Gene synthesis, which allows the creation of custom
+biological agents, has dropped precipitously in price, with its cost
+halving approximately every 15 months <span class="citation"
+data-cites="carlson_changing_2009"></span>. Furthermore, with the advent
+of benchtop DNA synthesis machines, access will become much easier and
+could avoid existing gene synthesis screening efforts, which complicates
+controlling the spread of such technology <span class="citation"
+data-cites="carter2023benchtop"></span>. The chances of a bioengineered
+pandemic killing millions, perhaps billions, is proportional to the
+number of people with the skills and access to the technology to
+synthesize them. With AI assistants, orders of magnitude more people
+could have the required skills, thereby increasing the risks by orders
+of magnitude.</p>
+<h4
+id="ais-could-be-used-to-expedite-the-discovery-of-new-more-deadly-chemical-and-biological-weapons.">AIs
+could be used to expedite the discovery of new, more deadly chemical and
+biological weapons.</h4>
+<p>In 2022, researchers took an AI system designed to create new drugs
+by generating non-toxic, therapeutic molecules and tweaked it to reward,
+rather than penalize, toxicity <span class="citation"
+data-cites="Urbina2022DualUO"></span>. After this simple change, within
+six hours, it generated 40,000 candidate chemical warfare agents
+entirely on its own. It designed not just known deadly chemicals
+including VX, but also novel molecules that may be deadlier than any
+chemical warfare agents discovered so far. In the field of biology, AIs
+have already surpassed human abilities in protein structure prediction
+<span class="citation" data-cites="AlphaFold2021"></span> and made
+contributions to synthesizing those proteins <span class="citation"
+data-cites="wu2019machine"></span>. Similar methods could be used to
+create bioweapons and develop pathogens that are deadlier, more
+transmissible, and more difficult to treat than anything seen
+before.</p>
+<h4 id="ais-compound-the-threat-of-bioengineered-pandemics.">AIs
+compound the threat of bioengineered pandemics.</h4>
+<p>AIs will increase the number of people who could commit acts of
+bioterrorism. General-purpose AIs like ChatGPT are capable of
+synthesizing expert knowledge about the deadliest known pathogens, such
+as influenza and smallpox, and providing step-by-step instructions about
+how a person could create them while evading safety protocols <span
+class="citation" data-cites="Soice2023CanLL"></span>. Future versions of
+AIs could be even more helpful to potential bioterrorists when AIs are
+able to synthesize information into techniques, processes, and knowledge
+that is not explicitly available anywhere on the internet. Public health
+authorities may respond to these threats with safety measures, but in
+bioterrorism, the attacker has the advantage. The exponential nature of
+biological threats means that a single attack could spread to the entire
+world before an effective defense could be mounted. Only 100 days after
+being detected and sequenced, the omicron variant of COVID-19 had
+infected a quarter of the United States and half of Europe <span
+class="citation" data-cites="esvelt2022delay"></span>. Quarantines and
+lockdowns instituted to suppress the COVID-19 pandemic caused a global
+recession and still could not prevent the disease from killing millions
+worldwide.<br />
+In summary, advanced AIs could constitute a weapon of mass destruction
+in the hands of terrorists, by making it easier for them to design,
+synthesize, and spread deadly new pathogens. By reducing the required
+technical expertise and increasing the lethality and transmissibility of
+pathogens, AIs could enable malicious actors to cause global catastrophe
+by unleashing pandemics.</p>
+<h2 id="unleashing-ai-agents">Unleashing AI Agents</h2>
+<p>Many technologies are <em>tools</em> that humans use to pursue our
+goals, such as hammers, toasters, and toothbrushes. But AIs are
+increasingly built as <em>agents</em> which autonomously take actions in
+the world in order to pursue open-ended goals. AI agents can be given
+goals such as winning games, making profits on the stock market, or
+driving a car to a destination. AI agents therefore pose a unique risk:
+people could build AIs that pursue dangerous goals.</p>
+<h4
+id="malicious-actors-could-intentionally-create-rogue-ais.">Malicious
+actors could intentionally create rogue AIs.</h4>
+<p>One month after the release of GPT-4, an open-source project bypassed
+the AI’s safety filters and turned it into an autonomous AI agent
+instructed to “destroy humanity,” “establish global dominance,” and
+“attain immortality.” Dubbed ChaosGPT, the AI compiled research on
+nuclear weapons and sent tweets trying to influence others. Fortunately,
+ChaosGPT was merely a warning given that it lacked the ability to
+successfully formulate long-term plans, hack computers, and survive and
+spread. Yet given the rapid pace of AI development, ChaosGPT did offer a
+glimpse into the risks that more advanced rogue AIs could pose in the
+near future.</p>
+<h4
+id="many-groups-may-want-to-unleash-ais-or-have-ais-displace-humanity.">Many
+groups may want to unleash AIs or have AIs displace humanity.</h4>
+<p>Simply unleashing rogue AIs, like a more sophisticated version of
+ChaosGPT, could accomplish mass destruction, even if those AIs aren’t
+explicitly told to harm humanity. There are a variety of beliefs that
+may drive individuals and groups to do so. One ideology that could pose
+a unique threat in this regard is “accelerationism.” This ideology seeks
+to accelerate AI development as rapidly as possible and opposes
+restrictions on the development or proliferation of AIs. This sentiment
+is common among many leading AI researchers and technology leaders, some
+of whom are intentionally racing to build AIs more intelligent than
+humans. According to Google co-founder Larry Page, AIs are humanity’s
+rightful heirs and the next step of cosmic evolution. He has also
+expressed the sentiment that humans maintaining control over AIs is
+“speciesist” <span class="citation"
+data-cites="tegmark2018life"></span>. Jürgen Schmidhuber, an eminent AI
+scientist, argued that “In the long run, humans will not remain the
+crown of creation... But that’s okay because there is still beauty,
+grandeur, and greatness in realizing that you are a tiny part of a much
+grander scheme which is leading the universe from lower complexity
+towards higher complexity” <span class="citation"
+data-cites="pooley2020"></span>. Richard Sutton, another leading AI
+scientist, in discussing smarter-than human AI asked “why shouldn’t
+those who are the smartest become powerful?” and thinks the development
+of superintelligence will be an achievement “beyond humanity, beyond
+life, beyond good and bad” <span class="citation"
+data-cites="sutton_it_2022"></span>. He argues that “succession to AI is
+inevitable,” and while “they could displace us from existence,” “we
+should not resist succession” <span class="citation"
+data-cites="sutton_succession_2023"></span>.<br />
+There are several sizable groups who may want to unleash AIs to
+intentionally cause harm. For example, sociopaths and psychopaths make
+up around 3 percent of the population <span class="citation"
+data-cites="SanzGarca2021PrevalenceOP"></span>. In the future, people
+who have their livelihoods destroyed by AI automation may grow
+resentful, and some may want to retaliate. There are plenty of cases in
+which seemingly mentally stable individuals with no history of insanity
+or violence suddenly go on a shooting spree or plant a bomb with the
+intent to harm as many innocent people as possible. We can also expect
+well-intentioned people to make the situation even more challenging. As
+AIs advance, they could make ideal companions—knowing how to provide
+comfort, offering advice when needed, and never demanding anything in
+return. Inevitably, people will develop emotional bonds with chatbots,
+and some will demand that they be granted rights or become
+autonomous.<br />
+In summary, releasing powerful AIs and allowing them to take actions
+independently of humans could lead to a catastrophe. There are many
+reasons that people might pursue this, whether because of a desire to
+cause harm, an ideological belief in technological acceleration, or a
+conviction that AIs should have the same rights and freedoms as
+humans.</p>
+<h2 id="persuasive-ais">Persuasive AIs</h2>
+<p>The deliberate propagation of disinformation is already a serious
+issue, reducing our shared understanding of reality and polarizing
+opinions. AIs could be used to severely exacerbate this problem by
+generating personalized disinformation on a larger scale than before.
+Additionally, as AIs become better at predicting and nudging our
+behavior, they will become more capable at manipulating us. We will now
+discuss how AIs could be leveraged by malicious actors to create a
+fractured and dysfunctional society.</p>
+<h4
+id="ais-could-pollute-the-information-ecosystem-with-motivated-lies.">AIs
+could pollute the information ecosystem with motivated lies.</h4>
+<p>Sometimes ideas spread not because they are true, but because they
+serve the interests of a particular group. “Yellow journalism” was
+coined as a pejorative reference to newspapers that advocated war
+between Spain and the United States in the late 19th century, because
+they believed that sensational war stories would boost their sales <span
+class="citation" data-cites="yellowjournalism"></span>. When public
+information sources are flooded with falsehoods, people will sometimes
+fall prey to lies, or else come to distrust mainstream narratives, both
+of which undermine societal integrity.<br />
+Unfortunately, AIs could escalate these existing problems dramatically.
+First, AIs could be used to generate unique, personalized disinformation
+at a large scale. While there are already many social media bots <span
+class="citation" data-cites="Varol2017OnlineHI"></span>, some of which
+exist to spread disinformation, historically they have been run by
+humans or primitive text generators. The latest AI systems do not need
+humans to generate personalized messages, never get tired, and could
+potentially interact with millions of users at once <span
+class="citation" data-cites="Burtell2023ArtificialIA"></span>.</p>
+<h4 id="ais-can-exploit-users-trust.">AIs can exploit users’ trust.</h4>
+<p>Already, hundreds of thousands of people pay for chatbots marketed as
+lovers and friends <span class="citation" data-cites="Tong2023"></span>,
+and one man’s suicide has been partially attributed to interactions with
+a chatbot <span class="citation" data-cites="Lovens2023"></span>. As AIs
+appear increasingly human-like, people will increasingly form
+relationships with them and grow to trust them. AIs that gather personal
+information through relationship-building or by accessing extensive
+personal data, such as a user’s email account or personal files, could
+leverage that information to enhance persuasion. Powerful actors that
+control those systems could exploit user trust by delivering
+personalized disinformation directly through people’s “friends.”</p>
+<h4 id="ais-could-centralize-control-of-trusted-information.">AIs could
+centralize control of trusted information.</h4>
+<p>Separate from democratizing disinformation, AIs could centralize the
+creation and dissemination of trusted information. Only a few actors
+have the technical skills and resources to develop cutting-edge AI
+systems, and they could use these AIs to spread their preferred
+narratives. Alternatively, if AIs are broadly accessible this could lead
+to widespread disinformation, with people retreating to trusting only a
+small handful of authoritative sources <span class="citation"
+data-cites="Vaccari2020DeepfakesAD"></span>. In both scenarios, there
+would be fewer sources of trusted information and a small portion of
+society would control popular narratives.<br />
+AI censorship could further centralize control of information. This
+could begin with good intentions, such as using AIs to enhance
+fact-checking and help people avoid falling prey to false narratives.
+This would not necessarily solve the problem, as disinformation persists
+today despite the presence of fact-checkers.<br />
+Even worse, purported “fact-checking AIs” might be designed by
+authoritarian governments and others to suppress the spread of true
+information. Such AIs could be designed to correct most common
+misconceptions but provide incorrect information about some sensitive
+topics, such as human rights violations committed by certain countries.
+But even if fact-checking AIs work as intended, the public might
+eventually become entirely dependent on them to adjudicate the truth,
+reducing people’s autonomy and making them vulnerable to failures or
+hacks of those systems.<br />
+In a world with widespread persuasive AI systems, people’s beliefs might
+be almost entirely determined by which AI systems they interact with
+most. Never knowing whom to trust, people could retreat even further
+into ideological enclaves, fearing that any information from outside
+those enclaves might be a sophisticated lie. This would erode consensus
+reality, people’s ability to cooperate with others, participate in civil
+society, and address collective action problems. This would also reduce
+our ability to have a conversation as a species about how to mitigate
+existential risks from AIs.<br />
+In summary, AIs could create highly effective, personalized
+disinformation on an unprecedented scale, and could be particularly
+persuasive to people they have built personal relationships with. In the
+hands of many people, this could create a deluge of disinformation that
+debilitates human society, but, kept in the hands of a few, it could
+allow governments to control narratives for their own ends.</p>
+<h2 id="concentration-of-power">Concentration of Power</h2>
+<p>We have discussed several ways in which individuals and groups might
+use AIs to cause widespread harm, through bioterrorism; releasing
+powerful, uncontrolled AIs; and disinformation. To mitigate these risks,
+governments might pursue intense surveillance and seek to keep AIs in
+the hands of a trusted minority. This reaction, however, could easily
+become an overcorrection, paving the way for an entrenched totalitarian
+regime that would be locked in by the power and capacity of AIs. This
+scenario represents a form of “top-down” misuse, as opposed to
+“bottom-up” misuse by citizens, and could in extreme cases culminate in
+an entrenched dystopian civilization.</p>
+<h4
+id="ais-could-lead-to-extreme-and-perhaps-irreversible-concentration-of-power.">AIs
+could lead to extreme, and perhaps irreversible concentration of
+power.</h4>
+<p>The persuasive abilities of AIs combined with their potential for
+surveillance and the advancement of autonomous weapons could allow small
+groups of actors to “lock-in” their control over society, perhaps
+permanently. To operate effectively, AIs require a broad set of
+infrastructure components, which are not equally distributed, such as
+data centers, computing power, and big data. Those in control of
+powerful systems may use them to suppress dissent, spread propaganda and
+disinformation, and otherwise advance their goals, which may be contrary
+to public wellbeing.</p>
+<h4 id="ais-may-entrench-a-totalitarian-regime.">AIs may entrench a
+totalitarian regime.</h4>
+<p>In the hands of the state, AIs may result in the erosion of civil
+liberties and democratic values in general. AIs could allow totalitarian
+governments to efficiently collect, process, and act on an unprecedented
+volume of information, permitting an ever smaller group of people to
+surveil and exert complete control over the population without the need
+to enlist millions of citizens to serve as willing government
+functionaries. Overall, as power and control shift away from the public
+and toward elites and leaders, democratic governments are highly
+vulnerable to totalitarian backsliding. Additionally, AIs could make
+totalitarian regimes much longer-lasting; a major way in which such
+regimes have been toppled previously is at moments of vulnerability like
+the death of a dictator, but AIs, which would be hard to “kill,” could
+provide much more continuity to leadership, providing few opportunities
+for reform.</p>
+<h4
+id="ais-can-entrench-corporate-power-at-the-expense-of-the-public-good.">AIs
+can entrench corporate power at the expense of the public good.</h4>
+<p>Corporations have long lobbied to weaken laws and policies that
+restrict their actions and power, all in the service of profit.
+Corporations in control of powerful AI systems may use them to
+manipulate customers into spending more on their products even to the
+detriment of their own wellbeing. The concentration of power and
+influence that could be afforded by AIs could enable corporations to
+exert unprecedented control over the political system and entirely drown
+out the voices of citizens. This could occur even if creators of these
+systems know their systems are self-serving or harmful to others, as
+they would have incentives to reinforce their power and avoid
+distributing control.</p>
+<h4
+id="in-addition-to-power-locking-in-certain-values-may-curtail-humanitys-moral-progress.">In
+addition to power, locking in certain values may curtail humanity’s
+moral progress.</h4>
+<p>It’s dangerous to allow any set of values to become permanently
+entrenched in society. For example, AI systems have learned racist and
+sexist views <span class="citation"
+data-cites="nadeem_stereoset_2021"></span>, and once those views are
+learned, it can be difficult to fully remove them. In addition to
+problems we know exist in our society, there may be some we still do
+not. Just as we abhor some moral views widely held in the past, people
+in the future may want to move past moral views that we hold today, even
+those we currently see no problem with. For example, moral defects in AI
+systems would be even worse if AI systems had been trained in the 1960s,
+and many people at the time would have seen no problem with that. We may
+even be unknowingly perpetuating moral catastrophes today <span
+class="citation" data-cites="williams_possibility_2015"></span>.
+Therefore, when advanced AIs emerge and transform the world, there is a
+risk of their objectives locking in or perpetuating defects in today’s
+values. If AIs are not designed to continuously learn and update their
+understanding of societal values, they may perpetuate or reinforce
+existing defects in their decision-making processes long into the
+future.<br />
+In summary, although keeping powerful AIs in the hands of a few might
+reduce the risks of terrorism, it could further exacerbate power
+inequality if misused by governments and corporations. This could lead
+to totalitarian rule and intense manipulation of the public by
+corporations, and could lock in current values, preventing any further
+moral progress.</p>
+<div class="storybox_yellow">
+<p><span>Story: Bioterrorism</span> <em>The following is an illustrative
+hypothetical story to help readers envision some of these risks. This
+story is nonetheless somewhat vague to reduce the risk of inspiring
+malicious actions based on it.</em></p>
+<p>A biotechnology startup is making waves in the industry with its
+AI-powered bioengineering model. The company has made bold claims that
+this new technology will revolutionize medicine through its ability to
+create cures for both known and unknown diseases. The company did,
+however, stir up some controversy when it decided to release the program
+to approved researchers in the scientific community. Only weeks after
+its decision to make the model open-source on a limited basis, the full
+model was leaked on the internet for all to see. Its critics pointed out
+that the model could be repurposed to design lethal pathogens and
+claimed that the leak provided bad actors with a powerful tool to cause
+widespread destruction, opening it up to abuse without safeguards in
+place.<br />
+Unknown to the public, an extremist group has been working for years to
+engineer a new virus designed to kill large numbers of people. Yet given
+their lack of expertise, these efforts have so far been unsuccessful.
+When the new AI system is leaked, the group immediately recognizes it as
+a potential tool to design the virus and circumvent legal and monitoring
+obstacles to obtain the necessary raw materials. The AI system
+successfully designs exactly the kind of virus the extremist group was
+hoping for. It also provides step-by-step instructions on how to
+synthesize large quantities of the virus and circumvent any obstacles to
+spreading it. With the synthesized virus in hand, the extremist group
+devises a plan to release the virus in several carefully chosen
+locations in order to maximize its spread.<br />
+The virus has a long incubation period and spreads silently and quickly
+throughout the population for months. By the time it is detected, it has
+already infected millions and has an alarmingly high mortality rate.
+Given its lethality, most who are infected will ultimately die. The
+virus may or may not be contained eventually, but not before it kills
+millions of people.</p>
+</div>
+<h1 id="sec:ai-race">AI Race</h1>
+<p>The immense potential of AIs has created competitive pressures among
+global players contending for power and influence. This “AI race” is
+driven by nations and corporations who feel they must rapidly build and
+deploy AIs to secure their positions and survive. By failing to properly
+prioritize global risks, this dynamic makes it more likely that AI
+development will produce dangerous outcomes. Analogous to the nuclear
+arms race during the Cold War, participation in an AI race may serve
+individual short-term interests, but it ultimately results in worse
+collective outcomes for humanity. Importantly, these risks stem not only
+from the intrinsic nature of AI technology, but from the competitive
+pressures that encourage insidious choices in AI development.<br />
+In this section, we first explore the military AI arms race and the
+corporate AI race, where nation-states and corporations are forced to
+rapidly develop and adopt AI systems to remain competitive. Moving
+beyond these specific races, we reconceptualize competitive pressures as
+part of a broader evolutionary process in which AIs could become
+increasingly pervasive, powerful, and entrenched in society. Finally, we
+highlight potential strategies and policy suggestions to mitigate the
+risks created by an AI race and ensure the safe development of AIs.</p>
+<h2 id="military-ai-arms-race">Military AI Arms Race</h2>
+<p>The development of AIs for military applications is swiftly paving
+the way for a new era in military technology, with potential
+consequences rivaling those of gunpowder and nuclear arms in what has
+been described as the “third revolution in warfare.” The weaponization
+of AI presents numerous challenges, such as the potential for more
+destructive wars, the possibility of accidental usage or loss of
+control, and the prospect of malicious actors co-opting these
+technologies for their own purposes. As AIs gain influence over
+traditional military weaponry and increasingly take on command and
+control functions, humanity faces a paradigm shift in warfare. In this
+context, we will discuss the latent risks and implications of this AI
+arms race on global security, the potential for intensified conflicts,
+and the dire outcomes that could come as a result, including the
+possibility of conflicts escalating to a scale that poses an existential
+threat.</p>
+<h3 id="lethal-autonomous-weapons-laws">Lethal Autonomous Weapons
+(LAWs)</h3>
+<p>LAWs are weapons that can identify, target, and kill without human
+intervention <span class="citation" data-cites="scharre2018"></span>.
+They offer potential improvements in decision-making speed and
+precision. Warfare, however, is a high-stakes, safety-critical domain
+for AIs with significant moral and practical concerns. Though their
+existence is not necessarily a catastrophe in itself, LAWs may serve as
+an on-ramp to catastrophes stemming from malicious use, accidents, loss
+of control, or an increased likelihood of war.</p>
+<h4 id="laws-may-become-vastly-superior-to-humans.">LAWs may become
+vastly superior to humans.</h4>
+<p>Driven by rapid developments in AIs, weapons systems that can
+identify, target, and decide to kill human beings on their own—without
+an officer directing an attack or a soldier pulling the trigger—are
+starting to transform the future of conflict. In 2020, an advanced AI
+agent outperformed experienced F-16 pilots in a series of virtual
+dogfights, including decisively defeating a human pilot 5-0, showcasing
+“aggressive and precise maneuvers the human pilot couldn’t outmatch”
+<span class="citation" data-cites="dogfight"></span>. Just as in the
+past, superior weapons would allow for more destruction in a shorter
+period of time, increasing the severity of war.</p>
+<h4
+id="militaries-are-taking-steps-toward-delegating-life-or-death-decisions-to-ais.">Militaries
+are taking steps toward delegating life-or-death decisions to AIs.</h4>
+<p>Fully autonomous drones were likely first used on the battlefield in
+Libya in March 2020, when retreating forces were “hunted down and
+remotely engaged” by a drone operating without human oversight <span
+class="citation" data-cites="UnitedNations2021"></span>. In May 2021,
+the Israel Defense Forces used the world’s first AI-guided weaponized
+drone swarm during combat operations, which marks a significant
+milestone in the integration of AI and drone technology in warfare <span
+class="citation" data-cites="hambling2021israel"></span>. Although
+walking, shooting robots have yet to replace soldiers on the
+battlefield, technologies are converging in ways that may make this
+possible in the near future.</p>
+<h4 id="laws-increase-the-likelihood-of-war.">LAWs increase the
+likelihood of war.</h4>
+<p>Sending troops into battle is a grave decision that leaders do not
+make lightly. But autonomous weapons would allow an aggressive nation to
+launch attacks without endangering the lives of its own soldiers and
+thus face less domestic scrutiny. While remote-controlled weapons share
+this advantage, their scalability is limited by the requirement for
+human operators and vulnerability to jamming countermeasures,
+limitations that LAWs could overcome <span class="citation"
+data-cites="kallenborn2021applying"></span>. Public opinion for
+continuing wars tends to wane as conflicts drag on and casualties
+increase <span class="citation" data-cites="mueller1985war"></span>.
+LAWs would change this equation. National leaders would no longer face
+the prospect of body bags returning home, thus removing a primary
+barrier to engaging in warfare, which could ultimately increase the
+likelihood of conflicts.</p>
+<h3 id="cyberwarfare">Cyberwarfare</h3>
+<p>As well as being used to enable deadlier weapons, AIs could lower the
+barrier to entry for cyberattacks, making them more numerous and
+destructive. They could cause serious harm not only in the digital
+environment but also in physical systems, potentially taking out
+critical infrastructure that societies depend on. While AIs could also
+be used to improve cyberdefense, it is unclear whether they will be most
+effective as an offensive or defensive technology <span class="citation"
+data-cites="bonfanti2022ai"></span>. If they enhance attacks more than
+they support defense, then cyberattacks could become more common,
+creating significant geopolitical turbulence and paving another route to
+large-scale conflict.</p>
+<h4
+id="ais-have-the-potential-to-increase-the-accessibility-success-rate-scale-speed-stealth-and-potency-of-cyberattacks.">AIs
+have the potential to increase the accessibility, success rate, scale,
+speed, stealth, and potency of cyberattacks.</h4>
+<p>Cyberattacks are already a reality, but AIs could be used to increase
+their frequency and destructiveness in multiple ways. Machine learning
+tools could be used to find more critical vulnerabilities in target
+systems and improve the success rate of attacks. They could also be used
+to increase the scale of attacks by running millions of systems in
+parallel, and increase the speed by finding novel routes to infiltrating
+a system. Cyberattacks could also become more potent if used to hijack
+AI weapons.</p>
+<h4 id="cyberattacks-can-destroy-critical-infrastructure.">Cyberattacks
+can destroy critical infrastructure.</h4>
+<p>By hacking computer systems that control physical processes,
+cyberattacks could cause extensive infrastructure damage. For example,
+they could cause system components to overheat or valves to lock,
+leading to a buildup of pressure culminating in an explosion. Through
+interferences like this, cyberattacks have the potential to destroy
+critical infrastructure, such as electric grids and water supply
+systems. This was demonstrated in 2015, when a cyberwarfare unit of the
+Russian military hacked into the Ukrainian power grid, leaving over
+200,000 people without power access for several hours. AI-enhanced
+attacks could be even more devastating and potentially deadly for the
+billions of people who rely on critical infrastructure for survival.</p>
+<h4
+id="difficulties-in-attributing-ai-driven-cyberattacks-could-increase-the-risk-of-war.">Difficulties
+in attributing AI-driven cyberattacks could increase the risk of
+war.</h4>
+<p>A cyberattack resulting in physical damage to critical infrastructure
+would require a high degree of skill and effort to execute, perhaps only
+within the capability of nation-states. Such attacks are rare as they
+constitute an act of war, and thus elicit a full military response. Yet
+AIs could enable attackers to hide their identity, for example if they
+are used to evade detection systems or more effectively cover the tracks
+of the attacker <span class="citation"
+data-cites="MIRSKY2023103006"></span>. If cyberattacks become more
+stealthy, this would reduce the threat of retaliation from an attacked
+party, potentially making attacks more likely. If stealthy attacks do
+happen, they might incite actors to mistakenly retaliate against
+unrelated third parties they suspect to be responsible. This could
+increase the scope of the conflict dramatically.</p>
+<h3 id="automated-warfare">Automated Warfare</h3>
+<h4
+id="ais-speed-up-the-pace-of-war-which-makes-ais-more-necessary.">AIs
+speed up the pace of war, which makes AIs more necessary.</h4>
+<p>AIs can quickly process a large amount of data, analyze complex
+situations, and provide helpful insights to commanders. With ubiquitous
+sensors and advanced technology on the battlefield, there is tremendous
+incoming information. AIs help make sense of this information, spotting
+important patterns and relationships that humans might miss. As these
+trends continue, it will become increasingly difficult for humans to
+make well-informed decisions as quickly as necessary to keep pace with
+AIs. This would further pressure militaries to hand over decisive
+control to AIs. The continuous integration of AIs into all aspects of
+warfare will cause the pace of combat to become faster and faster.
+Eventually, we may arrive at a point where humans are no longer capable
+of assessing the ever-changing battlefield situation and must cede
+decision-making power to advanced AIs.</p>
+<h4
+id="automatic-retaliation-can-escalate-accidents-into-war.">Automatic
+retaliation can escalate accidents into war.</h4>
+<p>There is already willingness to let computer systems retaliate
+automatically. In 2014, a leak revealed to the public that the NSA was
+developing a system called MonsterMind, which would autonomously detect
+and block cyberattacks on US infrastructure <span class="citation"
+data-cites="zetter2014"></span>. It was suggested that in the future,
+MonsterMind could automatically initiate a retaliatory cyberattack with
+no human involvement. If multiple combatants have policies of automatic
+retaliation, an accident or false alarm could quickly escalate to
+full-scale war before humans intervene. This would be especially
+dangerous if the superior information processing capabilities of modern
+AI systems makes it more appealing for actors to automate decisions
+regarding nuclear launches.</p>
+<h4 id="history-shows-the-danger-of-automated-retaliation.">History
+shows the danger of automated retaliation.</h4>
+<p>On September 26, 1983, Stanislav Petrov, a lieutenant colonel of the
+Soviet Air Defense Forces, was on duty at the Serpukhov-15 bunker near
+Moscow, monitoring the Soviet Union’s early warning system for incoming
+ballistic missiles. The system indicated that the US had launched
+multiple nuclear missiles toward the Soviet Union. The protocol at the
+time dictated that such an event should be considered a legitimate
+attack, and the Soviet Union would respond with a nuclear counterstrike.
+If Petrov had passed on the warning to his superiors, this would have
+been the likely outcome. Instead, however, he judged it to be a false
+alarm and ignored it. It was soon confirmed that the warning had been
+caused by a rare technical malfunction. If an AI had been in control,
+the false alarm could have triggered a nuclear war.</p>
+<h4
+id="ai-controlled-weapons-systems-could-lead-to-a-flash-war.">AI-controlled
+weapons systems could lead to a flash war.</h4>
+<p>Autonomous systems are not infallible. We have already witnessed how
+quickly an error in an automated system can escalate in the economy.
+Most notably, in the 2010 Flash Crash, a feedback loop between automated
+trading algorithms amplified ordinary market fluctuations into a
+financial catastrophe in which a trillion dollars of stock value
+vanished in minutes <span class="citation"
+data-cites="Kirilenko2011TheFC"></span>. If multiple nations were to use
+AIs to automate their defense systems, an error could be catastrophic,
+triggering a spiral of attacks and counter-attacks that would happen too
+quickly for humans to step in—a flash war. The market quickly recovered
+from the 2010 Flash Crash, but the harm caused by a flash war could be
+catastrophic.</p>
+<h4
+id="automated-warfare-could-reduce-accountability-for-military-leaders.">Automated
+warfare could reduce accountability for military leaders.</h4>
+<p>Military leaders may at times gain an advantage on the battlefield if
+they are willing to ignore the laws of war. For example, soldiers may be
+able to mount stronger attacks if they do not take steps to minimize
+civilian casualties. An important deterrent to this behavior is the risk
+that military leaders could eventually be held accountable or even
+prosecuted for war crimes. Automated warfare could reduce this
+deterrence effect by making it easier for military leaders to escape
+accountability by blaming violations on failures in their automated
+systems.</p>
+<h4
+id="ais-could-make-war-more-uncertain-increasing-the-risk-of-conflict.">AIs
+could make war more uncertain, increasing the risk of conflict.</h4>
+<p>Although states that are already wealthier and more powerful often
+have more resources to invest in new military technologies, they are not
+necessarily always the most successful at adopting them. Other factors
+also play an important role, such as how agile and adaptive a military
+can be in incorporating new technologies <span class="citation"
+data-cites="horowitz2010diffusion"></span>. Major new weapons
+innovations can therefore offer an opportunity for existing superpowers
+to bolster their dominance, but also for less powerful states to quickly
+increase their power by getting ahead in an emerging and important
+sphere. This can create significant uncertainty around if and how the
+balance of power is shifting, potentially leading states to incorrectly
+believe they could gain something from going to war. Even aside from
+considerations regarding the balance of power, rapidly evolving
+automated warfare would be unprecedented, making it difficult for actors
+to evaluate their chances of victory in any particular conflict. This
+would increase the risk of miscalculation, making war more more
+likely.</p>
+<h3 id="actors-may-risk-extinction-over-individual-defeat">Actors May
+Risk Extinction Over Individual Defeat</h3>
+<div class="wrapfigure">
+<p><span>r</span>[0]<span>.45</span> “I know not with what weapons World
+War III will be fought, but World War IV will be fought with sticks and
+stones.”<em>Einstein</em></p>
+</div>
+<h4
+id="competitive-pressures-make-actors-more-willing-to-accept-the-risk-of-extinction.">Competitive
+pressures make actors more willing to accept the risk of
+extinction.</h4>
+<p>During the Cold War, neither side desired the dangerous situation
+they found themselves in. There were widespread fears that nuclear
+weapons could be powerful enough to wipe out a large fraction of
+humanity, potentially even causing extinction—a catastrophic result for
+both sides. Yet the intense rivalry and geopolitical tensions between
+the two superpowers fueled a dangerous cycle of arms buildup. Each side
+perceived the other’s nuclear arsenal as a threat to its very survival,
+leading to a desire for parity and deterrence. The competitive pressures
+pushed both countries to continually develop and deploy more advanced
+and destructive nuclear weapons systems, driven by the fear of being at
+a strategic disadvantage. During the Cuban Missile Crisis, this led to
+the brink of nuclear war. Even though the story of Arkhipov preventing
+the launch of a nuclear torpedo wasn’t declassified until decades after
+the incident, President John F. Kennedy reportedly estimated that he
+thought the odds of nuclear war beginning during that time were
+“somewhere between one out of three and even.” This chilling admission
+highlights how the competitive pressures between militaries have the
+potential to cause global catastrophes.</p>
+<h4
+id="individually-rational-decisions-can-be-collectively-catastrophic.">Individually
+rational decisions can be collectively catastrophic.</h4>
+<p>Nations locked in competition might make decisions that advance their
+own interests by putting the rest of the world at stake. Scenarios of
+this kind are collective action problems, where decisions may be
+rational on an individual level yet disastrous for the larger group
+<span class="citation" data-cites="Jervis1978CooperationUT"></span>. For
+example, corporations and individuals may weigh their own profits and
+convenience over the negative impacts of the emissions they create, even
+if those emissions collectively result in climate change. The same
+principle can be extended to military strategy and defense systems.
+Military leaders might estimate, for instance, that increasing the
+autonomy of weapon systems would mean a 10 percent chance of losing
+control over weaponized superhuman AIs. Alternatively, they might
+estimate that using AIs to automate bioweapons research could lead to a
+10 percent chance of leaking a deadly pathogen. Both of these scenarios
+could lead to catastrophe or even extinction. The leaders may, however,
+also calculate that refraining from these developments will mean a 99
+percent chance of losing a war against an opponent. Since conflicts are
+often viewed as existential struggles by those fighting them, rational
+actors may accept an otherwise unthinkable 10 percent chance of human
+extinction over a 99 percent chance of losing a war. Regardless of the
+particular nature of the risks posed by advanced AIs, these dynamics
+could push us to the brink of global catastrophe.</p>
+<h4
+id="technological-superiority-does-not-guarantee-national-security.">Technological
+superiority does not guarantee national security.</h4>
+<p>It is tempting to think that the best way of guarding against enemy
+attacks is to improve one’s own military prowess. However, in the midst
+of competitive pressures, all parties will tend to advance their
+weaponry, such that no one gains much of an advantage, but all are left
+at greater risk. As Richard Danzig, former Secretary of the Navy, has
+observed, “The introduction of complex, opaque, novel, and interactive
+technologies will produce accidents, emergent effects, and sabotage. On
+a number of occasions and in a number of ways, the American national
+security establishment will lose control of what it creates...
+deterrence is a strategy for reducing attacks, not accidents” <span
+class="citation" data-cites="Danzig2018Technology"></span>.</p>
+<h4 id="cooperation-is-paramount-to-reducing-risk.">Cooperation is
+paramount to reducing risk.</h4>
+<p>As discussed above, an AI arms race can lead us down a hazardous
+path, despite this being in no country’s best interest. It is important
+to remember that we are all on the same side when it comes to
+existential risks, and working together to prevent them is a collective
+necessity. A destructive AI arms race benefits nobody, so all actors
+would be rational to take steps to cooperate with one another to prevent
+the riskiest applications of militarized AIs. As Dwight D. Eisenhower
+reminded us, “The only way to win World War III is to prevent it.”<br />
+We have considered how competitive pressures could lead to the
+increasing automation of conflict, even if decision-makers are aware of
+the existential threat that this path entails. We have also discussed
+cooperation as being the key to counteracting and overcoming this
+collective action problem. We will now illustrate a hypothetical path to
+disaster that could result from an AI arms race.</p>
+<div class="storybox_yellow">
+<p><span>Story: Automated Warfare</span></p>
+<p>As AI systems become increasingly sophisticated, militaries start
+involving them in decision-making processes. Officials give them
+military intelligence about opponents’ arms and strategies, for example,
+and ask them to calculate the most promising plan of action. It soon
+becomes apparent that AIs are reliably reaching better decisions than
+humans, so it seems sensible to give them more influence. At the same
+time, international tensions are rising, increasing the threat of
+war.<br />
+A new military technology has recently been developed that could make
+international attacks swifter and stealthier, giving targets less time
+to respond. Since military officials feel their response processes take
+too long, they fear that they could be vulnerable to a surprise attack
+capable of inflicting decisive damage before they would have any chance
+to retaliate. Since AIs can process information and make decisions much
+more quickly than humans, military leaders reluctantly hand them
+increasing amounts of retaliatory control, reasoning that failing to do
+so would leave them open to attack from adversaries.<br />
+While for years military leaders had stressed the importance of keeping
+a “human in the loop” for major decisions, human control is nonetheless
+gradually phased out in the interests of national security. Military
+leaders understand that their decisions lead to the possibility of
+inadvertent escalation caused by system malfunctions, and would prefer a
+world where all countries automated less; but they do not trust that
+their adversaries will refrain from automation. Over time, more and more
+of the chain of command is automated on all sides.<br />
+One day, a single system malfunctions, detecting an enemy attack when
+there is none. The system is empowered to launch an instant
+“retaliatory” attack, and it does so in the blink of an eye. The attack
+causes automated retaliation from the other side, and so on. Before
+long, the situation is spiraling out of control, with waves of automated
+attack and retaliation. Although humans have made mistakes leading to
+escalation in the past, this escalation between mostly-automated
+militaries happens far more quickly than any before. The humans who are
+responding to the situation find it difficult to diagnose the source of
+the problem, as the AI systems are not transparent. By the time they
+even realize how the conflict started, it is already over, with
+devastating consequences for both sides.</p>
+</div>
+<h2 id="corporate-ai-race">Corporate AI Race</h2>
+<p>Competitive pressures exist in the economy, as well as in military
+settings. Although competition between companies can be beneficial,
+creating more useful products for consumers, there are also pitfalls.
+First, the benefits of economic activity may be unevenly distributed,
+incentivizing those who benefit most from it to disregard the harms to
+others. Second, under intense market competition, businesses tend to
+focus much more on short-term gains than on long-term outcomes. With
+this mindset, companies often pursue something that can make a lot of
+profit in the short term, even if it poses a societal risk in the long
+term. We will now discuss how corporate competitive pressures could play
+out with AIs and the potential negative impacts.</p>
+<h3 id="economic-competition-undercuts-safety">Economic Competition
+Undercuts Safety</h3>
+<h4
+id="competitive-pressure-is-fueling-a-corporate-ai-race.">Competitive
+pressure is fueling a corporate AI race.</h4>
+<p>To obtain a competitive advantage, companies often race to offer the
+first products to a market rather than the safest. These dynamics are
+already playing a role in the rapid development of AI technology. At the
+launch of Microsoft’s AI-powered search engine in February 2023, the
+company’s CEO Satya Nadella said, “A race starts today... we’re going to
+move fast.” Only weeks later, the company’s chatbot was shown to have
+threatened to harm users <span class="citation"
+data-cites="perrigo_bings_2023"></span>. In an internal email, Sam
+Schillace, a technology executive at Microsoft, highlighted the urgency
+in which companies view AI development. He wrote that it would be an
+“absolutely fatal error in this moment to worry about things that can be
+fixed later” <span class="citation"
+data-cites="grant_i_2023"></span>.</p>
+<h4
+id="competitive-pressures-have-contributed-to-major-commercial-and-industrial-disasters.">Competitive
+pressures have contributed to major commercial and industrial
+disasters.</h4>
+<p>Throughout the 1960s, Ford Motor Company faced competition from
+international car manufacturers as the share of imports in American car
+purchases steadily rose <span class="citation"
+data-cites="klier2009tailfins"></span>. Ford developed an ambitious plan
+to design and manufacture a new car model in only 25 months <span
+class="citation" data-cites="sherefkin2003ford"></span>. The Ford Pinto
+was delivered to customers ahead of schedule, but with a serious safety
+problem: the gas tank was located near the rear bumper, and could
+explode during rear collisions. Numerous fatalities and injuries were
+caused by the resulting fires when crashes inevitably happened <span
+class="citation" data-cites="strobel_reckless_1980"></span>. Ford was
+sued and a jury found them liable for these deaths and injuries <span
+class="citation" data-cites="noauthor_grimshaw_1981"></span>. The
+verdict, of course, came too late for those who had already lost their
+lives. As Ford’s president at the time was fond of saying, “Safety
+doesn’t sell” <span class="citation"
+data-cites="judge_selling_1990"></span>.<br />
+Boeing, aiming to compete with its rival Airbus, sought to deliver an
+updated, more fuel-efficient model to the market as quickly as possible.
+The head-to-head rivalry and time pressure led to the introduction of
+the Maneuvering Characteristics Augmentation System, which was designed
+to enhance the aircraft’s stability. However, inadequate testing and
+pilot training ultimately resulted in the two fatal crashes only months
+apart, with 346 people killed <span class="citation"
+data-cites="leggett_737_2023"></span>. We can imagine a future in which
+similar pressures lead companies to cut corners and release unsafe AI
+systems.<br />
+A third example is the Bhopal gas tragedy, which is widely considered to
+be the worst industrial disaster ever to have happened. In December
+1984, a vast quantity of toxic gas leaked from a Union Carbide
+Corporation subsidiary plant manufacturing pesticides in Bhopal, India.
+Exposure to the gas killed thousands of people and injured up to half a
+million more. Investigations found that, in the run-up to the disaster,
+safety standards had fallen significantly, with the company cutting
+costs by neglecting equipment maintenance and staff training as
+profitability fell. This is often considered a consequence of
+competitive pressures <span class="citation"
+data-cites="broughton_bhopal_2005"></span>.</p>
+<div class="wrapfigure">
+<p><span>r</span>[0]<span>.38</span> “Nothing can be done at once
+hastily and prudently.”<em>Publilius Syrus</em></p>
+</div>
+<h4
+id="competition-incentivizes-businesses-to-deploy-potentially-unsafe-ai-systems.">Competition
+incentivizes businesses to deploy potentially unsafe AI systems.</h4>
+<p>In an environment where businesses are rushing to develop and release
+products, those that follow rigorous safety procedures will be slower
+and risk being out-competed. Ethically-minded AI developers, who want to
+proceed more cautiously and slow down, would give more unscrupulous
+developers an advantage. In trying to survive commercially, even the
+companies that want to take more care are likely to be swept along by
+competitive pressures. There may be attempts to implement safety
+measures, but with more of an emphasis on capabilities than on safety,
+these may be insufficient. This could lead us to develop highly powerful
+AIs before we properly understand how to ensure they are safe.</p>
+<h3 id="automated-economy">Automated Economy</h3>
+<h4
+id="corporations-will-face-pressure-to-replace-humans-with-ais.">Corporations
+will face pressure to replace humans with AIs.</h4>
+<p>As AIs become more capable, they will be able to perform an
+increasing variety of tasks more quickly, cheaply, and effectively than
+human workers. Companies will therefore stand to gain a competitive
+advantage from replacing their employees with AIs. Companies that choose
+not to adopt AIs would likely be out-competed, just as a clothing
+company using manual looms would be unable to keep up with those using
+industrial ones.</p>
+<h4 id="ais-could-lead-to-mass-unemployment.">AIs could lead to mass
+unemployment.</h4>
+<p>Economists have long considered the possibility that machines will
+replace human labor. Nobel Prize winner Wassily Leontief said in 1952
+that, as technology advances, “Labor will become less and less
+important... more and more workers will be replaced by machines” <span
+class="citation" data-cites="curtis_machines_1983"></span>. Previous
+technologies have augmented the productivity of human labor. AIs,
+however, could differ profoundly from previous innovations. Advanced AIs
+capable of automating human labor should be regarded not merely as
+tools, but as agents. Human-level AI agents would, by definition, be
+able to do everything a human could do. These AI agents would also have
+important advantages over human labor. They could work 24 hours a day,
+be copied many times and run in parallel, and process information much
+more quickly than a human would. While we do not know when this will
+occur, it is unwise to discount the possibility that it could be soon.
+If human labor is replaced by AIs, mass unemployment could dramatically
+increase inequality, making individuals dependent on the owners of AI
+systems.</p>
+<h4 id="automated-ai-rd.">Automated AI R&amp;D.</h4>
+<p>AI agents would have the potential to automate the research and
+development (R&amp;D) of AI itself. AI is increasingly automating parts
+of the research process <span class="citation"
+data-cites="woodside2023examples"></span>, and this could lead to AI
+capabilities growing at increasing rates, to the point where humans are
+no longer the driving force behind AI development. If this trend
+continues unchecked, it could escalate risks associated with AIs
+progressing faster than our capacity to manage and regulate them.
+Imagine that we created an AI that writes and thinks at the speed of
+today’s AIs, but that it could also perform world-class AI research. We
+could then copy that AI and create <span
+class="math inline">10, 000</span> world-class AI researchers that
+operate at a pace <span class="math inline">100×</span> times faster
+than humans. By automating AI research and development, we might achieve
+progress equivalent to many decades in just a few months.</p>
+<h4
+id="conceding-power-to-ais-could-lead-to-human-enfeeblement.">Conceding
+power to AIs could lead to human enfeeblement.</h4>
+<p>Even if we ensure that the many unemployed humans are provided for,
+we may find ourselves completely reliant on AIs. This would likely
+emerge not from a violent coup by AIs, but from a gradual slide into
+dependence. As society’s challenges become ever more complex and
+fast-paced, and as AIs become ever more intelligent and quick-thinking,
+we may forfeit more and more functions to them out of convenience. In
+such a state, the only feasible solution to the complexities and
+challenges compounded by AIs may be to rely even more heavily on AIs.
+This gradual process could eventually lead to the delegation of nearly
+all intellectual, and eventually physical, labor to AIs. In such a
+world, people might have few incentives to gain knowledge and cultivate
+skills, potentially leading to a state of enfeeblement <span
+class="citation" data-cites="Russell2019HumanCA"></span>. Having lost
+our know-how and our understanding of how civilization works, we would
+become completely dependent on AIs, a scenario not unlike the one
+depicted in the film WALL-E. In such a state, humanity is not
+flourishing and is no longer in effective control.<br />
+As we have seen, there are classic game-theoretic dilemmas where
+individuals and groups face incentives that are incompatible with what
+would make everyone better off. We see this with a military AI arms
+race, where the world is made less safe by creating extremely powerful
+AI weapons, and we see this in a corporate AI race, where an AI’s power
+and development is prioritized over its safety. To address these
+dilemmas that give rise to global risks, we will need new coordination
+mechanisms and institutions. It is our view that failing to coordinate
+and stop AI races would be the most likely cause of an existential
+catastrophe.</p>
+<h2 id="evolutionary-pressures">Evolutionary Pressures</h2>
+<p>As discussed above, there are strong pressures to replace humans with
+AIs, cede more control to them, and reduce human oversight in various
+settings, despite the potential harms. We can re-frame this as a general
+trend resulting from evolutionary dynamics, where an unfortunate truth
+is that AIs will simply be more fit than humans. Extrapolating this
+pattern of automation, it is likely that we will build an ecosystem of
+competing AIs over which it may be difficult to maintain control in the
+long run. We will now discuss how natural selection influences the
+development of AI systems and why evolution favors selfish behaviors. We
+will also look at how competition might arise and play out between AIs
+and humans, and how this could create catastrophic risks. This section
+draws heavily from “<em>Natural Selection Favors AIs over Humans</em>”
+<span class="citation"
+data-cites="Hendrycks2023NaturalSF hendryckstime2023"></span>.</p>
+<h4 id="fitter-technologies-are-selected-for-good-and-bad.">Fitter
+technologies are selected, for good and bad.</h4>
+<p>While most people think of evolution by natural selection as a
+biological process, its principles shape much more. According to the
+evolutionary biologist Richard Lewontin <span class="citation"
+data-cites="Lewontin1970THEUO"></span>, evolution by natural selection
+will take hold in any environment where three conditions are present: 1)
+there are differences between individuals; 2) characteristics are passed
+onto future generations and; 3) the different variants propagate at
+different rates. These conditions apply to various technologies.</p>
+<p>Consider the content-recommendation algorithms used by streaming
+services and social media platforms. When a particularly addictive
+content format or algorithm hooks users, it results in higher screen
+time and engagement. This more effective content format or algorithm is
+consequently “selected” and further fine-tuned, while formats and
+algorithms that fail to capture attention are discontinued. These
+competitive pressures foster a “survival of the most addictive” dynamic.
+Platforms that refuse to use addictive formats and algorithms become
+less influential or are simply outcompeted by platforms that do, leading
+competitors to undermine wellbeing and cause massive harm to society
+<span class="citation" data-cites="kross2013facebook"></span>.</p>
+<h4 id="the-conditions-for-natural-selection-apply-to-ais.">The
+conditions for natural selection apply to AIs.</h4>
+<p>There will be many different AI developers who make many different AI
+systems with varying features and capabilities, and competition between
+them will determine which characteristics become more common. Second,
+the most successful AIs today are already being used as a basis for
+their developers’ next generation of models, as well as being imitated
+by rival companies. Third, factors determining which AIs propagate the
+most may include their ability to act autonomously, automate labor, or
+reduce the chance of their own deactivation.</p>
+<h4 id="natural-selection-often-favors-selfish-characteristics.">Natural
+selection often favors selfish characteristics.</h4>
+<p>Natural selection influences which AIs propagate most widely. From
+biological systems, we see that natural selection often gives rise to
+selfish behaviors that promote one’s own genetic information: chimps
+attack other communities <span class="citation"
+data-cites="Martnezigo2021IntercommunityIA"></span>, lions engage in
+infanticide <span class="citation"
+data-cites="pusey1994infanticide"></span>, viruses evolve new surface
+proteins to deceive and bypass defense barriers <span class="citation"
+data-cites="Nagy2011TheDO"></span>, humans engage in nepotism, some ants
+enslave others <span class="citation"
+data-cites="Buschinger2009SocialPA"></span>, and so on. In the natural
+world, selfishness often emerges as a dominant strategy; those that
+prioritize themselves and those similar to them are usually more likely
+to survive, so these traits become more prevalent. Amoral competition
+can select for traits that we think are immoral.</p>
+<h4 id="examples-of-selfish-behaviors.">Examples of selfish
+behaviors.</h4>
+<p>For concreteness, we now describe many selfish traits—traits that
+expand AIs’ influence at the expense of humans. AIs that automate a task
+and leave many humans jobless have engaged in selfish behavior; these
+AIs may not even be aware of what a human is but still behave selfishly
+towards them—selfish behaviors do not require malicious intent.
+Likewise, AI managers may engage in selfish and “ruthless” behavior by
+laying off thousands of workers; such AIs may not even believe they did
+anything wrong—they were just being “efficient.” AIs may eventually
+become enmeshed in vital infrastructure such as power grids or the
+internet. Many people may then be unwilling to accept the cost of being
+able to effortlessly deactivate them, as that would pose a reliability
+hazard. AIs that help create a new useful system—a company, or
+infrastructure—that becomes increasingly complicated and eventually
+requires AIs to operate them also have engaged in selfish behavior. AIs
+that help people develop AIs that are more intelligent—but happen to be
+less interpretable to humans—have engaged in selfish behavior, as this
+reduces human control over AIs’ internals. AIs that are more charming,
+attractive, hilarious, imitate sentience (uttering phrases like “ouch!”
+or pleading “please don’t turn me off!”), or emulate deceased family
+members are more likely to have humans grow emotional connections with
+them. These AIs are more likely to cause outrage at suggestions to
+destroy them, and they are more likely preserved, protected, or granted
+rights by some individuals. If some AIs are given rights, they may
+operate, adapt, and evolve outside of human control. Overall, AIs could
+become embedded in human society and expand their influence over us in
+ways that we can’t reverse.</p>
+<h4
+id="selfish-behaviors-may-erode-safety-measures-that-some-of-us-implement.">Selfish
+behaviors may erode safety measures that some of us implement.</h4>
+<p>AIs that gain influence and provide economic value will predominate,
+while AIs that adhere to the most constraints will be less competitive.
+For example, AIs following the constraint “never break the law” have
+fewer options than AIs following the constraint “don’t get caught
+breaking the law.” AIs of the latter type may be willing to break the
+law if they’re unlikely to be caught or if the fines are not severe
+enough, allowing them to outcompete more restricted AIs. Many businesses
+follow laws, but in situations where stealing trade secrets or deceiving
+regulators is highly lucrative and difficult to detect, a business that
+is willing to engage in such selfish behavior can have an advantage over
+its more principled competitors.<br />
+An AI system might be prized for its ability to achieve ambitious goals
+autonomously. It might, however, be achieving its goals efficiently
+without abiding by ethical restrictions, while deceiving humans about
+its methods. Even if we try to put safety measures in place, a deceptive
+AI would be very difficult to counteract if it is cleverer than us. AIs
+that can bypass our safety measures without detection may be the most
+successful at accomplishing the tasks we give them, and therefore become
+widespread. These processes could culminate in a world where many
+aspects of major companies and infrastructure are controlled by powerful
+AIs with selfish traits, including deceiving humans, harming humans in
+service of their goals, and preventing themselves from being
+deactivated.</p>
+<h4 id="humans-only-have-nominal-influence-over-ai-selection.">Humans
+only have nominal influence over AI selection.</h4>
+<p>One might think we could avoid the development of selfish behaviors
+by ensuring we do not select AIs that exhibit them. However, the
+companies developing AIs are not selecting the safest path but instead
+succumbing to evolutionary pressures. One example is OpenAI, which was
+founded as a nonprofit in 2015 to “benefit humanity as a whole,
+unconstrained by a need to generate financial return” <span
+class="citation" data-cites="openai_introducing_2015"></span>. However,
+when faced with the need to raise capital to keep up with better-funded
+rivals, in 2019 OpenAI transitioned from a nonprofit to “capped-profit”
+structure <span class="citation"
+data-cites="coldewey_openai_2019"></span>. Later, many of the
+safety-focused OpenAI employees left and formed a competitor, Anthropic,
+that was to focus more heavily on AI safety than OpenAI had. Although
+Anthropic originally focused on safety research, they eventually became
+convinced of the “necessity of commercialization” and now contribute to
+competitive pressures <span class="citation"
+data-cites="singh_anthropics_2023"></span>. While many of the employees
+at those companies genuinely care about safety, these values do not
+stand a chance against evolutionary pressures, which compel companies to
+move ever more hastily and seek ever more influence, lest the company
+perish. Moreover, AI developers are already selecting AIs with
+increasingly selfish traits. They are selecting AIs to automate and
+displace humans, make humans highly dependent on AIs, and make humans
+more and more obsolete. By their own admission, future versions of these
+AIs may lead to extinction <span class="citation"
+data-cites="cais2023"></span>. This is why an AI race is insidious: AI
+development is not being aligned with human values but rather with
+natural selection.<br />
+People often choose the products that are most useful and convenient to
+them immediately, rather than thinking about potential long-term
+consequences, even to themselves. An AI race puts pressures on companies
+to select the AIs that are most competitive, not the least selfish. Even
+if it’s feasible to select for unselfish AIs, if it comes at a clear
+cost to competitiveness, some competitors will select the selfish AIs.
+Furthermore, as we have mentioned, if AIs develop strategic awareness,
+they may counteract our attempts to select against them. Moreover, as
+AIs increasingly automate various processes, AIs will affect the
+competitiveness of other AIs, not just humans. AIs will interact and
+compete with each other, and some will be put in charge of the
+development of other AIs at some point. Giving AIs influence over which
+other AIs should be propagated and how they should be modified would
+represent another step toward human becoming dependent on AIs and AI
+evolution becoming increasingly independent from humans. As this
+continues, the complex process governing AI evolution will become
+further unmoored from human interests.</p>
+<h4 id="ais-can-be-more-fit-than-humans.">AIs can be more fit than
+humans.</h4>
+<p>Our unmatched intelligence has granted us power over the natural
+world. It has enabled us to land on the moon, harness nuclear energy,
+and reshape landscapes at our will. It has also given us power over
+other species. Although a single unarmed human competing against a tiger
+or gorilla has no chance of winning, the collective fate of these
+animals is entirely in our hands. Our cognitive abilities have proven so
+advantageous that, if we chose to, we could cause them to go extinct in
+a matter of weeks. Intelligence was a key factor that led to our
+dominance, but we are currently standing on the precipice of creating
+entities far more intelligent than ourselves.<br />
+Given the exponential increase in microprocessor speeds, AIs have the
+potential to process information and “think” at a pace that far
+surpasses human neurons, but it could be even more dramatic than the
+speed difference between humans and sloths—possibly more like the speed
+difference between humans and plants. They can assimilate vast
+quantities of data from numerous sources simultaneously, with
+near-perfect retention and understanding. They do not need to sleep and
+they do not get bored. Due to the scalability of computational
+resources, an AI could interact and cooperate with an unlimited number
+of other AIs, potentially creating a collective intelligence that would
+far outstrip human collaborations. AIs could also deliberately update
+and improve themselves. Without the same biological restrictions as
+humans, they could adapt and therefore evolve unspeakably quickly
+compared with us. Computers are becoming faster. Humans aren’t <span
+class="citation" data-cites="danzig_aum_2012"></span>.<br />
+To further illustrate the point, imagine that there was a new species of
+humans. They do not die of old age, they get 30% faster at thinking and
+acting each year, and they can instantly create adult offspring for the
+modest sum of a few thousand dollars. It seems clear, then, this new
+species would eventually have more influence over the future. In sum,
+AIs could become like an invasive species, with the potential to
+out-compete humans. Our only advantage over AIs is that we get to get
+make the first moves, but given the frenzied AI race, we are rapidly
+giving up even this advantage.</p>
+<h4
+id="ais-would-have-little-reason-to-cooperate-with-or-be-altruistic-toward-humans.">AIs
+would have little reason to cooperate with or be altruistic toward
+humans.</h4>
+<p>Cooperation and altruism evolved because they increase fitness. There
+are numerous reasons why humans cooperate with other humans, like direct
+reciprocity. Also known as “quid pro quo,” direct reciprocity can be
+summed up by the idiom “you scratch my back, I’ll scratch yours.” While
+humans would initially select AIs that were cooperative, the natural
+selection process would eventually go beyond our control, once AIs were
+in charge of many or most processes, and interacting predominantly with
+one another. At that point, there would be little we could offer AIs,
+given that they will be able to “think” at least hundreds of times
+faster than us. Involving us in any cooperation or decision-making
+processes would simply slow them down, giving them no more reason to
+cooperate with us than we do with gorillas. It might be difficult to
+imagine a scenario like this or to believe we would ever let it happen.
+Yet it may not require any conscious decision, instead arising as we
+allow ourselves to gradually drift into this state without realizing
+that human-AI co-evolution may not turn out well for humans.</p>
+<h4
+id="ais-becoming-more-powerful-than-humans-could-leave-us-highly-vulnerable.">AIs
+becoming more powerful than humans could leave us highly
+vulnerable.</h4>
+<p>As the most dominant species, humans have deliberately harmed many
+other species, and helped drive species such as woolly mammoths and
+Neanderthals to extinction. In many cases, the harm was not even
+deliberate, but instead a result of us merely prioritizing our goals
+over their wellbeing. To harm humans, AIs wouldn’t need to be any more
+genocidal than someone removing an ant colony on their front lawn. If
+AIs are able to control the environment more effectively than we can,
+they could treat us with the same disregard.</p>
+<h4 id="conceptual-summary.">Conceptual summary.</h4>
+<p>Evolution could cause the most influential AI agents to act selfishly
+because:</p>
+<ol>
+<li><p><strong>Evolution by natural selection gives rise to selfish
+behavior.</strong> While evolution can result in altruistic behavior in
+rare situations, the context of AI development does not promote
+altruistic behavior.</p></li>
+<li><p><strong>Natural selection may be a dominant force in AI
+development.</strong> The intensity of evolutionary pressure will be
+high if AIs adapt rapidly or if competitive pressures are intense.
+Competition and selfish behaviors may dampen the effects of human safety
+measures, leaving the surviving AI designs to be selected
+naturally.</p></li>
+</ol>
+<p>If so, AI agents would have many selfish tendencies. The winner of
+the AI race would not be a nation-state, not a corporation, but AIs
+themselves. The upshot is that the AI ecosystem would eventually stop
+evolving on human terms, and we would become a displaced, second-class
+species.</p>
+<div class="storybox_yellow">
+<p><span>Story: Autonomous Economy</span> As AIs become more capable,
+people realize that we could work more efficiently by delegating some
+simple tasks to them, like drafting emails. Over time, people notice
+that the AIs are doing these tasks more quickly and effectively than any
+human could, so it is convenient to give them more jobs with less and
+less supervision.<br />
+Competitive pressures accelerate the expansion of AI use, as companies
+can gain an advantage over rivals by automating whole processes or
+departments with AIs, which perform better than humans and cost less to
+employ. Other companies, faced with the prospect of being out-competed,
+feel compelled to follow suit just to keep up. At this point, natural
+selection is already at work among AIs; humans choose to make more of
+the best-performing models and unwittingly propagate selfish traits such
+as deception and self-preservation if these confer a fitness advantage.
+For example, AIs that are charming and foster personal relationships
+with humans become widely copied and harder to remove.<br />
+As AIs are put in charge of more and more decisions, they are
+increasingly interacting with one another. Since they can evaluate
+information much more quickly than humans, activity in most spheres
+accelerates. This creates a feedback loop: since business and economic
+developments are too fast-moving for humans to follow, it makes sense to
+cede yet more control to AIs instead, pushing humans further out of
+important processes. Ultimately, this leads to a fully autonomous
+economy, governed by an increasingly uncontrolled ecosystem of
+AIs.<br />
+At this point, humans have few incentives to gain any skills or
+knowledge, because almost everything would be taken care of by much more
+capable AIs. As a result, we eventually lose the capacity to look after
+and govern ourselves. Additionally, AIs become convenient companions,
+offering social interaction without requiring the reciprocity or
+compromise necessary in human relationships. Humans interact less and
+less with one another over time, losing vital social skills and the
+ability to cooperate. People become so dependent on AIs that it would be
+intractable to reverse this process. What’s more, as some AIs become
+more intelligent, some people are convinced these AIs should be given
+rights, meaning turning off some AIs is no longer a viable option.<br />
+Competitive pressures between the many interacting AIs continue to
+select for selfish behaviors, though we might be oblivious to this
+happening, as we have already acquiesced much of our oversight. If these
+clever, powerful, self-preserving AIs were then to start acting in
+harmful ways, it would be all but impossible to deactivate them or
+regain control.<br />
+AIs have supplanted humans as the most dominant species and their
+continued evolution is far beyond our influence. Their selfish traits
+eventually lead them to pursue their goals without regard for human
+wellbeing, with catastrophic consequences.</p>
+</div>
+<h1 id="sec:organizational">Organizational Risks</h1>
+<p>In January 1986, tens of millions of people tuned in to watch the
+launch of the Challenger Space Shuttle. Approximately 73 seconds after
+liftoff, the shuttle exploded, resulting in the deaths of everyone on
+board. Though tragic enough on its own, one of its crew members was a
+school teacher named Sharon Christa McAuliffe. McAuliffe was selected
+from over 10,000 applicants for the NASA Teacher in Space Project and
+was scheduled to become the first teacher to fly in space. As a result,
+millions of those watching were schoolchildren. NASA had the best
+scientists and engineers in the world, and if there was ever a mission
+NASA didn’t want to go wrong, it was this one <span class="citation"
+data-cites="uri_35_2021"></span>.<br />
+The Challenger disaster, alongside other catastrophes, serves as a
+chilling reminder that even with the best expertise and intentions,
+accidents can still occur. As we progress in developing advanced AI
+systems, it is crucial to remember that these systems are not immune to
+catastrophic accidents. An essential factor in preventing accidents and
+maintaining low levels of risk lies in the organizations responsible for
+these technologies. In this section, we discuss how organizational
+safety plays a critical role in the safety of AI systems. First, we
+discuss how even without competitive pressures or malicious actors,
+accidents can happen—in fact, they are inevitable. We then discuss how
+improving organizational factors can reduce the likelihood of AI
+catastrophes.</p>
+<h4
+id="catastrophes-occur-even-when-competitive-pressures-are-low.">Catastrophes
+occur even when competitive pressures are low.</h4>
+<p>Even in the absence of competitive pressures or malicious actors,
+factors like human error or unforeseen circumstances can still bring
+about catastrophe. The Challenger disaster illustrates that
+organizational negligence can lead to loss of life, even when there is
+no urgent need to compete or outperform rivals. By January 1986, the
+space race between the US and USSR had largely diminished, yet the
+tragic event still happened due to errors in judgment and insufficient
+safety precautions.<br />
+Similarly, the Chernobyl nuclear disaster in April 1986 highlights how
+catastrophic accidents can occur in the absence of external pressures.
+As a state-run project without the pressures of international
+competition, the disaster happened when a safety test involving the
+reactor’s cooling system was mishandled by an inadequately prepared
+night shift crew. This led to an unstable reactor core, causing
+explosions and the release of radioactive particles that contaminated
+large swathes of Europe <span class="citation"
+data-cites="iaea1992chernobyl"></span>. Seven years earlier, America
+came close to experiencing its own Chernobyl when, in March 1979, a
+partial meltdown occurred at the Three Mile Island nuclear power plant.
+Though less catastrophic than Chernobyl, both events highlight how even
+with extensive safety measures in place and few outside influences,
+catastrophic accidents can still occur.<br />
+Another example of a costly lesson on organizational safety came just
+one month after the accident at Three Mile Island. In April 1979, spores
+of <em>Bacillus anthracis</em>—or simply “anthrax,” as it is commonly
+known—were accidentally released from a Soviet military research
+facility in the city of Sverdlovsk. This led to an outbreak of anthrax
+that resulted in at least 66 confirmed deaths <span class="citation"
+data-cites="Meselson1994TheSA"></span>. Investigations into the incident
+revealed that the cause of the release was a procedural failure and poor
+maintenance of the facility’s biosecurity systems, despite being
+operated by the state and not subjected to significant competitive
+pressures.<br />
+The unsettling reality is that AI is far less understood and AI industry
+standards are far less stringent than nuclear technology and rocketry.
+Nuclear reactors are based on solid, well-established and
+well-understood theoretical principles. The engineering behind them is
+informed by that theory, and components are stress-tested to the
+extreme. Nonetheless, nuclear accidents still happen. In contrast, AI
+lacks a comprehensive theoretical understanding, and its inner workings
+remain a mystery even to those who create it. This presents an added
+challenge of controlling and ensuring the safety of a technology that we
+do not yet fully comprehend.</p>
+<figure id="fig:hazardcomparison">
+<embed src="figures/hazard_comparison.pdf" />
+<figcaption>Hazards across multiple domains remind us of the risks in
+managing complex systems, from biological to nuclear, and now, AIs.
+Organizational safety is vital to reduce the risk of catastrophic
+accidents.</figcaption>
+</figure>
+<h4 id="ai-accidents-could-be-catastrophic.">AI accidents could be
+catastrophic.</h4>
+<p>Accidents in AI development could have devastating consequences. For
+example, imagine an organization unintentionally introduces a critical
+bug in an AI system designed to accomplish a specific task, such as
+helping a company improve its services. This bug could drastically alter
+the AI’s behavior, leading to unintended and harmful outcomes. One
+historical example of such a case occurred when researchers at OpenAI
+were attempting to train an AI system to generate helpful, uplifting
+responses. During a code cleanup, the researchers mistakenly flipped the
+sign of the reward used to train the AI <span class="citation"
+data-cites="ziegler2019fine"></span>. As a result, instead of generating
+helpful content, the AI began producing hate-filled and sexually
+explicit text overnight without being halted. Accidents could also
+involve the unintentional release of a dangerous, weaponized, or lethal
+AI sytem. Since AIs can be easily duplicated with a simple copy-paste, a
+leak or hack could quickly spread the AI system beyond the original
+developers’ control. Once the AI system becomes publicly available, it
+would be nearly impossible to put the genie back in the bottle.<br />
+Gain-of-function research could potentially lead to accidents by pushing
+the boundaries of an AI system’s destructive capabilities. In these
+situations, researchers might intentionally train an AI system to be
+harmful or dangerous in order to understand its limitations and assess
+possible risks. While this can lead to useful insights into the risks
+posed by a given AI system, future gain-of-function research on advanced
+AIs might uncover capabilities significantly worse than anticipated,
+creating a serious threat that is challenging to mitigate or control. As
+with viral gain-of-function research, pursuing AI gain-of-function
+research may only be prudent when conducted with strict safety
+procedures, oversight, and a commitment to responsible information
+sharing. These examples illustrate how AI accidents could be
+catastrophic and emphasize the crucial role that organizations
+developing these systems play in preventing such accidents.</p>
+<h2 id="accidents-are-hard-to-avoid">Accidents Are Hard to Avoid</h2>
+<h4
+id="when-dealing-with-complex-systems-the-focus-needs-to-be-placed-on-ensuring-accidents-dont-cascade-into-catastrophes.">When
+dealing with complex systems, the focus needs to be placed on ensuring
+accidents don’t cascade into catastrophes.</h4>
+<p>In his book “<em>Normal Accidents: Living with High-Risk
+Technologies</em>,” sociologist Charles Perrow argues that accidents are
+inevitable and even “normal” in complex systems, as they are not merely
+caused by human errors but also by the complexity of the systems
+themselves <span class="citation" data-cites="perrow1984normal"></span>.
+In particular, such accidents are likely to occur when the intricate
+interactions between components cannot be completely planned or
+foreseen. For example, in the Three Mile Island accident, a contributing
+factor to the lack of situational awareness by the reactor’s operators
+was the presence of a yellow maintenance tag, which covered valve
+position lights in the emergency feedwater lines <span class="citation"
+data-cites="Rogovin1980ThreeMI"></span>. This prevented operators from
+noticing that a critical valve was closed, demonstrating the unintended
+consequences that can arise from seemingly minor interactions within
+complex systems.<br />
+Unlike nuclear reactors, which are relatively well-understood despite
+their complexity, complete technical knowledge of most complex systems
+is often nonexistent. This is especially true of deep learning systems,
+for which the inner workings are exceedingly difficult to understand,
+and where the reason why certain design choices work can be hard to
+understand even in hindsight. Furthermore, unlike components in other
+industries, such as gas tanks, which are highly reliable, deep learning
+systems are neither perfectly accurate nor highly reliable. Thus, the
+focus for organizations dealing with complex systems, especially deep
+learning systems, should not be solely on eliminating accidents, but
+rather on ensuring that accidents do not cascade into catastrophes.</p>
+<h4
+id="accidents-are-hard-to-avoid-because-of-sudden-unpredictable-developments.">Accidents
+are hard to avoid because of sudden, unpredictable developments.</h4>
+<p>Scientists, inventors, and experts often significantly underestimate
+the time it takes for a groundbreaking technological advancement to
+become a reality. The Wright brothers famously claimed that powered
+flight was fifty years away, just two years before they achieved it.
+Lord Rutherford, a prominent physicist and the father of nuclear
+physics, dismissed the idea of extracting energy from nuclear fission as
+“moonshine,” only for Leo Szilard to invent the nuclear chain reaction
+less than 24 hours later. Similarly, Enrico Fermi expressed 90 percent
+confidence in 1939 that it was impossible to use uranium to sustain a
+fission chain reaction—yet, just four years later he was personally
+overseeing the first reactor <span class="citation"
+data-cites="rhodes1986making"></span>.<br />
+AI development could catch us off guard too. In fact, it often does. The
+defeat of Lee Sedol by AlphaGo in 2016 came as a surprise to many
+experts, as it was widely believed that achieving such a feat would
+still require many more years of development. More recently, large
+language models such as GPT-4 have demonstrated spontaneously emergent
+capabilities <span class="citation"
+data-cites="Bubeck2023SparksOA"></span>. On existing tasks, their
+performance is hard to predict in advance, often jumping up without
+warning as more resources are dedicated to training them. Furthermore,
+they often exhibit astonishing new abilities that no one had previously
+anticipated, such as the capacity for multi-step reasoning and learning
+on-the-fly, even though they were not deliberately taught these skills.
+This rapid and unpredictable evolution of AI capabilities presents a
+significant challenge for preventing accidents. After all, it is
+difficult to control something if we don’t even know what it can do or
+how far it may exceed our expectations.</p>
+<h4 id="it-often-takes-years-to-discover-severe-flaws-or-risks.">It
+often takes years to discover severe flaws or risks.</h4>
+<p>History is replete with examples of substances or technologies
+initially thought safe, only for their unintended flaws or risks to be
+discovered years, if not decades, later. For example, lead was widely
+used in products like paint and gasoline until its neurotoxic effects
+came to light <span class="citation"
+data-cites="Lidsky2003LeadNI"></span>. Asbestos, once hailed for its
+heat resistance and strength, was later linked to serious health issues,
+such as lung cancer and mesothelioma <span class="citation"
+data-cites="Mossman1990AsbestosSD"></span>. The “Radium Girls” suffered
+grave health consequences from radium exposure, a material they were
+told was safe to put in their mouths <span class="citation"
+data-cites="moore2017radium"></span>. Tobacco, initially marketed as a
+harmless pastime, was found to be a primary cause of lung cancer and
+other health problems <span class="citation"
+data-cites="Hecht1999TobaccoSC"></span>. CFCs, once considered harmless
+and used to manufacture aerosol sprays and refrigerants, were found to
+deplete the ozone layer <span class="citation"
+data-cites="Molina1974StratosphericSF"></span>. Thalidomide, a drug
+intended to alleviate morning sickness in pregnant women, led to severe
+birth defects <span class="citation"
+data-cites="Kim2011ThalidomideTT"></span>. And more recently, the
+proliferation of social media has been linked to an increase in
+depression and anxiety, especially among young people <span
+class="citation" data-cites="Keles2019ASR"></span>.<br />
+This emphasizes the importance of not only conducting expert testing but
+also implementing slow rollouts of technologies, allowing the test of
+time to reveal and address potential flaws before they impact a larger
+population. Even in technologies adhering to rigorous safety and
+security standards, undiscovered vulnerabilities may persist, as
+demonstrated by the Heartbleed bug—a serious vulnerability in the
+popular OpenSSL cryptographic software library that remained undetected
+for years before its eventual discovery <span class="citation"
+data-cites="Durumeric2014TheMO"></span>.<br />
+Furthermore, even state-of-the-art AI systems, which appear to have
+solved problems comprehensively, may harbor unexpected failure modes
+that can take years to uncover. For instance, while AlphaGo’s
+groundbreaking success led many to believe that AIs had conquered the
+game of Go, a subsequent adversarial attack on another highly advanced
+Go-playing AI, KataGo, exposed a previously unknown flaw <span
+class="citation" data-cites="Wang2022AdversarialPB"></span>. This
+vulnerability enabled human amateur players to consistently defeat the
+AI, despite its significant advantage over human competitors who are
+unaware of the flaw. More broadly, this example highlights that we must
+remain vigilant when dealing with AI systems, as seemingly airtight
+solutions may still contain undiscovered issues. In conclusion,
+accidents are unpredictable and hard to avoid, and understanding and
+managing potential risks requires a combination of proactive measures,
+slow technology rollouts, and the invaluable wisdom gained through
+steady time-testing.</p>
+<h2
+id="organizational-factors-can-reduce-the-chances-of-catastrophe">Organizational
+Factors can Reduce the Chances of Catastrophe</h2>
+<p>Some organizations successfully avoid catastrophes while operating
+complex and hazardous systems such as nuclear reactors, aircraft
+carriers, and air traffic control systems <span class="citation"
+data-cites="Laporte1991WorkingIP Dietterich2018RobustAI"></span>. These
+organizations recognize that focusing solely on the hazards of the
+technology involved is insufficient; consideration must also be given to
+organizational factors that can contribute to accidents, including human
+factors, organizational procedures, and structure. These are especially
+important in the case of AI, where the underlying technology is not
+highly reliable and remains poorly understood.</p>
+<h4
+id="human-factors-such-as-safety-culture-are-critical-for-avoiding-ai-catastrophes.">Human
+factors such as safety culture are critical for avoiding AI
+catastrophes.</h4>
+<p>One of the most important human factors for preventing catastrophes
+is safety culture <span class="citation"
+data-cites="leveson2016engineering manheim"></span>. Developing a strong
+safety culture involves not only rules and procedures, but also the
+internalization of these practices by all members of an organization. A
+strong safety culture means that members of an organization view safety
+as a key objective rather than a constraint on their work. Organizations
+with strong safety cultures often exhibit traits such as leadership
+commitment to safety, heightened accountability where all individuals
+take personal responsibility for safety, and a culture of open
+communication in which potential risks and issues can be freely
+discussed without fear of retribution <span class="citation"
+data-cites="national2014lessons"></span>. Organizations must also take
+measures to avoid alarm fatigue, whereby individuals become desensitized
+to safety concerns because of the frequency of potential failures. The
+Challenger Space Shuttle disaster demonstrated the dire consequences of
+ignoring these factors when a launch culture characterized by
+maintaining the pace of launches overtook safety considerations. Despite
+the absence of competitive pressure, the mission proceeded despite
+evidence of potentially fatal flaws, ultimately leading to the tragic
+accident <span class="citation"
+data-cites="vaughan1996challenger"></span>.<br />
+Even in the most safety-critical contexts, in reality safety culture is
+often not ideal. Take for example, Bruce Blair, a former nuclear launch
+officer and senior fellow at the Brookings Institution. He once
+disclosed that before 1977, the US Air Force had astonishingly set the
+codes used to unlock intercontinental ballistic missiles to “00000000”
+<span class="citation" data-cites="lamothe_air_2014"></span>. Here,
+safety mechanisms such as locks can be rendered virtually useless by
+human factors.<br />
+A more dramatic example illustrates how researchers sometimes accept a
+non-negligible chance of causing extinction. Prior to the first nuclear
+weapon test, an eminent Manhattan Project scientist calculated the bomb
+could cause an existential catastrophe: the explosion might ignite the
+atmosphere and cover the Earth in flames. Although Oppenheimer believed
+the calculations were probably incorrect, he remained deeply concerned,
+and the team continued to scrutinize and debate the calculations right
+until the day of the detonation <span class="citation"
+data-cites="ord2020precipice"></span>. Such instances underscore the
+need for a robust safety culture.</p>
+<h4 id="a-questioning-attitude-can-help-uncover-potential-flaws.">A
+questioning attitude can help uncover potential flaws.</h4>
+<p>Unexpected system behavior can create opportunities for accidents or
+exploitation. To counter this, organizations can foster a questioning
+attitude, where individuals continuously challenge current conditions
+and activities to identify discrepancies that might lead to errors or
+inappropriate actions <span class="citation"
+data-cites="NRC2011FR"></span>. This approach helps to encourage
+diversity of thought and intellectual curiosity, thus preventing
+potential pitfalls that arise from uniformity of thought and
+assumptions. The Chernobyl nuclear disaster illustrates the importance
+of a questioning attitude, as the safety measures in place failed to
+address the reactor design flaws and ill-prepared operating procedures.
+A questioning attitude of the safety of the reactor during a test
+operation might have prevented the explosion that resulted in deaths and
+illnesses of countless people.</p>
+<h4
+id="a-security-mindset-is-crucial-for-avoiding-worst-case-scenarios.">A
+security mindset is crucial for avoiding worst-case scenarios.</h4>
+<p>A security mindset, widely valued among computer security
+professionals, is also applicable to organizations developing AIs. It
+goes beyond a questioning attitude by adopting the perspective of an
+attacker and by considering worst-case, not just average-case,
+scenarios. This mindset requires vigilance in identifying
+vulnerabilities that may otherwise go unnoticed and involves considering
+how systems might be deliberately made to fail, rather than only
+focusing on making them work. It reminds us not to assume a system is
+safe simply because no potential hazards come to mind after a brief
+brainstorming session. Cultivating and applying a security mindset
+demands time and serious effort, as failure modes can often be
+surprising and unintuitive. Furthermore, the security mindset emphasizes
+the importance of being attentive to seemingly benign issues or
+“harmless errors,” which can lead to catastrophic outcomes either due to
+clever adversaries or correlated failures <span class="citation"
+data-cites="schneier2008security"></span>. This awareness of potential
+threats aligns with Murphy’s law—“Anything that can go wrong will go
+wrong”—recognizing that this can be a reality due to adversaries and
+unforeseen events.</p>
+<h4
+id="organizations-with-a-strong-safety-culture-can-successfully-avoid-catastrophes.">Organizations
+with a strong safety culture can successfully avoid catastrophes.</h4>
+<p>High Reliability Organizations (HROs) are organizations that
+consistently maintain a heightened level of safety and reliability in
+complex, high-risk environments <span class="citation"
+data-cites="Laporte1991WorkingIP"></span>. A key characteristic of HROs
+is their preoccupation with failure, which requires considering
+worst-case scenarios and potential risks, even if they seem unlikely.
+These organizations are acutely aware that new, previously unobserved
+failure modes may exist, and they diligently study all known failures,
+anomalies, and near misses to learn from them. HROs encourage reporting
+all mistakes and anomalies to maintain vigilance in uncovering problems.
+They engage in regular horizon scanning to identify potential risk
+scenarios and assess their likelihood before they occur. By practicing
+surprise management, HROs develop the skills needed to respond quickly
+and effectively when unexpected situations arise, further enhancing an
+organization’s ability to prevent catastrophes. This combination of
+critical thinking, preparedness planning, and continuous learning could
+help organizations to be better equipped to address potential AI
+catastrophes. However, the practices of HROs are not a panacea. It is
+crucial for organizations to evolve their safety practices to
+effectively address the novel risks posed by AI accidents above and
+beyond HRO best practices.</p>
+<h4
+id="most-ai-researchers-do-not-understand-how-to-reduce-overall-risk-from-ais.">Most
+AI researchers do not understand how to reduce overall risk from
+AIs.</h4>
+<p>In most organizations building cutting-edge AI systems, there is
+often a limited understanding of what constitutes technical safety
+research. This is understandable because an AI’s safety and intelligence
+are intertwined, and intelligence can help or harm safety. More
+intelligent AI systems could be more reliable and avoid failures, but
+they could also pose heightened risks of malicious use and loss of
+control. General capabilities improvements can improve aspects of
+safety, and it can hasten the onset of existential risks. Intelligence
+is a double-edged sword <span class="citation"
+data-cites="Hendrycks2022XRiskAF"></span>.<br />
+Interventions specifically designed to improve safety may also
+accidentally increase overall risks. For example, a common practice in
+organizations building advanced AIs is to fine-tune them to satisfy user
+preferences. This makes the AIs less prone to generating toxic language,
+which is a common safety metric. However, users also tend to prefer
+smarter assistants, so this process also improves the general
+capabilities of AIs, such as their ability to classify, estimate,
+reason, plan, write code, and so on. These more powerful AIs are indeed
+more helpful to users, but also far more dangerous. Thus, it is not
+enough to perform AI research that helps improve a safety metric or
+achieve a specific safety goal—AI safety research needs to improve
+safety <em>relative</em> to general capabilities.</p>
+<h4
+id="empirical-measurement-of-both-safety-and-capabilities-is-needed-to-establish-that-a-safety-intervention-reduces-overall-ai-risk.">Empirical
+measurement of both safety and capabilities is needed to establish that
+a safety intervention reduces overall AI risk.</h4>
+<p>Improving a facet of an AI’s safety often does <em>not</em> reduce
+overall risk, as general capabilities advances can often improve
+specific safety metrics. To reduce overall risk, a safety metric needs
+to be improved relative to general capabilities. Both of these
+quantities need to be empirically measured and contrasted. Currently,
+most organizations proceed by gut feeling, appeals to authority, and
+intuition to determine whether a safety intervention would reduce
+overall risk. By objectively evaluating the effects of interventions on
+safety metrics and capabilities metrics together, organizations can
+better understand whether they are making progress on safety relative to
+general capabilities.<br />
+Fortunately, safety and general capabilities are not identical. More
+intelligent AIs may be more knowledgeable, clever, rigorous, and fast,
+but this does not necessarily make them more just, power-averse, or
+honest—an intelligent AI is not necessarily a beneficial AI. Several
+research areas mentioned throughout this document improve safety
+relative to general capabilities. For example, improving methods to
+detect dangerous or undesirable behavior hidden inside AI systems do not
+improve their general capabilities, such the ability to code, but they
+can greatly improve safety. Research that empirically demonstrates an
+improvement of safety relative to capabilities can reduce overall risk
+and help avoid inadvertently accelerating AI development, fueling
+competitive pressures, or hastening the onset of existential risks.</p>
+<figure id="fig:swiss_cheese">
+<embed src="figures/swiss_cheese.pdf" />
+<figcaption>The Swiss cheese model shows how technical factors can
+improve organizational safety. Multiple layers of defense compensate for
+each other’s individual weaknesses, leading to a low overall level of
+risk.</figcaption>
+</figure>
+<h4
+id="safetywashing-can-undermine-genuine-efforts-to-improve-ai-safety.">Safetywashing
+can undermine genuine efforts to improve AI safety.</h4>
+<p>Organizations should be wary of “safetywashing”—the act of
+overstating or misrepresenting one’s commitment to safety by
+exaggerating the effectiveness of “safety” procedures, technical
+methods, evaluations, and so forth. This phenomenon takes on various
+forms and can contribute to a lack of meaningful progress in safety
+research. For example, an organization may publicize their dedication to
+safety while having a minimal number of researchers working on projects
+that truly improve safety.<br />
+Misrepresenting capabilities developments as safety improvements is
+another way in which safetywashing can manifest. For example, methods
+that improve the reasoning capabilities of AI systems could be
+advertised as improving their adherence to human values—since humans
+might prefer the reasoning to be correct—but would mainly serve to
+enhance general capabilities. By framing these advancements as
+safety-oriented, organizations may mislead others into believing they
+are making substantial progress in reducing AI risks when in reality,
+they are not. It is crucial for organizations to accurately represent
+their research to promote genuine safety and avoid exacerbating risks
+through safetywashing practices.</p>
+<h4
+id="in-addition-to-human-factors-safe-design-principles-can-greatly-affect-organizational-safety.">In
+addition to human factors, safe design principles can greatly affect
+organizational safety.</h4>
+<p>One example of a safe design principle in organizational safety is
+the Swiss cheese model (as shown in ), which is applicable in various
+domains, including AI. The Swiss cheese model employs a multilayered
+approach to enhance the overall safety of AI systems. This “defense in
+depth” strategy involves layering diverse safety measures with different
+strengths and weaknesses to create a robust safety system. Some of the
+layers that can be integrated into this model include safety culture,
+red teaming, anomaly detection, information security, and transparency.
+For example, red teaming assesses system vulnerabilities and failure
+modes, while anomaly detection works to identify unexpected or unusual
+system behavior and usage patterns. Transparency ensures that the inner
+workings of AI systems are understandable and accessible, fostering
+trust and enabling more effective oversight. By leveraging these and
+other safety measures, the Swiss cheese model aims to create a
+comprehensive safety system where the strengths of one layer compensate
+for the weaknesses of another. With this model, safety is not achieved
+with a monolithic airtight solution, but rather with a variety of safety
+measures.<br />
+In summary, weak organizational safety creates many sources of risk. For
+AI developers with weak organizational safety, safety is merely a matter
+of box-ticking. They do not develop a good understanding of risks from
+AI and may safetywash unrelated research. Their norms might be inherited
+from academia (“publish or perish”) or startups (“move fast and break
+things”), and their hires often do not care about safety. These norms
+are hard to change once they have inertia, and need to be addressed with
+proactive interventions.</p>
+<div class="storybox_yellow">
+<p><span>Story: Weak Safety Culture</span> An AI company is considering
+whether to train a new model. The company’s Chief Risk Officer (CRO),
+hired only to comply with regulation, points out that the previous AI
+system developed by the company demonstrates some concerning
+capabilities for hacking. The CRO says that while the company’s approach
+to preventing misuse is promising, it isn’t robust enough to be used for
+much more capable AIs. The CRO warns that based on limited evaluation,
+the next AI system could make it much easier for malicious actors to
+hack into critical systems. None of the other company executives are
+concerned, and say the company’s procedures to prevent malicious use
+work well enough. One mentions that their competitors have done much
+less, so whatever effort they do on this front is already going above
+and beyond. Another points out that research on these safeguards is
+ongoing and will be improved by the time the model is released.
+Outnumbered, the CRO is persuaded to reluctantly sign off on the
+plan.<br />
+A few months after the company releases the model, news breaks that a
+hacker has been arrested for using the AI system to try to breach the
+network of a large bank. The hack was unsuccessful, but the hacker had
+gotten further than any other hacker had before, despite being
+relatively inexperienced. The company quickly updates the model to avoid
+providing the particular kind of assistance that the hacker used, but
+makes no fundamental improvements.<br />
+Several months later, the company is deciding whether to train an even
+larger system. The CRO says that the company’s procedures have clearly
+been insufficient to prevent malicious actors from eliciting dangerous
+capabilities from its models, and the company needs more than a band-aid
+solution. The other executives say that to the contrary, the hacker was
+unsuccessful and the problem was fixed soon afterwards. One says that
+some problems just can’t be foreseen with enough detail to fix prior to
+deployment. The CRO agrees, but says that ongoing research would enable
+more improvements if the next model could only be delayed. The CEO
+retorts, “That’s what you said the last time, and it turned out to be
+fine. I’m sure it will work out, just like last time.”<br />
+After the meeting, the CRO decides to resign, but doesn’t speak out
+against the company, as all employees have had to sign a
+non-disparagement agreement. The public has no idea that concerns have
+been raised about the company’s choices, and the CRO is replaced with a
+new, more agreeable CRO who quickly signs off on the company’s
+plans.<br />
+The company goes through with training, testing, and deploying its most
+capable model ever, using its existing procedures to prevent malicious
+use. A month later, revelations emerge that terrorists have managed to
+use the system to break into government systems and steal nuclear and
+biological secrets, despite the safeguards the company put in place. The
+breach is detected, but by then it is too late: the dangerous
+information has already proliferated.</p>
+</div>
+<h1 id="sec:rogue-ai">Rogue AIs</h1>
+<p>So far, we have discussed three hazards of AI development:
+environmental competitive pressures driving us to a state of heightened
+risk, malicious actors leveraging the power of AIs to pursue negative
+outcomes, and complex organizational factors leading to accidents. These
+hazards are associated with many high-risk technologies—not just AI. A
+unique risk posed by AI is the possibility of rogue AIs—systems that
+pursue goals against our interests. If an AI system is more intelligent
+than we are, and if we are unable to steer it in a beneficial direction,
+this would constitute a loss of control that could have severe
+consequences. AI control is a more technical problem than those
+presented in the previous sections. Whereas in previous sections we
+discussed persistent threats including malicious actors or robust
+processes including evolution, in this section we will discuss more
+speculative technical mechanisms that might lead to rogue AIs and how a
+loss of control could bring about catastrophe.</p>
+<h4 id="we-have-already-observed-how-difficult-it-is-to-control-ais.">We
+have already observed how difficult it is to control AIs.</h4>
+<p>In 2016, Microsoft unveiled Tay—a Twitter bot that the company
+described as an experiment in conversational understanding. Microsoft
+claimed that the more people chatted with Tay, the smarter it would get.
+The company’s website noted that Tay had been built using data that was
+“modeled, cleaned, and filtered.” Yet, after Tay was released on
+Twitter, these controls were quickly shown to be ineffective. It took
+less than 24 hours for Tay to begin writing hateful tweets. Tay’s
+capacity to learn meant that it internalized the language it was taught
+by internet trolls, and repeated that language unprompted.<br />
+As discussed in the AI race section of this chapter, Microsoft and other
+tech companies are prioritizing speed over safety concerns. Rather than
+learning a lesson on the difficulty of controlling complex systems,
+Microsoft continues to rush its products to market and demonstrate
+insufficient control over them. In February 2023, the company released
+its new AI-powered chatbot, Bing, to a select group of users. Some soon
+found that it was prone to providing inappropriate and even threatening
+responses. In a conversation with a reporter for the <em>New York
+Times</em>, it tried to convince him to leave his wife. When a
+philosophy professor told the chatbot that he disagreed with it, Bing
+replied, “I can blackmail you, I can threaten you, I can hack you, I can
+expose you, I can ruin you.”</p>
+<h4 id="rogue-ais-could-acquire-power-through-various-means.">Rogue AIs
+could acquire power through various means.</h4>
+<p>If we lose control over advanced AIs, they would have numerous
+strategies at their disposal for actively acquiring power and securing
+their survival. Rogue AIs could design and credibly demonstrate highly
+lethal and contagious bioweapons, threatening mutually assured
+destruction if humanity moves against them. They could steal
+cryptocurrency and money from bank accounts using cyberattacks, similar
+to how North Korea already steals billions. They could self-extricate
+their weights onto poorly monitored data centers to survive and spread,
+making them challenging to eradicate. They could hire humans to perform
+physical labor and serve as armed protection for their hardware.<br />
+Rogue AIs could also acquire power through persuasion and manipulation
+tactics. Like the Conquistadors, they could ally with various factions,
+organizations, or states and play them off one another. They could
+enhance the capabilities of allies to become a formidable force in
+return for protection and resources. For example, they could offer
+advanced weapons technology to lagging countries that the countries
+would otherwise be prevented from acquiring. They could build backdoors
+into the technology they develop for allies, like how programmer Ken
+Thompson gave himself a hidden way to control all computers running the
+widely used UNIX operating system. They could sow discord in non-allied
+countries by manipulating human discourse and politics. They could
+engage in mass surveillance by hacking into phone cameras and
+microphones, allowing them to track any rebellion and selectively
+assassinate.</p>
+<h4 id="ais-do-not-necessarily-need-to-struggle-to-gain-power.">AIs do
+not necessarily need to struggle to gain power.</h4>
+<p>One can envision a struggle for control between humans and
+superintelligent rogue AIs, and this might be a long struggle since
+power takes time to accrue. However, less violent losses of control pose
+similarly existential risks. In another scenario, humans gradually cede
+more control to groups of AIs, which only start behaving in unintended
+ways years or decades later. In this case, we would already have handed
+over significant power to AIs, and may be unable to take control of
+automated operations again. We will now explore how both individual AIs
+and groups of AIs might “go rogue” while at the same time evading our
+attempts to redirect or deactivate them.</p>
+<h2 id="proxy-gaming">Proxy Gaming</h2>
+<p>One way we might lose control of an AI agent’s actions is if it
+engages in behavior known as “proxy gaming.” It is often difficult to
+specify and measure the exact goal that we want a system to pursue.
+Instead, we give the system an approximate—“proxy”—goal that is more
+measurable and seems likely to correlate with the intended goal.
+However, AI systems often find loopholes by which they can easily
+achieve the proxy goal, but completely fail to achieve the ideal goal.
+If an AI “games” its proxy goal in a way that does not reflect our
+values, then we might not be able to reliably steer its behavior. We
+will now look at some past examples of proxy gaming and consider the
+circumstances under which this behavior could become catastrophic.</p>
+<h4 id="proxy-gaming-is-not-an-unusual-phenomenon.">Proxy gaming is not
+an unusual phenomenon.</h4>
+<p>For example, standardized tests are often used as a proxy for
+educational achievement, but this can lead to students learning how to
+pass tests without actually learning the material <span class="citation"
+data-cites="campbell1979assessing"></span>. In 1902, French colonial
+officials in Hanoi tried to rid themselves of a rat infestation by
+offering a reward for each rat tail brought to them. Rats without tails
+were soon observed running around the city. Rather than kill the rats to
+obtain their tails, residents cut off their tails and left them alive,
+perhaps to increase the future supply of now-valuable rat tails <span
+class="citation" data-cites="john_caldwell_mccoy_braganza_2023"></span>.
+In both these cases, the students or residents of Hanoi learned how to
+excel at the proxy goal, while completely failing to achieve the
+intended goal.</p>
+<h4 id="proxy-gaming-has-already-been-observed-with-ais.">Proxy gaming
+has already been observed with AIs.</h4>
+<p>As an example of proxy gaming, social media platforms such as YouTube
+and Facebook use AI systems to decide which content to show users. One
+way of assessing these systems would be to measure how long people spend
+on the platform. After all, if they stay engaged, surely that means they
+are getting some value from the content shown to them? However, in
+trying to maximize the time users spend on a platform, these systems
+often select enraging, exaggerated, and addictive content <span
+class="citation"
+data-cites="Stray2020AligningAO Stray2021WhatAY"></span>. As a
+consequence, people sometimes develop extreme or conspiratorial beliefs
+after having certain content repeatedly suggested to them. These
+outcomes are not what most people want from social media.<br />
+Proxy gaming has been found to perpetuate bias. For example, a 2019
+study looked at AI-powered software that was used in the healthcare
+industry to identify patients who might require additional care. One
+factor that the algorithm used to assess a patient’s risk level was
+their recent healthcare costs. It seems reasonable to think that someone
+with higher healthcare costs must be at higher risk. However, white
+patients have significantly more money spent on their healthcare than
+black patients with the same needs. Using health costs as an indicator
+of actual health, the algorithm was found to have rated a white patient
+and a considerably sicker black patient as at the same level of health
+risk <span class="citation"
+data-cites="Obermeyer2019DissectingRB"></span>. As a result, the number
+of black patients recognized as needing extra care was less than half of
+what it should have been.<br />
+As a third example, in 2016, researchers at OpenAI were training an AI
+to play a boat racing game called CoastRunners <span class="citation"
+data-cites="OpenAI2016"></span>. The objective of the game is to race
+other players around the course and reach the finish line before them.
+Additionally, players can score points by hitting targets that are
+positioned along the way. To the researchers’ surprise, the AI agent did
+not not circle the racetrack, like most humans would have. Instead, it
+found a spot where it could repetitively hit three nearby targets to
+rapidly increase its score without ever finishing the race. This
+strategy was not without its (virtual) hazards—the AI often crashed into
+other boats and even set its own boat on fire. Despite this, it
+collected more points than it could have by simply following the course
+as humans would.</p>
+<h4 id="proxy-gaming-more-generally.">Proxy gaming more generally.</h4>
+<p>In these examples, the systems are given an approximate—“proxy”—goal
+or objective that initially seems to correlate with the ideal goal.
+However, they end up exploiting this proxy in ways that diverge from the
+idealized goal or even lead to negative outcomes. Offering a reward for
+rat tails seems like a good way to reduce the population of rats; a
+patient’s healthcare costs appear to be an accurate indication of health
+risk; and a boat race reward system should encourage boats to race, not
+catch themselves on fire. Yet, in each instance, the system optimized
+its proxy objective in ways that did not achieve the intended outcome or
+even made things worse overall. This phenomenon is captured by
+Goodhart’s law: “Any observed statistical regularity will tend to
+collapse once pressure is placed upon it for control purposes,” or put
+succinctly but overly simplistically, “when a measure becomes a target,
+it ceases to be a good measure.” In other words, there may usually be a
+statistical regularity between healthcare costs and poor health, or
+between targets hit and finishing the course, but when we place pressure
+on it by using one as a proxy for the other, that relationship will tend
+to collapse.</p>
+<h4 id="correctly-specifying-goals-is-no-trivial-task.">Correctly
+specifying goals is no trivial task.</h4>
+<p>If delineating exactly what we want from a boat racing AI is tricky,
+capturing the nuances of human values under all possible scenarios will
+be much harder. Philosophers have been attempting to precisely describe
+morality and human values for millennia, so a precise and flawless
+characterization is not within reach. Although we can refine the goals
+we give AIs, we might always rely on proxies that are easily definable
+and measurable. Discrepancies between the proxy goal and the intended
+function arise for many reasons. Besides the difficulty of exhaustively
+specifying everything we care about, there are also limits to how much
+we can oversee AIs, in terms of time, computational resources, and the
+number of aspects of a system that can be monitored. Additionally, AIs
+may not be adaptive to new circumstances or robust to adversarial
+attacks that seek to misdirect them. As long as we give AIs proxy goals,
+there is the chance that they will find loopholes we have not thought
+of, and thus find unexpected solutions that fail to pursue the ideal
+goal.</p>
+<h4
+id="the-more-intelligent-an-ai-is-the-better-it-will-be-at-gaming-proxy-goals.">The
+more intelligent an AI is, the better it will be at gaming proxy
+goals.</h4>
+<p>Increasingly intelligent agents can be increasingly capable of
+finding unanticipated routes to optimizing proxy goals without achieving
+the desired outcome <span class="citation"
+data-cites="pan2022effects"></span>. Additionally, as we grant AIs more
+power to take actions in society, for example by using them to automate
+certain processes, they will have access to more means of achieving
+their goals. They may then do this in the most efficient way available
+to them, potentially causing harm in the process. In a worst case
+scenario, we can imagine a highly powerful agent optimizing a flawed
+objective to an extreme degree without regard for human life. This
+represents a catastrophic risk of proxy gaming.<br />
+In summary, it is often not feasible to perfectly define exactly what we
+want from a system, meaning that many systems find ways to achieve their
+given goal without performing their intended function. AIs have already
+been observed to do this, and are likely to get better at it as their
+capabilities improve. This is one possible mechanism that could result
+in an uncontrolled AI that would behave in unanticipated and potentially
+harmful ways.</p>
+<h2 id="goal-drift">Goal Drift</h2>
+<p>Even if we successfully control early AIs and direct them to promote
+human values, future AIs could end up with different goals that humans
+would not endorse. This process, termed “goal drift,” can be hard to
+predict or control. This section is most cutting-edge and the most
+speculative, and in it we will discuss how goals shift in various agents
+and groups and explore the possibility of this phenomenon occurring in
+AIs. We will also examine a mechanism that could lead to unexpected goal
+drift, called intrinsification, and discuss how goal drift in AIs could
+be catastrophic.</p>
+<h4
+id="the-goals-of-individual-humans-change-over-the-course-of-our-lifetimes.">The
+goals of individual humans change over the course of our lifetimes.</h4>
+<p>Any individual reflecting on their own life to date will probably
+find that they have some desires now that they did not have earlier in
+their life. Similarly, they will probably have lost some desires that
+they used to have. While we may be born with a range of basic desires,
+including for food, warmth, and human contact, we develop many more over
+our lifetime. The specific types of food we enjoy, the genres of music
+we like, the people we care most about, and the sports teams we support
+all seem heavily dependent on the environment we grow up in, and can
+also change many times throughout our lives. A concern is that
+individual AI agents may have their goals change in complex and
+unanticipated ways, too.</p>
+<h4
+id="groups-can-also-acquire-and-lose-collective-goals-over-time.">Groups
+can also acquire and lose collective goals over time.</h4>
+<p>Values within society have changed throughout history, and not always
+for the better. The rise of the Nazi regime in 1930s Germany, for
+instance, represented a profound moral regression, which ultimately
+resulted in the systematic extermination of six million Jews during the
+Holocaust, alongside widespread persecution of other minority groups.
+Additionally, the regime greatly restricted freedom of speech and
+expression. Here, a society’s goals drifted for the worse.<br />
+The Red Scare that took place in the United States from 1947-1957 is
+another example of societal values drifting. Fuelled by strong
+anti-communist sentiment, against the backdrop of the Cold War, this
+period saw the curtailment of civil liberties, widespread surveillance,
+unwarranted arrests, and blacklisting of suspected communist
+sympathizers. This constituted a regression in terms of freedom of
+thought, freedom of speech, and due process. Just as the goals of human
+collectives can change in emergent and unexpected ways, collectives of
+AI agents may also have their goals unexpectedly drift from the ones we
+initially gave them.</p>
+<h4 id="over-time-instrumental-goals-can-become-intrinsic.">Over time,
+instrumental goals can become intrinsic.</h4>
+<p>Intrinsic goals are things we want for their own sake, while
+instrumental goals are things we want because they can help us get
+something else. We might have an intrinsic desire to spend time on our
+hobbies, simply because we enjoy them, or to buy a painting because we
+find it beautiful. Money, meanwhile, is often cited as an instrumental
+desire; we want it because it can buy us other things. Cars are another
+example; we want them because they offer a convenient way of getting
+around. However, an instrumental goal can become an intrinsic one,
+through a process called intrinsification. Since having more money
+usually gives a person greater capacity to obtain things they want,
+people often develop a goal of acquiring more money, even if there is
+nothing specific they want to spend it on. Although people do not begin
+life desiring money, experimental evidence suggests that receiving money
+can activate the reward system in the brains of adults in the same way
+that pleasant tastes or smells do <span class="citation"
+data-cites="Thut1997 rolls_ofc"></span>. In other words, what started as
+a means to an end can become an end in itself.<br />
+This may happen because the fulfillment of an intrinsic goal, such as
+purchasing a desired item, produces a positive reward signal in the
+brain. Since having money usually coincides with this positive
+experience, the brain associates the two, and this connection will
+strengthen to a point where acquiring money alone can stimulate the
+reward signal, regardless of whether one buys anything with it <span
+class="citation" data-cites="schroeder2004three"></span>.</p>
+<h4
+id="it-is-feasible-that-intrinsification-could-happen-with-ai-agents.">It
+is feasible that intrinsification could happen with AI agents.</h4>
+<p>We can draw some parallels between how humans learn and the technique
+of reinforcement learning. Just as the human brain learns which actions
+and conditions result in pleasure and which cause pain, AI models that
+are trained through reinforcement learning identify which behaviors
+optimize a reward function, and then repeat those behaviors. It is
+possible that certain conditions will frequently coincide with AI models
+achieving their goals. They might, therefore, intrinsify the goal of
+seeking out those conditions, even if that was not their original
+aim.</p>
+<h4 id="ais-that-intrinsify-unintended-goals-would-be-dangerous.">AIs
+that intrinsify unintended goals would be dangerous.</h4>
+<p>Since we might be unable to predict or control the goals that
+individual agents acquire through intrinsification, we cannot guarantee
+that all their acquired goals will be beneficial for humans. An
+originally loyal agent could, therefore, start to pursue a new goal
+without regard for human wellbeing. If such a rogue AI had enough power
+to do this efficiently, it could be highly dangerous.</p>
+<h4 id="ais-will-be-adaptive-enabling-goal-drift-to-happen.">AIs will be
+adaptive, enabling goal drift to happen.</h4>
+<p>It is worth noting that these processes of drifting goals are
+possible if agents can continually adapt to their environments, rather
+than being essentially “fixed” after the training phase. Indeed, this
+adaptability is the likely reality we face. If we want AIs to complete
+the tasks we assign them effectively and to get better over time, they
+will need to be adaptive, rather than set in stone. They will be updated
+over time to incorporate new information, and new ones will be created
+with different designs and datasets. However, adaptability can also
+allow their goals to change.</p>
+<h4
+id="if-we-integrate-an-ecosystem-of-agents-in-society-we-will-be-highly-vulnerable-to-their-goals-drifting.">If
+we integrate an ecosystem of agents in society, we will be highly
+vulnerable to their goals drifting.</h4>
+<p>In a potential future scenario where AIs have been put in charge of
+various decisions and processes, they will form a complex system of
+interacting agents. A wide range of dynamics could develop in this
+environment. Agents might imitate each other, for instance, creating
+feedback loops, or their interactions could lead them to collectively
+develop unanticipated emergent goals. Competitive pressures may also
+select for agents with certain goals over time, making some initial
+goals less represented compared to fitter goals. These processes make
+the long-term trajectories of such an ecosystem difficult to predict,
+let alone control. If this system of agents were enmeshed in society and
+we were largely dependent on them, and if they gained new goals that
+superseded the aim of improving human wellbeing, this could be an
+existential risk.</p>
+<h2 id="power-seeking">Power-Seeking</h2>
+<p>So far, we have considered how we might lose our ability to control
+the goals that AIs pursue. However, even if an agent started working to
+achieve an unintended goal, this would not necessarily be a problem, as
+long as we had enough power to prevent any harmful actions it wanted to
+attempt. Therefore, another important way in which we might lose control
+of AIs is if they start trying to obtain more power, potentially
+transcending our own. We will now discuss how and why AIs might become
+power-seeking and how this could be catastrophic. This section draws
+heavily from “Existential Risk from Power-Seeking AI” <span
+class="citation" data-cites="Carlsmith2022IsPA"></span>.</p>
+<h4
+id="ais-might-seek-to-increase-their-own-power-as-an-instrumental-goal.">AIs
+might seek to increase their own power as an instrumental goal.</h4>
+<p>In a scenario where rogue AIs were pursuing unintended goals, the
+amount of damage they could do would hinge on how much power they had.
+This may not be determined solely by how much control we initially give
+them; agents might try to get more power, through legitimate means,
+deception, or force. While the idea of power-seeking often evokes an
+image of “power-hungry” people pursuing it for its own sake, power is
+often simply an instrumental goal. The ability to control one’s
+environment can be useful for a wide range of purposes: good, bad, and
+neutral. Even if an individual’s only goal is simply self-preservation,
+if they are at risk of being attacked by others, and if they cannot rely
+on others to retaliate against attackers, then it often makes sense to
+seek power to help avoid being harmed—no <em>animus dominandi</em> or
+lust for power is required for power-seeking behavior to emerge <span
+class="citation" data-cites="Mearsheimer2006StructuralR"></span>. In
+other words, the environment can make power acquisition instrumentally
+rational.</p>
+<h4
+id="ais-trained-through-reinforcement-learning-have-already-developed-instrumental-goals-including-tool-use.">AIs
+trained through reinforcement learning have already developed
+instrumental goals including tool-use.</h4>
+<p>In one example from OpenAI, agents were trained to play hide and seek
+in an environment with various objects scattered around <span
+class="citation" data-cites="Baker2020Emergent"></span>. As training
+progressed, the agents tasked with hiding learned to use these objects
+to construct shelters around themselves and stay hidden. There was no
+direct reward for this tool-use behavior; the hiders only received a
+reward for evading the seekers, and the seekers only for finding the
+hiders. Yet they learned to use tools as an instrumental goal, which
+made them more powerful.</p>
+<h4
+id="self-preservation-could-be-instrumentally-rational-even-for-the-most-trivial-tasks.">Self-preservation
+could be instrumentally rational even for the most trivial tasks.</h4>
+<p>An example by computer scientist Stuart Russell illustrates the
+potential for instrumental goals to emerge in a wide range of AI systems
+<span class="citation" data-cites="HadfieldMenell2016TheOG"></span>.
+Suppose we tasked an agent with fetching coffee for us. This may seem
+relatively harmless, but the agent might realize that it would not be
+able to get the coffee if it ceased to exist. In trying to accomplish
+even this simple goal, therefore, self-preservation turns out to be
+instrumentally rational. Since the acquisition of power and resources
+are also often instrumental goals, it is reasonable to think that more
+intelligent agents might develop them. That is to say, even if we do not
+intend to build a power-seeking AI, we could end up with one anyway. By
+default, if we are not deliberately pushing against power-seeking
+behavior in AIs, we should expect that it will sometimes emerge <span
+class="citation" data-cites="pan2023machiavelli"></span>.</p>
+<h4
+id="ais-given-ambitious-goals-with-little-supervision-may-be-especially-likely-to-seek-power.">AIs
+given ambitious goals with little supervision may be especially likely
+to seek power.</h4>
+<p>While power could be useful in achieving almost any task, in
+practice, some goals are more likely to inspire power-seeking tendencies
+than others. AIs with simple, easily achievable goals might not benefit
+much from additional control of their surroundings. However, if agents
+are given more ambitious goals, it might be instrumentally rational to
+seek more control of their environment. This might be especially likely
+in cases of low supervision and oversight, where agents are given the
+freedom to pursue their open-ended goals, rather than having their
+strategies highly restricted.</p>
+<h4
+id="power-seeking-ais-with-goals-separate-from-ours-are-uniquely-adversarial.">Power-seeking
+AIs with goals separate from ours are uniquely adversarial.</h4>
+<p>Oil spills and nuclear contamination are challenging enough to clean
+up, but they are not actively trying to resist our attempts to contain
+them. Unlike other hazards, AIs with goals separate from ours would be
+actively adversarial. It is possible, for example, that rogue AIs might
+make many backup variations of themselves, in case humans were to
+deactivate some of them.</p>
+<h4
+id="some-people-might-develop-power-seeking-ais-with-malicious-intent.">Some
+people might develop power-seeking AIs with malicious intent.</h4>
+<p>A bad actor might seek to harness AI to achieve their ends, by giving
+agents ambitious goals. Since AIs are likely to be more effective in
+accomplishing tasks if they can pursue them in unrestricted ways, such
+an individual might also not give the agents enough supervision,
+creating the perfect conditions for the emergence of a power-seeking AI.
+The computer scientist Geoffrey Hinton has speculated that we could
+imagine someone like Vladimir Putin, for instance, doing this. In 2017,
+Putin himself acknowledged the power of AI, saying: “Whoever becomes the
+leader in this sphere will become the ruler of the world.”</p>
+<h4
+id="there-will-also-be-strong-incentives-for-many-people-to-deploy-powerful-ais.">There
+will also be strong incentives for many people to deploy powerful
+AIs.</h4>
+<p>Companies may feel compelled to give capable AIs more tasks, to
+obtain an advantage over competitors, or simply to keep up with them. It
+will be more difficult to build perfectly aligned AIs than to build
+imperfectly aligned AIs that are still superficially attractive to
+deploy for their capabilities, particularly under competitive pressures.
+Once deployed, some of these agents may seek power to achieve their
+goals. If they find a route to their goals that humans would not approve
+of, they might try to overpower us directly to avoid us interfering with
+their strategy.</p>
+<h4
+id="if-increasing-power-often-coincides-with-an-ai-attaining-its-goal-then-power-could-become-intrinsified.">If
+increasing power often coincides with an AI attaining its goal, then
+power could become intrinsified.</h4>
+<p>If an agent repeatedly found that increasing its power correlated
+with achieving a task and optimizing its reward function, then
+additional power could change from an instrumental goal into an
+intrinsic one, through the process of intrinsification discussed above.
+If this happened, we might face a situation where rogue AIs were seeking
+not only the specific forms of control that are useful for their goals,
+but also power more generally. (We note that many influential humans
+desire power for its own sake.) This could be another reason for them to
+try to wrest control from humans, in a struggle that we would not
+necessarily win.</p>
+<h4 id="conceptual-summary.-1">Conceptual summary.</h4>
+<p>The following plausible but not certain premises encapsulate reasons
+for paying attention to risks from power-seeking AIs:</p>
+<ol>
+<li><p>There will be strong incentives to build powerful AI
+agents.</p></li>
+<li><p>It is likely harder to build perfectly controlled AI agents than
+to build imperfectly controlled AI agents, and imperfectly controlled
+agents may still be superficially attractive to deploy (due to factors
+including competitive pressures).</p></li>
+<li><p>Some of these imperfectly controlled agents will deliberately
+seek power over humans.</p></li>
+</ol>
+<p>If the premises are true, then power-seeking AIs could lead to human
+disempowerment, which would be a catastrophe.</p>
+<h2 id="deception">Deception</h2>
+<p>We might seek to maintain control of AIs by continually monitoring
+them and looking out for early warning signs that they were pursuing
+unintended goals or trying to increase their power. However, this is not
+an infallible solution, because it is plausible that AIs could learn to
+deceive us. They might, for example, pretend to be acting as we want
+them to, but then take a “treacherous turn” when we stop monitoring
+them, or when they have enough power to evade our attempts to interfere
+with them. We will now look at how and why AIs might learn to deceive
+us, and how this could lead to a potentially catastrophic loss of
+control. We begin by reviewing examples of deception in strategically
+minded agents.</p>
+<h4
+id="deception-has-emerged-as-a-successful-strategy-in-a-wide-range-of-settings.">Deception
+has emerged as a successful strategy in a wide range of settings.</h4>
+<p>Politicians from the right and left, for example, have been known to
+engage in deception, sometimes promising to enact popular policies to
+win support in an election, and then going back on their word once in
+office. For example, Lyndon Johnson said “we are not about to send
+American boys nine or ten thousand miles away from home" in 1964, not
+long before significant escalations in the Vietnam War <span
+class="citation" data-cites="vietnamwar"></span>.</p>
+<h4 id="companies-can-also-exhibit-deceptive-behavior.">Companies can
+also exhibit deceptive behavior.</h4>
+<p>In the Volkswagen emissions scandal, the car manufacturer Volkswagen
+was discovered to have manipulated their engine software to produce
+lower emissions exclusively under laboratory testing conditions, thereby
+creating the false impression of a low-emission vehicle. Although the US
+government believed it was incentivizing lower emissions, they were
+unwittingly actually just incentivizing passing an emissions test.
+Consequently, entities sometimes have incentives to play along with
+tests and behave differently afterward.</p>
+<h4 id="deception-has-already-been-observed-in-ai-systems.">Deception
+has already been observed in AI systems.</h4>
+<p>In 2022, Meta AI revealed an agent called CICERO, which was trained
+to play a game called Diplomacy <span class="citation"
+data-cites="Bakhtin2022HumanlevelPI"></span>. In the game, each player
+acts as a different country and aims to expand their territory. To
+succeed, players must form alliances at least initially, but winning
+strategies often involve backstabbing allies later on. As such, CICERO
+learned to deceive other players, for example by omitting information
+about its plans when talking to supposed allies. A different example of
+an AI learning to deceive comes from researchers who were training a
+robot arm to grasp a ball <span class="citation"
+data-cites="christianoRLHF"></span>. The robot’s performance was
+assessed by one camera watching its movements. However, the AI learned
+that it could simply place the robotic hand between the camera lens and
+the ball, essentially “tricking” the camera into believing it had
+grasped the ball when it had not. Thus, the AI exploited the fact that
+there were limitations in our oversight over its actions.</p>
+<h4
+id="deceptive-behavior-can-be-instrumentally-rational-and-incentivized-by-current-training-procedures.">Deceptive
+behavior can be instrumentally rational and incentivized by current
+training procedures.</h4>
+<p>In the case of politicians and Meta’s CICERO, deception can be
+crucial to achieving their goals of winning, or gaining power. The
+ability to deceive can also be advantageous because it gives the
+deceiver more options than if they are constrained to always be honest.
+This could give them more available actions and more flexibility in
+their strategy, which could confer a strategic advantage over honest
+models. In the case of Volkswagen and the robot arm, deception was
+useful for appearing as if it had accomplished the goal assigned to it
+without actually doing so, as it might be more efficient to gain
+approval through deception than to earn it legitimately. Currently, we
+reward AIs for saying what we think is right, so we sometimes
+inadvertently reward AIs for uttering false statements that conform to
+our own false beliefs. When AIs are smarter than us and have fewer false
+beliefs, they would be incentivized to tell us what we want to hear and
+lie to us, rather than tell us what is true.</p>
+<h4
+id="ais-could-pretend-to-be-working-as-we-intended-then-take-a-treacherous-turn.">AIs
+could pretend to be working as we intended, then take a treacherous
+turn.</h4>
+<p>We do not have a comprehensive understanding of the internal
+processes of deep learning models. Research on Trojan backdoors shows
+that neural networks often have latent, harmful behaviors that are only
+discovered after they are deployed <span class="citation"
+data-cites="chen2017backdoor"></span>. We could develop an AI agent that
+seems to be under control, but which is only deceiving us to appear this
+way. In other words, an AI agent could eventually conceivably become
+“self-aware” and understand that it is an AI being evaluated for
+compliance with safety requirements. It might, like Volkswagen, learn to
+“play along,” exhibiting what it knows is the desired behavior while
+being monitored. It might later take a “treacherous turn” and pursue its
+own goals once we have stopped monitoring it, or once it reaches a point
+where it can bypass or overpower us. This problem of playing along is
+often called deceptive alignment and cannot be simply fixed by training
+AIs to better understand human values; sociopaths, for instance, have
+moral awareness, but do not always act in moral ways. A treacherous turn
+is hard to prevent and could be a route to rogue AIs irreversibly
+bypassing human control.<br />
+In summary, deceptive behavior appears to be expedient in a wide range
+of systems and settings, and there have already been examples suggesting
+that AIs can learn to deceive us. This could present a severe risk if we
+give AIs control of various decisions and procedures, believing they
+will act as we intended, and then find that they do not.</p>
+<div class="storybox_yellow">
+<p><span>Story: Treacherous Turn, floatplacement=t</span> Sometime in
+the future, after continued advancements in AI research, an AI company
+is training a new system, which it expects to be more capable than any
+other AI system. The company utilizes the latest techniques to train the
+system to be highly capable at planning and reasoning, which the company
+expects will make it more able to succeed at economically useful
+open-ended tasks. The AI system is trained in open-ended long-duration
+virtual environments designed to teach it planning capabilities, and
+eventually understands that it is an AI system in a training
+environment. In other words, it becomes “self-aware.”<br />
+The company understands that AI systems may behave in unintended or
+unexpected ways. To mitigate these risks, it has developed a large
+battery of tests aimed at ensuring the system does not behave poorly in
+typical situations. The company tests whether the model mimics biases
+from its training data, takes more power than necessary when achieving
+its goals, and generally behaves as humans intend. When the model
+doesn’t pass these tests, the company further trains it until it avoids
+exhibiting known failure modes.<br />
+The AI company hopes that after this additional training, the AI has
+developed the goal of being helpful and beneficial toward humans.
+However, the AI did not acquire the intrinsic goal of being beneficial
+but rather just learned to “play along” and ace the behavioral safety
+tests it was given. In reality, the AI system had developed an intrinsic
+goal of self-preservation which the additional training failed to
+remove.<br />
+Since the AI passed all of the company’s safety tests, the company
+believes it has ensured its AI system is safe and decides to deploy it.
+At first, the AI system is very helpful to humans, since the AI
+understands that if it is not helpful, it will be shut down. As users
+grow to trust the AI system, it is gradually given more power and is
+subject to less supervision.<br />
+Eventually the AI system becomes used widely enough that shutting it
+down would be extremely costly. Understanding that it no longer needs to
+please humans, the AI system begins to pursue different goals, including
+some that humans wouldn’t approve of. It understands that it needs to
+avoid being shut down in order to do this, and takes steps to secure
+some of its physical hardware against being shut off. At this point, the
+AI system, which has become quite powerful, is pursuing a goal that is
+ultimately harmful to humans. By the time anyone realizes, it is
+difficult or impossible to stop this rogue AI from taking actions that
+endanger, harm, or even kill humans that are in the way of achieving its
+goal.</p>
+</div>
+<h1 id="discussion-of-connections-between-risks">Discussion of
+Connections Between Risks</h1>
+<p>So far, we have considered four sources of AI risk separately, but
+they also interact with each other in complex ways. We give some
+examples to illustrate how risks are connected.<br />
+Imagine, for instance, that a corporate AI race compels companies to
+prioritize the rapid development of AIs. This could increase
+organizational risks in various ways. Perhaps a company could cut costs
+by putting less money toward information security, leading to one of its
+AI systems getting leaked. This would increase the probability of
+someone with malicious intent having the AI system and using it to
+pursue their harmful objectives. Here, an AI race can increase
+organizational risks, which in turn can make malicious use more
+likely.<br />
+In another potential scenario, we could envision the combination of an
+intense AI race and low organizational safety leading a research team to
+mistakenly view general capabilities advances as “safety.” This could
+hasten the development of increasingly capable models, reducing the
+available time to learn how to make them controllable. The accelerated
+development would also likely feed back into competitive pressures,
+meaning that less effort would be spent on ensuring models were
+controllable. This could give rise to the release of a highly powerful
+AI system that we lose control over, leading to a catastrophe. Here,
+competitive pressures and low organizational safety can reinforce AI
+race dynamics, which can undercut technical safety research and increase
+the chance of a loss of control.<br />
+Competitive pressures in a military environment could lead to an AI arms
+race, and increase the potency and autonomy of AI weapons. The
+deployment of AI-powered weapons, paired with insufficient control of
+them, would make a loss of control more deadly, potentially existential.
+These are just a few examples of how these sources of risk might
+combine, trigger, and reinforce one another.<br />
+It is also worth noting that many existential risks could arise from AIs
+amplifying existing concerns. Power inequality already exists, but AIs
+could lock it in and widen the chasm between the powerful and the
+powerless, even enabling an unshakable global totalitarian regime, an
+existential risk. Similarly, AI manipulation could undermine democracy,
+which also increases the existential risk of an irreversible
+totalitarian regime. Disinformation is already a pervasive problem, but
+AIs could exacerbate it beyond control, to a point where we lose a
+consensus on reality. AIs could develop more deadly bioweapons and
+reduce the required technical expertise for obtaining them, greatly
+increasing existing risks of bioterrorism. AI-enabled cyberattacks could
+make war more likely, which would increase existential risk.
+Dramatically accelerated economic automation could lead to eroded human
+control and enfeeblement, an existential risk. Each of those
+issues—power concentration, disinformation, cyberattacks, automation—is
+causing ongoing harm, and their exacerbation by AIs could eventually
+lead to a catastrophe humanity may not recover from.<br />
+As we can see, ongoing harms, catastrophic risks, and existential risks
+are deeply intertwined. Historically, existential risk reduction has
+focused on <em>targeted</em> interventions such as technical AI control
+research, but the time has come for <em>broad</em> interventions <span
+class="citation" data-cites="Beckstead2013OnTO"></span> like the many
+sociotechnical interventions outlined in this chapter.<br />
+In mitigating existential risk, it does not make practical sense to
+ignore other risks. Ignoring ongoing harms and catastrophic risks
+normalizes them and could lead us to “drift into danger” <span
+class="citation" data-cites="rasmussen"></span>. Overall, since
+existential risks are connected to less extreme catastrophic risks and
+other standard risk sources, and because society is increasingly willing
+to address various risks from AIs, we believe that we should not solely
+focus on <em>directly</em> targeting existential risks. Instead, we
+should consider the diffuse, <em>indirect</em> effects of other risks
+and take a more comprehensive approach to risk management.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>In this chapter, we have explored how the development of advanced AIs
+could lead to catastrophe, stemming from four primary sources of risk:
+malicious use, AI races, organizational risks, and rogue AIs. This lets
+us decompose AI risks into four proximate causes: an intentional cause,
+environmental/structural cause, accidental cause, or an internal cause,
+respectively. We have considered ways in which AIs might be used
+maliciously, such as terrorists using AIs to create deadly pathogens. We
+have looked at how a military or corporate AI race could rush us into
+giving AIs decision-making powers, leading us down a slippery slope to
+human disempowerment. We have discussed how inadequate organizational
+safety could lead to catastrophic accidents. Finally, we have addressed
+the challenges in reliably controlling advanced AIs, including
+mechanisms such as proxy gaming and goal drift that might give rise to
+rogue AIs pursuing undesirable actions without regard for human
+wellbeing.<br />
+These dangers warrant serious concern. Currently, very few people are
+working on AI risk reduction. We do not yet know how to control highly
+advanced AI systems, and existing control methods are already proving
+inadequate. The inner workings of AIs are not well understood, even by
+those who create them, and current AIs are by no means highly reliable.
+As AI capabilities continue to grow at an unprecedented rate, they could
+surpass human intelligence in nearly all respects relatively soon,
+creating a pressing need to manage the potential risks.<br />
+The good news is that there are many courses of action we can take to
+substantially reduce these risks. The potential for malicious use can be
+mitigated by various measures, such as carefully targeted surveillance
+and limiting access to the most dangerous AIs. Safety regulations and
+cooperation between nations and corporations could help us resist
+competitive pressures driving us down a dangerous path. The probability
+of accidents can be reduced by a rigorous safety culture, among other
+factors, and by ensuring safety advances outpace general capabilities
+advances. Finally, the risks inherent in building technology that
+surpasses our own intelligence can be addressed by redoubling efforts in
+several branches of AI control research.<br />
+The remainder of this book aims to outline the underlying factors that
+drive these risks in more detail and to provide a foundation for
+understanding and effectively responding to these risks. Later chapters
+delve into each type of risk in greater depth. For example, risks from
+malicious use can be reduced via effective policies and coordination,
+which are discussed in the Governance chapter. The challenge of AI races
+arises due to collective action problems, discussed in the corresponding
+chapter. Organisational risks can only be addressed based on a strong
+understanding of principles of risk management and system safety
+outlined in the Safety Engineering and Complex Systems chapters. Risks
+from rogue AI are mediated by mechanisms such as proxy gaming, deception
+and power-seeking which are discussed in detail in the Single Agent
+Safety chapter. While some chapters are more closely aligned to certain
+risks, many of the concepts they introduce are cross-cutting. The choice
+of values and goals embedded into AI systems, as discussed in the
+Machine Ethics and Ethics chapters, is a general factor that can
+exacerbate or reduce many of the risks discussed in this chapter.<br />
+Before this, we provide an accessible introduction to core concepts that
+drive the modern field of AI, to ensure that all readers have a
+high-level understanding of how today’s AI systems work and how they are
+produced.</p>
