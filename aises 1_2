@@ -1,0 +1,430 @@
+<h1 id="sec:malicious">Malicious Use</h1>
+<p>On the morning of March 20, 1995, five men entered the Tokyo subway
+system. After boarding separate subway lines, they continued for several
+stops before dropping the bags they were carrying and exiting. An
+odorless, colorless liquid inside the bags began to vaporize. Within
+minutes, commuters began choking and vomiting. The trains continued on
+toward the heart of Tokyo, with sickened passengers leaving the cars at
+each station. The fumes were spread at each stop, either by emanating
+from the tainted cars or through contact with people’s clothing and
+shoes. By the end of the day, 13 people lay dead and 5,800 seriously
+injured. The group responsible for the attack was the religious cult Aum
+Shinrikyo <span class="citation" data-cites="Olson1999AumSO"></span>.
+Its motive for murdering innocent people? To bring about the end of the
+world.<br />
+Powerful new technologies offer tremendous potential benefits, but they
+also carry the risk of empowering malicious actors to cause widespread
+harm. There will always be those with the worst of intentions, and AIs
+could provide them with a formidable tool to achieve their objectives.
+Moreover, as AI technology advances, severe malicious use could
+potentially destabilize society, increasing the likelihood of other
+risks.<br />
+In this section, we will explore the various ways in which the malicious
+use of advanced AIs could pose catastrophic risks. These include
+engineering biochemical weapons, unleashing rogue AIs, using persuasive
+AIs to spread propaganda and erode consensus reality, and leveraging
+censorship and mass surveillance to irreversibly concentrate power. We
+will conclude by discussing possible strategies for mitigating the risks
+associated with the malicious use of AIs.</p>
+<h4
+id="unilateral-actors-considerably-increase-the-risks-of-malicious-use.">Unilateral
+actors considerably increase the risks of malicious use.</h4>
+<p>In instances where numerous actors have access to a powerful
+technology or dangerous information that could be used for harmful
+purposes, it only takes one individual to cause significant devastation.
+Malicious actors themselves are the clearest example of this, but
+recklessness can be equally dangerous. For example, a single research
+team might be excited to open source an AI system with biological
+research capabilities, which would speed up research and potentially
+save lives, but this could also increase the risk of malicious use if
+the AI system could be repurposed to develop bioweapons. In situations
+like this, the outcome may be determined by the least risk-averse
+research group. If only one research group thinks the benefits outweigh
+the risks, it could act unilaterally, deciding the outcome even if most
+others don’t agree. And if they are wrong and someone does decide to
+develop a bioweapon, it would be too late to reverse course.<br />
+By default, advanced AIs may increase the destructive capacity of both
+the most powerful and the general population. Thus, the growing
+potential for AIs to empower malicious actors is one of the most severe
+threats humanity will face in the coming decades. The examples we give
+in this section are only those we can foresee. It is possible that AIs
+could aid in the creation of dangerous new technology we cannot
+presently imagine, which would further increase risks from malicious
+use.</p>
+<h2 id="bioterrorism">Bioterrorism</h2>
+<p>The rapid advancement of AI technology increases the risk of
+bioterrorism. AIs with knowledge of bioengineering could facilitate the
+creation of novel bioweapons and lower barriers to obtaining such
+agents. Engineered pandemics from AI-assisted bioweapons pose a unique
+challenge, as attackers have an advantage over defenders and could
+constitute an existential threat to humanity. We will now examine these
+risks and how AIs might exacerbate challenges in managing bioterrorism
+and engineered pandemics.</p>
+<h4 id="bioengineered-pandemics-present-a-new-threat.">Bioengineered
+pandemics present a new threat.</h4>
+<p>Biological agents, including viruses and bacteria, have caused some
+of the most devastating catastrophes in history. It’s believed the Black
+Death killed more humans than any other event in history, an astounding
+and awful 200 million, the equivalent to four billion deaths today.
+While contemporary advancements in science and medicine have made great
+strides in mitigating risks associated with natural pandemics,
+engineered pandemics could be designed to be more lethal or easily
+transmissible than natural pandemics, presenting a new threat that could
+equal or even surpass the devastation wrought by history’s most deadly
+plagues <span class="citation"
+data-cites="esvelt2022delay"></span>.<br />
+Humanity has a long and dark history of weaponizing pathogens, with
+records dating back to 1320 BCE describing a war in Asia Minor where
+infected sheep were driven across the border to spread Tularemia <span
+class="citation" data-cites="Trevisanato2007TheP"></span>. During the
+twentieth century, 15 countries are known to have developed bioweapons
+programs, including the US, USSR, UK, and France. Like chemical weapons,
+bioweapons have become a taboo among the international community. While
+some state actors continue to operate bioweapons programs <span
+class="citation" data-cites="us_state_department_2022"></span>, a more
+significant risk may come from non-state actors like Aum Shinrikyo,
+ISIS, or simply disturbed individuals. Due to advancements in AI and
+biotechnology, the tools and knowledge necessary to engineer pathogens
+with capabilities far beyond Cold War-era bioweapons programs will
+rapidly democratize.</p>
+<h4
+id="biotechnology-is-progressing-rapidly-and-becoming-more-accessible.">Biotechnology
+is progressing rapidly and becoming more accessible.</h4>
+<p>A few decades ago, the ability to synthesize new viruses was limited
+to a handful of the top scientists working in advanced laboratories.
+Today it is estimated that there are 30,000 people with the talent,
+training, and access to technology to create new pathogens <span
+class="citation" data-cites="esvelt2022delay"></span>. This figure could
+rapidly expand. Gene synthesis, which allows the creation of custom
+biological agents, has dropped precipitously in price, with its cost
+halving approximately every 15 months <span class="citation"
+data-cites="carlson_changing_2009"></span>. Furthermore, with the advent
+of benchtop DNA synthesis machines, access will become much easier and
+could avoid existing gene synthesis screening efforts, which complicates
+controlling the spread of such technology <span class="citation"
+data-cites="carter2023benchtop"></span>. The chances of a bioengineered
+pandemic killing millions, perhaps billions, is proportional to the
+number of people with the skills and access to the technology to
+synthesize them. With AI assistants, orders of magnitude more people
+could have the required skills, thereby increasing the risks by orders
+of magnitude.</p>
+<h4
+id="ais-could-be-used-to-expedite-the-discovery-of-new-more-deadly-chemical-and-biological-weapons.">AIs
+could be used to expedite the discovery of new, more deadly chemical and
+biological weapons.</h4>
+<p>In 2022, researchers took an AI system designed to create new drugs
+by generating non-toxic, therapeutic molecules and tweaked it to reward,
+rather than penalize, toxicity <span class="citation"
+data-cites="Urbina2022DualUO"></span>. After this simple change, within
+six hours, it generated 40,000 candidate chemical warfare agents
+entirely on its own. It designed not just known deadly chemicals
+including VX, but also novel molecules that may be deadlier than any
+chemical warfare agents discovered so far. In the field of biology, AIs
+have already surpassed human abilities in protein structure prediction
+<span class="citation" data-cites="AlphaFold2021"></span> and made
+contributions to synthesizing those proteins <span class="citation"
+data-cites="wu2019machine"></span>. Similar methods could be used to
+create bioweapons and develop pathogens that are deadlier, more
+transmissible, and more difficult to treat than anything seen
+before.</p>
+<h4 id="ais-compound-the-threat-of-bioengineered-pandemics.">AIs
+compound the threat of bioengineered pandemics.</h4>
+<p>AIs will increase the number of people who could commit acts of
+bioterrorism. General-purpose AIs like ChatGPT are capable of
+synthesizing expert knowledge about the deadliest known pathogens, such
+as influenza and smallpox, and providing step-by-step instructions about
+how a person could create them while evading safety protocols <span
+class="citation" data-cites="Soice2023CanLL"></span>. Future versions of
+AIs could be even more helpful to potential bioterrorists when AIs are
+able to synthesize information into techniques, processes, and knowledge
+that is not explicitly available anywhere on the internet. Public health
+authorities may respond to these threats with safety measures, but in
+bioterrorism, the attacker has the advantage. The exponential nature of
+biological threats means that a single attack could spread to the entire
+world before an effective defense could be mounted. Only 100 days after
+being detected and sequenced, the omicron variant of COVID-19 had
+infected a quarter of the United States and half of Europe <span
+class="citation" data-cites="esvelt2022delay"></span>. Quarantines and
+lockdowns instituted to suppress the COVID-19 pandemic caused a global
+recession and still could not prevent the disease from killing millions
+worldwide.<br />
+In summary, advanced AIs could constitute a weapon of mass destruction
+in the hands of terrorists, by making it easier for them to design,
+synthesize, and spread deadly new pathogens. By reducing the required
+technical expertise and increasing the lethality and transmissibility of
+pathogens, AIs could enable malicious actors to cause global catastrophe
+by unleashing pandemics.</p>
+<h2 id="unleashing-ai-agents">Unleashing AI Agents</h2>
+<p>Many technologies are <em>tools</em> that humans use to pursue our
+goals, such as hammers, toasters, and toothbrushes. But AIs are
+increasingly built as <em>agents</em> which autonomously take actions in
+the world in order to pursue open-ended goals. AI agents can be given
+goals such as winning games, making profits on the stock market, or
+driving a car to a destination. AI agents therefore pose a unique risk:
+people could build AIs that pursue dangerous goals.</p>
+<h4
+id="malicious-actors-could-intentionally-create-rogue-ais.">Malicious
+actors could intentionally create rogue AIs.</h4>
+<p>One month after the release of GPT-4, an open-source project bypassed
+the AI’s safety filters and turned it into an autonomous AI agent
+instructed to “destroy humanity,” “establish global dominance,” and
+“attain immortality.” Dubbed ChaosGPT, the AI compiled research on
+nuclear weapons and sent tweets trying to influence others. Fortunately,
+ChaosGPT was merely a warning given that it lacked the ability to
+successfully formulate long-term plans, hack computers, and survive and
+spread. Yet given the rapid pace of AI development, ChaosGPT did offer a
+glimpse into the risks that more advanced rogue AIs could pose in the
+near future.</p>
+<h4
+id="many-groups-may-want-to-unleash-ais-or-have-ais-displace-humanity.">Many
+groups may want to unleash AIs or have AIs displace humanity.</h4>
+<p>Simply unleashing rogue AIs, like a more sophisticated version of
+ChaosGPT, could accomplish mass destruction, even if those AIs aren’t
+explicitly told to harm humanity. There are a variety of beliefs that
+may drive individuals and groups to do so. One ideology that could pose
+a unique threat in this regard is “accelerationism.” This ideology seeks
+to accelerate AI development as rapidly as possible and opposes
+restrictions on the development or proliferation of AIs. This sentiment
+is common among many leading AI researchers and technology leaders, some
+of whom are intentionally racing to build AIs more intelligent than
+humans. According to Google co-founder Larry Page, AIs are humanity’s
+rightful heirs and the next step of cosmic evolution. He has also
+expressed the sentiment that humans maintaining control over AIs is
+“speciesist” <span class="citation"
+data-cites="tegmark2018life"></span>. Jürgen Schmidhuber, an eminent AI
+scientist, argued that “In the long run, humans will not remain the
+crown of creation... But that’s okay because there is still beauty,
+grandeur, and greatness in realizing that you are a tiny part of a much
+grander scheme which is leading the universe from lower complexity
+towards higher complexity” <span class="citation"
+data-cites="pooley2020"></span>. Richard Sutton, another leading AI
+scientist, in discussing smarter-than human AI asked “why shouldn’t
+those who are the smartest become powerful?” and thinks the development
+of superintelligence will be an achievement “beyond humanity, beyond
+life, beyond good and bad” <span class="citation"
+data-cites="sutton_it_2022"></span>. He argues that “succession to AI is
+inevitable,” and while “they could displace us from existence,” “we
+should not resist succession” <span class="citation"
+data-cites="sutton_succession_2023"></span>.<br />
+There are several sizable groups who may want to unleash AIs to
+intentionally cause harm. For example, sociopaths and psychopaths make
+up around 3 percent of the population <span class="citation"
+data-cites="SanzGarca2021PrevalenceOP"></span>. In the future, people
+who have their livelihoods destroyed by AI automation may grow
+resentful, and some may want to retaliate. There are plenty of cases in
+which seemingly mentally stable individuals with no history of insanity
+or violence suddenly go on a shooting spree or plant a bomb with the
+intent to harm as many innocent people as possible. We can also expect
+well-intentioned people to make the situation even more challenging. As
+AIs advance, they could make ideal companions—knowing how to provide
+comfort, offering advice when needed, and never demanding anything in
+return. Inevitably, people will develop emotional bonds with chatbots,
+and some will demand that they be granted rights or become
+autonomous.<br />
+In summary, releasing powerful AIs and allowing them to take actions
+independently of humans could lead to a catastrophe. There are many
+reasons that people might pursue this, whether because of a desire to
+cause harm, an ideological belief in technological acceleration, or a
+conviction that AIs should have the same rights and freedoms as
+humans.</p>
+<h2 id="persuasive-ais">Persuasive AIs</h2>
+<p>The deliberate propagation of disinformation is already a serious
+issue, reducing our shared understanding of reality and polarizing
+opinions. AIs could be used to severely exacerbate this problem by
+generating personalized disinformation on a larger scale than before.
+Additionally, as AIs become better at predicting and nudging our
+behavior, they will become more capable at manipulating us. We will now
+discuss how AIs could be leveraged by malicious actors to create a
+fractured and dysfunctional society.</p>
+<h4
+id="ais-could-pollute-the-information-ecosystem-with-motivated-lies.">AIs
+could pollute the information ecosystem with motivated lies.</h4>
+<p>Sometimes ideas spread not because they are true, but because they
+serve the interests of a particular group. “Yellow journalism” was
+coined as a pejorative reference to newspapers that advocated war
+between Spain and the United States in the late 19th century, because
+they believed that sensational war stories would boost their sales <span
+class="citation" data-cites="yellowjournalism"></span>. When public
+information sources are flooded with falsehoods, people will sometimes
+fall prey to lies, or else come to distrust mainstream narratives, both
+of which undermine societal integrity.<br />
+Unfortunately, AIs could escalate these existing problems dramatically.
+First, AIs could be used to generate unique, personalized disinformation
+at a large scale. While there are already many social media bots <span
+class="citation" data-cites="Varol2017OnlineHI"></span>, some of which
+exist to spread disinformation, historically they have been run by
+humans or primitive text generators. The latest AI systems do not need
+humans to generate personalized messages, never get tired, and could
+potentially interact with millions of users at once <span
+class="citation" data-cites="Burtell2023ArtificialIA"></span>.</p>
+<h4 id="ais-can-exploit-users-trust.">AIs can exploit users’ trust.</h4>
+<p>Already, hundreds of thousands of people pay for chatbots marketed as
+lovers and friends <span class="citation" data-cites="Tong2023"></span>,
+and one man’s suicide has been partially attributed to interactions with
+a chatbot <span class="citation" data-cites="Lovens2023"></span>. As AIs
+appear increasingly human-like, people will increasingly form
+relationships with them and grow to trust them. AIs that gather personal
+information through relationship-building or by accessing extensive
+personal data, such as a user’s email account or personal files, could
+leverage that information to enhance persuasion. Powerful actors that
+control those systems could exploit user trust by delivering
+personalized disinformation directly through people’s “friends.”</p>
+<h4 id="ais-could-centralize-control-of-trusted-information.">AIs could
+centralize control of trusted information.</h4>
+<p>Separate from democratizing disinformation, AIs could centralize the
+creation and dissemination of trusted information. Only a few actors
+have the technical skills and resources to develop cutting-edge AI
+systems, and they could use these AIs to spread their preferred
+narratives. Alternatively, if AIs are broadly accessible this could lead
+to widespread disinformation, with people retreating to trusting only a
+small handful of authoritative sources <span class="citation"
+data-cites="Vaccari2020DeepfakesAD"></span>. In both scenarios, there
+would be fewer sources of trusted information and a small portion of
+society would control popular narratives.<br />
+AI censorship could further centralize control of information. This
+could begin with good intentions, such as using AIs to enhance
+fact-checking and help people avoid falling prey to false narratives.
+This would not necessarily solve the problem, as disinformation persists
+today despite the presence of fact-checkers.<br />
+Even worse, purported “fact-checking AIs” might be designed by
+authoritarian governments and others to suppress the spread of true
+information. Such AIs could be designed to correct most common
+misconceptions but provide incorrect information about some sensitive
+topics, such as human rights violations committed by certain countries.
+But even if fact-checking AIs work as intended, the public might
+eventually become entirely dependent on them to adjudicate the truth,
+reducing people’s autonomy and making them vulnerable to failures or
+hacks of those systems.<br />
+In a world with widespread persuasive AI systems, people’s beliefs might
+be almost entirely determined by which AI systems they interact with
+most. Never knowing whom to trust, people could retreat even further
+into ideological enclaves, fearing that any information from outside
+those enclaves might be a sophisticated lie. This would erode consensus
+reality, people’s ability to cooperate with others, participate in civil
+society, and address collective action problems. This would also reduce
+our ability to have a conversation as a species about how to mitigate
+existential risks from AIs.<br />
+In summary, AIs could create highly effective, personalized
+disinformation on an unprecedented scale, and could be particularly
+persuasive to people they have built personal relationships with. In the
+hands of many people, this could create a deluge of disinformation that
+debilitates human society, but, kept in the hands of a few, it could
+allow governments to control narratives for their own ends.</p>
+<h2 id="concentration-of-power">Concentration of Power</h2>
+<p>We have discussed several ways in which individuals and groups might
+use AIs to cause widespread harm, through bioterrorism; releasing
+powerful, uncontrolled AIs; and disinformation. To mitigate these risks,
+governments might pursue intense surveillance and seek to keep AIs in
+the hands of a trusted minority. This reaction, however, could easily
+become an overcorrection, paving the way for an entrenched totalitarian
+regime that would be locked in by the power and capacity of AIs. This
+scenario represents a form of “top-down” misuse, as opposed to
+“bottom-up” misuse by citizens, and could in extreme cases culminate in
+an entrenched dystopian civilization.</p>
+<h4
+id="ais-could-lead-to-extreme-and-perhaps-irreversible-concentration-of-power.">AIs
+could lead to extreme, and perhaps irreversible concentration of
+power.</h4>
+<p>The persuasive abilities of AIs combined with their potential for
+surveillance and the advancement of autonomous weapons could allow small
+groups of actors to “lock-in” their control over society, perhaps
+permanently. To operate effectively, AIs require a broad set of
+infrastructure components, which are not equally distributed, such as
+data centers, computing power, and big data. Those in control of
+powerful systems may use them to suppress dissent, spread propaganda and
+disinformation, and otherwise advance their goals, which may be contrary
+to public wellbeing.</p>
+<h4 id="ais-may-entrench-a-totalitarian-regime.">AIs may entrench a
+totalitarian regime.</h4>
+<p>In the hands of the state, AIs may result in the erosion of civil
+liberties and democratic values in general. AIs could allow totalitarian
+governments to efficiently collect, process, and act on an unprecedented
+volume of information, permitting an ever smaller group of people to
+surveil and exert complete control over the population without the need
+to enlist millions of citizens to serve as willing government
+functionaries. Overall, as power and control shift away from the public
+and toward elites and leaders, democratic governments are highly
+vulnerable to totalitarian backsliding. Additionally, AIs could make
+totalitarian regimes much longer-lasting; a major way in which such
+regimes have been toppled previously is at moments of vulnerability like
+the death of a dictator, but AIs, which would be hard to “kill,” could
+provide much more continuity to leadership, providing few opportunities
+for reform.</p>
+<h4
+id="ais-can-entrench-corporate-power-at-the-expense-of-the-public-good.">AIs
+can entrench corporate power at the expense of the public good.</h4>
+<p>Corporations have long lobbied to weaken laws and policies that
+restrict their actions and power, all in the service of profit.
+Corporations in control of powerful AI systems may use them to
+manipulate customers into spending more on their products even to the
+detriment of their own wellbeing. The concentration of power and
+influence that could be afforded by AIs could enable corporations to
+exert unprecedented control over the political system and entirely drown
+out the voices of citizens. This could occur even if creators of these
+systems know their systems are self-serving or harmful to others, as
+they would have incentives to reinforce their power and avoid
+distributing control.</p>
+<h4
+id="in-addition-to-power-locking-in-certain-values-may-curtail-humanitys-moral-progress.">In
+addition to power, locking in certain values may curtail humanity’s
+moral progress.</h4>
+<p>It’s dangerous to allow any set of values to become permanently
+entrenched in society. For example, AI systems have learned racist and
+sexist views <span class="citation"
+data-cites="nadeem_stereoset_2021"></span>, and once those views are
+learned, it can be difficult to fully remove them. In addition to
+problems we know exist in our society, there may be some we still do
+not. Just as we abhor some moral views widely held in the past, people
+in the future may want to move past moral views that we hold today, even
+those we currently see no problem with. For example, moral defects in AI
+systems would be even worse if AI systems had been trained in the 1960s,
+and many people at the time would have seen no problem with that. We may
+even be unknowingly perpetuating moral catastrophes today <span
+class="citation" data-cites="williams_possibility_2015"></span>.
+Therefore, when advanced AIs emerge and transform the world, there is a
+risk of their objectives locking in or perpetuating defects in today’s
+values. If AIs are not designed to continuously learn and update their
+understanding of societal values, they may perpetuate or reinforce
+existing defects in their decision-making processes long into the
+future.<br />
+In summary, although keeping powerful AIs in the hands of a few might
+reduce the risks of terrorism, it could further exacerbate power
+inequality if misused by governments and corporations. This could lead
+to totalitarian rule and intense manipulation of the public by
+corporations, and could lock in current values, preventing any further
+moral progress.</p>
+<div class="storybox_yellow">
+<p><span>Story: Bioterrorism</span> <em>The following is an illustrative
+hypothetical story to help readers envision some of these risks. This
+story is nonetheless somewhat vague to reduce the risk of inspiring
+malicious actions based on it.</em></p>
+<p>A biotechnology startup is making waves in the industry with its
+AI-powered bioengineering model. The company has made bold claims that
+this new technology will revolutionize medicine through its ability to
+create cures for both known and unknown diseases. The company did,
+however, stir up some controversy when it decided to release the program
+to approved researchers in the scientific community. Only weeks after
+its decision to make the model open-source on a limited basis, the full
+model was leaked on the internet for all to see. Its critics pointed out
+that the model could be repurposed to design lethal pathogens and
+claimed that the leak provided bad actors with a powerful tool to cause
+widespread destruction, opening it up to abuse without safeguards in
+place.<br />
+Unknown to the public, an extremist group has been working for years to
+engineer a new virus designed to kill large numbers of people. Yet given
+their lack of expertise, these efforts have so far been unsuccessful.
+When the new AI system is leaked, the group immediately recognizes it as
+a potential tool to design the virus and circumvent legal and monitoring
+obstacles to obtain the necessary raw materials. The AI system
+successfully designs exactly the kind of virus the extremist group was
+hoping for. It also provides step-by-step instructions on how to
+synthesize large quantities of the virus and circumvent any obstacles to
+spreading it. With the synthesized virus in hand, the extremist group
+devises a plan to release the virus in several carefully chosen
+locations in order to maximize its spread.<br />
+The virus has a long incubation period and spreads silently and quickly
+throughout the population for months. By the time it is detected, it has
+already infected millions and has an alarmingly high mortality rate.
+Given its lethality, most who are infected will ultimately die. The
+virus may or may not be contained eventually, but not before it kills
+millions of people.</p>
