@@ -1,0 +1,241 @@
+<h1 id="sec:scaling-laws">Scaling Laws</h1>
+<h3 id="introduction-2">Introduction</h3>
+<p>Compelling evidence shows that increases in the performance of many
+AI systems can be modeled with equations called <em>scaling laws</em>.
+Common knowledge suggests that larger models with more data will perform
+better, frequently reiterated in phrases like “add more layers” or “use
+more data.” Scaling laws make this folk knowledge mathematically
+precise. In this section, we show that the performance of a deep
+learning model scales according to parameter count and dataset size—both
+of which are primarily bottlenecked by the computational resources
+available. Scaling laws describe the relationship between a model’s
+performance and primary inputs.</p>
+<h3 id="conceptual-background-power-laws">Conceptual Background: Power
+Laws </h3>
+<p>Power laws are mathematical equations that model how a particular
+quantity varies as the power of another. In power laws, the variation in
+one quantity is proportional to a power (exponent) of the variation in
+another. The power law <span
+class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>
+states that the change in <span class="math inline"><em>y</em></span> is
+directly proportional to the change in <span
+class="math inline"><em>x</em></span> raised to a certain power <span
+class="math inline"><em>a</em></span>. If <span
+class="math inline"><em>a</em></span> is <span
+class="math inline">2</span>, then when <span
+class="math inline"><em>x</em></span> is doubled, <span
+class="math inline"><em>y</em></span> will quadruple. One real-world
+example is the relation between the area of a circle and its radius. As
+the radius changes, the area changes as a square of the radius: <span
+class="math inline"><em>y</em> = <em>π</em><em>r</em><sup>2</sup></span>.
+This is a power-law equation where <span
+class="math inline"><em>b</em> = <em>π</em></span> and <span
+class="math inline"><em>a</em> = 2</span>. The volume of a sphere has a
+power-law relationship with the sphere’s radius as well: <span
+class="math inline">$y = \frac{4}{3} \pi r^3$</span> (so <span
+class="math inline">$b=\frac{4}{3}\pi$</span> and <span
+class="math inline"><em>a</em> = 3</span>). <em>Scaling laws</em> are a
+particular kind of power law that describe how deep learning models
+scale. These laws relate a model’s loss with model properties (such as
+the number of model parameters or the dataset size used to train the
+model).</p>
+<p><strong>Log-log plots can be used to visualize power laws.</strong>
+Log-log plots can help make these mathematical relationships easier to
+understand and identify. Consider the power law <span
+class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>
+again. Taking the logarithm of both sides, the power law becomes <span
+class="math inline">log (<em>y</em>) = <em>a</em>log (<em>x</em>) + log (<em>b</em>)</span>.
+This is a linear equation (in the logarithmic space) where <span
+class="math inline"><em>a</em></span> is the slope and <span
+class="math inline">log (<em>b</em>)</span> is the y-intercept.
+Therefore, a power-law relationship will appear as a straight line on a
+log-log plot (such as <a href="#fig:log-log-plot"
+data-reference-type="ref" data-reference="fig:log-log-plot">20</a>),
+with the <em>slope</em> of the line corresponding to the
+<em>exponent</em> in the power law.<br />
+</p>
+<figure id="fig:log-log-plot">
+
+<figcaption>A log-log plot for the power law <span
+class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.
+This shows that the power law results in a straight line.</figcaption>
+</figure>
+<p><strong>Power laws are remarkably ubiquitous.</strong> Power laws are
+a robust mathematical framework that can describe, predict, and explain
+a vast range of phenomena in both nature and society. Power laws are
+pervasive in urban planning: log-log plots relating variables like city
+population to metrics such as the percentage of cities with at least
+that population often result in a straight line (see Fig <a
+href="#fig:city-pop" data-reference-type="ref"
+data-reference="fig:city-pop">21</a>). Similarly, animals’ metabolic
+rates are proportional to an exponent of their body mass, showcasing a
+clear power law. In social media, the distribution of user activity
+often follows a power law, where a small fraction of users generate most
+of the content (which means that the frequency of content generation
+<span class="math inline"><em>y</em></span> is proportional to the
+number of active users <span class="math inline"><em>x</em></span>
+multiplied by some constant and raised to some exponent: <span
+class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>).
+Power laws govern many other things, such as the frequency of word usage
+in a language, the distribution of wealth, the magnitude of earthquakes,
+and more.</p>
+<figure id="fig:city-pop">
+<img src="images/ML_background/image72.png" />
+<figcaption>Power laws in city populations - from <span class="citation"
+data-cites="Newman2005"></span></figcaption>
+</figure>
+<h2 id="scaling-laws-in-deep-learning">Scaling Laws in Deep
+Learning</h2>
+<h3 id="introduction-3">Introduction</h3>
+<p><strong>Power laws in the context of DL are called scaling laws <span
+class="citation"
+data-cites="hestness2017deep kaplan2020scaling"></span>.</strong>
+Scaling laws predict loss given model size and dataset size in a
+power-law relationship. Model size is usually measured in parameters,
+while dataset size is measured in tokens. As both variables increase,
+the model’s loss tends to decrease. This decrease in loss with scale
+often follows a power law: the loss drops substantially, but not
+linearly, with increases in data and model size. For instance, if we
+doubled the number of parameters, the loss does not just halve: it might
+decrease to one-fourth or one-eighth, depending on the exponent in the
+scaling law. This power-law behavior in AI systems allows researchers to
+anticipate and strategize how to improve models by investing more in
+increasing the data or the parameters.</p>
+<p><strong>Scaling laws in DL predict loss based on model size and
+dataset size.</strong> In deep learning, power-law relationships exist
+between the model’s performance and other variables. These scaling laws
+can forecast the performance of a model given different values for its
+parameters, dataset, and amount of computational resources. For
+instance, we can estimate a model’s loss if we were to double its
+parameter count or halve the training dataset size. Scaling laws show
+that it is possible to accurately predict the loss of an ML system using
+just two primary variables:</p>
+<ol>
+<li><p><span class="math inline"><em>N</em></span>: The size of the
+model, measured in the number of <em>parameters</em>. Parameters are the
+weights in a model that are adjusted during training. The number of
+parameters in a model is a rough measure of its <em>capacity</em>, or
+how much it can learn from a dataset.</p></li>
+<li><p><span class="math inline"><em>D</em></span>: The size of the
+<em>dataset</em> the model is trained on, measured in tokens, pixels, or
+other fundamental units. The modality of these tokens depends on the
+model’s task. For example, tokens are subunits of language in natural
+language processing and images in computer vision. Some models are
+trained on datasets consisting of tokens of multiple
+modalities.</p></li>
+</ol>
+<p>Improving model performance is typically bottlenecked by one of these
+variables.</p>
+<p><strong>The computational resources used to train a model are vital
+for scaling.</strong> This factor, called <em>compute</em>, is most
+often measured by the number of calculations performed over a certain
+time. The key metric for compute is FLOP/s, the number of floating-point
+operations the computer performs per second. Practically, increasing
+compute means training with more processors, more powerful processors,
+or for a longer time. Models are often allocated a set budget for
+computation: scaling laws can determine the ideal model and dataset size
+given that budget.</p>
+<p><strong>Computing power underlies both model size and dataset
+size.</strong> More computing power enables larger models with more
+parameters and facilitates the collection and processing of more tokens
+of training data. Essentially, greater computational resources
+facilitate the development of more sophisticated AI models trained on
+expanded datasets. Therefore, scaling is contingent on increasing
+computation.</p>
+<h3 id="the-chinchilla-scaling-law-an-influential-example">The
+Chinchilla Scaling Law: an Influential Example</h3>
+<p><strong>The Chinchilla scaling law emphasizes data over model size
+<span class="citation"
+data-cites="hoffmann2022training"></span>.</strong> One significant
+research finding that shows the importance of scaling laws was the
+successful training of the LLM “Chinchilla.” A small model with only 70
+billion parameters, Chinchilla outperformed much larger models because
+it was trained on far more tokens than pre-existing models. This led to
+the <em>Chinchilla scaling law</em>, which provides a scaling law that
+depends on parameter count and data. This law demonstrated that larger
+models require much more data than was standard.</p>
+<figure id="fig:chinchilla">
+<img src="images/ML_background/image48.png" />
+<figcaption>Chinchilla scaling law - lighter colors indicate less loss -
+from <span class="citation"
+data-cites="chinchilla-image"></span></figcaption>
+</figure>
+<p><strong>The Chinchilla scaling law equation encapsulates these
+relationships.</strong> The Chinchilla scaling law is estimated to be
+<span class="math display">$$\label{eq:chinchilla}
+    L(N,D) = 406.4N^{-0.34} + 410.7D^{-0.28} +
+\underbrace{1.69}_{\text{Irreducible Error}}$$</span> In equation <a
+href="#eq:chinchilla" data-reference-type="ref"
+data-reference="eq:chinchilla">[eq:chinchilla]</a>, <span
+class="math inline"><em>N</em></span> represents parameter count, <span
+class="math inline"><em>D</em></span> represents dataset size, and <span
+class="math inline"><em>L</em></span> stands for loss. This equation
+describes a power-law relationship. Understanding this law can help us
+understand the interplay between these factors, and knowing these values
+helps developers make optimal decisions about investments in increasing
+model and dataset size.</p>
+<p><strong>Scaling laws for DL hold across many modalities and orders of
+magnitude.</strong> An <em>order of magnitude</em> is a factor of 10x—if
+something increases by an order of magnitude, it increases by 10 times.
+In deep learning, evidence suggests that scaling laws hold across many
+orders of magnitude of parameter count and dataset size. This implies
+that the same scaling relationships are still valid for both a small
+model trained on hundreds of tokens or a massive model trained on
+trillions of tokens. Scaling laws have continued to hold even as model
+size increases dramatically.<br />
+</p>
+<figure id="fig:enter-label">
+<img src="images/ML_background/image74.png" />
+<figcaption>Scaling laws for different DL models - <span
+class="citation" data-cites="brown2020language"></span></figcaption>
+</figure>
+<h3 id="discussion">Discussion</h3>
+<p><strong>Scaling laws are not universal for ML models.</strong> Not
+all models follow scaling laws. These relationships are stronger for
+some types of models than others. Generative models such as large
+language models tend to follow regular scaling laws—as model size and
+training data increase in scale, performance improves smoothly and
+predictably in a relationship described by a power-law equation. But for
+discriminative models such as image classifiers, clear scaling laws
+currently do not emerge. Performance may plateau even as dataset size or
+model size increase.</p>
+<p><strong>Better learning algorithms can boost model performance across
+the board.</strong> An improved algorithm increases the constant term in
+the scaling law, allowing models to perform better with a given number
+of tokens or parameters. However, crafting better learning algorithms is
+quite difficult. Therefore, improving DL models generally focuses on
+increasing the core variables for scaling: tokens and parameters.</p>
+<p><strong>The bitter lesson: scaling beats intricate, expert-designed
+systems.</strong> Hard-coding AI systems to follow pre-defined processes
+using expert insights has proven slower and more failure-prone than
+building large models that learn from large datasets. The following
+observation is Richard Sutton’s "bitter lesson" <span class="citation"
+data-cites="sutton2019bitter"></span>:<br />
+</p>
+<ol>
+<li><p>AI researchers have often tried to build knowledge into
+systems,</p></li>
+<li><p>"This always helps in the short term [...], but in the long run
+it plateaus and it even inhibits further progress,</p></li>
+<li><p>Breakthrough progress eventually arrives by an opposing approach
+based on scaling computation by search and learning."</p></li>
+</ol>
+<p>This suggests that it is easier to create machines that can learn
+than to have humans manually encode them with knowledge. For now, the
+most effective way to do this seems to be scaling up deep learning
+models such as LLMs. This lesson is “bitter” because it shows that
+simpler scaling approaches tend to beat more elegant and complex
+techniques designed by human researchers—demoralizing for researchers
+who spent years developing those complex approaches. Rather than just
+human ingenuity, scale and computational power are also key factors that
+drive progress in AI.</p>
+<h3 id="conclusion-1">Conclusion</h3>
+<p><strong>In AI, scaling laws describe how loss changes with model and
+dataset size.</strong> We observed that the performance of a DL model
+scales according to the number of parameters and tokens—both shaped by
+the amount of compute used. Evidence from generative models like LLMs
+indicates a smooth reduction in loss with increases in model size and
+training data, adhering to a clear scaling law. Scaling laws are
+especially important for understanding how changes in variables like the
+amount of data used can have substantial impacts on the model’s
+performance.</p>
