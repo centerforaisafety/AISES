@@ -1,5 +1,5 @@
-<h1 id="conflict-and-cooperation-1">Conflict and Cooperation</h1>
-<h2 id="overview-2">Overview</h2>
+<h1 id="conflict-and-cooperation-1"> 8.4 Conflict and Cooperation</h1>
+<h2 id="overview-2"> 8.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -123,7 +123,7 @@ require cooperation.</p></li>
 imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-<h2 id="conflict">Conflict</h2>
+<h2 id="conflict"> 8.4.2 Conflict</h2>
 <h3 id="introduction-to-conflict">Introduction to Conflict</h3>
 <p>Conflict is common in nature. Organisms engage in conflict to
 maintain social dominance hierarchies, to hunt, and to defend territory.
@@ -767,7 +767,7 @@ promote conflict, no matter how small, could pose catastrophic risks to
 humans. It is thus important that we understand the drivers of conflict,
 especially in the context of advanced future AIs.<br />
 </p>
-<h2 id="cooperation">Cooperation</h2>
+<h2 id="cooperation"> 8.4.3 Cooperation</h2>
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
