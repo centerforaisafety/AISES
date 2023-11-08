@@ -1,4 +1,4 @@
-<h1 id="sec:bias">Bias</h1>
+<h1 id="sec:bias"> 3.2 Bias</h1>
 <h3 id="introduction-1">Introduction</h3>
 <p><strong>AI systems can amplify undesirable biases.</strong> AI
 systems are being increasingly deployed throughout society. If these
@@ -71,7 +71,7 @@ sources of bias as well as strategies researchers are exploring to
 mitigate bias. However, this overview aims to be brief, so it is not
 exhaustive.<br />
 </p>
-<h2 id="sources-of-bias">Sources of Bias</h2>
+<h2 id="sources-of-bias"> 3.2.1 Sources of Bias</h2>
 <p>Biases can arise from multiple sources, both from properties of the
 AI system itself and human interaction with the system. This section
 discusses common sources of harmful biases in AI systems, although there
@@ -238,7 +238,7 @@ In summary, human biases and blind spots during development, usage, and
 governance of AI systems contribute to biased outputs from AI systems. A
 holistic approach for critically examining human-AI interaction is
 required to address this.</p>
-<h2 id="strategies-for-bias-mitigation">Strategies for Bias
+<h2 id="strategies-for-bias-mitigation"> 3.2.2 Strategies for Bias
 Mitigation</h2>
 <p><strong>Multiple complementary approaches can help address bias in AI
 systems.</strong> Even with the best intent, biases in AI can be
