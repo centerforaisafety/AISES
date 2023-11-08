@@ -1,0 +1,63 @@
+<h1 id="conclusion">Conclusion</h1>
+<p>In this chapter, we have explored the properties of complex systems
+and their implications for AI safety strategies. We began by contrasting
+simple systems with complex systems. While the former can be understood
+as the sum of their parts, the latter display emergent properties that
+arise from complex interactions. These properties do not exist in any of
+the components in isolation and cannot usually be derived from reductive
+analysis of the system.<br />
+Next, we explored seven salient hallmarks of complexity. We saw that
+feedback loops are ubiquitous in complex systems and often lead to
+nonlinearity, where a small change in the input to a system does not
+result in a proportionate change in the output. Rather, fluctuations can
+be amplified or quashed by feedback loops. Furthermore, these processes
+can make a system highly sensitive to its initial conditions, meaning
+that a small difference at the outset can lead to vastly different
+long-term trajectories. This is often referred to as the “butterfly
+effect”, and makes it difficult to predict the behaviors of complex
+systems.<br />
+We also discussed how the components of complex systems tend to
+self-organize to some extent and how they often display critical points,
+at which a small fluctuation can tip the system into a drastically
+different state. We then looked at distributed functionality, which
+refers to how tasks are loosely shared among components in a complex
+system, and scalable structure, which gives rise to power laws within
+complex systems. The final hallmark of complexity we discussed was
+adaptive behavior, which allows systems to continue functioning in a
+changing environment.<br />
+Along the way, we highlighted how deep learning systems exhibit the
+hallmarks of complexity. Beyond AIs themselves, we also showed how the
+social systems they exist within are also best understood as complex
+systems, through the worked examples of corporations and research
+institutes, political systems, and advocacy organizations.<br />
+Having established the presence of complexity in AIs and the systems
+surrounding them, we looked at what this means for AI safety by looking
+at five general lessons. Since we cannot usually predict all emergent
+properties of complex systems simply through theoretical analysis, some
+trial and error is likely to be required in making AI systems safe. It
+is also important to be aware that systems often break down goals into
+subgoals, which can supersede the original goal, meaning that AIs may
+not always pursue the goals we give them.<br />
+Due to the potential for emergent properties, we cannot guarantee that a
+safe system will remain safe when it is scaled up. However, since we
+cannot usually understand complex systems perfectly in theory, it is
+extremely difficult to build a flawless complex system from scratch.
+This means that starting with small systems that are safe and scaling
+them up cautiously is likely the most promising approach to building
+large complex systems that are safe. The final general lesson is that we
+cannot guarantee AI safety by keeping humans in the loop, so we need to
+design systems with this in mind.<br />
+Next, we looked at how complex systems often give rise to wicked
+problems, which cannot be solved in the same way we would approach a
+simple mathematics question or a puzzle. We saw how difficult it is to
+address wicked problems, due to the unexpected side effects that can
+occur when we interfere with complex systems. However, we also explored
+examples of successful interventions, showing that it is possible to
+make significant progress, even if we cannot fully solve a problem. In
+thinking about the most effective interventions, we highlighted the
+importance of thinking holistically and looking for system-level
+solutions.<br />
+AI safety is not a mathematical puzzle that can be solved once and for
+all. Rather, it is a wicked problem that is likely to require ongoing,
+coordinated efforts, and flexible strategies that can be adapted to
+changing circumstances.<br />
