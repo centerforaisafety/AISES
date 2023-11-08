@@ -1,0 +1,265 @@
+<h1 id="sec:nat-gov">National Governance</h1>
+<p><strong>Overview.</strong> Government action may be crucial for AI
+safety. Governments have the authority to enforce AI regulations, to
+direct their own AI activities, and to influence other governments
+through measures such as export regulations and security agreements.
+Additionally, major governments can leverage their massive budgets,
+diplomats, intelligence agencies, and leaders selected to serve the
+public interest. More abstractly, as we saw in the chapter, institutions
+can help agents avoid harmful coordination failures. For example,
+penalties for unsafe AI development can counter incentives to cut
+corners on safety.<br />
+This section provides an overview of four ways governments may be able
+to advance AI safety: safety standards and regulations, liability for AI
+harms, improving societal resilience, and not falling behind while
+focusing on developing safe AI.</p>
+<h2 id="standards-and-regulations">Standards and Regulations</h2>
+<p>To ensure that frontier AI development and deployment is safe, two
+complementary approaches are formally establishing strong safety
+measures as best practices for AI labs, and requiring the implementation
+of strong safety measures. This can be done using standards and
+regulations, respectively.</p>
+<p><strong>Standards are specified best practices.</strong> Standards
+are written specifications of the best practices for carrying out
+certain activities. There are standards in many areas, from
+telecommunications hardware to country codes to food safety. Standards
+often aim to ensure quality, safety, and interoperability; for instance,
+the International Food Standard requires the traceability of products,
+raw materials and packaging materials.</p>
+<p><strong>The substance of AI safety standards.</strong> In the context
+of frontier AI, technical standards for AI safety could guide various
+aspects of the AI model life cycle. Before training begins, training
+plans could be assessed to determine if training is safe, based on
+evidence about similar training runs and the proposed safety methods.
+After training begins, models could be evaluated to determine if further
+training or deployment is safe, based on whether models show dangerous
+capabilities or propensities. During deployment, particularly powerful
+models could be released through a monitored API. Standards could guide
+all aspects of this process.</p>
+<p><strong>Standards are developed in dedicated standard-setting
+organizations.</strong> Many types of organizations, from government
+agencies to industry groups to other nonprofits, develop standards. Two
+examples of standard-setting organizations are the National Institute of
+Standards and Technology (NIST) and the International Organization for
+Standardization (ISO). In the US, standard setting is often a
+consensus-based activity in which there is substantial deference to
+industry expertise. However, this increases the risk that standards
+over-represent industry interests.</p>
+<p><strong>The impact of standards.</strong> Standards are not
+automatically legally binding. Despite that, standards can advance
+safety in various ways. First, standards can shape norms, because they
+are descriptions of best practices, often published by authoritative
+organizations. Second, governments can mandate compliance with certain
+standards. Such “incorporation by reference” of an existing standard may
+bind both the private sector and government agencies. Third, governments
+can incentivize compliance with standards through non-regulatory means.
+For example, government agencies can make compliance required for
+government contracts and grants, and standards compliance can be a legal
+defense against lawsuits.</p>
+<p><strong>Regulations are legally binding.</strong> Regulations are
+legal requirements established by governments. Some examples of
+regulations are requirements for new foods and drugs to receive an
+agency’s approval before being sold, restrictions on the pollution
+emitted by cars, requirements for aircraft and pilots to have licenses,
+and constraints on how companies may handle personal data.</p>
+<p><strong>Regulations are often shaped by both legislatures and
+agencies.</strong> In some governments, such as the US and UK,
+regulations are often formed through the following process. First, the
+legislature passes a law. This law creates high-level mandates, and it
+gives a government agency the authority to decide the details of these
+rules and enforce compliance. By delegating rulemaking authority,
+legislatures let regulations be developed with the greater speed, focus,
+and expertise of a specialized agency. As we discussed, agencies often
+incorporate standards into regulations. Legislatures also often
+influence regulation through their control over regulatory agencies’
+existence, structure, mandates, and budgets.<br />
+Regulatory agencies do not always regulate adequately. Regulatory
+agencies can face steep challenges. They can be under-resourced: lacking
+the budgets, staff, or authorities they need to do well at designing and
+enforcing regulations. Regulators can also suffer from regulatory
+capture—being influenced into prioritizing a small interest group
+(especially the one they are supposed to be regulating) over the broader
+public interest. Industries can capture regulators by politically
+supporting sympathetic lawmakers, providing biased expert advice and
+information, building personal relationships with regulators, offering
+lucrative post-government jobs to lenient regulatory staff, and
+influencing who is appointed to lead regulatory agencies.<br />
+Standards and regulations give governments some ways to shape the
+behavior of AI developers. Next, we will consider legal means to ensure
+that the developers of AI have incentives in line with the rest of
+society.</p>
+<h2 id="liability-for-ai-harms">Liability for AI Harms</h2>
+<p>In addition to standards and regulations, legal liability could
+advance AI safety. When AI accidents or misuse cause harm, liability
+rules determine who (if anyone) has to pay compensation. For example, an
+AI company might be required to pay for damages if it leaks a dangerous
+AI, or if its AI provides a user step-by-step instructions for building
+or acquiring illegal weapons.</p>
+<p><strong>Non-AI-specific liability.</strong> Legal systems including
+those of the US and UK have forms of legal liability that would
+plausibly apply to AI harms even in the absence of AI-specific
+legislation. For example, in US and UK law, negligence is grounds for
+liability. Additionally, in some circumstances, such as when damages
+result from a company’s defective product, companies are subject to
+strict liability. That means companies are liable even if they acted
+without negligence or bad intentions. These broad conditions for
+liability could apply to AI, but there are many ways judges might
+interpret concepts like negligence and defective products in the case of
+AI. Instead of leaving it to a judge’s interpretation, legislators can
+specify liability rules for AI.</p>
+<p><strong>There are advantages to holding AI developers liable for
+damages.</strong> Legal liability helps AI developers internalize the
+effects of their products on the rest of society by ensuring that they
+pay when their products harm others. This improves developers’
+incentives. Additionally, legal liability helps provide accountability
+without relying on regulatory agencies. This avoids the problem that
+government agencies may be too under-resourced or captured by industry
+to mandate and enforce adequate safety measures.</p>
+<p><strong>Legal liability is a limited tool.</strong> There are
+practical limits to what AI companies can actually be held liable for.
+For example, if an AI were used to create a pandemic that killed 1 in
+100 people, the AI developer would likely be unable to pay beyond a
+small portion of the damages owed (as these could easily be in the tens
+of trillions). If the amount of harm that can be caused by AI companies
+exceeds what they can pay, AI developers cannot fully internalize the
+costs they impose on society. This problem can be eased by requiring
+liability insurance (a common requirement in the context of driving
+cars), but there are amounts of compensation that even insurers could
+not afford. Moreover, sufficiently severe AI catastrophes may disrupt
+the legal system itself. Separately, liability does little to deter AI
+developers who do not expect their AI development to result in large
+harms—even if their AI development really proves catastrophically
+dangerous.<br />
+Ensuring legal liability for harms that result from deployed AIs helps
+align the interests of AI developers with broader social interests.
+Next, we will consider how governments can mitigate harms when they do
+occur.</p>
+<h2 id="improving-resilience">Improving Resilience</h2>
+<p>The government actions already discussed focus on preventing unsafe
+AI development and deployment, but another useful intervention point may
+be mitigating damages during deployment.</p>
+<p><strong>Resilience may protect against extreme risks.</strong>
+Governments may be able to improve societal resilience to AI accidents
+or misuse through promoting cybersecurity, biosecurity, and AI
+watchdogs. Measures for increasing resilience may raise the level of AI
+capabilities needed to cause catastrophe. That would buy valuable time
+to develop safety methods and further defensive measures—–ideally enough
+time for safety and defense to always keep pace with offensive
+capabilities. Sufficient resilience could lastingly reduce risk.</p>
+<p><strong>Policy tools for resilience.</strong> To build resilience,
+governments could use a variety of policy tools. For example, they could
+provide R&amp;D funding to develop defensive technologies. Additionally,
+they could initiate voluntary collaborations with the private sector to
+assist with implementation. Governments could also use regulations to
+require owners of relevant infrastructure and platforms to implement
+practices that improve resilience.</p>
+<p><strong>Tractability of resilience.</strong> If governments defend
+narrowly against some attacks, rogue AIs or malicious users might just
+find other ways to cause harm. Increasingly advanced AIs could pose
+novel threats in many domains, so it may be hard to identify or
+implement targeted defensive measures that make a real difference.
+However, perhaps there are a few domains where societal vulnerabilities
+are especially dire and tractable to improve (cybersecurity or
+biosecurity, for example), while some defensive measures could provide
+broader defenses (such as AI watchdogs).</p>
+<p><em>Cybersecurity</em>. AIs could strengthen cybersecurity. AIs could
+identify and patch code vulnerabilities (that is, they could fix faulty
+programming that would let attackers get unauthorized access to a
+computer). AIs could also help detect phishing attacks, malware and
+other attempts to attack a computer network, enabling responses such as
+blocking or quarantining malicious programs. These efforts could be
+targeted to defend widely used software and critical infrastructure.
+However, AIs that identify code vulnerabilities are dual-use; they can
+be used to either fix or exploit vulnerabilities.<br />
+<em>Biosecurity</em>. Dangerous pathogens can be detected or countered
+through measures such as wastewater monitoring (which might be enhanced
+by anomaly detection), far-range UV technology, improved personal
+protective equipment, and DNA synthesis screening that is secure and
+universal.<br />
+<em>AI watchdogs</em>. AIs could monitor the activity of other AIs and
+flag dangerous behavior. For example, AI companies can analyze the
+outputs of their own chatbots and identify harmful outputs.
+Additionally, AIs could identify patterns of dangerous activities in
+digital or economic data. However, some implementations of this could
+harm individual privacy.<br />
+Defensive measures including cybersecurity, biosecurity, and AI
+watchdogs may mitigate harms from the deployment of unsafe AI systems.
+However, defensive measures, regulation, and liability may all be
+insufficient for safety if the countries that implement them all fall
+behind the frontier of AI development. Next, we will consider how
+countries can remain competitive while ensuring safety in domestic AI
+production.</p>
+<h2 id="not-falling-behind">Not Falling Behind</h2>
+<p>If some countries take a relatively slow and careful approach to AI
+development, they may risk falling behind other countries that take less
+cautious approaches. It would be risky for the global leaders in AI
+development to be within countries that lack adequate guardrails on AI.
+Various policy tools could allow states to avoid falling behind in AI
+while they act to keep their own companies’ AIs safe.</p>
+<p><strong>Risks of adversarial approaches.</strong> Adversarial
+approaches to AI policy–—that is, policies focused on advancing one
+country’s AI leadership at the expense of another’s—–have risks.
+Adversarial policies could rely on wrong assumptions about which states
+will adequately guardrail AI, and they could also motivate
+counter-actions and increase international tensions (making cooperation
+harder). Competitive mindsets can also encourage de-prioritizing safety
+in the name of competing–—in the chapter, we consider this problem in
+greater depth using formal models. Additionally, AI technologies might
+proliferate quickly even with strong efforts to build national leads in
+AI.<br />
+International cooperation, as explored in the <a href="#sec:int-gov"
+data-reference-type="ref" data-reference="sec:int-gov">7</a> section,
+may enable states to keep their AIs safe, preserve national
+competitiveness, and avoid the pitfalls of adversarial AI policy. Still,
+as options for cases where cooperation fails, here we consider several
+policy tools for preserving national competitiveness in AI.</p>
+<p><strong>Export controls.</strong> Restrictions on the export of
+AI-specialized hardware can limit states’ access to a key input into AI.
+Due to the extreme complexity of advanced semiconductor manufacturing,
+it is very difficult for states subject to these export controls to
+manufacture the most advanced hardware on their own. Additionally, the
+AI hardware supply chain is extremely concentrated, perhaps making
+effective export controls possible without global agreement. We explore
+this further in the section.</p>
+<p><strong>Immigration policy.</strong> Immigration policy affects the
+flow of another important input into AI development: talented AI
+researchers and engineers. Immigration could be an asymmetric advantage
+of certain countries; surveys suggest that the international AI
+workforce tends to have much more interest in moving to the US than
+China <span class="citation" data-cites="zwetsloot2021winning"></span>.
+Immigrants may be more likely to spread AI capabilities internationally,
+through international contacts or by returning to their native
+countries, but many immigrants who are provided with the chance choose
+to stay in the US.</p>
+<p><strong>Information security.</strong> Information security measures
+could slow the diffusion of AI insights and technologies to countries or
+groups that lack adequate guardrails. For example, governments could
+provide information security assistance to AI developers, and they could
+incentivize or require developers’ compliance with information security
+standards.</p>
+<p><strong>Intelligence collection.</strong> Collecting and analyzing
+intelligence on the state of AI development in other countries would
+help governments avoid both unwarranted complacency and unwarranted
+insecurity about their own AI industries.<br />
+Governments can use a range of measures to remain internationally
+competitive while maintaining the safety of domestic AI development.</p>
+<h3 id="conclusions-about-national-governance">Conclusions About
+National Governance</h3>
+<p>National governments have many tools available for advancing AI
+safety. Standards, regulations, and liability could stop dangerous AIs
+from being deployed, while encouraging the development of safe AIs.
+Improved resilience could mitigate the damage of dangerous deployments
+when they do occur, giving us more time to create safe AIs and
+mitigating some risk from dangerous ones. Measures such as strong
+information security could allow governments to ensure domestic AI
+production is both safe and competitive. Each of these approaches has
+largely distinct limitations—for example, regulations may be held back
+by regulatory capture, while liability might impose too few penalties
+too late—so effective governance may require combining many of the
+government actions discussed in this section.<br />
+With robust AI safety standards and regulations, a well-functioning
+legal framework for ensuring liability, strong resilience against
+societal-scale risks from AIs, and measures for not being outpaced
+internationally by unconstrained AI developers, there would be multiple
+layers of defense to protect society from reckless or malicious AI
+development.</p>
