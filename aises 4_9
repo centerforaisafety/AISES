@@ -1,4 +1,4 @@
-<h2 id="sec:black-swans">Black Swans</h2>
+<h2 id="sec:black-swans"> 4.9 Black Swans</h2>
 <h4 id="introduction-to-black-swans">Introduction to Black Swans</h4>
 <p>So far, we have discussed tail events in general. We will now look at
 an important subset of tail events, called black swans. In addition to
@@ -26,7 +26,7 @@ swans; high-magnitude earthquakes, for example, are tail events, but we
 know they are likely to happen in certain regions at some point–—they
 are on our radar.<br />
 </p>
-<h3 id="known-unknowns-and-unknown-unknowns">Known Unknowns and Unknown
+<h3 id="known-unknowns-and-unknown-unknowns"> 4.9.1 Known Unknowns and Unknown
 Unknowns</h3>
 <p><strong>Black swans are “unknown unknown” tail events <span
 class="citation" data-cites="taleb2017blackswan"></span>.</strong> We
@@ -192,7 +192,7 @@ have some knowledge of these risks. Furthermore, the expanding use of AI
 technologies may entail risks of black swan scenarios that no one has
 yet imagined.</p>
 <h3
-id="implications-of-tail-events-and-black-swans-for-risk-analysis">Implications
+id="implications-of-tail-events-and-black-swans-for-risk-analysis"> 4.9.2 Implications
 of Tail Events and Black Swans for Risk Analysis</h3>
 <p>Tail events and black swans present problems for analyzing and
 managing risks, because we do not know if or when they will happen. For
@@ -428,7 +428,7 @@ whether their efforts have prevented a catastrophe and have their work
 vindicated. Nevertheless, preventing disasters is essential, especially
 in cases like the development of AI, where we have good theoretical
 reasons to believe that a black swan is on the cards.</p>
-<h3 id="identifying-the-risk-of-tail-events-or-black-swans">Identifying
+<h3 id="identifying-the-risk-of-tail-events-or-black-swans"> 4.9.3 Identifying
 the Risk of Tail Events or Black Swans</h3>
 <p>Since the possibility of tail events and black swans affects how we
 approach risk management, we must consider whether we are facing a
