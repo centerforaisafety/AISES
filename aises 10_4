@@ -1,0 +1,515 @@
+<h1 id="attitudes-to-risk"> Attitudes to Risk</h1>
+<p><strong>Overview.</strong> The concept of risk is central to the
+discussion of utility functions. Knowing an agent’s attitude towards
+risk—whether they like, dislike, or are indifferent to risk—gives us a
+good idea of what their utility function looks like. Conversely, if we
+know an agent’s utility function, we can also understand their attitude
+towards risk. We will first outline the three attitudes towards risk:
+risk aversion, risk neutrality, and risk seeking. Then, we will consider
+some arguments for why we might adopt each attitude, and provide
+examples of situations where each attitude may be suitable to
+favor.<br />
+It is crucial to understand what risk attitudes are appropriate in which
+contexts. To make AIs safe, we will need to give them safe risk
+attitudes, such as by favoring risk-aversion over risk-neutrality. Risk
+attitudes will help explain how people do and should act in different
+situations. National governments, for example, will differ in risk
+outlook from rogue states, and big tech companies will differ from
+startups. Moreover, we should know how risk averse we should be with AI
+development, as it has both large upsides and downsides.</p>
+<h2 id="what-are-the-different-attitudes-to-risk"> What Are the
+Different Attitudes to Risk?</h2>
+<p><strong>There are three broad types of risk preferences.</strong>
+Agents can be risk averse, risk neutral, or risk seeking. In this
+section, we first explore what these terms mean. We consider a few
+equivalent definitions by examining different concepts associated with
+risk <span class="citation" data-cites="dixitslides"></span>. Then, we
+analyze what the advantages to adopting each certain attitude toward
+risk might be.</p>
+<p><strong>Let’s consider these in the context of a bet on a coin
+toss.</strong> Suppose agents are given the opportunity to bet <span
+class="math inline">\(\$\)</span>1000 on a fair coin toss—upon guessing
+correctly, they would receive <span
+class="math inline">\(\$\)</span>2000 for a net gain of <span
+class="math inline">\(\$\)</span>1000. However, if they guess
+incorrectly, they would receive nothing and lose their initial bet of
+<span class="math inline">\(\$\)</span>1000. The expected value of this
+bet is <span class="math inline">\(\$\)</span>0, irrespective of who is
+playing: the player gains or loses <span
+class="math inline">\(\$\)</span>1000 with equal probabilities. However,
+a particular player’s willingness to take this bet, reflecting their
+risk attitude, depends on how they calculate expected utility.</p>
+<ol>
+<li><p><em>Risk aversion</em> is the tendency to prefer a certain
+outcome over a risky option with the same expected value. A risk-averse
+agent would not want to participate in the coin toss. The individual is
+unwilling to take the risk of a potential loss in order to potentially
+earn a higher reward. Most humans are instinctively risk averse. A
+common example of a risk-averse utility function is <span
+class="math inline">\(u\left(x\right) = \log x\)</span> (red line in
+Figure <a href="#fig:attitudes-to-risk" data-reference-type="ref"
+data-reference="fig:attitudes-to-risk">1</a>).</p></li>
+<li><p><em>Risk neutrality</em> is the tendency to be indifferent
+between a certain outcome and a risky option with the same expected
+value. For such players, expected utility is proportional to expected
+value. A risk-neutral agent would not care whether they were offered
+this coin toss, as its expected value is zero. If the expected value was
+negative, they would prefer not to participate in the lottery, since the
+lottery has negative expected value. Conversely, if the expected value
+was positive, they would prefer to participate, since it would then have
+positive expected value. The simplest risk-neutral utility function is
+<span class="math inline">\(u(x) = x\)</span> (blue line in Figure <a
+href="#fig:attitudes-to-risk" data-reference-type="ref"
+data-reference="fig:attitudes-to-risk">1</a>).</p></li>
+<li><p><em>Risk seeking</em> is the tendency to prefer a risky option
+over a sure thing with the same expected value. A risk-seeking agent
+would be happy to participate in this lottery. The individual is willing
+to risk a negative expected value to potentially earn a higher reward.
+We tend to associate risk seeking with irrationality, as it leads to
+lower wealth through repeated choices made over time. However, this is
+not necessarily the case. An example of a risk-seeking utility function
+is <span class="math inline">\(u(x) = x^{2}\)</span> (green line in
+Figure <a href="#fig:attitudes-to-risk" data-reference-type="ref"
+data-reference="fig:attitudes-to-risk">1</a>).</p></li>
+</ol>
+<p>We can define each risk attitude in three equivalent ways. Each draws
+on a different aspect of how we represent an agent’s preferences.</p>
+<figure id="fig:attitudes-to-risk">
+
+<figcaption>Utility functions capturing different attitudes to
+risk</figcaption>
+</figure>
+<p><strong>Risk attitudes are fully explained by how an agent values
+uncertain outcomes.</strong> According to expected utility theory, an
+agent’s risk preferences can be understood from the shape of their
+utility function, and vice-versa. We will illustrate this point by
+showing that concave utility functions necessarily imply risk aversion.
+An agent with a concave utility function faces decreasing marginal
+utility. That is, the jump from <span
+class="math inline">\(\$\)</span>1000 to <span
+class="math inline">\(\$\)</span>2000 is less satisfying than the jump
+from wealth <span class="math inline">\(\$\)</span>0 to wealth <span
+class="math inline">\(\$\)</span>1000. Conversely, the agent dislikes
+dropping from wealth <span class="math inline">\(\$\)</span>1000 to
+wealth <span class="math inline">\(\$\)</span>0 more than they like
+jumping from wealth <span class="math inline">\(\$\)</span>1000 to
+wealth <span class="math inline">\(\$\)</span>2000. Thus, the agent will
+not enter the aforementioned double-or-nothing coin toss, displaying
+risk aversion.</p>
+<p><strong>Preferences over outcomes may not fully explain risk
+attitudes.</strong> It may seem unintuitive that risk attitudes are
+entirely explained by how humans calculate utility of outcomes. As we
+just saw, in expected utility theory, it is assumed that agents are risk
+averse only because they have diminishing returns to larger outcomes.
+Many economists and philosophers have countered that people also have an
+inherent aversion to risk that is separate from preferences over
+outcomes. At the end of this chapter, we will explore how non-expected
+utility theories have attempted to more closely capture human behavior
+in risky situations.</p>
+<h2 id="risk-and-decision-making"> Risk and Decision Making</h2>
+<p><strong>Overview.</strong> Having defined risk attitudes, we will now
+consider situations where it is appropriate to act in a risk-averse,
+risk-neutral, or risk-seeking manner. Often, our risk approach in a
+situation aligns with our overall risk preference—if we are risk averse
+in day-to-day life, then we will also likely be risk averse when
+investing our money. However, sometimes we might want to make decisions
+as if we have a different attitude towards risk than we truly do.</p>
+<p><strong>Criterion of rightness vs. decision procedure.</strong>
+Philosophers distinguish between a <em>criterion of rightness</em>, the
+way of judging whether an outcome is good, and a <em>decision
+procedure</em>, the method of making decisions that lead to the good
+outcomes. A good criterion of rightness may not be a good decision
+procedure. This is related to the gap between theory and practice, as
+explicitly pursuing an ideal outcome may not be the best way to achieve
+it. For example, a criterion of rightness for meditation might be to
+have a mind clear of thoughts. However, as a decision procedure,
+thinking about not having thoughts may not help the meditator achieve a
+clear mind—a better decision procedure would be to focus on the
+breath.<br />
+As another example, the <em>hedonistic paradox</em> reminds us that
+people who directly aim at pleasure rarely secure it <span
+class="citation" data-cites="sidgwick2019methods"></span>. While a
+person’s pleasure level could be a criterion of rightness, it is not
+necessarily a good guide to increasing pleasure—that is, not necessarily
+a good decision procedure. Whatever one’s vision of pleasure looks
+like—lying on a beach, buying a boat, consuming drugs—people who
+directly aim at pleasure often find these things are not as pleasing as
+hoped. People who aim at meaningful experiences, helping others and
+engaging in activities that are intrinsically worthwhile, are more
+likely to be happy. People tend to get more happiness out of life when
+not aiming explicitly for happiness but for some other goal. Using the
+criterion of rightness of happiness as a decision procedure can
+predictably lead to unhappiness.<br />
+Maximizing expected value can be a criterion of rightness, but it is not
+always a good decision procedure. In the context of utility, we observe
+a similar discrepancy where explicitly pursuing the criterion of
+rightness (maximizing the utility function) may not lead to the best
+outcome. Suppose an agent is risk neutral, such that their criterion of
+rightness is maximizing a linear utility function. In the first
+subsection, we will explore how they might be best served by making
+decisions as if they are risk averse, such that their decision procedure
+is maximizing a concave utility function.</p>
+<h3 id="why-be-risk-averse">Why Be Risk Averse?</h3>
+<p><strong>Risk-averse behavior is ubiquitous.</strong> In this section,
+we will explore the advantages of risk aversion and how it can be a good
+way to advance goals across different domains, from evolutionary fitness
+to wealth accumulation. It might seem that by behaving in a risk-averse
+way, thereby refusing to participate in some positive expected value
+situations, agents leave a lot of value on the table. Indeed, extreme
+risk aversion may be counterproductive—people who keep all their money
+as cash under their bed will lose value to inflation over time. However,
+as we will see, there is a sweet spot that balances the safety of
+certainty and value maximization: risk-averse agents with logarithmic
+utility almost surely outperform other agents over time, under certain
+assumptions.</p>
+<p><strong>Response to computational limits.</strong> In complex
+situations, decision makers may not have the time or resources to
+thoroughly analyze all options to determine the one with the highest
+expected value. This problem is further complicated when the outcomes of
+some risks we take have effects on other decisions down the line, like
+how risky investments may affect retirement plans. To minimize these
+complexities, it may be rational to be risk averse. This helps us avoid
+the worst effects of our incomplete estimates when our uncertain
+calculations are seriously wrong.<br />
+Suppose Martin is deciding between purchasing a direct flight or two
+connecting flights with a tight layover. The direct flight is more
+expensive, but Martin is having trouble estimating the likelihood and
+consequences of missing his connecting flight. He may prefer to play the
+situation safe and pay for the more expensive direct flight, even though
+the true value-for-money of the connected route may have been higher.
+Now Martin can confidently make future decisions like booking a bus from
+the airport to his hotel. Risk-averse decision making not only reduces
+computational burden, but can also increase decision-making speed.
+Instead of constantly making difficult calculations, an agent may prefer
+to have a bias against risk.</p>
+<p><strong>Behavioral advantage.</strong> Risk aversion is not only a
+choice but a fundamental psychological phenomenon, and is influenced by
+factors such as past experiences, emotions, and cognitive biases. Since
+taking risks could lead to serious injury or death, agents undergoing
+natural selection usually develop strategies to avoid such risks
+whenever possible. Humans often shy away from risk, prioritizing safety
+and security over more risky ventures, even if the potential rewards are
+higher.<br />
+Studies have shown that animals across diverse species exhibit
+risk-averse behaviors. In a study conducted on bananaquits, a
+nectar-drinking bird, researchers presented the birds with a garden
+containing two types of flowers: one with consistent amounts of nectar
+and one with variable amounts. They found that the birds never preferred
+the latter, and that their preference for the consistent variety was
+intensified when the birds were provided fewer resources in total <span
+class="citation" data-cites="wunderle1987risk"></span>. This risk
+aversion helps the birds survive and procreate, as risk-neutral or
+risk-seeking species are more likely to die out over time: it is much
+worse to have no nectar than it is better to have double the nectar.
+Risk aversion is often seen as a survival mechanism.</p>
+<p><strong>Natural selection favors risk aversion.</strong> Just as
+individual organisms demonstrate risk aversion, entire populations are
+pushed by natural selection to act risk averse in a manner that
+maximizes the expected logarithm of their growth, rather than the
+expected value. Consider the following, highly simplified example.
+Suppose there are three types of animals—antelope, bear, crocodile—in an
+area where each year is either scorching or freezing with probability
+0.5. Every year, the populations grow or shrink depending on the
+weather—some animals are better suited to the hot weather, and some to
+the cold. The populations’ per-capita offspring, or equivalently the
+populations’ growth multipliers, are shown in the table below.<br />
+</p>
+<p>Antelope have the same growth in each state, bears grow faster in the
+warmth but slower in the cold when they hibernate, and crocodiles grow
+rapidly when it is scorching and animals gather near water sources but
+die out when their habitats freeze over. However, notice that the three
+populations have the same average growth ratio of 1.1.<br />
+However, “average growth” is misleading. Suppose we observe this
+population over two periods, one hot followed by one cold. The average
+growth multiplier over these two periods would be 1.1 for every animal.
+However, this does not mean that they all grow the same amount. In the
+table below, we can see the animals’ growth over time.<br />
+</p>
+<p>Adding the logarithm of each species’ hot and cold growth rates
+indicates its long term growth trajectory. The antelope population will
+continue growing no matter what, compounding over time. However, the
+crocodile population will not—as soon as it enters a cold year, the
+crocodiles will become permanently extinct. The bear population is not
+exposed to immediate extinction risk, but over time it will likely
+shrink towards extinction. Notice that maximizing long-run growth in
+this case is equivalent to maximizing the sum of the logarithm of the
+growth rates—this is risk aversion. The stable growth population, or
+equivalently the risk-averse population, is favored by natural selection
+<span class="citation" data-cites="okasha2007rational"></span>.</p>
+<p><strong>Avoid risk of ruin.</strong> Risk aversion’s key benefit is
+that it avoids risk of ruin. Consider a repeated game of equal
+probability “triple-or-nothing” bets. That is, players are offered a
+<span class="math inline">\(\frac{1}{2}\)</span> probability of tripling
+their initial wealth <span class="math inline">\(w\)</span>, and a <span
+class="math inline">\(\frac{1}{2}\)</span> probability of losing it all.
+A risk-neutral player can calculate the expected value of a single round
+as:<br />
+<span class="math display">\[\frac{1}{2} \cdot 0+\frac{1}{2} \cdot 3w =
+1.5w.\]</span> Since the expected value is greater than the player’s
+initial wealth, a risk-neutral player would bet their entire wealth on
+the game. Additionally, if offered this bet repeatedly, they would
+reinvest everything they had in it each time. The expected value of
+taking this bet <span class="math inline">\(n\)</span> times in a row,
+reinvesting all winnings, would be:<br />
+<span class="math display">\[\frac{1}{2} \cdot 0+\frac{1}{4} \cdot
+0+\cdots +\frac{1}{2^{n}} \cdot 0+\frac{1}{2^{n}} \cdot 3^{n} \cdot w =
+(1.5)^{n}w.\]</span> If the agent was genuinely offered this bet as many
+times as they wanted, then they would continue to invest everything
+infinitely many times, which gives them expected value of:<br />
+<span class="math display">\[\lim_{n\rightarrow \infty }1.5^{n}w =
+\infty.\]</span> This is another infinite expected value game—just like
+in the St. Petersburg Paradox! However, notice that this calculation is
+again heavily skewed by a single, low-probability branch in which an
+extremely lucky individual continues to win, exponentially increasing
+their wealth. In figure <a href="#fig:tripleornothing"
+data-reference-type="ref"
+data-reference="fig:tripleornothing">[fig:tripleornothing]</a>, we show
+the first four bets in this strategy with a starting wealth of 16. Only
+along the cyan branch does the player win any money, and this branch
+increasingly becomes astronomically improbable. We would rarely choose
+to repeatedly play triple-or-nothing games with everything we owned in
+real life. We are risk averse when dealing with high probabilities of
+losing all our money. Acting risk neutral and relying on expected value
+would be a poor decision-making strategy.<br />
+</p>
+<figure>
+
+</figure>
+<p><strong>Maximizing logarithmic utility is a better decision
+procedure.</strong> Agents might want to act as if maximizing the
+logarithm of their wealth instead of maximizing the expected value. A
+logarithmic function avoids risk of ruin because it assigns a utility
+value of negative infinity to the outcome of zero wealth, since <span
+class="math inline">\(\log0\rightarrow -\infty\)</span>. Therefore an
+agent with a logarithmic utility function in wealth will never
+participate in a lottery that could, however unlikely the case, land
+them at zero wealth. The logarithmic function also grows slowly, placing
+less weight on very unlikely, high-payout branches, a property that we
+used to resolve the St. Petersburg Paradox. While we might have
+preferences that are linear over wealth (which is our criterion of
+rightness) we might be better served by a different decision procedure:
+maximizing the logarithm of wealth rather than maximizing wealth
+directly.</p>
+<p><strong>Maximizing the logarithm of wealth maximizes every percentile
+of wealth.</strong> Maximizing the logarithmic utility valuation avoids
+risk of ruin since investors never bet their entire wealth on one
+opportunity, much like how investors seek to avoid over-investing in one
+asset by diversifying investments over multiple assets. Instead of
+maximizing average wealth (as expected value does), maximizing the
+logarithmic utility of wealth maximizes other measures associated with
+the distribution of wealth. In fact, doing so maximizes the median,
+which is the 50th percentile of wealth, and it also delivers the highest
+value at any arbitrary percentile of wealth. It even maximizes the
+mode—the most likely outcome. Mathematically, maximizing a logarithmic
+utility function in wealth outperforms any other investment strategy in
+the long run, with probability one (certainty) <span class="citation"
+data-cites="kelly1956new"></span>. Thus, variations on maximizing the
+logarithm of wealth are widely used in the financial sector.<br />
+</p>
+<h3 id="why-be-risk-neutral">Why Be Risk Neutral?</h3>
+<p><strong>Risk neutrality is equivalent to acting on the expected
+value.</strong> Since averages are straightforward and widely taught,
+expected value is the mostly widely known explicit decision-making
+procedure. However, despite expected value calculations being a common
+concept in popular discourse, situations where agents do and should act
+risk neutral are limited. In this section, we will first look at the
+conditions under which risk neutrality might be a good decision
+procedure—in such cases, maximizing expected value can be a significant
+improvement over being too cautious. However, being mistaken about
+whether the conditions hold is entirely possible. We will examine two
+scenarios: one when these conditions hold, and one situation in which
+incorrectly assuming that they held led to ruin.</p>
+<p><strong>Risk neutrality is undermined by the possibility of
+ruin.</strong> In the previous section, we examined the
+triple-or-nothing game, where a risk-neutral approach can lead to zero
+wealth in the long term. The risk of ruin, or the loss of everything, is
+a major concern when acting risk neutral. In order for a situation to be
+free of risk of ruin, several conditions must be met. First, risks must
+be <em>local</em>, meaning they affect only a part of a system, unlike
+<em>global</em> <em>risks</em>, which affect an entire system. Second,
+risks must be <em>uncorrelated</em>, which means that the outcomes do
+not increase or decrease together, so that local risks do not combine to
+cause a global risk. Third, risks must be <em>tractable</em>, which
+means the consequences and probabilities can be estimated reasonably
+easily. Finally, there should be no <em>black swans</em>, unlikely and
+unforeseen events that have a significant impact. As we will see, all of
+these conditions are rarely met in a high-stakes environment, and there
+can be dire consequences to underestimating the severity of risks.</p>
+<p><strong>Risk neutrality is useful when the downside is
+small.</strong> It can be appropriate to act in a risk-neutral manner
+with regards to relatively inconsequential decisions. Suppose we’re
+considering buying tickets to a movie that might not be any good. The
+upside is an enjoyable viewing experience, and the downsides are all
+local: <span class="math inline">\(\$\)</span>20 and a few wasted hours.
+Since the stakes of this decision are minimal, it is reasonable not to
+overthink our risk attitude and just attend the movie if we think that,
+on average, we won’t regret this decision. However, if the decision at
+hand were that of purchasing a car on credit, we likely would not act
+hastily. The risk might not be localized but instead affect one’s entire
+life; if we can’t afford to make payments, we could go bankrupt.
+However, when potential losses are small, extreme risk aversion may be
+too safe a strategy. We would prefer not to leave expected value on the
+table.</p>
+<p><strong>Dangers of risk neutrality.</strong> Often, agents
+incorrectly assume that there is no risk of ruin. The failure of
+financial institutions during the 2008 financial crisis, which sparked
+the Great Recession, is a famous example of poor risk assessment. Take
+the American International Group (AIG), a multinational insurance
+company worth hundreds of billions of dollars <span class="citation"
+data-cites="mcdonald2015went"></span>. By 2008, they had accumulated
+billions of dollars worth of financial products related to the real
+estate sector. AIG believed that their investments were sufficiently
+uncorrelated, and therefore ruled out risk of ruin. However, AIG had not
+considered a black swan: in 2008, many financial products related to the
+housing market crashed. AIG’s investments were highly correlated with
+the housing market, and the firm needed to be bailed out by the Federal
+Reserve for <span class="math inline">\(\$\)</span>180 billion dollars.
+Even institutions with sophisticated mathematical analysis fail to
+identify risk of ruin—playing it safe might, unsurprisingly, be safer.
+Artificial agents may operate in environments where risk of ruin is a
+real and not a far-fetched possibility. We would not want a risk-neutral
+artificial agent endangering human lives because of a naive expected
+value calculation.<br />
+</p>
+<h3 id="why-be-risk-seeking">Why Be Risk Seeking?</h3>
+<p><strong>Risk-seeking behavior is not always unreasonable.</strong> As
+we previously defined, risk-seeking agents prefer to gamble for the
+chance of a larger outcome rather than settle for the certainty of a
+smaller one. In some cases, a risk-seeking agent’s behavior may be
+regarded as unreasonable. For example, gambling addicts take frequent
+risks that lower their utility and wellbeing in the long run. On the
+other hand, many individuals and organizations may be motivated to seek
+risks for a number of strategic reasons, which is the focus of this
+section. We will consider four situations as examples where agents might
+want to be risk seeking.</p>
+<p><strong>In games with many players and few winners, risk-seeking
+behavior can be justified.</strong> Consider a multi-player game where a
+thousand participants compete for a single grand prize, which is given
+to the player who accumulates the most points. An average player expects
+to only win <span class="math inline">\(\frac{1}{1000}^{th}\)</span>of
+the time. Even skilled players would reason that due to random chance,
+they are unlikely to be the winner. Therefore, participants may seek
+risks, in order to increase the <em>variance</em> of their point totals,
+while sacrificing the mean, so that they either end up with loads of
+points (thereby winning with higher probability) or no points at all
+(which is no worse for them than having some points). In the real world,
+selling products in a highly competitive marketplace is an analogous
+situation, where vendors may take risks to attract customers. If a
+hundred firms are selling effectively identical products, they might
+consider unusual or provocative forms of advertising. Bold marketing
+strategies can attract some customers but potentially alienate others.
+However, the vendor may feel that without taking this chance to stand
+out, they likely will not do enough business to turn a profit. Such
+agents would accept a negative expected value strategy.</p>
+<p><strong>Daring to rise.</strong> Agents in bad and deteriorating
+situations with a low chance of escaping can pursue risk-seeking
+strategies to great effect. Someone with a serious terminal illness may
+consider experimental treatments with uncertain outcomes. They may take
+the treatment even if told that it is most likely ineffective and might
+have serious side effects. Sports teams on the verge of losing often
+attempt risky strategies such as the “Hail Mary” in American football
+(long, high passes that are difficult to catch) or sending a goalkeeper
+forward in soccer towards the end of the game. Such strategies are
+likely to backfire and leave them in an even worse position overall—and
+therefore have a negative expected value, where value is the number of
+goals—but might also create the only possibility of winning.</p>
+<p><strong>Harnessing stressors through risk exposure.</strong> Instead
+of collapsing (or merely enduring) when unlikely, bad events occur, an
+<em>antifragile system</em> is one in which the risk taker actually
+benefits, becoming stronger and more resilient to future challenges
+<span class="citation" data-cites="taleb2012antifragile"></span>.
+Antifragility is therefore the property of being able to benefit from
+risk. Systems, institutions, or individuals that exhibit antifragility
+may thus seek risk exposure. The human body is antifragile in many
+contexts, including its response to pathogens. Illness is usually
+temporarily uncomfortable, but carries a small risk of greater
+complications. In combating a pathogen, the immune system not only
+responds to the active threat, but prepares itself to combat future
+illnesses quickly and effectively. The immune system becomes stronger
+through illness. We encourage children to step out of the house instead
+of solely living in sterilized environments. To a reasonable extent, we
+help them to face and deal with risks so that they become stronger.</p>
+<p><strong>Startups aiming to capture significant upside
+potential.</strong> When losing a small amount has a negligible or
+tolerable effect on an agent’s wellbeing, the agent may be willing to
+risk this small loss for a low-probability outcome of very large gain,
+even if the probability of success is sufficiently small to make this
+negative expected monetary value. This line of thinking is exemplified
+by early stage startups, which we now describe.</p>
+<h3 id="the-lifecycle-of-a-company">The Lifecycle of a Company</h3>
+<p><strong>A company’s appetite for risk over time is captured by a
+<em>sigmoid</em> (s-shaped) curve, which is initially convex and later
+concave.</strong> Knowing that an agent has a concave utility function
+if and only if they are risk averse, and a convex utility function if
+and only if they are risk seeking, we understand that an agent with a
+sigmoid utility function is initially risk seeking, and later becomes
+risk averse. This model may give us an idea of how AI developers will
+behave, depending on the scale of the organization and the maturity of
+the technology.<br />
+</p>
+<figure>
+
+</figure>
+<p><strong>A startup is by nature a risk-seeking venture.</strong> An
+entrepreneur has typically sacrificed a stable income, savings, and much
+of their leisure time in order to pursue a business. The new business,
+starting with little traction and few customers, has little to lose and
+much to gain. Given their sacrifices and the startup’s position, the
+entrepreneur is willing to fail repeatedly and return to baseline,
+prioritizing chances at rapid growth. By this logic, we may expect AI
+startups to prioritize chances at success over safety and avoiding
+reputational damage, and more focused on chances at success. However,
+since such companies operate on a smaller scale, risks are localized,
+meaning societal concerns are reduced. This is the convex part of the
+curve.</p>
+<p><strong>When a startup begins to gain traction, it grows rapidly,
+gaining customers and revenue.</strong> Gradually, more stakeholders
+like employees and investors begin to rely on the company, and its focus
+begins to shift toward preserving its proven success and preventing
+future losses, rather than risking a return to baseline to pursue more
+growth. During this transition, the curve begins to shift from convex to
+concave.</p>
+<p><strong>In the concave stage of a company, its growth tapers
+off.</strong> Eventually, the company nears the limits of its market and
+transformative resources, and is unable to risk its bottom line for
+further growth opportunities. Mature companies are risk averse, since
+employees, shareholders, and customers depend on their stability. They
+have much to lose and little to gain. A mature company’s consolation is
+that it may develop a project portfolio, with riskier projects sprinkled
+in amongst its core business operations that are not typically exposed
+to risk. Compared to startups, big tech companies may thus take a more
+meticulous approach to ensuring the safety of AI products prior to
+release, though this is not necessarily the case.</p>
+<p><strong>A company’s lifecycle demonstrates that an agent does not
+have only one unchanging risk attitude.</strong> An agent’s approach to
+risk is affected by their situation and decision context. Indeed,
+describing a person as risk averse or risk seeking will always be an
+oversimplification. As we will explore in the final section, people have
+dynamic risk attitudes that are influenced by many factors including
+biases, context, initial wealth, and more.</p>
+<p><strong>Summary.</strong> In this section, we defined the three
+attitudes towards risk—risk aversion, risk neutrality, and risk
+seeking—and examined their properties and shapes. There are reasons to
+favor each attitude, depending on the agent’s circumstances. We saw that
+risk aversion in the form of maximizing a logarithmic utility function
+outperforms all other investment strategies in the long run, that risk
+neutrality may be favorable when there is no risk of ruin, and that
+risk-seeking behavior is useful when we have little to lose. Humans, and
+the organizations we form, adopt different risk attitudes in different
+situations.<br />
+When designing AIs, developers may have significant ability to define
+and influence the utility function. As demonstrated in the corrigibility
+problem, issues in the utility function may be later difficult to
+rectify. Thus, we must carefully consider what risk attitudes a
+particular utility function embodies, and how that risk attitude would
+play out in different contexts.In particular, designing AIs to be
+risk-averse may help avoid many of the pitfalls of risk-neutrality that
+we discussed.<br />
+We are interested in describing a more accurate model of human decision
+making. In the next section, we will analyze some reasons why expected
+utility theory fails in this regard, and how we might improve our model.
+We will see that humans are systematically irrational and can be
+influenced by the context, and even the wording, in which choices are
+presented. These models are helpful for better understanding people,
+like those leading AI development or countries or those using AIs, who
+will behave in irrational ways.</p>
