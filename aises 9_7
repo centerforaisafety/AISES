@@ -1,0 +1,449 @@
+<h1 id="sec:int-gov">International Governance</h1>
+<p>In this section, we will discuss the international governance of AI
+systems. First, we will consider the problem of the international
+governance of AI. Then, we will discuss the basics of international
+governance, such as its stages and techniques. To determine what sort of
+international cooperation is possible and necessary, we will discuss
+four key questions that are important for understanding features of the
+emerging technologies we wish to regulate. Lastly, we will discuss
+possibilities for the international governance of AIs, separately
+considering AIs made by civilians and AIs made by militaries.</p>
+<p><strong>International regulation can promote global benefits and
+manage shared risks.</strong> It is important to actively regulate AI
+internationally. Firstly, it allows for the distribution of global
+benefits that advanced AIs can provide, such as improved healthcare,
+increased efficiency in transportation, and enhanced communication.
+Countries can work together to ensure that AI technologies are developed
+and deployed in a way that benefits humanity as a whole.<br />
+Secondly, international governance of AI is necessary to manage
+effectively the risks associated with its development. The risks from AI
+systems are not confined to the country in which they are developed; for
+instance, even if an AI system is developed in the US, it is likely to
+be deployed around the world, and so its impacts will be felt worldwide.
+Risks, such as the danger of progressively weaker national regulations
+in the absence of international standards and the potential for arms
+races in which actors cut corners on safety in order to compete, require
+international cooperation to avoid <span class="citation"
+data-cites="armstrong2016racing"></span>. From the point of view of
+public safety, the risks of negative effects of systems developed across
+borders is a simple and powerful argument for international
+governance.</p>
+<p><strong>International governance of powerful technologies is
+challenging.</strong> In general, international cooperation takes place
+through bilateral or multilateral negotiations between relevant
+countries, or through international organizations like the UN and its
+agencies. Even at the best of times and with the least contentious of
+issues, international cooperation is slow, difficult, and often
+ineffectual. Strained international relationships, such as frequent
+tensions between the US and China, make successful international
+standards even less likely.<br />
+For the regulation of AI, we can draw analogies to the regulation of
+other dangerous technologies such as nuclear, biological, and chemical
+weapons. While these analogies are imperfect, they give us reasons to be
+concerned about the prospects of international cooperation for AI. There
+are few convincing examples of agreements between major powers to limit
+the development of technologies for which there were no military
+substitutes. However, we can learn from both the failures and successes
+of past regulation: by asking questions about how AI is similar to past
+technologies, we can understand what form successful and unsuccessful
+governance might take.</p>
+<h2 id="forms-of-international-governance">Forms of International
+Governance</h2>
+<p>Before we can consider how to govern AIs internationally, we must
+understand the nature of international governance. We will first
+consider the different stages of international governance, from
+recognizing a problem exists to ensuring that its governance is
+effective. Then, we will consider a range of techniques used by
+international actors to ensure global governance.</p>
+<h3 id="stages">Stages</h3>
+<p>We can break international governance into four stages <span
+class="citation" data-cites="avant2010governs"></span>. First, issues
+must be recognized as requiring governance. Then, countries must come
+together to agree how to govern the issue. After that, they must
+actually do what was agreed. Lastly, countries’ actions must be
+monitored for compliance to ensure that governance is effective into the
+future.</p>
+<p><strong>Setting agendas.</strong> The first stage of governance is
+agenda-setting. This involves getting an issue recognized as a problem
+needing collective action. Actors have to convince others that an issue
+exists and matters. Powerful entities often want to maintain their power
+in the status quo, and thus deny problems or ignore their
+responsibilities for dealing with them. Global governance over an issue
+can’t start until it gets placed on the international agenda. Non-state
+actors like scientists and advocacy groups play a key role in
+agenda-setting by drawing attention to issues neglected by states; for
+example, scientists highlighted the emerging threat of ozone depletion,
+building pressure that led to the Montreal Protocol.<br />
+Agenda-setting makes an issue a priority for collective governance.
+Without it, critical problems can be overlooked due to political
+interests or inertia.</p>
+<p><strong>Policymaking.</strong> Once an issue makes the global agenda,
+collections of negotiating countries or international organizations
+often take the lead in policymaking. Organizations like the UN
+facilitate formal negotiations between states to develop policies, as
+seen at major summits on climate change. In other cases, organizations’
+own procedures shape policies over time; for instance, export control
+lists in the US like the International Traffic in Arms Regulations are
+expanded by regulators without Congressional action. Organizations
+manage competing country interests to build consensus on vague or
+detailed policies. For example, the International Civil Aviation
+Organization brought countries together to agree on aircraft safety
+standards. Effective policymaking by organizations converts identified
+issues into guidelines for collective action. Without actors taking
+responsibility for driving the policy process, implementation lacks
+direction.</p>
+<p><strong>Implementation and enforcement.</strong> After policies are
+made, the next stage is implementing them. High-level policies are
+sometimes vague, allowing flexibility to apply them; for example, the
+Chemical Weapons Convention relies on countries to enforce bans on
+chemical weapons domestically in the ways they find most effective.
+Governance controls how these policies are enforced; for instance, the
+International Atomic Energy Agency (IAEA) conducts inspections to verify
+compliance with the Treaty on the Non-Proliferation of Nuclear Weapons
+(NPT). Even if actors agree on policies, acting on them takes resources,
+information, and coordination. Effective implementation and enforcement
+through governance converts abstract rules into concrete actions.</p>
+<p><strong>Evaluation, monitoring, and adjudication.</strong> The final
+stage of governance is evaluating outcomes and monitoring compliance.
+The organization implementing policies may perform these oversight tasks
+itself. But often other actors play watchdog roles as third-party
+evaluators. It may be formally established who assesses compliance, like
+the Organization for the Prohibition of Chemical Weapons (OPCW). In
+other cases, evaluation is informal, with self-appointed civil society
+monitors. Both insiders and outsiders frequently evaluate progress
+jointly. For example, the UN, OPCW, and NGOs all track progress on
+chemical weapons disarmament. Clarifying who monitors and evaluates
+policies is important to ensure accountability and transparency. Without
+effective evaluation, it is difficult to learn from and improve on
+governance efforts over time.</p>
+<h3 id="techniques">Techniques</h3>
+<p>There are many ways in which countries and other international actors
+govern issues of global importance. Here, we consider six ways that past
+international governance of potentially dangerous technologies has taken
+place, ranging from individual actors making unilateral declarations to
+wide-ranging, internationally binding treaties.</p>
+<p><strong>Unilateral commitments.</strong> Unilateral commitments
+involve single actors like countries or companies making pledges
+regarding their own technology development and use. For example,
+President Richard Nixon terminated the US biological weapons program and
+dismissed its scientists in 1969, which was instrumental in creating the
+far-reaching Biological Weapons Convention in 1972. Leaders within
+governments and companies can make such announcements, either about what
+they would do in response to others’ actions or to place constraints on
+their own behavior. While not binding on others, unilateral commitments
+can change others’ best responses to a situation, as well as build
+confidence and set precedents to influence international norms. They
+also give credibility in pushing for broader agreements. Unilateral
+commitments lay the groundwork for wider collective action.</p>
+<p><strong>Norms and standards.</strong> International norms and
+technical standards steer behavior without formal enforcement. Norms are
+shared expectations of proper conduct, such as the norm of “no first
+use” for detonating nuclear weapons. Standards set technical best
+practices, like guidelines for the safe handling and storage of
+explosives. Often, norms emerge through public discourse and precedent
+while standards arise via expert communities. Even if they have no
+ability to coerce actors, strong norms and standards shape actions
+nonetheless. Additionally, they make it easier to build agreements by
+aligning expectations. Norms and standards are a collaborative way to
+guide technology development.</p>
+<p><strong>Bilateral and multilateral talks.</strong> Two or more
+countries directly negotiate over a variety of issues through bilateral
+or multilateral talks. These allow open discussion and
+confidence-building between rivals, such as granting the US and USSR the
+ability to negotiate over the size and composition of their nuclear
+arsenals during the Cold War. Talks aim to establish understandings to
+avoid technology risks like arms races. Regular talks build
+relationships and identify mutual interests. While non-binding
+themselves, ongoing dialogue can lay the basis for making deals. Talks
+are essential for compromise and consensus between nations.</p>
+<p><strong>Summits and forums.</strong> Summits and forums bring
+together diverse stakeholders for debate and announcements. These raise
+visibility on issues and build political will for action. Major powers
+can make joint statements signaling priorities, like setting goals on
+total carbon emissions to limit the effects of global warming. Companies
+and civil society organizations can announce major initiatives. Summits
+set milestones for progress and mobilize public pressure.</p>
+<p><strong>Governance organizations.</strong> International
+organizations develop governance initiatives with diverse experts and
+resources. Organizations like the IAEA propose principles and governance
+models, such as an inspection and verification paradigm for nuclear
+technology. They provide neutral forums to build agreements. Their
+technical expertise also assists implementation and capacity-building.
+While largely voluntary, organizations lend authority to governance
+efforts, often by virtue of each of their members delegating some
+authority to them. Their continuity sustains attention between summits.
+Organizations enable cooperation for long-term governance.</p>
+<p><strong>Treaties.</strong> Treaties offer the strongest form of
+governance between nations, creating obligations backed by potential
+punishment. Treaties have played a large role in banning certain risky
+military uses of technologies, such as the 1968 Treaty on the
+Non-Proliferation of Nuclear Weapons. They often contain enforcement
+mechanisms like inspections. However, compromising on enforceable rules
+is difficult, especially between rivals. Verifying compliance with
+treaties can be challenging. Still, the binding power of treaties makes
+them valuable despite their potential limitations.<br />
+In this section, we have considered the various stages of international
+governance, moving from recognizing an issue to solving it, as well as a
+wide variety of different ways that enable this. This is a large set of
+tools, so we will next examine four questions that inform our
+understanding of which tools are most effective for AI governance.<br />
+</p>
+<h2 id="four-questions-for-ai-regulation">Four Questions for AI
+Regulation</h2>
+<p>We will now consider four questions that are important for the
+regulation of dangerous emerging technologies:</p>
+<ol>
+<li><p>Is the technology defense-dominant or offense-dominant?</p></li>
+<li><p>Can compliance with international agreements be
+verified?</p></li>
+<li><p>Is it catastrophic for international agreements to fail?</p></li>
+<li><p>Can the production of the technology be controlled?</p></li>
+</ol>
+<p>Each of these highlights important strategic variables that we are
+uncertain about. They give us insights into the characteristics of the
+technology we are dealing with. Consequently, they help us illustrate
+what sorts of international cooperation may be possible and
+necessary.</p>
+<h3 id="is-the-technology-defense-dominant-or-offense-dominant">Is the
+Technology Defense-Dominant or Offense-Dominant?</h3>
+<p><strong>AI capabilities determine the need for international
+governance.</strong> Suppose we could use some AIs to prevent other AIs
+from doing bad things. There would be less need for an international
+regime to govern AIs. Instead, AI development would prevent the harms of
+AI development—such technology is called <em>defense-dominant</em>. By
+contrast, if AI is an offense-dominant technology—–if AIs cannot manage
+other AIs as the technological frontier advances–—then we will need
+alternative solutions <span class="citation"
+data-cites="garfinkel2021does"></span>. Unfortunately, we have reason to
+believe that AIs will be offense-dominant: military technologies usually
+are. It is difficult for AIs to protect against threats from other AIs;
+an AI that can make the creation of engineered pandemics easy is much
+more likely to exist than one that can comprehensively defend against
+pandemics. It is usually easier to cause harm than prevent it.<br />
+Nuclear weapons are a classic example of offense-dominant technologies:
+when asked how to detect a nuclear weapon smuggled into New York in a
+crate, Robert Oppenheimer replied “with a screwdriver” to open every
+crate <span class="citation" data-cites="panofsky2008panofsky"></span>.
+In other words, there was no feasible technological solution; a social
+solution was required. When dealing with offense-dominant technologies,
+we often need to develop external social measures to defend against
+them. Similarly, if AIs prove to be offense-dominant, they will also
+require social solutions to protect against their potential harmful
+impacts. Since the scale of the technology is global, this will likely
+require international governance.</p>
+<h3 id="can-compliance-with-international-agreements-be-verified">Can
+compliance with international agreements be verified?</h3>
+<p>Verification of compliance means agreements can regulate technology.
+After establishing rules about the development and use of AIs, we need
+to verify whether signatories are following them. If it is easy to
+evaluate this, then it is easier to implement such regimes
+internationally. In the case of nuclear weapons, nuclear tests could be
+verified by monitoring for large explosions. Using a nuclear weapon is
+impossible to do discreetly, enabling the norm of no first use.
+Unfortunately, verifying how and when AIs are being developed and used
+may be difficult to verify–—certainly more so than observing a nuclear
+explosion.<br />
+Verification is a difficult technical challenge. We lack clear methods
+for conducting verification, since we do not know what to test to ensure
+that models are safe. Progress can be made with serious effort; for
+instance, investing in the development of standard benchmarks and
+evaluations that promote transparency and enable shared knowledge that
+other developers are using responsible development practices (such as
+mitigating any power-seeking tendencies in AI systems). This will allow
+the creation of clear standards that can be verified with relative ease,
+without compromising the confidentiality of privileged technical
+details. However, this requires investment: we must make progress on our
+ability to verify characteristics of AIs before we can implement
+effective international regulation. Until then, establishing an
+equilibrium to deter the dangerous use of AIs may not be possible.</p>
+<h3 id="is-it-catastrophic-for-international-agreements-to-fail">Is It
+Catastrophic for International Agreements to Fail?</h3>
+<p><strong>Whether agreements failing is catastrophic changes how
+permissive they can be.</strong> Consider an example of an international
+treaty that sets limits on the amount of compute that organizations can
+use to train their AIs. If an AI trained with more compute than the
+specified threshold poses a significant risk of catastrophic
+consequences—–just as even a single nuclear weapon can have devastating
+effects–—then the treaty must focus on preventing this possibility
+entirely. In such cases, deviations from the agreement cannot be
+permitted. On the other hand, if most AIs trained with more compute than
+the threshold amount pose little immediate danger, we can adopt a more
+lenient approach. In this scenario, the agreement can prioritize
+monitoring and disincentivizing deviations through punishments after the
+fact. In general, if even one actor deviating from an agreement is
+dangerous, then it must be much stricter.<br />
+Of course, stricter agreements are more difficult to create. Many
+international agreements present small punishments for deviation or
+include escape clauses—–allowing occasional exemptions from
+obligations—–to encourage states to sign the agreements. If agreements
+about the development and use of AIs cannot contain such clauses, then
+it will be more difficult to create widespread agreement on them.</p>
+<h3 id="can-the-production-of-the-technology-be-controlled">Can the
+Production of the Technology Be Controlled?</h3>
+<p><strong>Controlling production changes which actors are needed in
+order to succeed with international regulation.</strong> Suppose the US
+could gain complete control of all the compute required to produce AIs.
+Then, the US would be able to create and implement regulations on AI
+development that apply globally, since they can withhold compute from
+any non-compliant actors. More generally, if a small group of
+safety-conscious countries can block actors from gaining control of the
+factors of production, then they can create an international regime
+themselves. This makes it much easier to achieve international
+governance since it doesn’t require the cooperation of many foreign
+actors with distinct interests.</p>
+<p>By answering these questions, we can make important decisions about
+international governance. First, we understand whether we need
+international governance or whether AIs will be able to mitigate the
+harmful effects of other AIs. Second, we determine whether international
+agreements are possible, since we need to verify whether actors are
+following the rules. Third, we can decide what features these agreements
+might have; specifically, we can determine whether they must be
+extremely restrictive to avoid catastrophes from a single deviation.
+Lastly, we consider who must agree to govern AI by understanding whether
+or not a few countries can impose regulations on the world. Even if some
+of these answers imply that we live in high-risk worlds, they guide us
+towards actions that help mitigate this risk. We can now consider what
+these actions might be.</p>
+<h2 id="what-can-be-included-in-international-agreements">What Can Be
+Included in International Agreements?</h2>
+<p>We will now consider the specific tools that might be useful for
+international governance of AI. We separate this discussion into
+regulating AIs produced by the private sector and AIs produced by
+militaries, since these have different features and thus require
+different controls. For civilian AIs, certification of compliance with
+international standards is the key precedent to follow. For military
+AIs, we can turn to non-proliferation agreements, verification schemes,
+or the establishment of AI monopolies.</p>
+<p><strong>Regulating the private sector is important and
+tractable.</strong> Much of the development of advanced AIs is seemingly
+taking place in the private sector. As a result, ensuring that private
+actors do not develop or misuse harmful technologies is a priority.
+Regulating civilian development and use is also likely to be more
+feasible than regulating militaries, although this might be hindered by
+overlaps between private and military applications of AIs (such as
+civilian defense contracts) and countries’ reluctance to allow an
+international organization access to their firms’ activities.</p>
+<p><strong>Certification has proven to be an effective tool.</strong>
+One proposal for civilian governance involves certifying jurisdictions
+for having and enforcing appropriate regulation <span class="citation"
+data-cites="trager2023international"></span>. Some international
+organizations, such as the International Civilian Aviation Organization
+(ICAO), the International Maritime Organization (IMO), and the Financial
+Action Task Force (FATF), follow a similar approach. These organizations
+leave enforcement in the hands of domestic regulators, but they check
+that domestic regulators have appropriate procedures. States have
+incentives to comply with the international organizations’ standards
+because of the ecosystems in which they are embedded. The Federal
+Aviation Administration, for instance, can deny access to US airspace to
+states that violate ICAO standards. In the case of AI, states might deny
+access to markets and factors of production to the firms of
+jurisdictions that violate international standards.</p>
+<p>Governing military AIs is different from governing civilian ones.
+Most of the options for governing AI used by militaries can be described
+as drawing from one of three regimes: <em>nonproliferation plus norms of
+use</em>, <em>verification</em>, or <em>monopoly</em>.</p>
+<p><strong>Option 1: Nonproliferation plus Norms of Use.</strong> The
+<em>nonproliferation</em> regime, alongside norms against first use of
+nuclear weapons–—along with a measure of luck—–enabled the world to
+survive the Cold War. This regime was centered around the
+Nonproliferation Treaty (NPT), an international agreement primarily
+concerned with stopping the spread of nuclear weapons, and the
+International Atomic Energy Agency (IAEA), an international organization
+for the governing of nuclear energy. In addition, nonproliferation was a
+pillar of super-power foreign policy during the Cold War <span
+class="citation" data-cites="gavin2015strategies"></span>. Both the US
+and USSR made many threats and promises, including guarantees of
+assistance to third parties, to reduce the likelihood of nuclear weapons
+being used anywhere. A similar international regime for AI could be
+similarly helpful; for instance, it could enable countries to cooperate
+to avoid AI races and encourage the development of safer AI by
+establishing standards and guidelines.</p>
+<p><strong>Nonproliferation may be insufficient.</strong> Suppose
+investing in AI continues to reliably increase system
+capabilities—–unlike with nuclear weapons, where the security gain from
+additional weapons of mass destruction is low. Then, countries who
+already have advanced AI will have strong incentives to continue to
+compete with each other. As we have explored, increasing AI capabilities
+is likely to increase AI risk. This means that nonproliferation plus
+norms of use might be insufficient for controlling advanced, weaponized
+AIs.</p>
+<p><strong>Norms may be difficult to establish.</strong> With nuclear
+weapons, the <em>norms</em> of “no first use” and “mutually assured
+destruction” created an equilibrium that limited the use of nuclear
+weapons. With AIs, this might be more difficult for a variety of
+reasons: for instance, AIs have a much broader field of capabilities (as
+opposed to a nuclear weapon detonating) and AIs are already being widely
+used. Monitoring or restricting the development or use of new AI systems
+requires deciding precisely which capabilities are prohibited. If we
+cannot decide which capabilities are the most dangerous, it is difficult
+to decide on a set of norms, which means we cannot rely on norms to
+encourage the development of safe AIs.</p>
+<p><strong>Option 2: Verification.</strong> Many actors might be happy
+to limit their own development of military technology if they can be
+certain their adversaries are doing the same. <em>Verification</em> of
+this fact can enable countries to govern each other, thereby avoiding
+arms races. The Chemical Weapons Convention, for instance, has
+provisions for verifying member states’ compliance, including
+inspections of declared sites.<br />
+When it comes to critical military technologies, however, verification
+regimes might need to be invasive; for instance, it might be necessary
+to have the authority to inspect <em>any</em> site in a country. It is
+unclear how they could function in the face of resistance from domestic
+authorities. For these reasons, a system which relies on inspection and
+similar police—like methods might be entirely infeasible—unless all
+relevant actors agree to mutually verify and govern.</p>
+<p><strong>Option 3: Monopoly.</strong> The final option is a
+<em>monopoly</em> over the largest-scale computing processes, which
+removes the incentive for risk-taking by removing adversarial
+competition. Such monopolies might arise in several ways. Established AI
+firms may benefit from market forces like economies of scale, such as
+being able to attract the best talent and invest profits from previous
+ventures into new R&amp;D. Additionally, they might have first-mover
+advantages from retaining customers or exercising influence over
+regulation. Alternatively, several actors might agree to create a
+monopoly: there are proposals like “CERN for AI” which call for this
+explicitly <span class="citation"
+data-cites="coyle2023preempting"></span>. Such organizations must be
+focused on the right mission, perhaps using tools from corporate
+governance, which is a non-trivial task. If they are, however, then they
+present a much easier route to safe AI than verification and
+international norms and agreements.</p>
+<h3 id="conclusions-about-international-governance">Conclusions About
+International Governance</h3>
+<p><strong>International governance is important and difficult.</strong>
+International regulation of AI is crucial to distribute its global
+benefits and manage associated risks. Since AI’s impacts are not
+restricted to its country of development, an internationally coordinated
+approach ensures that advantages, like improved healthcare, are
+accessible worldwide, and risks, such as weak regulations or safety
+shortcuts, are avoided. This approach will need to create awareness that
+a problem exists, create policies that tackle it, oversee the
+implementation of these policies, and ensure compliance with them
+through verification. It can use a wide variety of tools, including
+unilateral declarations, talks through meetings, forums, and
+international organizations, and the creation of norms, standards, and
+binding treaties. From experience with other dangerous technologies, we
+know that this global cooperation is challenging to achieve.</p>
+<p><strong>Understanding features of AI is required for effective
+governance.</strong> We need to understand whether AI is an
+offense-dominant technology which poses significant risks if even one
+powerful system is imperfect. This tells us whether we need
+international cooperation of AIs and, if we do, what sort of enforcement
+features such agreements would require to be effective. Further, we need
+to know whether we can verify whether AI development meets a
+comprehensive list of regulations and standards and control its
+production when it does not. If this is possible, we can conclude that
+international regulation of AI is possible, and might be possible with
+the cooperation of just a small group of safety-conscious countries.</p>
+<p><strong>Understanding the landscape, we can govern civilian and
+military AIs.</strong> Civilian AIs largely originate from the private
+sector, making certification of compliance with international standards
+vital. Existing organizations, like the International Civilian Aviation
+Organization, effectively use certification; states could restrict
+market access to firms that violate international AI standards. For
+military AIs, options include nonproliferation agreements plus
+established norms, verification of technology development between
+nations, or creating monopolies on large-scale computing. If the risks
+of advanced AI are as great as some fear, it is likely that the world
+needs such regulation. Each proposal will require overcoming serious
+challenges, both social and technical.</p>
