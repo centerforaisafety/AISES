@@ -1,4 +1,4 @@
-<h1 id="happiness">Happiness</h1>
+<h1 id="happiness"> 6.6 Happiness</h1>
 <p>Should we have AIs make people happy? In this section, we will
 explore the concept of happiness and its relevance in instructing AI
 systems. First, we will discuss why people may not always make choices
@@ -38,7 +38,7 @@ help people achieve happiness themselves. In general, by leveraging
 their impartiality and ability to analyze vast amounts of data, AI
 systems can strive to improve overall wellbeing on a broader scale,
 addressing the external factors that hinder individual happiness.</p>
-<h2 id="the-general-approach-to-happiness">The General Approach to
+<h2 id="the-general-approach-to-happiness"> 6.6.1 The General Approach to
 Happiness</h2>
 <h4 id="we-want-ais-that-increase-happiness-across-the-board.">We want
 AIs that increase happiness across the board.</h4>
@@ -247,7 +247,7 @@ QALYs, DALYs, and WELBYs provide different approximations of wellbeing
 that can be used to inform high-level decision-making and
 policy-setting.</p>
 </div>
-<h2 id="problems-for-happiness-focused-machine-ethics">Problems for
+<h2 id="problems-for-happiness-focused-machine-ethics"> 6.6.2 Problems for
 Happiness-Focused Machine Ethics</h2>
 <h4 id="happiness-is-a-subjective-experience.">Happiness is a subjective
 experience.</h4>
@@ -275,7 +275,7 @@ Even if properly trained AIs would not promote wireheading, the
 possibility that systems may pursue similar ideas because they want to
 maximize happiness might be concerning. One alternative that prevents
 this is the objective goods theory.</p>
-<h2 id="objective-goods">Objective Goods</h2>
+<h2 id="objective-goods"> 6.6.3 Objective Goods</h2>
 <h4 id="an-objective-good-is-good-for-us-whether-we-like-it-or-not.">An
 objective good is good for us whether we like it or not.</h4>
 <p>According to the objective goods theory, there are multiple different
