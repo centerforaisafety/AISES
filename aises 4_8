@@ -1,0 +1,516 @@
+<h2 id="tail-events">Tail Events</h2>
+<p>In the first few sections of this chapter, we discussed failure modes
+and hazards, equations for understanding the risks they pose, and
+principles for designing safer systems. We also looked at methods of
+analyzing systems to model accidents and identify hazards, and explored
+how different styles of analysis can be more helpful for complex
+systems.<br />
+The classic risk equation from the start of the chapter tells us that
+the level of risk of a specific adverse event depends on both the
+probability it will happen and its severity. A particular class of
+events, called <em>tail events</em>, have a very low probability of
+occurrence but a very high impact upon arrival. Tail events pose some
+unique challenges for assessing and reducing risk, but any competent
+form of risk management must attempt to address them. We will now
+explore these events and their implications in more detail.</p>
+<h4 id="introduction-to-tail-events">Introduction to Tail Events</h4>
+<p>Tail events are events that happen rarely, but have a considerable
+impact when they do. Consider some examples of historical tail
+events.<br />
+<em>The 2007-2008 financial crisis</em>: Fluctuations happen continually
+in financial markets, but crises of this scale are rare and have a large
+impact, with knock-on effects for banks and the general
+population.<br />
+<em>The COVID-19 pandemic</em>: There are many outbreaks of infectious
+diseases every year, but COVID-19 spread much more widely and killed
+many more people than most. It is rare for an outbreak to become a
+pandemic, but those that do will have a much larger impact than the
+rest.<br />
+<em>The Internet</em>: There are many technologies being developed all
+the time, but very few become so widely used that they transform society
+as much as the Internet has. This example illustrates that some tail
+events happen more gradually than others; the development and global
+adoption of the internet unfolded over decades, rather than happening as
+suddenly as the financial crisis or the pandemic. However, “sudden” is a
+relative term. If we look at history on the scale of centuries, then the
+transition into the Internet age can also appear to have happened
+suddenly.<br />
+<em>ChatGPT</em>: After being released in November 2022, ChatGPT gained
+100 million users in just two months <span class="citation"
+data-cites="hu2023chatgpt"></span>. There are many consumer applications
+on the internet, but ChatGPT’s user base grew faster than those of any
+others launched before it. Out of many deep learning models, ChatGPT was
+the first to go viral in this way. Its release also represented a
+watershed moment in the progress of generative AI, placing the issue
+much more firmly in the public consciousness.</p>
+<p><strong>We need to consider the possibility of harmful tail events in
+risk management.</strong> The last two examples—–the Internet and
+ChatGPT—–illustrate that the impacts of tail events are not always
+strictly negative; they can also be positive or mixed. However, <em>tail
+risks</em> are what we need to pay attention to when trying to engineer
+safer systems.<br />
+Since tail events are rare, it can be tempting to think that we do not
+need to worry about them. Indeed, some tail events have not yet happened
+once in human history, such as a meteorite strike large enough to cause
+global devastation, or an intense solar storm knocking out the power
+grid. Nonetheless, tail events have such a high impact that it would be
+unwise to ignore the possibility that they could happen. As noted by the
+political scientist Scott Sagan: “Things that have never happened before
+happen all the time.” <span class="citation"
+data-cites="sagan1993limit"></span></p>
+<p><strong>AI-related tail events could have a severe impact.</strong>
+As AIs are increasingly deployed within society, some tail risks we
+should consider include the possibility that an AI could be used to
+develop a bioweapon, or that an AI might hack a bank and wipe the
+financial information. Even if these eventualities have a low
+probability of occurring, it would only take one such event to cause
+widespread devastation; if one such event happened, it could largely
+define the overall outcome of AI deployment. For this reason, competent
+risk management must involve serious efforts to prevent tail events,
+however rare we think they might be.<br />
+</p>
+<h3 id="tail-events-can-greatly-affect-the-average-risk">Tail Events Can
+Greatly Affect the Average Risk</h3>
+<div class="wrapfigure">
+<p><span>r</span><span>9cm</span> <embed
+src="images/safety_engineering/median_and_tail.pdf"
+style="width:9cm" /></p>
+</div>
+<p><strong>A tail event often changes the mean but not the
+median.</strong> Figure <a href="#wrap-fig:tails"
+data-reference-type="ref"
+data-reference="wrap-fig:tails">[wrap-fig:tails]</a> can help us
+visualize how tail events affect the wider risk landscape. The graphs
+show data points representing individual events, with their placement
+along the x-axis indicating their individual impact.<br />
+In the first graph, we have numerous data points representing frequent,
+low-impact events: these are all distributed between 0 and 100, and
+mostly between 0 and 10. The mean impact and median impact of this
+dataset have similar values, marked on the x-axis.<br />
+In the second graph we have the same collection of events, but with the
+addition of a single data point of much higher impact—a tail event with
+an impact of 10,000. As indicated in the graph, the median impact of the
+dataset is approximately the same as before, but the mean changes
+substantially and is no longer representative of the general population
+of events.</p>
+<p><strong>We can also think about tail events in terms of the classic
+risk equation.</strong> Tail events have a low probability, but because
+they are so severe, we nonetheless evaluate the risk they pose as being
+large: <span
+class="math display">Risk(hazard) = <em>P</em>(hazard) × severity(hazard).</span>
+Depending on the exact values of probability and severity, we may find
+that tail risks are just as large as—–or even larger than–—the risks
+posed by much smaller events that happen all the time. In other words,
+although they are rare, we cannot afford to ignore the possibility that
+they might happen.</p>
+<p><strong>It is difficult to plan for tail events because they are so
+rare.</strong> Since we can hardly predict when tail events will happen,
+or even if they will happen at all, it is much more challenging to plan
+for them than it is for frequent, everyday events that we know we can
+expect to encounter. It is often the case that we do not know exactly
+what form they will take either.<br />
+For these reasons, we cannot plan the specific details of our response
+to tail events in advance. Instead, we have to plan how we will organize
+and develop an appropriate response, if and when it is necessary—–how
+relevant actors should convene to decide on and coordinate the most
+appropriate next steps, whatever the precise details of the event. This
+concept is called “planning to plan” and we will discuss this in more
+detail later in the chapter.</p>
+<h3 id="long-tailed-and-thin-tailed-distributions">Long-Tailed and
+Thin-Tailed Distributions</h3>
+<p>Having introduced tail events and briefly explained why they are
+important, we will now discuss the difference between the types of
+events that have long tails and the types of events that do not. First,
+we will briefly consider what frequency distributions are. Then, we will
+go through the characteristics of long-tailed and thin-tailed
+distributions, distinguishing between them and examining a few important
+features of long-tailed distributions wherein we see tail events.</p>
+<h4 id="frequency-distributions">Frequency distributions</h4>
+<p><strong>Frequency distributions tell us how common instances of
+different magnitude are.</strong> To understand the origins of tail
+events, we need to understand frequency distributions. These
+distributions tell us about the proportion of items in a dataset that
+have each possible value of a given variable. Suppose we want to study
+some quantity, such as the ages of buildings. We might plot a graph
+showing how many buildings there are in the world of each age, and it
+might look something like the generic graph shown in figure <a
+href="#fig:exponential" data-reference-type="ref"
+data-reference="fig:exponential">1.9</a>.<br />
+The x-axis would represent building age, while the y-axis would indicate
+the number of buildings of each age—the frequency of a particular age
+appearing in the dataset. If our graph looked like figure <a
+href="#fig:exponential" data-reference-type="ref"
+data-reference="fig:exponential">1.9</a>, it would tell us that there
+are many buildings that are relatively new, perhaps only a few decades
+or a hundred years old, fewer buildings that are several hundred or a
+thousand years old, and very few buildings, such as the Pyramids at
+Giza, that are several thousand years old.<br />
+</p>
+<figure id="fig:exponential">
+<embed src="images/safety_engineering/head_and_tail.pdf" />
+<figcaption>Head and tail of a distribution</figcaption>
+</figure>
+<p><strong>Many real-world frequency distributions have long
+tails.</strong> We can plot graphs like this for countless variables,
+from the size of different vertebrate species to the number of countries
+different people have visited. Each variable will have its own unique
+distribution, but many have the general property that there are lots of
+occurrences of a low value and relatively few occurrences of a high
+value. There are many vertebrate species with a mass of tens of
+kilograms, and very few with a mass in the thousands of kilograms; there
+are many people who have visited somewhere between 1-10 countries, and
+few people who have visited more than 50.<br />
+Frequency distributions can generally be categorized as being either
+long-tailed or thin-tailed. To develop our understanding of tail events,
+we need to understand the difference between these two categories.</p>
+<h4 id="long-tailed-distributions">Long-tailed distributions</h4>
+<p><strong>In long-tailed distributions, extreme occurrences can have a
+huge effect.</strong> Long-tailed distributions are those where values
+can vary so much that a single extreme instance or a few extreme
+instances can dominate the total value. In other words, the top few
+instances have a highly disproportionate impact. We will now explore
+some examples of variables with long-tailed distributions.<br />
+<em>Book sales</em>: Around 0.2% of books account for around 50% of
+total book sales. It is possible for a single, highly popular book to
+sell many more copies than many less popular books combined. Such a book
+might be termed a tail event within book sales.<br />
+<em>Music</em>: Around 1% of artists in the music industry earn around
+77% of the total revenue from all recorded music. A single, highly
+successful artist can earn much more than many lesser-known artists
+combined.<br />
+<em>Net worth</em>: Wealth distribution is a classic example of a
+long-tailed distribution. Global wealth reports frequently find that the
+richest 1% of people own close to half of the world’s total
+wealth.<br />
+<em>Web hits</em>: There are around 200 million actively maintained
+websites on the internet, but the vast majority receive very few
+visitors. A single, highly popular website, such as YouTube or Facebook,
+can receive many more visitors per day than many obscure websites put
+together.<br />
+<em>Earthquake magnitude</em>: The frequency distribution of earthquake
+magnitudes is described by the Gutenberg-Richter law. The exact
+distribution depends on the region and conditions, but typically, there
+are around 10,000 times more earthquakes of magnitude 3.0 or above than
+earthquakes of magnitude 7.0 or above. However, a single magnitude-7
+earthquake can do much more damage than all the magnitude-3 earthquakes
+combined.<br />
+<em>Crater diameter</em>: Most impact craters, resulting from collisions
+with other astronomical bodies, are relatively small. Out of around 200
+such craters discovered on Earth, about 120 are between 0 km and 10 km
+in diameter, while fewer than 10 have a diameter of 100 km or more.
+Moreover, the 5% largest craters have a combined diameter of around a
+third of the total diameter of all craters.<br />
+<em>Solar flares</em>: Solar flares of relatively low intensity are
+quite common, while solar flares of much higher intensity happen
+infrequently. However, studies have found that the few large flares
+mostly determine the total energy of all flares.<br />
+<em>Word frequency</em>: The vast majority of words in a given text
+appear infrequently. However, certain words, like “the,” “of,” and
+“and,” appear far more frequently than most others. The total
+appearances of a handful of these commonplace words can outweigh the
+total appearances of a large number of rarer words.<br />
+These variables are said to have a long tail because, in their frequency
+distributions, the rare, extreme events appear at very large values of
+x; the “tail” of the graph extends far along the x-axis. This is also
+why rare, high-impact events are called tail events; they exist in the
+tail end of a long-tailed distribution.<br />
+This type of phenomenon is sometimes referred to as the “Pareto
+principle” or “the 80-20 rule.” This asserts that, in many
+distributions, 20% of the instances contribute 80% of the total outcome.
+The exact figures depend on the variable, but the 80-20 rule is a
+well-known framing of the general concept of long-tailed
+distributions.</p>
+<h4 id="thin-tailed-distributions">Thin-tailed distributions</h4>
+<p><strong>In thin-tailed distributions, no event is extreme enough to
+have much effect.</strong> Thin-tailed distributions are those with
+relatively little variation between values, meaning that even the most
+extreme instances cannot substantially affect the overall landscape.
+Many human characteristics, such as height, general intelligence, and
+lifespan, have thin-tailed distributions. Note that these examples all
+follow something akin to a normal distribution, or bell curve, as shown
+in figure <a href="#heights" data-reference-type="ref"
+data-reference="heights">[heights]</a>. Normal distributions have a
+maximum density at the most common value and a tail on either side. The
+frequency decreases rapidly as we move away from the most common
+value.</p>
+<figure id="fig:excess">
+<embed src="images/safety_engineering/heights.pdf" />
+<figcaption>Normal distribution: human heights.<br />
+</figcaption>
+</figure>
+<p>All of these example characteristics vary between individuals, but
+the range of variation is much narrower than it is for variables with
+long-tailed distributions. For example, while human height varies, there
+has never been a person who was fifty feet tall. Even the tallest person
+in the world is not ten times taller than the shortest. This contrasts
+with long-tailed distributions such as book sales, where a bestseller
+can easily sell thousands of times more copies than a less popular
+book.<br />
+Following on from this, under thin-tailed distributions, no single
+instance is so extreme that it can account for a large share of the
+total among a group; the total height of the tallest 10% of people will
+not be significantly more than 10% of the total height of all people.
+Again, this contrasts with long-tailed distributions, where a small
+fraction of instances can account for most of the impact.<br />
+Thin-tailed distributions are so-called because, in their frequency
+distributions, the value on the y-axis rapidly approaches zero for
+highly extreme events; the “tail” of the graph quickly becomes
+vanishingly thin.</p>
+<h3
+id="heuristics-and-models-for-thinking-about-long-tails-and-thin-tails">Heuristics
+and Models for Thinking About Long Tails and Thin Tails</h3>
+<p><strong>Generally, long-tailed variables span orders of magnitude and
+thin-tailed ones do not.</strong> A general rule of thumb for
+distinguishing between long-tailed and thin-tailed variables is to ask:
+Does it still make sense if we add a zero at the end of a data point’s
+value? In other words, can the variable span multiple orders of
+magnitude? If the answer is no, it is more likely to be thin-tailed; if
+yes, the variable is more likely to be long-tailed.<br />
+We should note that this test is imperfect. Lifespan is a thin-tailed
+variable that spans orders of magnitude; some live to be over 100 years
+old, while others live for fewer than ten years. Nonetheless, this
+question usually indicates whether a variable has a long or thin
+tail.<br />
+</p>
+<div class="wrapfigure">
+<p><span>l</span><span>8.1cm</span> <embed
+src="images/safety_engineering/exp_vs_power.pdf"
+style="width:8.1cm" /></p>
+</div>
+<p><strong>Exponential distributions are thin-tailed
+distributions.</strong> Figure <a href="#wrap-fig:exponentials"
+data-reference-type="ref"
+data-reference="wrap-fig:exponentials">[wrap-fig:exponentials]</a> shows
+an exponential distribution (in black) and a power-law distribution (in
+grey). At first glance, they look quite similar. However, in the second
+and third graphs, we zoom in to the tail end of the graph and change the
+y-axis to a logarithmic scale. Here, we can see that, beyond a certain
+point, the exponential distribution decays significantly more quickly
+than the power-law distribution. As a rough heuristic, frequency
+distributions that decay more slowly than an exponential are generally
+considered long-tailed, while those that decay more quickly are
+considered thin-tailed.</p>
+<div class="flushleft">
+<p><strong>There is a significant difference between extreme events
+being unlikely and astronomicallyunlikely.</strong> In practical terms,
+foreventswith exponential distributions—and distributions that decay
+more quickly than them—the probability of extreme events rapidly becomes
+astronomically small. In fact, it becomes so small that, at some point,
+we can consider it essentially zero. Under distributions that decay more
+slowly than exponentials, such as the power law depicted, the
+probability of extreme events is still low. The important difference,
+however, is that they are possible. Under long-tailed distributions,
+they are rare but possible and have an enormous impact if they
+happen.<br />
+</p>
+</div>
+<p>Note that the frequency of extreme events depends on how we define
+“extreme,” namely, how far along the x-axis the event appears. We use
+“extreme” to describe events so far from the most common value that they
+can significantly impact the mean and represent a disproportionately
+large fraction of the total.<br />
+Returning to the risk equation, under thin-tailed distributions, the
+probability, <span class="math inline"><em>P</em></span>(hazard), of a
+tail event is so astronomically small that tail events do not affect the
+total risk much. Under long-tailed distributions, the probability, <span
+class="math inline"><em>P</em></span>(hazard), of a tail event is small,
+but the severity is so large that tail events can substantially alter
+the total risk.<br />
+<span
+class="math display">Risk(hazard) = <em>P</em>(hazard) × severity(hazard)</span></p>
+<p>Next, we will consider three specific differentiators of long- and
+thin-tailed distributions: excess conditional expectation,
+multiplicative vs. additive phenomena, and preferential attachment.</p>
+<p><strong>Excess conditional expectation is the margin between minimum
+and actual values.</strong> Another difference between long-tailed and
+thin-tailed distributions is the “excess conditional expectation” <span
+class="citation" data-cites="Marsden2017"></span>. This is the
+difference between the conditional expectation–—our best guess of how
+large something will be, given that we know that it is already above or
+below some threshold—–and the threshold itself. Only long-tailed
+distributions tend to have high excess conditional expectation. This
+concept is best illustrated with examples.</p>
+<p><strong>Example: Long Jump, Thin Tails.</strong> Imagine we are at a
+training session for long-jump athletes. The world record for the long
+jump is around 9 meters. If an athlete jumps 7 meters at the training
+session, then this represents a definite lower bound for their personal
+best: it is at least 7 meters. If we are then asked to guess their
+actual personal best, we might estimate that it could be close to 8
+meters.<br />
+If another athlete jumps 8 meters at the training session, then we might
+expect that their personal best is around 8.5 meters. If yet another
+athlete jumps 8.5 meters, then we might think their personal best is
+around 8.7 meters.<br />
+Figure <a href="#fig:excess" data-reference-type="ref"
+data-reference="fig:excess">1.11</a> shows a plot of the observed jumps
+as blue dots, and our best guess of each athlete’s personal best in
+dotted lines. Notice how, as the definite minimum value increases, we
+observe a shrinking margin between this lower bound and our estimate of
+the athlete’s actual maximum jump. This is because we know that the
+world record sets a definite limit on what any individual’s personal
+best could be. The closer the observed distance gets to the world
+record, the less room there is for the athlete to have jumped
+further.</p>
+<p><strong>Under thin tails, excess conditional expectation shrinks as
+values get more extreme.</strong> The margin between the known lower
+bound of something and the estimate of its actual value is the excess
+conditional expectation. Under thin-tailed distributions, this margin
+tends to shrink as the minimum value becomes more extreme. This is
+because there is a limit to how extreme it can become; as the lower
+bound approaches that limit, there is less room for the actual value to
+be different.<br />
+</p>
+<figure id="fig:excess">
+<embed src="images/safety_engineering/excess_exp.pdf" />
+<figcaption>Head and tail of a distribution</figcaption>
+</figure>
+<p><strong>Example: Lindy Effect, Long Tails.</strong> The Lindy Effect
+is the theory that, for certain types of entities, such as technologies
+and ideas, the longer they have been around, the longer we can expect
+them to survive into the future <span class="citation"
+data-cites="ord2023lindy"></span>.<br />
+For example, if a book has been in print for two years, then it might
+remain in print for another two years. However, most books do not “stand
+the test of time,” so we might not expect it to survive another 100
+years. Meanwhile, if another book has already been in print for 100
+years, then we might well expect it to remain so for another 100 because
+it has showed it is robust to the test of time; if it has already
+remained relevant and interesting for a long time, then it is more
+likely to continue to do so for a long time into the future.<br />
+Figure <a href="#fig:excess" data-reference-type="ref"
+data-reference="fig:excess">1.11</a> shows some hypothetical
+observations of the current ages of books as blue lines, and our
+estimate of what their actual lifespan will be in dotted lines. Notice
+how, as the known lower bound of lifespan increases, the amount of
+additional time we expect a book to survive also increases.</p>
+<p><strong>Under long tails, excess conditional expectation grows as
+values become more extreme.</strong> Under long tails, values of
+individual occurrences can grow much more extreme compared to the
+majority. There is not usually as clear a limit on long-tailed variables
+as on thin-tailed variables, so there is more room for the actual value
+to differ from the known minimum value, even if the latter is already
+extreme.<br />
+To differentiate between thin- and long-tailed distributions, we have
+now explored excess conditional distribution, a measure of the
+difference between our expectation of real-world values and the
+thresholds we observe them to exceed. Next, we will consider how
+variables arise: multiplicatively or additively.</p>
+<p><strong>Multiplicative and additive phenomena</strong> One factor in
+determining whether a variable is likely to have a long-tailed or
+thin-tailed distribution is whether it arises from a multiplicative or
+additive phenomenon. We will now look at the differences between these
+two categories of phenomena and why they affect how extreme a variable
+can become.</p>
+<p><strong>With multiplicative phenomena, one instance can multiply
+rapidly, triggering a cascade.</strong> When something is a
+multiplicative phenomenon, individual instances are not independent of
+one another. Virus infections are a classic example of this; one
+infection is likely to seed several more infections, each of which can
+go on to cause even more. Thus, a single infection can trigger a
+cascade, so a virus outbreak has the potential to scale up considerably.
+This is part of the reason why virus outbreaks have a long-tailed
+distribution, with pandemics representing tail events.</p>
+<p><strong>With additive phenomena, individual instances do not tend to
+multiply.</strong> When something is an additive phenomenon, individual
+events are largely independent of one another. Broken bones are an
+example of this; one person falling and breaking a bone does not usually
+trigger a cascade of other people falling and breaking bones. There may
+be instances where multiple broken bones occur together, for example in
+a car accident. However, in general, they are independently caused and
+do not have the potential to scale up as an infectious disease can. This
+means that tail events do not generally happen with this phenomenon;
+there is no single event where so many bones are broken that it
+significantly affects the average number of bones broken in
+accidents.</p>
+<p><strong>A high level of connectedness in a system gives rise to long
+tails.</strong> Another way of thinking about this is to consider the
+level of connectedness in the relevant system. Since viruses are
+infectious, instances of infection are strongly connected to one
+another. Broken bones are not infectious, so instances of them are
+relatively isolated from one another.<br />
+We have seen that multiplicative phenomena are much more likely to
+result in long-tailed variables than additive ones. Next, we discuss
+another model which gives rise to long tails: preferential
+attachment.</p>
+<p><strong>In preferential attachment processes, the more someone has,
+the more they will receive.</strong> Preferential attachment processes
+are mechanisms where the amount extra of something that an individual
+will receive is positively correlated with the amount they already have.
+This is also known as the “rich get richer” effect because it is often
+illustrated with the example of wealth distribution; the more money a
+person already has, the more money they can invest, and thus the more
+additional money they can make through returns on their investments.</p>
+<p>This effect applies to many phenomena within social systems. For
+example, if an author already has a lot of readers, there are more
+people who are likely to recommend their books to others. This author is
+therefore likely to gain more additional readers than someone else who
+starts out with fewer readers. Their sales can therefore snowball and
+become a tail event in the context of book sales. Similar mechanisms can
+also explain why a few social media platforms vastly outperform others,
+and why a few scientific papers receive many more citations than
+most.</p>
+<p><strong>Preferential attachment processes give rise to long tails
+<span class="citation" data-cites="Marsden2017"></span>.</strong> In
+situations where preferential attachment processes take place, events
+are not independent of one another. This is why things like book sales
+and wealth acquisition are multiplicative phenomena, where a single
+event can escalate to become much larger than most. By extension, this
+is why preferential attachment processes can produce long-tailed
+distributions.</p>
+<h3 id="a-caricature-of-long-tails-and-thin-tails">A Caricature of Long
+Tails and Thin Tails</h3>
+<p>To cement our understanding of long-tailed and thin-tailed
+distributions, we will now run through some comparisons between the two
+categories. Note that, with these statements, we are describing
+simplified caricatures of the two scenarios, for pedagogical
+purposes.<br />
+<strong>Under thin tails, the top few receive quite a proportionate
+share of the total.</strong> If we were to measure the heights of a
+group of people, the total height of the tallest 10% would not be much
+more than 10% of the total height of the whole group.<br />
+Under long tails, the top few receive a disproportionately large share
+of the total. For example, in the music industry, the revenue earned by
+the most successful 1% of artists represents around 77% of the total
+revenue earned by all artists.</p>
+<p><strong>Under thin tails, the total is determined by the whole
+group.</strong> The total height of the tallest 10% of people is not a
+very good approximation of the total height of the whole group. Most
+members need to be included to get a good measure of the total. This is
+called “tyranny of the collective.”</p>
+<p><strong>Under long tails, the total is determined by a few extreme
+occurrences.</strong> As discussed above, the most successful 1% of
+artists earn 77% of the total revenue earned by all artists. 77% is a
+fairly good approximation of the total. In fact, it is a better
+approximation than the revenue earned by the remaining 99% of artists
+would be. This is called “tyranny of the accidental.”</p>
+<p><strong>Under thin tails, the typical member of a group has an
+average value.</strong> Almost no members are going to be much smaller
+or much larger than the mean.</p>
+<p><strong>Under long tails, the typical member is either a giant or a
+dwarf.</strong> Members can generally be classified as being either
+extreme and high-impact or relatively insignificant.<br />
+Note that, under many real-world long-tailed distributions, there may be
+occurrences that seem to fall between these two categories. There may be
+no clear boundary dividing occurrences that count as insignificant from
+those that count as extreme. However, with these statements, we are
+describing a caricature of long tails, for pedagogical purposes.</p>
+<p><strong>Under thin tails, the impact of an event is not
+scalable.</strong> A single event cannot escalate to become much bigger
+than the average.</p>
+<p><strong>Under long tails, the impact of an event is
+scalable.</strong> A single event can escalate to become much bigger
+than many others put together.</p>
+<p><strong>Under thin tails, individual data points vary within a small
+range that is close to the mean.</strong> Even the data point that is
+furthest from the mean does not change the mean of the whole group by
+much.</p>
+<p><strong>Under long tails, individual data points can vary across many
+orders of magnitude.</strong> A single extreme data point can completely
+change the mean of the sample.</p>
+<p><strong>Under thin tails, we can predict roughly what value a single
+instance will take.</strong> We can be confident that our prediction
+will not be far off, since instances cannot stray too far from the
+mean.</p>
+<p><strong>Under long tails, it is much harder to predict even the rough
+value that a single instance will take.</strong> Since data points can
+vary much more widely, our best guesses can be much further off.</p>
