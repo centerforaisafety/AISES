@@ -1,0 +1,140 @@
+<h2 id="conclusion">Conclusion</h2>
+<p>In this chapter, we have explored various methods of analyzing and
+managing risks inherent in systems. We began by looking at how we can
+break risk down into two components: the probability and severity of an
+accident. We then went into greater detail, introducing the factors of
+exposure and vulnerability, showing how each affects the level of risk
+we calculate. By decomposing risk in this way, we can identify measures
+we can take to reduce risks. We also considered the concept of ability
+to cope and how it relates to risk of ruin.<br />
+Next, we described a metric of system reliability called the "nines of
+reliability". This metric refers to the number of nines at the beginning
+of a system’s percentage or decimal reliability. We found that adding
+another nine of reliability is equivalent to reducing the probability of
+an accident by a factor of 10, and therefore results in a tenfold
+increase in expected time before failure. A limitation of the nines of
+reliability is that they only contain information about the probability
+of an accident, but not its severity, so they cannot be used alone to
+calculate risk.<br />
+We then listed several safe design principles, which can be incorporated
+into a system from the design stage to reduce the risk of accidents. In
+particular, we explored redundancy, separation of duties, the principle
+of least privilege, fail-safes, antifragility, negative feedback
+mechanisms, transparency, and defense in depth.<br />
+To develop an understanding of how accidents occur in systems, we next
+explored various accident models, which are theories about how accidents
+happen and the factors that contribute to them. We reviewed three
+component failure accident models: the Swiss cheese model, the bow tie
+model, and fault tree analysis, and considered their limitations, which
+arise from their chain-of-events style of reasoning. Generally, they do
+not capture how accidents can happen due to interactions between
+components, even when nothing fails. Component failure models are also
+unsuited to modeling how the numerous complex interactions and feedback
+loops in a system can make it difficult to identify a root cause, and
+how it can be more fruitful to look at diffuse causality and systemic
+factors than specific events.<br />
+After highlighting the importance of systemic and human factors, we
+delved deeper into some examples of them, highlighting regulations,
+social pressure, competitive pressures, safety costs, and safety
+culture. We then moved on to look at systemic accident models that
+attempt to take these factors into consideration. Normal Accident Theory
+states that accidents are inevitable in complex and tightly coupled
+systems. On the other hand, HRO theory points to certain high
+reliability organizations as evidence that it is possible to reliably
+avoid accidents by following five key management principles:
+preoccupation with failure, reluctance to simplify interpretations,
+sensitivity to operations, commitment to resilience, and deference to
+expertise. While these features can certainly contribute to a good
+safety culture, we also looked at the limitations and the difficulties
+in replicating some of them in other systems.<br />
+Rounding out our discussion of systemic factors, we outlined three
+accident models that are grounded in complex systems theory. Rasmussen’s
+Risk Management Framework (RMF) identifies six hierarchical levels
+within a system, identifying actors at each level who share
+responsibility for safety. The RMF states that a system’s operations
+should be kept within defined safety boundaries; if they migrate outside
+of these, then the system is in a state where an event at the sharp end
+could trigger an accident. However, the factors at the blunt end are
+also responsible, not just the sharp-end event.<br />
+Similarly, STAMP and the related STPA analysis method view safety as
+being an emergent property of an organization, detailing different
+levels of organization within a system and defining the safety
+constraints that each level should impose on the one below it.
+Specifically, STPA builds models of: the organizational safety
+structure; the dynamics and pressures that can lead to deterioration of
+this structure; the models of the system that operators must have, and
+the necessary communication to ensure these models remain accurate over
+time; and the broader social and political context the organization
+exists within.<br />
+Finally, Dekker’s Drift into Failure (DIF) model emphasizes
+decrementalism: the way that a system’s processes can deteriorate
+through a series of minor changes, potentially causing the system’s
+migration to an unsafe state. This model warns that each change may seem
+insignificant alone, so organizations might make these changes one at a
+time in isolation, creating a state of higher risk once enough changes
+have been made.<br />
+As a final note on the implications of complexity for AI safety, we
+considered the broader societal context within which AI technologies
+will function. We discussed how, in this uncontrolled environment,
+different, seemingly lower-level risks could interact to produce
+catastrophic threats, while chaotic circumstances may increase the
+likelihood of AI-related accidents. For these reasons, it makes sense to
+consider a wide range of different threats of different magnitudes in
+our approach to mitigating catastrophic risks, and we may find that
+broader interventions are more fruitful than narrowly targeted
+ones.<br />
+In the second half of this chapter, we focused in on a particular class
+of events called tail events and black swans, and explored what they
+mean for risk analysis and management. We began this discussion by
+contrasting long-tailed and thin-tailed distributions; long-tailed
+distributions are subject to the possibility of rare, highly extreme
+events that can dominate the overall impact, while in thin-tailed
+distributions, most events are around the same order of magnitude and no
+single event can determine the outcome. We also looked at some general
+characteristics of different systems, finding that highly connected
+systems can give rise to multiplicative phenomena, allowing events to
+scale more extremely and become tail events.<br />
+Next, we described black swans as a subset of tail events that are not
+only rare and high-impact, but also particularly difficult to predict.
+These events seem to happen largely “out of the blue” for most people,
+and may indicate that our understanding of a situation is inaccurate or
+incomplete. These events are also referred to as unknown unknowns, which
+we contrasted with known unknowns, which we may not fully understand,
+but are at least aware of.<br />
+We examined how tail events and black swans can pose particular
+challenges for some traditional approaches to evaluating and managing
+risk. Certain methods of risk estimation and cost-benefit analysis rely
+on historical data and probabilities of different events. However, tail
+events and black swans are rare, so we may not have sufficient data to
+accurately estimate their likelihood, and even a small change in
+likelihood can lead to a big difference in expected outcome.<br />
+We also considered the delay fallacy, showing that waiting for more
+information before acting might mean waiting until it is too late. We
+discussed how an absence of evidence of a risk cannot necessarily be
+taken as evidence that the risk is absent. By looking at hypothetical
+situations where catastrophes are avoided thanks to safety measures, we
+explained how the preparedness paradox can make these measures seem
+unnecessary, when in fact they are essential.<br />
+Having explored the importance of taking tail events and black swans
+into consideration, we identified some circumstances that indicate we
+may be at risk of these events. We concluded that it is reasonable to
+believe AI technologies may pose such a risk, due to the complexity of
+AI systems and the systems surrounding them, the highly connected nature
+of the social systems they are likely to be embedded in, and the fact
+that they are relatively new, meaning we may not yet fully understand
+all the ways they might interact with their surroundings.<br />
+Finally, we summarized some of the actions that can be taken to reduce
+the risk of black swan events transpiring. These include techniques for
+putting more black swans on our radar, or turning them into known
+unknowns, such as conducting exercises to improve our safety
+imagination, engaging in horizon scanning, and employing red teams
+tasked with finding ways to sabotage a system. We reiterated the
+importance of incorporating safe design principles and improving general
+systemic factors for improving safety.<br />
+We also described how following the precautionary principle can reduce
+our exposure to risks, and how improving decision-making processes
+around the use of AI and changing researchers’ incentives can improve
+prospects. In summary, while this may be a new and unfamiliar aspect of
+the world, posing many novel challenges, there is much that can be done
+to increase the likelihood that this technology is used in a safe way,
+for the benefit of humanity rather than to its detriment.</p>
