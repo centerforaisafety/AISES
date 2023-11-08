@@ -1,5 +1,5 @@
-<h1 id="conflict-and-cooperation-1"> 8.4 Conflict and Cooperation</h1>
-<h2 id="overview-2"> 8.4.1 Overview</h2>
+<h1 id="conflict-and-cooperation">Conflict and Cooperation</h1>
+<h2 id="overview">Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -16,26 +16,26 @@ rather than cooperate in a competitive situation. This may lead to
 violence in some cases, but not necessarily all. Our goal is to uncover
 how, despite being costly, conflict can sometimes be a rational choice
 nevertheless.<br />
-Microorganisms, humans, states, and nations all cooperate and get into
-conflict. In nature, we can observe cooperation in the form of social
-insect behavior, pack hunting, symbiotic relationships, and much more.
-In humans, we encounter cooperation in several areas including
-coordinated disaster responses, international peace negotiations, and
-community service, among many others. By contrast, conflict in both
-human and non-human organisms can occur as a consequence of resource
-competition, territorial disputes, mating access, the maintenance of
-social dominance hierarchies, including several other factors.
-Importantly, the mechanisms and factors that motivate cooperation and
-conflict are prevalent in various environments. Thus, we have good
-reason to suppose that AI agents will be similarly influenced by these
-various mechanisms and factors as they decide to cooperate or conflict
-with humans and other AIs.<br />
+Microorganisms, humans, states, and nations all cooperate and conflict
+in different situations. In nature, we can observe cooperation in the
+form of social insect behavior, pack hunting, symbiotic relationships,
+and much more. In humans, we encounter cooperation in several areas
+including coordinated disaster responses, international peace
+negotiations, and community service, among many others. By contrast,
+conflict in both human and non-human organisms can occur as a
+consequence of resource competition, territorial disputes, mating
+access, the maintenance of social dominance hierarchies, including
+several other factors. Importantly, the mechanisms and factors that
+motivate cooperation and conflict are prevalent in various environments.
+Thus, we have good reason to suppose that AI agents will be similarly
+influenced by these various mechanisms and factors as they decide to
+cooperate or conflict with humans and other AIs.<br />
 We will begin our discussion of conflict with concepts in bargaining
-theory. We then examine some specific "conflict factors": features of
-competitive situations that make it harder to reach negotiated
-agreements or avoid confrontation. We first explore five conflict
-factors from bargaining theory. These can be divided into the following
-two groups: <strong>Commitment problems.</strong> According to
+theory. We then examine some specific features of competitive situations
+that make it harder to reach negotiated agreements or avoid
+confrontation. We begin with five factors from bargaining theory that
+can influence the potential for conflict. These can be divided into the
+following two groups: <strong>Commitment problems.</strong> According to
 bargaining theory, one reason bargains may fail is that some of the
 agents making an agreement may have the ability and incentive to break
 it. We explore three examples of commitment problems.</p>
@@ -65,10 +65,9 @@ misrepresent the truth intentionally. Even the expectation of
 disinformation can make it more difficult to reach a negotiated
 settlement.</p></li>
 </ul>
-<p><strong>Conflict factors outside of bargaining theory.</strong>
-Bargaining frameworks do not encompass all possible reasons why agents
-may decide to conflict with one another. We end by exploring one such
-conflict factor:</p>
+<p><strong>Factors outside of bargaining theory.</strong> Bargaining
+frameworks do not encompass all possible reasons why agents may decide
+to conflict with one another. We end by exploring one example:</p>
 <ul>
 <li><p><em>Inequality</em>: under conditions of inequality, agents may
 fight for access to a larger share of available resources or a desired
@@ -123,14 +122,17 @@ require cooperation.</p></li>
 imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-<h2 id="conflict"> 8.4.2 Conflict</h2>
+<h2 id="conflict">Conflict</h2>
 <h3 id="introduction-to-conflict">Introduction to Conflict</h3>
-<p>Conflict is common in nature. Organisms engage in conflict to
-maintain social dominance hierarchies, to hunt, and to defend territory.
-People also engage in conflict. Throughout human history, wars are
-common, often occurring as a consequence of power-seeking behavior,
-which inspired conflict over attempts at aggressive territorial
-expansion or resource acquisition.<br />
+<p>In this section, we use the term “conflict” to describe the decision
+to defect rather than cooperate in competitive situations. This often,
+though not always, involves some form of violence, and destroys some
+amount of value. Conflict is common in nature. Organisms engage in
+conflict to maintain social dominance hierarchies, to hunt, and to
+defend territory. People also engage in conflict. Throughout human
+history, wars are common, often occurring as a consequence of
+power-seeking behavior, which inspired conflict over attempts at
+aggressive territorial expansion or resource acquisition.<br />
 We begin this section by discussing bargaining theory, which lays the
 groundwork for understanding why it may be rational for agents to engage
 in conflict. Next, we turn to the specific factors that may motivate
@@ -179,24 +181,22 @@ Following this, we discuss the notion of commitment problems, which
 occur when agents cannot reliably commit to an agreement or have
 incentives to break it. Commitment problems increase the probability of
 conflict, and are motivated by specific factors, such as power shifts,
-first strike advantages, and issue indivisibility–—factors we discuss in
-the section. When any one of these factors is present, it may shrink or
-destroy the bargaining range, which represents the set of possible
-outcomes that both agents involved in a conflict find acceptable through
-negotiation. We conclude this section by highlighting that AIs may also
-find it instrumentally rational to pursue conflict, for the reasons we
-have just explored. Other factors, such as information problems and
-incentives to misrepresent, as well as inequality can also increase the
-probability of conflict, which we will discuss in the <em>Conflict
-Factors</em> section.</p>
-<p><strong>Bargaining theory.</strong> Conflict is fundamentally costly
-for winners and losers alike. However, it may sometimes be rational for
-agents to engage in conflict. <em>Bargaining theory</em> describes why
-different agents may engage in conflict. Rational agents, due to
-pressures to outcompete rivals or preserve their power and resources,
-will sometimes prefer conflict, especially when they cannot reliably
-predict the outcomes of conflict scenarios. When rational agents assume
-that potential rivals have the same mindset, the probability of conflict
+first strike advantages, and issue indivisibility. We then explore how
+information problems and inequality can also increase the probability of
+conflict.</p>
+<p><strong>Bargaining theory.</strong> When agents compete for something
+they both value, they may either negotiate to reach an agreement
+peacefully, or resort to more forceful alternatives such as violence. We
+call the latter outcome "conflict," and can view this as the decision to
+defect rather than cooperate. Unlike peaceful bargaining, conflict is
+fundamentally costly for winners and losers alike. However, it may
+sometimes be the rational choice. <em>Bargaining theory</em> describes
+why rational agents may be unable to reach a peaceful agreement, and
+instead end up engaging in violent conflict. Due to pressures to
+outcompete rivals or preserve their power and resources, agents
+sometimes prefer conflict, especially when they cannot reliably predict
+the outcomes of conflict scenarios. When rational agents assume that
+potential rivals have the same mindset, the probability of conflict
 increases.</p>
 <p><strong>The unitary actor assumption.</strong> We tend to assume that
 a group is a single entity, and that its leader is only interested in
@@ -211,10 +211,11 @@ assumption, they may be less likely to cooperate with others since what
 is good for one party’s welfare may not necessarily be good for
 another’s.</p>
 <p><strong>The bargaining range.</strong> Whether or not agents are
-likely to cooperate will be influenced by whether their bargaining
-ranges overlap. The bargaining range represents the set of possible
-outcomes that both agents involved in a conflict find acceptable through
-negotiation. Recall the lawsuit example: a bargaining settlement “<span
+likely to reach a peaceful agreement through negotiation will be
+influenced by whether their bargaining ranges overlap. The bargaining
+range represents the set of possible outcomes that both agents involved
+in a competition find acceptable through negotiation. Recall the lawsuit
+example: a bargaining settlement “<span
 class="math inline"><em>x</em></span>” is only acceptable if it falls
 between $14,000 and $34,000. Any settlement “<span
 class="math inline"><em>x</em></span>” below $14,000 will be rejected by
@@ -234,65 +235,58 @@ act rationally in the pursuit of their goals (so, at the least, we model
 them as unitary actors or as having unity of purpose). In the process of
 pursuing and fulfilling their goals, AI agents may encounter potential
 conflict scenarios, just as humans do. In certain scenarios, AIs may be
-motivated to pursue conflict over a peaceful resolution, for the reasons
-we have just explored. In doing so, they may be subject to the same
-commitment problems and conflict factors that humans encounter, and use
-them to motivate their decisions to instigate conflict. If it were
-instrumentally rational for AIs to pursue conflict, they may be
-influenced by the commitment problems and factors we discuss in the
-following section.</p>
+motivated to pursue violent conflict over a peaceful resolution, for the
+reasons we now explore.</p>
 <h3 id="sec:commitment problems">Commitment problems</h3>
 <p>Many conflicts occur over resources, which are key to an agent’s
 power. Consider a bargaining failure in which two agents bargain over
 resources in an effort to avoid war. If agents were to acquire these
 resources, they could invest them into military power. As a result,
-neither side will be credible if they commit that they will only use
-them for peaceful purposes. This is one instance of a <em>commitment
-problem</em> <span class="citation"
+neither can credibly commit to use them only for peaceful purposes. This
+is one instance of a <em>commitment problem</em> <span class="citation"
 data-cites="fearon1995rationalist"></span>, which is when agents cannot
 reliably commit to an agreement, or when they may even have incentives
 to break an agreement. Commitment problems are usually motivated by
 specific factors, such as power shifts, first-strike advantages, and
-issue indivisibility, which may make conflict a rational choice.
-Ultimately, when such factors are present, it becomes more difficult for
-agents to establish a common ground over which to bargain, thereby
-increasing the probability of conflict. It is important to note that our
-discussion of these commitment problems assumes anarchy: we take for
-granted that contracts are not enforceable in the absence of a higher
-governing authority. <strong>Power shifts overview.</strong> When there
-are imbalances between parties’ capabilities such that one party becomes
-stronger than the other, <em>power shifts</em> can occur. Such
-imbalances can arise as a consequence of several factors including
-technological and economic advancements, increases in military
-capabilities, as well as changes in governance, political ideology, and
-demographics. In the context of AIs, power could shift if AIs become
-more intelligent or have a change in resources. Individual parties may
-initially be able to avoid conflict by arriving at a peaceful and
-mutually beneficial settlement with their rivals. However, if they or
-their rival’s power increases after this settlement has been made, the
-stronger party may end up benefiting from it more than the weaker party.
-Thus, we encounter the following commitment problem: a negotiated
-settlement might work today but it remains uncertain whether it will
-work in the future.</p>
+issue indivisibility, which may make conflict a rational choice. It is
+important to note that our discussion of these commitment problems
+assumes anarchy: we take for granted that contracts are not enforceable
+in the absence of a higher governing authority. <strong>Power shifts
+overview.</strong> When there are imbalances between parties’
+capabilities such that one party becomes stronger than the other,
+<em>power shifts</em> can occur. Such imbalances can arise as a
+consequence of several factors including technological and economic
+advancements, increases in military capabilities, as well as changes in
+governance, political ideology, and demographics. In the context of AIs,
+power could shift if AIs become more intelligent or have a change in
+resources. Individual parties may initially be able to avoid violent
+conflict by arriving at a peaceful and mutually beneficial settlement
+with their rivals. However, if they or their rival’s power increases
+after this settlement has been made, the stronger party may end up
+benefiting from it more than the weaker party. Thus, we encounter the
+following commitment problem: the rising power cannot commit not to
+exploit their advantage in the future, incentivizing the declining power
+to opt for conflict in the present.</p>
 <p><strong>Example: The US vs China.</strong>n China has been investing
-heavily in its military. This has included the acquisition of new
-technologies, such as nuclear and supersonic missiles, as well as
-drones. The future is uncertain, but if this trend continues, it could
-pose a commitment problem. If China were to gain a military advantage
-over the US, this would shift the balance of power. This possibility
-undermines the stability of bargains struck today between the US and
-China, because China’s expected outcome from conflict may increase in
-the future if they become more powerful. The US may expect that
-agreements made with China about cooperating on AI regulation could lose
-enforceability later if there is a significant power shift.</p>
-<p>This situation can be modeled using the concept of “Thucydides’
-Trap.” The ancient Greek historian Thucydides suggested that the
-contemporary conflict between Sparta and Athens might have been the
-result of Athens’ increasing military strength, and Sparta’s fear of the
-looming power shift. Though this analysis of the Peloponnesian War is
-now much-contested, this concept can nevertheless serve to understand
-how a rising power threatening the position of an existing superpower in
-the global order can increase the potential for conflict rather than
+heavily in its military. This has included the acquisition or expansion
+of its capabilities in technologies such as nuclear and supersonic
+missiles, as well as drones. The future is uncertain, but if this trend
+continues, it could pose a commitment problem. If China were to gain a
+military advantage over the US, this would shift the balance of power.
+This possibility undermines the stability of bargains struck today
+between the US and China, because China’s expected outcome from conflict
+may increase in the future if they become more powerful. The US may
+expect that agreements made with China about cooperating on AI
+regulation could lose enforceability later if there is a significant
+power shift.<br />
+This situation can be modeled using the concept of “Thucydides’ Trap.”
+The ancient Greek historian Thucydides suggested that the contemporary
+conflict between Sparta and Athens might have been the result of Athens’
+increasing military strength, and Sparta’s fear of the looming power
+shift. Though this analysis of the Peloponnesian War is now
+much-contested, this concept can nevertheless serve to understand how a
+rising power threatening the position of an existing superpower in the
+global order can increase the potential for conflict rather than
 peaceful bargaining.</p>
 <p><strong>Effect on the bargaining range.</strong> Consider two agents,
 A and B. A is always weaker than B, but relative to the time period, A
@@ -307,8 +301,8 @@ peaceful but unreasonable settlement. Consider the 1956 Suez Crisis.
 Egypt was seen as a rising power in the Middle East, having secured
 control over the Suez canal. This threatened the interests of the
 British and French governments in the region, who responded by
-instigating a preventive war. To safeguard their diminishing influence,
-the British and French launched a swift and successful military
+instigating war. To safeguard their diminishing influence, the British
+and French launched a swift and initially successful military
 intervention.</p>
 <p><strong>Power shifts and AI.</strong> AIs could shift power as they
 gain greater intelligence and more access to resources. Recall the
@@ -354,12 +348,18 @@ new technology and files a patent application, they gain a first-strike
 advantage by ensuring that their product will not be copied or
 reproduced by other companies. If a rival company does create a similar
 technology and later files a patent application, conflict can emerge
-when the original company claims patent infringement. On the
-international level, we note similar dynamics, such as in the case of
-Pearl Harbor. To reduce the threat posed by the US’s Pacific fleet, the
-Japanese initiated a devastating surprise attack on the US naval base at
-Pearl Harbor. The attack was successful in securing a first-strike
-advantage for Japan, but it also ensured the US’s entry into WWII.<br />
+when the original company claims patent infringement.<br />
+On the international level, we note similar dynamics, such as in the
+case of Pearl Harbor. Though Japan and the US were not at war in 1941,
+their peacetime was destabilized by a commitment problem: if one nation
+were to attack the other, they would have an advantage in the ensuing
+conflict. The US’ Pacific fleet posed a threat to Japan’s military plans
+in Southeast Asia. Japan had the ability to launch a surprise long-range
+strategic attack. Thus, neither the US nor Japan could credibly commit
+not to attack the other. In the end, Japan struck first, bombing the US
+battleships at the naval base at Pearl Harbor. The attack was successful
+in securing a first-strike advantage for Japan, but it also ensured the
+US’s entry into WWII.<br />
 </p>
 <table>
 <caption>A pay-off matrix for competitors choosing whether to defend or
@@ -576,11 +576,13 @@ Similarly, creating information channels such as summits can increase
 understanding and coordination; even if countries do not agree on shared
 commitments, the discussions on the sidelines can reduce
 misunderstandings and the risk of conflict.</p>
-<p><strong>Disinformation overview.</strong> TEXT.Importantly, stronger
-parties recognize that weaker parties have an incentive to
-misrepresent–—they might bluff to get more out of the deal. Sometimes,
-it is unclear how strong a rival is and what their intentions may be
-when there are information problems.<br />
+<p><strong>Disinformation overview.</strong> Unlike misinformation,
+where false information is propagated without deceptive intention,
+disinformation is the <em>deliberate</em> spreading of false
+information: the intent is to mislead, deceive or manipulate. Here, we
+explore why competitive situations may motivate agents to try to mislead
+others or misrepresent the truth, and how this can increase the
+probability of conflict.<br />
 <strong>Examples: employment and the real estate industry.</strong>
 Throughout labor markets, employers and job seekers often encounter
 disinformation problems. Employers may intentionally withhold
@@ -607,10 +609,10 @@ be as strong as they think they are. Consider the Sino-Indian war in
 this respect. At the time, India had perceived military superiority
 relative to China. But in 1962, the Chinese launched an attack on the
 Himalayan border with India, which demonstrated China’s superior
-military capabilities, and triggered the Sino-Indian war. Therefore,
-stronger parties prefer conflict when they believe rivals are bluffing,
-whereas weaker parties prefer conflict when they believe rivals are not
-as powerful as the latter think they are.<br />
+military capabilities, and triggered the Sino-Indian war. Thus, stronger
+parties may prefer conflict if they believe rivals are bluffing.
+Whereas, weaker parties may prefer conflict if they believe rivals are
+not as powerful as they believe themselves to be.<br />
 <strong>Disinformation and AI.</strong> AIs themselves may have
 incentives to misrepresent the facts. For example, the agent “Cicero,”
 developed by Meta, is capable of very high performance in the board
@@ -622,8 +624,8 @@ are conversing with a human. The ability for AIs to misrepresent
 information successfully is only likely to increase in future. This
 could exacerbate disinformation problems, and thus contribute to greater
 risk of conflict by eroding the potential for peaceful negotiation.</p>
-<h3 id="conflict-factors-outside-of-bargaining-theory">Conflict factors
-outside of bargaining theory</h3>
+<h3 id="factors-outside-of-bargaining-theory">Factors outside of
+bargaining theory</h3>
 <p><strong>Inequality is another factor that is highly predictive of
 conflict.</strong> Crime is a form of conflict. Income and educational
 inequality are robust predictors of violent crime <span class="citation"
@@ -690,8 +692,8 @@ individuals who stop caring about acquiring more resources and expanding
 their influence; natural selection favors selfish behavior (for more
 detail, see <em>section <a href="#subsec:selection-and-selfish"
 data-reference-type="ref"
-data-reference="subsec:selection-and-selfish">3.5</a></em> of
-<em>Evolutionary Pressures</em>). Even under conditions of abundance,
+data-reference="subsec:selection-and-selfish">[subsec:selection-and-selfish]</a></em>
+of <em>Evolutionary Pressures</em>). Even under conditions of abundance,
 individuals may still compete for resources and influence because they
 perceive the situation as a zero-sum game, where resources and power
 must be divided among competitors. Individuals that acquire more power
@@ -719,7 +721,7 @@ abundance, there would still be dimensions on which to compete.
 Moreover, AI development could itself exacerbate various forms of
 inequality to extreme levels. We discuss this possibility in Chapter 9
 Governance; Section 3 - Distribution.</p>
-<h3 id="summary-6">Summary</h3>
+<h3 id="summary">Summary</h3>
 <p>Throughout this section, we have discussed some of the major factors
 that drive conflict. When any one of these factors is present, agents’
 incentives to bargain for a peaceful settlement may shift such that
@@ -767,7 +769,7 @@ promote conflict, no matter how small, could pose catastrophic risks to
 humans. It is thus important that we understand the drivers of conflict,
 especially in the context of advanced future AIs.<br />
 </p>
-<h2 id="cooperation"> 8.4.3 Cooperation</h2>
+<h2 id="cooperation">Cooperation</h2>
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
@@ -794,7 +796,7 @@ agent B returning the favor outweighs the cost of Agent A’s initially
 providing it. Thus, we have the rule <span
 class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
 Table <a href="#tab:reciprocity" data-reference-type="ref"
-data-reference="tab:reciprocity">5</a> below.<br />
+data-reference="tab:reciprocity">1</a> below.<br />
 </p>
 <div id="tab:reciprocity">
 <table>
@@ -903,7 +905,7 @@ outweighs the cost-benefit ratio of the helpful behavior to the donor.
 Thus, we have the rule <span
 class="math inline"><em>q</em> &gt; <em>c</em>/<em>b</em></span>; see
 Table <a href="#tab:indirect-repr" data-reference-type="ref"
-data-reference="tab:indirect-repr">6</a> below.<br />
+data-reference="tab:indirect-repr">2</a> below.<br />
 </p>
 <p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
 <div id="tab:indirect-repr">
@@ -1011,7 +1013,7 @@ groups and n is the maximum group size, group selection can only promote
 cooperation when <span
 class="math inline"><em>b</em>/<em>c</em> &gt; 1 + <em>n</em>/<em>m</em></span>;
 see Table <a href="#tab:group" data-reference-type="ref"
-data-reference="tab:group">7</a> below.<br />
+data-reference="tab:group">3</a> below.<br />
 </p>
 <div id="tab:group">
 <table>
@@ -1102,7 +1104,7 @@ equivalently <span
 class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
 class="citation" data-cites="hamilton1964genetical"></span>; see Table
 <a href="#tab:kin" data-reference-type="ref"
-data-reference="tab:kin">8</a> below.</p>
+data-reference="tab:kin">4</a> below.</p>
 <div id="tab:kin">
 <table>
 <caption>Kin Selection Matrix</caption>
@@ -1324,7 +1326,7 @@ customs. Here, we examine four cooperation problems, the mechanisms
 humans have evolved to solve them, and how these mechanisms may have
 generated our ideas of morality. These are overviewed in Table <a
 href="#tab:cooperation" data-reference-type="ref"
-data-reference="tab:cooperation">9</a>.</p>
+data-reference="tab:cooperation">5</a>.</p>
 <div id="tab:cooperation">
 <table>
 <caption>Mapping cooperation mechanisms to morality components - Adapted
@@ -1535,7 +1537,7 @@ this as the “Pacifist’s dilemma” <span class="citation"
 data-cites="pinker2012better"></span>. In potential conflict scenarios,
 agents have little to gain and a lot to lose when they respond to
 aggression with pacifism; see Table <a href="#tab:pacifist"
-data-reference-type="ref" data-reference="tab:pacifist">10</a> below.
+data-reference-type="ref" data-reference="tab:pacifist">6</a> below.
 This dynamic often inspires rational agents to choose conflict over
 peace.<br />
 </p>
@@ -1601,7 +1603,7 @@ personnel. These forces work to deter potential aggressors, enhance
 security, and set the stage for peaceful resolutions and negotiations as
 impartial mediators, usually by penalizing aggression and rewarding
 pacifism; see Table <a href="#tab:leviathan" data-reference-type="ref"
-data-reference="tab:leviathan">11</a> below.<br />
+data-reference="tab:leviathan">7</a> below.<br />
 </p>
 <div id="tab:leviathan">
 <table>
@@ -1718,7 +1720,7 @@ instance, if groups of AIs within the Leviathan collude behind the
 scenes to further their own interests, or power and resources become
 concentrated with a few AIs at the “top,” humanity’s collective
 wellbeing could be threatened.</p>
-<h3 id="summary-7">Summary</h3>
+<h3 id="summary-1">Summary</h3>
 <p>Throughout this section, we discussed a variety of mechanisms that
 promote cooperation. These mechanisms included direct reciprocity,
 indirect reciprocity, group selection, kin selection, individual stakes
