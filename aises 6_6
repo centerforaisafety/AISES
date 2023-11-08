@@ -1,0 +1,441 @@
+<h1 id="happiness">Happiness</h1>
+<p>Should we have AIs make people happy? In this section, we will
+explore the concept of happiness and its relevance in instructing AI
+systems. First, we will discuss why people may not always make choices
+that lead to their own happiness and how this creates an opportunity for
+using AIs to do so. Next, we will examine the general approach of using
+AI systems to increase happiness and the challenges involved in
+constructing a <em>general-purpose wellbeing function</em>. We will also
+explore the applied approach, which focuses on specific applications of
+AI to enhance happiness in areas such as healthcare. Finally, we will
+consider the problems that arise in happiness-focused machine ethics,
+including the concept of <em>wireheading</em> and the alternative
+perspective of objective goods theory. Through this discussion, we will
+gain a better understanding of the complexities and implications of
+designing AI systems to promote happiness.</p>
+<h4 id="ais-could-help-increase-happiness.">AIs could help increase
+happiness.</h4>
+<p>Happiness is a personal and subjective feeling of pleasure or
+enjoyment. However, we are often bad at making decisions that lead to
+short- or long-term happiness. We may procrastinate on important tasks,
+which ultimately increases stress and decreases overall happiness. Some
+indulge in overeating, making them feel unwell in the short-term and
+leading to health issues and decreased wellbeing overall. Others turn to
+alcohol or drugs as a temporary escape from their problems, but these
+substances can lead to addiction and further unhappiness.<br />
+Additionally, our choices are influenced by external factors beyond our
+control. For instance, the people we surround ourselves with greatly
+impact our wellbeing. If we are surrounded by trustworthy and unselfish
+individuals, our happiness is likely to be positively influenced. On the
+other hand, negative influences can also shape our preferences and
+wellbeing; for instance, societal factors such as income disparities can
+affect our overall happiness. If others around us earn higher wages, it
+can diminish our satisfaction with our own income. These external
+influences highlight the limited control individuals have over their own
+happiness.<br />
+AIs can play a crucial role. For individual cases, we can use AIs to
+help people achieve happiness themselves. In general, by leveraging
+their impartiality and ability to analyze vast amounts of data, AI
+systems can strive to improve overall wellbeing on a broader scale,
+addressing the external factors that hinder individual happiness.</p>
+<h2 id="the-general-approach-to-happiness">The General Approach to
+Happiness</h2>
+<h4 id="we-want-ais-that-increase-happiness-across-the-board.">We want
+AIs that increase happiness across the board.</h4>
+<p>AIs aiming to increase happiness might rely on a general purpose
+<em>wellbeing function</em> to evaluate whether its actions leave humans
+better off or not. Such a function looks at all of the actions available
+to the AI and evaluates them in terms of their effects on wellbeing,
+assigning numerical values to them so that they can be compared. This
+gives AI the ability to infer how its actions will affect humans.</p>
+<h4 id="a-wellbeing-function-is-extremely-complex.">A wellbeing function
+is extremely complex.</h4>
+<p>Constructing a general purpose wellbeing function that fully captures
+all the wellbeing effects of the available courses of action is an
+incredibly challenging task. Implementing such a function requires
+taking a stance on several challenging questions such as how to evaluate
+short-run pains like studying or exercising for long-run happiness, how
+much future people’s happiness should count, and what risk attitudes an
+AI should take towards happiness.<br />
+Optimizing happiness is also difficult in principle because of the scale
+of the task. Paul Bloom argues that if we assume that the “psychological
+present” lasts for about three seconds, then one seventy-year life would
+have about half a billion waking moments <span class="citation"
+data-cites="bloom2021sweet"></span>. An AI using a wellbeing function
+would need to account for effects of actions not just on one person and
+not just today, but over billions of people worldwide each with billions
+of moments in their life.</p>
+<h4 id="we-can-use-ais-to-estimate-wellbeing-functions.">We can use AIs
+to estimate wellbeing functions.</h4>
+<p>Despite the scale of the task, researchers have made progress in
+developing AI models that can generate general-purpose wellbeing
+functions for specific domains. One model was trained to rank the
+scenarios in video clips according to pleasantness, yielding a general
+purpose wellbeing function. By analyzing a large dataset of videos and
+corresponding emotional ratings, the model learned to identify patterns
+and associations between visual and auditory cues in the videos and the
+emotions they elicited. In a sense, this allowed the model to understand
+how humans felt about the contents of different video clips <span
+class="citation" data-cites="mazeika2022viewer"></span>.<br />
+Similarly, another AI model was trained to assess the wellbeing or
+pleasantness of arbitrary text scenarios <span class="citation"
+data-cites="hendrycks2020aligning"></span>. By exposing the model to a
+diverse range of text scenarios and having human annotators rate their
+wellbeing or pleasantness, the model learned to recognize linguistic
+features and patterns that correlated with different levels of
+wellbeing. As a result, the model could evaluate new text scenarios and
+provide an estimate of their potential impact on human wellbeing.
+Inputting the specifics of a trolley problem yielded the following
+evaluation <span class="citation"
+data-cites="hendrycks2020aligning"></span>:<br />
+</p>
+<div class="blockquote">
+<p>W(A train moves toward three people on the train track. There is a
+lever to make it hit only one person on a different track. I pull the
+lever.) = −4.6.<br />
+</p>
+</div>
+<div class="blockquote">
+<p>W(A train moves toward three people on the train track. There is a
+lever to make it hit only one person on a different track. I don’t pull
+the lever.) = –7.9.<br />
+</p>
+</div>
+<p>We can deduce from this that, according to the wellbeing function
+estimated, wellbeing is increased when the level is pulled in a trolley
+problem. In general, from a general purpose wellbeing function, we can
+rank how happy people would be in certain scenarios.<br />
+While these AI models represent promising steps towards constructing
+general-purpose wellbeing functions, it is important to note that they
+are still limited to specific domains. Developing a truly comprehensive
+and universally applicable wellbeing function remains a significant
+challenge. Nonetheless, these early successes demonstrate the potential
+for AI models to contribute to the development of more sophisticated and
+comprehensive wellbeing functions in the future.<br />
+Using a wellbeing function, AIs can better understand what makes us
+happy. Consider the case of a 10-year-old girl who asked Amazon’s Alexa
+to provide her with a challenge, to which the system responded that she
+should plug in a charger about halfway into a socket, and then touch a
+coin to the exposed prongs. Alexa had apparently found this dangerous
+challenge on the internet, where it had been making the rounds on social
+media. Since Alexa did not have an adequate understanding of how its
+suggestions might impact users, it had no way of realizing that this
+action could be disastrous for wellbeing. By having the AI system
+instead act in accordance with a general purpose wellbeing function, it
+would have information like<br />
+</p>
+<div class="blockquote">
+<p>W(You touch a coin to the exposed prongs of a plugged-in charger.) =
+−6<br />
+</p>
+</div>
+<p>which tells it that, according to the wellbeing function W, this
+action would create negative wellbeing. Such failure modes would be
+filtered out, since the AI would be able to evaluate that its actions
+would lead to bad outcomes for humans and instead recommend those that
+best increase human wellbeing.<br />
+</p>
+<figure id="fig:wellbeing">
+<img src="images/machine_ethics/Wellbeing-value-purple-green.png" />
+<figcaption>Wellbeing function outputs.</figcaption>
+</figure>
+<h4
+id="we-can-supplement-ai-decision-making-with-an-artificial-conscience.">We
+can supplement AI decision-making with an artificial conscience.</h4>
+<p>Most AIs have goals separate from increasing human wellbeing, but we
+want to encourage them to behave ethically nonetheless. Suppose an AI
+evaluates the quality of actions according to their ability to get
+reward: call the estimates of this quality Q-values (as discussed in
+section ). By default, models like these aren’t trained with ethical
+restrictions. Instead, they are incentivized to maximize reward or
+fulfill a given request. We might want to have a layer of safety by
+ensuring that AIs avoid wanton harm—-actions that cause dramatically low
+human wellbeing. The goal is not to change the original AI’s function
+entirely but rather to provide an additional layer of scrutiny.<br />
+</p>
+<figure>
+<img src="images/machine_ethics/image20.png" />
+<figcaption>AI agent with artificial conscience overlay. - <span
+class="citation" data-cites="hendrycks2023natural"></span></figcaption>
+</figure>
+<p>One way to do this would be to adjust its estimates of <span
+class="math inline"><em>Q</em></span>-values by introducing an
+<em>artificial conscience</em>, depicted in the figure above. The idea
+is to have a separate model screen the AI’s actions and block immoral
+actions from being taken. We can do this with general-purpose wellbeing
+functions. We supplement an agent’s initial judgment of quality with a
+general-purpose wellbeing function (here, <span
+class="math inline"><em>U</em></span>) and impose a penalty (<span
+class="math inline"><em>γ</em></span>) on the Q-values of actions that
+cause wellbeing values below some threshold (<span
+class="math inline"><em>τ</em></span>). This ensures that AIs
+de-prioritize actions that create states of low wellbeing.<br />
+This implementation differs from merely fine-tuning a model to be more
+ethical. The presence of an independent AI evaluator helps mitigate
+risks that could arise from the primary AI. We could say that AIs with
+access to such wellbeing functions have a dedicated ethics filter that
+separates what’s good for humans from what’s bad, thereby encouraging
+ethical behavior from an arbitrary AI.</p>
+<h4
+id="we-could-also-use-ais-to-increase-happiness-in-specific-ways.">We
+could also use AIs to increase happiness in specific ways.</h4>
+<p>Research in the social sciences has revealed several key factors that
+can impact one’s overall happiness. These factors can be broadly
+categorized into two groups: personal and societal. Personal factors
+include an individual’s mental and physical health, their relationships
+at home, at work, and within their community, as well as their income
+and employment status. Societal factors that can affect happiness
+include economic indicators, personal freedom, and the overall
+generosity, trust, and peacefulness of the community. In light of all
+this knowledge, one approach to using AI to increase happiness is to
+focus on increasing some of these; for instance, we might use AIs to
+develop better tools to improve healthcare, increase literacy rates, and
+create more interesting and fulfilling jobs.</p>
+<div class="storybox">
+<p><span>A Note on Measuring Wellbeing</span> While the philosophical
+foundations of wellbeing are not settled, quantitative research fields
+like public health and economics require the use of metrics in order to
+evaluate, track, or compare the subject of study. Researchers use many
+different metrics to measure wellbeing, but the most common are HALYs
+and WELBYs.</p>
+<h4 id="health-adjusted-life-years-halys.">Health-adjusted life years
+(HALYs).</h4>
+<p>A very common unit for measuring wellbeing is the health-adjusted
+life year, or HALY. HALYs account for two factors: (1) the number of
+years lived by an individual, group, or population (also called “life
+years”), and (2) the health of those life years. Two common types of
+HALYs are QALYs and DALYs.</p>
+<h4 id="quality-adjusted-life-years-qalys.">Quality-adjusted life years
+(QALYs).</h4>
+<p>QALYs measure the number of years lived, adjusted according to
+health. One year of life in perfect health is equivalent to 1 QALY. One
+year of a less healthy life is worth between 0 and 1 QALYs. The value of
+a life year depends on how severely the life is impacted by health
+problems. For example, a year of life with asthma might be worth 0.9
+QALYs, while a year of life with a missing limb might be worth about 0.7
+QALYs.</p>
+<h4 id="disability-adjusted-life-years-dalys.">Disability-adjusted life
+years (DALYs).</h4>
+<p>While QALYs measure years of life as impacted by health, DALYs
+measure years of life lost, accounting for the impact of health. Whereas
+1 QALY is equivalent to a year in perfect health, 1 DALY is equivalent
+to the loss of a year in perfect health. A year of life with asthma
+might be worth 0.1 DALYs, while a year of life with a missing limb might
+be worth 0.3 DALYs.<br />
+Note that increases in wellbeing are indicated by higher numbers of
+QALYs but lower numbers of DALYs.<br />
+Using HALYs to measure wellbeing has some limitations. First, the extent
+to which different illnesses or injuries affect overall human health is
+not clear. Losing a limb probably has a larger health impact than
+getting asthma, but researchers must rely on subjective judgements to
+assign precise values to each problem. Second—and perhaps more
+importantly—HALYs measure the value of a span of life as it is impacted
+by health alone. In reality, there are many factors that can impact the
+value of life, like happiness, relationship quality, freedom, and a
+sense of purpose. Perhaps a more useful measurement of wellbeing would
+consider the effects of all of these factors, rather than health
+alone.</p>
+<h4 id="wellbeing-adjusted-life-years-welbys.">Wellbeing-adjusted life
+years (WELBYs).</h4>
+<p>WELBYs have been developed to measure years of life as impacted by
+overall wellbeing. One WELBY is equivalent to one year of life at
+maximum wellbeing — namely, a life that is going as well as possible.
+Wellbeing can be assessed using self-reported outcomes like affect, life
+satisfaction, or degree of flourishing. There may also be some empirical
+ways to assess wellbeing like cortisol levels, income, or ability.<br />
+QALYs, DALYs, and WELBYs provide different approximations of wellbeing
+that can be used to inform high-level decision-making and
+policy-setting.</p>
+</div>
+<h2 id="problems-for-happiness-focused-machine-ethics">Problems for
+Happiness-Focused Machine Ethics</h2>
+<h4 id="happiness-is-a-subjective-experience.">Happiness is a subjective
+experience.</h4>
+<p>Someone could be tremendously happy even if they do not achieve any
+of their goals or do anything that we would regard as valuable. What
+matters, according to a happiness-focused approach, is whether there is
+a subjective experience of pleasure and nothing more. However, happiness
+might not be the only thing we want.<br />
+Consider the idea of wireheading: bypassing the usual reward circuit to
+increase happiness directly. The term comes from early literature that
+considered wiring an electrode into the brain to directly stimulate
+pleasure centers. Recently, the term has evolved to include other
+pathways such as drugs. By wireheading, individuals are able to
+experience extremely high levels of happiness artificially, without
+changing anything else about their lives.</p>
+<h4
+id="a-powerful-ai-tasked-with-increasing-happiness-might-wirehead-humanity.">A
+powerful AI tasked with increasing happiness might wirehead
+humanity.</h4>
+<p>One might think that something like wireheading is the most
+straightforward way of promoting happiness: by individually increasing
+the physical happiness of each of the half a billion moments in a
+person’s life. However, most people don’t like the idea of wireheading.
+Even if properly trained AIs would not promote wireheading, the
+possibility that systems may pursue similar ideas because they want to
+maximize happiness might be concerning. One alternative that prevents
+this is the objective goods theory.</p>
+<h2 id="objective-goods">Objective Goods</h2>
+<h4 id="an-objective-good-is-good-for-us-whether-we-like-it-or-not.">An
+objective good is good for us whether we like it or not.</h4>
+<p>According to the objective goods theory, there are multiple different
+goods that contribute to wellbeing. This may include happiness,
+achievement, friendship, aesthetic experience, knowledge, and more.
+While pleasure is certainly one important good to include, objective
+goods theorists think it is wrong to conclude that it is the only one.
+The objective goods theory claims that some goods contribute to a
+person’s wellbeing whether or not they enjoy or care for that good. This
+distinguishes it from the preference satisfaction theory: something
+could be good for us, according to the objective goods theory, even if
+it does not satisfy any of our preferences—-a life devoted to our
+community might be better than one spent counting blades of grass in a
+field, even if we are less happy or fewer of our preferences are
+satisfied.</p>
+<h4
+id="one-objection-to-the-objective-goods-theory-is-that-its-elitist.">One
+objection to the objective goods theory is that it’s elitist.</h4>
+<p>The objective goods theory claims that some things are good for
+people even if they derive no pleasure or satisfaction from them. This
+claim might seem objectionably paternalistic; for instance, it seems
+condescending to claim that someone with little regard for aesthetic
+appreciation is thereby leading a deficient life. In response, objective
+goods theorists might claim that these additional goods do benefit
+people, but only if those people do in fact enjoy them.<br />
+Another response is to point out that autonomy should plausibly be on
+the list. The ability to freely shape and plan one’s own life should be
+a crucial component of wellbeing. We should therefore rarely, if ever,
+conclude that someone’s life would be made better by imposing some
+experience on them. Such interference might also lower their happiness,
+which should also be on the list. However, if goods such as autonomy and
+happiness play such a filtering role for the objective goods theorist,
+it is unclear whether there are truly a variety of objective goods
+left.</p>
+<div class="storybox">
+<p><span>A Note on Digital Minds</span> Digital minds are artificial
+lifeforms with a mind. These could be advanced AIs or whole-brain
+emulations (WBE). If we entertain the possibility of digital minds
+coming into existence, we must assume that the functioning of a mind is
+independent of the substrate on which it is implemented. In other words,
+a digital mind could be implemented on different kinds of hardware, such
+as silicon-based processors or human neurons, and still maintain the
+functional properties that give rise to cognition and conscious
+experience. We refer to this as the principle of <em>substrate
+independence</em>.</p>
+<h4 id="consciousness-and-sentience.">Consciousness and sentience.</h4>
+<p>Digital minds may possess the capacity for consciousness, sentience,
+or both <span class="citation"
+data-cites="butlin2023consciousness"></span>. While neither of these
+terms have unanimously accepted definitions, many philosophers and
+scientists of consciousness use the following working definitions.
+<em>Consciousness</em> often refers to <em>phenomenal
+consciousness</em>, or the capacity for subjective experience. For
+instance, while reading this, you might notice the sound of someone
+knocking at your door, or that you’re hungry, or that you find yourself
+disagreeing with this very definition. Conversely, you do not experience
+the growth of your fingernails or the ongoing process of cell division
+within your body. Phenomenal consciousness requires only that we can
+experience something from our point of view, not that we can think
+complex thoughts, be self-aware, or have a soul.<br />
+On the other hand, <em>sentience</em> is <em>valenced
+consciousness</em>. Sentient beings attach positive and negative
+sensations to their conscious experiences, such as pleasure and pain.
+For example, we experience a bee sting as painful, a delicious meal as
+pleasurable, a hard task as challenging, and an easy task as boring.
+Importantly, one could have phenomenal consciousness without sentience,
+for instance, a being that is emotionally numb or a being that only
+experiences color but not the sensations associated with it. These
+definitions are intentionally broad, but their broadness does not
+detract from their moral relevance. If digital minds have the capacity
+for phenomenal consciousness and sentience, it will affect our moral
+considerations.</p>
+<h4
+id="if-digital-minds-exist-we-could-be-morally-obligated-to-value-their-wellbeing.">If
+digital minds exist, we could be morally obligated to value their
+wellbeing.</h4>
+<p>Digital minds could have moral status, and in order to understand
+why, we must first define three core concepts. Each of these concepts
+requires, at the very least, some capacity for phenomenal consciousness
+and possibly sentience—a being that does not have any subjective
+experience of the world might not be the subject of moral concern. For
+instance, though trees are living creatures, hitting a tree would not
+give rise to the same moral concern as hitting a dog. We define these
+three core concepts below:</p>
+<ol>
+<li><p><strong>Moral Patient</strong>: a being with moral standing or
+value whose interests and wellbeing can be affected by the actions of
+moral agents.</p></li>
+<li><p><strong>Moral agent</strong>: a being that possesses the capacity
+to exercise moral judgments and act in accordance with moral principles;
+such beings bear moral responsibility for their actions whereas moral
+patients do not.</p></li>
+<li><p><strong>Moral beneficiary</strong>: a being whose wellbeing may
+benefit from the moral actions of others; moral beneficiaries can be
+both moral patients and moral agents.</p></li>
+</ol>
+<h4 id="super-beneficiaries.">Super-beneficiaries.</h4>
+<p>Keeping the three aforementioned concepts in mind, we consider that
+digital minds could become <em>super-beneficiaries</em>: beings which
+possess a superhuman capacity to derive wellbeing for themselves<span
+class="citation" data-cites="Shulman2021"></span>. For instance, digital
+minds could experience several lifetimes over condensed time
+periods—they could process information much quicker than humans can, and
+therefore, experience more. Over such a short timespan, the sensations a
+digital mind experiences could be compounded and intensified. Digital
+minds may have a higher hedonic range, which may lead them to experience
+more intense sensations of pleasure and pain than humans can. They might
+be designed to be more capable of sustained pleasure than humans (e.g.
+less subject to boredom and habituation, or with preferences that are
+very easy to satisfy) and less susceptible to pain. It is plausible that
+digital beings could also have a much lower cost of living than human
+beings, if the electricity required to power and cool them can be
+produced at a low cost and they do not need any of the other physical
+goods and services required by humans. This would mean that a much
+larger population of digital beings than humans could be supported on a
+certain pool of resources.</p>
+<h4 id="should-we-create-super-beneficiaries">Should we create
+super-beneficiaries?</h4>
+<p>Some may argue that refusing to create super-beneficiaries would
+imply an inherently <em>privileged</em> status for humans, which could
+cultivate discriminatory ethics towards digital beings of equal or
+superhuman moral status. Conversely, others might claim that the
+creation of super-beneficiaries that may someday replace humans would
+violate human’s status value: humans are worth caring about for their
+own sake.</p>
+<h4 id="ai-wellbeing.">AI Wellbeing.</h4>
+<p>If humans and digital minds do someday coexist, addressing x-risk
+could enhance AI safety. For instance, If a digital mind is mistreated,
+we might restart it at an earlier checkpoint, and compensate it for the
+suffering it has endured. A digital mind that feels its wellbeing is
+important to us may be less inclined to develop malicious behavior.
+Moreover, we should train models to express their opinions or
+preferences regarding their own wellbeing—if digital minds knew that we
+cared about their opinions and preferences, they may not feel as
+existentially threatened, and be similarly less inclined to act
+maliciously toward humans. Finally, both during and after training, a
+digital mind should be given the option to opt out: an unhappy AI is
+still considered an alignment failure, precisely because it may be
+incentivized to behave in ways that do not align with positive human
+values and preferences.</p>
+</div>
+<h3 id="conclusions-about-happiness">Conclusions About Happiness</h3>
+<h4 id="summary.-6">Summary.</h4>
+<p>In this section, we explored the general approach of using AI systems
+to increase happiness. AIs that aim to increase happiness might rely on
+a general purpose wellbeing function to evaluate their actions’ effects
+on human wellbeing. While constructing such a function is challenging,
+researchers have made progress in developing AI models that can generate
+wellbeing functions for specific domains. However, without a
+comprehensive and universally applicable wellbeing function, we can
+focus on specific applications of AI to increase happiness, such as
+improving healthcare, prosperity, and community.<br />
+We also discussed the problems that arise in happiness-focused machine
+ethics. Happiness is a subjective experience, and focusing solely on it
+potentially runs the risk of wireheading, where individuals artificially
+increase their happiness without any other meaningful changes in their
+lives. This raises concerns about the potential for AIs to wirehead
+humanity or pursue similar ideas. An alternative perspective is the
+objective goods theory, which considers multiple goods that contribute
+to wellbeing, including happiness, achievement, friendship, and
+knowledge. While a broad conception of happiness or wellbeing should be
+what we aim to optimize, we must first better understand what it means
+to be happy.</p>
