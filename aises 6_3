@@ -1,5 +1,5 @@
-<h1 id="fairness">Fairness</h1>
-<h3 id="introduction-1">Introduction</h3>
+<h1 id="fairness"> 6.3 Fairness</h1>
+<h3 id="introduction-1"> Introduction</h3>
 <p>We have discussed how bias in AI systems can cause harm. AI is being
 used in many sensitive applications that affect human lives, from
 lending and employment to healthcare and criminal justice. As a result,
@@ -35,7 +35,7 @@ data-cites="harvard2017state"></span>. In this section, we will discuss
 some of the serious ethical questions raised by this case, examining
 what makes algorithms unfair and considering some methods to improve
 fairness.</p>
-<h2 id="ai-fairness-concepts">AI Fairness Concepts</h2>
+<h2 id="ai-fairness-concepts"> 6.3.1 AI Fairness Concepts</h2>
 <h4 id="fairness-is-difficult-to-specify.">Fairness is difficult to
 specify.</h4>
 <p>Fairness is a complicated and disputed concept with no single
@@ -111,7 +111,7 @@ However, there is no single mathematical definition of fairness that
 matches everyone’s complex social expectations. This is a problem
 because satisfying one definition can often violate others: there are
 tensions between statistical notions of fairness.</p>
-<h2 id="limitations-of-fairness">Limitations of Fairness</h2>
+<h2 id="limitations-of-fairness"> 6.3.2 Limitations of Fairness</h2>
 <p>There are several problems with trying to create fair AI systems.
 While we can try to improve models’ adherence to the many metrics of
 fairness, the three classic definitions of fairness are mathematically
@@ -196,7 +196,7 @@ class="citation" data-cites="harrison2020emperical"></span>, such as
 whether race should be used by the model or whether the model’s accuracy
 or false positive rates are more important. It is unclear how to define
 fairness in a generally acceptable way.</p>
-<h2 id="approaches-to-improving-fairness">Approaches to Improving
+<h2 id="approaches-to-improving-fairness"> 6.3.3 Approaches to Improving
 Fairness</h2>
 <p>Due to the impossibility theorem and inconsistent and competing
 ideas, it is only possible to pursue some <em>definition</em> or
