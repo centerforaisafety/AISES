@@ -1,0 +1,160 @@
+<h1 id="introduction">Introduction</h1>
+<p><strong>Safe artificial intelligence requires careful
+governance.</strong> The development and deployment of advanced AI
+systems involves many organizations and individuals with distinct goals
+and incentives. These organizations and people can interact in
+complicated ways, creating a complex sociotechnical system that we need
+to govern effectively.<br />
+There are a wide variety of issues that governance is required to manage
+across different stages of AI development (from data collection through
+various stages of training to deployment) and involving various actors
+such as AI developers, businesses and consumers using AI systems, and
+national governments, among others. Thoughtful governance provides the
+constraints, incentives and institutions to steer AI progress in a
+direction that benefits humanity.</p>
+<p><strong>Governance refers to the rules and processes that coordinate
+behavior.</strong> Governance is not just what governments do. Instead,
+it can be defined more broadly as the process through which some
+activity is organized, coordinated, steered, and managed. It includes
+the norms, policies, and institutions that influence stakeholders’
+actions to achieve socially desirable outcomes. In healthcare, for
+instance, governance aimed at ensuring doctors avoid harming patients
+for profit includes norms around patient care, professional ethical
+standards, and licensing organizations’ ethics boards. AI regulators
+should aim to encourage safety and responsibility among developers and
+users of transformative technologies to ensure we avoid the risks of AIs
+and instead reap its benefits.</p>
+<p><strong>Governance takes many forms across sectors and
+levels.</strong> Governance institutions include governmental bodies
+that create laws, companies that shape internal rules, and collaborative
+initiatives involving both public and private groups: legislatures pass
+regulations, corporations adopt ethical guidelines, and public-private
+forums establish AI safety best practices. Governance operates at
+multiple levels as well, such as organizational policies, national laws,
+and global agreements. Effective AI governance likely requires a
+combination of approaches across sectors and levels.</p>
+<p><strong>Overview.</strong> We begin by examining the ecosystem in
+which governance takes place, including the relevant actors, such as
+companies, governments, and individuals, and the tools available to
+govern them. Then, we explore different scenarios of AI takeoff and
+their implications. Next, we consider issues around the distribution of
+power among AIs, access to AIs, and the distribution of costs, benefits
+and risks.<br />
+We then survey policy tools for AI governance at the corporate, national
+and international levels. For corporations, we explore legal structures,
+ownership models, and assurance mechanisms that impact AI safety. At the
+national level, we consider regulations, liability frameworks,
+resilience, and competitiveness. For international governance, we
+examine tools ranging from standards and certification for civilian AIs
+to non-proliferation agreements, verification schemes, and monopolies
+for military systems. By highlighting levers across multiple levels,
+this chapter provides an introduction to a range of governance
+approaches aimed at ensuring AI is developed safely.</p>
+<h2 id="the-landscape">The Landscape</h2>
+<p>To govern AI, we must understand the system in which AIs are being
+developed and deployed. Two crucial aspects for governance are the list
+of actors and the tools available to govern them.</p>
+<h3 id="actors">Actors</h3>
+<p>AI governance involves many diverse groups across sectors that have
+different goals and can do different things to accomplish them. Key
+actors include companies (research or product), nonprofits, governments,
+and individuals.</p>
+<p><strong>Companies develop and deploy AIs, typically for
+profit.</strong> Major firms such as OpenAI and Google DeepMind shape
+the AI landscape through huge investments in research and development,
+creating powerful models that advance AI capabilities. Startups explore
+new applications of AIs and are often funded by venture capitalists. The
+section looks at policies, incentives, and structures such as ownership
+models of organizations that impact the development and deployment of AI
+systems.</p>
+<p><strong>Nonprofits play a variety of roles aimed at improving
+society.</strong> Some nonprofits aim to develop safe AIs; OpenAI was
+initially founded as a nonprofit. Others engage in advocacy and
+coordination by bringing together companies, governments, and research
+labs to collaborate on development and regulation. Academic labs such as
+MILA research AI capabilities, and some researchers there aim to make AI
+more beneficial. Some nonprofits perform a mix of these functions.</p>
+<p><strong>National governments make laws, regulations, and
+standards.</strong> National governments can directly shape AI
+development and use within their jurisdictions through legislative and
+regulatory powers such as market rules, public investment, and
+government procurement policies; for instance, governments might require
+licensing to develop large models, provide funding for AI research and
+development, and require government contractors meet certain safety
+standards. Governments of states such as the United States and United
+Kingdom directly oversee technological development and commercialization
+locally through their democratic processes and administrative
+procedures. We will explore the role of governments in the section.</p>
+<p><strong>International organizations facilitate cooperation between
+countries.</strong> Organizations such as the United Nations, European
+Union, and OECD have influence across borders by setting policies,
+principles, and ethics standards that countries often implement locally.
+International governance institutions allow countries to coordinate on
+issues such as human rights or non-proliferation of dangerous
+technologies across national borders. While international governance
+mechanisms such as treaties are less enforceable than domestic tools
+such as laws, they can exert soft power through financing, expertise,
+norm-setting, and bringing countries together for dialogue and
+consensus-building. We explore these tools in the section.</p>
+<p><strong>Individuals use and are deeply impacted by AI
+systems.</strong> AIs ultimately have profound impacts on individuals.
+Externalities from AIs, such as invasions of privacy, concentration of
+economic power, and catastrophic risks, are experienced by individuals,
+as are many of the potential benefits such as rapid economic growth. As
+consumers, individuals buy and use AI products and services, which means
+they can apply social pressure to force development along specific
+routes. As citizens, they can exert pressure through voting and other
+forms of democratic representation. Their needs and perspectives should
+be a central consideration.</p>
+<h3 id="tools">Tools</h3>
+<p>The AI governance landscape includes the sets of tools or mechanisms
+by which actors interact and influence one another. Key tools for AI
+governance fall into four main categories: information dissemination,
+financial incentives, standards and regulations, and rights.</p>
+<p><strong>Information dissemination changes how stakeholders think and
+act.</strong> Education and training transmit technical skills and shape
+mindsets of researchers, developers, and policymakers. Sharing data,
+empirical analyses, policy recommendations, and envisioning positive
+futures informs discussions by highlighting opportunities, risks, and
+policy impacts. Facts are a prerequisite for the creation and
+implementation of effective policy. Increasing access to information for
+individuals and organizations can change their evaluations of what’s
+best to do.</p>
+<p><strong>Financial incentives influence behavior by changing payoffs
+and motivations.</strong> Incentives such as funding sources, market
+forces, potential taxes or fees, and regulatory actions shape the
+priorities and cost-benefit calculations of companies, researchers, and
+other stakeholders. Access to funding and well-regulated markets (such
+as those with IP and competition protections) encourages technology
+development and commercialization, while potential taxes or regulatory
+penalties impose financial and reputational risks that promote caution
+and consideration of governance goals. By shaping incentives,
+governments can increase the degree to which private companies or other
+actors’ opportunities and risks are aligned with those of society as a
+whole.</p>
+<p><strong>Standards and regulations set expectations and boundaries for
+behavior.</strong> There is a spectrum of rules—-from flexible
+guidelines to rigid laws—that encompasses many different governance
+tools. At one end, the flexible guidelines look like standard operating
+procedures and industry norms, which codify preferred practices within
+and across institutions. At the other end, governments use formal and
+enforceable tools including regulations and legislation, which carry
+penalties for violations and aim to both address specific risks and
+shape industries broadly. Well-designed rules establish which actions
+are allowed or prohibited for organizations and individuals.</p>
+<p><strong>Rights grant freedoms, entitlements, and claims over
+assets.</strong> Human rights and civil liberties, such as privacy, free
+speech, and due process, shape relationships between individuals and
+organizations by defining unacceptable behaviors. Property rights and
+intellectual property regimes determine ownership and control over
+assets such as data, algorithms, trained models, and compute. Outlining
+rights clearly can establish strong governance regimes that allow
+litigation against any infringements.<br />
+The diverse actors in AI development and deployment along with the
+varied governance tools at our disposal form an intricate ecosystem.
+Companies, researchers, governments, and individuals influence progress
+based on their capabilities and incentives. Financial incentives,
+established rules, delineated rights, and information sharing steer
+beliefs and behaviors. Next, we will consider an issue central to
+defining the landscape in which governance will take place: at what rate
+should we expect AIs to achieve superhuman capabilities?</p>
