@@ -1,0 +1,1224 @@
+<h1 id="moral-theories">Moral Theories</h1>
+<p>Moral theories are systematic attempts to provide a general account
+of moral principles that apply universally. Good moral theories should
+provide a coherent, consistent framework for determining whether an
+action is right or wrong. A basic background understanding of some of
+the most commonly advanced moral theories provides a useful foundation
+for thinking about the kinds of goals or ideals that we wish AI systems
+to promote. Without this background, there is a risk that developers and
+users of AI systems may jump to conclusions about these topics with a
+false sense of certainty and without considering many potential
+considerations that could change their decisions. Considering a range of
+different philosophical theories enables us to stress-test our arguments
+more thoroughly and surface questionable assumptions that may not have
+been noticed otherwise. It would be highly inefficient for those
+developing AI systems or trying to make them safer to attempt to
+re-invent moral systems, without learning from the large existing body
+of philosophical work on these topics.<br />
+There are many different types of moral theories, each of which
+emphasizes different moral values and considerations. Consequentialist
+theories like utilitarianism hold that the morality of an action is
+determined by its consequences or outcomes. Utilitarianism places an
+emphasis on maximizing everyone’s wellbeing. Deontological theories like
+Kantian ethics hold that the morality of an action is determined by
+whether it conforms to universal moral rules or principles. Deontology
+places an emphasis on rights, special obligations, and
+constraints.<br />
+Below, we explore the most common modern moral theories:
+<em>utilitarianism</em>, <em>deontology</em>, <em>virtue ethics</em>,
+and <em>social contract theory</em>.</p>
+<h2 id="utilitarianism">Utilitarianism</h2>
+<p>Utilitarianism is the view that we should do whatever results in the
+most overall wellbeing <span class="citation"
+data-cites="mill2004utilitarianism"></span>. According to Katarzyna de
+Lazari-Radek and Peter Singer, “The core precept of Utilitarianism is
+that we should make the world the best place we can. That means that, as
+far as it is within our power, we should bring about a world in which
+every individual has the highest possible level of wellbeing” <span
+class="citation" data-cites="lazari2017utilitarianism"></span>. Under
+Utilitarianism, the right action in any situation is the one which will
+increase overall wellbeing the most, not just for the people directly
+involved in the situation but globally.</p>
+<h3 id="expected-utility">Expected Utility</h3>
+<p><strong>Utilitarianism enables us to use empirical, quantitative
+evidence when deciding moral questions.</strong> As we discussed in
+Section <a href="#sec:wellbeing" data-reference-type="ref"
+data-reference="sec:wellbeing">3.1.1</a>, there is no consensus about
+what, precisely, wellbeing is. However, if we discover that wellbeing is
+something measurable, like happiness, moral decision-making could take
+advantage of calculation and would rely less on qualitative
+argumentation. To determine what action is morally right, we would
+simply consider the available options. We might run some tests or
+perform data analysis to determine which action would create the most
+happiness, and that action would be the right one. Consider the
+following example:</p>
+<div class="blockquote">
+<p><em>Drunk driving</em>: Amanda has had a few alcoholic drinks and is
+deciding whether to drive or take the bus home. Which should she
+choose?</p>
+</div>
+<p>A utilitarian could analyze this scenario by listing the possible
+outcomes of each choice and determining their impact on overall
+wellbeing. We call an action’s impact on wellbeing its <em>utility</em>.
+If an action has <em>positive utility</em>, it will cause happiness. If
+an action has <em>negative utility</em>, it will cause suffering. Larger
+amounts of positive utility represent larger amounts of happiness, and
+larger amounts of negative utility represent larger amounts of
+suffering. Since no one can predict the future, the utilitarian should
+also consider the probability that each potential outcome would
+occur.<br />
+A simplified, informal, back-of-the-envelope version of this utilitarian
+calculation is below:<br />
+</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Amanda’s action</th>
+<th style="text-align: left;">Possible outcome(s)</th>
+<th style="text-align: center;">Probability of each outcome</th>
+<th style="text-align: center;">Utility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Amanda takes the bus.</td>
+<td style="text-align: left;">Amanda is frustrated, the bus is slow, and
+she has to wait in the cold.</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">-1</td>
+</tr>
+<tr class="even">
+<td rowspan="2" style="text-align: center;">Amanda drives home.</td>
+<td style="text-align: left;">Amanda gets home safely, far sooner than
+she would have on the bus.</td>
+<td style="text-align: center;">95%</td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Amanda gets into an accident and someone
+is fatally injured.</td>
+<td style="text-align: center;">5%</td>
+<td style="text-align: center;">-1000</td>
+</tr>
+</tbody>
+</table>
+<p>We are interested in the <em>expected utility</em> of each action—the
+amount of wellbeing that each action is likely to result in. To
+calculate the expected utility, we multiply the utility of each possible
+outcome by the probability of that outcome occurring.<br />
+Amanda choosing to take the bus has a 100% chance (a certainty) of
+causing a small decrease in utility; she will be slightly
+inconvenienced. Since the change in utility is small and negative, we’ll
+estimate a small negative number to represent it, like -1. <em>The
+expected utility of Amanda taking the bus is 100% <span
+class="math inline">×</span> -1, or simply -1.</em><br />
+If Amanda drives home, there is a 95% chance that she will get home
+safely and create a small increase in utility–—let’s say of +1. However,
+there’s also a 5% chance she could cause an accident and end someone’s
+life. The accident would result in a very large decrease in utility.
+Someone would experience pain and death, Amanda would feel guilty for
+the rest of her life, and the victim’s friends and family would
+experience loss and grief. We might estimate that the potential loss in
+utility is -1000. That’s 1000<span class="math inline">×</span> worse
+than the small increase in utility if Amanda gets home safely. <em>The
+expected utility of Amanda driving home is the sum of both
+possibilities:</em> <span
+class="math inline">.95 × 1 + .05 ×  − 1000</span>, <em>or</em> <span
+class="math inline"> − 49.05</span>.<br />
+Both of Amanda’s options are expected to yield negative utility, but the
+utilitarian would say that she should choose the better of the two
+options. Unsurprisingly, Amanda should take the bus.</p>
+<h3 id="implications-of-utilitarianism">Implications of
+Utilitarianism</h3>
+<p><strong>Utilitarianism may sometimes yield results that run against
+commonly held beliefs.</strong> Utilitarianism aims at producing the
+most wellbeing and insists that this is the only thing that matters.
+However, many of the moral values that we have inherited conflict with
+this goal. Utilitarianism can be seen as having less of a bias to defend
+the moral status quo relative to some other moral theories such as
+deontology or virtue ethics. This either makes Utilitarianism exciting
+or threatening.</p>
+<p><strong>Utilitarianism can lead to some radical moral
+claims.</strong> Utilitarianism’s sole focus on wellbeing can lead it to
+promote what have been or are viewed as radical actions. For example,
+the founder of utilitarianism, Bentham, argued to decriminalize
+homosexuality, and contemporary utilitarians have argued we have a much
+greater obligation to give to charity than most of us seem to
+believe.<br />
+Bentham held many beliefs that were ahead of his time. Written in 1785,
+in a social and legal environment very hostile to homosexuality,
+Bentham’s essay “Offences against oneself” rebuts the arguments that
+legal scholars had used to justify laws against homosexuality <span
+class="citation" data-cites="bentham1978offences"></span>.</p>
+<p><strong>Today, many utilitarians believe that we should prioritize
+helping people in low-income countries.</strong> Utilitarianism
+continues to make recommendations that today’s society finds
+controversial. Consider the following example:<br />
+</p>
+<div class="blockquote">
+<p>On her morning walk through the park, Carla sees a child drowning in
+the pond. She is wearing a new suit that she bought the day before,
+worth $3,500. Should she dive in to save the child, even though she
+would destroy her suit? <span class="citation"
+data-cites="singer2017famine"></span><br />
+</p>
+</div>
+<p>The philosopher Peter Singer, who first posed this question, argues
+that Carla should dive in. Furthermore, he argues that our judgment in
+this case might mean that we should re-evaluate our obligation to donate
+to charity. There are charities that will save a child’s life for around
+$3,500. If we should forgo that amount in order to save a child who is
+right in front of us, shouldn’t we do the same for children across the
+world? Singer argues that distance is not relevant to our moral
+obligations. If we have an obligation to a child in front of us, we have
+the same obligation to similar children who may be far away.<br />
+To maximize global wellbeing, Singer says that we should give our money
+up until the point where a dollar would be better spent on us than on
+charity. If our money helps others more than it can help ourselves,
+there isn’t a utilitarian reason to keep it. For an adult making, say,
+$50,000 per year, an extra $3,500 would be helpful, but is not critical
+to their wellbeing. However, for someone making less than $3 per day in
+a low-income country, $3,500 would be life-changing—not just for one
+recipient, but for that person’s entire family and community. Singer
+argues that, if giving money away can significantly help someone else,
+and if giving it away would not be a significant sacrifice, we should
+give the money to the person who needs it most.<br />
+These conclusions imply that most of us (especially those of us in
+high-income countries) should live very different lives. We should, for
+the most part, live as inexpensively as possible and donate a
+significant portion of our income to people in lower-income
+communities.</p>
+<h3 id="utilitarianisms-central-claims">Utilitarianism’s Central
+Claims</h3>
+<p>Utilitarianism can be distinguished from other ethical theories by
+four central claims.</p>
+<p>Utilitarianism is a form of consequentialism. Any theory that claims
+that the consequences of an action alone determine whether an action is
+right or wrong is <em>consequentialist</em>. Other theories, as we will
+discuss later in this chapter, claim that some actions are right or
+wrong regardless of their consequences.</p>
+<p>Utilitarians believe that the only type of consequences that make an
+action right or wrong are those that affect happiness or wellbeing. In
+that sense, utilitarianism can be understood as a combination of
+consequentialism and hedonism, as we discussed it in section . Recall
+that there are several different accounts of wellbeing, all of which are
+compatible with utilitarianism.</p>
+<p><strong>Classical utilitarianism.</strong> Most utilitarians are
+hedonists about wellbeing; they believe that wellbeing is a function of
+pleasure and suffering. Such utilitarians classical utilitarians. When
+classical utilitarians say they want to improve wellbeing, they mean
+that they want there to be more pleasure and less suffering in the
+world.</p>
+<p><strong>Preference utilitarianism.</strong> In contrast to classical
+utilitarians, preference utilitarians believe that wellbeing is
+constituted by the satisfaction of people’s preferences.<br />
+The preference account of wellbeing is one of the many modifications of
+classical utilitarianism. While we will not describe these other
+theories in detail, it is useful to know that if we disagree with one
+aspect of classical utilitarianism, there is often another utilitarian
+or consequentialist theory that can accommodate our beliefs.</p>
+<p><strong>Utilitarians believe that people have the same intrinsic
+moral worth.</strong> Bentham exemplified utilitarian thought with the
+phrase “Each to count for one and none for more than one.” People of
+different classes, races, ethnicities, religions, abilities, and so on
+are of equal moral worth. In other words, utilitarianism is an
+<em>impartial</em> moral theory.</p>
+<p><strong>For an individual to deserve moral treatment, they just need
+to be capable of having wellbeing.</strong> According to Bentham, “The
+question is not, Can they reason?, nor Can they talk? but, Can they
+suffer?” This quote is often taken to mean that we should be concerned
+with the wellbeing of animals, since animals feel pleasure and pain just
+like humans. Similar positions are held by other utilitarians such as
+Peter Singer <span class="citation"
+data-cites="singer1981expanding"></span>. If, in the future, AI systems
+develop a capacity for wellbeing, they would deserve moral treatment as
+well according to classical utilitarians.</p>
+<p><strong>Utilitarians aim to maximize wellbeing.</strong> Utilitarians
+do not think it is sufficient to perform an action with good
+consequences; they think the only right action is the one with the best
+consequences. They do not believe in options. The following example
+illustrates this distinction.<br />
+</p>
+<div class="blockquote">
+<p>Dorian has a choice: teach biology or research air quality. As a
+teacher, he would help hundreds of students. As a researcher, he would
+save thousands of lives. He enjoys teaching somewhat more than research.
+What should he choose?<br />
+</p>
+</div>
+<p>A utilitarian might argue that Dorian should become a researcher. In
+this case, he knows that he will do more good. This is despite the fact
+that Dorian would be a great teacher, and would have a positive impact
+as a teacher. He would do more good through his job as a public health
+researcher, so a utilitarian might argue that he is obligated to take
+that option.<br />
+The best option is always the one that maximizes wellbeing. This is a
+straightforward result of valuing everyone’s wellbeing impartially and
+always striving to do the best rather than the merely good.<br />
+In summary, utilitarianism makes several claims: wellbeing is the only
+intrinsic good, wellbeing should be maximized, wellbeing should be
+weighed impartially, and an action’s moral value is determined by its
+consequent effects on wellbeing. Utilitarianism teaches that the best
+action we can take is the one that leads to the best positive effect on
+wellbeing.</p>
+<h3 id="common-criticisms-of-utilitarianism">Common Criticisms of
+Utilitarianism</h3>
+<p>While utilitarianism remains a popular moral theory, it is not
+without its critics. This section explains some of the most common
+objections to utilitarianism.</p>
+<p>Many philosophers argue that utilitarianism is too demanding <span
+class="citation" data-cites="scheffler1994rejection"></span>. It insists
+that we choose the best actions, rather than merely good ones. As we saw
+in our discussion of the drowning child and our obligations to the
+global poor, this can lead utilitarianism to recommend unconventionally
+large commitments.<br />
+According to this criticism, utilitarianism asks us to give up too much
+of what we take to be valuable for the sake of other people’s wellbeing.
+Perhaps we should quit a career that we love in order to work on
+something that does more good, or we should not buy gifts for family and
+friends if the money would produce more wellbeing when given to someone
+suffering from a preventable disease. To live up to this critique of
+everyday values we would have to radically change our lives, and
+continue to change them as the global situation evolved. The critic
+thinks that this is too much to reasonably ask of someone. A moral
+theory, they think, should not make a moral life highly
+challenging.<br />
+A utilitarian can respond in two ways. The first way is to argue that,
+while utilitarianism is theoretically demanding, it is practically less
+so. For example, someone trying to live up to the theoretical demands of
+utilitarianism might burn out, or harm the people around them with their
+indifference. If they had asked less of themselves, they might have done
+more good in the long run. Utilitarianism might even recommend acting
+almost normally, if acting almost normally is the best way to maximize
+wellbeing.<br />
+However, it is unlikely that this response undermines the argument that
+we should give some portion of our money to charity. Even if donating
+most of our income would backfire. most people should likely donate more
+than they do. Many utilitarians simply accept that their theory is
+demanding. Utilitarianism does demand a lot of us, and until the critic
+shows that these demands are not morally required of us, then we might
+just live in a demanding world. While demanding too much of yourself can
+be counter-productive, we should do far more than we currently do.</p>
+<p>Another way of critiquing utilitarianism is to say that even if the
+theory is consistent and appealing, it isn’t useful because we rarely
+know the consequences of our actions in advance.<br />
+When we illustrated a utilitarian calculation above using the case of
+drunk driving, we intentionally simplified the situation. We considered
+only a few possible immediate outcomes and we estimated their possible
+likelihoods. In the real world, however, someone considering whether to
+drive home faces unlimited possible outcomes, and those outcomes could
+cause other events in the future that would be impossible to predict.
+Moreover, we rarely know the probabilities of the effects of our
+actions. Utilitarianism would be impractical if it required us to make a
+long series of predictions and calculations for every choice we face.
+Certainly, we shouldn’t expect Amanda to do so in the moment.<br />
+In response to this criticism, a utilitarian might differentiate between
+a criterion of rightness and a decision-making procedure <span
+class="citation" data-cites="bales2023act"></span>. A <em>criterion of
+rightness</em> is the factor that determines whether actions are right
+or wrong. According to utilitarianism, the criterion of rightness is
+whether an action maximizes expected wellbeing compared to its
+alternatives. In contrast, a theory’s <em>decision-making procedure</em>
+is the process it recommends individuals use to make decisions.
+Crucially, a theory’s decision procedure does not need to be the same as
+its criterion of rightness.<br />
+For example, a utilitarian would not likely advise everyone to make
+detailed calculations before getting in the car after having a couple of
+drinks. Most utilitarians would advise everyone to simply never drive
+drunk. There’s only a need to consider a utility calculation in cases
+where the best option is particularly unclear. Even then, such
+calculations are only approximate and should not necessarily be
+decisive. Just as corporations try to maximize profit without consulting
+a spreadsheet for every decision, utilitarians might follow certain
+rules of thumb without relying on utility calculations.<br />
+In practice, utilitarians rely on robust heuristics for bringing about
+better consequences and rarely consult explicit calculations. To better
+improve the world, like others they often cultivate virtues such as
+truth-telling, being polite, being fair, and so on. They often imitate
+practices that have stood the test of time, even if they do not fully
+understand their rationale. That is because some things may have complex
+or obscure reasons that are not easily discerned by human reason or not
+easily amenable to calculation. They often bear in mind Chesterton’s
+fence, which warns against removing a barrier without knowing why it was
+erected in the first place. Even if their criterion of rightness can be
+controversial, utilitarians adopt decision procedures that are often
+conventional.</p>
+<p>Many philosophers argue that utilitarianism neglects sources of value
+other than wellbeing. One famous argument meant to show that wellbeing
+isn’t the only source of value is Robert Nozick’s “Experience Machine”
+<span class="citation" data-cites="nozick1974anarchy"></span>. Nozick
+considers the following thought experiment:<br />
+</p>
+<div class="blockquote">
+<p>“Suppose there were an experience machine that would give you any
+experience you desired. Superduper neuropsychologists could stimulate
+your brain so that you would think and feel you were writing a great
+novel, or making a friend, or reading an interesting book. All the time
+you would be floating in a tank, with electrodes attached to your brain.
+Should you plug into this machine for life, preprogramming your life’s
+experiences?”<br />
+</p>
+</div>
+<p>Nozick claims that we would decline this offer because we care about
+the reality of our actions. We do not just want to feel that we have
+cheered up our friend; we actually want them to feel better. We do not
+want the experience of writing a great work of literature, we want great
+literature to exist because we worked on it. Many philosophers consider
+this a decisive rebuttal to the idea that wellbeing is the only thing
+that matters.<br />
+Though many people say that they would prefer not to use the machine
+when it is introduced as above, they may have a different reaction when
+the thought experiment is presented differently.<br />
+</p>
+<div class="blockquote">
+<p>“You wake up in a plain white room. You are seated in a reclining
+chair with a steel contraption on your head. A woman in a white coat is
+standing over you. ‘The year is 2659,’ she explains, ‘The life with
+which you are familiar is an experience machine program selected by you
+some forty years ago. We at IEM interrupt our clients’ programs at
+ten-year intervals to ensure client satisfaction. Our records indicate
+that at your three previous interruptions you deemed your program
+satisfactory and chose to continue. As before, if you choose to continue
+with your program you will return to your life as you know it with no
+recollection of this interruption. Your friends, loved ones, and
+projects will all be there. Of course, you may choose to terminate your
+program at this point if you are unsatisfied for any reason. Do you
+intend to continue with your program?” <span class="citation"
+data-cites="greene2013moral"></span><br />
+</p>
+</div>
+<p>Joshua Greene, the author of this example, supposes that most people
+would not want to leave the program. He suggests that what accounts for
+the seeming difference between his and Nozick’s versions is the
+<em>status-quo bias</em>. People tend to prefer the life they know.
+Surveys of real people’s responses to these thought experiments indicate
+that a range of factors—–including the status-quo bias—–affect their
+responses. Nozick’s example is not as clear cut as his argument
+supposes.<br />
+In summary, utilitarianism is often criticized in three ways. People
+claim that it is (1) too ethically demanding, (2) practically unusable,
+and (3) wrong to neglect values other than wellbeing. In response,
+utilitarians may argue that we simply live in a demanding world, that we
+can use heuristics instead of constantly making calculations, and that
+Nozick’s thought experiment does not necessarily show that we have
+values aside from wellbeing.</p>
+<h2 id="deontology">Deontology</h2>
+<p><strong><em>Deontology</em> is the name for a family of ethical
+theories that deny that the rightness of actions is solely determined by
+their consequences.</strong> Deontologists emphasize constraints rather
+than consequences. “Thou shalt not kill”, “thou shalt not steal”, “honor
+thy mother and father”—these are deontological principles that may be
+familiar from the Ten Commandments. Deontological theories are systems
+of rules or obligations that constrain moral behavior <span
+class="citation" data-cites="darwall2002deontology"></span>. They may be
+based on a theological justification, but they do not need to be. These
+theories are often based on simple and unambiguous rules, which may make
+them easier than other theories to implement in AIs.</p>
+<p><strong>The term <strong><em>deontology</em></strong> encompasses
+religious ethical theories, non-religious ethical theories, and
+principles and rules that are not part of theories at all.</strong> Some
+deontological theories are religious. For example, <em>divine command
+theory</em> teaches that we have a duty to do as God commands. Others,
+like Kant’s ethics (which we will discuss later), are non-religious.
+While deontological theories may derive their rules from different
+sources, they are united by their focus on duties and rights.<br />
+Many deontological principles are not tied to any particular theory.
+Instead, they may be an attempt to find rules or principles which fit
+our intuitions about specific moral issues like abortion, terrorism, or
+suicide. This kind of moral analysis is still deontological—it is
+looking for universal rules which can tell us what to do in particular
+cases—even though it is not tied to a specific theory. Most of what we
+will say about deontology in this section is applicable to deontological
+theories.</p>
+<h3 id="features-of-deontological-theories">Features of Deontological
+Theories</h3>
+<p><strong>Deontological theories give obligations and constraints
+priority over consequences.</strong> Unlike consequentialism,
+deontological theories do not justify their rules by appealing to their
+consequences. Under deontological theories, some actions (like lying or
+killing) are simply wrong, and they cannot be justified by the good
+consequences that they might bring about. For example, when Elena’s boss
+asks her how hard her co-workers work, a deontologist might argue that
+she should tell the truth, even if she knows the truth will lead to some
+of her colleagues losing their jobs.</p>
+<p><strong>Many constraints on our actions are derived from a respect
+for other people’s rights.</strong> On most accounts, every person has
+certain rights simply by virtue of being a person. Each individual has a
+claim to them, and no one is permitted to violate them under any
+circumstances. Common examples of rights include the right to life, the
+right to freedom, and the right to autonomy.</p>
+<p><strong>Modern deontological theories tend to emphasize that we
+should not interfere with others’ autonomy.</strong> Since Kant
+developed his moral theory, many deontologists have followed him in
+placing importance on human <em>autonomy</em>, our ability to freely
+choose how we act. This means protecting each other from acts which
+might restrict our autonomy. This is an example where different moral
+theories place emphases on normative factors: whereas utilitarianism
+focuses on wellbeing, deontological theories often emphasize
+autonomy.<br />
+Another key part of their idea of autonomy is that our actions are not
+entirely governed by moral considerations. We are constrained from
+certain types of behavior, but apart from those behaviors, we can freely
+choose how to act. When we are choosing a career for example, we should
+not become a torturer, or an assassin, but apart from those types of
+constraints, we can choose from a range of harmless careers that suit
+our interests. By contrast, a utilitarian might argue that we must
+choose the single career (if there is one) that would have the best
+outcome.</p>
+<p><strong>According to deontology, intentions can be right or wrong, as
+well as actions.</strong> Many deontological theories assert that
+intentions, as well as actions, can be moral or immoral. For
+example:<br />
+</p>
+<div class="blockquote">
+<p><em>Intentional push</em>: Farid’s elderly mother has been annoying
+him, so he decides to push her down the stairs. When he next sees her at
+the top of the stairs, he carries out his plan.</p>
+</div>
+<div class="blockquote">
+<p><em>Intention, but no push</em>: Farid’s elderly mother has been
+annoying him, so he decides to push her down the stairs. When he next
+sees her at the top of the stairs, he plans to push her. Just before he
+does, she trips and falls.<br />
+</p>
+</div>
+<p>According to some deontological theories, Farid is equally wrong in
+both scenarios. Though he never pushes his mother in the second
+scenario, the intention itself is a moral error. By contrast, for
+classical utilitarians, intentions do not matter in themselves. On this
+view, intentions are only right or wrong insofar as they lead to good or
+bad consequences.<br />
+Our common-sense moral intuitions are often aligned with the idea that
+intentions matter. Perhaps that’s why they play a very important role in
+the law of many countries. In America’s Model Penal Code, for example,
+the strength of a criminal’s intention is measured with a scale of four
+adverbs: a criminal could commit a crime <em>purposefully</em>,
+<em>knowingly</em>, <em>recklessly</em>, or <em>negligently</em>. If
+they commit it <em>purposefully</em>, then they knew what the outcome
+would be, and they intended that outcome to happen. If they commit it
+<em>knowingly</em>, they don’t primarily intend the criminal effect of
+their actions, but they act anyway. People are acting
+<em>recklessly</em> when they knowingly engage in behaviors which pose
+risks to others, like owning a tiger, or flying a drone too close to an
+airport. Those who act <em>negligently</em> fail to perceive a
+substantial and unjustifiable risk that their conduct will have harmful
+results. Not all legal codes differentiate between these four levels in
+practice, but they all punish purposeful or knowing criminals more than
+negligent ones.<br />
+If a driver purposefully rams their car into another vehicle, intending
+to cause injury, they would face serious criminal charges. If the driver
+was speeding recklessly and lost control of their vehicle, resulting in
+accidental injury to another driver, they may face a lesser charge, such
+as reckless driving. The lessened mental state, even if the end result
+was the same, often reduces the severity of punishment under the law. As
+we can see, to determine whether an AI acted immorally, some moral
+theories would require that we be able to determine an AI’s intent, a
+goal of transparency research.<br />
+Deontologists advance a number of arguments against consequentialism
+that help to clarify the distinctive features of their moral theories.
+There are many deontological theories, and they are often grouped
+together under one umbrella simply because they share the feature that
+they are not consequentialism. Deontological theorists often criticize
+consequentialism, and partially define their theories by the ways that
+they make up for the flaws they see in consequentialism. Two problems
+that they see in consequentialism are that (1) consequentialism is very
+demanding (in other words, it doesn’t allow much autonomy) and (2)
+consequentialism leads to some radical conclusions (for example, it
+sometimes justifies actions that most people believe are wrong).</p>
+<p><strong>(1) Unlike consequentialism, deontology gives us
+options.</strong> Deontology preserves human autonomy because it only
+forbids us from performing a limited number of impermissible actions.
+The remaining actions are optional. On the other hand, consequentialism
+implies that every action is moral or immoral to a certain degree, and
+each person is obligated to do the most good at all times. According to
+consequentialism, every life decision—like marriage, career choice,
+which relationships to pursue, which food to eat—is a moral decision.
+Deontologists find this to be far too demanding.</p>
+<p><strong>(2) Unlike consequentialism, deontology does not allow any
+action to be justified by its outcome.</strong> According to many
+consequentialist theories, any action can be justified if it results in
+a better outcome than the alternative actions. Even killing or torturing
+innocent people might be the right choice if it increases everyone
+else’s wellbeing more than it harms its victims. Some people believe
+that deontological theories—–which forbid actions like killing and
+torture in all cases—–are more plausible.</p>
+<h3 id="deontological-principles">Deontological Principles</h3>
+<p><strong>We need principles, as well as rules, to capture the
+complexity of ethics.</strong> While deontologists generally consider
+the absolute prohibition of certain actions to be a strength of
+deontology, it can sometimes lead to counterintuitive moral judgments.
+Suppose a pair of conjoined twins will die without undergoing a medical
+procedure. However, if the procedure is carried out, one of them will
+die. The rule “do not kill” might stop a surgeon from operating, which
+would mean that neither twin has a chance of survival.<br />
+Difficult, messy situations like this, where clear-cut rules seem to
+fail us, have led some deontologists to develop important distinctions
+which complicate their theory but better capture the way we think about
+ethics. We will introduce two of these principles: the <em>doctrine of
+double effect</em> and the <em>action/omission distinction</em>.</p>
+<p><strong>The doctrine of double effect.</strong> In the case of the
+conjoined twins, the surgeon might appeal to the doctrine of double
+effect. This is a principle which states that an agent is morally
+allowed to carry out actions that predictably lead to bad outcomes–—like
+the death of an innocent–—as long as they <em>intend</em> the good
+effect, but not the bad effect of the action. The constraint against
+letting two people die, however, must be stronger than the constraint
+against performing the surgery. In this case, the doctor can operate
+only if she intends to save one of them, not to bring about a death. The
+doctrine of double effect can also explain why it can be morally
+permissible to kill in self defense <span class="citation"
+data-cites="aquinas2014summa"></span>. You are permitted to defend
+yourself and your family from imminent attack. If the only way to
+protect yourself is to kill your assailant, you may be permitted, as
+long as you intend to save your family and not to kill.</p>
+<p><strong>The action/omission distinction.</strong> The action/omission
+distinction is important for understanding the role of responsibility in
+deontological theories. Intuitively, we find someone to be more
+responsible for something they did than for something they allowed to
+happen <span class="citation" data-cites="foot1978problem"></span>. For
+example:<br />
+</p>
+<div class="blockquote">
+<p><em>Stealing</em>: While walking past the bank at night, Gabe sees
+that the night deposit box is open. Inside it, he sees a bag filled with
+money. He decides to steal the bag.</p>
+</div>
+<div class="blockquote">
+<p><em>Failing to report</em>: Heather sees Gabe take the money, but
+doesn’t report it to the police. If she had, the money would have been
+returned to its owner.<br />
+</p>
+</div>
+<p>In these examples, both Gabe and Heather have done something wrong,
+but Gabe’s crime is worse. He is directly responsible for the theft,
+while Heather has only committed an act of omission–—she failed to
+report the crime. This captures some of our ordinary intuitions about
+responsibility. We generally do not hold people responsible for what
+they do not do.</p>
+<h3 id="criticisms-of-deontology">Criticisms of Deontology</h3>
+<div class="blockquote">
+<p><em>Nuclear terrorism</em>: Ines is part of a terrorist cell that has
+placed a nuclear weapon in a capital city. If it goes off, it will kill
+millions. She claims that it will go off within 24 hours, but she will
+not say which city it is in. Jamie has captured Ines and questioned her,
+but Ines will not give away the bomb’s location. If Jamie tortures Ines,
+she will find out the bomb’s location and millions of lives will be
+saved.<br />
+</p>
+</div>
+<p>Some deontological theories accept that Jamie should not torture
+Ines, no matter how many people will die as a result. However, many
+people find this implausible. When so many lives are at stake, it may
+seem selfish for Jamie to take the easier option, prioritizing her moral
+purity over the lives of the people she could save.<br />
+To accommodate our intuitions about moral catastrophes, some
+deontological theorists have adopted a <em>threshold</em> <span
+class="citation" data-cites="moore2019rationality"></span>. According to
+a threshold view, when a certain number of lives are at stake (i.e. when
+the badness of an outcome reaches a certain threshold), the theory
+defers to the consequentialist recommendation that the otherwise
+impermissible act (torture in this case) is allowed.<br />
+There are a number of problems with the threshold view. Most
+importantly, it is not clear how to determine what the threshold should
+be, and any decision about it will be arbitrary. If a million lives at
+stake justify Jamie’s act of torture, then it seems odd to say that ten
+thousand, one thousand, or even ten lives at stake do not.</p>
+<div class="blockquote">
+<p><em>Better job</em>: Kimiko has been offered a job where she will use
+her unique set of skills to reform the health system of the country she
+lives in. The next best hire for the job is far less experienced than
+she is. Therefore, if Kimiko takes the job, thousands of lives will be
+spared every year for at least a decade. However, the job would require
+Kimiko to move to a new city, and she promised her children that the
+family would not move until they had all finished school.<br />
+</p>
+</div>
+<p>Many deontological theories consider promise-keeping to be very
+important. They would not allow Kimiko to break her promise to her
+children in this situation, even though keeping her promise would cost
+thousands of lives.<br />
+Deontological rules may sometimes lead to the best consequences, but
+they often do not. This leads to what some people call the <em>paradox
+of deontology</em>. There may be situations in which it is impermissible
+to stop many instances of the same impermissible act occurring. If there
+is a rule that we cannot lie and kill, then we cannot lie to prevent
+hundreds of acts of lying, or kill to prevent hundreds of acts of
+killing.</p>
+<h3 id="immanuel-kant-and-the-categorical-imperative">Immanuel Kant and
+the Categorical Imperative</h3>
+<p>Immanuel Kant was a German enlightenment thinker who developed an
+especially strong deontological theory which we now call
+<em>Kantianism</em>. According to Kant, some actions are absolutely,
+universally wrong. For instance, Kant believed that killing, stealing,
+lying, committing suicide, and breaking a promise are wrong in all
+circumstances.<br />
+Kant believed that anyone can (in theory) arrive at these conclusions
+due to their own capacity to reason. Because, in his opinion, we would
+all arrive at the same conclusions, he believed in a universal moral law
+which we all have a duty to follow. The method that he thought would
+help us discover this moral law is called the <em>categorical
+imperative</em>.<br />
+Kant described the categorical imperative in several different ways, and
+his descriptions are different enough that they are now referred to as
+separate formulations of the imperative <span class="citation"
+data-cites="kant1998groundwork"></span>. In other words, they are
+different ways to discover the same moral law. We will focus on two
+formulations: the <em>universal law</em> formulation, and the
+<em>humanity</em> formulation. The universal law formulation asks each
+of us to imagine that when we make a moral rule for ourselves to follow,
+we have actually made a law for everyone. In other words, we need to ask
+ourselves: what if everyone did that? If a world where everyone followed
+our rule was contradictory or irrational, then we have discovered
+something that we shouldn’t do. The humanity formulation tells us to act
+on rules which lead us to treat people in a way that lets them maintain
+their autonomy. This means never getting in the way of their ability to
+exercise their human capacities for reason and autonomy, or make their
+own decisions.</p>
+<p><strong>Kant’s method is called the categorical imperative because he
+believed all moral rules must be categorical.</strong> Kant
+distinguishes two types of rules: <em>hypothetical</em> rules are of the
+form “do X in order to Y,” which only apply when we already want to Y,
+and <em>categorical</em> rules are of the form “do X.” An example of a
+hypothetical rule is “be kind to people if you want them to do you
+favors.” This is hypothetical, or conditional, because we would only be
+required to follow this rule if we already cared about receiving favors.
+Kant thought that the moral law was a universal list of rules which
+apply to everyone, so he argued that all moral rules must be
+categorical, not hypothetical. A categorical rule like “be kind” can
+apply to everyone, while the hypothetical “be kind if you want them to
+do you favors” only applies to those who want favors.</p>
+<p><strong>The universal law formulation.</strong> This idea leads us to
+the first formulation of the categorical imperative, Kant’s method for
+discerning right from wrong. Kant tells us in this formulation that we
+should only act in ways which could be made into laws for all of
+humankind. In other words, what if everyone did that same thing: “What
+if everyone killed people who stood in their way?” “What if everyone
+cheated on exams?” “What if everyone lied?” If the answer to the
+question seems to make your intended action impossible or inadvisable,
+do not do it. This formulation provides the clearest test to show
+whether an action is in accordance with the moral law or not.<br />
+In slightly more complicated terms, we can formalize Kant’s thoughts on
+universalising rules into a four-part test for any rule which we can
+apply to any categorical rule we might think of. If our proposed rule
+passes all four stages, then it is permissible. First, we turn our
+proposed action into a categorical rule (“do X” or “do X when in
+Situation S”). Then, we change the rule so that it applies to everyone,
+not just us. To test whether the rule is part of the moral law, we first
+check whether it contradicts itself. If it does, then it is a rule we
+absolutely must not follow. If the rule isn’t contradictory, we check
+whether it conflicts with something else that we must value. If it does,
+then we shouldn’t follow the rule; if it doesn’t, then we must follow
+it. We will now go through an example of each step, to model how this
+process might work.</p>
+<p>Luke promised to take his mother’s dog for a walk. But today he is
+tired and doesn’t want to. He proposes not to go on the walk. If his
+action became a rule, the rule might be: “I will not fulfill promises
+when it is inconvenient to me.”</p>
+<p>To do this, we just remove Luke from the rule: “No one should fulfill
+promises when it is inconvenient for them.”</p>
+<p>Luke’s rule fails at this stage. In order for Luke to conceive of his
+rule, the institution of promise-keeping must exist. However, in a world
+in which everyone breaks their promises, the institution of
+promise-keeping doesn’t really exist. Luke’s rule fails because it leads
+to a contradiction.<br />
+According to Kant, we can conclude from the contradiction in conception
+that we should never break promises just for convenience.</p>
+<p>To illustrate the contradiction in the will, Kant considers the case
+of laziness. Suppose Mari never works hard because she is lazy. We could
+formulate her action as a rule: “You shouldn’t work hard if you feel
+lazy.” This rule passes the contradiction in conception because it’s
+possible to imagine a world in which no one works hard. However, Kant
+argues that it fails as a rule for another reason: it contradicts our
+will. In Kant’s view, it is in our nature as rational beings to work and
+to “develop our talents.” Therefore, we should not be lazy because, as a
+rule, it would violate our rational nature.<br />
+Kant’s universal law formulation of the categorical imperative is a
+method of testing whether a rule can be willed for everyone. First, we
+determine whether the rule is even conceivable. Then, we determine
+whether people would will it. In theory, this method can tell us whether
+any rule is right or wrong. A Kantian AI would therefore need the
+capacity to reason.<br />
+Now we turn to an alternative formulation of the categorical
+imperative.</p>
+<p><strong>The “humanity” formulation of the categorical
+imperative.</strong> The humanity formulation is perhaps more
+influential among philosophers today than the universal law formulation.
+Roughly speaking, the humanity formulation states that we should always
+treat other people’s humanity as an end, not merely as a means. Kant
+means something specific by <em>humanity</em>, <em>end</em>, and
+<em>means</em>.<br />
+When Kant writes about <em>humanity</em>, he is referring to the ability
+to engage in autonomous, rational behavior that he believed was
+characteristic of human nature. <em>Ends</em> are the goals that we aim
+to reach, and <em>means</em> are the methods of achieving ends. To treat
+humanity always as an end and never as a means is to treat everyone with
+respect for their autonomy and rationality. It’s one of Kant’s most
+influential ideas. To make this idea more concrete, here is an
+example.<br />
+</p>
+<div class="blockquote">
+<p><em>The urgent lift</em>: Nathan wants a lift into town to go
+go-carting. He approaches a stranger and lies to her, telling her that
+his brother is having an allergic attack in town and he needs to deliver
+his EpiPen. Nathan tells the stranger that if she doesn’t give him a
+lift, his brother might die.<br />
+</p>
+</div>
+<p>In the example, Nathan is treating the stranger as a means to get
+into town. He doesn’t respect the stranger as a person with her own
+ends, who may have better things to do. By lying to the stranger, Nathan
+undermines her autonomy by obscuring the truth. In other words, he is
+not respecting the stranger’s humanity.</p>
+<h3 id="criticisms-of-kants-ethics">Criticisms of Kant’s Ethics</h3>
+<div class="blockquote">
+<p><em>Mad axeman</em>: Omar hears a knock on his door late at night. A
+man with a wild look and a bloody ax asks, “Is Piper here?” Omar knows
+Piper is upstairs. Should he tell the truth?<br />
+</p>
+</div>
+<p>Kant’s ethical writings claim that it would be wrong for Omar to lie.
+According to Kant, lying is always wrong. Even in the case of the mad
+axeman, Kant insisted that it would be wrong to lie (though some
+philosophers inspired by Kant argue he could have avoided this claim).
+Most modern moral philosophers disagree with Kant’s conclusion in this
+case.</p>
+<p><strong>Pro tanto duties.</strong> Instead, philosophers refer to
+duties to act which may be overridden by other duties. Many modern
+philosophers would agree that Omar has a duty to avoid lying. But they
+would also argue that he also has a duty to safeguard his friend, and
+that this duty outweighs his duty to avoid lying. In other words, many
+modern philosophers would see Omar’s duty to avoid lying as <em>pro
+tanto</em>. Latin for “to that extent,” pro tanto means that a given
+duty can be weighed against other duties to determine a course of
+action. Although the principle of honesty offers a pro tanto reason in
+favor of revealing Piper’s real location to the axeman, it is not the
+only consideration. Other moral obligations, such as the duty to ensure
+others’ welfare, may ultimately mean Omar should withhold Piper’s real
+location from the axeman.</p>
+<p><strong>Aspects of Kant’s ethics inspire modern deontology.</strong>
+Many aspects of Kant’s morality are explicitly present in modern moral
+theories. For example, many deontological theories still reflect the
+ideas that we should treat people as ends, not as mere means; the focus
+on respecting others’ rational and autonomous humanity; and the concept
+of considering how your actions might apply universally.</p>
+<h2 id="virtue-ethics">Virtue Ethics</h2>
+<p>Virtue ethics is a moral theory that emphasizes the importance of
+having the right character traits, rather than producing the right
+consequences or performing the right actions <span class="citation"
+data-cites="hurtshouse2023virtue"></span>. A virtue ethicist might argue
+that we should help others in need by donating to charity, but not
+because we should promote wellbeing or because we have certain moral
+obligations. According to a virtue ethicist, we should donate to charity
+because that’s what a generous person would do, and generosity is a
+virtue.<br />
+Modern virtue ethics is inspired by the ancient Greek philosopher
+Aristotle. In his book “Nicomachean Ethics,” Aristotle explored three
+key concepts that are essential for understanding virtue ethics <span
+class="citation" data-cites="crisp2014aristotle"></span>. First, he
+explored the concept of <em>virtue</em>, or morally good character
+traits. Second, he developed the concept of practical wisdom, which is
+the set of skills and experience required in order to behave in line
+with virtues. Third, he argued that developing virtue and exercising
+practical wisdom are essential for <em>flourishing</em>, or living a
+good life. Each concept is described in more detail below.</p>
+<h3 id="virtue">Virtue</h3>
+<p><strong>A virtue is a morally good character trait or
+disposition.</strong> Putative examples of virtues include courage,
+generosity, fairness, and kindness. Virtues are morally good character
+traits, and vices are morally bad ones. Putative vices include
+cowardice, selfishness, unfairness, and cruelness. Having a certain
+virtue or vice is not binary, but a matter of degree. In other words,
+individuals aren’t typically completely courageous or completely
+cowardly; they can be more or less courageous.</p>
+<p><strong>To be virtuous is not just to behave in certain ways but also
+to feel certain ways.</strong> Two individuals might behave in exactly
+the same ways but have different feelings, and thus exhibit different
+virtues and vices.<br />
+Consider two siblings, Bobby and Cory, who behave similarly in every
+situation. They are both trusted by their friends, they both keep their
+promises, and they are both equally honest. However, Bobby behaves
+virtuously because it makes him feel good; he derives pleasure from
+helping others. Cory, on the other hand, behaves virtuously despite her
+feelings; helping others feels to her like a burden. Her behavior is the
+same as Bobby’s, perhaps because she wishes to be seen as a virtuous
+person or she wants to avoid getting in trouble. According to most
+virtue theories, only Bobby is virtuous. While Cory behaves the same
+way, her behavior does not indicate virtue.</p>
+<p><strong>Virtue ethicists claim that other theories miss important
+morally relevant features.</strong> Mental states like emotions and
+motivations, virtue ethicists argue, are morally relevant. A
+consequentialist would evaluate Bobby and Cory as equally moral because
+their actions produce the same consequences. Some, but not all,
+deontologists would evaluate Bobby and Cory as equally moral because
+they behave the same ways with respect to rules and obligations. Virtue
+ethics emphasizes an intuition that many people have: that Bobby is
+morally superior to Cory.</p>
+<h3 id="practical-wisdom">Practical Wisdom</h3>
+<p>Being disposed to behave virtuously is necessary, but not sufficient,
+for being a virtuous person. It’s also important, according to virtue
+ethics, to have <em>practical wisdom</em>–—the ability to reason and to
+act appropriately on the inclination to be virtuous.<br />
+For individuals who lack practical wisdom, the inclination to be
+virtuous can lead them to behave wrongly. Someone who is inclined
+towards honesty and who derives pleasure from being honest might, in
+some situations, be too honest. If they lack practical reason, they may
+needlessly insult strangers or cause conflicts between friends.
+Practical wisdom is the ability to understand when it’s appropriate to
+be honest and when it’s important to act on a different virtue, like
+kindness.</p>
+<p><strong>While people may be born with the disposition towards certain
+virtues, practical wisdom is learned through experience.</strong>
+Children, for example, may desire to behave well, but make errors due to
+a lack of experience. They may tell their mother that they don’t like
+her outfit, unable to differentiate between honesty and cruelty. If
+their mother reacts with hurt feelings, her children will learn from the
+experience that, in some situations, kindness is more appropriate than
+honesty. In other words, they will gain practical wisdom. We can learn
+practical wisdom from people who have had more experience than us, but
+also from cultural figures who clearly excel in their virtue, people who
+offer excellent examples of virtues of honesty, steadfastness, and
+compassion. Evidently, if we would like to make AIs virtuous, we would
+need to have exemplars for them to imitate.</p>
+<h3 id="flourishing">Flourishing</h3>
+<p><strong>Flourishing is living a good life.</strong> Aristotle
+believed that being virtuous is necessary for flourishing. In fact, he
+defined virtues in terms of their relationship towards flourishing.
+Virtues, he argued, are those character traits which lead an individual
+to flourish. The virtue ethicist’s idea of flourishing has similarities
+to the objective goods account of wellbeing that we discussed earlier in
+this chapter.<br />
+While most virtue ethicists agree that being virtuous is necessary for
+living a good life, they often disagree about whether it is sufficient
+for living a good life. Aristotle argued that, in addition to being
+virtuous, an individual must have the resources to enact virtue in order
+to lead a flourishing life. Someone living in poverty, according to
+Aristotle, is unable to enact certain virtues, like magnanimity. A
+virtuous but very unlucky person may be unable to flourish.<br />
+In sum, virtue ethics argues that to live a good life we must develop
+our virtues, and that to develop our virtues we should imitate people
+who act virtuously.</p>
+<h3 id="criticisms-of-virtue-ethics">Criticisms of Virtue Ethics</h3>
+<p><strong>Virtue ethics doesn’t always clearly help us determine the
+right things to do.</strong> When faced with a dilemma, like whether or
+not to steal from a grocery store in order to feed one’s family, virtue
+ethics does not seem to offer much guidance. We should be generous and
+selfless, which seems to suggest that stealing is wrong. However, we
+should also be loyal and protective of our family, which seems to
+suggest that we should do what is necessary in order to feed them. In
+such cases, virtue ethics may not seem very useful. Virtue ethicists may
+argue, however, that while their theory does not include a decision
+procedure for every situation, a virtuous person with a high capacity
+for practical reasoning will understand which virtues to express and
+when.</p>
+<p>According to virtue ethics, whether an action is right or wrong
+depends entirely on characteristics of the actor. If the person
+performing the action is ideally virtuous, then their actions will be
+morally right. This may seem odd to those who believe that the field of
+ethics is concerned with how to treat other people. Presumably we should
+save someone from drowning, not because of facts about our own character
+traits but because of facts about the drowning person. We should save
+them because their life has value, because their wellbeing matters, and
+because they have a right to life, not because we are courageous.</p>
+<h2 id="subsec:social-contract">Social Contract Theory</h2>
+<p>The focus of this section is social contract theories of morality. As
+the name suggests, social contract theory focuses on contracts—–or, more
+generally, hypothetical agreements between members of a society–—as the
+foundation of ethics. A rule such as “do not kill” is morally right,
+according to a social contract theorist, because individuals would agree
+that the adoption of this rule is in their mutual best interest, and
+would therefore insert it into a social contract underpinning that
+society. The most influential contemporary theorist within this
+tradition is John Rawls, who we will use to contextualize social
+contract theory, using the famous <em>veil of ignorance</em> thought
+experiment <span class="citation" data-cites="rawls2017theory"></span>.
+After understanding the broad strokes of his theory, we will consider a
+few reasons why such reasoning might be inadequate and consider some
+alternatives.</p>
+<p><strong>According to social contract theory, moral codes are the
+result of hypothetical agreements between members of society,
+established for mutual benefit.</strong> Let us consider the prohibition
+of thievery. It seems reasonable that people would agree to refrain from
+stealing: most people stand to benefit from a society that punishes
+thieves, given that it would disincentivize others from robbing them.
+The ethical principle of not stealing would thus have moral force,
+without requiring some fundamental principles such as maximizing
+wellbeing or respecting autonomy. According to the social contract
+theorist, all moral codes are similarly justified: they are reasonable
+hypothetical agreements which encourage behavior that creates mutual
+benefit.</p>
+<h3 id="the-veil-of-ignorance">The Veil of Ignorance</h3>
+<p>Philosopher John Rawls introduced the concept of a <em>veil of
+ignorance</em> as a tool for creating a social contract. When behind the
+veil of ignorance, individuals lose all knowledge of their personal
+attributes, such as their talents, religion, gender, sexuality, or
+class. In this state, sometimes called the <em>original position</em>,
+participants are asked to envision a basic structure for society, based
+on reasonable agreements without any knowledge of their own positions
+within the society they create.</p>
+<p><strong>In “A Theory of Justice”, Rawls proposes one way to generate
+a social contract.</strong> Rawls places everyone behind a veil of
+ignorance to make decisions about a social contract. From here, having
+lost all knowledge of their individual characteristics, participants are
+invited to envision a basic structure for society, based on reasonable
+agreements without knowledge of their own position in the society they
+create.<br />
+Once the decisions have been made, participants leave the original
+position, discover who they are in society, and then live according to
+the social contract they created. Rawls believed that, if we were able
+to use the veil of ignorance to construct a real society, the society
+would likely include ideas like: protection of the worst-off, basic
+liberties for all, and restrictions on inequality. Because the people
+determining these contracts do not know which social group they will be
+a part of, they would not create a society in which some people are far
+worse off than others.</p>
+<p><strong>The veil of ignorance would prevent slavery.</strong> Those
+in Rawls’ original position would arrive at many sensible conclusions.
+An individual behind the veil would not reasonably permit slavery, for
+instance, given that they do not know whether they are a slave or a
+slaver. On average, very few people seek to benefit from slavery, and
+most people are harmed by it. Individuals would likely not wish to take
+the chance of being a slave in exchange for a chance of being a wealthy
+slave owner. Therefore, those in the original position would reject
+slavery, and this forms the basis of the social contract to not enslave
+others.</p>
+<p><strong>Agreements behind the veil of ignorance create a basis for a
+just society.</strong> This process is unlikely to generate elitist,
+patriarchal, or ableist moral codes since one does not know whether they
+have a high income, privileged racial or gender identity, or disability.
+The interests of any particular group would not be favored, since no one
+knows whether they belong to that group. As such, decisions behind the
+veil of ignorance are made in the interest of society. According to
+Rawls, everyone accounts for this component of luck by making decisions
+as though they could, themselves, be members of any group in
+society.</p>
+<h3
+id="principles-that-may-be-generated-from-the-veil-of-ignorance">Principles
+That may be Generated from the Veil of Ignorance</h3>
+<p>In this section, we look at some of the conclusions that Rawls argues
+individuals in the original position might reach: the maximin principle,
+the liberty principle, the equality of opportunity principle, and the
+difference principle.</p>
+<p><strong>We should protect the worst off.</strong> Behind the veil of
+ignorance, no one knows who they are, which means that anyone might be
+the worst-off individual in society. The main idea behind Rawls’
+contractarian logic is that people would agree to make sure everyone has
+a decent position in society, since anyone might end up in the worst
+position. Rawls argues that people behind the veil of ignorance would
+endorse the <em>maximin principle</em>, according to which we should
+prioritize the worst-off in society.</p>
+<p><strong>We should not exclude anyone from having basic
+liberties.</strong> Behind the veil of ignorance, no one knows who they
+are, which means that if any individual is excluded from having basic
+liberties, it could potentially be anyone. Therefore, individuals would
+rationally agree to distribute liberties to every member of society. As
+long as one does not infringe upon others’ liberties, they should have
+the freedom to pursue their own conception of the good life, and with it
+enjoy civil and political liberties such as freedom of speech, religion,
+association, assembly, and the right to a fair trial. This is Rawls’
+<em>liberty principle</em>: the fair distribution of liberties, ensured
+by a contractarian agreement, do not infringe upon the liberties of
+others.</p>
+<p><strong>We should ensure equality of opportunity.</strong> Adopting
+the veil of ignorance may lead us to conclude that no one should be
+denied opportunities based on their gender, age, race, family status, or
+other personal characteristics. People behind the veil would agree that,
+when inequalities arise, they should only do so through fair access to
+opportunity for everyone. Equality of opportunity ensures that
+differences in the relative positions of individuals are meritocratic.
+This is Rawls’ <em>equality of opportunity</em> principle: some degree
+of inequality is permissible, but only if it is merit-based.</p>
+<p><strong>We should require that inequalities benefit the
+least-advantaged.</strong> Allowing some inequalities can lead to
+increased overall wealth in a society, as higher earnings for the most
+productive members can create incentives for economic growth that
+benefits everyone. This is the basis of Rawls’s <em>difference
+principle</em>: some degree of inequality is permissible, but only if it
+also benefits the worst-off members of society.<br />
+These principles, in theory, ensure two conditions: everyone has basic
+rights and equal access to opportunity, and any inequalities that follow
+from the equality of opportunity also help the least privileged, even if
+they help the privileged more.</p>
+<h3 id="rawlss-conclusions-might-be-too-strong">Rawls’s Conclusions
+might be Too Strong</h3>
+<p><strong>The maximin principle is at odds with common-sense
+morality.</strong> According to Rawls, our moral evaluation of a society
+should be determined by the wellbeing of its worst-off individual. This
+implies that we must invest all our resources into raising the wellbeing
+of the worst-off member of society, and remain indifferent towards
+everyone else’s wellbeing, as long as they do not become the
+worst-off.</p>
+<p><strong>The grouch takes priority.</strong> Imagine a grouch: someone
+who is always at low levels of wellbeing and extremely hard to please.
+Say that giving them a billion dollars would make them only as happy as
+an ordinary person would be with a slice of cake. The maximin principle
+dictates that our priority should be to focus on improving their
+wellbeing, even if it means using a large amount of resources that could
+have made everyone else in society much happier. This prioritization
+seems counterintuitive.</p>
+<p><strong>We must be indifferent towards improving everyone else’s
+wellbeing.</strong> Suppose there was a new medical breakthrough that
+can cure a widespread disease, greatly improving the lives of many who
+suffer from the illness. This seems like a good thing, and it would be
+strange to not care about this happening. However, if the worst-off
+individual doesn’t have that disease and their wellbeing remains
+unchanged, nothing morally important has changed.</p>
+<p><strong>We must be indifferent towards decreasing everyone else’s
+wellbeing.</strong> Consider a scenario in which a technical error
+causes all electronically stored money to be deleted, plunging most
+countries into chaos and leading to widespread poverty. This seems like
+a bad thing, and it would be strange not to care about this happening.
+However, if the worst-off individual lives in an unaffected area and
+does not have a bank account, and their wellbeing remains unchanged,
+once more nothing morally important has changed.</p>
+<p><strong>The maximin principle seems untenable.</strong> In all three
+of these scenarios, Rawls’ maximin principle gives us implausible
+answers. We likely should not spend all of our resources to give one
+unhappy person a bit of joy at the cost of everyone else’s wellbeing.
+Similarly, it seems extremely morally relevant if we can cure a
+widespread disease or ensure that most people do not lose all their
+money.</p>
+<h3
+id="rawls-conclusions-might-not-follow-from-the-veil-of-ignorance">Rawls’
+Conclusions Might Not Follow from the Veil of Ignorance</h3>
+<p><strong>Behind the veil of ignorance, we would care about more than
+maximin.</strong> If, behind the veil of ignorance, we know that there
+is just one person who will be much worse off than everyone else, we may
+not unanimously agree to prioritize making that person’s situation
+better. Individuals behind the veil of ignorance may not consider the
+worst-case outcomes when making decisions under uncertainty. While the
+people behind the veil might be highly risk-averse, ensuring that the
+general distribution of society is good rather than just the average
+level of wellbeing and endorsing the liberty and difference principles,
+they would likely not endorse the maximin principle.</p>
+<p><strong>The veil of ignorance may lead to utilitarianism.</strong>
+Nobel prize winning economist John Harsanyi conceptualized the veil of
+ignorance before Rawls, and used it to support utilitarianism <span
+class="citation" data-cites="harsanyi1953carrdinal"></span>. He argued
+that rational agents would aim to maximize the total amount of wellbeing
+in their society, so that the average outcome is as good as possible.
+Decisions under uncertainty often involve maximizing expected or average
+results. Harsanyi argued that rational individuals behind the veil of
+ignorance would therefore choose a utilitarian organization for
+society.</p>
+<p><strong>A problem for Rawls.</strong> Rawls’ “A Theory of Justice”
+was designed as an alternative to utilitarianism, but it has been used
+to justify utilitarianism. If the veil of ignorance indeed creates
+conditions more conducive to utilitarian moral decisions, it might
+actually support utilitarianism instead of Rawls’ theory of justice.</p>
+<h3 id="alternatives-to-rawls-social-contract-theory">Alternatives to
+Rawls’ Social Contract Theory</h3>
+<p><strong>A natural middle ground between Rawlsian and utilitarian
+ideas is prioritarianism.</strong> <em>Prioritarianism</em> is an
+ethical theory that gives greater moral weight to improving the
+wellbeing of those who are worst off in society <span class="citation"
+data-cites="parfit1997equality"></span>. Imagine a situation where we
+have the option to distribute resources among three people: Rana, Sean,
+and Toby. Before any intervention, they have the following levels of
+wellbeing: Rana has 6 units of wellbeing, Sean has 5 units of wellbeing,
+and Toby has 1 unit of wellbeing.<br />
+We can choose one of the following options:</p>
+<ol>
+<li><p>Increase Rana and Sean’s wellbeing by 2 units each, resulting in
+(8, 7, 1);</p></li>
+<li><p>Increase Toby’s wellbeing by 1 unit, resulting in (6, 5, 2);
+or</p></li>
+<li><p>Increase Toby’s wellbeing by 2 units, reduce Sean’s wellbeing by
+2 units, and reduce Rana’s wellbeing by 3 units, resulting in (3, 3,
+3).</p></li>
+</ol>
+<p>Prioritarianism suggests that we should prioritize improving the
+wellbeing of Toby, the worst-off individual. However, we should also
+take into account the wellbeing of others. Unlike utilitarianism, which
+dictates that we choose option 1 to maximize overall wellbeing,
+prioritarianism suggests that we choose option 2 to help the most
+disadvantaged member. Unlike Rawls’ maximin principle, which suggests
+that we choose option 3 to most improve the situation of the least
+advantaged individual (even at the cost of everyone else),
+prioritarianism attributes moral weight to the wellbeing of Rana and
+Sean and so might choose option 1 or 2 instead. This approach strikes a
+balance between utilitarianism and Rawlsianism, placing higher moral
+value on improving someone’s life when (a) that person’s overall
+wellbeing is relatively low and (b) the increase in wellbeing would be
+substantial.<br />
+One example of a prioritarian policy is focusing educational
+interventions on disadvantaged students. Prioritarians might support
+policies that concentrate resources on helping students from
+disadvantaged backgrounds or those with learning disabilities, with the
+goal of closing achievement gaps and improving outcomes for the
+worst-off. Utilitarians might argue that resources should be allocated
+to improve overall educational outcomes, which might involve investing
+in programs that benefit a larger number of students, even if it doesn’t
+specifically target the most disadvantaged.</p>
+<p><strong>Contractualism.</strong> Philosopher T.M. Scanlon developed
+another approach to social contract theory called contractualism <span
+class="citation" data-cites="scanlon1998owe"></span>. Scanlon
+established contractualism to build on the idea that morality is based
+on agreements between people while addressing some of the limitations of
+Rawls’ theory. According to Scanlon, people are naturally inclined to
+seek reasonable moral agreements, driven by their sense of justice. This
+makes Rawls’ original position, in which people are behind a veil of
+ignorance, unnecessary. In Scanlon’s view, morality is about what we owe
+each other as rational beings.<br />
+Scanlon did not have a definitive answer to what we owe one another.
+Instead, he proposed using a social contract underpinned by
+reasonableness. It is reasonable to reject a moral code declaring
+slavery is right. However, it is less reasonable to reject a moral code
+declaring that community resources should be used to help the worse off.
+For a contractualist, certain actions are wrong if they don’t meet a
+standard of behavior that “no one could reasonably reject as a basis for
+informed, unforced, general agreement.” This means that principles of
+morality should be something that rational people can generally accept.
+By making fewer strong assumptions, Scanlon avoids some of the pitfalls
+of Rawls’ process and conclusions.</p>
+<h3 id="summary-of-social-contract-theory">Summary of Social Contract
+Theory</h3>
+<p><strong>Rawls’ contractarianism and the veil of ignorance.</strong>
+Social contract theory proposes that agreements between society’s
+members form the foundation of morality. Moral codes are determined by
+whether rational individuals would agree to mutually abide by them. John
+Rawls’ influential approach relies on the veil of ignorance, where
+decision-makers are unaware of their position in society. Rawls’ theory
+suggests the maximin, liberty, and difference principles, which together
+aim to raise the lowest levels of wellbeing, ensure the provision of
+basic liberties, and minimize inequalities in society.<br />
+However, some of Rawls’ conclusions, and especially the maximin
+principle, are implausible. The veil of ignorance can be used to support
+utilitarianism, and alternatives like prioritarianism are better at
+accounting for some of our intuitions. Scanlon’s contractualism offers
+another perspective on social contract theory, focusing on people acting
+according to reasonable principles and contending that morality is built
+upon obligations to others—what we owe to each other. Social contract
+theories offer an alternative way of thinking about moral agreements
+that might be highly relevant to modern approaches to machine ethics,
+highlighting the importance of rational agreement and mutual benefit in
+shaping ethical principles.</p>
+<h3 id="summary">Summary</h3>
+<p><strong>We have outlined four common approaches to morality.</strong>
+First we looked at utilitarianism, a theory that argued that actions
+should be judged based on how much wellbeing they cause. Then we
+considered deontology, the view that to live ethically is to live by the
+right system of rules. According to virtue ethics, the goal of a good
+life is to become a virtuous person. Social contract theory recommends
+following principles that we might arrive at together in an ideal
+contractual process. These theories are all very different. They don’t
+just differ in their moral claims; they consider morality to have
+different goals that should be approached in different ways.</p>
+<p><strong>The theories we’ve discussed are focused on different moral
+considerations.</strong> Early in this chapter, we discussed moral
+considerations like intrinsic goods, special obligations, constraints,
+and options. Utilitarianism, of course, is most concerned with
+wellbeing, an intrinsic good, and does not support options. Deontology
+especially emphasizes constraints. Social contract theory especially
+emphasizes special obligations.<br />
+In common-sense morality (i.e. the moral decision-making that everyone
+does on a daily basis) different considerations seem more important than
+others in different situations. It may be, then, that some theories are
+more useful for thinking about some problems than others.</p>
+<p><strong>We needn’t pick a single moral theory, and the goal of this
+chapter is not to choose the best one.</strong> Utilitarianism and
+social contract theory might be the best approaches for thinking about
+some society-wide policies, but perhaps deontology is helpful when we
+are drafting laws that are intended to apply to everyone in a country.
+Virtue ethics may be especially useful in day-to-day situations.<br />
+When moral theories conflict, it is important that we accommodate some
+uncertainty. There may be something we can learn from all of them.</p>
