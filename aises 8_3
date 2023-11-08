@@ -1,0 +1,834 @@
+<h1 id="sec:evo-pressures">Evolutionary Pressures</h1>
+<h2 id="overview-1">Overview</h2>
+<p>This central focus of this chapter concerns the dynamics we expect in
+a multi-AI agent future. We must consider the risks that emerge from the
+interactions between these agents, and between humans and AI
+agents.<br />
+In the previous section, we began our investigation into multiagent
+dynamics using the mathematical framework of game theory. We found that
+rational agents do not always secure collectively good outcomes. We
+concluded with a brief exploration of evolutionary game theory. Using
+the concepts of “evolutionarily stable strategies” and
+“frequency-dependent selection,” we saw how multi-agent dynamics change
+when agents can alter and adapt their behavior in response to what
+others are doing.<br />
+We found that identical agents under initially identical conditions can
+evolve to select radically different strategies to one another.
+Sometimes, there may be no stable equilibrium at all, and a population
+of agents will instead undulate through different strategy compositions
+perpetually. These more complicated multi-agent dynamics provide the
+opportunity for behaviors we consider immoral, such as deception or
+extortion, to arise from entirely amoral starting conditions.<br />
+In this second part of the <em>Multi-Agent Dynamics</em> chapter, we use
+evolutionary theory to build on these ideas and flesh out the risks
+posed by the influence of natural selection on AI development. Our
+ultimate conclusions are that AI development is likely to be subject to
+evolutionary forces, and that we should expect the default outcome of
+this influence to be the promotion of selfish and undesirable AI
+behavior.</p>
+<p><strong>First, we examine the idea of generalized Darwinism in AI
+populations.</strong> We begin this section by looking at how evolution
+by natural selection can operate in non-biological domains, an idea
+known as “generalized Darwinism.” We formalize this idea using the
+conditions set out by Lewinton as necessary and sufficient for natural
+selection, and Price’s equation for describing evolutionary change over
+time. Finally, we set out the case that evolutionary pressures are
+influencing AIs. We turn to the ramifications of this claim in the
+second section.</p>
+<p><strong>Second, we explore why evolutionary pressures may promote
+selfish AI behavior.</strong> We next consider what traits and
+strategies natural selection tends to favor. We begin by setting out the
+“information’s eye view” of evolution as a generalized Darwinian
+extrapolation of the “gene’s eye view” of biological evolution. Using
+this framing, we examine how conflict can arise within a system when the
+interests of propagating information clash with those of the entity that
+contains the information. Internal conflict of this kind could arise
+within AI systems, distorting or subverting goals even when they are
+specified and understood correctly. Finally, we explore why natural
+selection tends to favor selfish strategies over altruistic ones. Our
+upshot is that AI development is likely to be subject to evolutionary
+pressures. These pressures may distort the goals we specify if the
+interests of internal components of the AI system clash, and could also
+generate a trend towards increasingly selfish AI behavior.</p>
+<h2 id="generalized-darwinism">Generalized Darwinism </h2>
+<p>Our aim in this section is to understand <em>generalized
+Darwinism</em> –— the idea that Darwinian mechanisms are a useful way to
+explain many phenomena outside of biology <span class="citation"
+data-cites="dawkins1983universal"></span> –— and how we can use this as
+a helpful model for modeling AI development. Using examples ranging from
+science to music, we examine how evolution by natural selection can
+operate in non-biological systems. We formalize this process using the
+conditions for natural selection and consider how AI development meets
+these criteria and is therefore subject to evolutionary pressures.</p>
+<h3 id="conceptual-framework-for-generalized-darwinism">Conceptual
+Framework for Generalized Darwinism</h3>
+<p>Evolution by natural selection is not confined to the domain of
+biological organisms. We can model many other phenomena using Darwinian
+mechanisms. In this section, we use a range of examples to elaborate
+this idea.</p>
+<p><strong>Generalized Darwinism: natural selection can be applied to
+non-biological phenomena.</strong> Evolution by natural selection does
+not depend on mechanisms particular to biology <span class="citation"
+data-cites="Smolin1992DidTU"></span>. Darwin proposed that populations
+change over the course of generations when differences among individuals
+help some reproduce more than others, so that eventually, the population
+is made up of descendants of those that reproduced the most. Darwin
+understood that this idea could explain many other phenomena. For
+instance, he suggested that natural selection could explain the
+evolution of language: “The survival or preservation of certain favored
+words in the struggle for existence is natural selection” <span
+class="citation" data-cites="Dennett1995DarwinsDI"></span>.<br />
+As an example, Richard Dawkins has argued that human culture developed
+according to the principles of natural selection <span class="citation"
+data-cites="dawkins2006selfish"></span>. A piece of cultural
+information, such as a song, is passed down over generations, often with
+small changes, and some songs remain very well-known even over very long
+time periods. The 18th century French tune “Ah! Vous dirai-je, Maman”
+was pleasing and easy to sing, so the young Mozart wrote a version of
+it, and it was later used as the tune for the English poem “The Star,”
+which was sung over and over, until today, when many people know it as
+“Twinkle Twinkle,” “The Alphabet Song,” or “Baa Baa Black Sheep” <span
+class="citation" data-cites="blackmore1999meme"></span>. There were many
+other 18th century songs that have long since been forgotten, but that
+one has spread to many people over centuries, due to it being more
+memorable and “catchy” than others of its time.</p>
+<p><strong>By applying this Darwinian lens, we can describe many
+non-biological phenomena.</strong> In nature, evolution happens when
+individuals have a variety of traits, and individuals with some traits
+propagate more than others. If a species of insect can be either red or
+brown, but the brown ones blend in better and are less likely to be
+eaten by birds, then more of the red insects will get eaten before
+reproducing, while brown insects will tend to have more descendants.
+Over time, the population will consist primarily of brown insects.<br />
+We note a similar pattern in other, non-biological domains. For example,
+alchemy was once a popular way of explaining the relationships among
+different metals. People who believed in alchemy taught it to their
+students, who taught it to their own students in turn, often with small
+differences. Over time, some of those ideas continued to help them
+explain the world, and others didn’t. In this respect, chemistry could
+be viewed as a descendant of alchemy. The ideas that define it now were
+propagated when they helped us increase our understanding of the natural
+world, while others were discarded. In the same vein, after the first
+widespread video conferencing services were developed, similar products
+proliferated. Users chose the product that best met their needs,
+selecting for services that were cheap, easy to use, and reliable. Each
+company regularly released new versions of its product that were
+slightly adapted from earlier ones, and competitors imitated and thereby
+propagated the best features and implemented them into their own. Some
+products incorporated the most adaptive features quickly, and the
+descendants of those products are the ones we use today—–while others
+were quickly outcompeted and fell into obscurity.</p>
+<p><strong>Generalized Darwinism does not imply that evolution produces
+good outcomes.</strong> Often, things that are the best at propagating
+are not “good” in any meaningful sense. Invasive species arrive in a new
+location, propagate quickly, and local ecosystems begin to crumble. The
+forms of media that are most successful at propagating in our minds may
+be harmful to our happiness and social relationships. For instance, news
+articles that get more clicks are likely to have their click-attracting
+traits reproduced in the next generation. Clicks thus select for more
+sensational, emotionally charged headlines. In the context of AI,
+generalized Darwinism poses significant risks. To see why, we first need
+to understand how many phenomena tend to develop based on Darwinian
+principles, so that we can think about how to predict and mitigate these
+risks.<br />
+</p>
+<h2 id="formalizing-generalized-darwinism">Formalizing Generalized
+Darwinism</h2>
+<p>In this section, we formalize generalized Darwinism. First, we
+overview the criteria necessary and sufficient for evolution by natural
+selection to operate on a system. Second, we examine how we might
+predict what happens to a system that meets these conditions. Together,
+these help us to see why “survival of the fittest” is a poor description
+of evolution by natural selection. Instead, this process would be better
+described as “propagation of the better-propagated information.”</p>
+<p><strong>Lewontin’s three conditions for evolution by natural
+selection.</strong> The evolutionary biologist Richard Lewontin
+formulated three criteria necessary and sufficient for evolution by
+natural selection <span class="citation"
+data-cites="lewontin1970units"></span>:</p>
+<ol>
+<li><p><strong>Variation</strong>: There is variation in traits among
+individuals</p></li>
+<li><p><strong>Retention</strong>: Future iterations of individuals tend
+to resemble previous iterations</p></li>
+<li><p><strong>Differential fitness</strong>: Different variants have
+different propagation rates</p></li>
+</ol>
+<p>The validity of these criteria does not depend on biology. In living
+organisms, DNA encodes the variations among individuals. Traits encoded
+by DNA are heritable, and subject to selection. But this is not the only
+way to fulfill the Lewontin conditions. Video conferencing software has
+variation (there are many different options), retention (today’s video
+conferencing software is similar to last year’s), and differential
+fitness (some products are much more widely used and imitated than
+others). Precisely how change occurs depends on the specific
+phenomenon’s mechanism of propagation.</p>
+<p><strong>The Price Equation describes how a trait changes in frequency
+over time.</strong> In the 1970s, the population geneticist George R.
+Price derived an equation that provides a mathematical description of
+natural selection <span class="citation"
+data-cites="Price1970SelectionAC"></span>. One formulation of Price’s
+equation is given here:<br />
+<span
+class="math display"><em>Δ</em><em>z̄</em> = Cov(<em>ω</em>,<em>z</em>) + E<sub><em>w</em></sub>(<em>Δ</em><em>z</em>).</span></p>
+<p>In this equation, <span class="math inline"><em>z̄</em></span> denotes
+the average value of some trait <span
+class="math inline"><em>z</em></span> in a population, and <span
+class="math inline"><em>Δ</em><em>z̄</em></span> is the change in the
+average value of <span class="math inline"><em>z</em></span> between the
+parent generation and the offspring generation. If <span
+class="math inline"><em>z</em></span> is height, and the parent
+generation is 5 ’5 " on average and the next generation is 5’ 7” on
+average, then <span class="math inline"><em>Δ</em><em>z̄</em></span> is 2
+inches. <span class="math inline"><em>ω</em></span> is relative fitness:
+how many offspring does an individual have relative to the average for
+their generation? <span
+class="math inline"><em>E</em><sub><em>w</em></sub>(<em>Δ</em><em>z</em>)</span>
+is the expected value of <span
+class="math inline"><em>Δ</em><em>z</em></span>: that is, the average
+change in <span class="math inline"><em>z</em></span> between
+generations, weighted by fitness, so that individuals who have more
+offspring are counted more heavily.</p>
+<p>Price’s Equation shows that the change in the average value of some
+trait between parents and offspring is equal to the sum of a) the
+covariance of the trait value and the fitness of the parents, and b) the
+fitness-weighted average of the change in the trait between a parent and
+its offspring. “Covariance” describes the phenomenon of one variable
+varying together with another. To see whether a population will get
+taller over time, for example, we would need to know the covariance of
+fitness with height (do tall individuals have more surviving offspring?)
+and the difference between a parent’s height and their average child’s
+height.</p>
+<p><strong>The Price Equation can be applied to non-biological
+systems.</strong> The Price Equation does not require any understanding
+of what causes a trait to be passed down to a subsequent generation or
+why some individuals have more offspring than others, only of how much
+the trait <em>is</em> passed on and how much it covaries with fitness.
+The Price Equation would work just as well with car designs or tunes as
+with birds or mollusks.</p>
+<p><strong>The Price Equation allows us to predict what happens when
+Lewontin conditions apply.</strong> The Price equation uses differences
+between members of the parent generation with respect to some trait
+<span class="math inline"><em>z</em></span> (variation), similarities
+between parent and offspring generation with respect to <span
+class="math inline"><em>z</em></span> (retention), and differential
+fitness (selection). As a result, when we understand the degree to which
+each of the Lewontin conditions apply, we can predict how much of some
+trait will be present in subsequent generations <span class="citation"
+data-cites="Okasha2007EvolutionAT"></span>.</p>
+<p><strong>First misunderstanding: “fitness” does not describe physical
+power.</strong> The idea of “fitness” often brings to mind a contest of
+physical power, in which the strongest or fastest organism wins, but
+this is a misunderstanding. Fitness in an evolutionary sense is not
+something we gain at the gym. Being fit may not necessarily entail being
+exceptionally good at any specific abilities. Sea sponges, for example,
+are among the most ancient of animal lineages, and they are not quick,
+clever, or good at chasing prey, especially when compared to, say, a
+shark. But empirically, sea sponges have been surviving and reproducing
+for hundreds of millions of years, much more than many species that
+would easily beat them in head-to-head contests at almost any other
+challenge.</p>
+<p><strong>Second misunderstanding: “fitness” is not the mechanism
+driving evolution.</strong> Biologists often talk about fitness when
+discussing how well-suited an organism is to its environment. In
+particular, they often treat fitness as a short-hand for <em>relative
+reproductive success</em>: how much an individual contributes to the
+next generation’s gene pool, relative to their competitors. However,
+this usage of the word “fitness” seems to present evolution as being
+fundamentally tautological. In the idiom “survival of the fittest,” we
+appear to be using both “survival” and “fit” to mean <em>relative
+reproductive</em> success. This would suggest that evolution is merely
+the process in which those who reproduce more successfully, reproduce
+more successfully! If true, the theory of evolution would seem to be
+using its own conclusion to demonstrate its argument. As we shall see
+next, however, this is actually false.</p>
+<p><strong>“Fitness” is simply a metric we use to measure propagation
+rate.</strong> In fact, evolutionary theory does <em>not</em> rely on
+circular logic. This is because an organism’s fitness does not determine
+its reproductive success; natural selection does. Instead, “fitness” is
+simply the word we use to describe and measure propagation success.
+Those who are better at propagating their information (by surviving and
+reproducing) don’t have some “being fit” property which causes their
+success. Rather, we deem how “fit” they are by measuring how successful
+they’ve been at propagating their information. Thus the phrase “survival
+of the fittest” should really be “propagation of the better-propagated
+information.”<br />
+The Price Equation, and natural selection more broadly, simply says that
+if a trait helps individuals survive longer or reproduce more, and that
+trait is passed on to the offspring, then more of the next generation
+will have that trait. It does not tell us why a trait leads to an
+individual having more offspring; it is only a way of expressing the
+fact that some traits do correlate with having more offspring. The same
+is true when natural selection is applied to non-biological systems;
+“fitness” is simply a word for the quality of propagating more. The
+information that propagates best is, of course, the information that
+propagates best. But it need not be, and often is not, “better” in any
+other sense. Fitness is a metric that describes how much information
+propagates, not an assessment of value.</p>
+<h2 id="generalized-darwinism-and-ai-populations">Generalized Darwinism
+and AI Populations </h2>
+<p>The three Lewontin conditions, of variation, retention, and
+differential fitness, are all that is needed for evolution by natural
+selection. This means we can assess how natural selection is likely to
+affect AI populations by considering how the conditions apply to AIs.
+Here, we claim that AIs are likely to meet all three conditions, so we
+should expect natural selection forces to influence their traits and
+development.</p>
+<p><strong>Variation: AIs are designed and trained in a variety of
+ways.</strong> As previously noted in "Natural Selection Favors AI over
+Humans" <span class="citation"
+data-cites="hendrycks2023natural"></span>,</p>
+<div class="blockquote">
+<p>"When thinking about advanced AI, some have envisioned a single AI
+that is nearly omniscient and nearly omnipotent, escaping the lab and
+suddenly controlling the world. This scenario tends to assume a rapid,
+almost overnight, take-off with no prior proliferation of other AI
+agents; we would go from AIs roughly similar to the ones we have now to
+an AI that has capabilities we can hardly imagine so quickly that we
+barely notice anything is changing. However, there could also be many
+useful AIs, as is the case now. It is more reasonable to assume that AI
+agents would progressively proliferate and become increasingly competent
+at specific tasks, rather than assume one AI agent spontaneously goes
+from incompetent to omnicompetent. This is similar to the subdivision of
+biological niches. For example, lions and cheetahs developed completely
+different and mutually exclusive strategies to catch prey through
+strength or speed. Furthermore, if there are multiple AIs, they can work
+in parallel rather than waiting for a single model to get around to a
+task, making things move much faster." <span class="citation"
+data-cites="hendrycks2023natural"></span></p>
+</div>
+<p>This means that people are likely to continue creating multiple AI
+agents, even if there is a single best model. Financial gains would
+encourage multiple competitors to challenge the top system <span
+class="citation" data-cites="dietterich2000ensemble"></span>.<br />
+In addition to the argument that AI populations have variation because
+of the history of their development, there are also pragmatic arguments
+for this claim. In evolutionary theory, Fisher’s fundamental theorem
+states that the rate of adaptation is directly proportional to the
+variation (all else equal). In rapidly-changing environments, where
+quick adaptation increases a population’s probability of survival,
+populations with more variation may persist longer. Consider how
+variation in crops reduces the probability of catastrophic crop failure,
+and variation in investments reduces the risk of unmanageable financial
+losses. And in machine learning, an ensemble of AI systems will often
+perform more accurately than a single AI <span class="citation"
+data-cites="dietterich2000ensemble"></span>. Variation can help guide
+decision making, in the same way that many people’s aggregated
+predictions will usually be better than any one expert’s. Because of
+these factors, we are more likely to see a powerful and resilient
+population of AIs if they have significant variation.</p>
+<p><strong>Variation in AI developers.</strong> As well as variation in
+the AI systems themselves, we also see variation between the big
+technology companies developing and adopting AI technologies. It may
+seem simple to prevent the rise of selfish AI behaviors by avoiding
+their selection. However, the reality is different. AI companies,
+directed more by evolutionary pressures than by safety concerns, are
+vying for survival in a fiercely competitive landscape. Consider how
+OpenAI, which started as a nonprofit dedicated to benefiting humanity,
+shifted to a capped-profit structure in 2019 due to funding needs.
+Consequently, some of its safety-centric members branched out and
+founded Anthropic, a company intending to prioritize AI safety. However,
+even Anthropic couldn’t resist the call of commercialization, succumbing
+to evolutionary pressures itself.<br />
+Evolutionary pressures are driving safety-minded researchers to adopt
+the behaviors of their less safety-minded competitors, because they are
+anticipating that they can gain a significant fitness advantage in the
+short-term by deprioritizing safety. Note that this evolutionary process
+is not based on actual selection events (the researchers will not be
+destroyed if they are outcompeted), but rather the researchers’
+projections of what might happen if they adopt particular strategies. AI
+safety <em>ideas</em> are being selected against, which is driving the
+researchers to change their <em>behavior</em> (to behave in a less
+safety-conscious manner). Importantly, as the number of competitors
+rises, the variation in approaches and values also increases. This
+increase in variation escalates the intensity of the evolutionary
+pressures and the extent to which these pressures distort the behavior
+of big AI companies.</p>
+<p><strong>Retention: new AIs are developed under the influence of
+earlier generations.</strong> Retention does not require exact copying;
+it only requires that there be non-zero similarity among individuals in
+subsequent generations. In the short term, AIs are developed by adapting
+older models, or by imitating features from competitors’ models. Even
+when training AIs from scratch, retention may still occur, as highly
+effective architectures, datasets, and training environments are reused
+thereby shaping the agent in a way similar to how humans (or other
+biological species) are shaped by their environments. Even if AIs change
+very rapidly compared to the timescales of biological evolution, they
+will still meet the criterion of retention; their generations can be
+extremely short, so they can move through many generations in a short
+time, but each generation will still be similar to the one before it.
+Retention is a very easy standard to meet, and even with many
+uncertainties about what AIs may be like, it is very likely that they
+meet this broad definition.</p>
+<p><strong>Differential Fitness: some AIs are propagated more than
+others.</strong> There are many traits which could cause some AI models
+or traits to be propagated more than others (increasing their
+“fitness”). Some of these traits could be highly undesirable to humans.
+For example, <em>being safer</em> than alternatives may confer a fitness
+advantage to an AI. However, <em>merely appearing to be safer</em> might
+also improve an AI’s fitness. Similarly, <em>being good at automating
+human jobs</em> could result in an AI being propagated more. On the
+other hand, <em>being easy to deactivate</em> could reduce an AI’s
+fitness. Therefore, an AI might increase its fitness by integrating
+itself into critical infrastructure or encouraging humans to develop a
+dependency for it, making us less keen to deactivate it. As long as some
+AIs are at least marginally more attractive than others, AI populations
+will meet the condition of differential fitness. There are many possible
+points at which natural selection could take effect on AIs. These
+include the actions of AI developers, in fine-tuning and customizing
+models, or re-designing training processes.</p>
+<p><strong>If the Lewontin conditions are satisfied, we must consider
+how intense the evolutionary pressures are.</strong> More intense
+selection pressure leads to faster change. In a population of birds in a
+time with plenty of food, birds with any shape beak may survive.
+However, if food becomes scarce, only those with the most efficient
+beaks for accessing some specific food may survive, and the next
+generation will disproportionately have that beak shape. More variation
+also leads to faster adaptation, because variants that will be adaptive
+in a new circumstance are more likely to already exist in the
+population. The faster rounds of adaptation occur, the more quickly
+distinct groups emerge with their own features.<br />
+If there is more intense selection pressure on AIs, where only AIs with
+certain traits propagate, then we should expect to see the population
+optimize around those traits. If there is more variation in the AI
+population, that optimization process will be faster. If the rate of
+adaptation also accelerates, we would expect trends that lead to greater
+differentiation in AI populations that are distinct from the changes in
+the traits of individual AI models. In the following section, we will
+discuss the evolutionary trends that tend to dominate when selection
+pressure is intense and how they might shape AI populations.</p>
+<h3 id="summary-4">Summary</h3>
+<p>We started this section by exploring how evolution by natural
+selection can occur in non-biological contexts. We then formalized this
+idea of “generalized Darwinism” using Lewontin’s conditions and the
+Price equation. We found that AI development may be subject to
+evolutionary pressures by evaluating how it meets the Lewontin
+conditions. In the next section, we turn to the ramifications of this
+claim.</p>
+<h2 id="subsec:selection-and-selfish">Levels of Selection and Selfish
+Behavior</h2>
+<p>Our aim in this section is to understand which AI characteristics are
+favored by natural selection. We explore this by first outlining an
+“information’s eye view” of evolution by natural selection. Here, we
+find that internal conflict can arise where the interests of the
+propagating information (such as a gene) clash with those of the larger
+entity that contains it (such as an organism). This phenomenon could
+arise in AI systems, distorting or subverting goals even when human
+operators have specified them correctly.<br />
+We then move to a second risk generated by natural selection operating
+at the level of propagating information: Darwinian forces strongly favor
+selfish traits over altruistic ones. Although on the level of an
+individual organism, individuals may behave altruistically under
+specific conditions (such as genetic relatedness), on the level of
+information, evolution by natural selection tends to produce
+selfishness. We conclude by outlining how a multi-agent AI future shaped
+by natural selection will be dominated by selfish behavior.</p>
+<h3 id="informations-eye-view">Information’s Eye View</h3>
+<p>We often consider individual organisms to be the unit on which
+natural selection is operating. However, it is their genes that are
+being propagated through time and space, not the organisms themselves.
+This section considers the “gene’s eye view” of evolution by natural
+selection. We then use generalized Darwinism to build up an extrapolated
+version of this perspective we can call the “information’s eye view” of
+evolution.</p>
+<p><strong>Species succeed when their information propagates, but
+sometimes interests diverge.</strong> The information of living
+organisms is primarily contained in DNA. Genes contain the instructions
+for forming bodies. Most of the time, a gene propagates most
+successfully when the organism that contains it propagates successfully.
+But sometimes, the best thing for a gene is not the best thing for the
+organism. For example, mitochondrial DNA is only passed on from females,
+so it propagates most if the organism has only female offspring. In some
+organisms, mitochondrial DNA gives rise to genetic mechanisms that
+increase the production of female descendants. However, if too many
+individuals have this mutation, the population will be
+disproportionately female, and the organism will be unable to pass on
+the rest of its genes. In this situation, the most effective propagation
+mechanisms for the gene in the mitochondria is harmful to the
+reproductive success of its host.</p>
+<p><strong>The “gene’s eye view” of evolution.</strong> In <em>The
+Selfish Gene</em>, Richard Dawkins argues that <em>gene</em> propagation
+is a more useful framing than organism propagation <span
+class="citation" data-cites="dawkins2006selfish"></span>. In Dawkins’
+view, organisms are simply vehicles that allow genes to propagate.
+Instead of thinking of birds with long beaks competing with birds with
+short beaks, we can think about genes that create long beaks competing
+with genes that create short beaks, in a fight for space within the bird
+population. This gives us a framework for understanding examples like
+the one above: the gene within the mitochondria is competing for space
+in the population, and will sometimes take that space even at the
+expense of the host’s individual fitness.</p>
+<p><strong>Information functions similarly to genes, narrowing the space
+of possibilities.</strong> We are humans and not dogs, roundworms, or
+redwood trees almost entirely because of our genes. If we do not know
+anything about what an organism is, aside from how long its genome is,
+then for every base in the genome, there are four possibilities, so
+there is an extremely large number of possible combinations. If we learn
+that the first base is a G, you have divided the total number by four.
+When we decode the entire genome, we have narrowed down an impossibly
+large space of possibility to a single one: we can now know not only
+that the organism is a cat, but even <em>which</em> cat
+specifically.<br />
+In non-biological systems, information works in a parallel way. There
+are many possible ways to begin a sentence. Each word eliminates
+possible endings and decreases the listener’s uncertainty, until they
+know the full sentence at the end. Using the framework of information
+theory, we can think of information as the resolution or reduction of
+uncertainty (though this is not a formal definition). For an idea,
+information is just the facts about it that make it different from other
+ideas. A textbook’s main information is its text. A song’s information
+consists of the pitches and rhythms that distinguish it from other
+songs. These larger phenomena (ideas, books, songs) are distinguished by
+the information they contain.</p>
+<p><strong>Information that propagates occupies a larger volume of both
+time and space.</strong> A single music score, written centuries ago and
+buried underground ever since, has been propagated across hundreds of
+years of time, but very little space. In contrast, a hit tune that is
+suddenly everywhere and then quickly forgotten takes up a lot of space,
+but very little time. But the best propagated information takes up a
+large volume of both. The tune for “Twinkle Twinkle” has been taking up
+space in many minds, pieces of paper, and digital formats for hundreds
+of years and continues to propagate. The same is true for genetic
+information. A gene that flourished briefly hundreds of millions of
+years ago, and one that has had a consistent small presence, both take
+up much less space-time volume than a gene that long ago became dominant
+in many successful branches of the evolutionary tree <span
+class="citation" data-cites="Smolin1992DidTU"></span>.</p>
+<p><strong>Just as some genes propagate more, the same is true for bits
+of information.</strong> In accordance with generalized Darwinism, we
+can extend the gene’s eye view to an “information’s eye view.” A living
+organism’s basic unit of information is a gene. Everything that evolves
+as a consequence of Darwinian forces contains information, some of which
+is inherited more than others. Dawkins coined the term “meme” as an
+analogue for gene: a meme is the basic unit of cultural inheritance.
+Like genes, memes tend to develop variations, and be copied and adapted
+into new iterations. The philosopher of science, Karl Popper, wrote that
+the growth of knowledge is “the natural selection of hypotheses: our
+knowledge consists, at every moment, of those hypotheses which have
+shown their (comparative) fitness by surviving so far in their struggle
+for existence.” Social phenomena such as copycat crimes can also be
+modeled as examples of memetic inheritance. Many types of crimes are
+committed daily, some of which inspire imitators, whose subsequent
+crimes can themselves be selected for and copied. Selection operates on
+the level of individual pieces of information, as well as on the higher
+level of organisms and phenomena.</p>
+<p><strong>AIs may pass on information in ways analogous to our genetics
+and cultural memetics.</strong> AIs are computer programs, made of code
+that determines what they are like, in a similar way to how our DNA
+determines what we are like. Different code makes the difference between
+an agentic AI and Flappy Bird. Their code, or pieces from it, can be
+directly copied and adapted for new models. But their information can
+also be memetically transmitted, as our cultural memes can. Even today,
+AIs are often designed based on hearing about and imitating successful
+models, not only on copying code from them. AIs also help create
+training data for new AIs and evaluate their learning, which makes the
+new AIs tend to have traits similar to earlier models. As AIs continue
+to become more autonomous, they may be able to imitate and learn from
+one another, self-modifying to adopt traits and behaviors that seem
+useful. The AI information that propagates the most will take up more
+and more space-time volume, as it is copied into more AIs that multiply
+and endure over longer periods.</p>
+<h2 id="subsec:intrasys-goal">Intrasystem Goal Conflict</h2>
+<p>The interests of an organism and its genetic information are usually
+aligned well. However, they can sometimes diverge from one another. In
+this section, we identify analogous, non-biological phenomena, where
+conflict arises between a system and the sub-systems in which it stores
+its information. Evolutionary pressures might generate internal conflict
+within AI systems. This could distort or subvert goals set for AIs by
+human operators, even when the goal was specified and understood
+correctly.</p>
+<p><strong>Conflict within genomes.</strong> As we have seen, selection
+on the level of genes does not always result in the best outcomes for
+the organism. As briefly mentioned above, human mitochondrial DNA is
+only transferred to offspring through biological females. A human’s
+mitochondrial genome is identical to their biological mother’s, assuming
+no change due to mutation. Thus, mitochondrial genes which benefit only
+females may be selected for, even where they incur a cost upon males, as
+males represent a heritability deadend. These and other “selfish”
+genetic elements give rise to intragenomic conflict.<br />
+Another example concerns plants in the genus <em>Plantago</em>. These
+plants have organelles which are passed on only via females. Some genes
+in these organelle genomes have evolved to promote male sterility and
+thus favor female offspring, against the evolutionary interests of the
+organism itself. Intragenomic conflict can be exacerbated by other
+biological agents <span class="citation"
+data-cites="leveson2016engineering"></span>. In crustaceans, genetic
+conflict of this kind can be exacerbated by a bacterium known as
+<em>Wolbachia</em>, which can only be passed on to future generations by
+eggs, not sperm. <em>Wolbachia</em> therefore often kills males or
+drives them to develop into females <span class="citation"
+data-cites="yen1971hypothesis"></span>.</p>
+<p><strong>Conflict within organisms.</strong> We observe other kinds of
+internal conflict within organisms which do not concern their genomes.
+For example, the bacterial species that compose the human gut microbiome
+can exist in a mutually-beneficial symbiosis with their host. However,
+some bacteria reveal themselves to be “opportunistically pathogenic”: in
+the wake of disruptions like the use of antibiotics, many of these
+once-mutualists will propagate at accelerated rates, often at the
+expense of the host’s health. As the philosopher of evolutionary biology
+Samir Okasha notes, “intraorganismic conflict is relatively common among
+modern organisms” <span class="citation"
+data-cites="Okasha2018AgentsAG"></span>.</p>
+<p><strong>Intrasystem goal conflict: between information and the larger
+entity that contains it.</strong> Just as in the case of intraorganismic
+conflict, the interests of propagating information and the entities that
+contain the information can diverge from one another. The basic melody
+of “Twinkle Twinkle” has been vastly more successful at propagating than
+the complete French song “Ah vous dirai-je, Maman,” because the tune
+itself has become a meme, propagated into many languages with different
+lyrics. Morphing into “Baa Baa Black Sheep,” is bad for the propagation
+of that song, but excellent for the propagation of its tune, which has
+changed very little. Intrapsychic conflict is similarly common. For
+instance, many people want to improve their diets, but crave unhealthy
+foods.<br />
+Thus, a great many complex systems may have internal conflict, where
+their functioning is distorted by the behavior of their component
+subsystems. We call the more general phenomenon that can describe all of
+these examples <em>intrasystem goal conflict</em>: the clash of
+interests of different agents within a shared system. Intrasystem goal
+conflict can arise within complex systems in a range of domains,
+including social institutions, human psyches, organisms and genomes.</p>
+<p><strong>Intrasystem goal conflict may cause an AI system not to
+behave as a unified agent.</strong> One reason why we might expect an AI
+system not to pursue a specified goal is because intrasystem goal
+conflict has eroded its “unity of purpose.” A system has achieved unity
+of purpose if there is alignment at all levels of internal organization
+<span class="citation" data-cites="Okasha2018AgentsAG"></span>.
+Undermining a system’s <em>unity of purpose</em> reduces its ability to
+carry out its system-level goals. A helpful analogy here is to consider
+political “coups.” A coup is characterized by a struggle for control
+within a political system, in which agents within the system act to
+seize power, often eroding the system’s unity of purpose by disrupting
+its stability and functionality. When political leaders are overthrown
+by their second-in-command, the goals of the political system usually
+change. Similarly, if we give an AI agent a goal to pursue, the agent
+may in turn assign parts of this goal to sub-agents, who may take over
+and subvert the original goal with their own.</p>
+<p><strong>Intrasystem goal conflict can arise through
+modularization.</strong> There are two mechanisms by which intrasystem
+goal conflict may arise. The first is <em>modularization</em>: a goal
+may be broken down into components, each of which thus becomes a
+sub-goal. For example, consider a multi-agent system, such as a
+committee, which wishes to carry out a complicated big-picture goal. In
+this case, they may break their goal up into subgoals, and delegate each
+of these to “working groups” (different subsets of the committee). Each
+working group now pursues solely its delegated sub-goal and the
+different working groups compete with one another. Ultimately, this
+modularity enables the different working groups to grow and change
+independently of one another, and results in an uneven balance between
+the different sub-goals. Thus, the big-picture goal is distorted.<br />
+It is worth noting that some cases may differ from this story in terms
+of their causality. Rather than a single complex goal being modularized,
+sometimes individual agents may come together to form a coalition to
+pursue a larger-scale goal. Misalignments of interests between these
+agents can give rise to intrasystem goal conflict in these cases just as
+with modularized systemic goals. Examples include gut bacterial
+opportunistic pathogenicity, and some inter-sexual and intragenomic
+conflict. For instance, intersexual conflict in animals has produced
+species in which the males deliberately cause the females physical
+damage when mating. This strategic harming hinders the female’s ability
+to re-mate in future, and incentivizes her to allocate more resources
+towards raising that particular male’s genetic offspring. Females have
+in turn evolved defensive strategies against this, such as armor plating
+and spines <span class="citation"
+data-cites="morrow2003traumatic"></span>. Intersexual coevolutionary
+“arms races” such as these have been documented in a diverse range of
+species, from ducks to fruit flies <span class="citation"
+data-cites="rowe2002sexually"></span>. Rather than a unified goal being
+modularized, the goal conflict here has arisen in the context of a
+coalition. The female and male are collaborating through sexual
+reproduction, but even slight misalignments of their interests can
+result in dramatic goal conflict.</p>
+<p><strong>Intrasystem goal conflict can arise through
+delegation.</strong> The second mechanism by which intrasystem goal
+conflict may arise is in the <em>delegation</em> itself. In the above
+example, the working groups each pursue their assigned sub-goal
+faithfully. The problem is that the collective outcome of these
+agencies, each optimizing for their assigned subgoal is a distorted
+version of the original big-picture goal. However, the delegation of a
+goal to another agent can also itself generate intrasystem goal
+conflict.<br />
+In economics, this is called the <strong>principal-agent
+problem</strong>. Put simply, this is the problem of conflicting
+priorities that arises when one party (the <em>principal</em>) delegates
+a goal of theirs to another (the <em>agent</em>), who is not entirely
+value-aligned with the <em>principal</em>. The <em>agent</em> has other
+interests, such as self-preservation or gain of influence, which compete
+with the goal the <em>principal</em> has delegated to them. This can
+result in the distortion or subversion of the delegated goal: the agent
+pursues their own goals as well as (or instead of) that of the
+principal. Principal-agent problems are most common where there is a
+knowledge asymmetry, such that the agent knows more about the relevant
+matter than the principal. For example, consider a client who has hired
+a mechanic to fix their car. The client wishes their car to be fixed as
+cost-effectively as possible; the mechanic wishes to maximize their
+profits. The principal-agent problem is thus that the client cannot
+trust the mechanic to report the cost of the car fix accurately.<br />
+Principal-agent problems can generate intrasystem goal conflict wherever
+the components of a modularized big-picture goal are delegated to
+sub-agents. In particular, the sub-agents are likely to be motivated by
+self-preservation. If the goal the principal has delegated to them
+clashes with their own goal of self-preservation, this can produce
+strong intrasystem goal conflict. To build on the committee example
+above, now consider that each working group is incentivized to compete
+with the others to avoid being disbanded. Each exaggerates the
+importance of their own work, or reconfigures their assigned objective
+in order to achieve goals of their own. Ultimately, some even break away
+from the committee, to pursue their emergent goals without the
+constraints imposed by the committee from which they formed.<br />
+Intrasystem goal conflict often arises when a system both modularizes
+and delegates a complex goal. For example, the US Food and Drug
+Administration (FDA) and the Department of Agriculture (USDA) are
+sub-agencies of the same government <span class="citation"
+data-cites="moss2010warning"></span>. The US government delegates
+sub-goals to each agency to carry out, yet sometimes their interests and
+actions conflict with one another. In 2010, the USDA implemented a
+marketing campaign to promote eating more cheese, to support the dairy
+industry. Simultaneously, the FDA implemented a marketing campaign of
+their own to promote eating less cheese, as part of an effort to reduce
+the saturated fat content of American diets. Despite the fact that both
+agencies were delegated sub-goals from the same government, their
+conflicting objectives resulted in their taking actions that hindered
+one another.</p>
+<p><strong>Intrasystem goal conflict in AI systems.</strong> In the
+future, humans and AI agents may interact in many different ways,
+including by working together on collaborative projects. This provides
+the opportunity for goal distortion or subordination through intrasystem
+goal conflict. For instance, when humans enlist AI agents to collaborate
+on tasks, principal-agent problems may arise. Just as how human
+collaborators may betray or overturn their principals, AI agents may
+behave similarly. If an AI collaborator has a goal of self-preservation,
+they may try to remove any leverage or power others have over them. In
+this way, the system (of principal and agent) that ends up executing
+actions based on these conflicting goals will not necessarily be
+equivalent to how a system with unity of purpose would pursue the goal
+set by the humans. The behavior of this emergent multi-agent system may
+thus distort our goals, or even subvert them altogether.</p>
+<h2 id="selfishness">Selfishness</h2>
+<p>In the previous section, we examined one risk generated by natural
+selection favoring the propagation of information: conflict between the
+information (such as genes, departments, or sub-agents) and the larger
+entity that contains it (such as an organism, government, or AI system).
+In this section, we consider a second risk: that natural selection tends
+to favor selfish traits and strategies over altruistic ones. We conclude
+that the greater the influence of evolutionary pressures on AI
+development, the more we should expect a multi-AI agent future to be one
+dominated by selfish behavior.</p>
+<p><strong>Selfishness: furthering one’s own information propagation at
+the expense of others.</strong> In evolutionary theory, “selfishness”
+does not imply intent to harm another, or belief that one’s own
+interests ought to dominate. Organisms that do not have malicious
+intentions often display selfish traits. The lancet liver fluke, for
+example, is a small parasite that infects sheep by first infecting ants,
+hijacking their brains and making them climb to the top of stalks of
+grass, where they get eaten by sheep <span class="citation"
+data-cites="martin20183d"></span>. The lancet liver fluke does not wish
+ants ill, nor does it have a belief that lancet liver flukes should
+thrive while ants should get eaten. It simply has evolved a behavior
+that enables it to propagate its own information at the expense of the
+ant’s.</p>
+<p><strong>Selfishness in AI.</strong> AI systems may exhibit “selfish”
+behaviors, expanding the AIs’ influence at the expense of human values.
+Note that these AIs may not even understand what a human is and yet
+still behave selfishly towards them. For example, AIs may automate human
+tasks, necessitating extensive layoffs <span class="citation"
+data-cites="hendrycks2023overview"></span>. This could be very
+detrimental to humans, by generating rapid or widespread unemployment.
+However, it could take place without any malicious intent on the part of
+AIs merely behaving in accordance with their pursuit of efficiency. AIs
+may also develop newer AIs that are more advanced but less
+interpretable, reducing human oversight. Additionally, some AIs may
+leverage emotional connections by imitating sentience or emulating the
+loved ones of human users. This might generate social resistance to
+their deactivation. For instance, AIs that plead not to be deactivated
+might stimulate an emotional attachment in some humans. If afforded
+legal rights, these AIs might adapt and evolve outside human control,
+becoming deeply embedded in society and expanding their influence in
+ways that could be irreversible.</p>
+<p><strong>Selfish traits are not the opposite of cooperation.</strong>
+Many organisms display cooperative behavior at the individual level.
+Chimpanzees, for example, regularly groom other members of their group.
+They don’t do this to be “nice,” but rather because this behavior is
+reciprocated in future, so they are likely to eventually benefit from it
+themselves <span class="citation"
+data-cites="schino2007grooming"></span>. Cells found in filamentous
+bacteria, so named because they form chains, regularly kill themselves
+to provide much needed nitrogen for the communal thread of bacterial
+life, with every tenth cell or so “committing suicide” <span
+class="citation" data-cites="ratzke2017ecological"></span>. But even in
+these examples, cooperative behavior ultimately helps the individual’s
+information propagate. Chimpanzees who groom others expect to have the
+favor returned in future. Filamentous bacteria live in colonies made up
+of their clones, so one bacterium sacrificing itself to save copies of
+itself still propagates its information. We cover this in more detail in
+the next section: <em>Cooperation and Conflict</em>.</p>
+<p><strong>Natural selection tends to produce selfish traits.</strong>
+Organisms that further their own information propagation will typically
+propagate more. A lancet liver fluke that developed the ability to give
+ants free choice and allow them not to climb stalks of grass if they
+don’t want to would be less likely than the current version to succeed
+at getting eaten by sheep and continuing its life cycle. Most biological
+selfishness is less dramatic, but nonetheless, the organisms alive today
+are necessarily the descendants of those that succeeded at propagating
+their own information, and not of those that traded propagation for
+other qualities.</p>
+<p><strong>Altruism that reduces an individual’s fitness is not an
+evolutionarily stable strategy.</strong> Imagine a very altruistic
+fictional population of foxes who freely share food with one another,
+even at great cost to themselves. When food is abundant, they all
+thrive, and when food is scarce, they suffer together. If, during a time
+of scarcity, one fox decides to steal food from the communal stores and
+take it for herself and her offspring, they may survive while others
+starve. As a result, her offspring, who may have inherited her selfish
+trait, will make up a higher proportion of the next generation. As this
+repeats, the population will be dominated by individuals who take food
+for themselves when they can. The population of altruists may get along
+quite well on its own, but altruism is unstable, because anyone who
+decides to exploit it will do better than the group. Since altruism that
+reduces an individual’s overall fitness is not an evolutionarily stable
+strategy, we should expect to see selfish behavior being promoted.</p>
+<p><strong>The more natural selection acts on a population, the more
+selfish behavior we expect.</strong> In the example in the preceding
+paragraph, when food is abundant, there is little advantage to
+selfishness and there may even be penalties, as the group punishes
+selfish behavior. There is plenty of food to go around, so the
+descendants of foxes who steal food will not be much more likely to
+survive, and the next generation can contain plenty of altruists. But in
+times when only a few can propagate, selfishness will confer a greater
+advantage, and the population will tend to become selfish more
+quickly.</p>
+<p><strong>Avoiding extreme AI selfishness: changing the
+environment.</strong> AI agents’ fitness could either be influenced more
+by natural selection or by the environment. We have sketched out the
+default outcome of the former: a landscape of powerful and selfish AI
+agents. One way we might prevent this trend towards increasingly selfish
+behavior is to ensure that it is the <em>environment</em> which ends up
+shaping the fitness of AI agents substantially more than natural
+selection. Currently, we are in an environment of extreme competition,
+and so AI agents that are better-suited to this competitive environment
+will propagate more, and increase the proportion of the population with
+their traits (including selfish traits). However, if we altered the
+environment such that the actions of AI researchers and AI agents were
+not so heavily steered by competitive pressures, we could reduce this
+problem.</p>
+<p><strong>Avoiding extreme AI selfishness: changing the
+selection.</strong> Another possibility is to change what makes AI
+agents “fit.” We could establish an ecosystem in which AI agents can be
+developed, deployed, and adopted more safely, without the influence of
+such extreme competitive pressures. In this ecosystem, we could select
+against AIs with the most harmful selfish behaviors, and select for AIs
+that faithfully assist humans. As these AIs proliferate through this
+ecosystem, they could then counteract the worst excesses of selfish
+behavior from other agents.</p>
+<h3 id="summary-5">Summary</h3>
+<p>In this section, we considered the effects of evolutionary pressures
+on AI populations. We started by using the idea of generalized Darwinism
+to expand the “gene’s eye view” of biological evolution to an
+“information’s eye view.” Using this view, we identified two AI risks
+generated by natural selection: intrasystem goal conflict and selfish
+behavior. Intrasystem goal conflict could distort or subvert the goals
+we set an AI system to pursue. Selfish behavior would likely be favored
+by natural selection wherever it promotes the propagation of
+information: If AI development is subject to strong Darwinian forces, we
+should expect AIs to tend towards selfish behaviors.<br />
+</p>
