@@ -1,4 +1,4 @@
-<h1 id="sec:proxy-gaming">Proxies</h1>
+<h1 id="sec:proxy-gaming"> 3.4 Proxies</h1>
 <p>In this section, we begin to explore the need for proxies in machine
 learning and the associated risks. We do this by examining a potential
 failure mode known as proxy gaming, wherein a model optimizes for a
@@ -9,7 +9,7 @@ the related phenomenon of adversarial examples, where an optimizer is
 used to exploit vulnerabilities in a neural network. We close by looking
 at the tail risks of having AI systems themselves play the role of
 evaluators (i.e. proxy goals) for other other AI systems.</p>
-<h2 id="proxies-in-machine-learning">Proxies in Machine Learning</h2>
+<h2 id="proxies-in-machine-learning"> 3.4.1 Proxies in Machine Learning</h2>
 <p>Here, we look at the concept of proxies, why they are necessary, and
 how they can lead to problems.</p>
 <p><strong>Many goals are difficult to specify exactly.</strong> It is
@@ -44,7 +44,7 @@ While proxies serve as useful and often necessary stand-ins for our
 idealized objectives, they are not without flaws. The wrong choice of
 proxies can lead to the optimized systems taking unanticipated and
 undesired actions.</p>
-<h2 id="proxy-gaming">Proxy Gaming</h2>
+<h2 id="proxy-gaming"> 3.4.2 Proxy Gaming</h2>
 <p>In this section, we explore a failure mode of proxies known as proxy
 gaming, where a model optimizes for a proxy in a way that produces
 undesirable or even harmful outcomes as judged from the idealized goal.
@@ -348,7 +348,7 @@ system introduced a new grade, A* <span class="citation"
 data-cites="lambert2019great"></span>. Any adjustment to the proxy can
 usher in new ways for agents to exploit it, setting off a cycle of
 escalating standards and new countermeasures.</p>
-<h2 id="adversarial-examples">Adversarial Examples</h2>
+<h2 id="adversarial-examples"> 3.4.3 Adversarial Examples</h2>
 <p>Adversarial examples are another type of risk due to optimization
 pressure, which, similar to proxy gaming, exploits the gap between a
 proxy and the idealized goal. In this section, we present an example of
@@ -593,7 +593,7 @@ examples. However, most adversarial training techniques assume
 unrealistically simple threat models. Moreover, an adversarial training
 technique is not without its downsides, as it often harms performance
 elsewhere. Furthermore, progress in this direction has been slow.</p>
-<h2 id="tail-risk-ai-evaluator-gaming">Tail Risk: AI Evaluator
+<h2 id="tail-risk-ai-evaluator-gaming"> 3.4.4 Tail Risk: AI Evaluator
 Gaming</h2>
 <p><strong>AI evaluators must be robust to proxy gaming and adversarial
 examples.</strong> As the world becomes more and more automated, humans
