@@ -1,0 +1,494 @@
+<h2 id="sec:black-swans">Black Swans</h2>
+<h4 id="introduction-to-black-swans">Introduction to Black Swans</h4>
+<p>So far, we have discussed tail events in general. We will now look at
+an important subset of tail events, called black swans. In addition to
+being rare and high-impact, black swans are also unanticipated, seeming
+to happen out of the blue. The term “black swan” originates from a
+historical event that provides a useful analogy.<br />
+It was long believed in Europe that all swans were white because all
+swan sightings known to Europeans were of white swans. For this reason,
+the term “black swan” came to denote something nonexistent, or even
+impossible, much as today we say “pigs might fly.” The use of this
+metaphor is documented as early as Roman times. However, in 1697, a
+group of Dutch explorers encountered a black species of swan in
+Australia. This single, unexpected discovery completely overturned the
+long-held axiom that all swans were white.<br />
+This story offers an analogy for how we can have a theory or an
+assumption that seems correct for a long time, and then a single,
+surprising observation can completely upend that model. Such an
+observation can be classed as a tail event because it is rare and
+high-impact. Additionally, the fact that the observation was unforeseen
+shows us that our understanding is incorrect or incomplete.<br />
+From here on we will use the following working definition of black
+swans: A black swan is a tail event that was largely unpredictable to
+most people before it happened. Note that not all tail events are black
+swans; high-magnitude earthquakes, for example, are tail events, but we
+know they are likely to happen in certain regions at some point–—they
+are on our radar.<br />
+</p>
+<h3 id="known-unknowns-and-unknown-unknowns">Known Unknowns and Unknown
+Unknowns</h3>
+<p><strong>Black swans are “unknown unknown” tail events <span
+class="citation" data-cites="taleb2017blackswan"></span>.</strong> We
+can sort events into four categories, as shown in the table below.<br />
+</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Known knowns</strong>: things we
+are aware of and understand.</th>
+<th style="text-align: left;"><strong>Unknown knowns</strong>: things
+that we do not realize we know (such as tacit knowledge).</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Known unknowns</strong>: things we
+are aware of but which we don’t fully understand.</td>
+<td style="text-align: left;"><strong>Unknown unknowns</strong>: things
+that we do not understand, and which we are not even aware we do not
+know.</td>
+</tr>
+</tbody>
+</table>
+<p><br />
+In these category titles, the first word refers to our awareness, and
+the second refers to our understanding. We can now consider these four
+types of events in the context of a student preparing for an exam.</p>
+<ol>
+<li><p><strong>We know that we know.</strong> Known knowns are things we
+are both aware of and understand. For the student, these would be the
+types of questions that have come up regularly in previous papers and
+that they know how to solve through recollection. They are aware that
+they are likely to face these, and they know how to approach
+them.</p></li>
+<li><p><strong>We do not know what we know.</strong> Unknown knowns are
+things we understand but may not be highly aware of. For the student,
+these would be things they have not thought to prepare for but which
+they understand and can do. For instance, there might be some questions
+on topics they hadn’t revised; however, looking at these questions, the
+student finds that they know the answer, although they cannot explain
+why it is correct. This is sometimes called tacit knowledge or
+unaccounted facts.</p></li>
+<li><p><strong>We know that we do not know.</strong> Known unknowns are
+things we are aware of but do not fully understand. For the student,
+these would be the types of questions that have come up regularly in
+previous papers but which they have not learned how to solve reliably.
+The student is aware that they are likely to face these but is not sure
+they will be able to answer them correctly. However, they are at least
+aware that they need to do more work to prepare for them.</p></li>
+<li><p><strong>We do not know that we do not know.</strong> Unknown
+unknowns are things we are unaware of and do not understand. These
+problems catch us completely off guard because we didn’t even know they
+existed. For the student, unknown unknowns would be unexpectedly hard
+questions on topics they have never encountered before and have no
+knowledge or understanding of.</p></li>
+</ol>
+<p><strong>Unknown unknowns can also occur in AI safety and
+risk.</strong> Researchers may be diligently studying various aspects of
+AI and its potential risks, but new and unforeseen risks could emerge as
+AI technology advances. These risks may be completely unknown and
+unexpected, catching researchers off guard. It is important to
+acknowledge the existence of unknown unknowns because they remind us
+that there are limits to our knowledge and understanding. By being aware
+of this, we can be more humble in our approach to problem-solving and
+continuously strive to expand our knowledge and prepare for the
+unexpected.</p>
+<p><strong>We struggle to account for known unknowns and unknown
+unknowns.</strong> We have included the first two categories–—known
+knowns and unknown knowns–—for completeness. However, the most important
+categories in risk analysis and management are the last two: known
+unknowns and unknown unknowns. These categories pose risks because we do
+not fully understand how best to respond to them, and we cannot be
+perfectly confident that we will not suffer damage from them.</p>
+<p><strong>Unknown unknowns are particularly concerning.</strong> If we
+are aware that we might face a particular challenge, we can learn more
+and prepare for it. However, if we are unaware that we will face a
+challenge, we may be more vulnerable to harm. Black swans are the latter
+type of event; they are not even on our radar before they happen.<br />
+The difference between known unknowns and unknown unknowns is sometimes
+also described as a distinction between conscious ignorance and
+<em>meta-ignorance</em>. Conscious ignorance is when we see that we do
+not know something, whereas meta-ignorance is when we are unaware of our
+ignorance.</p>
+<p><strong>Black swans in the real world</strong> It might be unfair for
+someone to present us with an unknown unknown, such as finding questions
+on topics irrelevant to the subject in an exam setting. The wider world,
+however, is not a controlled environment; things do happen that we have
+not thought to prepare for.</p>
+<p><strong>Black swans indicate that our worldview is inaccurate or
+incomplete.</strong> Consider a turkey being looked after by humans, who
+provide plenty of food and a comfortable shelter safe from predators.
+According to all the turkey’s evidence, the humans are benign and have
+the turkey’s best interests at heart. Then, one day, the turkey is taken
+to the slaughterhouse. This is very much an unknown unknown, or a black
+swan, for the turkey, since nothing in its experience suggested that
+this might happen <span class="citation"
+data-cites="taleb2007blackswan"></span>.<br />
+This illustrates that we might have a model or worldview that does a
+good job of explaining all our evidence to date, but then a black swan
+can turn up and show us that our model was incorrect. The turkey’s
+worldview of benign humans explained all the evidence until the
+slaughterhouse trip. This event indicated a broader context that the
+turkey was unaware of.<br />
+Similarly, consider the 2008 financial crisis. Before this event, many
+people, including many of those working in finance, assumed that housing
+prices would always continue to increase. When the housing bubble burst,
+it showed that this assumption was incorrect.</p>
+<p><strong>Black swans are defined by our understanding.</strong> A
+black swan is a black swan because our worldview is incorrect or
+incomplete, which is why we fail to predict it. In hindsight, such
+events often only make sense after we realize that our theory was
+flawed. Seeing black swans makes us update our models to account for the
+new phenomena we observe. When we have a new, more accurate model, we
+can often look back in time and find the warning signs in the lead-up to
+the event, which we did not recognize as such at the time.<br />
+These examples also show that we cannot always reliably predict the
+future from our experience; we cannot necessarily make an accurate
+calculation of future risk based on long-running historical data.</p>
+<p><strong>Only some tail events are black swans.</strong> As touched on
+earlier, it is essential to note that black swans are a subset of tail
+events, and not all tail events are black swans. For example, it is well
+known that earthquakes happen in California and that a high-magnitude
+one, often called “the big one,” will likely happen at some point. It is
+not known exactly when—whether it will be the next earthquake or in
+several decades. It might not be possible to prevent all damage from the
+next “big one,” but there is an awareness of the need to prepare for it.
+This represents a tail event, but not a black swan.</p>
+<p><strong>Some people might be able to predict some black
+swans.</strong> A restrictive definition of a black swan is an event
+that is an absolute unknown unknown for everybody and is impossible to
+anticipate. However, for our purposes, we are using the looser, more
+practical working definition given earlier: a highly impactful event
+that is largely unexpected for most people. For example, some
+individuals with relevant knowledge of the financial sector did predict
+the 2008 crisis, but it came out of the blue for most people. Even among
+financial experts, the majority did not predict it. Therefore, we count
+it as a black swan.<br />
+Similarly, although pandemics have happened throughout history, and
+smaller disease outbreaks occur yearly, the possibility of a pandemic
+was not on most people’s radar before COVID-19. People with specific
+expertise were more conscious of the risk, and epidemiologists had
+warned several governments for years that they were inadequately
+prepared for a pandemic. However, COVID-19 took most people by surprise
+and therefore counts as a black swan under the looser definition.</p>
+<p><strong>The development and rollout of AI technologies could be
+subject to black swans.</strong> Within the field of AI, the consensus
+view for a long time was that deep learning techniques were
+fundamentally limited. Many people, even computer science professors,
+did not take seriously the idea that deep learning technologies might
+transform society in the near term—even if they thought this would be
+possible over a timescale of centuries.<br />
+Deep learning technologies have already begun to transform society, and
+the rate of progress has outpaced most people’s predictions. We should,
+therefore, seriously consider the possibility that the release of these
+technologies could pose significant risks to society.<br />
+There has been speculation about what these risks might be, such as a
+flash war and autonomous economy, which are discussed in the Multi-Agent
+Dynamics chapter. These eventualities might be known to some people, but
+for many potential risks, there is not widespread awareness in society;
+if they happened today, they would be black swans. Policymakers must
+have some knowledge of these risks. Furthermore, the expanding use of AI
+technologies may entail risks of black swan scenarios that no one has
+yet imagined.</p>
+<h3
+id="implications-of-tail-events-and-black-swans-for-risk-analysis">Implications
+of Tail Events and Black Swans for Risk Analysis</h3>
+<p>Tail events and black swans present problems for analyzing and
+managing risks, because we do not know if or when they will happen. For
+black swans, there is the additional challenge that we do not know what
+form they will take.<br />
+Since, by definition, we cannot predict the nature of black swans in
+advance, we cannot put any specific defenses in place against them, as
+we might for risks we have thought of. We can attempt to factor black
+swans into our equations to some degree, by trying to estimate roughly
+how likely they are and how much damage they would cause. However, they
+add much more uncertainty into our calculations. We will now discuss
+some common tendencies in thinking about risk, and why they can break
+down in situations that are subject to tail events and black
+swans.<br />
+First, we consider how our typical risk estimation methods break down
+under long tails because our standard arsenal of statistical tools are
+rendered useless. Then, we consider how cost-benefit analysis is
+strained when dealing with long-tailed events because of its sensitivity
+to our highly uncertain estimates. After this, we discuss why we should
+be more explicitly considering extremes instead of averages, and look at
+three common mistakes when dealing with long-tailed data: the delay
+fallacy, interpreting an absence of evidence, and the preparedness
+paradox.</p>
+<p><strong>Tail events and black swans can substantially change the
+average risk of a system.</strong> It is challenging to account for tail
+events in the risk equation. Since tail events and black swans are
+extremely severe, they significantly affect the average outcome. Recall
+the equation for risk associated with a system:</p>
+<p><span
+class="math display">Risk = ∑<sub>hazard</sub><em>P</em>(hazard) × severity(hazard).</span>
+Additionally, it is difficult to estimate their probability and severity
+accurately. Yet, they would considerably change the evaluation of risk
+because they are so severe. Furthermore, since we do not know what form
+black swans will take, it may be even more difficult to factor them into
+the equation accurately. This renders the usual statistical tools
+useless in practice for analyzing risk in the face of potential black
+swans.<br />
+If the turkey in the previous example had tried to calculate the risk to
+its wellbeing based on all its prior experiences, the estimated risk
+would probably have been fairly low. It certainly would not have pointed
+to the high risk of being taken to the slaughterhouse, because nothing
+like that had ever happened to the turkey before.<br />
+</p>
+<div class="wrapfigure">
+<p><span>r</span><span>8.5cm</span> <embed
+src="images/safety_engineering/convergence.pdf"
+style="width:8.5cm" /></p>
+</div>
+<p><strong>We need a much larger dataset than usual.</strong> As we
+increase the number of observations, we converge on an average value.
+Suppose we are measuring heights and calculating a new average every
+time we add a new data point. As shown in the first graph in figure <a
+href="#wrap-fig:convergence" data-reference-type="ref"
+data-reference="wrap-fig:convergence">[wrap-fig:convergence]</a>, as we
+increase our number of data points, we quickly converge on an average
+that changes less and less with the addition of each new data point.
+This is a result of the law of large numbers.<br />
+Heights, however, are a thin-tailed variable. If we look instead at a
+long-tailed variable, such as net worth, as shown in the second graph in
+figure <a href="#wrap-fig:convergence" data-reference-type="ref"
+data-reference="wrap-fig:convergence">[wrap-fig:convergence]</a>, a
+single extreme observation can change the average by several orders of
+magnitude. The law of large numbers still applies, in that we will still
+eventually converge on an average value, but it will take much
+longer.</p>
+<p><strong>Linear regression is a standard prediction method but is less
+useful for long-tailed data.</strong> Linear regression is a technique
+widely used to develop predictive models based on historical data.
+However, in situations where we are subject to the possibility of tail
+events or black swans, we might not be sure that we have enough
+historical data to converge on an accurate calculation of average risk.
+Linear regression is, therefore, less helpful in assessing and
+predicting risk for long-tailed scenarios.</p>
+<p>Cost-benefit analysis using long-tailed data often requires highly
+accurate estimates. Traditional cost-benefit analysis weighs the
+probability of different results and how much we would lose or gain in
+each case. From this information, we can calculate whether we expect the
+outcome of a situation to be positive or negative. For example, if we
+bet on a 50/50 coin toss where we will either win $5 or lose $5, our
+overall expected outcome is $0.<br />
+<strong>Example: lotteries.</strong> Now, imagine that we are trying to
+perform a cost-benefit analysis for a lottery where we have a high
+probability of winning a small amount and a low probability of losing a
+large amount. If we have a 99.9% chance of winning $15 and a 0.1% chance
+of losing $10,000, then our expected outcome is:<br />
+<span class="math display">(0.999×15) + (0.001×−10000) = 4.985.</span>
+Since this number is positive, we might believe it is a good idea to bet
+on the lottery. However, if the probabilities are only slightly
+different, at 99.7% and 0.3%, then our expected outcome is:<br />
+<span
+class="math display">(0.997×15) + (0.003×−10000) =  − 15.045.</span></p>
+<p>This illustrates that just a tiny change in probabilities sometimes
+makes a significant difference in whether we expect a positive or a
+negative outcome. In situations like this, where the expected outcome is
+highly sensitive to probabilities, using an estimate of probability that
+is only slightly different from the actual value can completely change
+the calculations. For this reason, relying on this type of cost-benefit
+analysis does not make sense if we cannot be sure we have accurate
+estimates of the probabilities in question.</p>
+<p><strong>It is difficult to form accurate probability estimates for
+black swans.</strong> Black swans happen rarely, so we do not have a lot
+of historical data from which to calculate the exact probability that
+they will occur. As we explored above, it takes a lot of data—often more
+than is accessible—to make accurate judgments for long-tailed events
+more generally. Therefore, we cannot be certain that we know their
+probabilities accurately, rendering cost-benefit analysis unsuitable for
+long-tailed data, especially for black swans.<br />
+This consideration could be significant for deciding whether and how to
+use AI technologies. We might have a high probability of benefitting
+from the capabilities of deep learning models, and there might be only a
+low probability of an associated black swan transpiring and causing
+harm. However, we cannot calculate an accurate probability of a black
+swan event, so we cannot evaluate our expected outcome precisely.</p>
+<p><strong>It is unrealistic to estimate risk when we could face black
+swans.</strong> If we attempt to develop a detailed statistical model of
+risk for a situation, we are making an implicit assumption that we have
+a comprehensive understanding of all the possible failure modes and how
+likely they are. However, as previous black swan events have
+demonstrated, we cannot always assume we know all the
+eventualities.<br />
+Even for tail events that are known unknowns, we cannot assume we have
+sufficiently accurate information about their probabilities and impacts.
+Trying to precisely estimate risk when we might be subject to tail
+events or black swans can be viewed as an “unscientific overestimation
+of the reach of scientific knowledge” <span class="citation"
+data-cites="taleb2012antifragile"></span>.</p>
+<p><strong>When making risk-related decisions, we should consider
+extremes, not only the average.</strong> Aside from whether or not we
+can calculate an accurate average outcome under the risk of tail events
+and black swans, there is also a question of whether the average is what
+we should be paying attention to in these situations anyway. This idea
+is captured in the following adage commonly attributed to Milton
+Friedman: “Never try to walk across a river just because it has an
+average depth of four feet.” If a river is four feet deep on average,
+that might mean that it has a constant depth of four feet and is
+possible to wade across it safely. It might also mean that it is two or
+three feet deep near the banks and eight feet deep at some point in the
+middle. If this were the case, then it would not be a good idea to
+attempt to wade across it.<br />
+Failing to account for extremes instead of averages is one example of
+the mistakes people make when thinking about event types that might have
+black swans. Next, we will explore three more: the delay fallacy,
+misinterpreting an absence of evidence, and the preparedness
+paradox.</p>
+<p>If we do not have enough information to conduct a detailed risk
+analysis, it might be tempting to gather more information before taking
+action. A common excuse for delaying action is: “If we wait, we will
+know more about the situation and be able to make a more informed
+decision, so we should not make any decisions now.”</p>
+<p><strong>In thin-tailed scenarios, waiting for more information is
+often a good approach.</strong> Under thin tails, additional
+observations will likely help us refine our knowledge and identify the
+best course of action. Since there are no tail events, there is a limit
+to how much damage a single event can do. There is, therefore, less
+urgency to take action in these situations. The benefit of more
+information can be considered to outweigh the delay in taking
+action.</p>
+<p><strong>In long-tailed scenarios, waiting for more information can
+mean waiting until it is too late.</strong> Additional observations will
+not necessarily improve our knowledge of the situation under long tails.
+Most, if not all, additional observations will probably come from the
+head of the distribution and will not tell us anything new about the
+risk of tail events or black swans. The longer we wait before preparing,
+the more we expose ourselves to the possibility of such an event
+happening while we are unprepared. When tail events and black swans do
+materialize, it is often too late to intervene and prevent harm.<br />
+Governments failing to improve their pandemic preparedness might be
+considered an example of this. Epidemiologists’ warnings were long
+ignored, which seemed fine for a long time because pandemics are rare.
+However, when COVID-19 struck, many governments tried to get hold of
+personal protective equipment (PPE) simultaneously and found a shortage.
+If they had stocked up on this before the pandemic, as experts had
+advised, then the outcome might have been less severe.<br />
+Furthermore, if a tail event or black swan is particularly destructive,
+we can never observe it and use that information to help us make better
+calculations. The turkey cannot use the event of being taken to the
+slaughterhouse to make future risk estimations more accurate. With
+respect to society, we cannot afford for events of this nature to happen
+even once.</p>
+<p><strong>We should be proactively investing in AI safety now.</strong>
+Since the development and rollout of AI technologies could represent a
+long-tailed scenario, entailing a risk of tail events and black swans,
+it would not make sense to delay action with the excuse that we do not
+have enough information. Instead, we should be proactive about safety by
+investing in the three key research fields discussed earlier:
+robustness, monitoring, and control. If we wait until we are certain
+that an AI could pose an existential risk before working on AI safety,
+we might be waiting until it is too late.</p>
+<p>It can be hard to imagine a future that is significantly different
+from our past and present experiences. Suppose a particular event has
+never happened before. In that case, it can be tempting to interpret
+that as an indication that we do not need to worry about it happening in
+the future, but this is not necessarily a sound judgment.</p>
+<p><strong>An absence of evidence is not strong evidence of
+absence.</strong> Even if we have not found evidence that there is a
+risk of black swan events, that is not evidence that there is no risk of
+black swan events. In the context of AI safety, we may not have found
+evidence that deep learning technologies could pose specific risks like
+deceptive alignment, but that does not necessarily mean that they do not
+pose such risks or that they will not at some point in the future.</p>
+<p><strong>Safety measures that prevent harm can seem
+redundant.</strong> Imagine that we enact safety measures to reduce the
+risk of a potentially destructive event, and then the event does not
+happen. Some might be tempted to say that the safety measures were
+unnecessary or that implementing them was a waste of time and resources.
+Even if the event does happen but is not very severe, some people might
+still say that the safety measures were unnecessary because the event’s
+consequences were not so bad.<br />
+However, this conclusion ignores the possibility that the event did not
+happen or was less severe because of the safety measures. We cannot run
+through the same period of time twice and discover how things would have
+unfolded without any safety measures. This is a cognitive bias known as
+the preparedness paradox: efforts to prepare for potential disasters can
+reduce harm from these events and, therefore, reduce the perceived need
+for such preparation.</p>
+<p><strong>The preparedness paradox can lead to self-defeating
+prophecies.</strong> A related concept is the “self-defeating prophecy,”
+where a forecast can lead to actions that prevent the forecast from
+coming true. For example, suppose an epidemiologist predicts that there
+will be a high death toll from a particular infectious disease. In that
+case, this might prompt people to wash their hands more frequently and
+avoid large gatherings to avoid infection. These behaviors are likely to
+reduce infection rates and lead to a lower death toll than the
+epidemiologist predicted.<br />
+If we work proactively on reducing risks from global pandemics, and no
+highly destructive pandemics come to pass, some people would believe
+that the investment was unnecessary. However, it might be
+<em>because</em> of those efforts that no destructive events happen.
+Since we usually cannot run two parallel worlds—–one with safety efforts
+and one without—–it might be difficult or impossible to prove that the
+safety work prevented harm. Those who work in this area may never know
+whether their efforts have prevented a catastrophe and have their work
+vindicated. Nevertheless, preventing disasters is essential, especially
+in cases like the development of AI, where we have good theoretical
+reasons to believe that a black swan is on the cards.</p>
+<h3 id="identifying-the-risk-of-tail-events-or-black-swans">Identifying
+the Risk of Tail Events or Black Swans</h3>
+<p>Since the possibility of tail events and black swans affects how we
+approach risk management, we must consider whether we are facing a
+long-tailed or thin-tailed scenario. We need to know whether we can rely
+on standard statistical methods to estimate risk or whether we face the
+possibility of rare, high-impact events. This can be difficult to
+determine, especially in cases of low information, but there are some
+valuable indicators we can look for.</p>
+<p><strong>Highly connected systems often give rise to long-tailed
+scenarios.</strong> As discussed earlier, multiplicative phenomena can
+lead to long tails. We should ask ourselves: Can one part of the system
+rapidly affect many others? Can a single event trigger a cascade? If the
+answers to these questions are yes, then it is possible that an event
+can escalate to become a tail event with an extreme impact.</p>
+<p><strong>The use of AI in society could create a new, highly connected
+system.</strong> If deep learning models become enmeshed within society
+and are put in charge of various decisions, then we will have a highly
+connected system where these agents regularly interact with humans and
+each other. In these conditions, a single erroneous decision made by one
+agent could trigger a cascade of harmful decisions by others, for
+example, if they govern the deployment of weapons. This could leave us
+vulnerable to sudden catastrophes such as flash wars or powerful rogue
+AIs.</p>
+<p><strong>Complex systems may be more likely to entail a risk of black
+swans.</strong> Complex systems can evolve in unpredictable ways and
+develop unanticipated behaviors. We cannot usually foresee every
+possible way a complex system might unfold. For this reason, we might
+expect that complex evolving systems present an inherent risk of black
+swans.</p>
+<p><strong>Deep learning models and the surrounding social systems are
+all complex systems.</strong> It is unlikely that we will be able to
+predict every single way AI might be used, just as, in the early days of
+the internet, it would have been difficult to predict every way
+technology would ultimately be used. This means that there might be a
+risk of AI being used in harmful ways that we have not foreseen,
+potentially leading to a destructive black swan event that we are
+unprepared for. The idea that deep learning systems qualify as complex
+systems is discussed in greater depth in the chapter.</p>
+<p><strong>New systems may be more likely to present black
+swans.</strong> Absence of evidence is only evidence of absence if we
+expect that some evidence should have turned up in the timeframe that
+has elapsed. For systems that have not been around for long, we would be
+unlikely to have seen proof of tail events or black swans since these
+are rare by definition.</p>
+<p><strong>AI may not have existed for long enough for us to have
+learned about all its risks.</strong> In the case of emerging
+technology, it is reasonable to think that there might be a risk of tail
+events or black swans, even if we do not have any evidence yet. The lack
+of evidence might be explained simply by the fact that the technology
+has not been around for long. Our meta-ignorance means that we should
+take AI risk seriously. By definition, we can’t be sure there are no
+unknown unknowns. Therefore, it is over-confident for us to feel sure we
+have eliminated all risks.</p>
+<p><strong>Accelerating progress could increase the frequency of black
+swan events.</strong> We have argued that black swan events should be
+taken seriously, despite being rare. However, as technological progress
+and economic growth advance at an increasing rate, such events may in
+fact become more frequent, further compounding their relevance to risk
+management. This is because the increasing pace of change also means
+that we will more often face novel circumstances that could present
+unknown unknowns. Moreover, within the globalised economy, social
+systems are increasingly interconnected, increasing the likelihood that
+one failure could trigger a cascade and have an outsized impact.</p>
