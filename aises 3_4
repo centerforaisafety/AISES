@@ -1,0 +1,688 @@
+<h1 id="sec:proxy-gaming">Proxies</h1>
+<p>In this section, we begin to explore the need for proxies in machine
+learning and the associated risks. We do this by examining a potential
+failure mode known as proxy gaming, wherein a model optimizes for a
+proxy in a way that diverges from the idealized goals of its designers.
+We also analyze a related concept known as Goodhart’s law and explore
+some of the causes for these kinds of failure modes. Next, we consider
+the related phenomenon of adversarial examples, where an optimizer is
+used to exploit vulnerabilities in a neural network. We close by looking
+at the tail risks of having AI systems themselves play the role of
+evaluators (i.e. proxy goals) for other other AI systems.</p>
+<h2 id="proxies-in-machine-learning">Proxies in Machine Learning</h2>
+<p>Here, we look at the concept of proxies, why they are necessary, and
+how they can lead to problems.</p>
+<p><strong>Many goals are difficult to specify exactly.</strong> It is
+hard to measure or even define many of the goals we care about. They
+could be too abstract for straightforward measurement, such as justice,
+freedom, and equity, or they could simply be difficult to observe
+directly, such as the quality of education in schools.<br />
+With ML systems, this difficulty is especially pronounced because, as we
+saw in the chapter, ML systems require quantitative, measurable targets
+in order to learn. This places a strong limit on the kinds of goals we
+can represent. As we’ll see in this section, specifying suitable and
+learnable targets poses a major challenge.</p>
+<p><strong>Proxies stand in for idealized goals.</strong> When
+specifying our idealized goals is difficult, we substitute a
+<em>proxy</em>—an approximate goal that is more measurable and seems
+likely to correlate with the original goal. For example, in pest
+management, a bureaucracy may substitute the number of pests killed as a
+proxy for “managing the local pest population” <span class="citation"
+data-cites="john2023deada"></span>. Or, in training an AI system to play
+a racing game, we might substitute the number of points earned for
+“progress towards winning the race” <span class="citation"
+data-cites="clark2016faulty"></span>. Such proxies can be more or less
+accurate at approximating the idealized goal.</p>
+<p><strong>Proxies may miss important aspects of our idealized
+goals.</strong> By definition, proxies used to optimize AI systems will
+fail to capture some aspects of our idealized goals. When the
+differences between the proxy and idealized goal lead to the system
+making the same decisions, we can neglect them. In other cases, the
+differences may lead to substantially different downstream decisions
+with potentially undesirable outcomes.<br />
+While proxies serve as useful and often necessary stand-ins for our
+idealized objectives, they are not without flaws. The wrong choice of
+proxies can lead to the optimized systems taking unanticipated and
+undesired actions.</p>
+<h2 id="proxy-gaming">Proxy Gaming</h2>
+<p>In this section, we explore a failure mode of proxies known as proxy
+gaming, where a model optimizes for a proxy in a way that produces
+undesirable or even harmful outcomes as judged from the idealized goal.
+Additionally, we look at a concept related to proxy gaming, known as
+Goodhart’s Law, where the optimization process itself causes a proxy to
+become less correlated with its original goal.</p>
+<p><strong>Optimizing for inaccurate proxies can lead to undesired
+outcomes.</strong> To illustrate proxy gaming in a context outside AI,
+consider again the example of pest management. In 1902, the city of
+Hanoi was dealing with a rat problem: the newly installed sewer system
+had inadvertently become a breeding ground for rats, bringing with it a
+concern for hygiene and the threat of a plague outbreak <span
+class="citation" data-cites="john2023deada"></span>. In an attempt to
+control the rat population, the French colonial administration began
+offering a bounty for every rat killed. To make the collection process
+easier, instead of demanding the entire carcass, the French only
+required the rat’s tail as evidence of the kill.<br />
+Counter to the officials’ aims, people began breeding rats to cut off
+their tails and claim the reward. Additionally, others would simply cut
+off the tail and release the rat, allowing it to potentially breed and
+produce more tails in the future. The proxy—rat tails—proved to be a
+poor substitute for the goal of managing the local rat population.<br />
+So too, proxy gaming can occur in ML. A notorious example comes from
+when researchers at OpenAI trained an AI systems to play a game called
+CoastRunners. In this game, players need to race around a course and
+finish before others. Along the course, there are targets which players
+can hit to earn points <span class="citation"
+data-cites="clark2016faulty"></span>. While the intention was for the AI
+to circle the racetrack and complete the race swiftly, much to the
+researchers’ surprise, the AI identified a loophole in the objective. It
+discovered a specific spot on the course where it could continually
+strike the same three nearby targets, rapidly amassing points without
+ever completing the race. This unconventional strategy allowed the AI to
+secure a high score, even though it frequently crashed into other boats
+and, on several occasions, set itself ablaze. Points proved to be a poor
+proxy for doing well at the game.</p>
+<figure id="fig:coastrunners">
+<img src="images/single_agent/proxy_gaming_ex_1.png" />
+<figcaption>Proxy gaming in CoastRunners 7 - <span class="citation"
+data-cites="clark2016faulty"></span></figcaption>
+</figure>
+<p><strong>Optimizing for inaccurate proxies can lead to harmful
+outcomes.</strong> If a proxy is sufficiently unfaithful to the
+idealized goal it is meant to represent, it can result in AI systems
+taking actions that are not just undesirable but actively harmful. For
+example, a 2019 study on a US. healthcare algorithm used to evaluate the
+health risk of 200 million Americans revealed that the algorithm
+inaccurately evaluated black patients as healthier than they actually
+were <span class="citation"
+data-cites="obermeyer2019dissecting"></span>. The algorithm used past
+spending on similar patients as a proxy for health, equating lower
+spending with better health. Due to black patients historically getting
+fewer resources, this system perpetuated a lower and inadequate standard
+of care for black patients—assigning half the amount of care as equally
+sick non-marginalized patients. When deployed at scale, AI systems that
+optimize inaccurate proxies can have significant, harmful effects.</p>
+<p><strong>Optimizers often “game” proxies in ways that diverge from our
+idealized goals.</strong> As we saw in the Hanoi example and the
+boat-racing example, proxies may contain loopholes that allow for
+actions that achieve high performance according to the proxy but that
+are suboptimal or even deleterious according to the idealized goal.
+<em>Proxy gaming</em> refers to this act of exploiting or taking
+advantage of approximation errors in the proxy rather than optimizing
+for the original goal. This is a general phenomenon that happens in both
+human systems and AI systems.<br />
+</p>
+<figure id="fig:optimisation_pressure">
+<img src="images/single_agent/image19.png" />
+<figcaption>Often, as optimization pressure increases, the proxy
+diverges from the target with which it was originally correlated. <span
+class="citation" data-cites="skalsedefining"></span></figcaption>
+</figure>
+<p>Proxy gaming can occur in many AI systems. The boat-racing example is
+not an isolated example. Consider a simulated traffic control
+environment <span class="citation" data-cites="pan2022effects"></span>.
+Its goal is to mirror the conditions of cars joining a motorway, in
+order to determine how to minimize the average commute time. The system
+aims to determine the ideal traveling speeds for both oncoming traffic
+and vehicles attempting to join the motorway. To represent average
+commute time the algorithm uses the maximum mean velocity as a proxy.
+However, this results in the algorithm preventing the joining vehicles
+from entering the motorway, since a higher average velocity is
+maintained when oncoming cars can proceed without slowing down for
+joining traffic.<br />
+</p>
+<div class="center">
+<p>Model:</p>
+</div>
+<figure id="fig:proxy-reward">
+<img src="images/single_agent/proxy_reward.png" />
+<figcaption>Sub-optimal traffic control solution due to proxy
+gaming</figcaption>
+</figure>
+<p>Optimizers can cause proxies to become less correlated with the
+idealized goal. The total amount of effort an optimizer has put towards
+optimizing a particular proxy is the <em>optimization pressure</em>
+<span class="citation" data-cites="skalsedefining"></span>. Optimization
+pressure depends on factors like the incentives present, the capability
+of the optimizer, and how much time the optimizer has had to
+optimize.<br />
+In many cases, the correlation between a proxy and idealized goal will
+decrease as optimization pressure increases. The approximation error
+between proxy and idealized goal may at first be negligible, but as the
+system becomes more capable at achieving high performance (according to
+the proxy) or as the incentives to achieve high performance increases,
+the approximation error can increase. In the boat-racing example, the
+proxy (number of points) initially advanced the designers’ intentions:
+the respective AI systems learned to maneuver the boat. It was only
+under additional optimization pressure that the correlation broke down
+with the boat getting stuck in a loop.<br />
+Sometimes, the correlation between a proxy and idealized goal can vanish
+or reverse. According to <em>Goodhart’s Law</em>, “any observed
+statistical regularity will tend to collapse once pressure is placed
+upon it for control purposes” <span class="citation"
+data-cites="goodhart1975problems"></span>. In other words, a proxy might
+initially have a strong correlation (“statistical regularity”) with the
+idealized outcome. However, as optimization pressure (“pressure ... for
+control purposes”) increases, the initial correlation can vanish
+(“collapse”) and in some cases even reverse. The scenario with the Hanoi
+rats is a classic illustration of this principle, where the number of
+rat tails collected ultimately became positively correlated with the
+local rat population. The proxy failed precisely because the pressure to
+optimize for it caused the proxy to become less correlated with the
+idealized goal.</p>
+<p><strong>Some proxies are more robust to optimization pressure than
+others.</strong> Goodhart’s Law is often condensed to: “When a measure
+becomes a target, it ceases to be a good measure” <span class="citation"
+data-cites="strathern1997improving"></span>. Though memorable, this
+overly simplified version falsely suggests that robustness to
+optimization pressure is a binary all or nothing. In reality, robustness
+to optimization pressure occupies a spectrum. Some are more robust than
+others.</p>
+<h3 id="types-of-proxy-defects">Types of Proxy Defects</h3>
+<p>Intuitively, the cause of proxy gaming is straightforward: the
+designer has chosen the wrong proxy. This suggests a simple solution:
+just choose a better proxy. However, real-world constraints make it
+impossible to “just choose a better proxy”. Some amount of approximation
+error between idealized goals and the implemented proxy is often
+inevitable. In this section, we will survey three principal types of
+proxy defects—common sources of failure modes like proxy gaming.</p>
+<p><strong>Simple metrics may exclude many of the things we value, but
+it is hard to predict how they will break down.</strong> YouTube uses
+watch time—the amount of time users spend watching a video—as a proxy to
+evaluate and recommend potentially profitable content <span
+class="citation" data-cites="roose2019making"></span>. In order to game
+this metric, some content creators resorted to tactics to artificially
+inflate viewing time, potentially diluting the genuine quality of their
+content. Tactics included using misleading titles and thumbnails to lure
+viewers, and presenting ever more extreme and hateful content to retain
+attention. Instead of promoting high-quality, monetizable content, the
+platform started endorsing exaggerating or inflammatory videos.<br />
+YouTube’s reliance on watch time as a metric highlights a common
+problem: many simple metrics don’t include everything we value. It is
+especially these missing aspects that become salient under extreme
+optimization pressure. In YouTube’s case, the structural error of
+failing to include other values it cared about (such as what was
+acceptable to advertisers) led to the platform promoting content that
+violated its own values. Eventually, YouTube updated its recommendation
+algorithm, de-emphasizing watch-time and incorporating a wider range of
+metrics. Including one’s broader set of values requires incorporating a
+larger and more granular set of proxies. In general, this is highly
+difficult, as we need to be able to specify precisely how these values
+can be combined and traded off against each other.<br />
+This challenge isn’t unique to YouTube. As long as AI systems’ goals
+rely on simple proxies and do not reflect the set of all of our
+intrinsic goods such as wellbeing (see the chapter for more discussion
+of intrinsic goods), we leave room for optimizers to exploit those gaps.
+In the future, machine learning models may become adept at representing
+our wider set of values. Then, their ability to work reliably with
+proxies will hinge largely on their resilience to the kinds of
+adversarial attacks discussed in the next section.<br />
+Until then, the challenge remains: if our objectives are simple and do
+not fully reflect our most important values (e.g. intrinsic goods), we
+run the risk of an optimizer exploiting this gap.</p>
+<p><strong>Choosing and delegating subgoals creates room for structural
+error.</strong> Many systems are organized into multiple different
+layers. When such a system is goal-directed, pursuing its high-level
+goal often requires breaking it down into subgoals and delegating these
+subgoals to its subsystems. This can be a source of structural error if
+the high-level goal is not the sum of its subgoals.<br />
+For example, a company might have the high-level goal of being
+profitable over the long term <span class="citation"
+data-cites="john2023deada"></span>. Management breaks this down into the
+subgoal of improving sales revenue, which they operationalize via the
+proxy of quarterly sales volume. The sales department, in turn, breaks
+this subgoal down into the subgoal of generating leads, which they
+operationalize with the proxy of the “number of calls” that sales
+representatives are making. Representatives may end up gaming this proxy
+by making brief, unproductive calls that fail to generate new leads,
+thereby decreasing quarterly sales revenue and ultimately threatening
+the company’s long-term profitability. Delegation can create problems
+when the entity delegating (“the principal”) and the entity being
+delegated to (“the agent”) have a conflict of interest or differing
+incentives. These <em>principal-agent problems</em> can cause the
+overall system not to faithfully pursue the original goal.<br />
+Each step in the chain of breaking goals down introduces further
+opportunity for approximation error to creep in. We speak more about
+failures due to delegation such as goal conflict in the <a
+href="#subsec:intrasys-goal" data-reference-type="ref"
+data-reference="subsec:intrasys-goal">[subsec:intrasys-goal]</a> section
+in .</p>
+<h3 id="limits-to-supervision">Limits to Supervision</h3>
+<p>Frequently occurring sources of approximation error mean that we do
+not have a perfect instantiation of our idealized goals. One approach to
+approximating our idealized goals is to provide supervision that says
+whether something is in keeping with our goal or not; this supervision
+could come from humans or from AIs. We now discuss how spatial,
+temporal, perceptual, and computational limits create a source of
+approximation error in supervision signals.</p>
+<p><strong>There are spatial and temporal limits to supervision <span
+class="citation" data-cites="christiano2023deep"></span>.</strong> There
+are limits to how much information we can observe and how much time we
+can spend observing. When supervising AI systems, these limits can
+prevent us from reliably mitigating proxy gaming and other undesirable
+behaviors. For example, researchers trained a simulated claw to grasp a
+ball using human feedback. To do so, the researchers had human
+evaluators judge two pieces of footage of the model and choose which
+appeared to be closer to grasping the ball. The model would then update
+towards the chosen actions. However, researchers noticed that the final
+model did not in fact grasp the ball. Instead, the model learned to move
+the claw in front of the ball, so that it only appeared to have grasped
+the ball.<br />
+In this case, if the humans giving the feedback had had access to more
+information (perhaps another camera angle or a higher resolution image),
+they would have noticed that it was not performing the task.
+Alternatively, they might have spotted the problem if given more time to
+evaluate the claw. In practice, however, there are practical limits to
+how many sensors and evaluators we can afford to run and how long we can
+afford to run them.<br />
+</p>
+<figure>
+<img src="images/single_agent/proxy_gaming_ex_2_v2.png"
+style="width:90.0%" />
+<figcaption>Proxy gaming example - simulated claw appearing to grasp
+ball rather than actually grasping it</figcaption>
+</figure>
+<p><strong>There are limits to how reliable supervision is.</strong>
+Another potential source of difficulty is perceptual: there could be a
+measuring error, or the evaluator may make incorrect judgments. For
+example, we might train AIs on the proxy of stated human preferences.
+Because of cognitive biases and limited time to think, humans are not
+perfectly reliable. Our stated preferences are not the same as our
+idealized preferences, so we might give erroneous supervision, which
+could lead to the system learning undesired behaviors. For more on the
+distinction between states and idealized preferences in the context of
+ML, see the chapter.<br />
+In general, incorporating more information into proxies makes it easy to
+prevent proxy gaming. However, we can’t always afford to do so. Just as
+there are limits in specifying proxies, there are limits in how much
+information we can incorporate into proxies, how long a period we can
+observe, and how accurate our supervision is.</p>
+<p><strong>There are computational limits to supervision.</strong>
+Sometimes, we use neural networks to stand in as proxies. This typically
+involves training a neural network to predict how humans would evaluate
+an output or what humans would prefer out of a range of options. Once
+trained, this proxy model can serve as an optimization target for
+another AI system.<br />
+If the proxy model is too small or if it has not been trained for long
+enough, it may not be a robust stand-in for human values. That is,
+practical limits on model size and training compute can cause proxy
+models to fail. Besides supervising AIs during training, we may run
+simulations or use other neural networks to supervise advanced AI
+systems for undesired behavior during deployment. Here, we run into
+similar computational limits on the quality of the simulation or the
+inference time available for the supervising model. If capable enough,
+the system under supervision may find ways to exploit these
+weaknesses.</p>
+<p>We have discussed ways in which proxies will predictably have defects
+and why we cannot assume the solution to proxy gaming is simply to
+specify the perfect objective. We have covered sources of proxy defects,
+including structural errors and limits to supervision. Now, we will
+discuss another proxy defect: a lack of adaptivity.</p>
+<p><strong>Proxies may not adapt to new circumstances.</strong> As we
+saw with Goodhart’s Law, proxies may become progressively less
+appropriate over time when subjected to increasing optimization
+pressure. The issue is not that the proxy was inappropriate from the
+start but that it was inflexible and failed to respond to changing
+circumstances. Adapting proxies over time can counter this tendency;
+just as a moving goal is harder to aim at, a dynamic proxy becomes
+harder to game.<br />
+Imagine a bank after a robbery. In response, the bank will naturally
+update its defenses. However, adaptive criminals will also alter their
+tactics to bypass these new measures. Any security policy requires
+constant vigilance and refinement to stay ahead of the competition.
+Similarly, designing suitable proxies for AI systems that are embedded
+in continuously evolving environments requires proxies to evolve in
+tandem.</p>
+<p><strong>Adaptive proxies can lead to proxy inflation.</strong>
+Adaptive proxies introduce their own set of challenges, such as proxy
+inflation. This happens when the benchmarks of a proxy rise higher and
+higher because agents optimize for better rewards <span class="citation"
+data-cites="john2023deada"></span>. As agents excel at gaming the
+system, the standards have to be continually recalibrated upwards to
+keep the proxy meaningful.<br />
+Consider an example from some education systems: “teaching to the test”
+has led to ever-rising median test scores. This hasn’t necessarily meant
+that students improved academically but rather that they’ve become
+better at meeting test criteria. In the UK, to combat this tendency and
+ensure educators could continue to differentiate student abilities, the
+system introduced a new grade, A* <span class="citation"
+data-cites="lambert2019great"></span>. Any adjustment to the proxy can
+usher in new ways for agents to exploit it, setting off a cycle of
+escalating standards and new countermeasures.</p>
+<h2 id="adversarial-examples">Adversarial Examples</h2>
+<p>Adversarial examples are another type of risk due to optimization
+pressure, which, similar to proxy gaming, exploits the gap between a
+proxy and the idealized goal. In this section, we present an example of
+such an attack, explain the risk factors, and cover basic techniques for
+defending against adversarial attacks.</p>
+<p><strong>It is possible to optimize against a neural network.</strong>
+Neural networks are vulnerable to <em>adversarial examples</em> —
+carefully crafted inputs that cause a model to make a mistake <span
+class="citation" data-cites="goodfellow2015explaining"></span>. In the
+case of vision models, this might mean changing pixel values to cause a
+classifier to mislabel an image. In the case of language models, this
+might mean adding a set of tokens to the prompt in order to provoke
+harmful completions. Susceptibility to adversarial examples is a
+long-standing weakness of AI models.</p>
+<p><strong>Adversarial examples and proxy gaming exploit the gap between
+the proxy and the idealized goal.</strong> In the case of adversarial
+examples, the primary target is a neural network. Historically,
+adversarial examples have often been constructed by variants of gradient
+descent, though optimizers are now increasingly AI agents as well.
+Conversely, in proxy gaming, the target to be gamed is a proxy, which
+might be instantiated by a neural network (but is not necessarily). The
+optimizer responsible for gaming the proxy is typically an agent, be it
+human or AI, but optimizers are usually not based on gradient
+descent.<br />
+Adversarial examples typically aim to minimize performance according to
+a reference tas<em>k</em>, while invoking a mistaken response in the
+attacked neural network. Consider an imperceptible perturbation to an
+image of a cat that causes the classifier to predict that an image is
+90% likely to be guacamole <span class="citation"
+data-cites="athalye2017fooling"></span>. This prediction is wrong
+according to the label humans would assign the input and is
+misclassified by the attacked neural network.<br />
+Meanwhile, the aim in proxy gaming is to maximize performance according
+to the proxy, even when that goes against the idealized goal. The boat
+goes in circles because it results in more points, which happens to harm
+the boat’s progress towards completing the race. Or rather, it happens
+to be the case that heavy optimization pressure regularly causes proxies
+to diverge from idealized goals.<br />
+Despite these differences, both scenarios exploit the gap between the
+proxy and the intended goal set by the designer. The problem setups are
+becoming increasingly similar.</p>
+<p><strong>Adversarial examples are not necessarily
+imperceptible.</strong> Traditionally, the field of adversarial
+robustness has formulated the problem of creating adversarial examples
+in terms of finding the minimal perturbation (whose magnitude is smaller
+than an upper bound <span class="math inline"><em>ϵ</em></span>) needed
+to provoke a mistake. Consider the example in the figure below, where
+the perturbed input is indistinguishable to a human from the
+original.<br />
+Although modern models can be defended against these imperceptible
+perturbations, they cannot necessarily be defended against larger
+perturbations. Adversarial examples are not about imperceptible
+perturbations but about adversaries changing inputs to cause models to
+make a mistake.<br />
+</p>
+<figure id="fig:quacatmole">
+<p><img src="images/single_agent/advex.png" alt="image" /> <span
+id="fig:quacatmole" label="fig:quacatmole"></span></p>
+<figcaption>Example imperceptible perturbations leading to
+misclassification by neural network</figcaption>
+</figure>
+<p><strong>Adversarial examples are not unique to neural
+networks.</strong> Let us consider a worked example of an adversarial
+example for a simple linear classifier. This example is enough to
+understand the basic risk factors for adversarial examples. Readers that
+are less comfortable with mathematical notations can skip ahead to the
+discussion of adversarial examples beyond vision models below.<br />
+Suppose we are given a binary classifier <span
+class="math inline"><em>f</em>(<em>x</em>)</span> that predicts whether
+an input <span class="math inline"><em>x</em></span> belongs to class
+<span class="math inline"><em>A</em></span> or <span
+class="math inline"><em>B</em></span>. The classifier first estimates
+the probability <span
+class="math inline"><em>p</em>(<em>A</em>|<em>x</em>)</span> that input
+<span class="math inline"><em>x</em></span> belongs to class <span
+class="math inline"><em>A</em></span>. Any given input has to belong to
+one of the classes, <span
+class="math inline"><em>p</em>(<em>B</em>|<em>x</em>) = 1 − <em>p</em>(<em>A</em>|<em>x</em>)</span>,
+so this fixes the probability of <span
+class="math inline"><em>x</em></span> belonging to class <span
+class="math inline"><em>B</em></span> as well. To classify <span
+class="math inline"><em>x</em></span>, we simply predict whichever class
+has the higher probability:</p>
+<p><span class="math display">$$f(x) = \begin{cases}
+                A &amp; \text{if } p(A|x) &gt; 50\%\text{,} \\
+                B &amp; \text{otherwise.}
+            \end{cases}$$</span></p>
+<p>The probability of <span
+class="math inline"><em>p</em>(<em>A</em>|<em>x</em>)</span> is given by
+a sigmoid function:</p>
+<p><span class="math display">$$p(A|x)=\sigma(x)=\frac{\exp
+\left(w^{\top} x\right)}{1+\exp \left(w^{\top} x\right)},$$</span></p>
+<p>which is guaranteed to produce an output between <span
+class="math inline">0</span> and <span class="math inline">1</span>.
+Here, <span class="math inline"><em>x</em></span> and <span
+class="math inline"><em>w</em></span> are vectors with <span
+class="math inline"><em>n</em></span> components (for now, we’ll assume
+<span class="math inline"><em>n</em> = 10</span>).<br />
+Suppose that after training, we’ve obtained some weights <span
+class="math inline"><em>w</em></span>, and we’d now like to classify a
+new element <span class="math inline"><em>x</em></span>. However, an
+adversary has access to the input and can apply a perturbation; in
+particular, the adversary can change each component of <span
+class="math inline"><em>x</em></span> by <span
+class="math inline"><em>ε</em> =  ± 0.5</span>. How much can the
+adversary change the classification?<br />
+The following table depicts example values for <span
+class="math inline"><em>x</em></span>, <span
+class="math inline"><em>x</em> + <em>ϵ</em></span>, and <span
+class="math inline"><em>w</em></span>.<br />
+</p>
+<div id="tab:my_label">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Input <span
+class="math inline"> <em>x</em></span></th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">-1</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">-2</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">-4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Adv Input <span
+class="math inline"> <em>x</em> + <em>ε</em></span></td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">-1.5</td>
+<td style="text-align: center;">3.5</td>
+<td style="text-align: center;">-2.5</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">-3.5</td>
+<td style="text-align: center;">4.5</td>
+<td style="text-align: center;">1.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Weight <span
+class="math inline"> <em>w</em></span></td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span id="tab:my_label" label="tab:my_label"></span></p>
+<p>For the original input, <span
+class="math inline"><em>w</em><sup>T</sup><em>x</em> =  − 2 + 1 + 3 + 2 + 2 − 2 + 1 − 4 − 5 + 1 =  − 3</span>,
+which gives a probability of <span
+class="math inline"><em>σ</em>(<em>x</em>) = 0.05</span>. Using the
+adversarial input, where each perturbation is of magnitude 0.5 (but
+varying in sign), we obtain <span
+class="math inline"><em>w</em><sup>T</sup>(<em>x</em>+<em>ε</em>) =  − 1.5 + 1.5 + 3.5 + 2.5 + 2.5 − 1.5 + 1.5 − 3.5 − 4.5 + 1.5 = 2</span>,
+which has a probability of 0.88.<br />
+The adversarial perturbation changed the network from assigning class A
+5% to 88%. That is, the cumulative effect of many small changes makes
+the adversary powerful enough to change the classification decision.
+This is not unique to simple classifiers but omnipresent in complex deep
+learning systems.</p>
+<p><strong>Adversarial examples depend on the size of the perturbation
+and the number of degrees of freedom.</strong> Given the above example,
+how could an adversary increase the effects of the perturbation? If the
+adversary could apply a larger epsilon (if they had a larger
+<em>distortion budget</em>), then clearly they could have a greater
+effect on the final confidence. But there’s another deciding factor: the
+number of degrees of freedom. Imagine if the attacker had only one
+degree of freedom, so there are fewer points to attack:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Input <span
+class="math inline"><em>x</em></span></th>
+<th style="text-align: center;">2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Adversarial Input <span
+class="math inline"><em>x</em> + <em>ε</em></span></td>
+<td style="text-align: center;">1.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Weight <span
+class="math inline"><em>w</em></span></td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<p>In this example, we have that <span
+class="math inline"><em>w</em><em>x</em> = 2</span>, giving a
+probability of <span
+class="math inline"><em>σ</em>(<em>x</em>) = 0.88</span>. If we apply
+the perturbation, <span
+class="math inline"><em>w</em>(<em>x</em>+<em>ε</em>) = 1.5</span>, we
+obtain a probability of <span
+class="math inline"><em>σ</em>(<em>x</em>) = 0.82</span>. With fewer
+degrees of freedom, the adversary has less room to maneuver.</p>
+<p><strong>Adversarial examples are not unique to vision
+models.</strong> Though the literature on adversarial examples started
+in image classification, these vulnerabilities also occur in text-based
+models. Researchers have devised novel adversarial attacks that
+automatically construct <em>jailbreaks</em> that cause models to produce
+unintended responses. Jailbreaks are carefully crafted sequences of
+characters that, when appended to user prompts, cause models to obey
+those prompts even if they result in the model producing harmful
+content. Concerningly, these attacks transferred straightforwardly to
+models that were unseen while developing these attacks <span
+class="citation" data-cites="zou2023universal"></span>.<br />
+</p>
+<figure id="fig:gpt-jailbreak">
+<img src="images/single_agent/image23.png" />
+<figcaption>Harmful outputs produced by language models due to
+automatically generated adversarial prompts - <span class="citation"
+data-cites="zou2023universal"></span>.</figcaption>
+</figure>
+<p><strong>Adversarial Robustness.</strong> The ability of AI models to
+resist being fooled or misled by adversarial attacks is known as
+<em>adversarial robustness</em>. While the people designing AI systems
+want to ensure that their systems are robust, it may not be clear from
+the outset whether a given system is robust. Simply achieving high
+accuracy on a test set doesn’t ensure a system’s robustness.</p>
+<p><strong>Defending against adversarial attacks.</strong> One method to
+increase a system’s robustness to adversarial attacks, <em>adversarial
+training</em>, works by augmenting the training data with adversarial
+examples. However, most adversarial training techniques assume
+unrealistically simple threat models. Moreover, an adversarial training
+technique is not without its downsides, as it often harms performance
+elsewhere. Furthermore, progress in this direction has been slow.</p>
+<h2 id="tail-risk-ai-evaluator-gaming">Tail Risk: AI Evaluator
+Gaming</h2>
+<p><strong>AI evaluators must be robust to proxy gaming and adversarial
+examples.</strong> As the world becomes more and more automated, humans
+may be too unreliable or too slow to scalably monitor and steer various
+aspects of advanced AI systems. We may come to depend more on AI systems
+to monitor and steer other AIs. For example, some of these evaluator
+systems might take the role of proxies used to train other AIs. Other
+evaluators might actively screen the behaviors and outputs of deployed
+AIs. Yet other systems might act as watchdogs that look for warning
+signs of rogue AIs or catastrophic misuse.<br />
+In each of these cases, there’s a risk that the AI systems may find ways
+to exploit defects in the supervising AI systems, which are stand-in
+proxies to help enforce and promote human values. If AIs find ways to
+game the training evaluators, they will not learn from an accurate
+representation of human values. If AIs are able to game the systems
+monitoring them during deployment, then we cannot rely on those
+monitoring systems.<br />
+Similarly, AIs may be adversarial to other AIs. If AIs find ways to
+bypass the evaluators by crafting adversarial examples, then the risk is
+that our values are not just incidentally but actively optimized
+against. Watchdogs that can be fooled are not good watchdogs.</p>
+<p><strong>It is unclear whether the balance leans towards defense or
+offense.</strong> Currently, we do not know whether it is easier for
+evaluation and monitoring systems to protect, or whether optimizers can
+easily find vulnerabilities in these safeguards. If the existing
+literature on adversarial examples provides any indication, it would
+suggest the balance lies in favor of the offense. It has historically
+been easier to subvert systems with attacks than to make AI systems
+adversarially robust.</p>
+<p><strong>The more intelligent the AI, the better it will be at
+exploiting proxies.</strong> In the future, AIs will likely be used to
+further AI R&amp;D. That is, AI systems will be involved in developing
+more capable successor systems. In these scenarios, it becomes
+especially important for the monitoring systems to be robust to proxy
+gaming and adversarial attacks. If these safeguards are vulnerable, then
+we cannot guarantee that the successor systems are safe and subject to
+human control. Simply increasing the number of evaluators may not be
+enough to detect and prevent more subtle kinds of attacks.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>In this section, we explored the role of proxies in ML, the
+associated risks of proxy gaming and adversarial examples, and their
+causes.<br />
+<strong>Optimisers can exploit proxy goals, leading to unintended
+outcomes.</strong> We began by looking at the need for quantitative
+proxies to stand in for our idealized goals when training AI systems. By
+definition, proxies may miss certain aspects of these idealized goals.
+Proxy gaming is when an optimizer exploits these gaps in a way that
+leads to undesired behavior. Under sufficient optimization pressure,
+this gap can grow, and the proxy and idealized goals may become
+uncorrelated or even anticorrelated (Goodhart’s Law). Both in human
+systems and AI systems, proxy gaming can lead to catastrophic
+outcomes.<br />
+Approximation error is, to a large extent, inevitable, so the question
+is not whether a given proxy is or is not acceptable, but how accurate
+it is and how robust it is to optimization pressure. Proxies are
+necessary; they are often better than having no approximation of our
+idealized goals.</p>
+<p><strong>Perfecting proxies may be impossible.</strong> Proxies may
+fail because they are too simple and thus fail to include some of the
+intrinsic goods we value. They may also fail because complex
+goal-directed systems often break goals apart and delegate to systems
+that have additional, sometimes conflicting, goals, which can distort
+the overall goal. These structural errors prevent us from mitigating
+proxy gaming by just choosing “better proxies”.<br />
+In addition, when we use AI systems to evaluate other AI systems, the
+evaluator may be unable to provide proper evaluation because of spatial,
+temporal, perceptual, and computational limits. There may not be enough
+sensors or the observation window may be too short for the evaluator to
+be able to produce a well-informed judgment. Even with enough
+information available, the evaluator may lack the capacity or compute
+necessary to make a correct determination reliably. Alternatively, the
+evaluator may simply make mistakes and give erroneous feedback.<br />
+Finally, proxies can fail if they are inflexible and fail to adapt to
+changing circumstances. Since increased optimization pressure can cause
+proxies to diverge from idealized goals, preventing proxies from
+diverging requires them to be continually adjusted and recalibrated
+against the idealized goals.</p>
+<p><strong>AI proxies are vulnerable to exploitation.</strong>
+Adversarial examples are a vulnerability of AI systems where an
+adversary can design inputs that achieve good performance according to
+the model while minimizing performance according to some outside
+criterion. If we use AIs to instantiate our proxies, adversarial
+examples make room for optimizers to actively take advantage of the gap
+between a proxy and idealized goal.</p>
+<p><strong>All proxies are wrong, some are useful, and some are
+catastrophic.</strong> If we rely increasingly on AI systems evaluating
+other systems, proxy gaming and adversarial attacks (more broadly,
+optimization pressure) could lead to catastrophic failures. The systems
+being evaluated could game the evaluations or craft adversarial examples
+that bypass the evaluations. It remains unclear how to protect against
+these risks in contemporary AI systems, much less so in more capable
+future systems.</p>
