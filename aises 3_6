@@ -1,0 +1,341 @@
+<h1 id="sec:emergence">Emergence</h1>
+<p>We cannot predict all the properties of more advanced AI systems just
+by studying the properties of less advanced systems. This makes it hard
+to guarantee the safety of systems as they become increasingly
+advanced.</p>
+<p><strong>It is generally difficult to control systems that exhibit
+emergence.</strong> <em>Emergence</em> occurs when a system’s
+lower-level behavior is qualitatively different from its higher-level
+behavior. For example, given a small amount of uranium in a fixed
+volume, nothing much happens, but with a much larger amount, you end up
+with a qualitatively new nuclear reaction. When more is different,
+understanding the system at one scale does not guarantee that one can
+understand that system at some other scale <span class="citation"
+data-cites="anderson1972more steinhardt2022more"></span>. This means
+that control procedures may not transfer between scales and can lead to
+a weakening of control.<br />
+In this section, we will look at examples of emergence in neural
+networks, ranging from emergent capabilities to emergent goal-directed
+behavior and emergent optimization. Then we will discuss the potential
+risks of AI systems intrinsifying unintended goals and examine how this
+could result in catastrophic consequences.</p>
+<h2 id="emergent-capabilities">Emergent Capabilities</h2>
+<p>In this section we will define emergent capabilities and provide
+multiple examples.</p>
+<p><strong>Neural networks exhibit emergent capabilities.</strong> When
+we make AI models larger, train them for longer periods, or expose them
+to more data, these systems spontaneously develop qualitatively new and
+unprecedented <em>emergent capabilities</em> <span class="citation"
+data-cites="wei2022emergent"></span>. These range from simple
+capabilities including solving arithmetic problems and unscrambling
+words to more advanced capabilities including passing college-level
+exams, programming, writing poetry, and explaining jokes. For these
+emergent capabilities, there is some critical combination of model size,
+training time, and dataset size below which models are unable to perform
+the task, and beyond which models begin to achieve higher
+performance.</p>
+<figure id="fig:emergent_graphs">
+<img src="images/single_agent/image20.png" />
+<figcaption>Emergent AI capabilities across multiple
+benchmarks</figcaption>
+</figure>
+<p><strong>Emergent capabilities are unpredictable.</strong> Typically,
+the training loss does not directly select for emergent capabilities.
+Instead, these capabilities emerge because they are instrumentally
+useful for lowering the training loss. For example, large language
+models trained to predict the next token of text about everyday events
+develop some understanding of the events themselves. Developing common
+sense is instrumental towards lowering the loss, even if it was not
+explicitly selected for by the loss.<br />
+As another example, large language models may also learn how to create
+text art and how to draw illustrations with text-based formats like TiKZ
+and SVG <span class="citation" data-cites="wei2022emergent"></span>.
+They develop a rudimentary spatial reasoning ability not directly
+encoded in the purely text-based loss function. Beforehand, it was
+unclear even to experts that such a simple loss could give rise to such
+complex behavior, which demonstrates that specifying the training loss
+does not necessarily enable one to predict the capabilities an AI will
+eventually develop.<br />
+In addition, capabilities may “turn on” suddenly and unexpectedly.
+Performance on a given capability may hover near chance levels until the
+model reaches a critical threshold, beyond which performance begins to
+improve dramatically. For example, the AlphaZero chess model develops
+human-like chess concepts such as material value and mate threats in a
+short burst around 32,000 training steps <span class="citation"
+data-cites="McGrath_2022"></span>.<br />
+Despite specific capabilities often developing through discontinuous
+jumps, the average performance tends to scale according to smooth and
+predictable scaling laws. The average loss behaves much more regularly
+because averaging over many different capabilities developing at
+different times and at different speeds smooths out the jumps. From this
+vantage point, then, it is often hard to even detect new
+capabilities.<br />
+</p>
+<figure id="fig:unicorn">
+<img src="images/single_agent/image29.png" />
+<figcaption>Unexpected capability example: illustrations of unicorns by
+GPT-4 - from <span class="citation"
+data-cites="bubeck2023sparks"></span></figcaption>
+</figure>
+<p><strong>Capabilities can remain hidden until after training.</strong>
+In some cases, new capabilities are not discovered until after training
+or even in deployment. For example, after training and before
+introducing safety mitigations, GPT-4 was evaluated to be capable of
+offering detailed guidance on planning attacks or violence, building
+various weapons, drafting phishing materials, finding illegal content,
+and encouraging self-harm <span class="citation"
+data-cites="2023gpt4"></span>. Other examples of capabilities discovered
+after training include prompting strategies that improve model
+performance on specific tasks or jailbreaks that bypass rules against
+producing harmful outputs or writing about illegal acts. In some cases,
+such jailbreaks were not discovered until months after the targeted
+system was first publicly released <span class="citation"
+data-cites="Zou2022ForecastingFW"></span>.</p>
+<p><strong>Emergent capabilities make control difficult.</strong>
+Whether certain capabilities develop suddenly or are discovered
+suddenly, they can be difficult to predict. This makes it a challenge to
+anticipate what future AI will be able to do even in the short term, and
+it could mean that we may have little time to react to novel
+capabilities jumps. It is difficult to make a system safe when it is
+unknown what that system will be able to do.</p>
+<h2 id="emergent-goal-directed-behavior">Emergent Goal-Directed
+Behavior</h2>
+<p>Besides developing emergent capabilities for solving specific,
+individual problems, models can develop <em>emergent goal-directed
+behavior</em>. This includes behaviors that extend beyond individual
+tasks and into more complex, multifaceted environments.</p>
+<h3 id="emergence-in-rl">Emergence in RL</h3>
+<p><strong>RL agents develop emergent goal-directed behavior.</strong>
+AIs can learn tactics and strategies involving many intermediate steps.
+For instance, models trained on Crafter, a Minecraft-inspired toy
+environment, learn behaviors such as digging tunnel systems,
+bridge-building, blocking and dodging, sheltering, and even
+farming—behaviors that were not explicitly selected for by the reward
+function <span class="citation"
+data-cites="hafner2022benchmarking"></span>.<br />
+As with emergent capabilities, models can acquire these emergent
+strategies suddenly and discontinuously. One such example was observed
+in the video game, StarCraft II, where players take the role of opposing
+military commanders managing troops and resources in real-time. During
+training, AlphaStar, a model trained to play StarCraft II, progresses
+through a sequence of emergent strategies and counter-strategies for
+managing troops and resources in a back-and-forth manner that resembles
+how human players discover and supplant strategies in the game. While
+some of these steps are continuous and piecemeal, others involve more
+dramatic changes in strategy. Comparatively simple reward functions can
+give rise to highly sophisticated strategies and complex learning
+dynamics.</p>
+<p><strong>RL agents learn emergent tool-use.</strong> RL agents can
+learn emergent behaviors involving tools and the manipulation of the
+environment. Typically, as in the Crafter example, teaching RL agents to
+use tools has required introducing intermediate rewards
+(<em>achievements</em>) that encourage the model to learn that behavior.
+However, in other settings, RL agents learn to use tools even when not
+directly optimized to do so.<br />
+Referring back to the example of hide and seek mentioned in the previous
+section, the agents involved developed emergent tool use. Multiple
+hiders and seekers competed against each other in toy environments
+involving movable boxes and ramps. Over time, the agents learned to
+manipulate these tools in novel and unexpected ways, progressing through
+distinct stages of learning in a way similar to AlphaStar <span
+class="citation" data-cites="baker2019emergent"></span>. In the initial
+(pre-tool) phase, the agents adopted simple chase and escape tactics.
+Later, hiders evolved their strategy by constructing forts using the
+available boxes and walls.<br />
+However, their advantage was temporary because the seekers adapted by
+pushing a ramp towards the fort, which they could climb and subsequently
+invade. In turn, the hiders responded by relocating the ramps to the
+edges of the game area—rendering them inaccessible—and securely
+anchoring them in place. It seemed that the strategies had converged to
+a stable point; without ramps, how were the seekers to invade the
+forts?<br />
+But then, the seekers discovered that they could still exploit the
+locked ramps by positioning a box near one, climbing the ramp, and then
+leaping onto the box. (Without a ramp, the boxes were too tall to
+climb.) Once atop a box, a bot could “surf” it across the arena while
+staying on top by exploiting an unexpected quirk of the physics engine.
+Eventually, the hiders caught on and learned to secure the boxes in
+advance, thereby neutralizing the box-surfing strategy. Even though the
+agents had learned through the simple objective of trying to avoid the
+gaze (in the case of hiders) or seek out (in the case of seekers) the
+opposing players, they learned to use tools in sophisticated ways, even
+some the researchers had never anticipated.<br />
+</p>
+<figure id="fig:tool-use">
+<img src="images/single_agent/image32.png" />
+<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span
+class="citation" data-cites="2019openai"></span>.</figcaption>
+</figure>
+<p><strong>RL agents can give rise to emergent social dynamics.</strong>
+In multi-agent environments, agents can develop and give rise to complex
+emergent dynamics and goals involving other agents. For example, OpenAI
+Five, a model trained to play the video game Dota II, learned a basic
+ability to cooperate with other teammates, even though it was trained in
+a setting where it only competed against bots. It acquired an emergent
+ability not explicitly represented in its training data <span
+class="citation" data-cites="2019openai"></span>.<br />
+Another salient example of emergent social dynamics and emergent goals
+involves <em>generative agents</em>, which are built on top of language
+models by equipping them with external scaffolding that lets them take
+actions and access external memory <span class="citation"
+data-cites="park2023generative"></span>. In a simple 2D village
+environment, these generative agents manage to form lasting
+relationships and coordinate on joint objectives. By placing a single
+thought in one agent’s mind at the start of a “week” that the agent
+wants to have a Valentine’s day party, the entire village ends up
+planning, organizing, and attending a Valentine’s day party. Note that
+these generative agents are language models, not classical RL agents,
+which demonstrates that emergent goal-directed behavior and social
+dynamics are not exclusive to RL settings. We further discuss emergent
+social dynamics in the chapter.<br />
+</p>
+<figure id="fig:emergent-social-behaviour">
+<img src="images/single_agent/image28.png" />
+<figcaption>Emergent social behavior in generative agents - <span
+class="citation" data-cites="park2023generative"></span></figcaption>
+</figure>
+<h3 id="emergent-optimizers">Emergent Optimizers</h3>
+<p><strong>Optimizers can give rise to emergent optimizers.</strong> An
+optimization process such as Stochastic Gradient Descent (SGD) can
+discover solutions that are themselves optimizers. This phenomenon
+introduces an additional layer of complexity in understanding the
+behaviors of AI models and can introduce additional control issues <span
+class="citation" data-cites="Hubinger2019RisksFL"></span>.<br />
+For example, if we train a model on a maze-solving task, we might end up
+with a model implementing simple maze-solving heuristics (e.g.
+“right-hand on the wall”). We might also end up with a model
+implementing a general-purpose maze-solving algorithm, capable of
+optimizing for maze-solving solutions in a variety of different
+contexts. We call the second class of models <em>mesa-optimizers</em>
+and whatever goal they have learned to optimize for (e.g. solving mazes)
+their <em>mesa-objective</em>. The term "mesa" is meant as the opposite
+of “meta,” such that a mesa-optimizer is the opposite of a
+meta-optimizer (where a meta-optimizer is an optimizer on top of another
+optimizer, a mesa-optimizer is an optimizer beneath another
+optimizer).</p>
+<p><strong>Few-shot learning is a form of emergent
+optimization.</strong> Perhaps the clearest example of emergent
+optimization is <em>few-shot learning</em>. By providing large language
+models several examples of a new task that the system has not yet seen
+during training, the model may still be able to learn to perform that
+task entirely during inference. The resemblance between few-shot or
+“in-context” learning and other learning processes like SGD is not just
+in analogy: recent papers have demonstrated that in-context learning
+behaves as an approximation of SGD. That is, Transformers are performing
+a kind of internal optimization procedure, where as they receive more
+examples of the task at hand, they qualitatively change the kind of
+model they are implementing <span class="citation"
+data-cites="vonoswald2023uncovering oswald2023transformers"></span>.</p>
+<h2 id="tail-risk-emergent-goals">Tail Risk: Emergent Goals</h2>
+<p>Just as AIs can develop emergent capabilities and emergent
+goal-seeking behavior, they may develop <em>emergent goals</em> that
+differ from the explicit objectives we give them. This poses a risk
+because it could result in imperfect control. Moreover, if models become
+self-aware and begin actively pursuing undesired goals, the risk could
+potentially be catastrophic because our relationship becomes
+adversarial.</p>
+<h3 id="risks-from-mesa-optimization">Risks from Mesa-Optimization</h3>
+<p><strong>Mesa-optimizers may develop novel objectives.</strong> When
+training an AI system on a particular goal, it may develop an emergent
+mesa-optimizer, in which case it is not necessarily the case that the
+mesa-optimizer’s goal is identical to the original training objective.
+The only thing we know for certain with an emergent mesa-optimizer is
+that whatever goal it has learned, it must be one that results in good
+training performance—but there might be many different goals that would
+all work well in a particular training environment. For example, with
+LLMs, the training objective is to predict future tokens in a sequence,
+so any learned distinct optimizers emerge because they are
+instrumentally useful for lowering the training loss. In the case of
+in-context learning, recent work has argued that the Transformer is
+performing something analogous to “simulating” and fine-tuning a much
+simpler model, in which case it is clear that the objectives will be
+related <span class="citation"
+data-cites="oswald2023transformers"></span>. However, in general, the
+exact relation between a mesa-objective and original objective is
+unknown.</p>
+<p><strong>Mesa-optimizers may be difficult to control.</strong> If a
+mesa-optimizer develops a different objective to the one we specify, it
+becomes more difficult to control these (sub)systems. If these systems
+have different goals than us and are sufficiently more intelligent and
+powerful than us, then this could result in catastrophic outcomes.</p>
+<h3 id="risks-from-intrinsification">Risks from Intrinsification</h3>
+<p><strong>Models can intrinsify goals <span class="citation"
+data-cites="bostrom2022base"></span>.</strong> It is helpful to
+distinguish goals that are instrumental from those that are intrinsic.
+<em>Instrumental goals</em> are goals that serve as a means to an end.
+They are goals that are valued only insofar as they bring about other
+goals. <em>Intrinsic goals</em>, meanwhile, are goals that serve as ends
+in and of themselves. They are terminally valued by a goal-directed
+system.<br />
+Next, <em>intrinsification</em> is a process whereby models acquire such
+intrinsic goals <span class="citation"
+data-cites="bostrom2022base"></span>. The risk is that these newly
+acquired intrinsic goals can end up taking precedence over the
+explicitly specified objectives or expressed goals, potentially leading
+to those original objectives no longer being operationally pursued.</p>
+<p><strong>Over time, instrumental goals can become intrinsic.</strong>
+A teenager may begin listening to a particular genre or musicians in
+order to fit into a particular group but ultimately come to enjoy it for
+its own sake. Similarly, a seven-year-old who joins the cub scouts may
+initially see the group as a means to enjoyable activities but over time
+may come to value the scout pack itself. This can even apply to
+acquiring money, which is initially sought for purchasing desired items,
+but can become an end in itself.<br />
+How does this work? When a stimulus regularly precedes the release of a
+reward signal, that stimulus may come to be associated with the reward
+and eventually trigger reward signals on its own. This process gives
+rise to new desires and helps us develop tastes for things that are
+regularly linked with basic rewards.</p>
+<p><strong>Intrinsification could also occur with AIs.</strong> Despite
+the differences between human and AI reward systems, there are enough
+similarities to warrant concern. In both human and AI reinforcement
+learning, the reward signal reinforces behaviors leading to rewards. If
+certain conditions frequently precede a model achieving its goals, the
+model might intrinsify the emergent goal of pursuing those conditions,
+even if it was not the original aim of the designers of the AI.</p>
+<p><strong>AIs that intrinsify unintended goals would be
+dangerous.</strong> Over time, an internal process that initially
+doesn’t completely dictate behavior can become a central part of an
+agent’s motivational system. Since intrinsification depends sensitively
+on the environment and an agent’s history, it is hard to predict. The
+concern is that AIs might intrinsify desires or come to value things
+that we did not intend them to.<br />
+One example is power seeking. Power seeking is not inherently worrying;
+we might expect aligned systems to also be power seeking to accomplish
+ends we value. However, if power seeking serves an undesired goal or if
+power seeking itself becomes intrinsified (the means become ends), this
+could pose a threat.</p>
+<p><strong>AI agents will be adaptive, which requires constant
+vigilance.</strong> Achieving high performance with AI agents will
+require them to be adaptive rather than “frozen” ( unable to learn
+anything after training). This introduces the risk of the agents’ goals
+changing over time—a phenomenon known as <em>goal drift</em>. Though
+this flexibility is necessary if we are to have AI systems evolve
+alongside our own changing goals, it presents its own risks if goal
+drift results in goals diverging from humans. Since it is difficult to
+preclude the possibility of goal drift, ensuring the safety of these
+systems will require constant supervision: the risk is not isolated too
+early in deployment.</p>
+<p><strong>The more integrated AI agents become in society, the more
+susceptible we become to their goals changing.</strong> In a future
+where AIs make various key decisions and processes, they could form a
+complex system of interacting agents that could give rise to
+unanticipated emergent goals. For example, they may partially imitate
+each other and learn from each other, which would shape their behavior
+and possibly also their goals. Additionally, they may also give rise to
+emergent social dynamics as in the example of the generative agents.
+These kinds of dynamics make the long-term behavior of these AI networks
+unpredictable and difficult to control. If we become overly dependent on
+them and they develop new priorities that don’t include our wellbeing,
+we could face an existential risk.</p>
+<p><strong>Conclusion.</strong> AI systems can develop emergent
+capabilities that are difficult to predict and control, such as solving
+novel problems or accomplishing tasks in unexpected ways. These
+capabilities can appear suddenly as models scale up. If the emergent
+goals of AI systems substantially diverge from human values and these
+systems become powerful, this could pose catastrophic risks. Models can
+become emergent optimizers, learning to optimize new objectives related
+to but distinct from the original training goal. Risks grow as AI agents
+become more integrated into human society and susceptible to goal drift
+over time. Vigilance is needed to ensure advanced AI systems retain
+goals beneficial to humanity.</p>
