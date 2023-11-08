@@ -80,7 +80,7 @@ perspective on the potential benefits and risks of artificial
 intelligence. Firstly, we will discuss what AI means, its different
 types, and its history. Then, in the second part of this section, we
 will analyze the field of machine learning (ML).</p>
-<h2 id="artificial-intelligence">Artificial Intelligence</h2>
+<h2 id="artificial-intelligence"> 2.1.1 Artificial Intelligence</h2>
 <p><strong>Defining Artificial Intelligence.</strong> In general, AI
 systems are computer systems performing tasks typically associated with
 intelligent beings (such as problem solving, making decisions, and
@@ -377,7 +377,7 @@ of advanced AI systems, including congressional hearings and calls for
 regulation. In the early 2020s, AI is used for many complex tasks, from
 image recognition to autonomous vehicles, and continues to evolve and
 proliferate rapidly.</p>
-<h2 id="types-of-ai">Types of AI</h2>
+<h2 id="types-of-ai"> 2.1.2 Types of AI</h2>
 <p>The field has developed a set of concepts to describe distinct types
 or levels of AI systems. However, they often overlap, and definitions
 are rarely well-formalized, universally agreed upon, or precise. It is
@@ -587,7 +587,7 @@ structure of proteins—a complex problem that stumped biochemists for
 decades. Ultimately, a superintelligence exceeds these other types of AI
 in the degree to which it exceeds human abilities across a variety of
 cognitive tasks.</p>
-<h3 id="summary">Summary</h3>
+<h3 id="summary"> Summary</h3>
 <p>This section provided an introduction to artificial intelligence
 (AI), the broad umbrella that encompasses the area of computer science
 focused on creating machines that perform tasks typically associated
@@ -605,7 +605,7 @@ within AI that emphasizes the development of systems that can learn from
 data. Whereas many classical approaches to AI relied on logical rules
 and formal, structured knowledge, ML systems use pattern recognition to
 extract information from data.</p>
-<h2 id="machine-learning">Machine Learning</h2>
+<h2 id="machine-learning"> 2.1.3 Machine Learning</h2>
 <h3 id="overview-and-definition">Overview and Definition</h3>
 <p>Machine learning (ML) is a subfield of AI that focuses on developing
 computer systems that can learn directly from data without following
@@ -1064,7 +1064,7 @@ Sometimes, these goals are in opposition, and improvements in one area
 can come at the cost of declines in others. Therefore, developing a
 machine learning model requires careful consideration of multiple
 competing goals.</p>
-<h2 id="types-of-machine-learning">Types of Machine Learning</h2>
+<h2 id="types-of-machine-learning"> 2.1.4 Types of Machine Learning</h2>
 <p><strong>One key dimension along which ML approaches vary is the
 degree of supervision.</strong> We can divide ML approaches into groups
 based on how they use the training data and what they produce as an
