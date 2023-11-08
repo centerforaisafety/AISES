@@ -1,4 +1,4 @@
-<h1 id="sec:emergence">Emergence</h1>
+<h1 id="sec:emergence"> 3.6 Emergence</h1>
 <p>We cannot predict all the properties of more advanced AI systems just
 by studying the properties of less advanced systems. This makes it hard
 to guarantee the safety of systems as they become increasingly
@@ -19,7 +19,7 @@ networks, ranging from emergent capabilities to emergent goal-directed
 behavior and emergent optimization. Then we will discuss the potential
 risks of AI systems intrinsifying unintended goals and examine how this
 could result in catastrophic consequences.</p>
-<h2 id="emergent-capabilities">Emergent Capabilities</h2>
+<h2 id="emergent-capabilities"> 3.6.1 Emergent Capabilities</h2>
 <p>In this section we will define emergent capabilities and provide
 multiple examples.</p>
 <p><strong>Neural networks exhibit emergent capabilities.</strong> When
@@ -98,7 +98,7 @@ anticipate what future AI will be able to do even in the short term, and
 it could mean that we may have little time to react to novel
 capabilities jumps. It is difficult to make a system safe when it is
 unknown what that system will be able to do.</p>
-<h2 id="emergent-goal-directed-behavior">Emergent Goal-Directed
+<h2 id="emergent-goal-directed-behavior"> 3.6.2 Emergent Goal-Directed
 Behavior</h2>
 <p>Besides developing emergent capabilities for solving specific,
 individual problems, models can develop <em>emergent goal-directed
@@ -226,7 +226,7 @@ a kind of internal optimization procedure, where as they receive more
 examples of the task at hand, they qualitatively change the kind of
 model they are implementing <span class="citation"
 data-cites="vonoswald2023uncovering oswald2023transformers"></span>.</p>
-<h2 id="tail-risk-emergent-goals">Tail Risk: Emergent Goals</h2>
+<h2 id="tail-risk-emergent-goals"> 3.6.3 Tail Risk: Emergent Goals</h2>
 <p>Just as AIs can develop emergent capabilities and emergent
 goal-seeking behavior, they may develop <em>emergent goals</em> that
 differ from the explicit objectives we give them. This poses a risk
