@@ -1,0 +1,208 @@
+<h1 id="sec:moral-parliament">Moral Parliament</h1>
+<p><strong>Should we use a moral parliament to guide AI
+decision-making?</strong> In this section, we will expand upon the idea
+of using moral parliaments to make robust ethical decisions, applying
+this idea from the philosophical literature to AI decision-making. After
+describing how we might use AIs to implement a moral parliament, we will
+consider five advantages such an approach has over giving AIs specific
+human values.</p>
+<h4 id="we-can-use-ais-to-simulate-moral-parliaments.">We can use AIs to
+simulate moral parliaments.</h4>
+<p>A <em>moral parliament</em> is a proposal for how to act in the face
+of <em>moral uncertainty</em>–—the problem of how to act given
+uncertainty about which theory of ethics is correct. These concepts are
+further discussed in the chapter. The idea is to represent a set of
+moral theories that we think are plausible, place representatives of
+these theories into a parliament, and use democratic processes to make
+decisions <span class="citation"
+data-cites="newberry2021parliamentary"></span>.<br />
+</p>
+<figure id="fig:parliament">
+<p><img src="images/machine_ethics/parliament.png" alt="image" /> <span
+id="fig:parliament" label="fig:parliament"></span></p>
+<figcaption><strong>MISSING CAPTION</strong></figcaption>
+</figure>
+<p>We can use advanced AIs to emulate these representatives by training
+AIs to act in accordance with a specific moral theory. This allows us to
+run moral parliaments artificially, permitting real-time
+decision-making. Just like in real parliaments, we would have
+delegates—AIs instructed to represent certain moral theories—–get
+together, discuss what to do, negotiate favorable outcomes, and then
+vote on what to recommend. We could use the output of this moral
+parliament to instruct a separate AI in the real world to take certain
+actions over others.<br />
+This is speculative and might still face problems; for instance, AIs
+might have insufficient understanding of our moral theories. However,
+these problems could become more tractable with advanced AI systems.
+Assuming we have this ability, using a moral parliament might be an
+attractive solution to getting AIs to act in accordance with human
+values in real time.</p>
+<h4
+id="we-can-decide-who-we-want-represented-in-our-generalized-moral-parliament.">We
+can decide who we want represented in our generalized moral
+parliament.</h4>
+<p>While we have explored the traditional moral parliament method of
+representing moral theories, we can generalize beyond this. Instead of
+representing theories, it might be more appropriate to represent
+stakeholders; for instance, in a decision about public transport, we
+could emulate representatives for local residents, commuters, and
+environmental groups, all of whom have an interest in the outcome. Using
+a generalized moral parliament for decision-making in AI is an approach
+that ensures all relevant perspectives are taken into account. In
+contrast to traditional methods that focus on representing different
+moral theories, <em>stakeholder representation</em> prioritizes the
+views of those directly affected by the AI’s decisions. This could
+enhance the AI’s understanding of the intricate human social dynamics
+involved in any given situation.<br />
+Let’s consider an AI suggesting new regulations for data privacy. By
+emulating the perspectives of users, advertisers, and developers, it can
+obtain a comprehensive understanding of the potential implications of
+new regulations. Users may prioritize privacy and usability, advertisers
+may focus on visibility and click-through rates, and developers may be
+concerned with feasibility and profitability. By considering these
+diverse views, the AI can make a more balanced decision that better
+aligns with overall societal interests in real time.<br />
+</p>
+<h2 id="advantages-of-a-moral-parliament">Advantages of a Moral
+Parliament</h2>
+<p>Using moral parliaments presents a wide array of benefits relative to
+just giving AIs certain sets of values directly. In this subsection, we
+will explore how they are customizable, transparent, robust to bugs and
+errors, adaptable to changing human values, and pro-negotiation.</p>
+<h4
+id="customizable-moral-parliaments-are-diverse-and-scalable.">Customizable
+moral parliaments are diverse and scalable.</h4>
+<p>The generalized moral parliament can accommodate a wide variety of
+stakeholders, ranging from individual users to large corporations, and
+from local communities to global societies. By emulating a large set of
+stakeholders, we can ensure that a diverse set of views are represented.
+This allows AIs to effectively respond to a wide range of scenarios and
+contexts, providing a robust framework for ensuring AIs decisions
+reflect the values, interests, and expectations of all relevant
+stakeholders. Additionally, moral parliaments are scalable: if we are
+concerned about a lack of representation, we can simply emulate more
+stakeholders. By grounding AI decision-making in human perspectives and
+experiences, we can create AI systems that are not only more ethical and
+fair but also more effective and beneficial for society as a whole.</p>
+<h4
+id="transparency-is-another-key-benefit-of-a-moral-parliament.">Transparency
+is another key benefit of a moral parliament.</h4>
+<p>As it stands, automated decision making is opaque: we rarely
+understand why AIs make the decisions they do. However, since the moral
+parliament gives us a clear mechanism of representing and weighting
+different perspectives, it allows stakeholders to understand the basis
+of an AI’s decision-making. We could, for instance, enforce that AIs
+keep records of simulated negotiations in human languages and then view
+the transcripts. Using moral parliaments provides insights into how
+different moral considerations have been weighed against each other,
+making the decision-making process of an AI more transparent,
+explainable, and accountable.</p>
+<h4
+id="moral-parliaments-tend-to-be-less-fragile-and-less-prone-to-bugs.">Moral
+parliaments tend to be less fragile and less prone to bugs.</h4>
+<p>If we are sure that utilitarianism is the correct moral view, we
+might be tempted to create AIs that maximize wellbeing-—this seems clean
+and elegant. However, having a diverse moral parliament would make AIs
+less likely to misbehave. By having multiple parliament members, we
+would achieve <em>redundancy</em>. This is a common principle in
+engineering: to always include extra components that are not strictly
+necessary to functioning, in case of failure in other components (and is
+explored further in the chapter). We would do this to avoid failure
+modes where we were overconfident that we knew the correct moral theory,
+such as lying and stealing for the greater good, or just to avoid poor
+implementation from AIs optimizing for one moral theory. For example, a
+powerful AI told that utilitarianism is correct might implement
+utilitarianism in a particular way that is likely to lead to bad
+outcomes.<br />
+Imagine an AI that has to evaluate millions of possibilities for every
+decision it makes. Even with a small error rate, the cumulative effect
+could lead the AI to choose risky or unconventional actions. This is
+because, when evaluating so many options, actions with high variance in
+moral value estimation may occasionally appear to have significant
+positive value. The AI could be more inclined to select these high-risk
+actions based on the mistaken belief that they would yield substantial
+benefits. For instance, an AI following some form of utilitarianism
+might use many resources to create happy digital minds—at the expense of
+humanity-—even if that is not what we humans think is morally
+good.<br />
+This is similar to the Winner’s Curse in auction theory: those that win
+auctions of goods with uncertain value often find that they won because
+they overestimated the value of the good relative to everyone else; for
+instance, when bidding on a bag of coins at a fair, people who
+overestimate how many coins there are will be more likely to win.
+Similarly, the AI might opt for actions that, in hindsight, were not
+truly beneficial. A moral parliament can make this less likely, because
+actions that would be judged morally extreme by most humans also
+wouldn’t be selected by a diverse moral parliament.<br />
+The process of considering a range of theories inherently embeds
+redundancy and cross-checking into the system, reducing the probability
+of catastrophic outcomes arising from a single point of failure. It also
+helps ensure that AI systems are robust and resilient, capable of
+handling a broad array of ethical dilemmas.</p>
+<h4 id="moral-parliaments-encourage-compromise-and-negotiation.">Moral
+parliaments encourage compromise and negotiation.</h4>
+<p>In real-life parliaments, representatives who hold different opinions
+on various issues often engage in bargaining, compromise, and
+cooperation to reach agreeable outcomes and find common ground. We want
+our AIs to achieve similar outcomes, such as ones that are moderate
+instead of extreme. Ideally, we want AIs to select outcomes that many
+moral theories and stakeholders all like, rather than being forced to
+trade off between them.<br />
+In particular, we might want to design our moral parliaments in specific
+ways to encourage this. One such feature is proportional chances voting,
+in which each option then gets a chance of winning that’s proportional
+to the number of votes it gets—–if a parliament is 60/40 split on a
+proposal, then the AI would do what’s recommended 60% of the time rather
+than just going with the majority. This setup motivates the
+representatives to come together on options that are compromises rather
+than sticking to their own viewpoints rigidly. They want to do this to
+prevent any option they see as extremely bad from having any chance of
+winning. This ensures a robust high-level principle guiding AI behavior,
+reducing the risk of extreme outcomes, and fostering a more balanced,
+nuanced approach to ethical decision-making.</p>
+<h4
+id="using-a-moral-parliament-reduces-the-risk-of-overlooking-or-locking-in-certain-values.">Using
+a moral parliament reduces the risk of overlooking or locking in certain
+values.</h4>
+<p>The moral parliament represents an approach to ethical
+decision-making in AI that is distinctively cosmopolitan, in that it
+encompasses a broad range of moral theories or stakeholders. It ensures
+that many ethical viewpoints are considered. This wider view is helpful
+in dealing with moral problems and tough decisions AI systems may run
+into, by making sure that all important considerations are thought over
+in a balanced way. AIs using moral parliaments are less likely to ignore
+values that matter to different groups in society.<br />
+Further, the moral parliament allows the representation of human values
+to grow and change over time. We know that moral views change over time,
+so we should be humble about how much we know about morality: there
+might be important things we don’t yet understand that could help us get
+closer to the truth about what is right and wrong. By regularly using
+moral parliaments, AI systems can keep up with current human values,
+rather than sticking to the old values that were defined when the AI was
+created. This keeps AI up-to-date and flexible, and prevents it from
+acting based on outdated or irrelevant values that are locked into the
+system.</p>
+<h4 id="challenges.">Challenges.</h4>
+<p>Deciding which ethical theories to include in the moral parliament
+could be a challenging task. There are numerous ethical frameworks, and
+selecting a representative set may be subjective and politically
+charged. The decision procedure used to assign appropriate weights to
+different ethical theories and aggregate their recommendations in ways
+that reflect their importance could also be contentious. Different
+stakeholders may have varying opinions on how to prioritize these
+theories. Moreover, ethical theories can be subject to interpretation
+and may have nuanced implications. Advanced AI systems would need to be
+able to accurately understand and apply these theories in order to use a
+moral parliament.</p>
+<h3 id="conclusions-about-moral-parliament">Conclusions About Moral
+Parliament</h3>
+<h4 id="summary.-8">Summary.</h4>
+<p>In this section, we explored using AIs to operationalize moral
+parliaments, whether in the original form of representing moral theories
+or generalized to representing stakeholders for any given issue. We
+highlighted the advantages of using a moral parliament, such as reducing
+the risk of overlooking or locking in certain values, allowing for the
+representation of changing human values over time, and increasing
+transparency and accountability in AI decision-making. We also noted
+that moral parliaments encourage compromise and negotiation, leading to
+more balanced and nuanced ethical decisions.</p>
