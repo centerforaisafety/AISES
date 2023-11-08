@@ -1,4 +1,4 @@
-<h2 id="tail-events">Tail Events</h2>
+<h2 id="tail-events"> 4.8 Tail Events</h2>
 <p>In the first few sections of this chapter, we discussed failure modes
 and hazards, equations for understanding the risks they pose, and
 principles for designing safer systems. We also looked at methods of
@@ -69,7 +69,7 @@ define the overall outcome of AI deployment. For this reason, competent
 risk management must involve serious efforts to prevent tail events,
 however rare we think they might be.<br />
 </p>
-<h3 id="tail-events-can-greatly-affect-the-average-risk">Tail Events Can
+<h3 id="tail-events-can-greatly-affect-the-average-risk"> 4.8.1 Tail Events Can
 Greatly Affect the Average Risk</h3>
 <div class="wrapfigure">
 <p><span>r</span><span>9cm</span> <embed
@@ -116,7 +116,7 @@ relevant actors should convene to decide on and coordinate the most
 appropriate next steps, whatever the precise details of the event. This
 concept is called “planning to plan” and we will discuss this in more
 detail later in the chapter.</p>
-<h3 id="long-tailed-and-thin-tailed-distributions">Long-Tailed and
+<h3 id="long-tailed-and-thin-tailed-distributions"> 4.8.2 Long-Tailed and
 Thin-Tailed Distributions</h3>
 <p>Having introduced tail events and briefly explained why they are
 important, we will now discuss the difference between the types of
@@ -257,7 +257,7 @@ distributions, the value on the y-axis rapidly approaches zero for
 highly extreme events; the “tail” of the graph quickly becomes
 vanishingly thin.</p>
 <h3
-id="heuristics-and-models-for-thinking-about-long-tails-and-thin-tails">Heuristics
+id="heuristics-and-models-for-thinking-about-long-tails-and-thin-tails"> 4.8.3 Heuristics
 and Models for Thinking About Long Tails and Thin Tails</h3>
 <p><strong>Generally, long-tailed variables span orders of magnitude and
 thin-tailed ones do not.</strong> A general rule of thumb for
@@ -457,7 +457,7 @@ and wealth acquisition are multiplicative phenomena, where a single
 event can escalate to become much larger than most. By extension, this
 is why preferential attachment processes can produce long-tailed
 distributions.</p>
-<h3 id="a-caricature-of-long-tails-and-thin-tails">A Caricature of Long
+<h3 id="a-caricature-of-long-tails-and-thin-tails"> 4.8.4 A Caricature of Long
 Tails and Thin Tails</h3>
 <p>To cement our understanding of long-tailed and thin-tailed
 distributions, we will now run through some comparisons between the two
