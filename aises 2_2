@@ -1,4 +1,4 @@
-<h1 id="deep-learning">Deep Learning</h1>
+<h1 id="deep-learning"> 2.3 Deep Learning</h1>
 <h3 id="introduction-1">Introduction</h3>
 <p>In this section, we present the fundamentals of deep learning (DL), a
 branch of machine learning that uses neural networks to learn from data
@@ -131,7 +131,7 @@ human input, and adapting more readily to different tasks with
 specialized components. Next, we will make our understanding more
 concrete by looking more closely at exactly what these components are
 and how they operate.</p>
-<h2 id="model-building-blocks">Model Building Blocks</h2>
+<h2 id="model-building-blocks"> 2.3.1 Model Building Blocks</h2>
 <p>In this section, we will explore some of the foundational building
 blocks of deep learning models. We will begin by defining what a neural
 network is and then discuss the fundamental elements of neural networks
@@ -590,7 +590,7 @@ enables models to weigh the relevance of different inputs based on their
 context. By leveraging these mechanisms mechanism to handle complex
 dependencies in sequential data, Transformers revolutionized the field
 of natural language processing (NLP).</p>
-<h2 id="training-and-inference">Training and Inference</h2>
+<h2 id="training-and-inference"> 2.3.2 Training and Inference</h2>
 <p>Having explored the components of deep learning models, we will now
 explore how the models work. First, we will briefly describe training
 and inference: the two key phases of developing a deep learning model.
@@ -866,7 +866,7 @@ adapt and generalize beyond their explicit training. Ongoing
 advancements in training techniques continue to drive the growth of AI
 capabilities, highlighting both exciting opportunities and important
 questions about the future of the field.</p>
-<h2 id="history-and-timeline-of-key-architectures">History and Timeline
+<h2 id="history-and-timeline-of-key-architectures"> 2.3.3 History and Timeline
 of Key Architectures</h2>
 <p>Having built our technical understanding of deep learning models and
 how they work, we will see how these concepts come together in some of
@@ -978,7 +978,7 @@ Perhaps more importantly, future developments might revolutionize model
 architectures in new ways, perhaps bringing to light older innovations
 that have currently fallen to the wayside. Next, we will explore some
 common applications of deep learning models.</p>
-<h2 id="applications">Applications</h2>
+<h2 id="applications"> 2.3.4 Applications</h2>
 <p>Deep learning has seen a dramatic rise in popularity since the early
 2010s, increasingly becoming a part of our daily lives. Its applications
 are broad, powering countless services and technologies across many
