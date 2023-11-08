@@ -1,0 +1,85 @@
+<h1 id="introduction">Introduction</h1>
+<h4 id="how-should-we-direct-ais-to-promote-human-values">How should we
+direct AIs to promote human values?</h4>
+<p>As we continue to develop powerful AI systems, it is crucial to
+ensure that they are safe and beneficial for humanity. In this chapter,
+we discuss the challenges of embedding ethics into AIs.<br />
+</p>
+<h4 id="many-people-have-incoherent-views-on-machine-ethics.">Many
+people have incoherent views on machine ethics.</h4>
+<p>People often talk about what AIs should do to promote human values.
+They may agree with many of the following:</p>
+<ol>
+<li><p>AIs should do what you tell them to do.</p></li>
+<li><p>AIs should promote what you choose to do.</p></li>
+<li><p>AIs should do what’s fair.</p></li>
+<li><p>AIs should do what a democratic process tells them to
+do.</p></li>
+<li><p>AIs should figure out what is moral, then do that.</p></li>
+<li><p>AIs should do what is objectively good for you.</p></li>
+<li><p>AIs should do what would make people happy.</p></li>
+</ol>
+<p>All of these seem like reasonable answers. At least at first glance,
+these all seem like excellent goals for machine ethics. However, not all
+of these are compatible, because they make <em>different normative
+assumptions</em> and <em>require different technical
+implementations</em>. Other suggestions such as “AIs should follow human
+intentions” are highly vague. Put straightforwardly, while these sound
+attractive and similar, they are not the same thing.<br />
+This should challenge the notion that machine ethics is a
+straightforward problem with a simple solution, and that the real
+challenges lie only elsewhere, such as in capabilities development. In
+fact, those who believe the machine ethics question is easily solvable
+may find themselves grappling with inconsistencies and confusion when
+confronted with the diverse range of perspectives and assumptions
+involved.</p>
+<h4 id="preview.">Preview.</h4>
+<p>In this chapter, we will consider the intricacies of machine ethics,
+attempting to understand which of these answers, if any, takes us closer
+to creating safe and beneficial AIs. We will draw on the fundamental
+concepts from the study of AI, ethics, and utility functions discussed
+in prior chapters. The following subsections will provide an overview of
+various aspects of machine ethics:</p>
+<ol>
+<li><p><strong>Law</strong>: Why not have AIs follow the law? We examine
+whether we can design AIs that follow existing legal frameworks,
+considering that law is a legitimate aggregation of human values that is
+time-tested and comprehensive while being both specific and adaptable.
+We will lay out the challenges of the occasional silence, immorality, or
+unrepresentativeness of established law.</p></li>
+<li><p><strong>Fairness</strong>: Should we make AIs be fair? We explore
+fairness in AI systems and the challenges associated with ensuring
+outcomes created by AIs are fair. We will discuss different definitions
+fairness and see how they are incompatible, as well as consider
+approaches to mitigating biases.</p></li>
+<li><p><strong>Economic Engine</strong>: Should we let the economy
+decide what AIs will be like? We consider the potential impact the use
+of AI might have on the economy and society, how economic forces are
+shaping AI development, and why letting the economic engine create AIs
+without substantial regulation might not be a good idea.</p></li>
+<li><p><strong>Preferences</strong>: Should we have AIs satisfy people’s
+preferences? We investigate how AI systems can be created to satisfy
+individual preferences, focusing on the key question of which
+preferences. We focus on the challenges of deciding between revealed,
+stated, and idealized preferences.</p></li>
+<li><p><strong>Happiness</strong>: Should we have AIs make people happy?
+We ask how we can use AIs to promote human happiness. After considering
+the benefits and pitfalls of using happiness as a proxy for wellbeing,
+we discuss an alternative conception of wellbeing.</p></li>
+<li><p><strong>Social Welfare Functions</strong>: Should we have AIs
+maximize total wellbeing? We look at how to aggregate wellbeing across
+society, focusing on social welfare functions. We discuss what social
+welfare functions are and how to trade-off between equity and efficiency
+in a principled way.</p></li>
+<li><p><strong>Moral Parliament</strong>: Should we use a moral
+parliament to guide AI decision-making? We incorporate ideas from moral
+uncertainty by using a moral parliament, where ethical decisions
+regarding AI systems are made by simulating democratic
+processes.</p></li>
+</ol>
+<p>By examining these key aspects of machine ethics, we aim to provide
+an introductory understanding of the challenges and potential solutions
+in creating safe AI systems. Through the exploration of a variety of
+different concepts, we can examine the problems we face in deciding how
+to create beneficial AI and lay the foundation for responsible AI
+development and deployment.</p>
