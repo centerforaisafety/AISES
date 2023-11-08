@@ -1,0 +1,675 @@
+<h1 id="distribution">Distribution</h1>
+<p>In this section we discuss three main dimensions of how aspects of AI
+systems are distributed:</p>
+<ol>
+<li><p>Power: whether there will be a few highly sophisticated AIs with
+vastly more power than the rest, or many highly capable AIs.</p></li>
+<li><p>Access: whether powerful AIs will be kept in the hands of a small
+group of people, or whether they will be widely accessible to the
+general public.</p></li>
+<li><p>Benefits and costs: whether the benefits and costs of AIs will be
+evenly or unevenly shared.</p></li>
+</ol>
+<p>We will see that both high <em>centralization</em> and
+<em>decentralization</em> of AIs present different risks. Centralization
+of power and access would allow dangerous actors to pursue their goals
+with no opposition. Decentralized power and access, on the other hand,
+may lead to dangerous multi-agent dynamics. We will see that by default
+on current trends it is plausible that the benefits of AIs would accrue
+to only a few powerful companies, while the costs would be shared by all
+of society. Governance solutions may help redistribute AI’s benefits
+fairly, and protect society from its costs.</p>
+<h2 id="distribution-of-power-among-ais">Distribution of Power Among
+AIs</h2>
+<p>The first dimension we will consider is how power might be
+distributed among AIs themselves. We will contrast two scenarios: one in
+which a single AI has enduring decisive power over all other AIs and
+humans, and one in which there are many different powerful AIs. We will
+look at the factors that could make each situation more likely to
+emerge, the risks we are most likely to face in each case, and the kinds
+of policies that might be appropriate to mitigate them.</p>
+<h3 id="ai-singleton">AI singleton</h3>
+<p>One possible future scenario is the emergence of an AI singleton—–an
+AI with vastly greater power than all others, to the extent that it can
+permanently secure its power over the others <span class="citation"
+data-cites="bostrom2006singleton"></span>.</p>
+<p><strong>A monopoly on AI could make a single powerful AI more
+likely.</strong> One factor affecting the number of powerful AIs that
+emerge is the number of actors that can independently develop AIs of
+similar capabilities. If a single organization, whether a government or
+a corporation, were to achieve a monopoly on the development of highly
+sophisticated AI, this would increase the likelihood of a single AI
+emerging with decisive and lasting power over all individuals.</p>
+<p><strong>A fast takeoff could make a single powerful AI more
+likely.</strong> If an AI were to undergo a fast takeoff, where its
+capabilities suddenly grew to surpass other intelligences, then it could
+prevent other existing AIs from going through the same process. Such an
+AI might be motivated to destroy any potential threats to its power and
+secure permanent control, ensuring it could pursue its goals unimpeded.
+On the other hand, if intelligence were to progress more gradually, then
+there would not be a window of time where any single AI was sufficiently
+more powerful than the others to halt their further development. Note,
+however, that a fast takeoff does not necessitate one AI becoming a
+permanent singleton. That is because AIs may still be vulnerable even if
+they are extremely powerful. Simple structures can take down more
+complex structures; just as humans are vulnerable to pathogens and
+chemical weapons, simpler AIs (or humans) might be able to counteract
+more capable AIs.</p>
+<p><strong>An AI singleton could reduce competitive pressures and solve
+collective action problems.</strong> If an AI singleton were to emerge,
+the actor in control of it would not face any meaningful competition
+from other organizations. In the absence of competitive pressures, they
+would have no need to try to gain an advantage over rivals by rushing
+the development and deployment of the technology. This scenario could
+also reduce the risk of collective action problems in general. Since one
+organization would have complete control, there would be less potential
+for dynamics where different entities chose not to cooperate with one
+another leading to a negative overall outcome.</p>
+<p><strong>An AI singleton increases the risk of single points of
+failure.</strong> In a future scenario with only one superintelligent
+AI, a failure in that AI could be enough to cause a catastrophe. If, for
+instance, it were to start pursuing a dangerous goal, then it might be
+more likely to achieve it than if there were other similarly powerful
+AIs that could counteract it. Similarly, if a human controlling an AI
+singleton would like to lock in their values, they might be able to do
+so unopposed. Therefore, an AI singleton could represent a single point
+of failure.</p>
+<p><strong>An AI singleton could increase the risk of human
+disempowerment.</strong> If there were just one superintelligent AI and
+it sought to capture global power, it would not have to overpower other
+superintelligent AIs in order to do so. If, instead, there were multiple
+powerful AIs, humans might be able to cooperate with those that were
+more willing to cooperate with humans. However, an AI singleton would
+have little reason to cooperate with humans, as it would not face any
+competition from other AIs. This scenario would therefore increase the
+risk of single-agent control and the disempowerment of humanity.</p>
+<h3 id="diverse-ecosystem-of-ais">Diverse Ecosystem of AIs</h3>
+<p>An alternative possibility is the emergence of a diverse ecosystem of
+similarly capable AIs, in which no single agent is significantly and
+sustainably more powerful than all the others combined. An AI singleton
+might also not occur if there is turnover amongst the most powerful AIs
+due to the presence of vulnerabilities. Just as human empires rise and
+fall, AIs may gain and lose power to others.</p>
+<p><strong>Declining development costs could make multiple AIs more
+likely.</strong> If the costs associated with developing AIs diminish
+considerably over time, then more actors will be able to develop AIs
+independently of one another. Also, if there aren’t increasing returns
+from intelligence in many economic niches, then many businesses will
+settle for the minimum necessary capable AIs. That is, an AI intended to
+cook fast food may not benefit from knowing advanced physics. This
+increases the probability of a future where multiple AIs coexist.</p>
+<p><strong>A diverse ecosystem of AIs might be more stable than a single
+superintelligence.</strong> There are reasons to believe that a diverse
+ecosystem of AIs would be more likely to establish itself over the long
+term than a single superintelligence. The general principle that
+variation improves resilience has been observed in many systems. In
+agriculture, planting multiple varieties of crops reduces the risk that
+all of them will be lost to a single disease or pest. Similarly, in
+finance, having a wide range of investments reduces the risk of large
+financial losses. Essentially, a system comprising many entities is less
+vulnerable to collapsing if a single entity within it fails.<br />
+There are multiple additional advantages that a diverse ecosystem of AIs
+could have over a single superintelligence. Variation within a
+population means that individuals can specialize in different skills,
+making the group as a whole better able to achieve complex goals that
+involve multiple different tasks. Such a group might also be generally
+more adaptable to different circumstances, since variation across
+components could offer more flexibility in how the system interacts with
+its environment. The “wisdom of the crowds” theory posits that groups
+tend to make better decisions collectively than any individual member of
+a group would make alone. This phenomenon would be true of groups of
+AIs. For all these reasons, a future involving a diverse ecosystem of
+AIs may be more likely than one where a single powerful AI gains
+decisive power.</p>
+<p><strong>Diverse AIs could remove single points of failure.</strong>
+Having multiple diverse AIs could dilute the negative effects of any
+individual AI failing to function as intended. If each AI were in charge
+of a different process, then they would have less power to cause harm
+than a single AI that was in control of everything. Additionally, if a
+malicious AI started behaving in dangerous ways, then the best chance of
+preventing harm might involve using similarly powerful AIs to counteract
+it, such as through the use of “watchdog AIs” tasked with detecting such
+threats. In contrast with a situation where everything relies on a
+single AI, a diverse ecosystem reduces the risk of single points of
+failure.</p>
+<p><strong>Multi-agent dynamics could lead to selfish traits.</strong>
+Having a group of diverse AIs, as opposed to just one, could create the
+necessary conditions for a process of evolution by natural selection to
+take effect (). This might cause AIs to evolve in ways that we would not
+necessarily be able to predict or control. In many cases, evolutionary
+pressures have been observed to favor selfish traits in biological
+organisms. The same mechanism might promote AIs with undesirable
+characteristics.</p>
+<p><strong>Diverse AIs could increase the risk of unanticipated
+failures.</strong> A group of AIs interacting with one another would
+form a complex system, and could therefore exhibit collective emergent
+properties that could not be predicted from understanding the behavior
+of just one. A group of AIs might therefore increase the risk of black
+swan events (Section <a href="#sec:black-swans"
+data-reference-type="ref"
+data-reference="sec:black-swans">[sec:black-swans]</a>). Additionally,
+interactions between AIs could form feedback loops, increasing the
+potential for rapid downward spirals that are difficult to intervene and
+stop. A group of powerful AIs in control of multiple military processes
+could, for example, present a risk of a flash war, resulting from a
+feedback loop of adversarial reactions.</p>
+<p><strong>Diverse AI ecosystems could exhibit failure modes of AI
+singletons.</strong> If multiple AI systems collude with one another, or
+if inequality amongst AIs is significant such that one or a few are much
+more powerful than others, risks will mirror those of an AI singleton.
+We will examine why collusion and inequality may occur, and the
+implications.</p>
+<p><strong>Multiple AIs may or may not collude.</strong> It has been
+proposed that if there were multiple highly capable AIs, they would
+collude with one another, essentially acting as a single powerful AI
+<span class="citation" data-cites="Drexler2019"></span>. This is not
+inevitable. The risk of collusion depends on the exact environmental
+conditions.<br />
+Some circumstances that make collusion more likely and more successful
+include:</p>
+<ol>
+<li><p>A small number of actors being involved.</p></li>
+<li><p>Collusion being possible even if some actors cease to
+participate.</p></li>
+<li><p>Colluding actors being similar, for example in terms of their
+characteristics and goals.</p></li>
+<li><p>Free communication between actors.</p></li>
+<li><p>Iterated actions, where each actor can observe what another has
+done and respond accordingly in their next decision.</p></li>
+<li><p>All actors being aware of the above circumstances.</p></li>
+</ol>
+<p>Conversely, some circumstances that impede collusion include:</p>
+<ol>
+<li><p>A large number of actors being involved.</p></li>
+<li><p>A requirement for every single actor to participate in order for
+collusion to succeed.</p></li>
+<li><p>Dissimilarity among colluders, perhaps having different histories
+and conflicting goals.</p></li>
+<li><p>Limited communication between actors.</p></li>
+<li><p>Processes involving only one step where actors cannot observe
+what other actors have done and respond in a future action.</p></li>
+<li><p>Uncertainty about the above circumstances.</p></li>
+</ol>
+<p><strong>Power among AIs may be distributed unequally.</strong> AIs
+may follow a long-tail distribution, like wealth among humans in the US.
+It is therefore important to note that even if we have many diverse AIs
+of similar capabilities, power may still end up being concentrated in
+just a few that have a slight edge, and the impact of AI may be largely
+determined by only a few. There are situations short of an AI singleton
+where power is mainly concentrated in one or a few AIs.</p>
+<h2 id="distribution-of-access-to-ais">Distribution of Access to
+AIs</h2>
+<p>We have discussed different possible distributions of power among
+AIs, but this is not the only axis of distribution we need to consider;
+there is also the question of how access to the most powerful AIs will
+be distributed among humans. For example, even if there is an AI
+singleton, we still might have a situation where everyone could use it.
+Conversely, even if there were multiple similarly capable models, their
+use might nevertheless be restricted to a small number of people.<br />
+We will discuss wide access through open source, and narrow access
+through restricted models, as well as striking a balance between the two
+through structured access. We will examine the safety implications of
+each level of access.</p>
+<h3 id="levels-of-access">Levels of Access</h3>
+<p><strong>Restricted AI models concentrate power.</strong> Restricted
+AI models are those that can only be used by a small group of people.
+They may, for example, be exclusively accessible to people working in
+private companies, government agencies, or a small group of people with
+national security clearances. Restricted models cannot be used by the
+general public.<br />
+While some AIs could be restricted, it is possible that a significant
+number of highly capable AIs will be tightly restricted. If all AIs, or
+at least the most powerful, are restricted models, then power would be
+concentrated in the hands of a small number of people. This could
+increase the risk of value lock-in, where the values of that small group
+of people would be promoted and perpetuated, potentially irreversibly,
+even if they did not represent the interests of the larger human
+population.</p>
+<p><strong>Open-source AI models increase the risks of malicious
+use.</strong> Open-source AI models are those that are freely available
+for anyone to use. There are no restrictions on what people can use them
+for, or how users can modify them. These AI systems would proliferate
+irreversibly. Since open-source models are, by definition, accessible to
+anyone who can run them without restrictions on how they can be used,
+there is an increased probability of malicious use.</p>
+<p><strong>If information security is poor, AIs are effectively
+open-source.</strong> Robust cybersecurity will be required to prevent
+unintended users from accessing powerful AIs. Inadequate protections
+will mean that AIs are implicitly open-source even if they are not
+intended to be, because they will likely be leaked or stolen.</p>
+<p><strong>Structured access.</strong> One possible option for striking
+a balance between keeping AIs completely private and making them fully
+open-source would be to adopt a <em>structured access approach</em>.
+This is where the public can access an AI, but with restrictions on what
+they can use it for and how they can modify it. There may also be
+restrictions on who is given access, with “Know Your Customer” policies
+for verifying users’ identities. In this scenario, the actor controlling
+the AI has ultimate authority over who can access it, how they can
+access it, what they can use it for, and if and how they can modify it.
+They can also grant access selectively for other developers to integrate
+the AI within their own applications, with consideration of these
+developers’ safety standards.<br />
+One practical way of implementing structured access is to have users
+access an AI via an application programming interface (API). This
+indirect usage facilitates controls on how the AI can be used and also
+prevents users from modifying or building on it. The rollout of GPT-3 in
+2020 is an example of this style of structured access: the large
+language model was stored in the cloud and available for approved users
+to access indirectly through a platform controlled by OpenAI.</p>
+<h3 id="openness-norms">Openness Norms</h3>
+<p>Traditionally, the norm in academia has been for research to be
+openly shared. This allows for collaboration between researchers in a
+community, enabling faster development. While openness may be a good
+default position, there are certain areas where it may be appropriate to
+restrict information sharing. We will now discuss the circumstances
+under which these restrictions might be justified and their relevance to
+AI development.</p>
+<p><strong>There are historical precedents for restricting information
+sharing in dual-use research.</strong> Dual-use technologies are those
+that can be used for both beneficial and harmful purposes. It is not a
+new idea that information about the development of such technologies
+should not be widely shared. In the 1930s, publication of research on
+the nuclear chain reaction, which could be used for both nuclear power
+and nuclear weapons, prompted a Nazi program developing the latter. The
+Manhattan Project was then conducted in secrecy to avoid enemy
+intelligence learning of any breakthroughs. Biotechnology has also been
+subject to debate about the appropriate level of openness, with concerns
+around the publication of papers detailing potential methods for
+creating bioweapons.<br />
+Powerful AIs would be a dual-use technology and therefore deserves
+serious consideration of who can be trusted with it. Absolute openness
+means implicitly trusting anyone who has the necessary hardware to use
+AIs responsibly. However, there could in future be many people with
+sufficient means to deploy AIs, and it might only take one person with
+malicious intent to cause a catastrophe.</p>
+<p><strong>Technological progress may be too fast for regulations to
+keep up.</strong> Another reason for restricting information sharing is
+the pacing problem—–where technological progress happens too quickly for
+policymakers to devise and implement robust controls on a technology’s
+use. This means that we cannot rely on regulations and monitoring to
+prevent misuse in an environment where information that could enable
+misuse is being openly shared.</p>
+<p><strong>It may be difficult to predict the type of research that is
+potentially dangerous.</strong> Within AI research, there are different
+kinds of information, such as the model weights themselves and the
+methods of building the system. There have been cases where the former
+has been restricted for safety reasons but the latter openly shared.
+However, it seems feasible that information on how to build dangerous
+AIs could also be used to cause harm.<br />
+Moreover, it can be difficult to predict exactly how insights might be
+used and whether they are potentially dangerous. For instance, the
+nuclear reactor, which could help society create more sustainable
+energy, was instrumental in developing a cheaper version of the atomic
+bomb. It is possible that AIs designed for seemingly harmless tasks
+could be used to propel the advancement of potentially dangerous AIs. We
+may not be able to predict every way in which technologies that are
+harmless in isolation might combine to become hazardous.</p>
+<p><strong>Since there are costs to restrictions, it is worth
+considering when they are warranted.</strong> Any interventions to
+mitigate the risk of misuse of AIs are likely to come at a cost, which
+may include users’ freedom and privacy, as well as the beneficial
+research that could be accelerated by more open sharing. It is therefore
+important to think carefully about which kind of restrictions are
+justified, and in which scenarios.<br />
+It might, for example, be worth comparing the number of potential
+misuses and how severe they would be with the number of positive uses
+and how beneficial they would be. Another factor that could be taken
+into account is how narrowly targeted an intervention could be, namely
+how accurately it could identify and mitigate misuses without
+interfering with positive uses.<br />
+Restrictions on the actual capabilities of an AI tend to be more general
+and less precisely targeted than interventions implemented downstream.
+The latter may include restrictions on how a user accessing an AI
+indirectly can use it, as well as laws governing its use. However,
+capability restrictions may be warranted under specific conditions. They
+may be needed if interventions at later stages are insufficient, if the
+dangers of a capability are particularly severe, or if a particular
+capability lends itself much more to misuse than positive use.</p>
+<h3 id="risks-from-open-vs-controlled-models">Risks From Open vs
+Controlled Models</h3>
+<p>Open models would enable dangerous members of the general public to
+engage in harmful activities. Tightly controlled models exacerbate the
+risk that their creators, or elites with special access, could misuse
+them with impunity. We will examine each possibility.</p>
+<p><strong>Powerful, open AIs lower the barrier to entry for many
+harmful activities.</strong> There are multiple ways in which
+sophisticated AIs could be harnessed to cause widespread harm. They
+could, for example, lower the barrier to entry for creating biological
+and chemical weapons, conducting cyberattacks like spear phishing on a
+large scale, or carrying out severe physical attacks, using lethal
+autonomous weapons. Individuals or non-state actors wishing to cause
+harm might adapt powerful AIs to harmful objectives and unleash them, or
+generate a deluge of convincing disinformation, to undermine trust and
+create a more fractured society.</p>
+<p><strong>More open AI models increase the risk of bottom-up
+misuse.</strong> Although the majority of people do not seek to bring
+about a catastrophe, there are some who do. It might only take one
+person pursuing malicious intentions with sufficient means to cause a
+catastrophe. The more people who have access to highly sophisticated
+AIs, the more likely it is that one of them will try to use it to pursue
+a negative outcome. This would be a case of <em>bottom-up misuse</em>,
+where a member of the general public leverages technology to cause
+harm.</p>
+<p><strong>Some AI capabilities may be skewed in favor of offense over
+defense.</strong> It could be argued that AIs can also be used to
+improve defenses against these various threats. However, some misuse
+capabilities may be skewed in favor of offense not defense. For example,
+it may be much easier to create and release a deadly pathogen than to
+control it or come up with cures or vaccines. Even if an AI were to
+facilitate faster vaccine development, a bioweapon could still do a
+great deal of harm even in a short timeframe, leading to many deaths
+before the vaccine could be discovered and rolled out.</p>
+<p><strong>Releasing highly capable AIs to the public may entail a risk
+of black swans.</strong> Although numerous risks associated with AIs
+have been identified, there may be more that we are unaware of. AIs
+themselves might even discover more technologies or ways of causing harm
+than humans have imagined. If this possibility were to result in a black
+swan event (see Section <a href="#sec:black-swans"
+data-reference-type="ref"
+data-reference="sec:black-swans">[sec:black-swans]</a> for a deeper
+discussion of black swans), it would likely favor offense over defense,
+at least to begin with, as decision makers would not immediately
+understand what was happening or how to counteract it.</p>
+<p><strong>More tightly controlled models increase the risk of top-down
+misuse.</strong> In contrast with bottom-up misuse by members of the
+public, <em>top-down misuse</em> refers to actions taken by government
+officials and elites to pursue negative outcomes. If kept in the hands
+of a small group of people, powerful AIs could be used to lock in those
+people’s values, without consideration of the interests of humanity more
+broadly. Powerful AIs could also increase governments’ surveillance
+capacity, potentially facilitating democratic backsliding or
+totalitarianism. Furthermore, AIs that can quickly generate large
+quantities of convincing content and facilitate large-scale censorship
+could hand much greater control of media narratives to people in power.
+In extreme cases, these kinds of misuse by governments and elites could
+enable the establishment of a very long-lasting or permanent dystopian
+civilization.</p>
+<h2 id="distribution-of-costs-and-benefits-of-ai">Distribution of Costs
+and Benefits of AI</h2>
+<p>We considered distributions of power among AIs and people’s
+distributions of access to AIs. However, another important consideration
+is how the costs and benefits associated with AIs might be distributed.
+The distribution of the costs and benefits of AIs will ultimately depend
+on both market forces and governance decisions. It is possible that big
+tech companies will receive most of the economic gains from AIs they
+control, while in the long term AI could spell the end of economically
+valuable work for many or all humans. By redistributing wealth, the
+government can ensure that even if only a small number of people
+directly gain wealth from AIs, wealth is eventually shared more broadly
+among the population.<br />
+First, we will focus on the potential costs of automation: unprecedented
+levels of unemployment and inequality. Conversely, we will consider ways
+that governance could help equitably distribute economic gains from
+automation. Second, we will examine moral hazards, scenarios where
+agents take risks because someone else will bear the consequences. We’ll
+see that if AI developers internalize their risks, they will have an
+incentive to reduce them, and therefore impose less risk onto
+society.</p>
+<h3 id="automation">Automation</h3>
+<p>In the near future, AIs might create jobs by making the economy more
+productive. Upon the advent of Human-Level AI (HLAI), however, the need
+for human labor would disappear <span class="citation"
+data-cites="brynjolfsson2022turing"></span>. Conventional policies to
+address job losses from automation, like worker retraining programs,
+would be meaningless in a world where there are no jobs to retrain for.
+At that point, economic gains from automation would be likely to accrue
+to a small handful of people or organizations that control AIs.<br />
+Governments may seek to redistribute wealth from big tech companies to
+the masses in order to address poverty and inequality. However, in an
+autonomous economy, which operates without human labor, humans may
+become enfeebled and dependent on AIs for all aspects of life. In this
+section, we will consider impacts of automation before and after the
+development of HLAI.</p>
+<h3 id="benefits-of-automation">Benefits of automation</h3>
+<p><strong>Automation has historically altered the workforce but led to
+economic development.</strong> On the one hand, automation negatively
+impacts employment and wages through the <em>displacement effect</em>,
+as human labor is substituted with technology. On the other hand,
+automation has a positive economic impact through the <em>productivity
+effect</em>, as new tasks or industries require human labor <span
+class="citation" data-cites="acemoglu2020robots"></span>. Historically,
+the productivity effect has dominated and the general standard of living
+has increased. Consider the Industrial Revolution: mechanized production
+methods displaced artisanal craftspeople, but eventually led to new
+types of employment opportunities in factories and industries that
+hadn’t previously existed. Similarly, access to computers has automated
+away many manual and clerical jobs like data entry and typing, but has
+also spawned many more new professions. Technological shifts have
+historically led to increases in employment opportunities and wages.</p>
+<p><strong>In the short term, AI could boost employment.</strong> We may
+soon see an explosion of job opportunities in AI research as well as
+jobs that involve managing or checking the outputs of AI systems. Given
+the likely penetration of AI into all sectors of the economy, this could
+lead to a significant creation of new positions, not dissimilar to how
+IT services are required across industries.<br />
+Economic theory suggests that automation can improve economic efficiency
+and promote economic growth, thus increasing total wealth (Section ). As
+wealth increases, people may have more disposable income, potentially
+spurring job growth in sectors like hospitality, recreation, and mental
+health services. Automation can also lower the costs of goods and
+services, increasing demand. For example, automation may expedite
+tedious aspects of the legal profession, decreasing the cost of legal
+services. Legal services might then become more affordable, increasing
+demand and creating more work for legal professionals.<br />
+Regardless of AI capabilities, there will likely continue to be some
+professions where the presence of humans is valued. Although computers
+are superior at playing chess than humans, chess remains a widely
+popular game. Analytics have increased the competitiveness of chess and
+other games and have also helped organizers identify ways to engage
+audiences. However, for the vast majority of jobs, even jobs like those
+in caretaking and education, the preference for humans may diminish as
+AI substitutes become vastly cheaper and more efficient.</p>
+<h3 id="costs-of-human-level-ai">Costs of Human-Level AI</h3>
+<p><strong>Human-Level AI (HLAI) would cause mass unemployment.</strong>
+Human-Level AI, by definition, is capable of doing every task that
+humans can do, at least as cheaply. The implication of achieving HLAI is
+that human labor would no longer be valuable or necessary.<br />
+Historically, routine tasks have been the primary target for automation.
+As AIs approach human-level intelligence, cognitive nonroutine jobs
+<span class="citation" data-cites="dvorkin2017growing"></span>, which
+require education and are typically high-paying, would also become
+automated. Programmers, researchers, and artists are already augmenting
+their productivity using large language models, which will likely
+continue to become more capable. One way the future of work could play
+out is that increasingly few high-skilled workers will excel at managing
+or using AIs or will provide otherwise exceptionally unique skills,
+while the vast majority of people become unemployable.<br />
+Human innovation has historically created new jobs that would have
+seemed inconceivable just decades earlier. However, HLAI would also
+possess the ability to invent new economically valuable tasks, possibly
+more quickly than humans can think and innovate. The idea that there are
+always jobs for humans to do, while historically true, is not a law of
+nature <span class="citation" data-cites="harari2016homo"></span>.</p>
+<p><strong>An autonomous economy could operate without human
+labor.</strong> The transition to a fully automated economy may not stem
+from one defining moment, but from an accumulation of small economic
+decisions. Imagine the following story: as AIs become increasingly
+capable, humans delegate an increasing number of business tasks to them.
+Initially, they handle emails and scheduling, but soon manage
+organizational accounting and communications with clients and partners.
+The AIs can be trained and deployed quickly and make fewer errors than
+humans. Over time and due to competitive pressures, businesses feel the
+need to automate more of their operations, and AIs begin handling
+complex cognitive tasks like strategy, innovation, and leadership. Soon,
+the economy is mostly made up of AIs communicating with other AIs,
+operating at a pace and complexity that humans can’t keep up with,
+further motivating the automation of all economic activity. Eventually,
+the economy is able to operate without need for human contribution or
+oversight. Humans on the other hand, have become utterly reliant on AIs
+for basic needs, societal governance, and even social interactions.
+Humans have little reason to learn, work, or aspire to create, and their
+survival depends on the beneficence of AIs <span class="citation"
+data-cites="hendrycks2023overview"></span>.</p>
+<p><strong>Automation could lead to social decay.</strong> If the
+majority of the population became unemployed, they would have lost their
+sources of income, causing unprecedented levels of poverty and
+inequality ( section). Automation may also reduce social wellbeing
+through the loss of meaning or enfeeblement: the loss of abilities and
+values that make human life worthwhile. Overcoming challenges through
+effort is an essential way that humans find purpose and meaning, and
+this often comes through work or learning. Absent the need to cultivate
+skills for work, humans may shy away from challenges to pursue instant
+gratification. Personal achievement and growth are deeper forms of
+wellbeing than momentary pleasure. In an autonomous economy, areas of
+life like personal expression, communication, and emotional resilience
+may get delegated to the domain of AI assistants, and people may lose
+the ability to, or never learn to, independently process their emotions
+or connect with other humans.</p>
+<h3 id="redistribution-and-social-spending">Redistribution and Social
+Spending</h3>
+<p>Governments may seek to redistribute this wealth to the masses,
+addressing poverty by providing a guaranteed income to everyone. In an
+ideal outcome, people feel liberated from the need to work and are free
+to spend their time on what they value, their basic needs provided for
+by the government. We will survey wealth redistribution policies, and
+consider their impacts.</p>
+<p><strong>Public ownership of AI organizations can distribute benefits
+from AIs.</strong> Governments might seek to assume partial or full
+ownership of AI companies, in order to control their operations safely
+and guarantee equitable revenue distribution.<br />
+Public utilities are often nationalized because they benefit from
+economies of scale, where larger organizations are cheaper and more
+efficient. For example, building power plants and transmission lines is
+expensive, so governments are interested in maintaining one large,
+well-regulated company. The French government owns the utility company
+Électricité de France, whose nuclear plants power the majority of the
+country’s electricity. AIs may be similar to public utilities if they
+are ubiquitous through the economy, essential to everyday activity, and
+require special safety considerations.<br />
+A common argument against nationalization is that it destroys
+competition. One potential concern about undermining competition is that
+in the absence of competition, people and companies do not need to be
+more productive than a competitor. This might not be an issue with
+regards to AIs—they would be capable of maximum efficiency around the
+clock.</p>
+<p><strong>Taxation is the most straightforward redistribution
+policy.</strong> Wealth redistribution or social spending is most often
+funded by taxes. Progressive tax policies, adopted today by most but not
+all nations, require that those who earn more money pay a greater
+proportion of their earnings than those who earn less. Governments then
+seek to redistribute wealth through a wide variety of programs, from
+healthcare and education to direct checks to people. In light of massive
+earnings by tech companies, economists and policymakers have already
+proposed specialized taxes on robots, digital goods and services, and
+AI. If AI enables big tech companies to make orders of magnitude more
+money than any previous company, while much of the population is unable
+to pay income tax, targeted taxes on AI may be necessary to maintain
+government revenues.<br />
+Seeking to encourage innovation, the US’s tax landscape currently favors
+capital investment over labor investment. If a firm wants to hire a
+worker, they have to pay payroll taxes and employees have to pay a
+number of separate taxes. If a firm replaced their worker with an AI,
+they would presently only pay corporate tax, which was incurred anyway
+<span class="citation" data-cites="acemoglu2020does"></span>. As with
+other redistributive policies surveyed in this chapter, there are
+political barriers to high taxes, including the ability of companies to
+lobby the government in favor of lower taxes, as well as long-standing
+and contentious debates over the economic effects of taxation.</p>
+<h3 id="distribution-of-risks">Distribution of Risks</h3>
+<p>This textbook presents many risks from AI. It is important to discuss
+how these risks are distributed, since impacts from these societal-scale
+risks materialising would not fall only on those who develop them. Risks
+might even fall disproportionately on those who play no part in the
+development or control of AIs. We will first introduce the idea of moral
+hazards and discuss moral hazards from AIs. Then we will consider ways
+that risks can be reduced.</p>
+<p><strong>Moral hazards occur when risks are externalized.</strong>
+Moral hazards are situations where an entity is encouraged to take on
+risks, knowing that any costs will be borne by another party. Insurance
+policies are a classic example: people with damage insurance on their
+phones might handle them less carefully, secure in the knowledge that
+any repair costs will be absorbed by the insurance company, not
+them.<br />
+The bankruptcy system ensures that no matter how much a company damages
+society, the biggest risk it faces is its own dissolution, provided it
+violates no laws. Companies may rationally gamble to impose very large
+risks on the rest of society, knowing that if those risks ever come back
+to the company, the worst case is the company going under. The company
+will never bear the full cost of damage caused to society due to its
+risk taking. Sometimes, the government may step in even prior to
+bankruptcy. For example, American big banks took on massive risks in the
+lead up to the 2008 financial crisis, but many of them were considered
+"too big to fail", leading to an expectation that the government would
+bail them out in time of need <span class="citation"
+data-cites="acharya2016end"></span>. These dynamics ultimately
+contributed to the Great Recession.</p>
+<p><strong>Developing advanced AIs is a moral hazard.</strong>
+Throughout this textbook, we have outlined great risks from advanced
+AIs. However, while the potential costs to society are immense, the
+maximum financial downside to a tech company developing these AIs is
+filing for bankruptcy.<br />
+Consider the following, quite extreme, thought experiment. Suppose that
+a company is on the cusp of inventing an AI system that would boost its
+profits by a thousand-fold, making every employee a thousand times
+richer. However, the company estimates that their invention comes with a
+0.1% chance of human extinction. In the likely case, the average person
+in the economy would see some benefits due to increased productivity in
+the economy, and possibly from wealth redistribution. Still, most people
+view this gamble as irrational, preferring not to risk extinction for
+modest economic improvements. On the other hand, the company may see
+this as a worthwhile gamble, as it would make each employee considerably
+richer.</p>
+<h3 id="governance-solutions-for-risk-management">Governance Solutions
+for Risk Management</h3>
+<p><strong>Risk internalization encourages safer behavior.</strong> In
+the above examples of moral hazards, companies take risks that would
+more greatly affect external parties than themselves. The converse of
+this is risk internalization, where risks are primarily borne by the
+party that takes them. Risk internalization compels the risk-taker to
+exercise caution, knowing that they would directly suffer the
+consequences of reckless behavior. If AI companies bear the risk of
+their actions, they would be more incentivized to invest in safety
+research, take measures to prevent malicious use, and be generally
+disincentivized from creating potentially dangerous systems.</p>
+<p><strong>Governance solutions for moral hazards.</strong> We will
+survey four ideas for dealing with moral hazards: legal liability,
+regulations, public ownership, and taxation. The first idea is to hold
+companies legally liable for externalities that arise from their AIs. We
+could try to ensure, for example, that companies are not able to avoid
+responsibility for adverse outcomes by blaming users for misuse.
+Companies would then feel compelled to build in and rigorously test
+safety features, since they would suffer the consequences of failing to
+do so.<br />
+The second idea is to impose strict regulations. Although regulations do
+not necessarily cause internalization of risks, they can help prevent
+the materialization of risks by ensuring good practices. Regulations
+have been the United States’s main policy tool in existing fields like
+nuclear power and biological research, which entail societal-scale
+risks.<br />
+A third idea is to facilitate public ownership, which we previously
+discussed. Public ownership means that the public receives both the
+benefits and the costs (risks) of AIs, by definition eliminating moral
+hazards. We previously outlined a thought experiment where a company
+might feel compelled to take on an existential risk to humanity; the
+public on the other hand is unlikely to gamble on its own
+existence.<br />
+A fourth idea, also discussed previously, is targeted taxation. Although
+taxes do not directly force risk internalization, they can provide
+government revenues that can be reserved for risk mitigation or disaster
+relief efforts. For example, the Superfund is a US government program
+that funds the cleanup of abandoned hazardous waste sites. It is funded
+by excise taxes–—a special tax on some good, service, or activity–—on
+chemicals. The excise tax ensures that the chemical manufacturing
+industry pays for the handling of dangerous waste sites that it has
+created. Special taxes on AIs could support government programs to
+prevent risks or address disasters.</p>
+<h3 id="conclusions-about-distribution">Conclusions About
+Distribution</h3>
+<p>In this section, we examined distribution concerns with AIs. First,
+we considered that power among AIs could result in a singleton with
+decisive and lasting power, a diverse ecosystem of AIs with varying
+degrees of power, or something in between. Second, we examined varying
+levels of access to AIs from open source to highly restricted private
+models. Since AIs can be used in dangerous ways, traditional openness
+norms in research must be reconsidered. Both centralization and
+decentralization of AIs, in terms of power and access, carry different
+risks.<br />
+Third, we considered how costs and benefits of AIs might be distributed,
+including societal-scale risks. In the short term, automation can lead
+to economic growth, but the development of Human-Level AI would result
+in the effective end of human labor. In the post-labor world, humans may
+struggle for meaning and become dependent on AIs. Moral hazards present
+other societal-scale risks. Governance can mitigate these risks by
+holding companies accountable for the risks they take, redistributing
+wealth from AIs, including the public in the ownership of AIs, or
+imposing proactive regulations to prevent catastrophes.</p>
