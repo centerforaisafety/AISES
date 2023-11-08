@@ -1,4 +1,4 @@
-<h1 id="distribution">Distribution</h1>
+<h1 id="distribution"> 9.3 Distribution</h1>
 <p>In this section we discuss three main dimensions of how aspects of AI
 systems are distributed:</p>
 <ol>
@@ -19,7 +19,7 @@ on current trends it is plausible that the benefits of AIs would accrue
 to only a few powerful companies, while the costs would be shared by all
 of society. Governance solutions may help redistribute AI’s benefits
 fairly, and protect society from its costs.</p>
-<h2 id="distribution-of-power-among-ais">Distribution of Power Among
+<h2 id="distribution-of-power-among-ais"> 9.3.1 Distribution of Power Among
 AIs</h2>
 <p>The first dimension we will consider is how power might be
 distributed among AIs themselves. We will contrast two scenarios: one in
@@ -197,7 +197,7 @@ of similar capabilities, power may still end up being concentrated in
 just a few that have a slight edge, and the impact of AI may be largely
 determined by only a few. There are situations short of an AI singleton
 where power is mainly concentrated in one or a few AIs.</p>
-<h2 id="distribution-of-access-to-ais">Distribution of Access to
+<h2 id="distribution-of-access-to-ais"> 9.3.2 Distribution of Access to
 AIs</h2>
 <p>We have discussed different possible distributions of power among
 AIs, but this is not the only axis of distribution we need to consider;
@@ -384,7 +384,7 @@ could hand much greater control of media narratives to people in power.
 In extreme cases, these kinds of misuse by governments and elites could
 enable the establishment of a very long-lasting or permanent dystopian
 civilization.</p>
-<h2 id="distribution-of-costs-and-benefits-of-ai">Distribution of Costs
+<h2 id="distribution-of-costs-and-benefits-of-ai"> 9.3.3 Distribution of Costs
 and Benefits of AI</h2>
 <p>We considered distributions of power among AIs and people’s
 distributions of access to AIs. However, another important consideration
