@@ -1,4 +1,4 @@
-<h1 id="sec:opaqueness">Opaqueness</h1>
+<h1 id="sec:opaqueness"> 3.3 Opaqueness</h1>
 <p>The internal operations of many AI systems are opaque. We might be
 able to reveal and prevent harmful behavior if we can make these systems
 more transparent. In this section, we will discuss why AI systems are
@@ -6,7 +6,7 @@ often called <em>black boxes</em> and explore ways to understand them.
 Although early research into transparency shows that the problem is
 highly difficult and conceptually fraught, its potential to improve AI
 safety is substantial.</p>
-<h2 id="ml-systems-are-opaque">ML Systems are Opaque</h2>
+<h2 id="ml-systems-are-opaque"> 3.3.1 ML Systems are Opaque</h2>
 <p>The most capable machine learning models today are based on deep
 neural networks. Whereas most conventional software is directly written
 by humans, deep learning (DL) systems independently learn how to
@@ -105,7 +105,7 @@ contributes to a DL model’s behavior. There are limits on our ability to
 systematically understand and predict complex systems, which suggests
 that ML opaqueness may be a special case of the opaqueness of complex
 systems.</p>
-<h2 id="motivations-for-transparency-research">Motivations for
+<h2 id="motivations-for-transparency-research"> 3.3.2 Motivations for
 Transparency Research</h2>
 <p>There is often no way to tell whether a model will perform well on
 new inputs. If the model performs poorly, we generally cannot tell why.
@@ -158,7 +158,7 @@ from genuine helpfulness. We discuss this issue in more detail in the
 section. For phenomena like deception that are difficult to detect from
 behavior alone, transparency tools might allow us to catch internal
 signs that show that a model is engaging in deceptive behavior.</p>
-<h2 id="approaches-to-transparency">Approaches to Transparency</h2>
+<h2 id="approaches-to-transparency"> 3.3.3 Approaches to Transparency</h2>
 <p>The remainder of this section explores a variety of approaches to
 transparency. Though the field is promising, we are careful to note the
 shortcomings of these approaches. For a problem as conceptually tricky
