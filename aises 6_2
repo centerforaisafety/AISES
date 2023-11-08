@@ -1,4 +1,4 @@
-<h1 id="law">Law</h1>
+<h1 id="law"> 6.2 Law</h1>
 <p><strong>Why not have AIs follow the law?</strong> In this textbook,
 we have often turned to ethics to answer the question of how we can
 ensure AI is safe and beneficial. But some argue that simply getting AIs
@@ -16,7 +16,7 @@ in diverging ways.<br />
 The next subsection will expand on these features of the law. We will
 see how these features contrast favorably with ethics before arguing
 that we do need ethics after all but alongside the law.</p>
-<h2 id="the-case-for-law">The Case For Law</h2>
+<h2 id="the-case-for-law"> 6.2.1 The Case For Law</h2>
 <h3 id="legitimate-aggregation-of-values">Legitimate Aggregation of
 Values</h3>
 <h4
@@ -176,7 +176,7 @@ Nothing we have considered will be able to eliminate the possibility of
 gaming. However, the problem of misinterpretation is less concerning
 now, and we can be hopeful about using standards to maintain control of
 AI systems.</p>
-<h2 id="the-need-for-ethics">The Need for Ethics</h2>
+<h2 id="the-need-for-ethics"> 6.2.2 The Need for Ethics</h2>
 <p>This subsection will discuss why ethics is still indispensable in
 creating safe and beneficial AI, even though law is a powerful tool.
 Firstly, though the law is comprehensive, there are important areas of
