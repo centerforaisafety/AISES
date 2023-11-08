@@ -1,0 +1,483 @@
+<h2 id="sec:sys-fact">Systemic Factors</h2>
+<p>As discussed above, if we want to improve the safety of a complex,
+sociotechnical system, it might be most effective to address the blunt
+end, or the broad systemic factors that can diffusely influence
+operations. Some of the most important systemic factors include
+regulations, social pressure, technosolutionism, competitive pressure,
+safety costs, and safety culture. We will now discuss each of these in
+more detail.</p>
+<p><strong>Safety regulations can be imposed by government or internal
+policies.</strong> Safety regulations can require an organization to
+adhere to various safety standards, such as conducting regular staff
+training and equipment maintenance. These stipulations can be defined
+and enforced by a government or by an organization’s own internal
+policies. The more stringent and effectively targeted these requirements
+are, the safer a system is likely to be.</p>
+<p><strong>Social pressure can encourage organizations to improve
+safety.</strong> Public attitudes towards a particular technology can
+affect an organization’s attitude to safety. Significant social pressure
+about risks can mean that organizations are subject to more scrutiny,
+while little public awareness can allow organizations to take a more
+relaxed attitude toward safety.</p>
+<p><strong>Technosolutionism should be discouraged.</strong> Attempting
+to fix problems simply by introducing a piece of technology is called
+technosolutionism. It does not always work, especially in complex and
+sociotechnical systems. Although technology can certainly be helpful in
+solving problems, relying on it can lead organizations to neglect the
+broader system. They should consider how the proposed technological
+solution will actually function in the context of the whole system, and
+how it might affect the behavior of other components and human
+operators.<br />
+Multiple geoengineering technologies have been proposed as solutions to
+climate change, such as spraying particles high in the atmosphere to
+reflect sunlight. However, there are concerns that attempting this could
+have unexpected side effects. Even if spraying particles in the
+atmosphere did reverse global heating, it might also interfere with
+other components of the atmosphere in ways that we fail to predict,
+potentially with harmful consequences for life. Instead, we could focus
+on non-technical interventions like preserving forested areas that are
+more robustly likely to work without significant unforeseen negative
+side-effects.</p>
+<p><strong>Competitive pressures can lead to compromise on
+safety.</strong> If multiple organizations or countries are pursuing the
+same goal, they will be incentivized to get an edge over one another.
+They might try to do this by reaching the goal more quickly or by trying
+to make the end product more valuable to customers in terms of the
+functionality it offers. These competitive pressures can compel
+employees and decision-makers to cut corners and pay less attention to
+safety.<br />
+On a larger scale, competitive pressures might put organizations or
+countries in an arms race, wherein safety standards slip because of the
+urgency of the situation. This will be especially true if one of the
+organizations or countries has lower safety standards and consequently
+moves quicker; others might feel the need to lower their standards as
+well, in order to keep up. The risks this process presents are
+encapsulated by Publilius Syrus’s aphorism: “Nothing can be done at once
+hastily and prudently.” We consider this further in the chapter.</p>
+<p><strong>Various safety costs can discourage the adoption of safety
+measures.</strong> There are often multiple costs of increasing safety,
+not only financial costs but also slowdowns and reduced product
+performance. Adopting safety measures might therefore decrease
+productivity and slow progress toward a goal, reducing profits. The
+higher the costs of safety measures, the more reluctant an organization
+might be to adopt them.<br />
+Developers of AI systems may want to put more effort into transparency
+and interpretability. However, investigating these areas are costly: at
+the very least, there will be personnel and compute costs that could
+otherwise have been used to directly create more capable systems.
+Additionally, it may delay the completion of the finished product. There
+might also be costs from making a system more interpretable in terms of
+product performance. Creating more transparent models might require AIs
+to select only those actions which are clearly explainable. In general,
+safety features can reduce model capabilities, which organizations might
+prefer to avoid.</p>
+<p><strong>The general safety culture of an organization is an important
+systemic factor.</strong> A final systemic factor that will broadly
+influence a system’s safety can simply be referred to as its “safety
+culture.” This captures the general attitude that the people in an
+organization have toward safety—–how seriously they take it, and how
+that translates into their actions. We will discuss some specific
+features of a diligent safety culture in the next section.</p>
+<p><strong>Summary.</strong> We have seen that component failure
+accident models have some significant limitations, since they do not
+usually capture diffuse sources of risk that can shape a system’s
+dynamics and indirectly affect the likelihood of accidents. These
+include important systemic factors such as competitive pressures, safety
+costs, and safety culture. We will now turn to systemic accident models
+that acknowledge these ideas and attempt to account for them in risk
+analysis.</p>
+<h3 id="systemic-accident-models">Systemic Accident Models</h3>
+<p>We have explored how component failure accident models are
+insufficient for properly understanding accidents in complex systems.
+When it comes to AIs, we must understand what sort of system we are
+dealing with. Comparing AI safety to ensuring the safety of specific
+systems like rockets, power plants, or computer programs can be
+misleading. The reality of today’s world is that many hazardous
+technologies are operated by a variety of human organizations: together,
+these form complex sociotechnical systems that we need to make safer.
+While there may be some similarities between different hazardous
+technologies, there are also significant differences in the properties
+of these technologies which means it will not necessarily work to take
+safety strategies from one system and map them directly onto another. We
+should not anchor to individual safety approaches used in rockets or
+power plants.<br />
+Instead, it is more beneficial to approach AI safety from a broader
+perspective of making complex, sociotechnical systems safer. To this
+end, we can draw on the theory of sociotechnical systems, which offers
+“a method of viewing organizations which emphasises the interrelatedness
+of the functioning of the social and technological subsystems of the
+organization and the relation of the organization as a whole to the
+environment in which it operates.”<br />
+We can also use the complex systems literature more generally, which is
+largely about the shared structure of many different complex systems.
+Accidents in complex systems can often be better understood by looking
+at the system as a whole, rather than focusing solely on individual
+components. Therefore, we will now consider systemic accident models,
+which aim to provide insights into why accidents occur in systems by
+analyzing the overall structure and interactions within the system,
+including human factors that are not usually captured well by component
+failure models.</p>
+<p><strong>Normal Accident Theory (NAT).</strong> Normal Accident Theory
+(NAT) is one approach to understanding accidents in complex systems. It
+suggests that accidents are inevitable in systems that exhibit the
+following two properties:</p>
+<ol>
+<li><p>Complexity: a large number of interactions between components in
+the system such as feedback loops, discussed in the complex systems
+chapter. Complexity can make it infeasible to thoroughly understand a
+system or exhaustively predict all its potential failure modes.</p></li>
+<li><p>Tight coupling: one component in a system can rapidly affect
+others so that one relatively small event can rapidly escalate to become
+a larger accident.</p></li>
+</ol>
+<p>NAT concludes that, if a system is both highly complex and tightly
+coupled, then accidents are inevitable–—or “normal”—regardless of how
+well the system is managed <span class="citation"
+data-cites="perrow1999normal"></span>.</p>
+<p><strong>NAT focuses on systemic factors.</strong> According to NAT,
+accidents are not caused by a single component failure or human error,
+but rather by the interactions and interdependencies between multiple
+components and subsystems. NAT argues that accidents are a normal part
+of complex systems and cannot be completely eliminated. Instead, the
+focus should be on managing and mitigating the risks associated with
+these systems to minimize the severity and frequency of accidents. NAT
+emphasizes the importance of systemic factors, such as system design,
+human factors such as organizational culture, and operational
+procedures, in influencing accident outcomes. By understanding and
+addressing these systemic factors, it is possible to improve the safety
+and resilience of complex systems.</p>
+<p><strong>Some safety features create additional complexity.</strong>
+Although we can try to incorporate safety features, NAT argues that many
+attempts to prevent accidents in these kinds of systems can sometimes be
+counterproductive, as they might just add another layer of complexity.
+As we explore in the Complex Systems chapter, systems often respond to
+interventions in unexpected ways. Interventions can cause negative side
+effects or even inadvertently exacerbate the problems they were
+introduced to solve.<br />
+Redundancy, which was listed earlier as a safe design principle, is
+supposed to increase safety by providing a backup for critical
+components, in case one of them fails. However, redundancy also
+increases complexity, which increases the risks of unforeseen and
+unintended interactions that can make it impossible for operators to
+predict all potential issues <span class="citation"
+data-cites="Leveson2009MovingBN"></span>. Having redundant components
+can also cause confusion; for example, people might receive
+contradictory instructions from multiple redundant monitoring systems
+and not know which one to believe.</p>
+<p><strong>Reducing complexity can be a safety feature.</strong> We may
+not be able to completely avoid complexity and tight coupling in all
+systems, but there are many cases where we can reduce one or both of
+them and thus meaningfully reduce risk. One example of this is reducing
+the potential for human error by making systems more intuitive, such as
+by using color coding and male/female adapters in electrical
+applications to reduce the incidence of wiring errors. Such initiatives
+do not eliminate risks, and accidents are still normal in these systems,
+but they can help reduce the frequency of errors.</p>
+<p><strong>The performance of some organizations suggests serious
+accidents might be avoidable.</strong> The main assertion of NAT is that
+accidents are inevitable in complex, tightly coupled systems. In
+response to this conclusion, which might be perceived as pessimistic,
+other academics developed a more optimistic theory that points to “high
+reliability organizations” (HROs) that consistently operate hazardous
+technologies with low accident rates. These precedents include air
+traffic control, aircraft carriers, and nuclear power plants.<br />
+HRO theory emphasizes the importance of human factors, arguing that it
+must be possible to manage even complex, tightly coupled systems in a
+way that reliably avoids accidents. It identifies five key features of
+HROs’ management culture that can significantly lower the risk of
+accidents <span class="citation"
+data-cites="Dietterich2017Steps"></span>. We will now discuss these five
+features and how AIs might help improve them.</p>
+<ol>
+<li><p><strong>Preoccupation with failure means reporting and studying
+mistakes and near misses.</strong> HROs encourage the reporting of all
+anomalies, known failures, and near misses. They study these events
+carefully and learn from them. HROs also keep in mind potential failure
+modes that have not occurred yet and which have not been predicted. The
+possibility of unanticipated failure modes constitutes a risk of black
+swan events, which will be discussed in detail later in this chapter.
+HROs are therefore vigilant about looking out for emerging hazards. AI
+systems tend to be good at detecting anomalies, but not near
+misses.</p></li>
+<li><p><strong>Reluctance to simplify interpretations means looking at
+the bigger picture.</strong> HROs understand that reducing accidents to
+chains of events often oversimplifies the situation, and is not
+necessarily helpful for learning from mistakes and improving safety.
+They develop a wide range of expertise so that they can come up with
+multiple different interpretations of any incident. This can help with
+understanding the broader context surrounding an event, and systemic
+factors that might have been at play. HROs also implement many checks
+and balances, invest in hiring staff with diverse perspectives, and
+regularly retrain everyone. AIs could be used to generate explanations
+for hazardous events or conduct adversarial reviews of explanations of
+system failures.</p></li>
+<li><p><strong>Sensitivity to operations means maintaining awareness of
+how a system is operating.</strong> HROs invest in the close monitoring
+of systems to maintain a continual, comprehensive understanding of how
+they are behaving, whether through excellent monitoring tools or hiring
+operators with deep situational awareness. This can ensure that
+operations are going as planned, and notice it early if anything
+unexpected happens, permitting taking corrective action early, before
+the situation escalates. AI systems that dynamically aggregate
+information in real-time can help improve situational
+awareness.</p></li>
+<li><p><strong>Commitment to resilience means actively preparing to
+tackle unexpected problems.</strong> HROs train their teams in
+adaptability and improvising solutions when confronted with novel
+circumstances. By practicing dealing with issues they have not seen
+before, employees develop problem-solving skills that will help them
+cope if anything new and unexpected arises in reality. AIs have the
+potential to enhance teams’ on-the-spot problem-solving, such as by
+creating surprising situations for testing organizational
+efficiency.</p></li>
+<li><p><strong>Under-specification of structures means information can
+flow rapidly in a system.</strong> Instead of having rigid chains of
+communication that employees must follow, HROs have communication
+throughout the whole system. All employees are allowed to raise an
+alarm, regardless of their level of seniority. This increases the
+likelihood that problems will be flagged early, and also allows
+information to travel rapidly throughout the organization. This
+under-specification of structures is also sometimes referred to as
+“deference to expertise,” because it means that all employees are
+empowered to make decisions relating to their expertise, regardless of
+their place in the hierarchy.</p></li>
+</ol>
+<p>High-reliability organizations (HROs) provide valuable insights into
+the development and application of AI technology. By emulating the
+characteristics of HROs, we can create combined human-machine systems
+that prioritize safety and mitigate risks. These sociotechnical systems
+should continuously monitor their own behavior and the environment for
+anomalies and unanticipated side effects. These systems should also
+support combined human-machine situational awareness and improvisational
+planning, allowing for real-time adaptation and flexibility. Lastly, AIs
+should have models of their own expertise and the expertise of human
+operators to ensure effective problem routing. By adhering to these
+principles, we can develop AI systems that function like HROs, ensuring
+high reliability and minimizing the potential risks associated with
+their deployment and use.<br />
+<strong>Doubts have been raised about how widely HRO theory can be
+applied.</strong> Although the practices listed above can improve
+safety, a main criticism of HRO theory is that they cannot be applied to
+all systems and technologies <span class="citation"
+data-cites="Leveson2009MovingBN"></span>. This is because the theory was
+developed from a relatively small group of example systems, and certain
+features of them cannot be replicated in all systems.</p>
+<p><strong>It is difficult to understand systems sufficiently
+well.</strong> First, in the example HROs (such as air traffic control
+or nuclear power plants), operators usually have near-complete knowledge
+of the technical processes involved. These organizations’ processes have
+also remained largely unchanged for decades, allowing for lessons to be
+learned from errors and for safety systems to become more refined.
+However, according to NAT, the main reason that complexity contributes
+to accidents is that it <em>precludes</em> a thorough understanding of
+all processes, and anticipation of all potential failure modes. HROs
+with near-complete knowledge of technical processes might be considered
+rare cases. These conditions cannot be replicated in all systems,
+especially not in those operating new technologies.</p>
+<p><strong>HROs prioritize safety, but other organizations might
+not.</strong> The second reason why HRO theory might not be broadly
+applicable is that its suggestions generally focus on prioritizing
+safety as a goal. This might make sense for several of the example HROs,
+where safety is an intrinsic part of the mission. Airlines, for
+instance, would not be viable businesses if they did not have a strong
+track record of transporting passengers safely. However, this is less
+feasible in organizations where safety is not so pertinent to the
+mission. In many other profit maximization organizations, safety can
+conflict with the main mission, as safety measures may be costly and
+reduce productivity.</p>
+<p><strong>Not all HROs are tightly coupled.</strong> Another criticism
+of HRO theory is that several of the example systems might actually be
+considered loosely coupled. For instance, in air traffic control, extra
+time is scheduled in between landings on the same runway, to allow for
+delays, errors, and corrections. However, NAT claims that tight coupling
+is the second system feature that makes accidents inevitable. Loosely
+coupled systems may not, therefore, be a good counterexample.</p>
+<p><strong>Deference to expertise might not always be
+realistic.</strong> A final reservation about HRO theory is that the
+fifth characteristic (deference to expertise) assumes that employees
+will have the necessary knowledge to make the best decisions at the
+local level. However, information on the system as a whole is sometimes
+required in order to make the best decisions, as actions in one
+subsystem may have knock-on effects for other subsystems. Employees
+might not always have enough information about the rest of the system to
+be able to take this big-picture view.</p>
+<p><strong>The debate over whether accidents are inevitable or avoidable
+remains unsettled.</strong> A particular sticking point is that, despite
+having low accident rates, some of the HRO examples have experienced
+multiple near misses. This could be interpreted as evidence that NAT is
+correct. We could view it as a matter of luck that these near misses did
+not become anything larger. This would indicate that organizations
+presented as HROs are in fact vulnerable to accidents. On the other
+hand, near misses could instead be interpreted as supporting HRO theory;
+the fact that they did not turn into anything larger could be considered
+evidence that HROs have the appropriate measures in place to prevent
+accidents. It is not clear which of these interpretations is correct
+<span class="citation" data-cites="Leveson2009MovingBN"></span>.<br />
+Nevertheless, both NAT and HRO theory have contributed important
+concepts to safety engineering. NAT has identified complexity and tight
+coupling as key risk factors, while HRO theory has developed important
+principles for a good organizational safety culture. Both schools of
+thought acknowledge that complex systems must be treated differently
+from simpler systems, requiring consideration of all the components,
+their interactions, and human factors. We will now explore some
+alternative approaches that view system safety more holistically, rather
+than considering it a product of reliable components, interactions, and
+operators.</p>
+<p><strong>System control with safety boundaries.</strong> Rasmussen’s
+Risk Management Framework (RMF) is an accident model that recognizes
+that accidents are usually the culmination of many different factors,
+rather than a single root cause <span class="citation"
+data-cites="rasmussen1997"></span>. This model frames risk management as
+a question of control, emphasizing the need for clearly defined safety
+boundaries that a system’s operations must stay within.</p>
+<p><strong>Levels of organization and AcciMap.</strong> As shown in the
+figure below, the RMF considers six hierarchical levels of organization
+within a system, each of which can affect its safety: government,
+regulators, the company, management, frontline workers, and the work
+itself. By drawing out an “AcciMap” with this hierarchy, we can identify
+actors at different levels who share responsibility for safety, as well
+as conditions that may influence the risk of an accident. This analysis
+makes it explicit that accidents cannot be solely explained by an action
+at the sharp end.</p>
+<figure id="fig:Rasmussen">
+<img src="images/safety_engineering/Rasmussen.png" />
+<figcaption>Rasmussen’s Risk Management Framework</figcaption>
+</figure>
+<p><strong>Systems can gradually migrate into unsafe states.</strong>
+The RMF also asserts that behaviors and conditions can gradually
+“migrate” over time, due to environmental pressures. If this migration
+leads to unsafe systemic conditions, this creates the potential for an
+event at the sharp end to trigger an accident. This is why it is
+essential to continually enforce safety boundaries and avoid the system
+migrating into unsafe states.</p>
+<p><strong>STAMP is based on insights from the study of complex
+systems.</strong> According to the systems-theory paradigm, safety is an
+emergent property that is unlikely to be sufficiently understood just by
+looking at individual components in isolation. This is the view taken by
+System-Theoretic Accident Model and Processes (STAMP). STAMP identifies
+multiple levels of organization within a system, where each level is of
+higher complexity than the one below. Each level has novel emergent
+properties that cannot be practically understood through a reductive
+analysis of the level below. STAMP also recognizes that a system can be
+highly reliable but still be unsafe, and therefore puts the emphasis on
+safety rather than just on the reliability of components.</p>
+<p><strong>STAMP frames safety as a question of top-down
+control.</strong> STAMP proposes that safety can be enforced by each
+level effectively placing safety constraints on the one below to keep
+operations from migrating into unsafe states <span class="citation"
+data-cites="Leveson2009MovingBN"></span>. Performing STAMP-based risk
+analysis and management involves creating models of four aspects of a
+system: the organizational safety structure, the dynamics that can cause
+this structure to deteriorate, the models of system processes that
+operators must have, and the surrounding context. We will now discuss
+each of these in more detail.</p>
+<p><strong>The organizational safety structure.</strong> The first
+aspect is the safety constraints, the set of unsafe conditions which
+must be avoided. It tells us which components and operators are in place
+to avoid each of those unsafe conditions occurring. This can help to
+prevent accidents from component failures, design errors, and
+interactions between components that could produce unsafe states.</p>
+<p><strong>Dynamic deterioration of the safety structure.</strong> The
+second aspect is about how the safety structure can deteriorate over
+time, leading to safety constraints being enforced less stringently.
+Systems can “migrate” toward failure when many small events escalate
+into a larger accident. Since complex and sociotechnical systems involve
+large numbers of interactions, we cannot methodically compute the
+effects of every event within the system and exhaustively identify all
+the pathways to an accident. We cannot always reduce an accident to a
+neat chain of events or find a root cause: such instincts are often
+based on the desire to have a feeling of control by assigning blame.
+Instead, it might make sense to describe a system as migrating toward
+failure, due to the accumulation of many seemingly insignificant
+events.<br />
+This might include natural processes, such as wear and tear of
+equipment. It can also include systemic factors, such as competitive
+pressures, that might compel employees to omit safety checks. If being
+less safety-conscious does not quickly lead to an accident, developers
+might start to think that safety-consciousness is unnecessary. Having a
+model of these processes can increase awareness and vigilance around
+what needs to be done to maintain an effective safety structure.</p>
+<p><strong>Knowledge and communication about process models.</strong>
+The third aspect is the knowledge that operators must have about how the
+system functions in order to make safe decisions. Operators may be
+humans or automated systems that have to monitor feedback from the
+system and respond to keep it on track.<br />
+The process model that these operators should have includes the
+assumptions about operating conditions that were made during the design
+stage so that they will be aware of the conditions in which the system
+might not function properly, such as outside regular temperature ranges.
+It might also include information about how the specific subsystem that
+the operator is concerned with interacts with other parts of the system.
+The communication required for operators to maintain an accurate process
+model over time should also be specified. This can help to avoid
+accidents resulting from operators or software making decisions based on
+inaccurate beliefs about how the system is functioning.</p>
+<p><strong>The cultural and political context of the decision-making
+processes.</strong> The fourth aspect is the systemic factors that could
+influence the safety structure. It might include information about who
+the stakeholders are and what their primary concern is. For example,
+governments may impose stringent regulations, or they may put pressure
+on an organization to reach its goals quickly, depending on what is most
+important to them at the time. Similarly, social pressures and attitudes
+may put pressure on organizations to improve safety or pressure to
+achieve goals quickly.<br />
+Table <a href="#tab:assumptions" data-reference-type="ref"
+data-reference="tab:assumptions">[tab:assumptions]</a> summarizes how
+the STAMP perspective contrasts with those of traditional component
+failure models.<br />
+<strong>STAMP-based analysis techniques include System-Theoretic Process
+Analysis (STPA).</strong> On a practical level, there are methods of
+analyzing systems that take the holistic approach outlined by STAMP.
+These include System-Theoretic Process Analysis (STPA), which can be
+used at the design stage, including steps such as identifying hazards
+and constructing a control structure to mitigate their effects and
+improve system safety.</p>
+<p><strong>Decrementalism is the deterioration of system processes
+through a series of small changes.</strong> A third accident model based
+on systems theory is Dekker’s Drift into Failure (DIF) model <span
+class="citation" data-cites="dekker2011Drift"></span>. DIF focuses on
+the migration of systems that the RMF and STAMP also acknowledge,
+describing how this can lead to a “drift into failure.” Since an
+individual decision to change processes may be relatively minor, it can
+seem that it will not make any difference to a system’s operations or
+safety. For this reason, systems are often subject to decrementalism, a
+gradual process of changes through one small decision at a time that
+degrades the safety of a system’s operations.</p>
+<p><strong>Many relatively minor decisions can combine to lead to a
+major difference in risk.</strong> Within complex systems, it is
+difficult to know all the potential consequences of a change in the
+system, or how it might interact with other changes. Many alterations to
+processes within a system, each of which might not make a difference by
+itself, can interact in complex and unforeseen ways to result in a much
+higher state of risk. This is often only realized when an accident
+happens, at which point it is too late.</p>
+<p><strong>Summary.</strong> Normal accident theory argues that
+accidents are inevitable in systems with a high degree of complexity and
+tight coupling, no matter how well they are organized. On the other
+hand, it has been argued that HROs with consistently low accident rates
+demonstrate that it is possible to avoid accidents. HRO theory
+identifies five key characteristics that contribute to a good safety
+culture and reduce the likelihood of accidents. However, it might not be
+feasible to replicate these across all organizations.<br />
+Systemic models like Rasmussen’s RMF, STAMP, and Dekker’s DIF model are
+grounded in an understanding of complex systems, viewing safety as an
+emergent property. The RMF and STAMP both view safety as an issue of
+control and enforcing safety constraints on operations. They both
+identify a hierarchy of levels of organization within a system, showing
+how accidents are caused by multiple factors, rather than just by one
+event at the sharp end. DIF describes how systems are often subject to
+decrementalism, whereby the safety of processes is gradually degraded
+through a series of minor changes, each of which seems minor on its
+own.<br />
+In general, component failure models focus on identifying specific
+components or factors that can go wrong in a system and finding ways to
+improve those components. These models are effective at pinpointing
+direct causes of failure and proposing targeted interventions. However,
+they have a limitation in that they tend to overlook other risk sources
+and potential interventions that may not be directly related to the
+identified components. On the other hand, systemic accident models take
+a broader approach by considering the interactions and interdependencies
+between various components in a system, such as feedback loops, human
+factors, and diffuse causality models. This allows them to capture a
+wider range of risk sources and potential interventions, making them
+more comprehensive in addressing system failures.</p>
