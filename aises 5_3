@@ -1,6 +1,6 @@
-<h1 id="complex-systems-for-ai-safety">Complex Systems for AI
+<h1 id="complex-systems-for-ai-safety"> 5.3 Complex Systems for AI
 Safety</h1>
-<h2 id="general-lessons-from-complex-systems">General Lessons from
+<h2 id="general-lessons-from-complex-systems"> 5.3.1 General Lessons from
 Complex Systems</h2>
 <p>As we have discussed, AI systems and the social systems they are
 integrated within are best understood as complex systems. For this
@@ -211,7 +211,7 @@ cautiously</p></li>
 safe, because humans are not perfectly reliable and, moreover, AIs are
 likely to accelerate processes too much for humans to keep up.</p></li>
 </ol>
-<h2 id="puzzles-problems-and-wicked-problems">Puzzles, Problems, and
+<h2 id="puzzles-problems-and-wicked-problems"> 5.3.2 Puzzles, Problems, and
 Wicked Problems</h2>
 <p>So far, we have explored the contrasts between simple and complex
 systems and why we need different approaches to analyzing and
@@ -329,7 +329,7 @@ in another, even if the systems seem similar, and it might not be
 possible to ever definitively say that a wicked problem has been solved.
 Owing to the complex nature of the systems involved, AI safety is a
 wicked problem.</p>
-<h2 id="challenges-with-interventionism">Challenges With
+<h2 id="challenges-with-interventionism"> 5.3.3 Challenges With
 Interventionism</h2>
 <p>As touched on above, there are usually many potential solutions to
 wicked problems, but they may not all work in practice, even if they
@@ -608,7 +608,7 @@ have successfully solved or made great strides toward solving certain
 wicked problems. For many wicked problems, it may never be possible to
 say that they have been fully solved, but it is nonetheless possible to
 make progress and improve the situation.</p>
-<h2 id="systemic-issues">Systemic Issues</h2>
+<h2 id="systemic-issues"> 5.3.4 Systemic Issues</h2>
 <p>We have discussed the characteristics of wicked problems as stemming
 from the complex systems they arise from, and explored why they are so
 difficult to tackle. We have also looked at some examples of failed
