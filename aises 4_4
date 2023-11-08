@@ -1,4 +1,4 @@
-<h2 id="safe-design-principles">Safe Design Principles</h2>
+<h2 id="safe-design-principles"> 4.4 Safe Design Principles</h2>
 <p>We can reduce both the probability and severity of a system failure
 by following certain <em>safe design principles</em> when designing it.
 These general principles have been identified by safety engineering and
@@ -42,7 +42,7 @@ will have weaknesses.</p></li>
 design principles might be less useful or even counterproductive. We
 will discuss this later on in the chapter. However, for now, we will
 explore the basic rationale behind why each one improves safety.</p>
-<h3 id="redundancy">Redundancy</h3>
+<h3 id="redundancy"> 4.4.1 Redundancy</h3>
 <p><strong>Redundancy means having multiple “backup” components <span
 class="citation" data-cites="Hendrycks2022xrisk"></span>.</strong>
 Having multiple braking systems in a vehicle means that, even if the
@@ -68,7 +68,7 @@ what the parliament recommends. The different theories would essentially
 be redundant components, each usually recommending plausible actions but
 unable to dictate what happens in extreme cases, reducing the likelihood
 of counterintuitive decisions that we would consider harmful.</p>
-<h3 id="separation-of-duties">Separation of Duties</h3>
+<h3 id="separation-of-duties"> 4.4.2 Separation of Duties</h3>
 <p><strong>Separation of duties means no single agent can control or
 misuse the system alone <span class="citation"
 data-cites="Hendrycks2022xrisk"></span>.</strong> Consider a system
@@ -96,7 +96,7 @@ service-providing products. Adopting this mindset might mean tailoring
 AI systems to perform highly specific tasks, rather than speculatively
 trying to improve general and flexible capabilities in a single
 agent.</p>
-<h3 id="principle-of-least-privilege">Principle of Least Privilege</h3>
+<h3 id="principle-of-least-privilege"> 4.4.3 Principle of Least Privilege</h3>
 <p><strong>Each agent should have only the minimum power needed to
 complete their tasks <span class="citation"
 data-cites="Hendrycks2022xrisk"></span>.</strong> As discussed above,
@@ -117,7 +117,7 @@ access to confidential information. In the Single Agent Control chapter,
 we considered how AIs might be power-seeking; by ensuring AIs have only
 the minimum required amount of power they need to accomplish the goals
 we assign them, we can reduce their ability to gain power.</p>
-<h3 id="fail-safes">Fail-Safes</h3>
+<h3 id="fail-safes"> 4.4.4 Fail-Safes</h3>
 <p><strong>Fail-safes are features that aim to ensure a system will be
 safe even if it fails <span class="citation"
 data-cites="Hendrycks2022xrisk"></span>.</strong> When systems fail,
@@ -137,7 +137,7 @@ critical level of certainty that the decision is correct. There could
 also be a component that monitors the probability of the agent’s
 decisions causing harm, and the system could be designed to stop acting
 on decisions if it reaches a specified likelihood of harm.</p>
-<h3 id="antifragility">Antifragility</h3>
+<h3 id="antifragility"> 4.4.5 Antifragility</h3>
 <p><strong>Antifragile systems become stronger from encountering
 adversity <span class="citation"
 data-cites="taleb2012antifragile"></span>.</strong> The idea of an
@@ -182,7 +182,7 @@ antifragile AI can develop in unpredicted and undesirable ways when
 deployed in natural settings. Human operators cannot control natural
 environments, so system designers should think carefully about whether
 to use adaptive AIs.</p>
-<h3 id="negative-feedback-mechanisms">Negative Feedback Mechanisms</h3>
+<h3 id="negative-feedback-mechanisms"> 4.4.6 Negative Feedback Mechanisms</h3>
 <p><strong>When one change triggers more changes, feedback loops can
 emerge.</strong> To understand positive and negative feedback
 mechanisms, consider the issue of climate change and melting ice. As
@@ -220,7 +220,7 @@ measure like disconnecting an AI from the internet, resetting an AI to a
 previous version, or using other AIs trained to disempower a powerful
 AI. Such mechanisms would act as automatic checks and balances on AIs’
 power.</p>
-<h3 id="transparency">Transparency</h3>
+<h3 id="transparency"> 4.4.7 Transparency</h3>
 <p><strong>Transparency means people know enough about a system to
 interact with it safely <span class="citation"
 data-cites="Hendrycks2022xrisk"></span>.</strong> If operators do not
@@ -236,7 +236,7 @@ ways that give operators a greater understanding of their internal
 decision-making processes. This would help operators maintain control,
 anticipate situations in which systems might make poor or deceptive
 decisions, and steer them away from hazards.</p>
-<h3 id="defense-in-depth">Defense in Depth</h3>
+<h3 id="defense-in-depth"> 4.4.8 Defense in Depth</h3>
 <p><strong>Including many layers of defense is usually more effective
 than relying on just one <span class="citation"
 data-cites="Hendrycks2022xrisk"></span>.</strong> A final safe design
@@ -296,7 +296,7 @@ meant that there was not enough space on the lifeboats for all the
 passengers when the ship sank. This can be considered an example of
 inadequate protective measures. We will explore this distinction more in
 the next section, where we discuss the bow tie model.</p>
-<h3 id="review-of-safe-design-principles">Review of Safe Design
+<h3 id="review-of-safe-design-principles"> 4.4.9 Review of Safe Design
 Principles</h3>
 <p>There are multiple features we can build into a system from the
 design stage to make it safer. We have discussed redundancy, separation
