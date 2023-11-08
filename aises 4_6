@@ -1,4 +1,4 @@
-<h2 id="sec:sys-fact">Systemic Factors</h2>
+<h2 id="sec:sys-fact"> 4.6 Systemic Factors</h2>
 <p>As discussed above, if we want to improve the safety of a complex,
 sociotechnical system, it might be most effective to address the blunt
 end, or the broad systemic factors that can diffusely influence
@@ -86,7 +86,7 @@ include important systemic factors such as competitive pressures, safety
 costs, and safety culture. We will now turn to systemic accident models
 that acknowledge these ideas and attempt to account for them in risk
 analysis.</p>
-<h3 id="systemic-accident-models">Systemic Accident Models</h3>
+<h3 id="systemic-accident-models"> 4.6.1 Systemic Accident Models</h3>
 <p>We have explored how component failure accident models are
 insufficient for properly understanding accidents in complex systems.
 When it comes to AIs, we must understand what sort of system we are
