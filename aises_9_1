@@ -1,4 +1,4 @@
-<h1 id="introduction">Introduction</h1>
+<h1 id="introduction"> 9.1 Introduction</h1>
 <p><strong>Safe artificial intelligence requires careful
 governance.</strong> The development and deployment of advanced AI
 systems involves many organizations and individuals with distinct goals
@@ -50,7 +50,7 @@ to non-proliferation agreements, verification schemes, and monopolies
 for military systems. By highlighting levers across multiple levels,
 this chapter provides an introduction to a range of governance
 approaches aimed at ensuring AI is developed safely.</p>
-<h2 id="the-landscape">The Landscape</h2>
+<h2 id="the-landscape"> 9.1.1 The Landscape</h2>
 <p>To govern AI, we must understand the system in which AIs are being
 developed and deployed. Two crucial aspects for governance are the list
 of actors and the tools available to govern them.</p>
