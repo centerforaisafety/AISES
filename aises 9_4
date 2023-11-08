@@ -1,4 +1,4 @@
-<h1 id="sec:compute-gov">Compute Governance</h1>
+<h1 id="sec:compute-gov"> 9.4 Compute Governance</h1>
 <p>A common shorthand for computational resources or computing power
 used for AI is <em>compute</em>. In this section, we will discuss how
 compute governance enables AI governance. First, we will examine how
@@ -9,7 +9,7 @@ quantifiability–—and consider why governing compute is more promising
 than governing other factors used in AI production.<br />
 </p>
 <h2
-id="compute-is-indispensable-for-ai-development-and-deployment">Compute
+id="compute-is-indispensable-for-ai-development-and-deployment"> 9.4.1 Compute
 Is Indispensable for AI Development and Deployment</h2>
 <p>Compute enables the development of more capable AIs. In addition,
 compute is necessary to deploy AIs. If we restrict someone’s access to
@@ -82,7 +82,7 @@ just a few breakthroughs. If AI models require less compute, especially
 to the point that they become commonplace on consumer devices,
 regulating AI systems based on compute access might not be the most
 effective approach.</p>
-<h2 id="compute-is-physical-excludable-and-quantifiable">Compute Is
+<h2 id="compute-is-physical-excludable-and-quantifiable"> 9.4.2 Compute Is
 Physical, Excludable, and Quantifiable</h2>
 <p>To produce AI, developers need three primary factors: data,
 algorithms, and compute. In this section, we will explore why governing
