@@ -1,0 +1,221 @@
+<h1 id="sec:corp-gov">Corporate Governance</h1>
+<p><strong>Overview.</strong> AI companies need sound corporate
+governance: it is essential that these firms are guided in directions
+that enable the creation of safe and beneficial AIs. In this section, we
+explain what corporate governance is, differentiating between
+shareholder and stakeholder theory. Then, we give an overview of
+different legal structures, ownership structures, organizational
+structures, as well as internal and external assurance mechanisms.</p>
+<h2 id="what-is-corporate-governance">What Is Corporate Governance?</h2>
+<p>There are different views on what the purpose of corporate governance
+is. These differences are related to different theories about
+capitalism.</p>
+<p><strong>Shareholder theory.</strong> According to one view, corporate
+governance is about the relationship between a company and its
+<em>shareholders</em>. This view is based on <em>shareholder
+theory</em>, according to which companies have an obligation to maximize
+returns for their shareholders. Using this theory, the purpose of
+corporate governance is to ensure that actors within a company act in
+the best interest of the company’s shareholders. The relationship
+between shareholders and actors within a company can be conceptualized
+as the following problem: shareholders delegate responsibilities to
+managers and workers, but managers and workers might not act in the
+shareholders’ interests <span class="citation"
+data-cites="jensen2019theory"></span>. On this view, corporate
+governance is ultimately a tool for maximizing shareholder value.</p>
+<p><strong>Stakeholder theory.</strong> According to another view,
+corporate governance is about the relationship between a company and its
+<em>stakeholders</em>. The idea is that companies are responsible not
+only to their shareholders but to many other stakeholders like
+employees, business partners, and civil society <span class="citation"
+data-cites="friedman2007social"></span>. Following this theory, the
+purpose of corporate governance is to balance the interests of
+shareholders with the interests of other stakeholders. It refers to all
+the rules, practices, and processes by which a company is directed and
+controlled.<br />
+For the purposes of this book, we consider corporate governance that
+aims to achieve stakeholder representation, not shareholder
+representation. We are mainly interested in how AI companies are or
+should be governed to best advance the public interest <span
+class="citation" data-cites="cihon2021corporate"></span>. Next, we will
+consider how a firm’s legal structure can help permit this.</p>
+<h2 id="legal-structure">Legal Structure</h2>
+<p>A company’s legal structure refers to its legal form and place of
+incorporation, its statutes and bylaws.</p>
+<p><strong>Legal form.</strong> AI companies can have different legal
+forms. In the US, the most common form is a <em>C corporation</em> or
+“C-corp” for short. Other forms include <em>public benefit corporations
+(PBCs)</em>, <em>limited partnerships (LPs)</em>, and <em>limited
+liability companies (LLCs)</em>. The choice of legal form has
+significant influence on what a company is able and required to do. For
+example, while C-corps must maximize shareholder value, PBCs can also
+pursue public benefits. This can be important in situations where AI
+companies may want to sacrifice profits in order to promote safety.
+Google, Microsoft, and Meta are all C-corps, Anthropic is a PBC, and
+OpenAI is an LP (which is partly owned by a nonprofit).</p>
+<p><strong>Place of incorporation.</strong> Since there are significant
+differences between jurisdictions, it matters where a company is
+incorporated. An important distinction can be drawn between common law
+countries like the US and UK, wherein judicial precedent is important,
+and civil law countries like Germany and France, where recorded laws are
+more comprehensive and less open to interpretation. But there are also
+important differences within a given country. For example, in the US,
+many AI companies such as OpenAI and Anthropic are incorporated in the
+state of Delaware due to its relatively business-friendly regulations,
+but they often have branches in other states like California.</p>
+<p><strong>Statutes and bylaws.</strong> Although many governance
+decisions are determined by the legal form and the place of
+incorporation, companies have some room for customization. They can
+customize their legal structure in their statutes and bylaws. Companies
+are typically required to specify their mission statement in their
+statutes. The mission of Google DeepMind is “to solve intelligence to
+advance science and benefit humanity” and OpenAI’s mission is “to ensure
+that AGI benefits all of humanity.” The statutes of PBCs also need to
+contain a specific public benefits statement. But the statutes and
+bylaws can also contain more specific rules; for example, an AI company
+could give its board of directors specific powers, such as to veto the
+deployment of a new model.<br />
+Ensuring that a firm’s legal structures enable its employees to act in
+the best interests of the firm’s stakeholders is important, and firms
+have many ways to do this. Next, we will consider how ownership can help
+solidify a firm’s safety-conscious goals.</p>
+<h2 id="ownership-structure">Ownership Structure</h2>
+<p>Companies are owned by shareholders, who elect the board of
+directors, which appoints the senior executives who actually run the
+company.</p>
+<p><strong>Types of shareholders.</strong> AI companies can have
+different types of shareholders. In their early stages, AI companies
+typically get investments from wealthy individuals—so-called “angel
+investors.” For example, Elon Musk was among the first investors in
+OpenAI, while Dustin Moskovitz was part of the initial funding round of
+Anthropic. As AI companies mature, professional investors like venture
+capital (VC) firms and big tech companies start to invest—DeepMind was
+acquired by Google in 2016, and Microsoft invested heavily in OpenAI. At
+some point, many companies decide to “go public”, which means that they
+are turned into publicly traded companies. At that point, institutional
+investors like pension funds enter the stage. For example, Vanguard and
+BlackRock are among the largest shareholders of Microsoft, Google, and
+Meta, though the founders often retain a significant amount of shares.
+It is also not uncommon to give early employees stock options, which
+allow them to purchase stock at fixed prices.</p>
+<p><strong>Powers of shareholders.</strong> Shareholders can influence
+the company in several ways. They can voice concerns in the annual
+general meeting and vote in shareholder resolutions. In the 2019 annual
+general meeting of Alphabet, one shareholder called for better board
+oversight of AI and suggested creating a Societal Risk Oversight
+Committee. If the board of directors of a C-Corp does not act in the
+shareholders’ interest, shareholders can theoretically replace them.
+However, in practice this is very rare. A more common way to put
+pressure on board members is to file lawsuits against them if they fail
+to meet certain obligations. Such lawsuits are often settled in ways
+that improve corporate governance. The attempt of shareholders to steer
+the company in a certain direction is called <em>shareholder
+activism</em>.</p>
+<p><strong>Customized ownership structures.</strong> Depending on the
+company’s legal form, it may be possible to customize the ownership
+structure. A common way to do that is to issue two different classes of
+shares: both classes give their holders ownership, but only one class
+grants voting rights. This allows structures where the founders remain
+in control of the company while other shareholders contribute capital
+and receive returns on their investment. Another way to achieve certain
+goals is to combine different legal entities. For example, the returns
+of investors in the OpenAI LP are capped. Above a certain threshold,
+returns are owned by the OpenAI nonprofit. They call this a
+<em>capped-profit structure</em>. A related idea is to adopt a
+governance structure that, under certain conditions, transfers control
+to a committee representing society’s interests rather than the
+shareholders’ interests.<br />
+It is important who owns AI companies because these owners have strong
+ways to influence operations. Next, we will put aside questions of
+ownership and examine how these organizations are structured and
+run.</p>
+<h2 id="organizational-structure">Organizational Structure</h2>
+<p>While shareholders own the company, it is governed by the board of
+directors and managed by the chief executive officer (CEO) and other
+senior executives.</p>
+<p><strong>Board of directors.</strong> The board of directors is the
+main governing body of the company. Board members have a legal
+obligation to act in the best interests of the company, so-called
+<em>fiduciary duties</em>. These duties can vary: board members of
+Alphabet have the typical fiduciary duties of a C-Corp, while board
+members of OpenAI’s nonprofit’s have a duty to “to ensure that AGI
+benefits all of humanity,” not to maximize shareholder value. The board
+has a number of powers they can use to steer the company in a more
+prosocial direction. It sets the strategic priorities, is responsible
+for risk oversight, and has significant influence over senior
+management; for instance, it can replace the chief executive officer.
+However, the board’s influence is often indirect. Many boards have
+committees, some of which might be important from a safety perspective
+such as a risk committee or audit committee.</p>
+<p><strong>Senior executives.</strong> The company is managed by the
+CEO, who appoints other senior executives such as a chief technology
+officer (CTO), chief scientist, chief risk officer (CRO), and so on.
+Since the behavior of executives is at least in part driven by financial
+incentives, remuneration is often a valuable tool to ensure that they
+act in the corporation’s interest. Before appointing new executives, the
+board might also want to conduct background checks; in the case of AI
+companies, a board might want to consider candidates’ views on risks
+from AIs.</p>
+<p><strong>Organizational units.</strong> Below the executive level, AI
+companies have a number of teams, often in a hierarchical structure.
+This will typically involve research and product development teams, but
+also legal, risk management, finance, and many others. AI companies can
+also have safety and governance teams. These teams should be well
+resourced and have buy-in from senior management.<br />
+In addition, some AI companies have other organizational structures,
+such as an ethics board that advises the board of directors and senior
+management, or an institutional review board (IRB) that checks if
+publishing certain types of research might be harmful <span
+class="citation" data-cites="cihon2021corporate"></span>. Google
+DeepMind has a IRB-like review committee that played a key role in the
+release of AlphaFold.<br />
+Various aspects of the legal, ownership, and organizational structure of
+AI companies can influence to what extent their outputs focus on
+employees’ and managers’ best interests, creating shareholder value, or
+achieving their mission and ensuring societal wellbeing. In the last
+subsection, we will explore how we can ensure that these structures are
+well chosen and smoothly functioning.</p>
+<h2 id="assurance">Assurance</h2>
+<p>Different stakeholders within and outside AI companies need to know
+whether existing governance structures are adequate. AI companies
+therefore take a number of measures to evaluate and communicate the
+adequacy of their governance structures. These measures are typically
+referred to as <em>assurance</em>. We can distinguish between internal
+and external assurance measures.</p>
+<p><strong>Internal assurance.</strong> AI companies need to ensure that
+senior executives and board members get the information they need to
+make good decisions. It is, therefore, essential to define clear
+reporting lines. To ensure that key decision-makers get objective
+information, AI companies may set up an internal audit team that is
+organizationally independent from senior management <span
+class="citation" data-cites="schuett2023agi"></span>. This team would
+assess the adequacy and effectiveness of the company’s risk management
+practices, controls, and governance processes, and report directly to
+the board of directors.</p>
+<p><strong>External assurance.</strong> Many companies are legally
+required to publicly report certain aspects of their governance
+structures, such as whether the board of directors has an audit
+committee. Often, AI companies also publish information about their
+released models and often in the form of model or system cards. Some
+organizations disclose parts of their safety strategy and their
+governance practices as well; for instance, how they plan to ensure
+their powerful AI systems are safe, whether they have an ethics board,
+or how they conduct pre-deployment risk assessments. These publications
+allow external actors like researchers and civil society organizations
+to evaluate and scrutinize the company’s practices. In addition, many AI
+companies commission independent experts to scrutinize their models,
+typically in the form of third-party audits, red teaming exercises to
+adversarially test systems, or bug bounty programs that reward finding
+errors and vulnerabilities.</p>
+<h3 id="conclusions-about-corporate-governance">Conclusions About
+Corporate Governance</h3>
+<p>Corporate governance refers to all the rules, practices, and
+processes by which a company is directed and controlled—–ranging from
+its legal form and place of incorporation to its board committees and
+remuneration policy. The purpose of corporate governance is to balance
+the interests of a company’s shareholders with the interests of other
+stakeholders, including society at large. To this end, AI companies are
+advised to follow existing best practices in corporate governance.
+However, in light of increasing societal risks from AI, they also need
+to consider more innovative governance solutions, such as a
+capped-profit structure or a long-term benefit committee.</p>
