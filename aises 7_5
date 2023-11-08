@@ -1,0 +1,390 @@
+<h1 id="sec:uncertainty">Moral Uncertainty</h1>
+<h2 id="making-decisions-under-moral-uncertainty">Making Decisions Under
+Moral Uncertainty</h2>
+<p>This section considers how to make decisions under moral
+uncertainty–—how to act morally when we are unsure which moral view is
+correct. Although ignoring our uncertainty may be a comfortable approach
+in daily life, there are situations where it is crucial to identify the
+best decision. We will start by considering our uncertainties about
+morality and the idea of reasonable pluralism, which acknowledges the
+potential co-existence of multiple reasonable moral theories such as
+ethical theories, common-sense morality, and religious teachings.<br />
+The main aim of the section is to recognize that there are different
+reasonable moral beliefs and think about what to do with them. We will
+explore uncertainties about moral truths, why they matter in moral
+decision-making for both humans and AI, and how to deal with them. We
+will look at a few proposed solutions, including <em>My Favorite
+Theory</em>, <em>Maximize Expected Choice-Worthiness (MEC)</em>, and
+<em>Moral Parliament</em> <span class="citation"
+data-cites="macaskill2020moral"></span>. These approaches will be
+compared and evaluated in terms of their ability to help us make moral
+decisions under uncertainty.</p>
+<h3 id="dealing-with-moral-uncertainty">Dealing with Moral
+Uncertainty</h3>
+<p><strong>Moral uncertainty requires us to consider multiple moral
+theories.</strong> Individuals may have varying degrees of belief in
+different moral theories, known as <em>credence</em>.</p>
+<p><strong>Credence is the probability assigned by an individual of the
+chance a theory is true.</strong> Someone may have a high degree of
+credence (70%) in utilitarianism, meaning they believe that maximizing
+utility is likely to be the most important moral principle. However,
+they may also have some credence in deontological rules, believing they
+are plausible but less likely to be true than utilitarianism (30%).
+Since ethical theories are not flawless, often arriving at intuitively
+questionable conclusions, it is valuable to consider multiple
+perspectives when making moral decisions.</p>
+<p><strong>Living a good life can require a combination of insights from
+multiple moral theories.</strong> We often find ourselves balancing
+different kinds of deeds: creating pleasure for people, respecting
+autonomy, and adhering to societal moral norms. Abiding by a
+<em>reasonable pluralism</em> means accepting that moral guidance from
+different sources may conflict while still offering value.</p>
+<p><strong>In high-stakes moral decisions, such as in healthcare or AI
+design, reasonable pluralism alone may fall short.</strong> When a
+healthcare administrator faces the tough choice of allocating limited
+resources between hospitals, we might want them to seriously consider
+the ethics of what they are doing rather than just go with conflicting
+wisdom that seems reasonable at first glance. Therefore, we must think
+hard about how to make decisions under moral uncertainty–—seeking truth
+for crucial decisions is vital.</p>
+<p><strong>If AI is unable to account moral uncertainty, harmful
+outcomes are likely.</strong> As AI systems become increasingly
+advanced, they are likely to become better at optimising for the goals
+that we set them, finding more creative and powerful solutions to
+achieve these. However, if they pursue very narrowly specified goals,
+there is a risk that these solutions come at the expense of other
+important values that we failed to adequately include as part of their
+goals. Given that philosophers have not yet converged on a single
+consistent moral theory that can take account of all relevant arguments
+and intuitions, it seems important for us to design AI systems without
+encoding a false sense of certainty about moral issues that could lead
+to unintended consequences. To counter such problems, we need AI systems
+to recognize that a broad range of moral perspectives might be valid—in
+other words, we need AI systems to acknowledge moral uncertainty. This
+presents another challenge: how should we rationally balance the
+recommendations of different ethical theories? This is the question of
+moral uncertainty.</p>
+<h2 id="how-should-we-approach-moral-uncertainty">How Should We Approach
+Moral Uncertainty?</h2>
+<p><strong>There are several potential solutions to moral
+uncertainty.</strong> Faced with ethical uncertainty, we can turn to
+systematic approaches, using our estimates of how theories judge
+different actions and how likely these theories are. This section
+explores three potential solutions to moral uncertainty. The first is
+adopting a favored moral theory that aligns with personal beliefs
+(<em>My Favorite Theory</em>). The second is aiming for the highest
+average moral value by calculating the expected choice-worthiness of
+each option (<em>Maximize Expected Choice-Worthiness</em>). The third is
+treating the decision as a negotiation in a parliament, considering
+multiple moral views to find a mutually acceptable solution (<em>Moral
+Parliament</em>).<br />
+Consider whether we should we lie to save a life. Imagine that a
+notorious murderer asks Alex where his friend, Jordan, is. Alex knows
+that revealing Jordan’s location will likely lead to his friend’s death,
+while lying would save Jordan’s life. However, lying is morally
+questionable. Alex must decide which action to take. He is unsure, and
+considers the recommendations of the three moral theories he has some
+credence in: utilitarianism, deontology, and contractarianism. Alex
+thinks utilitarianism, which values lying to save a life highly, is the
+most likely to be true: he has 60% credence in it. Deontology, which
+Alex has 30% credence in, strongly disapproves of lying, even to save a
+life, and contractarianism, which Alex has 10% credence in, moderately
+approves of lying in this situation. This information is represented in
+Table <a href="#tab:lying" data-reference-type="ref"
+data-reference="tab:lying">1</a>.<br />
+</p>
+<div id="tab:lying">
+<table>
+<caption>Lying to save a life.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Utilitarianism</th>
+<th style="text-align: center;">Deontology</th>
+<th style="text-align: center;">Contractarianism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">What is Alex’s estimate of the chance this
+theory is true</td>
+<td style="text-align: center;">60%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">10%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Does this theory like lying to save a
+life?</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Under My Favorite Theory (MFT), Alex would pick whatever
+utilitarianism recommends.</strong> Alex thinks that utilitarianism is
+the most likely to be true. The MFT approach is to follow the
+prescription of the theory we believe is the closest to a moral truth.
+Intuitively, many people do this already when thinking about morality.
+The advantage of MFT is its simplicity: it is relatively simple and
+straightforward to implement. It does not require complex calculations
+or a detailed understanding of different moral perspectives. This
+approach can be useful when the level of moral uncertainty is low, and
+it is clear which theory or option is the best choice.</p>
+<p><strong>However, following MFT can lead to harmful single-mindedness
+or overconfidence.</strong> It can be difficult to put aside personal
+biases or to recognize when one’s own moral beliefs are fallible
+(individuals tend to defend and rationalize their chosen theories). The
+key issue with MFT is that it can discard relevant information, such as
+when the credences in two theories are close, but their judgments of an
+action vastly differ <span class="citation"
+data-cites="lloyd2022property"></span>. Imagine having 51% credence in
+contractarianism, which mildly supports lying to save a life, and 49%
+credence in Deontology, which views it as profoundly immoral. MFT
+suggests following the marginally favored theory, even though the
+potential harm, according to the second theory, is much larger. This
+seems counterintuitive, indicating that MFT might not always provide the
+most sensible approach for navigating moral uncertainty.</p>
+<p><strong>Maximize Expected Choice-Worthiness (MEC) gives us a
+procedure to follow.</strong> MEC tells us that to determine how to act,
+we need to do the following two things:</p>
+<ol>
+<li><p><strong>Determine choice-worthiness.</strong> Choice-worthiness
+is a measure of the overall desirability or value of an option—in this
+context, it is how morally good a choice is. This is an expression of
+the size of the moral value of an action. We can represent the
+choice-worthiness of an action as a number. For instance, we might think
+that under utilitarianism, the choice-worthiness of murder could be
+-1000, of littering could be -2, of helping an old lady cross the street
+could be +10, and of averting existential risk could be +10000.</p></li>
+<li><p><strong>Multiply choice-worthiness by credence.</strong> We can
+consider the average choice-worthiness of an action, weighted by how
+likely we think each theory is to be true. This gives us a sense of our
+best guess of the average moral value of an action, much like how we
+considered expected utility when discussing utilitarianism. Table 11 has
+each theory’s choice-worthiness value for lying to save a life. As
+before, utilitarianism highly values lying to save a life (+500),
+deontology strongly disapproves of it (-1000), and contractualism
+moderately approves of it (+100). In the row beneath these values are
+the credence probability-weighted judgments for Alex. The total
+calculation is</p></li>
+</ol>
+<p><span class="math display">$$\frac{60}{100} \cdot 500 +
+\frac{30}{100} (-1000) + \frac{10}{100} \cdot 10 = 300 - 300 + 10 =
+10$$</span></p>
+<p>Under MEC, Alex would choose to lie, because given Alex’s credence in
+each moral theory and his determination of how each moral theory judges
+lying to save a life, lying has a higher expected choice-worthiness.
+Alex would lie because he judges that, on average, lying is the best
+possible action.<br />
+</p>
+<div id="tab:lying-2">
+<table>
+<caption>Lying to save a life.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Utilitarianism</th>
+<th style="text-align: center;">Deontology</th>
+<th style="text-align: center;">Contractarianism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">What is Alex’s estimate of the chance this
+theory is true</td>
+<td style="text-align: center;">60%</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">10%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">How much does this theory like lying to
+save a life</td>
+<td style="text-align: center;">+500</td>
+<td style="text-align: center;">-1000</td>
+<td style="text-align: center;">+100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">What is the probability-weighted
+judgement?</td>
+<td style="text-align: center;">+300</td>
+<td style="text-align: center;">-300</td>
+<td style="text-align: center;">+ 10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>MEC gives us a way of balancing both how likely we think each
+theory is with how much each theory cares about our actions.</strong> We
+can see that utilitarianism and deontology’s relative contributions to
+the total moral value cancel out, and we are left with an overall “+10”
+in favor of lying to save a life. This calculation tells us that—–when
+accounting for how likely Alex thinks each theory is to be true and how
+strong the theories’ preferences over his actions are—–Alex’s best guess
+is that this action is morally good. (Although, since these numbers are
+rough and the final margin is quite thin, we would be wary of being
+overconfident in this conclusion: the numbers do not necessarily
+represent anything true or precise.) MEC has distinct advantages. For
+instance, unlike MFT, we ensure that we avoid actions that we think are
+probably fine but might be terrible, since large negative
+choice-worthiness from some theories will outweigh small positives from
+others. This is a sensible route to take in the face of moral
+uncertainty.</p>
+<p><strong>However, MEC faces challenges when comparing
+theories.</strong> While some cases are neatly solved by MEC, its
+philosophical foundations are questionable. Our assignment of
+choice-worthiness can be arbitrary: virtue ethics, for instance, advises
+acting virtuously without clear guidelines. MEC is unable to deal with
+‘ordinal’ theories that only rank actions by their moral value rather
+than explicitly judging how morally right or wrong they are, making it
+difficult to determine choice-worthiness. Absolutist theories, like
+extreme Kantian ethics, deem certain actions absolutely wrong. We had
+initially assigned -1000 for the value of lying to save a life for a
+deontologist; it is unclear what we could put that would capture such an
+absolutist view. If we considered this to be infinitely bad, which seems
+like an accurate representation of the view, then it would overwhelm any
+other non-absolutist theory. Even if we think it is simply very large,
+these firm stances can be more forceful than other ethical viewpoints,
+despite ascribing a low probability to the theory’s correctness. This is
+because even a small percentage of a large value is still meaningfully
+large; consider that 0.01% of 1,000,000 is still 100 — a figure that may
+outweigh other theories we deem more probable.</p>
+<p><strong>Following a moral parliament approach, Alex could consider
+the proposal to lie more thoroughly and make a considered
+decision.</strong> In the moral parliament, imagined delegates
+representing different moral theories negotiate to find the best
+solution. In Alex’s moral parliament, there would be 60 utilitarian
+delegates, 30 deontological delegates, and 10 contractarian
+delegates–—numbers proportional to his credence in each theory. These
+delegates would negotiate and then come to a final decision by voting.
+Drawing inspiration from political systems, the moral parliament allows
+an agent to find flexible recommendations that enable compromises among
+plausible theories.<br />
+Depending on the voting rule, moral parliament can lead to different
+outcomes. In a conventional setting with majority rule, the utilitarians
+in Alex’s moral parliament would always be able to push through their
+decisions. To avoid such outcomes, philosophers recommend using
+<em>proportional chances voting</em>. Here, an action is taken with a
+probability equal to its vote-share: in this case, if no one changed
+their mind, then the outcome of the parliament would recommend with 70%
+probability that Alex lie and with 30% probability that he tells the
+truth, since only the 30 deontological delegates would vote against this
+proposal. This encourages negotiation even if there is already a
+majority, which naturally leads to more cooperative outcomes. This is a
+more intuitive approach than, for instance, assigning choice-worthiness
+values and multiplying things out, even if it does take more
+effort.<br />
+<strong>However, it is difficult to see what a moral parliament might
+recommend.</strong> We can envision a variety of different possible
+outcomes in Alex’s case. We might have the simple outcome described
+above, where no one changes their mind. Or, we might think that the
+deontologists can convince the contractualists that lying is bad in this
+case because lying would not be tolerated behind the veil of ignorance,
+reducing the chance of lying to 60%. Or, the parliament might even
+propose something entirely new, such as a compromise in which Alex does
+not explicitly lie but simply omits the truth. All of these are
+reasonable—it is difficult to choose between them.</p>
+<p><strong>The outcome of the moral parliament is not determined
+externally.</strong> Instead, it is a matter of our imagination, subject
+to our biases. Often, individuals resist imagining things that
+contradict our preconceived notions. This means that moral parliament
+may not be very helpful for individuals thinking about what is right to
+do in practice. With enough resources, however, we might be able to
+simulate model parliaments to recommend such decisions for us, such as
+by hiring diplomats to represent moral positions and having them
+bargain—or by assigning moral views to multiple AI systems and having
+them come to a collective decision.</p>
+<h3 id="conclusions-about-moral-uncertainty">Conclusions about Moral
+Uncertainty</h3>
+<p><strong>Taking moral uncertainty into account is difficult but
+important.</strong> As AI systems become increasingly embedded across
+various part of society and take more consequential decisions, it will
+become more important to ensure that they can handle moral uncertainty.
+The same AI systems may be used by a wide variety of people with
+different moral theories, who would demand that AI acts as far as
+possible in ways that do not violate their moral views. Incorporating
+moral uncertainty into AI decision-making could reduce the probability
+of taking actions that are seriously wrong under some moral
+theories.<br />
+In this section, we explored ways of moving beyond intuitive judgments
+or a reasonable pluralism of theories, examining three solutions to
+moral uncertainty: my favorite theory, maximize expected
+choice-worthiness, and moral parliament. Each approach has its strengths
+and limitations, with the choice depending on the situation, level of
+uncertainty, and personal preferences.<br />
+It is important to recognize that there might not be a one-size-fits-all
+solution to ethical dilemmas. As AI technology progresses, we should
+establish methods for addressing moral uncertainty, such as including
+diverse moral perspectives and quantifying uncertainty.</p>
+<h1 id="summary-1">Summary</h1>
+<p>Ethics is the study of moral principles and how they guide our
+decisions and actions. It encompasses questions of right and wrong, and
+it provides a framework for making choices based on our values and
+beliefs. It is important for AI researchers to have a basic
+understanding of ethics in order to ethically guide the development and
+governance of AI systems.<br />
+We examined a number of considerations that commonly enter into moral
+decision making. Intrinsic goods, like wellbeing, are valuable for their
+own sake. Consequentialist moral theories consider the maximization of
+intrinsic goods to be our principle moral responsibility.
+Utilitarianism, a form of consequentialism, is the view that we should
+maximize wellbeing.<br />
+Constraints also play a role in moral decision making. Constraints are
+the basis of many deontological theories. Kant’s ethics categorically
+constrains actions and is derived from the respect for humanity’s
+rational autonomy.<br />
+Virtue ethics focuses on the importance of developing certain character
+traits rather than solely considering consequences or specific rules.
+Aristotelian virtue ethics links virtue with flourishing; living a good
+life is intertwined with possessing virtuous traits.</p>
+<p>Rawls’ ethics, prioritarianism, and contractualism are all forms of
+social contract theory. Social contract theory suggests that morality
+can be derived from hypothetical agreements between members of society,
+made for everyone’s mutual benefit. Rawls proposes that decisions about
+a social contract should be made behind a veil of ignorance, where
+individuals are unaware of their personal attributes. From this
+position, principles such as protecting the worst-off, ensuring basic
+liberties for all, and limiting inequality can potentially be
+argued.</p>
+<p>As discussed in the chapter on Machine Ethics, we need to ensure that
+AIs behave ethically towards others. As AIs have increasing influence
+over society and act more autonomously, it will become important that
+they are able to detect situations where the moral principles apply,
+assess how to apply the moral principles, evaluate the moral worth of
+candidate actions, select and carry out actions appropriate for the
+context, monitor the success or failure of the actions, and adjust
+responses accordingly. Ideally, AIs would be designed to take into
+account many of the ethical concepts introduced in this chapter.
+Examples of desirable abilities from this perspective might include: -
+representing various purported intrinsic goods, including pleasure,
+autonomy, the exercise of reason, knowledge, friendship, love, and so on
+- distinguishing between subtly different levels of these goods, and
+ensuring that the AI’s value functions are not vulnerable to optimizers
+- representing more than just intrinsic goods, for example legal systems
+and normative factors including special obligations and deontological
+constraints</p>
+<p><strong>Because there is no consensus about which moral theory (if
+any) is correct, we must accommodate some degree of moral
+uncertainty.</strong> To navigate moral uncertainty, we might consider
+multiple perspectives when making moral decisions. In the context of AI
+development, moral uncertainty becomes especially significant due to the
+wide-ranging societal implications of AI systems. Designers and
+developers of AI technologies must carefully consider the ethical and
+moral implications of their actions and ensure that ethical
+considerations are integrated into the development process.</p>
+<p><strong>Being aware of moral uncertainty can help AI developers avoid
+negative outcomes.</strong> Uncertainty highlights complexity of moral
+judgments and the potential for unexpected consequences. To address
+moral uncertainty effectively, AI systems should be capable of
+recognizing and acknowledging a broad range of moral perspectives. This
+presents challenges in determining how to rationally balance the
+recommendations of different ethical theories and ensure alignment with
+human values.<br />
+There is no known solution to all ethical dilemmas, and the choice of
+approach may depend on context, the level of uncertainty, and personal
+preferences. It is crucial to incorporate diverse moral perspectives,
+quantify uncertainty, and employ strategies like maximizing expected
+choice-worthiness and moral parliament. By doing so, we can work to
+ensure AI systems act in accordance with our values and mitigate
+unintended harm.</p>
