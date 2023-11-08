@@ -1,0 +1,59 @@
+<h1 id="chap:safety-engineering">Safety Engineering</h1>
+<p>In developing an AI safety strategy, it might be tempting to draw
+parallels with other hazardous technologies, from airplanes to nuclear
+weapons, and to devise analogous safety measures for AI. However, while
+we can learn lessons from accidents and safety measures in other
+spheres, it is important to recognize that each technology is unique,
+with its own specific set of applications and risks. Attempting to map
+safety protocols from one area onto another might therefore prove
+misleading, or leave gaps in our strategy where parallels cannot be
+drawn.<br />
+Instead of relying on analogies, we need a more general framework for
+safety, from which we can develop a more comprehensive approach,
+tailored to the specific case in question. A good place to start is with
+the field of safety engineering: a broad discipline that studies all
+sorts of systems and provides a paradigm for avoiding accidents
+resulting from them. Researchers in this field have identified
+fundamental safety principles and concepts that can be flexibly applied
+to novel systems.<br />
+We can view AI safety as a special case of safety engineering concerned
+with avoiding AI-related catastrophes. To orient our thinking about AI
+safety, this chapter will discuss key concepts and lessons from safety
+engineering.</p>
+<p><strong>Risk decomposition and measuring reliability.</strong> To
+begin with, we will look at how we can quantitatively assess and compare
+different risks using an equation involving two factors: the probability
+and severity of an adverse event. By further decomposing risk into more
+elements, we will derive a detailed risk equation, and show how each
+term can help us identify actions we can take to reduce risk. We will
+also introduce a metric that links a system’s reliability to the amount
+of time we can expect it to function before failing. For accidents that
+we would not be able to recover from, this expected time before failure
+amounts to an expected lifespan.</p>
+<p><strong>Safe design principles and component failure accident
+models.</strong> The field of safety engineering has identified multiple
+“safe design principles” which can be built into a system to robustly
+improve its safety. We will describe these principles and consider how
+they might be applied to systems involving AI. Next, we will outline
+some traditional techniques for analyzing a system and identifying the
+risks it presents. Although these methods can be useful in risk
+analysis, they are insufficient for complex and sociotechnical systems,
+as they rely on assumptions that are often overly simple.</p>
+<p><strong>Systemic factors and systemic accident models.</strong> After
+exploring the limitations of component failure accident models, we will
+show that it can be more effective to address overarching systemic
+factors than all the specific events that could directly cause an
+accident. We will then describe some more holistic approaches to risk
+analysis and reduction. These are better suited to complex systems,
+which we look at in more detail in the next chapter.</p>
+<p><strong>Tail events and black swans.</strong> In the final sections
+of this chapter, we will introduce the concept of tail events—events
+characterized by high impact and low probability—and show how they
+interfere with standard methods of risk estimation. We will also look at
+a subset of tail events called black swans, or unknown unknowns, which
+are tail events that are largely unpredictable. We will discuss how
+emerging technology, including AI, might entail a risk of tail events
+and black swans, and we will show how we can reduce those risks, even if
+we do not know their exact nature.<br />
+</p>
+<div class="refsection">
