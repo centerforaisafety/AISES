@@ -1,0 +1,141 @@
+<h1 id="safety-and-general-capabilities">Safety and General
+Capabilities</h1>
+<p>While more capable AI systems can be more reliable, they can also be
+more dangerous. Often, though not always, safety and general
+capabilities are hard to disentangle. Because of this interdependence,
+it is important for researchers aiming to make AI systems safer to
+carefully avoid increasing risks from more powerful AI systems.</p>
+<p><strong>General capabilities.</strong> Research developments are
+interconnected. Though researchers may work on specialized, delimited
+problems, their discoveries may have much wider ranging effects. For
+example, work that improves accuracy of image classifiers on the
+ImageNet benchmark often has downstream effects on other image tasks,
+including image segmentation and video understanding. Scaling language
+models so that they become better at next token prediction on a
+pre-training dataset also improves performance on tasks like question
+answering and code completion. We refer to these kinds of capabilities
+as general capabilities, because they are good indicators for how well a
+model is able to perform at a wide range of tasks. Examples of general
+capabilities include data compression, executing instructions,
+reasoning, planning, researching, optimization, sequential decision
+making, recursive self-improvement, models using the internet, and so
+on.</p>
+<p><strong>General capabilities have a mixed effect on safety.</strong>
+Systems that are more generally capable tend to make fewer mistakes. If
+the consequences of failure are dire, then advancing capabilities can
+reduce risk factors. However, as we discuss in the chapter, safety is an
+emergent property and cannot be reduced to a collection of metrics.
+Improving general capabilities may remove some hazards, but it does not
+necessarily make a system safer. For example, more accurate image
+classifiers make fewer errors, and systems that are better at planning
+are less likely to generate plans that fail or that are infeasible. More
+capable language models are better able to avoid giving harmful or
+unhelpful answers. When mistakes are harmful, more generally capable
+models may be safer. On the other hand, systems that are more generally
+capable can be more dangerous and exacerbate control problems. For
+example, AI systems with better reasoning capacity, could be better able
+to deceive humans, and AI systems that are better at optimizing proxies
+may be better at gaming those metrics. As a result, improvements in
+general capabilities may be overall detrimental to safety and hasten the
+onset of catastrophic risks.</p>
+<p><strong>Research on general capabilities is not the best way to
+improve safety.</strong> The fact that there can be correlations between
+safety and general capabilities does not mean that the best way to
+improve safety overall is to improve general capabilities. If
+improvements in general capabilities were the only thing necessary for
+adequate safety, then there would be no need for safety-specific
+research. Unfortunately, there are many risks, such as deceptive
+alignment, adversarial attacks, and Trojan attacks, which do not
+decrease or vanish with additional scaling. Consequently, targeted
+safety research is necessary.</p>
+<p><strong>Safety research can produce general capabilities
+externalities.</strong> In some cases, research aimed at improving the
+safety of models can increase general capabilities, which potentially
+hastens the onset of new hazards. For example, reinforcement learning
+from human feedback was originally developed to improve the safety of AI
+systems, but it also had the effect of making large language models more
+capable at completing various tasks specified by a user, indicating an
+improvement in general capabilities. Models trained to access external
+databases to reduce the risk that they output incorrect information may
+gain more knowledge or be able to reason over longer time windows than
+before, which results in an improvement in general capabilities.
+Research that greatly increases general capabilities is said to have
+high general <em>capabilities externalities</em>.</p>
+<p><strong>It is possible to disentangle safety from general
+capabilities.</strong> There are examples of safety being disentangled
+from general capabilities, so they are not inextricably bound. Many
+years of research on adversarial robustness of image classifiers has
+improved many different kinds of adversarial robustness without any
+corresponding improvements in overall accuracy. Likewise, improvements
+in transparency, anomaly detection, and Trojan detection have a track
+record of not improving general capabilities. To determine how a
+research goal affects general capabilities, it is important to
+empirically measure how a method affects safety metrics and capabilities
+metrics, as its impact is often not obvious beforehand.</p>
+<p><strong>Researchers should avoid general capabilities
+externalities.</strong> Because safety and general capabilities are
+interconnected, it is wholly insufficient to argue that one’s research
+reduces or eliminates a particular hazard. Many general capabilities
+reduce particular hazards. Rather, a holistic risk assessment is
+necessary, which requires incorporating empirical estimates for how the
+line of research increases general capabilities externalities. Research
+should aim to differentially improve safety; that is, reduce the overall
+level of risk compared to the most likely alternatives. This is called
+<em>differential technological development</em>, where we try to speed
+up the development of safety features and slow down the development of
+more dangerous features.</p>
+<p>To conclude, naive AI safety research may inadvertently increase some
+risks even while reducing others. While this section covered the risk of
+accelerating general capabilities, we can also take a more general
+lesson that research on safety may have unintended consequences and
+could even paradoxically reduce safety. Researchers should guard against
+this by empirically assessing the impact of their works on multiple risk
+sources, not just the one they aim to target.</p>
+
+Conclusion
+<h1 id="conclusion-1">Conclusion</h1>
+<p>In this chapter, we discussed several key themes: we do not know how
+to instill our values robustly in individual AI systems, we are unable
+to predict future AI systems, and we cannot reliably evaluate AI
+systems. We now discuss each in turn.</p>
+<p><strong>We do not know how to instill our values robustly in
+individual AI systems.</strong> It is difficult to perfectly capture our
+idealized goals in the proxies we use to train AIs. The problem begins
+with the learning setup. In gathering data to form a training set and in
+choosing quantitative proxies to optimize, we typically have to make
+compromises that can introduce bias and perpetuate harms or leave room
+for proxy gaming and adversarial exploits.<br />
+In particular, our proxies may be too simple, or the systems we use to
+supervise AIs may run into practical and physical limitations. As a
+result, there is a gap between proxies and idealized goals that
+optimizers can exploit or adversarially optimize against. If proxies end
+up diverging considerably from our idealized goals, we may end up with
+capable AI systems optimizing for goals contrary to human values.</p>
+<p><strong>We are unable to predict future AI systems.</strong> Emergent
+capabilities and behaviors mean that we cannot reliably predict the
+properties of future AI systems or even current AI systems. AIs can
+suddenly and dramatically improve on specific tasks without much
+warning, which leaves us little time to react if those changes are
+harmful.<br />
+Even when we are able to robustly specify our idealized goals, processes
+including mesa-optimization and intrinsification mean that trained AI
+systems can end up with emergent goals that conflict with these
+specifications. AI systems may end up operationally pursuing goals
+different to the ones we gave them and thus change their behaviors
+systematically over long time periods. This is further complicated by
+emergent social dynamics that arise from interacting AI systems
+(explored further in the chapter on Multi-Agent Dynamics).</p>
+<p><strong>We cannot reliably evaluate AI systems.</strong> AI systems
+may learn and be incentivized to deceive humans and other AIs, in which
+case their behavior stops being a reliable signal for their future
+behavior. In the limiting case, AI systems may cooperate until exceeding
+some threshold of power or capabilities, after which they defect and
+execute a treacherous turn. This might be less of a problem if we
+understood how AI systems’ internals work, but we currently lack the
+thorough knowledge we would need to break open these “black boxes” and
+look inside.<br />
+In conclusion, single-agent systems present significant and
+hard-to-mitigate threats that could result in catastrophic risks—even
+before the considerations of misuse, multi-agent systems, and arms race
+dynamics that we discuss in subsequent chapters.<br />
+</p>
