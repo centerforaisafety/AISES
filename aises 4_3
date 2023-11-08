@@ -1,0 +1,131 @@
+<h2 id="nines-of-reliability">Nines of Reliability</h2>
+<p>In the above discussion of risk evaluation, we have frequently
+referred to the probability of an adverse event occurring. When
+evaluating a system, we often instead refer to the inverse of this—the
+system’s reliability, or the probability that an adverse event will not
+happen, usually presented as a percentage or decimal. We can relate
+system reliability to the amount of time that a system is likely to
+function before failing. We can also introduce a new measure of
+reliability that conveys the expected time before failure more
+intuitively.</p>
+<p><strong>The more often we use a system, the more likely we are to
+encounter a failure.</strong> While a system might have an inherent
+level of reliability, the probability of encountering a failure also
+depends on how many times it is used. This is why, as discussed above,
+increasing exposure to a hazard will increase the associated level of
+risk. An autonomous vehicle, for example, is much more likely to make a
+mistake during a journey where it has to make 1000 decisions, than
+during a journey where it has to make only 10 decisions.<br />
+For a given level of reliability, we can calculate an expected time
+before failure. Imagine that we have several autonomous vehicles with
+different levels of reliability, as shown in Table <a
+href="#tab:nines-of-rel" data-reference-type="ref"
+data-reference="tab:nines-of-rel">[tab:nines-of-rel]</a>. Reliability is
+the probability that the vehicle will get any given decision correct.
+The second column shows the complementary probability: the probability
+that the AV will get any given decision wrong. The fourth column shows
+the number of decisions within which the AV is expected to make one
+mistake. This can be thought of as the AV’s expected time before
+failure.<br />
+</p>
+<figure id="fig:reliability-vs-time">
+<embed src="images/safety_engineering/nines.pdf" />
+<figcaption>System reliability vs expected time before
+failure</figcaption>
+</figure>
+<p><strong>Expected time before failure does not scale linearly with
+system reliability.</strong> We plot the information from the table in
+Figure <a href="#fig:reliability-vs-time" data-reference-type="ref"
+data-reference="fig:reliability-vs-time">1.2</a>. From looking at this
+graph, it is clear that the expected time before failure does not scale
+linearly with the system’s reliability. A 25% change increasing the
+reliability from 50% to 75%, for example, doubles the expected time
+before failure. However, a 9% change increasing the reliability from 90%
+to 99% causes a ten-fold increase in the expected time before failure,
+as does a 0.9% increase from 99% to 99.9%.<br />
+The closer we get to 100% reliability, the more valuable any given
+increment of improvement will be. However, as we get closer to 100%
+reliability, we can generally expect that an increment of improvement
+will become increasingly difficult to obtain. This is usually true
+because it is hard to perfectly eliminate the possibility of any adverse
+event. Additionally, there may be risks that we have not considered.
+These are called unknown unknowns and will be discussed extensively
+later in this chapter.<br />
+<strong>A system with 3 “nines of reliability” is functioning 99.9% of
+the time.</strong> As we get close to 100% reliability, it gets
+inconvenient to use long decimals to express how reliable a system is.
+The third column in table <a href="#tab:nines-of-rel"
+data-reference-type="ref"
+data-reference="tab:nines-of-rel">[tab:nines-of-rel]</a> gives us
+information about a different metric: the nines of reliability <span
+class="citation" data-cites="Tao2021"></span>. Informally, a system has
+nines of reliability equal to the number of nines at the beginning of
+its decimal or percentage reliability. One nine of reliability means a
+reliability of 90% in percentage terms or 0.9 in decimal terms. Two
+nines of reliability mean 99%, or 0.99. We can denote a system’s nines
+of reliability with the letter <span
+class="math inline"><em>k</em></span>; if a system is 90% reliable, it
+has one nine of reliability and so <span
+class="math inline"><em>k</em> = 1</span>; if it is 99% reliable, it has
+two nines of reliability, and so <span
+class="math inline"><em>k</em> = 2</span>. Formally, if <span
+class="math inline"><em>p</em></span> is the system’s reliability
+expressed as a decimal, we can define <span
+class="math inline"><em>k</em></span>, the nines of reliability a system
+possesses, as:<br />
+<span
+class="math display"><em>k</em> =  − log<sub>10</sub>(1−<em>p</em>).</span></p>
+<figure>
+<embed src="images/safety_engineering/log_nines.pdf"
+style="width:8cm" />
+<figcaption>Nines of reliability vs<br />
+expected time before failure</figcaption>
+</figure>
+<p><strong>Adding a ‘9’ to reliability gives a tenfold increase in
+expected time before failure.</strong> If it is 99% reliable, it has a
+1% probability of failure. If it is 99.9% reliable, it has a 0.1%
+probability of failure. Therefore, adding another consecutive 9 to the
+reliability corresponds to a tenfold reduction in risk, and therefore a
+tenfold increase in the expected time before failure, as we can see in
+the graph. This means that the relationship between system reliability
+and expected time before failure is not linear. However, the
+relationship between nines of reliability and the logarithm of expected
+time before failure is linear. Note that if we have a system where a
+failure would mean permanent societal-scale destruction, then the
+expected time before failure is essentially the <em>expected
+lifespan</em> of human civilization. Increasing such a system’s
+reliability by one nine would cause a ten-fold increase in the expected
+lifespan of human civilization.</p>
+<p><strong>The nines of reliability metric can provide a relatively
+intuitive sense of the difference between various levels of
+reliability.</strong> Looking at the table, we can think of this metric
+as a series of levels, where going up one level means a tenfold increase
+in expected time before failure. For example, if a system has four nines
+of reliability, we can expect it to last 100 times longer before failing
+than if it has two. This is an advantage of using the nines of
+reliability: thinking logarithmically can give us a better understanding
+of the actual value of an improvement than if we say we’re improving the
+reliability from 0.99 to 0.9999. In the latter case, the numbers begin
+to look the same, but, in terms of expected time before failure, this
+improvement is actually more meaningful than going from 0.4 to 0.8.</p>
+<p><strong>The nines of reliability are only a measure of probability,
+not risk.</strong> In the framing of the classic risk equation, the
+nines of reliability only contain information about the probability of a
+failure, not about what its severity would be. This metric is therefore
+incomplete for evaluating risk. If an AI has three nines of reliability,
+for example, we know that it is expected to make 999 out of 1000
+decisions correctly. However, three nines of reliability tells us
+nothing about how much damage the agent will do if it makes an incorrect
+decision, so we cannot calculate the risk involved in using the system.
+A game playing AI will present a lot less risk than an autonomous
+vehicle even if both systems have three nines of reliability.</p>
+<p><strong>Summary.</strong> A system’s nines of reliability indicate
+the number of consecutive nines at the beginning of its percentage or
+decimal reliability. An additional nine of reliability represents a
+reduction of probability of failure by a factor of 10, and thus a
+tenfold increase of expected time before failure. Nines of reliability
+tell us about the probability of an accident, but do not contain any
+information about the severity of an accident, and can therefore not be
+used alone to calculate risk. In the case of a risk of ruin, an
+additional nine of reliability means a tenfold increase in expected
+lifespan.</p>
