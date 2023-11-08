@@ -1,0 +1,157 @@
+<h1 id="motivation">Motivation</h1>
+<h3 id="introduction">Introduction</h3>
+<p>In the chapters “Complex Systems” and “Safety Engineering,” we
+considered AI risks that arise not only from the technologies themselves
+but from the broader social contexts in which they are embedded. In this
+chapter, we extend our exploration of these systemic risks by exploring
+how the collective behavior of a <em>multi-agent system</em> may not
+reflect the interests of the agents that comprise it. The agents may
+produce conditions that none of them wants, even when every one of them
+has the same goals and priorities. In the words of economics Nobel
+laureate Thomas Schelling, “Micromotives do not equal macrobehavior.”
+<span class="citation" data-cites="Schelling1978MicromotivesAM"></span>.
+Let us explore this idea using some examples.</p>
+<p><strong>Traffic jams.</strong> Consider a traffic jam, where the only
+obstacle to each motorist is the car in front. Everyone has the same
+goal, which is to reach their destination quickly. Since nobody wants to
+be stuck waiting, the solution might appear obvious to someone
+unfamiliar with traffic: everyone should simply drive forward, starting
+at the same time and accelerating at the same rate. And yet, without
+external synchronization, achieving this preferable state is impossible.
+All anyone can do is start and stop in response to each others’ starting
+and stopping, inching towards their destination slowly and
+haltingly.</p>
+<p><strong>Tall forests.</strong> In the Rockefeller forest of Northern
+California, the trees are more than 350 feet tall, on average. We can
+model these trees as agents competing for sunlight access. The taller a
+tree is, the more sunlight it can access, as its leaves are above its
+neighbors’. However, there is no benefit to being tall other than
+avoiding being overshadowed by other trees. In fact, growing so tall
+costs each tree valuable resources and risks their structural integrity
+failing. If all the trees were 200 feet shorter, each tree would occupy
+the same position in the competition as before and each would get the
+same amount of sunlight as before, but with greatly reduced growing
+costs. All the trees would profit from this arrangement. However, as
+there is no way to impose such an agreement between the trees, each
+races its neighbor ever higher, and all pay the large costs of growing
+so tall.</p>
+<p><strong>Excessive working hours.</strong> Many people work far longer
+hours than they might ideally like to, at the expense of their health
+and their other interests. The usual motivation for this behavior is
+competition for resources that require a high level of income in order
+to access. For example, where higher-quality housing is limited, people
+might compete for the best-paying jobs by working long hours, or they
+might supplement their income by working multiple jobs. In theory, if
+everyone competing for these resources were to halve their work hours,
+they could free up time and increase their quality of life while
+maintaining their relative position in the competition: each person
+would get the housing quality they would have otherwise, and everyone
+would benefit from this freed-up time and improved health. Yet no one
+does this, because if they alone were to decrease their work efforts,
+they would be out-competed by others who did not.</p>
+<p><strong>Military arms races.</strong> Like tree height and work
+hours, the major benefit of military power is not intrinsic, but
+relative: being less militarily capable than their neighbors makes a
+nation vulnerable to invasion. This competitive pressure drives nations
+to expend vast sums of money on their military budgets each year,
+reducing each nation’s budgets for other areas, such as healthcare and
+education. Some forms of military investment, such as nuclear weaponry
+and military AI applications, also exacerbate the risks of large-scale
+catastrophes. If every nation were to decrease its military investment
+by the same amount, everyone would benefit from the reduced expenses and
+risks without anyone losing their relative power. However, this
+arrangement is not stable, since each nation could improve its security
+by ensuring its military power exceeds that of its competitors, and each
+risks becoming vulnerable if it alone fails to do this. Military
+expenditure therefore remains high in spite of these seemingly avoidable
+costs.</p>
+<p><strong>Competitive and evolutionary pressures.</strong> The same
+basic structure underlies most of these examples, as follows<span
+class="citation" data-cites="alexander2016meditations"></span>. A group
+of agents is engaged in a competition over a valuable and limited item
+(sunlight access, housing quality, military security). One way an agent
+can gain more of this valuable item is by sacrificing some of their
+other values (energy for growth, social life, an education budget).
+Agents who do not make these sacrifices are outcompeted by those who do.
+Natural selection weeds out those who do not sacrifice their other
+values sufficiently, replacing them with agents who sacrifice more,
+until the competition is dominated by those agents who sacrificed the
+most. These agents gain no more of the valued item they are competing
+for than did the original group, yet are worse off for the losses of
+their other values.<br />
+We can imagine this process as a never-ending race between 100 runners.
+The runners are competing for rank order (their position relative to the
+other runners - 1st, 2nd, 3rd etc). One day, one of the runners has an
+idea: she realizes that she could improve her ranking by dropping her
+water bottle to reduce her weight. She does this, and so manages to
+overtake some of those ahead of her. Once these runners realize what she
+did, they follow suit, soon overtaking her as well as some of those
+previously ahead of them. The process continues until the original rank
+order is reestablished, but now all the runners must continue running
+without the ability to rehydrate. Later, another runner realizes that he
+can improve his ranking by discarding his clothes to become more
+aerodynamic. Though this is embarrassing and uncomfortable in the cold
+air, he does this and thus moves forward up through the ranks. Other
+runners then follow suit, and ultimately the original order is restored,
+but now all the runners are cold and embarrassed, as well as dehydrated.
+Each time this process occurs, the agents all ultimately end up with the
+same rankings relative to each other, but their absolute wellbeing has
+reduced.</p>
+<p><strong>Steering each agent <span class="math inline">≠</span>
+steering the system.</strong> These phenomena hint at the distinct
+challenges of ensuring safety in multi-agent systems. The danger posed
+by a collective of agents is greater than the sum of its parts. AI risk
+cannot be eradicated by merely ensuring that each individual AI agent is
+loyal and each individual human operator is well-intentioned. Even if
+all agents, both human and AI, share a common set of goals, this does
+not guarantee macrobehavior in line with these goals. The agents’
+<em>interactions</em> can produce undesirable outcomes.</p>
+<p><strong>Chapter focus.</strong> In this chapter, we use abstract
+models to understand how intelligent agents can, despite acting
+rationally and in accordance with their own self-interest, collectively
+produce outcomes that none of them wants, even when they could seemingly
+have achieved preferable alternative outcomes. We can characterize these
+risks by crudely differentiating them into the following two sets:</p>
+<ul>
+<li><p><strong>Multi-human dynamics.</strong> These risks are generated
+by interactions between the human agencies involved in AI development
+and adoption, particularly corporations and nations. The central concern
+here is that competitive and evolutionary pressures could drive humanity
+to hand over increasing amounts of power to AIs, thereby becoming a
+“second-class species.” The frameworks we explore in this chapter are
+highly abstract and can be useful in thinking more generally about the
+current AI landscape.</p>
+<p>Of particular importance are “AI races.” We see these in the
+corporate world, where AI developers are cutting corners on safety in
+order to avoid being outcompeted by one another. We also see these in
+international relations, where nations are racing each other to adopt
+dangerous military AI applications. By observing AI races, we can
+anticipate that merely persuading these parties that their actions are
+high-risk may not be sufficient for ensuring that they act more
+cautiously, because they may be willing to tolerate high risk levels in
+order to “stay in the race.” For example, nations may chose to continue
+investing in military AI technologies that could fail in catastrophic
+ways, if abstaining from doing so risks losing international
+conflict.</p></li>
+<li><p><strong>Multi-AI dynamics.</strong> These risks are generated by
+interactions with and between AI agents. In the future, we expect that
+AIs will increasingly be granted autonomy in their behavior, and will
+therefore interact with others under progressively less human oversight.
+This poses risks in at least three ways. First, evolutionary pressures
+may promote selfish and deceptive behavior, as well as generating
+various forms of intrasystem conflict that could subvert our goals.
+Second, many of the mechanisms by which AI agents may cooperate with one
+another could promote undesirable behaviors, such as nepotism, outgroup
+hostility, and the development of ruthless reputations. Third, AIs may
+engage in conflict, using threats of extreme scale in order to extort
+others, or even promoting all-out warfare, with devastating
+consequences.</p></li>
+</ul>
+<p>We explore both of the above sets of multi-agent risks using
+generalizable frameworks from game theory, evolutionary theory, and
+bargaining theory. These frameworks help us understand the collective
+dynamics that can lead to outcomes that were not intended or desired by
+anyone individually. Even if AI systems are fully under human control
+and leading actors such as corporations and states are well-intentioned,
+humanity could still end up eroding away our power gradually until it
+cannot be recovered.</p>
