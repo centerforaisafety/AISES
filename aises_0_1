@@ -1,3 +1,9 @@
+<style>
+    p {
+        margin: 1em 0;
+    }
+</style>
+
 Preface
 <h1 class="unnumbered" id="preface">Preface</h1>
 <p>Artificial Intelligence (AI) is rapidly embedding itself within
