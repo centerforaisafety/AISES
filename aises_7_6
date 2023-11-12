@@ -1,0 +1,71 @@
+<h1 id="conlusion-1">Conclusion</h1>
+<p>Ethics is the study of moral principles and how they guide our
+decisions and actions. It encompasses questions of right and wrong, and
+it provides a framework for making choices based on our values and
+beliefs. It is important for AI researchers to have a basic
+understanding of ethics in order to ethically guide the development and
+governance of AI systems.<br />
+We examined a number of considerations that commonly enter into moral
+decision making. Intrinsic goods, like wellbeing, are valuable for their
+own sake. Consequentialist moral theories consider the maximization of
+intrinsic goods to be our principle moral responsibility.
+Utilitarianism, a form of consequentialism, is the view that we should
+maximize wellbeing.<br />
+Constraints also play a role in moral decision making. Constraints are
+the basis of many deontological theories. Kant’s ethics categorically
+constrains actions and is derived from the respect for humanity’s
+rational autonomy.<br />
+Virtue ethics focuses on the importance of developing certain character
+traits rather than solely considering consequences or specific rules.
+Aristotelian virtue ethics links virtue with flourishing; living a good
+life is intertwined with possessing virtuous traits.</p>
+<p>Rawls’ ethics, prioritarianism, and contractualism are all forms of
+social contract theory. Social contract theory suggests that morality
+can be derived from hypothetical agreements between members of society,
+made for everyone’s mutual benefit. Rawls proposes that decisions about
+a social contract should be made behind a veil of ignorance, where
+individuals are unaware of their personal attributes. From this
+position, principles such as protecting the worst-off, ensuring basic
+liberties for all, and limiting inequality can potentially be
+argued.</p>
+<p>As discussed in the chapter on Machine Ethics, we need to ensure that
+AIs behave ethically towards others. As AIs have increasing influence
+over society and act more autonomously, it will become important that
+they are able to detect situations where the moral principles apply,
+assess how to apply the moral principles, evaluate the moral worth of
+candidate actions, select and carry out actions appropriate for the
+context, monitor the success or failure of the actions, and adjust
+responses accordingly. Ideally, AIs would be designed to take into
+account many of the ethical concepts introduced in this chapter.
+Examples of desirable abilities from this perspective might include: -
+representing various purported intrinsic goods, including pleasure,
+autonomy, the exercise of reason, knowledge, friendship, love, and so on
+- distinguishing between subtly different levels of these goods, and
+ensuring that the AI’s value functions are not vulnerable to optimizers
+- representing more than just intrinsic goods, for example legal systems
+and normative factors including special obligations and deontological
+constraints</p>
+<p><strong>Because there is no consensus about which moral theory (if
+any) is correct, we must accommodate some degree of moral
+uncertainty.</strong> To navigate moral uncertainty, we might consider
+multiple perspectives when making moral decisions. In the context of AI
+development, moral uncertainty becomes especially significant due to the
+wide-ranging societal implications of AI systems. Designers and
+developers of AI technologies must carefully consider the ethical and
+moral implications of their actions and ensure that ethical
+considerations are integrated into the development process.</p>
+<p><strong>Being aware of moral uncertainty can help AI developers avoid
+negative outcomes.</strong> Uncertainty highlights complexity of moral
+judgments and the potential for unexpected consequences. To address
+moral uncertainty effectively, AI systems should be capable of
+recognizing and acknowledging a broad range of moral perspectives. This
+presents challenges in determining how to rationally balance the
+recommendations of different ethical theories and ensure alignment with
+human values.<br />
+There is no known solution to all ethical dilemmas, and the choice of
+approach may depend on context, the level of uncertainty, and personal
+preferences. It is crucial to incorporate diverse moral perspectives,
+quantify uncertainty, and employ strategies like maximizing expected
+choice-worthiness and moral parliament. By doing so, we can work to
+ensure AI systems act in accordance with our values and mitigate
+unintended harm.</p>
