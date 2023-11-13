@@ -5,6 +5,9 @@
     p {
         margin: 1em 0;
     }
+    br {
+        margin: 1em 0;
+    }
 </style>
 <body>
 <h1 id="introduction">Introduction</h1>
