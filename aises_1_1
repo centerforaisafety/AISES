@@ -22,7 +22,7 @@ accelerating.<p>
 <image src="https://drive.google.com/file/d/11_8QLJsVyEruOYO16zoAwF7qkSB_ROto/view?usp=sharing"> Figure 1.1 World production has grown rapidly over the course of human
 history. AI could further this trend, catapulting humanity into a new
 period of unprecedented change.
-<p>We can capture this trend quantitatively in , which shows how
+<p>We can capture this trend quantitatively in Figure 1.1, which shows how
 estimated gross world product has changed over time <span
 class="citation" data-cites="Roodman2020OnTP Davidson2021">[1],
 [2]</span>. The hyperbolic growth it depicts might be explained by the
@@ -118,7 +118,7 @@ complexity of AIs and the organizations developing them.</p></li>
 <li><p><strong>Rogue AIs</strong>: The problem of controlling a
 technology more intelligent than we are.</p></li>
 </ul>
-<p>These four sections—, , , and —describe causes of AI risks that are
+<p>These four sections Malicious Use, AI Races, Organizational Risks, and Rogue AI describe causes of AI risks that are
 <em>intentional</em>, <em>environmental/structural</em>,
 <em>accidental</em>, and <em>internal</em>, respectively <span
 class="citation" data-cites="Yampolskiy2016TaxonomyOP">[4]</span>. The
