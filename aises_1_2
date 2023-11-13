@@ -1,4 +1,12 @@
-<h1 id="sec:malicious"> 1.2 Malicious Use</h1>
+<style>
+    p {
+        margin: 1em 0;
+    }
+</style>
+
+</head>
+<body>
+<h1 id="sec:malicious">Malicious Use</h1>
 <p>On the morning of March 20, 1995, five men entered the Tokyo subway
 system. After boarding separate subway lines, they continued for several
 stops before dropping the bags they were carrying and exiting. An
@@ -9,7 +17,7 @@ each station. The fumes were spread at each stop, either by emanating
 from the tainted cars or through contact with people’s clothing and
 shoes. By the end of the day, 13 people lay dead and 5,800 seriously
 injured. The group responsible for the attack was the religious cult Aum
-Shinrikyo <span class="citation" data-cites="Olson1999AumSO"></span>.
+Shinrikyo <span class="citation" data-cites="Olson1999AumSO">[1]</span>.
 Its motive for murdering innocent people? To bring about the end of the
 world.<br />
 Powerful new technologies offer tremendous potential benefits, but they
@@ -51,7 +59,7 @@ in this section are only those we can foresee. It is possible that AIs
 could aid in the creation of dangerous new technology we cannot
 presently imagine, which would further increase risks from malicious
 use.</p>
-<h2 id="bioterrorism"> 1.2.1 Bioterrorism</h2>
+<h2 id="bioterrorism">Bioterrorism</h2>
 <p>The rapid advancement of AI technology increases the risk of
 bioterrorism. AIs with knowledge of bioengineering could facilitate the
 creation of novel bioweapons and lower barriers to obtaining such
@@ -72,17 +80,17 @@ engineered pandemics could be designed to be more lethal or easily
 transmissible than natural pandemics, presenting a new threat that could
 equal or even surpass the devastation wrought by history’s most deadly
 plagues <span class="citation"
-data-cites="esvelt2022delay"></span>.<br />
+data-cites="esvelt2022delay">[2]</span>.<br />
 Humanity has a long and dark history of weaponizing pathogens, with
 records dating back to 1320 BCE describing a war in Asia Minor where
 infected sheep were driven across the border to spread Tularemia <span
-class="citation" data-cites="Trevisanato2007TheP"></span>. During the
+class="citation" data-cites="Trevisanato2007TheP">[3]</span>. During the
 twentieth century, 15 countries are known to have developed bioweapons
 programs, including the US, USSR, UK, and France. Like chemical weapons,
 bioweapons have become a taboo among the international community. While
 some state actors continue to operate bioweapons programs <span
-class="citation" data-cites="us_state_department_2022"></span>, a more
-significant risk may come from non-state actors like Aum Shinrikyo,
+class="citation" data-cites="us_state_department_2022">[4]</span>, a
+more significant risk may come from non-state actors like Aum Shinrikyo,
 ISIS, or simply disturbed individuals. Due to advancements in AI and
 biotechnology, the tools and knowledge necessary to engineer pathogens
 with capabilities far beyond Cold War-era bioweapons programs will
@@ -94,20 +102,20 @@ is progressing rapidly and becoming more accessible.</h4>
 to a handful of the top scientists working in advanced laboratories.
 Today it is estimated that there are 30,000 people with the talent,
 training, and access to technology to create new pathogens <span
-class="citation" data-cites="esvelt2022delay"></span>. This figure could
-rapidly expand. Gene synthesis, which allows the creation of custom
-biological agents, has dropped precipitously in price, with its cost
-halving approximately every 15 months <span class="citation"
-data-cites="carlson_changing_2009"></span>. Furthermore, with the advent
-of benchtop DNA synthesis machines, access will become much easier and
-could avoid existing gene synthesis screening efforts, which complicates
-controlling the spread of such technology <span class="citation"
-data-cites="carter2023benchtop"></span>. The chances of a bioengineered
-pandemic killing millions, perhaps billions, is proportional to the
-number of people with the skills and access to the technology to
-synthesize them. With AI assistants, orders of magnitude more people
-could have the required skills, thereby increasing the risks by orders
-of magnitude.</p>
+class="citation" data-cites="esvelt2022delay">[2]</span>. This figure
+could rapidly expand. Gene synthesis, which allows the creation of
+custom biological agents, has dropped precipitously in price, with its
+cost halving approximately every 15 months <span class="citation"
+data-cites="carlson_changing_2009">[5]</span>. Furthermore, with the
+advent of benchtop DNA synthesis machines, access will become much
+easier and could avoid existing gene synthesis screening efforts, which
+complicates controlling the spread of such technology <span
+class="citation" data-cites="carter2023benchtop">[6]</span>. The chances
+of a bioengineered pandemic killing millions, perhaps billions, is
+proportional to the number of people with the skills and access to the
+technology to synthesize them. With AI assistants, orders of magnitude
+more people could have the required skills, thereby increasing the risks
+by orders of magnitude.</p>
 <h4
 id="ais-could-be-used-to-expedite-the-discovery-of-new-more-deadly-chemical-and-biological-weapons.">AIs
 could be used to expedite the discovery of new, more deadly chemical and
@@ -115,15 +123,15 @@ biological weapons.</h4>
 <p>In 2022, researchers took an AI system designed to create new drugs
 by generating non-toxic, therapeutic molecules and tweaked it to reward,
 rather than penalize, toxicity <span class="citation"
-data-cites="Urbina2022DualUO"></span>. After this simple change, within
-six hours, it generated 40,000 candidate chemical warfare agents
+data-cites="Urbina2022DualUO">[7]</span>. After this simple change,
+within six hours, it generated 40,000 candidate chemical warfare agents
 entirely on its own. It designed not just known deadly chemicals
 including VX, but also novel molecules that may be deadlier than any
 chemical warfare agents discovered so far. In the field of biology, AIs
 have already surpassed human abilities in protein structure prediction
-<span class="citation" data-cites="AlphaFold2021"></span> and made
+<span class="citation" data-cites="AlphaFold2021">[8]</span> and made
 contributions to synthesizing those proteins <span class="citation"
-data-cites="wu2019machine"></span>. Similar methods could be used to
+data-cites="wu2019machine">[9]</span>. Similar methods could be used to
 create bioweapons and develop pathogens that are deadlier, more
 transmissible, and more difficult to treat than anything seen
 before.</p>
@@ -134,19 +142,20 @@ bioterrorism. General-purpose AIs like ChatGPT are capable of
 synthesizing expert knowledge about the deadliest known pathogens, such
 as influenza and smallpox, and providing step-by-step instructions about
 how a person could create them while evading safety protocols <span
-class="citation" data-cites="Soice2023CanLL"></span>. Future versions of
-AIs could be even more helpful to potential bioterrorists when AIs are
-able to synthesize information into techniques, processes, and knowledge
-that is not explicitly available anywhere on the internet. Public health
-authorities may respond to these threats with safety measures, but in
-bioterrorism, the attacker has the advantage. The exponential nature of
-biological threats means that a single attack could spread to the entire
-world before an effective defense could be mounted. Only 100 days after
-being detected and sequenced, the omicron variant of COVID-19 had
-infected a quarter of the United States and half of Europe <span
-class="citation" data-cites="esvelt2022delay"></span>. Quarantines and
-lockdowns instituted to suppress the COVID-19 pandemic caused a global
-recession and still could not prevent the disease from killing millions
+class="citation" data-cites="Soice2023CanLL">[10]</span>. Future
+versions of AIs could be even more helpful to potential bioterrorists
+when AIs are able to synthesize information into techniques, processes,
+and knowledge that is not explicitly available anywhere on the internet.
+Public health authorities may respond to these threats with safety
+measures, but in bioterrorism, the attacker has the advantage. The
+exponential nature of biological threats means that a single attack
+could spread to the entire world before an effective defense could be
+mounted. Only 100 days after being detected and sequenced, the omicron
+variant of COVID-19 had infected a quarter of the United States and half
+of Europe <span class="citation"
+data-cites="esvelt2022delay">[2]</span>. Quarantines and lockdowns
+instituted to suppress the COVID-19 pandemic caused a global recession
+and still could not prevent the disease from killing millions
 worldwide.<br />
 In summary, advanced AIs could constitute a weapon of mass destruction
 in the hands of terrorists, by making it easier for them to design,
@@ -154,7 +163,7 @@ synthesize, and spread deadly new pathogens. By reducing the required
 technical expertise and increasing the lethality and transmissibility of
 pathogens, AIs could enable malicious actors to cause global catastrophe
 by unleashing pandemics.</p>
-<h2 id="unleashing-ai-agents">1.2.2 Unleashing AI Agents</h2>
+<h2 id="unleashing-ai-agents">Unleashing AI Agents</h2>
 <p>Many technologies are <em>tools</em> that humans use to pursue our
 goals, such as hammers, toasters, and toothbrushes. But AIs are
 increasingly built as <em>agents</em> which autonomously take actions in
@@ -191,26 +200,26 @@ humans. According to Google co-founder Larry Page, AIs are humanity’s
 rightful heirs and the next step of cosmic evolution. He has also
 expressed the sentiment that humans maintaining control over AIs is
 “speciesist” <span class="citation"
-data-cites="tegmark2018life"></span>. Jürgen Schmidhuber, an eminent AI
-scientist, argued that “In the long run, humans will not remain the
+data-cites="tegmark2018life">[11]</span>. Jürgen Schmidhuber, an eminent
+AI scientist, argued that “In the long run, humans will not remain the
 crown of creation... But that’s okay because there is still beauty,
 grandeur, and greatness in realizing that you are a tiny part of a much
 grander scheme which is leading the universe from lower complexity
 towards higher complexity” <span class="citation"
-data-cites="pooley2020"></span>. Richard Sutton, another leading AI
+data-cites="pooley2020">[12]</span>. Richard Sutton, another leading AI
 scientist, in discussing smarter-than human AI asked “why shouldn’t
 those who are the smartest become powerful?” and thinks the development
 of superintelligence will be an achievement “beyond humanity, beyond
 life, beyond good and bad” <span class="citation"
-data-cites="sutton_it_2022"></span>. He argues that “succession to AI is
-inevitable,” and while “they could displace us from existence,” “we
-should not resist succession” <span class="citation"
-data-cites="sutton_succession_2023"></span>.<br />
+data-cites="sutton_it_2022">[13]</span>. He argues that “succession to
+AI is inevitable,” and while “they could displace us from existence,”
+“we should not resist succession” <span class="citation"
+data-cites="sutton_succession_2023">[14]</span>.<br />
 There are several sizable groups who may want to unleash AIs to
 intentionally cause harm. For example, sociopaths and psychopaths make
 up around 3 percent of the population <span class="citation"
-data-cites="SanzGarca2021PrevalenceOP"></span>. In the future, people
-who have their livelihoods destroyed by AI automation may grow
+data-cites="SanzGarca2021PrevalenceOP">[15]</span>. In the future,
+people who have their livelihoods destroyed by AI automation may grow
 resentful, and some may want to retaliate. There are plenty of cases in
 which seemingly mentally stable individuals with no history of insanity
 or violence suddenly go on a shooting spree or plant a bomb with the
@@ -227,7 +236,7 @@ reasons that people might pursue this, whether because of a desire to
 cause harm, an ideological belief in technological acceleration, or a
 conviction that AIs should have the same rights and freedoms as
 humans.</p>
-<h2 id="persuasive-ais"> 1.2.3 Persuasive AIs</h2>
+<h2 id="persuasive-ais">Persuasive AIs</h2>
 <p>The deliberate propagation of disinformation is already a serious
 issue, reducing our shared understanding of reality and polarizing
 opinions. AIs could be used to severely exacerbate this problem by
@@ -244,31 +253,32 @@ serve the interests of a particular group. “Yellow journalism” was
 coined as a pejorative reference to newspapers that advocated war
 between Spain and the United States in the late 19th century, because
 they believed that sensational war stories would boost their sales <span
-class="citation" data-cites="yellowjournalism"></span>. When public
+class="citation" data-cites="yellowjournalism">[16]</span>. When public
 information sources are flooded with falsehoods, people will sometimes
 fall prey to lies, or else come to distrust mainstream narratives, both
 of which undermine societal integrity.<br />
 Unfortunately, AIs could escalate these existing problems dramatically.
 First, AIs could be used to generate unique, personalized disinformation
 at a large scale. While there are already many social media bots <span
-class="citation" data-cites="Varol2017OnlineHI"></span>, some of which
-exist to spread disinformation, historically they have been run by
+class="citation" data-cites="Varol2017OnlineHI">[17]</span>, some of
+which exist to spread disinformation, historically they have been run by
 humans or primitive text generators. The latest AI systems do not need
 humans to generate personalized messages, never get tired, and could
 potentially interact with millions of users at once <span
-class="citation" data-cites="Burtell2023ArtificialIA"></span>.</p>
+class="citation" data-cites="Burtell2023ArtificialIA">[18]</span>.</p>
 <h4 id="ais-can-exploit-users-trust.">AIs can exploit users’ trust.</h4>
 <p>Already, hundreds of thousands of people pay for chatbots marketed as
-lovers and friends <span class="citation" data-cites="Tong2023"></span>,
-and one man’s suicide has been partially attributed to interactions with
-a chatbot <span class="citation" data-cites="Lovens2023"></span>. As AIs
-appear increasingly human-like, people will increasingly form
-relationships with them and grow to trust them. AIs that gather personal
-information through relationship-building or by accessing extensive
-personal data, such as a user’s email account or personal files, could
-leverage that information to enhance persuasion. Powerful actors that
-control those systems could exploit user trust by delivering
-personalized disinformation directly through people’s “friends.”</p>
+lovers and friends <span class="citation"
+data-cites="Tong2023">[19]</span>, and one man’s suicide has been
+partially attributed to interactions with a chatbot <span
+class="citation" data-cites="Lovens2023">[20]</span>. As AIs appear
+increasingly human-like, people will increasingly form relationships
+with them and grow to trust them. AIs that gather personal information
+through relationship-building or by accessing extensive personal data,
+such as a user’s email account or personal files, could leverage that
+information to enhance persuasion. Powerful actors that control those
+systems could exploit user trust by delivering personalized
+disinformation directly through people’s “friends.”</p>
 <h4 id="ais-could-centralize-control-of-trusted-information.">AIs could
 centralize control of trusted information.</h4>
 <p>Separate from democratizing disinformation, AIs could centralize the
@@ -278,9 +288,9 @@ systems, and they could use these AIs to spread their preferred
 narratives. Alternatively, if AIs are broadly accessible this could lead
 to widespread disinformation, with people retreating to trusting only a
 small handful of authoritative sources <span class="citation"
-data-cites="Vaccari2020DeepfakesAD"></span>. In both scenarios, there
-would be fewer sources of trusted information and a small portion of
-society would control popular narratives.<br />
+data-cites="Vaccari2020DeepfakesAD">[21]</span>. In both scenarios,
+there would be fewer sources of trusted information and a small portion
+of society would control popular narratives.<br />
 AI censorship could further centralize control of information. This
 could begin with good intentions, such as using AIs to enhance
 fact-checking and help people avoid falling prey to false narratives.
@@ -310,7 +320,7 @@ persuasive to people they have built personal relationships with. In the
 hands of many people, this could create a deluge of disinformation that
 debilitates human society, but, kept in the hands of a few, it could
 allow governments to control narratives for their own ends.</p>
-<h2 id="concentration-of-power"> 1.2.4 Concentration of Power</h2>
+<h2 id="concentration-of-power">Concentration of Power</h2>
 <p>We have discussed several ways in which individuals and groups might
 use AIs to cause widespread harm, through bioterrorism; releasing
 powerful, uncontrolled AIs; and disinformation. To mitigate these risks,
@@ -371,7 +381,7 @@ moral progress.</h4>
 <p>It’s dangerous to allow any set of values to become permanently
 entrenched in society. For example, AI systems have learned racist and
 sexist views <span class="citation"
-data-cites="nadeem_stereoset_2021"></span>, and once those views are
+data-cites="nadeem_stereoset_2021">[22]</span>, and once those views are
 learned, it can be difficult to fully remove them. In addition to
 problems we know exist in our society, there may be some we still do
 not. Just as we abhor some moral views widely held in the past, people
@@ -380,7 +390,7 @@ those we currently see no problem with. For example, moral defects in AI
 systems would be even worse if AI systems had been trained in the 1960s,
 and many people at the time would have seen no problem with that. We may
 even be unknowingly perpetuating moral catastrophes today <span
-class="citation" data-cites="williams_possibility_2015"></span>.
+class="citation" data-cites="williams_possibility_2015">[23]</span>.
 Therefore, when advanced AIs emerge and transform the world, there is a
 risk of their objectives locking in or perpetuating defects in today’s
 values. If AIs are not designed to continuously learn and update their
@@ -393,7 +403,7 @@ inequality if misused by governments and corporations. This could lead
 to totalitarian rule and intense manipulation of the public by
 corporations, and could lock in current values, preventing any further
 moral progress.</p>
-<div class="storybox_yellow">
+<div class="visionbox">
 <p><span>Story: Bioterrorism</span> <em>The following is an illustrative
 hypothetical story to help readers envision some of these risks. This
 story is nonetheless somewhat vague to reduce the risk of inspiring
@@ -428,3 +438,156 @@ already infected millions and has an alarmingly high mortality rate.
 Given its lethality, most who are infected will ultimately die. The
 virus may or may not be contained eventually, but not before it kills
 millions of people.</p>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Olson1999AumSO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">K.
+Olson, <span>“Aum shinrikyo: Once and future threat?”</span>
+<em>Emerging Infectious Diseases</em>, vol. 5, pp. 513–516, 1999.</div>
+</div>
+<div id="ref-esvelt2022delay" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">K.
+M. Esvelt, <span>“Delay, detect, defend: Preparing for a future in which
+thousands can release new pandemics,”</span> Geneva Papers.</div>
+</div>
+<div id="ref-Trevisanato2007TheP" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">S.
+I. Trevisanato, <span>“The ’hittite plague’, an epidemic of tularemia
+and the first record of biological warfare.”</span> <em>Medical
+hypotheses</em>, vol. 69 6, pp. 1371–4, 2007.</div>
+</div>
+<div id="ref-us_state_department_2022" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">U.
+S. D. of State, <span>“Adherence to and compliance with arms control,
+nonproliferation, and disarmament agreements and commitments,”</span>
+U.S. Department of State, Government Report, 2022.</div>
+</div>
+<div id="ref-carlson_changing_2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">R.
+Carlson, <span>“The changing economics of <span>DNA</span>
+synthesis,”</span> <em>Nature Biotechnology</em>, vol. 27, no. 12, pp.
+1091–1094, Dec. 2009.</div>
+</div>
+<div id="ref-carter2023benchtop" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline">S.
+R. Carter, J. M. Yassif, and C. Isaac, <span>“Benchtop DNA synthesis
+devices: Capabilities, biosecurity implications, and governance,”</span>
+Nuclear Threat Initiative, Report, 2023.</div>
+</div>
+<div id="ref-Urbina2022DualUO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline">F.
+Urbina, F. Lentzos, C. Invernizzi, and S. Ekins, <span>“Dual use of
+artificial-intelligence-powered drug discovery,”</span> <em>Nature
+Machine Intelligence</em>, vol. 4, pp. 189–191, 2022.</div>
+</div>
+<div id="ref-AlphaFold2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] </div><div class="csl-right-inline">J.
+Jumper <em>et al.</em>, <span>“Highly accurate protein structure
+prediction with <span>AlphaFold</span>,”</span> <em>Nature</em>, vol.
+596, no. 7873, pp. 583–589, 2021.</div>
+</div>
+<div id="ref-wu2019machine" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] </div><div class="csl-right-inline">Z.
+Wu, S. J. Kan, R. D. Lewis, B. J. Wittmann, and F. H. Arnold,
+<span>“Machine learning-assisted directed protein evolution with
+combinatorial libraries,”</span> <em>Proceedings of the National Academy
+of Sciences</em>, vol. 116, no. 18, pp. 8852–8858, 2019.</div>
+</div>
+<div id="ref-Soice2023CanLL" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] </div><div class="csl-right-inline">E.
+Soice, R. H. S. Rocha, K. Cordova, M. A. Specter, and K. M. Esvelt,
+<span>“Can large language models democratize access to dual-use
+biotechnology?”</span> 2023.</div>
+</div>
+<div id="ref-tegmark2018life" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] </div><div class="csl-right-inline">M.
+Tegmark, <em>Life 3.0: Being human in the age of artificial
+intelligence</em>. Vintage, 2018.</div>
+</div>
+<div id="ref-pooley2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] </div><div class="csl-right-inline">L.
+Pooley, <span>“We need to talk about <span>A.I.</span>”</span> New
+Zealand, 2020.</div>
+</div>
+<div id="ref-sutton_it_2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] </div><div
+class="csl-right-inline">Richard Sutton [@RichardSSutton], <span>“It
+will be the greatest intellectual achievement of all time.
+<span>An</span> achievement of science, of engineering, and of the
+humanities, whose significance is beyond humanity, beyond life, beyond
+good and bad.”</span> <em>Twitter</em>. Sep. 2022.</div>
+</div>
+<div id="ref-sutton_succession_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] </div><div class="csl-right-inline">R.
+Sutton, <span>“AI succession,”</span> <em>Youtube</em>. Sep. 2023.</div>
+</div>
+<div id="ref-SanzGarca2021PrevalenceOP" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[15] </div><div class="csl-right-inline">A.
+Sanz-García, C. Gesteira, J. Sanz, and M. P. García-Vera,
+<span>“Prevalence of psychopathy in the general adult population: A
+systematic review and meta-analysis,”</span> <em>Frontiers in
+Psychology</em>, vol. 12, 2021.</div>
+</div>
+<div id="ref-yellowjournalism" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] </div><div class="csl-right-inline">U.
+S. D. of State Office of The Historian, <span>“U.s. Diplomacy and yellow
+journalism, 1895–1898.”</span></div>
+</div>
+<div id="ref-Varol2017OnlineHI" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] </div><div class="csl-right-inline">O.
+Varol, E. Ferrara, C. A. Davis, F. Menczer, and A. Flammini,
+<span>“Online human-bot interactions: Detection, estimation, and
+characterization,”</span> <em>ArXiv</em>, vol. abs/1703.03107,
+2017.</div>
+</div>
+<div id="ref-Burtell2023ArtificialIA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] </div><div class="csl-right-inline">M.
+Burtell and T. Woodside, <span>“Artificial influence: An analysis of
+AI-driven persuasion,”</span> <em>ArXiv</em>, vol. abs/2303.08721,
+2023.</div>
+</div>
+<div id="ref-Tong2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] </div><div class="csl-right-inline">A.
+Tong, <span>“What happens when your AI chatbot stops loving you
+back?”</span> <em>Reuters</em>, 2023.</div>
+</div>
+<div id="ref-Lovens2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] </div><div
+class="csl-right-inline">P.-F. Lovens, <span>“Sans ces conversations
+avec le chatbot eliza, mon mari serait toujours là,”</span> <em>La
+Libre</em>, 2023.</div>
+</div>
+<div id="ref-Vaccari2020DeepfakesAD" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] </div><div class="csl-right-inline">C.
+Vaccari and A. Chadwick, <span>“Deepfakes and disinformation: Exploring
+the impact of synthetic political video on deception, uncertainty, and
+trust in news,”</span> <em>Social Media + Society</em>, vol. 6,
+2020.</div>
+</div>
+<div id="ref-nadeem_stereoset_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] </div><div class="csl-right-inline">M.
+Nadeem, A. Bethke, and S. Reddy, <span>“<span>StereoSet</span>:
+<span>Measuring</span> stereotypical bias in pretrained language
+models,”</span> in <em>Proceedings of the 59th <span>Annual</span>
+<span>Meeting</span> of the <span>Association</span> for
+<span>Computational</span> <span>Linguistics</span> and the 11th
+<span>International</span> <span>Joint</span> <span>Conference</span> on
+<span>Natural</span> <span>Language</span> <span>Processing</span>
+(<span>Volume</span> 1: <span>Long</span> <span>Papers</span>)</em>,
+Online: Association for Computational Linguistics, Aug. 2021, pp.
+5356–5371.</div>
+</div>
+<div id="ref-williams_possibility_2015" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[23] </div><div class="csl-right-inline">E.
+G. Williams, <span>“The <span>Possibility</span> of an
+<span>Ongoing</span> <span>Moral</span>
+<span>Catastrophe</span>,”</span> <em>Ethical Theory and Moral
+Practice</em>, vol. 18, no. 5, pp. 971–982, Nov. 2015.</div>
+</div>
+</div>
+</body>
+</html>
