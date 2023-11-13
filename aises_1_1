@@ -1,6 +1,9 @@
 <!-- Overview of Catastrophic AI Risks -->
 
-<h1 id="introduction"> 1.1 Introduction</h1>
+</head>
+<body>
+<p>— title: Introduction —</p>
+<h1 id="introduction">Introduction</h1>
 <p>The world as we know it is not normal. We take for granted that we
 can talk instantaneously with people thousands of miles away, fly to the
 other side of the world in less than a day, and access vast mountains of
@@ -16,14 +19,21 @@ Then, thousands of years passed before the industrial revolution. Now,
 just centuries later, the artificial intelligence (AI) revolution is
 beginning. The march of history is not constant—it is rapidly
 accelerating.<br />
-We can capture this trend quantitatively in , which shows how estimated
-gross world product has changed over time <span class="citation"
-data-cites="Roodman2020OnTP Davidson2021"></span>. The hyperbolic growth
-it depicts might be explained by the fact that, as technology advances,
-the rate of technological advancement also tends to increase. Empowered
-with new technologies, people can innovate faster than they could
-before. Thus, the gap in time between each landmark development
-narrows.<br />
+</p>
+<figure id="fig:gwp">
+<embed src="images/overview of catastrophic risks/gwp.pdf" />
+<figcaption>World production has grown rapidly over the course of human
+history. AI could further this trend, catapulting humanity into a new
+period of unprecedented change.</figcaption>
+</figure>
+<p>We can capture this trend quantitatively in , which shows how
+estimated gross world product has changed over time <span
+class="citation" data-cites="Roodman2020OnTP Davidson2021">(Roodman
+2020; Davidson 2021)</span>. The hyperbolic growth it depicts might be
+explained by the fact that, as technology advances, the rate of
+technological advancement also tends to increase. Empowered with new
+technologies, people can innovate faster than they could before. Thus,
+the gap in time between each landmark development narrows.<br />
 It is the rapid pace of development, as much as the sophistication of
 our technology, that makes the present day an unprecedented time in
 human history. We have reached a point where technological advancements
@@ -74,11 +84,11 @@ war and saved millions or billions of lives—and possibly civilization
 itself.</p>
 <p>Carl Sagan once observed, “If we continue to accumulate only power
 and not wisdom, we will surely destroy ourselves” <span class="citation"
-data-cites="sagan1994pale"></span>. Sagan was correct: The power of
-nuclear weapons was not one we were ready for. Overall, it has been luck
-rather than wisdom that has saved humanity from nuclear annihilation,
-with multiple recorded instances of a single individual preventing a
-full-scale nuclear war.<br />
+data-cites="sagan1994pale">(Sagan 1994)</span>. Sagan was correct: The
+power of nuclear weapons was not one we were ready for. Overall, it has
+been luck rather than wisdom that has saved humanity from nuclear
+annihilation, with multiple recorded instances of a single individual
+preventing a full-scale nuclear war.<br />
 AI is now poised to become a powerful technology with destructive
 potential similar to nuclear weapons. We do not want to repeat the Cuban
 Missile Crisis. We do not want to slide toward a moment of peril where
@@ -121,12 +131,37 @@ technology more intelligent than we are.</p></li>
 <p>These four sections—, , , and —describe causes of AI risks that are
 <em>intentional</em>, <em>environmental/structural</em>,
 <em>accidental</em>, and <em>internal</em>, respectively <span
-class="citation" data-cites="Yampolskiy2016TaxonomyOP"></span>. The
-risks that are briefly outlined in this chapter are discussed in greater
-depth in the rest of this book.<br />
+class="citation" data-cites="Yampolskiy2016TaxonomyOP">(Yampolskiy
+2016)</span>. The risks that are briefly outlined in this chapter are
+discussed in greater depth in the rest of this book.<br />
 In this chapter, we will describe how concrete, small-scale examples of
 each risk might escalate into catastrophic outcomes. We also include
 hypothetical stories to help readers conceptualize the various processes
 and dynamics discussed in each section. We hope this survey will serve
 as a practical introduction for readers interested in learning about and
 mitigating catastrophic AI risks.<br />
+</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+data-entry-spacing="0" role="list">
+<div id="ref-Davidson2021" class="csl-entry" role="listitem">
+Davidson, Tom. 2021. <span>“Could Advanced AI Drive Explosive Economic
+Growth?”</span>
+</div>
+<div id="ref-Roodman2020OnTP" class="csl-entry" role="listitem">
+Roodman, David Malin. 2020. <span>“On the Probability Distribution of
+Long-Term Changes in the Growth Rate of the Global Economy: An Outside
+View.”</span>
+</div>
+<div id="ref-sagan1994pale" class="csl-entry" role="listitem">
+Sagan, Carl. 1994. <em>Pale Blue Dot: A Vision of the Human Future in
+Space</em>. New York: Random House.
+</div>
+<div id="ref-Yampolskiy2016TaxonomyOP" class="csl-entry"
+role="listitem">
+Yampolskiy, Roman V. 2016. <span>“Taxonomy of Pathways to Dangerous
+Artificial Intelligence.”</span> In <em>AAAI Workshop: AI, Ethics, and
+Society</em>.
+</div>
+</div>
+</body>
+</html>
