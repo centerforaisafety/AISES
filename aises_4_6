@@ -481,3 +481,93 @@ between various components in a system, such as feedback loops, human
 factors, and diffuse causality models. This allows them to capture a
 wider range of risk sources and potential interventions, making them
 more comprehensive in addressing system failures.</p>
+
+<h2 id="drift-into-failure-and-existential-risks"> 4.7 Drift into Failure and
+Existential Risks</h2>
+<p>This book presents multiple ways in which the development and
+deployment of AIs could entail risks, some of which could be
+catastrophic or even existential. However, the systemic accident models
+discussed above highlight that events in the real world often unfold in
+a much more complex manner than the hypothetical scenarios we use to
+illustrate risks. It is possible that many relatively minor events could
+accumulate, leading us to drift toward an existential risk. We are
+unlikely to be able to predict and address every potential combination
+of events that could pave the route to a catastrophe.<br />
+For this reason, although it can be useful to study the different risks
+associated with AI separately when initially learning about them, we
+should be aware that hypothetical example scenarios are simplified, and
+that the different risks coexist. We will now discuss what we can learn
+from our study of complex systems and systemic accident models when
+developing an AI safety strategy.</p>
+<p><strong>Risks that do not initially appear catastrophic might
+escalate.</strong> Risks tend to exist on a spectrum. Power inequality,
+disinformation, and automation, for example, are prevalent issues within
+society and are already causing harm. Though serious, they are not
+usually thought of as posing existential risks. However, if pushed to an
+extreme degree by AIs, they could result in totalitarian governments or
+enfeeblement. Both of these scenarios could represent a catastrophe from
+which humanity may not recover. In general, if we encounter harm from a
+risk on a moderate scale, we should be careful to not dismiss it as
+non-existential without serious consideration.</p>
+<p><strong>Multiple lower-level risks can combine to produce a
+catastrophe.</strong> Another reason for thinking more comprehensively
+about safety is that, even if a risk is not individually extreme, it
+might interact with other risks to bring about catastrophic outcomes
+<span class="citation" data-cites="hendrycks2023overview"></span>.
+Imagine, for instance, a scenario in which competitive pressures fuel an
+AI race between developers. This may lead a company to reduce its costs
+by putting less money into maintaining robust information security
+systems, with the result that a powerful AI is leaked. This would
+increase the likelihood that someone with malicious intent successfully
+uses the AI to pursue a harmful outcome, such as the release of a deadly
+pathogen.<br />
+In this case, the AI race has not directly led to an existential risk by
+causing companies to, for example, bring AIs with insufficient safety
+measures to market. Nevertheless it has indirectly contributed to the
+existential threat of a pandemic by amplifying the risk of malicious
+use.<br />
+This echoes our earlier discussion of catastrophes in complex system,
+where we discussed how it is often impractical and infeasible to
+attribute blame to one major “root cause” of failure. Instead, systems
+often “drift into failure” through an accumulation and combination of
+many seemingly minor events, none of which would be catastrophic alone.
+Just as we cannot take steps to prevent every possible mistake or
+malfunction within a large, complex system, we cannot predict or control
+every single way that various risks might interact to result in
+disaster.</p>
+<p><strong>Conflict and global turbulence could make society more likely
+to drift into failure.</strong> Although we have some degree of choice
+in how we implement AI within society, we cannot control the wider
+environment. There are several reasons why events like wars that create
+societal turbulence could increase the risk of human civilization
+drifting into failure. Faced with urgent, short-term threats, people
+might deprioritize AI safety to focus instead on the most immediate
+concerns. If AIs can be useful in tackling those concerns, it might also
+incentivize people to rush into giving them greater power, without
+thinking about the long-term consequences. More generally, a more
+chaotic environment might also present novel conditions for an AI, that
+cause it to behave unpredictably. Even if conditions like war do not
+directly cause existential risks, they make them more likely to
+happen.</p>
+<p><strong>Broad interventions may be more effective than narrowly
+targeted ones.</strong> Previous attempts to manage existential risks
+have focused narrowly on avoiding risks directly from AIs, and mainly
+addressed this goal through technical AI research. Given the complexity
+of AIs themselves and the systems they exist within, it makes sense to
+adopt a more comprehensive approach, taking into account the whole risk
+landscape, including threats that may not immediately seem catastrophic.
+Instead of attempting to target just existential risks precisely, it may
+be more effective to implement broad interventions, including
+sociotechnical measures.</p>
+<p><strong>Summary.</strong> As we might expect from our study of
+complex systems, different types of risks are inextricably related and
+can combine in unexpected ways to amplify one another. While some risks
+may be generally more concerning than others, we cannot neatly isolate
+those that could contribute to an existential threat from those that
+could not, and then only focus on the former while ignoring the latter.
+In addressing existential threats, it is therefore reasonable to view
+systems holistically and consider a wide range of issues, besides the
+most obvious catastrophic risks. Due to system complexity, broad
+interventions are likely to be required as well as narrowly targeted
+ones.<br />
+</p>
