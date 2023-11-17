@@ -1,4 +1,4 @@
-<h1 id="sec:nat-gov"> 9.6 National Governance</h1>
+<h1 id="sec:nat-gov">National Governance</h1>
 <p><strong>Overview.</strong> Government action may be crucial for AI
 safety. Governments have the authority to enforce AI regulations, to
 direct their own AI activities, and to influence other governments
@@ -8,12 +8,12 @@ diplomats, intelligence agencies, and leaders selected to serve the
 public interest. More abstractly, as we saw in the chapter, institutions
 can help agents avoid harmful coordination failures. For example,
 penalties for unsafe AI development can counter incentives to cut
-corners on safety.<br />
+corners on safety.<p>
 This section provides an overview of four ways governments may be able
 to advance AI safety: safety standards and regulations, liability for AI
 harms, improving societal resilience, and not falling behind while
 focusing on developing safe AI.</p>
-<h2 id="standards-and-regulations"> 9.6.1 Standards and Regulations</h2>
+<h2 id="standards-and-regulations">Standards and Regulations</h2>
 <p>To ensure that frontier AI development and deployment is safe, two
 complementary approaches are formally establishing strong safety
 measures as best practices for AI labs, and requiring the implementation
@@ -72,7 +72,7 @@ legislatures let regulations be developed with the greater speed, focus,
 and expertise of a specialized agency. As we discussed, agencies often
 incorporate standards into regulations. Legislatures also often
 influence regulation through their control over regulatory agencies’
-existence, structure, mandates, and budgets.<br />
+existence, structure, mandates, and budgets.<p>
 Regulatory agencies do not always regulate adequately. Regulatory
 agencies can face steep challenges. They can be under-resourced: lacking
 the budgets, staff, or authorities they need to do well at designing and
@@ -83,12 +83,12 @@ public interest. Industries can capture regulators by politically
 supporting sympathetic lawmakers, providing biased expert advice and
 information, building personal relationships with regulators, offering
 lucrative post-government jobs to lenient regulatory staff, and
-influencing who is appointed to lead regulatory agencies.<br />
+influencing who is appointed to lead regulatory agencies.<p>
 Standards and regulations give governments some ways to shape the
 behavior of AI developers. Next, we will consider legal means to ensure
 that the developers of AI have incentives in line with the rest of
 society.</p>
-<h2 id="liability-for-ai-harms"> 9.6.2 Liability for AI Harms</h2>
+<h2 id="liability-for-ai-harms">Liability for AI Harms</h2>
 <p>In addition to standards and regulations, legal liability could
 advance AI safety. When AI accidents or misuse cause harm, liability
 rules determine who (if anyone) has to pay compensation. For example, an
@@ -129,12 +129,12 @@ not afford. Moreover, sufficiently severe AI catastrophes may disrupt
 the legal system itself. Separately, liability does little to deter AI
 developers who do not expect their AI development to result in large
 harms—even if their AI development really proves catastrophically
-dangerous.<br />
+dangerous.<p>
 Ensuring legal liability for harms that result from deployed AIs helps
 align the interests of AI developers with broader social interests.
 Next, we will consider how governments can mitigate harms when they do
 occur.</p>
-<h2 id="improving-resilience"> 9.6.3 Improving Resilience</h2>
+<h2 id="improving-resilience">Improving Resilience</h2>
 <p>The government actions already discussed focus on preventing unsafe
 AI development and deployment, but another useful intervention point may
 be mitigating damages during deployment.</p>
@@ -170,18 +170,18 @@ other attempts to attack a computer network, enabling responses such as
 blocking or quarantining malicious programs. These efforts could be
 targeted to defend widely used software and critical infrastructure.
 However, AIs that identify code vulnerabilities are dual-use; they can
-be used to either fix or exploit vulnerabilities.<br />
+be used to either fix or exploit vulnerabilities.<p>
 <em>Biosecurity</em>. Dangerous pathogens can be detected or countered
 through measures such as wastewater monitoring (which might be enhanced
 by anomaly detection), far-range UV technology, improved personal
 protective equipment, and DNA synthesis screening that is secure and
-universal.<br />
+universal.<p>
 <em>AI watchdogs</em>. AIs could monitor the activity of other AIs and
 flag dangerous behavior. For example, AI companies can analyze the
 outputs of their own chatbots and identify harmful outputs.
 Additionally, AIs could identify patterns of dangerous activities in
 digital or economic data. However, some implementations of this could
-harm individual privacy.<br />
+harm individual privacy.<p>
 Defensive measures including cybersecurity, biosecurity, and AI
 watchdogs may mitigate harms from the deployment of unsafe AI systems.
 However, defensive measures, regulation, and liability may all be
@@ -189,7 +189,7 @@ insufficient for safety if the countries that implement them all fall
 behind the frontier of AI development. Next, we will consider how
 countries can remain competitive while ensuring safety in domestic AI
 production.</p>
-<h2 id="not-falling-behind"> 9.6.4 Not Falling Behind</h2>
+<h2 id="not-falling-behind">Not Falling Behind</h2>
 <p>If some countries take a relatively slow and careful approach to AI
 development, they may risk falling behind other countries that take less
 cautious approaches. It would be risky for the global leaders in AI
@@ -206,10 +206,10 @@ harder). Competitive mindsets can also encourage de-prioritizing safety
 in the name of competing–—in the chapter, we consider this problem in
 greater depth using formal models. Additionally, AI technologies might
 proliferate quickly even with strong efforts to build national leads in
-AI.<br />
-International cooperation, as explored in the <a href="#sec:int-gov"
-data-reference-type="ref" data-reference="sec:int-gov">7</a> section,
-may enable states to keep their AIs safe, preserve national
+AI.<p>
+International cooperation, as explored in section <a href="#sec:int-gov"
+data-reference-type="ref" data-reference="sec:int-gov">[sec:int-gov]</a>
+, may enable states to keep their AIs safe, preserve national
 competitiveness, and avoid the pitfalls of adversarial AI policy. Still,
 as options for cases where cooperation fails, here we consider several
 policy tools for preserving national competitiveness in AI.</p>
@@ -226,11 +226,11 @@ flow of another important input into AI development: talented AI
 researchers and engineers. Immigration could be an asymmetric advantage
 of certain countries; surveys suggest that the international AI
 workforce tends to have much more interest in moving to the US than
-China <span class="citation" data-cites="zwetsloot2021winning"></span>.
-Immigrants may be more likely to spread AI capabilities internationally,
-through international contacts or by returning to their native
-countries, but many immigrants who are provided with the chance choose
-to stay in the US.</p>
+China <span class="citation"
+data-cites="zwetsloot2021winning">[1]</span>. Immigrants may be more
+likely to spread AI capabilities internationally, through international
+contacts or by returning to their native countries, but many immigrants
+who are provided with the chance choose to stay in the US.</p>
 <p><strong>Information security.</strong> Information security measures
 could slow the diffusion of AI insights and technologies to countries or
 groups that lack adequate guardrails. For example, governments could
@@ -240,7 +240,7 @@ standards.</p>
 <p><strong>Intelligence collection.</strong> Collecting and analyzing
 intelligence on the state of AI development in other countries would
 help governments avoid both unwarranted complacency and unwarranted
-insecurity about their own AI industries.<br />
+insecurity about their own AI industries.<p>
 Governments can use a range of measures to remain internationally
 competitive while maintaining the safety of domestic AI development.</p>
 <h3 id="conclusions-about-national-governance">Conclusions About
@@ -256,10 +256,19 @@ production is both safe and competitive. Each of these approaches has
 largely distinct limitations—for example, regulations may be held back
 by regulatory capture, while liability might impose too few penalties
 too late—so effective governance may require combining many of the
-government actions discussed in this section.<br />
+government actions discussed in this section.<p>
 With robust AI safety standards and regulations, a well-functioning
 legal framework for ensuring liability, strong resilience against
 societal-scale risks from AIs, and measures for not being outpaced
 internationally by unconstrained AI developers, there would be multiple
 layers of defense to protect society from reckless or malicious AI
 development.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-zwetsloot2021winning" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] R.
+Zwetsloot, <span>“Winning the tech talent competition,”</span>
+<em>Center for Strategic and International Studies</em>, p. 2,
+2021.</div>
+</div>
+</div>
