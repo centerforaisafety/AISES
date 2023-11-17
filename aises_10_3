@@ -1,4 +1,4 @@
-<h1 id="tail-risk-corrigibility"> AI Tail Risk: Corrigibility</h1>
+<h1 id="tail-risk-corrigibility">Tail Risk: Corrigibility</h1>
 <p><strong>Overview.</strong> In this section, we will explore how
 utility functions provide insight into whether an AI system is open to
 corrective interventions and discuss related implications for AI risks.
@@ -12,10 +12,10 @@ prevent unwanted AI behavior.</p>
 when things go wrong.</strong> An AI system is <em>corrigible</em> if it
 accepts and cooperates with corrective interventions like being shut
 down or having its utility function changed <span class="citation"
-data-cites="pace"></span>. Without many assumptions, we can argue that
-typical rational agents will resist corrective measures: changing an
-agent’s utility function necessarily means that the agent will pursue
-goals that result in less utility relative to their current
+data-cites="pacecorrigibility">[1]</span>. Without many assumptions, we
+can argue that typical rational agents will resist corrective measures:
+changing an agent’s utility function necessarily means that the agent
+will pursue goals that result in less utility relative to their current
 preferences.</p>
 <p><strong>Suppose we own an AI that fetches coffee for us every
 morning.</strong> Its utility function assigns “10 utils” to getting us
@@ -38,7 +38,7 @@ rank all options, as well as transitivity, such that its preferences are
 consistent. For instance, the AI can see that preferring an apple to a
 banana and a banana to a cherry implies that we prefer an apple to a
 cherry. Then, we know that the agent’s utility function ranks every
-option.<br />
+option.<p>
 Consider again the coffee-fetching AI. Suppose that in addition to
 getting us coffee quickly (10 utils), getting us coffee slowly (5
 utils), and not getting us coffee (0 utils), there is a fourth option,
@@ -47,11 +47,11 @@ immediate shutdown will result in its owner getting coffee slowly
 without AI assistance, which appears to be valued at 5 units of utility
 (the same as it getting us coffee slowly). The agent thus strictly
 prefers getting us coffee quickly to shutting down, and strictly prefers
-shutting down to us not having coffee at all.<br />
+shutting down to us not having coffee at all.<p>
 Generally, unless indifferent between everything, completeness and
 transitivity imply that the AI has unspecified preferences about
 potentially shutting down <span class="citation"
-data-cites="thornley2023shutdown"></span>. Without completeness, the
+data-cites="thornley2023shutdown">[2]</span>. Without completeness, the
 agent could have no preference between shutting down immediately and all
 other actions. Without transitivity, the agent could be indifferent
 between shutting down immediately and all other possible actions without
@@ -66,7 +66,7 @@ However, an incorrigible AI would instead stay the course with what it
 wanted to do initially—get us coffees—since that results in the most
 utility. If possible, the AI would decrease the probability of immediate
 shutdown, say by disabling its off-switch or locking the entrance to its
-server rooms. Clearly, this would be bad.<br />
+server rooms. Clearly, this would be bad.<p>
 Consider a different situation where the AI realizes that making coffee
 is actually quite difficult and that we would make coffee faster
 manually, but fails to realize that we don’t want to exert the effort to
@@ -88,7 +88,7 @@ immediate shutdown. The takeaway is that developing corrigible AI
 systems—systems that are responsive and adaptable to human feedback and
 changes—is essential in ensuring safe and effective control over AIs’
 behavior. Examining the properties of utility functions illuminates
-potential problems in implementing corrigibility.<br />
+potential problems in implementing corrigibility.<p>
 </p>
 <div class="storybox">
 <p><span>A Note on Utility Functions vs. Reward Functions</span> Utility
@@ -97,14 +97,14 @@ concepts in understanding agent behavior. Utility functions represent an
 agent’s preferences about states or the choice-worthiness of a state,
 while rewards functions represent externally imposed reinforcement. The
 fact that an outcome is rewarded externally does not guarantee that it
-will become part of an agent’s internal utility function.<br />
+will become part of an agent’s internal utility function.<p>
 An example where utility and reinforcement comes apart can be seen with
 Galileo Galilei. Despite the safety and societal acceptance he could
 gain by conforming to the widely accepted geocentric model, Galileo
 maintained his heliocentric view. His environment provided ample
 reinforcement to conform, yet he deemed the pursuit of scientific truth
 more choiceworthy, highlighting a clear difference between environmental
-reinforcement and the concepts of choice-worthiness or utility.<br />
+reinforcement and the concepts of choice-worthiness or utility.<p>
 As another example, think of evolutionary processes as selecting or
 reinforcing some traits over others. If we considered taste buds as
 components that help maximize fitness, we would expect more people to
@@ -113,7 +113,7 @@ accurate to view taste buds as “adaptation executors” rather than
 “fitness maximizers,” as taste buds evolved in our ancestral environment
 where calories were scarce. This illustrates the concept that agents act
 on adaptations without necessarily adopting behavior that reliably helps
-maximize reward.<br />
+maximize reward.<p>
 The same could be true for reinforcement learning agents. RL agents
 might execute learned behaviors without necessarily maximizing reward;
 they may form <em>decision procedures</em> that are not fully aligned
@@ -122,4 +122,21 @@ necessarily what an agent thinks is choiceworthy could lead to AIs that
 are not fully aligned with externally designed rewards. The AI might not
 inherently consider reinforced behaviors as choiceworthy or of high
 utility, so its utility function may differ from the one we want it to
-have.<br />
+have.<p>
+</p>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-pacecorrigibility" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div
+class="csl-right-inline"><span>“Corrigibility.”</span> [Online].
+Available: <a
+href="https://www.alignmentforum.org/tag/corrigibility">https://www.alignmentforum.org/tag/corrigibility</a></div>
+</div>
+<div id="ref-thornley2023shutdown" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] E.
+Thornley, <span>“The shutdown problem: Two theorems, incomplete
+preferences as a solution,”</span> <em>AI Alignment Awards</em>,
+2023.</div>
+</div>
+</div>
