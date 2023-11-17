@@ -1,6 +1,6 @@
-<h1 id="complex-systems-for-ai-safety"> 5.3 Complex Systems for AI
+<h1 id="complex-systems-for-ai-safety">Complex Systems for AI
 Safety</h1>
-<h2 id="general-lessons-from-complex-systems"> 5.3.1 General Lessons from
+<h2 id="general-lessons-from-complex-systems">General Lessons from
 Complex Systems</h2>
 <p>As we have discussed, AI systems and the social systems they are
 integrated within are best understood as complex systems. For this
@@ -8,7 +8,7 @@ reason, making AI safe is not like solving a mathematical problem or
 fixing a watch. A watch might be <em>complicated</em>, but it is not
 <em>complex</em>. Its mechanism can be fully understood and described,
 and its behavior can be predicted with a high degree of confidence. The
-same is not true of complex systems.<br />
+same is not true of complex systems.<p>
 Since a system’s complexity has a significant bearing on its behavior,
 our approach to AI safety should be informed by the complex systems
 paradigm. We will now look at some lessons that have been derived from
@@ -36,7 +36,7 @@ should treat a condition. However, they cannot thoroughly analyze every
 single way it might interact with all the body’s organs, processes, and
 other medications people may be taking. That is why clinical trials are
 required to test whether drugs are effective and detect any unexpected
-side effects before they are approved for use.<br />
+side effects before they are approved for use.<p>
 Similarly, since AI systems are complex, we cannot expect to predict all
 their potential behaviors, emergent properties, and associated hazards
 simply by thinking about them. Moreover, AI systems will be even less
@@ -72,13 +72,13 @@ goals down in this way can distort them. The system might get
 sidetracked pursuing a subgoal, sometimes even at the expense of the
 original one. In other words, although the subgoal was initially a means
 to an end, the system may end up prioritizing it as an end in
-itself.<br />
+itself.<p>
 For example, companies usually have many different departments, each one
 specialized to pursue a distinct subgoal. However, some departments,
 such as bureaucratic ones, can capture power and have the company pursue
 goals unlike its initial one. Political leaders can delegate roles to
 subordinates, but sometimes their subordinates may overthrow them in a
-coup.<br />
+coup.<p>
 As another example, imagine a politician who wants to improve the
 quality of life of residents of a particular area. Increasing employment
 opportunities often leads to improvement in quality of life, so the
@@ -91,10 +91,10 @@ might approve the construction of this plant, despite the likelihood
 that it will pollute the environment and worsen residents’ quality of
 life in some ways.</p>
 <p><strong>Future AI agents may break down difficult long-term goals
-into smaller subgoals.</strong> This might distort their objective and
-result in misalignment. As discussed in the section of the Chapter,
-optimization algorithms might produce emergent optimizers that pursue
-subgoals, or AI agents may delegate goals to other agents and
+into smaller subgoals.</strong> Creating subgoals can distort an AI’s
+objective and result in misalignment. As discussed in the section of the
+Chapter, optimization algorithms might produce emergent optimizers that
+pursue subgoals, or AI agents may delegate goals to other agents and
 potentially have the goal be distorted or subverted. In more extreme
 cases, the subgoals could be pursued at the expense of the original one.
 We can specify our high-level objectives correctly without any guarantee
@@ -109,7 +109,7 @@ qualitatively new properties and behaviors emerge. The implication for
 AI safety is that, when we increase the scale of a deep learning system,
 it will not necessarily just get better at doing what it was doing
 before. It might begin to behave in entirely novel and unexpected ways,
-potentially posing risks that we had not thought to prepare for.<br />
+potentially posing risks that we had not thought to prepare for.<p>
 It is not only when a system transitions from relative simplicity into
 complexity that novel properties can appear. New properties can continue
 to emerge spontaneously as a complex system increases in size. As
@@ -150,7 +150,7 @@ begins as one person or a few people with an idea, then becomes a
 start-up, then a small business, and can potentially grow further from
 there. People do not usually attempt to create multinational
 corporations immediately without progressing naturally through these
-earlier stages of development.<br />
+earlier stages of development.<p>
 One possible explanation for this relates to the limitations of armchair
 theorizing about complex systems. Since it is difficult to anticipate
 every possible behavior and failure mode of a complex system in advance,
@@ -160,7 +160,7 @@ it might be too large and unwieldy for us to make the necessary changes
 to its structure when issues inevitably arise. If the system instead
 grows gradually, it has a chance to encounter relevant problems and
 adapt to deal with them during the earlier stages when it is smaller and
-more agile.<br />
+more agile.<p>
 Similarly, if we want large AI systems that work well and are safe, we
 should start by making smaller systems safe and effective and then
 incrementally build on them. This way, operators will have more chances
@@ -180,10 +180,10 @@ that an operator will never make an error, and especially not in a large
 complex system. As the chemical engineer Trevor Kletz put it: “Saying an
 accident is due to human failing is about as helpful as saying that a
 fall is due to gravity. It is true but it does not lead to constructive
-action” <span class="citation" data-cites="kletz2018engineer"></span>.
-To make a complex system safer, we need to incorporate some allowances
-in the design so that a single error is not enough to cause a
-catastrophe.<br />
+action” <span class="citation"
+data-cites="kletz2018engineer">[1]</span>. To make a complex system
+safer, we need to incorporate some allowances in the design so that a
+single error is not enough to cause a catastrophe.<p>
 The implication of this for AI safety is that having humans monitoring
 AI systems does not guarantee safety. Beyond human errors of judgment,
 processes in some complex systems may happen too quickly for humans to
@@ -194,8 +194,9 @@ human values in AI systems and ensuring they are preserved, besides
 including humans in the processes. One potential approach might be to
 have some AI systems overseeing others, though this brings its own
 risks.</p>
-<p><strong>Summary.</strong> The general lessons that we should bear in
-mind for AI safety are:</p>
+<h3 id="summary.">Summary.</h3>
+<p>The general lessons that we should bear in mind for AI safety
+are:</p>
 <ol>
 <li><p>We cannot predict every possible outcome of AI deployment by
 theorizing, so some trial and error will be needed</p></li>
@@ -211,14 +212,14 @@ cautiously</p></li>
 safe, because humans are not perfectly reliable and, moreover, AIs are
 likely to accelerate processes too much for humans to keep up.</p></li>
 </ol>
-<h2 id="puzzles-problems-and-wicked-problems"> 5.3.2 Puzzles, Problems, and
+<h2 id="puzzles-problems-and-wicked-problems">Puzzles, Problems, and
 Wicked Problems</h2>
 <p>So far, we have explored the contrasts between simple and complex
 systems and why we need different approaches to analyzing and
 understanding them. We have also described how AIs and the social
 systems surrounding them are best understood as complex systems, and
 discussed some lessons from the field of complex systems that can inform
-our expectations around AI safety and how we address it.<br />
+our expectations around AI safety and how we address it.<p>
 In attempting to improve the safety of AI and its integration within
 society, we are engaging in a form of problem-solving. However, simple
 and complex systems present entirely different types of problems that
@@ -245,7 +246,7 @@ discover it. This usually gives us a better understanding of what’s
 causing the issue, and ideas of solutions often follow naturally from
 there. It may turn out that there is more than one approach to fixing
 the problem. However, it is clear when the problem is solved and the
-system is functioning properly again.<br />
+system is functioning properly again.<p>
 We usually find problems in systems that are complicated, but not
 complex. For example, in car repair work, it might not be immediately
 apparent what is causing an issue. However, we can investigate to find
@@ -318,7 +319,7 @@ relatively simple systems that we can obtain a complete or near-complete
 understanding of. We can therefore find all the information we need to
 explain the issue and find a solution to it, although problems may be
 more complicated, requiring more investigation and steps of analysis
-than puzzles.<br />
+than puzzles.<p>
 Wicked problems, on the other hand, arise in complex systems, which are
 much more difficult to attain a thorough understanding of. There may be
 no single correct explanation for a wicked problem, proposed solutions
@@ -329,7 +330,7 @@ in another, even if the systems seem similar, and it might not be
 possible to ever definitively say that a wicked problem has been solved.
 Owing to the complex nature of the systems involved, AI safety is a
 wicked problem.</p>
-<h2 id="challenges-with-interventionism"> 5.3.3 Challenges With
+<h2 id="challenges-with-interventionism">Challenges With
 Interventionism</h2>
 <p>As touched on above, there are usually many potential solutions to
 wicked problems, but they may not all work in practice, even if they
@@ -411,21 +412,22 @@ between two hills and we kick it up one hill, gravity will pull it back
 to the valley. Similarly, if a complex system has found a stable state,
 there might be some “restoring forces” or homeostatic processes that
 will keep drawing it back toward that state, even if we try to pull it
-in a different direction.</p>
+in a different direction. When complex systems are not near critical
+points, they exhibit robustness to external changes.</p>
 <p>Another analogy is Le Chatelier’s Principle, a well-known concept in
 chemistry. The principle concerns chemical equilibria, in which the
 concentrations of different chemicals stay the same over time. There may
 be chemical reactions happening, converting some chemicals into others,
 but the rate of any reaction will equal the rate of its opposite
 reaction. The total concentration of each chemical therefore remains
-unchanged, hence the term equilibrium.<br />
+unchanged, hence the term equilibrium.<p>
 Le Chatelier’s Principle states that if we introduce a change to a
 system in chemical equilibrium, the system will shift to a new
 equilibrium in a way that partly opposes that change. For example, if we
 increase the concentration of one chemical, then the rate of the
 reaction using up that chemical will increase, using up more of it and
 reducing the extra amount present. Similarly, complex systems sometimes
-react against our interferences in them.<br />
+react against our interferences in them.<p>
 We will now look at some examples of interventions backfiring in complex
 systems. We will explore how we might think of these systems as having
 stable states and restoring forces that draw the system back toward its
@@ -445,7 +447,7 @@ pre-intervention levels. A study found that the rules had incentivized
 people to buy additional cars so they could drive on more days.
 Moreover, the extra cars people bought tended to be cheaper, older, more
 polluting ones, exacerbating the pollution problem <span
-class="citation" data-cites="davis2008effect"></span>.<br />
+class="citation" data-cites="davis2008effect">[2]</span>.<p>
 We could perhaps interpret this situation as having a stable state in
 terms of how much driving people wanted or needed to do. When rules were
 introduced to try to reduce it, people looked for ways to circumvent
@@ -459,13 +461,14 @@ sparrows were killed intensively and their populations plummeted.
 However, as well as grain, sparrows also eat locusts. In the absence of
 a natural predator, locust populations rose sharply, destroying more
 crops than the sparrows did <span class="citation"
-data-cites="steinfeld2018china"></span>. Although many factors were at
-play, including poor weather and officials’ decisions about food
+data-cites="steinfeld2018china">[3]</span>. Although many factors were
+at play, including poor weather and officials’ decisions about food
 distribution <span class="citation"
-data-cites="meng2015institutional"></span>, this ecosystem imbalance is
-often considered a contributing factor in the Great Chinese Famine <span
-class="citation" data-cites="steinfeld2018china"></span>, during which
-tens of millions of people starved between 1959 and 1961.<br />
+data-cites="meng2015institutional">[4]</span>, this ecosystem imbalance
+is often considered a contributing factor in the Great Chinese Famine
+<span class="citation" data-cites="steinfeld2018china">[3]</span>,
+during which tens of millions of people starved between 1959 and
+1961.<p>
 Ecosystems are highly complex, with intricate balances between the
 populations of many species. We could think of agricultural systems as
 having a “stable state” that naturally involves some crops being lost to
@@ -481,11 +484,11 @@ large supply available for use in the US and Britain. This was a huge
 medical advancement, offering a cure for many common causes of death,
 such as pneumonia and tuberculosis. Death rates due to bacterial
 illnesses dropped dramatically <span class="citation"
-data-cites="Gottfried2005history"></span>; it is estimated that, in
+data-cites="Gottfried2005history">[5]</span>; it is estimated that, in
 1952, in the US, around 150,000 fewer people died from bacterial
 illnesses than would have without antibiotics. In the early 2000s, it
 was estimated that antibiotics may have been saving around 200,000 lives
-annually in the US alone.<br />
+annually in the US alone.<p>
 However, as antibiotics have become more abundantly used, bacteria have
 begun to evolve resistance to these vital medicines. Today, many
 bacterial illnesses, including pneumonia and tuberculosis, are once
@@ -493,14 +496,14 @@ again becoming difficult to treat due to the declining effectiveness of
 antibiotics. In 2019, the Centers for Disease Control and Prevention
 reported that antimicrobial-resistant bacteria are responsible for over
 35,000 deaths per year in the US <span class="citation"
-data-cites="cdc2019antibiotic"></span>.<br />
+data-cites="cdc2019antibiotic">[6]</span>.<p>
 In this case, we might think of the coexistence of humans and pathogens
 as having a stable state, involving some infections and deaths. While
 antibiotics have reduced deaths due to bacteria over the past decades,
 we could view natural selection as a “restoring force”, driving the
 evolution of bacteria to become resistant and causing deaths to rise
 again. Overuse of these medicines intensifies selective pressures and
-accelerates the process.<br />
+accelerates the process.<p>
 In this case, it is worth noting that antibiotics have been a monumental
 advancement in healthcare, and we do not argue that they should not be
 used or that they are a failed intervention. Rather, this example
@@ -530,13 +533,13 @@ people to travel by bike instead of by car. This has had positive,
 lasting results. A 2018 report stated that around 27% of all trips in
 the Netherlands are made by bike—a higher proportion than any other
 country studied <span class="citation"
-data-cites="harms2018cycling"></span>.<br />
+data-cites="harms2018cycling">[7]</span>.<p>
 Instead of making rules to try to limit how much people drive, creating
 appropriate infrastructure makes cycling safer and easier. Additionally,
 well-planned cycle networks can make many routes quicker by bike than by
 car, making this option more convenient. Under these conditions, people
 will naturally be more inclined to cycle, so society naturally drifts
-toward a stable point that entails less driving.<br />
+toward a stable point that entails less driving.<p>
 It is worth noting that the Netherlands’ success might not be possible
 to replicate everywhere, as there may be other factors involved. For
 instance, the terrain in the Netherlands is relatively flat compared
@@ -585,7 +588,7 @@ Initiatives have included health warnings on cigarette packets, smoking
 bans in certain public areas, and programs supporting people through the
 process of quitting. Many of these measures have successfully raised
 public awareness of health risks and contributed to declining smoking
-rates in several countries.<br />
+rates in several countries.<p>
 While these examples show that it is possible to address wicked
 problems, they also demonstrate some of the difficulties involved. All
 these interventions have required enormous, sustained efforts over many
@@ -594,7 +597,7 @@ worth noting that smallpox is the only infectious disease that has ever
 been eradicated. One challenge in replicating this success elsewhere is
 that some viruses, such as influenza viruses, evolve rapidly to evade
 vaccine-induced immunity. This highlights how unique each wicked problem
-is.<br />
+is.<p>
 Campaigns to dissuade people from smoking have faced pushback from the
 tobacco industry, showing how conflicting incentives in complex systems
 can hamper attempts to solve wicked problems. Additionally, as is often
@@ -608,7 +611,7 @@ have successfully solved or made great strides toward solving certain
 wicked problems. For many wicked problems, it may never be possible to
 say that they have been fully solved, but it is nonetheless possible to
 make progress and improve the situation.</p>
-<h2 id="systemic-issues"> 5.3.4 Systemic Issues</h2>
+<h2 id="systemic-issues">Systemic Issues</h2>
 <p>We have discussed the characteristics of wicked problems as stemming
 from the complex systems they arise from, and explored why they are so
 difficult to tackle. We have also looked at some examples of failed
@@ -626,11 +629,12 @@ continue to crop up.</p>
 <p><strong>We should think about the function we are trying to achieve
 and the system we are using.</strong> One method of finding more
 effective solutions is to “zoom out” and consider the situation
-holistically. This might involve thinking carefully about what function
-we are trying to achieve, the system we are using, and whether it is
-well designed for its purpose. We should consider whether, if we solve
-the immediate problem, another one might be likely to arise soon
-after.</p>
+holistically. In complex systems language, we might say that we need to
+find the correct scale at which to analyze the situation. This might
+involve thinking carefully about what we are trying to achieve and
+whether individuals or groups in the system exhibit the behaviors we are
+trying to control. We should consider whether, if we solve the immediate
+problem, another one might be likely to arise soon after.</p>
 <p><strong>It might be more fruitful to change AI research culture than
 address individual issues.</strong> One approach to AI safety might be
 to address issues with individual products as they come up. This
@@ -643,7 +647,7 @@ technology are in an arms race with one another, for example, they will
 be trying to reach goals and release products as quickly as possible.
 This will likely compel people to cut corners, perhaps by omitting
 safety measures. Reducing these competitive pressures might therefore
-significantly reduce overall risk, albeit less directly.<br />
+significantly reduce overall risk, albeit less directly.<p>
 If competitive pressures remain high, we could imagine a potential
 future scenario in which a serious AI-related safety issue materializes
 and causes considerable harm. In explaining this accident, people might
@@ -664,7 +668,7 @@ assassination had not happened, something else might have done, also
 triggering a conflict. A better approach might instead invoke the
 imperialistic ambitions of many nations and the development of new
 militaristic technologies, which led nations to believe there was a
-strong first-strike advantage.<br />
+strong first-strike advantage.<p>
 We can also find the contrast between these two mindsets in the
 different explanations put forward for the Bhopal gas tragedy, a huge
 leak of toxic gas that happened in December 1984 at a
@@ -698,3 +702,52 @@ might be a result of a mismatch between the system and our goal.
 Thinking in this way can help us identify systemic factors underlying
 the problems and ways of changing them so that the system is better
 suited to achieving our aims.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-kletz2018engineer" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] T.
+Kletz, <em>An engineer’s view of human error</em>. CRC Press,
+2018.</div>
+</div>
+<div id="ref-davis2008effect" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] L.
+Davis, <span>“The effect of driving restrictions on air quality in
+mexico city,”</span> <em>Journal of Political Economy</em>, vol. 116,
+pp. 38–81, Feb. 2008, doi: <a
+href="https://doi.org/10.1086/529398">10.1086/529398</a>.</div>
+</div>
+<div id="ref-steinfeld2018china" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Steinfeld, <span>“China’s deadly science lesson: How an ill-conceived
+campaign against sparrows contributed to one of the worst famines in
+history,”</span> <em>Index on Censorship</em>, vol. 47, no. 3, pp.
+49–49, 2018, doi: <a
+href="https://doi.org/10.1177/0306422018800259">10.1177/0306422018800259</a>.</div>
+</div>
+<div id="ref-meng2015institutional" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] X.
+Meng, N. Qian, and P. Yared, <span>“<span class="nocase">The
+Institutional Causes of China’s Great Famine, 1959–1961</span>,”</span>
+<em>The Review of Economic Studies</em>, vol. 82, no. 4, pp. 1568–1611,
+Apr. 2015, doi: <a
+href="https://doi.org/10.1093/restud/rdv016">10.1093/restud/rdv016</a>.</div>
+</div>
+<div id="ref-Gottfried2005history" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] J.
+Gottfried, <span>“History repeating? Avoiding a return to the
+pre-antibiotic age,”</span> 2005. Available: <a
+href="https://api.semanticscholar.org/CorpusID:84028897">https://api.semanticscholar.org/CorpusID:84028897</a></div>
+</div>
+<div id="ref-cdc2019antibiotic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] C.
+for Disease Control (US), <span>“Antibiotic resistance threats in the
+united states, 2019,”</span> <em>CDC Stacks</em>, 2019, doi: <a
+href="http://dx.doi.org/10.15620/cdc:82532">http://dx.doi.org/10.15620/cdc:82532</a>.</div>
+</div>
+<div id="ref-harms2018cycling" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div
+class="csl-right-inline"><span>“Cycling facts,”</span> 2018, Available:
+<a
+href="https://english.kimnet.nl/publications/publications/2018/04/06/cycling-facts">https://english.kimnet.nl/publications/publications/2018/04/06/cycling-facts</a></div>
+</div>
+</div>
