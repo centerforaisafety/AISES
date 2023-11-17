@@ -36,7 +36,7 @@ goals in various changing, hard-to-predict situations. Some theorists
 see intelligence as not just one skill among others but the ultimate
 skill that allows us to learn all other abilities. Ultimately, the line
 between what is considered <em>intelligent</em> and what is not is often
-unclear and contested.<br />
+unclear and contested.<p>
 Just as we consider animals and other organisms intelligent to varying
 degrees, AIs may be regarded as intelligent at many different levels of
 capability. An artificial system does not need to surpass all (or even
@@ -131,7 +131,7 @@ systems to follow, attempting to mimic human reasoning. This intuitive
 approach was popular during the early years of AI research, as it aimed
 to replicate human intelligence by modeling how humans think, instilling
 our reasoning, decision-making, and information-processing abilities
-into machines.<br />
+into machines.<p>
 These “old-fashioned” approaches to AI allowed machines to accomplish
 well-described, formalizable tasks, but they faced severe difficulties
 in handling ambiguity and learning new tasks. Some early systems
@@ -227,7 +227,7 @@ based on the input features; for example, researchers can use a decision
 tree to classify whether a person has diabetes based on age, weight, and
 blood pressure. However, these trees have many limitations, a tendency
 to make predictions based on the training data without generalizing well
-to new data (called overfitting).<br />
+to new data (called overfitting).<p>
 Researchers in the early 2000s created methods for combining multiple
 decision trees to overcome these issues. <em>Random forests</em> are a
 collection of decision trees trained independently on different subsets
@@ -265,7 +265,7 @@ applications of <em>deep learning (DL)</em>, a subset of ML that uses
 artificial neural networks with many layers, enabling computers to learn
 and recognize patterns in large amounts of data. This approach led to
 significant breakthroughs in AI, especially in areas including image
-recognition and natural language understanding.<br />
+recognition and natural language understanding.<p>
 Massive datasets provided researchers with the data needed to train deep
 learning models effectively. A pivotal example is the <em>ImageNet</em>
 (<span class="citation" data-cites="deng2009imagenet">[10]</span>)
@@ -312,7 +312,7 @@ are rarely well-formalized, universally agreed upon, or precise. It is
 important to consider an AI system’s particular capabilities rather than
 simply placing it in one of these broad categories. Labeling a system as
 a “weak AI” does not always improve our understanding of it; we need to
-elaborate further on its abilities and why they are limited.<br />
+elaborate further on its abilities and why they are limited.<p>
 This section introduces five widely used conceptual categories for AI
 systems. We will present these types of AI in roughly their order of
 intelligence, generality, and potential impact, starting with the least
@@ -527,7 +527,7 @@ human-level AI, artificial general intelligence, transformative AI, and
 superintelligence—and saw how specificity is often the best way to
 evaluate AIs. Considering specific capabilities and individual systems
 rather than broad categories or abstractions is far more
-informative.<br />
+informative.<p>
 Next, we will narrow our focus to machine learning (ML), an approach
 within AI that emphasizes the development of systems that can learn from
 data. Whereas many classical approaches to AI relied on logical rules
@@ -630,7 +630,7 @@ classification, one might use a function like the sigmoid to estimate
 the likelihood that a customer makes a purchase or clicks on an
 advertisement. However, it is important to note that other widely used
 models can provide similar probabilistic outputs without employing a
-sigmoid function.<br />
+sigmoid function.<p>
 </p>
 <figure id="fig:logistic-classification">
 <embed src="images/ML_background/logistic_regression_v2.pdf" />
@@ -705,12 +705,12 @@ techniques to predict subsequent words in a sequence, transforming
 previous words into meaningful representations to detect patterns and
 make predictions. There are several major subtypes of sequence modeling.
 Here, we will discuss two: <em>generative modeling</em> and
-<em>sequential decision-making</em>.<br />
+<em>sequential decision-making</em>.<p>
 <em>Generative modeling.</em> Generative modeling is a subtype of
 sequence modeling that creates new data that resembles the input data,
 thereby drawing from the same distribution of features (conditioned on
 specific inputs). It can generate new outputs from many input types,
-such as text, code, images, and protein sequences.<br />
+such as text, code, images, and protein sequences.<p>
 <em>Sequential decision-making (SDM).</em> SDM equips a model with the
 capability to make informed choices over time, considering the dynamic
 and uncertain nature of real-world environments. An essential feature of
@@ -728,7 +728,7 @@ image recognition models, use only one type of input data. In contrast,
 modalities (such as images and text) to improve the performance of
 learning-based approaches. Humans are naturally multimodal, as we
 experience the world by seeing objects, hearing sounds, feeling
-textures, smelling odors, tasting flavors, and more.<br />
+textures, smelling odors, tasting flavors, and more.<p>
 Below, we briefly describe the significant modalities in ML. However,
 this list is not exhaustive. Many specific types of inputs, such as data
 from physical sensors, fMRI scans, topographic maps, and so on, do not
@@ -892,13 +892,13 @@ autonomous vehicle with a water sensor that senses roads are wet when
 they are dry (predicting false positives) might slow down and drive more
 cautiously, causing delays and inconvenience, but one that senses the
 road is dry when it is wet (false negatives) might end up in serious
-road accidents and cause fatalities.<br />
+road accidents and cause fatalities.<p>
 While accuracy assigns equal cost to false positives and false
 negatives, other metrics isolate one or weigh the two differently and
 might be more appropriate in some settings. <em>Precision</em> and
 <em>recall</em> are two standard metrics that measure the extent of the
 error attributable to false positives and false negatives,
-respectively.<br />
+respectively.<p>
 <em>Precision measures the correctness of a model’s positive
 predictions.</em> This metric represents the fraction of positive
 predictions that are actually correct. It is calculated as <span
@@ -907,7 +907,7 @@ dividing true positives (hits) by the sum of true positives and false
 positives. High precision implies that when a model predicts a positive
 class, it is usually correct—but it might incorrectly classify many
 positives as negatives as well. Precision is like the model’s aim: when
-the system says it hit, how often is it right?<br />
+the system says it hit, how often is it right?<p>
 <em>Recall measures a model’s breadth.</em> On the other hand, recall
 measures how good a model is at finding all of the positive examples
 available. It is like the model’s net: how many real positives does it
@@ -917,14 +917,14 @@ signifying the fraction of real positives that the model successfully
 detected. High recall means a model is good at recognizing or
 “recalling” positive instances, but not necessarily that these
 predictions are accurate. Therefore, a model with high recall may
-incorrectly classify many negatives as positives.<br />
+incorrectly classify many negatives as positives.<p>
 In simple terms, precision is about a model being right when it makes a
 guess, and recall is about the model finding as many of the right
 answers as possible. Together, these two metrics provide a way to
 quantify how accurately and effectively a model can detect positive
 examples. Moreover, there is a trade-off between precision and recall:
 for a given model, increasing precision will necessarily decrease recall
-and vice versa.<br />
+and vice versa.<p>
 </p>
 <figure id="fig:precision-recall">
 <img src="images/ML_background/true-false-positives-green-purple.png" />
@@ -944,7 +944,7 @@ positive (belong to a certain class) or negative (do not belong to a
 certain class), a classification model will assign a score to each
 example and compare that score to a threshold or benchmark value. We can
 interpret the AUROC as the probability that a positive example scores
-higher than a negative example.<br />
+higher than a negative example.<p>
 </p>
 <figure id="fig:AUROC">
 <embed src="images/ML_background/roc_curve_v2.pdf" />
@@ -980,7 +980,7 @@ stake.</p>
 performance measures are multiple goals and values that influence how we
 can assess the quality of a machine learning model. These goals—and the
 tradeoffs that often arise between them—shape how models are judged and
-developed.<br />
+developed.<p>
 One such goal is <em>predictive power</em>, which measures the amount of
 error in predictions. Inference <em>time</em> (or <em>latency</em>)
 measures how quickly a machine learning model can produce results from
@@ -991,7 +991,7 @@ understand its decision-making process. <em>Reliability</em> assesses
 the consistency of a model’s performance over time and in varying
 conditions. <em>Scalability</em> is the capacity of a model to maintain
 or improve its performance as a key variable—compute, parameter count,
-dataset size, and so on—–scales.<br />
+dataset size, and so on—–scales.<p>
 Sometimes, these goals are in opposition, and improvements in one area
 can come at the cost of declines in others. Therefore, developing a
 machine learning model requires careful consideration of multiple
@@ -1007,12 +1007,12 @@ trusted as accurate and used to supervise the model to achieve the
 intended results better. Labels can allow the model to capture
 relationships between inputs and their corresponding outputs more
 effectively. Supervision is often vital to help models learn patterns
-and predict new, unseen data accurately.<br />
+and predict new, unseen data accurately.<p>
 There are distinct approaches in machine learning for dealing with
 different amounts of supervision. Here, we will explore three key
 approaches: supervised, unsupervised, and reinforcement learning. We
 will also discuss deep learning, a set of techniques that can be applied
-in any of these settings.<br />
+in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
 <img src="images/ML_background/learning_paradigms.png" />
@@ -1145,7 +1145,7 @@ the models can be challenging to interpret.</p>
 <p>AI is one of the most impactful and rapidly developing fields of
 computer science. Artificial intelligence involves developing computer
 systems that can perform tasks that typically require human
-intelligence, from visual perception to decision-making.<br />
+intelligence, from visual perception to decision-making.<p>
 Machine learning is an approach to AI that involves developing models
 that can learn from data to perform tasks without being explicitly
 programmed. A robust approach to understanding any machine learning
@@ -1159,24 +1159,24 @@ deep learning and its applications in artificial intelligence.</p>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Russell2020" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">S.
+<div class="csl-left-margin">[1] S.
 J. Russell and P. Norvig, <span>“Artificial intelligence: A modern
 approach.”</span> 2020.</div>
 </div>
 <div id="ref-Legg2007" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">S.
+<div class="csl-left-margin">[2] S.
 Legg and M. Hutter, <span>“Universal intelligence: A definition of
 machine intelligence.”</span> <em>Minds and Machines</em>, vol. 17, pp.
 391–444, 2007.</div>
 </div>
 <div id="ref-Turing1950" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">A.
+<div class="csl-left-margin">[3] A.
 M. Turing, <span>“Computing machinery and intelligence,”</span>
 <em>Mind</em>, vol. 59, pp. 433–460, 1950.</div>
 </div>
 <div id="ref-rosenblatt1958perceptron" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">F.
+<div class="csl-left-margin">[4] F.
 Rosenblatt, <span>“<span class="nocase">The perceptron: A probabilistic
 model for information storage and organization in the
 brain.</span>”</span> <em>Psychological Review</em>, vol. 65, no. 6, pp.
@@ -1184,36 +1184,36 @@ brain.</span>”</span> <em>Psychological Review</em>, vol. 65, no. 6, pp.
 href="https://doi.org/10.1037/h0042519">10.1037/h0042519</a>.</div>
 </div>
 <div id="ref-campbell2002deep" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] </div><div class="csl-right-inline">M.
+<div class="csl-left-margin">[5] M.
 Campbell, A. J. Hoane Jr, and F. Hsu, <span>“Deep blue,”</span>
 <em>Artificial intelligence</em>, vol. 134, no. 1–2, pp. 57–83,
 2002.</div>
 </div>
 <div id="ref-Koller2009" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div class="csl-right-inline">D.
+<div class="csl-left-margin">[6] D.
 Koller and N. Friedman, <em>Probabilistic graphical models: Principles
 and techniques.</em> MIT Press, 2009.</div>
 </div>
 <div id="ref-Breiman2001" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] </div><div class="csl-right-inline">L.
+<div class="csl-left-margin">[7] L.
 Breiman, <span>“Random forests,”</span> <em>Machine Learning</em>, vol.
 20, pp. 273–297, 1995, Available: <a
 href="https://doi.org/10.1023/a:1010933404324">https://doi.org/10.1023/a:1010933404324</a></div>
 </div>
 <div id="ref-Friedman2001" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] </div><div class="csl-right-inline">J.
+<div class="csl-left-margin">[8] J.
 H. Friedman, <span>“Greedy function approximation: A gradient boosting
 machine.”</span> <em>The Annals of Statistics</em>, vol. 29, pp.
 1189–232, 2001, Available: <a
 href="http://www.jstor.org/stable/2699986">http://www.jstor.org/stable/2699986</a></div>
 </div>
 <div id="ref-Cortes1995" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] </div><div class="csl-right-inline">C.
+<div class="csl-left-margin">[9] C.
 Cortes and V. Vapnik, <span>“Support-vector networks.”</span>
 <em>Machine learning</em>, vol. 20.</div>
 </div>
 <div id="ref-deng2009imagenet" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] </div><div class="csl-right-inline">J.
+<div class="csl-left-margin">[10] J.
 Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei,
 <span>“ImageNet: A large-scale hierarchical image database,”</span> in
 <em>2009 IEEE conference on computer vision and pattern
@@ -1221,7 +1221,7 @@ recognition</em>, 2009, pp. 248–255. doi: <a
 href="https://doi.org/10.1109/CVPR.2009.5206848">10.1109/CVPR.2009.5206848</a>.</div>
 </div>
 <div id="ref-krizhevsky2012advances" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[11] </div><div class="csl-right-inline">A.
+<div class="csl-left-margin">[11] A.
 Krizhevsky, I. Sutskever, and G. E. Hinton, <span>“ImageNet
 classification with deep convolutional neural networks,”</span> in
 <em>Advances in neural information processing systems</em>, F. Pereira,
@@ -1230,36 +1230,36 @@ Inc., 2012. Available: <a
 href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a></div>
 </div>
 <div id="ref-silver2016masteringgo" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] </div><div class="csl-right-inline">D.
+<div class="csl-left-margin">[12] D.
 Silver <em>et al.</em>, <span>“Mastering the game of go with deep neural
 networks and tree search,”</span> <em>Nature</em>, vol. 529, pp.
 484–489, Jan. 2016, doi: <a
 href="https://doi.org/10.1038/nature16961">10.1038/nature16961</a>.</div>
 </div>
 <div id="ref-Radford2019LanguageMA" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] </div><div class="csl-right-inline">A.
+<div class="csl-left-margin">[13] A.
 Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever,
 <span>“Language models are unsupervised multitask learners,”</span>
 2019. Available: <a
 href="https://api.semanticscholar.org/CorpusID:160025533">https://api.semanticscholar.org/CorpusID:160025533</a></div>
 </div>
 <div id="ref-Bostrom2014" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] </div><div class="csl-right-inline">N.
+<div class="csl-left-margin">[14] N.
 Bostrom, <span>“<a href="">Superintelligence: Paths, dangers,
 strategies.</a>”</span> <em>Oxford University Press</em>, 2014.</div>
 </div>
 <div id="ref-Bishop2006" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[15] </div><div class="csl-right-inline">C.
+<div class="csl-left-margin">[15] C.
 M. Bishop, <span>“Pattern recognition and machine learning.”</span>
 2016.</div>
 </div>
 <div id="ref-Murphy2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[16] </div><div class="csl-right-inline">K.
+<div class="csl-left-margin">[16] K.
 P. Murphy, <em>Probabilistic machine learning: An introduction.</em> MIT
 Press, 2022.</div>
 </div>
 <div id="ref-drouin2017class" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[17] </div><div class="csl-right-inline">A.
+<div class="csl-left-margin">[17] A.
 Drouin and F. Laviolette, <span>“Classification vs regression.”</span>
 2017. Accessed: Sep. 28, 2023. [Online]. Available: <a
 href="https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png">https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png</a></div>
@@ -1271,14 +1271,14 @@ versus hours studying.”</span> 2022. Available: <a
 href="https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg">https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg</a></div>
 </div>
 <div id="ref-hendrycks2018baseline" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[19] </div><div class="csl-right-inline">D.
+<div class="csl-left-margin">[19] D.
 Hendrycks and K. Gimpel, <span>“A baseline for detecting misclassified
 and out-of-distribution examples in neural networks.”</span> 2018.
 Available: <a
 href="https://arxiv.org/abs/1610.02136">https://arxiv.org/abs/1610.02136</a></div>
 </div>
 <div id="ref-hendrycks-anomaly" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[20] </div><div class="csl-right-inline">D.
+<div class="csl-left-margin">[20] D.
 Hendrycks, <span>“Anomaly and out-of-distribution detection.”</span>
 Available: <a
 href="https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0">https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0</a></div>
@@ -1295,7 +1295,7 @@ class="csl-right-inline">cmglee and M. Thoma, 2018. Available: <a
 href="https://commons.wikimedia.org/wiki/File:Roc_curve.svg">https://commons.wikimedia.org/wiki/File:Roc_curve.svg</a></div>
 </div>
 <div id="ref-elharrouss2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[23] </div><div class="csl-right-inline">O.
+<div class="csl-left-margin">[23] O.
 Elharrouss, N. Almaadeed, S. Al-Maadeed, and Y. Akbari, <span>“Image
 inpainting: A review,”</span> <em>Neural Processing Letters</em>, vol.
 51, no. 2, pp. 2007–2028, Dec. 2019, doi: <a
