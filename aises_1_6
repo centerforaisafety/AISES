@@ -4,7 +4,7 @@
 Connections Between Risks</h1>
 <p>So far, we have considered four sources of AI risk separately, but
 they also interact with each other in complex ways. We give some
-examples to illustrate how risks are connected.<>>
+examples to illustrate how risks are connected.<p/>
 Imagine, for instance, that a corporate AI race compels companies to
 prioritize the rapid development of AIs. This could increase
 organizational risks in various ways. Perhaps a company could cut costs
@@ -13,7 +13,7 @@ AI systems getting leaked. This would increase the probability of
 someone with malicious intent having the AI system and using it to
 pursue their harmful objectives. Here, an AI race can increase
 organizational risks, which in turn can make malicious use more
-likely.<>>
+likely.<p/>
 In another potential scenario, we could envision the combination of an
 intense AI race and low organizational safety leading a research team to
 mistakenly view general capabilities advances as “safety.” This could
@@ -25,13 +25,13 @@ controllable. This could give rise to the release of a highly powerful
 AI system that we lose control over, leading to a catastrophe. Here,
 competitive pressures and low organizational safety can reinforce AI
 race dynamics, which can undercut technical safety research and increase
-the chance of a loss of control.<>>
+the chance of a loss of control.<p/>
 Competitive pressures in a military environment could lead to an AI arms
 race, and increase the potency and autonomy of AI weapons. The
 deployment of AI-powered weapons, paired with insufficient control of
 them, would make a loss of control more deadly, potentially existential.
 These are just a few examples of how these sources of risk might
-combine, trigger, and reinforce one another.<>>
+combine, trigger, and reinforce one another.<p/>
 It is also worth noting that many existential risks could arise from AIs
 amplifying existing concerns. Power inequality already exists, but AIs
 could lock it in and widen the chasm between the powerful and the
@@ -48,13 +48,13 @@ Dramatically accelerated economic automation could lead to eroded human
 control and enfeeblement, an existential risk. Each of those
 issues—power concentration, disinformation, cyberattacks, automation—is
 causing ongoing harm, and their exacerbation by AIs could eventually
-lead to a catastrophe humanity may not recover from.<>>
+lead to a catastrophe humanity may not recover from.<p/>
 As we can see, ongoing harms, catastrophic risks, and existential risks
 are deeply intertwined. Historically, existential risk reduction has
 focused on <em>targeted</em> interventions such as technical AI control
 research, but the time has come for <em>broad</em> interventions <span
 class="citation" data-cites="Beckstead2013OnTO">[1]</span> like the many
-sociotechnical interventions outlined in this chapter.<>>
+sociotechnical interventions outlined in this chapter.<p/>
 In mitigating existential risk, it does not make practical sense to
 ignore other risks. Ignoring ongoing harms and catastrophic risks
 normalizes them and could lead us to “drift into danger” <span
@@ -80,7 +80,7 @@ safety could lead to catastrophic accidents. Finally, we have addressed
 the challenges in reliably controlling advanced AIs, including
 mechanisms such as proxy gaming and goal drift that might give rise to
 rogue AIs pursuing undesirable actions without regard for human
-wellbeing.<>>
+wellbeing.<p/>
 These dangers warrant serious concern. Currently, very few people are
 working on AI risk reduction. We do not yet know how to control highly
 advanced AI systems, and existing control methods are already proving
@@ -88,7 +88,7 @@ inadequate. The inner workings of AIs are not well understood, even by
 those who create them, and current AIs are by no means highly reliable.
 As AI capabilities continue to grow at an unprecedented rate, they could
 surpass human intelligence in nearly all respects relatively soon,
-creating a pressing need to manage the potential risks.<>>
+creating a pressing need to manage the potential risks.<p/>
 The good news is that there are many courses of action we can take to
 substantially reduce these risks. The potential for malicious use can be
 mitigated by various measures, such as carefully targeted surveillance
@@ -99,7 +99,7 @@ of accidents can be reduced by a rigorous safety culture, among other
 factors, and by ensuring safety advances outpace general capabilities
 advances. Finally, the risks inherent in building technology that
 surpasses our own intelligence can be addressed by redoubling efforts in
-several branches of AI control research.<>>
+several branches of AI control research.<p/>
 The remainder of this book aims to outline the underlying factors that
 drive these risks in more detail and to provide a foundation for
 understanding and effectively responding to these risks. Later chapters
@@ -116,7 +116,7 @@ Safety chapter. While some chapters are more closely aligned to certain
 risks, many of the concepts they introduce are cross-cutting. The choice
 of values and goals embedded into AI systems, as discussed in the
 Machine Ethics and Ethics chapters, is a general factor that can
-exacerbate or reduce many of the risks discussed in this chapter.<>>
+exacerbate or reduce many of the risks discussed in this chapter.<p/>
 Before this, we provide an accessible introduction to core concepts that
 drive the modern field of AI, to ensure that all readers have a
 high-level understanding of how today’s AI systems work and how they are
