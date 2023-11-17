@@ -1,6 +1,6 @@
 <!-- AI Background -->
 
-<h1 id="introduction"> 2.1 Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p><strong>To reduce risks from AI systems, we need to understand their
 technical foundations.</strong> Like many other technologies, AI
 presents benefits and dangers on both individual and societal scales. In
@@ -29,7 +29,8 @@ it has developed over time. Then, we will survey different “types” or
 “levels” commonly used to describe AI systems, including narrow AI,
 artificial general intelligence (AGI), human-level AI (HLAI),
 transformative AI (TAI), and artificial superintelligence (ASI) <span
-class="citation" data-cites="bostrom2014superintelligence"></span>.</p>
+class="citation"
+data-cites="bostrom2014superintelligence">[1]</span>.</p>
 <p><strong>Machine Learning.</strong> Next, we will narrow our
 discussion to machine learning (ML), the subfield of AI focused on
 creating systems that learn from data, making predictions or decisions
@@ -59,7 +60,7 @@ reinforcement learning (RL), a type of ML that enables an agent to learn
 how to behave in an environment by performing actions and receiving
 rewards. We will present the basic framework and terminology of RL and
 how it differs from other approaches in ML. We will conclude by
-discussing a few of its applications.<br />
+discussing a few of its applications.<p>
 Throughout the chapter, we focus on building intuition, breaking down
 technical terms and complex ideas to provide straightforward
 explanations of their core principles. Each section presents fundamental
@@ -72,3 +73,13 @@ AI systems, the risks they pose, and how they interact with our society.
 This will provide the technical foundation we need for the following
 chapters, which will explore the risks and ethical considerations that
 these technologies present from a wide array of perspectives.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-bostrom2014superintelligence" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[1] N.
+Bostrom, <em>Superintelligence: Paths, dangers, strategies</em>, First
+edition. <span>Oxford</span>: <span>Oxford University Press</span>,
+2014.</div>
+</div>
+</div>
