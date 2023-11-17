@@ -1,4 +1,4 @@
-<h1 id="sec:AI-and-ML"> 2.2 Artificial Intelligence &amp; Machine
+<h1 id="sec:AI-and-ML">Artificial Intelligence &amp; Machine
 Learning</h1>
 <p>Artificial intelligence (AI) is reshaping our society, from its small
 effects on daily interactions to sweeping changes across many industries
@@ -8,12 +8,12 @@ perspective on the potential benefits and risks of artificial
 intelligence. Firstly, we will discuss what AI means, its different
 types, and its history. Then, in the second part of this section, we
 will analyze the field of machine learning (ML).</p>
-<h2 id="artificial-intelligence"> 2.2.1 Artificial Intelligence</h2>
+<h2 id="artificial-intelligence">Artificial Intelligence</h2>
 <p><strong>Defining Artificial Intelligence.</strong> In general, AI
 systems are computer systems performing tasks typically associated with
 intelligent beings (such as problem solving, making decisions, and
 forecasting future events) <span class="citation"
-data-cites="Russell2020"></span>. However, due to its fast-paced
+data-cites="Russell2020">[1]</span>. However, due to its fast-paced
 evolution and the variety of technologies it encompasses, AI lacks a
 universally accepted definition, leading to varying interpretations.
 Moreover, the term is used to refer to different but related ideas.
@@ -28,7 +28,7 @@ learning and decision-making machines. This textbook primarily uses AI
 to refer to an intelligent computer system.</p>
 <p><strong>Different meanings of intelligence.</strong> While
 intelligence is fundamental to AI, there is no widespread consensus on
-its definition <span class="citation" data-cites="Legg2007"></span>.
+its definition <span class="citation" data-cites="Legg2007">[2]</span>.
 Generally, we consider something intelligent if it can learn to achieve
 goals in various environments. Therefore, one definition of intelligence
 is the ability to learn, solve problems, and perform tasks to achieve
@@ -100,20 +100,20 @@ wake. Though rudimentary by today’s standards, the creation of these
 machines—Colossus, ENIAC, the Automatic Computing Engine, and several
 others—marked the dawn of the computer age and set the stage for future
 computer science research.</p>
-<p><strong>The Turing Test .</strong> Turing created a thought
-experiment to assess if an AI could convincingly simulate human
-conversation<span class="citation" data-cites="Turing1950"></span>. In
-what Turing called the <em>Imitation Game</em>, a human evaluator
-interacts with a human and a machine, both hidden from view. If the
-evaluator fails to identify the machine’s responses reliably, then the
-machine passes the test, qualifying it as intelligent. This framework
-offers a method for evaluating machine intelligence, yet it has many
-limitations. Critics argue that machines could pass the Turing Test
-merely by mimicking human conversation without truly understanding it or
-possessing intelligence. As a result, some researchers see the Turing
-Test as a philosophical concept rather than a helpful benchmark.
-Nonetheless, since its inception, the Turing Test has substantially
-influenced how we think about machine intelligence.</p>
+<p><strong>The Turing Test.</strong> Turing created a thought experiment
+to assess if an AI could convincingly simulate human conversation<span
+class="citation" data-cites="Turing1950">[3]</span>. In what Turing
+called the <em>Imitation Game</em>, a human evaluator interacts with a
+human and a machine, both hidden from view. If the evaluator fails to
+identify the machine’s responses reliably, then the machine passes the
+test, qualifying it as intelligent. This framework offers a method for
+evaluating machine intelligence, yet it has many limitations. Critics
+argue that machines could pass the Turing Test merely by mimicking human
+conversation without truly understanding it or possessing intelligence.
+As a result, some researchers see the Turing Test as a philosophical
+concept rather than a helpful benchmark. Nonetheless, since its
+inception, the Turing Test has substantially influenced how we think
+about machine intelligence.</p>
 <p><strong><em>The Birth of AI (1956–1974)</em></strong></p>
 <p><strong>The Dartmouth Conference.</strong> Dr. John McCarthy coined
 the term “artificial intelligence” in a seminal conference at Dartmouth
@@ -144,7 +144,7 @@ a glimpse into the future of machine learning.</p>
 <p><strong>The first neural network.</strong> One of the earliest
 attempts to create AI was the perceptron, a method implemented by Frank
 Rosenblatt in 1958 and inspired by biological neurons <span
-class="citation" data-cites="rosenblatt1958perceptron"></span>. The
+class="citation" data-cites="rosenblatt1958perceptron">[4]</span>. The
 perceptron could learn to classify patterns of inputs by adjusting a set
 of numbers based on a learning rule. It is an important milestone
 because it made an immense impact in the long run, inspiring further
@@ -206,13 +206,13 @@ research.</p>
 IBM’s AI system <em>Deep Blue</em> defeated world chess champion Garry
 Kasparov, marking the first time a computer triumphed over a human in a
 highly cognitive task <span class="citation"
-data-cites="campbell2002deep"></span>. This win demonstrated that AI
+data-cites="campbell2002deep">[5]</span>. This win demonstrated that AI
 could excel in complex problem-solving, challenging the notion that such
 tasks were exclusively in the human domain. It offered an early glimpse
 of AI’s potential.</p>
 <p><strong>The rise of probabilistic graphical models (PGMs) <span
-class="citation" data-cites="Koller2009"></span>.</strong> PGMs became
-prominent in the 2000s due to their versatility, computational
+class="citation" data-cites="Koller2009">[6]</span>.</strong> PGMs
+became prominent in the 2000s due to their versatility, computational
 efficiency, and ability to model complex relationships. These models
 consist of nodes representing variables and edges indicating
 dependencies between them. By offering a systematic approach to
@@ -232,20 +232,20 @@ Researchers in the early 2000s created methods for combining multiple
 decision trees to overcome these issues. <em>Random forests</em> are a
 collection of decision trees trained independently on different subsets
 of data and features <span class="citation"
-data-cites="Breiman2001"></span>. The final prediction is the average or
-majority vote of the predictions of all the trees. <em>Gradient
+data-cites="Breiman2001">[7]</span>. The final prediction is the average
+or majority vote of the predictions of all the trees. <em>Gradient
 boosting</em> combines decision trees in a more sequential, adaptive
 way, starting with a single tree that makes a rough prediction and then
 adding more trees to correct the errors of previous trees <span
-class="citation" data-cites="Friedman2001"></span>. Gradient-boosted
+class="citation" data-cites="Friedman2001">[8]</span>. Gradient-boosted
 decision trees are the state-of-the-art method for tabular data (such as
 spreadsheets), usually outperforming deep learning.</p>
 <p><strong>The impact of support vector machines (SVMs).</strong> The
 adoption of SVM models in the 2000s was a significant development. SVMs
 operate by finding an optimal boundary that best separates different
 categories of data points, permitting efficient classification <span
-class="citation" data-cites="Cortes1995"></span>; for instance, an SVM
-could help distinguish between handwritten characters. Though these
+class="citation" data-cites="Cortes1995">[9]</span>; for instance, an
+SVM could help distinguish between handwritten characters. Though these
 models were used across various fields during this period, SVMs have
 fallen out of favor in modern machine learning due to the rise of deep
 learning methods.</p>
@@ -268,18 +268,18 @@ significant breakthroughs in AI, especially in areas including image
 recognition and natural language understanding.<br />
 Massive datasets provided researchers with the data needed to train deep
 learning models effectively. A pivotal example is the <em>ImageNet</em>
-(<span class="citation" data-cites="deng2009imagenet"></span>) dataset,
-which provided a large-scale dataset for training and evaluating
-computer vision algorithms. It hosted an annual competition, which
-spurred breakthroughs and advancements in deep learning. In 2012, the
-<em>AlexNet</em> model revolutionized the field as it won the ImageNet
-Large Scale Visual Recognition Challenge <span class="citation"
-data-cites="krizhevsky2012advances"></span>. This breakthrough showcased
-the superior performance of deep learning over traditional machine
-learning methods in computer vision tasks, sparking a surge in deep
-learning applications across various domains. From this point onward,
-deep learning has dominated AI and ML research and the development of
-real-world applications.</p>
+(<span class="citation" data-cites="deng2009imagenet">[10]</span>)
+dataset, which provided a large-scale dataset for training and
+evaluating computer vision algorithms. It hosted an annual competition,
+which spurred breakthroughs and advancements in deep learning. In 2012,
+the <em>AlexNet</em> model revolutionized the field as it won the
+ImageNet Large Scale Visual Recognition Challenge <span class="citation"
+data-cites="krizhevsky2012advances">[11]</span>. This breakthrough
+showcased the superior performance of deep learning over traditional
+machine learning methods in computer vision tasks, sparking a surge in
+deep learning applications across various domains. From this point
+onward, deep learning has dominated AI and ML research and the
+development of real-world applications.</p>
 <p><strong>Advancements in DL.</strong> In the 2010s, deep learning
 techniques led to considerable improvements in <em>natural language
 processing (NLP)</em>, a field of AI that aims to enable computers to
@@ -288,7 +288,7 @@ the widespread use of virtual assistants Alexa and ChatGPT, introducing
 consumers to products that integrated machine learning. Later, in 2016,
 Google DeepMind’s AlphaGo () became the first AI system to defeat a
 world champion Go player in a five-game match <span class="citation"
-data-cites="silver2016masteringgo"></span>.</p>
+data-cites="silver2016masteringgo">[12]</span>.</p>
 <p><strong>Breakthroughs in natural language processing.</strong> In
 2018, Google researchers introduced the <em>Transformer</em>
 architecture, which enabled the development of highly effective NLP
@@ -297,7 +297,7 @@ models. Researchers built the first <em>large language models</em>
 networks, and billions of words of data. <em>Generative Pre-trained
 Transformer</em> (GPT) models have demonstrated impressive and near
 human-level language processing capabilities <span class="citation"
-data-cites="Radford2019LanguageMA"></span>. ChatGPT was released in
+data-cites="Radford2019LanguageMA">[13]</span>. ChatGPT was released in
 November 2022 and became the first example of a viral AI product,
 reaching 100 million users in just two months. The success of the GPT
 models also sparked widespread public discussion on the potential risks
@@ -305,7 +305,7 @@ of advanced AI systems, including congressional hearings and calls for
 regulation. In the early 2020s, AI is used for many complex tasks, from
 image recognition to autonomous vehicles, and continues to evolve and
 proliferate rapidly.</p>
-<h2 id="types-of-ai"> 2.2.2 Types of AI</h2>
+<h2 id="types-of-ai">Types of AI</h2>
 <p>The field has developed a set of concepts to describe distinct types
 or levels of AI systems. However, they often overlap, and definitions
 are rarely well-formalized, universally agreed upon, or precise. It is
@@ -330,7 +330,7 @@ Industrial Revolution.</p></li>
 <li><p><strong>Artificial superintelligence</strong> (ASI) is the most
 powerful, describing systems vastly outclassing human performance on
 virtually all intellectual tasks <span class="citation"
-data-cites="Bostrom2014"></span>.</p></li>
+data-cites="Bostrom2014">[14]</span>.</p></li>
 </ol>
 <p>There are not always clear distinctions between these types; these
 concepts often overlap. We can use these types to describe a system’s
@@ -473,7 +473,7 @@ might take time to diffuse widely, and its economic impacts may come
 years afterward, creating a <em>diffusion lag</em>.</p>
 <h3 id="superintelligence-asi">Superintelligence (ASI)</h3>
 <p><strong>Superintelligence (ASI) is the most advanced type of AI <span
-class="citation" data-cites="Bostrom2014"></span>.</strong>
+class="citation" data-cites="Bostrom2014">[14]</span>.</strong>
 Superintelligence refers to the ability to outclass human performance in
 virtually all domains of interest. A system with this set of
 capabilities could have immense practical applications, including
@@ -515,7 +515,7 @@ structure of proteins—a complex problem that stumped biochemists for
 decades. Ultimately, a superintelligence exceeds these other types of AI
 in the degree to which it exceeds human abilities across a variety of
 cognitive tasks.</p>
-<h3 id="summary"> Summary</h3>
+<h3 id="summary">Summary</h3>
 <p>This section provided an introduction to artificial intelligence
 (AI), the broad umbrella that encompasses the area of computer science
 focused on creating machines that perform tasks typically associated
@@ -533,21 +533,22 @@ within AI that emphasizes the development of systems that can learn from
 data. Whereas many classical approaches to AI relied on logical rules
 and formal, structured knowledge, ML systems use pattern recognition to
 extract information from data.</p>
-<h2 id="machine-learning"> 2.2.3 Machine Learning</h2>
+<h2 id="machine-learning">Machine Learning</h2>
 <h3 id="overview-and-definition">Overview and Definition</h3>
 <p>Machine learning (ML) is a subfield of AI that focuses on developing
 computer systems that can learn directly from data without following
 explicit pre-set instructions <span class="citation"
-data-cites="Bishop2006 Murphy2022"></span>. It accomplishes this by
-creating computational models that discern patterns and correlations
-within data. The knowledge encoded in these models allows them to inform
-decision-making or to reason about and act in the world. For instance,
-an email spam filter uses ML to improve its ability to distinguish spam
-from legitimate emails as it sees more examples. ML is the engine behind
-most modern AI applications, from personalized recommendations on
-streaming services to autonomous vehicles. One of the most popular and
-influential algorithmic techniques for ML applications is deep learning
-(DL), which uses deep neural networks to process data.</p>
+data-cites="Bishop2006 Murphy2022">[15], [16]</span>. It accomplishes
+this by creating computational models that discern patterns and
+correlations within data. The knowledge encoded in these models allows
+them to inform decision-making or to reason about and act in the world.
+For instance, an email spam filter uses ML to improve its ability to
+distinguish spam from legitimate emails as it sees more examples. ML is
+the engine behind most modern AI applications, from personalized
+recommendations on streaming services to autonomous vehicles. One of the
+most popular and influential algorithmic techniques for ML applications
+is deep learning (DL), which uses deep neural networks to process
+data.</p>
 <p><strong>Machine learning algorithms.</strong> An <em>algorithm</em>
 is a recipe for getting something done—a procedure for solving a problem
 or accomplishing a task, often expressed in a precise programming
@@ -614,9 +615,9 @@ methods to enable computers to interpret and understand visual data from
 the world. Classification is categorization: it involves putting data
 points into buckets.</p>
 <figure id="fig:example-binary-class">
-<embed src="images/ML_background/binary_classification.pdf" />
+<embed src="images/ML_background/binary_classification_v2.pdf" />
 <figcaption>ML models can classify data into different categories. <span
-class="citation" data-cites="drouin2017class"></span></figcaption>
+class="citation" data-cites="drouin2017class">[17]</span></figcaption>
 </figure>
 <p><strong>The sigmoid function produces probabilistic outputs.</strong>
 A sigmoid is one of several mathematical functions used in
@@ -632,10 +633,10 @@ models can provide similar probabilistic outputs without employing a
 sigmoid function.<br />
 </p>
 <figure id="fig:logistic-classification">
-<img src="images/ML_background/image79.png" />
+<embed src="images/ML_background/logistic_regression_v2.pdf" />
 <figcaption>Example of binary classification with a sigmoid-like
 logistic curve - <span class="citation"
-data-cites="wikipedia-logistic"></span></figcaption>
+data-cites="wikipedia-logistic">[18]</span></figcaption>
 </figure>
 <p><strong><em>Regression</em></strong></p>
 <p><strong>Regression is predicting numbers.</strong> In regression
@@ -650,9 +651,9 @@ a continuous output variable based on one or more input variables.
 Regression is estimation: it involves guessing what a feature of a data
 point will be given the rest of its characteristics.</p>
 <figure id="fig:simple_regression">
-<img src="images/ML_background/image71.png" />
+<embed src="images/ML_background/linear_regression_v2.pdf" />
 <figcaption>Example regression plot - <span class="citation"
-data-cites="drouin2017class"></span></figcaption>
+data-cites="drouin2017class">[17]</span></figcaption>
 </figure>
 <p><strong>Linear regression.</strong> One type of regression, linear
 regression, assumes a linear relationship between features and predicted
@@ -668,16 +669,18 @@ variables and struggle to add additional structures themselves.</p>
 <p><strong><em>Anomaly Detection</em></strong></p>
 <p><strong>Anomaly detection is the identification of outliers or
 abnormal data points <span class="citation"
-data-cites="hendrycks2018baseline"></span>.</strong> Anomaly detection
-is vital in identifying hazards, including unexpected inputs, attempted
-cyberattacks, sudden behavioral shifts, and unanticipated failures.
-Early detection of anomalies can substantially improve the performance
-of models in real-world situations.</p>
+data-cites="hendrycks2018baseline">[19]</span>.</strong> Anomaly
+detection is vital in identifying hazards, including unexpected inputs,
+attempted cyberattacks, sudden behavioral shifts, and unanticipated
+failures. Early detection of anomalies can substantially improve the
+performance of models in real-world situations.</p>
 <figure>
-<img src="images/ML_background/image81.png" style="width:90.0%" />
-<img src="images/ML_background/image66.png" style="width:90.0%" />
+<embed src="images/ML_background/anomaly_scatter_v2.pdf"
+style="width:90.0%" />
+<embed src="images/ML_background/anomaly_time_v2.pdf"
+style="width:90.0%" />
 <figcaption>Two examples of anomaly detection -<span class="citation"
-data-cites="hendrycks-anomaly"></span></figcaption>
+data-cites="hendrycks-anomaly">[20]</span></figcaption>
 </figure>
 <p><strong>Black swan detection is an essential problem within anomaly
 detection.</strong> Black swans are unpredictable and rare events with a
@@ -867,7 +870,7 @@ incorrect prediction of the negative class, predicting negative instead
 of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
-<img src="images/ML_background/Predicted-actual-red-green.png" />
+<img src="images/ML_background/predicted-actual-green-purple.png" />
 <figcaption>Confusion matrix</figcaption>
 </figure>
 <p>Since each prediction must be in one of these categories, the number
@@ -926,7 +929,8 @@ and vice versa.<br />
 <figure id="fig:precision-recall">
 <img src="images/ML_background/true-false-positives-green-purple.png" />
 <figcaption>Visualization of precision and recall - <span
-class="citation" data-cites="wikipedia-precision"></span></figcaption>
+class="citation"
+data-cites="wikipedia-precision">[21]</span></figcaption>
 </figure>
 <p><strong>AUROC scores measure a model’s discernment.</strong> The
 AUROC (Area Under the Receiver Operating Characteristic) score measures
@@ -943,10 +947,10 @@ interpret the AUROC as the probability that a positive example scores
 higher than a negative example.<br />
 </p>
 <figure id="fig:AUROC">
-<embed src="images/ML_background/roc_curve.pdf" />
+<embed src="images/ML_background/roc_curve_v2.pdf" />
 <figcaption>The AUROC score increases as it moves in the northwest
 direction. <span class="citation"
-data-cites="wikipedia-roccurve"></span></figcaption>
+data-cites="wikipedia-roccurve">[22]</span></figcaption>
 </figure>
 <p>Since it considers performance at all possible decision thresholds,
 the AUROC is useful for comparing the performance of different
@@ -972,7 +976,7 @@ cause harm in others. Chatbots currently give reasonable results, which
 is frustrating but essentially harmless. However, if autonomous vehicles
 show reasonable but not reliable results, people’s lives are at
 stake.</p>
-<p><strong>Goals and Tradeoffs</strong> Above and beyond quantitative
+<p><strong>Goals and Tradeoffs.</strong> Above and beyond quantitative
 performance measures are multiple goals and values that influence how we
 can assess the quality of a machine learning model. These goals—and the
 tradeoffs that often arise between them—shape how models are judged and
@@ -992,7 +996,7 @@ Sometimes, these goals are in opposition, and improvements in one area
 can come at the cost of declines in others. Therefore, developing a
 machine learning model requires careful consideration of multiple
 competing goals.</p>
-<h2 id="types-of-machine-learning"> 2.2.4 Types of Machine Learning</h2>
+<h2 id="types-of-machine-learning">Types of Machine Learning</h2>
 <p><strong>One key dimension along which ML approaches vary is the
 degree of supervision.</strong> We can divide ML approaches into groups
 based on how they use the training data and what they produce as an
@@ -1072,7 +1076,7 @@ can be used to generate new images.</p>
 <figure id="fig:inpainting">
 <img src="images/ML_background/image32.png" />
 <figcaption>Image inpainting - <span class="citation"
-data-cites="elharrouss2019"></span></figcaption>
+data-cites="elharrouss2019">[23]</span></figcaption>
 </figure>
 <p><strong>ML models exist on a spectrum of supervision.</strong>
 Unsupervised and supervised learning are valuable concepts for thinking
@@ -1152,3 +1156,149 @@ and solve real-world problems. Deep learning is a powerful and popular
 method that uses many-layered neural networks to identify intricate
 patterns in large datasets. The following section will delve deeper into
 deep learning and its applications in artificial intelligence.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Russell2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">S.
+J. Russell and P. Norvig, <span>“Artificial intelligence: A modern
+approach.”</span> 2020.</div>
+</div>
+<div id="ref-Legg2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">S.
+Legg and M. Hutter, <span>“Universal intelligence: A definition of
+machine intelligence.”</span> <em>Minds and Machines</em>, vol. 17, pp.
+391–444, 2007.</div>
+</div>
+<div id="ref-Turing1950" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">A.
+M. Turing, <span>“Computing machinery and intelligence,”</span>
+<em>Mind</em>, vol. 59, pp. 433–460, 1950.</div>
+</div>
+<div id="ref-rosenblatt1958perceptron" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">F.
+Rosenblatt, <span>“<span class="nocase">The perceptron: A probabilistic
+model for information storage and organization in the
+brain.</span>”</span> <em>Psychological Review</em>, vol. 65, no. 6, pp.
+386–408, 1958, doi: <a
+href="https://doi.org/10.1037/h0042519">10.1037/h0042519</a>.</div>
+</div>
+<div id="ref-campbell2002deep" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">M.
+Campbell, A. J. Hoane Jr, and F. Hsu, <span>“Deep blue,”</span>
+<em>Artificial intelligence</em>, vol. 134, no. 1–2, pp. 57–83,
+2002.</div>
+</div>
+<div id="ref-Koller2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline">D.
+Koller and N. Friedman, <em>Probabilistic graphical models: Principles
+and techniques.</em> MIT Press, 2009.</div>
+</div>
+<div id="ref-Breiman2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline">L.
+Breiman, <span>“Random forests,”</span> <em>Machine Learning</em>, vol.
+20, pp. 273–297, 1995, Available: <a
+href="https://doi.org/10.1023/a:1010933404324">https://doi.org/10.1023/a:1010933404324</a></div>
+</div>
+<div id="ref-Friedman2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] </div><div class="csl-right-inline">J.
+H. Friedman, <span>“Greedy function approximation: A gradient boosting
+machine.”</span> <em>The Annals of Statistics</em>, vol. 29, pp.
+1189–232, 2001, Available: <a
+href="http://www.jstor.org/stable/2699986">http://www.jstor.org/stable/2699986</a></div>
+</div>
+<div id="ref-Cortes1995" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] </div><div class="csl-right-inline">C.
+Cortes and V. Vapnik, <span>“Support-vector networks.”</span>
+<em>Machine learning</em>, vol. 20.</div>
+</div>
+<div id="ref-deng2009imagenet" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] </div><div class="csl-right-inline">J.
+Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei,
+<span>“ImageNet: A large-scale hierarchical image database,”</span> in
+<em>2009 IEEE conference on computer vision and pattern
+recognition</em>, 2009, pp. 248–255. doi: <a
+href="https://doi.org/10.1109/CVPR.2009.5206848">10.1109/CVPR.2009.5206848</a>.</div>
+</div>
+<div id="ref-krizhevsky2012advances" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] </div><div class="csl-right-inline">A.
+Krizhevsky, I. Sutskever, and G. E. Hinton, <span>“ImageNet
+classification with deep convolutional neural networks,”</span> in
+<em>Advances in neural information processing systems</em>, F. Pereira,
+C. J. Burges, L. Bottou, and K. Q. Weinberger, Eds., Curran Associates,
+Inc., 2012. Available: <a
+href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a></div>
+</div>
+<div id="ref-silver2016masteringgo" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] </div><div class="csl-right-inline">D.
+Silver <em>et al.</em>, <span>“Mastering the game of go with deep neural
+networks and tree search,”</span> <em>Nature</em>, vol. 529, pp.
+484–489, Jan. 2016, doi: <a
+href="https://doi.org/10.1038/nature16961">10.1038/nature16961</a>.</div>
+</div>
+<div id="ref-Radford2019LanguageMA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] </div><div class="csl-right-inline">A.
+Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever,
+<span>“Language models are unsupervised multitask learners,”</span>
+2019. Available: <a
+href="https://api.semanticscholar.org/CorpusID:160025533">https://api.semanticscholar.org/CorpusID:160025533</a></div>
+</div>
+<div id="ref-Bostrom2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] </div><div class="csl-right-inline">N.
+Bostrom, <span>“<a href="">Superintelligence: Paths, dangers,
+strategies.</a>”</span> <em>Oxford University Press</em>, 2014.</div>
+</div>
+<div id="ref-Bishop2006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] </div><div class="csl-right-inline">C.
+M. Bishop, <span>“Pattern recognition and machine learning.”</span>
+2016.</div>
+</div>
+<div id="ref-Murphy2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] </div><div class="csl-right-inline">K.
+P. Murphy, <em>Probabilistic machine learning: An introduction.</em> MIT
+Press, 2022.</div>
+</div>
+<div id="ref-drouin2017class" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] </div><div class="csl-right-inline">A.
+Drouin and F. Laviolette, <span>“Classification vs regression.”</span>
+2017. Accessed: Sep. 28, 2023. [Online]. Available: <a
+href="https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png">https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png</a></div>
+</div>
+<div id="ref-wikipedia-logistic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] </div><div
+class="csl-right-inline">Canley, <span>“Probability of passing exam
+versus hours studying.”</span> 2022. Available: <a
+href="https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg">https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg</a></div>
+</div>
+<div id="ref-hendrycks2018baseline" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] </div><div class="csl-right-inline">D.
+Hendrycks and K. Gimpel, <span>“A baseline for detecting misclassified
+and out-of-distribution examples in neural networks.”</span> 2018.
+Available: <a
+href="https://arxiv.org/abs/1610.02136">https://arxiv.org/abs/1610.02136</a></div>
+</div>
+<div id="ref-hendrycks-anomaly" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] </div><div class="csl-right-inline">D.
+Hendrycks, <span>“Anomaly and out-of-distribution detection.”</span>
+Available: <a
+href="https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0">https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0</a></div>
+</div>
+<div id="ref-wikipedia-precision" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] </div><div
+class="csl-right-inline">Walber, <span>“Precision recall.”</span> 2014.
+Available: <a
+href="https://en.wikipedia.org/wiki/File:Precisionrecall.svg">https://en.wikipedia.org/wiki/File:Precisionrecall.svg</a></div>
+</div>
+<div id="ref-wikipedia-roccurve" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] </div><div
+class="csl-right-inline">cmglee and M. Thoma, 2018. Available: <a
+href="https://commons.wikimedia.org/wiki/File:Roc_curve.svg">https://commons.wikimedia.org/wiki/File:Roc_curve.svg</a></div>
+</div>
+<div id="ref-elharrouss2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] </div><div class="csl-right-inline">O.
+Elharrouss, N. Almaadeed, S. Al-Maadeed, and Y. Akbari, <span>“Image
+inpainting: A review,”</span> <em>Neural Processing Letters</em>, vol.
+51, no. 2, pp. 2007–2028, Dec. 2019, doi: <a
+href="https://doi.org/10.1007/s11063-019-10163-0">10.1007/s11063-019-10163-0</a>.</div>
+</div>
+</div>
