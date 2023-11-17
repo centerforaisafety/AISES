@@ -1,4 +1,4 @@
-<h1 id="conclusion-3"> 2.6 Conclusion</h1>
+<h1 id="conclusion">Conclusion</h1>
 <p>Understanding the technical underpinnings of AI systems—the
 underlying models and algorithms, how they work, how they are used, and
 how they are evaluated—is essential to understanding the safety, ethics,
@@ -8,7 +8,7 @@ analyze their capabilities and potential, as well as the risks that they
 pose. It allows us to discern potential pitfalls in their design,
 implementation, and deployment and devise strategies to ensure their
 safe, ethical, and beneficial use.</p>
-<h2 id="summary-3">Summary</h2>
+<h2 id="summary">Summary</h2>
 <p>In this chapter, we presented the fundamentals of artificial
 intelligence (AI) and its subfield, machine learning (ML), which aims to
 create systems that can learn without being explicitly instructed. We
@@ -94,15 +94,13 @@ entertainment, transportation and logistics, and healthcare.</p>
 relationships between model performance and key factors like model size
 and dataset size in deep learning. These power law equations show that
 as models grow in parameters and are trained on more data, their loss
-tends to decrease substantially, though not linearly. Scaling up
+tends to decrease substantially and predictably. Scaling up
 computational resources used to train a model can enable an increase in
 both model parameters and the amount of data used in training.
 Researchers can leverage scaling laws to determine optimal model and
-dataset sizes given computational constraints. for example, the
-Chinchilla model from Google DeepMind demonstrates that smaller models
-can outperform larger ones if given much more training data. Scaling
-laws hold across many modalities and orders of magnitude. However, these
-laws only appear to apply to certain types of model such as generative
+dataset sizes given computational constraints. Scaling laws hold across
+many modalities and orders of magnitude, though they do not necessarily
+apply to all deep learning models, such as many classification
 models.</p>
 <p><strong>Reinforcement learning.</strong> Finally, we turned our
 attention to reinforcement learning and explored the field’s basic
@@ -159,7 +157,7 @@ photo tagging and voice-activated virtual assistants. It powers
 autonomous vehicles, chatbots, predictive modeling tools, and
 translation applications. The scope of deep learning’s influence is vast
 and continues to expand, underscoring its pivotal role in the future of
-AI.<br />
+AI.<p>
 Despite their accomplishments, DL and ML systems have many flaws and
 limitations. Their performance and capabilities depend on a number of
 factors, including the quality and quantity of training data, the
@@ -211,4 +209,3 @@ generalize, thereby broadening their applicability. Together, these
 factors—techniques, compute, and data—are accelerating the advancement
 of AI systems. AI’s impact on individuals, industries, and society in
 the future is only becoming more profound.</p>
-
