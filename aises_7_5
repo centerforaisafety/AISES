@@ -1,5 +1,5 @@
-<h1 id="sec:uncertainty"> 7.5 Moral Uncertainty</h1>
-<h2 id="making-decisions-under-moral-uncertainty"> 7.5.1 Making Decisions Under
+<h1 id="sec:uncertainty">Moral Uncertainty</h1>
+<h2 id="making-decisions-under-moral-uncertainty">Making Decisions Under
 Moral Uncertainty</h2>
 <p>This section considers how to make decisions under moral
 uncertainty–—how to act morally when we are unsure which moral view is
@@ -8,7 +8,7 @@ in daily life, there are situations where it is crucial to identify the
 best decision. We will start by considering our uncertainties about
 morality and the idea of reasonable pluralism, which acknowledges the
 potential co-existence of multiple reasonable moral theories such as
-ethical theories, common-sense morality, and religious teachings.<br />
+ethical theories, common-sense morality, and religious teachings.<p>
 The main aim of the section is to recognize that there are different
 reasonable moral beliefs and think about what to do with them. We will
 explore uncertainties about moral truths, why they matter in moral
@@ -16,7 +16,7 @@ decision-making for both humans and AI, and how to deal with them. We
 will look at a few proposed solutions, including <em>My Favorite
 Theory</em>, <em>Maximize Expected Choice-Worthiness (MEC)</em>, and
 <em>Moral Parliament</em> <span class="citation"
-data-cites="macaskill2020moral"></span>. These approaches will be
+data-cites="macaskill2020moral">[1]</span>. These approaches will be
 compared and evaluated in terms of their ability to help us make moral
 decisions under uncertainty.</p>
 <h3 id="dealing-with-moral-uncertainty">Dealing with Moral
@@ -64,7 +64,7 @@ other words, we need AI systems to acknowledge moral uncertainty. This
 presents another challenge: how should we rationally balance the
 recommendations of different ethical theories? This is the question of
 moral uncertainty.</p>
-<h2 id="how-should-we-approach-moral-uncertainty"> 7.5.2 How Should We Approach
+<h2 id="how-should-we-approach-moral-uncertainty">How Should We Approach
 Moral Uncertainty?</h2>
 <p><strong>There are several potential solutions to moral
 uncertainty.</strong> Faced with ethical uncertainty, we can turn to
@@ -77,7 +77,7 @@ average moral value by calculating the expected choice-worthiness of
 each option (<em>Maximize Expected Choice-Worthiness</em>). The third is
 treating the decision as a negotiation in a parliament, considering
 multiple moral views to find a mutually acceptable solution (<em>Moral
-Parliament</em>).<br />
+Parliament</em>).<p>
 Consider whether we should we lie to save a life. Imagine that a
 notorious murderer asks Alex where his friend, Jordan, is. Alex knows
 that revealing Jordan’s location will likely lead to his friend’s death,
@@ -91,7 +91,7 @@ Alex has 30% credence in, strongly disapproves of lying, even to save a
 life, and contractarianism, which Alex has 10% credence in, moderately
 approves of lying in this situation. This information is represented in
 Table <a href="#tab:lying" data-reference-type="ref"
-data-reference="tab:lying">1</a>.<br />
+data-reference="tab:lying">1</a>.<p>
 </p>
 <div id="tab:lying">
 <table>
@@ -139,8 +139,8 @@ biases or to recognize when one’s own moral beliefs are fallible
 key issue with MFT is that it can discard relevant information, such as
 when the credences in two theories are close, but their judgments of an
 action vastly differ <span class="citation"
-data-cites="lloyd2022property"></span>. Imagine having 51% credence in
-contractarianism, which mildly supports lying to save a life, and 49%
+data-cites="lloyd2022property">[2]</span>. Imagine having 51% credence
+in contractarianism, which mildly supports lying to save a life, and 49%
 credence in Deontology, which views it as profoundly immoral. MFT
 suggests following the marginally favored theory, even though the
 potential harm, according to the second theory, is much larger. This
@@ -177,7 +177,7 @@ calculation is</p></li>
 each moral theory and his determination of how each moral theory judges
 lying to save a life, lying has a higher expected choice-worthiness.
 Alex would lie because he judges that, on average, lying is the best
-possible action.<br />
+possible action.<p>
 </p>
 <div id="tab:lying-2">
 <table>
@@ -260,7 +260,7 @@ delegates–—numbers proportional to his credence in each theory. These
 delegates would negotiate and then come to a final decision by voting.
 Drawing inspiration from political systems, the moral parliament allows
 an agent to find flexible recommendations that enable compromises among
-plausible theories.<br />
+plausible theories.<p>
 Depending on the voting rule, moral parliament can lead to different
 outcomes. In a conventional setting with majority rule, the utilitarians
 in Alex’s moral parliament would always be able to push through their
@@ -274,7 +274,7 @@ proposal. This encourages negotiation even if there is already a
 majority, which naturally leads to more cooperative outcomes. This is a
 more intuitive approach than, for instance, assigning choice-worthiness
 values and multiplying things out, even if it does take more
-effort.<br />
+effort.<p>
 <strong>However, it is difficult to see what a moral parliament might
 recommend.</strong> We can envision a variety of different possible
 outcomes in Alex’s case. We might have the simple outcome described
@@ -306,14 +306,29 @@ different moral theories, who would demand that AI acts as far as
 possible in ways that do not violate their moral views. Incorporating
 moral uncertainty into AI decision-making could reduce the probability
 of taking actions that are seriously wrong under some moral
-theories.<br />
+theories.<p>
 In this section, we explored ways of moving beyond intuitive judgments
 or a reasonable pluralism of theories, examining three solutions to
 moral uncertainty: my favorite theory, maximize expected
 choice-worthiness, and moral parliament. Each approach has its strengths
 and limitations, with the choice depending on the situation, level of
-uncertainty, and personal preferences.<br />
+uncertainty, and personal preferences.<p>
 It is important to recognize that there might not be a one-size-fits-all
 solution to ethical dilemmas. As AI technology progresses, we should
 establish methods for addressing moral uncertainty, such as including
 diverse moral perspectives and quantifying uncertainty.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-macaskill2020moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] W.
+MacAskill, K. Bykvist, and T. Ord, <em>Moral uncertainty</em>. 2020.
+doi: <a
+href="https://doi.org/10.1093/oso/9780198722274.001.0001">10.1093/oso/9780198722274.001.0001</a>.</div>
+</div>
+<div id="ref-lloyd2022property" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] H.
+R. Lloyd, <span>“The property rights approach to moral
+uncertainty.”</span> [Online]. Available: <a
+href="https://www.happierlivesinstitute.org/report/property-rights/">https://www.happierlivesinstitute.org/report/property-rights/</a></div>
+</div>
+</div>
