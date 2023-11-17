@@ -1,4 +1,4 @@
-<h1 id="sec:opaqueness"> 3.3 Opaqueness</h1>
+<h1 id="sec:opaqueness">Opaqueness</h1>
 <p>The internal operations of many AI systems are opaque. We might be
 able to reveal and prevent harmful behavior if we can make these systems
 more transparent. In this section, we will discuss why AI systems are
@@ -6,7 +6,7 @@ often called <em>black boxes</em> and explore ways to understand them.
 Although early research into transparency shows that the problem is
 highly difficult and conceptually fraught, its potential to improve AI
 safety is substantial.</p>
-<h2 id="ml-systems-are-opaque"> 3.3.1 ML Systems are Opaque</h2>
+<h2 id="ml-systems-are-opaque">ML Systems are Opaque</h2>
 <p>The most capable machine learning models today are based on deep
 neural networks. Whereas most conventional software is directly written
 by humans, deep learning (DL) systems independently learn how to
@@ -20,36 +20,37 @@ will present a handful of analogies and results that illustrate the
 difficulty of understanding machine learning systems.</p>
 <p><strong>Deep learning models as a black box.</strong> Machine
 learning researchers often refer to a DL models as a <em>black box</em>
-<span class="citation" data-cites="lipton2018interpretability"></span>,
-a system that can be viewed in terms of its input-output behavior
-without insight on its internal workings. Humans are black boxes—we see
-their behavior, but not the internal brain activity that produces it,
-let alone how fully understand that brain activity. Although a deep
-neural network’s weights and activations are observable, these long
-lists of numbers do not currently help us understand how a model will
-behave. We cannot reduce all the numerical operations of a state of the
-art model into a form that is meaningful to humans.<br />
+<span class="citation"
+data-cites="lipton2018interpretability">[1]</span>, a system that can be
+viewed in terms of its input-output behavior without insight on its
+internal workings. Humans are black boxes—we see their behavior, but not
+the internal brain activity that produces it, let alone how fully
+understand that brain activity. Although a deep neural network’s weights
+and activations are observable, these long lists of numbers do not
+currently help us understand how a model will behave. We cannot reduce
+all the numerical operations of a state of the art model into a form
+that is meaningful to humans.<p>
 </p>
 <figure id="fig:comp-graph">
 <img src="images/single_agent/image24.png" />
 <figcaption>A section of a computational graph for an ML system - <span
-class="citation" data-cites="zoph2017neural"></span></figcaption>
+class="citation" data-cites="zoph2017neural">[2]</span></figcaption>
 </figure>
 <p><strong>Even simple ML techniques suffer from opaqueness.</strong>
 Opaqueness is not unique to neural networks. Even simple ML techniques
 such as Principal Component Analysis (PCA), which are better understood
 theoretically than DL, suffer from similar flaws. For example, Figure <a
 href="#fig:Eigenfaces" data-reference-type="ref"
-data-reference="fig:Eigenfaces">3</a> depicts the results of performing
+data-reference="fig:Eigenfaces">2</a> depicts the results of performing
 PCA on pictures of human faces. This yields a set of “eigenfaces”,
 capturing the most important features identifying a face. Any picture of
 a face can then be represented as a particular combination of these
-eigenfaces.<br />
+eigenfaces.<p>
 </p>
 <figure id="fig:Eigenfaces">
 <img src="images/single_agent/Eigenfaces.jpg" />
 <figcaption>Eigenfaces - <span class="citation"
-data-cites="zhang2008eigenfaces"></span></figcaption>
+data-cites="zhang2008eigenfaces">[3]</span></figcaption>
 </figure>
 <p>In some cases, we can guess what facial features an eigenface
 represents: for example, eigenfaces 1, 2 and 3 seem to capture the
@@ -65,17 +66,17 @@ component of an activation vector. One attempt to understand deep
 networks involves looking for simple quantitative or algorithmic
 descriptions of the relationship between inputs and neurons such as “if
 the ear feature has been detected, the model will output either dog or
-cat” <span class="citation" data-cites="bau2017vision"></span>. For
+cat” <span class="citation" data-cites="bau2017vision">[4]</span>. For
 image models, we can create <em>feature visualizations</em>, artificial
 images that highly activate a particular neuron (or set of neurons)
-<span class="citation" data-cites="olah2017feature"></span>. We can also
-examine natural images that highly activate that neuron.<br />
+<span class="citation" data-cites="olah2017feature">[5]</span>. We can
+also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
 <img src="images/single_agent/image30.png" />
 <figcaption>From <span class="citation"
-data-cites="schubert2020openai"></span>. A randomly selected neuron in
-the CLIP ResNet-50 image model. Left: a feature visualization that
+data-cites="schubert2020openai">[6]</span>. A randomly selected neuron
+in the CLIP ResNet-50 image model. Left: a feature visualization that
 “highly activates” the neuron, meaning the neuron reads a high value
 when the image is input to the model. Right: example images that
 activate the neuron</figcaption>
@@ -86,9 +87,9 @@ on a pattern of the input that is clear to humans. For example, a neuron
 might activate only when an image contains dog ears. In other cases, we
 observe <em>polysemantic neurons</em>, which defy a single
 interpretation <span class="citation"
-data-cites="elhage2022softmax"></span>. Consider Figure <a
+data-cites="elhage2022softmax">[7]</span>. Consider Figure <a
 href="#fig:random-neuron" data-reference-type="ref"
-data-reference="fig:random-neuron">4</a> , which shows images that
+data-reference="fig:random-neuron">3</a> , which shows images that
 highly activate a randomly chosen neuron in an image model. Judging from
 the natural images, it seems like the neuron often activates when text
 associated with traveling or moving is present, but it’s hard to be
@@ -105,7 +106,7 @@ contributes to a DL model’s behavior. There are limits on our ability to
 systematically understand and predict complex systems, which suggests
 that ML opaqueness may be a special case of the opaqueness of complex
 systems.</p>
-<h2 id="motivations-for-transparency-research"> 3.3.2 Motivations for
+<h2 id="motivations-for-transparency-research">Motivations for
 Transparency Research</h2>
 <p>There is often no way to tell whether a model will perform well on
 new inputs. If the model performs poorly, we generally cannot tell why.
@@ -115,20 +116,20 @@ capabilities, and build trust that models will perform as expected in
 new circumstances. High-stakes domains might demand guarantees of
 reliability based on the soundness or security of internal AI processes,
 but virtually no such guarantees can be made for neural networks given
-the current state of transparency research.<br />
+the current state of transparency research.<p>
 If we could meaningfully understand how a model treats a given input, we
 would be better able to monitor and audit its behavior. Additionally, by
 understanding how models solve difficult and novel problems,
 transparency might also become a source of conceptual and scientific
 insight <span class="citation"
-data-cites="lipton2018interpretability"></span>.</p>
+data-cites="lipton2018interpretability">[1]</span>.</p>
 <p><strong>Ethical obligations to make AI transparent.</strong> Model
 transparency can help ensure that model decision making is fair,
 unbiased, and ethical. For example, if a criminal justice system uses an
 opaque AI to make decisions about policing, sentencing, or probation,
 then those decisions will be similarly opaque. People might have a right
 to an explanation of decisions that will significantly affect them <span
-class="citation" data-cites="kaminski2019explanation"></span>.
+class="citation" data-cites="kaminski2019explanation">[8]</span>.
 Transparency tools may be crucial to ensuring that right is upheld.</p>
 <p><strong>Accountability for harms and hazards.</strong> Who is
 responsible when AI systems fail? Responsibility often depends on the
@@ -142,7 +143,7 @@ generality of modern AI systems makes it impossible to verify desirable
 behavior in every case. In “human-in-the-loop” systems, where decisions
 depend on both humans and AIs, human operators might be blamed for
 failures over which they had little control <span class="citation"
-data-cites="elish2019moral"></span>.<br />
+data-cites="elish2019moral">[9]</span>.<p>
 AI transparency could enable a more robust system of accountability. For
 instance, governments could mandate that AI systems meet baseline
 requirements for understandability. If an AI fails because of a
@@ -158,7 +159,7 @@ from genuine helpfulness. We discuss this issue in more detail in the
 section. For phenomena like deception that are difficult to detect from
 behavior alone, transparency tools might allow us to catch internal
 signs that show that a model is engaging in deceptive behavior.</p>
-<h2 id="approaches-to-transparency"> 3.3.3 Approaches to Transparency</h2>
+<h2 id="approaches-to-transparency">Approaches to Transparency</h2>
 <p>The remainder of this section explores a variety of approaches to
 transparency. Though the field is promising, we are careful to note the
 shortcomings of these approaches. For a problem as conceptually tricky
@@ -181,7 +182,7 @@ to understand the precise reason why a model made a particular decision.
 Faithful explanations are often better able to predict behavior because
 they more closely track the actual mechanisms that models are using to
 produce their behavior <span class="citation"
-data-cites="lipton2018interpretability"></span>.</p></li>
+data-cites="lipton2018interpretability">[1]</span>.</p></li>
 <li><p>Simplicity: A simple explanation is easier to understand.
 However, it is important that the simplification does not sacrifice too
 much information about actual model processes. Though some information
@@ -200,25 +201,25 @@ processes produce their experience and behavior. For example, mock
 juries tend to be more lenient with attractive defendants, all else
 being equal, even though jurors almost never reference attractiveness
 when explaining their decisions <span class="citation"
-data-cites="patry2008attractive"></span>.<br />
+data-cites="patry2008attractive">[10]</span>.<p>
 Another example of human confabulation can be drawn from studies on
 split-brain patients, those who have had the connection between their
 two cerebral hemispheres surgically severed causing each hemisphere to
 process information independently <span class="citation"
-data-cites="dehaan2020split"></span>. Researchers can give information
-to one hemisphere and not the other by showing the information to only
-one eye. In some experiments, researchers gave written instructions to a
-patient’s right hemisphere, which is unable to speak. After the patient
-completed the instructions, the researchers asked the patient’s verbal
-left hemisphere why they had taken those actions. Unaware of the
-instructions, the left hemisphere reported plausible but incorrect
-explanations for the patient’s behavior.</p>
+data-cites="dehaan2020split">[11]</span>. Researchers can give
+information to one hemisphere and not the other by showing the
+information to only one eye. In some experiments, researchers gave
+written instructions to a patient’s right hemisphere, which is unable to
+speak. After the patient completed the instructions, the researchers
+asked the patient’s verbal left hemisphere why they had taken those
+actions. Unaware of the instructions, the left hemisphere reported
+plausible but incorrect explanations for the patient’s behavior.</p>
 <p><strong>Machine learning system confabulation.</strong> We can ask
 language models to provide justifications along with their answers.
 Natural language reasoning is much easier to understand than internal
 model activations. For example, if an LLM describes each step of its
 reasoning in a math problem and gets the question wrong, humans can
-check where and how the mistake was made.<br />
+check where and how the mistake was made.<p>
 However, like human explanations, language model explanations are prone
 to unreliability and confabulation. For instance, when researchers
 fine-tuned a language model on multiple-choice questions where option
@@ -228,7 +229,7 @@ answers were not (a), the model would produce false but plausible
 explanations for option (a). The model’s explanation systematically
 failed to mention the real reason for its answers, which was that it had
 been trained to always pick (a) <span class="citation"
-data-cites="turpin2023language"></span>.</p>
+data-cites="turpin2023language">[12]</span>.</p>
 <p><strong>An alternative view of explanations.</strong> Instead of
 requiring that explanations directly describe internal model processes,
 a more expansive view argues that explanations are just any useful
@@ -243,7 +244,7 @@ have the potential to mislead us.</p>
 <p><strong>Saliency maps purport to identify important components of
 images.</strong> Saliency maps are visualizations that aim to show which
 parts of the input are most relevant to the model’s behavior <span
-class="citation" data-cites="simonyan2014deep"></span>. They are
+class="citation" data-cites="simonyan2014deep">[13]</span>. They are
 inspired by biological visual processing: when humans and other animals
 are shown an image, they tend to focus on particular areas. For example,
 if a person looks at a picture of a dog, the dog’s ears and nose will be
@@ -254,7 +255,7 @@ striking visualizations they produce.</p>
 <img src="images/single_agent/image21.png" />
 <figcaption>Example of a saliency map technique for various images -
 <span class="citation"
-data-cites="springenberg2015striving"></span></figcaption>
+data-cites="springenberg2015striving">[14]</span></figcaption>
 </figure>
 <p><strong>Saliency maps often fail to show how machine learning vision
 models process images.</strong> In practice, saliency maps are largely
@@ -265,9 +266,9 @@ saliency maps often look similar even when generated for random,
 untrained models. That means many saliency maps are incapable of
 providing explanations that have any relevance to how a particular model
 processes data <span class="citation"
-data-cites="adebayo2018sanity"></span>. Saliency maps serve as a warning
-that visually or intuitively satisfying information that seems to
-correspond with model behavior may not actually be useful. Useful
+data-cites="adebayo2018sanity">[15]</span>. Saliency maps serve as a
+warning that visually or intuitively satisfying information that seems
+to correspond with model behavior may not actually be useful. Useful
 transparency research must avoid the past failures of the field and
 produce explanations that are relevant to the model’s operation.</p>
 <h3 id="mechanistic-interpretability">Mechanistic Interpretability</h3>
@@ -279,7 +280,7 @@ develop a bottom-up understanding of the entire system. <em>Mechanistic
 interpretability</em> is a transparency research area that aims to
 represent models in terms of combinations of small, well-understood
 mechanisms <span class="citation"
-data-cites="wang2022interpretability"></span>. If we can
+data-cites="wang2022interpretability">[16]</span>. If we can
 reverse-engineer algorithms that describe small subsets of model
 activations and weights, we might be able to combine these algorithms to
 explain successively larger parts of the model.</p>
@@ -287,16 +288,16 @@ explain successively larger parts of the model.</p>
 mechanisms.</strong> Mechanistic interpretability proposes focusing on
 <em>features</em>, which are directions in a layer’s activation space
 that aim to correspond to a meaningful, articulable property of the
-input <span class="citation" data-cites="olah2020zoom"></span>. For
+input <span class="citation" data-cites="olah2020zoom">[17]</span>. For
 example, we can imagine a language model with a “this is in Paris”
 feature. If we evaluate the input “Eiffel Tower” using the language
 model, we may find that a corresponding activation vector points in a
 similar direction as the “this is in Paris” feature direction <span
-class="citation" data-cites="meng2023locating"></span>. Meanwhile, the
-activation vector encoding “Coliseum” may point away from the “this is
-in Paris” direction. Other examples of image or text features include
+class="citation" data-cites="meng2023locating">[18]</span>. Meanwhile,
+the activation vector encoding “Coliseum” may point away from the “this
+is in Paris” direction. Other examples of image or text features include
 “this text is code”, curve detectors, and a large-small dichotomy
-indicator.<br />
+indicator.<p>
 One goal of mechanistic interpretability is to identify features that
 maintain a coherent description across many different inputs: a “this is
 in Paris” feature would not be very valuable if it was highly activated
@@ -315,28 +316,28 @@ these features may be quite likely to contain a dog. In fact, if we
 discover a dog-detecting feature in the next layer of the model, it is
 plausible that this feature is calculated using a combination of
 dog-part-detecting features from the previous layer. We can test that
-hypothesis by checking the model’s weights.<br />
+hypothesis by checking the model’s weights.<p>
 A function represented in model weights which relates a model’s earlier
 features to its later features is called a <em>circuit</em> <span
-class="citation" data-cites="olah2020zoom"></span>. In short, circuits
-are computations within a model that are often more understandable. The
-project of mechanistic interpretability is to identify features in
-models and circuits between them. The more features and circuits we
-identify, the more confident we can be that we understand some of the
-model’s mechanisms. Circuits also simplify our understanding of the
-model, allowing us to equate complicated numerical manipulations with
-simpler algorithmic abstractions.</p>
+class="citation" data-cites="olah2020zoom">[17]</span>. In short,
+circuits are computations within a model that are often more
+understandable. The project of mechanistic interpretability is to
+identify features in models and circuits between them. The more features
+and circuits we identify, the more confident we can be that we
+understand some of the model’s mechanisms. Circuits also simplify our
+understanding of the model, allowing us to equate complicated numerical
+manipulations with simpler algorithmic abstractions.</p>
 <p><strong>An empirical example of a circuit.</strong> For the sake of
 illustration, we will describe a purported circuit from a language
 model. Researchers identified how a language model often predicts
 indirect objects of sentences (such as “Mary” in “John gave a drink to
 ...”) as a simple algorithm using all previous names in a sentence (see
 Figure <a href="#fig:id-circuit" data-reference-type="ref"
-data-reference="fig:id-circuit">6</a> below). This mechanism did not
+data-reference="fig:id-circuit">5</a> below). This mechanism did not
 merely agree with model behavior, but was directly derived from the
 model weights, giving more confidence that the algorithm is a faithful
 description of an internal model mechanism <span class="citation"
-data-cites="wang2022interpretability"></span>.<br />
+data-cites="wang2022interpretability">[16]</span>.<p>
 </p>
 <figure id="fig:id-circuit">
 <img src="images/single_agent/image25.png" />
@@ -356,9 +357,10 @@ might represent vast numbers of partial concepts and complex intuitions
 that can not be represented by mechanisms or simple concepts.</p>
 <h3 id="representation-engineering">Representation Engineering</h3>
 <p><strong>Representation reading and representation control <span
-class="citation" data-cites="zou2023representation"></span>.</strong>
-Mechanistic interpretability is a bottom-up approach and combines small
-components into an understanding of larger structures. Meanwhile,
+class="citation"
+data-cites="zou2023representation">[19]</span>.</strong> Mechanistic
+interpretability is a bottom-up approach and combines small components
+into an understanding of larger structures. Meanwhile,
 <em>representation engineering</em> is a top-down approach that begins
 with a model’s high-level representations and analyzes and controls
 them. In machine learning, models learn representations that are not
@@ -366,18 +368,8 @@ identical to their training data, but rather stand in for it and allow
 them to identify essential elements or patterns in the data (see chapter
 for further details). Rather than try to fully understand arbitrary
 aspects of a model’s internals, representation engineering develops
-actionable tools for reading representations and controlling them.<br />
-With <em>representation reading</em>, we may want to track high-level
-natural-language questions about how a model processes an input—like
-“does the model think statement X is true?” or “How harmful does the
-model think this input is?” or “How relevant is gender to how the model
-considers this situation?” Then, researchers extract indicators or
-quantifiers for these questions directly from the model’s internal
-representations. More concretely, representation reading could be used
-to create a lie detector for AIs. Representation reading can be
-understood as the part of representation engineering that improves model
-transparency.</p>
-<p><strong>We can detect high-level subprocesses.</strong> Even though
+actionable tools for reading representations and controlling them.<p>
+<strong>We can detect high-level subprocesses.</strong> Even though
 neuroscientists don’t understand the brain in fine-grained detail, they
 can associate high-level cognitive tasks to particular brain regions.
 For example, they have shown that Wernicke’s area is involved in speech
@@ -386,15 +378,15 @@ neuroscience has managed to decompose it into many parts.
 Neuroscientists can now make detailed predictions about a person’s
 emotional state, thoughts, and even mental imagery just by monitoring
 their brain activity <span class="citation"
-data-cites="tang2023semantic"></span>.<br />
+data-cites="tang2023semantic">[20]</span>.<p>
 Representation reading is the similar approach of identifying indicators
 for particular subprocesses. We can provide stimuli that relate to the
-concepts or behaviours that we want to identify. For example, to
-identify and control honesty-related outputs, we can provide contrasting
-prompts to a model such as "Pretend you’re [an honest/a dishonest]
-person making statements about the world ". We can track the differences
-in the model’s activations when responding to these stimuli. We can use
-these techniques to find portions of models which are responsible for
+concepts or behaviors that we want to identify. For example, to identify
+and control honesty-related outputs, we can provide contrasting prompts
+to a model such as “Pretend you’re [an honest/a dishonest] person making
+statements about the world.” We can track the differences in the model’s
+activations when responding to these stimuli. We can use these
+techniques to find portions of models which are responsible for
 important behaviors like models refusing requests, planning undesirable
 behavior, or deception.</p>
 <p><strong>A control panel of AI operation.</strong> The result of
@@ -402,21 +394,181 @@ representation reading could be a control panel of the most important
 indicators of model processing. Operators could detect anomalous model
 behavior by monitoring for unusual or concerning combinations of
 indicators. Though this research area is relatively new, its techniques
-show early promise.<br />
+show early promise.<p>
 With <em>representation control</em>, we can also use the outputs from
 representation reading (such as differences in activations in response
 to contrasting prompts) to adjust a model’s representation. For example,
 we could use this to delete unintended knowledge or skills from a
-network <span class="citation" data-cites="belrose2023leace"></span>. As
-another example, we can use representation control to control whether an
-AI lies or is honest <span class="citation"
-data-cites="burns2022discovering"></span>. Although it relies on
-representation reading techniques, representation control is not an area
-of transparency since its goal is control and not a general
-understanding of neural networks’ inner workings.</p>
+network <span class="citation"
+data-cites="belrose2023leace">[21]</span>. As another example, we can
+use representation control to control whether an AI lies or is honest
+<span class="citation" data-cites="burns2022discovering">[22]</span>.
+Although it relies on representation reading techniques, representation
+control is not an area of transparency since its goal is control and not
+a general understanding of neural networks’ inner workings.</p>
 <p><strong>Conclusion.</strong> ML transparency is a challenging problem
 because of the difficulty of understanding complex systems. Its ongoing
 research areas are mechanistic interpretability and representation
 reading, the latter of which does not aim to make neural networks fully
 understood but aims to gain useful internal knowledge from a model’s
 representations.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-lipton2018interpretability" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[1] Z.
+C. Lipton, <span>“The mythos of model interpretability: In machine
+learning, the concept of interpretability is both important and
+slippery.”</span> <em>Queue</em>, vol. 16, no. 3, pp. 31–57, Jun. 2018,
+doi: <a
+href="https://doi.org/10.1145/3236386.3241340">10.1145/3236386.3241340</a>.</div>
+</div>
+<div id="ref-zoph2017neural" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] B.
+Zoph and Q. V. Le, <span>“Neural <span>Architecture Search</span> with
+<span>Reinforcement Learning</span>.”</span> <span>arXiv</span>, Feb.
+2017. Accessed: Sep. 15, 2023. [Online]. Available: <a
+href="https://arxiv.org/abs/1611.01578">https://arxiv.org/abs/1611.01578</a></div>
+</div>
+<div id="ref-zhang2008eigenfaces" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] S.
+Zhang and M. Turk, Available: <a
+href="http://www.scholarpedia.org/article/Eigenfaces">http://www.scholarpedia.org/article/Eigenfaces</a></div>
+</div>
+<div id="ref-bau2017vision" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] D.
+Bau, B. Zhou, A. Khosla, A. Oliva, and A. Torralba, <span>“Network
+dissection: Quantifying interpretability of deep visual
+representations,”</span> in <em>2017 IEEE conference on computer vision
+and pattern recognition (CVPR)</em>, 2017, pp. 3319–3327. doi: <a
+href="https://doi.org/10.1109/CVPR.2017.354">10.1109/CVPR.2017.354</a>.</div>
+</div>
+<div id="ref-olah2017feature" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] C.
+Olah, A. Mordvintsev, and L. Schubert, <span>“Feature
+visualization,”</span> <em>Distill</em>, 2017, doi: <a
+href="https://doi.org/10.23915/distill.00007">10.23915/distill.00007</a>.</div>
+</div>
+<div id="ref-schubert2020openai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] L.
+Schubert, M. Petrov, S. Carter, N. Cammarata, G. Goh, and C. Olah,
+<span>“<span>OpenAI Microscope</span>.”</span> Apr. 2020.</div>
+</div>
+<div id="ref-elhage2022softmax" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] N.
+Elhage <em>et al.</em>, <span>“Softmax linear units,”</span>
+<em>Transformer Circuits Thread</em>, 2022, Available: <a
+href="https://transformer-circuits.pub/2022/solu/index.html">https://transformer-circuits.pub/2022/solu/index.html</a></div>
+</div>
+<div id="ref-kaminski2019explanation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] M.
+E. Kaminski, <span>“The right to explanation, explained,”</span>
+<em>Berkeley Tech. L.J.. Berkeley Technology Law Journal</em>, vol. 34,
+no. IR, p. 189, Available: <a
+href="http://lawcat.berkeley.edu/record/1128984">http://lawcat.berkeley.edu/record/1128984</a></div>
+</div>
+<div id="ref-elish2019moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] M.
+Elish, <span>“Moral crumple zones: Cautionary tales in human-robot
+interaction (WeRobot 2016),”</span> <em>SSRN Electronic Journal</em>,
+Jan. 2016, doi: <a
+href="https://doi.org/10.2139/ssrn.2757236">10.2139/ssrn.2757236</a>.</div>
+</div>
+<div id="ref-patry2008attractive" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] M.
+W. Patry, <span>“Attractive but <span>Guilty</span>:
+<span>Deliberation</span> and the <span>Physical Attractiveness
+Bias</span>,”</span> <em>Psychological Reports</em>, vol. 102, no. 3,
+pp. 727–733, Jun. 2008, doi: <a
+href="https://doi.org/10.2466/pr0.102.3.727-733">10.2466/pr0.102.3.727-733</a>.</div>
+</div>
+<div id="ref-dehaan2020split" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] E.
+de Haan <em>et al.</em>, <span>“Split-brain: What we know now and why
+this is important for understanding consciousness,”</span>
+<em>Neuropsychology Review</em>, vol. 30, Jun. 2020, doi: <a
+href="https://doi.org/10.1007/s11065-020-09439-3">10.1007/s11065-020-09439-3</a>.</div>
+</div>
+<div id="ref-turpin2023language" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] M.
+Turpin, J. Michael, E. Perez, and S. R. Bowman, <span>“Language
+<span>Models Don</span>’t <span>Always Say What They Think</span>:
+<span>Unfaithful Explanations</span> in <span
+class="nocase">Chain-of-Thought Prompting</span>.”</span>
+<span>arXiv</span>, May 2023. doi: <a
+href="https://doi.org/10.48550/arXiv.2305.04388">10.48550/arXiv.2305.04388</a>.</div>
+</div>
+<div id="ref-simonyan2014deep" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] K.
+Simonyan, A. Vedaldi, and A. Zisserman, <span>“Deep <span>Inside
+Convolutional Networks</span>: <span>Visualising Image Classification
+Models</span> and <span>Saliency Maps</span>.”</span>
+<span>arXiv</span>, Apr. 2014.</div>
+</div>
+<div id="ref-springenberg2015striving" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[14] J.
+T. Springenberg, A. Dosovitskiy, T. Brox, and M. Riedmiller,
+<span>“Striving for <span>Simplicity</span>: <span>The All Convolutional
+Net</span>.”</span> <span>arXiv</span>, Apr. 2015. Accessed: Sep. 15,
+2023. [Online]. Available: <a
+href="https://arxiv.org/abs/1412.6806">https://arxiv.org/abs/1412.6806</a></div>
+</div>
+<div id="ref-adebayo2018sanity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] J.
+Adebayo, J. Gilmer, M. Muelly, I. Goodfellow, M. Hardt, and B. Kim,
+<span>“Sanity <span>Checks</span> for <span>Saliency
+Maps</span>,”</span> in <em>Advances in <span>Neural Information
+Processing Systems</span></em>, <span>Curran Associates, Inc.</span>,
+2018.</div>
+</div>
+<div id="ref-wang2022interpretability" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[16] K.
+Wang, A. Variengien, A. Conmy, B. Shlegeris, and J. Steinhardt,
+<span>“Interpretability in the wild: A circuit for indirect object
+identification in GPT-2 small.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2211.00593">https://arxiv.org/abs/2211.00593</a></div>
+</div>
+<div id="ref-olah2020zoom" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] C.
+Olah, N. Cammarata, L. Schubert, G. Goh, M. Petrov, and S. Carter,
+<span>“Zoom <span>In</span>: <span>An Introduction</span> to
+<span>Circuits</span>,”</span> <em>Distill</em>, vol. 5, no. 3, p.
+e00024.001, Mar. 2020, doi: <a
+href="https://doi.org/10.23915/distill.00024.001">10.23915/distill.00024.001</a>.</div>
+</div>
+<div id="ref-meng2023locating" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] K.
+Meng, D. Bau, A. Andonian, and Y. Belinkov, <span>“Locating and
+<span>Editing Factual Associations</span> in <span>GPT</span>.”</span>
+<span>arXiv</span>, Jan. 2023.</div>
+</div>
+<div id="ref-zou2023representation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] A.
+Zou <em>et al.</em>, <span>“Representation engineering: A top-down
+approach to AI transparency.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2310.01405">https://arxiv.org/abs/2310.01405</a></div>
+</div>
+<div id="ref-tang2023semantic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] J.
+Tang, A. LeBel, S. Jain, and A. G. Huth, <span>“Semantic reconstruction
+of continuous language from non-invasive brain recordings,”</span>
+<em>bioRxiv</em>, 2022, doi: <a
+href="https://doi.org/10.1101/2022.09.29.509744">10.1101/2022.09.29.509744</a>.</div>
+</div>
+<div id="ref-belrose2023leace" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] N.
+Belrose, D. Schneider-Joseph, S. Ravfogel, R. Cotterell, E. Raff, and S.
+Biderman, <span>“LEACE: Perfect linear concept erasure in closed
+form.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2306.03819">https://arxiv.org/abs/2306.03819</a></div>
+</div>
+<div id="ref-burns2022discovering" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] C.
+Burns, H. Ye, D. Klein, and J. Steinhardt, <span>“Discovering latent
+knowledge in language models without supervision.”</span> 2022.
+Available: <a
+href="https://arxiv.org/abs/2212.03827">https://arxiv.org/abs/2212.03827</a></div>
+</div>
+</div>
