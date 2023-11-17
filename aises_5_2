@@ -1,6 +1,6 @@
-<h1 id="introduction-to-complex-systems"> 5.2 Introduction to Complex
+<h1 id="introduction-to-complex-systems">Introduction to Complex
 Systems</h1>
-<h2 id="the-reductionist-paradigm"> 5.2.1 The Reductionist Paradigm</h2>
+<h2 id="the-reductionist-paradigm">The Reductionist Paradigm</h2>
 <p>Before we describe complex systems, we will first look at non-complex
 systems and the methods of analysis that can be used to understand them.
 This discussion sits under the <em>reductionist paradigm</em>. According
@@ -41,12 +41,12 @@ inputs. For example, if we know how quickly the pedals on a bicycle are
 rotating then we can calculate the speed at which it is traveling.
 Conversely, we can control the bicycle’s speed by controlling how
 quickly the pedals rotate.</p>
-<p><strong>Conventional computer programs can also be understood
+<p><strong>Many conventional computer programs can also be understood
 mechanistically.</strong> Simple algorithmic computer programs involving
 for-loops and “if... else...” constructions can be understood in this
 way too. Given any input, we can trace through the program’s operations
 to predict the output. Similarly, for any given output, we can trace the
-steps backward and deduce information about the input.<br />
+steps backward and deduce information about the input.<p>
 Functions in computer programs can also be understood mechanistically.
 We can create functions within programs and give them names that are
 readable and intuitive to humans. For instance, we can name a function
@@ -62,7 +62,7 @@ use statistics.</strong> Suppose we are trying to predict the behavior
 of a gas in a box, which contains on the order of <span
 class="math inline">10<sup>23</sup></span> particles (that is, 1
 followed by 23 zeros). We clearly cannot follow each one and keep track
-of its effects on the others, as if it were a giant mechanism.<br />
+of its effects on the others, as if it were a giant mechanism.<p>
 However, in the case of a system like a gas in a box, the broader system
 properties of pressure and temperature can be related to averages over
 the particle motions. This allows us to use statistical descriptions to
@@ -110,21 +110,21 @@ poorly suited to capturing the diversity of interdependencies within
 complex systems. Reductionism only works well if the interactions follow
 a rigid and predictable mechanism or if they are random and independent
 enough to be modeled by statistics. In complex systems, neither of these
-assumptions hold.<br />
+assumptions hold.<p>
 In complex systems, interactions do not follow a rigid, structured
 pattern, but components are still sufficiently interconnected that they
 cannot be treated as independent. These interactions are the source of
 many novel behaviors that make complex systems interesting. To get a
 better grasp of these systems, we need to go beyond reductionism and
 adopt an alternative, more holistic framework for thinking about
-them.<br />
+them.<p>
 <strong>We can sometimes predict general short-term trends in complex
 systems.</strong> Note that we may be able to predict high-level
 patterns of behavior in some complex systems, particularly if we are
 familiar with them and have many observations of their past behavior.
 For example, we can predict with a high degree of confidence that, in
 the northern hemisphere, a day in January next year will be colder than
-a day in June.<br />
+a day in June.<p>
 However, it is much more difficult to predict specific details, such as
 the exact temperature or whether it will rain on a given day. It is also
 much more challenging to predict the longer-term trajectory of the
@@ -152,12 +152,12 @@ us a full understanding of complex systems, whose components neither
 function like a deterministic mechanism nor behave randomly and
 independently enough to use statistics—shown in Figure <a
 href="#approaches" data-reference-type="ref"
-data-reference="approaches">3</a>. This lack of a full understanding
+data-reference="approaches">4</a>. This lack of a full understanding
 presents challenges for predicting the system’s behavior on two levels:
 which component will perform which action at what time, and how the
-whole system might change over the long term.<br />
+whole system might change over the long term.<p>
 </p>
-<h2 id="the-complex-systems-paradigm"> 5.2.2 The Complex Systems Paradigm</h2>
+<h2 id="the-complex-systems-paradigm">The Complex Systems Paradigm</h2>
 <p>Now that we have seen that many systems of interest are inscrutable
 to the reductionist paradigm, we need an alternative lens through which
 to understand them. To this end, we will discuss the <em>complex systems
@@ -174,7 +174,7 @@ system’s components in isolation and doing mental reassembly does not
 amount to what we observe in reality. One primary reason for this is the
 phenomenon of <em>emergence</em>: the appearance of striking,
 system-wide features that cannot be found in any of the system’s
-components.<br />
+components.<p>
 The presence of emergent features provides one sense in which complex
 systems are “more than the sum of their parts.” For example, we do not
 find atmospheric currents in any of the molecules of nitrogen and oxygen
@@ -206,19 +206,27 @@ of complex systems.</strong> First, the emergent features of the colony
 include the collective decision-making process that enables it to choose
 a food source or nest site, the physical ability to cross over gaps many
 times wider than any ant, and even capabilities of a cognitive nature
-such as extended memory. We do not find these behaviors and abilities in
-any individual ant.<br />
+such as extended memory. We could not predict all of these behaviors and
+abilities from observing any individual ant, even if each ant displays
+some smaller analogs of some of these abilities.<p>
 Second, these emergent features cannot be derived from a reductive
 analysis of the system focused on the properties of the components. Even
 given a highly detailed study of the behavior of an individual ant
-considered in isolation, we could not derive the emergence of these
-remarkable features. Nor are these features simple statistical
-aggregates of individual ant behaviors in any practical sense. This
-distinguishes a complex system like an ant colony from something like a
-gas in a box: Although the gas also has emergent properties (like its
-temperature and pressure), it doesn’t qualify as complex because those
-higher-level properties can be straightforwardly reduced to the
-statistics of the lower-level properties of the component particles.</p>
+considered in isolation, we could not derive the emergence of all of
+these remarkable features. Nor are all of these features simple
+statistical aggregates of individual ant behaviors in any practical
+sense, although some features like the distribution of ants between
+tasks such as foraging, nest maintenance, and patrolling have been
+observed as decisions on the level of an individual ant as well.</p>
+<p>This distinguishes a more complex system like an ant colony from a
+simpler one such as a gas in a box. Although the gas also has emergent
+properties (like its temperature and pressure), it does not qualify as
+complex. The gas’s higher-level properties can be straightforwardly
+reduced to the statistics of the lower-level properties of the component
+particles. However, this was not always the case: it took many decades
+of work to uncover the statistical mechanics of gases from the
+properties of individual molecules. Complexity can be a feature of our
+understanding of the system rather than the system itself.</p>
 <p><strong>Complex systems are ubiquitous in nature and
 society.</strong> From cells, organisms, and ecosystems, to weather
 systems, cities, and the World Wide Web, complex systems are everywhere.
@@ -253,19 +261,19 @@ amenable to a reductive analysis, which tries to gain insight by
 breaking the system into its parts. As the philosopher Paul Cilliers
 writes: “In ‘cutting up’ a system, the analytic method destroys what it
 seeks to understand” <span class="citation"
-data-cites="cilliers2014complexity"></span>.</p>
+data-cites="cilliers2014complexity">[1]</span>.</p>
 <p><strong>Summary.</strong> Complex systems are characterized by
 emergent features that arise from the complex interactions between
 components, but do not exist in any of the individual components, and
 cannot be understood through or derived from a reductive analysis of
 them. Complex systems are ubiquitous, from ant colonies to economies to
 the human brain.</p>
-<h2 id="deep-learning-systems-as-complex-systems"> 5.2.3 Deep Learning Systems
+<h2 id="deep-learning-systems-as-complex-systems">Deep Learning Systems
 as Complex Systems</h2>
 <p><strong>An essential claim of this chapter is that deep learning
 models are complex systems.</strong> Here, we will briefly discuss what
 a reductionist approach to understanding deep learning systems would
-look like and why it is inadequate.<br />
+look like and why it is inadequate.<p>
 Consider a deep learning system that correctly classifies an image of a
 cat. How does it do this? The reductionist approach to this question
 would first try to break down the classification into a sequence of
@@ -283,7 +291,7 @@ higher-level features of the images they have been trained to classify.
 For example, close to the input layer, the neural network might be doing
 simple edge detection; a little further into the hidden layers, it might
 be identifying different shapes; and close to the output, it might be
-combining these shapes into composites.<br />
+combining these shapes into composites.<p>
 However, there is no clear association between an individual node in a
 given layer and a particular feature at the corresponding level of
 complexity. Instead, all the nodes in a given layer are partially
@@ -313,18 +321,57 @@ evidence that they are best understood as complex systems. We will
 substantiate this claim throughout the next section, where we run
 through some of the hallmark features of complex systems and discuss how
 they apply to deep learning models.</p>
-<h2 id="the-hallmarks-of-complex-systems"> 5.2.4 The Hallmarks of Complex
-Systems</h2>
+<h2 id="complexity-is-not-a-dichotomy">Complexity is Not a
+Dichotomy</h2>
 <p>In the previous section, we proposed a working definition of complex
 systems that suffices for an informal discussion, though it is not
-necessarily scientifically rigorous. In fact, there is no standard
-definition of complexity used by all complex-systems scientists. In
-place of a precisely demarcated subject domain, complex-systems
-scientists study numerous salient features that are generally shared by
-the systems of interest. While disciplines like physics seek fundamental
-mechanisms that can explain observations, the study of complex systems
-looks for salient higher-level patterns that appear across a wide
-variety of systems.<br />
+completely precise. In fact, there is no standard definition of
+complexity used by all complex-systems scientists. In part, this is
+because complexity is not a dichotomy.</p>
+<p><strong>Understanding system complexity.</strong> While we have
+described a distinction between a “simple” and “complex” system,
+labeling a system as inherently simple or complex can be misleading.
+Complexity is not always intrinsic to a system. Instead, it depends on
+our understanding. Certain phenomena in physics, for instance, have
+transitioned from being poorly understood “complex” concepts to
+well-explained “simple” mechanics through advanced analysis of the
+properties of the system. Superconductivity—the property of a material
+to conduct electricity without resistance when cooled below a certain
+critical temperature—is an example of this transition in
+understanding.<p>
+Superconductivity was originally perceived as a complex phenomenon due
+to the emergent behavior arising from electron interactions in metals.
+However, with the discovery of the Bardeen-Cooper-Schrieffer (BCS)
+theory, it became clear that superconductivity could be explained
+through the pairing of electrons. By considering these pairs as the
+components of interest rather than individual electrons,
+superconductivity was reclassified as a conceptually “simple” system
+that can be described by reductionist models.</p>
+<p><strong>Complexity, information, and reductionism.</strong> Current
+research in complex systems acknowledges the importance of interactions
+in determining emergent behavior but doesn’t abandon the search for
+mechanistic explanations. Often, mechanistic explanations of systems can
+be found when considering a larger basic basic building block, such as
+pairs of electrons for superconductivity. This choice of scale is
+important for creating effective models of possibly complex
+phenomena.<p>
+Thus, rather than a binary classification, systems might be better
+understood as existing on a spectrum based on the scale and amount of
+information required to predict their behavior accurately. Complex
+systems are those that, at a certain scale, require a vast amount of
+information for prediction, indicating their relative incompressibility.
+However, they could still be explained mechanistically, if we understood
+them sufficiently well.</p>
+<h2 id="the-hallmarks-of-complex-systems">The Hallmarks of Complex
+Systems</h2>
+<p>Since complexity is not a dichotomy, it is difficult to pin down when
+exactly we can consider systems complex. In place of a precisely
+demarcated domain, complex-systems scientists study numerous salient
+features that are generally shared by the systems of interest. While
+disciplines like physics seek fundamental mechanisms that can explain
+observations, the study of complex systems looks for salient
+higher-level patterns that appear across a wide variety of
+systems.<p>
 We consider seven key characteristics of complex systems. Chief among
 these is emergence, but several others also receive attention:
 self-organization, feedback and nonlinearity, criticality, adaptive
@@ -382,16 +429,27 @@ class="math inline"><em>f</em>(<em>x</em>) = <em>e</em><sup><em>x</em></sup>
 are nonlinear.</p>
 <p><strong>Complex systems are nonlinear functions of their
 inputs.</strong> Complex systems process inputs in a nonlinear way. For
-example, when an ant colony is confronted with two food sources of
-differing quality, the colony will not form two trails in proportion to
-the quality of the food source. Rather, it will determine which source
-is of higher quality and then send a disproportionately large fraction
-of its foragers over to exploit that one. Neural networks are also
-nonlinear functions of their inputs. This is why adversarial attacks can
-work well: adding a small amount of noise to an image of a cat need not
+example, when ant colonies are confronted with two food sources of
+differing quality, they will often determine which source is of higher
+quality and then send a disproportionately large fraction of its
+foragers over to exploit it rather than form two trails in proportion to
+the quality of the food source. Neural networks are also nonlinear
+functions of their inputs. This is why adversarial attacks can work
+well: adding a small amount of noise to an image of a cat need not
 merely reduce the classifier’s confidence in its prediction, but might
-instead cause the network to confidently misclassify the image as
-guacamole.</p>
+instead cause the network to confidently misclassify the image
+entirely.</p>
+<p><strong>Nonlinearity makes neural networks hard to
+decompose.</strong> A deep neural network with 10 layers cannot be
+replaced by five neural networks, each with only two layers. This is due
+to the nonlinear activation functions (such as GELUs) between their
+nodes. If the layers in a neural network simply performed a sequence of
+linear operations, the whole network could be reduced to a single linear
+operation. However, nonlinear operations cannot be reduced in the same
+way, so nonlinear activation functions mean that deep neural networks
+cannot be collapsed to networks with only a few layers. This property
+makes neural networks more capable, but also more difficult to analyze
+and understand.</p>
 <p><strong>A major source of nonlinearity is the presence of
 feedback.</strong> Feedback occurs when the interdependencies between
 different parts of a system form loops (e.g., A depends on B, which in
@@ -443,7 +501,7 @@ its resulting behavior. This means that nonlinear systems often have
 regimes in which they display extreme sensitivity to initial conditions,
 a phenomenon called chaos (colloquially referred to as the <em>butterfly
 effect</em>). A famous example of this is the logistic map, an equation
-that models how the population of a species changes over time:<br />
+that models how the population of a species changes over time:<p>
 <span
 class="math display"><em>x</em><sub><em>n</em> + 1</sub> = <em>r</em><em>x</em><sub><em>n</em></sub>(1−<em>x</em><sub><em>n</em></sub>).</span>
 This equation is formulated to capture the feedback loops that affect
@@ -456,17 +514,17 @@ population that its environment can support. <span
 class="math inline"><em>x</em><sub><em>n</em> + 1</sub></span>
 represents the fractional population at some time later. The term <span
 class="math inline"><em>r</em></span> is the rate at which the
-population increases if it is not bounded by limited resources.<br />
+population increases if it is not bounded by limited resources.<p>
 When the parameter <span class="math inline"><em>r</em></span> takes a
 value above a certain threshold (<span
 class="math inline"> ∼ 3.57</span>), we enter the chaotic regime of this
 model, in which a tiny difference in the initial population makes for a
 large difference in the long-run trajectory. Since we can never know a
 system’s initial conditions with perfect accuracy, chaotic systems are
-generally considered difficult to predict.<br />
+generally considered difficult to predict.<p>
 </p>
 <figure id="approaches">
-<embed src="images/complex_systems/logistic_map.pdf" />
+<embed src="images/complex_systems/logistic_map_v2.pdf" />
 <figcaption>Logistic map</figcaption>
 </figure>
 <p><strong>AIs as a self-reinforcing feedback loop.</strong> Since AIs
@@ -480,17 +538,6 @@ complexity required to address these problems. In this way, automating
 processes could set up a positive feedback loop, requiring us to
 continually deploy ever-more AIs. In this scenario, the long-term use of
 AIs could be hard to control or reverse.</p>
-<p><strong>Neural networks are nonlinear functions.</strong> A deep
-neural network with 10 layers cannot be replaced by five neural
-networks, each with only two layers. This is due to the nonlinear
-activation functions (such as GELUs) between their nodes. If the layers
-in a neural network simply performed a sequence of linear operations,
-the whole network could be reduced to a single linear operation.
-However, nonlinear operations cannot be reduced in the same way, so
-nonlinear activation functions mean that deep neural networks cannot be
-collapsed to networks with only a few layers. This property makes neural
-networks more capable, but also more difficult to analyze and
-understand.</p>
 <p><strong>Summary.</strong> There are multiple ways in which complex
 systems exhibit nonlinearity. A small change in the system’s input will
 not necessarily result in a proportional change in its behavior; it
@@ -574,19 +621,18 @@ the knock-on effects run out of control. Precisely at criticality, a
 local fission event can precipitate a chain reaction of any size,
 ranging from a short burst to a cascading reaction involving the entire
 system. This demonstrates how, at a critical point, a small event can
-have the broadest possible range of effects on the system.<br />
-At a critical height, a pile of grains may collapse due to the addition
-of a single grain. The concept of criticality applies far beyond nuclear
-engineering, a classic example being the sandpile model. In this model,
-a sandpile has a critical height, which is the tipping point between a
-tall, unstable pile and a shallow, stable pile. Below this height, the
-pile is relatively insensitive to perturbations: Dropping additional
-grains onto the pile has little effect beyond making it taller. Once we
-reach the critical height, however, the pile is poised to avalanche, and
-dropping extra grains can lead to avalanches of any size, including
-system-wide ones that effectively cause the whole pile to collapse.
-Again, we see that, at criticality, single events can have a wide range
-of effects on the system.</p>
+have the broadest possible range of effects on the system.<p>
+The concept of criticality applies far beyond nuclear engineering: one
+classic example is the sandpile model. A sandpile has a critical slope,
+which is the tipping point between a tall, unstable pile and a shallow,
+stable pile. Shallower than this slope, the pile is relatively
+insensitive to perturbations: dropping additional grains onto the pile
+has little effect beyond making it taller. Once we reach the critical
+slope, however, the pile is poised to avalanche, and dropping extra
+grains can lead to avalanches of any size, including system-wide ones
+that effectively cause the whole pile to collapse. Again, we see that,
+at criticality, single events can have a wide range of effects on the
+system.</p>
 <p><strong>The freezing point of water is a critical temperature between
 its solid and liquid phases.</strong> In ice, the solid phase of water,
 there is long-range order, and fluctuations away from this (pockets of
@@ -605,7 +651,7 @@ grokking is a network’s ability to work accurately for general, random
 datasets, not just the datasets used in training. One study trained
 neural networks to recognize patterns in tables of letters and fill in
 the blanks, and found that grokking switched on quite suddenly <span
-class="citation" data-cites="power2022grokking"></span>. The study
+class="citation" data-cites="power2022grokking">[2]</span>. The study
 reported that this ability remained near zero up to <span
 class="math inline">10<sup>5</sup></span> optimization steps, but then
 steeply increased to near <span class="math inline">100%</span> accuracy
@@ -617,16 +663,16 @@ viewed as a critical point.</p>
 periods of relative stasis in which species experience very little
 change, punctuated by occasional bursts of rapid change across entire
 ecosystems. These sudden bursts can be understood through the lens of
-self-organized criticality. Ecosystems will tend to organize themselves
-near critical points, where they are optimally sensitive to
-perturbations from outside (such as geological events) or fluctuations
-from within (such as an organism developing a new behavior or strategy
-through a chance mutation). Assuming the ecosystem is near its critical
-point, such a perturbation can potentially set off a system-wide cascade
-of changes, in which many species will need to adapt to survive.
-Similarly, AI systems sometimes evolve in bursts (e.g., GANs,
-self-supervised learning in vision, and so on) with long periods of slow
-development.</p>
+self-organized criticality. Ecosystems typically in equilibrium can
+slowly tend towards critical points, where they are optimally sensitive
+to perturbations from outside (such as geological events) or
+fluctuations from within (such as an organism developing a new behavior
+or strategy through a chance mutation). When the ecosystem is near a
+critical point, such a perturbation can potentially set off a
+system-wide cascade of changes, in which many species will need to adapt
+to survive. Similarly, AI development sometimes advances in bursts
+(e.g., GANs, self-supervised learning in vision, and so on) with long
+periods of slow development.</p>
 <p><strong>Summary.</strong> Complex systems often maintain themselves
 near critical points, or “tipping points”. At these points, a system is
 optimally sensitive to internal fluctuations and external inputs. This
@@ -658,7 +704,7 @@ usually work to perform their tasks. In complex systems, by contrast, no
 subsystem can perform any of the system’s functions on its own, whereas
 all the subsystems working together can collectively perform many
 different tasks. This property is called “distributed
-functionality.”<br />
+functionality.”<p>
 Note that distributed functionality does not imply that there is
 absolutely no functional specialization of the system’s components.
 Indeed, the components of a complex system usually come in a diversity
@@ -684,20 +730,20 @@ more ants than are necessary to carry out its primary functions. This is
 why the colony long outlives its members; if a few patroller ants get
 eaten, or a few foragers get lost, the colony as a whole barely notices.
 We therefore say that each of the functions is redundantly encoded
-across the component ants.<br />
+across the component ants.<p>
 An example of distributed functionality is the phenomenon known as the
 “wisdom of crowds”, which was notably demonstrated in a report from a
 village fair in 1906. At this fair, attendees were invited to take part
 in a contest by guessing the weight of an ox. 787 people submitted
 estimates, and it was reported that the mean came to 1,197 pounds. This
-was strikingly close to the actual weight, which was 1,198 pounds.<br />
+was strikingly close to the actual weight, which was 1,198 pounds.<p>
 In situations like this, it is often the case that the average estimate
 of many people is closer to the true value than any individual’s guess.
 We could say that the task of making a good estimate is only partially
 encoded in any given individual, who cannot alone get close to the
 actual value. It is also redundantly encoded because any individual’s
 estimate can usually be ignored without noticeably affecting the
-average.<br />
+average.<p>
 On a larger scale, the wisdom of crowds might be thought to underlie the
 effectiveness of democracy. Ideally, a well-functioning democracy should
 make better decisions than any of its individual members could on their
@@ -742,38 +788,40 @@ nonlinearly with its size. Instead, they often follow power laws, where
 a property is proportional to the system size raised to some power that
 may be more or less than 1. We will now discuss these <em>power
 laws</em>, which are another hallmark of complex systems.</p>
+<figure id="approaches">
+<embed src="images/complex_systems/kleiber_v2.pdf" />
+<figcaption>Kleiber’s Law</figcaption>
+</figure>
 <p><strong>Complex systems often obey power-law scalings of their
 properties with system size.</strong> Perhaps the most famous example of
 a power-law scaling is Kleiber’s law in biology: across all mammals and
 birds, and possibly beyond, the metabolic rate of a typical member of a
 species scales with the three-quarters power of its body mass.</p>
-<p><span class="math display">$$R = M^\frac{3}{4}$$</span></p>
-<figure id="kleiber">
-<p><embed src="images/complex_systems/kleiber.pdf" /> <span id="kleiber"
-label="kleiber"></span></p>
-<figcaption>Kleiber’s Law: Metabolic Rate vs. Body Mass.</figcaption>
-</figure>
-<p>There are several other documented cases of this power-law scaling
-behavior in complex systems. The average heart-rate for a typical member
-of a mammalian species scales with the minus one-quarter power of its
-body mass: <span class="math display">$$R =
+<p><span class="math display">$$R \propto M^\frac{3}{4}$$</span></p>
+<p>If we know that an elephant is five times heavier than a horse, we
+can guess that the elephant’s metabolic rate will be approximately 3.3
+times the horse’s (since <span class="math inline">$5^\frac34 \approx
+3.3$</span>). There are several other documented cases of this power-law
+scaling behavior in complex systems. The average heart-rate for a
+typical member of a mammalian species scales with the minus one-quarter
+power of its body mass: <span class="math display">$$R \propto
 M^{-\frac{1}{4}}.$$</span></p>
 <p>At the same time, the average lifespan scales with the one-quarter
 power of its body mass:</p>
-<p><span class="math display">$$T = M^{\frac{1}{4}}.$$</span></p>
+<p><span class="math display">$$T \propto M^{\frac{1}{4}}.$$</span></p>
 <p>This leads to the wonderful result that the average number of
 heartbeats per lifetime is constant across all species of mammals
-(around 1.5 billion).<br />
+(around 1.5 billion).<p>
 Among cities within the same country, the material infrastructure (such
 as the lengths of pipes, powerlines, and roads, and the number of gas
 stations) scales with population as a power-law with an exponent of
 0.85. Also among cities within the same country, socioeconomic
-quantities (such as GDP per capita, incidents of crime, and cases of
-flu) scale with the population size raised to the 1.15 power.</p>
-<p><strong>Experiments on large language models show they obey power
-laws too.</strong> In the paper in which DeepMind introduced the
-Chinchilla model (<span class="citation"
-data-cites="hoffmann2022training"></span>), the researchers fit the
+quantities (such as incidents of crime and cases of flu) scale with the
+population size raised to the 1.15 power.</p>
+<p><strong>Experiments on LLMs show that their loss obeys power laws
+too.</strong> In the paper in which DeepMind introduced the Chinchilla
+model (<span class="citation"
+data-cites="hoffmann2022training">[3]</span>), the researchers fit the
 following parametric function to the data they collected from
 experiments on language models of different sizes, where <span
 class="math inline"><em>N</em></span> is the size of the model and <span
@@ -786,7 +834,7 @@ we see that the performance of the model as measured by the loss (<span
 class="math inline"><em>L</em></span>) exhibits a power-law dependency
 on each of model parameter count (<span
 class="math inline"><em>N</em></span>) and dataset size (<span
-class="math inline"><em>D</em></span>).<br />
+class="math inline"><em>D</em></span>).<p>
 For more details on scaling laws in deep learning systems, see the
 section in .</p>
 <p><strong>Summary.</strong> Certain important properties of complex
@@ -804,9 +852,9 @@ rise too high, bees engage in various adaptive behaviors to counteract
 this. They fan their wings at the hive entrance, increasing air
 circulation to cool down the hive. Additionally, more bees are sent out
 to gather water, which helps regulate the hive’s temperature back to
-normal <span class="citation" data-cites="zhao2021response"></span>.
+normal <span class="citation" data-cites="zhao2021response">[4]</span>.
 This ability to adjust their behavior to maintain homeostasis during
-environmental changes exemplifies one type of adaptive behavior.<br />
+environmental changes exemplifies one type of adaptive behavior.<p>
 The human brain, on the other hand, showcases a different form of
 adaptability. It possesses the remarkable capacity to navigate novel
 circumstances and solve unfamiliar problems. When faced with new
@@ -831,7 +879,7 @@ training data, an ability known as “test-time adaptation” or simply
 Models remain fixed after their training phase, there are strong
 incentives to make these systems adaptive to overcome current
 limitations such as costs of re-training and lack of up-to-date
-information after the training date.<br />
+information after the training date.<p>
 Another example of adaptive behavior in deep learning systems is
 <em>few-shot prompting</em>. This technique enables general deep
 learning models (such as large language models) to be used to perform
@@ -876,12 +924,12 @@ two separate systems of half the size.</p></li>
 structure and processes in response to perturbations, enabling it to
 continue functioning in a changing environment.</p></li>
 </ol>
-<h2 id="social-systems-as-complex-systems"> 5.2.5 Social Systems as Complex
+<h2 id="social-systems-as-complex-systems">Social Systems as Complex
 Systems</h2>
 <p>So far, we have described how deep learning systems possess many of
 the classic features of complex systems. We have shown that they satisfy
 the two aspects of our working definition of complex systems and that
-they display all seven hallmarks discussed above.<br />
+they display all seven hallmarks discussed above.<p>
 We will now consider the organizations that develop AIs and the
 societies within which they are deployed, and describe how these systems
 also exhibit the characteristics of complex systems. We will argue that,
@@ -1019,11 +1067,16 @@ consider different perspectives and decide on policies.</p>
 advocacy.</strong> There are numerous factors that affect whether or not
 an issue is included on a policy agenda. Public interest in a cause, the
 influence of opponents of a cause, and the number of other issues
-competing for attention are among the many factors that mean there is a
-degree of randomness involved in determining which issues are
-considered. This means that the policy progress resulting from a
-particular campaign does not necessarily reflect the level of effort put
-into it, nor how well organized it was.<br />
+competing for attention are among the many factors that affect the
+likeligood that it is considered non-linearly; for instance, opponents
+with low influence may permit an issue being discussed, opponents with
+medium influence may try and block it from discussed, but opponents with
+high influence may permit it being discussed so that they can argue
+against it. Additionally, there is a degree of randomness involved in
+determining which issues are considered. This means that the policy
+progress resulting from a particular campaign does not necessarily
+reflect the level of effort put into it, nor how well organized it
+was.<p>
 Together with <em>distributed functionality</em> and <em>critical
 points</em>, this <em>nonlinearity</em> can make it difficult to
 evaluate how well a campaign was executed or attribute eventual success.
@@ -1032,7 +1085,7 @@ or simply maintaining some interest in a cause, even if they did not
 yield immediate results. A later campaign might then succeed in
 prompting policy-level action, regardless of whether it is particularly
 well organized, simply because the political climate becomes
-favorable.<br />
+favorable.<p>
 Other examples of <em>nonlinearity</em> within advocacy and policymaking
 arise from various feedback loops. Since people are influenced by the
 opinions of those around them, a small change in the initial level of
@@ -1060,7 +1113,7 @@ complexity in social and political systems suggests they are best
 described within the complex systems paradigm. Additionally, these
 observations can offer some insights into how we might approach advocacy
 for AI safety, suggesting it is not as simple as developing a good
-policy idea and making a convincing argument for it.<br />
+policy idea and making a convincing argument for it.<p>
 Instead, it is likely that successful advocacy over the long term will
 be characterized by adaptability to different political circumstances
 and changing public attitudes, as well as in response to opponents’
@@ -1086,9 +1139,38 @@ society represents a case of nested complexity, where complex systems
 are embedded within one another. This vastly increases the range of
 potential interactions and the number of ways in which the systems can
 co-evolve. As a result, it is difficult to predict all the ways in which
-AI might be used and what its eventual impact will be.<br />
+AI might be used and what its eventual impact will be.<p>
 While this technology could have many positive effects, there is also
 potential for interactions to have negative consequences. This is
 especially true if AI is deployed in ways that enable it to effect
 actions in the world; for example, if it is put in charge of automated
 decision-making processes.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-cilliers2014complexity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] P.
+Cilliers and D. Spurrett, <span>“Complexity and post-modernism:
+Understanding complex systems,”</span> <em>South African Journal of
+Philosophy</em>, vol. 18, pp. 258–274, Sep. 2014, doi: <a
+href="https://doi.org/10.1080/02580136.1999.10878187">10.1080/02580136.1999.10878187</a>.</div>
+</div>
+<div id="ref-power2022grokking" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] A.
+Power, Y. Burda, H. Edwards, I. Babuschkin, and V. Misra,
+<span>“Grokking: Generalization beyond overfitting on small algorithmic
+datasets.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2201.02177">https://arxiv.org/abs/2201.02177</a></div>
+</div>
+<div id="ref-hoffmann2022training" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Hoffmann <em>et al.</em>, <span>“Training compute-optimal large language
+models.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></div>
+</div>
+<div id="ref-zhao2021response" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] H.
+Zhao <em>et al.</em>, <span>“Response mechanisms to heat stress in
+bees,”</span> <em>Apidologie</em>, vol. 52, Jan. 2021, doi: <a
+href="https://doi.org/10.1007/s13592-020-00830-w">10.1007/s13592-020-00830-w</a>.</div>
+</div>
+</div>
