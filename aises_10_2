@@ -1,4 +1,4 @@
-<h1 id="properties-of-utility-functions"> Properties of Utility
+<h1 id="properties-of-utility-functions">Properties of Utility
 Functions</h1>
 <p><strong>Overview.</strong> In this section, we will formalize our
 understanding of utility functions. First, we will introduce
@@ -11,26 +11,26 @@ utility</em>, to make these tools more generally applicable to the
 choices under uncertainty. Finally, we will describe a solution to a
 famous puzzle applying expected utility—the <em>St. Petersburg
 Paradox</em>—to see why expected utility is a useful tool for decision
-making.</p>
-<p>Establishing these mathematical foundations will help us understand
-how to apply utility functions to various actors and situations.</p>
-<h2 id="bernoulli-utility-functions"> Bernoulli Utility
-Functions</h2>
+making.<p>
+Establishing these mathematical foundations will help us understand how
+to apply utility functions to various actors and situations.</p>
+<h2 id="bernoulli-utility-functions">Bernoulli Utility Functions</h2>
 <p><strong>Bernoulli utility functions represent an individual’s
 preferences over potential outcomes.</strong> Suppose we give people the
 choice between an apple, a banana, and a cherry. If we already know each
 person’s utility function, we can deduce, predict, and compare their
-preferences In the introduction, we met <strong></strong>Alice, whose
-preferences are represented by the utility function over fruits:<br />
-<span class="math display">\[u(f) = 12a+10b+2c.\]</span> This is a
-Bernoulli utility function.</p>
+preferences In the introduction, we met Alice, whose preferences are
+represented by the utility function over fruits:<p>
+<span
+class="math display"><em>u</em>(<em>f</em>) = 12<em>a</em> + 10<em>b</em> + 2<em>c</em>.</span>
+This is a Bernoulli utility function.</p>
 <p><strong>Bernoulli utility functions can be used to convey the
 strength of preferences across opportunities.</strong> In their most
 basic form, Bernoulli utility functions express ordinal preferences by
 ranking options in order of desirability. For more information, we can
 consider cardinal representations of preferences. With cardinal utility
 functions, numbers matter: while the units are still arbitrary, the
-relative differences are informative.<br />
+relative differences are informative.<p>
 To illustrate the difference between ordinal and cardinal comparisons,
 consider how we talk about temperature. When we want to precisely convey
 information about temperature, we use a cardinal measure like Celsius or
@@ -42,7 +42,7 @@ strongly about the difference between a banana and a cherry (8 units of
 utility) than she does about the difference between an apple and a
 banana (2 units). We can gauge the relative strength of Alice’s
 preferences from a utility function.</p>
-<h2 id="von-neumann-morgenstern-utility-functions"> Von
+<h2 id="von-neumann-morgenstern-utility-functions">Von
 Neumann-Morgenstern Utility Functions</h2>
 <p><strong>Von Neumann-Morgenstern utility functions help us understand
 what people prefer when outcomes are uncertain.</strong> We do not yet
@@ -57,32 +57,37 @@ outcomes of the coin flip into a number that represents the utility of
 each outcome, which can then be compared directly against the utility of
 receiving the fruits with certainty. The von Neumann-Morgenstern (vNM)
 utility functions help us do this <span class="citation"
-data-cites="vonneumann1947theory"></span>. They are extensions of
+data-cites="vonneumann1947theory">[1]</span>. They are extensions of
 Bernoulli utility functions, and work specifically for situations with
 uncertainty, represented as <em>lotteries</em> (denoted <strong><span
-class="math inline">\(L\)</span></strong>), like this coin flip. First,
-we work through some definitions and assumptions that allow us to
+class="math inline"><em>L</em></span></strong>), like this coin flip.
+First, we work through some definitions and assumptions that allow us to
 construct utility functions over potential outcomes, and then we explore
 the relation between von Neumann-Morgenstern utility functions and
 expected utility.</p>
 <p><strong>A lottery assigns a probability to each possible
 outcome.</strong> Formally, a lottery <span
-class="math inline">\(L\)</span> is any set of possible outcomes,
-denoted <span class="math inline">\(o_{i}\)</span>, and their associated
-probabilities, denoted <span class="math inline">\(p_{i}\)</span>.
-Consider a simple lottery: a coin flip where Alice receives an apple on
-heads, and a banana on tails. This lottery has possible outcomes <span
-class="math inline">\(apple\)</span> and <span
-class="math inline">\(banana\)</span>, each with probability <span
-class="math inline">\(0.5\)</span>. If a different lottery offers a
-cherry with certainty, it would have only the possible outcome <span
-class="math inline">\(cherry\)</span> with probability <span
-class="math inline">\(1\)</span>. Objective probabilities are used when
-the probabilities are known, such as when calculating the probability of
-winning in casino games like roulette. In other cases where objective
-probabilities are not known, like predicting the outcome of an election,
-an individual’s subjective best-guess could be used instead. So, both
-uncertain and certain outcomes can be represented by lotteries.<br />
+class="math inline"><em>L</em></span> is any set of possible outcomes,
+denoted <span
+class="math inline"><em>o</em><sub><em>i</em></sub></span>, and their
+associated probabilities, denoted <span
+class="math inline"><em>p</em><sub><em>i</em></sub></span>. Consider a
+simple lottery: a coin flip where Alice receives an apple on heads, and
+a banana on tails. This lottery has possible outcomes <span
+class="math inline"><em>a</em><em>p</em><em>p</em><em>l</em><em>e</em></span>
+and <span
+class="math inline"><em>b</em><em>a</em><em>n</em><em>a</em><em>n</em><em>a</em></span>,
+each with probability <span class="math inline">0.5</span>. If a
+different lottery offers a cherry with certainty, it would have only the
+possible outcome <span
+class="math inline"><em>c</em><em>h</em><em>e</em><em>r</em><em>r</em><em>y</em></span>
+with probability <span class="math inline">1</span>. Objective
+probabilities are used when the probabilities are known, such as when
+calculating the probability of winning in casino games like roulette. In
+other cases where objective probabilities are not known, like predicting
+the outcome of an election, an individual’s subjective best-guess could
+be used instead. So, both uncertain and certain outcomes can be
+represented by lotteries.<p>
 </p>
 <div class="storybox">
 <p><span>A Note on Expected Value vs. Expected Utility</span></p>
@@ -98,45 +103,46 @@ each possible outcome by its probability of occurrence. The two outcomes
 are (1) that we win a billion dollars, minus the cost of $2 to play the
 lottery, which happens with probability one in 300 million, and (2) that
 we are $2 in debt. We can calculate the expected value with the formula:
-<span class="math display">\[\frac{1}{300 \text{ million}} \cdot
+<span class="math display">$$\frac{1}{300 \text{ million}} \cdot
 \left(\$ 1 \text{ billion}-\$ 2\right)+\left(1-\frac{1}{300 \text{
-million}}\right) \cdot \left(-\$ 2\right)\approx \$ 1.33.\]</span> The
+million}}\right) \cdot \left(-\$ 2\right)\approx \$ 1.33.$$</span> The
 expected value of the lottery ticket is positive, meaning that, on
 average, buying the lottery ticket would result in us receiving <span
-class="math inline">\(\$\)</span>1.33.<br />
+class="math inline">$</span>1.33.<p>
 Generally, we can calculate expected value by multiplying each outcome
-value, <span class="math inline">\(oi\)</span>, with its probability
-<span class="math inline">\(p,\)</span> and sum everything up over all
-<span class="math inline">\(n\)</span> possibilities: <span
-class="math display">\[E\left[L\right] = o_{1} \cdot p_{1}+o_{2} \cdot
-p_{2}+\cdot s +o_{n} \cdotp_{n}.\]</span> <strong>Expected utility is
-the average utility of a random event.</strong> Although the lottery has
-positive expected value, buying a lottery ticket may still not increase
-its expected utility. Expected utility is distinct from expected value:
-instead of summing over the monetary outcomes (weighing each outcome by
-its probability), we sum over the utility the agent receives from each
-outcome (weighing each outcome by its probability).<br />
+value, <span class="math inline"><em>o</em><em>i</em></span>, with its
+probability <span class="math inline"><em>p</em>,</span> and sum
+everything up over all <span class="math inline"><em>n</em></span>
+possibilities: <span
+class="math display"><em>E</em>[<em>L</em>] = <em>o</em><sub>1</sub> ⋅ <em>p</em><sub>1</sub> + <em>o</em><sub>2</sub> ⋅ <em>p</em><sub>2</sub> +  ⋅ <em>s</em> + <em>o</em><sub><em>n</em></sub>·<sub><em>n</em></sub>.</span>
+<strong>Expected utility is the average utility of a random
+event.</strong> Although the lottery has positive expected value, buying
+a lottery ticket may still not increase its expected utility. Expected
+utility is distinct from expected value: instead of summing over the
+monetary outcomes (weighing each outcome by its probability), we sum
+over the utility the agent receives from each outcome (weighing each
+outcome by its probability).<p>
 If the agent’s utility function indicates that one “util” is just as
-valuable as one dollar, that is <span class="math inline">\(u\left(\$
-x\right) = x\)</span>, then expected utility and expected value would be
-the same. But suppose the agent’s utility function were a different
-function, such as <span class="math inline">\(u\left(\$ x\right) =
-x^{1/3}\)</span>. This utility function means that the agent values each
-additional dollar less and less as they have more and more money.<br />
+valuable as one dollar, that is <span
+class="math inline"><em>u</em>($<em>x</em>) = <em>x</em></span>, then
+expected utility and expected value would be the same. But suppose the
+agent’s utility function were a different function, such as <span
+class="math inline"><em>u</em>($<em>x</em>) = <em>x</em><sup>1/3</sup></span>.
+This utility function means that the agent values each additional dollar
+less and less as they have more and more money.<p>
 For example, if an agent with this utility function already has <span
-class="math inline">\(\$\)</span>500, an extra dollar would increase
-their utility by 0.05, but if they already have <span
-class="math inline">\(\$\)</span>200,000, an extra dollar would increase
+class="math inline">$</span>500, an extra dollar would increase their
+utility by 0.05, but if they already have <span
+class="math inline">$</span>200,000, an extra dollar would increase
 their utility by only 0.0001. With this utility function, the expected
 utility of this lottery example is negative: <span
-class="math display">\[\frac{1}{300 \text{ million}} \cdot \left(1
+class="math display">$$\frac{1}{300 \text{ million}} \cdot \left(1
 \text{ billion}-2\right)^{1/3}+\left(1-\frac{1}{300 \text{
-million}}\right) \cdot \left(-2\right)^{1/3}\approx -1.26.\]</span>
+million}}\right) \cdot \left(-2\right)^{1/3}\approx -1.26.$$</span>
 Consequently, expected value can be positive while expected utility can
-be negative, so the two concepts are distinct.<br />
+be negative, so the two concepts are distinct.<p>
 Generally, expected utility is calculated as: <span
-class="math display">\[E[u(L)] = u(o_{1}) \cdot p_{1}+u(o_{2}) \cdot
-p_{2}+\cdots +u(o_{n}) \cdot p_{n}.\]</span></p>
+class="math display"><em>E</em>[<em>u</em>(<em>L</em>)] = <em>u</em>(<em>o</em><sub>1</sub>) ⋅ <em>p</em><sub>1</sub> + <em>u</em>(<em>o</em><sub>2</sub>) ⋅ <em>p</em><sub>2</sub> + ⋯ + <em>u</em>(<em>o</em><sub><em>n</em></sub>) ⋅ <em>p</em><sub><em>n</em></sub>.</span></p>
 </div>
 <p><strong>According to expected utility theory, rational agents make
 decisions that maximize expected utility.</strong> Von Neumann and
@@ -159,15 +165,15 @@ chapter.</p>
 following axioms are satisfied, we can assume a utility function of an
 expected utility form, where agents prefer lotteries that have higher
 expected utility <span class="citation"
-data-cites="vonneumann1947theory"></span>. <span
-class="math inline">\(L\)</span> is a lottery. <span
-class="math inline">\(L_{A}\succcurlyeq L_{B}\)</span> means that the
-agent prefers lottery A to lottery B, whereas <span
-class="math inline">\(L_{A}\sim L_{B}\)</span> means that the agent is
-indifferent between lottery A and lottery B. These axioms and
-conclusions that can be derived from them are contentious, as we will
-see later on in this chapter. There are six such axioms, that we can
-split into two groups.<br />
+data-cites="vonneumann1947theory">[1]</span>. <span
+class="math inline"><em>L</em></span> is a lottery. <span
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub></span>
+means that the agent prefers lottery A to lottery B, whereas <span
+class="math inline"><em>L</em><sub><em>A</em></sub> ∼ <em>L</em><sub><em>B</em></sub></span>
+means that the agent is indifferent between lottery A and lottery B.
+These axioms and conclusions that can be derived from them are
+contentious, as we will see later on in this chapter. There are six such
+axioms, that we can split into two groups.<p>
 The first two axioms may seem obvious, but are nonetheless
 essential:</p>
 <ol>
@@ -181,62 +187,73 @@ outcomes, even if they are described differently.</p></li>
 <ol>
 <li><p>Completeness: The agent can rank their preferences over all
 lotteries. For any two lotteries, it must be that <span
-class="math inline">\(L_{A}\succcurlyeq L_{B}\)</span> or <span
-class="math inline">\(L_{B}\succcurlyeq L_{A}\)</span>.</p></li>
-<li><p>Transitivity: If <span class="math inline">\(L_{A}\succcurlyeq
-L_{B}\)</span> and <span class="math inline">\(L_{B}\succcurlyeq
-L_{C}\)</span>, then <span class="math inline">\(L_{A}\succcurlyeq
-L_{C}\)</span>.</p></li>
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub></span>
+or <span
+class="math inline"><em>L</em><sub><em>B</em></sub> ≽ <em>L</em><sub><em>A</em></sub></span>.</p></li>
+<li><p>Transitivity: If <span
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub></span>
+and <span
+class="math inline"><em>L</em><sub><em>B</em></sub> ≽ <em>L</em><sub><em>C</em></sub></span>,
+then <span
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>C</em></sub></span>.</p></li>
 <li><p>Continuity: For any three lotteries, <span
-class="math inline">\(L_{A}\succcurlyeq L_{B}\succcurlyeq
-L_{C}\)</span>, there exists a probability <span
-class="math inline">\(p\in\left[0,1\right]\)</span> such that <span
-class="math inline">\(pL_{A}+\left(1-p\right)L_{C}\sim L_{B}\)</span>.
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub> ≽ <em>L</em><sub><em>C</em></sub></span>,
+there exists a probability <span
+class="math inline"><em>p</em> ∈ [0,1]</span> such that <span
+class="math inline"><em>p</em><em>L</em><sub><em>A</em></sub> + (1−<em>p</em>)<em>L</em><sub><em>C</em></sub> ∼ <em>L</em><sub><em>B</em></sub></span>.
 This means that the agent is indifferent between <span
-class="math inline">\(L_{B}\)</span> and some combination of the worse
-lottery <span class="math inline">\(L_{C}\)</span> and the better
-lottery <span class="math inline">\(L_{A}\)</span>. In practice, this
-means that agents’ preferences change smoothly and predictably with
+class="math inline"><em>L</em><sub><em>B</em></sub></span> and some
+combination of the worse lottery <span
+class="math inline"><em>L</em><sub><em>C</em></sub></span> and the
+better lottery <span
+class="math inline"><em>L</em><sub><em>A</em></sub></span>. In practice,
+this means that agents’ preferences change smoothly and predictably with
 changes in options.</p></li>
 <li><p>Independence: The preference between two lotteries is not
 impacted by the addition of equal probabilities of a third, independent
 lottery to each lottery. That is, <span
-class="math inline">\(L_{A}\succcurlyeq L_{B}\)</span> is equivalent to
-<span class="math inline">\(pL_{A}+\left(1-p\right)L_{C}\succcurlyeq
-pL_{B}+\left(1-p\right)L_{C}\)</span> for any <span
-class="math inline">\(L_{C}\)</span>. &gt;</p></li>
+class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub></span>
+is equivalent to <span
+class="math inline"><em>p</em><em>L</em><sub><em>A</em></sub> + (1−<em>p</em>)<em>L</em><sub><em>C</em></sub> ≽ <em>p</em><em>L</em><sub><em>B</em></sub> + (1−<em>p</em>)<em>L</em><sub><em>C</em></sub></span>
+for any <span
+class="math inline"><em>L</em><sub><em>C</em></sub></span>.
+&gt;</p></li>
 </ol>
 <p><strong>Form of von Neumann-Morgenstern utility functions.</strong>
 If an agent’s preferences are consistent with the above axioms, their
 preferences can be represented by a vNM utility function. This utility
-function, denoted by a capital <span class="math inline">\(U\)</span>,
-is simply the expected Bernoulli utility of a lottery. That is, a vNM
-utility function takes the Bernoulli utility of each outcome, multiplies
-each with its corresponding probability of occurrence, and then adds
-everything up. Formally, an agent’s expected utility for a lottery <span
-class="math inline">\(L\)</span> is calculated as: <span
-class="math display">\[U\left(L\right) = u\left(o_{1}\right) \cdot
-p_{1}+u\left(o_{2}\right) \cdot p_{2}+\cdots +u\left(o_{n}\right) \cdot
-p_{n},\]</span> so expected utility can be thought of as a weighted
-average of the utilities of different outcomes.<br />
+function, denoted by a capital <span
+class="math inline"><em>U</em></span>, is simply the expected Bernoulli
+utility of a lottery. That is, a vNM utility function takes the
+Bernoulli utility of each outcome, multiplies each with its
+corresponding probability of occurrence, and then adds everything up.
+Formally, an agent’s expected utility for a lottery <span
+class="math inline"><em>L</em></span> is calculated as: <span
+class="math display"><em>U</em>(<em>L</em>) = <em>u</em>(<em>o</em><sub>1</sub>) ⋅ <em>p</em><sub>1</sub> + <em>u</em>(<em>o</em><sub>2</sub>) ⋅ <em>p</em><sub>2</sub> + ⋯ + <em>u</em>(<em>o</em><sub><em>n</em></sub>) ⋅ <em>p</em><sub><em>n</em></sub>,</span>
+so expected utility can be thought of as a weighted average of the
+utilities of different outcomes.<p>
 This is identical to the expected utility formula we discussed above—we
 sum over the utilities of all the possible outcomes, each multiplied by
 its probability of occurrence. With Bernoulli utility functions, an
-agent prefers <span class="math inline">\(a\)</span> to <span
-class="math inline">\(b\)</span> if and only if their utility from
-receiving <span class="math inline">\(a\)</span> is greater than their
-utility from receiving <span class="math inline">\(b\)</span>. With
-expected utility, an agent prefers lottery <span
-class="math inline">\(L_{A}\)</span> to lottery <span
-class="math inline">\(L_{B}\)</span> if and only if their expected
-utility from lottery <span class="math inline">\(L_{A}\)</span> is
-greater than from lottery <span class="math inline">\(L_{B}\)</span>.
-That is: <span class="math display">\[L_{A}\succ L_{B}\Leftrightarrow
-U\left(L_{A}\right)&gt;U\left(L_{B}\right).\]</span> where the symbol
-<span class="math inline">\(\succ\)</span> indicates preference. The von
-Neumann-Morgenstern utility function models the decision making of an
-agent considering two lotteries as just calculating the expected
-utilities and choosing the larger resulting one.<br />
+agent prefers <span class="math inline"><em>a</em></span> to <span
+class="math inline"><em>b</em></span> if and only if their utility from
+receiving <span class="math inline"><em>a</em></span> is greater than
+their utility from receiving <span
+class="math inline"><em>b</em></span>. With expected utility, an agent
+prefers lottery <span
+class="math inline"><em>L</em><sub><em>A</em></sub></span> to lottery
+<span class="math inline"><em>L</em><sub><em>B</em></sub></span> if and
+only if their expected utility from lottery <span
+class="math inline"><em>L</em><sub><em>A</em></sub></span> is greater
+than from lottery <span
+class="math inline"><em>L</em><sub><em>B</em></sub></span>. That is:
+<span
+class="math display"><em>L</em><sub><em>A</em></sub> ≻ <em>L</em><sub><em>B</em></sub> ⇔ <em>U</em>(<em>L</em><sub><em>A</em></sub>) &gt; <em>U</em>(<em>L</em><sub><em>B</em></sub>).</span>
+where the symbol <span class="math inline">≻</span> indicates
+preference. The von Neumann-Morgenstern utility function models the
+decision making of an agent considering two lotteries as just
+calculating the expected utilities and choosing the larger resulting
+one.<p>
 </p>
 <div class="storybox">
 <p><span>A Note on Logarithms</span></p>
@@ -244,33 +261,32 @@ utilities and choosing the larger resulting one.<br />
 functions.</strong> A logarithm is a mathematical function that
 expresses the power to which a given number (referred to as the base)
 must be raised in order to produce a value. The logarithm of a number
-<span class="math inline">\(x\)</span> with respect to base <span
-class="math inline">\(b\)</span> is denoted as <span
-class="math inline">\(\log_{b}x\)</span>, and is the exponent to which
-<span class="math inline">\(b\)</span> must be raised to produce the
-value <span class="math inline">\(x\)</span>. For example, <span
-class="math inline">\(\log_{2}8 = 3\)</span>, because <span
-class="math inline">\(2^{3} = 8\)</span>.<br />
+<span class="math inline"><em>x</em></span> with respect to base <span
+class="math inline"><em>b</em></span> is denoted as <span
+class="math inline">log<sub><em>b</em></sub><em>x</em></span>, and is
+the exponent to which <span class="math inline"><em>b</em></span> must
+be raised to produce the value <span
+class="math inline"><em>x</em></span>. For example, <span
+class="math inline">log<sub>2</sub>8 = 3</span>, because <span
+class="math inline">2<sup>3</sup> = 8</span>.<p>
 One special case of the logarithmic function, the natural logarithm, has
-a base of <span class="math inline">\(e\)</span> (which is Euler’s
+a base of <span class="math inline"><em>e</em></span> (which is Euler’s
 constant, roughly 2.718); in this chapter, it is referred to simply as
-<span class="math inline">\(\log\)</span>. Logarithms have the following
+<span class="math inline">log </span>. Logarithms have the following
 properties, independent of base: <span
-class="math inline">\(\log0\rightarrow -\infty\)</span>, <span
-class="math inline">\(\log1 = 0,\)</span> <span
-class="math inline">\(\log_{b}b = 1,\)</span> and <span
-class="math inline">\(\log_{b}b^{a} = a\)</span>.<br />
+class="math inline">log 0 →  − ∞</span>, <span
+class="math inline">log 1 = 0,</span> <span
+class="math inline">log<sub><em>b</em></sub><em>b</em> = 1,</span> and
+<span
+class="math inline">log<sub><em>b</em></sub><em>b</em><sup><em>a</em></sup> = <em>a</em></span>.<p>
 Logarithms have a downward, concave shape, meaning the output increases
 slower than the input. This shape resembles how humans value resources:
 we generally value a good less if we already have more of it.
 Logarithmic functions value goods in inverse proportion to how much of
-the resource we already have.<br />
+the resource we already have.<p>
 </p>
-<figure>
-
-</figure>
 </div>
-<h2 id="st.-petersburg-paradox"> St. Petersburg Paradox</h2>
+<h2 id="st.-petersburg-paradox">St. Petersburg Paradox</h2>
 <p>An old man on the streets of St. Petersburg offers gamblers the
 following game: he will flip a fair coin repeatedly until it lands on
 tails. If the first flip lands tails, the game ends and the pension fund
@@ -281,34 +297,31 @@ ultimately lands tails. The game concludes when the coin first lands
 tails, and the gambler receives the appropriate returns. Now, the
 question is, how much should a gambler be willing to pay from the
 pension fund to play this game <span class="citation"
-data-cites="peterson2019paradox"></span>?<br />
-With probability <span class="math inline">\(\frac{1}{2}\)</span>, the
+data-cites="peterson2019paradox">[2]</span>?<p>
+With probability <span class="math inline">$\frac{1}{2}$</span>, the
 first toss will land on tails, in which case the gambler wins two
 dollars. With probability <span
-class="math inline">\(\frac{1}{4}\)</span>, the first toss lands heads
-and the second lands tails, and the gambler wins four dollars.
+class="math inline">$\frac{1}{4}$</span>, the first toss lands heads and
+the second lands tails, and the gambler wins four dollars.
 Extrapolating, this game offers a maximum possible payout of: <span
-class="math display">\[\$ 2^{n} = \$ \overbrace{2 \cdot 2 \cdot 2\cdots
-2 \cdot 2 \cdot 2}^{n \text{ times}},\]</span> where <span
-class="math inline">\(n\)</span> is the number of flips until and
+class="math display">$$\$ 2^{n} = \$ \overbrace{2 \cdot 2 \cdot 2\cdots
+2 \cdot 2 \cdot 2}^{n \text{ times}},$$</span> where <span
+class="math inline"><em>n</em></span> is the number of flips until and
 including when the coin lands on tails. As offered, though, there is no
-limit to the size of <span class="math inline">\(n\)</span>, since the
-company promises to keep flipping the coin until it lands on tails. The
-expected payout of this game is therefore: <span
-class="math display">\[E\left[L\right] =\frac{1}{2} \cdot \$
+limit to the size of <span class="math inline"><em>n</em></span>, since
+the company promises to keep flipping the coin until it lands on tails.
+The expected payout of this game is therefore: <span
+class="math display">$$E\left[L\right] =\frac{1}{2} \cdot \$
 2+\frac{1}{4} \cdot \$ 4+\frac{1}{8} \cdot \$ 8+\cdots  = \$ 1+\$ 1+\$
-1+\cdots  = \$ \infty.\]</span> Bernoulli described this situation as a
+1+\cdots  = \$ \infty.$$</span> Bernoulli described this situation as a
 paradox because he believed that, despite it having infinite expected
 value, anyone would take a large but finite amount of money over the
 chance to play the game. While paying <span
-class="math inline">\(\$\)</span>10,000,000 to play this game would not
-be inconsistent with its expected value, we would think it highly
+class="math inline">$</span>10,000,000 to play this game would not be
+inconsistent with its expected value, we would think it highly
 irresponsible! The paradox reveals a disparity between expected value
-calculations and reasonable human behavior.<br />
+calculations and reasonable human behavior.<p>
 </p>
-<figure>
-
-</figure>
 <p><strong>Logarithmic utility functions can represent decreasing
 marginal utility.</strong> A number of ways have been proposed to
 resolve the St. Petersburg paradox. We will focus on the most popular:
@@ -322,22 +335,24 @@ satisfied winning $1000 as someone with significantly less money.
 Wealth, and many other resources like food, have such diminishing
 returns. While a first slice of pizza is incredibly satisfying, a second
 one is slightly less so, and few people would continue eating to enjoy a
-tenth slice of pizza.<br />
+tenth slice of pizza.<p>
 Assuming an agent with a utility function <span
-class="math inline">\(u(\$ x) = \log_{2}\left(x\right)\)</span> over
-<span class="math inline">\(x\)</span> dollars, we can calculate the
-expected utility of playing the St. Petersburg game as: <span
-class="math display">\[E\left[U\left(L\right)\right] =\frac{1}{2} \cdot
-\log_{2}(2)+\frac{1}{4} \cdot \log_{2}(4)+\frac{1}{8} \cdot
-\log_{2}(8)+\cdots  = 2.\]</span> That is, the expected utility of the
+class="math inline"><em>u</em>($<em>x</em>) = log<sub>2</sub>(<em>x</em>)</span>
+over <span class="math inline"><em>x</em></span> dollars, we can
+calculate the expected utility of playing the St. Petersburg game as:
+<span class="math display">$$E\left[U\left(L\right)\right] =\frac{1}{2}
+\cdot \log_{2}(2)+\frac{1}{4} \cdot \log_{2}(4)+\frac{1}{8} \cdot
+\log_{2}(8)+\cdots  = 2.$$</span> That is, the expected utility of the
 game is 2. From the logarithmic utility function over wealth, we know
-that: <span class="math display">\[2 = \log_{2}x\Rightarrow x =
-4,\]</span> which implies that the player is indifferent between playing
-this game and having $4: the level of wealth that gives them the same
-utility as what they expect playing the lottery.</p>
+that: <span
+class="math display">2 = log<sub>2</sub><em>x</em> ⇒ <em>x</em> = 4,</span>
+which implies that the player is indifferent between playing this game
+and having $4: the level of wealth that gives them the same utility as
+what they expect playing the lottery.</p>
 <p><strong>Expected utility is more reasonable than expected
 value.</strong> The previous calculation explains why an agent with
-<span class="math inline">\(u\left(\$ x\right) = \log_{2}x\)</span>
+<span
+class="math inline"><em>u</em>($<em>x</em>) = log<sub>2</sub><em>x</em></span>
 should not pay large amounts of money to play the St. Petersburg game.
 The log utility function implies that the player receives diminishing
 returns to wealth, and cares less about situations with small chances of
@@ -348,11 +363,8 @@ towards risk aversion, explored in the next section. Note that while
 logarithmic utility functions are a useful model (especially in
 resolving such paradoxes), they do not perfectly describe human behavior
 across choices, such as the tendency to buy lottery tickets, which we
-will explore in the next chapter.<br />
+will explore in the next chapter.<p>
 </p>
-<figure>
-
-</figure>
 <p><strong>Summary.</strong> In this section, we examined the properties
 of Bernoulli utility functions, which allow us to compare an agent’s
 preferences across different outcomes. We then introduced von
@@ -361,7 +373,24 @@ expected, utility over different possible outcomes. From there, we
 derived the idea that rational agents are able to make decisions that
 maximize expected utility. Through the St. Petersburg Paradox, we showed
 that taking the expected utility of a logarithmic function leads to more
-reasonable behavior. Having understood the properties of utility
+reasonable behavior. Having understood some properties of utility
 functions, we can now examine the problem of incorrigibility, where AI
 systems do not accept corrective interventions because of rigid
 preferences.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-vonneumann1947theory" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] J.
+V. Neumann and O. Morgenstern, <em>Theory of games and economic
+behavior</em>. Princeton University Press, 1947.</div>
+</div>
+<div id="ref-peterson2019paradox" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] M.
+Peterson, <span>“<span>The St. Petersburg Paradox</span>,”</span> in
+<em>The <span>Stanford</span> encyclopedia of philosophy</em>,
+<span>F</span>all 2023., E. N. Zalta and U. Nodelman, Eds., <a
+href="https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/"
+class="uri">https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/</a>;
+Metaphysics Research Lab, Stanford University, 2023.</div>
+</div>
+</div>
