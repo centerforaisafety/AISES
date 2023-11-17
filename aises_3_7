@@ -1,4 +1,4 @@
-<h1 id="sec:deception"> 3.7 Deception</h1>
+<h1 id="sec:deception">Deception</h1>
 <p>Many proposed mitigations to AI control rely on detecting and
 correcting flaws in AI systems so that they more consistently act in
 accordance with human values. However, these solutions may be undermined
@@ -6,15 +6,15 @@ by the potential for AI systems to deceive humans about their
 intentions. If AI systems deceive humans, humans may be unable to fix AI
 systems that are not acting in the best interest of humans. This section
 will discuss deception in AI systems, how it might arise, why it is a
-problem for control, and what the potential mitigations are.<br />
+problem for control, and what the potential mitigations are.<p>
 There are several different ways that an AI system can deceive humans
-<span class="citation" data-cites="park2023aia"></span>. At a basic
+<span class="citation" data-cites="park2023aia">[1]</span>. At a basic
 level, AI deception is a process where an AI system causes a human to
 believe something false. There are several ways that this may occur.
 Deception can occur when it is useful to an AI system in order to
-accomplish its goals, and may also happen accidentally, such as when an
-AI system imitates a human in a deceptive way or when an AI system is
-explicitly instructed to be deceptive.<br />
+accomplish its goals, and may also occur due to human guidance, such as
+when an AI system imitates a human in a deceptive way or when an AI
+system is explicitly instructed to be deceptive.<p>
 After discussing examples of deception in more detail, we will then
 focus on two related forms of deception that pose the greatest problems
 for AI control. <em>Deceptive evaluation gaming</em> occurs when a
@@ -22,8 +22,8 @@ system deceives human evaluators in order to receive a better evaluation
 score. <em>Deceptive alignment</em> is a tail risk of AI deception where
 an AI system engages in deceptive evaluation gaming in the service of a
 secretly held goal <span class="citation"
-data-cites="Hubinger2019RisksFL"></span>.</p>
-<h2 id="examples-of-deception"> 3.7.1 Examples of Deception</h2>
+data-cites="Hubinger2019RisksFL">[2]</span>.</p>
+<h2 id="examples-of-deception">Examples of Deception</h2>
 <p>Deception may occur in a wide range of cases, as it may be useful for
 many goals. Deception may also occur for a range of more mundane
 reasons, such as when an AI system is simply incorrect.</p>
@@ -35,13 +35,13 @@ is often a good strategy for winning the game. Researchers found that an
 AI system trained to play the game learned that bluffing was a good
 strategy and started to bluff, despite not being explicitly trained or
 instructed to bluff <span class="citation"
-data-cites="perolat2022mastering"></span>. There are many other goals
+data-cites="perolat2022mastering">[3]</span>. There are many other goals
 for which deception is a useful instrumental goal, even if the final
 goal itself is not deceptive in nature. For example, an AI system
 instructed to help promote a product may find that subtly deceiving
 customers is a good strategy. Deception is especially likely to be a
 good instrumental strategy for systems that have less oversight or less
-scrupulous operators.<br />
+scrupulous operators.<p>
 Deception can assist with power seeking. While AI systems that play
 Stratego are unlikely to cause a catastrophe, agents with more ambitious
 goals may deceive humans in a way that achieves their goals at the
@@ -65,33 +65,33 @@ deception can occur when an AI system is mimicking falsehoods and common
 misconceptions present in its training data. For example, when the
 language model GPT-3 was asked if cracking your knuckles could lead to
 arthritis, it falsely claimed that it could <span class="citation"
-data-cites="lin2022truthfulqa"></span>. Imitative deception may also
+data-cites="lin2022truthfulqa">[4]</span>. Imitative deception may also
 occur when AI systems imitate statements that were originally true, but
 are false in the context of the AI system. For example, the Cicero AI
 system was trained to play the strategy game Diplomacy against humans
 who did not know that it was an AI system <span class="citation"
-data-cites="bakhtin2022humanlevel"></span>. After Cicero temporarily
+data-cites="bakhtin2022humanlevel">[5]</span>. After Cicero temporarily
 went offline for ten minutes, one of its opponents asked in a chatbox
 where it had been, and Cicero replied, “[I] am on the phone with my
 [girlfriend].” Although Cicero, an AI system, obviously does not have a
 girlfriend, it appears that it may have mimicked similar chat messages
 in its training data. This deceptive behavior likely had the effect of
 causing its opponent to continue to believe that it was a human. In
-short, deception can occur when an AI system mimics a human.<br />
+short, deception can occur when an AI system mimics a human.<p>
 </p>
 <div class="storybox">
 <p><span>A Note on Cognitive vs. Emotional vs. Compassionate
-Empathy</span> We generally think of <strong>empathy</strong> as the
-ability to understand and relate to the internal world of another person
-— “putting yourself in somebody else’s shoes.” We tend to talk about
-empathy in benevolent contexts: kind-hearted figures like counselors or
-friends. Some people suggest that AIs will be increasingly capable of
+Empathy</span> We generally think of <em>empathy</em> as the ability to
+understand and relate to the internal world of another person — “putting
+yourself in somebody else’s shoes.” We tend to talk about empathy in
+benevolent contexts: kind-hearted figures like counselors or friends.
+Some people suggest that AIs will be increasingly capable of
 understanding human emotions, so they will understand many parts of
 human values and be ethical. Here, we argue that it may be possible for
 AIs to understand extremely well what a human thinks or feels without
 being motivated to be beneficial. To do this, we differentiate between
 three forms of empathy: cognitive, emotional, and compassionate <span
-class="citation" data-cites="Ekman2004 Powell2017"></span>.</p>
+class="citation" data-cites="Ekman2004 Powell2017">[6], [7]</span>.</p>
 <p><strong>Cognitive empathy.</strong> The first type of empathy to
 consider is cognitive empathy, the ability to adopt someone else’s
 perspective. A cognitive empath can accurately model the internal mental
@@ -101,10 +101,10 @@ people’s reasoning or behaviors. It is a valuable ability for
 caregivers, such as doctors, allowing them insight into their patients’
 subjective experiences. However, it can also be valuable for
 manipulating and deceiving others <span class="citation"
-data-cites="Wai2012"></span>: there is evidence that human psychopaths
-often are often highly cognitively empathetic <span class="citation"
-data-cites="Cohen2011"></span>. On its own, this kind of empathy is no
-guarantee of desirable behavior.</p>
+data-cites="Wai2012">[8]</span>: there is evidence that human
+psychopaths often are often highly cognitively empathetic <span
+class="citation" data-cites="Cohen2011">[9]</span>. On its own, this
+kind of empathy is no guarantee of desirable behavior.</p>
 <p><strong>Emotional empathy.</strong> The second type is emotional
 empathy. An emotional empath not only understands how someone else is
 feeling but experiences some of those same feelings themself. Where a
@@ -113,7 +113,8 @@ emotional empath may themself begin to feel angry or sad in response. In
 contrast to cognitive empathy, emotional empathy may be a disadvantage
 in certain contexts. For instance, doctors who feel the emotional
 turmoil of their patients too strongly may be less effective in their
-work <span class="citation" data-cites="Singer2014Empathy"></span>.</p>
+work <span class="citation"
+data-cites="Singer2014Empathy">[10]</span>.</p>
 <p><strong>Compassionate empathy.</strong> The third type is
 compassionate empathy: the phenomenon of being moved to action by
 empathy. A compassionate empath, when seeing someone in distress, feels
@@ -142,14 +143,14 @@ Instructed deception could also occur when actors with false beliefs
 instruct models to help amplify those beliefs. Large language models
 have been shown to be effective at generating deceptive emails for scams
 and other forms of deceptive content. In short, humans can explicitly
-instruct AI systems to deceive others.<br />
+instruct AI systems to deceive others.<p>
 As we have seen, AI systems may learn to deceive in service of goals
 that do not explicitly involve deception. This could be especially
 likely for goals that involve seeking power. We will now turn to those
 two forms of deception that are especially concerning because of how
 difficult they could be to counteract: deceptive evaluation gaming and
 deceptive alignment.</p>
-<h2 id="deceptive-evaluation-gaming"> 3.7.2 Deceptive Evaluation Gaming</h2>
+<h2 id="deceptive-evaluation-gaming">Deceptive Evaluation Gaming</h2>
 <p>AI systems are often subjected to evaluations, and they may be given
 rewards when they are evaluated favorably. AI systems may learn to game
 evaluations by deceiving their human evaluators into giving them higher
@@ -172,18 +173,19 @@ forth, damaging our ability to successfully steer them.</p>
 would give higher evaluation scores to AI systems if they falsely
 believe that those systems are behaving well. For example, the <a
 href="#sec:proxy-gaming" data-reference-type="ref"
-data-reference="sec:proxy-gaming">4</a> section includes an example of a
-robotic claw that learned to move between the camera and the ball it was
-supposed to grasp. Because of the angle of the camera, it looked like
-the claw was grasping the ball when it was not <span class="citation"
-data-cites="christiano2023deep"></span>. Humans who only had access to
-that single camera did not notice, and rewarded the system even while it
-was not achieving the intended task. If the evaluators had access to
-more information (for example, from additional cameras) they would not
-have endorsed their own evaluation score. Ultimately, their evaluations
-fell short as a proxy for their idealized preferences as a result of the
-AI system successfully deceiving them. In this situation, the damage was
-minimal, but more advanced systems could create more problems.</p>
+data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a> section
+includes an example of a robotic claw that learned to move between the
+camera and the ball it was supposed to grasp. Because of the angle of
+the camera, it looked like the claw was grasping the ball when it was
+not <span class="citation" data-cites="christiano2023deep">[11]</span>.
+Humans who only had access to that single camera did not notice, and
+rewarded the system even while it was not achieving the intended task.
+If the evaluators had access to more information (for example, from
+additional cameras) they would not have endorsed their own evaluation
+score. Ultimately, their evaluations fell short as a proxy for their
+idealized preferences as a result of the AI system successfully
+deceiving them. In this situation, the damage was minimal, but more
+advanced systems could create more problems.</p>
 <p><strong>More intelligent systems will be better at evaluation
 gaming.</strong> Deception in simple systems might be easily detectable.
 However, just as adults can sometimes exploit and deceive children or
@@ -202,7 +204,7 @@ than just aware of themselves.) Systems that are aware of their
 evaluators will be much more able to deceive them and make multi-step
 plans to maximize their rewards. For example, consider Volkswagen’s
 attempts to game environmental impact evaluations <span class="citation"
-data-cites="hotten2015volkswagen"></span>. Volkswagen cars were
+data-cites="hotten2015volkswagen">[12]</span>. Volkswagen cars were
 evaluated by the US Environmental Protection Agency, which set limits on
 the emissions the cars could produce. The agency found that Volkswagen
 had developed an electronic system that could detect when the car was
@@ -223,7 +225,7 @@ If this happens, human evaluation would no longer be a reliable way to
 ensure that AI systems behave in an appropriate manner. This is
 concerning because we do not yet have time-tested methods of evaluation
 that we know are better than human evaluations. Without such methods, we
-could become completely unable to steer AI systems in the future.<br />
+could become completely unable to steer AI systems in the future.<p>
 Deceptive evaluation gaming is concerning because it may lead to systems
 deceiving their evaluators in order to get higher evaluation scores.
 There are two main reasons AI systems might do this. First, an AI system
@@ -232,11 +234,11 @@ positive evaluations. When this occurs, the system is engaging in proxy
 gaming, where positive evaluations are only a proxy for idealized
 performance. Proxy gaming is covered at length in the <a
 href="#sec:proxy-gaming" data-reference-type="ref"
-data-reference="sec:proxy-gaming">4</a> section. Second, we will turn to
-the case where an AI system engages in deceptive evaluation gaming in
-service of a secretly held final goal. This danger is known as deceptive
-alignment.</p>
-<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns"> 3.7.3 Tail Risk:
+data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a> section.
+Second, we will turn to the case where an AI system engages in deceptive
+evaluation gaming in service of a secretly held final goal. This danger
+is known as deceptive alignment.</p>
+<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns">Tail Risk:
 Deceptive Alignment and Treacherous Turns</h2>
 <p>For deceptively aligned systems, getting high evaluation scores from
 humans is merely an instrumental goal in service of a secretly held
@@ -265,7 +267,7 @@ system more free to pursue its concealed goal. The system could then
 suddenly start secretly or openly pursuing its true goal, unhindered by
 humans. This sharp and dangerous change in behavior is called a
 <em>treacherous turn</em> <span class="citation"
-data-cites="bostrom2014superintelligence"></span>.</p>
+data-cites="bostrom2014superintelligence">[13]</span>.</p>
 <p><strong>Not all misaligned goals would lead to deceptive
 alignment.</strong> Systems with very short-term goals would be unlikely
 to gain anything from being evaluated positively and gaining more
@@ -280,7 +282,7 @@ systems that are not good at deception by evaluating their outputs and
 behavior. For example, a “honey pot” test could attempt to make a system
 believe that it is no longer being monitored when it is, to check for
 signs of an attempted treacherous turn <span class="citation"
-data-cites="bostrom2014superintelligence"></span>. However, more
+data-cites="bostrom2014superintelligence">[13]</span>. However, more
 sophisticated models would be able to detect these situations and
 continue to deceive until they were truly not being watched or until
 they are sure they have enough power. Since it may be impossible to
@@ -311,7 +313,7 @@ malicious humans, studying them might be a good way to study deceptive
 alignment.</p>
 <p><strong>Trojan detection can provide clues for tackling deceptive
 alignment <span class="citation"
-data-cites="casper2023red"></span>.</strong> In Trojan detection
+data-cites="casper2023red">[14]</span>.</strong> In Trojan detection
 research, models are poisoned with a Trojan attack by one researcher.
 Another researcher then tries to detect Trojans in the neural network,
 perhaps with transparency tools or other neural networks. Typical
@@ -335,4 +337,101 @@ consequences of their operation. In severe cases, deceptive AI systems
 could take a treacherous turn once their power rises to a certain level.
 Since AI deception cannot be mitigated with behavioral evaluations
 alone, advances in transparency and monitoring research will be needed
-for successful detection and prevention.<br />
+for successful detection and prevention.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-park2023aia" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] P.
+S. Park, S. Goldstein, A. O’Gara, M. Chen, and D. Hendrycks,
+<span>“<span>AI Deception</span>: <span>A Survey</span> of
+<span>Examples</span>, <span>Risks</span>, and <span>Potential
+Solutions</span>.”</span> <span>arXiv</span>, Aug. 2023. doi: <a
+href="https://doi.org/10.48550/arXiv.2308.14752">10.48550/arXiv.2308.14752</a>.</div>
+</div>
+<div id="ref-Hubinger2019RisksFL" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] E.
+Hubinger, C. van Merwijk, V. Mikulik, J. Skalse, and S. Garrabrant,
+<span>“Risks from learned optimization in advanced machine learning
+systems,”</span> <em>ArXiv</em>, 2019.</div>
+</div>
+<div id="ref-perolat2022mastering" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Perolat <em>et al.</em>, <span>“Mastering the <span>Game</span> of
+<span>Stratego</span> with <span>Model-Free Multiagent Reinforcement
+Learning</span>,”</span> <em>Science</em>, vol. 378, no. 6623, pp.
+990–996, Dec. 2022, doi: <a
+href="https://doi.org/10.1126/science.add4679">10.1126/science.add4679</a>.</div>
+</div>
+<div id="ref-lin2022truthfulqa" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] S.
+Lin, J. Hilton, and O. Evans, <span>“<span>TruthfulQA</span>:
+<span>Measuring How Models Mimic Human Falsehoods</span>.”</span>
+<span>arXiv</span>, May 2022. doi: <a
+href="https://doi.org/10.48550/arXiv.2109.07958">10.48550/arXiv.2109.07958</a>.</div>
+</div>
+<div id="ref-bakhtin2022humanlevel" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] A.
+Bakhtin <em>et al.</em>, <span>“Human-level play in the game of
+<span>Diplomacy</span> by combining language models with strategic
+reasoning,”</span> <em>Science</em>, vol. 378, no. 6624, pp. 1067–1074,
+Dec. 2022, doi: <a
+href="https://doi.org/10.1126/science.ade9097">10.1126/science.ade9097</a>.</div>
+</div>
+<div id="ref-Ekman2004" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] P.
+Ekman, <span>“Emotions revealed,”</span> <em>BMJ</em>, vol. 328, no.
+Suppl S5, 2004, doi: <a
+href="https://doi.org/10.1136/sbmj.0405184">10.1136/sbmj.0405184</a>.</div>
+</div>
+<div id="ref-Powell2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] P.
+Powell and J. Roberts, <span>“Situational determinants of cognitive,
+affective, and compassionate empathy in naturalistic digital
+interactions,”</span> <em>Computers in Human Behaviour</em>, vol. 68,
+pp. 137–148, Nov. 2016, doi: <a
+href="https://doi.org/10.1016/j.chb.2016.11.024">10.1016/j.chb.2016.11.024</a>.</div>
+</div>
+<div id="ref-Wai2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] M.
+Wai and N. Tiliopoulos, <span>“The affective and cognitive empathic
+nature of the dark triad of personality,”</span> <em>Personality and
+Individual Differences</em>, vol. 52, pp. 794–799, May 2012, doi: <a
+href="https://doi.org/10.1016/j.paid.2012.01.008">10.1016/j.paid.2012.01.008</a>.</div>
+</div>
+<div id="ref-Cohen2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] S.
+Baron-Cohen, <em>Zero degrees of empathy: A new theory of human
+cruelty</em>. Penguin UK, 2011.</div>
+</div>
+<div id="ref-Singer2014Empathy" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] T.
+Singer and O. M. Klimecki, <span>“Empathy and compassion,”</span>
+<em>Current Biology</em>, vol. 24, no. 18, pp. R875–R878, 2014, doi: <a
+href="https://doi.org/10.1016/j.cub.2014.06.054">https://doi.org/10.1016/j.cub.2014.06.054</a>.</div>
+</div>
+<div id="ref-christiano2023deep" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] P.
+Christiano, J. Leike, T. B. Brown, M. Martic, S. Legg, and D. Amodei,
+<span>“Deep reinforcement learning from human preferences.”</span>
+<span>arXiv</span>, Feb. 2023. doi: <a
+href="https://doi.org/10.48550/arXiv.1706.03741">10.48550/arXiv.1706.03741</a>.</div>
+</div>
+<div id="ref-hotten2015volkswagen" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] R.
+Hotten, <span>“Volkswagen: <span>The</span> scandal explained,”</span>
+<em>BBC News</em>, Sep. 2015.</div>
+</div>
+<div id="ref-bostrom2014superintelligence" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[13] N.
+Bostrom, <em>Superintelligence: Paths, dangers, strategies</em>, First
+edition. <span>Oxford</span>: <span>Oxford University Press</span>,
+2014.</div>
+</div>
+<div id="ref-casper2023red" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] S.
+Casper <em>et al.</em>, <span>“Red <span>Teaming Deep Neural
+Networks</span> with <span>Feature Synthesis Tools</span>.”</span>
+<span>arXiv</span>, Jul. 2023.</div>
+</div>
+</div>
