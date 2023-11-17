@@ -1,4 +1,4 @@
-<h2 id="risk-decomposition"> 4.2 Risk Decomposition</h2>
+<h1 id="risk-decomposition">Risk Decomposition</h1>
 <p>To reduce risks, we need to understand the factors contributing to
 them. In this section, we will define some key terms from safety
 engineering. We will also discuss how we can decompose risks into
@@ -6,8 +6,8 @@ various factors and create risk equations based on these factors. These
 equations are useful for quantitatively assessing and comparing
 different risks, as well as for identifying which aspects of risk we can
 influence.</p>
-<h3 id="failure-modes-hazards-and-threats"> 4.2.1 Failure Modes, Hazards, and
-Threats</h3>
+<h2 id="failure-modes-hazards-and-threats">Failure Modes, Hazards, and
+Threats</h2>
 <p>Failure modes, hazards, and threats are basic words in a safety
 engineer’s vocabulary. We will now define and give examples of each
 term.</p>
@@ -24,14 +24,14 @@ effects.</p>
 <p><strong>A hazard is a source of danger that could cause
 harm.</strong> Some systems can fail in ways that are dangerous. If a
 valve is leaking a flammable substance, the substance could catch fire.
-A flammable substance is an example of a <em>hazard</em>, or source of
-risk, because it could cause harm. Other physical examples of hazards
-are stray electrical wires and broken glass. Note that a hazard does not
-pose a risk automatically; a shark is a hazard but does not pose a risk
-if no one goes in the water. For AI systems, one possible hazard is a
-rapidly changing environment (“distribution shift”) because an AI might
-behave unpredictably in conditions different from those it was trained
-in.</p>
+A flammable substance is an example of a <em>hazard</em>, or <em>risk
+source</em>, because it could cause harm. Other physical examples of
+hazards are stray electrical wires and broken glass. Note that a hazard
+does not pose a risk automatically; a shark is a hazard but does not
+pose a risk if no one goes in the water. For AI systems, one possible
+hazard is a rapidly changing environment (“distribution shift”) because
+an AI might behave unpredictably in conditions different from those it
+was trained in.</p>
 <p><strong>A threat is a hazard with malicious or adversarial
 intent.</strong> If an individual is deliberately trying to cause harm,
 they present a specific type of hazard: a <em>threat</em>. Examples of
@@ -41,7 +41,7 @@ weapons. One possible AI-related threat is someone deliberately
 contaminating training data to cause an AI to make incorrect and
 potentially harmful decisions based on hidden malicious
 functionality.</p>
-<h3 id="the-classic-risk-equation"> 4.2.2 The Classic Risk Equation</h3>
+<h2 id="the-classic-risk-equation">The Classic Risk Equation</h2>
 <p>Different hazards and threats present different levels of risk, so it
 can be helpful to quantify and compare them. We can do this by
 decomposing risk into multiple factors and constructing an equation. We
@@ -54,7 +54,7 @@ harm that will be done if it does happen. This can be represented
 mathematically as follows: <span
 class="math display">Risk(hazard) = <em>P</em>(hazard) × severity(hazard).</span></p>
 <p>where <span class="math inline"><em>P</em>(⋅)</span> indicates the
-probability of an event. This is the classic formulation of risk.<br />
+probability of an event. This is the classic formulation of risk.<p>
 The risk posed by a volcano can be assessed using the probability of
 eruption, denoted as <span
 class="math inline"><em>P</em>(eruption)</span>, and the severity of its
@@ -74,9 +74,8 @@ consequences if it does. For example, an AI system may be intelligent
 enough to capture power over critical infrastructure, with potentially
 catastrophic consequences for humans. However, to estimate the level of
 this risk, we also need to know how likely it is that the system will
-try to capture power. The calculation of this probability could be
-informed by evidence about how often power-seeking appears as a
-naturally emergent property of systems.</p>
+try to capture power. A demonstration of a potential catastrophic hazard
+does not necessarily imply the risk is high.</p>
 <p><strong>The total risk of a system is the sum of the risks of all
 associated hazards.</strong> In general, there may be multiple hazards
 associated with a system or situation. For example, a car driving safely
@@ -88,18 +87,15 @@ the risk equation to each hazard separately and then add the results
 together.</p>
 <p><span
 class="math display">Risk = ∑<sub>hazard</sub><em>P</em>(hazard) × severity(hazard)</span></p>
-<p><strong>We may not always have exact numerical values.</strong> The
-equation for total risk assumes that risks are independent rather than
-correlated: one hazard taking place must not make other hazards more
-likely. This means that adding risks together gives us only a rough
-estimate of risks. Additionally, we may not always be able to assign
-exact quantities to the probability and severity of all the hazards, and
-may therefore be unable to precisely quantify total risk. However, even
-in these circumstances, we can use estimates. If estimates are difficult
-to obtain, it can still be useful to have an equation that helps us
-understand how different factors contribute to risk.</p>
-<h3 id="framing-the-goal-as-risk-reduction"> 4.2.3 Framing the Goal as Risk
-Reduction</h3>
+<p><strong>We may not always have exact numerical values.</strong> We
+may not always be able to assign exact quantities to the probability and
+severity of all the hazards, and may therefore be unable to precisely
+quantify total risk. However, even in these circumstances, we can use
+estimates. If estimates are difficult to obtain, it can still be useful
+to have an equation that helps us understand how different factors
+contribute to risk.</p>
+<h2 id="framing-the-goal-as-risk-reduction">Framing the Goal as Risk
+Reduction</h2>
 <p><strong>We should aim for risk reduction rather than trying to
 achieve zero risk.</strong> It might be an appealing goal to reduce the
 risk to zero by seeking ways of reducing the probability or severity to
@@ -107,10 +103,10 @@ zero. However, in the real world, risk is never zero. In the AI safety
 research community, for example, some talk of “solving the alignment
 problem”—aligning AI with human values perfectly. This could, in theory,
 result in zero probability of AIs making a catastrophic decision and
-thus eliminate AI risk entirely.<br />
+thus eliminate AI risk entirely.<p>
 However, reducing risk to zero is likely impossible. Framing the goal as
 eliminating risk implies that finding a perfect, airtight solution for
-removing risk is possible and realistic. Focussing narrowly on this goal
+removing risk is possible and realistic. Focusing narrowly on this goal
 could be counterproductive, as it might distract us from developing and
 implementing practical measures that significantly reduce risk. In other
 words, we should not “let the perfect be the enemy of the good.” When
@@ -119,9 +115,9 @@ intelligence problem” but about “improving capabilities.” Similarly,
 when thinking about AI safety, we should not talk about “solving the
 alignment problem” but rather about “making AI safer” or “reducing risk
 from AIs.” A better goal could be to make catastrophic risks negligible
-(for instance, less than 0.001% of an existential catastrophe per
+(for instance, less than 0.01% of an existential catastrophe per
 century) rather than trying to have the risk become exactly zero.</p>
-<h3 id="disaster-risk-equation"> 4.2.4 Disaster Risk Equation </h3>
+<h2 id="disaster-risk-equation">Disaster Risk Equation </h2>
 <p>The classic risk equation is a useful starting point for evaluating
 risk. However, if we have more information about the situation, we can
 break down the risk from a hazard into finer categories. First we can
@@ -130,16 +126,16 @@ for probability and severity as in the classic risk equation.
 Additionally, we can consider how the hazard interacts with the people
 at risk: we can consider the amount of <em>exposure</em> and the level
 of <em>vulnerability</em> <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</p>
+data-cites="Hendrycks2022xrisk">[1]</span>.</p>
 <figure id="fig:risk-breakdown">
 <img src="images/safety_engineering/image8.png" />
 <figcaption>Breaking down risk into four factors.</figcaption>
 </figure>
-<h3 id="elements-of-the-risk-equation"> 4.2.5 Elements of the Risk
-Equation</h3>
+<h2 id="elements-of-the-risk-equation">Elements of the Risk
+Equation</h2>
 <p>Exposure and probability are relevant before the accident, while
 severity and vulnerability matter during it. We can explain these terms
-in the context of a floor that is hazardously slippery:<br />
+in the context of a floor that is hazardously slippery:<p>
 </p>
 <ol>
 <li><p><strong>Exposure is a measure of how much we are exposed to a
@@ -179,13 +175,13 @@ will reduce it. Additionally, reducing any of the multiplicative terms
 to zero will reduce the risk to zero for a given hazard, regardless of
 how large the other factors are. Once more, we can add together the risk
 estimates for each independent hazard to find the total risk for a
-system.<br />
+system.<p>
 <span class="math display">$$\displaystyle \text{Risk} =
 \sum_{\substack{\text{hazardous} \\ \text{event } h}} P(h) \times
 \text{severity}(h) \times \text{exposure}(h) \times
 \text{vulnerability}(h)$$</span></p>
-<h3 id="applying-the-disaster-risk-equation"> 4.2.6 Applying the Disaster Risk
-Equation</h3>
+<h2 id="applying-the-disaster-risk-equation">Applying the Disaster Risk
+Equation</h2>
 <p><strong>Infection by a virus is an example hazard.</strong> Consider
 these ideas in the context of a viral infection. The hazard severity and
 probability of a virus refers to how bad the symptoms are and how
@@ -234,7 +230,7 @@ Safety chapter. Proxy gaming might arise when we give AI systems goals
 that are imperfect proxies of our goals. An AI might then learn to
 “game” or over-optimize these proxies in unforeseen ways that diverge
 from human values. We can tackle this threat in many different
-ways:<br />
+ways:<p>
 </p>
 <ol>
 <li><p>Reduce our exposure to this proxy gaming hazard by improving our
@@ -253,8 +249,8 @@ itself.</strong> The three fields outlined above focus on reducing risk
 through the design of AIs themselves. Another approach, called systemic
 safety, considers the environment within which the AI operates and
 attempts to remove or reduce the hazards that it might otherwise
-interact with. For example, improving cyber security reduces the chance
-of a malicious actor accessing a lethal autonomous weapon, while
+interact with. For example, improving information security reduces the
+chance of a malicious actor accessing a lethal autonomous weapon, while
 addressing inequality and improving mental health across society could
 reduce the number of people who might seek to harness AI to cause
 harm.</p>
@@ -269,7 +265,7 @@ recover as our <em>ability to cope</em>. Unlike the other factors that
 multiply together to give us an estimate of risk, we might divide by
 ability to cope to reduce our estimate of the risk if our ability to
 cope with it is higher. This is a common extension to the disaster risk
-equation.<br />
+equation.<p>
 Some hazards are extremely damaging and eliminate any chance of
 recovery: the severity of the hazard and our vulnerability are high,
 while our ability to cope is tiny. This constitutes a <em>risk of
@@ -290,3 +286,12 @@ numerical value to a risk, we can estimate it. If our estimates are
 unreliable, this decomposition can still help us to systematically
 identify practical measures we can take to reduce the different factors
 and thus the overall risk.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Hendrycks2022xrisk" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] D.
+Hendrycks and M. Mazeika, <span>“X-risk analysis for AI
+research.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2206.05862">https://arxiv.org/abs/2206.05862</a></div>
+</div>
+</div>
