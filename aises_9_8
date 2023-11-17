@@ -1,4 +1,4 @@
-<h1 id="conclusion"> 9.8 Conclusion</h1>
+<h1 id="conclusion">Conclusion</h1>
 <p>In the introduction, we laid out the purpose of this chapter:
 understanding the fundamentals of how to govern AI. In other words, we
 wanted to understand how to organize, manage, and steer the development
@@ -9,7 +9,7 @@ of actors and tools that governance needs to consider.</p>
 advanced AI takeoff. There is serious uncertainty regarding when these
 transformative AIs will arise and whether progress will follow
 continuous trends or exhibit abrupt, discontinuous jumps in
-capabilities. However, once they emerge, advanced AIs are likely to
+capabilities. However, once they emerge, advanced AIs would likely
 massively accelerate technological advancement and economic growth. This
 acceleration could profoundly reshape human civilization, potentially
 within a short timeframe. Careful governance, informed by answers to
@@ -23,7 +23,7 @@ control in a single AI or small group of AIs poses risks like
 permanently locking in certain values or goals. However, distributing
 power more widely among a large, diverse ecosystem of AIs also has
 downsides, like increasing the potential for misuse or making it more
-difficult to correct AI systems that begin behaving undesirably.<br />
+difficult to correct AI systems that begin behaving undesirably.<p>
 Second, regarding access to AIs, it is unclear whether availability
 should be tightly restricted or widely open to the general public.
 Limiting access risks misuse by powerful groups whereas open access
