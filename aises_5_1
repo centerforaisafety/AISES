@@ -1,6 +1,6 @@
 <!-- Complex Systems -->
 
-<h1 id="introduction"> 5.1 Introduction</h1>
+<h1 id="overview">Overview</h1>
 <p>Artificial intelligence systems and the societies they operate within
 belong to the class of <em>complex systems</em>. These types of systems
 have significant implications for thinking about and ensuring AI safety.
@@ -8,7 +8,7 @@ Complex systems exhibit surprising behaviors and defy conventional
 analysis methods that examine individual components in isolation. To
 develop effective strategies for AI safety, it is crucial to adopt
 holistic approaches that account for the unique properties of complex
-systems and enable us to anticipate and address AI risks.<br />
+systems and enable us to anticipate and address AI risks.<p>
 This chapter begins by elucidating the qualitative differences between
 complex and simple systems. After describing standard analysis
 techniques based on mechanistic or statistical approaches, the chapter
@@ -16,7 +16,7 @@ demonstrates their limitations in capturing the essential
 characteristics of complex systems, and provides a concise definition of
 complexity. The “Hallmarks of Complex Systems” section then explores
 seven indications of complexity and establishes how deep learning models
-exemplify each of them.<br />
+exemplify each of them.<p>
 Next, the “Social Systems as Complex Systems” section shows how various
 human organizations also satisfy our definition of complex systems. In
 particular, the section explores how the hallmarks of complexity
@@ -25,7 +25,7 @@ safety: the corporations and research institutes pursuing AI
 development, and the decision-making structures responsible for
 implementing policies and regulations. In the latter case, there is
 consideration of how advocacy efforts are affected by the complex nature
-of political systems and the broader social context.<br />
+of political systems and the broader social context.<p>
 Having established that deep learning systems and the social systems
 surrounding them are best described as complex systems, the chapter
 moves on to what this means for AI safety. The “General Lessons” section
@@ -34,7 +34,7 @@ and sets out their implications for how risks might arise from AI. The
 “Puzzles, Problems, and Wicked Problems” section then reframes the
 contrasts between simple and complex systems in terms of the different
 kinds of problems that the two categories present, and the distinct
-styles of problem-solving they require.<br />
+styles of problem-solving they require.<p>
 By examining the unintended side effects that often arise from
 interfering with complex systems, the “Challenges with Interventionism”
 section illustrates the necessity of developing comprehensive approaches
