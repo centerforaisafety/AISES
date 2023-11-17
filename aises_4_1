@@ -1,6 +1,6 @@
 <!-- Safety Engineering -->
 
-<h1 id="introduction"> 4.1 Introduction</h1>
+<h1 id="chap:safety-engineering">Safety Engineering</h1>
 <p>In developing an AI safety strategy, it might be tempting to draw
 parallels with other hazardous technologies, from airplanes to nuclear
 weapons, and to devise analogous safety measures for AI. However, while
@@ -9,7 +9,7 @@ spheres, it is important to recognize that each technology is unique,
 with its own specific set of applications and risks. Attempting to map
 safety protocols from one area onto another might therefore prove
 misleading, or leave gaps in our strategy where parallels cannot be
-drawn.<br />
+drawn.<p>
 Instead of relying on analogies, we need a more general framework for
 safety, from which we can develop a more comprehensive approach,
 tailored to the specific case in question. A good place to start is with
@@ -17,7 +17,7 @@ the field of safety engineering: a broad discipline that studies all
 sorts of systems and provides a paradigm for avoiding accidents
 resulting from them. Researchers in this field have identified
 fundamental safety principles and concepts that can be flexibly applied
-to novel systems.<br />
+to novel systems.<p>
 We can view AI safety as a special case of safety engineering concerned
 with avoiding AI-related catastrophes. To orient our thinking about AI
 safety, this chapter will discuss key concepts and lessons from safety
@@ -46,8 +46,8 @@ exploring the limitations of component failure accident models, we will
 show that it can be more effective to address overarching systemic
 factors than all the specific events that could directly cause an
 accident. We will then describe some more holistic approaches to risk
-analysis and reduction. These are better suited to complex systems,
-which we look at in more detail in the next chapter.</p>
+analysis and reduction. Systemic models rely on complex systems, which
+we look at in more detail in the next chapter.</p>
 <p><strong>Tail events and black swans.</strong> In the final sections
 of this chapter, we will introduce the concept of tail events—events
 characterized by high impact and low probability—and show how they
@@ -56,6 +56,7 @@ a subset of tail events called black swans, or unknown unknowns, which
 are tail events that are largely unpredictable. We will discuss how
 emerging technology, including AI, might entail a risk of tail events
 and black swans, and we will show how we can reduce those risks, even if
-we do not know their exact nature.<br />
-</p>
+we do not know their exact nature.</p>
 <div class="refsection">
+
+</div>
