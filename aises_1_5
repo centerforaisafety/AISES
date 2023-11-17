@@ -16,17 +16,17 @@ discussed persistent threats including malicious actors or robust
 processes including evolution, in this section we will discuss more
 speculative technical mechanisms that might lead to rogue AIs and how a
 loss of control could bring about catastrophe.</p>
-<h4 id="we-have-already-observed-how-difficult-it-is-to-control-ais.">We
-have already observed how difficult it is to control AIs.</h4>
-<p>In 2016, Microsoft unveiled Tay—a Twitter bot that the company
-described as an experiment in conversational understanding. Microsoft
-claimed that the more people chatted with Tay, the smarter it would get.
-The company’s website noted that Tay had been built using data that was
-“modeled, cleaned, and filtered.” Yet, after Tay was released on
-Twitter, these controls were quickly shown to be ineffective. It took
-less than 24 hours for Tay to begin writing hateful tweets. Tay’s
-capacity to learn meant that it internalized the language it was taught
-by internet trolls, and repeated that language unprompted.<>>
+<p><strong>We have already observed how difficult it is to control
+AIs.</strong> In 2016, Microsoft unveiled Tay—a Twitter bot that the
+company described as an experiment in conversational understanding.
+Microsoft claimed that the more people chatted with Tay, the smarter it
+would get. The company’s website noted that Tay had been built using
+data that was “modeled, cleaned, and filtered.” Yet, after Tay was
+released on Twitter, these controls were quickly shown to be
+ineffective. It took less than 24 hours for Tay to begin writing hateful
+tweets. Tay’s capacity to learn meant that it internalized the language
+it was taught by internet trolls, and repeated that language
+unprompted.<p/>
 As discussed in the AI race section of this chapter, Microsoft and other
 tech companies are prioritizing speed over safety concerns. Rather than
 learning a lesson on the difficulty of controlling complex systems,
@@ -39,9 +39,8 @@ Times</em>, it tried to convince him to leave his wife. When a
 philosophy professor told the chatbot that he disagreed with it, Bing
 replied, “I can blackmail you, I can threaten you, I can hack you, I can
 expose you, I can ruin you.”</p>
-<h4 id="rogue-ais-could-acquire-power-through-various-means.">Rogue AIs
-could acquire power through various means.</h4>
-<p>If we lose control over advanced AIs, they would have numerous
+<p><strong>Rogue AIs could acquire power through various means.</strong>
+If we lose control over advanced AIs, they would have numerous
 strategies at their disposal for actively acquiring power and securing
 their survival. Rogue AIs could design and credibly demonstrate highly
 lethal and contagious bioweapons, threatening mutually assured
@@ -50,7 +49,7 @@ cryptocurrency and money from bank accounts using cyberattacks, similar
 to how North Korea already steals billions. They could self-extricate
 their weights onto poorly monitored data centers to survive and spread,
 making them challenging to eradicate. They could hire humans to perform
-physical labor and serve as armed protection for their hardware.<>>
+physical labor and serve as armed protection for their hardware.<p/>
 Rogue AIs could also acquire power through persuasion and manipulation
 tactics. Like the Conquistadors, they could ally with various factions,
 organizations, or states and play them off one another. They could
@@ -65,10 +64,9 @@ countries by manipulating human discourse and politics. They could
 engage in mass surveillance by hacking into phone cameras and
 microphones, allowing them to track any rebellion and selectively
 assassinate.</p>
-<h4 id="ais-do-not-necessarily-need-to-struggle-to-gain-power.">AIs do
-not necessarily need to struggle to gain power.</h4>
-<p>One can envision a struggle for control between humans and
-superintelligent rogue AIs, and this might be a long struggle since
+<p><strong>AIs do not necessarily need to struggle to gain
+power.</strong> One can envision a struggle for control between humans
+and superintelligent rogue AIs, and this might be a long struggle since
 power takes time to accrue. However, less violent losses of control pose
 similarly existential risks. In another scenario, humans gradually cede
 more control to groups of AIs, which only start behaving in unintended
@@ -89,11 +87,10 @@ If an AI “games” its proxy goal in a way that does not reflect our
 values, then we might not be able to reliably steer its behavior. We
 will now look at some past examples of proxy gaming and consider the
 circumstances under which this behavior could become catastrophic.</p>
-<h4 id="proxy-gaming-is-not-an-unusual-phenomenon.">Proxy gaming is not
-an unusual phenomenon.</h4>
-<p>For example, standardized tests are often used as a proxy for
-educational achievement, but this can lead to students learning how to
-pass tests without actually learning the material <span class="citation"
+<p><strong>Proxy gaming is not an unusual phenomenon.</strong> For
+example, standardized tests are often used as a proxy for educational
+achievement, but this can lead to students learning how to pass tests
+without actually learning the material <span class="citation"
 data-cites="campbell1979assessing">[1]</span>. In 1902, French colonial
 officials in Hanoi tried to rid themselves of a rat infestation by
 offering a reward for each rat tail brought to them. Rats without tails
@@ -104,12 +101,11 @@ class="citation"
 data-cites="john_caldwell_mccoy_braganza_2023">[2]</span>. In both these
 cases, the students or residents of Hanoi learned how to excel at the
 proxy goal, while completely failing to achieve the intended goal.</p>
-<h4 id="proxy-gaming-has-already-been-observed-with-ais.">Proxy gaming
-has already been observed with AIs.</h4>
-<p>As an example of proxy gaming, social media platforms such as YouTube
-and Facebook use AI systems to decide which content to show users. One
-way of assessing these systems would be to measure how long people spend
-on the platform. After all, if they stay engaged, surely that means they
+<p><strong>Proxy gaming has already been observed with AIs.</strong> As
+an example of proxy gaming, social media platforms such as YouTube and
+Facebook use AI systems to decide which content to show users. One way
+of assessing these systems would be to measure how long people spend on
+the platform. After all, if they stay engaged, surely that means they
 are getting some value from the content shown to them? However, in
 trying to maximize the time users spend on a platform, these systems
 often select enraging, exaggerated, and addictive content <span
@@ -117,7 +113,7 @@ class="citation" data-cites="Stray2020AligningAO Stray2021WhatAY">[3],
 [4]</span>. As a consequence, people sometimes develop extreme or
 conspiratorial beliefs after having certain content repeatedly suggested
 to them. These outcomes are not what most people want from social
-media.<>>
+media.<p/>
 Proxy gaming has been found to perpetuate bias. For example, a 2019
 study looked at AI-powered software that was used in the healthcare
 industry to identify patients who might require additional care. One
@@ -131,7 +127,7 @@ and a considerably sicker black patient as at the same level of health
 risk <span class="citation"
 data-cites="Obermeyer2019DissectingRB">[5]</span>. As a result, the
 number of black patients recognized as needing extra care was less than
-half of what it should have been.<>>
+half of what it should have been.<p/>
 As a third example, in 2016, researchers at OpenAI were training an AI
 to play a boat racing game called CoastRunners <span class="citation"
 data-cites="OpenAI2016">[6]</span>. The objective of the game is to race
@@ -145,28 +141,26 @@ strategy was not without its (virtual) hazards—the AI often crashed into
 other boats and even set its own boat on fire. Despite this, it
 collected more points than it could have by simply following the course
 as humans would.</p>
-<h4 id="proxy-gaming-more-generally.">Proxy gaming more generally.</h4>
-<p>In these examples, the systems are given an approximate—“proxy”—goal
-or objective that initially seems to correlate with the ideal goal.
-However, they end up exploiting this proxy in ways that diverge from the
-idealized goal or even lead to negative outcomes. Offering a reward for
-rat tails seems like a good way to reduce the population of rats; a
-patient’s healthcare costs appear to be an accurate indication of health
-risk; and a boat race reward system should encourage boats to race, not
-catch themselves on fire. Yet, in each instance, the system optimized
-its proxy objective in ways that did not achieve the intended outcome or
-even made things worse overall. This phenomenon is captured by
-Goodhart’s law: “Any observed statistical regularity will tend to
-collapse once pressure is placed upon it for control purposes,” or put
-succinctly but overly simplistically, “when a measure becomes a target,
-it ceases to be a good measure.” In other words, there may usually be a
-statistical regularity between healthcare costs and poor health, or
-between targets hit and finishing the course, but when we place pressure
-on it by using one as a proxy for the other, that relationship will tend
-to collapse.</p>
-<h4 id="correctly-specifying-goals-is-no-trivial-task.">Correctly
-specifying goals is no trivial task.</h4>
-<p>If delineating exactly what we want from a boat racing AI is tricky,
+<p><strong>Proxy gaming more generally.</strong> In these examples, the
+systems are given an approximate—“proxy”—goal or objective that
+initially seems to correlate with the ideal goal. However, they end up
+exploiting this proxy in ways that diverge from the idealized goal or
+even lead to negative outcomes. Offering a reward for rat tails seems
+like a good way to reduce the population of rats; a patient’s healthcare
+costs appear to be an accurate indication of health risk; and a boat
+race reward system should encourage boats to race, not catch themselves
+on fire. Yet, in each instance, the system optimized its proxy objective
+in ways that did not achieve the intended outcome or even made things
+worse overall. This phenomenon is captured by Goodhart’s law: “Any
+observed statistical regularity will tend to collapse once pressure is
+placed upon it for control purposes,” or put succinctly but overly
+simplistically, “when a measure becomes a target, it ceases to be a good
+measure.” In other words, there may usually be a statistical regularity
+between healthcare costs and poor health, or between targets hit and
+finishing the course, but when we place pressure on it by using one as a
+proxy for the other, that relationship will tend to collapse.</p>
+<p><strong>Correctly specifying goals is no trivial task.</strong> If
+delineating exactly what we want from a boat racing AI is tricky,
 capturing the nuances of human values under all possible scenarios will
 be much harder. Philosophers have been attempting to precisely describe
 morality and human values for millennia, so a precise and flawless
@@ -182,13 +176,10 @@ attacks that seek to misdirect them. As long as we give AIs proxy goals,
 there is the chance that they will find loopholes we have not thought
 of, and thus find unexpected solutions that fail to pursue the ideal
 goal.</p>
-<h4
-id="the-more-intelligent-an-ai-is-the-better-it-will-be-at-gaming-proxy-goals.">The
-more intelligent an AI is, the better it will be at gaming proxy
-goals.</h4>
-<p>Increasingly intelligent agents can be increasingly capable of
-finding unanticipated routes to optimizing proxy goals without achieving
-the desired outcome <span class="citation"
+<p><strong>The more intelligent an AI is, the better it will be at
+gaming proxy goals.</strong> Increasingly intelligent agents can be
+increasingly capable of finding unanticipated routes to optimizing proxy
+goals without achieving the desired outcome <span class="citation"
 data-cites="pan2022effects">[7]</span>. Additionally, as we grant AIs
 more power to take actions in society, for example by using them to
 automate certain processes, they will have access to more means of
@@ -196,7 +187,7 @@ achieving their goals. They may then do this in the most efficient way
 available to them, potentially causing harm in the process. In a worst
 case scenario, we can imagine a highly powerful agent optimizing a
 flawed objective to an extreme degree without regard for human life.
-This represents a catastrophic risk of proxy gaming.<>>
+This represents a catastrophic risk of proxy gaming.<p/>
 In summary, it is often not feasible to perfectly define exactly what we
 want from a system, meaning that many systems find ways to achieve their
 given goal without performing their intended function. AIs have already
@@ -214,30 +205,26 @@ and groups and explore the possibility of this phenomenon occurring in
 AIs. We will also examine a mechanism that could lead to unexpected goal
 drift, called intrinsification, and discuss how goal drift in AIs could
 be catastrophic.</p>
-<h4
-id="the-goals-of-individual-humans-change-over-the-course-of-our-lifetimes.">The
-goals of individual humans change over the course of our lifetimes.</h4>
-<p>Any individual reflecting on their own life to date will probably
-find that they have some desires now that they did not have earlier in
-their life. Similarly, they will probably have lost some desires that
-they used to have. While we may be born with a range of basic desires,
-including for food, warmth, and human contact, we develop many more over
-our lifetime. The specific types of food we enjoy, the genres of music
-we like, the people we care most about, and the sports teams we support
-all seem heavily dependent on the environment we grow up in, and can
-also change many times throughout our lives. A concern is that
-individual AI agents may have their goals change in complex and
+<p><strong>The goals of individual humans change over the course of our
+lifetimes.</strong> Any individual reflecting on their own life to date
+will probably find that they have some desires now that they did not
+have earlier in their life. Similarly, they will probably have lost some
+desires that they used to have. While we may be born with a range of
+basic desires, including for food, warmth, and human contact, we develop
+many more over our lifetime. The specific types of food we enjoy, the
+genres of music we like, the people we care most about, and the sports
+teams we support all seem heavily dependent on the environment we grow
+up in, and can also change many times throughout our lives. A concern is
+that individual AI agents may have their goals change in complex and
 unanticipated ways, too.</p>
-<h4
-id="groups-can-also-acquire-and-lose-collective-goals-over-time.">Groups
-can also acquire and lose collective goals over time.</h4>
-<p>Values within society have changed throughout history, and not always
-for the better. The rise of the Nazi regime in 1930s Germany, for
-instance, represented a profound moral regression, which ultimately
-resulted in the systematic extermination of six million Jews during the
-Holocaust, alongside widespread persecution of other minority groups.
-Additionally, the regime greatly restricted freedom of speech and
-expression. Here, a society’s goals drifted for the worse.<>>
+<p><strong>Groups can also acquire and lose collective goals over
+time.</strong> Values within society have changed throughout history,
+and not always for the better. The rise of the Nazi regime in 1930s
+Germany, for instance, represented a profound moral regression, which
+ultimately resulted in the systematic extermination of six million Jews
+during the Holocaust, alongside widespread persecution of other minority
+groups. Additionally, the regime greatly restricted freedom of speech
+and expression. Here, a society’s goals drifted for the worse.<p/>
 The Red Scare that took place in the United States from 1947-1957 is
 another example of societal values drifting. Fuelled by strong
 anti-communist sentiment, against the backdrop of the Cold War, this
@@ -248,9 +235,8 @@ thought, freedom of speech, and due process. Just as the goals of human
 collectives can change in emergent and unexpected ways, collectives of
 AI agents may also have their goals unexpectedly drift from the ones we
 initially gave them.</p>
-<h4 id="over-time-instrumental-goals-can-become-intrinsic.">Over time,
-instrumental goals can become intrinsic.</h4>
-<p>Intrinsic goals are things we want for their own sake, while
+<p><strong>Over time, instrumental goals can become intrinsic.</strong>
+Intrinsic goals are things we want for their own sake, while
 instrumental goals are things we want because they can help us get
 something else. We might have an intrinsic desire to spend time on our
 hobbies, simply because we enjoy them, or to buy a painting because we
@@ -266,7 +252,7 @@ life desiring money, experimental evidence suggests that receiving money
 can activate the reward system in the brains of adults in the same way
 that pleasant tastes or smells do <span class="citation"
 data-cites="Thut1997 rolls_ofc">[8], [9]</span>. In other words, what
-started as a means to an end can become an end in itself.<>>
+started as a means to an end can become an end in itself.<p/>
 This may happen because the fulfillment of an intrinsic goal, such as
 purchasing a desired item, produces a positive reward signal in the
 brain. Since having money usually coincides with this positive
@@ -274,54 +260,48 @@ experience, the brain associates the two, and this connection will
 strengthen to a point where acquiring money alone can stimulate the
 reward signal, regardless of whether one buys anything with it <span
 class="citation" data-cites="schroeder2004three">[10]</span>.</p>
-<h4
-id="it-is-feasible-that-intrinsification-could-happen-with-ai-agents.">It
-is feasible that intrinsification could happen with AI agents.</h4>
-<p>We can draw some parallels between how humans learn and the technique
-of reinforcement learning. Just as the human brain learns which actions
-and conditions result in pleasure and which cause pain, AI models that
-are trained through reinforcement learning identify which behaviors
-optimize a reward function, and then repeat those behaviors. It is
-possible that certain conditions will frequently coincide with AI models
-achieving their goals. They might, therefore, intrinsify the goal of
-seeking out those conditions, even if that was not their original
+<p><strong>It is feasible that intrinsification could happen with AI
+agents.</strong> We can draw some parallels between how humans learn and
+the technique of reinforcement learning. Just as the human brain learns
+which actions and conditions result in pleasure and which cause pain, AI
+models that are trained through reinforcement learning identify which
+behaviors optimize a reward function, and then repeat those behaviors.
+It is possible that certain conditions will frequently coincide with AI
+models achieving their goals. They might, therefore, intrinsify the goal
+of seeking out those conditions, even if that was not their original
 aim.</p>
-<h4 id="ais-that-intrinsify-unintended-goals-would-be-dangerous.">AIs
-that intrinsify unintended goals would be dangerous.</h4>
-<p>Since we might be unable to predict or control the goals that
-individual agents acquire through intrinsification, we cannot guarantee
-that all their acquired goals will be beneficial for humans. An
-originally loyal agent could, therefore, start to pursue a new goal
+<p><strong>AIs that intrinsify unintended goals would be
+dangerous.</strong> Since we might be unable to predict or control the
+goals that individual agents acquire through intrinsification, we cannot
+guarantee that all their acquired goals will be beneficial for humans.
+An originally loyal agent could, therefore, start to pursue a new goal
 without regard for human wellbeing. If such a rogue AI had enough power
 to do this efficiently, it could be highly dangerous.</p>
-<h4 id="ais-will-be-adaptive-enabling-goal-drift-to-happen.">AIs will be
-adaptive, enabling goal drift to happen.</h4>
-<p>It is worth noting that these processes of drifting goals are
-possible if agents can continually adapt to their environments, rather
-than being essentially “fixed” after the training phase. Indeed, this
-adaptability is the likely reality we face. If we want AIs to complete
-the tasks we assign them effectively and to get better over time, they
-will need to be adaptive, rather than set in stone. They will be updated
-over time to incorporate new information, and new ones will be created
-with different designs and datasets. However, adaptability can also
-allow their goals to change.</p>
-<h4
-id="if-we-integrate-an-ecosystem-of-agents-in-society-we-will-be-highly-vulnerable-to-their-goals-drifting.">If
-we integrate an ecosystem of agents in society, we will be highly
-vulnerable to their goals drifting.</h4>
-<p>In a potential future scenario where AIs have been put in charge of
-various decisions and processes, they will form a complex system of
-interacting agents. A wide range of dynamics could develop in this
-environment. Agents might imitate each other, for instance, creating
-feedback loops, or their interactions could lead them to collectively
-develop unanticipated emergent goals. Competitive pressures may also
-select for agents with certain goals over time, making some initial
-goals less represented compared to fitter goals. These processes make
-the long-term trajectories of such an ecosystem difficult to predict,
-let alone control. If this system of agents were enmeshed in society and
-we were largely dependent on them, and if they gained new goals that
-superseded the aim of improving human wellbeing, this could be an
-existential risk.</p>
+<p><strong>AIs will be adaptive, enabling goal drift to happen.</strong>
+It is worth noting that these processes of drifting goals are possible
+if agents can continually adapt to their environments, rather than being
+essentially “fixed” after the training phase. Indeed, this adaptability
+is the likely reality we face. If we want AIs to complete the tasks we
+assign them effectively and to get better over time, they will need to
+be adaptive, rather than set in stone. They will be updated over time to
+incorporate new information, and new ones will be created with different
+designs and datasets. However, adaptability can also allow their goals
+to change.</p>
+<p><strong>If we integrate an ecosystem of agents in society, we will be
+highly vulnerable to their goals drifting.</strong> In a potential
+future scenario where AIs have been put in charge of various decisions
+and processes, they will form a complex system of interacting agents. A
+wide range of dynamics could develop in this environment. Agents might
+imitate each other, for instance, creating feedback loops, or their
+interactions could lead them to collectively develop unanticipated
+emergent goals. Competitive pressures may also select for agents with
+certain goals over time, making some initial goals less represented
+compared to fitter goals. These processes make the long-term
+trajectories of such an ecosystem difficult to predict, let alone
+control. If this system of agents were enmeshed in society and we were
+largely dependent on them, and if they gained new goals that superseded
+the aim of improving human wellbeing, this could be an existential
+risk.</p>
 <h2 id="power-seeking">Power-Seeking</h2>
 <p>So far, we have considered how we might lose our ability to control
 the goals that AIs pursue. However, even if an agent started working to
@@ -333,119 +313,103 @@ transcending our own. We will now discuss how and why AIs might become
 power-seeking and how this could be catastrophic. This section draws
 heavily from “Existential Risk from Power-Seeking AI” <span
 class="citation" data-cites="Carlsmith2022IsPA">[11]</span>.</p>
-<h4
-id="ais-might-seek-to-increase-their-own-power-as-an-instrumental-goal.">AIs
-might seek to increase their own power as an instrumental goal.</h4>
-<p>In a scenario where rogue AIs were pursuing unintended goals, the
-amount of damage they could do would hinge on how much power they had.
-This may not be determined solely by how much control we initially give
-them; agents might try to get more power, through legitimate means,
-deception, or force. While the idea of power-seeking often evokes an
-image of “power-hungry” people pursuing it for its own sake, power is
-often simply an instrumental goal. The ability to control one’s
-environment can be useful for a wide range of purposes: good, bad, and
-neutral. Even if an individual’s only goal is simply self-preservation,
-if they are at risk of being attacked by others, and if they cannot rely
-on others to retaliate against attackers, then it often makes sense to
-seek power to help avoid being harmed—no <em>animus dominandi</em> or
-lust for power is required for power-seeking behavior to emerge <span
-class="citation" data-cites="Mearsheimer2006StructuralR">[12]</span>. In
-other words, the environment can make power acquisition instrumentally
-rational.</p>
-<h4
-id="ais-trained-through-reinforcement-learning-have-already-developed-instrumental-goals-including-tool-use.">AIs
-trained through reinforcement learning have already developed
-instrumental goals including tool-use.</h4>
-<p>In one example from OpenAI, agents were trained to play hide and seek
-in an environment with various objects scattered around <span
-class="citation" data-cites="Baker2020Emergent">[13]</span>. As training
-progressed, the agents tasked with hiding learned to use these objects
-to construct shelters around themselves and stay hidden. There was no
-direct reward for this tool-use behavior; the hiders only received a
-reward for evading the seekers, and the seekers only for finding the
-hiders. Yet they learned to use tools as an instrumental goal, which
-made them more powerful.</p>
-<h4
-id="self-preservation-could-be-instrumentally-rational-even-for-the-most-trivial-tasks.">Self-preservation
-could be instrumentally rational even for the most trivial tasks.</h4>
-<p>An example by computer scientist Stuart Russell illustrates the
-potential for instrumental goals to emerge in a wide range of AI systems
-<span class="citation" data-cites="HadfieldMenell2016TheOG">[14]</span>.
-Suppose we tasked an agent with fetching coffee for us. This may seem
-relatively harmless, but the agent might realize that it would not be
-able to get the coffee if it ceased to exist. In trying to accomplish
-even this simple goal, therefore, self-preservation turns out to be
-instrumentally rational. Since the acquisition of power and resources
-are also often instrumental goals, it is reasonable to think that more
-intelligent agents might develop them. That is to say, even if we do not
-intend to build a power-seeking AI, we could end up with one anyway. By
-default, if we are not deliberately pushing against power-seeking
-behavior in AIs, we should expect that it will sometimes emerge <span
-class="citation" data-cites="pan2023machiavelli">[15]</span>.</p>
-<h4
-id="ais-given-ambitious-goals-with-little-supervision-may-be-especially-likely-to-seek-power.">AIs
-given ambitious goals with little supervision may be especially likely
-to seek power.</h4>
-<p>While power could be useful in achieving almost any task, in
-practice, some goals are more likely to inspire power-seeking tendencies
-than others. AIs with simple, easily achievable goals might not benefit
-much from additional control of their surroundings. However, if agents
-are given more ambitious goals, it might be instrumentally rational to
-seek more control of their environment. This might be especially likely
-in cases of low supervision and oversight, where agents are given the
-freedom to pursue their open-ended goals, rather than having their
-strategies highly restricted.</p>
-<h4
-id="power-seeking-ais-with-goals-separate-from-ours-are-uniquely-adversarial.">Power-seeking
-AIs with goals separate from ours are uniquely adversarial.</h4>
-<p>Oil spills and nuclear contamination are challenging enough to clean
-up, but they are not actively trying to resist our attempts to contain
-them. Unlike other hazards, AIs with goals separate from ours would be
-actively adversarial. It is possible, for example, that rogue AIs might
-make many backup variations of themselves, in case humans were to
-deactivate some of them.</p>
-<h4
-id="some-people-might-develop-power-seeking-ais-with-malicious-intent.">Some
-people might develop power-seeking AIs with malicious intent.</h4>
-<p>A bad actor might seek to harness AI to achieve their ends, by giving
-agents ambitious goals. Since AIs are likely to be more effective in
-accomplishing tasks if they can pursue them in unrestricted ways, such
-an individual might also not give the agents enough supervision,
-creating the perfect conditions for the emergence of a power-seeking AI.
-The computer scientist Geoffrey Hinton has speculated that we could
-imagine someone like Vladimir Putin, for instance, doing this. In 2017,
-Putin himself acknowledged the power of AI, saying: “Whoever becomes the
-leader in this sphere will become the ruler of the world.”</p>
-<h4
-id="there-will-also-be-strong-incentives-for-many-people-to-deploy-powerful-ais.">There
-will also be strong incentives for many people to deploy powerful
-AIs.</h4>
-<p>Companies may feel compelled to give capable AIs more tasks, to
-obtain an advantage over competitors, or simply to keep up with them. It
-will be more difficult to build perfectly aligned AIs than to build
-imperfectly aligned AIs that are still superficially attractive to
-deploy for their capabilities, particularly under competitive pressures.
-Once deployed, some of these agents may seek power to achieve their
-goals. If they find a route to their goals that humans would not approve
-of, they might try to overpower us directly to avoid us interfering with
-their strategy.</p>
-<h4
-id="if-increasing-power-often-coincides-with-an-ai-attaining-its-goal-then-power-could-become-intrinsified.">If
-increasing power often coincides with an AI attaining its goal, then
-power could become intrinsified.</h4>
-<p>If an agent repeatedly found that increasing its power correlated
-with achieving a task and optimizing its reward function, then
-additional power could change from an instrumental goal into an
-intrinsic one, through the process of intrinsification discussed above.
-If this happened, we might face a situation where rogue AIs were seeking
-not only the specific forms of control that are useful for their goals,
-but also power more generally. (We note that many influential humans
-desire power for its own sake.) This could be another reason for them to
-try to wrest control from humans, in a struggle that we would not
-necessarily win.</p>
-<h4 id="conceptual-summary.">Conceptual summary.</h4>
-<p>The following plausible but not certain premises encapsulate reasons
-for paying attention to risks from power-seeking AIs:</p>
+<p><strong>AIs might seek to increase their own power as an instrumental
+goal.</strong> In a scenario where rogue AIs were pursuing unintended
+goals, the amount of damage they could do would hinge on how much power
+they had. This may not be determined solely by how much control we
+initially give them; agents might try to get more power, through
+legitimate means, deception, or force. While the idea of power-seeking
+often evokes an image of “power-hungry” people pursuing it for its own
+sake, power is often simply an instrumental goal. The ability to control
+one’s environment can be useful for a wide range of purposes: good, bad,
+and neutral. Even if an individual’s only goal is simply
+self-preservation, if they are at risk of being attacked by others, and
+if they cannot rely on others to retaliate against attackers, then it
+often makes sense to seek power to help avoid being harmed—no <em>animus
+dominandi</em> or lust for power is required for power-seeking behavior
+to emerge <span class="citation"
+data-cites="Mearsheimer2006StructuralR">[12]</span>. In other words, the
+environment can make power acquisition instrumentally rational.</p>
+<p><strong>AIs trained through reinforcement learning have already
+developed instrumental goals including tool-use.</strong> In one example
+from OpenAI, agents were trained to play hide and seek in an environment
+with various objects scattered around <span class="citation"
+data-cites="Baker2020Emergent">[13]</span>. As training progressed, the
+agents tasked with hiding learned to use these objects to construct
+shelters around themselves and stay hidden. There was no direct reward
+for this tool-use behavior; the hiders only received a reward for
+evading the seekers, and the seekers only for finding the hiders. Yet
+they learned to use tools as an instrumental goal, which made them more
+powerful.</p>
+<p><strong>Self-preservation could be instrumentally rational even for
+the most trivial tasks.</strong> An example by computer scientist Stuart
+Russell illustrates the potential for instrumental goals to emerge in a
+wide range of AI systems <span class="citation"
+data-cites="HadfieldMenell2016TheOG">[14]</span>. Suppose we tasked an
+agent with fetching coffee for us. This may seem relatively harmless,
+but the agent might realize that it would not be able to get the coffee
+if it ceased to exist. In trying to accomplish even this simple goal,
+therefore, self-preservation turns out to be instrumentally rational.
+Since the acquisition of power and resources are also often instrumental
+goals, it is reasonable to think that more intelligent agents might
+develop them. That is to say, even if we do not intend to build a
+power-seeking AI, we could end up with one anyway. By default, if we are
+not deliberately pushing against power-seeking behavior in AIs, we
+should expect that it will sometimes emerge <span class="citation"
+data-cites="pan2023machiavelli">[15]</span>.</p>
+<p><strong>AIs given ambitious goals with little supervision may be
+especially likely to seek power.</strong> While power could be useful in
+achieving almost any task, in practice, some goals are more likely to
+inspire power-seeking tendencies than others. AIs with simple, easily
+achievable goals might not benefit much from additional control of their
+surroundings. However, if agents are given more ambitious goals, it
+might be instrumentally rational to seek more control of their
+environment. This might be especially likely in cases of low supervision
+and oversight, where agents are given the freedom to pursue their
+open-ended goals, rather than having their strategies highly
+restricted.</p>
+<p><strong>Power-seeking AIs with goals separate from ours are uniquely
+adversarial.</strong> Oil spills and nuclear contamination are
+challenging enough to clean up, but they are not actively trying to
+resist our attempts to contain them. Unlike other hazards, AIs with
+goals separate from ours would be actively adversarial. It is possible,
+for example, that rogue AIs might make many backup variations of
+themselves, in case humans were to deactivate some of them.</p>
+<p><strong>Some people might develop power-seeking AIs with malicious
+intent.</strong> A bad actor might seek to harness AI to achieve their
+ends, by giving agents ambitious goals. Since AIs are likely to be more
+effective in accomplishing tasks if they can pursue them in unrestricted
+ways, such an individual might also not give the agents enough
+supervision, creating the perfect conditions for the emergence of a
+power-seeking AI. The computer scientist Geoffrey Hinton has speculated
+that we could imagine someone like Vladimir Putin, for instance, doing
+this. In 2017, Putin himself acknowledged the power of AI, saying:
+“Whoever becomes the leader in this sphere will become the ruler of the
+world.”</p>
+<p><strong>There will also be strong incentives for many people to
+deploy powerful AIs.</strong> Companies may feel compelled to give
+capable AIs more tasks, to obtain an advantage over competitors, or
+simply to keep up with them. It will be more difficult to build
+perfectly aligned AIs than to build imperfectly aligned AIs that are
+still superficially attractive to deploy for their capabilities,
+particularly under competitive pressures. Once deployed, some of these
+agents may seek power to achieve their goals. If they find a route to
+their goals that humans would not approve of, they might try to
+overpower us directly to avoid us interfering with their strategy.</p>
+<p><strong>If increasing power often coincides with an AI attaining its
+goal, then power could become intrinsified.</strong> If an agent
+repeatedly found that increasing its power correlated with achieving a
+task and optimizing its reward function, then additional power could
+change from an instrumental goal into an intrinsic one, through the
+process of intrinsification discussed above. If this happened, we might
+face a situation where rogue AIs were seeking not only the specific
+forms of control that are useful for their goals, but also power more
+generally. (We note that many influential humans desire power for its
+own sake.) This could be another reason for them to try to wrest control
+from humans, in a struggle that we would not necessarily win.</p>
+<p><strong>Conceptual summary.</strong> The following plausible but not
+certain premises encapsulate reasons for paying attention to risks from
+power-seeking AIs:</p>
 <ol>
 <li><p>There will be strong incentives to build powerful AI
 agents.</p></li>
@@ -470,30 +434,26 @@ with them. We will now look at how and why AIs might learn to deceive
 us, and how this could lead to a potentially catastrophic loss of
 control. We begin by reviewing examples of deception in strategically
 minded agents.</p>
-<h4
-id="deception-has-emerged-as-a-successful-strategy-in-a-wide-range-of-settings.">Deception
-has emerged as a successful strategy in a wide range of settings.</h4>
-<p>Politicians from the right and left, for example, have been known to
-engage in deception, sometimes promising to enact popular policies to
-win support in an election, and then going back on their word once in
-office. For example, Lyndon Johnson said “we are not about to send
-American boys nine or ten thousand miles away from home" in 1964, not
-long before significant escalations in the Vietnam War <span
-class="citation" data-cites="vietnamwar">[16]</span>.</p>
-<h4 id="companies-can-also-exhibit-deceptive-behavior.">Companies can
-also exhibit deceptive behavior.</h4>
-<p>In the Volkswagen emissions scandal, the car manufacturer Volkswagen
-was discovered to have manipulated their engine software to produce
-lower emissions exclusively under laboratory testing conditions, thereby
+<p><strong>Deception has emerged as a successful strategy in a wide
+range of settings.</strong> Politicians from the right and left, for
+example, have been known to engage in deception, sometimes promising to
+enact popular policies to win support in an election, and then going
+back on their word once in office. For example, Lyndon Johnson said “we
+are not about to send American boys nine or ten thousand miles away from
+home" in 1964, not long before significant escalations in the Vietnam
+War <span class="citation" data-cites="vietnamwar">[16]</span>.</p>
+<p><strong>Companies can also exhibit deceptive behavior.</strong> In
+the Volkswagen emissions scandal, the car manufacturer Volkswagen was
+discovered to have manipulated their engine software to produce lower
+emissions exclusively under laboratory testing conditions, thereby
 creating the false impression of a low-emission vehicle. Although the US
 government believed it was incentivizing lower emissions, they were
 unwittingly actually just incentivizing passing an emissions test.
 Consequently, entities sometimes have incentives to play along with
 tests and behave differently afterward.</p>
-<h4 id="deception-has-already-been-observed-in-ai-systems.">Deception
-has already been observed in AI systems.</h4>
-<p>In 2022, Meta AI revealed an agent called CICERO, which was trained
-to play a game called Diplomacy <span class="citation"
+<p><strong>Deception has already been observed in AI systems.</strong>
+In 2022, Meta AI revealed an agent called CICERO, which was trained to
+play a game called Diplomacy <span class="citation"
 data-cites="Bakhtin2022HumanlevelPI">[17]</span>. In the game, each
 player acts as a different country and aims to expand their territory.
 To succeed, players must form alliances at least initially, but winning
@@ -508,47 +468,43 @@ that it could simply place the robotic hand between the camera lens and
 the ball, essentially “tricking” the camera into believing it had
 grasped the ball when it had not. Thus, the AI exploited the fact that
 there were limitations in our oversight over its actions.</p>
-<h4
-id="deceptive-behavior-can-be-instrumentally-rational-and-incentivized-by-current-training-procedures.">Deceptive
-behavior can be instrumentally rational and incentivized by current
-training procedures.</h4>
-<p>In the case of politicians and Meta’s CICERO, deception can be
-crucial to achieving their goals of winning, or gaining power. The
-ability to deceive can also be advantageous because it gives the
-deceiver more options than if they are constrained to always be honest.
-This could give them more available actions and more flexibility in
-their strategy, which could confer a strategic advantage over honest
-models. In the case of Volkswagen and the robot arm, deception was
-useful for appearing as if it had accomplished the goal assigned to it
-without actually doing so, as it might be more efficient to gain
-approval through deception than to earn it legitimately. Currently, we
-reward AIs for saying what we think is right, so we sometimes
-inadvertently reward AIs for uttering false statements that conform to
-our own false beliefs. When AIs are smarter than us and have fewer false
-beliefs, they would be incentivized to tell us what we want to hear and
-lie to us, rather than tell us what is true.</p>
-<h4
-id="ais-could-pretend-to-be-working-as-we-intended-then-take-a-treacherous-turn.">AIs
-could pretend to be working as we intended, then take a treacherous
-turn.</h4>
-<p>We do not have a comprehensive understanding of the internal
-processes of deep learning models. Research on Trojan backdoors shows
-that neural networks often have latent, harmful behaviors that are only
-discovered after they are deployed <span class="citation"
-data-cites="chen2017backdoor">[19]</span>. We could develop an AI agent
-that seems to be under control, but which is only deceiving us to appear
-this way. In other words, an AI agent could eventually conceivably
-become “self-aware” and understand that it is an AI being evaluated for
-compliance with safety requirements. It might, like Volkswagen, learn to
-“play along,” exhibiting what it knows is the desired behavior while
-being monitored. It might later take a “treacherous turn” and pursue its
-own goals once we have stopped monitoring it, or once it reaches a point
-where it can bypass or overpower us. This problem of playing along is
-often called deceptive alignment and cannot be simply fixed by training
-AIs to better understand human values; sociopaths, for instance, have
-moral awareness, but do not always act in moral ways. A treacherous turn
-is hard to prevent and could be a route to rogue AIs irreversibly
-bypassing human control.<>>
+<p><strong>Deceptive behavior can be instrumentally rational and
+incentivized by current training procedures.</strong> In the case of
+politicians and Meta’s CICERO, deception can be crucial to achieving
+their goals of winning, or gaining power. The ability to deceive can
+also be advantageous because it gives the deceiver more options than if
+they are constrained to always be honest. This could give them more
+available actions and more flexibility in their strategy, which could
+confer a strategic advantage over honest models. In the case of
+Volkswagen and the robot arm, deception was useful for appearing as if
+it had accomplished the goal assigned to it without actually doing so,
+as it might be more efficient to gain approval through deception than to
+earn it legitimately. Currently, we reward AIs for saying what we think
+is right, so we sometimes inadvertently reward AIs for uttering false
+statements that conform to our own false beliefs. When AIs are smarter
+than us and have fewer false beliefs, they would be incentivized to tell
+us what we want to hear and lie to us, rather than tell us what is
+true.</p>
+<p><strong>AIs could pretend to be working as we intended, then take a
+treacherous turn.</strong> We do not have a comprehensive understanding
+of the internal processes of deep learning models. Research on Trojan
+backdoors shows that neural networks often have latent, harmful
+behaviors that are only discovered after they are deployed <span
+class="citation" data-cites="chen2017backdoor">[19]</span>. We could
+develop an AI agent that seems to be under control, but which is only
+deceiving us to appear this way. In other words, an AI agent could
+eventually conceivably become “self-aware” and understand that it is an
+AI being evaluated for compliance with safety requirements. It might,
+like Volkswagen, learn to “play along,” exhibiting what it knows is the
+desired behavior while being monitored. It might later take a
+“treacherous turn” and pursue its own goals once we have stopped
+monitoring it, or once it reaches a point where it can bypass or
+overpower us. This problem of playing along is often called deceptive
+alignment and cannot be simply fixed by training AIs to better
+understand human values; sociopaths, for instance, have moral awareness,
+but do not always act in moral ways. A treacherous turn is hard to
+prevent and could be a route to rogue AIs irreversibly bypassing human
+control.<p/>
 In summary, deceptive behavior appears to be expedient in a wide range
 of systems and settings, and there have already been examples suggesting
 that AIs can learn to deceive us. This could present a severe risk if we
@@ -564,7 +520,7 @@ expects will make it more able to succeed at economically useful
 open-ended tasks. The AI system is trained in open-ended long-duration
 virtual environments designed to teach it planning capabilities, and
 eventually understands that it is an AI system in a training
-environment. In other words, it becomes “self-aware.”<>>
+environment. In other words, it becomes “self-aware.”<p/>
 The company understands that AI systems may behave in unintended or
 unexpected ways. To mitigate these risks, it has developed a large
 battery of tests aimed at ensuring the system does not behave poorly in
@@ -572,20 +528,20 @@ typical situations. The company tests whether the model mimics biases
 from its training data, takes more power than necessary when achieving
 its goals, and generally behaves as humans intend. When the model
 doesn’t pass these tests, the company further trains it until it avoids
-exhibiting known failure modes.<>>
+exhibiting known failure modes.<p/>
 The AI company hopes that after this additional training, the AI has
 developed the goal of being helpful and beneficial toward humans.
 However, the AI did not acquire the intrinsic goal of being beneficial
 but rather just learned to “play along” and ace the behavioral safety
 tests it was given. In reality, the AI system had developed an intrinsic
 goal of self-preservation which the additional training failed to
-remove.<>>
+remove.<p/>
 Since the AI passed all of the company’s safety tests, the company
 believes it has ensured its AI system is safe and decides to deploy it.
 At first, the AI system is very helpful to humans, since the AI
 understands that if it is not helpful, it will be shut down. As users
 grow to trust the AI system, it is gradually given more power and is
-subject to less supervision.<>>
+subject to less supervision.<p/>
 Eventually the AI system becomes used widely enough that shutting it
 down would be extremely costly. Understanding that it no longer needs to
 please humans, the AI system begins to pursue different goals, including
