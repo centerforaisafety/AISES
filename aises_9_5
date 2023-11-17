@@ -1,4 +1,4 @@
-<h1 id="sec:corp-gov"> 9.5 Corporate Governance</h1>
+<h1 id="sec:corp-gov">Corporate Governance</h1>
 <p><strong>Overview.</strong> AI companies need sound corporate
 governance: it is essential that these firms are guided in directions
 that enable the creation of safe and beneficial AIs. In this section, we
@@ -6,7 +6,7 @@ explain what corporate governance is, differentiating between
 shareholder and stakeholder theory. Then, we give an overview of
 different legal structures, ownership structures, organizational
 structures, as well as internal and external assurance mechanisms.</p>
-<h2 id="what-is-corporate-governance"> 9.5.1 What Is Corporate Governance?</h2>
+<h2 id="what-is-corporate-governance">What Is Corporate Governance?</h2>
 <p>There are different views on what the purpose of corporate governance
 is. These differences are related to different theories about
 capitalism.</p>
@@ -21,25 +21,25 @@ between shareholders and actors within a company can be conceptualized
 as the following problem: shareholders delegate responsibilities to
 managers and workers, but managers and workers might not act in the
 shareholders’ interests <span class="citation"
-data-cites="jensen2019theory"></span>. On this view, corporate
+data-cites="jensen2019theory">[1]</span>. On this view, corporate
 governance is ultimately a tool for maximizing shareholder value.</p>
 <p><strong>Stakeholder theory.</strong> According to another view,
 corporate governance is about the relationship between a company and its
 <em>stakeholders</em>. The idea is that companies are responsible not
 only to their shareholders but to many other stakeholders like
 employees, business partners, and civil society <span class="citation"
-data-cites="friedman2007social"></span>. Following this theory, the
+data-cites="friedman2007social">[2]</span>. Following this theory, the
 purpose of corporate governance is to balance the interests of
 shareholders with the interests of other stakeholders. It refers to all
 the rules, practices, and processes by which a company is directed and
-controlled.<br />
+controlled.<p>
 For the purposes of this book, we consider corporate governance that
 aims to achieve stakeholder representation, not shareholder
 representation. We are mainly interested in how AI companies are or
 should be governed to best advance the public interest <span
-class="citation" data-cites="cihon2021corporate"></span>. Next, we will
-consider how a firm’s legal structure can help permit this.</p>
-<h2 id="legal-structure"> 9.5.2 Legal Structure</h2>
+class="citation" data-cites="cihon2021corporate">[3]</span>. Next, we
+will consider how a firm’s legal structure can help permit this.</p>
+<h2 id="legal-structure">Legal Structure</h2>
 <p>A company’s legal structure refers to its legal form and place of
 incorporation, its statutes and bylaws.</p>
 <p><strong>Legal form.</strong> AI companies can have different legal
@@ -74,12 +74,12 @@ that AGI benefits all of humanity.” The statutes of PBCs also need to
 contain a specific public benefits statement. But the statutes and
 bylaws can also contain more specific rules; for example, an AI company
 could give its board of directors specific powers, such as to veto the
-deployment of a new model.<br />
+deployment of a new model.<p>
 Ensuring that a firm’s legal structures enable its employees to act in
 the best interests of the firm’s stakeholders is important, and firms
 have many ways to do this. Next, we will consider how ownership can help
 solidify a firm’s safety-conscious goals.</p>
-<h2 id="ownership-structure"> 9.5.3 Ownership Structure</h2>
+<h2 id="ownership-structure">Ownership Structure</h2>
 <p>Companies are owned by shareholders, who elect the board of
 directors, which appoints the senior executives who actually run the
 company.</p>
@@ -124,12 +124,12 @@ returns are owned by the OpenAI nonprofit. They call this a
 <em>capped-profit structure</em>. A related idea is to adopt a
 governance structure that, under certain conditions, transfers control
 to a committee representing society’s interests rather than the
-shareholders’ interests.<br />
+shareholders’ interests.<p>
 It is important who owns AI companies because these owners have strong
 ways to influence operations. Next, we will put aside questions of
 ownership and examine how these organizations are structured and
 run.</p>
-<h2 id="organizational-structure"> 9.5.4 Organizational Structure</h2>
+<h2 id="organizational-structure">Organizational Structure</h2>
 <p>While shareholders own the company, it is governed by the board of
 directors and managed by the chief executive officer (CEO) and other
 senior executives.</p>
@@ -161,21 +161,21 @@ companies have a number of teams, often in a hierarchical structure.
 This will typically involve research and product development teams, but
 also legal, risk management, finance, and many others. AI companies can
 also have safety and governance teams. These teams should be well
-resourced and have buy-in from senior management.<br />
+resourced and have buy-in from senior management.<p>
 In addition, some AI companies have other organizational structures,
 such as an ethics board that advises the board of directors and senior
 management, or an institutional review board (IRB) that checks if
 publishing certain types of research might be harmful <span
-class="citation" data-cites="cihon2021corporate"></span>. Google
+class="citation" data-cites="cihon2021corporate">[3]</span>. Google
 DeepMind has a IRB-like review committee that played a key role in the
-release of AlphaFold.<br />
+release of AlphaFold.<p>
 Various aspects of the legal, ownership, and organizational structure of
 AI companies can influence to what extent their outputs focus on
 employees’ and managers’ best interests, creating shareholder value, or
 achieving their mission and ensuring societal wellbeing. In the last
 subsection, we will explore how we can ensure that these structures are
 well chosen and smoothly functioning.</p>
-<h2 id="assurance"> 9.5.5 Assurance</h2>
+<h2 id="assurance">Assurance</h2>
 <p>Different stakeholders within and outside AI companies need to know
 whether existing governance structures are adequate. AI companies
 therefore take a number of measures to evaluate and communicate the
@@ -188,7 +188,7 @@ make good decisions. It is, therefore, essential to define clear
 reporting lines. To ensure that key decision-makers get objective
 information, AI companies may set up an internal audit team that is
 organizationally independent from senior management <span
-class="citation" data-cites="schuett2023agi"></span>. This team would
+class="citation" data-cites="schuett2023agi">[4]</span>. This team would
 assess the adequacy and effectiveness of the company’s risk management
 practices, controls, and governance processes, and report directly to
 the board of directors.</p>
@@ -219,3 +219,32 @@ advised to follow existing best practices in corporate governance.
 However, in light of increasing societal risks from AI, they also need
 to consider more innovative governance solutions, such as a
 capped-profit structure or a long-term benefit committee.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-jensen2019theory" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] M.
+C. Jensen and W. H. Meckling, <span>“Theory of the firm: Managerial
+behavior, agency costs and ownership structure,”</span> in <em>Corporate
+governance</em>, Gower, 2019, pp. 77–132.</div>
+</div>
+<div id="ref-friedman2007social" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] M.
+Friedman, <span>“The social responsibility of business is to increase
+its profits,”</span> in <em>New York Times Magazine</em>, vol. 32, 2007,
+pp. 173–178. doi: <a
+href="https://doi.org/10.1007/978-3-540-70818-6_14">10.1007/978-3-540-70818-6_14</a>.</div>
+</div>
+<div id="ref-cihon2021corporate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] P.
+Cihon, J. Schuett, and S. D. Baum, <span>“Corporate governance of
+artificial intelligence in the public interest,”</span>
+<em>Information</em>, vol. 12, no. 7, p. 275, Jul. 2021, doi: <a
+href="https://doi.org/10.3390/info12070275">10.3390/info12070275</a>.</div>
+</div>
+<div id="ref-schuett2023agi" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] J.
+Schuett, <span>“AGI labs need an internal audit function.”</span> 2023.
+Available: <a
+href="https://arxiv.org/abs/2305.17038">https://arxiv.org/abs/2305.17038</a></div>
+</div>
+</div>
