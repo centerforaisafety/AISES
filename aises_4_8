@@ -1,10 +1,10 @@
-<h2 id="sec:black-swans"> 4.9 Black Swans</h2>
-<h4 id="introduction-to-black-swans">Introduction to Black Swans</h4>
+<h1 id="sec:black-swans">Black Swans</h1>
+<h3 id="introduction-to-black-swans">Introduction to Black Swans</h3>
 <p>So far, we have discussed tail events in general. We will now look at
 an important subset of tail events, called black swans. In addition to
 being rare and high-impact, black swans are also unanticipated, seeming
 to happen out of the blue. The term “black swan” originates from a
-historical event that provides a useful analogy.<br />
+historical event that provides a useful analogy.<p>
 It was long believed in Europe that all swans were white because all
 swan sightings known to Europeans were of white swans. For this reason,
 the term “black swan” came to denote something nonexistent, or even
@@ -12,25 +12,25 @@ impossible, much as today we say “pigs might fly.” The use of this
 metaphor is documented as early as Roman times. However, in 1697, a
 group of Dutch explorers encountered a black species of swan in
 Australia. This single, unexpected discovery completely overturned the
-long-held axiom that all swans were white.<br />
+long-held axiom that all swans were white.<p>
 This story offers an analogy for how we can have a theory or an
 assumption that seems correct for a long time, and then a single,
 surprising observation can completely upend that model. Such an
 observation can be classed as a tail event because it is rare and
 high-impact. Additionally, the fact that the observation was unforeseen
-shows us that our understanding is incorrect or incomplete.<br />
+shows us that our understanding is incorrect or incomplete.<p>
 From here on we will use the following working definition of black
 swans: A black swan is a tail event that was largely unpredictable to
 most people before it happened. Note that not all tail events are black
 swans; high-magnitude earthquakes, for example, are tail events, but we
 know they are likely to happen in certain regions at some point–—they
-are on our radar.<br />
+are on our radar.<p>
 </p>
-<h3 id="known-unknowns-and-unknown-unknowns"> 4.9.1 Known Unknowns and Unknown
-Unknowns</h3>
+<h2 id="known-unknowns-and-unknown-unknowns">Known Unknowns and Unknown
+Unknowns</h2>
 <p><strong>Black swans are “unknown unknown” tail events <span
-class="citation" data-cites="taleb2017blackswan"></span>.</strong> We
-can sort events into four categories, as shown in the table below.<br />
+class="citation" data-cites="taleb2007blackswan">[1]</span>.</strong> We
+can sort events into four categories, as shown in the table below.<p>
 </p>
 <table>
 <thead>
@@ -51,7 +51,7 @@ know.</td>
 </tr>
 </tbody>
 </table>
-<p><br />
+<p><p>
 In these category titles, the first word refers to our awareness, and
 the second refers to our understanding. We can now consider these four
 types of events in the context of a student preparing for an exam.</p>
@@ -66,7 +66,7 @@ them.</p></li>
 things we understand but may not be highly aware of. For the student,
 these would be things they have not thought to prepare for but which
 they understand and can do. For instance, there might be some questions
-on topics they hadn’t revised; however, looking at these questions, the
+on topics they hadn’t reviewed; however, looking at these questions, the
 student finds that they know the answer, although they cannot explain
 why it is correct. This is sometimes called tacit knowledge or
 unaccounted facts.</p></li>
@@ -95,8 +95,8 @@ of this, we can be more humble in our approach to problem-solving and
 continuously strive to expand our knowledge and prepare for the
 unexpected.</p>
 <p><strong>We struggle to account for known unknowns and unknown
-unknowns.</strong> We have included the first two categories–—known
-knowns and unknown knowns–—for completeness. However, the most important
+unknowns.</strong> We have included the first two categories—known
+knowns and unknown knowns—for completeness. However, the most important
 categories in risk analysis and management are the last two: known
 unknowns and unknown unknowns. These categories pose risks because we do
 not fully understand how best to respond to them, and we cannot be
@@ -105,7 +105,7 @@ perfectly confident that we will not suffer damage from them.</p>
 are aware that we might face a particular challenge, we can learn more
 and prepare for it. However, if we are unaware that we will face a
 challenge, we may be more vulnerable to harm. Black swans are the latter
-type of event; they are not even on our radar before they happen.<br />
+type of event; they are not even on our radar before they happen.<p>
 The difference between known unknowns and unknown unknowns is sometimes
 also described as a distinction between conscious ignorance and
 <em>meta-ignorance</em>. Conscious ignorance is when we see that we do
@@ -124,13 +124,13 @@ the turkey’s best interests at heart. Then, one day, the turkey is taken
 to the slaughterhouse. This is very much an unknown unknown, or a black
 swan, for the turkey, since nothing in its experience suggested that
 this might happen <span class="citation"
-data-cites="taleb2007blackswan"></span>.<br />
+data-cites="taleb2007blackswan">[1]</span>.<p>
 This illustrates that we might have a model or worldview that does a
 good job of explaining all our evidence to date, but then a black swan
 can turn up and show us that our model was incorrect. The turkey’s
 worldview of benign humans explained all the evidence until the
 slaughterhouse trip. This event indicated a broader context that the
-turkey was unaware of.<br />
+turkey was unaware of.<p>
 Similarly, consider the 2008 financial crisis. Before this event, many
 people, including many of those working in finance, assumed that housing
 prices would always continue to increase. When the housing bubble burst,
@@ -142,7 +142,7 @@ events often only make sense after we realize that our theory was
 flawed. Seeing black swans makes us update our models to account for the
 new phenomena we observe. When we have a new, more accurate model, we
 can often look back in time and find the warning signs in the lead-up to
-the event, which we did not recognize as such at the time.<br />
+the event, which we did not recognize as such at the time.<p>
 These examples also show that we cannot always reliably predict the
 future from our experience; we cannot necessarily make an accurate
 calculation of future risk based on long-running historical data.</p>
@@ -164,7 +164,7 @@ that is largely unexpected for most people. For example, some
 individuals with relevant knowledge of the financial sector did predict
 the 2008 crisis, but it came out of the blue for most people. Even among
 financial experts, the majority did not predict it. Therefore, we count
-it as a black swan.<br />
+it as a black swan.<p>
 Similarly, although pandemics have happened throughout history, and
 smaller disease outbreaks occur yearly, the possibility of a pandemic
 was not on most people’s radar before COVID-19. People with specific
@@ -178,26 +178,26 @@ view for a long time was that deep learning techniques were
 fundamentally limited. Many people, even computer science professors,
 did not take seriously the idea that deep learning technologies might
 transform society in the near term—even if they thought this would be
-possible over a timescale of centuries.<br />
+possible over a timescale of centuries.<p>
 Deep learning technologies have already begun to transform society, and
 the rate of progress has outpaced most people’s predictions. We should,
 therefore, seriously consider the possibility that the release of these
-technologies could pose significant risks to society.<br />
+technologies could pose significant risks to society.<p>
 There has been speculation about what these risks might be, such as a
-flash war and autonomous economy, which are discussed in the Multi-Agent
-Dynamics chapter. These eventualities might be known to some people, but
-for many potential risks, there is not widespread awareness in society;
-if they happened today, they would be black swans. Policymakers must
-have some knowledge of these risks. Furthermore, the expanding use of AI
+flash war and autonomous economy, which are discussed in the chapter.
+These eventualities might be known to some people, but for many
+potential risks, there is not widespread awareness in society; if they
+happened today, they would be black swans. Policymakers must have some
+knowledge of these risks. Furthermore, the expanding use of AI
 technologies may entail risks of black swan scenarios that no one has
 yet imagined.</p>
-<h3
-id="implications-of-tail-events-and-black-swans-for-risk-analysis"> 4.9.2 Implications
-of Tail Events and Black Swans for Risk Analysis</h3>
+<h2
+id="implications-of-tail-events-and-black-swans-for-risk-analysis">Implications
+of Tail Events and Black Swans for Risk Analysis</h2>
 <p>Tail events and black swans present problems for analyzing and
 managing risks, because we do not know if or when they will happen. For
 black swans, there is the additional challenge that we do not know what
-form they will take.<br />
+form they will take.<p>
 Since, by definition, we cannot predict the nature of black swans in
 advance, we cannot put any specific defenses in place against them, as
 we might for risks we have thought of. We can attempt to factor black
@@ -206,7 +206,7 @@ how likely they are and how much damage they would cause. However, they
 add much more uncertainty into our calculations. We will now discuss
 some common tendencies in thinking about risk, and why they can break
 down in situations that are subject to tail events and black
-swans.<br />
+swans.<p>
 First, we consider how our typical risk estimation methods break down
 under long tails because our standard arsenal of statistical tools are
 rendered useless. Then, we consider how cost-benefit analysis is
@@ -229,16 +229,16 @@ because they are so severe. Furthermore, since we do not know what form
 black swans will take, it may be even more difficult to factor them into
 the equation accurately. This renders the usual statistical tools
 useless in practice for analyzing risk in the face of potential black
-swans.<br />
+swans.<p>
 If the turkey in the previous example had tried to calculate the risk to
 its wellbeing based on all its prior experiences, the estimated risk
 would probably have been fairly low. It certainly would not have pointed
 to the high risk of being taken to the slaughterhouse, because nothing
-like that had ever happened to the turkey before.<br />
+like that had ever happened to the turkey before.<p>
 </p>
 <div class="wrapfigure">
 <p><span>r</span><span>8.5cm</span> <embed
-src="images/safety_engineering/convergence.pdf"
+src="images/safety_engineering/convergence_v2.pdf"
 style="width:8.5cm" /></p>
 </div>
 <p><strong>We need a much larger dataset than usual.</strong> As we
@@ -249,7 +249,7 @@ href="#wrap-fig:convergence" data-reference-type="ref"
 data-reference="wrap-fig:convergence">[wrap-fig:convergence]</a>, as we
 increase our number of data points, we quickly converge on an average
 that changes less and less with the addition of each new data point.
-This is a result of the law of large numbers.<br />
+This is a result of the law of large numbers.<p>
 Heights, however, are a thin-tailed variable. If we look instead at a
 long-tailed variable, such as net worth, as shown in the second graph in
 figure <a href="#wrap-fig:convergence" data-reference-type="ref"
@@ -272,16 +272,16 @@ probability of different results and how much we would lose or gain in
 each case. From this information, we can calculate whether we expect the
 outcome of a situation to be positive or negative. For example, if we
 bet on a 50/50 coin toss where we will either win $5 or lose $5, our
-overall expected outcome is $0.<br />
+overall expected outcome is $0.<p>
 <strong>Example: lotteries.</strong> Now, imagine that we are trying to
 perform a cost-benefit analysis for a lottery where we have a high
 probability of winning a small amount and a low probability of losing a
 large amount. If we have a 99.9% chance of winning $15 and a 0.1% chance
-of losing $10,000, then our expected outcome is:<br />
+of losing $10,000, then our expected outcome is:<p>
 <span class="math display">(0.999×15) + (0.001×−10000) = 4.985.</span>
 Since this number is positive, we might believe it is a good idea to bet
 on the lottery. However, if the probabilities are only slightly
-different, at 99.7% and 0.3%, then our expected outcome is:<br />
+different, at 99.7% and 0.3%, then our expected outcome is:<p>
 <span
 class="math display">(0.997×15) + (0.003×−10000) =  − 15.045.</span></p>
 <p>This illustrates that just a tiny change in probabilities sometimes
@@ -299,7 +299,7 @@ they will occur. As we explored above, it takes a lot of data—often more
 than is accessible—to make accurate judgments for long-tailed events
 more generally. Therefore, we cannot be certain that we know their
 probabilities accurately, rendering cost-benefit analysis unsuitable for
-long-tailed data, especially for black swans.<br />
+long-tailed data, especially for black swans.<p>
 This consideration could be significant for deciding whether and how to
 use AI technologies. We might have a high probability of benefitting
 from the capabilities of deep learning models, and there might be only a
@@ -312,13 +312,13 @@ risk for a situation, we are making an implicit assumption that we have
 a comprehensive understanding of all the possible failure modes and how
 likely they are. However, as previous black swan events have
 demonstrated, we cannot always assume we know all the
-eventualities.<br />
+eventualities.<p>
 Even for tail events that are known unknowns, we cannot assume we have
 sufficiently accurate information about their probabilities and impacts.
 Trying to precisely estimate risk when we might be subject to tail
 events or black swans can be viewed as an “unscientific overestimation
 of the reach of scientific knowledge” <span class="citation"
-data-cites="taleb2012antifragile"></span>.</p>
+data-cites="taleb2012antifragile">[2]</span>.</p>
 <p><strong>When making risk-related decisions, we should consider
 extremes, not only the average.</strong> Aside from whether or not we
 can calculate an accurate average outcome under the risk of tail events
@@ -331,7 +331,7 @@ that might mean that it has a constant depth of four feet and is
 possible to wade across it safely. It might also mean that it is two or
 three feet deep near the banks and eight feet deep at some point in the
 middle. If this were the case, then it would not be a good idea to
-attempt to wade across it.<br />
+attempt to wade across it.<p>
 Failing to account for extremes instead of averages is one example of
 the mistakes people make when thinking about event types that might have
 black swans. Next, we will explore three more: the delay fallacy,
@@ -358,14 +358,14 @@ head of the distribution and will not tell us anything new about the
 risk of tail events or black swans. The longer we wait before preparing,
 the more we expose ourselves to the possibility of such an event
 happening while we are unprepared. When tail events and black swans do
-materialize, it is often too late to intervene and prevent harm.<br />
+materialize, it is often too late to intervene and prevent harm.<p>
 Governments failing to improve their pandemic preparedness might be
 considered an example of this. Epidemiologists’ warnings were long
 ignored, which seemed fine for a long time because pandemics are rare.
 However, when COVID-19 struck, many governments tried to get hold of
 personal protective equipment (PPE) simultaneously and found a shortage.
 If they had stocked up on this before the pandemic, as experts had
-advised, then the outcome might have been less severe.<br />
+advised, then the outcome might have been less severe.<p>
 Furthermore, if a tail event or black swan is particularly destructive,
 we can never observe it and use that information to help us make better
 calculations. The turkey cannot use the event of being taken to the
@@ -400,7 +400,7 @@ happen. Some might be tempted to say that the safety measures were
 unnecessary or that implementing them was a waste of time and resources.
 Even if the event does happen but is not very severe, some people might
 still say that the safety measures were unnecessary because the event’s
-consequences were not so bad.<br />
+consequences were not so bad.<p>
 However, this conclusion ignores the possibility that the event did not
 happen or was less severe because of the safety measures. We cannot run
 through the same period of time twice and discover how things would have
@@ -416,7 +416,7 @@ will be a high death toll from a particular infectious disease. In that
 case, this might prompt people to wash their hands more frequently and
 avoid large gatherings to avoid infection. These behaviors are likely to
 reduce infection rates and lead to a lower death toll than the
-epidemiologist predicted.<br />
+epidemiologist predicted.<p>
 If we work proactively on reducing risks from global pandemics, and no
 highly destructive pandemics come to pass, some people would believe
 that the investment was unnecessary. However, it might be
@@ -428,8 +428,8 @@ whether their efforts have prevented a catastrophe and have their work
 vindicated. Nevertheless, preventing disasters is essential, especially
 in cases like the development of AI, where we have good theoretical
 reasons to believe that a black swan is on the cards.</p>
-<h3 id="identifying-the-risk-of-tail-events-or-black-swans"> 4.9.3 Identifying
-the Risk of Tail Events or Black Swans</h3>
+<h2 id="identifying-the-risk-of-tail-events-or-black-swans">Identifying
+the Risk of Tail Events or Black Swans</h2>
 <p>Since the possibility of tail events and black swans affects how we
 approach risk management, we must consider whether we are facing a
 long-tailed or thin-tailed scenario. We need to know whether we can rely
@@ -492,9 +492,8 @@ that we will more often face novel circumstances that could present
 unknown unknowns. Moreover, within the globalised economy, social
 systems are increasingly interconnected, increasing the likelihood that
 one failure could trigger a cascade and have an outsized impact.</p>
-
-<h2 id="reducing-risks-of-tail-events-and-black-swans">Reducing Risks of
-Tail Events and Black Swans</h2>
+<h1 id="reducing-risks-of-tail-events-and-black-swans">Reducing Risks of
+Tail Events and Black Swans</h1>
 <p>In the last two sections, we have explored the implications for risk
 management of tail events and black swans. Since risk estimation models
 often break down in the face of tail events and black swans, it might
@@ -521,7 +520,7 @@ not all black swans are completely unpredictable, especially not for
 people who have the relevant expertise. Ways of putting more black swans
 on our radar include expanding our safety imagination, conducting stress
 tests, and red-teaming <span class="citation"
-data-cites="Marsden2017blackswan"></span>.<br />
+data-cites="Marsden2017blackswan">[3]</span>.<p>
 Expanding our “safety imagination” can help us envision a wider range of
 possibilities. We can do this by playing a game of “what if” to increase
 the range of possible scenarios we can imagine unfolding. Brainstorming
@@ -529,17 +528,17 @@ sessions can also help to rapidly generate lots of new ideas about
 potential failure modes in a system. We can identify and question our
 assumptions–—about what the nature of a hazard will be, what might cause
 it, and what procedures we will be able to follow to deal with it—–in
-order to imagine a richer set of eventualities.<br />
+order to imagine a richer set of eventualities.<p>
 Some HROs use a technique called horizon scanning, which involves
 monitoring potential future threats and opportunities before they
 arrive, to minimize the risk of unknown unknowns <span class="citation"
-data-cites="boult2018horizon"></span>. AI systems could be used to
+data-cites="boult2018horizon">[4]</span>. AI systems could be used to
 enhance horizon-scanning capabilities by simulating situations that
 mirror the real world with a high degree of complexity. The simulations
 might generate data that reveal potential black swan risks to be aware
 of when deploying a new system. As well as conducting horizon scanning,
 HROs also contemplate near-misses and speculate about how they might
-have turned into catastrophes, so that lessons can be learned.<br />
+have turned into catastrophes, so that lessons can be learned.<p>
 “Red teams” can find more black swans by adopting a mindset of malicious
 intent. Red teams should try to think of as many ways as they can to
 misuse or sabotage the system. They can then challenge the organization
@@ -559,7 +558,7 @@ complexity. In particular, focusing on increasing the controllability of
 the system might be a good idea. This can be done by adding loose
 coupling into the system, by supporting human operators to notice
 hazards and act on them early, and by devising negative feedback
-mechanisms that will down-regulate processes if control is lost.<br />
+mechanisms that will down-regulate processes if control is lost.<p>
 Consider in detail the principle of least privilege. For one, it tells
 us that we should be cautious about giving AIs too much power, to limit
 the extent to which we are exposed to their tail risks. We might be
@@ -581,7 +580,7 @@ under greater scrutiny. Developing and enforcing industry regulations
 can help ensure organizations maintain appropriate safety standards, as
 can encouraging best practices that improve safety culture. If there are
 ways of reducing the safety costs, this can make it more likely that an
-organization will adopt them, also improving general safety.<br />
+organization will adopt them, also improving general safety.<p>
 Other systemic factors to pay attention to include competitive
 pressures. These can undermine general safety by compelling management
 and employees to cut corners, whether to increase rates of production or
@@ -589,22 +588,22 @@ to reach a goal before competitors. If there are ways of reducing these
 pressures and encouraging organizations to prioritize safety, this could
 substantially lessen overall risk.</p>
 <p><strong>Reduce our exposure to tail risks by being cautious <span
-class="citation" data-cites="Marsden2007blackswan"></span>.</strong> The
-precautionary principle states that it is generally better to err on the
-side of caution. In some situations, we can be extremely wrong and
+class="citation" data-cites="Marsden2017blackswan">[3]</span>.</strong>
+The precautionary principle states that it is generally better to err on
+the side of caution. In some situations, we can be extremely wrong and
 things can still end up being fine; in others, we can be just slightly
 wrong but suffer disastrous consequences. Some decisions require vastly
 more caution than others: for instance, paraphrasing Richard Danzig, you
 should not ‘need evidence’ that a gun is loaded to avoid playing Russian
 roulette <span class="citation"
-data-cites="danzig2018technology"></span>. Instead, you should need
-evidence of safety.<br />
+data-cites="danzig2018technology">[5]</span>. Instead, you should need
+evidence of safety.<p>
 In situations where we are subject to the possibility of tail events and
 black swans, this evidence might be impossible to find. One element of
 good decision making is to exercise more caution than we would under
 thin-tailed scenarios. In the case of new technologies such as AI
 systems, this might mean not deploying them rashly on a large scale. We
-should err on the side of caution instead.<br />
+should err on the side of caution instead.<p>
 We must also be cautious while trying to solve our problems. For
 example, while climate change poses a serious threat, many experts
 believe it would be unwise to attempt to fix it quickly by rushing into
@@ -619,13 +618,13 @@ methods of collecting, analyzing, and understanding information, as well
 as improving their awareness of common cognitive biases to avoid. This
 approach can help those in power to understand a situation more
 thoroughly and improve the likelihood that they will make good
-decisions.<br />
+decisions.<p>
 Besides improving the decision-making of those in power, another method
 of improving decision making might be to change who has a say in
 decisions, perhaps by including citizens in decision-making processes,
 not only officials and scientists <span class="citation"
-data-cites="Marsden2017blackswan"></span>. This reduces moral hazard by
-including the stakeholders that have “skin in the game.” It can also
+data-cites="Marsden2017blackswan">[3]</span>. This reduces moral hazard
+by including the stakeholders that have “skin in the game.” It can also
 lead to better decisions in general due to the wisdom of crowds, the
 phenomenon where crowds composed of diverse individuals make much better
 decisions collectively than most members within it, when the conditions
@@ -641,3 +640,33 @@ creating and the externalities they are imposing on the rest of society,
 creating a moral hazard. Encouraging more consideration of the possible
 risks, perhaps by making researchers liable for any consequences of the
 technologies they develop, could therefore improve general safety.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-taleb2007blackswan" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] N.
+N. Taleb, <em>The black swan: The impact of the highly improbable</em>,
+vol. 2. Random House, 2007.</div>
+</div>
+<div id="ref-taleb2012antifragile" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] N.
+N. Taleb, <em>Antifragile: Things that gain from disorder</em>. in
+Incerto. Random House Publishing Group, 2012. Available: <a
+href="https://books.google.com.au/books?id=5fqbz_qGi0AC">https://books.google.com.au/books?id=5fqbz_qGi0AC</a></div>
+</div>
+<div id="ref-Marsden2017blackswan" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] E.
+Marsden, <span>“Black swans: The limits of probabilistic
+modelling.”</span> Accessed: Jul. 31, 2017. [Online]. Available: <a
+href="https://risk-engineering.org/black-swans/">https://risk-engineering.org/black-swans/</a></div>
+</div>
+<div id="ref-boult2018horizon" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] M.
+Boult <em>et al.</em>, <em>Horizon scanning: A practitioner’s
+guide</em>. IRM - Institute of Risk Management, 2018.</div>
+</div>
+<div id="ref-danzig2018technology" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] R.
+Danzig, <span>“Technology roulette.”</span> Center for a new American
+Security, 2018.</div>
+</div>
+</div>
