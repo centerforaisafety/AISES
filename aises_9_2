@@ -1,31 +1,33 @@
-<h1 id="takeoff"> 9.2 Takeoff</h1>
+<h1 id="takeoff">Takeoff</h1>
 <p>In this section, we will explore the various ways in which AIs might
 see “takeoff” and how this would affect the world. Takeoff refers to the
 process of AIs going from being able to perform well on many tasks at a
-human or subhuman level to being super-intelligent, surpassing human
-capabilities. There is serious uncertainty about how AI development will
-play out in the future. First, we will discuss how the development of
-AIs can speed up the economy. Then, we will discuss why we cannot rule
-out that advanced AIs might arrive soon. Lastly, we will discuss how AI
-takeoff could be continuous or discontinuous and fast or slow.
-Navigating these uncertainties is essential for formulating AI safety
-policies that are robust to the various routes AI development might take
-in the future.</p>
-<h2 id="economic-growth"> 9.2.1 Economic Growth</h2>
+subhuman level to performing at human level or even becoming
+“super-intelligent,” surpassing human capabilities. There is serious
+uncertainty about how AI development will play out in the future. First,
+we will discuss how the development of AIs can speed up the economy.
+Then, we will discuss why we cannot rule out that advanced AIs might
+arrive soon. Lastly, we will discuss how AI takeoff could be continuous
+or discontinuous and fast or slow. Navigating these uncertainties is
+essential for formulating AI safety policies that are robust to the
+various routes AI development might take in the future.</p>
+<h2 id="economic-growth">Economic Growth</h2>
 <p>Economic growth has been limited by the growth rate of the human
 population. By enabling cheap and scalable automation, AIs that perform
 tasks at a human level might artificially augment the effective economic
-population, significantly speeding up economic growth beyond anything we
-have seen before.</p>
-<p><strong>AI automation could create explosive growth.</strong> If we
-add AIs to standard models of economic growth (such as the Solow model)
-developed using economic theory and past data, we find that AIs could
-trigger a dramatic surge in economic growth. AIs that can substitute for
-human labor can augment a labor force by providing inexpensive and
-highly scalable automation. Some studies suggest that such AIs could
-spark unprecedented growth, causing the world economy to grow at rates
-exceeding ten times the current growth rate <span class="citation"
-data-cites="Davidson-growth"></span>. This could result in an
+population. This might significantly speed up economic growth to levels
+much higher than those observed in most developed countries in recent
+decades.</p>
+<p><strong>AI automation may create explosive growth.</strong> Some
+researchers have argued that if we add AIs to standard models of
+economic growth (such as the Solow model) developed using economic
+theory and past data, we find that AIs could trigger a dramatic surge in
+economic growth. AIs that can substitute for human labor can augment a
+labor force by providing inexpensive and highly scalable automation.
+Some studies suggest that such AIs could spark unprecedented growth,
+causing the world economy to grow at rates exceeding ten times the
+current growth rate <span class="citation"
+data-cites="Davidson-growth">[1]</span>. This could result in an
 unprecedented acceleration of scientific and technological advancement,
 reshaping our economy and the trajectory of human history over a period
 of perhaps only a few years. Growth of this magnitude would be unlike
@@ -33,6 +35,23 @@ anything in human history: for the past 10,000 years after the
 agricultural revolution, total world output grew at 0.1% per year,
 steadily increasing over the last 1000 years to single-digit percentage
 points.</p>
+<p><strong>Factors that could constrain AI automation and economic
+growth.</strong> AI automation itself might be slowed if there were
+limits on society’s ability to develop or deploy AI systems. A dramatic
+expansion in the use of AI might require enormous investments in
+computing hardware and electricity generation that could take several
+years to realize. Moreover, in order to generate explosive growth, AI
+automation may need to be extremely comprehensive. If there were still
+some tasks or functions that AI was unable to automate, these could act
+as bottlenecks on overall economic growth. For example, if AI exhibited
+above-human performance on cognitive tasks but its ability to move in
+the physical world lagged behind due to slow progress in robotics, this
+would cap the extent to which AI could accelerate economic growth.
+Alternatively, AI might be prevented from performing certain tasks due
+to restrictions imposed by regulations. There might be legal
+requirements that certain services (e.g., medical or legal services) be
+delivered by a human professional. Moreover, people might have a strong
+preference that some workers be human beings.</p>
 <p><strong>Population growth may drive economic growth.</strong> This
 worldwide economic acceleration in recent centuries has been variously
 attributed to the unique conditions of the industrial revolution, the
@@ -44,14 +63,14 @@ on population growth and population growth causes economic growth by
 providing a large labor force (including an increasing number of
 researchers driving technological progress), there is a positive
 feedback loop and so population growth is the key factor to consider
-when looking at the increase in the economic output over time.<br />
+when looking at the increase in the economic output over time.<p>
 According to this theory, human population growth was determined for
 many thousands of years by the availability of food. As agricultural
 technologies were developed, food became easier to produce, which
 allowed for more population growth. Since larger populations have more
 opportunities to innovate and develop better technology, this process
 loops back into itself recursively, producing a faster-than-exponential
-development curve over the long run.<br />
+development curve over the long run.<p>
 This acceleration ultimately slowed down in the mid-20th century. The
 semi-endogenous theory explains this slowdown as a result of the
 independent decline in the population growth rate. Demographic changes
@@ -62,14 +81,14 @@ lifted, the multi-thousand-year trend of accelerating growth could
 continue again until we exhaust physical resources like energy and
 space.</p>
 <figure id="fig:homicide">
-<embed src="images/governance/growth.pdf" />
+<embed src="images/governance/growth_v2.pdf" />
 <figcaption>Growth of economic output in two scenarios: growth slowdown,
 and AI-driven growth explosion</figcaption>
 </figure>
-<p><strong>AIs could fuel effective population growth.</strong> If AIs
-can automate the majority of important human tasks (including further AI
+<p><strong>AIs may fuel effective population growth.</strong> If AIs can
+automate the majority of important human tasks (including further AI
 development), this would lift the bottleneck on labor that has prevented
-explosive growth. There are strong reasons to think that AIs could boost
+explosive growth. There are some reasons to think that AIs could boost
 the economic growth rate by substituting for human labor. As easily
 duplicable software, the AI population can grow at least as quickly as
 we can manufacture hardware to run it on—-much faster than humans take
@@ -82,7 +101,7 @@ models increased in size by the same amount roughly every 16 months.
 Assuming we do not see a slowdown AI development or face other
 bottlenecks like energy production, AIs may cause explosive growth by
 lifting the population bottleneck.</p>
-<h2 id="timelines"> 9.2.2 Timelines</h2>
+<h2 id="timelines">Timelines</h2>
 <p>Advanced AIs could have significant impacts on our civilization such
 as the dramatic and unprecedented acceleration of economic growth.
 However, it is unclear when we will see such AIs being deployed. It is
@@ -93,14 +112,16 @@ rule out the possibility that advanced AIs will exist in the near
 future.</p>
 <p><strong>There is high uncertainty about when advanced AIs will
 exist.</strong> Opinions on “timelines”—–how difficult it will be to
-create human-level AI–—are famously variable among experts, although
-recent indications demonstrate rapid progress. In 2023, many
-high-profile AI scientists such as Geoffrey Hinton (who was awarded the
+create human-level AI–—are vary widely among experts. Some AI
+researchers have been surprised by the pace of advances in AI
+capabilities. For example, in 2023 Geoffrey Hinton (who was awarded the
 Turing award in 2018 for his contributions to deep learning) argued that
-AI development is moving quicker than expected. AI systems are now able
-to perform a variety of tasks that were once treated as very hard, such
-as providing explanations for jokes or producing artistic
-creations.<br />
+AI development is moving quicker than expected and that he now expected
+AI systems with broadly super-human performance within 5 to 20 years
+<span class="citation" data-cites="hinton2023doomer">[2]</span>. AI
+systems are now able to perform a variety of tasks that were once
+treated as very hard, such as providing explanations for jokes or
+producing artistic creations.<p>
 Nonetheless, it is worth being cautious about interpreting evidence of
 rapid growth over a short period too narrowly. In the 1950s and 1960s,
 many top AI scientists such as Marvin Minsky were overly optimistic
@@ -115,10 +136,10 @@ price of compute falls to sufficiently affordable levels. However, this
 seems unlikely: early LLMs, such as GPT-3.5, were relatively cheap,
 requiring approximately one TFLOP per query, which cost less than
 $0.00001 at the time. This is substantially less than human wages to
-perform equivalent services such as answering questions.<br />
+perform equivalent services such as answering questions.<p>
 One estimate puts the human brain’s computational speed at around one
 PFLOP (or 1000 TFLOPs) <span class="citation"
-data-cites="cotra2020forecasting"></span>. Suppose we thought that
+data-cites="cotra2020forecasting">[3]</span>. Suppose we thought that
 machine learning models required similar compute to achieve human-level
 capabilities: AIs would then be able to work at a few dollars an hour at
 2023 prices, and substantially less in the future (assuming prices
@@ -131,8 +152,8 @@ Algorithmic progress refers to the process of making AIs more efficient
 to train and run. Recent studies have determined that algorithmic
 progress is roughly as important as compute for explaining progress in
 machine learning, and that both have increased rapidly <span
-class="citation" data-cites="erdil2023algorithmic"></span>. Not much is
-known for sure about what drives algorithmic progress, but there are
+class="citation" data-cites="erdil2023algorithmic">[4]</span>. Not much
+is known for sure about what drives algorithmic progress, but there are
 several possibilities, such as theoretical work on refining existing and
 finding new ideas, applying ideas to large-scale models, and engineers
 experimenting with different algorithms over time. The truth is likely a
@@ -148,7 +169,7 @@ or spend on compute, there are no decisive reasons why we should think
 advanced AIs arriving soon is impossible. This doesn’t imply that
 advanced AIs are right around the corner–—but it does mean that we
 should plan for this possibility.</p>
-<h2 id="types-of-ai-takeoff"> 9.2.3 Types of AI Takeoff</h2>
+<h2 id="types-of-ai-takeoff">Types of AI Takeoff</h2>
 <p>AI takeoff could be <em>discontinuous</em>, involving emergent
 abilities that break from trendlines, or <em>continuous</em>, involving
 a smooth increase in capabilities over time. Relatedly, we are unsure
@@ -161,8 +182,8 @@ to show fast but smooth increases in average performance on many tasks
 as we increase model and dataset size. This is true over many benchmarks
 and metrics. However, researchers have identified a number of tasks that
 appear to break this trend, and exhibit sharp increases in performance
-when increasing model size; these tasks are called emergent
-capabilities, explored in the chapter.<br />
+when increasing model size; on these tasks, AI systems display emergent
+capabilities, explored in the chapter.<p>
 If important abilities (like possession of a mental model of the world)
 were emergent in this sense, we should be concerned about the
 unpredictable emergence of dangerous capabilities like hacking or
@@ -173,19 +194,19 @@ these emergent abilities are, and whether they can be predicted ahead of
 time. The alternative is often called a <em>continuous</em> or
 <em>gradual</em> <em>AI takeoff</em>, wherein abilities predictably
 scale with size.</p>
-<p><strong>How fast will AIs have a transformational effect on human
-civilization?</strong> Those who believe a fast takeoff is likely expect
-that we could see a leap from minimal AI automation to a world deeply
-transformed by AI in mere weeks or months. They typically expect this to
-be a result of recursive self-improvement, AIs continuously improving
-their own abilities through research into development. If we possess an
-AI that can carry out development research at a human level, then it
-could keep refining itself, becoming more adept at its research
+<p><strong>How fast might AI systems have a transformative effect on
+human civilization?</strong> Those who believe a fast takeoff is likely
+expect that we could see a leap from minimal AI automation to a world
+deeply transformed by AI in mere weeks or months. They typically expect
+this to be a result of recursive self-improvement, AIs continuously
+improving their own abilities through research and development. If we
+possess an AI that can carry out development research at a human level,
+then it could keep refining itself, becoming more adept at its research
 endeavors. This, in turn, would make it even more efficient at
 self-enhancement, creating a positive feedback loop. Proponents of fast
 takeoff argue that such an AI could rapidly progress from human-like
 intelligence to vastly superior levels of cognition due to this
-recursive, escalating process.<br />
+recursive, escalating process.<p>
 Yet, this confidence might be misplaced. There are already instances of
 AIs enhancing other AIs’ capabilities. For example, AI models adept at
 tasks like programming, writing, and standardized testing have driven
@@ -194,7 +215,7 @@ skills. However, these developments have only slightly accelerated the
 pace of AI advancements. This implies that even if AI models achieve
 human-like capabilities across a wide array of tasks, their recursive
 self-improvement might still be a gradual progression. Those who believe
-in slow takeoff tend to think that this process will take years.<br />
+in slow takeoff tend to think that this process will take years.<p>
 Note that both camps in this debate think that AI will profoundly change
 the world. The question is, how quickly will we find ourselves in a
 radically altered society? Generally speaking, a slow takeoff would
@@ -204,21 +225,49 @@ towards a slow takeoff, there is currently no consensus on which
 scenario is more likely.</p>
 <h3 id="conclusions-about-takeoff">Conclusions About Takeoff</h3>
 <p>We have considered the different routes AI development might take to
-create superintelligent AIs. First, we explored the effects AIs will
-have on the economy, examining how they might supercharge economic
-growth through automation, revolutionizing our world. Then, we
-considered timelines: whether advanced AIs are likely to arrive soon.
-Considering the vast uncertainty in experts’ best guesses and the lack
-of fundamental restrictions on factors like compute and algorithms that
-are necessary for AI production, we cannot assume that advanced AIs are
-a thing of the distant future.<br />
-Lastly, we considered uncertainties about how AIs would go from
-performing at a human level to being superintelligent. We briefly
-examined evidence about trends in the development of AI, discovering
-that it is mixed, suggesting that most AI capabilities usually increase
-smoothly with scale but some are emergent. We also discussed the
-phenomenon of recursive self-improvement, which might lead to rapid
+create AI systems with performance that matches or exceeds that of human
+beings across a broad range of tasks. First, we explored the effects
+such advanced AI systems might have on the economy, examining how they
+might supercharge economic growth through automation, revolutionizing
+our world. Then, we considered timelines: whether advanced AIs are
+likely to arrive soon. Considering the vast uncertainty in experts’ best
+guesses and the lack of fundamental restrictions on factors like compute
+and algorithms that are necessary for AI production, we cannot assume
+that advanced AIs are a thing of the distant future.<p>
+Lastly, we considered uncertainties about the pace and predictability of
+the transition whereby AIs would go from performing at a human level to
+being superintelligent. We briefly examined evidence about trends in the
+development of AI, which suggests that most AI capabilities usually
+increase smoothly with scale but some are emergent. We also discussed
+the phenomenon of recursive self-improvement, which might lead to rapid
 takeoff speeds in the future. Understanding how takeoff might play out
 could greatly inform our approach to the regulation of AI. Next, we will
-consider matters of distribution: of power, access, and costs and
+consider matters of distribution of AI: of power, access, and costs and
 benefits.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Davidson-growth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] T.
+Davidson, <span>“Could advanced AI drive explosive economic
+growth?”</span> [Online]. Available: <a
+href="https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/">https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/</a></div>
+</div>
+<div id="ref-hinton2023doomer" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div
+class="csl-right-inline"><span>“What really made hinton an AI
+doomer.”</span> [Online]. Available: <a
+href="https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/#:~:text=Hinton%20concluded%20that%20as%20AI,to%20be%20five%20to%2020.”">https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/#:~:text=Hinton%20concluded%20that%20as%20AI,to%20be%20five%20to%2020.”</a></div>
+</div>
+<div id="ref-cotra2020forecasting" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] A.
+Cotra, <span>“Forecasting TAI with biological anchors.”</span> [Online].
+Available: <a
+href="https://docs.google.com/document/d/1k7qzzn14jgE-Gbf0CON7_Py6tQUp2QNodr_8VAoDGnY/edit#heading=h.r808lkmw6i0l">https://docs.google.com/document/d/1k7qzzn14jgE-Gbf0CON7_Py6tQUp2QNodr_8VAoDGnY/edit#heading=h.r808lkmw6i0l</a></div>
+</div>
+<div id="ref-erdil2023algorithmic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] E.
+Erdil and T. Besiroglu, <span>“Algorithmic progress in computer
+vision.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2212.05153">https://arxiv.org/abs/2212.05153</a></div>
+</div>
+</div>
