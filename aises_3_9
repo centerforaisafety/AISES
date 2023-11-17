@@ -1,4 +1,4 @@
-<h1 id="conclusion-1"> 3.9 Conclusion</h1>
+<h1 id="conclusion">Conclusion</h1>
 <p>In this chapter, we discussed several key themes: we do not know how
 to instill our values robustly in individual AI systems, we are unable
 to predict future AI systems, and we cannot reliably evaluate AI
@@ -9,7 +9,7 @@ idealized goals in the proxies we use to train AIs. The problem begins
 with the learning setup. In gathering data to form a training set and in
 choosing quantitative proxies to optimize, we typically have to make
 compromises that can introduce bias and perpetuate harms or leave room
-for proxy gaming and adversarial exploits.<br />
+for proxy gaming and adversarial exploits.<p>
 In particular, our proxies may be too simple, or the systems we use to
 supervise AIs may run into practical and physical limitations. As a
 result, there is a gap between proxies and idealized goals that
@@ -21,7 +21,7 @@ capabilities and behaviors mean that we cannot reliably predict the
 properties of future AI systems or even current AI systems. AIs can
 suddenly and dramatically improve on specific tasks without much
 warning, which leaves us little time to react if those changes are
-harmful.<br />
+harmful.<p>
 Even when we are able to robustly specify our idealized goals, processes
 including mesa-optimization and intrinsification mean that trained AI
 systems can end up with emergent goals that conflict with these
@@ -29,7 +29,7 @@ specifications. AI systems may end up operationally pursuing goals
 different to the ones we gave them and thus change their behaviors
 systematically over long time periods. This is further complicated by
 emergent social dynamics that arise from interacting AI systems
-(explored further in the chapter on Multi-Agent Dynamics).</p>
+(explored further in the chapter on ).</p>
 <p><strong>We cannot reliably evaluate AI systems.</strong> AI systems
 may learn and be incentivized to deceive humans and other AIs, in which
 case their behavior stops being a reliable signal for their future
@@ -38,9 +38,13 @@ some threshold of power or capabilities, after which they defect and
 execute a treacherous turn. This might be less of a problem if we
 understood how AI systems’ internals work, but we currently lack the
 thorough knowledge we would need to break open these “black boxes” and
-look inside.<br />
+look inside.<p>
+This chapter has touched on a number of research areas in machine
+learning and other subjects which may be useful to address risks from
+AI. These are summarised in the table below, which is not intended to be
+an exhaustive list.<p>
 In conclusion, single-agent systems present significant and
 hard-to-mitigate threats that could result in catastrophic risks—even
 before the considerations of misuse, multi-agent systems, and arms race
-dynamics that we discuss in subsequent chapters.<br />
+dynamics that we discuss in subsequent chapters.<p>
 </p>
