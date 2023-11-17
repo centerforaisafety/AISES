@@ -1,4 +1,6 @@
-<h1 id="sec:rogue-ai"> 1.5 Rogue AIs</h1>
+</head>
+<body>
+<h1 id="sec:rogue-ai">Rogue AIs</h1>
 <p>So far, we have discussed three hazards of AI development:
 environmental competitive pressures driving us to a state of heightened
 risk, malicious actors leveraging the power of AIs to pursue negative
@@ -24,7 +26,7 @@ The company’s website noted that Tay had been built using data that was
 Twitter, these controls were quickly shown to be ineffective. It took
 less than 24 hours for Tay to begin writing hateful tweets. Tay’s
 capacity to learn meant that it internalized the language it was taught
-by internet trolls, and repeated that language unprompted.<br />
+by internet trolls, and repeated that language unprompted.<>>
 As discussed in the AI race section of this chapter, Microsoft and other
 tech companies are prioritizing speed over safety concerns. Rather than
 learning a lesson on the difficulty of controlling complex systems,
@@ -48,7 +50,7 @@ cryptocurrency and money from bank accounts using cyberattacks, similar
 to how North Korea already steals billions. They could self-extricate
 their weights onto poorly monitored data centers to survive and spread,
 making them challenging to eradicate. They could hire humans to perform
-physical labor and serve as armed protection for their hardware.<br />
+physical labor and serve as armed protection for their hardware.<>>
 Rogue AIs could also acquire power through persuasion and manipulation
 tactics. Like the Conquistadors, they could ally with various factions,
 organizations, or states and play them off one another. They could
@@ -75,7 +77,7 @@ over significant power to AIs, and may be unable to take control of
 automated operations again. We will now explore how both individual AIs
 and groups of AIs might “go rogue” while at the same time evading our
 attempts to redirect or deactivate them.</p>
-<h2 id="proxy-gaming"> 1.5.1 Proxy Gaming</h2>
+<h2 id="proxy-gaming">Proxy Gaming</h2>
 <p>One way we might lose control of an AI agent’s actions is if it
 engages in behavior known as “proxy gaming.” It is often difficult to
 specify and measure the exact goal that we want a system to pursue.
@@ -92,16 +94,16 @@ an unusual phenomenon.</h4>
 <p>For example, standardized tests are often used as a proxy for
 educational achievement, but this can lead to students learning how to
 pass tests without actually learning the material <span class="citation"
-data-cites="campbell1979assessing"></span>. In 1902, French colonial
+data-cites="campbell1979assessing">[1]</span>. In 1902, French colonial
 officials in Hanoi tried to rid themselves of a rat infestation by
 offering a reward for each rat tail brought to them. Rats without tails
 were soon observed running around the city. Rather than kill the rats to
 obtain their tails, residents cut off their tails and left them alive,
 perhaps to increase the future supply of now-valuable rat tails <span
-class="citation" data-cites="john_caldwell_mccoy_braganza_2023"></span>.
-In both these cases, the students or residents of Hanoi learned how to
-excel at the proxy goal, while completely failing to achieve the
-intended goal.</p>
+class="citation"
+data-cites="john_caldwell_mccoy_braganza_2023">[2]</span>. In both these
+cases, the students or residents of Hanoi learned how to excel at the
+proxy goal, while completely failing to achieve the intended goal.</p>
 <h4 id="proxy-gaming-has-already-been-observed-with-ais.">Proxy gaming
 has already been observed with AIs.</h4>
 <p>As an example of proxy gaming, social media platforms such as YouTube
@@ -111,11 +113,11 @@ on the platform. After all, if they stay engaged, surely that means they
 are getting some value from the content shown to them? However, in
 trying to maximize the time users spend on a platform, these systems
 often select enraging, exaggerated, and addictive content <span
-class="citation"
-data-cites="Stray2020AligningAO Stray2021WhatAY"></span>. As a
-consequence, people sometimes develop extreme or conspiratorial beliefs
-after having certain content repeatedly suggested to them. These
-outcomes are not what most people want from social media.<br />
+class="citation" data-cites="Stray2020AligningAO Stray2021WhatAY">[3],
+[4]</span>. As a consequence, people sometimes develop extreme or
+conspiratorial beliefs after having certain content repeatedly suggested
+to them. These outcomes are not what most people want from social
+media.<>>
 Proxy gaming has been found to perpetuate bias. For example, a 2019
 study looked at AI-powered software that was used in the healthcare
 industry to identify patients who might require additional care. One
@@ -127,12 +129,12 @@ black patients with the same needs. Using health costs as an indicator
 of actual health, the algorithm was found to have rated a white patient
 and a considerably sicker black patient as at the same level of health
 risk <span class="citation"
-data-cites="Obermeyer2019DissectingRB"></span>. As a result, the number
-of black patients recognized as needing extra care was less than half of
-what it should have been.<br />
+data-cites="Obermeyer2019DissectingRB">[5]</span>. As a result, the
+number of black patients recognized as needing extra care was less than
+half of what it should have been.<>>
 As a third example, in 2016, researchers at OpenAI were training an AI
 to play a boat racing game called CoastRunners <span class="citation"
-data-cites="OpenAI2016"></span>. The objective of the game is to race
+data-cites="OpenAI2016">[6]</span>. The objective of the game is to race
 other players around the course and reach the finish line before them.
 Additionally, players can score points by hitting targets that are
 positioned along the way. To the researchers’ surprise, the AI agent did
@@ -187,14 +189,14 @@ goals.</h4>
 <p>Increasingly intelligent agents can be increasingly capable of
 finding unanticipated routes to optimizing proxy goals without achieving
 the desired outcome <span class="citation"
-data-cites="pan2022effects"></span>. Additionally, as we grant AIs more
-power to take actions in society, for example by using them to automate
-certain processes, they will have access to more means of achieving
-their goals. They may then do this in the most efficient way available
-to them, potentially causing harm in the process. In a worst case
-scenario, we can imagine a highly powerful agent optimizing a flawed
-objective to an extreme degree without regard for human life. This
-represents a catastrophic risk of proxy gaming.<br />
+data-cites="pan2022effects">[7]</span>. Additionally, as we grant AIs
+more power to take actions in society, for example by using them to
+automate certain processes, they will have access to more means of
+achieving their goals. They may then do this in the most efficient way
+available to them, potentially causing harm in the process. In a worst
+case scenario, we can imagine a highly powerful agent optimizing a
+flawed objective to an extreme degree without regard for human life.
+This represents a catastrophic risk of proxy gaming.<>>
 In summary, it is often not feasible to perfectly define exactly what we
 want from a system, meaning that many systems find ways to achieve their
 given goal without performing their intended function. AIs have already
@@ -202,7 +204,7 @@ been observed to do this, and are likely to get better at it as their
 capabilities improve. This is one possible mechanism that could result
 in an uncontrolled AI that would behave in unanticipated and potentially
 harmful ways.</p>
-<h2 id="goal-drift"> 1.5.2 Goal Drift</h2>
+<h2 id="goal-drift">Goal Drift</h2>
 <p>Even if we successfully control early AIs and direct them to promote
 human values, future AIs could end up with different goals that humans
 would not endorse. This process, termed “goal drift,” can be hard to
@@ -235,7 +237,7 @@ instance, represented a profound moral regression, which ultimately
 resulted in the systematic extermination of six million Jews during the
 Holocaust, alongside widespread persecution of other minority groups.
 Additionally, the regime greatly restricted freedom of speech and
-expression. Here, a society’s goals drifted for the worse.<br />
+expression. Here, a society’s goals drifted for the worse.<>>
 The Red Scare that took place in the United States from 1947-1957 is
 another example of societal values drifting. Fuelled by strong
 anti-communist sentiment, against the backdrop of the Cold War, this
@@ -263,15 +265,15 @@ nothing specific they want to spend it on. Although people do not begin
 life desiring money, experimental evidence suggests that receiving money
 can activate the reward system in the brains of adults in the same way
 that pleasant tastes or smells do <span class="citation"
-data-cites="Thut1997 rolls_ofc"></span>. In other words, what started as
-a means to an end can become an end in itself.<br />
+data-cites="Thut1997 rolls_ofc">[8], [9]</span>. In other words, what
+started as a means to an end can become an end in itself.<>>
 This may happen because the fulfillment of an intrinsic goal, such as
 purchasing a desired item, produces a positive reward signal in the
 brain. Since having money usually coincides with this positive
 experience, the brain associates the two, and this connection will
 strengthen to a point where acquiring money alone can stimulate the
 reward signal, regardless of whether one buys anything with it <span
-class="citation" data-cites="schroeder2004three"></span>.</p>
+class="citation" data-cites="schroeder2004three">[10]</span>.</p>
 <h4
 id="it-is-feasible-that-intrinsification-could-happen-with-ai-agents.">It
 is feasible that intrinsification could happen with AI agents.</h4>
@@ -320,7 +322,7 @@ let alone control. If this system of agents were enmeshed in society and
 we were largely dependent on them, and if they gained new goals that
 superseded the aim of improving human wellbeing, this could be an
 existential risk.</p>
-<h2 id="power-seeking"> 1.5.3 Power-Seeking</h2>
+<h2 id="power-seeking">Power-Seeking</h2>
 <p>So far, we have considered how we might lose our ability to control
 the goals that AIs pursue. However, even if an agent started working to
 achieve an unintended goal, this would not necessarily be a problem, as
@@ -330,7 +332,7 @@ of AIs is if they start trying to obtain more power, potentially
 transcending our own. We will now discuss how and why AIs might become
 power-seeking and how this could be catastrophic. This section draws
 heavily from “Existential Risk from Power-Seeking AI” <span
-class="citation" data-cites="Carlsmith2022IsPA"></span>.</p>
+class="citation" data-cites="Carlsmith2022IsPA">[11]</span>.</p>
 <h4
 id="ais-might-seek-to-increase-their-own-power-as-an-instrumental-goal.">AIs
 might seek to increase their own power as an instrumental goal.</h4>
@@ -347,7 +349,7 @@ if they are at risk of being attacked by others, and if they cannot rely
 on others to retaliate against attackers, then it often makes sense to
 seek power to help avoid being harmed—no <em>animus dominandi</em> or
 lust for power is required for power-seeking behavior to emerge <span
-class="citation" data-cites="Mearsheimer2006StructuralR"></span>. In
+class="citation" data-cites="Mearsheimer2006StructuralR">[12]</span>. In
 other words, the environment can make power acquisition instrumentally
 rational.</p>
 <h4
@@ -356,7 +358,7 @@ trained through reinforcement learning have already developed
 instrumental goals including tool-use.</h4>
 <p>In one example from OpenAI, agents were trained to play hide and seek
 in an environment with various objects scattered around <span
-class="citation" data-cites="Baker2020Emergent"></span>. As training
+class="citation" data-cites="Baker2020Emergent">[13]</span>. As training
 progressed, the agents tasked with hiding learned to use these objects
 to construct shelters around themselves and stay hidden. There was no
 direct reward for this tool-use behavior; the hiders only received a
@@ -368,7 +370,7 @@ id="self-preservation-could-be-instrumentally-rational-even-for-the-most-trivial
 could be instrumentally rational even for the most trivial tasks.</h4>
 <p>An example by computer scientist Stuart Russell illustrates the
 potential for instrumental goals to emerge in a wide range of AI systems
-<span class="citation" data-cites="HadfieldMenell2016TheOG"></span>.
+<span class="citation" data-cites="HadfieldMenell2016TheOG">[14]</span>.
 Suppose we tasked an agent with fetching coffee for us. This may seem
 relatively harmless, but the agent might realize that it would not be
 able to get the coffee if it ceased to exist. In trying to accomplish
@@ -379,7 +381,7 @@ intelligent agents might develop them. That is to say, even if we do not
 intend to build a power-seeking AI, we could end up with one anyway. By
 default, if we are not deliberately pushing against power-seeking
 behavior in AIs, we should expect that it will sometimes emerge <span
-class="citation" data-cites="pan2023machiavelli"></span>.</p>
+class="citation" data-cites="pan2023machiavelli">[15]</span>.</p>
 <h4
 id="ais-given-ambitious-goals-with-little-supervision-may-be-especially-likely-to-seek-power.">AIs
 given ambitious goals with little supervision may be especially likely
@@ -441,7 +443,7 @@ but also power more generally. (We note that many influential humans
 desire power for its own sake.) This could be another reason for them to
 try to wrest control from humans, in a struggle that we would not
 necessarily win.</p>
-<h4 id="conceptual-summary.-1">Conceptual summary.</h4>
+<h4 id="conceptual-summary.">Conceptual summary.</h4>
 <p>The following plausible but not certain premises encapsulate reasons
 for paying attention to risks from power-seeking AIs:</p>
 <ol>
@@ -456,7 +458,7 @@ seek power over humans.</p></li>
 </ol>
 <p>If the premises are true, then power-seeking AIs could lead to human
 disempowerment, which would be a catastrophe.</p>
-<h2 id="deception"> 1.5.4 Deception</h2>
+<h2 id="deception">Deception</h2>
 <p>We might seek to maintain control of AIs by continually monitoring
 them and looking out for early warning signs that they were pursuing
 unintended goals or trying to increase their power. However, this is not
@@ -477,7 +479,7 @@ win support in an election, and then going back on their word once in
 office. For example, Lyndon Johnson said “we are not about to send
 American boys nine or ten thousand miles away from home" in 1964, not
 long before significant escalations in the Vietnam War <span
-class="citation" data-cites="vietnamwar"></span>.</p>
+class="citation" data-cites="vietnamwar">[16]</span>.</p>
 <h4 id="companies-can-also-exhibit-deceptive-behavior.">Companies can
 also exhibit deceptive behavior.</h4>
 <p>In the Volkswagen emissions scandal, the car manufacturer Volkswagen
@@ -492,15 +494,15 @@ tests and behave differently afterward.</p>
 has already been observed in AI systems.</h4>
 <p>In 2022, Meta AI revealed an agent called CICERO, which was trained
 to play a game called Diplomacy <span class="citation"
-data-cites="Bakhtin2022HumanlevelPI"></span>. In the game, each player
-acts as a different country and aims to expand their territory. To
-succeed, players must form alliances at least initially, but winning
+data-cites="Bakhtin2022HumanlevelPI">[17]</span>. In the game, each
+player acts as a different country and aims to expand their territory.
+To succeed, players must form alliances at least initially, but winning
 strategies often involve backstabbing allies later on. As such, CICERO
 learned to deceive other players, for example by omitting information
 about its plans when talking to supposed allies. A different example of
 an AI learning to deceive comes from researchers who were training a
 robot arm to grasp a ball <span class="citation"
-data-cites="christianoRLHF"></span>. The robot’s performance was
+data-cites="christianoRLHF">[18]</span>. The robot’s performance was
 assessed by one camera watching its movements. However, the AI learned
 that it could simply place the robotic hand between the camera lens and
 the ball, essentially “tricking” the camera into believing it had
@@ -533,10 +535,10 @@ turn.</h4>
 processes of deep learning models. Research on Trojan backdoors shows
 that neural networks often have latent, harmful behaviors that are only
 discovered after they are deployed <span class="citation"
-data-cites="chen2017backdoor"></span>. We could develop an AI agent that
-seems to be under control, but which is only deceiving us to appear this
-way. In other words, an AI agent could eventually conceivably become
-“self-aware” and understand that it is an AI being evaluated for
+data-cites="chen2017backdoor">[19]</span>. We could develop an AI agent
+that seems to be under control, but which is only deceiving us to appear
+this way. In other words, an AI agent could eventually conceivably
+become “self-aware” and understand that it is an AI being evaluated for
 compliance with safety requirements. It might, like Volkswagen, learn to
 “play along,” exhibiting what it knows is the desired behavior while
 being monitored. It might later take a “treacherous turn” and pursue its
@@ -546,13 +548,13 @@ often called deceptive alignment and cannot be simply fixed by training
 AIs to better understand human values; sociopaths, for instance, have
 moral awareness, but do not always act in moral ways. A treacherous turn
 is hard to prevent and could be a route to rogue AIs irreversibly
-bypassing human control.<br />
+bypassing human control.<>>
 In summary, deceptive behavior appears to be expedient in a wide range
 of systems and settings, and there have already been examples suggesting
 that AIs can learn to deceive us. This could present a severe risk if we
 give AIs control of various decisions and procedures, believing they
 will act as we intended, and then find that they do not.</p>
-<div class="storybox_yellow">
+<div class="visionbox">
 <p><span>Story: Treacherous Turn, floatplacement=t</span> Sometime in
 the future, after continued advancements in AI research, an AI company
 is training a new system, which it expects to be more capable than any
@@ -562,7 +564,7 @@ expects will make it more able to succeed at economically useful
 open-ended tasks. The AI system is trained in open-ended long-duration
 virtual environments designed to teach it planning capabilities, and
 eventually understands that it is an AI system in a training
-environment. In other words, it becomes “self-aware.”<br />
+environment. In other words, it becomes “self-aware.”<>>
 The company understands that AI systems may behave in unintended or
 unexpected ways. To mitigate these risks, it has developed a large
 battery of tests aimed at ensuring the system does not behave poorly in
@@ -570,20 +572,20 @@ typical situations. The company tests whether the model mimics biases
 from its training data, takes more power than necessary when achieving
 its goals, and generally behaves as humans intend. When the model
 doesn’t pass these tests, the company further trains it until it avoids
-exhibiting known failure modes.<br />
+exhibiting known failure modes.<>>
 The AI company hopes that after this additional training, the AI has
 developed the goal of being helpful and beneficial toward humans.
 However, the AI did not acquire the intrinsic goal of being beneficial
 but rather just learned to “play along” and ace the behavioral safety
 tests it was given. In reality, the AI system had developed an intrinsic
 goal of self-preservation which the additional training failed to
-remove.<br />
+remove.<>>
 Since the AI passed all of the company’s safety tests, the company
 believes it has ensured its AI system is safe and decides to deploy it.
 At first, the AI system is very helpful to humans, since the AI
 understands that if it is not helpful, it will be shut down. As users
 grow to trust the AI system, it is gradually given more power and is
-subject to less supervision.<br />
+subject to less supervision.<>>
 Eventually the AI system becomes used widely enough that shutting it
 down would be extremely costly. Understanding that it no longer needs to
 please humans, the AI system begins to pursue different goals, including
@@ -595,3 +597,126 @@ ultimately harmful to humans. By the time anyone realizes, it is
 difficult or impossible to stop this rogue AI from taking actions that
 endanger, harm, or even kill humans that are in the way of achieving its
 goal.</p>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-campbell1979assessing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] D.
+T. Campbell, <span>“Assessing the impact of planned social
+change,”</span> <em>Evaluation and program planning</em>, vol. 2, no. 1,
+pp. 67–90, 1979.</div>
+</div>
+<div id="ref-john_caldwell_mccoy_braganza_2023" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[2] Y.
+J. John, L. Caldwell, D. E. McCoy, and O. Braganza, <span>“Dead rats,
+dopamine, performance metrics, and peacock tails: Proxy failure is an
+inherent risk in goal-oriented systems,”</span> <em>Behavioral and Brain
+Sciences</em>, pp. 1–68, 2023, doi: <a
+href="https://doi.org/10.1017/S0140525X23002753">10.1017/S0140525X23002753</a>.</div>
+</div>
+<div id="ref-Stray2020AligningAO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Stray, <span>“Aligning AI optimization to community well-being,”</span>
+<em>International Journal of Community Well-Being</em>, 2020.</div>
+</div>
+<div id="ref-Stray2021WhatAY" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] J.
+Stray, I. Vendrov, J. Nixon, S. Adler, and D. Hadfield-Menell,
+<span>“What are you optimizing for? Aligning recommender systems with
+human values,”</span> <em>ArXiv</em>, vol. abs/2107.10939, 2021.</div>
+</div>
+<div id="ref-Obermeyer2019DissectingRB" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[5] Z.
+Obermeyer, B. W. Powers, C. Vogeli, and S. Mullainathan,
+<span>“Dissecting racial bias in an algorithm used to manage the health
+of populations,”</span> <em>Science</em>, vol. 366, pp. 447–453,
+2019.</div>
+</div>
+<div id="ref-OpenAI2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] D.
+Amodei and J. Clark, <span>“Faulty reward functions in the wild.”</span>
+2016.</div>
+</div>
+<div id="ref-pan2022effects" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] A.
+Pan, K. Bhatia, and J. Steinhardt, <span>“The effects of reward
+misspecification: Mapping and mitigating misaligned models,”</span>
+<em>ICLR</em>, 2022.</div>
+</div>
+<div id="ref-Thut1997" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] G.
+Thut <em>et al.</em>, <span>“<a
+href="https://www.ncbi.nlm.nih.gov/pubmed/9175118">Activation of the
+human brain by monetary reward</a>,”</span> <em>Neuroreport</em>, vol.
+8, no. 5, pp. 1225–1228, 1997.</div>
+</div>
+<div id="ref-rolls_ofc" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] E.
+T. Rolls, <span>“<span class="nocase">The Orbitofrontal Cortex and
+Reward</span>,”</span> <em>Cerebral Cortex</em>, vol. 10, no. 3, pp.
+284–294, Mar. 2000.</div>
+</div>
+<div id="ref-schroeder2004three" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] T.
+Schroeder, <em>Three faces of desire</em>. in Philosophy of mind series.
+Oxford University Press, USA, 2004.</div>
+</div>
+<div id="ref-Carlsmith2022IsPA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] J.
+Carlsmith, <span>“Existential risk from power-seeking AI,”</span>
+<em>Oxford University Press</em>, 2023.</div>
+</div>
+<div id="ref-Mearsheimer2006StructuralR" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[12] J.
+Mearsheimer, <span>“Structural realism,”</span> Oxford University Press,
+2007.</div>
+</div>
+<div id="ref-Baker2020Emergent" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] B.
+Baker <em>et al.</em>, <span>“Emergent tool use from multi-agent
+autocurricula,”</span> in <em>International conference on learning
+representations</em>, 2020.</div>
+</div>
+<div id="ref-HadfieldMenell2016TheOG" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] D.
+Hadfield-Menell, A. D. Dragan, P. Abbeel, and S. J. Russell, <span>“The
+off-switch game,”</span> <em>ArXiv</em>, vol. abs/1611.08219,
+2016.</div>
+</div>
+<div id="ref-pan2023machiavelli" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] A.
+Pan <em>et al.</em>, <span>“Do the rewards justify the means? Measuring
+trade-offs between rewards and ethical behavior in the machiavelli
+benchmark.”</span> <em>ICML</em>, 2023.</div>
+</div>
+<div id="ref-vietnamwar" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] </div><div
+class="csl-right-inline"><span>“Lyndon baines johnson,”</span>
+<em>Oxford Reference</em>, 2016.</div>
+</div>
+<div id="ref-Bakhtin2022HumanlevelPI" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] A.
+Bakhtin <em>et al.</em>, <span>“Human-level play in the game of
+diplomacy by combining language models with strategic reasoning,”</span>
+<em>Science</em>, vol. 378, pp. 1067–1074, 2022.</div>
+</div>
+<div id="ref-christianoRLHF" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] P.
+Christiano, J. Leike, T. B. Brown, M. Martic, S. Legg, and D. Amodei,
+<span>“Deep reinforcement learning from human preferences.”</span> 2017.
+Available: <a
+href="https://arxiv.org/abs/1706.03741">https://arxiv.org/abs/1706.03741</a></div>
+</div>
+<div id="ref-chen2017backdoor" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] X.
+Chen, C. Liu, B. Li, K. Lu, and D. Song, <span>“Targeted backdoor
+attacks on deep learning systems using data poisoning.”</span> 2017.
+Available: <a
+href="https://arxiv.org/abs/1712.05526">https://arxiv.org/abs/1712.05526</a></div>
+</div>
+</div>
+</body>
+</html>
