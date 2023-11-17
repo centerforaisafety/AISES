@@ -1,18 +1,18 @@
-<h2 id="safe-design-principles"> 4.4 Safe Design Principles</h2>
+<h1 id="safe-design-principles">Safe Design Principles</h1>
 <p>We can reduce both the probability and severity of a system failure
 by following certain <em>safe design principles</em> when designing it.
 These general principles have been identified by safety engineering and
 offer practical ways of reducing the risk associated with all kinds of
 systems. They should be incorporated from the outset, rather than being
-retrofitted later. This strategy attempts to "build safety into" a
+retrofitted later. This strategy attempts to “build safety into” a
 system, and is more robust than building the system without safety
 considerations and then attempting to fix individual problems if and
-when they become apparent.<br />
+when they become apparent.<p>
 Note that these principles are not only useful in building an AI itself,
 but also the system around it. For example, we can incorporate them into
 the design of the cyber-security system that controls who is able to
 access an AI, and into the operations of the organization, or system of
-humans, that is creating an AI.<br />
+humans, that is creating an AI.<p>
 We will now explore eight of these principles and how they might be
 applied to AI systems:</p>
 <ol>
@@ -42,9 +42,9 @@ will have weaknesses.</p></li>
 design principles might be less useful or even counterproductive. We
 will discuss this later on in the chapter. However, for now, we will
 explore the basic rationale behind why each one improves safety.</p>
-<h3 id="redundancy"> 4.4.1 Redundancy</h3>
+<h2 id="redundancy">Redundancy</h2>
 <p><strong>Redundancy means having multiple “backup” components <span
-class="citation" data-cites="Hendrycks2022xrisk"></span>.</strong>
+class="citation" data-cites="Hendrycks2022xrisk">[1]</span>.</strong>
 Having multiple braking systems in a vehicle means that, even if the
 foot brake is not working well, the handbrake should still be able to
 decelerate the vehicle in an emergency. A failure of a single brake
@@ -55,7 +55,7 @@ whole system to fail. In other words, redundancy removes single points
 of failure. Other examples of redundancy include saving important
 documents on multiple hard drives, in case one of them stops working,
 and seeking multiple doctors’ opinions, in case one of them gets a
-diagnosis wrong.<br />
+diagnosis wrong.<p>
 A possible use of redundancy in AI would be having an inbuilt “moral
 parliament” (see in the chapter). If an AI agent has to make decisions
 with moral implications, we are faced with the question of which theory
@@ -68,10 +68,10 @@ what the parliament recommends. The different theories would essentially
 be redundant components, each usually recommending plausible actions but
 unable to dictate what happens in extreme cases, reducing the likelihood
 of counterintuitive decisions that we would consider harmful.</p>
-<h3 id="separation-of-duties"> 4.4.2 Separation of Duties</h3>
+<h2 id="separation-of-duties">Separation of Duties</h2>
 <p><strong>Separation of duties means no single agent can control or
 misuse the system alone <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</strong> Consider a system
+data-cites="Hendrycks2022xrisk">[1]</span>.</strong> Consider a system
 where one person controls all the different components and processes. If
 that person decides to pursue a negative outcome, they will be able to
 leverage the whole system to do so. On the other hand, we could separate
@@ -89,17 +89,17 @@ single general one.</strong> In designing AI systems, we could follow
 this principle by having multiple agents, each of which is highly
 specialized for a different task. Complex processes can then be carried
 out collectively by these agents working together, rather than having a
-single agent conducting the whole process alone.<br />
+single agent conducting the whole process alone.<p>
 This is exemplified by an approach to AI development called
 “comprehensive AI services.” This views AI agents as a class of
 service-providing products. Adopting this mindset might mean tailoring
 AI systems to perform highly specific tasks, rather than speculatively
 trying to improve general and flexible capabilities in a single
 agent.</p>
-<h3 id="principle-of-least-privilege"> 4.4.3 Principle of Least Privilege</h3>
+<h2 id="principle-of-least-privilege">Principle of Least Privilege</h2>
 <p><strong>Each agent should have only the minimum power needed to
 complete their tasks <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</strong> As discussed above,
+data-cites="Hendrycks2022xrisk">[1]</span>.</strong> As discussed above,
 separating duties should reduce individuals’ capacity to misuse the
 system. However, separation of duties might only work if we also ensure
 individuals do not have access to parts of the system that are not
@@ -108,7 +108,7 @@ privilege. In the example above, we ensured separation of duties by
 putting chemicals in different cupboards with different people in charge
 of them. To make this more likely to mitigate risks, we might want to
 ensure that these cupboards are locked so that everyone else cannot
-access them at all.<br />
+access them at all.<p>
 Similarly, for systems involving AIs, we should ensure that each agent
 only has access to the necessary information and power to complete its
 tasks with a high level of reliability. Concretely, we might want to
@@ -117,10 +117,10 @@ access to confidential information. In the Single Agent Control chapter,
 we considered how AIs might be power-seeking; by ensuring AIs have only
 the minimum required amount of power they need to accomplish the goals
 we assign them, we can reduce their ability to gain power.</p>
-<h3 id="fail-safes"> 4.4.4 Fail-Safes</h3>
+<h2 id="fail-safes">Fail-Safes</h2>
 <p><strong>Fail-safes are features that aim to ensure a system will be
 safe even if it fails <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</strong> When systems fail,
+data-cites="Hendrycks2022xrisk">[1]</span>.</strong> When systems fail,
 they stop performing their intended function, but some failures also
 cause harm. Fail-safes aim to limit the amount of harm caused even if
 something goes wrong. Elevator brakes are a classic example of a
@@ -129,7 +129,7 @@ held open only by the tension in the cables that the cabin is suspended
 on. If tension is lost in the cables, the brakes automatically clamp
 shut onto the rails in the elevator shaft. This means that, even if the
 cables break, the brakes should prevent the cabin from falling; even if
-the system fails in its function, it should at least be safe.<br />
+the system fails in its function, it should at least be safe.<p>
 A possible fail-safe for AI systems might be a component that tracks the
 level of confidence an agent has in its own decisions. The system could
 be designed to stop enacting decisions if this component falls below a
@@ -137,24 +137,24 @@ critical level of certainty that the decision is correct. There could
 also be a component that monitors the probability of the agent’s
 decisions causing harm, and the system could be designed to stop acting
 on decisions if it reaches a specified likelihood of harm.</p>
-<h3 id="antifragility"> 4.4.5 Antifragility</h3>
+<h2 id="antifragility">Antifragility</h2>
 <p><strong>Antifragile systems become stronger from encountering
 adversity <span class="citation"
-data-cites="taleb2012antifragile"></span>.</strong> The idea of an
+data-cites="taleb2012antifragile">[2]</span>.</strong> The idea of an
 antifragile system is that it will not only recover after a failure or a
 near miss but actually become more robust from these “stressors” to
 potential future failures. Antifragile systems are common in the natural
 world and include the human body. For example, weight-bearing exercises
 put a certain amount of stress on the body, but bone density and muscle
 mass tend to increase in response, improving the body’s ability to lift
-weight in the future.<br />
+weight in the future.<p>
 Similarly, after encountering or becoming infected with a pathogen and
 fighting it off, a person’s immune system tends to become stronger,
 reducing the likelihood of reinfection. Groups of people working
 together can also be antifragile. If a team is working toward a given
 goal and they experience a failure, they might examine the causes and
 take steps to prevent it from happening again, leading to fewer failures
-in the future.<br />
+in the future.<p>
 Designing AI systems to be antifragile would mean allowing them to
 continue learning and adapting while they are being deployed. This could
 give an AI the potential to learn when something in its environment has
@@ -169,7 +169,7 @@ undesirable behaviors. Adaptive AIs might be harder to control. Such AIs
 are likely to continuously evolve, creating new safety challenges as
 they develop different behaviors and capabilities. This tendency of
 adaptive systems to evolve in unexpected ways increases our exposure to
-emergent hazards.<br />
+emergent hazards.<p>
 A case in point is the chatbot Tay, which was released by Microsoft on
 Twitter in 2016. Tay was designed to simulate human conversation and to
 continue improving by learning from its interactions with humans on
@@ -182,7 +182,7 @@ antifragile AI can develop in unpredicted and undesirable ways when
 deployed in natural settings. Human operators cannot control natural
 environments, so system designers should think carefully about whether
 to use adaptive AIs.</p>
-<h3 id="negative-feedback-mechanisms"> 4.4.6 Negative Feedback Mechanisms</h3>
+<h2 id="negative-feedback-mechanisms">Negative Feedback Mechanisms</h2>
 <p><strong>When one change triggers more changes, feedback loops can
 emerge.</strong> To understand positive and negative feedback
 mechanisms, consider the issue of climate change and melting ice. As
@@ -206,7 +206,7 @@ act against any changes and thus stabilize the temperature within the
 required range. Incorporating negative feedback mechanisms in a system’s
 design can improve controllability, by preventing changes from
 escalating too much <span class="citation"
-data-cites="Marsden2017"></span>.</p>
+data-cites="Marsden2017">[3]</span>.</p>
 <p><strong>We can use negative feedback loops to control AIs.</strong>
 If we are concerned that AIs might get too powerful for us to control,
 we can create negative feedback loops in the environment to ensure that
@@ -214,32 +214,32 @@ any increases in an AI’s power are met with changes that make it less
 powerful. There would be two parts to this process. First, we would want
 better monitoring tools to look for anomalies, such as AI watch dogs.
 These would track when an AI is getting powerful (or displaying
-hazardous behaviour) in order to trigger some feedback mechanism—the
+hazardous behavior) in order to trigger some feedback mechanism—the
 second part of the task. The feedback mechanism might be a drastic
 measure like disconnecting an AI from the internet, resetting an AI to a
 previous version, or using other AIs trained to disempower a powerful
 AI. Such mechanisms would act as automatic checks and balances on AIs’
 power.</p>
-<h3 id="transparency"> 4.4.7 Transparency</h3>
+<h2 id="transparency">Transparency</h2>
 <p><strong>Transparency means people know enough about a system to
 interact with it safely <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</strong> If operators do not
+data-cites="Hendrycks2022xrisk">[1]</span>.</strong> If operators do not
 have sufficient knowledge of a system’s functions, then it is possible
 they could inadvertently cause an accident while interacting with it. It
 is important that a pilot knows how a plane’s autopilot system works,
 how to activate it, and how to override it. That way, they will be able
 to override it when they need to, and they will know how to avoid
 activating it or overriding it accidentally when they do not mean to.
-This safe design principle is called transparency.<br />
+This safe design principle is called transparency.<p>
 Research into AI transparency aims to design deep learning systems in
 ways that give operators a greater understanding of their internal
 decision-making processes. This would help operators maintain control,
 anticipate situations in which systems might make poor or deceptive
 decisions, and steer them away from hazards.</p>
-<h3 id="defense-in-depth"> 4.4.8 Defense in Depth</h3>
+<h2 id="defense-in-depth">Defense in Depth</h2>
 <p><strong>Including many layers of defense is usually more effective
 than relying on just one <span class="citation"
-data-cites="Hendrycks2022xrisk"></span>.</strong> A final safe design
+data-cites="Hendrycks2022xrisk">[1]</span>.</strong> A final safe design
 principle is defense in depth, which means including multiple layers of
 defense. That way, if one or more defenses fail, there should still be
 others in place that can mitigate damage. In general, the more defenses
@@ -251,7 +251,7 @@ individual is less likely to be infected by a virus if they take
 multiple measures, such as wearing a mask, social distancing, and
 washing their hands, than if they rely on just one of these (and no
 single one is going to work). We will explore this in greater depth in
-the context of the Swiss cheese model in the next section.<br />
+the context of the Swiss cheese model in the next section.<p>
 One caveat to note here is that increasing layers of defense can make a
 system more complex. If the different defenses interact with one
 another, there is a chance that this might produce unintended side
@@ -270,7 +270,7 @@ occurring, while protective measures reduce the harm if an accident does
 occur. For example, avoiding large gatherings and washing hands are
 actions that aim to prevent an individual from becoming infected with a
 virus, while maintaining a healthy lifestyle and getting vaccinated can
-help reduce the severity of an infection if it does occur.<br />
+help reduce the severity of an infection if it does occur.<p>
 We can think about this in terms of the risk equations. Preventative
 measures reduce the probability of an accident occurring, either by
 reducing the inherent probability of the hazard or by reducing exposure
@@ -283,7 +283,7 @@ that “an ounce of prevention is worth a pound of cure,” highlighting
 that it is much better—–and often less costly–—to prevent an accident
 from happening than to try and fix it afterward. It might therefore be
 wise for system designers to place more emphasis on preventative
-features than on protective ones.<br />
+features than on protective ones.<p>
 Nevertheless, protective features should not be neglected. This is
 illustrated by the sinking of the Titanic, whose preventative design
 features included the hull being divided into watertight compartments.
@@ -296,8 +296,8 @@ meant that there was not enough space on the lifeboats for all the
 passengers when the ship sank. This can be considered an example of
 inadequate protective measures. We will explore this distinction more in
 the next section, where we discuss the bow tie model.</p>
-<h3 id="review-of-safe-design-principles"> 4.4.9 Review of Safe Design
-Principles</h3>
+<h2 id="review-of-safe-design-principles">Review of Safe Design
+Principles</h2>
 <p>There are multiple features we can build into a system from the
 design stage to make it safer. We have discussed redundancy, separation
 of duties, the principle of least privilege, fail-safes, antifragility,
@@ -305,3 +305,24 @@ negative feedback mechanisms, transparency and defense in depth as eight
 examples of such principles. Each one gives us concrete recommendations
 about how to design (or how not to design) AI systems to ensure that
 they are safer for humans to use.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Hendrycks2022xrisk" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] D.
+Hendrycks and M. Mazeika, <span>“X-risk analysis for AI
+research.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2206.05862">https://arxiv.org/abs/2206.05862</a></div>
+</div>
+<div id="ref-taleb2012antifragile" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] N.
+N. Taleb, <em>Antifragile: Things that gain from disorder</em>. in
+Incerto. Random House Publishing Group, 2012. Available: <a
+href="https://books.google.com.au/books?id=5fqbz_qGi0AC">https://books.google.com.au/books?id=5fqbz_qGi0AC</a></div>
+</div>
+<div id="ref-Marsden2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] E.
+Marsden, <span>“Designing for safety: Inherent safety, designed
+in.”</span> Accessed: Jul. 31, 2017. [Online]. Available: <a
+href="https://risk-engineering.org/safe-design/">https://risk-engineering.org/safe-design/</a></div>
+</div>
+</div>
