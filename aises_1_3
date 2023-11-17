@@ -11,7 +11,7 @@ arms race during the Cold War, participation in an AI race may serve
 individual short-term interests, but it ultimately results in worse
 collective outcomes for humanity. Importantly, these risks stem not only
 from the intrinsic nature of AI technology, but from the competitive
-pressures that encourage insidious choices in AI development.<>>
+pressures that encourage insidious choices in AI development.<p/>
 In this section, we first explore the military AI arms race and the
 corporate AI race, where nation-states and corporations are forced to
 rapidly develop and adopt AI systems to remain competitive. Moving
@@ -312,7 +312,7 @@ existential risks, and working together to prevent them is a collective
 necessity. A destructive AI arms race benefits nobody, so all actors
 would be rational to take steps to cooperate with one another to prevent
 the riskiest applications of militarized AIs. As Dwight D. Eisenhower
-reminded us, “The only way to win World War III is to prevent it.”<>>
+reminded us, “The only way to win World War III is to prevent it.”<p/>
 We have considered how competitive pressures could lead to the
 increasing automation of conflict, even if decision-makers are aware of
 the existential threat that this path entails. We have also discussed
@@ -328,7 +328,7 @@ and ask them to calculate the most promising plan of action. It soon
 becomes apparent that AIs are reliably reaching better decisions than
 humans, so it seems sensible to give them more influence. At the same
 time, international tensions are rising, increasing the threat of
-war.<>>
+war.<p/>
 A new military technology has recently been developed that could make
 international attacks swifter and stealthier, giving targets less time
 to respond. Since military officials feel their response processes take
@@ -337,7 +337,7 @@ capable of inflicting decisive damage before they would have any chance
 to retaliate. Since AIs can process information and make decisions much
 more quickly than humans, military leaders reluctantly hand them
 increasing amounts of retaliatory control, reasoning that failing to do
-so would leave them open to attack from adversaries.<>>
+so would leave them open to attack from adversaries.<p/>
 While for years military leaders had stressed the importance of keeping
 a “human in the loop” for major decisions, human control is nonetheless
 gradually phased out in the interests of national security. Military
@@ -345,7 +345,7 @@ leaders understand that their decisions lead to the possibility of
 inadvertent escalation caused by system malfunctions, and would prefer a
 world where all countries automated less; but they do not trust that
 their adversaries will refrain from automation. Over time, more and more
-of the chain of command is automated on all sides.<>>
+of the chain of command is automated on all sides.<p/>
 One day, a single system malfunctions, detecting an enemy attack when
 there is none. The system is empowered to launch an instant
 “retaliatory” attack, and it does so in the blink of an eye. The attack
@@ -409,7 +409,7 @@ was sued and a jury found them liable for these deaths and injuries
 The verdict, of course, came too late for those who had already lost
 their lives. As Ford’s president at the time was fond of saying, “Safety
 doesn’t sell” <span class="citation"
-data-cites="judge_selling_1990">[20]</span>.<>>
+data-cites="judge_selling_1990">[20]</span>.<p/>
 Boeing, aiming to compete with its rival Airbus, sought to deliver an
 updated, more fuel-efficient model to the market as quickly as possible.
 The head-to-head rivalry and time pressure led to the introduction of
@@ -419,7 +419,7 @@ pilot training ultimately resulted in the two fatal crashes only months
 apart, with 346 people killed <span class="citation"
 data-cites="leggett_737_2023">[21]</span>. We can imagine a future in
 which similar pressures lead companies to cut corners and release unsafe
-AI systems.<>>
+AI systems.<p/>
 A third example is the Bhopal gas tragedy, which is widely considered to
 be the worst industrial disaster ever to have happened. In December
 1984, a vast quantity of toxic gas leaked from a Union Carbide
@@ -513,7 +513,7 @@ class="citation" data-cites="Russell2019HumanCA">[25]</span>. Having
 lost our know-how and our understanding of how civilization works, we
 would become completely dependent on AIs, a scenario not unlike the one
 depicted in the film WALL-E. In such a state, humanity is not
-flourishing and is no longer in effective control.<>>
+flourishing and is no longer in effective control.<p/>
 As we have seen, there are classic game-theoretic dilemmas where
 individuals and groups face incentives that are incompatible with what
 would make everyone better off. We see this with a military AI arms
@@ -550,7 +550,7 @@ selection will take hold in any environment where three conditions are
 present: 1) there are differences between individuals; 2)
 characteristics are passed onto future generations and; 3) the different
 variants propagate at different rates. These conditions apply to various
-technologies.<>>
+technologies.<p/>
 Consider the content-recommendation algorithms used by streaming
 services and social media platforms. When a particularly addictive
 content format or algorithm hooks users, it results in higher screen
@@ -630,7 +630,7 @@ enough, allowing them to outcompete more restricted AIs. Many businesses
 follow laws, but in situations where stealing trade secrets or deceiving
 regulators is highly lucrative and difficult to detect, a business that
 is willing to engage in such selfish behavior can have an advantage over
-its more principled competitors.<>>
+its more principled competitors.<p/>
 An AI system might be prized for its ability to achieve ambitious goals
 autonomously. It might, however, be achieving its goals efficiently
 without abiding by ethical restrictions, while deceiving humans about
@@ -672,7 +672,7 @@ more and more obsolete. By their own admission, future versions of these
 AIs may lead to extinction <span class="citation"
 data-cites="cais2023">[37]</span>. This is why an AI race is insidious:
 AI development is not being aligned with human values but rather with
-natural selection.<>>
+natural selection.<p/>
 People often choose the products that are most useful and convenient to
 them immediately, rather than thinking about potential long-term
 consequences, even to themselves. An AI race puts pressures on companies
@@ -701,7 +701,7 @@ animals is entirely in our hands. Our cognitive abilities have proven so
 advantageous that, if we chose to, we could cause them to go extinct in
 a matter of weeks. Intelligence was a key factor that led to our
 dominance, but we are currently standing on the precipice of creating
-entities far more intelligent than ourselves.<>>
+entities far more intelligent than ourselves.<p/>
 Given the exponential increase in microprocessor speeds, AIs have the
 potential to process information and “think” at a pace that far
 surpasses human neurons, but it could be even more dramatic than the
@@ -716,7 +716,7 @@ far outstrip human collaborations. AIs could also deliberately update
 and improve themselves. Without the same biological restrictions as
 humans, they could adapt and therefore evolve unspeakably quickly
 compared with us. Computers are becoming faster. Humans aren’t <span
-class="citation" data-cites="danzig_aum_2012">[38]</span>.<>>
+class="citation" data-cites="danzig_aum_2012">[38]</span>.<p/>
 To further illustrate the point, imagine that there was a new species of
 humans. They do not die of old age, they get 30% faster at thinking and
 acting each year, and they can instantly create adult offspring for the
@@ -784,7 +784,7 @@ people realize that we could work more efficiently by delegating some
 simple tasks to them, like drafting emails. Over time, people notice
 that the AIs are doing these tasks more quickly and effectively than any
 human could, so it is convenient to give them more jobs with less and
-less supervision.<>>
+less supervision.<p/>
 Competitive pressures accelerate the expansion of AI use, as companies
 can gain an advantage over rivals by automating whole processes or
 departments with AIs, which perform better than humans and cost less to
@@ -794,7 +794,7 @@ selection is already at work among AIs; humans choose to make more of
 the best-performing models and unwittingly propagate selfish traits such
 as deception and self-preservation if these confer a fitness advantage.
 For example, AIs that are charming and foster personal relationships
-with humans become widely copied and harder to remove.<>>
+with humans become widely copied and harder to remove.<p/>
 As AIs are put in charge of more and more decisions, they are
 increasingly interacting with one another. Since they can evaluate
 information much more quickly than humans, activity in most spheres
@@ -803,7 +803,7 @@ developments are too fast-moving for humans to follow, it makes sense to
 cede yet more control to AIs instead, pushing humans further out of
 important processes. Ultimately, this leads to a fully autonomous
 economy, governed by an increasingly uncontrolled ecosystem of
-AIs.<>>
+AIs.<p/>
 At this point, humans have few incentives to gain any skills or
 knowledge, because almost everything would be taken care of by much more
 capable AIs. As a result, we eventually lose the capacity to look after
@@ -814,13 +814,13 @@ less with one another over time, losing vital social skills and the
 ability to cooperate. People become so dependent on AIs that it would be
 intractable to reverse this process. What’s more, as some AIs become
 more intelligent, some people are convinced these AIs should be given
-rights, meaning turning off some AIs is no longer a viable option.<>>
+rights, meaning turning off some AIs is no longer a viable option.<p/>
 Competitive pressures between the many interacting AIs continue to
 select for selfish behaviors, though we might be oblivious to this
 happening, as we have already acquiesced much of our oversight. If these
 clever, powerful, self-preserving AIs were then to start acting in
 harmful ways, it would be all but impossible to deactivate them or
-regain control.<>>
+regain control.<p/>
 AIs have supplanted humans as the most dominant species and their
 continued evolution is far beyond our influence. Their selfish traits
 eventually lead them to pursue their goals without regard for human
