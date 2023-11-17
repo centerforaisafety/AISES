@@ -1,20 +1,20 @@
-<h1 id="conlusion-1">Conclusion</h1>
+<h1 id="conclusion">Conclusion</h1>
 <p>Ethics is the study of moral principles and how they guide our
 decisions and actions. It encompasses questions of right and wrong, and
 it provides a framework for making choices based on our values and
 beliefs. It is important for AI researchers to have a basic
 understanding of ethics in order to ethically guide the development and
-governance of AI systems.<br />
+governance of AI systems.<p>
 We examined a number of considerations that commonly enter into moral
 decision making. Intrinsic goods, like wellbeing, are valuable for their
 own sake. Consequentialist moral theories consider the maximization of
 intrinsic goods to be our principle moral responsibility.
 Utilitarianism, a form of consequentialism, is the view that we should
-maximize wellbeing.<br />
+maximize wellbeing.<p>
 Constraints also play a role in moral decision making. Constraints are
 the basis of many deontological theories. Kant’s ethics categorically
 constrains actions and is derived from the respect for humanity’s
-rational autonomy.<br />
+rational autonomy.<p>
 Virtue ethics focuses on the importance of developing certain character
 traits rather than solely considering consequences or specific rules.
 Aristotelian virtue ethics links virtue with flourishing; living a good
@@ -61,7 +61,7 @@ moral uncertainty effectively, AI systems should be capable of
 recognizing and acknowledging a broad range of moral perspectives. This
 presents challenges in determining how to rationally balance the
 recommendations of different ethical theories and ensure alignment with
-human values.<br />
+human values.<p>
 There is no known solution to all ethical dilemmas, and the choice of
 approach may depend on context, the level of uncertainty, and personal
 preferences. It is crucial to incorporate diverse moral perspectives,
