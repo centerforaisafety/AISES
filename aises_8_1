@@ -1,6 +1,7 @@
 <!-- Collective Action Problems -->
 
-<h1 id="introduction"> 8.1 Introduction</h1>
+<h1 id="motivation">Motivation</h1>
+<h3 id="introduction">Introduction</h3>
 <p>In the chapters “Complex Systems” and “Safety Engineering,” we
 considered AI risks that arise not only from the technologies themselves
 but from the broader social contexts in which they are embedded. In this
@@ -9,9 +10,10 @@ how the collective behavior of a <em>multi-agent system</em> may not
 reflect the interests of the agents that comprise it. The agents may
 produce conditions that none of them wants, even when every one of them
 has the same goals and priorities. In the words of economics Nobel
-laureate Thomas Schelling, “Micromotives do not equal macrobehavior.”
-<span class="citation" data-cites="Schelling1978MicromotivesAM"></span>.
-Let us explore this idea using some examples.</p>
+laureate Thomas Schelling, “Micromotives do not equal macrobehavior”
+<span class="citation"
+data-cites="Schelling1978MicromotivesAM">[1]</span>. Let us explore this
+idea using some examples.</p>
 <p><strong>Traffic jams.</strong> Consider a traffic jam, where the only
 obstacle to each motorist is the car in front. Everyone has the same
 goal, which is to reach their destination quickly. Since nobody wants to
@@ -36,76 +38,42 @@ costs. All the trees would profit from this arrangement. However, as
 there is no way to impose such an agreement between the trees, each
 races its neighbor ever higher, and all pay the large costs of growing
 so tall.</p>
-<p><strong>Excessive working hours.</strong> Many people work far longer
-hours than they might ideally like to, at the expense of their health
-and their other interests. The usual motivation for this behavior is
-competition for resources that require a high level of income in order
-to access. For example, where higher-quality housing is limited, people
-might compete for the best-paying jobs by working long hours, or they
-might supplement their income by working multiple jobs. In theory, if
-everyone competing for these resources were to halve their work hours,
-they could free up time and increase their quality of life while
-maintaining their relative position in the competition: each person
-would get the housing quality they would have otherwise, and everyone
-would benefit from this freed-up time and improved health. Yet no one
-does this, because if they alone were to decrease their work efforts,
-they would be out-competed by others who did not.</p>
-<p><strong>Military arms races.</strong> Like tree height and work
-hours, the major benefit of military power is not intrinsic, but
-relative: being less militarily capable than their neighbors makes a
-nation vulnerable to invasion. This competitive pressure drives nations
-to expend vast sums of money on their military budgets each year,
-reducing each nation’s budgets for other areas, such as healthcare and
-education. Some forms of military investment, such as nuclear weaponry
-and military AI applications, also exacerbate the risks of large-scale
-catastrophes. If every nation were to decrease its military investment
-by the same amount, everyone would benefit from the reduced expenses and
-risks without anyone losing their relative power. However, this
-arrangement is not stable, since each nation could improve its security
-by ensuring its military power exceeds that of its competitors, and each
-risks becoming vulnerable if it alone fails to do this. Military
-expenditure therefore remains high in spite of these seemingly avoidable
-costs.</p>
+<p><strong>Military arms races.</strong> Like tree height, the major
+benefit of military power is not intrinsic, but relative: being less
+militarily capable than their neighbors makes a nation vulnerable to
+invasion. This competitive pressure drives nations to expend vast sums
+of money on their military budgets each year, reducing each nation’s
+budgets for other areas, such as healthcare and education. Some forms of
+military investment, such as nuclear weaponry and military AI
+applications, also exacerbate the risks of large-scale catastrophes. If
+every nation were to decrease its military investment by the same
+amount, everyone would benefit from the reduced expenses and risks
+without anyone losing their relative power. However, this arrangement is
+not stable, since each nation could improve its security by ensuring its
+military power exceeds that of its competitors, and each risks becoming
+vulnerable if it alone fails to do this. Military expenditure therefore
+remains high in spite of these seemingly avoidable costs.</p>
 <p><strong>Competitive and evolutionary pressures.</strong> The same
-basic structure underlies most of these examples, as follows<span
-class="citation" data-cites="alexander2016meditations"></span>. A group
-of agents is engaged in a competition over a valuable and limited item
-(sunlight access, housing quality, military security). One way an agent
-can gain more of this valuable item is by sacrificing some of their
-other values (energy for growth, social life, an education budget).
-Agents who do not make these sacrifices are outcompeted by those who do.
-Natural selection weeds out those who do not sacrifice their other
-values sufficiently, replacing them with agents who sacrifice more,
-until the competition is dominated by those agents who sacrificed the
-most. These agents gain no more of the valued item they are competing
-for than did the original group, yet are worse off for the losses of
-their other values.<br />
-We can imagine this process as a never-ending race between 100 runners.
-The runners are competing for rank order (their position relative to the
-other runners - 1st, 2nd, 3rd etc). One day, one of the runners has an
-idea: she realizes that she could improve her ranking by dropping her
-water bottle to reduce her weight. She does this, and so manages to
-overtake some of those ahead of her. Once these runners realize what she
-did, they follow suit, soon overtaking her as well as some of those
-previously ahead of them. The process continues until the original rank
-order is reestablished, but now all the runners must continue running
-without the ability to rehydrate. Later, another runner realizes that he
-can improve his ranking by discarding his clothes to become more
-aerodynamic. Though this is embarrassing and uncomfortable in the cold
-air, he does this and thus moves forward up through the ranks. Other
-runners then follow suit, and ultimately the original order is restored,
-but now all the runners are cold and embarrassed, as well as dehydrated.
-Each time this process occurs, the agents all ultimately end up with the
-same rankings relative to each other, but their absolute wellbeing has
-reduced.</p>
-<p><strong>Steering each agent <span class="math inline">≠</span>
-steering the system.</strong> These phenomena hint at the distinct
-challenges of ensuring safety in multi-agent systems. The danger posed
-by a collective of agents is greater than the sum of its parts. AI risk
-cannot be eradicated by merely ensuring that each individual AI agent is
-loyal and each individual human operator is well-intentioned. Even if
-all agents, both human and AI, share a common set of goals, this does
-not guarantee macrobehavior in line with these goals. The agents’
+basic structure underlies most of these examples <span class="citation"
+data-cites="alexander2016meditations">[2]</span>. A group of agents is
+engaged in a competition over a valuable and limited item (sunlight
+access, housing quality, military security). One way an agent can gain
+more of this valuable item is by sacrificing some of their other values
+(energy for growth, social life, an education budget). Agents who do not
+make these sacrifices are outcompeted by those who do. Natural selection
+weeds out those who do not sacrifice their other values sufficiently,
+replacing them with agents who sacrifice more, until the competition is
+dominated by those agents who sacrificed the most. These agents gain no
+more of the valued item they are competing for than did the original
+group, yet are worse off for the losses of their other values.<p>
+<strong>Steering each agent <span class="math inline">≠</span> steering
+the system.</strong> These phenomena hint at the distinct challenges of
+ensuring safety in multi-agent systems. The danger posed by a collective
+of agents is greater than the sum of its parts. AI risk cannot be
+eradicated by merely ensuring that each individual AI agent is loyal and
+each individual human operator is well-intentioned. Even if all agents,
+both human and AI, share a common set of goals, this does not guarantee
+macrobehavior in line with these goals. The agents’
 <em>interactions</em> can produce undesirable outcomes.</p>
 <p><strong>Chapter focus.</strong> In this chapter, we use abstract
 models to understand how intelligent agents can, despite acting
@@ -122,11 +90,11 @@ to hand over increasing amounts of power to AIs, thereby becoming a
 “second-class species.” The frameworks we explore in this chapter are
 highly abstract and can be useful in thinking more generally about the
 current AI landscape.</p>
-<p>Of particular importance are “AI races.” We see these in the
+<p>Of particular importance are racing dynamics. We see these in the
 corporate world, where AI developers are cutting corners on safety in
 order to avoid being outcompeted by one another. We also see these in
 international relations, where nations are racing each other to adopt
-dangerous military AI applications. By observing AI races, we can
+hazardous military AI applications. By observing AI races, we can
 anticipate that merely persuading these parties that their actions are
 high-risk may not be sufficient for ensuring that they act more
 cautiously, because they may be willing to tolerate high risk levels in
@@ -139,14 +107,13 @@ interactions with and between AI agents. In the future, we expect that
 AIs will increasingly be granted autonomy in their behavior, and will
 therefore interact with others under progressively less human oversight.
 This poses risks in at least three ways. First, evolutionary pressures
-may promote selfish and deceptive behavior, as well as generating
-various forms of intrasystem conflict that could subvert our goals.
-Second, many of the mechanisms by which AI agents may cooperate with one
-another could promote undesirable behaviors, such as nepotism, outgroup
-hostility, and the development of ruthless reputations. Third, AIs may
-engage in conflict, using threats of extreme scale in order to extort
-others, or even promoting all-out warfare, with devastating
-consequences.</p></li>
+may promote selfish, as well as generating various forms of intrasystem
+conflict that could subvert our goals. Second, many of the mechanisms by
+which AI agents may cooperate with one another could promote undesirable
+behaviors, such as nepotism, outgroup hostility, and the development of
+ruthless reputations. Third, AIs may engage in conflict, using threats
+of extreme scale in order to extort others, or even promoting all-out
+warfare, with devastating consequences.</p></li>
 </ul>
 <p>We explore both of the above sets of multi-agent risks using
 generalizable frameworks from game theory, evolutionary theory, and
@@ -156,3 +123,111 @@ anyone individually. Even if AI systems are fully under human control
 and leading actors such as corporations and states are well-intentioned,
 humanity could still end up eroding away our power gradually until it
 cannot be recovered.</p>
+<h3 id="game-theory">Game Theory</h3>
+<p><strong>Central theme: Rational agents will not necessarily secure
+good outcomes.</strong> Behavior that is individually rational and
+self-interested can produce collective outcomes that are suboptimal, or
+even catastrophic, for all involved. This section first examines the
+Prisoner’s Dilemma, a canonical game theoretic example that illustrates
+this theme—though cooperation would produce an outcome that is better
+for both agents, for either one to cooperate would be irrational.<p>
+We then build on this by introducing three additional levels of
+sophistication. The first addition is time. We explore how cooperation
+is possible, though not assured, when agents interact repeatedly over
+<em>time</em>. The second addition is the introduction of <em>more than
+two agents</em>. We explore how collective action problems can generate
+and maintain undesirable states. Third, we explore evolutionary game
+theory, studying the dynamics produced by agents that can <em>adapt over
+time</em>.<p>
+Ultimately, we see how these natural dynamics can produce
+catastrophically bad outcomes. They perpetuate military arms races and
+corporate AI races, increasing the risks from both. They may also foster
+immoral AI behaviors, such as deception and even extortion.</p>
+<h3 id="evolutionary-pressure">Evolutionary Pressure</h3>
+<p><strong>Central theme: Natural selection will promote AIs that behave
+selfishly.</strong> In this section, we first explore generalized
+Darwinism, which is the idea that evolution by natural selection can
+take place outside of the realm of biology. We explore examples in
+linguistics, music, philosophy and sociology. We formalize generalized
+Darwinism using Lewontin’s conditions for evolution by natural selection
+and the Price equation for evolutionary change. Using both, we show that
+AIs are likely to be subject to evolution by natural selection: they
+will vary in ways that produce differential fitness and so influence
+which traits persist through time and between “generations” of
+AIs.<p>
+Next, we explore two AI risks generated by evolutionary pressures. The
+first is that correctly-specified goals may be subverted or distorted by
+“intrasystem goal conflict.” The interests of propagating information
+(such as genes, departments, or sub-agents) can sometimes clash with
+those of the larger entity that contains it (such as an organism,
+government, or AI system), undermining unity of purpose. The second risk
+we consider is that natural selection tends to favor selfish traits over
+altruistic ones. A future shaped by evolutionary pressures is,
+therefore, likely to be dominated by selfish behavior, both in the
+institutions that produce and use AI systems, and in the AIs
+themselves.<p>
+The conclusions of this section are simple. Natural selection will by
+default be a strong force in determining the state of the world. Its
+influence on AI development carries the risk of intrasystem goal
+conflict and the promotion of selfish behavior. Both risks could have
+catastrophic effects. Intrasystem goal conflict could prevent our goals
+from being carried out and generate unexpected actions. AI agents could
+develop selfish tendencies, increasing the risk that they might employ
+harmful strategies (including those covered earlier in the chapter, such
+as deception or extortion).</p>
+<h3 id="conflict-and-cooperation">Conflict and Cooperation</h3>
+<p><strong>Central theme: Ensuring cooperation, rather than conflict, is
+vital for AI safety.</strong> This section explores the nature of
+conflict and cooperation between agents. We start by looking at the
+nature of conflict, beginning with an overview of bargaining theory.
+Then we explore 5 factors that drive conflict.</p>
+<ol>
+<li><p><em>Power shifts</em>: a shift in political power triggers
+preventative conflict.</p></li>
+<li><p><em>First strike advantage</em>: time-sensitive offensive
+advantages motivate a party to initiate conflict preemptively.</p></li>
+<li><p><em>Information problems</em>: mis- and dis-information kindle
+defensive or offensive action over cooperation.</p></li>
+<li><p><em>Issue indivisibility</em>: wherever the entity over which
+parties are contesting is indivisible, it is harder to avoid resorting
+to conflict.</p></li>
+<li><p><em>Inequality</em>: inequality may increase the probability of
+conflict, due to factors such as relative deprivation and social
+envy.</p></li>
+</ol>
+<p><p>
+Next, we turn to assessing how cooperation can help with addressing the
+challenges outlined above and what problems it may pose itself. We
+explore seven mechanisms that can promote or maintain cooperation:<p>
+</p>
+<ul>
+<li><p><em>Direct reciprocity</em>: the chance of a future meeting
+incentivizes cooperative behavior in the present.</p></li>
+<li><p><em>Indirect reciprocity</em>: cooperative reputations are
+rewarded.</p></li>
+<li><p><em>Group selection</em>: inter-group competition promotes
+intra-group unity.</p></li>
+<li><p><em>Kin selection</em>: indirect benefits of cooperation outweigh
+direct costs, motivating altruism towards genetic kin.</p></li>
+<li><p><em>Individual stakes to common stakes</em>: the alignment of
+interests between group members and the group as a whole.</p></li>
+<li><p><em>Simon’s selection</em>: limited knowledge necessitates
+reliance on others.</p></li>
+<li><p><em>Institutions</em>: large-scale external forces motivate
+cooperation through enforcement.</p></li>
+</ul>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Schelling1978MicromotivesAM" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[1] T.
+C. Schelling, <span>“Micromotives and macrobehavior,”</span> 1978.</div>
+</div>
+<div id="ref-alexander2016meditations" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[2] S.
+Alexander, <span>“Meditations on moloch.”</span> Accessed: Sep. 29,
+2023. [Online]. Available: <a
+href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">https://slatestarcodex.com/2014/07/30/meditations-on-moloch/</a></div>
+</div>
+</div>
