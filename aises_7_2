@@ -1,9 +1,9 @@
-<h1 id="why-learn-about-ethics"> 7.2 Why Learn About Ethics?</h1>
+<h1 id="why-learn-about-ethics">Why Learn About Ethics?</h1>
 <p>This chapter will help you understand ethics—both in the context of
 this book and in public discourse about AI safety. Here, we cover the
 most prominent theories in the history of ethical discourse. After
 reading this chapter, you should have a solid foundation for
-understanding ethics in AI discussions.<br />
+understanding ethics in AI discussions.<p>
 Ethics is relevant to the field of AI for two key reasons. First, AI
 systems are increasingly being integrated into various aspects of human
 life, such as healthcare, education, finance, and transportation, and
@@ -16,7 +16,7 @@ numerous examples of AI systems being designed in ways that failed to
 adequately consider such risks, such as racially biased facial
 recognition systems. In order to wisely manage the growing power of AI
 systems, developers and users of AI systems need to understand the
-ethical challenges that AI systems introduce or exacerbate.<br />
+ethical challenges that AI systems introduce or exacerbate.<p>
 Second, AI systems raise a range of new ethical questions that are
 unique to their technological nature and capabilities. For instance, AI
 systems can generate, process, and analyze vast amounts of data—much
@@ -28,7 +28,7 @@ pressing if AI systems become increasingly autonomous and able to
 interact with human beings in ways that convince their users that they
 have their own preferences and feelings. What should we do if AI systems
 appear to meet some of the potential criteria for sentience or other
-morally relevant features?<br />
+morally relevant features?<p>
 Thirdly, as further explored in the and chapters, it is challenging to
 specify objectives or goals for highly powerful AI systems in ways that
 do not lead in a predictable way to highly undesirable consequences. In
@@ -43,7 +43,7 @@ AI systems in a beneficial way. Rather than attempting to bypass or
 ignore such controversies, AI developers should accept that their design
 decisions may raise difficult ethical questions that need to be
 considered carefully.</p>
-<h2 id="is-ethics-relative"> 7.2.1 Is Ethics “Relative?”</h2>
+<h2 id="is-ethics-relative">Is Ethics “Relative?”</h2>
 <p><strong>Even after millennia of deliberation, we do not agree on all
 of morality.</strong> Philosophers have been thinking about and debating
 moral principles for millennia, yet they have not achieved consensus on
@@ -68,7 +68,7 @@ views on marriage, divorce, gender roles, freedom of speech, or
 religious tolerance. These differences form the basis for arguments for
 cultural relativism.</p>
 <p><strong>Normative moral relativism vs. descriptive moral relativism
-<span class="citation" data-cites="gowans2021moral"></span>.</strong>
+<span class="citation" data-cites="gowans2021moral">[1]</span>.</strong>
 Moral relativism has various forms, but here we discuss two: descriptive
 moral relativism and normative moral relativism. Descriptive moral
 relativism is straightforward: it means that different societies around
@@ -87,7 +87,7 @@ for normative moral relativism.</p>
 Relativism</h3>
 <p>A number of arguments can be advanced against descriptive and
 normative moral relativism <span class="citation"
-data-cites="gowans2021moral"></span>, which we explore in this
+data-cites="gowans2021moral">[1]</span>, which we explore in this
 subsection. We will explore the argument that cultural differences might
 be overstated, which makes descriptive moral relativism harder to
 uphold. Another argument is that proponents of normative moral
@@ -105,21 +105,22 @@ killing human beings are common across cultures. Many cultures have some
 form of reciprocity, which is the idea that people have a moral
 obligation to repay the kindness or generosity they have received from
 others or that people should treat others the way they wish to be
-treated <span class="citation" data-cites="curry2019cooperate"></span>.
-This can be seen in the widespread practice of exchanging gifts and in
-moral codes that emphasize fairness and justice. Additionally, human
-cultures have typically some concept of parenthood, which often involves
-a moral obligation to care for one’s children, as well as broader
-obligations to one’s family and group. These common features suggest
-that there are at least a few universal aspects of morality that
-transcend cultural boundaries.</p>
+treated <span class="citation"
+data-cites="curry2019cooperate">[2]</span>. This can be seen in the
+widespread practice of exchanging gifts and in moral codes that
+emphasize fairness and justice. Additionally, human cultures have
+typically some concept of parenthood, which often involves a moral
+obligation to care for one’s children, as well as broader obligations to
+one’s family and group. These common features suggest that there are at
+least a few universal aspects of morality that transcend cultural
+boundaries.</p>
 <p><strong>Moral relativism conflicts with common-sense morality <span
-class="citation" data-cites="gowans2021moral"></span>.</strong> Consider
-controversial practices still prevalent in some cultures, such as honor
-killings in parts of the Middle East. The honor of a family depends on
-the “purity” of its women. If a woman is raped or is deemed to have
-compromised her chastity in some way, the profound shame brought upon
-her family may lead them to kill her in response. According to the
+class="citation" data-cites="gowans2021moral">[1]</span>.</strong>
+Consider controversial practices still prevalent in some cultures, such
+as honor killings in parts of the Middle East. The honor of a family
+depends on the “purity” of its women. If a woman is raped or is deemed
+to have compromised her chastity in some way, the profound shame brought
+upon her family may lead them to kill her in response. According to the
 normative moral relativist, if such a practice is in line with the moral
 standards of the society where it takes place, there is nothing wrong
 with it. Even more disturbingly, on some versions of relativism, men in
@@ -134,8 +135,8 @@ standards that endorse honor killings or slavery are not wrong in a
 general sense, many moral relativists may recoil from this.</p>
 <p><strong>Cultural moral relativism denies the possibility of
 meaningful moral debate or moral progress <span class="citation"
-data-cites="gowans2021moral"></span>.</strong> Moral relativism seems to
-require us to accept contradictory claims. For example, moral
+data-cites="gowans2021moral">[1]</span>.</strong> Moral relativism seems
+to require us to accept contradictory claims. For example, moral
 relativists might say that a supporter of gay marriage is correct in
 saying that homosexuality is morally acceptable, while someone from a
 different culture might be correct in saying that homosexuality is
@@ -153,7 +154,7 @@ relativists have to deny the possibility of moral disagreement and claim
 that anyone who engages in such debates does not understand the meaning
 of what they are saying.</p>
 <p><strong>Moral relativism does not necessarily promote tolerance <span
-class="citation" data-cites="gowans2021moral"></span>.</strong> Some
+class="citation" data-cites="gowans2021moral">[1]</span>.</strong> Some
 have argued that one of the attractions of moral relativism is that it
 promotes tolerance. By recognizing cultural differences (descriptive
 moral relativism), they may assert that everyone ought to do what their
@@ -168,8 +169,8 @@ cosmopolitanism, liberal principles, and value pluralism. We discuss
 adjudicating among competing moral views in .</p>
 <p><strong>In practice, moral relativism can shut down ethics
 discussions <span class="citation"
-data-cites="gowans2021moral"></span>.</strong> It is important to note
-that different cultures have different moral standards. However, AI
+data-cites="gowans2021moral">[1]</span>.</strong> It is important to
+note that different cultures have different moral standards. However, AI
 developers sometimes invoke this observation and side with normative
 moral relativism to avoid considering the ethics of their AI design
 choices. Moreover, suppose AI developers do not analyze the ethical
@@ -182,7 +183,7 @@ aligned with the broader interests of society. Moral relativism can be
 unattractive from a pragmatic point of view, as it limits our ability to
 engage in discussions that may sometimes lead to convergence on shared
 principles. This quietist stance de-emphasizes moral arguments to the
-benefit of economic incentives and self-interest.<br />
+benefit of economic incentives and self-interest.<p>
 Why are these debates about moral relativism relevant to AI? People
 commonly observe that different cultures have different beliefs when
 discussing how to ensure that AIs promote human values. It is essential
@@ -192,7 +193,7 @@ they are responsible for ensuring that the values embodied in their AI
 systems are beneficial. Rather than a barrier, cultural variation means
 that making AIs ethical requires a broad, globally representative
 approach.</p>
-<h2 id="is-ethics-determined-by-religion"> 7.2.2 Is Ethics Determined by
+<h2 id="is-ethics-determined-by-religion">Is Ethics Determined by
 Religion?</h2>
 <p>Moral relativists may believe that studying ethics is futile because
 ethical questions are irresolvable. On the other hand, some people
@@ -206,11 +207,11 @@ whether an action is moral is determined solely by God’s commands rather
 than any qualities of the action or its consequences. (We use the term
 “God” inclusively to refer to the god or gods of any religion.) This
 theory suggests that God has the power to create moral obligations and
-can change them at will.<br />
+can change them at will.<p>
 While this book does not argue for or against any particular religion,
 we do suggest that there are severe problems with equating religion and
 morality. One problem is that it creates a problematic understanding of
-God.<br />
+God.<p>
 If you believe there is a god, you likely believe he is more than just
 an arbitrary authority figure. Many religious traditions view God as
 inherently good. It is precisely because God is good that religion
@@ -218,9 +219,33 @@ compels us to follow God’s word. However, if you believe that we should
 follow God’s word because God is good, then there must be some moral
 qualities (like goodness) that exist independently of God’s rules—thus,
 divine command theory is false <span class="citation"
-data-cites="plato2004euthyphro"></span>.<br />
+data-cites="plato2004euthyphro">[3]</span>.<p>
 To be clear, this is not an argument against believing in God or
 religion. It is an argument against equating God or faith with morality.
 Both religious people and irreligious people can behave morally or
 immorally. That’s why everyone needs to understand the factors that
 might make our actions right or wrong.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-gowans2021moral" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] C.
+Gowans, <span>“<span>Moral Relativism</span>,”</span> in <em>The
+<span>Stanford</span> encyclopedia of philosophy</em>,
+<span>S</span>pring 2021., E. N. Zalta, Ed., <a
+href="https://plato.stanford.edu/archives/spr2021/entries/moral-relativism/"
+class="uri">https://plato.stanford.edu/archives/spr2021/entries/moral-relativism/</a>;
+Metaphysics Research Lab, Stanford University, 2021.</div>
+</div>
+<div id="ref-curry2019cooperate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] O.
+S. Curry, D. A. Mullins, and H. Whitehouse, <span>“Is it good to
+cooperate?: Testing the theory of morality-as-cooperation in 60
+societies,”</span> <em>Current Anthropology</em>, vol. 60, no. 1, pp.
+47–69, 2019, doi: <a
+href="https://doi.org/10.1086/701478">10.1086/701478</a>.</div>
+</div>
+<div id="ref-plato2004euthyphro" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] C.
+Plato, <em>Euthyphro</em>. Kessinger Publishing, 2014.</div>
+</div>
+</div>
