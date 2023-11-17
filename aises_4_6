@@ -1,4 +1,4 @@
-<h2 id="sec:sys-fact"> 4.6 Systemic Factors</h2>
+<h1 id="sec:sys-fact">Systemic Factors</h1>
 <p>As discussed above, if we want to improve the safety of a complex,
 sociotechnical system, it might be most effective to address the blunt
 end, or the broad systemic factors that can diffusely influence
@@ -27,7 +27,7 @@ solving problems, relying on it can lead organizations to neglect the
 broader system. They should consider how the proposed technological
 solution will actually function in the context of the whole system, and
 how it might affect the behavior of other components and human
-operators.<br />
+operators.<p>
 Multiple geoengineering technologies have been proposed as solutions to
 climate change, such as spraying particles high in the atmosphere to
 reflect sunlight. However, there are concerns that attempting this could
@@ -45,7 +45,7 @@ They might try to do this by reaching the goal more quickly or by trying
 to make the end product more valuable to customers in terms of the
 functionality it offers. These competitive pressures can compel
 employees and decision-makers to cut corners and pay less attention to
-safety.<br />
+safety.<p>
 On a larger scale, competitive pressures might put organizations or
 countries in an arms race, wherein safety standards slip because of the
 urgency of the situation. This will be especially true if one of the
@@ -60,7 +60,7 @@ not only financial costs but also slowdowns and reduced product
 performance. Adopting safety measures might therefore decrease
 productivity and slow progress toward a goal, reducing profits. The
 higher the costs of safety measures, the more reluctant an organization
-might be to adopt them.<br />
+might be to adopt them.<p>
 Developers of AI systems may want to put more effort into transparency
 and interpretability. However, investigating these areas are costly: at
 the very least, there will be personnel and compute costs that could
@@ -75,9 +75,9 @@ prefer to avoid.</p>
 systemic factor.</strong> A final systemic factor that will broadly
 influence a system’s safety can simply be referred to as its “safety
 culture.” This captures the general attitude that the people in an
-organization have toward safety—–how seriously they take it, and how
-that translates into their actions. We will discuss some specific
-features of a diligent safety culture in the next section.</p>
+organization have toward safety—how seriously they take it, and how that
+translates into their actions. We will discuss some specific features of
+a diligent safety culture in the next section.</p>
 <p><strong>Summary.</strong> We have seen that component failure
 accident models have some significant limitations, since they do not
 usually capture diffuse sources of risk that can shape a system’s
@@ -86,7 +86,7 @@ include important systemic factors such as competitive pressures, safety
 costs, and safety culture. We will now turn to systemic accident models
 that acknowledge these ideas and attempt to account for them in risk
 analysis.</p>
-<h3 id="systemic-accident-models"> 4.6.1 Systemic Accident Models</h3>
+<h2 id="systemic-accident-models">Systemic Accident Models</h2>
 <p>We have explored how component failure accident models are
 insufficient for properly understanding accidents in complex systems.
 When it comes to AIs, we must understand what sort of system we are
@@ -100,14 +100,14 @@ technologies, there are also significant differences in the properties
 of these technologies which means it will not necessarily work to take
 safety strategies from one system and map them directly onto another. We
 should not anchor to individual safety approaches used in rockets or
-power plants.<br />
+power plants.<p>
 Instead, it is more beneficial to approach AI safety from a broader
 perspective of making complex, sociotechnical systems safer. To this
 end, we can draw on the theory of sociotechnical systems, which offers
 “a method of viewing organizations which emphasises the interrelatedness
 of the functioning of the social and technological subsystems of the
 organization and the relation of the organization as a whole to the
-environment in which it operates.”<br />
+environment in which it operates.”<p>
 We can also use the complex systems literature more generally, which is
 largely about the shared structure of many different complex systems.
 Accidents in complex systems can often be better understood by looking
@@ -131,9 +131,9 @@ others so that one relatively small event can rapidly escalate to become
 a larger accident.</p></li>
 </ol>
 <p>NAT concludes that, if a system is both highly complex and tightly
-coupled, then accidents are inevitable–—or “normal”—regardless of how
+coupled, then accidents are inevitable—or “normal”—regardless of how
 well the system is managed <span class="citation"
-data-cites="perrow1999normal"></span>.</p>
+data-cites="perrow1999normal">[1]</span>.</p>
 <p><strong>NAT focuses on systemic factors.</strong> According to NAT,
 accidents are not caused by a single component failure or human error,
 but rather by the interactions and interdependencies between multiple
@@ -153,14 +153,14 @@ counterproductive, as they might just add another layer of complexity.
 As we explore in the Complex Systems chapter, systems often respond to
 interventions in unexpected ways. Interventions can cause negative side
 effects or even inadvertently exacerbate the problems they were
-introduced to solve.<br />
+introduced to solve.<p>
 Redundancy, which was listed earlier as a safe design principle, is
 supposed to increase safety by providing a backup for critical
 components, in case one of them fails. However, redundancy also
 increases complexity, which increases the risks of unforeseen and
 unintended interactions that can make it impossible for operators to
 predict all potential issues <span class="citation"
-data-cites="Leveson2009MovingBN"></span>. Having redundant components
+data-cites="Leveson2009MovingBN">[2]</span>. Having redundant components
 can also cause confusion; for example, people might receive
 contradictory instructions from multiple redundant monitoring systems
 and not know which one to believe.</p>
@@ -180,14 +180,14 @@ response to this conclusion, which might be perceived as pessimistic,
 other academics developed a more optimistic theory that points to “high
 reliability organizations” (HROs) that consistently operate hazardous
 technologies with low accident rates. These precedents include air
-traffic control, aircraft carriers, and nuclear power plants.<br />
+traffic control, aircraft carriers, and nuclear power plants.<p>
 HRO theory emphasizes the importance of human factors, arguing that it
 must be possible to manage even complex, tightly coupled systems in a
 way that reliably avoids accidents. It identifies five key features of
 HROs’ management culture that can significantly lower the risk of
 accidents <span class="citation"
-data-cites="Dietterich2017Steps"></span>. We will now discuss these five
-features and how AIs might help improve them.</p>
+data-cites="Dietterich2017Steps">[3]</span>. We will now discuss these
+five features and how AIs might help improve them.</p>
 <ol>
 <li><p><strong>Preoccupation with failure means reporting and studying
 mistakes and near misses.</strong> HROs encourage the reporting of all
@@ -254,14 +254,14 @@ should have models of their own expertise and the expertise of human
 operators to ensure effective problem routing. By adhering to these
 principles, we can develop AI systems that function like HROs, ensuring
 high reliability and minimizing the potential risks associated with
-their deployment and use.<br />
+their deployment and use.<p>
 <strong>Doubts have been raised about how widely HRO theory can be
 applied.</strong> Although the practices listed above can improve
 safety, a main criticism of HRO theory is that they cannot be applied to
 all systems and technologies <span class="citation"
-data-cites="Leveson2009MovingBN"></span>. This is because the theory was
-developed from a relatively small group of example systems, and certain
-features of them cannot be replicated in all systems.</p>
+data-cites="Leveson2009MovingBN">[2]</span>. This is because the theory
+was developed from a relatively small group of example systems, and
+certain features of them cannot be replicated in all systems.</p>
 <p><strong>It is difficult to understand systems sufficiently
 well.</strong> First, in the example HROs (such as air traffic control
 or nuclear power plants), operators usually have near-complete knowledge
@@ -312,7 +312,8 @@ hand, near misses could instead be interpreted as supporting HRO theory;
 the fact that they did not turn into anything larger could be considered
 evidence that HROs have the appropriate measures in place to prevent
 accidents. It is not clear which of these interpretations is correct
-<span class="citation" data-cites="Leveson2009MovingBN"></span>.<br />
+<span class="citation"
+data-cites="Leveson2009MovingBN">[2]</span>.<p>
 Nevertheless, both NAT and HRO theory have contributed important
 concepts to safety engineering. NAT has identified complexity and tight
 coupling as key risk factors, while HRO theory has developed important
@@ -327,18 +328,18 @@ operators.</p>
 Risk Management Framework (RMF) is an accident model that recognizes
 that accidents are usually the culmination of many different factors,
 rather than a single root cause <span class="citation"
-data-cites="rasmussen1997"></span>. This model frames risk management as
-a question of control, emphasizing the need for clearly defined safety
-boundaries that a system’s operations must stay within.</p>
-<p><strong>Levels of organization and AcciMap.</strong> As shown in the
-figure below, the RMF considers six hierarchical levels of organization
-within a system, each of which can affect its safety: government,
-regulators, the company, management, frontline workers, and the work
-itself. By drawing out an “AcciMap” with this hierarchy, we can identify
-actors at different levels who share responsibility for safety, as well
-as conditions that may influence the risk of an accident. This analysis
-makes it explicit that accidents cannot be solely explained by an action
-at the sharp end.</p>
+data-cites="rasmussen1997">[4]</span>. This model frames risk management
+as a question of control, emphasizing the need for clearly defined
+safety boundaries that a system’s operations must stay within.</p>
+<p><strong>Levels of organization and AcciMap.</strong> The RMF
+considers six hierarchical levels of organization within a system, each
+of which can affect its safety: government, regulators, the company,
+management, frontline workers, and the work itself. By drawing out an
+“AcciMap” with this hierarchy, we can identify actors at different
+levels who share responsibility for safety, as well as conditions that
+may influence the risk of an accident. This analysis makes it explicit
+that accidents cannot be solely explained by an action at the sharp
+end.</p>
 <figure id="fig:Rasmussen">
 <img src="images/safety_engineering/Rasmussen.png" />
 <figcaption>Rasmussen’s Risk Management Framework</figcaption>
@@ -365,7 +366,7 @@ safety rather than just on the reliability of components.</p>
 control.</strong> STAMP proposes that safety can be enforced by each
 level effectively placing safety constraints on the one below to keep
 operations from migrating into unsafe states <span class="citation"
-data-cites="Leveson2009MovingBN"></span>. Performing STAMP-based risk
+data-cites="Leveson2009MovingBN">[2]</span>. Performing STAMP-based risk
 analysis and management involves creating models of four aspects of a
 system: the organizational safety structure, the dynamics that can cause
 this structure to deteriorate, the models of system processes that
@@ -389,7 +390,7 @@ neat chain of events or find a root cause: such instincts are often
 based on the desire to have a feeling of control by assigning blame.
 Instead, it might make sense to describe a system as migrating toward
 failure, due to the accumulation of many seemingly insignificant
-events.<br />
+events.<p>
 This might include natural processes, such as wear and tear of
 equipment. It can also include systemic factors, such as competitive
 pressures, that might compel employees to omit safety checks. If being
@@ -401,7 +402,7 @@ what needs to be done to maintain an effective safety structure.</p>
 The third aspect is the knowledge that operators must have about how the
 system functions in order to make safe decisions. Operators may be
 humans or automated systems that have to monitor feedback from the
-system and respond to keep it on track.<br />
+system and respond to keep it on track.<p>
 The process model that these operators should have includes the
 assumptions about operating conditions that were made during the design
 stage so that they will be aware of the conditions in which the system
@@ -420,11 +421,11 @@ governments may impose stringent regulations, or they may put pressure
 on an organization to reach its goals quickly, depending on what is most
 important to them at the time. Similarly, social pressures and attitudes
 may put pressure on organizations to improve safety or pressure to
-achieve goals quickly.<br />
+achieve goals quickly.<p>
 Table <a href="#tab:assumptions" data-reference-type="ref"
 data-reference="tab:assumptions">[tab:assumptions]</a> summarizes how
 the STAMP perspective contrasts with those of traditional component
-failure models.<br />
+failure models.<p>
 <strong>STAMP-based analysis techniques include System-Theoretic Process
 Analysis (STPA).</strong> On a practical level, there are methods of
 analyzing systems that take the holistic approach outlined by STAMP.
@@ -435,7 +436,7 @@ improve system safety.</p>
 <p><strong>Decrementalism is the deterioration of system processes
 through a series of small changes.</strong> A third accident model based
 on systems theory is Dekker’s Drift into Failure (DIF) model <span
-class="citation" data-cites="dekker2011Drift"></span>. DIF focuses on
+class="citation" data-cites="dekker2011Drift">[5]</span>. DIF focuses on
 the migration of systems that the RMF and STAMP also acknowledge,
 describing how this can lead to a “drift into failure.” Since an
 individual decision to change processes may be relatively minor, it can
@@ -458,7 +459,7 @@ hand, it has been argued that HROs with consistently low accident rates
 demonstrate that it is possible to avoid accidents. HRO theory
 identifies five key characteristics that contribute to a good safety
 culture and reduce the likelihood of accidents. However, it might not be
-feasible to replicate these across all organizations.<br />
+feasible to replicate these across all organizations.<p>
 Systemic models like Rasmussen’s RMF, STAMP, and Dekker’s DIF model are
 grounded in an understanding of complex systems, viewing safety as an
 emergent property. The RMF and STAMP both view safety as an issue of
@@ -468,7 +469,7 @@ how accidents are caused by multiple factors, rather than just by one
 event at the sharp end. DIF describes how systems are often subject to
 decrementalism, whereby the safety of processes is gradually degraded
 through a series of minor changes, each of which seems minor on its
-own.<br />
+own.<p>
 In general, component failure models focus on identifying specific
 components or factors that can go wrong in a system and finding ways to
 improve those components. These models are effective at pinpointing
@@ -481,9 +482,8 @@ between various components in a system, such as feedback loops, human
 factors, and diffuse causality models. This allows them to capture a
 wider range of risk sources and potential interventions, making them
 more comprehensive in addressing system failures.</p>
-
-<h2 id="drift-into-failure-and-existential-risks"> 4.7 Drift into Failure and
-Existential Risks</h2>
+<h1 id="drift-into-failure-and-existential-risks">Drift into Failure and
+Existential Risks</h1>
 <p>This book presents multiple ways in which the development and
 deployment of AIs could entail risks, some of which could be
 catastrophic or even existential. However, the systemic accident models
@@ -492,7 +492,7 @@ a much more complex manner than the hypothetical scenarios we use to
 illustrate risks. It is possible that many relatively minor events could
 accumulate, leading us to drift toward an existential risk. We are
 unlikely to be able to predict and address every potential combination
-of events that could pave the route to a catastrophe.<br />
+of events that could pave the route to a catastrophe.<p>
 For this reason, although it can be useful to study the different risks
 associated with AI separately when initially learning about them, we
 should be aware that hypothetical example scenarios are simplified, and
@@ -513,19 +513,19 @@ non-existential without serious consideration.</p>
 catastrophe.</strong> Another reason for thinking more comprehensively
 about safety is that, even if a risk is not individually extreme, it
 might interact with other risks to bring about catastrophic outcomes
-<span class="citation" data-cites="hendrycks2023overview"></span>.
+<span class="citation" data-cites="hendrycks2023overview">[6]</span>.
 Imagine, for instance, a scenario in which competitive pressures fuel an
 AI race between developers. This may lead a company to reduce its costs
 by putting less money into maintaining robust information security
 systems, with the result that a powerful AI is leaked. This would
 increase the likelihood that someone with malicious intent successfully
 uses the AI to pursue a harmful outcome, such as the release of a deadly
-pathogen.<br />
+pathogen.<p>
 In this case, the AI race has not directly led to an existential risk by
 causing companies to, for example, bring AIs with insufficient safety
 measures to market. Nevertheless it has indirectly contributed to the
 existential threat of a pandemic by amplifying the risk of malicious
-use.<br />
+use.<p>
 This echoes our earlier discussion of catastrophes in complex system,
 where we discussed how it is often impractical and infeasible to
 attribute blame to one major “root cause” of failure. Instead, systems
@@ -569,5 +569,48 @@ In addressing existential threats, it is therefore reasonable to view
 systems holistically and consider a wide range of issues, besides the
 most obvious catastrophic risks. Due to system complexity, broad
 interventions are likely to be required as well as narrowly targeted
-ones.<br />
+ones.<p>
 </p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-perrow1999normal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] C.
+Perrow, <em>Normal accidents: Living with high risk technologies -
+updated edition</em>, REV - Revised. Princeton University Press, 1999.
+Accessed: Oct. 14, 2023. [Online]. Available: <a
+href="http://www.jstor.org/stable/j.ctt7srgf">http://www.jstor.org/stable/j.ctt7srgf</a></div>
+</div>
+<div id="ref-Leveson2009MovingBN" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] N.
+G. Leveson, N. Dulac, K. Marais, and J. S. Carroll, <span>“Moving beyond
+normal accidents and high reliability organizations: A systems approach
+to safety in complex systems,”</span> <em>Organization Studies</em>,
+2009.</div>
+</div>
+<div id="ref-Dietterich2017Steps" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] T.
+G. Dietterich, <span>“Steps toward robust artificial
+intelligence,”</span> <em>AI Magazine</em>, vol. 38, no. 3, pp. 3–24,
+2017, doi: <a
+href="https://doi.org/10.1609/aimag.v38i3.2756">https://doi.org/10.1609/aimag.v38i3.2756</a>.</div>
+</div>
+<div id="ref-rasmussen1997" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] J.
+Rasmussen, <span>“Risk management in a dynamic society: A modelling
+problem,”</span> <em>Safety Science</em>, vol. 27, no. 2, pp. 183–213,
+1997, doi: <a
+href="https://doi.org/10.1016/S0925-7535(97)00052-0">https://doi.org/10.1016/S0925-7535(97)00052-0</a>.</div>
+</div>
+<div id="ref-dekker2011Drift" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] S.
+Dekker, <em>Drift into failure: From hunting broken components to
+understanding complex systems</em>. 2011, pp. 1–220. doi: <a
+href="https://doi.org/10.1201/9781315257396">10.1201/9781315257396</a>.</div>
+</div>
+<div id="ref-hendrycks2023overview" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] D.
+Hendrycks, M. Mazeika, and T. Woodside, <span>“An overview of
+catastrophic AI risks.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2306.12001">https://arxiv.org/abs/2306.12001</a></div>
+</div>
+</div>
