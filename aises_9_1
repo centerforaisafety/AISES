@@ -1,12 +1,12 @@
 <!-- AI Governance -->
 
-<h1 id="introduction"> 9.1 Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p><strong>Safe artificial intelligence requires careful
 governance.</strong> The development and deployment of advanced AI
 systems involves many organizations and individuals with distinct goals
 and incentives. These organizations and people can interact in
 complicated ways, creating a complex sociotechnical system that we need
-to govern effectively.<br />
+to govern effectively.<p>
 There are a wide variety of issues that governance is required to manage
 across different stages of AI development (from data collection through
 various stages of training to deployment) and involving various actors
@@ -22,26 +22,25 @@ the norms, policies, and institutions that influence stakeholders’
 actions to achieve socially desirable outcomes. In healthcare, for
 instance, governance aimed at ensuring doctors avoid harming patients
 for profit includes norms around patient care, professional ethical
-standards, and licensing organizations’ ethics boards. AI regulators
-should aim to encourage safety and responsibility among developers and
-users of transformative technologies to ensure we avoid the risks of AIs
-and instead reap its benefits.</p>
+standards, and licensing organizations. AI regulators should aim to
+encourage safety and responsibility among developers and users to ensure
+we reap AI’s benefits while managing the risks.</p>
 <p><strong>Governance takes many forms across sectors and
 levels.</strong> Governance institutions include governmental bodies
 that create laws, companies that shape internal rules, and collaborative
-initiatives involving both public and private groups: legislatures pass
-regulations, corporations adopt ethical guidelines, and public-private
-forums establish AI safety best practices. Governance operates at
-multiple levels as well, such as organizational policies, national laws,
-and global agreements. Effective AI governance likely requires a
-combination of approaches across sectors and levels.</p>
+initiatives involving both public and private groups. For example,
+legislatures pass regulations, corporations adopt ethical guidelines,
+and public-private forums establish AI safety best practices. Governance
+operates at multiple levels as well, such as organizational policies,
+national laws, and global agreements. Effective AI governance likely
+requires a combination of approaches across sectors and levels.</p>
 <p><strong>Overview.</strong> We begin by examining the ecosystem in
 which governance takes place, including the relevant actors, such as
 companies, governments, and individuals, and the tools available to
-govern them. Then, we explore different scenarios of AI takeoff and
-their implications. Next, we consider issues around the distribution of
-power among AIs, access to AIs, and the distribution of costs, benefits
-and risks.<br />
+govern them. Then, we explore different scenarios around the speed of
+growth in AI systems’ capabilities and their implications. Next, we
+consider issues around the distribution of power of AI systems, access
+to AI, as well as costs, benefits and risks.<p>
 We then survey policy tools for AI governance at the corporate, national
 and international levels. For corporations, we explore legal structures,
 ownership models, and assurance mechanisms that impact AI safety. At the
@@ -52,30 +51,30 @@ to non-proliferation agreements, verification schemes, and monopolies
 for military systems. By highlighting levers across multiple levels,
 this chapter provides an introduction to a range of governance
 approaches aimed at ensuring AI is developed safely.</p>
-<h2 id="the-landscape"> 9.1.1 The Landscape</h2>
+<h2 id="the-landscape">The Landscape</h2>
 <p>To govern AI, we must understand the system in which AIs are being
 developed and deployed. Two crucial aspects for governance are the list
 of actors and the tools available to govern them.</p>
 <h3 id="actors">Actors</h3>
 <p>AI governance involves many diverse groups across sectors that have
 different goals and can do different things to accomplish them. Key
-actors include companies (research or product), nonprofits, governments,
-and individuals.</p>
+actors include companies, nonprofits, governments, and individuals.</p>
 <p><strong>Companies develop and deploy AIs, typically for
 profit.</strong> Major firms such as OpenAI and Google DeepMind shape
 the AI landscape through huge investments in research and development,
-creating powerful models that advance AI capabilities. Startups explore
-new applications of AIs and are often funded by venture capitalists. The
-section looks at policies, incentives, and structures such as ownership
-models of organizations that impact the development and deployment of AI
-systems.</p>
+creating powerful models that advance AI capabilities. Startups may
+explore new applications of AI and are often funded by venture
+capitalists. The section looks at policies, incentives, and structures
+such as ownership models of organizations that impact the development
+and deployment of AI systems.</p>
 <p><strong>Nonprofits play a variety of roles aimed at improving
-society.</strong> Some nonprofits aim to develop safe AIs; OpenAI was
-initially founded as a nonprofit. Others engage in advocacy and
-coordination by bringing together companies, governments, and research
-labs to collaborate on development and regulation. Academic labs such as
-MILA research AI capabilities, and some researchers there aim to make AI
-more beneficial. Some nonprofits perform a mix of these functions.</p>
+society.</strong> Some nonprofits aim to develop safe AI systems. For
+example, OpenAI was initially founded as a nonprofit. Others engage in
+advocacy and coordination by bringing together companies, governments,
+and research labs to collaborate on development and regulation. Academic
+labs such as MILA research AI capabilities, and some researchers there
+aim to make AI more beneficial. Some nonprofits perform a mix of these
+functions.</p>
 <p><strong>National governments make laws, regulations, and
 standards.</strong> National governments can directly shape AI
 development and use within their jurisdictions through legislative and
@@ -151,7 +150,7 @@ organizations by defining unacceptable behaviors. Property rights and
 intellectual property regimes determine ownership and control over
 assets such as data, algorithms, trained models, and compute. Outlining
 rights clearly can establish strong governance regimes that allow
-litigation against any infringements.<br />
+litigation against any infringements.<p>
 The diverse actors in AI development and deployment along with the
 varied governance tools at our disposal form an intricate ecosystem.
 Companies, researchers, governments, and individuals influence progress
@@ -159,4 +158,4 @@ based on their capabilities and incentives. Financial incentives,
 established rules, delineated rights, and information sharing steer
 beliefs and behaviors. Next, we will consider an issue central to
 defining the landscape in which governance will take place: at what rate
-should we expect AIs to achieve superhuman capabilities?</p>
+should we expect the capabilities of AI systems to progress?</p>
