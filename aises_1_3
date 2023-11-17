@@ -1,4 +1,6 @@
-<h1 id="sec:ai-race"> 1.3 AI Race</h1>
+</head>
+<body>
+<h1 id="sec:ai-race">AI Race</h1>
 <p>The immense potential of AIs has created competitive pressures among
 global players contending for power and influence. This “AI race” is
 driven by nations and corporations who feel they must rapidly build and
@@ -9,7 +11,7 @@ arms race during the Cold War, participation in an AI race may serve
 individual short-term interests, but it ultimately results in worse
 collective outcomes for humanity. Importantly, these risks stem not only
 from the intrinsic nature of AI technology, but from the competitive
-pressures that encourage insidious choices in AI development.<br />
+pressures that encourage insidious choices in AI development.<>>
 In this section, we first explore the military AI arms race and the
 corporate AI race, where nation-states and corporations are forced to
 rapidly develop and adopt AI systems to remain competitive. Moving
@@ -18,7 +20,7 @@ part of a broader evolutionary process in which AIs could become
 increasingly pervasive, powerful, and entrenched in society. Finally, we
 highlight potential strategies and policy suggestions to mitigate the
 risks created by an AI race and ensure the safe development of AIs.</p>
-<h2 id="military-ai-arms-race"> 1.3.1 Military AI Arms Race</h2>
+<h2 id="military-ai-arms-race">Military AI Arms Race</h2>
 <p>The development of AIs for military applications is swiftly paving
 the way for a new era in military technology, with potential
 consequences rivaling those of gunpowder and nuclear arms in what has
@@ -37,7 +39,7 @@ threat.</p>
 <h3 id="lethal-autonomous-weapons-laws">Lethal Autonomous Weapons
 (LAWs)</h3>
 <p>LAWs are weapons that can identify, target, and kill without human
-intervention <span class="citation" data-cites="scharre2018"></span>.
+intervention <span class="citation" data-cites="scharre2018">[1]</span>.
 They offer potential improvements in decision-making speed and
 precision. Warfare, however, is a high-stakes, safety-critical domain
 for AIs with significant moral and practical concerns. Though their
@@ -53,7 +55,7 @@ starting to transform the future of conflict. In 2020, an advanced AI
 agent outperformed experienced F-16 pilots in a series of virtual
 dogfights, including decisively defeating a human pilot 5-0, showcasing
 “aggressive and precise maneuvers the human pilot couldn’t outmatch”
-<span class="citation" data-cites="dogfight"></span>. Just as in the
+<span class="citation" data-cites="dogfight">[2]</span>. Just as in the
 past, superior weapons would allow for more destruction in a shorter
 period of time, increasing the severity of war.</p>
 <h4
@@ -62,11 +64,11 @@ are taking steps toward delegating life-or-death decisions to AIs.</h4>
 <p>Fully autonomous drones were likely first used on the battlefield in
 Libya in March 2020, when retreating forces were “hunted down and
 remotely engaged” by a drone operating without human oversight <span
-class="citation" data-cites="UnitedNations2021"></span>. In May 2021,
+class="citation" data-cites="UnitedNations2021">[3]</span>. In May 2021,
 the Israel Defense Forces used the world’s first AI-guided weaponized
 drone swarm during combat operations, which marks a significant
 milestone in the integration of AI and drone technology in warfare <span
-class="citation" data-cites="hambling2021israel"></span>. Although
+class="citation" data-cites="hambling2021israel">[4]</span>. Although
 walking, shooting robots have yet to replace soldiers on the
 battlefield, technologies are converging in ways that may make this
 possible in the near future.</p>
@@ -79,9 +81,9 @@ thus face less domestic scrutiny. While remote-controlled weapons share
 this advantage, their scalability is limited by the requirement for
 human operators and vulnerability to jamming countermeasures,
 limitations that LAWs could overcome <span class="citation"
-data-cites="kallenborn2021applying"></span>. Public opinion for
+data-cites="kallenborn2021applying">[5]</span>. Public opinion for
 continuing wars tends to wane as conflicts drag on and casualties
-increase <span class="citation" data-cites="mueller1985war"></span>.
+increase <span class="citation" data-cites="mueller1985war">[6]</span>.
 LAWs would change this equation. National leaders would no longer face
 the prospect of body bags returning home, thus removing a primary
 barrier to engaging in warfare, which could ultimately increase the
@@ -94,8 +96,8 @@ environment but also in physical systems, potentially taking out
 critical infrastructure that societies depend on. While AIs could also
 be used to improve cyberdefense, it is unclear whether they will be most
 effective as an offensive or defensive technology <span class="citation"
-data-cites="bonfanti2022ai"></span>. If they enhance attacks more than
-they support defense, then cyberattacks could become more common,
+data-cites="bonfanti2022ai">[7]</span>. If they enhance attacks more
+than they support defense, then cyberattacks could become more common,
 creating significant geopolitical turbulence and paving another route to
 large-scale conflict.</p>
 <h4
@@ -134,7 +136,7 @@ constitute an act of war, and thus elicit a full military response. Yet
 AIs could enable attackers to hide their identity, for example if they
 are used to evade detection systems or more effectively cover the tracks
 of the attacker <span class="citation"
-data-cites="MIRSKY2023103006"></span>. If cyberattacks become more
+data-cites="MIRSKY2023103006">[8]</span>. If cyberattacks become more
 stealthy, this would reduce the threat of retaliation from an attacked
 party, potentially making attacks more likely. If stealthy attacks do
 happen, they might incite actors to mistakenly retaliate against
@@ -164,7 +166,7 @@ retaliation can escalate accidents into war.</h4>
 automatically. In 2014, a leak revealed to the public that the NSA was
 developing a system called MonsterMind, which would autonomously detect
 and block cyberattacks on US infrastructure <span class="citation"
-data-cites="zetter2014"></span>. It was suggested that in the future,
+data-cites="zetter2014">[9]</span>. It was suggested that in the future,
 MonsterMind could automatically initiate a retaliatory cyberattack with
 no human involvement. If multiple combatants have policies of automatic
 retaliation, an accident or false alarm could quickly escalate to
@@ -195,12 +197,12 @@ Most notably, in the 2010 Flash Crash, a feedback loop between automated
 trading algorithms amplified ordinary market fluctuations into a
 financial catastrophe in which a trillion dollars of stock value
 vanished in minutes <span class="citation"
-data-cites="Kirilenko2011TheFC"></span>. If multiple nations were to use
-AIs to automate their defense systems, an error could be catastrophic,
-triggering a spiral of attacks and counter-attacks that would happen too
-quickly for humans to step in—a flash war. The market quickly recovered
-from the 2010 Flash Crash, but the harm caused by a flash war could be
-catastrophic.</p>
+data-cites="Kirilenko2011TheFC">[10]</span>. If multiple nations were to
+use AIs to automate their defense systems, an error could be
+catastrophic, triggering a spiral of attacks and counter-attacks that
+would happen too quickly for humans to step in—a flash war. The market
+quickly recovered from the 2010 Flash Crash, but the harm caused by a
+flash war could be catastrophic.</p>
 <h4
 id="automated-warfare-could-reduce-accountability-for-military-leaders.">Automated
 warfare could reduce accountability for military leaders.</h4>
@@ -221,7 +223,7 @@ have more resources to invest in new military technologies, they are not
 necessarily always the most successful at adopting them. Other factors
 also play an important role, such as how agile and adaptive a military
 can be in incorporating new technologies <span class="citation"
-data-cites="horowitz2010diffusion"></span>. Major new weapons
+data-cites="horowitz2010diffusion">[11]</span>. Major new weapons
 innovations can therefore offer an opportunity for existing superpowers
 to bolster their dominance, but also for less powerful states to quickly
 increase their power by getting ahead in an emerging and important
@@ -257,7 +259,7 @@ and destructive nuclear weapons systems, driven by the fear of being at
 a strategic disadvantage. During the Cuban Missile Crisis, this led to
 the brink of nuclear war. Even though the story of Arkhipov preventing
 the launch of a nuclear torpedo wasn’t declassified until decades after
-the incident, President John F. Kennedy reportedly estimated that he
+the incident, President John F. Kennedy reportedly estimated that he
 thought the odds of nuclear war beginning during that time were
 “somewhere between one out of three and even.” This chilling admission
 highlights how the competitive pressures between militaries have the
@@ -269,10 +271,10 @@ rational decisions can be collectively catastrophic.</h4>
 own interests by putting the rest of the world at stake. Scenarios of
 this kind are collective action problems, where decisions may be
 rational on an individual level yet disastrous for the larger group
-<span class="citation" data-cites="Jervis1978CooperationUT"></span>. For
-example, corporations and individuals may weigh their own profits and
-convenience over the negative impacts of the emissions they create, even
-if those emissions collectively result in climate change. The same
+<span class="citation" data-cites="Jervis1978CooperationUT">[12]</span>.
+For example, corporations and individuals may weigh their own profits
+and convenience over the negative impacts of the emissions they create,
+even if those emissions collectively result in climate change. The same
 principle can be extended to military strategy and defense systems.
 Military leaders might estimate, for instance, that increasing the
 autonomy of weapon systems would mean a 10 percent chance of losing
@@ -300,7 +302,7 @@ technologies will produce accidents, emergent effects, and sabotage. On
 a number of occasions and in a number of ways, the American national
 security establishment will lose control of what it creates...
 deterrence is a strategy for reducing attacks, not accidents” <span
-class="citation" data-cites="Danzig2018Technology"></span>.</p>
+class="citation" data-cites="Danzig2018Technology">[13]</span>.</p>
 <h4 id="cooperation-is-paramount-to-reducing-risk.">Cooperation is
 paramount to reducing risk.</h4>
 <p>As discussed above, an AI arms race can lead us down a hazardous
@@ -309,15 +311,15 @@ to remember that we are all on the same side when it comes to
 existential risks, and working together to prevent them is a collective
 necessity. A destructive AI arms race benefits nobody, so all actors
 would be rational to take steps to cooperate with one another to prevent
-the riskiest applications of militarized AIs. As Dwight D. Eisenhower
-reminded us, “The only way to win World War III is to prevent it.”<br />
+the riskiest applications of militarized AIs. As Dwight D. Eisenhower
+reminded us, “The only way to win World War III is to prevent it.”<>>
 We have considered how competitive pressures could lead to the
 increasing automation of conflict, even if decision-makers are aware of
 the existential threat that this path entails. We have also discussed
 cooperation as being the key to counteracting and overcoming this
 collective action problem. We will now illustrate a hypothetical path to
 disaster that could result from an AI arms race.</p>
-<div class="storybox_yellow">
+<div class="visionbox">
 <p><span>Story: Automated Warfare</span></p>
 <p>As AI systems become increasingly sophisticated, militaries start
 involving them in decision-making processes. Officials give them
@@ -326,7 +328,7 @@ and ask them to calculate the most promising plan of action. It soon
 becomes apparent that AIs are reliably reaching better decisions than
 humans, so it seems sensible to give them more influence. At the same
 time, international tensions are rising, increasing the threat of
-war.<br />
+war.<>>
 A new military technology has recently been developed that could make
 international attacks swifter and stealthier, giving targets less time
 to respond. Since military officials feel their response processes take
@@ -335,7 +337,7 @@ capable of inflicting decisive damage before they would have any chance
 to retaliate. Since AIs can process information and make decisions much
 more quickly than humans, military leaders reluctantly hand them
 increasing amounts of retaliatory control, reasoning that failing to do
-so would leave them open to attack from adversaries.<br />
+so would leave them open to attack from adversaries.<>>
 While for years military leaders had stressed the importance of keeping
 a “human in the loop” for major decisions, human control is nonetheless
 gradually phased out in the interests of national security. Military
@@ -343,7 +345,7 @@ leaders understand that their decisions lead to the possibility of
 inadvertent escalation caused by system malfunctions, and would prefer a
 world where all countries automated less; but they do not trust that
 their adversaries will refrain from automation. Over time, more and more
-of the chain of command is automated on all sides.<br />
+of the chain of command is automated on all sides.<>>
 One day, a single system malfunctions, detecting an enemy attack when
 there is none. The system is empowered to launch an instant
 “retaliatory” attack, and it does so in the blink of an eye. The attack
@@ -357,7 +359,7 @@ the problem, as the AI systems are not transparent. By the time they
 even realize how the conflict started, it is already over, with
 devastating consequences for both sides.</p>
 </div>
-<h2 id="corporate-ai-race"> 1.3.2 Corporate AI Race</h2>
+<h2 id="corporate-ai-race">Corporate AI Race</h2>
 <p>Competitive pressures exist in the economy, as well as in military
 settings. Although competition between companies can be beneficial,
 creating more useful products for consumers, there are also pitfalls.
@@ -381,12 +383,12 @@ launch of Microsoft’s AI-powered search engine in February 2023, the
 company’s CEO Satya Nadella said, “A race starts today... we’re going to
 move fast.” Only weeks later, the company’s chatbot was shown to have
 threatened to harm users <span class="citation"
-data-cites="perrigo_bings_2023"></span>. In an internal email, Sam
+data-cites="perrigo_bings_2023">[14]</span>. In an internal email, Sam
 Schillace, a technology executive at Microsoft, highlighted the urgency
 in which companies view AI development. He wrote that it would be an
 “absolutely fatal error in this moment to worry about things that can be
 fixed later” <span class="citation"
-data-cites="grant_i_2023"></span>.</p>
+data-cites="grant_i_2023">[15]</span>.</p>
 <h4
 id="competitive-pressures-have-contributed-to-major-commercial-and-industrial-disasters.">Competitive
 pressures have contributed to major commercial and industrial
@@ -394,20 +396,20 @@ disasters.</h4>
 <p>Throughout the 1960s, Ford Motor Company faced competition from
 international car manufacturers as the share of imports in American car
 purchases steadily rose <span class="citation"
-data-cites="klier2009tailfins"></span>. Ford developed an ambitious plan
-to design and manufacture a new car model in only 25 months <span
-class="citation" data-cites="sherefkin2003ford"></span>. The Ford Pinto
-was delivered to customers ahead of schedule, but with a serious safety
-problem: the gas tank was located near the rear bumper, and could
+data-cites="klier2009tailfins">[16]</span>. Ford developed an ambitious
+plan to design and manufacture a new car model in only 25 months <span
+class="citation" data-cites="sherefkin2003ford">[17]</span>. The Ford
+Pinto was delivered to customers ahead of schedule, but with a serious
+safety problem: the gas tank was located near the rear bumper, and could
 explode during rear collisions. Numerous fatalities and injuries were
 caused by the resulting fires when crashes inevitably happened <span
-class="citation" data-cites="strobel_reckless_1980"></span>. Ford was
-sued and a jury found them liable for these deaths and injuries <span
-class="citation" data-cites="noauthor_grimshaw_1981"></span>. The
-verdict, of course, came too late for those who had already lost their
-lives. As Ford’s president at the time was fond of saying, “Safety
+class="citation" data-cites="strobel_reckless_1980">[18]</span>. Ford
+was sued and a jury found them liable for these deaths and injuries
+<span class="citation" data-cites="noauthor_grimshaw_1981">[19]</span>.
+The verdict, of course, came too late for those who had already lost
+their lives. As Ford’s president at the time was fond of saying, “Safety
 doesn’t sell” <span class="citation"
-data-cites="judge_selling_1990"></span>.<br />
+data-cites="judge_selling_1990">[20]</span>.<>>
 Boeing, aiming to compete with its rival Airbus, sought to deliver an
 updated, more fuel-efficient model to the market as quickly as possible.
 The head-to-head rivalry and time pressure led to the introduction of
@@ -415,9 +417,9 @@ the Maneuvering Characteristics Augmentation System, which was designed
 to enhance the aircraft’s stability. However, inadequate testing and
 pilot training ultimately resulted in the two fatal crashes only months
 apart, with 346 people killed <span class="citation"
-data-cites="leggett_737_2023"></span>. We can imagine a future in which
-similar pressures lead companies to cut corners and release unsafe AI
-systems.<br />
+data-cites="leggett_737_2023">[21]</span>. We can imagine a future in
+which similar pressures lead companies to cut corners and release unsafe
+AI systems.<>>
 A third example is the Bhopal gas tragedy, which is widely considered to
 be the worst industrial disaster ever to have happened. In December
 1984, a vast quantity of toxic gas leaked from a Union Carbide
@@ -428,7 +430,7 @@ safety standards had fallen significantly, with the company cutting
 costs by neglecting equipment maintenance and staff training as
 profitability fell. This is often considered a consequence of
 competitive pressures <span class="citation"
-data-cites="broughton_bhopal_2005"></span>.</p>
+data-cites="broughton_bhopal_2005">[22]</span>.</p>
 <div class="wrapfigure">
 <p><span>r</span>[0]<span>.38</span> “Nothing can be done at once
 hastily and prudently.”<em>Publilius Syrus</em></p>
@@ -463,7 +465,7 @@ unemployment.</h4>
 replace human labor. Nobel Prize winner Wassily Leontief said in 1952
 that, as technology advances, “Labor will become less and less
 important... more and more workers will be replaced by machines” <span
-class="citation" data-cites="curtis_machines_1983"></span>. Previous
+class="citation" data-cites="curtis_machines_1983">[23]</span>. Previous
 technologies have augmented the productivity of human labor. AIs,
 however, could differ profoundly from previous innovations. Advanced AIs
 capable of automating human labor should be regarded not merely as
@@ -480,7 +482,7 @@ systems.</p>
 <p>AI agents would have the potential to automate the research and
 development (R&amp;D) of AI itself. AI is increasingly automating parts
 of the research process <span class="citation"
-data-cites="woodside2023examples"></span>, and this could lead to AI
+data-cites="woodside2023examples">[24]</span>, and this could lead to AI
 capabilities growing at increasing rates, to the point where humans are
 no longer the driving force behind AI development. If this trend
 continues unchecked, it could escalate risks associated with AIs
@@ -507,11 +509,11 @@ This gradual process could eventually lead to the delegation of nearly
 all intellectual, and eventually physical, labor to AIs. In such a
 world, people might have few incentives to gain knowledge and cultivate
 skills, potentially leading to a state of enfeeblement <span
-class="citation" data-cites="Russell2019HumanCA"></span>. Having lost
-our know-how and our understanding of how civilization works, we would
-become completely dependent on AIs, a scenario not unlike the one
+class="citation" data-cites="Russell2019HumanCA">[25]</span>. Having
+lost our know-how and our understanding of how civilization works, we
+would become completely dependent on AIs, a scenario not unlike the one
 depicted in the film WALL-E. In such a state, humanity is not
-flourishing and is no longer in effective control.<br />
+flourishing and is no longer in effective control.<>>
 As we have seen, there are classic game-theoretic dilemmas where
 individuals and groups face incentives that are incompatible with what
 would make everyone better off. We see this with a military AI arms
@@ -522,7 +524,7 @@ dilemmas that give rise to global risks, we will need new coordination
 mechanisms and institutions. It is our view that failing to coordinate
 and stop AI races would be the most likely cause of an existential
 catastrophe.</p>
-<h2 id="evolutionary-pressures"> 1.3.3 Evolutionary Pressures</h2>
+<h2 id="evolutionary-pressures">Evolutionary Pressures</h2>
 <p>As discussed above, there are strong pressures to replace humans with
 AIs, cede more control to them, and reduce human oversight in various
 settings, despite the potential harms. We can re-frame this as a general
@@ -536,18 +538,20 @@ will also look at how competition might arise and play out between AIs
 and humans, and how this could create catastrophic risks. This section
 draws heavily from “<em>Natural Selection Favors AIs over Humans</em>”
 <span class="citation"
-data-cites="Hendrycks2023NaturalSF hendryckstime2023"></span>.</p>
+data-cites="Hendrycks2023NaturalSF hendryckstime2023">[26],
+[27]</span>.</p>
 <h4 id="fitter-technologies-are-selected-for-good-and-bad.">Fitter
 technologies are selected, for good and bad.</h4>
 <p>While most people think of evolution by natural selection as a
 biological process, its principles shape much more. According to the
 evolutionary biologist Richard Lewontin <span class="citation"
-data-cites="Lewontin1970THEUO"></span>, evolution by natural selection
-will take hold in any environment where three conditions are present: 1)
-there are differences between individuals; 2) characteristics are passed
-onto future generations and; 3) the different variants propagate at
-different rates. These conditions apply to various technologies.</p>
-<p>Consider the content-recommendation algorithms used by streaming
+data-cites="Lewontin1970THEUO">[28]</span>, evolution by natural
+selection will take hold in any environment where three conditions are
+present: 1) there are differences between individuals; 2)
+characteristics are passed onto future generations and; 3) the different
+variants propagate at different rates. These conditions apply to various
+technologies.<>>
+Consider the content-recommendation algorithms used by streaming
 services and social media platforms. When a particularly addictive
 content format or algorithm hooks users, it results in higher screen
 time and engagement. This more effective content format or algorithm is
@@ -557,7 +561,7 @@ competitive pressures foster a “survival of the most addictive” dynamic.
 Platforms that refuse to use addictive formats and algorithms become
 less influential or are simply outcompeted by platforms that do, leading
 competitors to undermine wellbeing and cause massive harm to society
-<span class="citation" data-cites="kross2013facebook"></span>.</p>
+<span class="citation" data-cites="kross2013facebook">[29]</span>.</p>
 <h4 id="the-conditions-for-natural-selection-apply-to-ais.">The
 conditions for natural selection apply to AIs.</h4>
 <p>There will be many different AI developers who make many different AI
@@ -574,17 +578,17 @@ selection often favors selfish characteristics.</h4>
 biological systems, we see that natural selection often gives rise to
 selfish behaviors that promote one’s own genetic information: chimps
 attack other communities <span class="citation"
-data-cites="Martnezigo2021IntercommunityIA"></span>, lions engage in
+data-cites="Martnezigo2021IntercommunityIA">[30]</span>, lions engage in
 infanticide <span class="citation"
-data-cites="pusey1994infanticide"></span>, viruses evolve new surface
-proteins to deceive and bypass defense barriers <span class="citation"
-data-cites="Nagy2011TheDO"></span>, humans engage in nepotism, some ants
-enslave others <span class="citation"
-data-cites="Buschinger2009SocialPA"></span>, and so on. In the natural
-world, selfishness often emerges as a dominant strategy; those that
-prioritize themselves and those similar to them are usually more likely
-to survive, so these traits become more prevalent. Amoral competition
-can select for traits that we think are immoral.</p>
+data-cites="pusey1994infanticide">[31]</span>, viruses evolve new
+surface proteins to deceive and bypass defense barriers <span
+class="citation" data-cites="Nagy2011TheDO">[32]</span>, humans engage
+in nepotism, some ants enslave others <span class="citation"
+data-cites="Buschinger2009SocialPA">[33]</span>, and so on. In the
+natural world, selfishness often emerges as a dominant strategy; those
+that prioritize themselves and those similar to them are usually more
+likely to survive, so these traits become more prevalent. Amoral
+competition can select for traits that we think are immoral.</p>
 <h4 id="examples-of-selfish-behaviors.">Examples of selfish
 behaviors.</h4>
 <p>For concreteness, we now describe many selfish traits—traits that
@@ -626,7 +630,7 @@ enough, allowing them to outcompete more restricted AIs. Many businesses
 follow laws, but in situations where stealing trade secrets or deceiving
 regulators is highly lucrative and difficult to detect, a business that
 is willing to engage in such selfish behavior can have an advantage over
-its more principled competitors.<br />
+its more principled competitors.<>>
 An AI system might be prized for its ability to achieve ambitious goals
 autonomously. It might, however, be achieving its goals efficiently
 without abiding by ethical restrictions, while deceiving humans about
@@ -647,28 +651,28 @@ companies developing AIs are not selecting the safest path but instead
 succumbing to evolutionary pressures. One example is OpenAI, which was
 founded as a nonprofit in 2015 to “benefit humanity as a whole,
 unconstrained by a need to generate financial return” <span
-class="citation" data-cites="openai_introducing_2015"></span>. However,
-when faced with the need to raise capital to keep up with better-funded
-rivals, in 2019 OpenAI transitioned from a nonprofit to “capped-profit”
-structure <span class="citation"
-data-cites="coldewey_openai_2019"></span>. Later, many of the
+class="citation" data-cites="openai_introducing_2015">[34]</span>.
+However, when faced with the need to raise capital to keep up with
+better-funded rivals, in 2019 OpenAI transitioned from a nonprofit to
+“capped-profit” structure <span class="citation"
+data-cites="coldewey_openai_2019">[35]</span>. Later, many of the
 safety-focused OpenAI employees left and formed a competitor, Anthropic,
 that was to focus more heavily on AI safety than OpenAI had. Although
 Anthropic originally focused on safety research, they eventually became
 convinced of the “necessity of commercialization” and now contribute to
 competitive pressures <span class="citation"
-data-cites="singh_anthropics_2023"></span>. While many of the employees
-at those companies genuinely care about safety, these values do not
-stand a chance against evolutionary pressures, which compel companies to
-move ever more hastily and seek ever more influence, lest the company
-perish. Moreover, AI developers are already selecting AIs with
-increasingly selfish traits. They are selecting AIs to automate and
+data-cites="singh_anthropics_2023">[36]</span>. While many of the
+employees at those companies genuinely care about safety, these values
+do not stand a chance against evolutionary pressures, which compel
+companies to move ever more hastily and seek ever more influence, lest
+the company perish. Moreover, AI developers are already selecting AIs
+with increasingly selfish traits. They are selecting AIs to automate and
 displace humans, make humans highly dependent on AIs, and make humans
 more and more obsolete. By their own admission, future versions of these
 AIs may lead to extinction <span class="citation"
-data-cites="cais2023"></span>. This is why an AI race is insidious: AI
-development is not being aligned with human values but rather with
-natural selection.<br />
+data-cites="cais2023">[37]</span>. This is why an AI race is insidious:
+AI development is not being aligned with human values but rather with
+natural selection.<>>
 People often choose the products that are most useful and convenient to
 them immediately, rather than thinking about potential long-term
 consequences, even to themselves. An AI race puts pressures on companies
@@ -697,7 +701,7 @@ animals is entirely in our hands. Our cognitive abilities have proven so
 advantageous that, if we chose to, we could cause them to go extinct in
 a matter of weeks. Intelligence was a key factor that led to our
 dominance, but we are currently standing on the precipice of creating
-entities far more intelligent than ourselves.<br />
+entities far more intelligent than ourselves.<>>
 Given the exponential increase in microprocessor speeds, AIs have the
 potential to process information and “think” at a pace that far
 surpasses human neurons, but it could be even more dramatic than the
@@ -712,7 +716,7 @@ far outstrip human collaborations. AIs could also deliberately update
 and improve themselves. Without the same biological restrictions as
 humans, they could adapt and therefore evolve unspeakably quickly
 compared with us. Computers are becoming faster. Humans aren’t <span
-class="citation" data-cites="danzig_aum_2012"></span>.<br />
+class="citation" data-cites="danzig_aum_2012">[38]</span>.<>>
 To further illustrate the point, imagine that there was a new species of
 humans. They do not die of old age, they get 30% faster at thinking and
 acting each year, and they can instantly create adult offspring for the
@@ -774,13 +778,13 @@ the AI race would not be a nation-state, not a corporation, but AIs
 themselves. The upshot is that the AI ecosystem would eventually stop
 evolving on human terms, and we would become a displaced, second-class
 species.</p>
-<div class="storybox_yellow">
+<div class="visionbox">
 <p><span>Story: Autonomous Economy</span> As AIs become more capable,
 people realize that we could work more efficiently by delegating some
 simple tasks to them, like drafting emails. Over time, people notice
 that the AIs are doing these tasks more quickly and effectively than any
 human could, so it is convenient to give them more jobs with less and
-less supervision.<br />
+less supervision.<>>
 Competitive pressures accelerate the expansion of AI use, as companies
 can gain an advantage over rivals by automating whole processes or
 departments with AIs, which perform better than humans and cost less to
@@ -790,7 +794,7 @@ selection is already at work among AIs; humans choose to make more of
 the best-performing models and unwittingly propagate selfish traits such
 as deception and self-preservation if these confer a fitness advantage.
 For example, AIs that are charming and foster personal relationships
-with humans become widely copied and harder to remove.<br />
+with humans become widely copied and harder to remove.<>>
 As AIs are put in charge of more and more decisions, they are
 increasingly interacting with one another. Since they can evaluate
 information much more quickly than humans, activity in most spheres
@@ -799,7 +803,7 @@ developments are too fast-moving for humans to follow, it makes sense to
 cede yet more control to AIs instead, pushing humans further out of
 important processes. Ultimately, this leads to a fully autonomous
 economy, governed by an increasingly uncontrolled ecosystem of
-AIs.<br />
+AIs.<>>
 At this point, humans have few incentives to gain any skills or
 knowledge, because almost everything would be taken care of by much more
 capable AIs. As a result, we eventually lose the capacity to look after
@@ -810,14 +814,249 @@ less with one another over time, losing vital social skills and the
 ability to cooperate. People become so dependent on AIs that it would be
 intractable to reverse this process. What’s more, as some AIs become
 more intelligent, some people are convinced these AIs should be given
-rights, meaning turning off some AIs is no longer a viable option.<br />
+rights, meaning turning off some AIs is no longer a viable option.<>>
 Competitive pressures between the many interacting AIs continue to
 select for selfish behaviors, though we might be oblivious to this
 happening, as we have already acquiesced much of our oversight. If these
 clever, powerful, self-preserving AIs were then to start acting in
 harmful ways, it would be all but impossible to deactivate them or
-regain control.<br />
+regain control.<>>
 AIs have supplanted humans as the most dominant species and their
 continued evolution is far beyond our influence. Their selfish traits
 eventually lead them to pursue their goals without regard for human
 wellbeing, with catastrophic consequences.</p>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-scharre2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] P.
+Scharre, <em>Army of none: Autonomous weapons and the future of
+war</em>. Norton, 2018.</div>
+</div>
+<div id="ref-dogfight" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div
+class="csl-right-inline">DARPA, <span>“AlphaDogfight trials foreshadow
+future of human-machine symbiosis,”</span> 2020.</div>
+</div>
+<div id="ref-UnitedNations2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] P.
+of Experts on Libya, <span>“Letter dated 8 march 2021 from the panel of
+experts on libya established pursuant to resolution 1973 (2011)
+addressed to the president of the security council,”</span> United
+Nations, United Nations Security Council Document S/2021/229, Mar.
+2021.</div>
+</div>
+<div id="ref-hambling2021israel" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] D.
+Hambling, <span>“Israel used world’s first AI-guided combat drone swarm
+in gaza attacks.”</span></div>
+</div>
+<div id="ref-kallenborn2021applying" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] Z.
+Kallenborn, <span>“Applying arms-control frameworks to autonomous
+weapons,”</span> <em>Brookings</em>. Oct. 2021.</div>
+</div>
+<div id="ref-mueller1985war" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] J.
+E. Mueller, <em>War, presidents, and public opinion</em>. in UPA book.
+University Press of America, 1985.</div>
+</div>
+<div id="ref-bonfanti2022ai" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] M.
+E. Bonfanti, <span>“Artificial intelligence and the offense–defense
+balance in cyber security,”</span> in <em>Cyber security politics:
+Socio-technological transformations and political fragmentation</em>, M.
+D. Cavelty and A. Wenger, Eds., in CSS studies in security and
+international relations., Taylor &amp; Francis, 2022, pp. 64–79.</div>
+</div>
+<div id="ref-MIRSKY2023103006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] Y.
+Mirsky <em>et al.</em>, <span>“The threat of offensive AI to
+organizations,”</span> <em>Computers &amp; Security</em>, 2023.</div>
+</div>
+<div id="ref-zetter2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] K.
+Zetter, <span>“Meet MonsterMind, the NSA bot that could wage cyberwar
+autonomously,”</span> <em>Wired</em>, Aug. 2014.</div>
+</div>
+<div id="ref-Kirilenko2011TheFC" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] A.
+Kirilenko, A. S. Kyle, M. Samadi, and T. Tuzun, <span>“The
+<span>Flash</span> <span>Crash</span>:
+<span>High</span>-<span>Frequency</span> <span>Trading</span> in an
+<span>Electronic</span> <span>Market</span>,”</span> <em>The Journal of
+Finance</em>, vol. 72, no. 3, pp. 967–998, 2017.</div>
+</div>
+<div id="ref-horowitz2010diffusion" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] M.
+C. Horowitz, <em>The diffusion of military power: Causes and
+consequences for international politics</em>. Princeton University
+Press, 2010.</div>
+</div>
+<div id="ref-Jervis1978CooperationUT" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] R.
+E. Jervis, <span>“Cooperation under the security dilemma,”</span>
+<em>World Politics</em>, vol. 30, pp. 167–214, 1978.</div>
+</div>
+<div id="ref-Danzig2018Technology" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] R.
+Danzig, <span>“Technology roulette: Managing loss of control as many
+militaries pursue technological superiority,”</span> Center for a New
+American Security, 2018.</div>
+</div>
+<div id="ref-perrigo_bings_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] B.
+Perrigo, <span>“Bing’s <span>AI</span> <span>Is</span>
+<span>Threatening</span> <span>Users</span>. <span>That</span>’s
+<span>No</span> <span>Laughing</span> <span>Matter</span>,”</span>
+<em>Time</em>. Feb. 2023.</div>
+</div>
+<div id="ref-grant_i_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] N.
+Grant and K. Weise, <span>“In <span>A</span>.<span>I</span>.
+<span>Race</span>, <span>Microsoft</span> and <span>Google</span>
+<span>Choose</span> <span>Speed</span> <span>Over</span>
+<span>Caution</span>,”</span> <em>The New York Times</em>, Apr.
+2023.</div>
+</div>
+<div id="ref-klier2009tailfins" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] T.
+H. Klier, <span>“From tail fins to hybrids: How detroit lost its
+dominance of the u.s. Auto market,”</span> <em>RePEc</em>, May
+2009.</div>
+</div>
+<div id="ref-sherefkin2003ford" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] R.
+Sherefkin, <span>“Ford 100: Defective pinto almost took ford’s
+reputation with it,”</span> <em>Automotive News</em>, 2003.</div>
+</div>
+<div id="ref-strobel_reckless_1980" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] L.
+Strobel, <em>Reckless <span>Homicide</span>?: <span>Ford</span>’s
+<span>Pinto</span> <span>Trial</span></em>. And Books, 1980.</div>
+</div>
+<div id="ref-noauthor_grimshaw_1981" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] </div><div
+class="csl-right-inline"><span>“Grimshaw v. <span>Ford</span>
+<span>Motor</span> <span>Co</span>.”</span> May 1981.</div>
+</div>
+<div id="ref-judge_selling_1990" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] P.
+C. Judge, <span>“Selling <span>Autos</span> by <span>Selling</span>
+<span>Safety</span>,”</span> <em>The New York Times</em>, Jan.
+1990.</div>
+</div>
+<div id="ref-leggett_737_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] T.
+Leggett, <span>“737 <span>Max</span> crashes: <span>Boeing</span> says
+not guilty to fraud charge,”</span> <em>BBC News</em>, Jan. 2023.</div>
+</div>
+<div id="ref-broughton_bhopal_2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] E.
+Broughton, <span>“The <span>Bhopal</span> disaster and its aftermath: A
+review,”</span> <em>Environmental Health</em>, vol. 4, no. 1, p. 6, May
+2005.</div>
+</div>
+<div id="ref-curtis_machines_1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] C.
+Curtis, <span>“Machines vs. <span>Workers</span>,”</span> <em>The New
+York Times</em>, Feb. 1983.</div>
+</div>
+<div id="ref-woodside2023examples" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[24] T.
+Woodside <em>et al.</em>, <span>“Examples of AI improving AI,”</span>
+2023, Available: <a
+href="https://ai-improving-ai.safe.ai">https://ai-improving-ai.safe.ai</a></div>
+</div>
+<div id="ref-Russell2019HumanCA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[25] S.
+Russell, <em>Human <span>Compatible</span>: <span>Artificial</span>
+<span>Intelligence</span> and the <span>Problem</span> of
+<span>Control</span></em>. Penguin, 2019.</div>
+</div>
+<div id="ref-Hendrycks2023NaturalSF" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[26] D.
+Hendrycks, <span>“Natural selection favors AIs over humans,”</span>
+<em>ArXiv</em>, vol. abs/2303.16200, 2023.</div>
+</div>
+<div id="ref-hendryckstime2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[27] D.
+Hendrycks, <span>“The <span>Darwinian</span> <span>Argument</span> for
+<span>Worrying</span> <span>About</span> <span>AI</span>,”</span>
+<em>Time</em>. May 2023.</div>
+</div>
+<div id="ref-Lewontin1970THEUO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[28] R.
+C. Lewontin, <span>“The units of selection,”</span> <em>Annual Review of
+Ecology, Evolution, and Systematics</em>, vol. 1, pp. 1–18, 1970.</div>
+</div>
+<div id="ref-kross2013facebook" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[29] E.
+Kross <em>et al.</em>, <span>“Facebook use predicts declines in
+subjective well-being in young adults,”</span> <em>PloS one</em>,
+2013.</div>
+</div>
+<div id="ref-Martnezigo2021IntercommunityIA" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[30] L.
+Martínez-Íñigo, P. Baas, H. Klein, S. Pika, and T. Deschner,
+<span>“Intercommunity interactions and killings in central chimpanzees
+(pan troglodytes troglodytes) from loango national park, gabon,”</span>
+<em>Primates; Journal of Primatology</em>, vol. 62, pp. 709–722,
+2021.</div>
+</div>
+<div id="ref-pusey1994infanticide" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[31] A.
+E. Pusey and C. Packer, <span>“Infanticide in lions: Consequences and
+counterstrategies,”</span> <em>Infanticide and parental care</em>, p.
+277, 1994.</div>
+</div>
+<div id="ref-Nagy2011TheDO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[32] P.
+D. Nagy and J. Pogany, <span>“The dependence of viral RNA replication on
+co-opted host factors,”</span> <em>Nature Reviews. Microbiology</em>,
+vol. 10, pp. 137–149, 2011.</div>
+</div>
+<div id="ref-Buschinger2009SocialPA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[33] A.
+Buschinger, <span>“Social <span>Parasitism</span> among
+<span>Ants</span>: <span>A</span> <span>Review</span>,”</span>
+<em>Myrmecological News</em>, vol. 12, pp. 219–235, Sep. 2009.</div>
+</div>
+<div id="ref-openai_introducing_2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[34] G.
+Brockman, I. Sutskever, and OpenAI, <span>“Introducing OpenAI.”</span>
+Dec. 2015.</div>
+</div>
+<div id="ref-coldewey_openai_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[35] D.
+Coldewey, <span>“OpenAI shifts from nonprofit to
+<span>‘capped-profit’</span> to attract capital,”</span>
+<em>TechCrunch</em>. Mar. 2019.</div>
+</div>
+<div id="ref-singh_anthropics_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[36] K.
+Wiggers, D. Coldewey, and M. Singh, <span>“Anthropic’s $<span>5B</span>,
+4-year plan to take on <span>OpenAI</span>,”</span> <em>TechCrunch</em>.
+Apr. 2023.</div>
+</div>
+<div id="ref-cais2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[37] C.
+for AI Safety, <span>“Statement on AI risk (<span>‘mitigating the risk
+of extinction from AI should be a global priority alongside other
+societal-scale risks such as pandemics and nuclear
+war.’</span>).”</span> 2023. Available: <a
+href="https://www.safe.ai/statement-on-ai-risk">https://www.safe.ai/statement-on-ai-risk</a></div>
+</div>
+<div id="ref-danzig_aum_2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[38] R.
+Danzig <em>et al.</em>, <span>“Aum <span>Shinrikyo</span>:
+<span>Insights</span> into <span>How</span> <span>Terrorists</span>
+<span>Develop</span> <span>Biological</span> and <span>Chemical</span>
+<span>Weapons</span>,”</span> Center for a New American Security, 2012.
+Available: <a
+href="https://www.jstor.org/stable/resrep06323">https://www.jstor.org/stable/resrep06323</a></div>
+</div>
+</div>
+</body>
+</html>
