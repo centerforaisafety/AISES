@@ -1,10 +1,10 @@
-<h1 id="sec:power"> 3.5 Power</h1>
+<h1 id="sec:power">Power</h1>
 <p>This section begins by describing in detail what it means for an
 agent to have power. Then we will discuss why it sometimes makes
 rational sense for AI agents to seek power. Finally, we will discuss why
 power-seeking AIs may cause particularly pernicious harms, perhaps
 ultimately threatening humanity’s control of the future.</p>
-<h2 id="what-is-power"> 3.5.1 What is Power?</h2>
+<h2 id="what-is-power">What is Power?</h2>
 <p><strong>There are many ways to characterize power.</strong> One broad
 formulation of power is the ability to achieve a wide variety of goals.
 In this subsection, we will discuss three other formulations of power
@@ -15,9 +15,9 @@ the efficiency with which it uses them. Finally, we will discuss types
 of prospective power, which can treat power as the expected impact an
 individual has on other individuals’ wellbeing.</p>
 <p><strong>French &amp; Raven’s bases of power <span class="citation"
-data-cites="French1959TheBO"></span>.</strong> In a social community, an
-agent may influence the beliefs or behaviors of other agents in order to
-pursue their goals. <em>Raven’s bases of power</em> attempt to
+data-cites="French1959TheBO">[1]</span>.</strong> In a social community,
+an agent may influence the beliefs or behaviors of other agents in order
+to pursue their goals. <em>Raven’s bases of power</em> attempt to
 taxonomize the many distinct ways to influence others. These bases of
 social power are as follows:</p>
 <ul>
@@ -42,18 +42,18 @@ action.</p></li>
 <li><p><em>Informational power</em>: agents can trade information for
 influence, and individuals with special information can selectively
 reveal it to gain strategic advantages <span class="citation"
-data-cites="raven1964power"></span>.</p></li>
+data-cites="raven1964power">[2]</span>.</p></li>
 </ul>
 <p>Ultimately, Raven’s bases of power describe the various distinct
 methods that agents can use to change each other’s behavior.</p>
 <p><strong><span
 class="math inline">Power = Resources × Intelligence</span></strong>
 Thomas Hobbes described power as “present means to obtain some future
-good” <span class="citation" data-cites="hobbes1651hobbes"></span>. In
-the most general terms, these “present means” encompass all of the
+good” <span class="citation" data-cites="hobbes1651hobbes">[3]</span>.
+In the most general terms, these “present means” encompass all of the
 resources that an agent has at its disposal. Resources can include
 money, reputation, expertise, items, contracts, promises, and
-weapons.<br />
+weapons.<p>
 But resources only translate to power if they are used effectively. In
 fact, some definitions of intelligence focus on an agent’s ability to
 achieve their goals with limited resources. A notional equation that
@@ -61,9 +61,9 @@ describes power is <span
 class="math inline">Power = Resources × Intelligence</span>. Power is
 not the same as resources or intelligence, but rather the combination of
 the two <span class="citation"
-data-cites="muehlhauser2012intelligence"></span>. In limiting the power
-of AIs, we could either limit their intelligence or place hard limits on
-the resources AIs have.</p>
+data-cites="muehlhauser2012intelligence">[4]</span>. In limiting the
+power of AIs, we could either limit their intelligence or place hard
+limits on the resources AIs have.</p>
 <p><strong>Power as expected future impact.</strong> In our view, power
 is not just possessed but exercised, meaning that power extends beyond
 mere potential for influence. In particular, an agent’s ability to
@@ -72,14 +72,14 @@ Consider, for example, two agents with the same resources and ability to
 affect the world. If one of the agents has a much higher threshold for
 deciding to act and thereby acts less often, we might consider that
 agent to be less powerful because we expect it to influence the future
-far less on average.<br />
+far less on average.<p>
 A formalization of power which attempts to capture this distinction is
 <em>prospective power</em> <span class="citation"
-data-cites="pan2023rewards"></span>, which roughly denotes the magnitude
-of an agent’s influence, averaged over possible trajectories the agent
-would follow. A concrete example of prospective power is the expected
-future impact that an agent will have on various agents’ wellbeing. More
-abstractly, if we are given an agent’s policy <span
+data-cites="pan2023rewards">[5]</span>, which roughly denotes the
+magnitude of an agent’s influence, averaged over possible trajectories
+the agent would follow. A concrete example of prospective power is the
+expected future impact that an agent will have on various agents’
+wellbeing. More abstractly, if we are given an agent’s policy <span
 class="math inline"><em>π</em></span>, describing how it behaves over a
 set of possible world states <span
 class="math inline"><em>S</em></span>, and assuming we can measure the
@@ -101,7 +101,7 @@ probability distribution <span
 class="math inline"><em>P</em>(<em>π</em>,<em>s</em>)</span>
 representing likely sequences of states arising when the agent policy is
 followed beginning in state <span
-class="math inline"><em>s</em></span>.<br />
+class="math inline"><em>s</em></span>.<p>
 The important features of this definition to remember are that we
 measure power exerted in a sequence of states as aggregate influence
 over time (the inner summation), and that we average the impact exerted
@@ -132,7 +132,7 @@ which includes the idea that power could be understood as the expected
 impact an individual has on individuals’ wellbeing. Since there are many
 ways to conceptualize power, we provided concrete examples of how an AI
 system could seek power.</p>
-<h2 id="people-could-enlist-ais-for-power-seeking"> 3.5.2 People Could Enlist
+<h2 id="people-could-enlist-ais-for-power-seeking">People Could Enlist
 AIs for Power Seeking</h2>
 <p>The rest of this section will cover pathways and reasons why AI
 systems might engage in power-seeking behavior when they are deployed.
@@ -146,7 +146,7 @@ given open-ended, long-term goals that explicitly involve gaining power,
 such as “Do whatever it takes to earn as much money as possible.”</p>
 <p><strong>Power-seeking AI does not have to be deployed ubiquitously at
 first <span class="citation"
-data-cites="carlsmith2022powerseeking"></span>.</strong> Even if most
+data-cites="carlsmith2022powerseeking">[6]</span>.</strong> Even if most
 people use AI in safe and responsible ways, a small number of actors who
 use AI in risky or even malicious ways could pose a serious threat.
 Companies and militaries that do not seek power using AI could be
@@ -157,7 +157,7 @@ could function as a Pandora’s box which, once it has been opened, cannot
 be closed. This may feed into evolutionary pressures that force actors
 to adopt the technology themselves; we treat this subject in more detail
 in the chapter.</p>
-<h2 id="power-seeking-can-be-instrumentally-rational"> 3.5.3 Power Seeking Can
+<h2 id="power-seeking-can-be-instrumentally-rational">Power Seeking Can
 Be Instrumentally Rational</h2>
 <p>Another reason that AI systems might seek power is that it is useful
 for achieving a wide variety of goals. For example, an AI personal
@@ -169,7 +169,7 @@ not be happy.</p>
 <p><strong>Instrumental convergence.</strong> In order to achieve a
 <em>terminal goal</em>, an agent might pursue a subgoal, termed an
 <em>instrumental goal</em> <span class="citation"
-data-cites="bostrom2014superintelligence"></span>. Making money,
+data-cites="bostrom2014superintelligence">[7]</span>. Making money,
 obtaining political power, and becoming more intelligent are examples of
 instrumental goals that are useful for achieving a wide variety of
 terminal goals. These goals can be called <em>convergent
@@ -183,10 +183,10 @@ detail, and discuss points that support and undermine the concern.</p>
 <p><strong>Self-preservation as an example of power seeking.</strong> A
 basic example of power-seeking behavior is self-preservation <span
 class="citation"
-data-cites="bostrom2014superintelligence omohundro2008artificial"></span>.
-If an agent is not able to successfully preserve itself, it will be
-unable to influence other individuals, so it would have less
-power.<br />
+data-cites="bostrom2014superintelligence omohundro2008artificial">[7],
+[8]</span>. If an agent is not able to successfully preserve itself, it
+will be unable to influence other individuals, so it would have less
+power.<p>
 For a concrete example of self-preservation behavior emerging
 unintentionally, consider a humanoid robot which has been tasked with
 preparing a cup of coffee in a kitchen. The robot has an off-switch on
@@ -195,10 +195,11 @@ off would prevent the robot from preparing the coffee and succeeding in
 its goal. So, the robot could disable its off-switch to pre-empt the
 possibility of humans shutting it off and preventing it from achieving
 its goal. As Stuart Russell notes, “you can’t fetch the coffee if you
-are dead” <span class="citation" data-cites="russell2021human"></span>.
-(For a more detailed mathematical formalization and analysis, see the
-chapter.) This is an example of self-preservation unintentionally
-emerging as a subgoal for seemingly benign goals.</p>
+are dead” <span class="citation"
+data-cites="russell2021human">[9]</span>. (For a more detailed
+mathematical formalization and analysis, see the chapter.) This is an
+example of self-preservation unintentionally emerging as a subgoal for
+seemingly benign goals.</p>
 <p><strong>Examples of instrumental power-seeking behavior.</strong>
 Several real-world examples show agents seeking power in pursuit of
 their goals. The ability to use tools can be characterised as a form of
@@ -206,15 +207,16 @@ power. When OpenAI trained reinforcement learning agents to play a
 hide-and-seek game, the agents independently learned to use elements of
 the environment as tools, rearranging them as barriers to hide behind
 and preventing opponents from controlling them <span class="citation"
-data-cites="baker2019emergent"></span>. Among humans, we observe that
-greater financial resources are instrumentally beneficial in service of
-a wide variety of goals. In reinforcement learning, the well-studied
-exploration-exploitation trade-off can be formulated as a demonstration
-of the general value of informational resource acquisition <span
-class="citation" data-cites="silver2014exploration"></span>. Outside of
-machine learning, some corporations exercise monopoly power to drive up
-prices, and some nations use military power to bully their neighbors, so
-power-seeking can sometimes have harmful consequences for others.</p>
+data-cites="baker2019emergent">[10]</span>. Among humans, we observe
+that greater financial resources are instrumentally beneficial in
+service of a wide variety of goals. In reinforcement learning, the
+well-studied exploration-exploitation trade-off can be formulated as a
+demonstration of the general value of informational resource acquisition
+<span class="citation" data-cites="silver2014exploration">[11]</span>.
+Outside of machine learning, some corporations exercise monopoly power
+to drive up prices, and some nations use military power to bully their
+neighbors, so power-seeking can sometimes have harmful consequences for
+others.</p>
 <p><strong>“Power is instrumentally useful” as a tautology.</strong>
 Almost all goals are more attainable with more power, so power is
 instrumentally valuable. However, this observation is mostly
@@ -222,7 +224,7 @@ tautological—when we have defined power as the ability to achieve a wide
 variety of goals, of course power is beneficial to achieving goals. The
 more interesting question is whether power is <em>instrumentally
 rational</em> to seek, rather than whether there are <em>instrumental
-incentives</em> for power or whether power is useful to have.<br />
+incentives</em> for power or whether power is useful to have.<p>
 Seeking power can be costly and inefficient. There are also many
 rational reasons for an agent to not seek power. Gaining power can be
 difficult compared to simpler strategies. Someone who would like to
@@ -240,7 +242,7 @@ carton of milk quickly. While it would be valuable for the AI to have
 its intelligence augmented, to have more financial resources, or have
 political power, it would not be instrumentally rational to pursue these
 subgoals to get the milk quickly: it would almost certainly take less
-time just to get the milk.<br />
+time just to get the milk.<p>
 Likewise, becoming a billionaire would be instrumentally valuable for
 achieving many goals, but it would not be instrumentally rational for
 many agents to spend their time pursuing this instrumental goal. Power
@@ -253,7 +255,7 @@ particular, a community of agents may be in an equilibrium where they
 cooperate to foil any single agent that seeks too much power. These
 “balance of power” dynamics have been observed between nations in the
 history of international relations <span class="citation"
-data-cites="kegley2020politics"></span>. Acquiring power does not
+data-cites="kegley2020politics">[12]</span>. Acquiring power does not
 inevitably become more and more simple for an AI as it increases in
 intelligence, as other AIs will also become more intelligent and could
 increasingly counter their efforts to gain dominance.</p>
@@ -277,13 +279,13 @@ of a larger system, which may include its human operators, that will
 correctly understand why it turned itself off, and restore its function
 afterwards. Though often useful, the value of self-preservation is not
 universal, and there are plausible instances where an AI system would
-shut itself off in service of its broader goals.<br />
+shut itself off in service of its broader goals.<p>
 This subsection has covered some evidence that the nature of rational
 agency encourages agents to seek power by default. Though power is
 almost always beneficial toward most goals, power seeking is not
 necessarily instrumentally rational. Now that we have seen that AIs by
 their nature may often not seek power, we will discuss when the broader
-environment may force AIs to seek power.<br />
+environment may force AIs to seek power.<p>
 </p>
 <div class="storybox">
 <p><span>A Note on Structural Realism</span> Power seeking has been
@@ -294,20 +296,20 @@ power. Unlike traditional realists who view conflict and power-seeking
 behavior of states as a product of human nature, structural realists
 believe that the structure of the international system compels states to
 seek power <span class="citation"
-data-cites="mearsheimer2007structural"></span>. In the international
+data-cites="mearsheimer2007structural">[13]</span>. In the international
 system, states could be harmed or destroyed by other powerful states,
 and since there is no ultimate authority guaranteed to protect them,
-states are forced to compete for power in order to survive.<br />
+states are forced to compete for power in order to survive.<p>
 <strong>Assumptions that give rise to power seeking.</strong> To explain
 why power seeking is the main instrumental goal driving the behavior of
 states, structural realists base their explanations on a two key
 assumptions:</p>
 <ol>
 <li><p>Self-help system. States operate in a “self-help” system <span
-class="citation" data-cites="mearsheimer2007structural"></span> where
-there is no centralized authority, no hierarchy (“anarchic”), and no
-ultimate arbiter standing above states in international relations. So to
-speak, when states dial 911, there is no one on the other end. This
+class="citation" data-cites="mearsheimer2007structural">[13]</span>
+where there is no centralized authority, no hierarchy (“anarchic”), and
+no ultimate arbiter standing above states in international relations. So
+to speak, when states dial 911, there is no one on the other end. This
 stands in contrast to the hierarchical ordering principle seen in
 domestic politics.</p></li>
 <li><p>Self-preservation is a main goal. Survival through the pursuit of
@@ -316,50 +318,51 @@ Though states can act according to moral considerations or global
 welfare, these will always be secondary to acquiring resources,
 alliances, and military capabilities to ensure their safety and counter
 potential threats <span class="citation"
-data-cites="waltz2010theory"></span>.</p></li>
+data-cites="waltz2010theory">[14]</span>.</p></li>
 </ol>
 <p>Structural realists make other assumptions, including that states
 have some potential to inflict harm on others, that states are rational
 agents (with a discount rate that is not extremely sharp), and that
-other states’ intentions are not completely certain.<br />
+other states’ intentions are not completely certain.<p>
 When these assumptions are met, structural realists predict that states
 will mainly act in ways to defend or expand their power. For structural
 realists, power is the primary currency (e.g., military, economic,
 technological, and diplomatic power). As we can see, structural realists
 do not need to make strong assumptions about states themselves <span
-class="citation" data-cites="sep-realism-intl-relations"></span>. For
-structural realists, states are treated like black boxes—their value
+class="citation" data-cites="sep-realism-intl-relations">[15]</span>.
+For structural realists, states are treated like black boxes—their value
 system or regime type doesn’t play a significant role in predicting
 their behavior. The architecture of the system traps them and largely
 determines their behavior, which is that they must seek power as a means
 to survive. The result is an unceasing power competition.</p>
 <p><strong>Power seeking is not necessarily dominance seeking <span
-class="citation" data-cites="montgomery2006breaking"></span>.</strong>
-Within structural realism, there is a notable division concerning the
-question of how much power states should seek. Defensive realists, like
-Kenneth Waltz, argue that trying to maximize a country’s power in the
-world is unwise because it can lead to punishment from the international
-system. Pursuing hegemony, in their view, is particularly risky. On the
-other hand, offensive realists, like John Mearsheimer, believe that
-gaining as much power as possible is strategically sensible, and under
-certain circumstances, pursuing hegemony can be beneficial.</p>
+class="citation"
+data-cites="montgomery2006breaking">[16]</span>.</strong> Within
+structural realism, there is a notable division concerning the question
+of how much power states should seek. Defensive realists, like Kenneth
+Waltz, argue that trying to maximize a country’s power in the world is
+unwise because it can lead to punishment from the international system.
+Pursuing hegemony, in their view, is particularly risky. On the other
+hand, offensive realists, like John Mearsheimer, believe that gaining as
+much power as possible is strategically sensible, and under certain
+circumstances, pursuing hegemony can be beneficial.</p>
 <p><strong>Dynamics that maintain a balance of power.</strong> Closely
 associated with structural realism is the concept of balancing.
 <em>Balancing</em> refers to the strategies states use to counteract the
 power or influence of other states, particularly rivals <span
-class="citation" data-cites="mearsheimer2007structural"></span>. This
-can take two forms. Internal balancing takes place as states strengthen
-their own military, economic, or technological abilities with the
-overall goal of enhancing their own security and deterring aggressors.
-Internal balancing can include increasing defense spending, including
-the development of advanced weaponry, or investing in domestic
-industries to reduce reliance on foreign goods and resources.<br />
+class="citation" data-cites="mearsheimer2007structural">[13]</span>.
+This can take two forms. Internal balancing takes place as states
+strengthen their own military, economic, or technological abilities with
+the overall goal of enhancing their own security and deterring
+aggressors. Internal balancing can include increasing defense spending,
+including the development of advanced weaponry, or investing in domestic
+industries to reduce reliance on foreign goods and resources.<p>
 External balancing involves forming coalitions and alliances with other
 states in order to counter the power of a common adversary. In a
 self-help system, mechanisms of internal balancing are believed to be
 more reliable and precise than external balancing since they rely on a
 country’s own independent strategies and actions rather than those of
-other countries.<br />
+other countries.<p>
 States sometimes seek to become hegemons by establishing significant
 control over other states, regions, or even the international system as
 a whole. This pursuit of dominance can involve expanding military
@@ -369,13 +372,14 @@ their own military spending, a dynamic that often leads to arms races,
 and external balancing, forming alliances with other states to prevent a
 state from achieving unchecked control. In turn, states do not
 necessarily seek dominance or hegemony but often seek enough power to
-preserve themselves, lest they be counteracted by other states.<br />
-Whether a state does pursue hegemony, however, is influenced by the
-offense-defense balance, i.e. the balance between its offensive
-capabilities and the defensive capabilities of other states <span
-class="citation" data-cites="mearsheimer2007structural"></span>. A state
-with stronger offensive capabilities has the means to conquer or coerce
-other states, making it more likely to engage in expansionist policies,
+preserve themselves, lest they be counteracted by other states.</p>
+<p><strong>Offense-defense balance.</strong> Whether a state does pursue
+hegemony, however, is influenced by the offense-defense balance, i.e.
+the balance between its offensive capabilities and the defensive
+capabilities of other states <span class="citation"
+data-cites="mearsheimer2007structural">[13]</span>. A state with
+stronger offensive capabilities has the means to conquer or coerce other
+states, making it more likely to engage in expansionist policies,
 establishing control over a region or the international system as a
 whole. Conversely, if other states in the international system have
 strong defensive capabilities, the potential costs and risks of pursuing
@@ -390,18 +394,18 @@ themselves or form a united front against hegemonic ambitions, it might
 be less inclined to pursue a path of dominance. On the other hand, if it
 is overconfident of its own offensive capabilities or underestimates the
 defensive capabilities of rivals, it will be more likely to pursue
-aggressive politics.<br />
+aggressive politics.<p>
 The concept of an offense-defense balance underscores the intricate
 interplay between military capabilities, security considerations, and
 the pursuit of hegemony while illustrating that the decision to seek
 dominance is heavily influenced by the strategic environment and the
-relative strengths of offensive and defensive forces.<br />
+relative strengths of offensive and defensive forces.<p>
 Structural realism and its various concepts have important connections
 with our analysis of power-seeking AI, but is also relevant to thinking
 about AI cooperation and conflict (which we discuss in the chapter) and
 international coordination (which we discuss in the chapter).</p>
 </div>
-<h2 id="structural-pressures-towards-power-seeking-ai"> 3.5.4 Structural
+<h2 id="structural-pressures-towards-power-seeking-ai">Structural
 Pressures Towards Power-Seeking AI</h2>
 <p>As discussed in the box above, there are environmental conditions
 that can make power seeking instrumentally rational. This section
@@ -440,7 +444,7 @@ authority for protection. For example, individual citizens in a country
 with a reliable police force often entrust their own protection to the
 government. On the other hand, international great powers are
 responsible for their own protection, and therefore seek military power
-to defend against rival nations.<br />
+to defend against rival nations.<p>
 AI systems could face a variety of situations where no central authority
 defends them against external threats. We give four examples. First, if
 there are some autonomous AI systems outside of corporate or government
@@ -468,7 +472,7 @@ themselves; for example, AIs could be destroyed by being hacked. Second,
 AI agents are often given long-term goals and are often designed to be
 rational. Third, AI agents may be uncertain about the intentions of
 other agents, leaving agents unable to credibly promise that they will
-act peacefully.<br />
+act peacefully.<p>
 When these five conditions hold—and they may not hold at all times—AI
 systems would be in a similar position to nations that seek power to
 ensure their own security. We now discuss how we could reduce the chance
@@ -486,7 +490,7 @@ rather than just power seeking, the offense-defense balance could be
 changed by improving shared defenses against cyberattacks, biological
 weapons, and other tactics of offensive power. Developing other theories
 of when rational agents seek power could provide more insight on how to
-avoid power-seeking AIs.<br />
+avoid power-seeking AIs.<p>
 This subsection has discussed the conditions under which AI systems
 might seek power. We explored an analogy to structural realism, which
 holds that power-seeking is rational for agents who wish to survive in
@@ -496,7 +500,7 @@ strength, or offensively, by attacking other agents which could pose a
 threat. By understanding the precise conditions that lead to
 power-seeking behavior, we can identify ways to reduce the threat of
 power-seeking AIs.</p>
-<h2 id="tail-risk-power-seeking-behavior"> 3.5.5 Tail Risk: Power-Seeking
+<h2 id="tail-risk-power-seeking-behavior">Tail Risk: Power-Seeking
 Behavior</h2>
 <p>Power-seeking AI, when deployed broadly and in high-stakes
 situations, might cause catastrophic outcomes. As we will describe in
@@ -509,7 +513,7 @@ with a new strategic reality where AI systems can match or exceed humans
 in their influence over the world. Competent, power-seeking AI using
 long-term planning to achieve open-ended objectives, can exercise more
 influence than systems with myopic plans and narrow goals <span
-class="citation" data-cites="Carlsmith2022IsPA"></span>. Given the
+class="citation" data-cites="Carlsmith2022IsPA">[17]</span>. Given the
 potential rewards of such capabilities, AI designers may be incentivized
 to create more agentic systems that can act autonomously and set their
 own subgoals.</p>
@@ -521,8 +525,8 @@ potential catastrophes involving misuse or rogue AI.</p>
 <p><strong>Powerful AIs systems could pose unique threats.</strong>
 Powerful AI systems pose a unique risk since they may actively wield
 their power to counteract attempts to correct or control them <span
-class="citation" data-cites="Carlsmith2022IsPA"></span>. If AI systems
-are power seeking and do not share our values (possibly due to
+class="citation" data-cites="Carlsmith2022IsPA">[17]</span>. If AI
+systems are power seeking and do not share our values (possibly due to
 inadequate proxies), they could become a problem that resists being
 solved. The more capable these systems become, the better able they will
 be at anticipating and reacting to our countermeasures, and the harder
@@ -538,13 +542,116 @@ humanity, they could pose a threat to our civilization. Humanity could
 be permanently disempowered.</p>
 <p><strong>Conclusion.</strong> Powerful, misaligned AI systems actively
 wielding power could be uniquely dangerous adversaries. If they escape
-human control, they could permanently disempower humanity. The risks
-grow as AIs become more capable at anticipating and resisting
-containment efforts. Power-seeking AI could emerge from intentional
-human use or perceived instrumental rationality, posing severe risks if
-such systems escape human control and use their power against human
-interests. Structural pressures like anarchy and the need for
-self-preservation can make power-seeking rational, akin to how nations
-compete for power. Improving shared defenses against AI threats,
-enabling AIs to make credible commitments not to attack others, and
-other steps can help to mitigate these risks.</p>
+human control, they could permanently disempower humanity if relatively
+powerful enough. The risks grow as AIs become more capable at
+anticipating and resisting containment efforts. Power-seeking AI could
+emerge from intentional human use or instrumental rationality, posing
+severe risks if such systems escape human control and use their power
+against human interests. Structural conditions and the need for
+self-preservation can potentially make power-seeking rational for some
+advanced AI agents.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-French1959TheBO" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] J.
+R. French and B. H. Raven, <span>“The bases of social power.”</span>
+1959.</div>
+</div>
+<div id="ref-raven1964power" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] B.
+H. Raven, <span>“Social influence and power,”</span> 1964.</div>
+</div>
+<div id="ref-hobbes1651hobbes" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] T.
+Hobbes, <em>Hobbes’s <span>Leviathan</span></em>. 1651.</div>
+</div>
+<div id="ref-muehlhauser2012intelligence" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] L.
+Muehlhauser and A. Salamon, <span>“Intelligence explosion: Evidence and
+import,”</span> in <em>Singularity hypotheses: A scientific and
+philosophical assessment</em>, A. H. Eden and J. H. Moor, Eds.,
+Springer, 2012, pp. 15–40.</div>
+</div>
+<div id="ref-pan2023rewards" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] A.
+Pan <em>et al.</em>, <span>“Do the rewards justify the means? Measuring
+trade-offs between rewards and ethical behavior in the MACHIAVELLI
+benchmark.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2304.03279">https://arxiv.org/abs/2304.03279</a></div>
+</div>
+<div id="ref-carlsmith2022powerseeking" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[6] J.
+Carlsmith, <span>“Is power-seeking AI an existential risk?”</span> 2022.
+Available: <a
+href="https://arxiv.org/abs/2206.13353">https://arxiv.org/abs/2206.13353</a></div>
+</div>
+<div id="ref-bostrom2014superintelligence" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[7] N.
+Bostrom, <em>Superintelligence: Paths, dangers, strategies</em>, First
+edition. <span>Oxford</span>: <span>Oxford University Press</span>,
+2014.</div>
+</div>
+<div id="ref-omohundro2008artificial" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] S.
+Omohundro, <span>“Artificial <span>General Intelligence</span> 2008:
+<span>Proceedings</span> of the <span>First AGI
+Conference</span>,”</span> in <em>Artificial <span>General
+Intelligence</span> 2008</em>, 2008.</div>
+</div>
+<div id="ref-russell2021human" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] S.
+Russell, <span>“Human-compatible artificial intelligence,”</span>
+<em>Human-like machine intelligence</em>, pp. 3–23, 2021.</div>
+</div>
+<div id="ref-baker2019emergent" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] B.
+Baker <em>et al.</em>, <span>“Emergent <span>Tool Use From Multi-Agent
+Autocurricula</span>,”</span> <em>arXiv.org</em>. Sep. 2019.</div>
+</div>
+<div id="ref-silver2014exploration" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] D.
+Silver, <span>“Exploration and exploitation.”</span> Computer Science
+Department, University of London, 2014.</div>
+</div>
+<div id="ref-kegley2020politics" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] C.
+W. Kegley and S. L. Blanton, <em>Trend and transformation, 2014 -
+2015</em>. 2020, p. 259.</div>
+</div>
+<div id="ref-mearsheimer2007structural" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[13] J.
+J. Mearsheimer, <em>Structural realism</em>. 2007, pp. 77–94.</div>
+</div>
+<div id="ref-waltz2010theory" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] K.
+Waltz, <em>Theory of international politics</em>. Waveland Press, 2010,
+p. 93.</div>
+</div>
+<div id="ref-sep-realism-intl-relations" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[15] W.
+J. Korab-Karpowicz, <span>“<span class="nocase">Political Realism in
+International Relations</span>,”</span> in <em>The <span>Stanford</span>
+encyclopedia of philosophy</em>, <span>S</span>ummer 2018., E. N. Zalta,
+Ed., <a
+href="https://plato.stanford.edu/archives/sum2018/entries/realism-intl-relations/"
+class="uri">https://plato.stanford.edu/archives/sum2018/entries/realism-intl-relations/</a>;
+Metaphysics Research Lab, Stanford University, 2018.</div>
+</div>
+<div id="ref-montgomery2006breaking" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] E.
+Montgomery, <span>“Breaking out of the security dilemma: Realism,
+reassurance, and the problem of uncertainty,”</span> <em>International
+Security - INT SECURITY</em>, vol. 31, pp. 151–185, Oct. 2006, doi: <a
+href="https://doi.org/10.1162/isec.2006.31.2.151">10.1162/isec.2006.31.2.151</a>.</div>
+</div>
+<div id="ref-Carlsmith2022IsPA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] J.
+Carlsmith, <span>“Is power-seeking AI an existential risk?”</span>
+<em>ArXiv preprint arXiv: 2206.13353</em>, 2022.</div>
+</div>
+</div>
