@@ -1,5 +1,5 @@
-<h1 id="sec:bias"> 3.2 Bias</h1>
-<h3 id="introduction-1">Introduction</h3>
+<h1 id="sec:bias">Bias</h1>
+<h3 id="introduction">Introduction</h3>
 <p><strong>AI systems can amplify undesirable biases.</strong> AI
 systems are being increasingly deployed throughout society. If these
 influential systems have biases, they can reinforce disparities and
@@ -47,7 +47,7 @@ instance, Amazon developed an ML-based resume-screening algorithm
 trained on historical hiring decisions. However, as the tech industry is
 predominantly male, this data reflected skewed gender proportions in the
 data (about 60% male and 40% female) <span class="citation"
-data-cites="amazon_bias"></span>. Consequently, the algorithm scored
+data-cites="amazon_bias">[1]</span>. Consequently, the algorithm scored
 male applicants higher than equally qualified women, penalizing resumes
 with implicit signals like all-female colleges. The algorithm
 essentially reproduced real-world social biases in hiring and
@@ -69,9 +69,9 @@ laws by avoiding discrimination.</p>
 crucial to build social trust in AI. This section discusses the main
 sources of bias as well as strategies researchers are exploring to
 mitigate bias. However, this overview aims to be brief, so it is not
-exhaustive.<br />
+exhaustive.<p>
 </p>
-<h2 id="sources-of-bias"> 3.2.1 Sources of Bias</h2>
+<h2 id="sources-of-bias">Sources of Bias</h2>
 <p>Biases can arise from multiple sources, both from properties of the
 AI system itself and human interaction with the system. This section
 discusses common sources of harmful biases in AI systems, although there
@@ -103,8 +103,8 @@ another example, an NLP model trained on a large corpus of internet text
 learned to reinforce gender stereotypes, completing sentence structures
 of the format “man is to X as woman is to Y” with content such as “man
 is to computer programmer as woman is to homemaker” <span
-class="citation" data-cites="bolukbasi2016man"></span>. These examples
-show how ML models can amplify existing social biases.</p>
+class="citation" data-cites="bolukbasi2016man">[2]</span>. These
+examples show how ML models can amplify existing social biases.</p>
 <p><strong>Models can learn to discriminate based on subtle
 correlations.</strong> One intuitive way to fix bias is to remove
 protected attributes like gender and achieve “fairness through
@@ -113,12 +113,13 @@ subtle correlations that serve as proxies for these attributes. For
 example, even in datasets with gender information removed,
 resume-screening models learned to associate women with certain colleges
 and assigned them lower scores <span class="citation"
-data-cites="amazon_bias"></span>. In another study, ML models
+data-cites="amazon_bias">[1]</span>. In another study, ML models
 erroneously labeled images of people cooking as women, due to learned
-gender biases <span class="citation" data-cites="zhao2017men"></span>.
-Thus, models can discriminate even when the data does not contain direct
-data about protected classes. This hidden discrimination can harm
-protected groups despite efforts to prevent bias.</p>
+gender biases <span class="citation"
+data-cites="zhao2017men">[3]</span>. Thus, models can discriminate even
+when the data does not contain direct data about protected classes. This
+hidden discrimination can harm protected groups despite efforts to
+prevent bias.</p>
 <p><strong>Biased or unrepresentative data collection can lead to biased
 decisions.</strong> Training data reflects biases in how the data was
 collected. If the training data is more representative of some groups
@@ -144,7 +145,7 @@ datasets in Western countries often include many more lighter-skinned
 individuals. <em>Labeling bias</em> is introduced later in the training
 process, when systematic errors in the data labeling process distort the
 training signal for the model. Humans may introduce their own subjective
-biases when labeling data.<br />
+biases when labeling data.<p>
 Beyond problems with the training data, the training environments and
 objectives of RL models can also exhibit problems that promote bias.
 Now, we will review some of these sources of bias.</p>
@@ -160,7 +161,7 @@ to encourage good behaviors enough, while others can even incentivize
 bad behavior by rewarding RL agents for taking harmful actions. Humans
 must carefully design training environments and incentives that
 encourage ethical learning and behavior <span class="citation"
-data-cites="gilbert2022choices"></span>.</p>
+data-cites="gilbert2022choices">[4]</span>.</p>
 <p><strong>RL models can optimize for training objectives that amplify
 bias or harm.</strong> Reinforcement learning agents will try to
 optimize the goals they are given in training, even if these objectives
@@ -170,8 +171,8 @@ engagement may prioritize sensational, controversial, or inflammatory
 content to increase ad clicks or watch time. Technical RL objectives
 often make implicit value assumptions that cause harm, especially when
 heavily optimized by a powerful AI system <span class="citation"
-data-cites="stray2021optimizing kross2013facebook"></span>. News feed
-algorithms implicitly assume that how much a user engages with some
+data-cites="stray2021optimizing kross2013facebook">[5], [6]</span>. News
+feed algorithms implicitly assume that how much a user engages with some
 content is a high-quality indicator of the <em>value</em> of that
 content, therefore showing it to even more users. After all, social
 media companies train ML models to maximize ad revenue by increasing
@@ -180,9 +181,9 @@ or quantify, such as improving user experience or promoting accurate and
 helpful information. Especially when taken to their extreme and applied
 at a large scale, RL models with flawed training objectives can
 exacerbate polarization, echo chambers, and other harmful outcomes.
-Problems with the used of flawed training objectives are further
-discussed in <a href="#chap:proxy-gaming" data-reference-type="ref"
-data-reference="chap:proxy-gaming">[chap:proxy-gaming]</a>.<br />
+Problems with the use of flawed training objectives are further
+discussed in <a href="#sec:proxy-gaming" data-reference-type="ref"
+data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a>.<p>
 In summary, biased training data, flawed objectives, and other technical
 aspects of ML models can introduce bias, illustrating how ML bias can
 perpetuate existing disparities. Carefully scrutinizing the technical
@@ -214,9 +215,9 @@ data-reference="chap:complex-systems">[chap:complex-systems]</a>.
 <em>Self-fulfilling prophecies</em> can occur when an algorithmic
 decision influences actual outcomes, as the model reinforces its own
 biases and influences future input data <span class="citation"
-data-cites="krueger2020hidden"></span>. In this way, models can amplify
-real-world biases, making them even more real. For example, a biased
-loan-approval algorithm could deny loans to lower-income groups,
+data-cites="krueger2020hidden">[7]</span>. In this way, models can
+amplify real-world biases, making them even more real. For example, a
+biased loan-approval algorithm could deny loans to lower-income groups,
 reinforcing real-world income disparities that are then reflected in the
 training data for future models. This process can make bias more severe
 over time.</p>
@@ -233,12 +234,12 @@ for hiring and other sensitive tasks may sometimes lead to <em>less</em>
 biased decisions when compared with human decision-makers. Humans often
 harbor strong biases that skew their judgment in these decisions. With
 careful oversight and governance, AI holds promise to reduce certain
-biases relative to human motivations.<br />
+biases relative to human motivations.<p>
 In summary, human biases and blind spots during development, usage, and
 governance of AI systems contribute to biased outputs from AI systems. A
 holistic approach for critically examining human-AI interaction is
 required to address this.</p>
-<h2 id="strategies-for-bias-mitigation"> 3.2.2 Strategies for Bias
+<h2 id="strategies-for-bias-mitigation">Strategies for Bias
 Mitigation</h2>
 <p><strong>Multiple complementary approaches can help address bias in AI
 systems.</strong> Even with the best intent, biases in AI can be
@@ -247,10 +248,10 @@ calls for combining engineering, social, legal, and governance
 strategies. For instance, one promising technical approach involves
 training an adversarial network to predict a protected variable from an
 ML model’s outputs <span class="citation"
-data-cites="zhang2018mitigating"></span>. By penalizing the model when
-the adversary succeeds at predicting a variable like race or political
-affiliation from the model’s outputs, the model is forced to avoid
-discrimination and make predictions that do not unfairly depend on
+data-cites="zhang2018mitigating">[8]</span>. By penalizing the model
+when the adversary succeeds at predicting a variable like race or
+political affiliation from the model’s outputs, the model is forced to
+avoid discrimination and make predictions that do not unfairly depend on
 sensitive attributes. When applied well, this can minimize biases.
 However, even the best technical approaches have limitations, and a
 holistic solution will integrate many approaches.</p>
@@ -304,7 +305,7 @@ improving data and models <em>before</em> their biases propagate. Rather
 than waiting until after the system has harmful impacts, meticulous
 audits should be integrated as part of the engineering and design
 process for AI systems <span class="citation"
-data-cites="raji2020closing"></span>. Audits are especially effective
+data-cites="raji2020closing">[9]</span>. Audits are especially effective
 when conducted independently by organizations without a stake in the AI
 system’s development, allowing for impartial and rigorous auditing
 throughout the process.</p>
@@ -341,10 +342,78 @@ OpenAI’s older content moderation system resulted in biased treatment
 towards certain political and demographic groups: a previous system
 classified negative comments about conservatives as not hateful, while
 flagging the exact same comments about liberals as hateful <span
-class="citation" data-cites="Rozado2023treatment"></span>. It also
+class="citation" data-cites="Rozado2023treatment">[10]</span>. It also
 exhibited disparities in classifying negative comments towards different
-nationalities, religions, identities, and more.<br />
+nationalities, religions, identities, and more.<p>
 In summary, biases can arise at all stages of the AI lifecycle and
 compound in complicated ways. A multifaceted approach is necessary,
 combining development practices, technical strategies, and governance,
-to detect and reduce harmful biases in AI systems.<br />
+to detect and reduce harmful biases in AI systems.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-amazon_bias" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] J.
+Dastin, <span>“Amazon scraps secret AI recruiting tool that showed bias
+against women.”</span> [Online]. Available: <a
+href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G">https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G</a></div>
+</div>
+<div id="ref-bolukbasi2016man" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] T.
+Bolukbasi, K.-W. Chang, J. Zou, V. Saligrama, and A. Kalai, <span>“Man
+is to computer programmer as woman is to homemaker? Debiasing word
+embeddings.”</span> 2016. Available: <a
+href="https://arxiv.org/abs/1607.06520">https://arxiv.org/abs/1607.06520</a></div>
+</div>
+<div id="ref-zhao2017men" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Zhao, T. Wang, M. Yatskar, V. Ordonez, and K.-W. Chang, <span>“Men also
+like shopping: Reducing gender bias amplification using corpus-level
+constraints.”</span> 2017. Available: <a
+href="https://arxiv.org/abs/1707.09457">https://arxiv.org/abs/1707.09457</a></div>
+</div>
+<div id="ref-gilbert2022choices" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] T.
+K. Gilbert, S. Dean, T. Zick, and N. Lambert, <span>“Choices, risks, and
+reward reports: Charting public policy for reinforcement learning
+systems.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2202.05716">https://arxiv.org/abs/2202.05716</a></div>
+</div>
+<div id="ref-stray2021optimizing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] J.
+Stray, I. Vendrov, J. Nixon, S. Adler, and D. Hadfield-Menell,
+<span>“What are you optimizing for? Aligning recommender systems with
+human values.”</span> 2021. Available: <a
+href="https://arxiv.org/abs/2107.10939">https://arxiv.org/abs/2107.10939</a></div>
+</div>
+<div id="ref-kross2013facebook" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] E.
+Kross <em>et al.</em>, <span>“Facebook use predicts declines in
+subjective well-being in young adults,”</span> <em>PloS one</em>.</div>
+</div>
+<div id="ref-krueger2020hidden" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] D.
+Krueger, T. Maharaj, and J. Leike, <span>“Hidden incentives for
+auto-induced distributional shift.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2009.09153">https://arxiv.org/abs/2009.09153</a></div>
+</div>
+<div id="ref-zhang2018mitigating" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] B.
+H. Zhang, B. Lemoine, and M. Mitchell, <span>“Mitigating unwanted biases
+with adversarial learning.”</span> 2018. Available: <a
+href="https://arxiv.org/abs/1801.07593">https://arxiv.org/abs/1801.07593</a></div>
+</div>
+<div id="ref-raji2020closing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] I.
+D. Raji <em>et al.</em>, <span>“Closing the AI accountability gap:
+Defining an end-to-end framework for internal algorithmic
+auditing.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2001.00973">https://arxiv.org/abs/2001.00973</a></div>
+</div>
+<div id="ref-Rozado2023treatment" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] D.
+Rozado, <span>“The unequal treatment of demographic groups by
+ChatGPT/OpenAI content moderation system.”</span> [Online]. Available:
+<a
+href="https://davidrozado.substack.com/p/openaicms">https://davidrozado.substack.com/p/openaicms</a></div>
+</div>
+</div>
