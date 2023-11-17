@@ -1,4 +1,4 @@
-<h1 id="sec:int-gov"> 9.7 International Governance</h1>
+<h1 id="sec:int-gov">International Governance</h1>
 <p>In this section, we will discuss the international governance of AI
 systems. First, we will consider the problem of the international
 governance of AI. Then, we will discuss the basics of international
@@ -14,7 +14,7 @@ internationally. Firstly, it allows for the distribution of global
 benefits that advanced AIs can provide, such as improved healthcare,
 increased efficiency in transportation, and enhanced communication.
 Countries can work together to ensure that AI technologies are developed
-and deployed in a way that benefits humanity as a whole.<br />
+and deployed in a way that benefits humanity as a whole.<p>
 Secondly, international governance of AI is necessary to manage
 effectively the risks associated with its development. The risks from AI
 systems are not confined to the country in which they are developed; for
@@ -24,7 +24,7 @@ Risks, such as the danger of progressively weaker national regulations
 in the absence of international standards and the potential for arms
 races in which actors cut corners on safety in order to compete, require
 international cooperation to avoid <span class="citation"
-data-cites="armstrong2016racing"></span>. From the point of view of
+data-cites="armstrong2016racing">[1]</span>. From the point of view of
 public safety, the risks of negative effects of systems developed across
 borders is a simple and powerful argument for international
 governance.</p>
@@ -36,7 +36,7 @@ agencies. Even at the best of times and with the least contentious of
 issues, international cooperation is slow, difficult, and often
 ineffectual. Strained international relationships, such as frequent
 tensions between the US and China, make successful international
-standards even less likely.<br />
+standards even less likely.<p>
 For the regulation of AI, we can draw analogies to the regulation of
 other dangerous technologies such as nuclear, biological, and chemical
 weapons. While these analogies are imperfect, they give us reasons to be
@@ -47,7 +47,7 @@ substitutes. However, we can learn from both the failures and successes
 of past regulation: by asking questions about how AI is similar to past
 technologies, we can understand what form successful and unsuccessful
 governance might take.</p>
-<h2 id="forms-of-international-governance"> 9.7.1 Forms of International
+<h2 id="forms-of-international-governance">Forms of International
 Governance</h2>
 <p>Before we can consider how to govern AIs internationally, we must
 understand the nature of international governance. We will first
@@ -57,7 +57,7 @@ effective. Then, we will consider a range of techniques used by
 international actors to ensure global governance.</p>
 <h3 id="stages">Stages</h3>
 <p>We can break international governance into four stages <span
-class="citation" data-cites="avant2010governs"></span>. First, issues
+class="citation" data-cites="avant2010governs">[2]</span>. First, issues
 must be recognized as requiring governance. Then, countries must come
 together to agree how to govern the issue. After that, they must
 actually do what was agreed. Lastly, countries’ actions must be
@@ -73,7 +73,7 @@ can’t start until it gets placed on the international agenda. Non-state
 actors like scientists and advocacy groups play a key role in
 agenda-setting by drawing attention to issues neglected by states; for
 example, scientists highlighted the emerging threat of ozone depletion,
-building pressure that led to the Montreal Protocol.<br />
+building pressure that led to the Montreal Protocol.<p>
 Agenda-setting makes an issue a priority for collective governance.
 Without it, critical problems can be overlooked due to political
 interests or inertia.</p>
@@ -181,14 +181,14 @@ Non-Proliferation of Nuclear Weapons. They often contain enforcement
 mechanisms like inspections. However, compromising on enforceable rules
 is difficult, especially between rivals. Verifying compliance with
 treaties can be challenging. Still, the binding power of treaties makes
-them valuable despite their potential limitations.<br />
+them valuable despite their potential limitations.<p>
 In this section, we have considered the various stages of international
 governance, moving from recognizing an issue to solving it, as well as a
 wide variety of different ways that enable this. This is a large set of
 tools, so we will next examine four questions that inform our
-understanding of which tools are most effective for AI governance.<br />
+understanding of which tools are most effective for AI governance.<p>
 </p>
-<h2 id="four-questions-for-ai-regulation"> 9.7.2 Four Questions for AI
+<h2 id="four-questions-for-ai-regulation">Four Questions for AI
 Regulation</h2>
 <p>We will now consider four questions that are important for the
 regulation of dangerous emerging technologies:</p>
@@ -214,23 +214,25 @@ AI development—such technology is called <em>defense-dominant</em>. By
 contrast, if AI is an offense-dominant technology—–if AIs cannot manage
 other AIs as the technological frontier advances–—then we will need
 alternative solutions <span class="citation"
-data-cites="garfinkel2021does"></span>. Unfortunately, we have reason to
-believe that AIs will be offense-dominant: military technologies usually
-are. It is difficult for AIs to protect against threats from other AIs;
-an AI that can make the creation of engineered pandemics easy is much
-more likely to exist than one that can comprehensively defend against
-pandemics. It is usually easier to cause harm than prevent it.<br />
+data-cites="garfinkel2021does">[3]</span>. Unfortunately, we have reason
+to believe that AIs will be offense-dominant: military technologies
+usually are. It is difficult for AIs to protect against threats from
+other AIs; an AI that can make the creation of engineered pandemics easy
+is much more likely to exist than one that can comprehensively defend
+against pandemics. It is usually easier to cause harm than prevent
+it.<p>
 Nuclear weapons are a classic example of offense-dominant technologies:
 when asked how to detect a nuclear weapon smuggled into New York in a
 crate, Robert Oppenheimer replied “with a screwdriver” to open every
-crate <span class="citation" data-cites="panofsky2008panofsky"></span>.
-In other words, there was no feasible technological solution; a social
-solution was required. When dealing with offense-dominant technologies,
-we often need to develop external social measures to defend against
-them. Similarly, if AIs prove to be offense-dominant, they will also
-require social solutions to protect against their potential harmful
-impacts. Since the scale of the technology is global, this will likely
-require international governance.</p>
+crate <span class="citation"
+data-cites="panofsky2008panofsky">[4]</span>. In other words, there was
+no feasible technological solution; a social solution was required. When
+dealing with offense-dominant technologies, we often need to develop
+external social measures to defend against them. Similarly, if AIs prove
+to be offense-dominant, they will also require social solutions to
+protect against their potential harmful impacts. Since the scale of the
+technology is global, this will likely require international
+governance.</p>
 <h3 id="can-compliance-with-international-agreements-be-verified">Can
 compliance with international agreements be verified?</h3>
 <p>Verification of compliance means agreements can regulate technology.
@@ -242,7 +244,7 @@ verified by monitoring for large explosions. Using a nuclear weapon is
 impossible to do discreetly, enabling the norm of no first use.
 Unfortunately, verifying how and when AIs are being developed and used
 may be difficult to verify–—certainly more so than observing a nuclear
-explosion.<br />
+explosion.<p>
 Verification is a difficult technical challenge. We lack clear methods
 for conducting verification, since we do not know what to test to ensure
 that models are safe. Progress can be made with serious effort; for
@@ -271,7 +273,7 @@ the threshold amount pose little immediate danger, we can adopt a more
 lenient approach. In this scenario, the agreement can prioritize
 monitoring and disincentivizing deviations through punishments after the
 fact. In general, if even one actor deviating from an agreement is
-dangerous, then it must be much stricter.<br />
+dangerous, then it must be much stricter.<p>
 Of course, stricter agreements are more difficult to create. Many
 international agreements present small punishments for deviation or
 include escape clauses—–allowing occasional exemptions from
@@ -304,7 +306,7 @@ or not a few countries can impose regulations on the world. Even if some
 of these answers imply that we live in high-risk worlds, they guide us
 towards actions that help mitigate this risk. We can now consider what
 these actions might be.</p>
-<h2 id="what-can-be-included-in-international-agreements"> 9.7.3 What Can Be
+<h2 id="what-can-be-included-in-international-agreements">What Can Be
 Included in International Agreements?</h2>
 <p>We will now consider the specific tools that might be useful for
 international governance of AI. We separate this discussion into
@@ -326,7 +328,7 @@ international organization access to their firms’ activities.</p>
 <p><strong>Certification has proven to be an effective tool.</strong>
 One proposal for civilian governance involves certifying jurisdictions
 for having and enforcing appropriate regulation <span class="citation"
-data-cites="trager2023international"></span>. Some international
+data-cites="trager2023international">[5]</span>. Some international
 organizations, such as the International Civilian Aviation Organization
 (ICAO), the International Maritime Organization (IMO), and the Financial
 Action Task Force (FATF), follow a similar approach. These organizations
@@ -351,8 +353,8 @@ concerned with stopping the spread of nuclear weapons, and the
 International Atomic Energy Agency (IAEA), an international organization
 for the governing of nuclear energy. In addition, nonproliferation was a
 pillar of super-power foreign policy during the Cold War <span
-class="citation" data-cites="gavin2015strategies"></span>. Both the US
-and USSR made many threats and promises, including guarantees of
+class="citation" data-cites="gavin2015strategies">[6]</span>. Both the
+US and USSR made many threats and promises, including guarantees of
 assistance to third parties, to reduce the likelihood of nuclear weapons
 being used anywhere. A similar international regime for AI could be
 similarly helpful; for instance, it could enable countries to cooperate
@@ -384,7 +386,7 @@ certain their adversaries are doing the same. <em>Verification</em> of
 this fact can enable countries to govern each other, thereby avoiding
 arms races. The Chemical Weapons Convention, for instance, has
 provisions for verifying member states’ compliance, including
-inspections of declared sites.<br />
+inspections of declared sites.<p>
 When it comes to critical military technologies, however, verification
 regimes might need to be invasive; for instance, it might be necessary
 to have the authority to inspect <em>any</em> site in a country. It is
@@ -403,7 +405,7 @@ advantages from retaining customers or exercising influence over
 regulation. Alternatively, several actors might agree to create a
 monopoly: there are proposals like “CERN for AI” which call for this
 explicitly <span class="citation"
-data-cites="coyle2023preempting"></span>. Such organizations must be
+data-cites="coyle2023preempting">[7]</span>. Such organizations must be
 focused on the right mission, perhaps using tools from corporate
 governance, which is a non-trivial task. If they are, however, then they
 present a much easier route to safe AI than verification and
@@ -447,3 +449,49 @@ nations, or creating monopolies on large-scale computing. If the risks
 of advanced AI are as great as some fear, it is likely that the world
 needs such regulation. Each proposal will require overcoming serious
 challenges, both social and technical.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-armstrong2016racing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] S.
+Armstrong, N. Bostrom, and C. Shulman, <span>“Racing to the precipice: A
+model of artificial intelligence development,”</span> <em>AI &amp;
+society</em>, vol. 31, pp. 201–206, 2016.</div>
+</div>
+<div id="ref-avant2010governs" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] D.
+D. Avant, M. Finnemore, and S. K. Sell, <em>Who governs the globe?</em>,
+vol. 114. Cambridge University Press, 2010.</div>
+</div>
+<div id="ref-garfinkel2021does" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] B.
+Garfinkel and A. Dafoe, <span>“How does the offense-defense balance
+scale?”</span> in <em>Emerging technologies and international
+stability</em>, Routledge, 2021, pp. 247–274.</div>
+</div>
+<div id="ref-panofsky2008panofsky" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] W.
+K. Panofsky and J. M. Deken, <span>“Panofsky on physics, politics and
+peace.”</span> Springer, 2008. doi: <a
+href="https://doi.org/10.1007/978-0-387-69732-1">https://doi.org/10.1007/978-0-387-69732-1</a>.</div>
+</div>
+<div id="ref-trager2023international" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] R.
+Trager <em>et al.</em>, <span>“International governance of civilian AI:
+A jurisdictional certification approach,”</span> <em>arXiv preprint
+arXiv:2308.15514</em>, 2023.</div>
+</div>
+<div id="ref-gavin2015strategies" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] F.
+J. Gavin, <span>“<span class="nocase">Strategies of Inhibition: U.S.
+Grand Strategy, the Nuclear Revolution, and
+Nonproliferation</span>,”</span> <em>International Security</em>, vol.
+40, no. 1, pp. 9–46, Jul. 2015, doi: <a
+href="https://doi.org/10.1162/ISEC_a_00205">10.1162/ISEC_a_00205</a>.</div>
+</div>
+<div id="ref-coyle2023preempting" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div
+class="csl-right-inline"><span>“Preempting a generative AI
+monopoly.”</span> [Online]. Available: <a
+href="https://www.project-syndicate.org/commentary/preventing-tech-giants-from-monopolizing-artificial-intelligence-chatbots-by-diane-coyle-2023-02">https://www.project-syndicate.org/commentary/preventing-tech-giants-from-monopolizing-artificial-intelligence-chatbots-by-diane-coyle-2023-02</a></div>
+</div>
+</div>
