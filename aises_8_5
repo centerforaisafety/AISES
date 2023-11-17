@@ -1,18 +1,15 @@
-
-<h1 id="conclusion"> 8.5 Conclusion</h1>
+<h1 id="conclusion">Conclusion</h1>
 <p>In this chapter, we considered a variety of multi-agent dynamics in
-biological and social systems to explore the emergent risks associated
-with the development and interactions of multiple AI agents. Our
-underlying thesis was that multi-agent AI dynamics might foster
-undesirable outcomes, mirroring patterns observable in nature and
-society. The dangers posed by multiple interacting AI agents extend
-beyond the individual threat levels; they can be catastrophic or even
-existentially threatening to humans. The total risk is not merely the
-sum of individual parts but a manifestation of their interactions. In
-other words, the safety of AI systems cannot be guaranteed solely by the
-alignment of each AI agent to well-intentioned operators. This calls for
-heightened attention and strategic intervention to avoid disastrous
-futures.<br />
+biological and social systems. Our underlying thesis was that
+multi-agent dynamics might foster undesirable outcomes, mirroring
+patterns observable in nature and society. The dangers posed by multiple
+interacting AI agents extend beyond the individual threat levels; they
+can be catastrophic or even existentially threatening to humans. The
+total risk is not merely the sum of individual parts but a manifestation
+of their interactions. In other words, the safety of AI systems cannot
+be guaranteed solely by the alignment of each AI agent to
+well-intentioned operators. This calls for heightened attention and
+strategic intervention to avoid disastrous futures.<p>
 We began this chapter with a simple game: the Prisoner’s Dilemma. Here,
 we observed that even rational agents may reach equilibrium states that
 are detrimental to all. In this scenario, defection becomes the dominant
@@ -23,7 +20,7 @@ predicted by the Prisoner’s Dilemma. Next, we considered the effects of
 extending this game through time using the Iterated Prisoner’s Dilemma.
 Here, we found that uncertainty could foster rational cooperation, even
 when defection remains the dominant strategy in fixed rounds of
-interaction.<br />
+interaction.<p>
 When we expanded the playing field by adding more agents. In multi-agent
 “tournaments,” we found that “nice, forgiving and retaliatory”
 strategies such as <span style="color: gray">tit-for-tat</span> were
@@ -38,7 +35,7 @@ monumental disvalue, particularly if it were to involve digital minds of
 moral significance. Moreover, AI extortion might persist stably
 throughout populations of AI agents, which could make it difficult to
 eradicate, especially if AIs learn to deceive or manipulate humans to
-obscure their true intentions.<br />
+obscure their true intentions.<p>
 Moreover, adding interactions that involved more than two agents
 simultaneously introduced collective action problems, highlighting the
 friction between individual and group interests. In society, these
@@ -51,12 +48,12 @@ intentions and create undesirable outcomes. We suppose that individual
 AI agents would also be sensitive to these system-level dynamics, and as
 a consequence, may shift their behaviors and strategies in ways that
 favor individual interests, oftentimes at the cost of the common
-good.<br />
+good.<p>
 Examining these natural dynamics also allowed us to draw parallels with
 AI development, deployment, and adoption. Observations of “AI races” in
 corporate and military contexts serve as a clear reminder that such
 dynamics can exacerbate AI risks, potentially resulting in catastrophes
-in the form of autonomous economies or flash wars.<br />
+in the form of autonomous economies or flash wars.<p>
 Our exploration of frequency-dependent selection within the Hawk-Dove
 game demonstrated how a Nash equilibrium might involve a range of
 strategies, even within identical agents in identical environments. This
@@ -65,7 +62,7 @@ as deception, free-riding, and extortion. In considering Generalized
 Darwinism, we found that AI development could be subject to evolution by
 natural selection, much like biological entities, as it plausibly meets
 Lewontin’s conditions. This reveals the stark possibility of AI systems
-naturally evolving towards selfish behavior.<br />
+naturally evolving towards selfish behavior.<p>
 We ended the chapter by closely examining the drivers of conflict and
 cooperation in the real world. Drawing from biological systems and human
 societies, we illustrated an array of mechanisms that may promote
@@ -81,7 +78,7 @@ a peaceful settlement is possible. Given that AIs may someday be able to
 wield superhuman threats, due to vastly superior abilities for goal
 preservation and longevity (among many others), it is imperative that we
 understand what may drive future AIs to instigate conflict or cooperate
-with other AIs and humans.<br />
+with other AIs and humans.<p>
 AIs will not cooperate with humans or other AIs by default. By
 identifying this stark reality, we underline the importance of aligning
 the whole system, rather than merely individual components. Individually
@@ -89,7 +86,6 @@ aligning each AI agent to a desired goal is not sufficient to guarantee
 macrobehavior in line with this goal. Undesirable outcomes can result
 from system-level dynamics such as feedback loops, critical mass
 requirements, emergence, and self-organization.</p>
-
 <p>This chapter has focused on multi-agent dynamics in biological and
 social systems, and how these bear similarity to the dynamics which
 govern AI development, adoption, and interaction. We have seen how these
