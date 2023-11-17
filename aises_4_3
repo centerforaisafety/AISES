@@ -1,4 +1,4 @@
-<h2 id="nines-of-reliability"> 4.3 Nines of Reliability</h2>
+<h1 id="nines-of-reliability">Nines of Reliability</h1>
 <p>In the above discussion of risk evaluation, we have frequently
 referred to the probability of an adverse event occurring. When
 evaluating a system, we often instead refer to the inverse of this—the
@@ -15,7 +15,7 @@ depends on how many times it is used. This is why, as discussed above,
 increasing exposure to a hazard will increase the associated level of
 risk. An autonomous vehicle, for example, is much more likely to make a
 mistake during a journey where it has to make 1000 decisions, than
-during a journey where it has to make only 10 decisions.<br />
+during a journey where it has to make only 10 decisions.<p>
 For a given level of reliability, we can calculate an expected time
 before failure. Imagine that we have several autonomous vehicles with
 different levels of reliability, as shown in Table <a
@@ -26,23 +26,23 @@ The second column shows the complementary probability: the probability
 that the AV will get any given decision wrong. The fourth column shows
 the number of decisions within which the AV is expected to make one
 mistake. This can be thought of as the AV’s expected time before
-failure.<br />
+failure.<p>
 </p>
 <figure id="fig:reliability-vs-time">
-<embed src="images/safety_engineering/nines.pdf" />
+<embed src="images/safety_engineering/nines_v2.pdf" />
 <figcaption>System reliability vs expected time before
 failure</figcaption>
 </figure>
 <p><strong>Expected time before failure does not scale linearly with
 system reliability.</strong> We plot the information from the table in
 Figure <a href="#fig:reliability-vs-time" data-reference-type="ref"
-data-reference="fig:reliability-vs-time">1.2</a>. From looking at this
+data-reference="fig:reliability-vs-time">1</a>. From looking at this
 graph, it is clear that the expected time before failure does not scale
-linearly with the system’s reliability. A 25% change increasing the
+linearly with the system’s reliability. A 25% change that increases the
 reliability from 50% to 75%, for example, doubles the expected time
 before failure. However, a 9% change increasing the reliability from 90%
 to 99% causes a ten-fold increase in the expected time before failure,
-as does a 0.9% increase from 99% to 99.9%.<br />
+as does a 0.9% increase from 99% to 99.9%.<p>
 The closer we get to 100% reliability, the more valuable any given
 increment of improvement will be. However, as we get closer to 100%
 reliability, we can generally expect that an increment of improvement
@@ -50,7 +50,7 @@ will become increasingly difficult to obtain. This is usually true
 because it is hard to perfectly eliminate the possibility of any adverse
 event. Additionally, there may be risks that we have not considered.
 These are called unknown unknowns and will be discussed extensively
-later in this chapter.<br />
+later in this chapter.<p>
 <strong>A system with 3 “nines of reliability” is functioning 99.9% of
 the time.</strong> As we get close to 100% reliability, it gets
 inconvenient to use long decimals to express how reliable a system is.
@@ -58,10 +58,10 @@ The third column in table <a href="#tab:nines-of-rel"
 data-reference-type="ref"
 data-reference="tab:nines-of-rel">[tab:nines-of-rel]</a> gives us
 information about a different metric: the nines of reliability <span
-class="citation" data-cites="Tao2021"></span>. Informally, a system has
-nines of reliability equal to the number of nines at the beginning of
-its decimal or percentage reliability. One nine of reliability means a
-reliability of 90% in percentage terms or 0.9 in decimal terms. Two
+class="citation" data-cites="Tao2021">[1]</span>. Informally, a system
+has nines of reliability equal to the number of nines at the beginning
+of its decimal or percentage reliability. One nine of reliability means
+a reliability of 90% in percentage terms or 0.9 in decimal terms. Two
 nines of reliability mean 99%, or 0.99. We can denote a system’s nines
 of reliability with the letter <span
 class="math inline"><em>k</em></span>; if a system is 90% reliable, it
@@ -72,13 +72,13 @@ class="math inline"><em>k</em> = 2</span>. Formally, if <span
 class="math inline"><em>p</em></span> is the system’s reliability
 expressed as a decimal, we can define <span
 class="math inline"><em>k</em></span>, the nines of reliability a system
-possesses, as:<br />
+possesses, as:<p>
 <span
 class="math display"><em>k</em> =  − log<sub>10</sub>(1−<em>p</em>).</span></p>
 <figure>
 <embed src="images/safety_engineering/log_nines.pdf"
 style="width:8cm" />
-<figcaption>Nines of reliability vs<br />
+<figcaption>Nines of reliability vs<p>
 expected time before failure</figcaption>
 </figure>
 <p><strong>Adding a ‘9’ to reliability gives a tenfold increase in
@@ -129,3 +129,12 @@ information about the severity of an accident, and can therefore not be
 used alone to calculate risk. In the case of a risk of ruin, an
 additional nine of reliability means a tenfold increase in expected
 lifespan.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Tao2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] T.
+Tao, <span>“Nines of safety: A proposed unit of measurement of
+risk.”</span> [Online]. Available: <a
+href="https://terrytao.wordpress.com/2021/10/03/nines-of-safety-a-proposed-unit-of-measurement-of-risk/">https://terrytao.wordpress.com/2021/10/03/nines-of-safety-a-proposed-unit-of-measurement-of-risk/</a></div>
+</div>
+</div>
