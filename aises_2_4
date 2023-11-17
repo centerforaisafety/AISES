@@ -1,5 +1,5 @@
-<h1 id="sec:scaling-laws"> 2.4 Scaling Laws</h1>
-<h3 id="introduction-2"> Introduction</h3>
+<h1 id="sec:scaling-laws">Scaling Laws</h1>
+<h3 id="introduction">Introduction</h3>
 <p>Compelling evidence shows that increases in the performance of many
 AI systems can be modeled with equations called <em>scaling laws</em>.
 Common knowledge suggests that larger models with more data will perform
@@ -50,9 +50,9 @@ class="math inline"><em>a</em></span> is the slope and <span
 class="math inline">log (<em>b</em>)</span> is the y-intercept.
 Therefore, a power-law relationship will appear as a straight line on a
 log-log plot (such as <a href="#fig:log-log-plot"
-data-reference-type="ref" data-reference="fig:log-log-plot">20</a>),
-with the <em>slope</em> of the line corresponding to the
-<em>exponent</em> in the power law.<br />
+data-reference-type="ref" data-reference="fig:log-log-plot">1</a>), with
+the <em>slope</em> of the line corresponding to the <em>exponent</em> in
+the power law.<p>
 </p>
 <figure id="fig:log-log-plot">
 
@@ -67,7 +67,7 @@ pervasive in urban planning: log-log plots relating variables like city
 population to metrics such as the percentage of cities with at least
 that population often result in a straight line (see Fig <a
 href="#fig:city-pop" data-reference-type="ref"
-data-reference="fig:city-pop">21</a>). Similarly, animals’ metabolic
+data-reference="fig:city-pop">2</a>). Similarly, animals’ metabolic
 rates are proportional to an exponent of their body mass, showcasing a
 clear power law. In social media, the distribution of user activity
 often follows a power law, where a small fraction of users generate most
@@ -80,27 +80,26 @@ Power laws govern many other things, such as the frequency of word usage
 in a language, the distribution of wealth, the magnitude of earthquakes,
 and more.</p>
 <figure id="fig:city-pop">
-<img src="images/ML_background/image72.png" />
-<figcaption>Power laws in city populations - from <span class="citation"
-data-cites="Newman2005"></span></figcaption>
+<embed src="images/ML_background/city_power_laws_v2.pdf" />
+<figcaption>Power laws in city populations - <span class="citation"
+data-cites="Newman2005">[1]</span></figcaption>
 </figure>
-<h2 id="scaling-laws-in-deep-learning"> 2.4.1 Scaling Laws in Deep
+<h2 id="scaling-laws-in-deep-learning">Scaling Laws in Deep
 Learning</h2>
-<h3 id="introduction-3">Introduction</h3>
+<h3 id="introduction-1">Introduction</h3>
 <p><strong>Power laws in the context of DL are called scaling laws <span
-class="citation"
-data-cites="hestness2017deep kaplan2020scaling"></span>.</strong>
-Scaling laws predict loss given model size and dataset size in a
-power-law relationship. Model size is usually measured in parameters,
-while dataset size is measured in tokens. As both variables increase,
-the model’s loss tends to decrease. This decrease in loss with scale
-often follows a power law: the loss drops substantially, but not
-linearly, with increases in data and model size. For instance, if we
-doubled the number of parameters, the loss does not just halve: it might
-decrease to one-fourth or one-eighth, depending on the exponent in the
-scaling law. This power-law behavior in AI systems allows researchers to
-anticipate and strategize how to improve models by investing more in
-increasing the data or the parameters.</p>
+class="citation" data-cites="hestness2017deep kaplan2020scaling">[2],
+[3]</span>.</strong> Scaling laws predict loss given model size and
+dataset size in a power-law relationship. Model size is usually measured
+in parameters, while dataset size is measured in tokens. As both
+variables increase, the model’s loss tends to decrease. This decrease in
+loss with scale often follows a power law: the loss drops substantially,
+but not linearly, with increases in data and model size. For instance,
+if we doubled the number of parameters, the loss does not just halve: it
+might decrease to one-fourth or one-eighth, depending on the exponent in
+the scaling law. This power-law behavior in AI systems allows
+researchers to anticipate and strategize how to improve models by
+investing more in increasing the data or the parameters.</p>
 <p><strong>Scaling laws in DL predict loss based on model size and
 dataset size.</strong> In deep learning, power-law relationships exist
 between the model’s performance and other variables. These scaling laws
@@ -146,7 +145,7 @@ computation.</p>
 Chinchilla Scaling Law: an Influential Example</h3>
 <p><strong>The Chinchilla scaling law emphasizes data over model size
 <span class="citation"
-data-cites="hoffmann2022training"></span>.</strong> One significant
+data-cites="hoffmann2022training">[4]</span>.</strong> One significant
 research finding that shows the importance of scaling laws was the
 successful training of the LLM “Chinchilla.” A small model with only 70
 billion parameters, Chinchilla outperformed much larger models because
@@ -156,9 +155,8 @@ depends on parameter count and data. This law demonstrated that larger
 models require much more data than was standard.</p>
 <figure id="fig:chinchilla">
 <img src="images/ML_background/image48.png" />
-<figcaption>Chinchilla scaling law - lighter colors indicate less loss -
-from <span class="citation"
-data-cites="chinchilla-image"></span></figcaption>
+<figcaption>Lighter colors indicate less loss - <span class="citation"
+data-cites="chinchilla-image">[5]</span></figcaption>
 </figure>
 <p><strong>The Chinchilla scaling law equation encapsulates these
 relationships.</strong> The Chinchilla scaling law is estimated to be
@@ -182,12 +180,12 @@ orders of magnitude of parameter count and dataset size. This implies
 that the same scaling relationships are still valid for both a small
 model trained on hundreds of tokens or a massive model trained on
 trillions of tokens. Scaling laws have continued to hold even as model
-size increases dramatically.<br />
+size increases dramatically.<p>
 </p>
 <figure id="fig:enter-label">
 <img src="images/ML_background/image74.png" />
 <figcaption>Scaling laws for different DL models - <span
-class="citation" data-cites="brown2020language"></span></figcaption>
+class="citation" data-cites="brown2020language">[6]</span></figcaption>
 </figure>
 <h3 id="discussion">Discussion</h3>
 <p><strong>Scaling laws are not universal for ML models.</strong> Not
@@ -210,7 +208,7 @@ systems.</strong> Hard-coding AI systems to follow pre-defined processes
 using expert insights has proven slower and more failure-prone than
 building large models that learn from large datasets. The following
 observation is Richard Sutton’s "bitter lesson" <span class="citation"
-data-cites="sutton2019bitter"></span>:<br />
+data-cites="sutton2019bitter">[7]</span>:<p>
 </p>
 <ol>
 <li><p>AI researchers have often tried to build knowledge into
@@ -229,7 +227,7 @@ techniques designed by human researchers—demoralizing for researchers
 who spent years developing those complex approaches. Rather than just
 human ingenuity, scale and computational power are also key factors that
 drive progress in AI.</p>
-<h3 id="conclusion-1">Conclusion</h3>
+<h3 id="conclusion">Conclusion</h3>
 <p><strong>In AI, scaling laws describe how loss changes with model and
 dataset size.</strong> We observed that the performance of a DL model
 scales according to the number of parameters and tokens—both shaped by
@@ -239,3 +237,49 @@ training data, adhering to a clear scaling law. Scaling laws are
 especially important for understanding how changes in variables like the
 amount of data used can have substantial impacts on the model’s
 performance.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Newman2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] M.
+Newman, <span>“Power laws, pareto distributions and zipf<span></span>s
+law,”</span> <em>Contemporary Physics</em>, vol. 46, no. 5, pp. 323–351,
+Sep. 2005, doi: <a
+href="https://doi.org/10.1080/00107510500052444">10.1080/00107510500052444</a>.</div>
+</div>
+<div id="ref-hestness2017deep" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] J.
+Hestness <em>et al.</em>, <span>“Deep learning scaling is predictable,
+empirically.”</span> 2017. Available: <a
+href="https://arxiv.org/abs/1712.00409">https://arxiv.org/abs/1712.00409</a></div>
+</div>
+<div id="ref-kaplan2020scaling" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Kaplan <em>et al.</em>, <span>“Scaling laws for neural language
+models.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2001.08361">https://arxiv.org/abs/2001.08361</a></div>
+</div>
+<div id="ref-hoffmann2022training" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] J.
+Hoffmann <em>et al.</em>, <span>“Training compute-optimal large language
+models.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></div>
+</div>
+<div id="ref-chinchilla-image" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div
+class="csl-right-inline">nostalgebraist, <span>“Chinchilla’s wild
+implications.”</span> Accessed: Sep. 28, 2023. [Online]. Available: <a
+href="https://www.alignmentforum.org/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications">https://www.alignmentforum.org/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications</a></div>
+</div>
+<div id="ref-brown2020language" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] T.
+B. Brown <em>et al.</em>, <span>“Language models are few-shot
+learners.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a></div>
+</div>
+<div id="ref-sutton2019bitter" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] R.
+Sutton, <span>“The bitter lesson.”</span> Accessed: Sep. 28, 2023.
+[Online]. Available: <a
+href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">http://www.incompleteideas.net/IncIdeas/BitterLesson.html</a></div>
+</div>
+</div>
