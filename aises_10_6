@@ -1,0 +1,45 @@
+<h1 id="conclusion">Conclusion</h1>
+<p>In this chapter, we studied the properties of utility functions and
+how agents use utility functions to make decisions. Utility functions
+have been part of a significant paradigm within decision theory in
+economics, psychology, and other fields, and are increasingly relevant
+to understanding and designing artificial intelligence. Artificial
+agents in many cases are expressly designed to optimize objects (such as
+reward functions) that strongly shape their utility functions.<p>
+We outlined the properties of Bernoulli utility functions, which allow
+us to express preferences over goods and situations with precise
+numbers, and von-Neumann-Morgenstern utility functions, which extend
+utility functions over probabilistic situations. From von
+Neumann-Morgenstern utility functions, we derive the idea of expected
+utility theory: the idea that rational agents do and should make choices
+that maximize the expectation of their utility function. This
+simple-sounding idea helps us understand decision making, but also often
+fails to perfectly describe human behavior.<p>
+We applied utility functions to the problem of AI corrigibility—whether
+AI systems are receptive to corrections. AIs with complete and
+transitive preferences will establish preferences about ceasing to
+pursue their current objective, and consequently may attempt to thwart
+corrective measures. Non-corrigible AI systems are a significant
+concern, since they create difficulties in making them safe.<p>
+We worked through examples of when it may be advisable to behave in
+risk-averse, risk-neutral, and risk-seeking manners, which correspond to
+concave, linear, and convex utility functions respectively. Risk
+aversion is a natural instinct for animals and humans, and helps
+maximize median value in the long run. Risk neutrality maximizes
+expected value, but faces risk of ruin. Risk-seeking behavior is often
+applied in situations where an agent has little to lose and a lot to
+gain. People and organizations adopt different risk attitudes depending
+on the context and situation of the decision.<p>
+However, expected utility theory is a flawed theory—human behavior that
+we consider to be reasonable often violates the strict rationality
+outlined by the von Neumann-Morgenstern axioms. Paradigms outside
+expected utility theories, such as prospect theory, attempt to more
+accurately describe human decision-making processes by incorporating
+additional functions that describe how humans think about wealth and
+subjectively weigh perceived probabilities.<p>
+An essential concern in designing artificial agents is that they must
+reflect human values. The broader study of utility functions, and how
+humans and other agents do and should make decisions, is essential
+context for ensuring that artificial agents avoid catastrophic risks and
+behave in accordance with human values.<p>
+</p>
