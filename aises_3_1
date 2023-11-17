@@ -1,33 +1,34 @@
 <!-- Single Agent Safety -->
 
-<h1 id="introduction"> 3.1 Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <p>To understand the risks associated with artificial intelligence (AI),
 we begin by examining the challenge of making single agents safe. In
-this chapter, we examine the problems of bias, opaqueness, proxy gaming,
-power seeking, deception, and emergence.<br />
-We begin by examining how biases can arise in these systems—an
-inevitable consequence of how they learn, the data they are trained on,
-and the human factors involved in their creation. From this, we move on
-to a discussion of the opaqueness of machine learning (ML) systems—that
-their “black-box” nature hinders our ability to fully comprehend how
-they make decisions and what their intentions, if any, may be.<br />
+this chapter, we review the problems of bias, opaqueness, proxy gaming,
+power seeking, deception, and emergence.<p>
+To start, we outline how biases can arise in these systems—an inevitable
+consequence of how they learn, the data they are trained on, and the
+human factors involved in their creation. From this, we move on to a
+discussion of the opaqueness of machine learning (ML) systems—that their
+“black-box” nature hinders our ability to fully comprehend how they make
+decisions and what their intentions, if any, may be.<p>
 Next, we turn to problems involved in specifying and optimizing goals.
 In many cases, it is not possible to perfectly specify our idealized
 goals. Inadequately specified goals can lead to ML systems diverging
 from our idealized goals, and introduce vulnerabilities that adversaries
-can attack and exploit.<br />
+can attack and exploit.<p>
 We then pivot our discussion to the concept of power in AI systems.
 Here, we explore the possible conditions that could give rise to
 power-seeking agents and the ways in which those motives could lead to
 particularly harmful risks. Following this, we turn our attention to the
 topic of emergence in AI systems and explore how simple goals can cause
 these systems to spontaneously develop unanticipated capabilities and
-goals.<br />
+goals.<p>
 In the final section, we explore the issue of deception. We categorize
 the varied forms of deception that these systems might employ, and
 analyze the risks involved in AI systems deceiving human and AI
-evaluators.<br />
+evaluators.<p>
 This chapter argues that, even when considered in isolation, individual
 AI systems can pose catastrophic risks. As we will see in subsequent
 chapters, many of these risks become more pronounced when considering
-multi-agent systems, misuse, and arms race dynamics.<br />
+multi-agent systems, misuse, and arms race dynamics.<p>
+</p>
