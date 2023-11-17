@@ -46,41 +46,37 @@ for AIs with significant moral and practical concerns. Though their
 existence is not necessarily a catastrophe in itself, LAWs may serve as
 an on-ramp to catastrophes stemming from malicious use, accidents, loss
 of control, or an increased likelihood of war.</p>
-<h4 id="laws-may-become-vastly-superior-to-humans.">LAWs may become
-vastly superior to humans.</h4>
-<p>Driven by rapid developments in AIs, weapons systems that can
-identify, target, and decide to kill human beings on their own—without
-an officer directing an attack or a soldier pulling the trigger—are
-starting to transform the future of conflict. In 2020, an advanced AI
-agent outperformed experienced F-16 pilots in a series of virtual
-dogfights, including decisively defeating a human pilot 5-0, showcasing
-“aggressive and precise maneuvers the human pilot couldn’t outmatch”
-<span class="citation" data-cites="dogfight">[2]</span>. Just as in the
-past, superior weapons would allow for more destruction in a shorter
-period of time, increasing the severity of war.</p>
-<h4
-id="militaries-are-taking-steps-toward-delegating-life-or-death-decisions-to-ais.">Militaries
-are taking steps toward delegating life-or-death decisions to AIs.</h4>
-<p>Fully autonomous drones were likely first used on the battlefield in
-Libya in March 2020, when retreating forces were “hunted down and
-remotely engaged” by a drone operating without human oversight <span
-class="citation" data-cites="UnitedNations2021">[3]</span>. In May 2021,
-the Israel Defense Forces used the world’s first AI-guided weaponized
-drone swarm during combat operations, which marks a significant
-milestone in the integration of AI and drone technology in warfare <span
-class="citation" data-cites="hambling2021israel">[4]</span>. Although
-walking, shooting robots have yet to replace soldiers on the
-battlefield, technologies are converging in ways that may make this
-possible in the near future.</p>
-<h4 id="laws-increase-the-likelihood-of-war.">LAWs increase the
-likelihood of war.</h4>
-<p>Sending troops into battle is a grave decision that leaders do not
-make lightly. But autonomous weapons would allow an aggressive nation to
-launch attacks without endangering the lives of its own soldiers and
-thus face less domestic scrutiny. While remote-controlled weapons share
-this advantage, their scalability is limited by the requirement for
-human operators and vulnerability to jamming countermeasures,
-limitations that LAWs could overcome <span class="citation"
+<p><strong>LAWs may become vastly superior to humans.</strong> Driven by
+rapid developments in AIs, weapons systems that can identify, target,
+and decide to kill human beings on their own—without an officer
+directing an attack or a soldier pulling the trigger—are starting to
+transform the future of conflict. In 2020, an advanced AI agent
+outperformed experienced F-16 pilots in a series of virtual dogfights,
+including decisively defeating a human pilot 5-0, showcasing “aggressive
+and precise maneuvers the human pilot couldn’t outmatch” <span
+class="citation" data-cites="dogfight">[2]</span>. Just as in the past,
+superior weapons would allow for more destruction in a shorter period of
+time, increasing the severity of war.</p>
+<p><strong>Militaries are taking steps toward delegating life-or-death
+decisions to AIs.</strong> Fully autonomous drones were likely first
+used on the battlefield in Libya in March 2020, when retreating forces
+were “hunted down and remotely engaged” by a drone operating without
+human oversight <span class="citation"
+data-cites="UnitedNations2021">[3]</span>. In May 2021, the Israel
+Defense Forces used the world’s first AI-guided weaponized drone swarm
+during combat operations, which marks a significant milestone in the
+integration of AI and drone technology in warfare <span class="citation"
+data-cites="hambling2021israel">[4]</span>. Although walking, shooting
+robots have yet to replace soldiers on the battlefield, technologies are
+converging in ways that may make this possible in the near future.</p>
+<p><strong>LAWs increase the likelihood of war.</strong> Sending troops
+into battle is a grave decision that leaders do not make lightly. But
+autonomous weapons would allow an aggressive nation to launch attacks
+without endangering the lives of its own soldiers and thus face less
+domestic scrutiny. While remote-controlled weapons share this advantage,
+their scalability is limited by the requirement for human operators and
+vulnerability to jamming countermeasures, limitations that LAWs could
+overcome <span class="citation"
 data-cites="kallenborn2021applying">[5]</span>. Public opinion for
 continuing wars tends to wane as conflicts drag on and casualties
 increase <span class="citation" data-cites="mueller1985war">[6]</span>.
@@ -100,11 +96,9 @@ data-cites="bonfanti2022ai">[7]</span>. If they enhance attacks more
 than they support defense, then cyberattacks could become more common,
 creating significant geopolitical turbulence and paving another route to
 large-scale conflict.</p>
-<h4
-id="ais-have-the-potential-to-increase-the-accessibility-success-rate-scale-speed-stealth-and-potency-of-cyberattacks.">AIs
-have the potential to increase the accessibility, success rate, scale,
-speed, stealth, and potency of cyberattacks.</h4>
-<p>Cyberattacks are already a reality, but AIs could be used to increase
+<p><strong>AIs have the potential to increase the accessibility, success
+rate, scale, speed, stealth, and potency of cyberattacks.</strong>
+Cyberattacks are already a reality, but AIs could be used to increase
 their frequency and destructiveness in multiple ways. Machine learning
 tools could be used to find more critical vulnerabilities in target
 systems and improve the success rate of attacks. They could also be used
@@ -112,71 +106,63 @@ to increase the scale of attacks by running millions of systems in
 parallel, and increase the speed by finding novel routes to infiltrating
 a system. Cyberattacks could also become more potent if used to hijack
 AI weapons.</p>
-<h4 id="cyberattacks-can-destroy-critical-infrastructure.">Cyberattacks
-can destroy critical infrastructure.</h4>
-<p>By hacking computer systems that control physical processes,
-cyberattacks could cause extensive infrastructure damage. For example,
-they could cause system components to overheat or valves to lock,
-leading to a buildup of pressure culminating in an explosion. Through
-interferences like this, cyberattacks have the potential to destroy
-critical infrastructure, such as electric grids and water supply
-systems. This was demonstrated in 2015, when a cyberwarfare unit of the
-Russian military hacked into the Ukrainian power grid, leaving over
-200,000 people without power access for several hours. AI-enhanced
-attacks could be even more devastating and potentially deadly for the
-billions of people who rely on critical infrastructure for survival.</p>
-<h4
-id="difficulties-in-attributing-ai-driven-cyberattacks-could-increase-the-risk-of-war.">Difficulties
-in attributing AI-driven cyberattacks could increase the risk of
-war.</h4>
-<p>A cyberattack resulting in physical damage to critical infrastructure
-would require a high degree of skill and effort to execute, perhaps only
-within the capability of nation-states. Such attacks are rare as they
-constitute an act of war, and thus elicit a full military response. Yet
-AIs could enable attackers to hide their identity, for example if they
-are used to evade detection systems or more effectively cover the tracks
-of the attacker <span class="citation"
-data-cites="MIRSKY2023103006">[8]</span>. If cyberattacks become more
-stealthy, this would reduce the threat of retaliation from an attacked
-party, potentially making attacks more likely. If stealthy attacks do
-happen, they might incite actors to mistakenly retaliate against
-unrelated third parties they suspect to be responsible. This could
-increase the scope of the conflict dramatically.</p>
+<p><strong>Cyberattacks can destroy critical infrastructure.</strong> By
+hacking computer systems that control physical processes, cyberattacks
+could cause extensive infrastructure damage. For example, they could
+cause system components to overheat or valves to lock, leading to a
+buildup of pressure culminating in an explosion. Through interferences
+like this, cyberattacks have the potential to destroy critical
+infrastructure, such as electric grids and water supply systems. This
+was demonstrated in 2015, when a cyberwarfare unit of the Russian
+military hacked into the Ukrainian power grid, leaving over 200,000
+people without power access for several hours. AI-enhanced attacks could
+be even more devastating and potentially deadly for the billions of
+people who rely on critical infrastructure for survival.</p>
+<p><strong>Difficulties in attributing AI-driven cyberattacks could
+increase the risk of war.</strong> A cyberattack resulting in physical
+damage to critical infrastructure would require a high degree of skill
+and effort to execute, perhaps only within the capability of
+nation-states. Such attacks are rare as they constitute an act of war,
+and thus elicit a full military response. Yet AIs could enable attackers
+to hide their identity, for example if they are used to evade detection
+systems or more effectively cover the tracks of the attacker <span
+class="citation" data-cites="MIRSKY2023103006">[8]</span>. If
+cyberattacks become more stealthy, this would reduce the threat of
+retaliation from an attacked party, potentially making attacks more
+likely. If stealthy attacks do happen, they might incite actors to
+mistakenly retaliate against unrelated third parties they suspect to be
+responsible. This could increase the scope of the conflict
+dramatically.</p>
 <h3 id="automated-warfare">Automated Warfare</h3>
-<h4
-id="ais-speed-up-the-pace-of-war-which-makes-ais-more-necessary.">AIs
-speed up the pace of war, which makes AIs more necessary.</h4>
-<p>AIs can quickly process a large amount of data, analyze complex
-situations, and provide helpful insights to commanders. With ubiquitous
-sensors and advanced technology on the battlefield, there is tremendous
-incoming information. AIs help make sense of this information, spotting
-important patterns and relationships that humans might miss. As these
-trends continue, it will become increasingly difficult for humans to
-make well-informed decisions as quickly as necessary to keep pace with
-AIs. This would further pressure militaries to hand over decisive
-control to AIs. The continuous integration of AIs into all aspects of
-warfare will cause the pace of combat to become faster and faster.
-Eventually, we may arrive at a point where humans are no longer capable
-of assessing the ever-changing battlefield situation and must cede
-decision-making power to advanced AIs.</p>
-<h4
-id="automatic-retaliation-can-escalate-accidents-into-war.">Automatic
-retaliation can escalate accidents into war.</h4>
-<p>There is already willingness to let computer systems retaliate
-automatically. In 2014, a leak revealed to the public that the NSA was
-developing a system called MonsterMind, which would autonomously detect
-and block cyberattacks on US infrastructure <span class="citation"
-data-cites="zetter2014">[9]</span>. It was suggested that in the future,
-MonsterMind could automatically initiate a retaliatory cyberattack with
-no human involvement. If multiple combatants have policies of automatic
-retaliation, an accident or false alarm could quickly escalate to
-full-scale war before humans intervene. This would be especially
-dangerous if the superior information processing capabilities of modern
-AI systems makes it more appealing for actors to automate decisions
-regarding nuclear launches.</p>
-<h4 id="history-shows-the-danger-of-automated-retaliation.">History
-shows the danger of automated retaliation.</h4>
-<p>On September 26, 1983, Stanislav Petrov, a lieutenant colonel of the
+<p><strong>AIs speed up the pace of war, which makes AIs more
+necessary.</strong> AIs can quickly process a large amount of data,
+analyze complex situations, and provide helpful insights to commanders.
+With ubiquitous sensors and advanced technology on the battlefield,
+there is tremendous incoming information. AIs help make sense of this
+information, spotting important patterns and relationships that humans
+might miss. As these trends continue, it will become increasingly
+difficult for humans to make well-informed decisions as quickly as
+necessary to keep pace with AIs. This would further pressure militaries
+to hand over decisive control to AIs. The continuous integration of AIs
+into all aspects of warfare will cause the pace of combat to become
+faster and faster. Eventually, we may arrive at a point where humans are
+no longer capable of assessing the ever-changing battlefield situation
+and must cede decision-making power to advanced AIs.</p>
+<p><strong>Automatic retaliation can escalate accidents into
+war.</strong> There is already willingness to let computer systems
+retaliate automatically. In 2014, a leak revealed to the public that the
+NSA was developing a system called MonsterMind, which would autonomously
+detect and block cyberattacks on US infrastructure <span
+class="citation" data-cites="zetter2014">[9]</span>. It was suggested
+that in the future, MonsterMind could automatically initiate a
+retaliatory cyberattack with no human involvement. If multiple
+combatants have policies of automatic retaliation, an accident or false
+alarm could quickly escalate to full-scale war before humans intervene.
+This would be especially dangerous if the superior information
+processing capabilities of modern AI systems makes it more appealing for
+actors to automate decisions regarding nuclear launches.</p>
+<p><strong>History shows the danger of automated retaliation.</strong>
+On September 26, 1983, Stanislav Petrov, a lieutenant colonel of the
 Soviet Air Defense Forces, was on duty at the Serpukhov-15 bunker near
 Moscow, monitoring the Soviet Union’s early warning system for incoming
 ballistic missiles. The system indicated that the US had launched
@@ -188,53 +174,47 @@ been the likely outcome. Instead, however, he judged it to be a false
 alarm and ignored it. It was soon confirmed that the warning had been
 caused by a rare technical malfunction. If an AI had been in control,
 the false alarm could have triggered a nuclear war.</p>
-<h4
-id="ai-controlled-weapons-systems-could-lead-to-a-flash-war.">AI-controlled
-weapons systems could lead to a flash war.</h4>
-<p>Autonomous systems are not infallible. We have already witnessed how
-quickly an error in an automated system can escalate in the economy.
-Most notably, in the 2010 Flash Crash, a feedback loop between automated
-trading algorithms amplified ordinary market fluctuations into a
-financial catastrophe in which a trillion dollars of stock value
-vanished in minutes <span class="citation"
+<p><strong>AI-controlled weapons systems could lead to a flash
+war.</strong> Autonomous systems are not infallible. We have already
+witnessed how quickly an error in an automated system can escalate in
+the economy. Most notably, in the 2010 Flash Crash, a feedback loop
+between automated trading algorithms amplified ordinary market
+fluctuations into a financial catastrophe in which a trillion dollars of
+stock value vanished in minutes <span class="citation"
 data-cites="Kirilenko2011TheFC">[10]</span>. If multiple nations were to
 use AIs to automate their defense systems, an error could be
 catastrophic, triggering a spiral of attacks and counter-attacks that
 would happen too quickly for humans to step in—a flash war. The market
 quickly recovered from the 2010 Flash Crash, but the harm caused by a
 flash war could be catastrophic.</p>
-<h4
-id="automated-warfare-could-reduce-accountability-for-military-leaders.">Automated
-warfare could reduce accountability for military leaders.</h4>
-<p>Military leaders may at times gain an advantage on the battlefield if
-they are willing to ignore the laws of war. For example, soldiers may be
-able to mount stronger attacks if they do not take steps to minimize
-civilian casualties. An important deterrent to this behavior is the risk
-that military leaders could eventually be held accountable or even
-prosecuted for war crimes. Automated warfare could reduce this
+<p><strong>Automated warfare could reduce accountability for military
+leaders.</strong> Military leaders may at times gain an advantage on the
+battlefield if they are willing to ignore the laws of war. For example,
+soldiers may be able to mount stronger attacks if they do not take steps
+to minimize civilian casualties. An important deterrent to this behavior
+is the risk that military leaders could eventually be held accountable
+or even prosecuted for war crimes. Automated warfare could reduce this
 deterrence effect by making it easier for military leaders to escape
 accountability by blaming violations on failures in their automated
 systems.</p>
-<h4
-id="ais-could-make-war-more-uncertain-increasing-the-risk-of-conflict.">AIs
-could make war more uncertain, increasing the risk of conflict.</h4>
-<p>Although states that are already wealthier and more powerful often
-have more resources to invest in new military technologies, they are not
-necessarily always the most successful at adopting them. Other factors
-also play an important role, such as how agile and adaptive a military
-can be in incorporating new technologies <span class="citation"
-data-cites="horowitz2010diffusion">[11]</span>. Major new weapons
-innovations can therefore offer an opportunity for existing superpowers
-to bolster their dominance, but also for less powerful states to quickly
-increase their power by getting ahead in an emerging and important
-sphere. This can create significant uncertainty around if and how the
-balance of power is shifting, potentially leading states to incorrectly
-believe they could gain something from going to war. Even aside from
-considerations regarding the balance of power, rapidly evolving
-automated warfare would be unprecedented, making it difficult for actors
-to evaluate their chances of victory in any particular conflict. This
-would increase the risk of miscalculation, making war more more
-likely.</p>
+<p><strong>AIs could make war more uncertain, increasing the risk of
+conflict.</strong> Although states that are already wealthier and more
+powerful often have more resources to invest in new military
+technologies, they are not necessarily always the most successful at
+adopting them. Other factors also play an important role, such as how
+agile and adaptive a military can be in incorporating new technologies
+<span class="citation" data-cites="horowitz2010diffusion">[11]</span>.
+Major new weapons innovations can therefore offer an opportunity for
+existing superpowers to bolster their dominance, but also for less
+powerful states to quickly increase their power by getting ahead in an
+emerging and important sphere. This can create significant uncertainty
+around if and how the balance of power is shifting, potentially leading
+states to incorrectly believe they could gain something from going to
+war. Even aside from considerations regarding the balance of power,
+rapidly evolving automated warfare would be unprecedented, making it
+difficult for actors to evaluate their chances of victory in any
+particular conflict. This would increase the risk of miscalculation,
+making war more more likely.</p>
 <h3 id="actors-may-risk-extinction-over-individual-defeat">Actors May
 Risk Extinction Over Individual Defeat</h3>
 <div class="wrapfigure">
@@ -242,76 +222,69 @@ Risk Extinction Over Individual Defeat</h3>
 War III will be fought, but World War IV will be fought with sticks and
 stones.”<em>Einstein</em></p>
 </div>
-<h4
-id="competitive-pressures-make-actors-more-willing-to-accept-the-risk-of-extinction.">Competitive
-pressures make actors more willing to accept the risk of
-extinction.</h4>
-<p>During the Cold War, neither side desired the dangerous situation
-they found themselves in. There were widespread fears that nuclear
-weapons could be powerful enough to wipe out a large fraction of
-humanity, potentially even causing extinction—a catastrophic result for
-both sides. Yet the intense rivalry and geopolitical tensions between
-the two superpowers fueled a dangerous cycle of arms buildup. Each side
-perceived the other’s nuclear arsenal as a threat to its very survival,
-leading to a desire for parity and deterrence. The competitive pressures
-pushed both countries to continually develop and deploy more advanced
-and destructive nuclear weapons systems, driven by the fear of being at
-a strategic disadvantage. During the Cuban Missile Crisis, this led to
-the brink of nuclear war. Even though the story of Arkhipov preventing
-the launch of a nuclear torpedo wasn’t declassified until decades after
-the incident, President John F. Kennedy reportedly estimated that he
-thought the odds of nuclear war beginning during that time were
-“somewhere between one out of three and even.” This chilling admission
-highlights how the competitive pressures between militaries have the
-potential to cause global catastrophes.</p>
-<h4
-id="individually-rational-decisions-can-be-collectively-catastrophic.">Individually
-rational decisions can be collectively catastrophic.</h4>
-<p>Nations locked in competition might make decisions that advance their
-own interests by putting the rest of the world at stake. Scenarios of
-this kind are collective action problems, where decisions may be
-rational on an individual level yet disastrous for the larger group
-<span class="citation" data-cites="Jervis1978CooperationUT">[12]</span>.
-For example, corporations and individuals may weigh their own profits
-and convenience over the negative impacts of the emissions they create,
-even if those emissions collectively result in climate change. The same
-principle can be extended to military strategy and defense systems.
-Military leaders might estimate, for instance, that increasing the
-autonomy of weapon systems would mean a 10 percent chance of losing
-control over weaponized superhuman AIs. Alternatively, they might
-estimate that using AIs to automate bioweapons research could lead to a
-10 percent chance of leaking a deadly pathogen. Both of these scenarios
-could lead to catastrophe or even extinction. The leaders may, however,
-also calculate that refraining from these developments will mean a 99
-percent chance of losing a war against an opponent. Since conflicts are
-often viewed as existential struggles by those fighting them, rational
-actors may accept an otherwise unthinkable 10 percent chance of human
-extinction over a 99 percent chance of losing a war. Regardless of the
-particular nature of the risks posed by advanced AIs, these dynamics
-could push us to the brink of global catastrophe.</p>
-<h4
-id="technological-superiority-does-not-guarantee-national-security.">Technological
-superiority does not guarantee national security.</h4>
-<p>It is tempting to think that the best way of guarding against enemy
-attacks is to improve one’s own military prowess. However, in the midst
-of competitive pressures, all parties will tend to advance their
-weaponry, such that no one gains much of an advantage, but all are left
-at greater risk. As Richard Danzig, former Secretary of the Navy, has
-observed, “The introduction of complex, opaque, novel, and interactive
-technologies will produce accidents, emergent effects, and sabotage. On
-a number of occasions and in a number of ways, the American national
-security establishment will lose control of what it creates...
+<p><strong>Competitive pressures make actors more willing to accept the
+risk of extinction.</strong> During the Cold War, neither side desired
+the dangerous situation they found themselves in. There were widespread
+fears that nuclear weapons could be powerful enough to wipe out a large
+fraction of humanity, potentially even causing extinction—a catastrophic
+result for both sides. Yet the intense rivalry and geopolitical tensions
+between the two superpowers fueled a dangerous cycle of arms buildup.
+Each side perceived the other’s nuclear arsenal as a threat to its very
+survival, leading to a desire for parity and deterrence. The competitive
+pressures pushed both countries to continually develop and deploy more
+advanced and destructive nuclear weapons systems, driven by the fear of
+being at a strategic disadvantage. During the Cuban Missile Crisis, this
+led to the brink of nuclear war. Even though the story of Arkhipov
+preventing the launch of a nuclear torpedo wasn’t declassified until
+decades after the incident, President John F. Kennedy reportedly
+estimated that he thought the odds of nuclear war beginning during that
+time were “somewhere between one out of three and even.” This chilling
+admission highlights how the competitive pressures between militaries
+have the potential to cause global catastrophes.</p>
+<p><strong>Individually rational decisions can be collectively
+catastrophic.</strong> Nations locked in competition might make
+decisions that advance their own interests by putting the rest of the
+world at stake. Scenarios of this kind are collective action problems,
+where decisions may be rational on an individual level yet disastrous
+for the larger group <span class="citation"
+data-cites="Jervis1978CooperationUT">[12]</span>. For example,
+corporations and individuals may weigh their own profits and convenience
+over the negative impacts of the emissions they create, even if those
+emissions collectively result in climate change. The same principle can
+be extended to military strategy and defense systems. Military leaders
+might estimate, for instance, that increasing the autonomy of weapon
+systems would mean a 10 percent chance of losing control over weaponized
+superhuman AIs. Alternatively, they might estimate that using AIs to
+automate bioweapons research could lead to a 10 percent chance of
+leaking a deadly pathogen. Both of these scenarios could lead to
+catastrophe or even extinction. The leaders may, however, also calculate
+that refraining from these developments will mean a 99 percent chance of
+losing a war against an opponent. Since conflicts are often viewed as
+existential struggles by those fighting them, rational actors may accept
+an otherwise unthinkable 10 percent chance of human extinction over a 99
+percent chance of losing a war. Regardless of the particular nature of
+the risks posed by advanced AIs, these dynamics could push us to the
+brink of global catastrophe.</p>
+<p><strong>Technological superiority does not guarantee national
+security.</strong> It is tempting to think that the best way of guarding
+against enemy attacks is to improve one’s own military prowess. However,
+in the midst of competitive pressures, all parties will tend to advance
+their weaponry, such that no one gains much of an advantage, but all are
+left at greater risk. As Richard Danzig, former Secretary of the Navy,
+has observed, “The introduction of complex, opaque, novel, and
+interactive technologies will produce accidents, emergent effects, and
+sabotage. On a number of occasions and in a number of ways, the American
+national security establishment will lose control of what it creates...
 deterrence is a strategy for reducing attacks, not accidents” <span
 class="citation" data-cites="Danzig2018Technology">[13]</span>.</p>
-<h4 id="cooperation-is-paramount-to-reducing-risk.">Cooperation is
-paramount to reducing risk.</h4>
-<p>As discussed above, an AI arms race can lead us down a hazardous
-path, despite this being in no country’s best interest. It is important
-to remember that we are all on the same side when it comes to
-existential risks, and working together to prevent them is a collective
-necessity. A destructive AI arms race benefits nobody, so all actors
-would be rational to take steps to cooperate with one another to prevent
-the riskiest applications of militarized AIs. As Dwight D. Eisenhower
+<p><strong>Cooperation is paramount to reducing risk.</strong> As
+discussed above, an AI arms race can lead us down a hazardous path,
+despite this being in no country’s best interest. It is important to
+remember that we are all on the same side when it comes to existential
+risks, and working together to prevent them is a collective necessity. A
+destructive AI arms race benefits nobody, so all actors would be
+rational to take steps to cooperate with one another to prevent the
+riskiest applications of militarized AIs. As Dwight D. Eisenhower
 reminded us, “The only way to win World War III is to prevent it.”<p/>
 We have considered how competitive pressures could lead to the
 increasing automation of conflict, even if decision-makers are aware of
@@ -373,10 +346,8 @@ term. We will now discuss how corporate competitive pressures could play
 out with AIs and the potential negative impacts.</p>
 <h3 id="economic-competition-undercuts-safety">Economic Competition
 Undercuts Safety</h3>
-<h4
-id="competitive-pressure-is-fueling-a-corporate-ai-race.">Competitive
-pressure is fueling a corporate AI race.</h4>
-<p>To obtain a competitive advantage, companies often race to offer the
+<p><strong>Competitive pressure is fueling a corporate AI race.</strong>
+To obtain a competitive advantage, companies often race to offer the
 first products to a market rather than the safest. These dynamics are
 already playing a role in the rapid development of AI technology. At the
 launch of Microsoft’s AI-powered search engine in February 2023, the
@@ -389,10 +360,8 @@ in which companies view AI development. He wrote that it would be an
 “absolutely fatal error in this moment to worry about things that can be
 fixed later” <span class="citation"
 data-cites="grant_i_2023">[15]</span>.</p>
-<h4
-id="competitive-pressures-have-contributed-to-major-commercial-and-industrial-disasters.">Competitive
-pressures have contributed to major commercial and industrial
-disasters.</h4>
+<p><strong>Competitive pressures have contributed to major commercial
+and industrial disasters.</strong></p>
 <p>Throughout the 1960s, Ford Motor Company faced competition from
 international car manufacturers as the share of imports in American car
 purchases steadily rose <span class="citation"
@@ -435,85 +404,78 @@ data-cites="broughton_bhopal_2005">[22]</span>.</p>
 <p><span>r</span>[0]<span>.38</span> “Nothing can be done at once
 hastily and prudently.”<em>Publilius Syrus</em></p>
 </div>
-<h4
-id="competition-incentivizes-businesses-to-deploy-potentially-unsafe-ai-systems.">Competition
-incentivizes businesses to deploy potentially unsafe AI systems.</h4>
-<p>In an environment where businesses are rushing to develop and release
-products, those that follow rigorous safety procedures will be slower
-and risk being out-competed. Ethically-minded AI developers, who want to
-proceed more cautiously and slow down, would give more unscrupulous
-developers an advantage. In trying to survive commercially, even the
-companies that want to take more care are likely to be swept along by
-competitive pressures. There may be attempts to implement safety
-measures, but with more of an emphasis on capabilities than on safety,
-these may be insufficient. This could lead us to develop highly powerful
-AIs before we properly understand how to ensure they are safe.</p>
+<p><strong>Competition incentivizes businesses to deploy potentially
+unsafe AI systems.</strong> In an environment where businesses are
+rushing to develop and release products, those that follow rigorous
+safety procedures will be slower and risk being out-competed.
+Ethically-minded AI developers, who want to proceed more cautiously and
+slow down, would give more unscrupulous developers an advantage. In
+trying to survive commercially, even the companies that want to take
+more care are likely to be swept along by competitive pressures. There
+may be attempts to implement safety measures, but with more of an
+emphasis on capabilities than on safety, these may be insufficient. This
+could lead us to develop highly powerful AIs before we properly
+understand how to ensure they are safe.</p>
 <h3 id="automated-economy">Automated Economy</h3>
-<h4
-id="corporations-will-face-pressure-to-replace-humans-with-ais.">Corporations
-will face pressure to replace humans with AIs.</h4>
-<p>As AIs become more capable, they will be able to perform an
-increasing variety of tasks more quickly, cheaply, and effectively than
-human workers. Companies will therefore stand to gain a competitive
+<p><strong>Corporations will face pressure to replace humans with
+AIs.</strong> As AIs become more capable, they will be able to perform
+an increasing variety of tasks more quickly, cheaply, and effectively
+than human workers. Companies will therefore stand to gain a competitive
 advantage from replacing their employees with AIs. Companies that choose
 not to adopt AIs would likely be out-competed, just as a clothing
 company using manual looms would be unable to keep up with those using
 industrial ones.</p>
-<h4 id="ais-could-lead-to-mass-unemployment.">AIs could lead to mass
-unemployment.</h4>
-<p>Economists have long considered the possibility that machines will
-replace human labor. Nobel Prize winner Wassily Leontief said in 1952
-that, as technology advances, “Labor will become less and less
-important... more and more workers will be replaced by machines” <span
-class="citation" data-cites="curtis_machines_1983">[23]</span>. Previous
-technologies have augmented the productivity of human labor. AIs,
-however, could differ profoundly from previous innovations. Advanced AIs
-capable of automating human labor should be regarded not merely as
-tools, but as agents. Human-level AI agents would, by definition, be
-able to do everything a human could do. These AI agents would also have
-important advantages over human labor. They could work 24 hours a day,
-be copied many times and run in parallel, and process information much
-more quickly than a human would. While we do not know when this will
-occur, it is unwise to discount the possibility that it could be soon.
-If human labor is replaced by AIs, mass unemployment could dramatically
-increase inequality, making individuals dependent on the owners of AI
+<p><strong>AIs could lead to mass unemployment.</strong> Economists have
+long considered the possibility that machines will replace human labor.
+Nobel Prize winner Wassily Leontief said in 1952 that, as technology
+advances, “Labor will become less and less important... more and more
+workers will be replaced by machines” <span class="citation"
+data-cites="curtis_machines_1983">[23]</span>. Previous technologies
+have augmented the productivity of human labor. AIs, however, could
+differ profoundly from previous innovations. Advanced AIs capable of
+automating human labor should be regarded not merely as tools, but as
+agents. Human-level AI agents would, by definition, be able to do
+everything a human could do. These AI agents would also have important
+advantages over human labor. They could work 24 hours a day, be copied
+many times and run in parallel, and process information much more
+quickly than a human would. While we do not know when this will occur,
+it is unwise to discount the possibility that it could be soon. If human
+labor is replaced by AIs, mass unemployment could dramatically increase
+inequality, making individuals dependent on the owners of AI
 systems.</p>
-<h4 id="automated-ai-rd.">Automated AI R&amp;D.</h4>
-<p>AI agents would have the potential to automate the research and
-development (R&amp;D) of AI itself. AI is increasingly automating parts
-of the research process <span class="citation"
-data-cites="woodside2023examples">[24]</span>, and this could lead to AI
-capabilities growing at increasing rates, to the point where humans are
-no longer the driving force behind AI development. If this trend
-continues unchecked, it could escalate risks associated with AIs
-progressing faster than our capacity to manage and regulate them.
-Imagine that we created an AI that writes and thinks at the speed of
-today’s AIs, but that it could also perform world-class AI research. We
-could then copy that AI and create <span
+<p><strong>Automated AI R&amp;D.</strong> AI agents would have the
+potential to automate the research and development (R&amp;D) of AI
+itself. AI is increasingly automating parts of the research process
+<span class="citation" data-cites="woodside2023examples">[24]</span>,
+and this could lead to AI capabilities growing at increasing rates, to
+the point where humans are no longer the driving force behind AI
+development. If this trend continues unchecked, it could escalate risks
+associated with AIs progressing faster than our capacity to manage and
+regulate them. Imagine that we created an AI that writes and thinks at
+the speed of today’s AIs, but that it could also perform world-class AI
+research. We could then copy that AI and create <span
 class="math inline">10, 000</span> world-class AI researchers that
 operate at a pace <span class="math inline">100×</span> times faster
 than humans. By automating AI research and development, we might achieve
 progress equivalent to many decades in just a few months.</p>
-<h4
-id="conceding-power-to-ais-could-lead-to-human-enfeeblement.">Conceding
-power to AIs could lead to human enfeeblement.</h4>
-<p>Even if we ensure that the many unemployed humans are provided for,
-we may find ourselves completely reliant on AIs. This would likely
-emerge not from a violent coup by AIs, but from a gradual slide into
-dependence. As society’s challenges become ever more complex and
-fast-paced, and as AIs become ever more intelligent and quick-thinking,
-we may forfeit more and more functions to them out of convenience. In
-such a state, the only feasible solution to the complexities and
-challenges compounded by AIs may be to rely even more heavily on AIs.
-This gradual process could eventually lead to the delegation of nearly
-all intellectual, and eventually physical, labor to AIs. In such a
-world, people might have few incentives to gain knowledge and cultivate
-skills, potentially leading to a state of enfeeblement <span
-class="citation" data-cites="Russell2019HumanCA">[25]</span>. Having
-lost our know-how and our understanding of how civilization works, we
-would become completely dependent on AIs, a scenario not unlike the one
-depicted in the film WALL-E. In such a state, humanity is not
-flourishing and is no longer in effective control.<p/>
+<p><strong>Conceding power to AIs could lead to human
+enfeeblement.</strong> Even if we ensure that the many unemployed humans
+are provided for, we may find ourselves completely reliant on AIs. This
+would likely emerge not from a violent coup by AIs, but from a gradual
+slide into dependence. As society’s challenges become ever more complex
+and fast-paced, and as AIs become ever more intelligent and
+quick-thinking, we may forfeit more and more functions to them out of
+convenience. In such a state, the only feasible solution to the
+complexities and challenges compounded by AIs may be to rely even more
+heavily on AIs. This gradual process could eventually lead to the
+delegation of nearly all intellectual, and eventually physical, labor to
+AIs. In such a world, people might have few incentives to gain knowledge
+and cultivate skills, potentially leading to a state of enfeeblement
+<span class="citation" data-cites="Russell2019HumanCA">[25]</span>.
+Having lost our know-how and our understanding of how civilization
+works, we would become completely dependent on AIs, a scenario not
+unlike the one depicted in the film WALL-E. In such a state, humanity is
+not flourishing and is no longer in effective control.<p/>
 As we have seen, there are classic game-theoretic dilemmas where
 individuals and groups face incentives that are incompatible with what
 would make everyone better off. We see this with a military AI arms
@@ -540,9 +502,8 @@ draws heavily from “<em>Natural Selection Favors AIs over Humans</em>”
 <span class="citation"
 data-cites="Hendrycks2023NaturalSF hendryckstime2023">[26],
 [27]</span>.</p>
-<h4 id="fitter-technologies-are-selected-for-good-and-bad.">Fitter
-technologies are selected, for good and bad.</h4>
-<p>While most people think of evolution by natural selection as a
+<p><strong>Fitter technologies are selected, for good and bad.</strong>
+While most people think of evolution by natural selection as a
 biological process, its principles shape much more. According to the
 evolutionary biologist Richard Lewontin <span class="citation"
 data-cites="Lewontin1970THEUO">[28]</span>, evolution by natural
@@ -562,9 +523,8 @@ Platforms that refuse to use addictive formats and algorithms become
 less influential or are simply outcompeted by platforms that do, leading
 competitors to undermine wellbeing and cause massive harm to society
 <span class="citation" data-cites="kross2013facebook">[29]</span>.</p>
-<h4 id="the-conditions-for-natural-selection-apply-to-ais.">The
-conditions for natural selection apply to AIs.</h4>
-<p>There will be many different AI developers who make many different AI
+<p><strong>The conditions for natural selection apply to AIs.</strong>
+There will be many different AI developers who make many different AI
 systems with varying features and capabilities, and competition between
 them will determine which characteristics become more common. Second,
 the most successful AIs today are already being used as a basis for
@@ -572,12 +532,12 @@ their developers’ next generation of models, as well as being imitated
 by rival companies. Third, factors determining which AIs propagate the
 most may include their ability to act autonomously, automate labor, or
 reduce the chance of their own deactivation.</p>
-<h4 id="natural-selection-often-favors-selfish-characteristics.">Natural
-selection often favors selfish characteristics.</h4>
-<p>Natural selection influences which AIs propagate most widely. From
-biological systems, we see that natural selection often gives rise to
-selfish behaviors that promote one’s own genetic information: chimps
-attack other communities <span class="citation"
+<p><strong>Natural selection often favors selfish
+characteristics.</strong> Natural selection influences which AIs
+propagate most widely. From biological systems, we see that natural
+selection often gives rise to selfish behaviors that promote one’s own
+genetic information: chimps attack other communities <span
+class="citation"
 data-cites="Martnezigo2021IntercommunityIA">[30]</span>, lions engage in
 infanticide <span class="citation"
 data-cites="pusey1994infanticide">[31]</span>, viruses evolve new
@@ -589,43 +549,39 @@ natural world, selfishness often emerges as a dominant strategy; those
 that prioritize themselves and those similar to them are usually more
 likely to survive, so these traits become more prevalent. Amoral
 competition can select for traits that we think are immoral.</p>
-<h4 id="examples-of-selfish-behaviors.">Examples of selfish
-behaviors.</h4>
-<p>For concreteness, we now describe many selfish traits—traits that
-expand AIs’ influence at the expense of humans. AIs that automate a task
-and leave many humans jobless have engaged in selfish behavior; these
-AIs may not even be aware of what a human is but still behave selfishly
-towards them—selfish behaviors do not require malicious intent.
-Likewise, AI managers may engage in selfish and “ruthless” behavior by
-laying off thousands of workers; such AIs may not even believe they did
-anything wrong—they were just being “efficient.” AIs may eventually
-become enmeshed in vital infrastructure such as power grids or the
-internet. Many people may then be unwilling to accept the cost of being
-able to effortlessly deactivate them, as that would pose a reliability
-hazard. AIs that help create a new useful system—a company, or
-infrastructure—that becomes increasingly complicated and eventually
-requires AIs to operate them also have engaged in selfish behavior. AIs
-that help people develop AIs that are more intelligent—but happen to be
-less interpretable to humans—have engaged in selfish behavior, as this
-reduces human control over AIs’ internals. AIs that are more charming,
-attractive, hilarious, imitate sentience (uttering phrases like “ouch!”
-or pleading “please don’t turn me off!”), or emulate deceased family
-members are more likely to have humans grow emotional connections with
-them. These AIs are more likely to cause outrage at suggestions to
-destroy them, and they are more likely preserved, protected, or granted
-rights by some individuals. If some AIs are given rights, they may
-operate, adapt, and evolve outside of human control. Overall, AIs could
-become embedded in human society and expand their influence over us in
-ways that we can’t reverse.</p>
-<h4
-id="selfish-behaviors-may-erode-safety-measures-that-some-of-us-implement.">Selfish
-behaviors may erode safety measures that some of us implement.</h4>
-<p>AIs that gain influence and provide economic value will predominate,
-while AIs that adhere to the most constraints will be less competitive.
-For example, AIs following the constraint “never break the law” have
-fewer options than AIs following the constraint “don’t get caught
-breaking the law.” AIs of the latter type may be willing to break the
-law if they’re unlikely to be caught or if the fines are not severe
+<p><strong>Examples of selfish behaviors.</strong> For concreteness, we
+now describe many selfish traits—traits that expand AIs’ influence at
+the expense of humans. AIs that automate a task and leave many humans
+jobless have engaged in selfish behavior; these AIs may not even be
+aware of what a human is but still behave selfishly towards them—selfish
+behaviors do not require malicious intent. Likewise, AI managers may
+engage in selfish and “ruthless” behavior by laying off thousands of
+workers; such AIs may not even believe they did anything wrong—they were
+just being “efficient.” AIs may eventually become enmeshed in vital
+infrastructure such as power grids or the internet. Many people may then
+be unwilling to accept the cost of being able to effortlessly deactivate
+them, as that would pose a reliability hazard. AIs that help create a
+new useful system—a company, or infrastructure—that becomes increasingly
+complicated and eventually requires AIs to operate them also have
+engaged in selfish behavior. AIs that help people develop AIs that are
+more intelligent—but happen to be less interpretable to humans—have
+engaged in selfish behavior, as this reduces human control over AIs’
+internals. AIs that are more charming, attractive, hilarious, imitate
+sentience (uttering phrases like “ouch!” or pleading “please don’t turn
+me off!”), or emulate deceased family members are more likely to have
+humans grow emotional connections with them. These AIs are more likely
+to cause outrage at suggestions to destroy them, and they are more
+likely preserved, protected, or granted rights by some individuals. If
+some AIs are given rights, they may operate, adapt, and evolve outside
+of human control. Overall, AIs could become embedded in human society
+and expand their influence over us in ways that we can’t reverse.</p>
+<p><strong>Selfish behaviors may erode safety measures that some of us
+implement.</strong> AIs that gain influence and provide economic value
+will predominate, while AIs that adhere to the most constraints will be
+less competitive. For example, AIs following the constraint “never break
+the law” have fewer options than AIs following the constraint “don’t get
+caught breaking the law.” AIs of the latter type may be willing to break
+the law if they’re unlikely to be caught or if the fines are not severe
 enough, allowing them to outcompete more restricted AIs. Many businesses
 follow laws, but in situations where stealing trade secrets or deceiving
 regulators is highly lucrative and difficult to detect, a business that
@@ -643,14 +599,13 @@ aspects of major companies and infrastructure are controlled by powerful
 AIs with selfish traits, including deceiving humans, harming humans in
 service of their goals, and preventing themselves from being
 deactivated.</p>
-<h4 id="humans-only-have-nominal-influence-over-ai-selection.">Humans
-only have nominal influence over AI selection.</h4>
-<p>One might think we could avoid the development of selfish behaviors
-by ensuring we do not select AIs that exhibit them. However, the
-companies developing AIs are not selecting the safest path but instead
-succumbing to evolutionary pressures. One example is OpenAI, which was
-founded as a nonprofit in 2015 to “benefit humanity as a whole,
-unconstrained by a need to generate financial return” <span
+<p><strong>Humans only have nominal influence over AI
+selection.</strong> One might think we could avoid the development of
+selfish behaviors by ensuring we do not select AIs that exhibit them.
+However, the companies developing AIs are not selecting the safest path
+but instead succumbing to evolutionary pressures. One example is OpenAI,
+which was founded as a nonprofit in 2015 to “benefit humanity as a
+whole, unconstrained by a need to generate financial return” <span
 class="citation" data-cites="openai_introducing_2015">[34]</span>.
 However, when faced with the need to raise capital to keep up with
 better-funded rivals, in 2019 OpenAI transitioned from a nonprofit to
@@ -690,18 +645,17 @@ represent another step toward human becoming dependent on AIs and AI
 evolution becoming increasingly independent from humans. As this
 continues, the complex process governing AI evolution will become
 further unmoored from human interests.</p>
-<h4 id="ais-can-be-more-fit-than-humans.">AIs can be more fit than
-humans.</h4>
-<p>Our unmatched intelligence has granted us power over the natural
-world. It has enabled us to land on the moon, harness nuclear energy,
-and reshape landscapes at our will. It has also given us power over
-other species. Although a single unarmed human competing against a tiger
-or gorilla has no chance of winning, the collective fate of these
-animals is entirely in our hands. Our cognitive abilities have proven so
-advantageous that, if we chose to, we could cause them to go extinct in
-a matter of weeks. Intelligence was a key factor that led to our
-dominance, but we are currently standing on the precipice of creating
-entities far more intelligent than ourselves.<p/>
+<p><strong>AIs can be more fit than humans.</strong> Our unmatched
+intelligence has granted us power over the natural world. It has enabled
+us to land on the moon, harness nuclear energy, and reshape landscapes
+at our will. It has also given us power over other species. Although a
+single unarmed human competing against a tiger or gorilla has no chance
+of winning, the collective fate of these animals is entirely in our
+hands. Our cognitive abilities have proven so advantageous that, if we
+chose to, we could cause them to go extinct in a matter of weeks.
+Intelligence was a key factor that led to our dominance, but we are
+currently standing on the precipice of creating entities far more
+intelligent than ourselves.<p/>
 Given the exponential increase in microprocessor speeds, AIs have the
 potential to process information and “think” at a pace that far
 surpasses human neurons, but it could be even more dramatic than the
@@ -726,41 +680,35 @@ AIs could become like an invasive species, with the potential to
 out-compete humans. Our only advantage over AIs is that we get to get
 make the first moves, but given the frenzied AI race, we are rapidly
 giving up even this advantage.</p>
-<h4
-id="ais-would-have-little-reason-to-cooperate-with-or-be-altruistic-toward-humans.">AIs
-would have little reason to cooperate with or be altruistic toward
-humans.</h4>
-<p>Cooperation and altruism evolved because they increase fitness. There
-are numerous reasons why humans cooperate with other humans, like direct
-reciprocity. Also known as “quid pro quo,” direct reciprocity can be
-summed up by the idiom “you scratch my back, I’ll scratch yours.” While
-humans would initially select AIs that were cooperative, the natural
-selection process would eventually go beyond our control, once AIs were
-in charge of many or most processes, and interacting predominantly with
-one another. At that point, there would be little we could offer AIs,
-given that they will be able to “think” at least hundreds of times
-faster than us. Involving us in any cooperation or decision-making
-processes would simply slow them down, giving them no more reason to
-cooperate with us than we do with gorillas. It might be difficult to
-imagine a scenario like this or to believe we would ever let it happen.
-Yet it may not require any conscious decision, instead arising as we
-allow ourselves to gradually drift into this state without realizing
-that human-AI co-evolution may not turn out well for humans.</p>
-<h4
-id="ais-becoming-more-powerful-than-humans-could-leave-us-highly-vulnerable.">AIs
-becoming more powerful than humans could leave us highly
-vulnerable.</h4>
-<p>As the most dominant species, humans have deliberately harmed many
-other species, and helped drive species such as woolly mammoths and
-Neanderthals to extinction. In many cases, the harm was not even
-deliberate, but instead a result of us merely prioritizing our goals
-over their wellbeing. To harm humans, AIs wouldn’t need to be any more
-genocidal than someone removing an ant colony on their front lawn. If
-AIs are able to control the environment more effectively than we can,
-they could treat us with the same disregard.</p>
-<h4 id="conceptual-summary.">Conceptual summary.</h4>
-<p>Evolution could cause the most influential AI agents to act selfishly
-because:</p>
+<p><strong>AIs would have little reason to cooperate with or be
+altruistic toward humans.</strong> Cooperation and altruism evolved
+because they increase fitness. There are numerous reasons why humans
+cooperate with other humans, like direct reciprocity. Also known as
+“quid pro quo,” direct reciprocity can be summed up by the idiom “you
+scratch my back, I’ll scratch yours.” While humans would initially
+select AIs that were cooperative, the natural selection process would
+eventually go beyond our control, once AIs were in charge of many or
+most processes, and interacting predominantly with one another. At that
+point, there would be little we could offer AIs, given that they will be
+able to “think” at least hundreds of times faster than us. Involving us
+in any cooperation or decision-making processes would simply slow them
+down, giving them no more reason to cooperate with us than we do with
+gorillas. It might be difficult to imagine a scenario like this or to
+believe we would ever let it happen. Yet it may not require any
+conscious decision, instead arising as we allow ourselves to gradually
+drift into this state without realizing that human-AI co-evolution may
+not turn out well for humans.</p>
+<p><strong>AIs becoming more powerful than humans could leave us highly
+vulnerable.</strong> As the most dominant species, humans have
+deliberately harmed many other species, and helped drive species such as
+woolly mammoths and Neanderthals to extinction. In many cases, the harm
+was not even deliberate, but instead a result of us merely prioritizing
+our goals over their wellbeing. To harm humans, AIs wouldn’t need to be
+any more genocidal than someone removing an ant colony on their front
+lawn. If AIs are able to control the environment more effectively than
+we can, they could treat us with the same disregard.</p>
+<p><strong>Conceptual summary.</strong> Evolution could cause the most
+influential AI agents to act selfishly because:</p>
 <ol>
 <li><p><strong>Evolution by natural selection gives rise to selfish
 behavior.</strong> While evolution can result in altruistic behavior in
