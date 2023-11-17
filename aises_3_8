@@ -1,4 +1,4 @@
-<h1 id="safety-and-general-capabilities"> 3.8 Safety and General
+<h1 id="safety-and-general-capabilities">Safety and General
 Capabilities</h1>
 <p>While more capable AI systems can be more reliable, they can also be
 more dangerous. Often, though not always, safety and general
@@ -61,17 +61,31 @@ gain more knowledge or be able to reason over longer time windows than
 before, which results in an improvement in general capabilities.
 Research that greatly increases general capabilities is said to have
 high general <em>capabilities externalities</em>.</p>
+<p><strong>Capabilities are highly correlated.</strong> Large language
+model accuracies in various diverse topics, such as philosophy,
+mathematics, and biology have extremely strong correlations (<span
+class="math inline"><em>r</em> &gt; 0.8)</span> <span class="citation"
+data-cites="Ilic2023UnveilingTG">[1]</span>. The strong correlation
+between different capabilities is a reason that separating safety
+metrics from capabilities is challenging—most capabilities are extremely
+correlated with general capabilities. It is safe to assume that, in most
+cases, a robust improvement in an important capability is correlated
+with improvements in general capabilities.</p>
 <p><strong>It is possible to disentangle safety from general
 capabilities.</strong> There are examples of safety being disentangled
 from general capabilities, so they are not inextricably bound. Many
 years of research on adversarial robustness of image classifiers has
 improved many different kinds of adversarial robustness without any
-corresponding improvements in overall accuracy. Likewise, improvements
-in transparency, anomaly detection, and Trojan detection have a track
-record of not improving general capabilities. To determine how a
-research goal affects general capabilities, it is important to
-empirically measure how a method affects safety metrics and capabilities
-metrics, as its impact is often not obvious beforehand.</p>
+corresponding improvements in overall accuracy. An intuition for this is
+that being robust to rare poisoned examples does not robustly correspond
+to an increase in general intelligence, much like how being more
+resilient to toxins does not make a person get better grades or execute
+typical tasks better. Likewise, improvements in transparency, anomaly
+detection, and Trojan detection have a track record of not improving
+general capabilities. To determine how a research goal affects general
+capabilities, it is important to empirically measure how a method
+affects safety metrics and capabilities metrics, as its impact is often
+not obvious beforehand.</p>
 <p><strong>Researchers should avoid general capabilities
 externalities.</strong> Because safety and general capabilities are
 interconnected, it is wholly insufficient to argue that one’s research
@@ -83,11 +97,20 @@ should aim to differentially improve safety; that is, reduce the overall
 level of risk compared to the most likely alternatives. This is called
 <em>differential technological development</em>, where we try to speed
 up the development of safety features and slow down the development of
-more dangerous features.</p>
-<p>To conclude, naive AI safety research may inadvertently increase some
+more dangerous features.<p>
+To conclude, naive AI safety research may inadvertently increase some
 risks even while reducing others. While this section covered the risk of
 accelerating general capabilities, we can also take a more general
 lesson that research on safety may have unintended consequences and
 could even paradoxically reduce safety. Researchers should guard against
 this by empirically assessing the impact of their works on multiple risk
 sources, not just the one they aim to target.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Ilic2023UnveilingTG" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] D.
+Ili’c, <span>“Unveiling the general intelligence factor in language
+models: A psychometric approach,”</span> <em>ArXiv</em>, vol.
+abs/2310.11616, 2023.</div>
+</div>
+</div>
