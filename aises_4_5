@@ -1,24 +1,24 @@
-<h2 id="component-failure-accident-models-and-methods"> 4.5 Component Failure
-Accident Models and Methods</h2>
+<h1 id="component-failure-accident-models-and-methods">Component Failure
+Accident Models and Methods</h1>
 <p>As a system is being created and used, it is important to analyze it
 to identify potential risks. One way of doing this is to look at systems
 through the lens of an accident model: a theory about how accidents
 happen in systems and the factors that lead to them <span
-class="citation" data-cites="Marsden2017"></span>. We will now look at
-some common accident models. These impact system design and operational
-decisions.</p>
-<h3 id="swiss-cheese-model"> 4.5.1 Swiss Cheese Model</h3>
+class="citation" data-cites="Marsden2017">[1]</span>. We will now look
+at some common accident models. These impact system design and
+operational decisions.</p>
+<h2 id="swiss-cheese-model">Swiss Cheese Model</h2>
 <p><strong>The Swiss cheese model helps us analyze defenses and identify
 pathways to accidents <span class="citation"
-data-cites="Reason1990"></span>.</strong> The diagram in Figure <a
+data-cites="Reason1990">[2]</span>.</strong> The diagram in Figure <a
 href="#fig:cheese" data-reference-type="ref"
-data-reference="fig:cheese">1.3</a> shows multiple slices of Swiss
-cheese, each representing a particular defense feature in a system. The
-holes in a slice represent the weaknesses in a defense feature—the ways
-in which it could be bypassed. If there are any places where holes in
-all the slices line up, creating a continuous hole through all of them,
-this represents a possible route to an accident. This model highlights
-the importance of defense in depth, since having more layers of defense
+data-reference="fig:cheese">1</a> shows multiple slices of Swiss cheese,
+each representing a particular defense feature in a system. The holes in
+a slice represent the weaknesses in a defense feature—the ways in which
+it could be bypassed. If there are any places where holes in all the
+slices line up, creating a continuous hole through all of them, this
+represents a possible route to an accident. This model highlights the
+importance of defense in depth, since having more layers of defense
 reduces the probability of there being a pathway to an accident that can
 bypass them all.</p>
 <figure id="fig:cheese">
@@ -31,7 +31,7 @@ Preventative measures include avoiding large gatherings, wearing a mask
 and regularly washing hands. Protective measures include maintaining a
 healthy lifestyle to support a strong immune system, getting vaccinated,
 and having access to healthcare. Each of these defenses can be
-considered a slice of cheese in the diagram.<br />
+considered a slice of cheese in the diagram.<p>
 However, none of these defenses are 100% effective. Even if an
 individual avoids large gatherings, they could still become infected
 while buying groceries. A mask might mostly block contact with the
@@ -48,7 +48,7 @@ by reducing the holes.</strong> Adding more layers of defense will
 reduce the chances of holes lining up to create an unobstructed path
 through all the defenses. For example, adopting more of the practices
 outlined above would reduce an individual’s chances of infection more
-than if they adopt just one.<br />
+than if they adopt just one.<p>
 Similarly, reducing the size of a hole in any layer of defense will
 reduce the probability that it will overlap with a hole in another
 layer. For example, we could reduce the weaknesses in wearing a mask by
@@ -60,7 +60,7 @@ nines of reliability.</strong> In many cases, it seems reasonable to
 assume that adding a layer of defense helps reduce remaining risks by
 approximately an order of magnitude by eliminating 90% of the risks
 still present. Consider how adding the following three layers of defense
-can give our AIs additional nines of reliability:<br />
+can give our AIs additional nines of reliability:<p>
 </p>
 <ol>
 <li><p><em>Adversarial fine-tuning</em>: By fine-tuning our model, we
@@ -75,24 +75,38 @@ wellbeing regardless.</p></li>
 of malfeasance, we catch AIs acting in ways contrary to how we want them
 to act nine times out of ten.</p></li>
 </ol>
+<p><strong>Swiss cheese model for emergent capabilities.</strong> To
+reduce the risk of unexpected emergent capabilities, multiple lines of
+defense could be employed. For example, models could be gradually scaled
+(e.g., using <span class="math inline">3×</span> more compute than the
+previous training run, rather than a larger number such as <span
+class="math inline">10×</span>); as a result, there will be fewer
+emergent capabilities to manage. An additional layer of defense is
+screening for hazardous capabilities, which could involve deploying
+comprehensive test beds, and red teaming with behavioral tests and
+representation reading. Another defense is staged releases; rather than
+release the model to all uses at once, gradually release it to more and
+more users, and manage discovered capabilities as they emerge. Finally,
+post-deployment monitoring through anomaly detection adds another layer
+of defense.</p>
 <p>Each of these aim at largely different areas, with the first focusing
 on robustness, the second on control, and the third on monitoring. By
 ensuring we have many defenses, we prevent a wider array of risks,
-improving our system reliability by many nines of reliability.<br />
+improving our system reliability by many nines of reliability.<p>
 </p>
-<h3 id="bow-tie-model"> 4.5.2 Bow Tie Model</h3>
+<h2 id="bow-tie-model">Bow Tie Model</h2>
 <p><strong>The bow tie model splits defenses into preventative and
-protective measures. <span class="citation"
-data-cites="Marsden2017"></span></strong> In the diagram in figure <a
-href="#fig:bowtie" data-reference-type="ref"
-data-reference="fig:bowtie">1.4</a>, the triangle on the left-hand side
+protective measures<span class="citation"
+data-cites="Marsden2017">[1]</span>.</strong> In the diagram in figure
+<a href="#fig:bowtie" data-reference-type="ref"
+data-reference="fig:bowtie">2</a>, the triangle on the left-hand side
 contains features that are intended to prevent an accident from
 happening, while the triangle on the right-hand side contains features
 that are intended to mitigate damage if an accident does happen. The
 point in the middle where the two triangles meet can be thought of as
 the point where any given accident happens. This is an example of a bow
 tie diagram, which can help us visualize the preventative and protective
-measures in place against any potential adverse event.<br />
+measures in place against any potential adverse event.<p>
 </p>
 <figure id="fig:bowtie">
 <img src="images/safety_engineering/bow-tie.png" />
@@ -105,12 +119,12 @@ individual could take to prevent a fall, for example using chalk on
 their hands to increase friction. On the right, we note any protective
 measures they could take to reduce harm from falling, such as having a
 cushioned floor below.</p>
-<p><strong>Bow tie analysis of proxy gaming.</strong> In the Single
-Agent Control chapter, we learned that one hazard of using AIs is that
-they might learn to “game” the objectives we give them. If the specified
-objectives are only proxies for what we actually want, then an AI might
-find a way of optimizing them that is not beneficial overall, possibly
-due to unintended harmful side effects.<br />
+<p><strong>Bow tie analysis of proxy gaming.</strong> In the chapter, we
+learned that one hazard of using AIs is that they might learn to “game”
+the objectives we give them. If the specified objectives are only
+proxies for what we actually want, then an AI might find a way of
+optimizing them that is not beneficial overall, possibly due to
+unintended harmful side effects.<p>
 To analyze this hazard, we can draw a bow tie diagram, with the center
 representing the event of an AI gaming its proxy goals in a
 counterproductive way. On the left-hand side, we list preventative
@@ -122,23 +136,22 @@ the severity of the impact if it does). On the right-hand side, we list
 protective measures, such as improving anomaly detection tools that can
 recognize any AI behavior that resembles proxy gaming. This would help
 human operators to notice activity like this early and take corrective
-action to limit the damage caused.<br />
+action to limit the damage caused.<p>
 The exact measures on either side of the bow tie depend on which event
 we put at the center. We can make a system safer by individually
 considering each hazard associated with it, and ensuring we implement
 both preventative and protective measures against that hazard.</p>
-<h3 id="fault-tree-analysis-method"> 4.5.3 Fault Tree Analysis Method</h3>
+<h2 id="fault-tree-analysis-method">Fault Tree Analysis Method</h2>
 <p><strong>Fault tree analysis works backward to identify possible
 causes of negative outcomes.</strong> Fault tree analysis (FTA) is a
 top-down process that starts by considering specific negative outcomes
 that could result from a system, and then works backward to identify
 possible routes to those outcomes. In other words, FTA involves
 “backchaining” from a possible accident to find its potential
-causes.<br />
+causes.<p>
 </p>
 <figure id="wrap-fig:water-pump">
-<img src="images/safety_engineering/FTA-diagram.png"
-style="width:15cm" />
+<img src="images/safety_engineering/FTA-diagram.png" />
 <figcaption>Water pump fault tree</figcaption>
 </figure>
 <p>For each negative outcome, we work backward through the system,
@@ -147,7 +160,7 @@ tree” showing all the possible pathways through the system to the
 negative outcome. By studying this fault tree, we can identify ways of
 improving the system that remove these pathways. In figure <a
 href="#wrap-fig:water-pump" data-reference-type="ref"
-data-reference="wrap-fig:water-pump">1.5</a>, we trace backwards from a
+data-reference="wrap-fig:water-pump">3</a>, we trace backwards from a
 pump failure to two types of failure: mechanical and electrical failure.
 Each of these has further subtypes. For fuse failing, we know that we
 require a circuit overload, which can happen as a result of a wire
@@ -165,40 +178,40 @@ same negative outcome.</p>
 <figure id="fig:FTA-decision">
 <img src="images/safety_engineering/image15.png" />
 <figcaption>AI FTA decision-tree <span class="citation"
-data-cites="critch2023tasra"></span></figcaption>
+data-cites="critch2023tasra">[3]</span></figcaption>
 </figure>
 <p><strong>FTA can be used to guide decisions.</strong> Figure <a
 href="#fig:FTA-decision" data-reference-type="ref"
-data-reference="fig:FTA-decision">1.6</a> shows how we can use
-fault-tree style reasoning to create concrete questions about risks. We
-can trace this through to identify risks depending on the answers to
-these questions. For instance, if there is no unified group accountable
-for creating AIs, then we know that diffusion of responsibility is a
-risk. If there is such a group, then we need to question their beliefs,
-intentions, and incentives.<br />
+data-reference="fig:FTA-decision">4</a> shows how we can use fault-tree
+style reasoning to create concrete questions about risks. We can trace
+this through to identify risks depending on the answers to these
+questions. For instance, if there is no unified group accountable for
+creating AIs, then we know that diffusion of responsibility is a risk.
+If there is such a group, then we need to question their beliefs,
+intentions, and incentives.<p>
 By thinking more broadly about all the ways in which a specific accident
 could be caused, whether by a single component failing or by a
 combination of many smaller events, FTA can discover hazards that are
 important to find. However, the backchaining process that FTA relies on
 also has limitations, which we will discuss in the next section.</p>
-<h3 id="limitations"> 4.5.4 Limitations</h3>
+<h2 id="limitations">Limitations</h2>
 <p><strong>Chain-of-Events Reasoning.</strong> The Swiss cheese and bow
 tie models and the FTA method can be useful for identifying hazards and
 reducing risk in some systems. However, they share some limitations that
 make them inapplicable to many of the complex systems that are built and
 operated today. Within the field of safety engineering, these approaches
-are largely considered overly simple and outdated. We will now discuss
-the limitations of these approaches in more detail, before moving on to
-describe more sophisticated accident models that may be better suited to
-risk management in AI systems.</p>
+are largely considered overly simplistic and outdated. We will now
+discuss the limitations of these approaches in more detail, before
+moving on to describe more sophisticated accident models that may be
+better suited to risk management in AI systems.</p>
 <p><strong>Chain-of-events reasoning is sometimes too simplistic for
 useful risk analysis.</strong> All of these models and techniques are
 based on backchaining or linear “chain-of-events” reasoning. This way of
 thinking assumes there is a neat line of successive events, each one
 directly causing the next, that ultimately leads to the accident. The
 goal is then to map out this line of events and trace it back to
-identify the “root cause” – usually a component failure or human error –
-to blame. However, given the numerous factors that are at play in many
+identify the “root cause”—usually a component failure or human error—to
+blame. However, given the numerous factors that are at play in many
 systems, it does not usually make sense to single out just one event as
 the cause of an accident. Moreover, this approach puts the emphasis
 largely on the details of “what” specifically happened, while neglecting
@@ -207,8 +220,8 @@ broader systemic issues and can be overly simplistic. Rather than break
 events down into a chain of events, a complex systems perspective often
 sees events as a product or complex interaction between many
 factors.</p>
-<h4 id="complex-and-sociotechnical-systems">Complex and Sociotechnical
-Systems</h4>
+<h3 id="complex-and-sociotechnical-systems">Complex and Sociotechnical
+Systems</h3>
 <p>Component failure accident models are particularly inadequate for
 analyzing complex systems and sociotechnical systems. We cannot always
 assume direct, linear causality in complex and sociotechnical systems,
@@ -233,7 +246,7 @@ progressively higher levels of complexity, vehicles interacting with one
 another on a road also form a sociotechnical system, as does the entire
 transport network. With the widespread prevalence of computers,
 virtually all workplaces are now sociotechnical systems, and so is the
-overarching economy.<br />
+overarching economy.<p>
 There are three main reasons why component failure accident models are
 insufficient for analyzing complex and sociotechnical systems: accidents
 sometimes happen without any individual component failing, accidents are
@@ -241,16 +254,16 @@ not always the result of linear causality, and direct causality is
 sometimes less important than indirect, remote, or “diffuse” causes such
 as safety culture. We will now look at each of these reasons in more
 detail.</p>
-<h4 id="accidents-without-failure">Accidents Without Failure</h4>
+<h3 id="accidents-without-failure">Accidents Without Failure</h3>
 <p><strong>Sometimes accidents happen due to interactions, even if no
 single component fails <span class="citation"
-data-cites="Leveson2020Introduction"></span>.</strong> The component
+data-cites="Leveson2020Introduction">[4]</span>.</strong> The component
 failure accident models generally consider each component individually,
 but components often behave differently within a complex or
 sociotechnical system than they do in isolation. For example, a human
 operator who is normally diligent might be less so if they believe that
 a piece of technology is taking care of one of their
-responsibilities.<br />
+responsibilities.<p>
 Accidents can also arise through interactions between components, even
 if every component functions exactly as it was intended to. Consider the
 Mars Polar Lander, a spacecraft launched by NASA in 1999, which crashed
@@ -261,28 +274,28 @@ the legs had been stowed away for most of the journey. When they
 extended in preparation for landing, the sensors interpreted it as a
 landing. This caused the software to switch the thrusters off before the
 craft had landed, so it crashed on the surface <span class="citation"
-data-cites="albee2000Report"></span>.<br />
+data-cites="albee2000Report">[5]</span>.<p>
 In this case, there was no component failure. Each component did what it
 was designed and intended to do; the accident was caused by an
 unanticipated interaction between components. This illustrates the
 importance of looking at the bigger picture, and considering the system
 as a whole, rather than just looking at each component in isolation, in
 a reductionist way.</p>
-<h4 id="nonlinear-causality">Nonlinear Causality</h4>
+<h3 id="nonlinear-causality">Nonlinear Causality</h3>
 <p><strong>Sometimes, we cannot tease out a neat, linear chain of events
 or a “root cause” <span class="citation"
-data-cites="Leveson2020Introduction"></span>.</strong> Complex and
+data-cites="Leveson2020Introduction">[4]</span>.</strong> Complex and
 sociotechnical systems usually involve a large number of interactions
 and feedback loops. Due to the many interdependencies and circular
 processes, it is not always feasible to trace an accident back to a
 single “root cause.” The high degree of complexity involved in many
 systems of work is illustrated in figure <a href="#fig:complex-sys"
-data-reference-type="ref" data-reference="fig:complex-sys">1.7</a>. This
+data-reference-type="ref" data-reference="fig:complex-sys">5</a>. This
 shows the interconnectedness of a system cannot be accurately reduced to
-a single line from start to finish.<br />
+a single line from start to finish.<p>
 </p>
 <figure id="fig:complex-sys">
-<img src="images/safety_engineering/complex-system.png" />
+<img src="images/safety_engineering/Complex-systems updated.png" />
 <figcaption>Complex systems with feedback loops</figcaption>
 </figure>
 <p><strong>AI systems can exhibit feedback loops and nonlinear
@@ -292,7 +305,7 @@ environment to make decisions, which then impact the environment,
 influencing their subsequent decisions. Consider an ML system that ranks
 advertisements based on their relevance to search terms. The system
 learns about relevance by tracking the number of clicks each ad receives
-and adjusts its model accordingly.<br />
+and adjusts its model accordingly.<p>
 However, the number of clicks an ad receives depends not only on its
 intrinsic relevance but also on its position in the list: higher ads
 receive more clicks. If the system underestimates the effect of
@@ -301,16 +314,16 @@ many clicks, even if it has lower intrinsic relevance, leading to
 failure. Conversely, if the system overestimates the effect of position,
 the top ad will receive fewer clicks than it expects, and so it may
 constantly shuffle ads, resulting in a random order rather than
-relevance-based ranking, also leading to failure.<br />
+relevance-based ranking, also leading to failure.<p>
 Many complex and sociotechnical systems comprise a whole network of
 interactions between components, including multiple feedback loops like
 this one. When thinking about systems like these, it is difficult to
 reduce any accidents to a simple chain of successive events that we can
 trace back to a root cause.</p>
-<h4 id="indirect-causality">Indirect Causality</h4>
+<h3 id="indirect-causality">Indirect Causality</h3>
 <p><strong>Sometimes, it is more useful to focus on underlying
 conditions than specific events <span class="citation"
-data-cites="Leveson2020Introduction"></span>.</strong> Even if we can
+data-cites="Leveson2020Introduction">[4]</span>.</strong> Even if we can
 pinpoint specific events that directly led to an accident, it is
 sometimes more fruitful to focus on broader systemic issues. For
 example, rising global temperatures certainly increase the frequency and
@@ -328,19 +341,19 @@ a crowded venue. One possible solution might be to contact the
 individuals who dropped their drinks last time and ask them to be more
 careful. While this approach aims to reduce the failure rate of
 individual components (people), it fails to address the underlying issue
-of high density that contributes to the problem.<br />
+of high density that contributes to the problem.<p>
 Alternatively, the event planner could consider two more effective
 strategies. Firstly, they could move the event to a bigger venue with
 more space. By modifying the system architecture, the planner would
 provide attendees with more room to move around, reducing the likelihood
 of people bumping into each other and spilling their drinks. This
-approach addresses the diffuse variable of high density.<br />
+approach addresses the diffuse variable of high density.<p>
 Secondly, the event planner could limit the number of attendees,
 ensuring that the venue does not become overcrowded. By reducing the
 overall density of people, the planner would again mitigate the risk of
 collisions and drink spills. This solution also targets the diffuse
 variable of high density, acknowledging the systemic nature of the
-problem.<br />
+problem.<p>
 Compared with the first option, which solely focuses on the behavior of
 individuals and would likely fail to eliminate spillages, the latter two
 strategies recognize the importance of modifying the environment and
@@ -352,9 +365,10 @@ safer and more enjoyable experience for everyone.</p>
 where specific events happen, such as people bumping into each other, is
 sometimes referred to as the “sharp end” of the system. The higher-level
 conditions of the system, such as the density of people in a venue, is
-sometimes called the “blunt end”. As outlined in the example of people
-spilling drinks, “sharp-end” interventions may not always be
-effective.</p>
+sometimes called the “blunt end.” As outlined in the example of people
+spilling drinks, “sharp-end” interventions may not always be effective.
+These are related to “proximate causes” and “distal causes,”
+respectively.</p>
 <p><strong>Diffuse causality suggests broader, “blunt-end”
 interventions.</strong> In general, it might not be possible to prove
 that “systemic factors” directly caused an accident. However, systemic
@@ -365,7 +379,7 @@ accident had not happened, something else might have been likely to
 happen instead. This means it can be more effective to tackle problems
 less directly, such as by changing system architecture or introducing
 bottom-up interventions that affect systemic conditions, rather than by
-attempting to control the sharp end.<br />
+attempting to control the sharp end.<p>
 Weaponizing any single AI system would not necessarily lead to war or
 any other kind of catastrophe. However, the existence of these systems
 increases the probability of a rogue AI system causing a disaster.
@@ -377,11 +391,11 @@ identifying broad interventions that could yield significant results is
 to consider Meadows’ twelve leverage points. These are twelve points
 within a system, described by environmental scientist Donella Meadows,
 where a small change can make a large difference <span class="citation"
-data-cites="meadows1999leverage"></span>. Depending on the system under
-consideration, some of these characteristics may be difficult or
+data-cites="meadows1999leverage">[6]</span>. Depending on the system
+under consideration, some of these characteristics may be difficult or
 impossible to change, for example large physical infrastructure or the
 laws of physics. The points are therefore often listed in order of
-increasing efficacy, taking into account their tractability.<br />
+increasing efficacy, taking into account their tractability.<p>
 The lower end of the list of leverage points includes: parameters or
 numbers that can be tweaked, such as taxes or the amount of resources
 allocated to a particular purpose; the size of buffers in a system, such
@@ -389,13 +403,13 @@ as water reservoirs or a store’s reserve stock, where a larger buffer
 makes a system more stable and a smaller buffer makes a system more
 flexible; and the structure of material flows through a system, such as
 the layout of a transport network or the way that people progress
-through education and employment.<br />
+through education and employment.<p>
 The middle of the list of leverage points includes: lags between an
 input to a system and the system’s response, which can cause the system
 to oscillate through over- and undershooting; negative feedback loops
 that can be strengthened to help a system self-balance; and positive
 feedback loops that can be weakened to prevent runaway escalation at an
-earlier stage.<br />
+earlier stage.<p>
 The next three leverage points in Meadows’ list are: the structure of
 information flows in a system, which can increase accountability by
 making the consequences of a decision more apparent to decision-makers,
@@ -404,7 +418,7 @@ rules of the system, such as national laws, or examination policies in
 educational institutes, which can be changed in social systems to
 influence behavior; and the ability to self-organize and adapt, which
 can be promoted by maintaining diversity, such as biodiversity in an
-ecosystem and openness to new ideas in a company or institution.<br />
+ecosystem and openness to new ideas in a company or institution.<p>
 Finally, leverage points toward the higher end of the list include: the
 goal of the system, which, if changed, could completely redirect the
 system’s activities; the paradigm or mindset that gave rise to the goal,
@@ -423,3 +437,43 @@ often more fruitful to address systemic factors that diffusely influence
 risk. Meadows’ twelve leverage points can help us identify systemic
 factors that, if changed, could have far-reaching, system-wide
 effects.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Marsden2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] E.
+Marsden, <span>“Designing for safety: Inherent safety, designed
+in.”</span> Accessed: Jul. 31, 2017. [Online]. Available: <a
+href="https://risk-engineering.org/safe-design/">https://risk-engineering.org/safe-design/</a></div>
+</div>
+<div id="ref-Reason1990" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] J.
+Reason, <span>“The contribution of latent human failures to the
+breakdown of complex systems.”</span> <em>Philosophical transactions of
+the Royal Society of London. Series B, Biological sciences</em>, vol.
+327 1241, pp. 475–84, 1990, Available: <a
+href="https://api.semanticscholar.org/CorpusID:1249973">https://api.semanticscholar.org/CorpusID:1249973</a></div>
+</div>
+<div id="ref-critch2023tasra" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] A.
+Critch and S. Russell, <span>“TASRA: A taxonomy and analysis of
+societal-scale risks from AI.”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2306.06924">https://arxiv.org/abs/2306.06924</a></div>
+</div>
+<div id="ref-Leveson2020Introduction" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] N.
+G. Leveson, <span>“Introduction to STAMP: Part 1.”</span> MIT
+Partnership for Systems Approaches to Safety and Security (PSASS),
+2020.</div>
+</div>
+<div id="ref-albee2000Report" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] A.
+Albee <em>et al.</em>, <span>“Report on the loss of the mars polar
+lander and deep space 2 missions,”</span> Jet propulsion Laboratory -
+California Institute of Technology, 2000.</div>
+</div>
+<div id="ref-meadows1999leverage" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] D.
+H. Meadows, <span>“Leverage points: Places to intervene in a
+system,”</span> 1999.</div>
+</div>
+</div>
