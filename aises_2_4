@@ -55,10 +55,12 @@ the <em>slope</em> of the line corresponding to the <em>exponent</em> in
 the power law.<p>
 </p>
 <figure id="fig:log-log-plot">
-
-<figcaption>A log-log plot for the power law <span
+<p class="tb-caption">A log-log plot for the power law <span
 class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.
-This shows that the power law results in a straight line.</figcaption>
+This shows that the power law results in a straight line.</p>
+<!--<figcaption>A log-log plot for the power law <span-->
+<!--class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.-->
+<!--This shows that the power law results in a straight line.</figcaption>-->
 </figure>
 <p><strong>Power laws are remarkably ubiquitous.</strong> Power laws are
 a robust mathematical framework that can describe, predict, and explain
@@ -80,9 +82,11 @@ Power laws govern many other things, such as the frequency of word usage
 in a language, the distribution of wealth, the magnitude of earthquakes,
 and more.</p>
 <figure id="fig:city-pop">
-<embed src="images/ML_background/city_power_laws_v2.pdf" />
-<figcaption>Power laws in city populations - <span class="citation"
-data-cites="Newman2005">[1]</span></figcaption>
+<embed src="https://github.com/WilliamHodgkins/AISES/blob/main/city_power_laws_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Power laws in city populations - <span class="citation"
+data-cites="Newman2005">[1]</span></p>
+<!--<figcaption>Power laws in city populations - <span class="citation"-->
+<!--data-cites="Newman2005">[1]</span></figcaption>-->
 </figure>
 <h2 id="scaling-laws-in-deep-learning">Scaling Laws in Deep
 Learning</h2>
@@ -154,9 +158,11 @@ the <em>Chinchilla scaling law</em>, which provides a scaling law that
 depends on parameter count and data. This law demonstrated that larger
 models require much more data than was standard.</p>
 <figure id="fig:chinchilla">
-<img src="images/ML_background/image48.png" />
-<figcaption>Lighter colors indicate less loss - <span class="citation"
-data-cites="chinchilla-image">[5]</span></figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/chinchilla.png" class="tb-img-full"/>
+<p class="tb-caption">Lighter colors indicate less loss - <span class="citation"
+data-cites="chinchilla-image">[5]</span></p>
+<!--<figcaption>Lighter colors indicate less loss - <span class="citation"-->
+<!--data-cites="chinchilla-image">[5]</span></figcaption>-->
 </figure>
 <p><strong>The Chinchilla scaling law equation encapsulates these
 relationships.</strong> The Chinchilla scaling law is estimated to be
@@ -183,9 +189,11 @@ trillions of tokens. Scaling laws have continued to hold even as model
 size increases dramatically.<p>
 </p>
 <figure id="fig:enter-label">
-<img src="images/ML_background/image74.png" />
-<figcaption>Scaling laws for different DL models - <span
-class="citation" data-cites="brown2020language">[6]</span></figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/image74.png" class="tb-img-full"/>
+<p class="tb-caption">Scaling laws for different DL models - <span
+class="citation" data-cites="brown2020language">[6]</span></p>
+<!--<figcaption>Scaling laws for different DL models - <span-->
+<!--class="citation" data-cites="brown2020language">[6]</span></figcaption>-->
 </figure>
 <h3 id="discussion">Discussion</h3>
 <p><strong>Scaling laws are not universal for ML models.</strong> Not

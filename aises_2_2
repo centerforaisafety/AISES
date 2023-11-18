@@ -615,9 +615,13 @@ methods to enable computers to interpret and understand visual data from
 the world. Classification is categorization: it involves putting data
 points into buckets.</p>
 <figure id="fig:example-binary-class">
-<embed src="images/ML_background/binary_classification_v2.pdf" />
-<figcaption>ML models can classify data into different categories. <span
-class="citation" data-cites="drouin2017class">[17]</span></figcaption>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/binary_classification_v2.png"
+         class="tb-img-full"/>
+    <p class="tb-caption">ML models can classify data into different categories. <span
+class="citation" data-cites="drouin2017class">[17]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/binary_classification_v2.png" />-->
+<!--<figcaption>ML models can classify data into different categories. <span-->
+<!--class="citation" data-cites="drouin2017class">[17]</span></figcaption>-->
 </figure>
 <p><strong>The sigmoid function produces probabilistic outputs.</strong>
 A sigmoid is one of several mathematical functions used in
@@ -633,10 +637,14 @@ models can provide similar probabilistic outputs without employing a
 sigmoid function.<p>
 </p>
 <figure id="fig:logistic-classification">
-<embed src="images/ML_background/logistic_regression_v2.pdf" />
-<figcaption>Example of binary classification with a sigmoid-like
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/logistic_regression_v2.png" class="tb-img-full">
+            <p class="tb-caption">Example of binary classification with a sigmoid-like
 logistic curve - <span class="citation"
-data-cites="wikipedia-logistic">[18]</span></figcaption>
+data-cites="wikipedia-logistic">[18]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/logistic_regression_v2.png" />-->
+<!--<figcaption>Example of binary classification with a sigmoid-like-->
+<!--logistic curve - <span class="citation"-->
+<!--data-cites="wikipedia-logistic">[18]</span></figcaption>-->
 </figure>
 <p><strong><em>Regression</em></strong></p>
 <p><strong>Regression is predicting numbers.</strong> In regression
@@ -651,9 +659,12 @@ a continuous output variable based on one or more input variables.
 Regression is estimation: it involves guessing what a feature of a data
 point will be given the rest of its characteristics.</p>
 <figure id="fig:simple_regression">
-<embed src="images/ML_background/linear_regression_v2.pdf" />
-<figcaption>Example regression plot - <span class="citation"
-data-cites="drouin2017class">[17]</span></figcaption>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/linear_regression_v2.png" class="tb-img-full"/>
+    <p class="tb-caption">Example regression plot - <span class="citation"
+data-cites="drouin2017class">[17]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/linear_regression_v2.png" />-->
+<!--<figcaption>Example regression plot - <span class="citation"-->
+<!--data-cites="drouin2017class">[17]</span></figcaption>-->
 </figure>
 <p><strong>Linear regression.</strong> One type of regression, linear
 regression, assumes a linear relationship between features and predicted
@@ -675,12 +686,18 @@ attempted cyberattacks, sudden behavioral shifts, and unanticipated
 failures. Early detection of anomalies can substantially improve the
 performance of models in real-world situations.</p>
 <figure>
-<embed src="images/ML_background/anomaly_scatter_v2.pdf"
-style="width:90.0%" />
-<embed src="images/ML_background/anomaly_time_v2.pdf"
-style="width:90.0%" />
-<figcaption>Two examples of anomaly detection -<span class="citation"
-data-cites="hendrycks-anomaly">[20]</span></figcaption>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_scatter_v2.png"
+         class="tb-img-half"/>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_scatter_v2.png"-->
+<!--style="width:90.0%" />-->
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_time_v2.png"
+         class="tb-img-half"/>
+    <p class="tb-caption">Two examples of anomaly detection -<span class="citation"
+data-cites="hendrycks-anomaly">[20]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_time_v2.png"-->
+<!--style="width:90.0%" />-->
+<!--<figcaption>Two examples of anomaly detection -<span class="citation"-->
+<!--data-cites="hendrycks-anomaly">[20]</span></figcaption>-->
 </figure>
 <p><strong>Black swan detection is an essential problem within anomaly
 detection.</strong> Black swans are unpredictable and rare events with a
@@ -690,8 +707,9 @@ represented in the training data that ML models use to extrapolate the
 future. Due to their extreme and uncommon nature, such events make
 anomaly detection challenging. In section <a href="#sec:black-swans"
 data-reference-type="ref"
-data-reference="sec:black-swans">[sec:black-swans]</a> in the Safety
-Engineering chapter, we discuss these ideas in more detail.</p>
+data-reference="sec:black-swans">black-swans</a> in the <a href="#chap:safety-engineering"
+data-reference-type="ref"
+data-reference="chap:safety-engineering">Safety Engineering</a> chapter, we discuss these ideas in more detail.</p>
 <p><strong><em>Sequence Modeling</em></strong></p>
 <p><strong>Sequence modeling is analyzing and predicting patterns in
 sequential data.</strong> Sequence modeling is a broadly defined task
@@ -870,8 +888,10 @@ incorrect prediction of the negative class, predicting negative instead
 of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
-<img src="images/ML_background/predicted-actual-green-purple.png" />
-<figcaption>Confusion matrix</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/predicted-actual-green-purple.png"
+     class="tb-img-full" />
+    <p class="tb-caption">Confusion matrix</p>
+<!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
 <p>Since each prediction must be in one of these categories, the number
 of total predictions will be the sum of the number of predictions in
@@ -927,10 +947,15 @@ for a given model, increasing precision will necessarily decrease recall
 and vice versa.<p>
 </p>
 <figure id="fig:precision-recall">
-<img src="images/ML_background/true-false-positives-green-purple.png" />
-<figcaption>Visualization of precision and recall - <span
-class="citation"
-data-cites="wikipedia-precision">[21]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/true-false-positives-green-purple.png"
+     class="tb-img-full"/>
+    <p class="tb-caption">Visualization of precision and recall - <span
+        class="citation"
+        data-cites="wikipedia-precision">[21]</span>
+    </p>
+<!--<figcaption>Visualization of precision and recall - <span-->
+<!--class="citation"-->
+<!--data-cites="wikipedia-precision">[21]</span></figcaption>-->
 </figure>
 <p><strong>AUROC scores measure a model’s discernment.</strong> The
 AUROC (Area Under the Receiver Operating Characteristic) score measures
@@ -947,10 +972,14 @@ interpret the AUROC as the probability that a positive example scores
 higher than a negative example.<p>
 </p>
 <figure id="fig:AUROC">
-<embed src="images/ML_background/roc_curve_v2.pdf" />
-<figcaption>The AUROC score increases as it moves in the northwest
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/roc_curve_v2.png" class="tb-img-full"/>
+    <p class="tb-caption">The AUROC score increases as it moves in the northwest
 direction. <span class="citation"
-data-cites="wikipedia-roccurve">[22]</span></figcaption>
+data-cites="wikipedia-roccurve">[22]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/roc_curve_v2.png" />-->
+<!--<figcaption>The AUROC score increases as it moves in the northwest-->
+<!--direction. <span class="citation"-->
+<!--data-cites="wikipedia-roccurve">[22]</span></figcaption>-->
 </figure>
 <p>Since it considers performance at all possible decision thresholds,
 the AUROC is useful for comparing the performance of different
@@ -1015,8 +1044,10 @@ will also discuss deep learning, a set of techniques that can be applied
 in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
-<img src="images/ML_background/learning_paradigms.png" />
-<figcaption>Learning paradigms in machine learning </figcaption>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/learning_paradigms.png" class="tb-img-full"/>
+    <p class="tb-caption">Learning paradigms in machine learning</p>
+<!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/learning_paradigms.png" />-->
+<!--<figcaption>Learning paradigms in machine learning </figcaption>-->
 </figure>
 <p><strong><em>Supervised Learning</em></strong></p>
 <p><strong>Supervised learning is learning from labeled data.</strong>
@@ -1074,9 +1105,12 @@ images in which information is missing or covered up. This allows the
 model to learn visual features and relationships between objects that
 can be used to generate new images.</p>
 <figure id="fig:inpainting">
-<img src="images/ML_background/image32.png" />
-<figcaption>Image inpainting - <span class="citation"
-data-cites="elharrouss2019">[23]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/inpainting.png"
+class="tb-img-full"/>
+    <p class="tb-caption">Image inpainting - <span class="citation"
+data-cites="elharrouss2019">[23]</span></p>
+<!--<figcaption>Image inpainting - <span class="citation"-->
+<!--data-cites="elharrouss2019">[23]</span></figcaption>-->
 </figure>
 <p><strong>ML models exist on a spectrum of supervision.</strong>
 Unsupervised and supervised learning are valuable concepts for thinking
@@ -1107,7 +1141,9 @@ as goals to be achieved by an agent maximizing rewards from its
 environment. RL is distinctive since it does not require pre-collected
 data, as the agent can begin with no information and interact with its
 environment to learn new things and acquire new data. This approach will
-be discussed in more depth later in the Section .</p>
+be discussed in more depth later in the Section <a href="#sec:reinf-learning"
+data-reference-type="ref"
+data-reference="sec:reinf-learning">Reinforcement Learning</a>.</p>
 <p><strong>Examples of RL.</strong> RL can help robots learn to navigate
 an unknown environment by taking actions and receiving feedback in the
 form of rewards or penalties based on performance. Through trial and

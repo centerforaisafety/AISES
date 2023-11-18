@@ -1,3 +1,11 @@
+<style>
+    .visionbox{
+    border: 5px solid gray;
+    background-color: lightgray;
+    text-align: left;
+    }
+</style>
+
 </head>
 <body>
 <h1 id="sec:ai-race">AI Race</h1>
@@ -284,16 +292,20 @@ remember that we are all on the same side when it comes to existential
 risks, and working together to prevent them is a collective necessity. A
 destructive AI arms race benefits nobody, so all actors would be
 rational to take steps to cooperate with one another to prevent the
-riskiest applications of militarized AIs. As Dwight D. Eisenhower
+riskiest applications of militarized AIs. As Dwight D. Eisenhower
 reminded us, “The only way to win World War III is to prevent it.”<p/>
-We have considered how competitive pressures could lead to the
+<p>We have considered how competitive pressures could lead to the
 increasing automation of conflict, even if decision-makers are aware of
 the existential threat that this path entails. We have also discussed
 cooperation as being the key to counteracting and overcoming this
 collective action problem. We will now illustrate a hypothetical path to
 disaster that could result from an AI arms race.</p>
+
+<legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
+        margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
+    <span><b>Story: Automated Warfare</b></span>
+</legend>
 <div class="visionbox">
-<p><span>Story: Automated Warfare</span></p>
 <p>As AI systems become increasingly sophisticated, militaries start
 involving them in decision-making processes. Officials give them
 military intelligence about opponents’ arms and strategies, for example,
@@ -302,7 +314,7 @@ becomes apparent that AIs are reliably reaching better decisions than
 humans, so it seems sensible to give them more influence. At the same
 time, international tensions are rising, increasing the threat of
 war.<p/>
-A new military technology has recently been developed that could make
+<p>A new military technology has recently been developed that could make
 international attacks swifter and stealthier, giving targets less time
 to respond. Since military officials feel their response processes take
 too long, they fear that they could be vulnerable to a surprise attack
@@ -311,7 +323,7 @@ to retaliate. Since AIs can process information and make decisions much
 more quickly than humans, military leaders reluctantly hand them
 increasing amounts of retaliatory control, reasoning that failing to do
 so would leave them open to attack from adversaries.<p/>
-While for years military leaders had stressed the importance of keeping
+<p>While for years military leaders had stressed the importance of keeping
 a “human in the loop” for major decisions, human control is nonetheless
 gradually phased out in the interests of national security. Military
 leaders understand that their decisions lead to the possibility of
@@ -319,7 +331,7 @@ inadvertent escalation caused by system malfunctions, and would prefer a
 world where all countries automated less; but they do not trust that
 their adversaries will refrain from automation. Over time, more and more
 of the chain of command is automated on all sides.<p/>
-One day, a single system malfunctions, detecting an enemy attack when
+<p>One day, a single system malfunctions, detecting an enemy attack when
 there is none. The system is empowered to launch an instant
 “retaliatory” attack, and it does so in the blink of an eye. The attack
 causes automated retaliation from the other side, and so on. Before
@@ -401,8 +413,8 @@ profitability fell. This is often considered a consequence of
 competitive pressures <span class="citation"
 data-cites="broughton_bhopal_2005">[22]</span>.</p>
 <div class="wrapfigure">
-<p><span>r</span>[0]<span>.38</span> “Nothing can be done at once
-hastily and prudently.”<em>Publilius Syrus</em></p>
+“Nothing can be done at once
+hastily and prudently.” <em>Publilius Syrus</em></p>
 </div>
 <p><strong>Competition incentivizes businesses to deploy potentially
 unsafe AI systems.</strong> In an environment where businesses are
@@ -727,7 +739,11 @@ themselves. The upshot is that the AI ecosystem would eventually stop
 evolving on human terms, and we would become a displaced, second-class
 species.</p>
 <div class="visionbox">
-<p><span>Story: Autonomous Economy</span> As AIs become more capable,
+<legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
+        margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
+    <span> <b>Story: Autonomous Economy</b></span>
+</legend>
+As AIs become more capable,
 people realize that we could work more efficiently by delegating some
 simple tasks to them, like drafting emails. Over time, people notice
 that the AIs are doing these tasks more quickly and effectively than any

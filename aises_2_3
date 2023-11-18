@@ -52,9 +52,11 @@ techniques are employed in and represent the cutting edge of many areas
 of machine learning, including supervised, unsupervised, and
 reinforcement learning.</p>
 <figure id="fig:venn-definitions">
-<img src="images/ML_background/AI_ML_DL_Venn.png" />
-<figcaption>Relationship between AI, machine learning, and deep
-learning</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/AI_ML_DL_Venn.png" class="tb-img-full"/>
+<p class="tb-caption">Relationship between AI, machine learning, and deep
+learning</p>
+<!--<figcaption>Relationship between AI, machine learning, and deep-->
+<!--learning</figcaption>-->
 </figure>
 <p><strong>Automatically learned representations.</strong>
 Representations are, in general, stand-ins or substitutes for the
@@ -160,10 +162,14 @@ many components and interacting cells, artificial neurons are simplified
 computational units designed to mimic a few of their
 characteristics.</p>
 <figure id="fig:neurons">
-<img src="images/ML_background/artificial biological neuron.png" />
-<figcaption>Comparison of biological and artificial neurons. - <span
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/artificial biological neuron.png"
+     class="tb-img-full"/>
+    <p class="tb-caption">Comparison of biological and artificial neurons. - <span
 class="citation" data-cites="wikineuron wikiperceptron">[2],
-[3]</span></figcaption>
+[3]</span></p>
+<!--<figcaption>Comparison of biological and artificial neurons. - <span-->
+<!--class="citation" data-cites="wikineuron wikiperceptron">[2],-->
+<!--[3]</span></figcaption>-->
 </figure>
 <p><strong>Building blocks.</strong> Neural networks are made of simple
 building blocks that can produce complex abilities when combined at
@@ -203,10 +209,13 @@ network consists of 784 nodes, each corresponding to the grayscale value
 of a pixel in a given image.<p>
 </p>
 <figure id="fig:pixel-mapping">
-<img src="images/ML_background/image54.png" />
-<figcaption>Mapping from pixels of an example image to neurons in the
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/pixel_mapping.png" class="tb-img-full"/>
+    <p class="tb-caption">Mapping from pixels of an example image to neurons in the
 input layer of a network - <span class="citation"
-data-cites="hula2018">[4]</span></figcaption>
+data-cites="hula2018">[4]</span></p>
+<!--<figcaption>Mapping from pixels of an example image to neurons in the-->
+<!--input layer of a network - <span class="citation"-->
+<!--data-cites="hula2018">[4]</span></figcaption>-->
 </figure>
 <p><strong>The output layer is the final layer of a neural
 network.</strong> The output layer contains neurons representing the
@@ -281,8 +290,9 @@ representations. Simply put, more layers capture more features at more
 levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
-<img src="images/ML_background/image59.png" />
-<figcaption>A multi-layer neural network</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/hidden_nn.png" class="tb-img-full"/>
+    <p class="tb-caption">A multi-layer neural network</p>
+<!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
 <p><strong>Neural networks as matrix multiplication.</strong> If we put
 aside the intuitive diagrammatic representation, a neural network is a
@@ -388,10 +398,13 @@ played a critical role in developing more sophisticated deep learning
 architectures.<p>
 </p>
 <figure id="fig:relu-function">
-<embed src="images/ML_background/relu_v2.pdf" />
-<figcaption>The ReLU activation function, <span
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relu_v2.png" class="tb-img-full"/>
+    <p class="tb-caption">The ReLU activation function, <span
 class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,
-passes on positive inputs.</figcaption>
+passes on positive inputs.</p>
+<!--<figcaption>The ReLU activation function, <span-->
+<!--class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,-->
+<!--passes on positive inputs.</figcaption>-->
 </figure>
 <p><strong>Gaussian error linear unit (GELU).</strong> The GELU
 (Gaussian error linear unit) function is an upgrade of the ReLU function
@@ -402,10 +415,14 @@ class="math inline"><em>Φ</em>(<em>x</em>)</span>. The GELU has been
 widely used in and contributed to the success of many current models,
 including Transformer-based language models.</p>
 <figure id="fig:gelu-function">
-<embed src="images/ML_background/gelu_v2.pdf" />
-<figcaption>The GELU activation function, <span
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" class="tb-img-full"/>
+    <p class="tb-caption">The GELU activation function, <span
 class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,
-smoothes out the ReLU function.</figcaption>
+smoothes out the ReLU function.</p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" />-->
+<!--<figcaption>The GELU activation function, <span-->
+<!--class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,-->
+<!--smoothes out the ReLU function.</figcaption>-->
 </figure>
 <p><strong>Sigmoid.</strong> A sigmoid is a smooth, differentiable
 function that maps any real-valued numerical input to a value between
@@ -414,10 +431,15 @@ because it compresses all real numbers to values in this range. When
 graphed, it forms a characteristic S-shaped curve. We explored the
 sigmoid function in the previous section.</p>
 <figure id="fig:sigmoid-function">
-<embed src="images/ML_background/sigmoid_v2.pdf" />
-<figcaption>The Sigmoid activation function, <span
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" class="tb-img-full"/>
+    <p class="tb-caption">he Sigmoid activation function, <span
 class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a
-characteristic S-shape.</figcaption>
+characteristic S-shape.</p>
+
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" />-->
+<!--<figcaption>The Sigmoid activation function, <span-->
+<!--class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a-->
+<!--characteristic S-shape.</figcaption>-->
 </figure>
 <p><strong>Softmax.</strong> Softmax is a popular activation function
 due to its ability to model multi-class probabilities. Unlike other
@@ -464,9 +486,11 @@ Consequently, lower-level features learned in earlier layers can
 contribute more directly to the higher-level features of deeper layers,
 and information can be more readily preserved.</p>
 <figure id="fig:feed-forward-network">
-<img src="images/ML_background/image53.png" />
-<figcaption>Traditional feedforward network and a network with residual
-connections.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feed_forward.png" class="tb-img-full"/>
+    <p class="tb-caption">Traditional feedforward network and a network with residual
+connections.</p>
+<!--<figcaption>Traditional feedforward network and a network with residual-->
+<!--connections.</figcaption>-->
 </figure>
 <p><strong>Residual connections facilitate learning.</strong> Residual
 connections improve learning dynamics in several ways by facilitating
@@ -497,9 +521,11 @@ systematically comparing relevant sections using matrix multiplication
 with the filter, and recording the results in a new matrix called a
 <em>feature map</em>.</p>
 <figure id="fig:convolution-1">
-<img src="images/ML_background/convolution.jpeg" />
-<figcaption>Convolution operation - <span class="citation"
-data-cites="wikiconvolution">[8]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/convolution.jpeg" class="tb-img-full"/>
+<p class="tb-caption">Convolution operation - <span class="citation"
+data-cites="wikiconvolution">[8]</span></p>
+<!--<figcaption>Convolution operation - <span class="citation"-->
+<!--data-cites="wikiconvolution">[8]</span></figcaption>-->
 </figure>
 <p><strong>Convolutional layers.</strong> Convolutional layers are
 specialized layers that perform the “convolution” operation to detect
@@ -531,10 +557,13 @@ to every other element by determining its relative importance and
 selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
-<img src="images/ML_background/image56.png" />
-<figcaption>Example of relationships captured by two different attention
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relationships.png" class="tb-img-full" />
+<p class="tb-caption">Example of relationships captured by two different attention
 heads - <span class="citation"
-data-cites="Vaswani2017">[9]</span></figcaption>
+data-cites="Vaswani2017">[9]</span></p>
+<!--<figcaption>Example of relationships captured by two different attention-->
+<!--heads - <span class="citation"-->
+<!--data-cites="Vaswani2017">[9]</span></figcaption>-->
 </figure>
 <p>This process allows the model to capture dependencies and
 relationships within the sequence, even when they are separated by long
@@ -553,7 +582,7 @@ blocks.<p>
 </p>
 <div class="wrapfigure">
 <p><span>r</span><span>5.5cm</span> <img
-src="images/ML_background/image64.png" style="width:5.5cm"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/transformer_block.png" style="width:5.5cm"
 alt="image" /></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
@@ -603,7 +632,8 @@ applications.<p>
 <strong>Training is learning and inference is executing.</strong> As we
 saw previously in section <a href="#sec:AI-and-ML"
 data-reference-type="ref"
-data-reference="sec:AI-and-ML">[sec:AI-and-ML]</a>, <em>training</em> is
+data-reference="sec:AI-and-ML">Artificial Intelligence &amp; Machine
+Learning</a>, <em>training</em> is
 the process through which the model learns from data. During training, a
 model is fed data and makes iterative parameter adjustments to predict
 target outcomes better. <em>Inference</em> is the process of using a
@@ -685,10 +715,14 @@ calculated using the gradients (derivatives) of the loss function with
 respect to the model’s parameters.<p>
 </p>
 <figure id="fig:gradient-example">
-<img src="images/ML_background/gradient-graph-design.png" />
-<figcaption>Gradient descent over loss landscape given two different
-weight initializations - <span class="citation"
-data-cites="raj-enjoyalg">[10]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gradient-graph-design.png" class="tb-img-full"/>
+    <p class="tb-caption">Gradient descent over loss landscape given two different
+        weight initializations - <span class="citation"
+        data-cites="raj-enjoyalg">[10]</span>
+    </p>
+<!--<figcaption>Gradient descent over loss landscape given two different-->
+<!--weight initializations - <span class="citation"-->
+<!--data-cites="raj-enjoyalg">[10]</span></figcaption>-->
 </figure>
 <p>The size of the steps is determined by the <em>learning rate</em>, a
 parameter of the model configuration (known as a
@@ -917,7 +951,8 @@ relevant information for longer.</p>
 recognition <span class="citation"
 data-cites="krizhevsky2012advances">[14]</span>.</strong> As we saw in
 section <a href="#sec:AI-and-ML" data-reference-type="ref"
-data-reference="sec:AI-and-ML">[sec:AI-and-ML]</a>, the <strong>ImageNet
+data-reference="sec:AI-and-ML">Artificial Intelligence &amp; Machine
+Learning</a>, the <strong>ImageNet
 Challenge</strong> was a large-scale image recognition competition that
 spurred the development and adoption of deep learning methods for
 computer vision. The challenge involved classifying images into 1,000

@@ -168,9 +168,11 @@ into account that its actions can affect that context. The bandit
 problem is now a <em>full reinforcement learning problem</em>.<p>
 </p>
 <figure id="fig:multi-bandit">
-<img src="images/ML_background/RL problem.jpeg" />
-<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.
-- <span class="citation" data-cites="xie2020">[4]</span></figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/RL problem.jpeg" class="tb-img-full"/>
+<p class="tb-caption">TMulti-armed bandit, contextual bandit, and full RL problems.
+- <span class="citation" data-cites="xie2020">[4]</span></p>
+<!--<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.-->
+<!-- - <span class="citation" data-cites="xie2020">[4]</span></figcaption>-->
 </figure>
 <p>The strategies we considered above—–<em>greedy</em> and
 <em>epsilon-greedy</em>–—aren’t suitable anymore. To develop better
@@ -185,9 +187,11 @@ adjacent open cell. Moving into an open cell is neutral, moving into a
 hazard is very bad, and moving into the goal is very good.<p>
 </p>
 <figure id="fig:gridworld">
-<img src="images/ML_background/gridworld.png" />
-<figcaption>Gridworld: a simple environment used as a toy model in
-reinforcement learning.</figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/gridworld.png" class="tb-img-full"/>
+    <p class="tb-caption">Gridworld: a simple environment used as a toy model in
+reinforcement learning.</p>
+<!--<figcaption>Gridworld: a simple environment used as a toy model in-->
+<!--reinforcement learning.</figcaption>-->
 </figure>
 <p><strong>The agent-environment loop.</strong> The relationship between
 an RL agent and its environment can be described by the
@@ -198,9 +202,11 @@ and a state observation from the environment. Using Gridworld as our
 example, we discuss each of those terms below.<p>
 </p>
 <figure id="fig:agent-environment">
-<img src="images/ML_background/image36.png" />
-<figcaption>The agent-environment loop - <span class="citation"
-data-cites="wikipedia-markov">[5]</span></figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/agent-environment-loop.png" class="tb-img-full"/>
+<p class="tb-caption">The agent-environment loop - <span class="citation"
+data-cites="wikipedia-markov">[5]</span></p>
+<!--<figcaption>The agent-environment loop - <span class="citation"-->
+<!--data-cites="wikipedia-markov">[5]</span></figcaption>-->
 </figure>
 <p><strong><em>Environment and state</em></strong></p>
 <p><strong>The environment and state are the world.</strong> In
@@ -388,10 +394,12 @@ use a value function to estimate the value of different routes based on
 the expected travel time.<p>
 </p>
 <figure id="fig:value-methods">
-<img src="images/ML_background/two-types updated.png" />
-<figcaption>Two value-based methods: state-value and action-value (Q-)
-functions - <span class="citation" data-cites="huggingface">[6]</span>.
-</figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/two-types updated.png" class="tb-img-full"/>
+<p class="tb-caption">Two value-based methods: state-value and action-value (Q-)
+functions - <span class="citation" data-cites="huggingface">[6]</span>.</p>
+<!--<figcaption>Two value-based methods: state-value and action-value (Q-)-->
+<!--functions - <span class="citation" data-cites="huggingface">[6]</span>.-->
+<!--</figcaption>-->
 </figure>
 <p><strong>Value functions can focus on the value of a state or an
 action.</strong> There are two main types of value functions in
@@ -515,9 +523,11 @@ the Q-function using a less computationally taxing method. One such
 method involves using neural networks to estimate the Q-function. This
 is an example of a method known as deep RL.</p>
 <figure id="fig:gridworld">
-<embed src="images/ML_background/gridworld.pdf" />
-<figcaption>Example Q-values in Gridworld. - <span class="citation"
-data-cites="gridworld">[7]</span></figcaption>
+<img src="https://github.com/WilliamHodgkins/AISES/blob/main/gridworld.png" class="tb-img-full"/>
+<p class="tb-caption">Example Q-values in Gridworld. - <span class="citation"
+data-cites="gridworld">[7]</span></p>
+<!--<figcaption>Example Q-values in Gridworld. - <span class="citation"-->
+<!--data-cites="gridworld">[7]</span></figcaption>-->
 </figure>
 <h2 id="deep-reinforcement-learning">Deep Reinforcement Learning</h2>
 <p>Deep reinforcement learning (deep RL) is the area of machine learning
