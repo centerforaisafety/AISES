@@ -1,3 +1,11 @@
+<style>
+    .visionbox{
+    border: 5px solid gray;
+    background-color: lightgray;
+    text-align: left;
+    }
+</style>
+
 </head>
 <body>
 <h1 id="sec:malicious">Malicious Use</h1>
@@ -375,8 +383,13 @@ inequality if misused by governments and corporations. This could lead
 to totalitarian rule and intense manipulation of the public by
 corporations, and could lock in current values, preventing any further
 moral progress.</p>
+
 <div class="visionbox">
-<p><span>Story: Bioterrorism</span> <em>The following is an illustrative
+<legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
+        margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
+    <span><b>Story: Bioterrorism</b></span> <em>
+</legend>
+<p>The following is an illustrative
 hypothetical story to help readers envision some of these risks. This
 story is nonetheless somewhat vague to reduce the risk of inspiring
 malicious actions based on it.</em></p>
