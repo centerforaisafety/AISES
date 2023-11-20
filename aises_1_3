@@ -1,5 +1,5 @@
 <style>
-    .visionbox{
+    .storybox{
     border: 5px solid gray;
     background-color: lightgray;
     text-align: left;
@@ -305,7 +305,7 @@ disaster that could result from an AI arms race.</p>
         margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
     <span><b>Story: Automated Warfare</b></span>
 </legend>
-<div class="visionbox">
+<div class="storybox">
 <p>As AI systems become increasingly sophisticated, militaries start
 involving them in decision-making processes. Officials give them
 military intelligence about opponents’ arms and strategies, for example,
@@ -738,7 +738,7 @@ the AI race would not be a nation-state, not a corporation, but AIs
 themselves. The upshot is that the AI ecosystem would eventually stop
 evolving on human terms, and we would become a displaced, second-class
 species.</p>
-<div class="visionbox">
+<div class="storybox">
 <legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
         margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
     <span> <b>Story: Autonomous Economy</b></span>

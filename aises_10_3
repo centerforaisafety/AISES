@@ -90,8 +90,12 @@ changes—is essential in ensuring safe and effective control over AIs’
 behavior. Examining the properties of utility functions illuminates
 potential problems in implementing corrigibility.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Utility Functions vs. Reward Functions</span> Utility
+<div class="visionbox">
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<p><span><b>A Note on Utility Functions vs. Reward Functions</b></span></p>
+</legend>
+<p> Utility
 functions and reward functions are two interrelated yet distinct
 concepts in understanding agent behavior. Utility functions represent an
 agent’s preferences about states or the choice-worthiness of a state,

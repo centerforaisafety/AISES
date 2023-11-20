@@ -89,8 +89,11 @@ the outcome of an election, an individual’s subjective best-guess could
 be used instead. So, both uncertain and certain outcomes can be
 represented by lotteries.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Expected Value vs. Expected Utility</span></p>
+<div class="visionbox">
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<p><span><b>A Note on Expected Value vs. Expected Utility</b></span></p>
+</legend>
 <p>An essential distinction in this chapter is that between expected
 value and expected utility.</p>
 <p><strong>Expected value is the average outcome of a random
@@ -255,8 +258,11 @@ decision making of an agent considering two lotteries as just
 calculating the expected utilities and choosing the larger resulting
 one.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Logarithms</span></p>
+<div class="visionbox">
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<p><span><b>A Note on Logarithms</b></span></p>
+</legend>
 <p><strong>Logarithmic functions are commonly used as utility
 functions.</strong> A logarithm is a mathematical function that
 expresses the power to which a given number (referred to as the base)

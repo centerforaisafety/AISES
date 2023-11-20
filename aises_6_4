@@ -120,8 +120,11 @@ potential by discussing the role of efficiency in the economy and the
 benefits and limitations of focusing on economic growth in the context
 of AIs augmenting growth and efficiency.<br />
 </p>
-<div class="storybox">
-<p><span>A Note on Gains from Trade</span></p>
+<div class="visionbox">
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+    <p><span><b>A Note on Gains from Trade</b></span></p>
+</legend>
 <h4 id="we-can-specialize-and-trade-making-everyone-better-off.">We can
 specialize and trade, making everyone better off.</h4>
 <p>Trade is often seen as a win-win scenario, allowing for mutual
@@ -1316,7 +1319,11 @@ orders of magnitude more important than those of an average citizen,
 which is clearly disconnected from social value.<br />
 </p>
 <div class="storybox">
-<p><span>A Note on Wellbeing in Social Science</span> Philosophers
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+    <p><span><b>A Note on Wellbeing in Social Science</b></span></p>
+</legend>
+Philosophers
 continue to debate what wellbeing is, or what it means to live a good
 life. However, over the years, researchers have developed ways to
 approximate wellbeing for practical purposes. Psychologists, economists,

@@ -195,7 +195,11 @@ focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
 <div class="storybox">
-<p><span>A Note on Measuring Wellbeing</span> While the philosophical
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+    <p><span><b>A Note on Measuring Wellbeing</b></span></p>
+</legend>
+<p> While the philosophical
 foundations of wellbeing are not settled, quantitative research fields
 like public health and economics require the use of metrics in order to
 evaluate, track, or compare the subject of study. Researchers use many
@@ -314,7 +318,11 @@ happiness play such a filtering role for the objective goods theorist,
 it is unclear whether there are truly a variety of objective goods
 left.</p>
 <div class="storybox">
-<p><span>A Note on Digital Minds</span> Digital minds are artificial
+<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
+margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+    <p><span><b>A Note on Digital Minds</b></span></p>
+</legend>
+<p>Digital minds are artificial
 lifeforms with a mind. These could be advanced AIs or whole-brain
 emulations (WBE). If we entertain the possibility of digital minds
 coming into existence, we must assume that the functioning of a mind is

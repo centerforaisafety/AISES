@@ -1,5 +1,5 @@
 <style>
-    .visionbox{
+    .storybox{
     border: 5px solid gray;
     background-color: lightgray;
     text-align: left;
@@ -384,7 +384,7 @@ to totalitarian rule and intense manipulation of the public by
 corporations, and could lock in current values, preventing any further
 moral progress.</p>
 
-<div class="visionbox">
+<div class="storybox">
 <legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
         margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
     <span><b>Story: Bioterrorism</b></span> <em>
