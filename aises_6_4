@@ -1,3 +1,25 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <h1 id="sec:economic-engine"> 6.4 The Economic Engine</h1>
 <h4
 id="what-if-we-allow-the-economy-to-decide-what-ais-will-be-like">What
@@ -121,8 +143,7 @@ benefits and limitations of focusing on economic growth in the context
 of AIs augmenting growth and efficiency.<br />
 </p>
 <div class="visionbox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<legend class="visionboxlegend">
     <p><span><b>A Note on Gains from Trade</b></span></p>
 </legend>
 <h4 id="we-can-specialize-and-trade-making-everyone-better-off.">We can
@@ -1318,9 +1339,8 @@ to spend more. The preferences of a billionaire would be considered
 orders of magnitude more important than those of an average citizen,
 which is clearly disconnected from social value.<br />
 </p>
-<div class="storybox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<div class="visionbox">
+<legend class="visionboxlegend">
     <p><span><b>A Note on Wellbeing in Social Science</b></span></p>
 </legend>
 Philosophers

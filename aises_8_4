@@ -1,9 +1,23 @@
 <style>
     .visionbox{
-    border: 5px solid #3585d4;
+    border-radius: 15px;
+    border: 2px solid #3585d4;
     background-color: #ebf3fb;
     text-align: left;
+    padding: 10px;
     }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
 </style>
 
 <h1 id="conflict-and-cooperation">8.4 Conflict and Cooperation</h1>
@@ -1369,8 +1383,7 @@ superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
 <div class="visionbox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<legend class="visionboxlegend">
     <p><span><b>A Note on Morality as Cooperation</b></span></p>
 </legend>
 The theory of

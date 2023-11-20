@@ -1,3 +1,25 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <h1 id="happiness"> 6.6 Happiness</h1>
 <p>Should we have AIs make people happy? In this section, we will
 explore the concept of happiness and its relevance in instructing AI
@@ -194,9 +216,8 @@ this knowledge, one approach to using AI to increase happiness is to
 focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
-<div class="storybox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<div class="visionbox">
+<legend class="visionboxlegend">
     <p><span><b>A Note on Measuring Wellbeing</b></span></p>
 </legend>
 <p> While the philosophical
@@ -317,9 +338,8 @@ which should also be on the list. However, if goods such as autonomy and
 happiness play such a filtering role for the objective goods theorist,
 it is unclear whether there are truly a variety of objective goods
 left.</p>
-<div class="storybox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<div class="visionbox">
+<legend class="visionboxlegend">
     <p><span><b>A Note on Digital Minds</b></span></p>
 </legend>
 <p>Digital minds are artificial

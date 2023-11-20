@@ -1,9 +1,24 @@
 <style>
     .storybox{
-    border: 5px solid gray;
+    border-radius: 15px;
+    border: 2px solid gray;
     background-color: lightgray;
     text-align: left;
+    padding: 10px;
     }
+</style>
+
+
+<style>
+    .storyboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: gray;
+    border-radius: 15px 15px 0px 0px}
 </style>
 
 </head>
@@ -433,11 +448,10 @@ from academia (“publish or perish”) or startups (“move fast and break
 things”), and their hires often do not care about safety. These norms
 are hard to change once they have inertia, and need to be addressed with
 proactive interventions.</p>
-<legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
-        margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
-    <span><b>Story: Weak Safety Culture</b></span>
-</legend>
 <div class="storybox">
+<legend class="storyboxlegend">
+<span><b>Story: Weak Safety Culture</b></span>
+</legend>
 An AI company is considering whether to train a new model. The company’s Chief Risk Officer (CRO),
 hired only to comply with regulation, points out that the previous AI
 system developed by the company demonstrates some concerning

@@ -1,3 +1,25 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <h1 id="law"> 6.2 Law</h1>
 <p><strong>Why not have AIs follow the law?</strong> In this textbook,
 we have often turned to ethics to answer the question of how we can
@@ -261,8 +283,7 @@ views on ethics. A solution from the moral uncertainty literature which
 best embodies the democratic ideal is the <em>moral parliament</em>
 approach, which we will discuss later in this chapter.</p>
 <div class="visionbox">
-<legend style="border-bottom-style: solid; border-bottom-color: #3585d4;
-margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: #3585d4">
+<legend class="visionboxlegend">
     <p><span><b>A Note On The Three Laws of Robotics</b></span></p>
 </legend>
 <p>Some propose that
