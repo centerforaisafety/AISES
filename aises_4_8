@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 10px;
+    }
+</style>
+
 <h1 id="sec:black-swans">4.8 Black Swans</h1>
 <h3 id="introduction-to-black-swans">Introduction to Black Swans</h3>
 <p>So far, we have discussed tail events in general. We will now look at
@@ -32,13 +58,13 @@ Unknowns</h2>
 class="citation" data-cites="taleb2007blackswan">[1]</span>.</strong> We
 can sort events into four categories, as shown in the table below.<p>
 </p>
-<table>
+<table class="tableLayout">
 <thead>
 <tr class="header">
-<th style="text-align: left;"><strong>Known knowns</strong>: things we
-are aware of and understand.</th>
-<th style="text-align: left;"><strong>Unknown knowns</strong>: things
-that we do not realize we know (such as tacit knowledge).</th>
+<td style="text-align: left;"><strong>Known knowns</strong>: things we
+are aware of and understand.</td>
+<td style="text-align: left;"><strong>Unknown knowns</strong>: things
+that we do not realize we know (such as tacit knowledge).</td>
 </tr>
 </thead>
 <tbody>

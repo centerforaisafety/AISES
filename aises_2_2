@@ -889,7 +889,7 @@ of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/predicted-actual-green-purple.png"
-     class="tb-img-full" width="50%" />
+     class="tb-img-full" width="40%" />
     <p class="tb-caption">Confusion matrix</p>
 <!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
@@ -948,7 +948,7 @@ and vice versa.<p>
 </p>
 <figure id="fig:precision-recall">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/true-false-positives-green-purple.png"
-     class="tb-img-full"/>
+     class="tb-img-full" style="width:30%"/>
     <p class="tb-caption">Visualization of precision and recall - <span
         class="citation"
         data-cites="wikipedia-precision">[21]</span>

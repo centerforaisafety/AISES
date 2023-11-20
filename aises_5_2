@@ -20,7 +20,7 @@ the linear sequence of events it will trigger and, thus, the end
 result.</p>
 <figure id="rube_goldberg">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Rubes-diagram.png"
-        alt="image" class="tb-img-full"/>
+        alt="image" class="tb-img-full" width="30%"/>
 <span id="rube_goldberg" label="rube_goldberg"></span></p>
 <p class="tb-caption">Example of mechanistic approach - Rube Goldberg machine</p>
 <!--<figcaption>Example of mechanistic approach - Rube Goldberg-->

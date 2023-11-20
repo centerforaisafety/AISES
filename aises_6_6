@@ -158,7 +158,7 @@ would lead to bad outcomes for humans and instead recommend those that
 best increase human wellbeing.<br />
 </p>
 <figure id="fig:wellbeing">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Wellbeing-value-purple-green.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Wellbeing-value-purple-green.png" class="tb-img-full" width="30%"/>
 <p class="tb-caption">Wellbeing function outputs.</p>
 <!--<figcaption>Wellbeing function outputs.</figcaption>-->
 </figure>

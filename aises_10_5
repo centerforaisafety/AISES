@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="beyond-expected-utility-theories">B.5 Beyond Expected Utility
 Theories</h1>
 <p><strong>Overview.</strong> von Neumann-Morgenstern utility functions
@@ -68,7 +94,7 @@ between utility theory and human behavior, presents two scenarios where
 players must make a choice between two gambles <span class="citation"
 data-cites="allais1953comportement">[2]</span>.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario A</caption>
 <thead>
 <tr class="header">
@@ -86,7 +112,8 @@ million % chance of $0</td>
 </tr>
 </tbody>
 </table>
-<table>
+
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario B</caption>
 <thead>
 <tr class="header">
@@ -129,7 +156,7 @@ class="math inline">$</span>1 million has simply been divided into an
 class="math inline">%</span> chance of winning the same <span
 class="math inline">$</span>1 million.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario A reduced</caption>
 <thead>
 <tr class="header">
@@ -161,7 +188,7 @@ will be left with the reduced game described, in which the 89<span
 class="math inline">%</span> chance of winning <span
 class="math inline">$</span>0 has simply been ignored.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario B reduced</caption>
 <thead>
 <tr class="header">
@@ -268,7 +295,7 @@ Participants playing the role of health officials must choose between
 two policy options in two different scenarios. These options are
 presented in the table below.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenario A</caption>
 <thead>
 <tr class="header">
@@ -286,7 +313,7 @@ saves no one.</td>
 </tr>
 </tbody>
 </table>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenario B</caption>
 <thead>
 <tr class="header">
@@ -312,7 +339,7 @@ more death and not condemning people to certain death. However, the only
 difference between Scenario A and B is the manner of presentation, or
 framing. Scenario A is presented in terms of lives saved, and Scenario B
 in terms of deaths caused. The equivalence is shown in this table.</p>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenarios A and B compared</caption>
 <thead>
 <tr class="header">

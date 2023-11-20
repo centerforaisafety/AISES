@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.prisonTable{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.prisonTable tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.prisonTable th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.prisonTable td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="game-theory">8.2 Game Theory</h1>
 <h2 id="overview">8.2.1 Overview</h2>
 <p>This chapter explores the dynamics that may arise when AI and human
@@ -187,7 +213,8 @@ whether to cooperate or defect themself. They do not know what their
 partner will decide to do.<p>
 </p>
 <figure id="fig:pris-dillema">
-<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/world-one-and-two.png" alt="image" class="tb-img-full"/>
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/world-one-and-two.png" alt="image"
+        class="tb-img-full" width="40%"/>
     <span id="fig:pris-dillema" label="fig:pris-dillema"></span></p>
 <p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
 Dilemma</p>
@@ -249,7 +276,7 @@ these payoffs are negative. Each cell of the matrix shows the outcome of
 the two suspects’ decisions as the payoff to each suspect.<p>
 </p>
 <div id="tab:payoff-matrix">
-<table>
+<table class="prisonTable">
 <caption>A Prisoner’s Dilemma payoff matrix</caption>
 <thead>
 <tr class="header">
@@ -332,7 +359,7 @@ data-reference="fig:pareto-efficiency">3</a>.<p>
 <figure id="fig:pareto-comparison">
 <p><img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice and Bob choices red green.png"
-alt="image" class="tb-img-full"/> <span id="fig:pareto-comparison"
+alt="image" class="tb-img-full" width="40%"/> <span id="fig:pareto-comparison"
 label="fig:pareto-comparison"></span></p>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma</p>
@@ -350,7 +377,7 @@ produce a Pareto improvement.</em><p>
 </p>
 <figure id="fig:pareto-efficiency">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payout-purple-green.png" class="tb-img-full"/>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payout-purple-green.png" class="tb-img-full" width="35%"/>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma - adapted from <span class="citation"
 data-cites="kuhn2019prisoner">[1]</span></p>
@@ -444,7 +471,7 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 </p>
 <figure id="fig:cooperate">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Agents-may-cooperate-because v2.png" class="tb-img-full"/>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Agents-may-cooperate-because v2.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Five reasons agents might cooperate - <span class="citation"
 data-cites="parfit1984reasons">[2]</span></p>
 <!--<figcaption>Five reasons agents might cooperate - <span class="citation"-->
@@ -468,7 +495,7 @@ associated with different activities so as to encourage cooperative
 behavior.<p>
 </p>
 <div id="tab:abstract">
-<table>
+<table class="prisonTable">
 <caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
 <thead>
 <tr class="header">
@@ -523,10 +550,10 @@ class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </p>
 <figure id="fig:snitches">
 <figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-payoff-with-graphs.png" class="tb-img-half"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-payoff-with-graphs.png" class="tb-img-half" width="40%" style="display:inline-block"/>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payoff-graphs2.png" class="tb-img-half"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payoff-graphs2.png" class="tb-img-half" width="40%" style="display:inline-block"/>
 </figure>
 <p class="tb-caption">Altering the payoff matrix to “punish snitches”.</p>
 <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
@@ -721,7 +748,7 @@ data-reference="tab:strategies">3</a> for examples of these
 strategies.<p>
 </p>
 <div id="tab:strategies">
-<table>
+<table class="prisonTable">
 <caption>Strategy Descriptions</caption>
 <thead>
 <tr class="header">
@@ -1241,7 +1268,7 @@ As the matrix illustrates, the dominant strategy for a rational agent
 (“you”) here is to free ride whether everyone else contributes or free
 rides.<p>
 </p>
-<table>
+<table class="prisonTable">
 <caption>Free Riding in a Group Environment</caption>
 <thead>
 <tr class="header">
@@ -1257,15 +1284,15 @@ ride</strong></th>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;"><strong>You contribute</strong></td>
-<td style="text-align: left;">b - c</td>
-<td style="text-align: left;">-c</td>
-<td style="text-align: left;">&lt; b - c</td>
+<td style="text-align: center;">b - c</td>
+<td style="text-align: center;">-c</td>
+<td style="text-align: center;">&lt; b - c</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><strong>You free ride</strong></td>
-<td style="text-align: left;">b</td>
-<td style="text-align: left;">0</td>
-<td style="text-align: left;">&lt;b</td>
+<td style="text-align: center;">b</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">&lt;b</td>
 </tr>
 </tbody>
 </table>
@@ -1647,7 +1674,7 @@ dynamics have been identified in Iterated Prisoner’s Dilemma tournaments
 data-cites="garcia2018strategy">[16]</span>.<p>
 </p>
 <figure id="fig:cycle">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Evolutionary.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Evolutionary.png" class="tb-img-full" width="30%"/>
 <p class="tb-caption">The population may cycle through different strategy compositions.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
@@ -1693,7 +1720,7 @@ equal fighting ability, and all <em>Doves</em> have equal threatening
 ability.<p>
 </p>
 <div id="tab:hawk-dove">
-<table>
+<table class="prisonTable">
 <caption>Hawk-Dove payoff matrix</caption>
 <thead>
 <tr class="header">
@@ -1798,7 +1825,7 @@ selection can produce populations that stably contain more than two
 strategies.<p>
 </p>
 <figure id="fig:freq-selection">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Snails-graph.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Snails-graph.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Frequency-dependent selection.</p>
 <!--<figcaption>Frequency-dependent selection.</figcaption>-->
 </figure>
@@ -1879,7 +1906,7 @@ extortionist. An extortionist thus scores higher than most of its
 partners in Iterated Prisoner’s Dilemma matches.<p>
 </p>
 <figure id="fig:extort-2">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/The-extort-strategy.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/The-extort-strategy.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">The <em>Extort-2</em> strategy - <span class="citation"
 data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->

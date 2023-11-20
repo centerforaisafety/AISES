@@ -12,10 +12,10 @@
     .visionboxlegend{
     border-bottom-style: solid;
     border-bottom-color: #3585d4;
-    border-bottom-width: 3px;
+    border-bottom-width: 0px;
     margin-left: -12px;
     margin-right: -12px; margin-top: -13px;
-    padding: 0.2em 1em; color: #ffffff;
+    padding: 0.01em 1em; color: #ffffff;
     background-color: #3585d4;
     border-radius: 15px 15px 0px 0px}
 </style>
@@ -150,6 +150,8 @@ utility, so its utility function may differ from the one we want it to
 have.<p>
 </p>
 </div>
+
+<br>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-pacecorrigibility" class="csl-entry" role="listitem">

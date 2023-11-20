@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="moral-theories">7.4 Moral Theories</h1>
 <p>Moral theories are systematic attempts to provide a general account
 of moral principles that apply universally. Good moral theories should
@@ -70,7 +96,7 @@ occur.<p>
 A simplified, informal, back-of-the-envelope version of this utilitarian
 calculation is below:<p>
 </p>
-<table>
+<table class="tableLayout">
 <thead>
 <tr class="header">
 <th style="text-align: center;">Amanda’s action</th>

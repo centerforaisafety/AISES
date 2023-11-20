@@ -12,12 +12,38 @@
     .visionboxlegend{
     border-bottom-style: solid;
     border-bottom-color: #3585d4;
-    border-bottom-width: 3px;
+    border-bottom-width: 0px;
     margin-left: -12px;
     margin-right: -12px; margin-top: -13px;
-    padding: 0.2em 1em; color: #ffffff;
+    padding: 0.1em 1em; color: #ffffff;
     background-color: #3585d4;
     border-radius: 15px 15px 0px 0px}
+</style>
+
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
 </style>
 
 <h1 id="sec:economic-engine"> 6.4 The Economic Engine</h1>
@@ -158,8 +184,9 @@ However, if Alice and Bob agree to specialize in their respective skills
 and then trade, they can both focus on doing what they are good at,
 wasting less time on individually unproductive activities and therefore
 producing more food in total, and each ending up with more food and
-drink than if they had worked alone.<br />
-Moreover, even if Alice is better than Bob at both gathering coconuts
+drink than if they had worked alone.
+    <br/>
+<p> Moreover, even if Alice is better than Bob at both gathering coconuts
 and catching fish, they will still benefit from specialization. Suppose
 Bob is better at fishing than he is at gathering coconuts. Even though
 he’s not as good as Alice at either, they’ll still produce more overall
@@ -562,7 +589,7 @@ in 2018 USD <span class="citation"
 data-cites="hanauer2020top"></span>.<br />
 </p>
 <div id="tab:income">
-<table>
+<table class="tableLayout">
 <caption>Data Source: RAND; Graphics: Mary Traverse for Civic Ventures
 <span class="citation" data-cites="time2020trillion"></span></caption>
 <thead>

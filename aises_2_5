@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="sec:reinf-learning">2.5 Reinforcement Learning</h1>
 <h3 id="introduction">Introduction</h3>
 <p>This section provides a high-level overview of reinforcement learning
@@ -452,7 +478,7 @@ Therefore, the Q-function table would have 100 Q-values, one for every
 state-action pair:<p>
 </p>
 <div id="tab:q-val-table">
-<table>
+<table class="tableLayout">
 <caption>Example Q-value table for Gridworld.</caption>
 <thead>
 <tr class="header">

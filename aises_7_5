@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="sec:uncertainty">7.5 Moral Uncertainty</h1>
 <h2 id="making-decisions-under-moral-uncertainty">7.5.1 Making Decisions Under
 Moral Uncertainty</h2>
@@ -94,7 +120,7 @@ Table <a href="#tab:lying" data-reference-type="ref"
 data-reference="tab:lying">1</a>.<p>
 </p>
 <div id="tab:lying">
-<table>
+<table class="tableLayout">
 <caption>Lying to save a life.</caption>
 <thead>
 <tr class="header">
@@ -180,7 +206,7 @@ Alex would lie because he judges that, on average, lying is the best
 possible action.<p>
 </p>
 <div id="tab:lying-2">
-<table>
+<table class="tableLayout">
 <caption>Lying to save a life.</caption>
 <thead>
 <tr class="header">
