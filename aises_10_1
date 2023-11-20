@@ -1,8 +1,8 @@
 <!-- Appendix - Utility Functions -->
 
-<h1 id="utility-and-utility-functions">Utility and Utility
+<h1 id="utility-and-utility-functions">A.1 Utility and Utility
 Functions</h1>
-<h2 id="fundamentals">Fundamentals</h2>
+<h2 id="fundamentals">A.1.1 Fundamentals</h2>
 <p><strong>A utility function is a mathematical representation of
 preferences.</strong> A utility function, <span
 class="math inline"><em>u</em></span>, takes inputs like goods or
@@ -60,7 +60,7 @@ understand and model agents’ <em>attitudes toward risk</em>. Finally, we
 examine <em>non-expected utility theories</em>, which seek to rectify
 some shortcomings of conventional expected utility theory when modeling
 real-life behavior.</p>
-<h2 id="motivations-for-learning-about-utility-functions">Motivations
+<h2 id="motivations-for-learning-about-utility-functions">A.1.2 Motivations
 for Learning About Utility Functions</h2>
 <p><strong>Utility functions are a central concept in economics and
 decision theory.</strong> Utility functions can be applied to a wide
@@ -111,9 +111,9 @@ AIs, such as corporations or governments.</p>
 Utility functions come up explicitly and implicitly at various times
 throughout this book, and are useful for understanding the behavior of
 reward-maximizing agents, as well as humans and organizations involved
-in the AI ecosystem. They will also come up in our chapter on , when we
+in the AI ecosystem. They will also come up in our chapter on Machine Ethics, when we
 consider that some advanced AIs may have utility functions make up the
-social welfare function they seek to increase. In the chapter, we will
+social welfare function they seek to increase. In the Collective Action Problems chapter, we will
 continue our discussion of rational agents that seek to maximize their
 own utility.</p>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"

@@ -1,4 +1,4 @@
-<h1 id="sec:scaling-laws">Scaling Laws</h1>
+<h1 id="sec:scaling-laws">2.4 Scaling Laws</h1>
 <h3 id="introduction">Introduction</h3>
 <p>Compelling evidence shows that increases in the performance of many
 AI systems can be modeled with equations called <em>scaling laws</em>.
@@ -88,7 +88,7 @@ data-cites="Newman2005">[1]</span></p>
 <!--<figcaption>Power laws in city populations - <span class="citation"-->
 <!--data-cites="Newman2005">[1]</span></figcaption>-->
 </figure>
-<h2 id="scaling-laws-in-deep-learning">Scaling Laws in Deep
+<h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
 <h3 id="introduction-1">Introduction</h3>
 <p><strong>Power laws in the context of DL are called scaling laws <span

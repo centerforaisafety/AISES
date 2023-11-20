@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1 id="sec:organizational">Organizational Risks</h1>
+<h1 id="sec:organizational">1.4 Organizational Risks</h1>
 <p>In January 1986, tens of millions of people tuned in to watch the
 launch of the Challenger Space Shuttle. Approximately 73 seconds after
 liftoff, the shuttle exploded, resulting in the deaths of everyone on
@@ -109,7 +109,7 @@ procedures, oversight, and a commitment to responsible information
 sharing. These examples illustrate how AI accidents could be
 catastrophic and emphasize the crucial role that organizations
 developing these systems play in preventing such accidents.</p>
-<h2 id="accidents-are-hard-to-avoid">Accidents Are Hard to Avoid</h2>
+<h2 id="accidents-are-hard-to-avoid">1.4.1 Accidents Are Hard to Avoid</h2>
 <p><strong>When dealing with complex systems, the focus needs to be
 placed on ensuring accidents don’t cascade into catastrophes.</strong>
 In his book “<em>Normal Accidents: Living with High-Risk
@@ -219,7 +219,7 @@ managing potential risks requires a combination of proactive measures,
 slow technology rollouts, and the invaluable wisdom gained through
 steady time-testing.</p>
 <h2
-id="organizational-factors-can-reduce-the-chances-of-catastrophe">Organizational
+id="organizational-factors-can-reduce-the-chances-of-catastrophe">1.4.2 Organizational
 Factors can Reduce the Chances of Catastrophe</h2>
 <p>Some organizations successfully avoid catastrophes while operating
 complex and hazardous systems such as nuclear reactors, aircraft

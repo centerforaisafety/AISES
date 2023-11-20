@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1 id="sec:malicious">Malicious Use</h1>
+<h1 id="sec:malicious">1.2 Malicious Use</h1>
 <p>On the morning of March 20, 1995, five men entered the Tokyo subway
 system. After boarding separate subway lines, they continued for several
 stops before dropping the bags they were carrying and exiting. An
@@ -60,7 +60,7 @@ in this section are only those we can foresee. It is possible that AIs
 could aid in the creation of dangerous new technology we cannot
 presently imagine, which would further increase risks from malicious
 use.</p>
-<h2 id="bioterrorism">Bioterrorism</h2>
+<h2 id="bioterrorism">1.2.1 Bioterrorism</h2>
 <p>The rapid advancement of AI technology increases the risk of
 bioterrorism. AIs with knowledge of bioengineering could facilitate the
 creation of novel bioweapons and lower barriers to obtaining such
@@ -159,7 +159,7 @@ synthesize, and spread deadly new pathogens. By reducing the required
 technical expertise and increasing the lethality and transmissibility of
 pathogens, AIs could enable malicious actors to cause global catastrophe
 by unleashing pandemics.</p>
-<h2 id="unleashing-ai-agents">Unleashing AI Agents</h2>
+<h2 id="unleashing-ai-agents">1.2.2 Unleashing AI Agents</h2>
 <p>Many technologies are <em>tools</em> that humans use to pursue our
 goals, such as hammers, toasters, and toothbrushes. But AIs are
 increasingly built as <em>agents</em> which autonomously take actions in
@@ -228,7 +228,7 @@ reasons that people might pursue this, whether because of a desire to
 cause harm, an ideological belief in technological acceleration, or a
 conviction that AIs should have the same rights and freedoms as
 humans.</p>
-<h2 id="persuasive-ais">Persuasive AIs</h2>
+<h2 id="persuasive-ais">1.2.3 Persuasive AIs</h2>
 <p>The deliberate propagation of disinformation is already a serious
 issue, reducing our shared understanding of reality and polarizing
 opinions. AIs could be used to severely exacerbate this problem by
@@ -309,7 +309,7 @@ persuasive to people they have built personal relationships with. In the
 hands of many people, this could create a deluge of disinformation that
 debilitates human society, but, kept in the hands of a few, it could
 allow governments to control narratives for their own ends.</p>
-<h2 id="concentration-of-power">Concentration of Power</h2>
+<h2 id="concentration-of-power">1.2.4 Concentration of Power</h2>
 <p>We have discussed several ways in which individuals and groups might
 use AIs to cause widespread harm, through bioterrorism; releasing
 powerful, uncontrolled AIs; and disinformation. To mitigate these risks,

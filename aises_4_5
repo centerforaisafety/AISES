@@ -1,4 +1,4 @@
-<h1 id="component-failure-accident-models-and-methods">Component Failure
+<h1 id="component-failure-accident-models-and-methods">4.4 Component Failure
 Accident Models and Methods</h1>
 <p>As a system is being created and used, it is important to analyze it
 to identify potential risks. One way of doing this is to look at systems
@@ -7,7 +7,7 @@ happen in systems and the factors that lead to them <span
 class="citation" data-cites="Marsden2017">[1]</span>. We will now look
 at some common accident models. These impact system design and
 operational decisions.</p>
-<h2 id="swiss-cheese-model">Swiss Cheese Model</h2>
+<h2 id="swiss-cheese-model">4.4.1 Swiss Cheese Model</h2>
 <p><strong>The Swiss cheese model helps us analyze defenses and identify
 pathways to accidents <span class="citation"
 data-cites="Reason1990">[2]</span>.</strong> The diagram in Figure <a
@@ -22,8 +22,9 @@ importance of defense in depth, since having more layers of defense
 reduces the probability of there being a pathway to an accident that can
 bypass them all.</p>
 <figure id="fig:cheese">
-<img src="images/safety_engineering/image7.png" />
-<figcaption>Swiss cheese defense model</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/swiss_cheese.png" class="tb-img-full"/>
+<p class="tb-caption">Swiss cheese defense model</p>
+<!--<figcaption>Swiss cheese defense model</figcaption>-->
 </figure>
 <p>Consider the example of an infectious disease as a hazard. There are
 multiple possible defenses that reduce the risk of infection.
@@ -94,7 +95,7 @@ on robustness, the second on control, and the third on monitoring. By
 ensuring we have many defenses, we prevent a wider array of risks,
 improving our system reliability by many nines of reliability.<p>
 </p>
-<h2 id="bow-tie-model">Bow Tie Model</h2>
+<h2 id="bow-tie-model">4.4.2 Bow Tie Model</h2>
 <p><strong>The bow tie model splits defenses into preventative and
 protective measures<span class="citation"
 data-cites="Marsden2017">[1]</span>.</strong> In the diagram in figure
@@ -109,8 +110,9 @@ tie diagram, which can help us visualize the preventative and protective
 measures in place against any potential adverse event.<p>
 </p>
 <figure id="fig:bowtie">
-<img src="images/safety_engineering/bow-tie.png" />
-<figcaption>Bow tie diagram</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bow-tie.png" class="tb-img-full"/>
+<p class="tb-caption">Bow tie diagram</p>
+<!--<figcaption>Bow tie diagram</figcaption>-->
 </figure>
 <p>For example, if an individual goes rock climbing, a potential
 accident is falling. We can draw a bow tie for this situation, with the
@@ -119,7 +121,7 @@ individual could take to prevent a fall, for example using chalk on
 their hands to increase friction. On the right, we note any protective
 measures they could take to reduce harm from falling, such as having a
 cushioned floor below.</p>
-<p><strong>Bow tie analysis of proxy gaming.</strong> In the chapter, we
+<p><strong>Bow tie analysis of proxy gaming.</strong> In the Single Agent Safety chapter, we
 learned that one hazard of using AIs is that they might learn to “game”
 the objectives we give them. If the specified objectives are only
 proxies for what we actually want, then an AI might find a way of
@@ -141,7 +143,7 @@ The exact measures on either side of the bow tie depend on which event
 we put at the center. We can make a system safer by individually
 considering each hazard associated with it, and ensuring we implement
 both preventative and protective measures against that hazard.</p>
-<h2 id="fault-tree-analysis-method">Fault Tree Analysis Method</h2>
+<h2 id="fault-tree-analysis-method">4.4.3 Fault Tree Analysis Method</h2>
 <p><strong>Fault tree analysis works backward to identify possible
 causes of negative outcomes.</strong> Fault tree analysis (FTA) is a
 top-down process that starts by considering specific negative outcomes
@@ -151,8 +153,9 @@ possible routes to those outcomes. In other words, FTA involves
 causes.<p>
 </p>
 <figure id="wrap-fig:water-pump">
-<img src="images/safety_engineering/FTA-diagram.png" />
-<figcaption>Water pump fault tree</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/FTA-diagram.png" class="tb-img-full"/>
+<p class="tb-caption">Water pump fault tree</p>
+<!--<figcaption>Water pump fault tree</figcaption>-->
 </figure>
 <p>For each negative outcome, we work backward through the system,
 identifying potential causes of that event. We can then draw a “fault
@@ -176,9 +179,11 @@ each of these requirements in the system. After completing this process,
 we can identify multiple combinations of events that could lead to the
 same negative outcome.</p>
 <figure id="fig:FTA-decision">
-<img src="images/safety_engineering/image15.png" />
-<figcaption>AI FTA decision-tree <span class="citation"
-data-cites="critch2023tasra">[3]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/AI_harm.png" class="tb-img-full"/>
+<p class="tb-caption">AI FTA decision-tree <span class="citation"
+data-cites="critch2023tasra">[3]</span></p>
+<!--<figcaption>AI FTA decision-tree <span class="citation"-->
+<!--data-cites="critch2023tasra">[3]</span></figcaption>-->
 </figure>
 <p><strong>FTA can be used to guide decisions.</strong> Figure <a
 href="#fig:FTA-decision" data-reference-type="ref"
@@ -194,7 +199,7 @@ could be caused, whether by a single component failing or by a
 combination of many smaller events, FTA can discover hazards that are
 important to find. However, the backchaining process that FTA relies on
 also has limitations, which we will discuss in the next section.</p>
-<h2 id="limitations">Limitations</h2>
+<h2 id="limitations">4.4.4 Limitations</h2>
 <p><strong>Chain-of-Events Reasoning.</strong> The Swiss cheese and bow
 tie models and the FTA method can be useful for identifying hazards and
 reducing risk in some systems. However, they share some limitations that
@@ -235,7 +240,7 @@ interactions of countless particles in the atmosphere. In all these
 examples, we find collective properties that are not found in any of the
 components but are produced by the interactions between them. In other
 words, a complex system is “more than the sum of its parts.” As
-discussed in the complex systems chapter, these systems exhibit emergent
+discussed in the Complex Systems chapter, these systems exhibit emergent
 features that cannot be usefully understood through a reductive analysis
 of components.</p>
 <p><strong>Sociotechnical systems involve interactions between humans
@@ -295,8 +300,9 @@ shows the interconnectedness of a system cannot be accurately reduced to
 a single line from start to finish.<p>
 </p>
 <figure id="fig:complex-sys">
-<img src="images/safety_engineering/Complex-systems updated.png" />
-<figcaption>Complex systems with feedback loops</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Complex-systems updated.png" class="tb-img-full"/>
+<p class="tb-caption">Complex systems with feedback loops</p>
+<!--<figcaption>Complex systems with feedback loops</figcaption>-->
 </figure>
 <p><strong>AI systems can exhibit feedback loops and nonlinear
 causality.</strong> Reinforcement learning systems involve complexity

@@ -1,4 +1,4 @@
-<h1 id="sec:sys-fact">Systemic Factors</h1>
+<h1 id="sec:sys-fact">4.5 Systemic Factors</h1>
 <p>As discussed above, if we want to improve the safety of a complex,
 sociotechnical system, it might be most effective to address the blunt
 end, or the broad systemic factors that can diffusely influence
@@ -53,7 +53,7 @@ organizations or countries has lower safety standards and consequently
 moves quicker; others might feel the need to lower their standards as
 well, in order to keep up. The risks this process presents are
 encapsulated by Publilius Syrus’s aphorism: “Nothing can be done at once
-hastily and prudently.” We consider this further in the chapter.</p>
+hastily and prudently.” We consider this further in the Collective Action Problems chapter.</p>
 <p><strong>Various safety costs can discourage the adoption of safety
 measures.</strong> There are often multiple costs of increasing safety,
 not only financial costs but also slowdowns and reduced product
@@ -86,7 +86,7 @@ include important systemic factors such as competitive pressures, safety
 costs, and safety culture. We will now turn to systemic accident models
 that acknowledge these ideas and attempt to account for them in risk
 analysis.</p>
-<h2 id="systemic-accident-models">Systemic Accident Models</h2>
+<h2 id="systemic-accident-models">4.5.1 Systemic Accident Models</h2>
 <p>We have explored how component failure accident models are
 insufficient for properly understanding accidents in complex systems.
 When it comes to AIs, we must understand what sort of system we are
@@ -123,7 +123,7 @@ suggests that accidents are inevitable in systems that exhibit the
 following two properties:</p>
 <ol>
 <li><p>Complexity: a large number of interactions between components in
-the system such as feedback loops, discussed in the complex systems
+the system such as feedback loops, discussed in the Complex Systems
 chapter. Complexity can make it infeasible to thoroughly understand a
 system or exhaustively predict all its potential failure modes.</p></li>
 <li><p>Tight coupling: one component in a system can rapidly affect
@@ -341,8 +341,9 @@ may influence the risk of an accident. This analysis makes it explicit
 that accidents cannot be solely explained by an action at the sharp
 end.</p>
 <figure id="fig:Rasmussen">
-<img src="images/safety_engineering/Rasmussen.png" />
-<figcaption>Rasmussen’s Risk Management Framework</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Rasmussen.png" class="tb-img-full"/>
+<p class="tb-caption">Rasmussen’s Risk Management Framework</p>
+<!--<figcaption>Rasmussen’s Risk Management Framework</figcaption>-->
 </figure>
 <p><strong>Systems can gradually migrate into unsafe states.</strong>
 The RMF also asserts that behaviors and conditions can gradually

@@ -1,4 +1,4 @@
-<h1 id="sec:compute-gov">Compute Governance</h1>
+<h1 id="sec:compute-gov">9.4 Compute Governance</h1>
 <p>A common shorthand for computational resources or computing power
 used for AI is <em>compute</em>. In this section, we will discuss how
 compute governance enables AI governance. First, we will examine how
@@ -12,7 +12,7 @@ governance measures. We also consider why governing compute is more
 promising than governing other factors used in AI production.<p>
 </p>
 <h2
-id="compute-is-indispensable-for-ai-development-and-deployment">Compute
+id="compute-is-indispensable-for-ai-development-and-deployment">9.4.1 Compute
 Is Indispensable for AI Development and Deployment</h2>
 <p>Compute enables the development of more capable AIs. In addition,
 compute is necessary to deploy AIs. If we restrict someone’s access to
@@ -39,7 +39,7 @@ like H-bombs, or creating bigger bombs by using more uranium.</p>
 <p><strong>More compute allows for the development of more AI
 capabilities.</strong> Compute plays a pivotal role in the evolution of
 AI capabilities. More compute means that AI systems can be built with
-more parameters and effectively utilize larger datasets. In the chapter,
+more parameters and effectively utilize larger datasets. In the Artificial Intelligence Fundamentals chapter,
 we looked at scaling laws, which show us that many AIs have their
 performance increase reliably with an increase in model size and dataset
 size. Richard Sutton’s “The Bitter Lesson” states that general methods
@@ -86,7 +86,7 @@ efficiency might speed up dramatically with just a few breakthroughs. If
 AI models require less compute, especially to the point that they become
 commonplace on consumer devices, regulating AI systems based on compute
 access might not be the most effective approach.</p>
-<h2 id="compute-is-physical-excludable-and-quantifiable">Compute Is
+<h2 id="compute-is-physical-excludable-and-quantifiable">9.4.2 Compute Is
 Physical, Excludable, and Quantifiable</h2>
 <p>To produce AI, developers need three primary factors: data,
 algorithms, and compute. In this section, we will explore why governing
@@ -132,7 +132,7 @@ alt="image" /></p>
 is trackable, from chip fabrication to its use in data centers. This is
 because compute is tangible and often sizable: figure <a
 href="#wrap-fig:governance" data-reference-type="ref"
-data-reference="wrap-fig:governance">[wrap-fig:governance]</a> shows a
+data-reference="wrap-fig:governance">Governance</a> shows a
 cutting-edge semiconductor tool used as compute that costs $200 million
 and requires 40 freight containers, 20 trucks, and 3 cargo planes to
 ship anywhere.<p>

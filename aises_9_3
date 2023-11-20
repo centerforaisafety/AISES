@@ -1,4 +1,4 @@
-<h1 id="distribution">Distribution</h1>
+<h1 id="distribution">9.3 Distribution</h1>
 <p>In this section we discuss three main dimensions of how aspects of AI
 systems are distributed:</p>
 <ol>
@@ -23,7 +23,7 @@ that the benefits of AIs would accrue to only a few powerful companies,
 while the costs would be shared by all of society. Governance solutions
 may help redistribute AI’s benefits fairly, and protect society from its
 costs.</p>
-<h2 id="distribution-of-power-among-ais">Distribution of Power Among
+<h2 id="distribution-of-power-among-ais">9.3.1 Distribution of Power Among
 AIs</h2>
 <p>The first dimension we will consider is how power might be
 distributed among advanced AI systems. Assuming that we reach a world
@@ -70,7 +70,7 @@ the development and deployment of the technology. This scenario could
 also reduce the risk of collective action problems in general. Since one
 organization would have complete control, there would be less potential
 for dynamics where different entities chose not to cooperate with one
-another (as discussed in the previous chapter <span>chap:CAP</span>),
+another (as discussed in the previous chapter <span>Collective Action Problems</span>),
 leading to a negative overall outcome.</p>
 <p><strong>An AI singleton increases the risk of single points of
 failure.</strong> In a future scenario with only one superintelligent
@@ -154,7 +154,7 @@ properties that could not be predicted from understanding the behavior
 of just one. A group of AIs might therefore increase the risk of black
 swan events (Section <a href="#sec:black-swans"
 data-reference-type="ref"
-data-reference="sec:black-swans">[sec:black-swans]</a>). Additionally,
+data-reference="sec:black-swans">Black Swans</a>). Additionally,
 interactions between AIs could form feedback loops, increasing the
 potential for rapid downward spirals that are difficult to intervene and
 stop. A group of powerful AIs in control of multiple military processes
@@ -206,7 +206,7 @@ capabilities, power may still end up being concentrated in just a few
 that have a slight edge, and the impact of AI may be largely determined
 by only a few. There are situations short of an AI singleton where power
 is mainly concentrated in one or a few AIs.</p>
-<h2 id="distribution-of-access-to-ais">Distribution of Access to
+<h2 id="distribution-of-access-to-ais">9.3.2 Distribution of Access to
 AIs</h2>
 <p>We have discussed different possible distributions of power among
 AIs, but this is not the only axis of distribution we need to consider;
@@ -396,7 +396,7 @@ could hand much greater control of media narratives to people in power.
 In extreme cases, these kinds of misuse by governments and elites could
 enable the establishment of a very long-lasting or permanent dystopian
 civilization.</p>
-<h2 id="distribution-of-costs-and-benefits-of-ai">Distribution of Costs
+<h2 id="distribution-of-costs-and-benefits-of-ai">9.3.3 Distribution of Costs
 and Benefits of AI</h2>
 <p>We considered distributions of power among AIs and people’s
 distributions of access to AIs. However, another important consideration

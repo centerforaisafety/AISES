@@ -1,5 +1,5 @@
-<h1 id="deep-learning">Deep Learning</h1>
-<h3 id="introduction">Introduction</h3>
+<h1 id="deep-learning">2.3 Deep Learning</h1>
+<h3 id="introduction">2.3.1 Introduction</h3>
 <p>In this section, we present the fundamentals of deep learning (DL), a
 branch of machine learning that uses neural networks to learn from data
 and perform complex tasks <span class="citation"
@@ -133,7 +133,7 @@ human input, and adapting more readily to different tasks with
 specialized components. Next, we will make our understanding more
 concrete by looking more closely at exactly what these components are
 and how they operate.</p>
-<h2 id="model-building-blocks">Model Building Blocks</h2>
+<h2 id="model-building-blocks">2.3.1 Model Building Blocks</h2>
 <p>In this section, we will explore some of the foundational building
 blocks of deep learning models. We will begin by defining what a neural
 network is and then discuss the fundamental elements of neural networks
@@ -209,7 +209,7 @@ network consists of 784 nodes, each corresponding to the grayscale value
 of a pixel in a given image.<p>
 </p>
 <figure id="fig:pixel-mapping">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/pixel_mapping.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/pixel_mapping.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">Mapping from pixels of an example image to neurons in the
 input layer of a network - <span class="citation"
 data-cites="hula2018">[4]</span></p>
@@ -290,7 +290,7 @@ representations. Simply put, more layers capture more features at more
 levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/hidden_nn.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/hidden_nn.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">A multi-layer neural network</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
@@ -398,7 +398,7 @@ played a critical role in developing more sophisticated deep learning
 architectures.<p>
 </p>
 <figure id="fig:relu-function">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relu_v2.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relu_v2.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">The ReLU activation function, <span
 class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,
 passes on positive inputs.</p>
@@ -415,7 +415,7 @@ class="math inline"><em>Φ</em>(<em>x</em>)</span>. The GELU has been
 widely used in and contributed to the success of many current models,
 including Transformer-based language models.</p>
 <figure id="fig:gelu-function">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">The GELU activation function, <span
 class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,
 smoothes out the ReLU function.</p>
@@ -431,7 +431,7 @@ because it compresses all real numbers to values in this range. When
 graphed, it forms a characteristic S-shaped curve. We explored the
 sigmoid function in the previous section.</p>
 <figure id="fig:sigmoid-function">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">he Sigmoid activation function, <span
 class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a
 characteristic S-shape.</p>
@@ -486,7 +486,7 @@ Consequently, lower-level features learned in earlier layers can
 contribute more directly to the higher-level features of deeper layers,
 and information can be more readily preserved.</p>
 <figure id="fig:feed-forward-network">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feed_forward.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feed_forward.png" class="tb-img-full" width="40%"/>
     <p class="tb-caption">Traditional feedforward network and a network with residual
 connections.</p>
 <!--<figcaption>Traditional feedforward network and a network with residual-->
@@ -521,7 +521,7 @@ systematically comparing relevant sections using matrix multiplication
 with the filter, and recording the results in a new matrix called a
 <em>feature map</em>.</p>
 <figure id="fig:convolution-1">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/convolution.jpeg" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/convolution.jpeg" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Convolution operation - <span class="citation"
 data-cites="wikiconvolution">[8]</span></p>
 <!--<figcaption>Convolution operation - <span class="citation"-->
@@ -557,7 +557,7 @@ to every other element by determining its relative importance and
 selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relationships.png" class="tb-img-full" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relationships.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Example of relationships captured by two different attention
 heads - <span class="citation"
 data-cites="Vaswani2017">[9]</span></p>
@@ -582,7 +582,7 @@ blocks.<p>
 </p>
 <div class="wrapfigure">
 <p><span>r</span><span>5.5cm</span> <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/transformer_block.png" style="width:5.5cm"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/transformer_block.png" width="40%"
 alt="image" /></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
@@ -619,7 +619,7 @@ enables models to weigh the relevance of different inputs based on their
 context. By leveraging these mechanisms mechanism to handle complex
 dependencies in sequential data, Transformers revolutionized the field
 of natural language processing (NLP).</p>
-<h2 id="training-and-inference">Training and Inference</h2>
+<h2 id="training-and-inference">2.3.2 Training and Inference</h2>
 <p>Having explored the components of deep learning models, we will now
 explore how the models work. First, we will briefly describe training
 and inference: the two key phases of developing a deep learning model.
@@ -900,7 +900,7 @@ adapt and generalize beyond their explicit training. Ongoing
 advancements in training techniques continue to drive the growth of AI
 capabilities, highlighting both exciting opportunities and important
 questions about the future of the field.</p>
-<h2 id="history-and-timeline-of-key-architectures">History and Timeline
+<h2 id="history-and-timeline-of-key-architectures">2.3.3 History and Timeline
 of Key Architectures</h2>
 <p>Having built our technical understanding of deep learning models and
 how they work, we will see how these concepts come together in some of
@@ -1013,7 +1013,7 @@ Perhaps more importantly, future developments might revolutionize model
 architectures in new ways, perhaps bringing to light older innovations
 that have currently fallen to the wayside. Next, we will explore some
 common applications of deep learning models.</p>
-<h2 id="applications">Applications</h2>
+<h2 id="applications">2.3.4 Applications</h2>
 <p>Deep learning has seen a dramatic rise in popularity since the early
 2010s, increasingly becoming a part of our daily lives. Its applications
 are broad, powering countless services and technologies across many

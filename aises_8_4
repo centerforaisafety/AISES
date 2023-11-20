@@ -1,5 +1,5 @@
-<h1 id="conflict-and-cooperation">Conflict and Cooperation</h1>
-<h2 id="overview">Overview</h2>
+<h1 id="conflict-and-cooperation">8.4 Conflict and Cooperation</h1>
+<h2 id="overview">8.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -122,7 +122,7 @@ require cooperation.</p></li>
 imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-<h2 id="conflict">Conflict</h2>
+<h2 id="conflict">8.4.2 Conflict</h2>
 <h3 id="introduction-to-conflict">Introduction to Conflict</h3>
 <p>In this section, we use the term “conflict” to describe the decision
 to defect rather than cooperate in competitive situations. This often,
@@ -228,8 +228,9 @@ the highest acceptable outcome for the other party at the opposite end.
 Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
-<img src="images/multiagent-dynamics/image18.png" />
-<figcaption>Overview of Bargaining ranges</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range.png" class="tb-img-full" />
+<p class="tb-caption">Overview of Bargaining ranges</p>
+<!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p><strong>Conflict in AIs.</strong> Let us assume that AI agents will
 act rationally in the pursuit of their goals (so, at the least, we model
@@ -475,8 +476,9 @@ World War II. Side payments can only resolve issue indivisibility when
 the value of the side payments outweighs the value of the good.<p>
 </p>
 <figure id="fig:first-strike">
-<img src="images/multiagent-dynamics/image19.png" />
-<figcaption>First strike advantage</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range_2.png" class="tb-img-full"/>
+<p class="tb-caption">First strike advantage</p>
+<!--<figcaption>First strike advantage</figcaption>-->
 </figure>
 <p><strong>Issue indivisibility and AIs.</strong> Imagine there is a
 very powerful AI training system, and that whoever has access to this
@@ -550,8 +552,9 @@ value they are competing for. Thus, each may reject any bargain offer
 the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
-<img src="images/multiagent-dynamics/image20.png" />
-<figcaption>Information problems</figcaption>
+<img src="images/multiagent-dynamics/bargaining_range_3.png" class="tb-img-full"/>
+<p class="tb-caption">Information problems</p>
+<!--<figcaption>Information problems</figcaption>-->
 </figure>
 <p><strong>Misinformation and AI.</strong> AI technologies may produce
 misinformation directly. Examples of this include large language models
@@ -771,7 +774,7 @@ promote conflict, no matter how small, could pose catastrophic risks to
 humans. It is thus important that we understand the drivers of conflict,
 especially in the context of advanced future AIs.<p>
 </p>
-<h2 id="cooperation">Cooperation</h2>
+<h2 id="cooperation">8.4.3 Cooperation</h2>
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
@@ -1233,7 +1236,7 @@ the veil of ignorance, agents are unaware of their personal
 characteristics and roles in society. This forces them to act as
 impartial observers when envisioning how the group or society should
 interact with each other. (For a more detailed discussion of the veil of
-ignorance, see <em>Section of the chapter</em>: A Brief Introduction).
+ignorance, see <em>Section social contract of the Ethics chapter</em>: A Brief Introduction).
 Because agents do not know what place they will hold (e.g., whether they
 will get an average position in society or a different position) in the
 society they envision, they often act more impartially and cooperatively

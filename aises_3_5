@@ -1,10 +1,10 @@
-<h1 id="sec:power">Power</h1>
+<h1 id="sec:power">3.5 Power</h1>
 <p>This section begins by describing in detail what it means for an
 agent to have power. Then we will discuss why it sometimes makes
 rational sense for AI agents to seek power. Finally, we will discuss why
 power-seeking AIs may cause particularly pernicious harms, perhaps
 ultimately threatening humanity’s control of the future.</p>
-<h2 id="what-is-power">What is Power?</h2>
+<h2 id="what-is-power">3.5.1 What is Power?</h2>
 <p><strong>There are many ways to characterize power.</strong> One broad
 formulation of power is the ability to achieve a wide variety of goals.
 In this subsection, we will discuss three other formulations of power
@@ -132,7 +132,7 @@ which includes the idea that power could be understood as the expected
 impact an individual has on individuals’ wellbeing. Since there are many
 ways to conceptualize power, we provided concrete examples of how an AI
 system could seek power.</p>
-<h2 id="people-could-enlist-ais-for-power-seeking">People Could Enlist
+<h2 id="people-could-enlist-ais-for-power-seeking">3.5.2 People Could Enlist
 AIs for Power Seeking</h2>
 <p>The rest of this section will cover pathways and reasons why AI
 systems might engage in power-seeking behavior when they are deployed.
@@ -156,8 +156,8 @@ grow as AI becomes more capable. If power-seeking AI is deployed, it
 could function as a Pandora’s box which, once it has been opened, cannot
 be closed. This may feed into evolutionary pressures that force actors
 to adopt the technology themselves; we treat this subject in more detail
-in the chapter.</p>
-<h2 id="power-seeking-can-be-instrumentally-rational">Power Seeking Can
+in the Collective Action Problems chapter.</p>
+<h2 id="power-seeking-can-be-instrumentally-rational">3.5.3 Power Seeking Can
 Be Instrumentally Rational</h2>
 <p>Another reason that AI systems might seek power is that it is useful
 for achieving a wide variety of goals. For example, an AI personal
@@ -197,7 +197,7 @@ possibility of humans shutting it off and preventing it from achieving
 its goal. As Stuart Russell notes, “you can’t fetch the coffee if you
 are dead” <span class="citation"
 data-cites="russell2021human">[9]</span>. (For a more detailed
-mathematical formalization and analysis, see the chapter.) This is an
+mathematical formalization and analysis, see the Utility Functions chapter.) This is an
 example of self-preservation unintentionally emerging as a subgoal for
 seemingly benign goals.</p>
 <p><strong>Examples of instrumental power-seeking behavior.</strong>
@@ -266,7 +266,7 @@ would require ethically unacceptable means. With an imperfect level of
 reliability, we can also design AI systems to refuse actions that will
 leave them with too much power. Approaches that impose penalties on
 power can reduce prospective power of AIs. We discuss methods for
-embedding ethics into AIs in the chapter.</p>
+embedding ethics into AIs in the Machine Ethics chapter.</p>
 <p><strong>Examples where shutting down can be rational.</strong> It is
 trivial to imagine goals where it is actually optimal to relinquish
 power, such as when the goal is “shut yourself down”. As another
@@ -402,10 +402,10 @@ dominance is heavily influenced by the strategic environment and the
 relative strengths of offensive and defensive forces.<p>
 Structural realism and its various concepts have important connections
 with our analysis of power-seeking AI, but is also relevant to thinking
-about AI cooperation and conflict (which we discuss in the chapter) and
-international coordination (which we discuss in the chapter).</p>
+about AI cooperation and conflict (which we discuss in the Collective Action Problems chapter) and
+international coordination (which we discuss in the Governance chapter).</p>
 </div>
-<h2 id="structural-pressures-towards-power-seeking-ai">Structural
+<h2 id="structural-pressures-towards-power-seeking-ai">3.5.4 Structural
 Pressures Towards Power-Seeking AI</h2>
 <p>As discussed in the box above, there are environmental conditions
 that can make power seeking instrumentally rational. This section
@@ -424,7 +424,7 @@ Instrumental convergence suggests AI systems will pursue
 self-preservation, because if they do not survive they will not be able
 to pursue any of their other goals. Another reason that AIs may engage
 in self-preserving behavior preservation is due to evolutionary
-pressures, as we discuss further in the chapter. Agents that survive and
+pressures, as we discuss further in the Collective Action Problems chapter. Agents that survive and
 propagate their own goals become more numerous over time, while agents
 that fail to preserve themselves die out. Thus, even if many agents do
 not pursue self-preservation, by default those that do become more
@@ -500,7 +500,7 @@ strength, or offensively, by attacking other agents which could pose a
 threat. By understanding the precise conditions that lead to
 power-seeking behavior, we can identify ways to reduce the threat of
 power-seeking AIs.</p>
-<h2 id="tail-risk-power-seeking-behavior">Tail Risk: Power-Seeking
+<h2 id="tail-risk-power-seeking-behavior">3.5.5 Tail Risk: Power-Seeking
 Behavior</h2>
 <p>Power-seeking AI, when deployed broadly and in high-stakes
 situations, might cause catastrophic outcomes. As we will describe in

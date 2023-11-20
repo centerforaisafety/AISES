@@ -1,4 +1,4 @@
-<h1 id="nines-of-reliability">Nines of Reliability</h1>
+<h1 id="nines-of-reliability">4.2 Nines of Reliability</h1>
 <p>In the above discussion of risk evaluation, we have frequently
 referred to the probability of an adverse event occurring. When
 evaluating a system, we often instead refer to the inverse of this—the
@@ -29,9 +29,11 @@ mistake. This can be thought of as the AV’s expected time before
 failure.<p>
 </p>
 <figure id="fig:reliability-vs-time">
-<embed src="images/safety_engineering/nines_v2.pdf" />
-<figcaption>System reliability vs expected time before
-failure</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/nines_v2.png" class="tb-img-full"/>
+<p class="tb-caption">System reliability vs expected time before
+failure</p>
+<!--<figcaption>System reliability vs expected time before-->
+<!--failure</figcaption>-->
 </figure>
 <p><strong>Expected time before failure does not scale linearly with
 system reliability.</strong> We plot the information from the table in
@@ -76,10 +78,12 @@ possesses, as:<p>
 <span
 class="math display"><em>k</em> =  − log<sub>10</sub>(1−<em>p</em>).</span></p>
 <figure>
-<embed src="images/safety_engineering/log_nines.pdf"
-style="width:8cm" />
-<figcaption>Nines of reliability vs<p>
-expected time before failure</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/log_nines.png"
+style="width:8cm" class="tb-img-full"/>
+<p class="tb-caption">Nines of reliability vs<p>
+expected time before failure</p>
+<!--<figcaption>Nines of reliability vs<p>-->
+<!--expected time before failure</figcaption>-->
 </figure>
 <p><strong>Adding a ‘9’ to reliability gives a tenfold increase in
 expected time before failure.</strong> If it is 99% reliable, it has a

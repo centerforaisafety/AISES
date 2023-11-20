@@ -1,4 +1,4 @@
-<h1 id="sec:reinf-learning">Reinforcement Learning</h1>
+<h1 id="sec:reinf-learning">2.5 Reinforcement Learning</h1>
 <h3 id="introduction">Introduction</h3>
 <p>This section provides a high-level overview of reinforcement learning
 (RL). We introduce the basic structure and vocabulary of RL problems and
@@ -37,7 +37,7 @@ environments, such as video games, where a very accurate simulated
 environment is readily available. However, games can also be designed to
 represent real-world environments.</p>
 <h2
-id="learning-sequential-decision-making-through-trial-and-error">Learning
+id="learning-sequential-decision-making-through-trial-and-error">2.5.1 Learning
 Sequential Decision Making through Trial and Error</h2>
 <p><strong>Trial and error.</strong> All RL problems involve an agent
 learning by trial and error to make sequences of decisions. RL agents
@@ -82,7 +82,7 @@ akin to solving a puzzle without seeing the picture on the box. By
 contrast, RL systems must acquire new information through actions. They
 receive almost no data at the outset and learn to achieve a goal by
 actively engaging with an environment and seeing what happens.</p>
-<h2 id="the-reinforcement-learning-problem">The Reinforcement Learning
+<h2 id="the-reinforcement-learning-problem">2.5.2 The Reinforcement Learning
 Problem</h2>
 <p>We can use two toy examples to introduce the central concepts and
 terms of reinforcement learning. First, we consider the multi-armed
@@ -319,7 +319,7 @@ we could manually define a policy for the agent to follow–—but that
 would defeat the purpose of the problem, which is to have the agent
 learn for itself. The next section explores how reinforcement learning
 algorithms automate designing policies.</p>
-<h2 id="methods-for-solving-rl-problems">Methods for Solving RL
+<h2 id="methods-for-solving-rl-problems">2.5.3 Methods for Solving RL
 Problems</h2>
 <p><strong>RL algorithms develop better policies.</strong> RL algorithms
 serve as the blueprints to guide the learning process, aiming to
@@ -529,7 +529,7 @@ data-cites="gridworld">[7]</span></p>
 <!--<figcaption>Example Q-values in Gridworld. - <span class="citation"-->
 <!--data-cites="gridworld">[7]</span></figcaption>-->
 </figure>
-<h2 id="deep-reinforcement-learning">Deep Reinforcement Learning</h2>
+<h2 id="deep-reinforcement-learning">2.5.4 Deep Reinforcement Learning</h2>
 <p>Deep reinforcement learning (deep RL) is the area of machine learning
 that leverages deep learning (DL) to help solve reinforcement learning
 (RL) problems. Deep learning, which uses neural networks to compress and
@@ -559,7 +559,7 @@ action-value.</p></li>
 <p>In the next section, we explore a few recent successes of deep RL.
 Along the way, we’ll introduce a few more high-level techniques used to
 solve common problems to conclude our discussion of RL.</p>
-<h2 id="sec:examples-of-rl">Examples of RL</h2>
+<h2 id="sec:examples-of-rl">2.5.5 Examples of RL</h2>
 <h3 id="alphago">AlphaGo</h3>
 <p>In 1997, IBM’s Deep Blue made history by becoming the first AI to
 defeat a world-class chess player. Yet it was not until nearly two

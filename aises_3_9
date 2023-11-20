@@ -1,4 +1,4 @@
-<h1 id="conclusion">Conclusion</h1>
+<h1 id="conclusion">3.9 Conclusion</h1>
 <p>In this chapter, we discussed several key themes: we do not know how
 to instill our values robustly in individual AI systems, we are unable
 to predict future AI systems, and we cannot reliably evaluate AI
@@ -29,7 +29,7 @@ specifications. AI systems may end up operationally pursuing goals
 different to the ones we gave them and thus change their behaviors
 systematically over long time periods. This is further complicated by
 emergent social dynamics that arise from interacting AI systems
-(explored further in the chapter on ).</p>
+(explored further in the chapter on Collective Action Problems).</p>
 <p><strong>We cannot reliably evaluate AI systems.</strong> AI systems
 may learn and be incentivized to deceive humans and other AIs, in which
 case their behavior stops being a reliable signal for their future

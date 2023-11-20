@@ -1,6 +1,6 @@
 </head>
 <body>
-<h1 id="discussion-of-connections-between-risks">Discussion of
+<h1 id="discussion-of-connections-between-risks">1.6 Discussion of
 Connections Between Risks</h1>
 <p>So far, we have considered four sources of AI risk separately, but
 they also interact with each other in complex ways. We give some
@@ -65,7 +65,7 @@ to address various risks from AIs, we believe that we should not solely
 focus on <em>directly</em> targeting existential risks. Instead, we
 should consider the diffuse, <em>indirect</em> effects of other risks
 and take a more comprehensive approach to risk management.</p>
-<h1 id="conclusion">Conclusion</h1>
+<h1 id="conclusion">1.7 Conclusion</h1>
 <p>In this chapter, we have explored how the development of advanced AIs
 could lead to catastrophe, stemming from four primary sources of risk:
 malicious use, AI races, organizational risks, and rogue AIs. This lets

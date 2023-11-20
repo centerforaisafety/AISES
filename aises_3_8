@@ -1,4 +1,4 @@
-<h1 id="safety-and-general-capabilities">Safety and General
+<h1 id="safety-and-general-capabilities">3.8 Safety and General
 Capabilities</h1>
 <p>While more capable AI systems can be more reliable, they can also be
 more dangerous. Often, though not always, safety and general
@@ -23,7 +23,7 @@ on.</p>
 <p><strong>General capabilities have a mixed effect on safety.</strong>
 Systems that are more generally capable tend to make fewer mistakes. If
 the consequences of failure are dire, then advancing capabilities can
-reduce risk factors. However, as we discuss in the chapter, safety is an
+reduce risk factors. However, as we discuss in the Safety Engineering chapter, safety is an
 emergent property and cannot be reduced to a collection of metrics.
 Improving general capabilities may remove some hazards, but it does not
 necessarily make a system safer. For example, more accurate image

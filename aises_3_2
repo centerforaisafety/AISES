@@ -1,5 +1,5 @@
-<h1 id="sec:bias">Bias</h1>
-<h3 id="introduction">Introduction</h3>
+<h1 id="sec:bias">3.2 Bias</h1>
+<h3 id="introduction">3.2.1 Introduction</h3>
 <p><strong>AI systems can amplify undesirable biases.</strong> AI
 systems are being increasingly deployed throughout society. If these
 influential systems have biases, they can reinforce disparities and
@@ -37,9 +37,11 @@ patterns through harmful feedback loops that exacerbate bias. Developing
 unbiased AI systems requires proactively identifying and mitigating
 biases across the entire lifecycle.</p>
 <figure id="fig:enter-label">
-<embed src="images/single_agent/bias_diagram.pdf" />
-<figcaption>Systematic psychological, historical, and social biases can
-lead to algorithmic biases within AI systems.</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bias_diagram.png" class="tb-img-full"/>
+<p class="tb-caption">Systematic psychological, historical, and social biases can
+lead to algorithmic biases within AI systems.</p>
+<!--<figcaption>Systematic psychological, historical, and social biases can-->
+<!--lead to algorithmic biases within AI systems.</figcaption>-->
 </figure>
 <p><strong>Biases in AI often reflect systemic biases.</strong>
 Systematic biases can occur even against developers’ intentions. For
@@ -71,7 +73,7 @@ sources of bias as well as strategies researchers are exploring to
 mitigate bias. However, this overview aims to be brief, so it is not
 exhaustive.<p>
 </p>
-<h2 id="sources-of-bias">Sources of Bias</h2>
+<h2 id="sources-of-bias">3.2.1 Sources of Bias</h2>
 <p>Biases can arise from multiple sources, both from properties of the
 AI system itself and human interaction with the system. This section
 discusses common sources of harmful biases in AI systems, although there
@@ -239,7 +241,7 @@ In summary, human biases and blind spots during development, usage, and
 governance of AI systems contribute to biased outputs from AI systems. A
 holistic approach for critically examining human-AI interaction is
 required to address this.</p>
-<h2 id="strategies-for-bias-mitigation">Strategies for Bias
+<h2 id="strategies-for-bias-mitigation">3.2.2 Strategies for Bias
 Mitigation</h2>
 <p><strong>Multiple complementary approaches can help address bias in AI
 systems.</strong> Even with the best intent, biases in AI can be

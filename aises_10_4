@@ -1,4 +1,4 @@
-<h1 id="attitudes-to-risk">Attitudes to Risk</h1>
+<h1 id="attitudes-to-risk">A.4 Attitudes to Risk</h1>
 <p><strong>Overview.</strong> The concept of risk is central to the
 discussion of utility functions. Knowing an agent’s attitude towards
 risk—whether they like, dislike, or are indifferent to risk—gives us a
@@ -17,7 +17,7 @@ situations. National governments, for example, will differ in risk
 outlook from rogue states, and big tech companies will differ from
 startups. Moreover, we should know how risk averse we should be with AI
 development, as it has both large upsides and downsides.</p>
-<h2 id="what-are-the-different-attitudes-to-risk">What Are the Different
+<h2 id="what-are-the-different-attitudes-to-risk">A.4.1 What Are the Different
 Attitudes to Risk?</h2>
 <p><strong>There are three broad types of risk preferences.</strong>
 Agents can be risk averse, risk neutral, or risk seeking. In this
@@ -61,7 +61,7 @@ positive expected value. The simplest risk-neutral utility function is
 <span class="math inline"><em>u</em>(<em>x</em>) = <em>x</em></span>
 (blue line in Figure <a href="#fig:attitudes-to-risk"
 data-reference-type="ref"
-data-reference="fig:attitudes-to-risk">[fig:attitudes-to-risk]</a>).</p></li>
+data-reference="fig:attitudes-to-risk">attitudes to risk</a>).</p></li>
 <li><p><em>Risk seeking</em> is the tendency to prefer a risky option
 over a sure thing with the same expected value. A risk-seeking agent
 would be happy to participate in this lottery. The individual is willing
@@ -73,7 +73,7 @@ is <span
 class="math inline"><em>u</em>(<em>x</em>) = <em>x</em><sup>2</sup></span>
 (green line in Figure <a href="#fig:attitudes-to-risk"
 data-reference-type="ref"
-data-reference="fig:attitudes-to-risk">[fig:attitudes-to-risk]</a>).</p></li>
+data-reference="fig:attitudes-to-risk">attitudes to risk]</a>).</p></li>
 </ol>
 <p>We can define each risk attitude in three equivalent ways. Each draws
 on a different aspect of how we represent an agent’s preferences.</p>
@@ -103,7 +103,7 @@ inherent aversion to risk that is separate from preferences over
 outcomes. At the end of this chapter, we will explore how non-expected
 utility theories have attempted to more closely capture human behavior
 in risky situations.</p>
-<h2 id="risk-and-decision-making">Risk and Decision Making</h2>
+<h2 id="risk-and-decision-making">A.4.2 Risk and Decision Making</h2>
 <p><strong>Overview.</strong> Having defined risk attitudes, we will now
 consider situations where it is appropriate to act in a risk-averse,
 risk-neutral, or risk-seeking manner. Often, our risk approach in a
@@ -269,7 +269,9 @@ money. Acting risk neutral and relying on expected value would be a poor
 decision-making strategy.<p>
 </p>
 <figure>
-
+<img src="" class="tb-img-full">
+<p class="tb-caption">Risk-neutral betting leads to ruin</p>
+<!--PNG FOR RISK AVERSE BETTING SHOULD BE ADDED HERE!!-->
 </figure>
 <p><strong>Maximizing logarithmic utility is a better decision
 procedure.</strong> Agents might want to act as if maximizing the

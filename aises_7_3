@@ -1,10 +1,10 @@
-<h1 id="moral-considerations">Moral Considerations</h1>
+<h1 id="moral-considerations">7.3 Moral Considerations</h1>
 <p>How can we determine whether an action is right or wrong? What are
 the kinds of principles and values that should guide our moral
 decisions? There are many factors to consider. Here, we’ll focus on a
 few—-goodness, constraints, special obligations, and options-—that very
 commonly enter into moral decision making.</p>
-<h2 id="the-goodness-of-actions-and-their-consequences">The “Goodness”
+<h2 id="the-goodness-of-actions-and-their-consequences">7.3.1 The “Goodness”
 of Actions and Their Consequences</h2>
 <p>Moral decision making often involves considering the values, or
 “goods,” that are at stake. These may be intrinsic goods or instrumental
@@ -165,7 +165,7 @@ have wellbeing according to the preference satisfaction theorists but
 not hedonists. It is also possible that in the future AIs may have
 wellbeing according to all three accounts of wellbeing. This would
 require that we dramatically reassess our relationship with AIs.</p>
-<h2 id="constraints-and-special-obligations">Constraints and Special
+<h2 id="constraints-and-special-obligations">7.3.2 Constraints and Special
 Obligations</h2>
 <p>We’ve covered the moral consideration of intrinsic goods, and focused
 on the intrinsic good wellbeing. Special obligations and constraints are
@@ -207,7 +207,7 @@ them from it. Some think we should especially avoid giving them positive
 rights; it might be fine to give them rights against being tortured but
 not the right to vote. If they come to deserve rights, this would create
 many complications and undermine our claim to control.</p>
-<h2 id="what-does-it-mean-for-an-action-to-be-right-or-wrong">What does
+<h2 id="what-does-it-mean-for-an-action-to-be-right-or-wrong">7.3.3 What does
 it mean for an action to be right or wrong?</h2>
 <p>Some of the first questions we might ask about ethics are: Are all
 actions either right or wrong? Are some simply neutral? Are there other
@@ -268,9 +268,10 @@ and are considered wrong. Stealing or attacking someone are generally
 considered to be impermissible actions.<p>
 </p>
 <figure id="fig:action-types">
-<img src="images/ethics/image3.png" />
-<figcaption>Classes of permissible and non-obligatory actions
-</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/action_types.png" class="tb-img-full"/>
+<p class="tb-caption">Classes of permissible and non-obligatory actions</p>
+<!--<figcaption>Classes of permissible and non-obligatory actions-->
+<!--</figcaption>-->
 </figure>
 <p>Some philosophers believe that all actions fit on a scale like the
 one above. At one end of the scale are impermissible actions, like
@@ -310,7 +311,7 @@ be able to evaluate and compare the moral worth of potential actions,
 taking into account various purported intrinsic goods as well as
 normative factors such as special obligations and constraints. The
 challenges of designing objectives for AI systems that respect moral
-principles are further discussed in the chapter.<p>
+principles are further discussed in the Machine Ethics chapter.<p>
 In the following section, we will discuss some popular moral
 theories.</p>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"

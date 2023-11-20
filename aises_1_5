@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1 id="sec:rogue-ai">Rogue AIs</h1>
+<h1 id="sec:rogue-ai">1.5 Rogue AIs</h1>
 <p>So far, we have discussed three hazards of AI development:
 environmental competitive pressures driving us to a state of heightened
 risk, malicious actors leveraging the power of AIs to pursue negative
@@ -83,7 +83,7 @@ over significant power to AIs, and may be unable to take control of
 automated operations again. We will now explore how both individual AIs
 and groups of AIs might “go rogue” while at the same time evading our
 attempts to redirect or deactivate them.</p>
-<h2 id="proxy-gaming">Proxy Gaming</h2>
+<h2 id="proxy-gaming">1.5.1 Proxy Gaming</h2>
 <p>One way we might lose control of an AI agent’s actions is if it
 engages in behavior known as “proxy gaming.” It is often difficult to
 specify and measure the exact goal that we want a system to pursue.
@@ -203,7 +203,7 @@ been observed to do this, and are likely to get better at it as their
 capabilities improve. This is one possible mechanism that could result
 in an uncontrolled AI that would behave in unanticipated and potentially
 harmful ways.</p>
-<h2 id="goal-drift">Goal Drift</h2>
+<h2 id="goal-drift">1.5.2 Goal Drift</h2>
 <p>Even if we successfully control early AIs and direct them to promote
 human values, future AIs could end up with different goals that humans
 would not endorse. This process, termed “goal drift,” can be hard to
@@ -310,7 +310,7 @@ control. If this system of agents were enmeshed in society and we were
 largely dependent on them, and if they gained new goals that superseded
 the aim of improving human wellbeing, this could be an existential
 risk.</p>
-<h2 id="power-seeking">Power-Seeking</h2>
+<h2 id="power-seeking">1.5.3 Power-Seeking</h2>
 <p>So far, we have considered how we might lose our ability to control
 the goals that AIs pursue. However, even if an agent started working to
 achieve an unintended goal, this would not necessarily be a problem, as
@@ -430,7 +430,7 @@ seek power over humans.</p></li>
 </ol>
 <p>If the premises are true, then power-seeking AIs could lead to human
 disempowerment, which would be a catastrophe.</p>
-<h2 id="deception">Deception</h2>
+<h2 id="deception">1.5.4 Deception</h2>
 <p>We might seek to maintain control of AIs by continually monitoring
 them and looking out for early warning signs that they were pursuing
 unintended goals or trying to increase their power. However, this is not

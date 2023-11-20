@@ -1,4 +1,4 @@
-<h1 id="sec:black-swans">Black Swans</h1>
+<h1 id="sec:black-swans">4.8 Black Swans</h1>
 <h3 id="introduction-to-black-swans">Introduction to Black Swans</h3>
 <p>So far, we have discussed tail events in general. We will now look at
 an important subset of tail events, called black swans. In addition to
@@ -26,7 +26,7 @@ swans; high-magnitude earthquakes, for example, are tail events, but we
 know they are likely to happen in certain regions at some point–—they
 are on our radar.<p>
 </p>
-<h2 id="known-unknowns-and-unknown-unknowns">Known Unknowns and Unknown
+<h2 id="known-unknowns-and-unknown-unknowns">4.8.1 Known Unknowns and Unknown
 Unknowns</h2>
 <p><strong>Black swans are “unknown unknown” tail events <span
 class="citation" data-cites="taleb2007blackswan">[1]</span>.</strong> We
@@ -184,7 +184,7 @@ the rate of progress has outpaced most people’s predictions. We should,
 therefore, seriously consider the possibility that the release of these
 technologies could pose significant risks to society.<p>
 There has been speculation about what these risks might be, such as a
-flash war and autonomous economy, which are discussed in the chapter.
+flash war and autonomous economy, which are discussed in the Collective Action Problem chapter.
 These eventualities might be known to some people, but for many
 potential risks, there is not widespread awareness in society; if they
 happened today, they would be black swans. Policymakers must have some
@@ -192,7 +192,7 @@ knowledge of these risks. Furthermore, the expanding use of AI
 technologies may entail risks of black swan scenarios that no one has
 yet imagined.</p>
 <h2
-id="implications-of-tail-events-and-black-swans-for-risk-analysis">Implications
+id="implications-of-tail-events-and-black-swans-for-risk-analysis">4.8.2 Implications
 of Tail Events and Black Swans for Risk Analysis</h2>
 <p>Tail events and black swans present problems for analyzing and
 managing risks, because we do not know if or when they will happen. For
@@ -244,16 +244,13 @@ style="width:8.5cm" /></p>
 <p><strong>We need a much larger dataset than usual.</strong> As we
 increase the number of observations, we converge on an average value.
 Suppose we are measuring heights and calculating a new average every
-time we add a new data point. As shown in the first graph in figure <a
-href="#wrap-fig:convergence" data-reference-type="ref"
-data-reference="wrap-fig:convergence">[wrap-fig:convergence]</a>, as we
+time we add a new data point. As shown in the first graph in the figure above, as we
 increase our number of data points, we quickly converge on an average
 that changes less and less with the addition of each new data point.
 This is a result of the law of large numbers.<p>
 Heights, however, are a thin-tailed variable. If we look instead at a
 long-tailed variable, such as net worth, as shown in the second graph in
-figure <a href="#wrap-fig:convergence" data-reference-type="ref"
-data-reference="wrap-fig:convergence">[wrap-fig:convergence]</a>, a
+the figure above, a
 single extreme observation can change the average by several orders of
 magnitude. The law of large numbers still applies, in that we will still
 eventually converge on an average value, but it will take much
@@ -428,7 +425,7 @@ whether their efforts have prevented a catastrophe and have their work
 vindicated. Nevertheless, preventing disasters is essential, especially
 in cases like the development of AI, where we have good theoretical
 reasons to believe that a black swan is on the cards.</p>
-<h2 id="identifying-the-risk-of-tail-events-or-black-swans">Identifying
+<h2 id="identifying-the-risk-of-tail-events-or-black-swans">4.8.3 Identifying
 the Risk of Tail Events or Black Swans</h2>
 <p>Since the possibility of tail events and black swans affects how we
 approach risk management, we must consider whether we are facing a
@@ -466,7 +463,7 @@ technology would ultimately be used. This means that there might be a
 risk of AI being used in harmful ways that we have not foreseen,
 potentially leading to a destructive black swan event that we are
 unprepared for. The idea that deep learning systems qualify as complex
-systems is discussed in greater depth in the chapter.</p>
+systems is discussed in greater depth in the Complex Systems chapter.</p>
 <p><strong>New systems may be more likely to present black
 swans.</strong> Absence of evidence is only evidence of absence if we
 expect that some evidence should have turned up in the timeframe that
@@ -492,7 +489,7 @@ that we will more often face novel circumstances that could present
 unknown unknowns. Moreover, within the globalised economy, social
 systems are increasingly interconnected, increasing the likelihood that
 one failure could trigger a cascade and have an outsized impact.</p>
-<h1 id="reducing-risks-of-tail-events-and-black-swans">Reducing Risks of
+<h1 id="reducing-risks-of-tail-events-and-black-swans">4.9 Reducing Risks of
 Tail Events and Black Swans</h1>
 <p>In the last two sections, we have explored the implications for risk
 management of tail events and black swans. Since risk estimation models

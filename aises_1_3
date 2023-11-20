@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1 id="sec:ai-race">AI Race</h1>
+<h1 id="sec:ai-race">1.3 AI Race</h1>
 <p>The immense potential of AIs has created competitive pressures among
 global players contending for power and influence. This “AI race” is
 driven by nations and corporations who feel they must rapidly build and
@@ -28,7 +28,7 @@ part of a broader evolutionary process in which AIs could become
 increasingly pervasive, powerful, and entrenched in society. Finally, we
 highlight potential strategies and policy suggestions to mitigate the
 risks created by an AI race and ensure the safe development of AIs.</p>
-<h2 id="military-ai-arms-race">Military AI Arms Race</h2>
+<h2 id="military-ai-arms-race"> 1.3.1 Military AI Arms Race</h2>
 <p>The development of AIs for military applications is swiftly paving
 the way for a new era in military technology, with potential
 consequences rivaling those of gunpowder and nuclear arms in what has
@@ -344,7 +344,7 @@ the problem, as the AI systems are not transparent. By the time they
 even realize how the conflict started, it is already over, with
 devastating consequences for both sides.</p>
 </div>
-<h2 id="corporate-ai-race">Corporate AI Race</h2>
+<h2 id="corporate-ai-race">1.3.2 Corporate AI Race</h2>
 <p>Competitive pressures exist in the economy, as well as in military
 settings. Although competition between companies can be beneficial,
 creating more useful products for consumers, there are also pitfalls.
@@ -498,7 +498,7 @@ dilemmas that give rise to global risks, we will need new coordination
 mechanisms and institutions. It is our view that failing to coordinate
 and stop AI races would be the most likely cause of an existential
 catastrophe.</p>
-<h2 id="evolutionary-pressures">Evolutionary Pressures</h2>
+<h2 id="evolutionary-pressures">1.3.3 Evolutionary Pressures</h2>
 <p>As discussed above, there are strong pressures to replace humans with
 AIs, cede more control to them, and reduce human oversight in various
 settings, despite the potential harms. We can re-frame this as a general
