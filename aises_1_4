@@ -1,14 +1,29 @@
 <style>
-    .visionbox{
-    border: 5px solid gray;
+    .storybox{
+    border-radius: 15px;
+    border: 2px solid gray;
     background-color: lightgray;
     text-align: left;
+    padding: 10px;
     }
+</style>
+
+
+<style>
+    .storyboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: gray;
+    border-radius: 15px 15px 0px 0px}
 </style>
 
 </head>
 <body>
-<h1 id="sec:organizational">Organizational Risks</h1>
+<h1 id="sec:organizational">1.4 Organizational Risks</h1>
 <p>In January 1986, tens of millions of people tuned in to watch the
 launch of the Challenger Space Shuttle. Approximately 73 seconds after
 liftoff, the shuttle exploded, resulting in the deaths of everyone on
@@ -109,7 +124,7 @@ procedures, oversight, and a commitment to responsible information
 sharing. These examples illustrate how AI accidents could be
 catastrophic and emphasize the crucial role that organizations
 developing these systems play in preventing such accidents.</p>
-<h2 id="accidents-are-hard-to-avoid">Accidents Are Hard to Avoid</h2>
+<h2 id="accidents-are-hard-to-avoid">1.4.1 Accidents Are Hard to Avoid</h2>
 <p><strong>When dealing with complex systems, the focus needs to be
 placed on ensuring accidents don’t cascade into catastrophes.</strong>
 In his book “<em>Normal Accidents: Living with High-Risk
@@ -219,7 +234,7 @@ managing potential risks requires a combination of proactive measures,
 slow technology rollouts, and the invaluable wisdom gained through
 steady time-testing.</p>
 <h2
-id="organizational-factors-can-reduce-the-chances-of-catastrophe">Organizational
+id="organizational-factors-can-reduce-the-chances-of-catastrophe">1.4.2 Organizational
 Factors can Reduce the Chances of Catastrophe</h2>
 <p>Some organizations successfully avoid catastrophes while operating
 complex and hazardous systems such as nuclear reactors, aircraft
@@ -433,11 +448,10 @@ from academia (“publish or perish”) or startups (“move fast and break
 things”), and their hires often do not care about safety. These norms
 are hard to change once they have inertia, and need to be addressed with
 proactive interventions.</p>
-<legend style="border-bottom-style: solid; border-bottom-color: gray; border-bottom-width: 5px;
-        margin-left: 0em; margin-right: 0em; padding: 0.2em 0.8em; color: #ffffff; background-color: gray">
-    <span><b>Story: Weak Safety Culture</b></span>
+<div class="storybox">
+<legend class="storyboxlegend">
+<span><b>Story: Weak Safety Culture</b></span>
 </legend>
-<div class="visionbox">
 An AI company is considering whether to train a new model. The company’s Chief Risk Officer (CRO),
 hired only to comply with regulation, points out that the previous AI
 system developed by the company demonstrates some concerning
@@ -485,6 +499,7 @@ biological secrets, despite the safeguards the company put in place. The
 breach is detected, but by then it is too late: the dangerous
 information has already proliferated.</p>
 </div>
+<br>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-uri_35_2021" class="csl-entry" role="listitem">

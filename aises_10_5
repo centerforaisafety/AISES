@@ -1,4 +1,30 @@
-<h1 id="beyond-expected-utility-theories">Beyond Expected Utility
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
+<h1 id="beyond-expected-utility-theories">B.5 Beyond Expected Utility
 Theories</h1>
 <p><strong>Overview.</strong> von Neumann-Morgenstern utility functions
 are supposed to capture how an agent chooses among different options,
@@ -17,7 +43,7 @@ as defined under the von Neumann-Morgenstern model, and how non-expected
 utility theories help us better understand human choices. Having a
 stronger model of human behavior will ultimately help us design AIs that
 behave in ways more aligned with humans.</p>
-<h2 id="humans-and-rationality">Humans and Rationality</h2>
+<h2 id="humans-and-rationality">A.5.1 Humans and Rationality</h2>
 <p><strong>Humans are not ideally rational agents.</strong> As we
 discussed before, rational agents have a thorough understanding of their
 own preferences, have complete and stable preferences, and are able to
@@ -51,7 +77,7 @@ not be ideally rational. AIs with many irrational behaviors could be
 harder to predict and therefore be harder to control. We will now
 proceed to formalize our understanding of why expected utility theory
 fails to capture human behavior.</p>
-<h2 id="evidence-against-expected-utility-theory">Evidence Against
+<h2 id="evidence-against-expected-utility-theory">A.5.2 Evidence Against
 Expected Utility Theory</h2>
 <p><strong>Overview.</strong> Humans violate the von Neumann-Morgenstern
 axioms in many different ways. We consider three examples in this
@@ -68,7 +94,7 @@ between utility theory and human behavior, presents two scenarios where
 players must make a choice between two gambles <span class="citation"
 data-cites="allais1953comportement">[2]</span>.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario A</caption>
 <thead>
 <tr class="header">
@@ -86,7 +112,8 @@ million % chance of $0</td>
 </tr>
 </tbody>
 </table>
-<table>
+
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario B</caption>
 <thead>
 <tr class="header">
@@ -129,7 +156,7 @@ class="math inline">$</span>1 million has simply been divided into an
 class="math inline">%</span> chance of winning the same <span
 class="math inline">$</span>1 million.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario A reduced</caption>
 <thead>
 <tr class="header">
@@ -161,7 +188,7 @@ will be left with the reduced game described, in which the 89<span
 class="math inline">%</span> chance of winning <span
 class="math inline">$</span>0 has simply been ignored.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Allais Paradox: Scenario B reduced</caption>
 <thead>
 <tr class="header">
@@ -268,7 +295,7 @@ Participants playing the role of health officials must choose between
 two policy options in two different scenarios. These options are
 presented in the table below.<p>
 </p>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenario A</caption>
 <thead>
 <tr class="header">
@@ -286,7 +313,7 @@ saves no one.</td>
 </tr>
 </tbody>
 </table>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenario B</caption>
 <thead>
 <tr class="header">
@@ -312,7 +339,7 @@ more death and not condemning people to certain death. However, the only
 difference between Scenario A and B is the manner of presentation, or
 framing. Scenario A is presented in terms of lives saved, and Scenario B
 in terms of deaths caused. The equivalence is shown in this table.</p>
-<table>
+<table class="tableLayout">
 <caption>Framing effects: Scenarios A and B compared</caption>
 <thead>
 <tr class="header">
@@ -345,7 +372,7 @@ probabilities and outcomes, even if they are presented differently. In
 reality, an individual’s habits, environment, and cognitive biases can
 cause different responses to framings of the same underlying lottery.
 These are ways individuals can deviate from expected utility theory.</p>
-<h2 id="prospect-theory">Prospect Theory</h2>
+<h2 id="prospect-theory">A.5.3 Prospect Theory</h2>
 <p><strong>Prospect theory is a prominent non-expected utility model of
 human behavior.</strong> Prospect theory seeks to accurately describe
 how people make choices in risky situations by providing a psychological
@@ -402,7 +429,7 @@ illustrates how people tend to persistently overestimate relatively
 small probabilities while persistently underestimating relatively large
 probabilities.<p>
 </p>
-<h2 id="models-of-decision-making">Models of Decision Making</h2>
+<h2 id="models-of-decision-making">A.5.4 Models of Decision Making</h2>
 <p><strong>Generalized decision-making models.</strong> We can put the
 above together to describe many different types of decision-making
 models more than expected utility theory. Recall that expected utility
@@ -453,7 +480,7 @@ behavior where conventional theory fails.<p>
 Understanding the limitations of expected utility theory, and having
 more descriptive models of human behavior helps us understand how
 humans, human-led organizations, and AIs imitating humans will behave.
-In this chapter, and in the chapter, we present reasons that
+In this chapter, and in the Single Agent Safety chapter, we present reasons that
 expected-utility maximizers can be dangerous. Non-expected utility
 theories provide some concepts to consider when designing agents that
 are not expected-utility maximizers.</p>

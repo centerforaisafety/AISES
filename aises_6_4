@@ -1,3 +1,51 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.1em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="sec:economic-engine"> 6.4 The Economic Engine</h1>
 <h4
 id="what-if-we-allow-the-economy-to-decide-what-ais-will-be-like">What
@@ -120,8 +168,10 @@ potential by discussing the role of efficiency in the economy and the
 benefits and limitations of focusing on economic growth in the context
 of AIs augmenting growth and efficiency.<br />
 </p>
-<div class="storybox">
-<p><span>A Note on Gains from Trade</span></p>
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Gains from Trade</b></span></p>
+</legend>
 <h4 id="we-can-specialize-and-trade-making-everyone-better-off.">We can
 specialize and trade, making everyone better off.</h4>
 <p>Trade is often seen as a win-win scenario, allowing for mutual
@@ -134,8 +184,9 @@ However, if Alice and Bob agree to specialize in their respective skills
 and then trade, they can both focus on doing what they are good at,
 wasting less time on individually unproductive activities and therefore
 producing more food in total, and each ending up with more food and
-drink than if they had worked alone.<br />
-Moreover, even if Alice is better than Bob at both gathering coconuts
+drink than if they had worked alone.
+    <br/>
+<p> Moreover, even if Alice is better than Bob at both gathering coconuts
 and catching fish, they will still benefit from specialization. Suppose
 Bob is better at fishing than he is at gathering coconuts. Even though
 he’s not as good as Alice at either, they’ll still produce more overall
@@ -354,9 +405,11 @@ that economic growth can lead to vast improvements in human life through
 health, freedom, education, and more.<br />
 </p>
 <figure id="fig:preston">
-<embed src="images/machine_ethics/preston.pdf" />
-<figcaption>Increases in GDP per capita strongly correlate with
-increases in life expectancy.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/preston.png" class="tb-img-full"/>
+<p class="tb-caption">Increases in GDP per capita strongly correlate with
+increases in life expectancy.</p>
+<!--<figcaption>Increases in GDP per capita strongly correlate with-->
+<!--increases in life expectancy.</figcaption>-->
 </figure>
 <p>The Preston curve is compelling evidence of a positive correlation
 between a country’s gross domestic product (GDP) per capita—–a measure
@@ -512,9 +565,11 @@ from the bottom income bracket to the top—cements inequalities over
 generations.<br />
 </p>
 <figure id="fig:gini">
-<embed src="images/machine_ethics/gini.pdf" />
-<figcaption>Change in US Gini coefficient.<br />
-Data Source: Our World in Data</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gini.png" class="tb-img-full"/>
+<p class="tb-caption">Change in US Gini coefficient.<br />
+Data Source: Our World in Data</p>
+<!--<figcaption>Change in US Gini coefficient.<br />-->
+<!--Data Source: Our World in Data</figcaption>-->
 </figure>
 <h4 id="the-distribution-of-gains-from-growth-is-highly-unequal.">The
 distribution of gains from growth is highly unequal.</h4>
@@ -534,7 +589,7 @@ in 2018 USD <span class="citation"
 data-cites="hanauer2020top"></span>.<br />
 </p>
 <div id="tab:income">
-<table>
+<table class="tableLayout">
 <caption>Data Source: RAND; Graphics: Mary Traverse for Civic Ventures
 <span class="citation" data-cites="time2020trillion"></span></caption>
 <thead>
@@ -626,15 +681,20 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<br />
 </p>
 <figure id="fig:homicide">
-<embed src="images/machine_ethics/crime.pdf" />
-<figcaption>Measures of income inequality and homicide rate<br />
-Data Source: Vienna University of Economics and Business</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/crime.png" class="tb-img-half"/>
+<p class="tb-caption">Measures of income inequality and homicide rate<br />
+Data Source: Vienna University of Economics and Business</p>
+<!--<figcaption>Measures of income inequality and homicide rate<br />-->
+<!--Data Source: Vienna University of Economics and Business</figcaption>-->
 </figure>
 <figure id="fig:political">
-<embed src="images/machine_ethics/stability.pdf" />
-<figcaption>Measures of income inequality and political stability.<br />
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/stability.png" class="tb-img-half"/>
+<p class="tb-caption">Measures of income inequality and political stability.<br />
 Data Source: World Bank, World Governance Indicators and Gini
-Coefficient Data</figcaption>
+Coefficient Data</p>
+<!--<figcaption>Measures of income inequality and political stability.<br />-->
+<!--Data Source: World Bank, World Governance Indicators and Gini-->
+<!--Coefficient Data</figcaption>-->
 </figure>
 <h4 id="the-causes-of-inequality-are-disputed.">The causes of inequality
 are disputed.</h4>
@@ -850,7 +910,7 @@ railway networks. These are called natural monopolies, because it is
 difficult for other firms to enter these markets competitively, and it
 may even be most efficient to only have one firm in the market. Will AI
 companies be natural monopolies?<br />
-Scaling laws (discussed in the chapter) demonstrate that AI model
+Scaling laws (discussed in the Artificial Intelligence Fundamentals chapter) demonstrate that AI model
 performance improves as the size of the model, the amount of data used
 to create it, and the quantity of high-quality hardware used increase.
 This means that training advanced AI models depends heavily on access to
@@ -1306,8 +1366,11 @@ to spend more. The preferences of a billionaire would be considered
 orders of magnitude more important than those of an average citizen,
 which is clearly disconnected from social value.<br />
 </p>
-<div class="storybox">
-<p><span>A Note on Wellbeing in Social Science</span> Philosophers
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Wellbeing in Social Science</b></span></p>
+</legend>
+Philosophers
 continue to debate what wellbeing is, or what it means to live a good
 life. However, over the years, researchers have developed ways to
 approximate wellbeing for practical purposes. Psychologists, economists,

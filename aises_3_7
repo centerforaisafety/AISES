@@ -1,4 +1,4 @@
-<h1 id="sec:deception">Deception</h1>
+<h1 id="sec:deception">3.7 Deception</h1>
 <p>Many proposed mitigations to AI control rely on detecting and
 correcting flaws in AI systems so that they more consistently act in
 accordance with human values. However, these solutions may be undermined
@@ -23,7 +23,7 @@ score. <em>Deceptive alignment</em> is a tail risk of AI deception where
 an AI system engages in deceptive evaluation gaming in the service of a
 secretly held goal <span class="citation"
 data-cites="Hubinger2019RisksFL">[2]</span>.</p>
-<h2 id="examples-of-deception">Examples of Deception</h2>
+<h2 id="examples-of-deception">3.7.1 Examples of Deception</h2>
 <p>Deception may occur in a wide range of cases, as it may be useful for
 many goals. Deception may also occur for a range of more mundane
 reasons, such as when an AI system is simply incorrect.</p>
@@ -150,7 +150,7 @@ likely for goals that involve seeking power. We will now turn to those
 two forms of deception that are especially concerning because of how
 difficult they could be to counteract: deceptive evaluation gaming and
 deceptive alignment.</p>
-<h2 id="deceptive-evaluation-gaming">Deceptive Evaluation Gaming</h2>
+<h2 id="deceptive-evaluation-gaming">3.7.2 Deceptive Evaluation Gaming</h2>
 <p>AI systems are often subjected to evaluations, and they may be given
 rewards when they are evaluated favorably. AI systems may learn to game
 evaluations by deceiving their human evaluators into giving them higher
@@ -238,7 +238,7 @@ data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a> section.
 Second, we will turn to the case where an AI system engages in deceptive
 evaluation gaming in service of a secretly held final goal. This danger
 is known as deceptive alignment.</p>
-<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns">Tail Risk:
+<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns">3.7.3 Tail Risk:
 Deceptive Alignment and Treacherous Turns</h2>
 <p>For deceptively aligned systems, getting high evaluation scores from
 humans is merely an instrumental goal in service of a secretly held

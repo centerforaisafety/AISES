@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="social-welfare-functions"> 6.7 Social Welfare Functions</h1>
 <p><strong>Should we have AIs maximize total wellbeing?</strong> This
 section explores the concept of social welfare functions and their
@@ -43,7 +69,7 @@ each of the three individuals in this community, Ana, Ben, and Cara,
 would be if these proposals were implemented, summarized by their
 wellbeing values in the table below.<br />
 </p>
-<table>
+<table class="tableLayout">
 <caption>A city planning committee chooses between three projects with
 different wellbeing impacts</caption>
 <thead>

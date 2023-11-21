@@ -1,4 +1,4 @@
-<h1 id="takeoff">Takeoff</h1>
+<h1 id="takeoff">9.2 Takeoff</h1>
 <p>In this section, we will explore the various ways in which AIs might
 see “takeoff” and how this would affect the world. Takeoff refers to the
 process of AIs going from being able to perform well on many tasks at a
@@ -11,7 +11,7 @@ arrive soon. Lastly, we will discuss how AI takeoff could be continuous
 or discontinuous and fast or slow. Navigating these uncertainties is
 essential for formulating AI safety policies that are robust to the
 various routes AI development might take in the future.</p>
-<h2 id="economic-growth">Economic Growth</h2>
+<h2 id="economic-growth">9.2.1 Economic Growth</h2>
 <p>Economic growth has been limited by the growth rate of the human
 population. By enabling cheap and scalable automation, AIs that perform
 tasks at a human level might artificially augment the effective economic
@@ -81,9 +81,11 @@ lifted, the multi-thousand-year trend of accelerating growth could
 continue again until we exhaust physical resources like energy and
 space.</p>
 <figure id="fig:homicide">
-<embed src="images/governance/growth_v2.pdf" />
-<figcaption>Growth of economic output in two scenarios: growth slowdown,
-and AI-driven growth explosion</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/growth_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Growth of economic output in two scenarios: growth slowdown,
+and AI-driven growth explosion</p>
+<!--<figcaption>Growth of economic output in two scenarios: growth slowdown,-->
+<!--and AI-driven growth explosion</figcaption>-->
 </figure>
 <p><strong>AIs may fuel effective population growth.</strong> If AIs can
 automate the majority of important human tasks (including further AI
@@ -101,7 +103,7 @@ models increased in size by the same amount roughly every 16 months.
 Assuming we do not see a slowdown AI development or face other
 bottlenecks like energy production, AIs may cause explosive growth by
 lifting the population bottleneck.</p>
-<h2 id="timelines">Timelines</h2>
+<h2 id="timelines">9.2.2 Timelines</h2>
 <p>Advanced AIs could have significant impacts on our civilization such
 as the dramatic and unprecedented acceleration of economic growth.
 However, it is unclear when we will see such AIs being deployed. It is
@@ -169,7 +171,7 @@ or spend on compute, there are no decisive reasons why we should think
 advanced AIs arriving soon is impossible. This doesn’t imply that
 advanced AIs are right around the corner–—but it does mean that we
 should plan for this possibility.</p>
-<h2 id="types-of-ai-takeoff">Types of AI Takeoff</h2>
+<h2 id="types-of-ai-takeoff">9.2.3 Types of AI Takeoff</h2>
 <p>AI takeoff could be <em>discontinuous</em>, involving emergent
 abilities that break from trendlines, or <em>continuous</em>, involving
 a smooth increase in capabilities over time. Relatedly, we are unsure
@@ -183,7 +185,7 @@ as we increase model and dataset size. This is true over many benchmarks
 and metrics. However, researchers have identified a number of tasks that
 appear to break this trend, and exhibit sharp increases in performance
 when increasing model size; on these tasks, AI systems display emergent
-capabilities, explored in the chapter.<p>
+capabilities, explored in the Single Agent Safety chapter.<p>
 If important abilities (like possession of a mental model of the world)
 were emergent in this sense, we should be concerned about the
 unpredictable emergence of dangerous capabilities like hacking or

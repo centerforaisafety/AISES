@@ -1,4 +1,4 @@
-<h1 id="sec:emergence">Emergence</h1>
+<h1 id="sec:emergence">3.6 Emergence</h1>
 <p>We cannot predict all the properties of more advanced AI systems just
 by studying the properties of less advanced systems. This makes it hard
 to guarantee the safety of systems as they become increasingly
@@ -19,7 +19,7 @@ networks, ranging from emergent capabilities to emergent goal-directed
 behavior and emergent optimization. Then we will discuss the potential
 risks of AI systems intrinsifying unintended goals and examine how this
 could result in catastrophic consequences.</p>
-<h2 id="emergent-capabilities">Emergent Capabilities</h2>
+<h2 id="emergent-capabilities">3.6.1 Emergent Capabilities</h2>
 <p>In this section we will define emergent capabilities and provide
 multiple examples.</p>
 <p><strong>Neural networks exhibit emergent capabilities.</strong> When
@@ -35,9 +35,11 @@ training time, and dataset size below which models are unable to perform
 the task, and beyond which models begin to achieve higher
 performance.</p>
 <figure id="fig:emergent_graphs">
-<img src="images/single_agent/image20.png" />
-<figcaption>Emergent AI capabilities across multiple benchmarks - <span
-class="citation" data-cites="wei2022emergent">[3]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/FLOPs.png" class="tb-img-full" />
+<p class="tb-caption">Emergent AI capabilities across multiple benchmarks - <span
+class="citation" data-cites="wei2022emergent">[3]</span></p>
+<!--<figcaption>Emergent AI capabilities across multiple benchmarks - <span-->
+<!--class="citation" data-cites="wei2022emergent">[3]</span></figcaption>-->
 </figure>
 <p><strong>Emergent capabilities are unpredictable.</strong> Typically,
 the training loss does not directly select for emergent capabilities.
@@ -72,10 +74,13 @@ vantage point, then, it is often hard to even detect new
 capabilities.<p>
 </p>
 <figure id="fig:unicorn">
-<img src="images/single_agent/image29.png" />
-<figcaption>Unexpected capability example: illustrations of unicorns by
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/unicorn.png" class="tb-img-full"/>
+<p class="tb-caption">Unexpected capability example: illustrations of unicorns by
 GPT-4 - <span class="citation"
-data-cites="bubeck2023sparks">[5]</span></figcaption>
+data-cites="bubeck2023sparks">[5]</span></p>
+<!--<figcaption>Unexpected capability example: illustrations of unicorns by-->
+<!--GPT-4 - <span class="citation"-->
+<!--data-cites="bubeck2023sparks">[5]</span></figcaption>-->
 </figure>
 <p><strong>Capabilities can remain hidden until after training.</strong>
 In some cases, new capabilities are not discovered until after training
@@ -98,7 +103,7 @@ anticipate what future AI will be able to do even in the short term, and
 it could mean that we may have little time to react to novel
 capabilities jumps. It is difficult to make a system safe when it is
 unknown what that system will be able to do.</p>
-<h2 id="emergent-goal-directed-behavior">Emergent Goal-Directed
+<h2 id="emergent-goal-directed-behavior">3.6.2 Emergent Goal-Directed
 Behavior</h2>
 <p>Besides developing emergent capabilities for solving specific,
 individual problems, models can develop <em>emergent goal-directed
@@ -162,9 +167,11 @@ opposing players, they learned to use tools in sophisticated ways, even
 some the researchers had never anticipated.<p>
 </p>
 <figure id="fig:tool-use">
-<img src="images/single_agent/image32.png" />
-<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span
-class="citation" data-cites="2019openai">[10]</span>.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/3d_puzzle.png" class="tb-img-full"/>
+<p class="tb-caption">Emergent tool-use in multi-agent hide-and-seek - <span
+class="citation" data-cites="2019openai">[10]</span>.</p>
+<!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
+<!--class="citation" data-cites="2019openai">[10]</span>.</figcaption>-->
 </figure>
 <p><strong>RL agents can give rise to emergent social dynamics.</strong>
 In multi-agent environments, agents can develop and give rise to complex
@@ -187,13 +194,15 @@ planning, organizing, and attending a Valentine’s day party. Note that
 these generative agents are language models, not classical RL agents,
 which demonstrates that emergent goal-directed behavior and social
 dynamics are not exclusive to RL settings. We further discuss emergent
-social dynamics in the chapter.<p>
+social dynamics in the Collective Action Problems chapter.<p>
 </p>
 <figure id="fig:emergent-social-behaviour">
-<img src="images/single_agent/image28.png" />
-<figcaption>Emergent social behavior in generative agents - <span
-class="citation"
-data-cites="park2023generative">[11]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/AI_in_game.png" class="tb-img-full"/>
+<p class="tb-caption">Emergent social behavior in generative agents - <span
+class="citation" data-cites="park2023generative">[11]</span></p>
+<!--<figcaption>Emergent social behavior in generative agents - <span-->
+<!--class="citation"-->
+<!--data-cites="park2023generative">[11]</span></figcaption>-->
 </figure>
 <h3 id="emergent-optimizers">Emergent Optimizers</h3>
 <p><strong>Optimizers can give rise to emergent optimizers.</strong> An
@@ -228,7 +237,7 @@ examples of the task at hand, they qualitatively change the kind of
 model they are implementing <span class="citation"
 data-cites="vonoswald2023uncovering oswald2023transformers">[13],
 [14]</span>.</p>
-<h2 id="tail-risk-emergent-goals">Tail Risk: Emergent Goals</h2>
+<h2 id="tail-risk-emergent-goals">3.6.3 Tail Risk: Emergent Goals</h2>
 <p>Just as AIs can develop emergent capabilities and emergent
 goal-seeking behavior, they may develop <em>emergent goals</em> that
 differ from the explicit objectives we give them. This poses a risk

@@ -1,4 +1,4 @@
-<h1 id="tail-events">Tail Events</h1>
+<h1 id="tail-events">4.6 Tail Events</h1>
 <p>In the first few sections of this chapter, we discussed failure modes
 and hazards, equations for understanding the risks they pose, and
 principles for designing safer systems. We also looked at methods of
@@ -69,7 +69,7 @@ define the overall outcome of AI deployment. For this reason, competent
 risk management must involve serious efforts to prevent tail events,
 however rare we think they might be.<p>
 </p>
-<h2 id="tail-events-can-greatly-affect-the-average-risk">Tail Events Can
+<h2 id="tail-events-can-greatly-affect-the-average-risk">4.7.1 Tail Events Can
 Greatly Affect the Average Risk</h2>
 <div class="wrapfigure">
 <p><span>r</span><span>9cm</span> <embed
@@ -116,7 +116,7 @@ relevant actors should convene to decide on and coordinate the most
 appropriate next steps, whatever the precise details of the event. This
 concept is called “planning to plan” and we will discuss this in more
 detail later in the chapter.</p>
-<h2 id="long-tailed-and-thin-tailed-distributions">Long-Tailed and
+<h2 id="long-tailed-and-thin-tailed-distributions">4.7.2 Long-Tailed and
 Thin-Tailed Distributions</h2>
 <p>Having introduced tail events and briefly explained why they are
 important, we will now discuss the difference between the types of
@@ -147,8 +147,9 @@ thousand years old, and very few buildings, such as the Pyramids at
 Giza, that are several thousand years old.<p>
 </p>
 <figure id="fig:exponential">
-<embed src="images/safety_engineering/head_and_tail_v2.pdf" />
-<figcaption>Head and tail of a distribution</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/head_and_tail_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Head and tail of a distribution</p>
+<!--<figcaption>Head and tail of a distribution</figcaption>-->
 </figure>
 <p><strong>Many real-world frequency distributions have long
 tails.</strong> We can plot graphs like this for countless variables,
@@ -232,8 +233,9 @@ in . Normal distributions have a maximum density at the most common
 value and a tail on either side. The frequency decreases rapidly as we
 move away from the most common value.</p>
 <figure id="fig:excess">
-<embed src="images/safety_engineering/heights_v2.pdf" />
-<figcaption>Normal distribution: human heights.<p>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/heights_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Normal distribution: human heights.</p>
+<!--<figcaption>Normal distribution: human heights.<p>-->
 </figcaption>
 </figure>
 <p>All of these example characteristics vary between individuals, but
@@ -255,7 +257,7 @@ distributions, the value on the y-axis rapidly approaches zero for
 highly extreme events; the “tail” of the graph quickly becomes
 vanishingly thin.</p>
 <h2
-id="heuristics-and-models-for-thinking-about-long-tails-and-thin-tails">Heuristics
+id="heuristics-and-models-for-thinking-about-long-tails-and-thin-tails">4.7.3 Heuristics
 and Models for Thinking About Long Tails and Thin Tails</h2>
 <p><strong>Generally, long-tailed variables span orders of magnitude and
 thin-tailed ones do not.</strong> A general rule of thumb for
@@ -355,8 +357,9 @@ bound approaches that limit, there is less room for the actual value to
 be different.<p>
 </p>
 <figure id="fig:excess">
-<embed src="images/safety_engineering/excess_exp_v2.pdf" />
-<figcaption>Head and tail of a distribution</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/excess_exp_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Head and tail of a distribution</p>
+<!--<figcaption>Head and tail of a distribution</figcaption>-->
 </figure>
 <p><strong>Example: Lindy Effect, Long Tails.</strong> The Lindy Effect
 is the theory that, for certain types of entities, such as technologies
@@ -451,7 +454,7 @@ and wealth acquisition are multiplicative phenomena, where a single
 event can escalate to become much larger than most. By extension, this
 is why preferential attachment processes can produce long-tailed
 distributions.</p>
-<h2 id="a-caricature-of-long-tails-and-thin-tails">A Caricature of Long
+<h2 id="a-caricature-of-long-tails-and-thin-tails">4.7.4 A Caricature of Long
 Tails and Thin Tails</h2>
 <p>To cement our understanding of long-tailed and thin-tailed
 distributions, we will now run through some comparisons between the two

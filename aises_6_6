@@ -1,3 +1,25 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <h1 id="happiness"> 6.6 Happiness</h1>
 <p>Should we have AIs make people happy? In this section, we will
 explore the concept of happiness and its relevance in instructing AI
@@ -136,8 +158,9 @@ would lead to bad outcomes for humans and instead recommend those that
 best increase human wellbeing.<br />
 </p>
 <figure id="fig:wellbeing">
-<img src="images/machine_ethics/Wellbeing-value-purple-green.png" />
-<figcaption>Wellbeing function outputs.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Wellbeing-value-purple-green.png" class="tb-img-full" width="30%"/>
+<p class="tb-caption">Wellbeing function outputs.</p>
+<!--<figcaption>Wellbeing function outputs.</figcaption>-->
 </figure>
 <h4
 id="we-can-supplement-ai-decision-making-with-an-artificial-conscience.">We
@@ -145,8 +168,8 @@ can supplement AI decision-making with an artificial conscience.</h4>
 <p>Most AIs have goals separate from increasing human wellbeing, but we
 want to encourage them to behave ethically nonetheless. Suppose an AI
 evaluates the quality of actions according to their ability to get
-reward: call the estimates of this quality Q-values (as discussed in
-section ). By default, models like these aren’t trained with ethical
+reward: call the estimates of this quality Q-values (as discussed in the Reinforcement Learning
+section). By default, models like these aren’t trained with ethical
 restrictions. Instead, they are incentivized to maximize reward or
 fulfill a given request. We might want to have a layer of safety by
 ensuring that AIs avoid wanton harm—-actions that cause dramatically low
@@ -154,9 +177,11 @@ human wellbeing. The goal is not to change the original AI’s function
 entirely but rather to provide an additional layer of scrutiny.<br />
 </p>
 <figure>
-<img src="images/machine_ethics/image20.png" />
-<figcaption>AI agent with artificial conscience overlay. - <span
-class="citation" data-cites="hendrycks2023natural"></span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/agent_utility.png" class="tb-img-full"/>
+<p class="tb-caption">AI agent with artificial conscience overlay. - <span
+class="citation" data-cites="hendrycks2023natural"></span></p>
+<!--<figcaption>AI agent with artificial conscience overlay. - <span-->
+<!--class="citation" data-cites="hendrycks2023natural"></span></figcaption>-->
 </figure>
 <p>One way to do this would be to adjust its estimates of <span
 class="math inline"><em>Q</em></span>-values by introducing an
@@ -191,8 +216,11 @@ this knowledge, one approach to using AI to increase happiness is to
 focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
-<div class="storybox">
-<p><span>A Note on Measuring Wellbeing</span> While the philosophical
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Measuring Wellbeing</b></span></p>
+</legend>
+<p> While the philosophical
 foundations of wellbeing are not settled, quantitative research fields
 like public health and economics require the use of metrics in order to
 evaluate, track, or compare the subject of study. Researchers use many
@@ -310,8 +338,11 @@ which should also be on the list. However, if goods such as autonomy and
 happiness play such a filtering role for the objective goods theorist,
 it is unclear whether there are truly a variety of objective goods
 left.</p>
-<div class="storybox">
-<p><span>A Note on Digital Minds</span> Digital minds are artificial
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Digital Minds</b></span></p>
+</legend>
+<p>Digital minds are artificial
 lifeforms with a mind. These could be advanced AIs or whole-brain
 emulations (WBE). If we entertain the possibility of digital minds
 coming into existence, we must assume that the functioning of a mind is

@@ -1,4 +1,26 @@
-<h1 id="properties-of-utility-functions">Properties of Utility
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.01em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+<h1 id="properties-of-utility-functions">A.2 Properties of Utility
 Functions</h1>
 <p><strong>Overview.</strong> In this section, we will formalize our
 understanding of utility functions. First, we will introduce
@@ -14,7 +36,7 @@ Paradox</em>—to see why expected utility is a useful tool for decision
 making.<p>
 Establishing these mathematical foundations will help us understand how
 to apply utility functions to various actors and situations.</p>
-<h2 id="bernoulli-utility-functions">Bernoulli Utility Functions</h2>
+<h2 id="bernoulli-utility-functions">A.2.1 Bernoulli Utility Functions</h2>
 <p><strong>Bernoulli utility functions represent an individual’s
 preferences over potential outcomes.</strong> Suppose we give people the
 choice between an apple, a banana, and a cherry. If we already know each
@@ -42,7 +64,7 @@ strongly about the difference between a banana and a cherry (8 units of
 utility) than she does about the difference between an apple and a
 banana (2 units). We can gauge the relative strength of Alice’s
 preferences from a utility function.</p>
-<h2 id="von-neumann-morgenstern-utility-functions">Von
+<h2 id="von-neumann-morgenstern-utility-functions">A.2.2 Von
 Neumann-Morgenstern Utility Functions</h2>
 <p><strong>Von Neumann-Morgenstern utility functions help us understand
 what people prefer when outcomes are uncertain.</strong> We do not yet
@@ -89,8 +111,10 @@ the outcome of an election, an individual’s subjective best-guess could
 be used instead. So, both uncertain and certain outcomes can be
 represented by lotteries.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Expected Value vs. Expected Utility</span></p>
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Expected Value vs. Expected Utility</b></span></p>
+</legend>
 <p>An essential distinction in this chapter is that between expected
 value and expected utility.</p>
 <p><strong>Expected value is the average outcome of a random
@@ -255,8 +279,10 @@ decision making of an agent considering two lotteries as just
 calculating the expected utilities and choosing the larger resulting
 one.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Logarithms</span></p>
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Logarithms</b></span></p>
+</legend>
 <p><strong>Logarithmic functions are commonly used as utility
 functions.</strong> A logarithm is a mathematical function that
 expresses the power to which a given number (referred to as the base)
@@ -286,7 +312,7 @@ Logarithmic functions value goods in inverse proportion to how much of
 the resource we already have.<p>
 </p>
 </div>
-<h2 id="st.-petersburg-paradox">St. Petersburg Paradox</h2>
+<h2 id="st.-petersburg-paradox">A.2.3 St. Petersburg Paradox</h2>
 <p>An old man on the streets of St. Petersburg offers gamblers the
 following game: he will flip a fair coin repeatedly until it lands on
 tails. If the first flip lands tails, the game ends and the pension fund

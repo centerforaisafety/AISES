@@ -1,11 +1,11 @@
-<h1 id="sec:nat-gov">National Governance</h1>
+<h1 id="sec:nat-gov">9.6 National Governance</h1>
 <p><strong>Overview.</strong> Government action may be crucial for AI
 safety. Governments have the authority to enforce AI regulations, to
 direct their own AI activities, and to influence other governments
 through measures such as export regulations and security agreements.
 Additionally, major governments can leverage their massive budgets,
 diplomats, intelligence agencies, and leaders selected to serve the
-public interest. More abstractly, as we saw in the chapter, institutions
+public interest. More abstractly, as we saw in the Collective Action Problems chapter, institutions
 can help agents avoid harmful coordination failures. For example,
 penalties for unsafe AI development can counter incentives to cut
 corners on safety.<p>
@@ -13,7 +13,7 @@ This section provides an overview of four ways governments may be able
 to advance AI safety: safety standards and regulations, liability for AI
 harms, improving societal resilience, and not falling behind while
 focusing on developing safe AI.</p>
-<h2 id="standards-and-regulations">Standards and Regulations</h2>
+<h2 id="standards-and-regulations">9.6.1 Standards and Regulations</h2>
 <p>To ensure that frontier AI development and deployment is safe, two
 complementary approaches are formally establishing strong safety
 measures as best practices for AI labs, and requiring the implementation
@@ -88,7 +88,7 @@ Standards and regulations give governments some ways to shape the
 behavior of AI developers. Next, we will consider legal means to ensure
 that the developers of AI have incentives in line with the rest of
 society.</p>
-<h2 id="liability-for-ai-harms">Liability for AI Harms</h2>
+<h2 id="liability-for-ai-harms">9.6.2 Liability for AI Harms</h2>
 <p>In addition to standards and regulations, legal liability could
 advance AI safety. When AI accidents or misuse cause harm, liability
 rules determine who (if anyone) has to pay compensation. For example, an
@@ -134,7 +134,7 @@ Ensuring legal liability for harms that result from deployed AIs helps
 align the interests of AI developers with broader social interests.
 Next, we will consider how governments can mitigate harms when they do
 occur.</p>
-<h2 id="improving-resilience">Improving Resilience</h2>
+<h2 id="improving-resilience">9.6.3 Improving Resilience</h2>
 <p>The government actions already discussed focus on preventing unsafe
 AI development and deployment, but another useful intervention point may
 be mitigating damages during deployment.</p>
@@ -189,7 +189,7 @@ insufficient for safety if the countries that implement them all fall
 behind the frontier of AI development. Next, we will consider how
 countries can remain competitive while ensuring safety in domestic AI
 production.</p>
-<h2 id="not-falling-behind">Not Falling Behind</h2>
+<h2 id="not-falling-behind">9.6.4 Not Falling Behind</h2>
 <p>If some countries take a relatively slow and careful approach to AI
 development, they may risk falling behind other countries that take less
 cautious approaches. It would be risky for the global leaders in AI
@@ -203,7 +203,7 @@ Adversarial policies could rely on wrong assumptions about which states
 will adequately guardrail AI, and they could also motivate
 counter-actions and increase international tensions (making cooperation
 harder). Competitive mindsets can also encourage de-prioritizing safety
-in the name of competing–—in the chapter, we consider this problem in
+in the name of competing–—in the Collective Action Problems chapter, we consider this problem in
 greater depth using formal models. Additionally, AI technologies might
 proliferate quickly even with strong efforts to build national leads in
 AI.<p>

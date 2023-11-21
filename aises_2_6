@@ -1,4 +1,4 @@
-<h1 id="conclusion">Conclusion</h1>
+<h1 id="conclusion">2.6 Conclusion</h1>
 <p>Understanding the technical underpinnings of AI systems—the
 underlying models and algorithms, how they work, how they are used, and
 how they are evaluated—is essential to understanding the safety, ethics,
@@ -8,7 +8,7 @@ analyze their capabilities and potential, as well as the risks that they
 pose. It allows us to discern potential pitfalls in their design,
 implementation, and deployment and devise strategies to ensure their
 safe, ethical, and beneficial use.</p>
-<h2 id="summary">Summary</h2>
+<h2 id="summary">2.6.1 Summary</h2>
 <p>In this chapter, we presented the fundamentals of artificial
 intelligence (AI) and its subfield, machine learning (ML), which aims to
 create systems that can learn without being explicitly instructed. We
@@ -113,7 +113,7 @@ examples of multi-armed bandits and Gridworld, we introduced the major
 concepts and terms used in reinforcement learning. Lastly, we saw a few
 examples of groundbreaking applications of RL in gaming, including
 AlphaGo, AlphaStar, and Cicero.</p>
-<h2 id="key-takeaways">Key Takeaways</h2>
+<h2 id="key-takeaways">2.6.2 Key Takeaways</h2>
 <p><strong>AI created fundamental changes, offering benefits and
 presenting risks.</strong> AI is increasingly being integrated into
 business, education, healthcare, communication, and other aspects of our

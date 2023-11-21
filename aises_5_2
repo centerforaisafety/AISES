@@ -1,6 +1,6 @@
-<h1 id="introduction-to-complex-systems">Introduction to Complex
+<h1 id="introduction-to-complex-systems">5.2 Introduction to Complex
 Systems</h1>
-<h2 id="the-reductionist-paradigm">The Reductionist Paradigm</h2>
+<h2 id="the-reductionist-paradigm">5.2.1 The Reductionist Paradigm</h2>
 <p>Before we describe complex systems, we will first look at non-complex
 systems and the methods of analysis that can be used to understand them.
 This discussion sits under the <em>reductionist paradigm</em>. According
@@ -19,10 +19,12 @@ machine; if we set one component in motion, we can accurately predict
 the linear sequence of events it will trigger and, thus, the end
 result.</p>
 <figure id="rube_goldberg">
-<p><img src="images/complex_systems/Rubes-diagram.png" alt="image" />
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Rubes-diagram.png"
+        alt="image" class="tb-img-full" width="30%"/>
 <span id="rube_goldberg" label="rube_goldberg"></span></p>
-<figcaption>Example of mechanistic approach - Rube Goldberg
-machine</figcaption>
+<p class="tb-caption">Example of mechanistic approach - Rube Goldberg machine</p>
+<!--<figcaption>Example of mechanistic approach - Rube Goldberg-->
+<!--machine</figcaption>-->
 </figure>
 <p><strong>Many human artifacts can be understood
 mechanistically.</strong> Devices like bicycles, clocks, and sewing
@@ -144,8 +146,9 @@ their shared properties can give us insights into how AI might evolve.
 This might offer clues as to how we can avoid potential negative
 consequences of using AI.</p>
 <figure id="approaches">
-<img src="images/complex_systems/approaches.png" />
-<figcaption>Three approaches to analysing systems</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/approaches.png" class="tb-img-full"/>
+<p class="tb-caption">Three approaches to analysing systems</p>
+<!--<figcaption>Three approaches to analysing systems</figcaption>-->
 </figure>
 <p><strong>Summary.</strong> Reductionist styles of analysis cannot give
 us a full understanding of complex systems, whose components neither
@@ -157,7 +160,7 @@ presents challenges for predicting the system’s behavior on two levels:
 which component will perform which action at what time, and how the
 whole system might change over the long term.<p>
 </p>
-<h2 id="the-complex-systems-paradigm">The Complex Systems Paradigm</h2>
+<h2 id="the-complex-systems-paradigm">5.2.2 The Complex Systems Paradigm</h2>
 <p>Now that we have seen that many systems of interest are inscrutable
 to the reductionist paradigm, we need an alternative lens through which
 to understand them. To this end, we will discuss the <em>complex systems
@@ -268,7 +271,7 @@ components, but do not exist in any of the individual components, and
 cannot be understood through or derived from a reductive analysis of
 them. Complex systems are ubiquitous, from ant colonies to economies to
 the human brain.</p>
-<h2 id="deep-learning-systems-as-complex-systems">Deep Learning Systems
+<h2 id="deep-learning-systems-as-complex-systems">5.2.3 Deep Learning Systems
 as Complex Systems</h2>
 <p><strong>An essential claim of this chapter is that deep learning
 models are complex systems.</strong> Here, we will briefly discuss what
@@ -321,7 +324,7 @@ evidence that they are best understood as complex systems. We will
 substantiate this claim throughout the next section, where we run
 through some of the hallmark features of complex systems and discuss how
 they apply to deep learning models.</p>
-<h2 id="complexity-is-not-a-dichotomy">Complexity is Not a
+<h2 id="complexity-is-not-a-dichotomy">5.2.4 Complexity is Not a
 Dichotomy</h2>
 <p>In the previous section, we proposed a working definition of complex
 systems that suffices for an informal discussion, though it is not
@@ -362,7 +365,7 @@ systems are those that, at a certain scale, require a vast amount of
 information for prediction, indicating their relative incompressibility.
 However, they could still be explained mechanistically, if we understood
 them sufficiently well.</p>
-<h2 id="the-hallmarks-of-complex-systems">The Hallmarks of Complex
+<h2 id="the-hallmarks-of-complex-systems">5.2.5 The Hallmarks of Complex
 Systems</h2>
 <p>Since complexity is not a dichotomy, it is difficult to pin down when
 exactly we can consider systems complex. In place of a precisely
@@ -524,8 +527,9 @@ system’s initial conditions with perfect accuracy, chaotic systems are
 generally considered difficult to predict.<p>
 </p>
 <figure id="approaches">
-<embed src="images/complex_systems/logistic_map_v2.pdf" />
-<figcaption>Logistic map</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/logistic_map_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Logistic map</p>
+<!--<figcaption>Logistic map</figcaption>-->
 </figure>
 <p><strong>AIs as a self-reinforcing feedback loop.</strong> Since AIs
 can process information and reach decisions more quickly than humans,
@@ -789,8 +793,9 @@ a property is proportional to the system size raised to some power that
 may be more or less than 1. We will now discuss these <em>power
 laws</em>, which are another hallmark of complex systems.</p>
 <figure id="approaches">
-<embed src="images/complex_systems/kleiber_v2.pdf" />
-<figcaption>Kleiber’s Law</figcaption>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/kleiber_v2.png" class="tb-img-full"/>
+<p class="tb-caption">Kleiber’s Law</p>
+<!--<figcaption>Kleiber’s Law</figcaption>-->
 </figure>
 <p><strong>Complex systems often obey power-law scalings of their
 properties with system size.</strong> Perhaps the most famous example of
@@ -836,7 +841,7 @@ on each of model parameter count (<span
 class="math inline"><em>N</em></span>) and dataset size (<span
 class="math inline"><em>D</em></span>).<p>
 For more details on scaling laws in deep learning systems, see the
-section in .</p>
+section in Artificial Intelligence &amp; Machine Learning.</p>
 <p><strong>Summary.</strong> Certain important properties of complex
 systems often scale nonlinearly with the size of the system. This means
 that two separate systems will not behave in the same way as one single
@@ -924,7 +929,7 @@ two separate systems of half the size.</p></li>
 structure and processes in response to perturbations, enabling it to
 continue functioning in a changing environment.</p></li>
 </ol>
-<h2 id="social-systems-as-complex-systems">Social Systems as Complex
+<h2 id="social-systems-as-complex-systems">5.2.6 Social Systems as Complex
 Systems</h2>
 <p>So far, we have described how deep learning systems possess many of
 the classic features of complex systems. We have shown that they satisfy

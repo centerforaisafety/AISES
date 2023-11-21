@@ -1,5 +1,53 @@
-<h1 id="conflict-and-cooperation">Conflict and Cooperation</h1>
-<h2 id="overview">Overview</h2>
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.01em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+<h1 id="conflict-and-cooperation">8.4 Conflict and Cooperation</h1>
+<h2 id="overview">8.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -122,7 +170,7 @@ require cooperation.</p></li>
 imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-<h2 id="conflict">Conflict</h2>
+<h2 id="conflict">8.4.2 Conflict</h2>
 <h3 id="introduction-to-conflict">Introduction to Conflict</h3>
 <p>In this section, we use the term “conflict” to describe the decision
 to defect rather than cooperate in competitive situations. This often,
@@ -228,8 +276,9 @@ the highest acceptable outcome for the other party at the opposite end.
 Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
-<img src="images/multiagent-dynamics/image18.png" />
-<figcaption>Overview of Bargaining ranges</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range.png" class="tb-img-full" />
+<p class="tb-caption">Overview of Bargaining ranges</p>
+<!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p><strong>Conflict in AIs.</strong> Let us assume that AI agents will
 act rationally in the pursuit of their goals (so, at the least, we model
@@ -362,8 +411,8 @@ battleships at the naval base at Pearl Harbor. The attack was successful
 in securing a first-strike advantage for Japan, but it also ensured the
 US’s entry into WWII.<p>
 </p>
-<table>
-<caption>A pay-off matrix for competitors choosing whether to defend or
+<table class="tableLayout">
+<caption style="min-width: 200%;">A pay-off matrix for competitors choosing whether to defend or
 preemptively attack (first strike)</caption>
 <thead>
 <tr class="header">
@@ -475,8 +524,9 @@ World War II. Side payments can only resolve issue indivisibility when
 the value of the side payments outweighs the value of the good.<p>
 </p>
 <figure id="fig:first-strike">
-<img src="images/multiagent-dynamics/image19.png" />
-<figcaption>First strike advantage</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range_2.png" class="tb-img-full"/>
+<p class="tb-caption">First strike advantage</p>
+<!--<figcaption>First strike advantage</figcaption>-->
 </figure>
 <p><strong>Issue indivisibility and AIs.</strong> Imagine there is a
 very powerful AI training system, and that whoever has access to this
@@ -497,7 +547,7 @@ the other hand, is the deliberate spreading of false or misleading
 information with the intent to deceive or manipulate others. Both of
 these types of information problem can cause bargains to fail,
 generating conflict.</p>
-<table>
+<table class="tableLayout">
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -550,8 +600,9 @@ value they are competing for. Thus, each may reject any bargain offer
 the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
-<img src="images/multiagent-dynamics/image20.png" />
-<figcaption>Information problems</figcaption>
+<img src="images/multiagent-dynamics/bargaining_range_3.png" class="tb-img-full"/>
+<p class="tb-caption">Information problems</p>
+<!--<figcaption>Information problems</figcaption>-->
 </figure>
 <p><strong>Misinformation and AI.</strong> AI technologies may produce
 misinformation directly. Examples of this include large language models
@@ -771,7 +822,7 @@ promote conflict, no matter how small, could pose catastrophic risks to
 humans. It is thus important that we understand the drivers of conflict,
 especially in the context of advanced future AIs.<p>
 </p>
-<h2 id="cooperation">Cooperation</h2>
+<h2 id="cooperation">8.4.3 Cooperation</h2>
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
@@ -801,7 +852,7 @@ Table <a href="#tab:reciprocity" data-reference-type="ref"
 data-reference="tab:reciprocity">1</a> below.<p>
 </p>
 <div id="tab:reciprocity">
-<table>
+<table class="tableLayout">
 <caption>Direct Reciprocity Matrix</caption>
 <thead>
 <tr class="header">
@@ -953,7 +1004,7 @@ data-reference="tab:indirect-repr">2</a> below.<p>
 </p>
 <p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
 <div id="tab:indirect-repr">
-<table>
+<table class="tableLayout">
 <caption>Indirect Reciprocity Matrix</caption>
 <thead>
 <tr class="header">
@@ -1060,7 +1111,7 @@ see Table <a href="#tab:group" data-reference-type="ref"
 data-reference="tab:group">3</a> below.<p>
 </p>
 <div id="tab:group">
-<table>
+<table class="tableLayout">
 <caption>Group Selection Matrix</caption>
 <thead>
 <tr class="header">
@@ -1150,7 +1201,7 @@ class="citation" data-cites="hamilton1964genetical">[15]</span>; see
 Table <a href="#tab:kin" data-reference-type="ref"
 data-reference="tab:kin">4</a> below.</p>
 <div id="tab:kin">
-<table>
+<table class="tableLayout">
 <caption>Kin Selection Matrix</caption>
 <thead>
 <tr class="header">
@@ -1233,7 +1284,7 @@ the veil of ignorance, agents are unaware of their personal
 characteristics and roles in society. This forces them to act as
 impartial observers when envisioning how the group or society should
 interact with each other. (For a more detailed discussion of the veil of
-ignorance, see <em>Section of the chapter</em>: A Brief Introduction).
+ignorance, see <em>Section social contract of the Ethics chapter</em>: A Brief Introduction).
 Because agents do not know what place they will hold (e.g., whether they
 will get an average position in society or a different position) in the
 society they envision, they often act more impartially and cooperatively
@@ -1357,8 +1408,11 @@ to achieve their goals. AI collective intelligences would be vastly
 superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
-<div class="storybox">
-<p><span>A Note on Morality as Cooperation</span> The theory of
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Morality as Cooperation</b></span></p>
+</legend>
+The theory of
 “Morality as Cooperation” (MAC) proposes that human morality was
 generated by evolutionary pressures to solve our most salient
 cooperation problems <span class="citation"
@@ -1372,12 +1426,12 @@ generated our ideas of morality. These are overviewed in Table <a
 href="#tab:cooperation" data-reference-type="ref"
 data-reference="tab:cooperation">5</a>.</p>
 <div id="tab:cooperation">
-<table>
+<table class="tableLayout" style="">
 <caption>Mapping cooperation mechanisms to morality components - Adapted
 from <span class="citation"
 data-cites="curry2016morality">[21]</span></caption>
 <thead>
-<tr class="header">
+<tr class="header" style="background-color: #efefef">
 <th style="text-align: left;"><strong>Cooperation Problem</strong></th>
 <th style="text-align: left;"><strong>Solutions/Mechanism</strong></th>
 <th style="text-align: left;"><strong>Component of
@@ -1385,71 +1439,44 @@ Morality</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"></td>
+<tr class="odd" style="background-color: #d9ead3">
+    <td rowspan="2" style="text-align: left;"><em> <b>Kinship</b> <br> Agents can benefit by treating genetic  relatives preferentially</em></td>
 <td style="text-align: left;">Kin selection</td>
 <td style="text-align: left;">Parental duties, family values</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"><span>2-3</span></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><em>Agents can benefit by treating genetic
-relatives preferentially</em></td>
+<tr class="even" style="background-color: #d9ead3">
 <td style="text-align: left;">Avoiding inbreeding</td>
 <td style="text-align: left;">Incest aversion</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Forming alliances and collaborating</td>
-<td style="text-align: left;">Friendship, loyalty, commitment, team
+<tr class="even" style="background-color: #d0e0e3">
+    <td rowspan="2" style="text-align: left;"><em> <b> Mutualism </b> <br> Agents must coordinate their behavior to profit from mutually-benefical situations</em></td>
+    <td style="text-align: left;">Forming alliances and collaborating</td>
+    <td style="text-align: left;">Friendship, loyalty, commitment, team
 players</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"><span>2-3</span></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><em>Agents must coordinate their behavior
-to profit from mutually-benefical situations</em></td>
+<tr class="even" style="background-color: #d0e0e3">
 <td style="text-align: left;">Developing theory-of-mind</td>
 <td style="text-align: left;">Understanding intention, not merely
 action</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Direct reciprocity (e.g. tit-for-tat)</td>
-<td style="text-align: left;">Trust, gratitude, revenge, punishment,
-forgiveness</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span>2-3</span></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><em>Agents need each other to reciprocate
+<tr class="odd" style="background-color: #d9d2e9">
+<td rowspan="2" style="text-align: left"><em> <b> Exchange </b> <br> Agents need each other to reciprocate
 and contribute despite incentives to free ride</em></td>
+<td style="text-align: left;">Direct reciprocity (e.g. tit-for-tat)</td>
+<td style="text-align: left;">Trust, gratitude, revenge, punishment, forgiveness</td>
+</tr>
+<tr class="odd" style="background-color: #d9d2e9">
 <td style="text-align: left;">Indirect reciprocity (e.g. forming
 reputations)</td>
 <td style="text-align: left;">Patience, guilt, gratitude</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"></td>
+<tr class="even" style="background-color: #ead1dc">
+<td rowspan="2" style="text-align: left;"> <b> Conflict Resolution</b> <br> <em>Agents can benefit from avoiding
+conflict, which is mutually costly</em></td>
 <td style="text-align: left;">Division</td>
 <td style="text-align: left;">Fairness, negotiation, compromise</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"><span>2-3</span></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><em>Agents can benefit from avoiding
-conflict, which is mutually costly</em></td>
+<tr class="even" style="background-color: #ead1dc">
 <td style="text-align: left;">Deference to prior ownership</td>
 <td style="text-align: left;">Respecting others’ property, punishing
 theft</td>
@@ -1588,7 +1615,7 @@ This dynamic often inspires rational agents to choose conflict over
 peace.<p>
 </p>
 <div id="tab:pacifist">
-<table>
+<table class="tableLayout">
 <caption>Pacifist’s Dilemma Payoff Matrix (No leviathan) </caption>
 <thead>
 <tr class="header">
@@ -1652,7 +1679,7 @@ pacifism; see Table <a href="#tab:leviathan" data-reference-type="ref"
 data-reference="tab:leviathan">7</a> below.<p>
 </p>
 <div id="tab:leviathan">
-<table>
+<table class="tableLayout">
 <caption>Leviathan Payoff Matrix - <span class="citation"
 data-cites="pinker2012better">[8]</span></caption>
 <thead>

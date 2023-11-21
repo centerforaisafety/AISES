@@ -1,4 +1,4 @@
-<h1 id="sec:opaqueness">Opaqueness</h1>
+<h1 id="sec:opaqueness">3.3 Opaqueness</h1>
 <p>The internal operations of many AI systems are opaque. We might be
 able to reveal and prevent harmful behavior if we can make these systems
 more transparent. In this section, we will discuss why AI systems are
@@ -6,7 +6,7 @@ often called <em>black boxes</em> and explore ways to understand them.
 Although early research into transparency shows that the problem is
 highly difficult and conceptually fraught, its potential to improve AI
 safety is substantial.</p>
-<h2 id="ml-systems-are-opaque">ML Systems are Opaque</h2>
+<h2 id="ml-systems-are-opaque">3.3.1 ML Systems are Opaque</h2>
 <p>The most capable machine learning models today are based on deep
 neural networks. Whereas most conventional software is directly written
 by humans, deep learning (DL) systems independently learn how to
@@ -32,9 +32,11 @@ all the numerical operations of a state of the art model into a form
 that is meaningful to humans.<p>
 </p>
 <figure id="fig:comp-graph">
-<img src="images/single_agent/image24.png" />
-<figcaption>A section of a computational graph for an ML system - <span
-class="citation" data-cites="zoph2017neural">[2]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/computational_graph.png" class="tb-img-full" />
+<p class="tb-caption">A section of a computational graph for an ML system - <span
+class="citation" data-cites="zoph2017neural">[2]</span></p>
+<!--<figcaption>A section of a computational graph for an ML system - <span-->
+<!--class="citation" data-cites="zoph2017neural">[2]</span></figcaption>-->
 </figure>
 <p><strong>Even simple ML techniques suffer from opaqueness.</strong>
 Opaqueness is not unique to neural networks. Even simple ML techniques
@@ -48,9 +50,11 @@ a face can then be represented as a particular combination of these
 eigenfaces.<p>
 </p>
 <figure id="fig:Eigenfaces">
-<img src="images/single_agent/Eigenfaces.jpg" />
-<figcaption>Eigenfaces - <span class="citation"
-data-cites="zhang2008eigenfaces">[3]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Eigenfaces.jpg" class="tb-img-full"/>
+<p class="tb-caption">Eigenfaces - <span class="citation"
+data-cites="zhang2008eigenfaces">[3]</span></p>
+<!--<figcaption>Eigenfaces - <span class="citation"-->
+<!--data-cites="zhang2008eigenfaces">[3]</span></figcaption>-->
 </figure>
 <p>In some cases, we can guess what facial features an eigenface
 represents: for example, eigenfaces 1, 2 and 3 seem to capture the
@@ -73,13 +77,20 @@ images that highly activate a particular neuron (or set of neurons)
 also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
-<img src="images/single_agent/image30.png" />
-<figcaption>From <span class="citation"
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feature_vis.png" />
+<p class="tb-caption">From <span class="citation"
 data-cites="schubert2020openai">[6]</span>. A randomly selected neuron
 in the CLIP ResNet-50 image model. Left: a feature visualization that
 “highly activates” the neuron, meaning the neuron reads a high value
 when the image is input to the model. Right: example images that
-activate the neuron</figcaption>
+activate the neuron</p>
+
+<!--<figcaption>From <span class="citation"-->
+<!--data-cites="schubert2020openai">[6]</span>. A randomly selected neuron-->
+<!--in the CLIP ResNet-50 image model. Left: a feature visualization that-->
+<!--“highly activates” the neuron, meaning the neuron reads a high value-->
+<!--when the image is input to the model. Right: example images that-->
+<!--activate the neuron</figcaption>-->
 </figure>
 <p>Like eigenfaces, neurons may be more or less interpretable.
 Sometimes, feature visualizations identify neurons that seem to depend
@@ -97,7 +108,7 @@ sure.</p>
 <p><strong>Neural networks are complex systems.</strong> Both human
 brains and deep neural networks are complex systems, and so involve
 interdependent and nonlinear interactions between many components. Like
-many other complex systems (see the chapter), the emergent behaviors of
+many other complex systems (see the Complex Systems chapter), the emergent behaviors of
 neural networks are difficult to understand in terms of their
 components. Just as neuroscientists struggle to identify how a
 particular biological neuron contributes to a mind’s behavior, ML
@@ -106,7 +117,7 @@ contributes to a DL model’s behavior. There are limits on our ability to
 systematically understand and predict complex systems, which suggests
 that ML opaqueness may be a special case of the opaqueness of complex
 systems.</p>
-<h2 id="motivations-for-transparency-research">Motivations for
+<h2 id="motivations-for-transparency-research">3.3.2 Motivations for
 Transparency Research</h2>
 <p>There is often no way to tell whether a model will perform well on
 new inputs. If the model performs poorly, we generally cannot tell why.
@@ -159,7 +170,7 @@ from genuine helpfulness. We discuss this issue in more detail in the
 section. For phenomena like deception that are difficult to detect from
 behavior alone, transparency tools might allow us to catch internal
 signs that show that a model is engaging in deceptive behavior.</p>
-<h2 id="approaches-to-transparency">Approaches to Transparency</h2>
+<h2 id="approaches-to-transparency">3.3.3 Approaches to Transparency</h2>
 <p>The remainder of this section explores a variety of approaches to
 transparency. Though the field is promising, we are careful to note the
 shortcomings of these approaches. For a problem as conceptually tricky
@@ -252,10 +263,13 @@ more relevant than the background to how the person interprets the
 image. Saliency map techniques have been popular in part due to the
 striking visualizations they produce.</p>
 <figure id="fig:saliency-map">
-<img src="images/single_agent/image21.png" />
-<figcaption>Example of a saliency map technique for various images -
+<img src="images/single_agent/image21.png" class="tb-img-full"/>
+<p class="tb-caption">Example of a saliency map technique for various images -
 <span class="citation"
-data-cites="springenberg2015striving">[14]</span></figcaption>
+data-cites="springenberg2015striving">[14]</span></p>
+<!--<figcaption>Example of a saliency map technique for various images - -->
+<!--<span class="citation"-->
+<!--data-cites="springenberg2015striving">[14]</span></figcaption>-->
 </figure>
 <p><strong>Saliency maps often fail to show how machine learning vision
 models process images.</strong> In practice, saliency maps are largely
@@ -340,9 +354,11 @@ description of an internal model mechanism <span class="citation"
 data-cites="wang2022interpretability">[16]</span>.<p>
 </p>
 <figure id="fig:id-circuit">
-<img src="images/single_agent/image25.png" />
-<figcaption>Graphical depiction of indirect-object identification
-circuit</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/identification_circuit.png" class="tb-img-full"/>
+<p class="tb-caption">Graphical depiction of indirect-object identification
+circuit</p>
+<!--<figcaption>Graphical depiction of indirect-object identification-->
+<!--circuit</figcaption>-->
 </figure>
 <p><strong>Complex system understanding through mechanisms is
 limited.</strong> There are number of reasons to be concerned about the
@@ -365,7 +381,7 @@ into an understanding of larger structures. Meanwhile,
 with a model’s high-level representations and analyzes and controls
 them. In machine learning, models learn representations that are not
 identical to their training data, but rather stand in for it and allow
-them to identify essential elements or patterns in the data (see chapter
+them to identify essential elements or patterns in the data (see the Artificial Intelligence Fundamentals chapter
 for further details). Rather than try to fully understand arbitrary
 aspects of a model’s internals, representation engineering develops
 actionable tools for reading representations and controlling them.<p>

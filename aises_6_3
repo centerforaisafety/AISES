@@ -58,7 +58,7 @@ in different contexts.</p>
 <h4 id="justice-as-fairness.">Justice as fairness.</h4>
 <p>Ethics is useful for analyzing the idea of fairness. John Rawls’
 theory of justice as fairness argues that fairness is fundamental to
-achieving a more just social system. In the chapter , we explore his
+achieving a more just social system. In the Ethics chapter in the social contract section, we explore his
 <em>maximin</em> and <em>difference principles</em>, which state that
 inequalities in social goods can only be justified if they maximize
 benefits for the most disadvantaged people. He also argued that the
@@ -226,11 +226,11 @@ contexts and struggle to combat biases inherited from training data.
 “Fairness through unawareness” aims to remove protected characteristics
 like gender and race from datasets to prevent sexism and racism, but
 fails miserably in practice because this data is embedded in correlates
-[as we explored in the Bias section in chapter]. A focus on narrow
+[as we explored in the Bias section in the Single Agent Safety chapter]. A focus on narrow
 measures can ignore other relevant considerations, and measures are
-often subject to proxy gaming <a href="#sec:proxy-gaming"
+often subject to proxy gaming (<a href="#sec:proxy-gaming"
 data-reference-type="ref"
-data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a>. A more
+data-reference="sec:proxy-gaming">Proxy Gaming</a>). A more
 in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
@@ -252,9 +252,9 @@ focus on gradually deploying AI while assessing its impacts, ensuring
 there are strong oversight mechanisms and independent audits, and
 establishing methods to redress any harm. Audits can promote an
 understanding of the data sources and decision-making processes of ML
-models. This transparency is helpful but insufficient, as we saw in the
+models. This transparency is helpful but insufficient, as we saw in the Single Agent Safety
 chapter <a href="#sec:opaqueness" data-reference-type="ref"
-data-reference="sec:opaqueness">[sec:opaqueness]</a>. <em>Participatory
+data-reference="sec:opaqueness">opaqueness</a>. <em>Participatory
 design</em> frameworks involve all of the impacted communities in the
 development of AI systems to surface unfairness early and ensure the
 product meets diverse human needs. Other frameworks focus on how

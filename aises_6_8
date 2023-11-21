@@ -18,9 +18,8 @@ decisions <span class="citation"
 data-cites="newberry2021parliamentary"></span>.<br />
 </p>
 <figure id="fig:parliament">
-<p><img src="images/machine_ethics/parliament.png" alt="image" /> <span
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/parliament.png" alt="image" class="tb-img-full"/> <span
 id="fig:parliament" label="fig:parliament"></span></p>
-<figcaption><strong>MISSING CAPTION</strong></figcaption>
 </figure>
 <p>We can use advanced AIs to emulate these representatives by training
 AIs to act in accordance with a specific moral theory. This allows us to
@@ -107,7 +106,7 @@ less likely to misbehave. By having multiple parliament members, we
 would achieve <em>redundancy</em>. This is a common principle in
 engineering: to always include extra components that are not strictly
 necessary to functioning, in case of failure in other components (and is
-explored further in the chapter). We would do this to avoid failure
+explored further in the Safety Engineering chapter). We would do this to avoid failure
 modes where we were overconfident that we knew the correct moral theory,
 such as lying and stealing for the greater good, or just to avoid poor
 implementation from AIs optimizing for one moral theory. For example, a

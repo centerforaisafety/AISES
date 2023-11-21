@@ -1,4 +1,30 @@
-<h1 id="moral-theories">Moral Theories</h1>
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
+<h1 id="moral-theories">7.4 Moral Theories</h1>
 <p>Moral theories are systematic attempts to provide a general account
 of moral principles that apply universally. Good moral theories should
 provide a coherent, consistent framework for determining whether an
@@ -27,7 +53,7 @@ constraints.<p>
 Below, we explore the most common modern moral theories:
 <em>utilitarianism</em>, <em>deontology</em>, <em>virtue ethics</em>,
 and <em>social contract theory</em>.</p>
-<h2 id="utilitarianism">Utilitarianism</h2>
+<h2 id="utilitarianism">7.4.1 Utilitarianism</h2>
 <p>Utilitarianism is the view that we should do whatever results in the
 most overall wellbeing <span class="citation"
 data-cites="mill2004utilitarianism">[1]</span>. According to Katarzyna
@@ -43,7 +69,7 @@ involved in the situation but globally.</p>
 <p><strong>Utilitarianism enables us to use empirical, quantitative
 evidence when deciding moral questions.</strong> As we discussed in
 Section <a href="#sec:wellbeing" data-reference-type="ref"
-data-reference="sec:wellbeing">[sec:wellbeing]</a>, there is no
+data-reference="sec:wellbeing">wellbeing</a>, there is no
 consensus about what, precisely, wellbeing is. However, if we discover
 that wellbeing is something measurable, like happiness, moral
 decision-making could take advantage of calculation and would rely less
@@ -70,7 +96,7 @@ occur.<p>
 A simplified, informal, back-of-the-envelope version of this utilitarian
 calculation is below:<p>
 </p>
-<table>
+<table class="tableLayout">
 <thead>
 <tr class="header">
 <th style="text-align: center;">Amanda’s action</th>
@@ -200,7 +226,8 @@ wrong regardless of their consequences.</p>
 <p>Utilitarians believe that the only type of consequences that make an
 action right or wrong are those that affect happiness or wellbeing. In
 that sense, utilitarianism can be understood as a combination of
-consequentialism and hedonism, as we discussed it in section . Recall
+consequentialism and hedonism, as we discussed it in section <a href="#sec:wellbeing" data-reference-type="ref"
+data-reference="sec:wellbeing">wellbeing</a>. Recall
 that there are several different accounts of wellbeing, all of which are
 compatible with utilitarianism.</p>
 <p><strong>Classical utilitarianism.</strong> Most utilitarians are
@@ -402,7 +429,7 @@ utilitarians may argue that we simply live in a demanding world, that we
 can use heuristics instead of constantly making calculations, and that
 Nozick’s thought experiment does not necessarily show that we have
 values aside from wellbeing.</p>
-<h2 id="deontology">Deontology</h2>
+<h2 id="deontology">7.4.2 Deontology</h2>
 <p><strong><em>Deontology</em> is the name for a family of ethical
 theories that deny that the rightness of actions is solely determined by
 their consequences.</strong> Deontologists emphasize constraints rather
@@ -801,7 +828,7 @@ theories. For example, many deontological theories still reflect the
 ideas that we should treat people as ends, not as mere means; the focus
 on respecting others’ rational and autonomous humanity; and the concept
 of considering how your actions might apply universally.</p>
-<h2 id="virtue-ethics">Virtue Ethics</h2>
+<h2 id="virtue-ethics">7.4.3 Virtue Ethics</h2>
 <p>Virtue ethics is a moral theory that emphasizes the importance of
 having the right character traits, rather than producing the right
 consequences or performing the right actions <span class="citation"
@@ -919,7 +946,7 @@ save someone from drowning, not because of facts about our own character
 traits but because of facts about the drowning person. We should save
 them because their life has value, because their wellbeing matters, and
 because they have a right to life, not because we are courageous.</p>
-<h2 id="subsec:social-contract">Social Contract Theory</h2>
+<h2 id="subsec:social-contract">7.4.4 Social Contract Theory</h2>
 <p>The focus of this section is social contract theories of morality. As
 the name suggests, social contract theory focuses on contracts—–or, more
 generally, hypothetical agreements between members of a society–—as the

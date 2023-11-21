@@ -1,4 +1,26 @@
-<h1 id="tail-risk-corrigibility">Tail Risk: Corrigibility</h1>
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.01em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+<h1 id="tail-risk-corrigibility">A.3 Tail Risk: Corrigibility</h1>
 <p><strong>Overview.</strong> In this section, we will explore how
 utility functions provide insight into whether an AI system is open to
 corrective interventions and discuss related implications for AI risks.
@@ -90,8 +112,11 @@ changes—is essential in ensuring safe and effective control over AIs’
 behavior. Examining the properties of utility functions illuminates
 potential problems in implementing corrigibility.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Utility Functions vs. Reward Functions</span> Utility
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Utility Functions vs. Reward Functions</b></span></p>
+</legend>
+<p> Utility
 functions and reward functions are two interrelated yet distinct
 concepts in understanding agent behavior. Utility functions represent an
 agent’s preferences about states or the choice-worthiness of a state,
@@ -125,6 +150,8 @@ utility, so its utility function may differ from the one we want it to
 have.<p>
 </p>
 </div>
+
+<br>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-pacecorrigibility" class="csl-entry" role="listitem">
