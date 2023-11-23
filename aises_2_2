@@ -889,7 +889,7 @@ of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/predicted-actual-green-purple.png"
-     class="tb-img-full" width="35%" />
+     class="tb-img-full" width="25%" />
     <p class="tb-caption">Confusion matrix</p>
 <!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
