@@ -195,7 +195,7 @@ problem is now a <em>full reinforcement learning problem</em>.<p>
 </p>
 <figure id="fig:multi-bandit">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/RL problem.jpeg" class="tb-img-full" style="width: 40%"/>
-<p class="tb-caption">TMulti-armed bandit, contextual bandit, and full RL problems.
+<p class="tb-caption">Multi-armed bandit, contextual bandit, and full RL problems.
 - <span class="citation" data-cites="xie2020">[4]</span></p>
 <!--<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.-->
 <!-- - <span class="citation" data-cites="xie2020">[4]</span></figcaption>-->
@@ -548,13 +548,6 @@ becomes less computationally feasible. Instead, we might try to estimate
 the Q-function using a less computationally taxing method. One such
 method involves using neural networks to estimate the Q-function. This
 is an example of a method known as deep RL.</p>
-<figure id="fig:gridworld">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gridworld.png" class="tb-img-full"/>
-<p class="tb-caption">Example Q-values in Gridworld. - <span class="citation"
-data-cites="gridworld">[7]</span></p>
-<!--<figcaption>Example Q-values in Gridworld. - <span class="citation"-->
-<!--data-cites="gridworld">[7]</span></figcaption>-->
-</figure>
 <h2 id="deep-reinforcement-learning">2.5.4 Deep Reinforcement Learning</h2>
 <p>Deep reinforcement learning (deep RL) is the area of machine learning
 that leverages deep learning (DL) to help solve reinforcement learning
