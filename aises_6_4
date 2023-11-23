@@ -405,7 +405,7 @@ that economic growth can lead to vast improvements in human life through
 health, freedom, education, and more.<br />
 </p>
 <figure id="fig:preston">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/preston.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full"/>
 <p class="tb-caption">Increases in GDP per capita strongly correlate with
 increases in life expectancy.</p>
 <!--<figcaption>Increases in GDP per capita strongly correlate with-->
@@ -565,7 +565,7 @@ from the bottom income bracket to the top—cements inequalities over
 generations.<br />
 </p>
 <figure id="fig:gini">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gini.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gini_v2.png" class="tb-img-full" style="width: 50%"/>
 <p class="tb-caption">Change in US Gini coefficient.<br />
 Data Source: Our World in Data</p>
 <!--<figcaption>Change in US Gini coefficient.<br />-->
@@ -681,14 +681,14 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<br />
 </p>
 <figure id="fig:homicide">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/crime.png" class="tb-img-half"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-half"/>
 <p class="tb-caption">Measures of income inequality and homicide rate<br />
 Data Source: Vienna University of Economics and Business</p>
 <!--<figcaption>Measures of income inequality and homicide rate<br />-->
 <!--Data Source: Vienna University of Economics and Business</figcaption>-->
 </figure>
 <figure id="fig:political">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/stability.png" class="tb-img-half"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-half"/>
 <p class="tb-caption">Measures of income inequality and political stability.<br />
 Data Source: World Bank, World Governance Indicators and Gini
 Coefficient Data</p>

@@ -341,7 +341,7 @@ may influence the risk of an accident. This analysis makes it explicit
 that accidents cannot be solely explained by an action at the sharp
 end.</p>
 <figure id="fig:Rasmussen">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Rasmussen.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Rasmussen.png" class="tb-img-full" style="width: 40%"/>
 <p class="tb-caption">Rasmussen’s Risk Management Framework</p>
 <!--<figcaption>Rasmussen’s Risk Management Framework</figcaption>-->
 </figure>
@@ -424,7 +424,7 @@ important to them at the time. Similarly, social pressures and attitudes
 may put pressure on organizations to improve safety or pressure to
 achieve goals quickly.<p>
 Table <a href="#tab:assumptions" data-reference-type="ref"
-data-reference="tab:assumptions">[tab:assumptions]</a> summarizes how
+data-reference="tab:assumptions">assumptions</a> summarizes how
 the STAMP perspective contrasts with those of traditional component
 failure models.<p>
 <strong>STAMP-based analysis techniques include System-Theoretic Process

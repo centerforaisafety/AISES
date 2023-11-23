@@ -395,7 +395,7 @@ relative to capabilities can reduce overall risk and help avoid
 inadvertently accelerating AI development, fueling competitive
 pressures, or hastening the onset of existential risks.</p>
 <figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/swiss_cheese.jpg" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/swiss_cheese.png" />
 <figcaption>The Swiss cheese model shows how technical factors can
 improve organizational safety. Multiple layers of defense compensate for
 each other’s individual weaknesses, leading to a low overall level of

@@ -276,7 +276,7 @@ the highest acceptable outcome for the other party at the opposite end.
 Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range.png" class="tb-img-full" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full" />
 <p class="tb-caption">Overview of Bargaining ranges</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
@@ -524,7 +524,7 @@ World War II. Side payments can only resolve issue indivisibility when
 the value of the side payments outweighs the value of the good.<p>
 </p>
 <figure id="fig:first-strike">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bargain_range_2.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range_2.png" class="tb-img-full"/>
 <p class="tb-caption">First strike advantage</p>
 <!--<figcaption>First strike advantage</figcaption>-->
 </figure>
@@ -600,7 +600,7 @@ value they are competing for. Thus, each may reject any bargain offer
 the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
-<img src="images/multiagent-dynamics/bargaining_range_3.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full"/>
 <p class="tb-caption">Information problems</p>
 <!--<figcaption>Information problems</figcaption>-->
 </figure>
@@ -1627,42 +1627,31 @@ style="color: blue">Aggressor</span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"><span
-style="color: red">Pacifist</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
+
+    <tr class="odd">
+        <td style="text-align: left;"><span style="color: red">Pacifist</span></td>
+        <td style="text-align: center;"> <span style="color: blue">Peace + Profit
+            <span class="math inline">(100+5) = 105</span></span> <br>
+            <span style="color: red">Peace + Profit
+            <span class="math inline">(100+5) = 105</span></span></td>
+        <td style="text-align: center;">
+            <span style="color: blue">Victory(10)</span> <br>
+            <span style="color: red">Defeat(-100)</span> <br>
+        </td>
+    </tr>
 <tr class="even">
-<td style="text-align: left;"><span style="color: blue">Peace + Profit
-<span class="math inline">(100+5) = 105</span></span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+    <td style="text-align: left;"><span
+    style="color: red">Aggressor</span></td>
+    <td style="text-align: center;">
+        <span style="color:blue">Defeat(-100)</span> <br>
+        <span style="color:red">Victory(10)</span>
+    </td>
+    <td style="text-align: center;">
+        <span style="color:blue">War(-50)</span> <br>
+        <span style="color:red">War(-50)</span>
+    </td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"><span style="color: blue">Victory (<span
-class="math inline">10</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span
-style="color: red">Aggressor</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span style="color: blue">Defeat(<span
-class="math inline"> − 100</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span style="color: blue">War(<span
-class="math inline"> − 50</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
+
 </tbody>
 </table>
 </div>
@@ -1692,41 +1681,27 @@ style="color: blue">Aggressor</span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"><span
-style="color: red">Pacifist</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
+
+    <tr class="odd">
+        <td style="text-align: left;"><span style="color: red">Pacifist</span></td>
+        <td style="text-align: center;"> <span style="color: blue">Peace(5)</span> <br>
+            <span style="color: red"> Peace(5)</span></td>
+        <td style="text-align: center;">
+            <span style="color: blue">Victory - Penalty (10 − 15 = −5)</span> <br>
+            <span style="color: red">Defeat(-100)</span> <br>
+        </td>
+    </tr>
 <tr class="even">
-<td style="text-align: left;"><span style="color: blue">Peace (<span
-class="math inline">5</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span style="color: blue">Victory -
-Penalty (<span class="math inline">10 − 15 =  − 5</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span
-style="color: red">Aggressor</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span style="color: blue">Defeat (<span
-class="math inline"> − 100</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span style="color: blue">War - Penalty
-(<span class="math inline"> − 50 − 200 =  − 250</span>)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+    <td style="text-align: left;"><span
+    style="color: red">Aggressor</span></td>
+    <td style="text-align: center;">
+        <span style="color:blue">Defeat(-100)</span> <br>
+        <span style="color:red">Victory - Penalty (10 − 15 − 5)</span>
+    </td>
+    <td style="text-align: center;">
+        <span style="color:blue">War - Penalty (−50 − 200 = −250)</span> <br>
+        <span style="color:red">War - Penalty (−50 − 200 = −250)</span>
+    </td>
 </tr>
 </tbody>
 </table>

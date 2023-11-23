@@ -52,7 +52,7 @@ techniques are employed in and represent the cutting edge of many areas
 of machine learning, including supervised, unsupervised, and
 reinforcement learning.</p>
 <figure id="fig:venn-definitions">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/AI_ML_DL_Venn.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_ML_DL_Venn.png" class="tb-img-full" style="width: 40%"/>
 <p class="tb-caption">Relationship between AI, machine learning, and deep
 learning</p>
 <!--<figcaption>Relationship between AI, machine learning, and deep-->
@@ -162,8 +162,8 @@ many components and interacting cells, artificial neurons are simplified
 computational units designed to mimic a few of their
 characteristics.</p>
 <figure id="fig:neurons">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/artificial biological neuron.png"
-     class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/artificial biological neuron.png"
+     class="tb-img-full" style="width: 40%"/>
     <p class="tb-caption">Comparison of biological and artificial neurons. - <span
 class="citation" data-cites="wikineuron wikiperceptron">[2],
 [3]</span></p>
@@ -209,7 +209,7 @@ network consists of 784 nodes, each corresponding to the grayscale value
 of a pixel in a given image.<p>
 </p>
 <figure id="fig:pixel-mapping">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/pixel_mapping.png" class="tb-img-full" width="40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full" style="width: 40%"/>
     <p class="tb-caption">Mapping from pixels of an example image to neurons in the
 input layer of a network - <span class="citation"
 data-cites="hula2018">[4]</span></p>
@@ -290,7 +290,7 @@ representations. Simply put, more layers capture more features at more
 levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/hidden_nn.png" class="tb-img-full" width="30%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hidden_nn.png" class="tb-img-full" style="width: 25%"/>
     <p class="tb-caption">A multi-layer neural network</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
@@ -398,7 +398,7 @@ played a critical role in developing more sophisticated deep learning
 architectures.<p>
 </p>
 <figure id="fig:relu-function">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relu_v2.png" class="tb-img-full" width="40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relu_v2.png" class="tb-img-full" style="width: 35%"/>
     <p class="tb-caption">The ReLU activation function, <span
 class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,
 passes on positive inputs.</p>
@@ -415,11 +415,11 @@ class="math inline"><em>Φ</em>(<em>x</em>)</span>. The GELU has been
 widely used in and contributed to the success of many current models,
 including Transformer-based language models.</p>
 <figure id="fig:gelu-function">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" class="tb-img-full" width="40%"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" class="tb-img-full" style="width: 35%"/>
     <p class="tb-caption">The GELU activation function, <span
 class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,
 smoothes out the ReLU function.</p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gelu_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" />-->
 <!--<figcaption>The GELU activation function, <span-->
 <!--class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,-->
 <!--smoothes out the ReLU function.</figcaption>-->
@@ -431,12 +431,12 @@ because it compresses all real numbers to values in this range. When
 graphed, it forms a characteristic S-shaped curve. We explored the
 sigmoid function in the previous section.</p>
 <figure id="fig:sigmoid-function">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" class="tb-img-full" width="40%"/>
-    <p class="tb-caption">he Sigmoid activation function, <span
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" class="tb-img-full" style="width: 35%"/>
+    <p class="tb-caption">The Sigmoid activation function, <span
 class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a
 characteristic S-shape.</p>
 
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/sigmoid_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" />-->
 <!--<figcaption>The Sigmoid activation function, <span-->
 <!--class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a-->
 <!--characteristic S-shape.</figcaption>-->
@@ -486,7 +486,7 @@ Consequently, lower-level features learned in earlier layers can
 contribute more directly to the higher-level features of deeper layers,
 and information can be more readily preserved.</p>
 <figure id="fig:feed-forward-network">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feed_forward.png" class="tb-img-full" width="20%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feed_forward.png" class="tb-img-full" width="10%"/>
     <p class="tb-caption">Traditional feedforward network and a network with residual
 connections.</p>
 <!--<figcaption>Traditional feedforward network and a network with residual-->
@@ -521,7 +521,7 @@ systematically comparing relevant sections using matrix multiplication
 with the filter, and recording the results in a new matrix called a
 <em>feature map</em>.</p>
 <figure id="fig:convolution-1">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/convolution.jpeg" class="tb-img-full" width="20%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/convolution.jpeg" class="tb-img-full" width="15%"/>
 <p class="tb-caption">Convolution operation - <span class="citation"
 data-cites="wikiconvolution">[8]</span></p>
 <!--<figcaption>Convolution operation - <span class="citation"-->
@@ -557,7 +557,7 @@ to every other element by determining its relative importance and
 selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/relationships.png" class="tb-img-full" width="30%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" width="30%"/>
 <p class="tb-caption">Example of relationships captured by two different attention
 heads - <span class="citation"
 data-cites="Vaswani2017">[9]</span></p>
@@ -582,7 +582,7 @@ blocks.<p>
 </p>
 <div class="wrapfigure">
 <p><span>r</span><span>5.5cm</span> <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/transformer_block.png" width="20%"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" width="20%"
 alt="image" /></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
@@ -715,7 +715,7 @@ calculated using the gradients (derivatives) of the loss function with
 respect to the model’s parameters.<p>
 </p>
 <figure id="fig:gradient-example">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/gradient-graph-design.png" class="tb-img-full" width="30%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gradient-graph-design.png" class="tb-img-full" style="width: 40%"/>
     <p class="tb-caption">Gradient descent over loss landscape given two different
         weight initializations - <span class="citation"
         data-cites="raj-enjoyalg">[10]</span>
