@@ -128,7 +128,7 @@ at risk: we can consider the amount of <em>exposure</em> and the level
 of <em>vulnerability</em> <span class="citation"
 data-cites="Hendrycks2022xrisk">[1]</span>.</p>
 <figure id="fig:risk-breakdown">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/hazards.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hazards.png" class="tb-img-full"/>
 <p class="tb-caption">Breaking down risk into four factors.</p>
 <!--<figcaption>Breaking down risk into four factors.</figcaption>-->
 </figure>

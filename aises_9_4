@@ -125,7 +125,7 @@ compute. GPUs can’t be downloaded but instead must be fabricated,
 purchased, and shipped.</p>
 <div class="wrapfigure">
 <p><span>r</span><span>8.4cm</span> <img
-src="images/governance/image1.png" style="width:8.4cm"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/compute.png" style="width:8.4cm"
 alt="image" /></p>
 </div>
 <p><strong>Since compute is physical, it is trackable.</strong> Compute

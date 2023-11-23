@@ -32,7 +32,7 @@ all the numerical operations of a state of the art model into a form
 that is meaningful to humans.<p>
 </p>
 <figure id="fig:comp-graph">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/computational_graph.png" class="tb-img-full" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/computational_graph.png" class="tb-img-full" style="width: 80%" />
 <p class="tb-caption">A section of a computational graph for an ML system - <span
 class="citation" data-cites="zoph2017neural">[2]</span></p>
 <!--<figcaption>A section of a computational graph for an ML system - <span-->
@@ -50,7 +50,7 @@ a face can then be represented as a particular combination of these
 eigenfaces.<p>
 </p>
 <figure id="fig:Eigenfaces">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Eigenfaces.jpg" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Eigenfaces.jpg" class="tb-img-full" style="width: 60%"/>
 <p class="tb-caption">Eigenfaces - <span class="citation"
 data-cites="zhang2008eigenfaces">[3]</span></p>
 <!--<figcaption>Eigenfaces - <span class="citation"-->
@@ -77,7 +77,7 @@ images that highly activate a particular neuron (or set of neurons)
 also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/feature_vis.png" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feature_vis.png" />
 <p class="tb-caption">From <span class="citation"
 data-cites="schubert2020openai">[6]</span>. A randomly selected neuron
 in the CLIP ResNet-50 image model. Left: a feature visualization that
@@ -263,7 +263,7 @@ more relevant than the background to how the person interprets the
 image. Saliency map techniques have been popular in part due to the
 striking visualizations they produce.</p>
 <figure id="fig:saliency-map">
-<img src="images/single_agent/image21.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/saliency_map.png" class="tb-img-full"/>
 <p class="tb-caption">Example of a saliency map technique for various images -
 <span class="citation"
 data-cites="springenberg2015striving">[14]</span></p>
@@ -354,7 +354,7 @@ description of an internal model mechanism <span class="citation"
 data-cites="wang2022interpretability">[16]</span>.<p>
 </p>
 <figure id="fig:id-circuit">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/identification_circuit.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/identification_circuit.png" class="tb-img-full"/>
 <p class="tb-caption">Graphical depiction of indirect-object identification
 circuit</p>
 <!--<figcaption>Graphical depiction of indirect-object identification-->

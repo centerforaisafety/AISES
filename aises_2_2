@@ -615,11 +615,11 @@ methods to enable computers to interpret and understand visual data from
 the world. Classification is categorization: it involves putting data
 points into buckets.</p>
 <figure id="fig:example-binary-class">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/binary_classification_v2.png"
-         class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png"
+         class="tb-img-full" style="width: 50%; />
     <p class="tb-caption">ML models can classify data into different categories. <span
 class="citation" data-cites="drouin2017class">[17]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/binary_classification_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png" />-->
 <!--<figcaption>ML models can classify data into different categories. <span-->
 <!--class="citation" data-cites="drouin2017class">[17]</span></figcaption>-->
 </figure>
@@ -637,11 +637,11 @@ models can provide similar probabilistic outputs without employing a
 sigmoid function.<p>
 </p>
 <figure id="fig:logistic-classification">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/logistic_regression_v2.png" class="tb-img-full">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" class="tb-img-full" style="width: 45%; >
             <p class="tb-caption">Example of binary classification with a sigmoid-like
 logistic curve - <span class="citation"
 data-cites="wikipedia-logistic">[18]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/logistic_regression_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" />-->
 <!--<figcaption>Example of binary classification with a sigmoid-like-->
 <!--logistic curve - <span class="citation"-->
 <!--data-cites="wikipedia-logistic">[18]</span></figcaption>-->
@@ -659,10 +659,10 @@ a continuous output variable based on one or more input variables.
 Regression is estimation: it involves guessing what a feature of a data
 point will be given the rest of its characteristics.</p>
 <figure id="fig:simple_regression">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/linear_regression_v2.png" class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" class="tb-img-full" style="width: 45%; />
     <p class="tb-caption">Example regression plot - <span class="citation"
 data-cites="drouin2017class">[17]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/linear_regression_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" />-->
 <!--<figcaption>Example regression plot - <span class="citation"-->
 <!--data-cites="drouin2017class">[17]</span></figcaption>-->
 </figure>
@@ -686,15 +686,15 @@ attempted cyberattacks, sudden behavioral shifts, and unanticipated
 failures. Early detection of anomalies can substantially improve the
 performance of models in real-world situations.</p>
 <figure>
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_scatter_v2.png"
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"
          class="tb-img-half"/>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_scatter_v2.png"-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"-->
 <!--style="width:90.0%" />-->
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_time_v2.png"
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time_v2.png"
          class="tb-img-half"/>
     <p class="tb-caption">Two examples of anomaly detection -<span class="citation"
 data-cites="hendrycks-anomaly">[20]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/anomaly_time_v2.png"-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time_v2.png"-->
 <!--style="width:90.0%" />-->
 <!--<figcaption>Two examples of anomaly detection -<span class="citation"-->
 <!--data-cites="hendrycks-anomaly">[20]</span></figcaption>-->
@@ -888,8 +888,8 @@ incorrect prediction of the negative class, predicting negative instead
 of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/predicted-actual-green-purple.png"
-     class="tb-img-full" width="40%" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/predicted-actual-green-purple.png"
+     class="tb-img-full" width="35%" />
     <p class="tb-caption">Confusion matrix</p>
 <!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
@@ -947,8 +947,8 @@ for a given model, increasing precision will necessarily decrease recall
 and vice versa.<p>
 </p>
 <figure id="fig:precision-recall">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/true-false-positives-green-purple.png"
-     class="tb-img-full" style="width:30%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/true-false-positives-green-purple.png"
+     class="tb-img-full" style="width:50%"/>
     <p class="tb-caption">Visualization of precision and recall - <span
         class="citation"
         data-cites="wikipedia-precision">[21]</span>
@@ -972,11 +972,11 @@ interpret the AUROC as the probability that a positive example scores
 higher than a negative example.<p>
 </p>
 <figure id="fig:AUROC">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/roc_curve_v2.png" class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" class="tb-img-full" style="width: 45%; />
     <p class="tb-caption">The AUROC score increases as it moves in the northwest
 direction. <span class="citation"
 data-cites="wikipedia-roccurve">[22]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/roc_curve_v2.png" />-->
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" />-->
 <!--<figcaption>The AUROC score increases as it moves in the northwest-->
 <!--direction. <span class="citation"-->
 <!--data-cites="wikipedia-roccurve">[22]</span></figcaption>-->
@@ -1044,9 +1044,9 @@ will also discuss deep learning, a set of techniques that can be applied
 in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/learning_paradigms.png" class="tb-img-full"/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width: 50%;/>
     <p class="tb-caption">Learning paradigms in machine learning</p>
-<!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/learning_paradigms.png" />-->
+<!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" />-->
 <!--<figcaption>Learning paradigms in machine learning </figcaption>-->
 </figure>
 <p><strong><em>Supervised Learning</em></strong></p>
@@ -1105,8 +1105,8 @@ images in which information is missing or covered up. This allows the
 model to learn visual features and relationships between objects that
 can be used to generate new images.</p>
 <figure id="fig:inpainting">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/inpainting.png"
-class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inpainting.png"
+class="tb-img-full" style="width: 70%"/>
     <p class="tb-caption">Image inpainting - <span class="citation"
 data-cites="elharrouss2019">[23]</span></p>
 <!--<figcaption>Image inpainting - <span class="citation"-->

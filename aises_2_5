@@ -194,7 +194,7 @@ into account that its actions can affect that context. The bandit
 problem is now a <em>full reinforcement learning problem</em>.<p>
 </p>
 <figure id="fig:multi-bandit">
-<img src="https://github.com/WilliamHodgkins/AISES/blob/main/RL problem.jpeg" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/RL problem.jpeg" class="tb-img-full" style="width: 40%"/>
 <p class="tb-caption">TMulti-armed bandit, contextual bandit, and full RL problems.
 - <span class="citation" data-cites="xie2020">[4]</span></p>
 <!--<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.-->
@@ -213,7 +213,7 @@ adjacent open cell. Moving into an open cell is neutral, moving into a
 hazard is very bad, and moving into the goal is very good.<p>
 </p>
 <figure id="fig:gridworld">
-<img src="https://github.com/WilliamHodgkins/AISES/blob/main/gridworld.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gridworld.png" class="tb-img-full" style="width: 40%"/>
     <p class="tb-caption">Gridworld: a simple environment used as a toy model in
 reinforcement learning.</p>
 <!--<figcaption>Gridworld: a simple environment used as a toy model in-->
@@ -228,7 +228,7 @@ and a state observation from the environment. Using Gridworld as our
 example, we discuss each of those terms below.<p>
 </p>
 <figure id="fig:agent-environment">
-<img src="https://github.com/WilliamHodgkins/AISES/blob/main/agent-environment-loop.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/agent-environment-loop.png" class="tb-img-full" style="width: 40%"/>
 <p class="tb-caption">The agent-environment loop - <span class="citation"
 data-cites="wikipedia-markov">[5]</span></p>
 <!--<figcaption>The agent-environment loop - <span class="citation"-->
@@ -420,7 +420,7 @@ use a value function to estimate the value of different routes based on
 the expected travel time.<p>
 </p>
 <figure id="fig:value-methods">
-<img src="https://github.com/WilliamHodgkins/AISES/blob/main/two-types updated.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/two-types updated.png" class="tb-img-full"/>
 <p class="tb-caption">Two value-based methods: state-value and action-value (Q-)
 functions - <span class="citation" data-cites="huggingface">[6]</span>.</p>
 <!--<figcaption>Two value-based methods: state-value and action-value (Q-)-->
@@ -549,7 +549,7 @@ the Q-function using a less computationally taxing method. One such
 method involves using neural networks to estimate the Q-function. This
 is an example of a method known as deep RL.</p>
 <figure id="fig:gridworld">
-<img src="https://github.com/WilliamHodgkins/AISES/blob/main/gridworld.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gridworld.png" class="tb-img-full"/>
 <p class="tb-caption">Example Q-values in Gridworld. - <span class="citation"
 data-cites="gridworld">[7]</span></p>
 <!--<figcaption>Example Q-values in Gridworld. - <span class="citation"-->

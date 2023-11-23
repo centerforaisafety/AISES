@@ -37,7 +37,7 @@ patterns through harmful feedback loops that exacerbate bias. Developing
 unbiased AI systems requires proactively identifying and mitigating
 biases across the entire lifecycle.</p>
 <figure id="fig:enter-label">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/bias_diagram.png" class="tb-img-full"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bias_diagram.png" class="tb-img-full"/>
 <p class="tb-caption">Systematic psychological, historical, and social biases can
 lead to algorithmic biases within AI systems.</p>
 <!--<figcaption>Systematic psychological, historical, and social biases can-->

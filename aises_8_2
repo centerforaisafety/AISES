@@ -213,8 +213,8 @@ whether to cooperate or defect themself. They do not know what their
 partner will decide to do.<p>
 </p>
 <figure id="fig:pris-dillema">
-<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/world-one-and-two.png" alt="image"
-        class="tb-img-full" width="40%"/>
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/world-one-and-two.png" alt="image"
+        class="tb-img-full" style="width: 50%"/>
     <span id="fig:pris-dillema" label="fig:pris-dillema"></span></p>
 <p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
 Dilemma</p>
@@ -358,8 +358,8 @@ data-reference="fig:pareto-efficiency">3</a>.<p>
 </p>
 <figure id="fig:pareto-comparison">
 <p><img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice and Bob choices red green.png"
-alt="image" class="tb-img-full" width="40%"/> <span id="fig:pareto-comparison"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
+alt="image" class="tb-img-full" style="width: 40%"/> <span id="fig:pareto-comparison"
 label="fig:pareto-comparison"></span></p>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma</p>
@@ -377,7 +377,7 @@ produce a Pareto improvement.</em><p>
 </p>
 <figure id="fig:pareto-efficiency">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payout-purple-green.png" class="tb-img-full" width="35%"/>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 40%"/>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma - adapted from <span class="citation"
 data-cites="kuhn2019prisoner">[1]</span></p>
@@ -471,7 +471,7 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 </p>
 <figure id="fig:cooperate">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Agents-may-cooperate-because v2.png" class="tb-img-full" width="40%"/>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Five reasons agents might cooperate - <span class="citation"
 data-cites="parfit1984reasons">[2]</span></p>
 <!--<figcaption>Five reasons agents might cooperate - <span class="citation"-->
@@ -550,10 +550,10 @@ class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </p>
 <figure id="fig:snitches">
 <figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-payoff-with-graphs.png" class="tb-img-half" width="40%" style="display:inline-block"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-payoff-with-graphs.png" class="tb-img-half" style="display:inline-block; width: 40%"/>
 </figure>
 <figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Alice-bob-payoff-graphs2.png" class="tb-img-half" width="40%" style="display:inline-block"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="display:inline-block; width: 40%"/>
 </figure>
 <p class="tb-caption">Altering the payoff matrix to “punish snitches”.</p>
 <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
@@ -667,7 +667,7 @@ defection will be punished and their cooperation rewarded incentivizes
 both agents to cooperate with each other.<p>
 </p>
 <figure id="fig:iterated">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/tit-for-tat.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Tit-for-tat.png" class="tb-img-full"/>
 <p class="tb-caption">If the agents cooperate more, they can both gain better
 payoffs</p>
 <!--<figcaption>If the agents cooperate more, they can both gain better-->
@@ -1249,7 +1249,7 @@ href="#fig:collective" data-reference-type="ref"
 data-reference="fig:collective">7</a>.<p>
 </p>
 <figure id="fig:collective">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/freeriding.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/freeriding.png" class="tb-img-full"/>
 <p class="tb-caption">An abstract collective action problem</p>
 <!--<figcaption>An abstract collective action problem</figcaption>-->
 </figure>
@@ -1674,7 +1674,7 @@ dynamics have been identified in Iterated Prisoner’s Dilemma tournaments
 data-cites="garcia2018strategy">[16]</span>.<p>
 </p>
 <figure id="fig:cycle">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Evolutionary.png" class="tb-img-full" width="30%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Evolutionary.png" class="tb-img-full" style="width: 50%"/>
 <p class="tb-caption">The population may cycle through different strategy compositions.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
@@ -1825,7 +1825,7 @@ selection can produce populations that stably contain more than two
 strategies.<p>
 </p>
 <figure id="fig:freq-selection">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/Snails-graph.png" class="tb-img-full" width="40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Snails-graph.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">Frequency-dependent selection.</p>
 <!--<figcaption>Frequency-dependent selection.</figcaption>-->
 </figure>
@@ -1906,7 +1906,7 @@ extortionist. An extortionist thus scores higher than most of its
 partners in Iterated Prisoner’s Dilemma matches.<p>
 </p>
 <figure id="fig:extort-2">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/The-extort-strategy.png" class="tb-img-full" width="40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
 <p class="tb-caption">The <em>Extort-2</em> strategy - <span class="citation"
 data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->

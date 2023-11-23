@@ -35,7 +35,7 @@ training time, and dataset size below which models are unable to perform
 the task, and beyond which models begin to achieve higher
 performance.</p>
 <figure id="fig:emergent_graphs">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/FLOPs.png" class="tb-img-full" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FLOPs.png" class="tb-img-full" />
 <p class="tb-caption">Emergent AI capabilities across multiple benchmarks - <span
 class="citation" data-cites="wei2022emergent">[3]</span></p>
 <!--<figcaption>Emergent AI capabilities across multiple benchmarks - <span-->
@@ -74,7 +74,7 @@ vantage point, then, it is often hard to even detect new
 capabilities.<p>
 </p>
 <figure id="fig:unicorn">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/unicorn.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/unicorn.png" class="tb-img-full"/>
 <p class="tb-caption">Unexpected capability example: illustrations of unicorns by
 GPT-4 - <span class="citation"
 data-cites="bubeck2023sparks">[5]</span></p>
@@ -167,7 +167,7 @@ opposing players, they learned to use tools in sophisticated ways, even
 some the researchers had never anticipated.<p>
 </p>
 <figure id="fig:tool-use">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/3d_puzzle.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/3d_puzzle.png" class="tb-img-full"/>
 <p class="tb-caption">Emergent tool-use in multi-agent hide-and-seek - <span
 class="citation" data-cites="2019openai">[10]</span>.</p>
 <!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
@@ -197,7 +197,7 @@ dynamics are not exclusive to RL settings. We further discuss emergent
 social dynamics in the Collective Action Problems chapter.<p>
 </p>
 <figure id="fig:emergent-social-behaviour">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/AI_in_game.png" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_in_game.png" class="tb-img-full"/>
 <p class="tb-caption">Emergent social behavior in generative agents - <span
 class="citation" data-cites="park2023generative">[11]</span></p>
 <!--<figcaption>Emergent social behavior in generative agents - <span-->
