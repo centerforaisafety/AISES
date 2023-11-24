@@ -70,7 +70,7 @@ which summarises many of the key concerns discussed in this book. We
 outline some scenarios where AI systems could cause catastrophic
 outcomes. We split risks across four categories: malicious use, AI arms
 race dynamics, organizational risks, and rogue AIs. These categories can
-be loosely mapped onto the risks discussed in more depth in , , , and
+be loosely mapped onto the risks discussed in more depth in Governance, Collective Action Problems, Safety Engineering, and Single-Agent Safety
 chapters, respectively. However, this mapping is imperfect as many of
 the risks and frameworks discussed in the textbook are more general and
 cut across scenarios. Nonetheless, we hope that these scenarios give
