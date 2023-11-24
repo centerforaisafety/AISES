@@ -91,7 +91,7 @@ a robust safety culture at organizations developing AI is crucial, so
 organizations do not prioritize profit at the expense of safety. In our
 discussion of safety engineering, we rely on complex systems-based
 models and methods, as they are dominant in safety science research.
-Next, in , we show that analyzing AIs as complex systems helps us to
+Next, in Complex Systems, we show that analyzing AIs as complex systems helps us to
 better understand the difficulty of predicting how they will respond to
 external pressures or controlling the goals that may emerge in such
 systems. More generally, this chapter provides us with a useful
@@ -108,13 +108,13 @@ background in major theories and concepts in normative ethics. The appendix on U
 connected to the theme of objectives and constraints in AI systems, as it reviews formal methods to model 
 self-interested AI agents and challenges we might face in adjusting their
 goals if these turn out to be faulty. <p>
-The final section on has two chapters: and . In , we utilize game theory
+The final section on has two chapters: Collective Action Problems and Governance. In Collective Action Problems, we utilize game theory
 to illustrate the many ways in which multiple agents (humans, AIs,
 groups of humans and AIs) can fail to secure good outcomes and come into
 conflict. We also consider the evolutionary dynamics shaping AI development
 and how these drive AI risks. These frameworks help us
 to understand the challenges of managing competitive pressures between
-AI developers, militaries, or AI systems themselves. Finally, in the
+AI developers, militaries, or AI systems themselves. Finally, in the Governance
 chapter, we discuss strategic variables such as the rate at which AI
 evolves and how widely it is distributed. We introduce a variety of
 potential paths for managing AI risks, including corporate governance,
