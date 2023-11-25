@@ -29,7 +29,7 @@ mistake. This can be thought of as the AV’s expected time before
 failure.<p>
 </p>
 <figure id="fig:reliability-vs-time">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/nines_v2.png" class="tb-img-full" style="width: 15%"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/nines_v2.png" class="tb-img-full" style="width: 75%"/>
 <p class="tb-caption">System reliability vs expected time before
 failure</p>
 <!--<figcaption>System reliability vs expected time before-->
@@ -79,9 +79,8 @@ possesses, as:<p>
 class="math display"><em>k</em> =  − log<sub>10</sub>(1−<em>p</em>).</span></p>
 <figure>
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/log_nines_v2.png"
-style="width:8cm" class="tb-img-full"/>
-<p class="tb-caption">Nines of reliability vs<p>
-expected time before failure</p>
+style="width:75%" class="tb-img-full"/>
+    <p class="tb-caption">Nines of reliability vs expected time before failure </p>
 <!--<figcaption>Nines of reliability vs<p>-->
 <!--expected time before failure</figcaption>-->
 </figure>

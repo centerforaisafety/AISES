@@ -123,10 +123,13 @@ when it is being used by an approved entity, it is not also being used
 by someone else. This makes it easier to regulate and control the use of
 compute. GPUs can’t be downloaded but instead must be fabricated,
 purchased, and shipped.</p>
-<div class="wrapfigure">
-<p><span>r</span><span>8.4cm</span> <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/compute.png" style="width:8.4cm"
-alt="image" /></p>
+<div>
+    <figure>
+        <img
+        src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/compute.png" style="width:70%"
+        alt="image" />
+        <p class="tb-caption">Semiconductor Manufacturing Tool - ASML Twinscan NXE</p>
+    </figure>
 </div>
 <p><strong>Since compute is physical, it is trackable.</strong> Compute
 is trackable, from chip fabrication to its use in data centers. This is

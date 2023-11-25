@@ -20,7 +20,7 @@ the linear sequence of events it will trigger and, thus, the end
 result.</p>
 <figure id="rube_goldberg">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Rubes-diagram.png"
-        alt="image" class="tb-img-full" style="width: 50%"/>
+        alt="image" class="tb-img-full" style="width: 70%"/>
 <span id="rube_goldberg" label="rube_goldberg"></span></p>
 <p class="tb-caption">Example of mechanistic approach - Rube Goldberg machine</p>
 <!--<figcaption>Example of mechanistic approach - Rube Goldberg-->
@@ -146,7 +146,7 @@ their shared properties can give us insights into how AI might evolve.
 This might offer clues as to how we can avoid potential negative
 consequences of using AI.</p>
 <figure id="approaches">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/approaches.png" class="tb-img-full" style="width: 40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/approaches.png" class="tb-img-full" style="width: 80%"/>
 <p class="tb-caption">Three approaches to analysing systems</p>
 <!--<figcaption>Three approaches to analysing systems</figcaption>-->
 </figure>
@@ -527,7 +527,7 @@ system’s initial conditions with perfect accuracy, chaotic systems are
 generally considered difficult to predict.<p>
 </p>
 <figure id="approaches">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_map_v2.png" class="tb-img-full" style="width: 40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_map_v2.png" class="tb-img-full" style="width: 80%"/>
 <p class="tb-caption">Logistic map</p>
 <!--<figcaption>Logistic map</figcaption>-->
 </figure>
@@ -793,7 +793,7 @@ a property is proportional to the system size raised to some power that
 may be more or less than 1. We will now discuss these <em>power
 laws</em>, which are another hallmark of complex systems.</p>
 <figure id="approaches">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/kleiber_v2.png" class="tb-img-full" style="width: 30%"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/kleiber_v2.png" class="tb-img-full" style="width: 85%"/>
 <p class="tb-caption">Kleiber’s Law</p>
 <!--<figcaption>Kleiber’s Law</figcaption>-->
 </figure>

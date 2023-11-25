@@ -81,13 +81,25 @@ class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></
 Power laws govern many other things, such as the frequency of word usage
 in a language, the distribution of wealth, the magnitude of earthquakes,
 and more.</p>
-<figure id="fig:city-pop">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_v2.png" class="tb-img-full" style="width:40%"/>
-<p class="tb-caption">Power laws in city populations - <span class="citation"
-data-cites="Newman2005">[1]</span></p>
-<!--<figcaption>Power laws in city populations - <span class="citation"-->
-<!--data-cites="Newman2005">[1]</span></figcaption>-->
-</figure>
+<div class="row">
+    <div class="column">
+        <figure id="fig:city-pop">
+        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_v2.png" class="tb-img-full" style="width:40%"/>
+        <p class="tb-caption">Power laws in city populations - <span class="citation"
+        data-cites="Newman2005">[1]</span></p>
+        <!--<figcaption>Power laws in city populations - <span class="citation"-->
+        <!--data-cites="Newman2005">[1]</span></figcaption>-->
+        </figure>
+    </div>
+<!-- Todo: replace this by split image    -->
+    <div class="column">
+        <figure id="fig:city-pop">
+        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_v2.png" class="tb-img-full" style="width:40%"/>
+        <p class="tb-caption">Power laws in city populations - <span class="citation"
+        data-cites="Newman2005">[1]</span></p>
+        </figure>
+    </div>
+</div>
 <h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
 <h3 id="introduction-1">Introduction</h3>

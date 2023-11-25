@@ -71,10 +71,13 @@ however rare we think they might be.<p>
 </p>
 <h2 id="tail-events-can-greatly-affect-the-average-risk">4.7.1 Tail Events Can
 Greatly Affect the Average Risk</h2>
-<div class="wrapfigure">
-<p><span>r</span><span>9cm</span> <embed
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/median_and_tail_v2.png"
-style="width:9cm" /></p>
+<div>
+<figure>
+    <img
+    src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/median_and_tail_v2.png"
+    style="width:70%" class="tb-img-full"/>
+    <p class="tb-caption">Figure 4.7.1 Shift in mean due to one tail event (but no shift in median).</p>
+</figure>
 </div>
 <p><strong>A tail event often changes the mean but not the
 median.</strong> Figure <a href="#wrap-fig:tails"
@@ -147,7 +150,7 @@ thousand years old, and very few buildings, such as the Pyramids at
 Giza, that are several thousand years old.<p>
 </p>
 <figure id="fig:exponential">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/head_and_tail_v2.png" class="tb-img-full" style="width: 20%"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/head_and_tail_v2.png" class="tb-img-full" style="width: 70%"/>
 <p class="tb-caption">Head and tail of a distribution</p>
 <!--<figcaption>Head and tail of a distribution</figcaption>-->
 </figure>
@@ -233,7 +236,7 @@ in . Normal distributions have a maximum density at the most common
 value and a tail on either side. The frequency decreases rapidly as we
 move away from the most common value.</p>
 <figure id="fig:excess">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/heights_v2.png" class="tb-img-full" style="width: 40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/heights_v2.png" class="tb-img-full" style="width: 70%"/>
 <p class="tb-caption">Normal distribution: human heights.</p>
 <!--<figcaption>Normal distribution: human heights.<p>-->
 </figcaption>
@@ -272,10 +275,13 @@ old, while others live for fewer than ten years. Nonetheless, this
 question usually indicates whether a variable has a long or thin
 tail.<p>
 </p>
-<div class="wrapfigure">
-<p><span>l</span><span>8.1cm</span> <embed
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/exp_vs_power_v2.png"
-style="width:8.1cm" /></p>
+<div>
+<figure>
+    <img
+    src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/exp_vs_power_v2.png"
+    style="width:70%" class="tb-img-full"/>
+    <p class="tb-caption">Long tailed vs exponential distributions</p>
+</figure>
 </div>
 <p><strong>Exponential distributions are thin-tailed
 distributions.</strong> Figure <a href="#wrap-fig:exponentials"

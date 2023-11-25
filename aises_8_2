@@ -24,6 +24,19 @@
     }
 </style>
 
+<style>
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .img-container {
+      float: left;
+      width: 48%;
+      padding: 5px;
+    }
+</style>
+
 <h1 id="game-theory">8.2 Game Theory</h1>
 <h2 id="overview">8.2.1 Overview</h2>
 <p>This chapter explores the dynamics that may arise when AI and human
@@ -214,7 +227,7 @@ partner will decide to do.<p>
 </p>
 <figure id="fig:pris-dillema">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/world-one-and-two.png" alt="image"
-        class="tb-img-full" style="width: 50%"/>
+        class="tb-img-full" style="width: 80%"/>
     <span id="fig:pris-dillema" label="fig:pris-dillema"></span></p>
 <p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
 Dilemma</p>
@@ -281,28 +294,20 @@ the two suspects’ decisions as the payoff to each suspect.<p>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
-<th style="text-align: center;"><span style="color: blue">Bob
-cooperates</span></th>
-<th style="text-align: center;"><span style="color: blue">Bob
-defects</span></th>
+<th style="text-align: center;">Bob cooperates</th>
+<th style="text-align: center;">Bob defects</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><span style="color: cyan">Alice
-cooperates</span></td>
-<td style="text-align: center;"><span style="color: cyan">-1</span>,
-<span style="color: blue">-1</span></td>
-<td style="text-align: center;"><span style="color: cyan">-8</span>,
-<span style="color: blue">0</span></td>
+<td style="text-align: center;">Alice cooperates</td>
+<td style="text-align: center;">-1, -1</td>
+<td style="text-align: center;">-8, 0 </td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span style="color: cyan">Alice
-defects</span></td>
-<td style="text-align: center;"><span style="color: cyan">0</span>,
-<span style="color: blue">-8</span></td>
-<td style="text-align: center;"><span style="color: cyan">-3</span>,
-<span style="color: blue">-3</span></td>
+<td style="text-align: center;"> Alice defects</td>
+<td style="text-align: center;">0, -8</td>
+<td style="text-align: center;">3, -3</td>
 </tr>
 </tbody>
 </table>
@@ -359,7 +364,7 @@ data-reference="fig:pareto-efficiency">3</a>.<p>
 <figure id="fig:pareto-comparison">
 <p><img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
-alt="image" class="tb-img-full" style="width: 40%"/> <span id="fig:pareto-comparison"
+alt="image" class="tb-img-full" style="width: 80%"/> <span id="fig:pareto-comparison"
 label="fig:pareto-comparison"></span></p>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma</p>
@@ -377,7 +382,7 @@ produce a Pareto improvement.</em><p>
 </p>
 <figure id="fig:pareto-efficiency">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 40%"/>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 80%"/>
 <p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
 Dilemma - adapted from <span class="citation"
 data-cites="kuhn2019prisoner">[1]</span></p>
@@ -471,9 +476,7 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 </p>
 <figure id="fig:cooperate">
 <img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">Five reasons agents might cooperate - <span class="citation"
-data-cites="parfit1984reasons">[2]</span></p>
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
 <!--<figcaption>Five reasons agents might cooperate - <span class="citation"-->
 <!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
 </figure>
@@ -500,28 +503,23 @@ behavior.<p>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
-<th style="text-align: center;"><span style="color: blue">Agent B
-cooperates</span></th>
-<th style="text-align: center;"><span style="color: blue">Agent B
-defects</span></th>
+<th style="text-align: center;">Agent B
+cooperates</th>
+<th style="text-align: center;">Agent B</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><span style="color: cyan">Agent A
-cooperates</span></td>
-<td style="text-align: center;"><span style="color: cyan">a</span>,
-<span style="color: blue">a</span></td>
-<td style="text-align: center;"><span style="color: cyan">b</span>,
-<span style="color: blue">c</span></td>
+<td style="text-align: center;">Agent A
+cooperates</td>
+<td style="text-align: center;">a, a</td>
+<td style="text-align: center;">b, c</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><span style="color: cyan">Agent A
-defects</span></td>
-<td style="text-align: center;"><span style="color: cyan">c</span>,
-<span style="color: blue">b</span></td>
-<td style="text-align: center;"><span style="color: cyan">d</span>,
-<span style="color: blue">d</span></td>
+<td style="text-align: center;">Agent A
+defects</td>
+<td style="text-align: center;">c, b</td>
+<td style="text-align: center;">d, d</td>
 </tr>
 </tbody>
 </table>
@@ -548,17 +546,21 @@ data-reference="fig:snitches">5</a>. The Pareto efficient outcome
 player cooperates is worse than mutually cooperating (<span
 class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </p>
-<figure id="fig:snitches">
-<figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-payoff-with-graphs.png" class="tb-img-half" style="display:inline-block; width: 40%"/>
-</figure>
-<figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="display:inline-block; width: 40%"/>
-</figure>
-<p class="tb-caption">Altering the payoff matrix to “punish snitches”.</p>
-<!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
-<!--</figcaption>-->
-</figure>
+<div class="clearfix">
+    <div class="img-container">
+        <figure id="fig:snitches">
+        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-payoff-with-graphs.png" class="tb-img-half" style="width: 100%"/>
+        </figure>
+    </div>
+    <div class="img-container">
+        <figure>
+        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="width: 100%"/>
+
+        <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
+        <!--</figcaption>-->
+        </figure>
+    </div>
+</div>
 <p><em>A) The Prisoner’s Dilemma payoff matrix, with the single Nash
 equilibrium highlighted. B) If we add a punishment of three years jail
 time for being a “snitch,” the outcome (-1,-1) becomes a second Nash
