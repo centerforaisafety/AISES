@@ -262,10 +262,13 @@ would probably have been fairly low. It certainly would not have pointed
 to the high risk of being taken to the slaughterhouse, because nothing
 like that had ever happened to the turkey before.<p>
 </p>
-<div class="wrapfigure">
-<p><span>r</span><span>8.5cm</span> <embed
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/convergence_v2.png"
-style="width:8.5cm" /></p>
+<div>
+    <figure>
+        <img
+        src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/convergence_v2.png" class="tb-img-full"
+        style="width:70%" />
+        <p class="tb-caption">Slow convergence of the mean for long-tailed distributions.</p>
+    </figure>
 </div>
 <p><strong>We need a much larger dataset than usual.</strong> As we
 increase the number of observations, we converge on an average value.

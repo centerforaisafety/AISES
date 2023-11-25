@@ -396,10 +396,10 @@ inadvertently accelerating AI development, fueling competitive
 pressures, or hastening the onset of existential risks.</p>
 <figure id="fig:swiss_cheese">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/swiss_cheese.png" />
-<figcaption>The Swiss cheese model shows how technical factors can
+<p class="tb-caption">The Swiss cheese model shows how technical factors can
 improve organizational safety. Multiple layers of defense compensate for
 each other’s individual weaknesses, leading to a low overall level of
-risk.</figcaption>
+risk.</p>
 </figure>
 <p><strong>Safetywashing can undermine genuine efforts to improve AI
 safety.</strong> Organizations should be wary of “safetywashing”—the act

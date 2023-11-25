@@ -108,7 +108,7 @@ secure a high score, even though it frequently crashed into other boats
 and, on several occasions, set itself ablaze. Points proved to be a poor
 proxy for doing well at the game.</p>
 <figure id="fig:coastrunners">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_1.png" class="tb-img-full" style="width: 60%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_1.png" class="tb-img-full" style="width: 90%"/>
 <p class="tb-caption">Proxy gaming in CoastRunners 7 - <span class="citation"
 data-cites="clark2016faulty">[2]</span></p>
 <!--<figcaption>Proxy gaming in CoastRunners 7 - <span class="citation"-->
@@ -165,7 +165,7 @@ proceed without slowing down for joining traffic.<p>
 <p>Model:</p>
 </div>
 <figure id="fig:proxy-reward">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" style="width: 60%"/>
 <p class="tb-caption">Sub-optimal traffic control solution due to proxy
 gaming</p>
 <!--<figcaption>Sub-optimal traffic control solution due to proxy-->
@@ -310,7 +310,7 @@ how many sensors and evaluators we can afford to run and how long we can
 afford to run them.</p>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_2_v2.png"
-style="width:60.0%" class="tb-img-full"/>
+style="width:85.0%" class="tb-img-full"/>
 <p class="tb-caption">Proxy gaming example - simulated claw appearing to grasp
 ball rather than actually grasping it</p>
 <!--<figcaption>Proxy gaming example - simulated claw appearing to grasp-->
