@@ -163,7 +163,7 @@ computational units designed to mimic a few of their
 characteristics.</p>
 <figure id="fig:neurons">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/artificial biological neuron.png"
-     class="tb-img-full" style="width: 60%"/>
+     class="tb-img-full" style="width: 80%"/>
     <p class="tb-caption">Comparison of biological and artificial neurons. - <span
 class="citation" data-cites="wikineuron wikiperceptron">[2],
 [3]</span></p>
@@ -209,7 +209,7 @@ network consists of 784 nodes, each corresponding to the grayscale value
 of a pixel in a given image.<p>
 </p>
 <figure id="fig:pixel-mapping">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full" style="width: 50%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full" style="width: 60%"/>
     <p class="tb-caption">Mapping from pixels of an example image to neurons in the
 input layer of a network - <span class="citation"
 data-cites="hula2018">[4]</span></p>
@@ -290,7 +290,7 @@ representations. Simply put, more layers capture more features at more
 levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hidden_nn.png" class="tb-img-full" style="width: 45%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hidden_nn.png" class="tb-img-full" style="width: 60%"/>
     <p class="tb-caption">A multi-layer neural network</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
@@ -557,7 +557,7 @@ to every other element by determining its relative importance and
 selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width=80%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width=60%"/>
 <p class="tb-caption">Example of relationships captured by two different attention
 heads - <span class="citation"
 data-cites="Vaswani2017">[9]</span></p>
