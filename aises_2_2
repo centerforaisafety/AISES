@@ -1044,7 +1044,7 @@ will also discuss deep learning, a set of techniques that can be applied
 in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:80%;/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:90%;/>
     <p class="tb-caption">Learning paradigms in machine learning</p>
 <!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" />-->
 <!--<figcaption>Learning paradigms in machine learning </figcaption>-->
