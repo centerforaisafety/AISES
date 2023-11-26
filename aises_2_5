@@ -194,7 +194,7 @@ into account that its actions can affect that context. The bandit
 problem is now a <em>full reinforcement learning problem</em>.<p>
 </p>
 <figure id="fig:multi-bandit">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/RL problem.jpeg" class="tb-img-full" style="width: 40%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/RL problem.jpeg" class="tb-img-full" style="width: 60%"/>
 <p class="tb-caption">Multi-armed bandit, contextual bandit, and full RL problems.
 - <span class="citation" data-cites="xie2020">[4]</span></p>
 <!--<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.-->
