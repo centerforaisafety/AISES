@@ -234,7 +234,7 @@ Dilemma</p>
 <!--<figcaption>The possible outcomes for Alice in the Prisoner’s-->
 <!--Dilemma</figcaption>-->
 </figure>
-<p><em>A) The four possible outcomes facing Alice, divided into “World
+<em>A) The four possible outcomes facing Alice, divided into “World
 1” and “World 2.” In both scenarios, Alice must choose whether to
 cooperate with her partner (Bob), or defect. In World 1, her partner
 chooses to cooperate; in World 2, her partner chooses to defect. The
@@ -242,7 +242,7 @@ jail time for each outcome is shown on the right. B) The four possible
 outcomes are shown in a decision tree. In World 1, Alice gets a shorter
 jail sentence by defecting, than by cooperating. The same is true in
 World 2, by an even greater amount. In both cases, choosing to defect
-gets Alice the better outcome.</em></p>
+gets Alice the better outcome.</em><//p>
 <p><strong>Defection is the dominant strategy.</strong> Alice does not
 know whether Bob will choose to cooperate or defect. She does not know
 whether she will find herself in World 1 or World 2; see Figure 2. She
