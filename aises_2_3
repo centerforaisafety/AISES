@@ -433,7 +433,7 @@ sigmoid function in the previous section.</p>
 <figure id="fig:sigmoid-function">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" class="tb-img-full" style="width: 60%"/>
     <p class="tb-caption">The Sigmoid activation function, <span
-class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a
+class="math inline">$$\sigma(x) = \frac{1}{1 + e^{-x}}$$</span>, has a
 characteristic S-shape.</p>
 
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" />-->
