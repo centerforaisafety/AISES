@@ -32,8 +32,8 @@ This is a power-law equation where <span
 class="math inline"><em>b</em> = <em>π</em></span> and <span
 class="math inline"><em>a</em> = 2</span>. The volume of a sphere has a
 power-law relationship with the sphere’s radius as well: <span
-class="math inline">$y = \frac{4}{3} \pi r^3$</span> (so <span
-class="math inline">$b=\frac{4}{3}\pi$</span> and <span
+class="math inline">$$y = \frac{4}{3} \pi r^3$$</span> (so <span
+class="math inline">$$b=\frac{4}{3}\pi$$</span> and <span
 class="math inline"><em>a</em> = 3</span>). <em>Scaling laws</em> are a
 particular kind of power law that describe how deep learning models
 scale. These laws relate a model’s loss with model properties (such as
