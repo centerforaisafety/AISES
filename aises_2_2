@@ -613,10 +613,10 @@ image as belonging to one of multiple different classes such as dog,
 cat, hat, or ice cream. <em>Computer vision</em> often applies these
 methods to enable computers to interpret and understand visual data from
 the world. Classification is categorization: it involves putting data
-points into buckets.</p>
+points into buckets.
 <figure id="fig:example-binary-class">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png"
-         class="tb-img-full" style="width: 70%; />
+         class="tb-img-full" style="width: 70%; "/>
     <p class="tb-caption">ML models can classify data into different categories. <span
 class="citation" data-cites="drouin2017class">[17]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png" />-->
@@ -637,7 +637,7 @@ models can provide similar probabilistic outputs without employing a
 sigmoid function.<p>
 </p>
 <figure id="fig:logistic-classification">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" class="tb-img-full" style="width: 70%; >
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" class="tb-img-full" style="width: 70%; ">
             <p class="tb-caption">Example of binary classification with a sigmoid-like
 logistic curve - <span class="citation"
 data-cites="wikipedia-logistic">[18]</span></p>
@@ -659,7 +659,7 @@ a continuous output variable based on one or more input variables.
 Regression is estimation: it involves guessing what a feature of a data
 point will be given the rest of its characteristics.</p>
 <figure id="fig:simple_regression">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" class="tb-img-full" style="width: 70%; />
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" class="tb-img-full" style="width: 70%; "/>
     <p class="tb-caption">Example regression plot - <span class="citation"
 data-cites="drouin2017class">[17]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" />-->
