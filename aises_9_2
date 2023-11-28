@@ -81,7 +81,7 @@ lifted, the multi-thousand-year trend of accelerating growth could
 continue again until we exhaust physical resources like energy and
 space.</p>
 <figure id="fig:homicide">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/growth_v2.png" class="tb-img-full" style="width: 20%"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/growth_v2.png" class="tb-img-full" style="width: 80%"/>
 <p class="tb-caption">Growth of economic output in two scenarios: growth slowdown,
 and AI-driven growth explosion</p>
 <!--<figcaption>Growth of economic output in two scenarios: growth slowdown,-->
@@ -246,6 +246,10 @@ takeoff speeds in the future. Understanding how takeoff might play out
 could greatly inform our approach to the regulation of AI. Next, we will
 consider matters of distribution of AI: of power, access, and costs and
 benefits.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Davidson-growth" class="csl-entry" role="listitem">

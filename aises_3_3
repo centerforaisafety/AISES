@@ -428,6 +428,10 @@ research areas are mechanistic interpretability and representation
 reading, the latter of which does not aim to make neural networks fully
 understood but aims to gain useful internal knowledge from a model’s
 representations.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-lipton2018interpretability" class="csl-entry"

@@ -58,7 +58,7 @@ the time.</strong> As we get close to 100% reliability, it gets
 inconvenient to use long decimals to express how reliable a system is.
 The third column in table <a href="#tab:nines-of-rel"
 data-reference-type="ref"
-data-reference="tab:nines-of-rel">[tab:nines-of-rel]</a> gives us
+data-reference="tab:nines-of-rel">Nines of Reliability</a> gives us
 information about a different metric: the nines of reliability <span
 class="citation" data-cites="Tao2021">[1]</span>. Informally, a system
 has nines of reliability equal to the number of nines at the beginning
@@ -132,6 +132,10 @@ information about the severity of an accident, and can therefore not be
 used alone to calculate risk. In the case of a risk of ruin, an
 additional nine of reliability means a tenfold increase in expected
 lifespan.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Tao2021" class="csl-entry" role="listitem">

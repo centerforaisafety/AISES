@@ -228,9 +228,7 @@ like gender and race from datasets to prevent sexism and racism, but
 fails miserably in practice because this data is embedded in correlates
 [as we explored in the Bias section in the Single Agent Safety chapter]. A focus on narrow
 measures can ignore other relevant considerations, and measures are
-often subject to proxy gaming (<a href="#sec:proxy-gaming"
-data-reference-type="ref"
-data-reference="sec:proxy-gaming">Proxy Gaming</a>). A more
+often subject to proxy gaming (See the Proxy Gaming section). A more
 in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
@@ -253,8 +251,7 @@ there are strong oversight mechanisms and independent audits, and
 establishing methods to redress any harm. Audits can promote an
 understanding of the data sources and decision-making processes of ML
 models. This transparency is helpful but insufficient, as we saw in the Single Agent Safety
-chapter <a href="#sec:opaqueness" data-reference-type="ref"
-data-reference="sec:opaqueness">opaqueness</a>. <em>Participatory
+chapter in the section on Opaqueness. <em>Participatory
 design</em> frameworks involve all of the impacted communities in the
 development of AI systems to surface unfairness early and ensure the
 product meets diverse human needs. Other frameworks focus on how

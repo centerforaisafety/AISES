@@ -184,8 +184,7 @@ helpful information. Especially when taken to their extreme and applied
 at a large scale, RL models with flawed training objectives can
 exacerbate polarization, echo chambers, and other harmful outcomes.
 Problems with the use of flawed training objectives are further
-discussed in <a href="#sec:proxy-gaming" data-reference-type="ref"
-data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a>.<p>
+discussed in the Proxy Gaming section.<p>
 In summary, biased training data, flawed objectives, and other technical
 aspects of ML models can introduce bias, illustrating how ML bias can
 perpetuate existing disparities. Carefully scrutinizing the technical
@@ -260,9 +259,7 @@ holistic solution will integrate many approaches.</p>
 <p><strong>Engineering strategies for reducing bias must be paired with
 non-technical strategies.</strong> Ultimately, technical debiasing alone
 is insufficient. Social processes are crucial as humans adapt to AI. We
-speak about this at length in <a href="#sec:sys-fact"
-data-reference-type="ref"
-data-reference="sec:sys-fact">[sec:sys-fact]</a>, but here we will only
+speak about this at length in the Systemic Factors section, but here we will only
 mention a few ideas. For instance, <em>early bias detection</em>
 involves creating checks to identify risks of bias before the AI system
 is deployed or even trained, so that models that have discriminatory
@@ -271,9 +268,7 @@ deployment</em> safely transitions AI systems into use while monitoring
 them for bias so that harms can be identified early and reversed.
 <em>Regulatory changes</em> can require effective mitigation strategies
 by law, mandating transparency and risk mitigation in safety-critical AI
-systems, as we discuss in <a href="#chap:governance"
-data-reference-type="ref"
-data-reference="chap:governance">[chap:governance]</a>.</p>
+systems, as we discuss in the Governance chapter.</p>
 <p><strong>Participatory design can mitigate bias in AI
 development.</strong> An important non-technical strategy for bias
 reduction is stakeholder engagement, or deeply engaging impacted groups
@@ -351,6 +346,10 @@ In summary, biases can arise at all stages of the AI lifecycle and
 compound in complicated ways. A multifaceted approach is necessary,
 combining development practices, technical strategies, and governance,
 to detect and reduce harmful biases in AI systems.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-amazon_bias" class="csl-entry" role="listitem">

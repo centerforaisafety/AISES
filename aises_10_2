@@ -311,6 +311,12 @@ we generally value a good less if we already have more of it.
 Logarithmic functions value goods in inverse proportion to how much of
 the resource we already have.<p>
 </p>
+
+<figure id="fig:logarithms">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logarithms.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.1: The properties of logarithmic functions</p>
+</figure>
+
 </div>
 <h2 id="st.-petersburg-paradox">A.2.3 St. Petersburg Paradox</h2>
 <p>An old man on the streets of St. Petersburg offers gamblers the
@@ -327,7 +333,7 @@ data-cites="peterson2019paradox">[2]</span>?<p>
 With probability <span class="math inline">$\frac{1}{2}$</span>, the
 first toss will land on tails, in which case the gambler wins two
 dollars. With probability <span
-class="math inline">$\frac{1}{4}$</span>, the first toss lands heads and
+class="math inline">$$\frac{1}{4}$$</span>, the first toss lands heads and
 the second lands tails, and the gambler wins four dollars.
 Extrapolating, this game offers a maximum possible payout of: <span
 class="math display">$$\$ 2^{n} = \$ \overbrace{2 \cdot 2 \cdot 2\cdots
@@ -348,6 +354,13 @@ inconsistent with its expected value, we would think it highly
 irresponsible! The paradox reveals a disparity between expected value
 calculations and reasonable human behavior.<p>
 </p>
+
+
+<figure id="fig:stpetersburg">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/stpetersburg.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.2: St. Petersburg Paradox</p>
+</figure>
+
 <p><strong>Logarithmic utility functions can represent decreasing
 marginal utility.</strong> A number of ways have been proposed to
 resolve the St. Petersburg paradox. We will focus on the most popular:
@@ -391,6 +404,12 @@ resolving such paradoxes), they do not perfectly describe human behavior
 across choices, such as the tendency to buy lottery tickets, which we
 will explore in the next chapter.<p>
 </p>
+
+<figure id="fig:flip">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/stpetersburg_ev_eu.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.3: St. Petersburg Paradox: expected utility and expected value</p>
+</figure>
+
 <p><strong>Summary.</strong> In this section, we examined the properties
 of Bernoulli utility functions, which allow us to compare an agent’s
 preferences across different outcomes. We then introduced von
@@ -403,6 +422,10 @@ reasonable behavior. Having understood some properties of utility
 functions, we can now examine the problem of incorrigibility, where AI
 systems do not accept corrective interventions because of rigid
 preferences.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-vonneumann1947theory" class="csl-entry" role="listitem">

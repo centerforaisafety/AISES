@@ -58,6 +58,7 @@ Unknowns</h2>
 class="citation" data-cites="taleb2007blackswan">[1]</span>.</strong> We
 can sort events into four categories, as shown in the table below.<p>
 </p>
+<br>
 <table class="tableLayout">
 <thead>
 <tr class="header">
@@ -77,7 +78,8 @@ know.</td>
 </tr>
 </tbody>
 </table>
-<p><p>
+<br>
+<p>
 In these category titles, the first word refers to our awareness, and
 the second refers to our understanding. We can now consider these four
 types of events in the context of a student preparing for an exam.</p>
@@ -666,6 +668,10 @@ creating and the externalities they are imposing on the rest of society,
 creating a moral hazard. Encouraging more consideration of the possible
 risks, perhaps by making researchers liable for any consequences of the
 technologies they develop, could therefore improve general safety.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-taleb2007blackswan" class="csl-entry" role="listitem">

@@ -152,9 +152,7 @@ failures.</strong> A group of AIs interacting with one another would
 form a complex system, and could therefore exhibit collective emergent
 properties that could not be predicted from understanding the behavior
 of just one. A group of AIs might therefore increase the risk of black
-swan events (Section <a href="#sec:black-swans"
-data-reference-type="ref"
-data-reference="sec:black-swans">Black Swans</a>). Additionally,
+swan events (See the section on Black Swans). Additionally,
 interactions between AIs could form feedback loops, increasing the
 potential for rapid downward spirals that are difficult to intervene and
 stop. A group of powerful AIs in control of multiple military processes
@@ -376,9 +374,7 @@ of black swans.</strong> Although numerous risks associated with AIs
 have been identified, there may be more that we are unaware of. AIs
 themselves might even discover more technologies or ways of causing harm
 than humans have imagined. If this possibility were to result in a black
-swan event (see Section <a href="#sec:black-swans"
-data-reference-type="ref"
-data-reference="sec:black-swans">[sec:black-swans]</a> for a deeper
+swan event (see the section on Black Swans for a deeper
 discussion of black swans), it would likely favor offense over defense,
 at least to begin with, as decision makers would not immediately
 understand what was happening or how to counteract it.</p>
@@ -687,6 +683,10 @@ other societal-scale risks. Governance can mitigate these risks by
 holding companies accountable for the risks they take, redistributing
 wealth from AIs, including the public in the ownership of AIs, or
 imposing proactive regulations to prevent catastrophes.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-bostrom2006singleton" class="csl-entry" role="listitem">
