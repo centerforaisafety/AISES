@@ -68,8 +68,7 @@ involved in the situation but globally.</p>
 <h3 id="expected-utility">Expected Utility</h3>
 <p><strong>Utilitarianism enables us to use empirical, quantitative
 evidence when deciding moral questions.</strong> As we discussed in
-Section <a href="#sec:wellbeing" data-reference-type="ref"
-data-reference="sec:wellbeing">wellbeing</a>, there is no
+the Wellbeing section, there is no
 consensus about what, precisely, wellbeing is. However, if we discover
 that wellbeing is something measurable, like happiness, moral
 decision-making could take advantage of calculation and would rely less
@@ -96,6 +95,7 @@ occur.<p>
 A simplified, informal, back-of-the-envelope version of this utilitarian
 calculation is below:<p>
 </p>
+<br>
 <table class="tableLayout">
 <thead>
 <tr class="header">
@@ -128,6 +128,7 @@ is fatally injured.</td>
 </tr>
 </tbody>
 </table>
+<br>
 <p>We are interested in the <em>expected utility</em> of each action—the
 amount of wellbeing that each action is likely to result in. To
 calculate the expected utility, we multiply the utility of each possible
@@ -226,8 +227,7 @@ wrong regardless of their consequences.</p>
 <p>Utilitarians believe that the only type of consequences that make an
 action right or wrong are those that affect happiness or wellbeing. In
 that sense, utilitarianism can be understood as a combination of
-consequentialism and hedonism, as we discussed it in section <a href="#sec:wellbeing" data-reference-type="ref"
-data-reference="sec:wellbeing">wellbeing</a>. Recall
+consequentialism and hedonism, as we discussed it in the Wellbeing section. Recall
 that there are several different accounts of wellbeing, all of which are
 compatible with utilitarianism.</p>
 <p><strong>Classical utilitarianism.</strong> Most utilitarians are
@@ -1249,6 +1249,10 @@ are drafting laws that are intended to apply to everyone in a country.
 Virtue ethics may be especially useful in day-to-day situations.<p>
 When moral theories conflict, it is important that we accommodate some
 uncertainty. There may be something we can learn from all of them.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-mill2004utilitarianism" class="csl-entry" role="listitem">

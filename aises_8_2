@@ -3,7 +3,8 @@
         margin: auto;
         border: 1px solid;
         border-collapse: collapse;
-        border-spacing: 1px
+        border-spacing: 1px;
+        caption-side: bottom;
     }
 
     table.prisonTable tr{
@@ -227,8 +228,7 @@ partner will decide to do.<p>
 </p>
 <figure id="fig:pris-dillema">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/world-one-and-two.png" alt="image"
-        class="tb-img-full" style="width: 80%"/>
-    <span id="fig:pris-dillema" label="fig:pris-dillema"></span></p>
+        class="tb-img-full" style="width: 80%"/></p>
 <p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
 Dilemma</p>
 <!--<figcaption>The possible outcomes for Alice in the Prisoner’s-->
@@ -242,7 +242,8 @@ jail time for each outcome is shown on the right. B) The four possible
 outcomes are shown in a decision tree. In World 1, Alice gets a shorter
 jail sentence by defecting, than by cooperating. The same is true in
 World 2, by an even greater amount. In both cases, choosing to defect
-gets Alice the better outcome.</em><//p>
+gets Alice the better outcome.</em></p>
+<br> <br>
 <p><strong>Defection is the dominant strategy.</strong> Alice does not
 know whether Bob will choose to cooperate or defect. She does not know
 whether she will find herself in World 1 or World 2; see Figure 2. She
@@ -318,6 +319,7 @@ represents a worse payoff. The color-coding matches the payoff to the
 agent. For example, if Alice cooperates, and Bob defects, the outcome
 secured is shown in the top right cell (-8, 0): this means Alice gets 8
 years in jail, and Bob gets no jail time.</em></p>
+<br> <br>
 <h3 id="nash-equilibria-and-pareto-efficiency">Nash Equilibria and
 Pareto Efficiency</h3>
 <p>The stable equilibrium state in the Prisoner’s Dilemma is for both
@@ -380,6 +382,7 @@ would do better if both chose instead to cooperate, securing the outcome
 in which both get the “-1” payoff. Both switching to cooperation would
 produce a Pareto improvement.</em><p>
 </p>
+<br> <br>
 <figure id="fig:pareto-efficiency">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 80%"/>
@@ -396,6 +399,7 @@ Alice; movement up represents a better payoff for Bob. A Pareto
 improvement must therefore be a movement both right and up. There is
 only one such move possible, shown as a green arrow: from “-3,-3” (both
 defect) to “-1,-1” (both cooperate).</em></p>
+<br> <br>
 <h3 id="real-world-examples-of-the-prisoners-dilemma">Real-World
 Examples of the Prisoner’s Dilemma</h3>
 <p>The Prisoner’s Dilemma has many simplifying assumptions.
@@ -483,6 +487,9 @@ src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
 Dilemma-like scenarios. As highlighted, this section explores only two:
 changes to the payoff matrix and increased agent altruism.</em></p>
+
+<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
+
 <p><strong>External consideration: changing the payoffs to incentivize
 cooperation.</strong> By adjusting the values in the payoff matrix, we
 may more easily steer agents away from undesirable equilibria. As shown
@@ -499,7 +506,6 @@ behavior.<p>
 </p>
 <div id="tab:abstract">
 <table class="prisonTable">
-<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -522,8 +528,10 @@ defects</td>
 <td style="text-align: center;">d, d</td>
 </tr>
 </tbody>
+<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
 </table>
 </div>
+<br>
 <p><em>Shown is the payoff matrix for the Prisoner’s Dilemma, in the
 abstract. Notice that if <span
 class="math inline"><em>c</em> &gt; <em>a</em></span> and <span
@@ -546,26 +554,21 @@ data-reference="fig:snitches">5</a>. The Pareto efficient outcome
 player cooperates is worse than mutually cooperating (<span
 class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </p>
-<div class="clearfix">
-    <div class="img-container">
-        <figure id="fig:snitches">
-        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-payoff-with-graphs.png" class="tb-img-half" style="width: 100%"/>
-        </figure>
-    </div>
-    <div class="img-container">
-        <figure>
-        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="width: 100%"/>
+<figure id="fig:snitches">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-payoff-with-graphs.png" class="tb-img-half" style="width: 100%"/>
+</figure>
+<figure>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="width: 100%"/>
 
-        <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
-        <!--</figcaption>-->
-        </figure>
-    </div>
-</div>
+<!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
+<!--</figcaption>-->
+</figure>
 <p><em>A) The Prisoner’s Dilemma payoff matrix, with the single Nash
 equilibrium highlighted. B) If we add a punishment of three years jail
 time for being a “snitch,” the outcome (-1,-1) becomes a second Nash
 Equilibrium. Note that this is known as the “Stag Hunt” in game
 theory.</em><p>
+<br><br>
 Internal consideration: making agents more altruistic to promote
 cooperation. A second potential mechanism to foster cooperation is to
 make agents more altruistic. If each agent also values the outcome for
@@ -583,8 +586,7 @@ in a less purely self-interested fashion. Rather than caring solely
 about maximizing their shareholder’s financial interests, AI companies
 might cooperate more with each other to steer away from Pareto
 inefficient outcomes, and avoid corporate AI races. We explore this in
-more detail in <em><a href="#sec:AI-races" data-reference-type="ref"
-data-reference="sec:AI-races">1.4.3</a> “Tail risk: AI races”</em>
+more detail in section 1.4.3 “Tail risk: AI races”</em>
 below.</p>
 <h3 id="summary">Summary</h3>
 <p><strong>Cooperation is not always rational, so intelligence alone may
@@ -679,6 +681,7 @@ payoffs</p>
 squares show defection; green squares show cooperation. The number in
 the square shows that agent’s payoff. Both agents end up with better
 total payoffs (less jail time) when they cooperate more.</em></p>
+<br><br>
 <p><strong>Defection is still the dominant strategy if agents know how
 many times they will interact.</strong> If the agents know when they are
 about to play the Prisoner’s Dilemma with each other for the final time,
@@ -793,6 +796,7 @@ occasionally cooperate in response to your partner’s defection</td>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>The strategy “<em>Tit-for-tat</em>” frequently won Axelrod’s
 tournaments <span class="citation"
 data-cites="axelrod1980effective">[3]</span>.</strong> The most famous
@@ -1262,6 +1266,7 @@ the collective good begins to diminish, lowering the payoffs for
 contributors and free riders alike. D) Almost everyone free rides. All
 have lower payoffs than if they were all to contribute
 instead.</em><p>
+<br><br>
 We can illustrate a collective action problem using the simple payoff
 matrix below. In the matrix, “b” represents the payoff an agent receives
 when everyone else cooperates (the collective good divided between the
@@ -1298,6 +1303,7 @@ ride</strong></th>
 </tr>
 </tbody>
 </table>
+<br>
 <p><strong>Agents’ incentives depend on the behavior of other
 agents.</strong> Agents in collective action problems can be aware of
 the choices other agents make, which can affect their strategies and
@@ -1735,7 +1741,7 @@ ability.<p>
 <tr class="odd">
 <td style="text-align: center;">Hawk <strong>(self)</strong></td>
 <td style="text-align: center;"><span
-class="math inline">$\frac{1}{2}(b-c)$</span></td>
+class="math inline">$$\frac{1}{2}(b-c)$$</span></td>
 <td style="text-align: center;"><span
 class="math inline"><em>b</em></span></td>
 </tr>
@@ -1743,16 +1749,17 @@ class="math inline"><em>b</em></span></td>
 <td style="text-align: center;">Dove <strong>(self)</strong></td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;"><span
-class="math inline">$\frac{1}{2}b$</span></td>
+class="math inline">$$\frac{1}{2}b$$</span></td>
 </tr>
 </tbody>
 </table>
 </div>
+<br>
 <p><span id="tab:hawk-dove" label="tab:hawk-dove"></span></p>
 <p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
 strategy.</strong> If all agents were Hawks, everyone would fight each
 other for the resource and only stop when hurt. Their average gain would
-be <span class="math inline">$\frac{1}{2}(b-c)$</span>. But since the
+be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
 price of fighting is more than the resource’s value <span
 class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
 be negative. If one agent switched to being a <em>Dove</em>, they would
@@ -1761,7 +1768,7 @@ average payoff would be <span class="math inline">0</span>, which is
 better than the payoffs the <em>Hawks</em> would be getting. Also, this
 gain would increase as more agents choose Dove, as their average payoff
 when meeting <em>Doves</em> would be <span
-class="math inline">$\frac{1}{2}b$</span>. Therefore, <em>Doves</em>
+class="math inline">$$\frac{1}{2}b$$</span>. Therefore, <em>Doves</em>
 could <em>invade</em> a <em>Hawk</em>-only group.<p>
 Similarly, if all agents were <em>Doves</em>, an agent who switched to
 <em>Hawk</em> would gain more without paying a price for fighting, as
@@ -1840,6 +1847,7 @@ bestows the highest fitness, as predators are least used to spotting
 snails of that color. Thus, more snails use this color in the following
 generation. In this way, the population cycles through different color
 compositions.</em><p>
+<br><br>
 Frequency-dependent selection in game theory. We have encountered
 frequency-dependent selection already in this section. In Section <a
 href="#sec:formalization" data-reference-type="ref"
@@ -1921,7 +1929,7 @@ point of view of the extortionist. “You” are the agent using the
 probabilistically to the most recent interaction had with a partner. As
 an example, in the previous round, if the extortionist defected, but
 their partner cooperated, the extortionist will cooperate with a
-probability of <span class="math inline">$\frac{1}{3}$</span> in this
+probability of <span class="math inline">$$\frac{1}{3}$$</span> in this
 round.</p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
 out altogether.</strong> As we saw in Section <a href="#sec:tournaments"
@@ -2176,6 +2184,10 @@ that AI agents may engage in extortion in order to pursue their goals.
 This could involve optimized disvalue at extreme scales. We discussed
 one such possibility: the torture of digital minds.<p>
 </p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-kuhn2019prisoner" class="csl-entry" role="listitem">

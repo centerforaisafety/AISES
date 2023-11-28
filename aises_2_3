@@ -557,9 +557,8 @@ to every other element by determining its relative importance and
 selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width=60%"/>
-<p class="tb-caption">Example of relationships captured by two different attention
-heads - <span class="citation"
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Example of relationships captured by two different attention heads - <span class="citation"
 data-cites="Vaswani2017">[9]</span></p>
 <!--<figcaption>Example of relationships captured by two different attention-->
 <!--heads - <span class="citation"-->
@@ -582,7 +581,7 @@ blocks.<p>
 </p>
 <div class="wrapfigure">
 <p><img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" style="width:40%"
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" style="width:40%" class="tb-img-full"
 alt="image" /></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
@@ -630,10 +629,8 @@ to learning and training deep learning models and consider how model
 evaluation can help us understand a model’s potential for real-world
 applications.<p>
 <strong>Training is learning and inference is executing.</strong> As we
-saw previously in section <a href="#sec:AI-and-ML"
-data-reference-type="ref"
-data-reference="sec:AI-and-ML">Artificial Intelligence &amp; Machine
-Learning</a>, <em>training</em> is
+saw previously in section Artificial Intelligence &amp; Machine
+Learning, <em>training</em> is
 the process through which the model learns from data. During training, a
 model is fed data and makes iterative parameter adjustments to predict
 target outcomes better. <em>Inference</em> is the process of using a
@@ -950,9 +947,8 @@ relevant information for longer.</p>
 <p><strong>AlexNet achieves unprecedented performance in image
 recognition <span class="citation"
 data-cites="krizhevsky2012advances">[14]</span>.</strong> As we saw in
-section <a href="#sec:AI-and-ML" data-reference-type="ref"
-data-reference="sec:AI-and-ML">Artificial Intelligence &amp; Machine
-Learning</a>, the <strong>ImageNet
+section Artificial Intelligence &amp; Machine
+Learning, the <strong>ImageNet
 Challenge</strong> was a large-scale image recognition competition that
 spurred the development and adoption of deep learning methods for
 computer vision. The challenge involved classifying images into 1,000
@@ -1058,6 +1054,11 @@ In the next section, we will discuss scaling laws: a set of principles
 which can quantitatively predict the effects of more data, larger
 models, and more computing power on the performance of deep learning
 models. These laws shape how deep learning models are constructed.</p>
+
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-LeCun2015" class="csl-entry" role="listitem">

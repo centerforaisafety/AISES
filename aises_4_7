@@ -517,6 +517,10 @@ mean.</p>
 <p><strong>Under long tails, it is much harder to predict even the rough
 value that a single instance will take.</strong> Since data points can
 vary much more widely, our best guesses can be much further off.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-hu2023chatgpt" class="csl-entry" role="listitem">

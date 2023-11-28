@@ -477,6 +477,7 @@ actions (North, South, East, West) and 25 states (unique grid cells).
 Therefore, the Q-function table would have 100 Q-values, one for every
 state-action pair:<p>
 </p>
+<br>
 <div id="tab:q-val-table">
 <table class="tableLayout">
 <caption>Example Q-value table for Gridworld.</caption>
@@ -528,6 +529,7 @@ state-action pair:<p>
 </tbody>
 </table>
 </div>
+<br>
 <p>In the beginning, all the Q-value estimates are zero because the
 agent has no information about the environment and will take random
 actions. Eventually, the agent reaches a positive or negative reward
@@ -712,6 +714,10 @@ that are too complex to allow exact computation. Second, self-play
 expands the ability of RL systems in competitive tasks by repeatedly
 pitting the system against itself. Finally, RL systems can overcome the
 problem of sparse rewards through preferences for novelty.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Sutton2018" class="csl-entry" role="listitem">

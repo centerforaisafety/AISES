@@ -77,6 +77,12 @@ data-reference="fig:attitudes-to-risk">attitudes to risk]</a>).</p></li>
 </ol>
 <p>We can define each risk attitude in three equivalent ways. Each draws
 on a different aspect of how we represent an agent’s preferences.</p>
+
+<figure id="fig:risk-att">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/utilityfunctionsrisk.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.4: Utility functions capturing different attitudes to risk</p>
+</figure>
+
 <p><strong>Risk attitudes are fully explained by how an agent values
 uncertain outcomes.</strong> According to expected utility theory, an
 agent’s risk preferences can be understood from the shape of their
@@ -236,9 +242,9 @@ equivalently the risk-averse population, is favored by natural selection
 <p><strong>Avoid risk of ruin.</strong> Risk aversion’s key benefit is
 that it avoids risk of ruin. Consider a repeated game of equal
 probability “triple-or-nothing” bets. That is, players are offered a
-<span class="math inline">$\frac{1}{2}$</span> probability of tripling
+<span class="math inline">$$\frac{1}{2}$$</span> probability of tripling
 their initial wealth <span class="math inline"><em>w</em></span>, and a
-<span class="math inline">$\frac{1}{2}$</span> probability of losing it
+<span class="math inline">$$\frac{1}{2}$$</span> probability of losing it
 all. A risk-neutral player can calculate the expected value of a single
 round as:<p>
 <span class="math display">$$\frac{1}{2} \cdot 0+\frac{1}{2} \cdot 3w =
@@ -268,10 +274,9 @@ risk averse when dealing with high probabilities of losing all our
 money. Acting risk neutral and relying on expected value would be a poor
 decision-making strategy.<p>
 </p>
-<figure>
-<img src="" class="tb-img-full">
-<p class="tb-caption">Risk-neutral betting leads to ruin</p>
-<!--PNG FOR RISK AVERSE BETTING SHOULD BE ADDED HERE!!-->
+<figure id="fig:risk-neutral-betting">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/riskaversebetting.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.5: Risk-neutral betting leads to ruin</p>
 </figure>
 <p><strong>Maximizing logarithmic utility is a better decision
 procedure.</strong> Agents might want to act as if maximizing the
@@ -383,7 +388,7 @@ want to be risk seeking.</p>
 behavior can be justified.</strong> Consider a multi-player game where a
 thousand participants compete for a single grand prize, which is given
 to the player who accumulates the most points. An average player expects
-to only win <span class="math inline">$\frac{1}{1000}^{th}$</span>of the
+to only win <span class="math inline">$$\frac{1}{1000}^{th}$$</span>of the
 time. Even skilled players would reason that due to random chance, they
 are unlikely to be the winner. Therefore, participants may seek risks,
 in order to increase the <em>variance</em> of their point totals, while
@@ -444,8 +449,9 @@ risk averse. This model may give us an idea of how AI developers will
 behave, depending on the scale of the organization and the maturity of
 the technology.<p>
 </p>
-<figure>
-
+<figure id="fig:company-life">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/companylifecycle.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.6: Company lifecycles and risk</p>
 </figure>
 <p><strong>A startup is by nature a risk-seeking venture.</strong> An
 entrepreneur has typically sacrificed a stable income, savings, and much
@@ -509,6 +515,10 @@ influenced by the context, and even the wording, in which choices are
 presented. These models are helpful for better understanding people,
 like those leading AI development or countries or those using AIs, who
 will behave in irrational ways.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-dixitslides" class="csl-entry" role="listitem">

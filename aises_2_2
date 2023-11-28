@@ -687,17 +687,13 @@ failures. Early detection of anomalies can substantially improve the
 performance of models in real-world situations.</p>
 <figure>
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter.png"
-         class="tb-img-half"/>
+         class="tb-img-half" style="width: 75%"/>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"-->
 <!--style="width:50.0%" />-->
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time.png"
-         class="tb-img-half"/>
+         class="tb-img-half" style="width: 75%"/>
     <p class="tb-caption">Two examples of anomaly detection -<span class="citation"
 data-cites="hendrycks-anomaly">[20]</span></p>
-<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time_v2.png"-->
-<!--style="width:50.0%" />-->
-<!--<figcaption>Two examples of anomaly detection -<span class="citation"-->
-<!--data-cites="hendrycks-anomaly">[20]</span></figcaption>-->
 </figure>
 <p><strong>Black swan detection is an essential problem within anomaly
 detection.</strong> Black swans are unpredictable and rare events with a
@@ -705,11 +701,7 @@ significant impact on the broader world. These events are difficult to
 predict because they may not have happened before, so they are not
 represented in the training data that ML models use to extrapolate the
 future. Due to their extreme and uncommon nature, such events make
-anomaly detection challenging. In section <a href="#sec:black-swans"
-data-reference-type="ref"
-data-reference="sec:black-swans">black-swans</a> in the <a href="#chap:safety-engineering"
-data-reference-type="ref"
-data-reference="chap:safety-engineering">Safety Engineering</a> chapter, we discuss these ideas in more detail.</p>
+anomaly detection challenging. In the Black Swans section in the Safety Engineering chapter, we discuss these ideas in more detail.</p>
 <p><strong><em>Sequence Modeling</em></strong></p>
 <p><strong>Sequence modeling is analyzing and predicting patterns in
 sequential data.</strong> Sequence modeling is a broadly defined task
@@ -889,7 +881,7 @@ of positive.</p></li>
 </ol>
 <figure id="fig:confusion-matrix">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/predicted-actual-green-purple.png"
-     class="tb-img-full" width="15%" />
+     class="tb-img-full" style="width: 80%" />
     <p class="tb-caption">Confusion matrix</p>
 <!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
@@ -922,7 +914,7 @@ respectively.<p>
 <em>Precision measures the correctness of a model’s positive
 predictions.</em> This metric represents the fraction of positive
 predictions that are actually correct. It is calculated as <span
-class="math inline">$\frac{\text{TP}}{\text{TP} + \text{FP}}$</span>,
+class="math inline">$$\frac{\text{TP}}{\text{TP} + \text{FP}}$$</span>,
 dividing true positives (hits) by the sum of true positives and false
 positives. High precision implies that when a model predicts a positive
 class, it is usually correct—but it might incorrectly classify many
@@ -932,7 +924,7 @@ the system says it hit, how often is it right?<p>
 measures how good a model is at finding all of the positive examples
 available. It is like the model’s net: how many real positives does it
 catch? It is calculated as <span
-class="math inline">$\frac{\text{TP}}{\text{TP}+\text{FN}}$</span>,
+class="math inline">$$\frac{\text{TP}}{\text{TP}+\text{FN}}$$</span>,
 signifying the fraction of real positives that the model successfully
 detected. High recall means a model is good at recognizing or
 “recalling” positive instances, but not necessarily that these
@@ -972,7 +964,7 @@ interpret the AUROC as the probability that a positive example scores
 higher than a negative example.<p>
 </p>
 <figure id="fig:AUROC">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" class="tb-img-full" style="width: 60%; />
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" class="tb-img-full" style="width: 60%;" />
     <p class="tb-caption">The AUROC score increases as it moves in the northwest
 direction. <span class="citation"
 data-cites="wikipedia-roccurve">[22]</span></p>
@@ -1044,7 +1036,7 @@ will also discuss deep learning, a set of techniques that can be applied
 in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
-    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:100%;/>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:95%;"/>
     <p class="tb-caption">Learning paradigms in machine learning</p>
 <!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" />-->
 <!--<figcaption>Learning paradigms in machine learning </figcaption>-->
@@ -1141,9 +1133,7 @@ as goals to be achieved by an agent maximizing rewards from its
 environment. RL is distinctive since it does not require pre-collected
 data, as the agent can begin with no information and interact with its
 environment to learn new things and acquire new data. This approach will
-be discussed in more depth later in the Section <a href="#sec:reinf-learning"
-data-reference-type="ref"
-data-reference="sec:reinf-learning">Reinforcement Learning</a>.</p>
+be discussed in more depth later in the Reinforcement Learning Section.</p>
 <p><strong>Examples of RL.</strong> RL can help robots learn to navigate
 an unknown environment by taking actions and receiving feedback in the
 form of rewards or penalties based on performance. Through trial and
@@ -1192,6 +1182,10 @@ and solve real-world problems. Deep learning is a powerful and popular
 method that uses many-layered neural networks to identify intricate
 patterns in large datasets. The following section will delve deeper into
 deep learning and its applications in artificial intelligence.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Russell2020" class="csl-entry" role="listitem">

@@ -119,6 +119,7 @@ approves of lying in this situation. This information is represented in
 Table <a href="#tab:lying" data-reference-type="ref"
 data-reference="tab:lying">1</a>.<p>
 </p>
+<br>
 <div id="tab:lying">
 <table class="tableLayout">
 <caption>Lying to save a life.</caption>
@@ -343,6 +344,10 @@ It is important to recognize that there might not be a one-size-fits-all
 solution to ethical dilemmas. As AI technology progresses, we should
 establish methods for addressing moral uncertainty, such as including
 diverse moral perspectives and quantifying uncertainty.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-macaskill2020moral" class="csl-entry" role="listitem">

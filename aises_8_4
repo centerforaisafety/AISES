@@ -3,7 +3,15 @@
         margin: auto;
         border: 1px solid;
         border-collapse: collapse;
-        border-spacing: 1px
+        border-spacing: 1px;
+        caption-side: bottom;
+    }
+
+
+
+    table.tableLayout > caption.title{
+        white-space: unset;
+        max-width: unset;
     }
 
     table.tableLayout tr{
@@ -411,8 +419,10 @@ battleships at the naval base at Pearl Harbor. The attack was successful
 in securing a first-strike advantage for Japan, but it also ensured the
 US’s entry into WWII.<p>
 </p>
+<br>
 <table class="tableLayout">
-<caption style="min-width: 200%;">A pay-off matrix for competitors choosing whether to defend or
+<caption style="overflow: hidden; white-space: nowrap;">A pay-off matrix for competitors choosing <br>
+    whether to defend or
 preemptively attack (first strike)</caption>
 <thead>
 <tr class="header">
@@ -434,6 +444,7 @@ preemptively attack (first strike)</caption>
 </tr>
 </tbody>
 </table>
+<br>
 <p><strong>Effect on the bargaining range.</strong> When the advantages
 of striking first outweigh the costs of conflict, it can shrink or
 destroy the bargaining range entirely. For any two parties to reach a
@@ -743,9 +754,7 @@ favored by natural selection over highly content and comfortable
 individuals. In many circumstances, natural selection could disfavor
 individuals who stop caring about acquiring more resources and expanding
 their influence; natural selection favors selfish behavior (for more
-detail, see <em>section <a href="#subsec:selection-and-selfish"
-data-reference-type="ref"
-data-reference="subsec:selection-and-selfish">[subsec:selection-and-selfish]</a></em>
+detail, see the section "Levels of Selection and Selfish Behaviour"
 of <em>Evolutionary Pressures</em>). Even under conditions of abundance,
 individuals may still compete for resources and influence because they
 perceive the situation as a zero-sum game, where resources and power
@@ -1830,6 +1839,10 @@ discuss the nature of conflict, namely the various factors that may give
 rise to it. In doing so, we enhance our understanding of what might
 motivate conflict in AI, and subsequently, our abilities to predict and
 address AI-driven conflict scenarios.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-fearon1995rationalist" class="csl-entry" role="listitem">

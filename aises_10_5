@@ -3,7 +3,8 @@
         margin: auto;
         border: 1px solid;
         border-collapse: collapse;
-        border-spacing: 1px
+        border-spacing: 1px;
+        caption-side: bottom;
     }
 
     table.tableLayout tr{
@@ -94,6 +95,7 @@ between utility theory and human behavior, presents two scenarios where
 players must make a choice between two gambles <span class="citation"
 data-cites="allais1953comportement">[2]</span>.<p>
 </p>
+<br>
 <table class="tableLayout">
 <caption>Allais Paradox: Scenario A</caption>
 <thead>
@@ -112,7 +114,8 @@ million % chance of $0</td>
 </tr>
 </tbody>
 </table>
-
+<br>
+<br>
 <table class="tableLayout">
 <caption>Allais Paradox: Scenario B</caption>
 <thead>
@@ -132,6 +135,7 @@ $0</td>
 </tr>
 </tbody>
 </table>
+<br> <br>
 <p>In reality, most players favor Gamble 1 in Scenario A, due to the
 certainty of a large payout of $1 million. Simultaneously, they favor
 Gamble 2 in Scenario B, since the larger potential payout of $5 million
@@ -156,6 +160,7 @@ class="math inline">$</span>1 million has simply been divided into an
 class="math inline">%</span> chance of winning the same <span
 class="math inline">$</span>1 million.<p>
 </p>
+<br>
 <table class="tableLayout">
 <caption>Allais Paradox: Scenario A reduced</caption>
 <thead>
@@ -181,6 +186,7 @@ $0</td>
 </tr>
 </tbody>
 </table>
+<br> <br>
 <p>Similarly, there is a common lottery between Gamble 1 and Gamble 2 in
 Scenario B. We can ignore an 89<span class="math inline">%</span> chance
 of winning <span class="math inline">$</span>0 from both choices and we
@@ -213,6 +219,7 @@ $0</td>
 </tr>
 </tbody>
 </table>
+<br><br>
 <p>Scenario A Reduced and Scenario B Reduced are exactly the same!
 Therefore, a rational agent should be consistent and select the same
 gamble in either simplified game. Since the simplified scenarios are
@@ -295,6 +302,7 @@ Participants playing the role of health officials must choose between
 two policy options in two different scenarios. These options are
 presented in the table below.<p>
 </p>
+<br>
 <table class="tableLayout">
 <caption>Framing effects: Scenario A</caption>
 <thead>
@@ -313,6 +321,7 @@ saves no one.</td>
 </tr>
 </tbody>
 </table>
+<br> <br>
 <table class="tableLayout">
 <caption>Framing effects: Scenario B</caption>
 <thead>
@@ -331,6 +340,7 @@ saves no one.</td>
 </tr>
 </tbody>
 </table>
+<br>
 <p><strong>Framing effects violate von Neumann-Morgenstern
 rationality.</strong> Participants tend to choose Policy A1 in Scenario
 A, because of the certainty of saving lives. Participants also tend to
@@ -339,6 +349,7 @@ more death and not condemning people to certain death. However, the only
 difference between Scenario A and B is the manner of presentation, or
 framing. Scenario A is presented in terms of lives saved, and Scenario B
 in terms of deaths caused. The equivalence is shown in this table.</p>
+<br>
 <table class="tableLayout">
 <caption>Framing effects: Scenarios A and B compared</caption>
 <thead>
@@ -365,6 +376,7 @@ saves 200 people for sure)</td>
 </tr>
 </tbody>
 </table>
+<br> <br>
 <p>Together, the choice of Policy A1 in Scenario A and Policy B2 in
 Scenario B violate a requirement of von Neumann-Morgenstern rationality:
 that an agent be indifferent between two lotteries with the same
@@ -395,6 +407,12 @@ how people value different outcomes, and a <em>weighting function</em>,
 how people weigh the probabilities of each outcome. Next, we will
 explore how these two functions help to explain how people make
 decisions in uncertain situations.</p>
+
+<figure id="fig:company-life">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/prospecttheory.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.7: Prospect Theory’s value function</p>
+</figure>
+
 <p><strong>Prospect theory’s value function approximates how humans
 think about wealth.</strong> A value function assigns value to an
 outcome, much like a Bernoulli utility function assigns utility to an
@@ -429,6 +447,13 @@ illustrates how people tend to persistently overestimate relatively
 small probabilities while persistently underestimating relatively large
 probabilities.<p>
 </p>
+
+<figure id="fig:human-value">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/humanvalue.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure B.8: Human perceptions of probabilities</p>
+</figure>
+
+
 <h2 id="models-of-decision-making">A.5.4 Models of Decision Making</h2>
 <p><strong>Generalized decision-making models.</strong> We can put the
 above together to describe many different types of decision-making
@@ -484,6 +509,10 @@ In this chapter, and in the Single Agent Safety chapter, we present reasons that
 expected-utility maximizers can be dangerous. Non-expected utility
 theories provide some concepts to consider when designing agents that
 are not expected-utility maximizers.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-taylor2016quantilizers" class="csl-entry" role="listitem">
