@@ -313,6 +313,7 @@ the two suspects’ decisions as the payoff to each suspect.<p>
 </tbody>
 </table>
 </div>
+<br>
 <p><em>Each cell of the matrix quantifies the decision outcome in terms
 of the payoff to each: the numbers are negatives, because more jail time
 represents a worse payoff. The color-coding matches the payoff to the
@@ -481,15 +482,13 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
-<!--<figcaption>Five reasons agents might cooperate - <span class="citation"-->
-<!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
+
+<p class="tb-caption">Five reasons agents might cooperate - <span class="citation"> data-cites="parfit1984reasons">[2]</span></p>
 </figure>
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
 Dilemma-like scenarios. As highlighted, this section explores only two:
 changes to the payoff matrix and increased agent altruism.</em></p>
-
-<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
-
+<br>
 <p><strong>External consideration: changing the payoffs to incentivize
 cooperation.</strong> By adjusting the values in the payoff matrix, we
 may more easily steer agents away from undesirable equilibria. As shown
@@ -752,6 +751,7 @@ See Table <a href="#tab:strategies" data-reference-type="ref"
 data-reference="tab:strategies">3</a> for examples of these
 strategies.<p>
 </p>
+<br>
 <div id="tab:strategies">
 <table class="prisonTable">
 <caption>Strategy Descriptions</caption>

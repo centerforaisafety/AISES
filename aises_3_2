@@ -37,7 +37,7 @@ patterns through harmful feedback loops that exacerbate bias. Developing
 unbiased AI systems requires proactively identifying and mitigating
 biases across the entire lifecycle.</p>
 <figure id="fig:enter-label">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bias_diagram.png" class="tb-img-full"/>
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bias_diagram.png" class="tb-img-full" style="width: 90%"/>
 <p class="tb-caption">Systematic psychological, historical, and social biases can
 lead to algorithmic biases within AI systems.</p>
 <!--<figcaption>Systematic psychological, historical, and social biases can-->
@@ -210,9 +210,7 @@ loops.</strong> <em>Feedback loops</em> in human-AI systems often arise
 when the output of an AI system is used as input in future AI models. An
 AI system trained on biased data could make biased decisions that are
 fed into future models, reinforcing bias in a self-perpetuating cycle.
-We speak more about these feedback loops in <a
-href="#chap:complex-systems" data-reference-type="ref"
-data-reference="chap:complex-systems">[chap:complex-systems]</a>.
+We speak more about these feedback loops in the Complex Systems chapter.
 <em>Self-fulfilling prophecies</em> can occur when an algorithmic
 decision influences actual outcomes, as the model reinforces its own
 biases and influences future input data <span class="citation"

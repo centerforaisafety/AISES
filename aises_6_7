@@ -3,7 +3,8 @@
         margin: auto;
         border: 1px solid;
         border-collapse: collapse;
-        border-spacing: 1px
+        border-spacing: 1px;
+        caption-side: bottom;
     }
 
     table.tableLayout tr{

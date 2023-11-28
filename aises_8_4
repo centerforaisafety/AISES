@@ -582,6 +582,7 @@ class="math inline"><em>b</em>(1−<em>a</em>)</span></td>
 </tr>
 </tbody>
 </table>
+<br>
 <p>The term <span class="math inline"><em>a</em></span> is the
 probability of a player knowing the strategy of its partner. Relevant
 for AI since it might reduce uncertainty (though still chaos and
@@ -860,6 +861,7 @@ class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
 Table <a href="#tab:reciprocity" data-reference-type="ref"
 data-reference="tab:reciprocity">1</a> below.<p>
 </p>
+<br>
 <div id="tab:reciprocity">
 <table class="tableLayout">
 <caption>Direct Reciprocity Matrix</caption>
@@ -887,6 +889,7 @@ class="math inline"><em>b</em></span></td>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>Natural examples of direct reciprocity.</strong> Trees and
 fungi have evolved symbiotic relationships where they exchange sugars
 and nutrients for mutual benefit. Dolphins use cooperative hunting
@@ -1011,6 +1014,7 @@ class="math inline"><em>q</em> &gt; <em>c</em>/<em>b</em></span>; see
 Table <a href="#tab:indirect-repr" data-reference-type="ref"
 data-reference="tab:indirect-repr">2</a> below.<p>
 </p>
+<br>
 <p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
 <div id="tab:indirect-repr">
 <table class="tableLayout">
@@ -1038,6 +1042,7 @@ class="math inline"><em>b</em>(1−<em>q</em>)</span></td>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>Natural examples of indirect reciprocity.</strong> Cleaner
 fish (fish that feed on parasites or mucus on the bodies of other fish)
 can either cooperate with client fish (fish that receive the “services”
@@ -1119,6 +1124,7 @@ class="math inline"><em>b</em>/<em>c</em> &gt; 1 + <em>n</em>/<em>m</em>
 see Table <a href="#tab:group" data-reference-type="ref"
 data-reference="tab:group">3</a> below.<p>
 </p>
+<br>
 <div id="tab:group">
 <table class="tableLayout">
 <caption>Group Selection Matrix</caption>
@@ -1146,6 +1152,7 @@ class="math inline"><em>n</em><em>b</em></span></td>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>Natural examples of group selection.</strong> Group selection
 is widely viewed as a mechanism involved in the process of natural
 selection, however, direct causal attribution is difficult for many
@@ -1209,6 +1216,7 @@ class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
 class="citation" data-cites="hamilton1964genetical">[15]</span>; see
 Table <a href="#tab:kin" data-reference-type="ref"
 data-reference="tab:kin">4</a> below.</p>
+<br>
 <div id="tab:kin">
 <table class="tableLayout">
 <caption>Kin Selection Matrix</caption>
@@ -1236,6 +1244,7 @@ class="math inline"><em>b</em> − <em>r</em><em>c</em></span></td>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>Natural examples of kin selection.</strong> In social insect
 colonies, such as bees and ants, colony members are closely related.
 Such insects often assist their kin in raising and producing offspring
@@ -1417,6 +1426,7 @@ to achieve their goals. AI collective intelligences would be vastly
 superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
     <p><span><b>A Note on Morality as Cooperation</b></span></p>
@@ -1493,6 +1503,7 @@ theft</td>
 </tbody>
 </table>
 </div>
+    <br>
 <p><strong>Kinship.</strong> Natural selection can favor agents who
 cooperate with their genetic relatives. This is because there may be
 copies of these agents’ genes in their relatives’ genomes, and so
@@ -1597,6 +1608,7 @@ we explored four examples of cooperation problems, and how the solutions
 to them discovered by natural selection may have produced our moral
 values.</p>
 </div>
+<br>
 <h3 id="institutions">Institutions</h3>
 <p><strong>Institutions overview.</strong> Agents are more likely to be
 cooperative when there are laws or externally imposed incentives that
@@ -1623,6 +1635,7 @@ data-reference-type="ref" data-reference="tab:pacifist">6</a> below.
 This dynamic often inspires rational agents to choose conflict over
 peace.<p>
 </p>
+<br>
 <div id="tab:pacifist">
 <table class="tableLayout">
 <caption>Pacifist’s Dilemma Payoff Matrix (No leviathan) </caption>
@@ -1661,6 +1674,8 @@ peace.<p>
 </tbody>
 </table>
 </div>
+<br>
+
 <p>However, we can shift the interests of agents in this context in
 favor of peace by introducing a Leviathan, in the form of a third-party
 peacekeeping or balancing mission, which establishes an authoritative
@@ -1673,6 +1688,7 @@ impartial mediators, usually by penalizing aggression and rewarding
 pacifism; see Table <a href="#tab:leviathan" data-reference-type="ref"
 data-reference="tab:leviathan">7</a> below.<p>
 </p>
+<br>
 <div id="tab:leviathan">
 <table class="tableLayout">
 <caption>Leviathan Payoff Matrix - <span class="citation"
@@ -1708,6 +1724,7 @@ data-cites="pinker2012better">[8]</span></caption>
 </tbody>
 </table>
 </div>
+<br>
 <p><strong>Institutions in human society.</strong> Institutions play a
 central role in promoting cooperation in international relations.
 Institutions, such as the UN, can broker agreements or treaties between

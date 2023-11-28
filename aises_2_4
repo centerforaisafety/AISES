@@ -54,10 +54,21 @@ data-reference-type="ref" data-reference="fig:log-log-plot">1</a>), with
 the <em>slope</em> of the line corresponding to the <em>exponent</em> in
 the power law.<p>
 </p>
-<figure id="fig:log-log-plot">
-<p class="tb-caption">A log-log plot for the power law <span
-class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.
-This shows that the power law results in a straight line.</p>
+<div class="row">
+    <div class="column">
+        <figure id="fig:log-log-plot">
+        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/power_law_v2.png"
+         class="tb-img-full" style="width:80%"/>
+        </figure>
+    </div>
+    <div class="column">
+        <figure>
+            <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/log_power_law_v2.png"
+         class="tb-img-full" style="width:80%"/>
+        </figure>
+    </div>
+</div>
+<p class="tb-caption">An object in free falling in a vacuum falls a distance proportion to the square of the time. On a log-log plot, this power law looks like a straight line.</p>
 <!--<figcaption>A log-log plot for the power law <span-->
 <!--class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.-->
 <!--This shows that the power law results in a straight line.</figcaption>-->
@@ -84,17 +95,17 @@ and more.</p>
 <div class="row">
     <div class="column">
         <figure id="fig:city-pop">
-        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_regular_v2.png" class="tb-img-full" style="width:80%"/>
+        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_regular_v2.png" class="tb-img-full" style="width:95%"/>
         </figure>
     </div>
     <div class="column">
         <figure id="fig:city-pop">
-        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_log_v2.png" class="tb-img-full" style="width:80%"/>
+        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_log_v2.png" class="tb-img-full" style="width:95%"/>
         </figure>
     </div>
-    <p class="tb-caption">Power laws are used in many domains, such as city planning. - <span class="citation"
-        data-cites="Newman2005">[1]</span></p>
 </div>
+<p class="tb-caption">Power laws are used in many domains, such as city planning. - <span class="citation"
+        data-cites="Newman2005">[1]</span></p>
 <h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
 <h3 id="introduction-1">Introduction</h3>

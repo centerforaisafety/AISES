@@ -3,7 +3,8 @@
         margin: auto;
         border: 1px solid;
         border-collapse: collapse;
-        border-spacing: 1px
+        border-spacing: 1px;
+        caption-side: bottom;
     }
 
     table.tableLayout tr{
@@ -164,7 +165,7 @@ proceed without slowing down for joining traffic.<p>
 <div class="center">
 </div>
 <figure id="fig:proxy-reward">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" style="width: 60%" class="tb-img-full"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" style="width: 75%" class="tb-img-full"/>
 <p class="tb-caption">Sub-optimal traffic control solution due to proxy
 gaming</p>
 <!--<figcaption>Sub-optimal traffic control solution due to proxy-->
