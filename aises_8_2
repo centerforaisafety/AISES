@@ -482,8 +482,9 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
-<p class="tb-caption">Five possible reasons why agents may cooperate in prisoner’s
-Dilemma-like scenarios. As highlighted, this section explores only two</p>
+<p class="tb-caption">Five reasons agents might cooperate - <span class="citation"> data-cites="parfit1984reasons">[2]</span></p>
+=======
+<figcaption>Five reasons agents might cooperate - <span class="citation">
 <!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
 </figure>
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
