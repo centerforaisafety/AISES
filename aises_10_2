@@ -111,6 +111,7 @@ the outcome of an election, an individual’s subjective best-guess could
 be used instead. So, both uncertain and certain outcomes can be
 represented by lotteries.<p>
 </p>
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
 <p><span><b>A Note on Expected Value vs. Expected Utility</b></span></p>
@@ -168,6 +169,7 @@ be negative, so the two concepts are distinct.<p>
 Generally, expected utility is calculated as: <span
 class="math display"><em>E</em>[<em>u</em>(<em>L</em>)] = <em>u</em>(<em>o</em><sub>1</sub>) ⋅ <em>p</em><sub>1</sub> + <em>u</em>(<em>o</em><sub>2</sub>) ⋅ <em>p</em><sub>2</sub> + ⋯ + <em>u</em>(<em>o</em><sub><em>n</em></sub>) ⋅ <em>p</em><sub><em>n</em></sub>.</span></p>
 </div>
+<br>
 <p><strong>According to expected utility theory, rational agents make
 decisions that maximize expected utility.</strong> Von Neumann and
 Morgenstern proposed a set of basic propositions called <em>axioms</em>
@@ -279,6 +281,7 @@ decision making of an agent considering two lotteries as just
 calculating the expected utilities and choosing the larger resulting
 one.<p>
 </p>
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
 <p><span><b>A Note on Logarithms</b></span></p>
@@ -318,6 +321,7 @@ the resource we already have.<p>
 </figure>
 
 </div>
+<br>
 <h2 id="st.-petersburg-paradox">A.2.3 St. Petersburg Paradox</h2>
 <p>An old man on the streets of St. Petersburg offers gamblers the
 following game: he will flip a fair coin repeatedly until it lands on

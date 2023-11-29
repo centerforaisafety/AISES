@@ -112,6 +112,7 @@ changes—is essential in ensuring safe and effective control over AIs’
 behavior. Examining the properties of utility functions illuminates
 potential problems in implementing corrigibility.<p>
 </p>
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
 <p><span><b>A Note on Utility Functions vs. Reward Functions</b></span></p>
@@ -150,15 +151,18 @@ utility, so its utility function may differ from the one we want it to
 have.<p>
 </p>
 </div>
+<br>
 
 <br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-pacecorrigibility" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[1] </div><div
-class="csl-right-inline"><span>“Corrigibility.”</span> [Online].
+class="csl-right-inline"><span>Nate Soares et al., “Corrigibility.”</span> Machine Intelligence Research Institute.
 Available: <a
-href="https://www.alignmentforum.org/tag/corrigibility">https://www.alignmentforum.org/tag/corrigibility</a></div>
+href="https://intelligence.org/files/Corrigibility.pdf">Intelligence Corrigibility</a></div>
 </div>
 <div id="ref-thornley2023shutdown" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[2] E.

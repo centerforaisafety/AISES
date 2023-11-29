@@ -687,11 +687,11 @@ failures. Early detection of anomalies can substantially improve the
 performance of models in real-world situations.</p>
 <figure>
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter.png"
-         class="tb-img-half" style="width: 75%"/>
+         class="tb-img-full" style="width: 75%"/>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"-->
 <!--style="width:50.0%" />-->
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time.png"
-         class="tb-img-half" style="width: 75%"/>
+         class="tb-img-full" style="width: 75%"/>
     <p class="tb-caption">Two examples of anomaly detection -<span class="citation"
 data-cites="hendrycks-anomaly">[20]</span></p>
 </figure>
