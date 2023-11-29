@@ -482,13 +482,14 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
-
 <p class="tb-caption">Five reasons agents might cooperate - <span class="citation"> data-cites="parfit1984reasons">[2]</span></p>
+=======
+<figcaption>Five reasons agents might cooperate - <span class="citation">
+<!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
 </figure>
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
 Dilemma-like scenarios. As highlighted, this section explores only two:
-changes to the payoff matrix and increased agent altruism.</em></p>
-<br>
+
 <p><strong>External consideration: changing the payoffs to incentivize
 cooperation.</strong> By adjusting the values in the payoff matrix, we
 may more easily steer agents away from undesirable equilibria. As shown
