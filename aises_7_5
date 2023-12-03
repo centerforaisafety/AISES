@@ -122,7 +122,7 @@ data-reference="tab:lying">1</a>.<p>
 <br>
 <div id="tab:lying">
 <table class="tableLayout">
-<caption>Lying to save a life.</caption>
+<caption>Table 7.1: Example: Lying to save a life.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -209,7 +209,7 @@ possible action.<p>
 </p>
 <div id="tab:lying-2">
 <table class="tableLayout">
-<caption>Lying to save a life.</caption>
+<caption>Table 7.2: Example: Lying to save a life.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>

@@ -195,8 +195,9 @@ problem is now a <em>full reinforcement learning problem</em>.<p>
 </p>
 <figure id="fig:multi-bandit">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/RL problem.jpeg" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Multi-armed bandit, contextual bandit, and full RL problems.
-- <span class="citation" data-cites="xie2020">[4]</span></p>
+<p class="tb-caption">Figure 2.26: We can increase RL problems in complexity. Adding detail to multi-armed bandits
+yields contextual bandits. Adding more detail yields “full” RL problems.
+<span class="citation" data-cites="xie2020">[4]</span></p>
 <!--<figcaption>Multi-armed bandit, contextual bandit, and full RL problems.-->
 <!-- - <span class="citation" data-cites="xie2020">[4]</span></figcaption>-->
 </figure>
@@ -214,8 +215,7 @@ hazard is very bad, and moving into the goal is very good.<p>
 </p>
 <figure id="fig:gridworld">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gridworld.png" class="tb-img-full" style="width: 40%"/>
-    <p class="tb-caption">Gridworld: a simple environment used as a toy model in
-reinforcement learning.</p>
+    <p class="tb-caption">Figure 2.27: Gridworld is a simple environment used as a toy model in reinforcement learning. </p>
 <!--<figcaption>Gridworld: a simple environment used as a toy model in-->
 <!--reinforcement learning.</figcaption>-->
 </figure>
@@ -229,7 +229,8 @@ example, we discuss each of those terms below.<p>
 </p>
 <figure id="fig:agent-environment">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/agent-environment-loop.png" class="tb-img-full" style="width: 40%"/>
-<p class="tb-caption">The agent-environment loop - <span class="citation"
+<p class="tb-caption">Figure 2.28: The agent-environment loop shows how the agent chooses an action to affect the
+environment, which transmits back information about the state and reward.  <span class="citation"
 data-cites="wikipedia-markov">[5]</span></p>
 <!--<figcaption>The agent-environment loop - <span class="citation"-->
 <!--data-cites="wikipedia-markov">[5]</span></figcaption>-->
@@ -421,8 +422,7 @@ the expected travel time.<p>
 </p>
 <figure id="fig:value-methods">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/two-types updated.png" class="tb-img-full"/>
-<p class="tb-caption">Two value-based methods: state-value and action-value (Q-)
-functions - <span class="citation" data-cites="huggingface">[6]</span>.</p>
+<p class="tb-caption">Figure 2.29: Value-based methods can either evaluate the value of a state or of a state-action pair. <span class="citation" data-cites="huggingface">[6]</span>.</p>
 <!--<figcaption>Two value-based methods: state-value and action-value (Q-)-->
 <!--functions - <span class="citation" data-cites="huggingface">[6]</span>.-->
 <!--</figcaption>-->
@@ -480,7 +480,7 @@ state-action pair:<p>
 <br>
 <div id="tab:q-val-table">
 <table class="tableLayout">
-<caption>Example Q-value table for Gridworld.</caption>
+<caption>Table 2.1: Example Q-value table for Gridworld.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>

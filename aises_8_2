@@ -229,10 +229,7 @@ partner will decide to do.<p>
 <figure id="fig:pris-dillema">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/world-one-and-two.png" alt="image"
         class="tb-img-full" style="width: 80%"/></p>
-<p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
-Dilemma</p>
-<!--<figcaption>The possible outcomes for Alice in the Prisoner’s-->
-<!--Dilemma</figcaption>-->
+<p class="tb-caption">Figure 8.1: The possible outcomes for Alice in the Prisoner’s Dilemma.</p>
 </figure>
 <em>A) The four possible outcomes facing Alice, divided into “World
 1” and “World 2.” In both scenarios, Alice must choose whether to
@@ -291,7 +288,8 @@ the two suspects’ decisions as the payoff to each suspect.<p>
 </p>
 <div id="tab:payoff-matrix">
 <table class="prisonTable">
-<caption>A Prisoner’s Dilemma payoff matrix</caption>
+<caption>Table 8.1: Each cell in this payoff matrix represents a payoff. If Alice cooperates and Bob defects,
+the top right cell tells us that Alice gets 8 years in jail while Bob goes free.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -364,13 +362,12 @@ defect</em> to the <em>both cooperate</em> outcome; see Figure <a
 href="#fig:pareto-efficiency" data-reference-type="ref"
 data-reference="fig:pareto-efficiency">3</a>.<p>
 </p>
-<figure id="fig:pareto-comparison">
-<p><img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
-alt="image" class="tb-img-full" style="width: 80%"/> <span id="fig:pareto-comparison"
-label="fig:pareto-comparison"></span></p>
-<p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
-Dilemma</p>
+<figure id="fig:choices">
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
+alt="image" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 8.2: Looking at the possible outcomes for both suspects in the Prisoner’s Dilemma, we can
+see that there is a possible Pareto improvement from the Nash equilibrium. The numbers represent
+their payoffs (rather than the length of their jail sentence).</p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma</figcaption>-->
 </figure>
@@ -387,8 +384,9 @@ produce a Pareto improvement.</em><p>
 <figure id="fig:pareto-efficiency">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
-Dilemma - adapted from <span class="citation"
+<p class="tb-caption">Figure 8.3: Both suspects’ payoffs, in each of the four decision outcomes. Moving right increases
+Alice’s payoff, and moving up improves Bob’s payoff. A Pareto improvement requires moving right
+and up, as shown by the green arrow. <span class="citation"
 data-cites="kuhn2019prisoner">[1]</span></p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma - adapted from <span class="citation"-->
@@ -482,11 +480,10 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
-<p class="tb-caption">Five reasons agents might cooperate - <span class="citation"> data-cites="parfit1984reasons">[2]</span></p>
-=======
-<figcaption>Five reasons agents might cooperate - <span class="citation">
-<!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
+<p class="tb-caption">Figure 8.4: Five possible reasons why agents may cooperate in prisoner’s Dilemma-like scenarios.
+This section explores two: changes to the payoff matrix and increased agent altruism. <span class="citation" data-cites="parfit1984reasons">[2]</span></p>
 </figure>
+
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
 Dilemma-like scenarios. As highlighted, this section explores only two:
 
@@ -528,7 +525,11 @@ defects</td>
 <td style="text-align: center;">d, d</td>
 </tr>
 </tbody>
-<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
+<caption>Table 8.2: if <span
+        class="math inline"><em>c > a</em></span> and <span class="math inline"><em>d > b</em></span>,
+        the highest payoff for either agent is to defect, regardless of what their opponent does:
+        Defection is the dominant strategy. Fostering cooperation requires avoiding this structure.
+</caption>
 </table>
 </div>
 <br>
@@ -559,10 +560,12 @@ class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </figure>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="width: 100%"/>
-
+<p class="tb-caption">Figure 8.5: Altering the payoff matrix to punish snitches, we can move from a Prisoner’s Dilemma
+(left) to a Stag Hunt (right), in which there is an additional Nash equilibrium. </p>
 <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
 <!--</figcaption>-->
 </figure>
+
 <p><em>A) The Prisoner’s Dilemma payoff matrix, with the single Nash
 equilibrium highlighted. B) If we add a punishment of three years jail
 time for being a “snitch,” the outcome (-1,-1) becomes a second Nash
@@ -672,8 +675,8 @@ both agents to cooperate with each other.<p>
 </p>
 <figure id="fig:iterated">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Tit-for-tat.png" class="tb-img-full"/>
-<p class="tb-caption">If the agents cooperate more, they can both gain better
-payoffs</p>
+<p class="tb-caption">Figure 8.6: Across six rounds, both players gain better payoffs if they consistently cooperate. But
+defecting creates short-term gains.</p>
 <!--<figcaption>If the agents cooperate more, they can both gain better-->
 <!--payoffs</figcaption>-->
 </figure>
@@ -755,7 +758,7 @@ strategies.<p>
 <br>
 <div id="tab:strategies">
 <table class="prisonTable">
-<caption>Strategy Descriptions</caption>
+<caption>Table 8.3: Popular strategies’ descriptions.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><strong>Strategy</strong></th>
@@ -1253,11 +1256,14 @@ outweighs the trivial increase in collective good they would contribute
 by contributing. Thus, escaping undesirable equilibria in a collective
 action problem can be exceedingly difficult; see Figure <a
 href="#fig:collective" data-reference-type="ref"
-data-reference="fig:collective">7</a>.<p>
+data-reference="fig:collective">8.7</a>.<p>
 </p>
 <figure id="fig:collective">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/freeriding.png" class="tb-img-full"/>
-<p class="tb-caption">An abstract collective action problem</p>
+<p class="tb-caption">Figure 8.7: In this abstract collective action problem, we can move from everyone (contributes) to
+right (no one contributes). As more people free ride, the collective good disappears, leaving everyone
+in a state where they would all prefer to collectively contribute instead.
+</p>
 <!--<figcaption>An abstract collective action problem</figcaption>-->
 </figure>
 <p><em>A) All agents contribute, maximizing the collective good. B) A
@@ -1277,7 +1283,7 @@ As the matrix illustrates, the dominant strategy for a rational agent
 rides.<p>
 </p>
 <table class="prisonTable">
-<caption>Free Riding in a Group Environment</caption>
+<caption>Table 8.4: Free riding is always better for an individual: it is a dominant strategy</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1684,7 +1690,10 @@ data-cites="garcia2018strategy">[16]</span>.<p>
 </p>
 <figure id="fig:cycle">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Evolutionary.png" class="tb-img-full" style="width: 50%"/>
-<p class="tb-caption">The population may cycle through different strategy compositions.</p>
+<p class="tb-caption">Figure 8.8: In an evolutionary tournament, the prevalence of current strategies determines which
+new strategies do best. In the bottom left, the prevalence of “always cooperate” means “always defect”
+is successful. In the top left, the prevalence of “always defect“ means “tit-for-tat” is successful. These
+dynamics can become cyclical.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
 </figure>
@@ -1730,7 +1739,7 @@ ability.<p>
 </p>
 <div id="tab:hawk-dove">
 <table class="prisonTable">
-<caption>Hawk-Dove payoff matrix</caption>
+<caption>Table 8.5: Payoff matrix for the Hawk-Dove game.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1756,11 +1765,10 @@ class="math inline">$$\frac{1}{2}b$$</span></td>
 </table>
 </div>
 <br>
-<p><span id="tab:hawk-dove" label="tab:hawk-dove"></span></p>
 <p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
 strategy.</strong> If all agents were Hawks, everyone would fight each
 other for the resource and only stop when hurt. Their average gain would
-be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
+be <span class="math inline">\frac{1}{2}(b-c)</span>. But since the
 price of fighting is more than the resource’s value <span
 class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
 be negative. If one agent switched to being a <em>Dove</em>, they would
@@ -1836,7 +1844,9 @@ strategies.<p>
 </p>
 <figure id="fig:freq-selection">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Snails-graph.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">Frequency-dependent selection.</p>
+<p class="tb-caption">Figure 8.9: The rarest snails may have the highest fitness since predators are not used to them. They
+become more prevalent in the next generation, reducing their relative fitness. This is an example of
+frequency-dependent selection.</p>
 <!--<figcaption>Frequency-dependent selection.</figcaption>-->
 </figure>
 <p><em>In each population, snails “choose to” evolve one of three colors
@@ -1918,7 +1928,7 @@ partners in Iterated Prisoner’s Dilemma matches.<p>
 </p>
 <figure id="fig:extort-2">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">The <em>Extort-2</em> strategy - <span class="citation"
+<p class="tb-caption">Figure 8.10: The <em>Extort-2</em> strategy - <span class="citation"
 data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
 <!--data-cites="stewart2012extortion">[20]</span></figcaption>-->

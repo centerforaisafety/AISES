@@ -80,7 +80,8 @@ on a different aspect of how we represent an agent’s preferences.</p>
 
 <figure id="fig:risk-att">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/utilityfunctionsrisk.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.4: Utility functions capturing different attitudes to risk</p>
+<p class="tb-caption">Figure B.4: Concave, linear, and convex utility functions model risk averse, risk neutral, and risk
+seeking agents’ preferences.</p>
 </figure>
 
 <p><strong>Risk attitudes are fully explained by how an agent values
@@ -276,7 +277,7 @@ decision-making strategy.<p>
 </p>
 <figure id="fig:risk-neutral-betting">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/riskaversebetting.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.5: Risk-neutral betting leads to ruin</p>
+<p class="tb-caption">Figure B.5: Risk-neutral betting can lead to ruin.</p>
 </figure>
 <p><strong>Maximizing logarithmic utility is a better decision
 procedure.</strong> Agents might want to act as if maximizing the
@@ -451,7 +452,9 @@ the technology.<p>
 </p>
 <figure id="fig:company-life">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/companylifecycle.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.6: Company lifecycles and risk</p>
+<p class="tb-caption">Figure B.6:  Start-ups often take big risks to try and get explosive growth, modeled by a convex
+utility function. As a company matures, it gets more risk averse, prioritizing survival over extreme
+growth. </p>
 </figure>
 <p><strong>A startup is by nature a risk-seeking venture.</strong> An
 entrepreneur has typically sacrificed a stable income, savings, and much

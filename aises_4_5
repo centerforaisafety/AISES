@@ -23,7 +23,10 @@ reduces the probability of there being a pathway to an accident that can
 bypass them all.</p>
 <figure id="fig:cheese">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/swiss_cheese.png" class="tb-img-full"/>
-<p class="tb-caption">Swiss cheese defense model</p>
+<p class="tb-caption">Figure 4.4: Each layer of defense (safety culture, red teaming, etc.) is a layer of defense with its own
+holes in the Swiss cheese model. With enough layers, we hope to avoid pathways that can bypass
+them all.
+</p>
 <!--<figcaption>Swiss cheese defense model</figcaption>-->
 </figure>
 <p>Consider the example of an infectious disease as a hazard. There are
@@ -111,7 +114,8 @@ measures in place against any potential adverse event.<p>
 </p>
 <figure id="fig:bowtie">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Bow-tie updated.png" class="tb-img-full"/>
-<p class="tb-caption">Bow tie diagram</p>
+<p class="tb-caption">Figure 4.5: The bow tie diagram can tie together hazards and their consequences with control and
+recovery measures to mitigate the effects of an adverse event.</p>
 <!--<figcaption>Bow tie diagram</figcaption>-->
 </figure>
 <p>For example, if an individual goes rock climbing, a potential
@@ -154,7 +158,8 @@ causes.<p>
 </p>
 <figure id="wrap-fig:water-pump">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FTA-diagram.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Water pump fault tree</p>
+<p class="tb-caption">Figure 4.6: Using a fault tree, we can work backwards from a failure (no water flow) to its possible
+causes (such as a mechanical shaft failure or power surge).</p>
 <!--<figcaption>Water pump fault tree</figcaption>-->
 </figure>
 <p>For each negative outcome, we work backward through the system,
@@ -180,8 +185,8 @@ we can identify multiple combinations of events that could lead to the
 same negative outcome.</p>
 <figure id="fig:FTA-decision">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_harm.png" class="tb-img-full"/>
-<p class="tb-caption">AI FTA decision-tree <span class="citation"
-data-cites="critch2023tasra">[3]</span></p>
+<p class="tb-caption">Figure 4.7: An FTA decision-tree can identify several potential problems by interrogating important
+contextual questions. <span class="citation" data-cites="critch2023tasra">[3]</span></p>
 <!--<figcaption>AI FTA decision-tree <span class="citation"-->
 <!--data-cites="critch2023tasra">[3]</span></figcaption>-->
 </figure>
@@ -301,7 +306,8 @@ a single line from start to finish.<p>
 </p>
 <figure id="fig:complex-sys">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Complex-systems updated.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Complex systems with feedback loops</p>
+<p class="tb-caption">Figure 4.8: In a complex system, events, processes, and factors often influence each other in many
+ways, creating complex feedback loops.</p>
 <!--<figcaption>Complex systems with feedback loops</figcaption>-->
 </figure>
 <p><strong>AI systems can exhibit feedback loops and nonlinear

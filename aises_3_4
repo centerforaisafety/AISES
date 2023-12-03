@@ -110,7 +110,8 @@ and, on several occasions, set itself ablaze. Points proved to be a poor
 proxy for doing well at the game.</p>
 <figure id="fig:coastrunners">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_1.png" class="tb-img-full" style="width: 90%"/>
-<p class="tb-caption">Proxy gaming in CoastRunners 7 - <span class="citation"
+<p class="tb-caption">Figure 3.7: An AI playing CoastRunners 7 learned to crash and regenerate targets repeatedly rather
+than win the race to get a higher score, exhibiting proxy gaming. <span class="citation"
 data-cites="clark2016faulty">[2]</span></p>
 <!--<figcaption>Proxy gaming in CoastRunners 7 - <span class="citation"-->
 <!--data-cites="clark2016faulty">[2]</span></figcaption>-->
@@ -142,8 +143,8 @@ human systems and AI systems.<p>
 </p>
 <figure id="fig:optimisation_pressure">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_score.png" style="width: 70%" class="tb-img-full"/>
-<p class="tb-caption">Often, as optimization pressure increases, the proxy
-diverges from the target with which it was originally correlated. <span
+<p class="tb-caption">Figure 3.8: Often, as optimization pressure increases, the proxy diverges from the target with which
+it was originally correlated. <span
 class="citation" data-cites="skalsedefining">[4]</span></p>
 <!--<figcaption>Often, as optimization pressure increases, the proxy-->
 <!--diverges from the target with which it was originally correlated. <span-->
@@ -166,8 +167,8 @@ proceed without slowing down for joining traffic.<p>
 </div>
 <figure id="fig:proxy-reward">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" style="width: 75%" class="tb-img-full"/>
-<p class="tb-caption">Sub-optimal traffic control solution due to proxy
-gaming</p>
+<p class="tb-caption">Figure 3.9: Proxy gaming AIs can choose sub-optimal solutions when presented with simple proxies
+like “maximize the mean velocity.” </p>
 <!--<figcaption>Sub-optimal traffic control solution due to proxy-->
 <!--gaming</figcaption>-->
 </figure>
@@ -311,8 +312,8 @@ afford to run them.</p>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_2_v2.png"
 style="width:85.0%" class="tb-img-full"/>
-<p class="tb-caption">Proxy gaming example - simulated claw appearing to grasp
-ball rather than actually grasping it</p>
+<p class="tb-caption">Figure 3.10: An AI without depth perception might learn to appear to grasp a ball instead of actually
+grasping it.</p>
 <!--<figcaption>Proxy gaming example - simulated claw appearing to grasp-->
 <!--ball rather than actually grasping it</figcaption>-->
 </figure>
@@ -440,10 +441,10 @@ perturbations but about adversaries changing inputs to cause models to
 make a mistake.<p>
 </p>
 <figure id="fig:quacatmole">
-<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/advex.png" alt="image" class="tb-img-full" style="width: 70%"/> <span
-id="fig:quacatmole" label="fig:quacatmole"></span></p>
-<p class="tb-caption">Example imperceptible perturbations leading to
-misclassification by neural network</p>
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/advex.png" alt="image" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure 3.11: Imperceptible crafted perturbations of a photo of a cat can cause a neural network to
+label it guacamole.
+</p>
 <!--<figcaption>Example imperceptible perturbations leading to-->
 <!--misclassification by neural network</figcaption>-->
 </figure>
@@ -498,7 +499,7 @@ class="math inline"><em>x</em> + <em>ϵ</em></span>, and <span
 class="math inline"><em>w</em></span>.<p>
 </p>
 <br>
-<div id="tab:my_label">
+<div id="tab:input-output">
 <table class="tableLayout">
 <thead>
 <tr class="even">
@@ -549,7 +550,7 @@ class="math inline"> <em>w</em></span></td>
 </table>
 </div>
 <br>
-<p><span id="tab:my_label" label="tab:my_label"></span></p>
+<p><span id="tab:my_label"></span></p>
 <p>For the original input, <span
 class="math inline"><em>w</em><sup>T</sup><em>x</em> =  − 2 + 1 + 3 + 2 + 2 − 2 + 1 − 4 − 5 + 1 =  − 3</span>,
 which gives a probability of <span
@@ -617,8 +618,7 @@ class="citation" data-cites="zou2023universal">[13]</span>.<p>
 </p>
 <figure id="fig:gpt-jailbreak">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/chatgpt.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Harmful outputs produced by language models due to
-automatically generated adversarial prompts - <span class="citation"
+<p class="tb-caption">Figure 3.12: Using adversarial prompts can cause LLMs to produce harmful outputs. <span class="citation"
 data-cites="zou2023universal">[13]</span>.</p>
 <!--<figcaption>Harmful outputs produced by language models due to-->
 <!--automatically generated adversarial prompts - <span class="citation"-->

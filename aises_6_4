@@ -409,8 +409,7 @@ health, freedom, education, and more.<br />
 </p>
 <figure id="fig:preston">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Increases in GDP per capita strongly correlate with
-increases in life expectancy.</p>
+<p class="tb-caption">Figure 6.2: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
 <!--<figcaption>Increases in GDP per capita strongly correlate with-->
 <!--increases in life expectancy.</figcaption>-->
 </figure>
@@ -470,8 +469,7 @@ AI gives us reason to be optimistic about the future. If economic growth
 improves health, education, and overall quality of life–—as we have
 considered is possible—–the AI-driven economy could significantly
 enhance societal wellbeing.</p>
-<h4
-id="however-while-growth-is-correlated-with-welfare-its-benefits-are-neither-predictable-nor-uniform.">However,
+<h4 id="however-while-growth-">However,
 while growth is correlated with welfare, its benefits are neither
 predictable nor uniform.</h4>
 <p>Growth might be unsustainable, trading off long-term wellbeing for
@@ -569,8 +567,8 @@ generations.<br />
 </p>
 <figure id="fig:gini">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gini_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Change in US Gini coefficient.<br />
-Data Source: Our World in Data</p>
+<p class="tb-caption">Figure 6.3: Inequality in the US (as measured by the Gini coefficient) has risen dramatically over the
+last five decades, even adjusting for taxation. </p>
 <!--<figcaption>Change in US Gini coefficient.<br />-->
 <!--Data Source: Our World in Data</figcaption>-->
 </figure>
@@ -594,7 +592,7 @@ data-cites="hanauer2020top"></span>.<br />
 <br>
 <div id="tab:income">
 <table class="tableLayout">
-<caption>Data Source: RAND; Graphics: Mary Traverse for Civic Ventures
+<caption>Table 6.1: Real and counterfactual income distributions for all adults with income, in 2018 USD.
 <span class="citation" data-cites="time2020trillion"></span></caption>
 <thead>
 <tr class="header">
@@ -686,15 +684,15 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<br />
 </p>
 <figure id="fig:homicide">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-half" style="width:80%"/>
-<p class="tb-caption">Measures of income inequality and homicide rate<br />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-full" style="width:80%"/>
+<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.
 Data Source: Vienna University of Economics and Business</p>
 <!--<figcaption>Measures of income inequality and homicide rate<br />-->
 <!--Data Source: Vienna University of Economics and Business</figcaption>-->
 </figure>
 <figure id="fig:political">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-half" style="width:80%"/>
-<p class="tb-caption">Measures of income inequality and political stability.<br />
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-full" style="width:80%"/>
+<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.<br />
 Data Source: World Bank, World Governance Indicators and Gini
 Coefficient Data</p>
 <!--<figcaption>Measures of income inequality and political stability.<br />-->

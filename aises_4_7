@@ -76,7 +76,8 @@ Greatly Affect the Average Risk</h2>
     <img
     src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/median_and_tail_v2.png"
     style="width:70%" class="tb-img-full"/>
-    <p class="tb-caption">Figure 4.7.1 Shift in mean due to one tail event (but no shift in median).</p>
+    <p class="tb-caption">Figure 4.10: The occurrence of a tail event can dramatically
+shift the mean but not the median of the event type’s impact.</p>
 </figure>
 </div>
 <p><strong>A tail event often changes the mean but not the
@@ -151,7 +152,8 @@ Giza, that are several thousand years old.<p>
 </p>
 <figure id="fig:exponential">
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/head_and_tail_v2.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Head and tail of a distribution</p>
+<p class="tb-caption">Figure 4.11: Many distributions have a head (an area where most of the probability is concentrated)
+and one or two tails (extreme regions of the distribution).</p>
 <!--<figcaption>Head and tail of a distribution</figcaption>-->
 </figure>
 <p><strong>Many real-world frequency distributions have long
@@ -237,7 +239,8 @@ value and a tail on either side. The frequency decreases rapidly as we
 move away from the most common value.</p>
 <figure id="fig:excess">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/heights_v2.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Normal distribution: human heights.</p>
+<p class="tb-caption">Figure 4.12: Many natural phenomena (such as the distribution of humans’ heights) follow the normal
+distribution.</p>
 <!--<figcaption>Normal distribution: human heights.<p>-->
 </figcaption>
 </figure>
@@ -280,7 +283,8 @@ tail.<p>
     <img
     src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/exp_vs_power_v2.png"
     style="width:70%" class="tb-img-full"/>
-    <p class="tb-caption">Long tailed vs exponential distributions</p>
+    <p class="tb-caption">Figure 4.13: Exponential distributions are not longtailed, even though they look quite similar at a normal
+scale (top). Looking at extreme values (middle), especially on a log scale (bottom), shows us that they have thin tails.</p>
 </figure>
 </div>
 <p><strong>Exponential distributions are thin-tailed
@@ -364,7 +368,9 @@ be different.<p>
 </p>
 <figure id="fig:excess">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/excess_exp_v2.png" class="tb-img-full" style="width: 90%"/>
-<p class="tb-caption">Head and tail of a distribution</p>
+<p class="tb-caption">Figure 4.14: Our excess conditional expectation when observing long jumps (thin-tailed) shrinks as
+the jump gets better. By contrast, our excess conditional expectation when observing the lifespan of
+a book (long-tailed) gets larger as the book remains popular for longer.</p>
 <!--<figcaption>Head and tail of a distribution</figcaption>-->
 </figure>
 <p><strong>Example: Lindy Effect, Long Tails.</strong> The Lindy Effect

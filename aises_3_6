@@ -36,7 +36,7 @@ the task, and beyond which models begin to achieve higher
 performance.</p>
 <figure id="fig:emergent_graphs">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FLOPs.png" class="tb-img-full" />
-<p class="tb-caption">Emergent AI capabilities across multiple benchmarks - <span
+<p class="tb-caption">Figure 3.13: LLMs exhibit clear emergent capabilities on a variety of tasks. <span
 class="citation" data-cites="wei2022emergent">[3]</span></p>
 <!--<figcaption>Emergent AI capabilities across multiple benchmarks - <span-->
 <!--class="citation" data-cites="wei2022emergent">[3]</span></figcaption>-->
@@ -75,8 +75,8 @@ capabilities.<p>
 </p>
 <figure id="fig:unicorn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/unicorn.png" class="tb-img-full"/>
-<p class="tb-caption">Unexpected capability example: illustrations of unicorns by
-GPT-4 - <span class="citation"
+<p class="tb-caption">Figure 3.14: GPT-4 proved able to create illustrations of unicorns despite having not been trained to
+create images: another example an an unexpected emergent capability. <span class="citation"
 data-cites="bubeck2023sparks">[5]</span></p>
 <!--<figcaption>Unexpected capability example: illustrations of unicorns by-->
 <!--GPT-4 - <span class="citation"-->
@@ -168,7 +168,7 @@ some the researchers had never anticipated.<p>
 </p>
 <figure id="fig:tool-use">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/3d_puzzle.png" class="tb-img-full"/>
-<p class="tb-caption">Emergent tool-use in multi-agent hide-and-seek - <span
+<p class="tb-caption">Figure 3.15: In multi-agent hide-and-seek, AIs demonstrated emergent tool-use. <span
 class="citation" data-cites="2019openai">[10]</span>.</p>
 <!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
 <!--class="citation" data-cites="2019openai">[10]</span>.</figcaption>-->
@@ -198,7 +198,7 @@ social dynamics in the Collective Action Problems chapter.<p>
 </p>
 <figure id="fig:emergent-social-behaviour">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_in_game.png" class="tb-img-full"/>
-<p class="tb-caption">Emergent social behavior in generative agents - <span
+<p class="tb-caption">Figure 3.16: Generative AI agents exhibited emergent social behavior. <span
 class="citation" data-cites="park2023generative">[11]</span></p>
 <!--<figcaption>Emergent social behavior in generative agents - <span-->
 <!--class="citation"-->

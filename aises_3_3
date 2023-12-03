@@ -33,7 +33,7 @@ that is meaningful to humans.<p>
 </p>
 <figure id="fig:comp-graph">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/computational_graph.png" class="tb-img-full" style="width: 80%" />
-<p class="tb-caption">A section of a computational graph for an ML system - <span
+<p class="tb-caption">Figure 3.2: ML systems can be broken down into computational graphs with many sections. <span
 class="citation" data-cites="zoph2017neural">[2]</span></p>
 <!--<figcaption>A section of a computational graph for an ML system - <span-->
 <!--class="citation" data-cites="zoph2017neural">[2]</span></figcaption>-->
@@ -51,7 +51,8 @@ eigenfaces.<p>
 </p>
 <figure id="fig:Eigenfaces">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Eigenfaces.jpg" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Eigenfaces - <span class="citation"
+<p class="tb-caption">Figure 3.3: A human face can be made by combining several eigenfaces, each of which represents
+different facial features. <span class="citation"
 data-cites="zhang2008eigenfaces">[3]</span></p>
 <!--<figcaption>Eigenfaces - <span class="citation"-->
 <!--data-cites="zhang2008eigenfaces">[3]</span></figcaption>-->
@@ -78,12 +79,9 @@ also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feature_vis.png" />
-<p class="tb-caption">From <span class="citation"
-data-cites="schubert2020openai">[6]</span>. A randomly selected neuron
-in the CLIP ResNet-50 image model. Left: a feature visualization that
-“highly activates” the neuron, meaning the neuron reads a high value
-when the image is input to the model. Right: example images that
-activate the neuron</p>
+<p class="tb-caption">  Figure 3.4: Left: a feature visualization that “highly activates” a particularly neuron. Right: a
+collection of natural images that activate a particular neuron. <span class="citation"
+data-cites="schubert2020openai">[6]</span></p>
 
 <!--<figcaption>From <span class="citation"-->
 <!--data-cites="schubert2020openai">[6]</span>. A randomly selected neuron-->
@@ -264,8 +262,8 @@ image. Saliency map techniques have been popular in part due to the
 striking visualizations they produce.</p>
 <figure id="fig:saliency-map">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/saliency_map.png" class="tb-img-full"/>
-<p class="tb-caption">Example of a saliency map technique for various images -
-<span class="citation"
+<p class="tb-caption">Figure 3.5: A saliency map picks out features from an input that seem particularly relevant to the
+model, such as the shirt and cowboy hat in the bottom left image. <span class="citation"
 data-cites="springenberg2015striving">[14]</span></p>
 <!--<figcaption>Example of a saliency map technique for various images - -->
 <!--<span class="citation"-->
@@ -355,8 +353,7 @@ data-cites="wang2022interpretability">[16]</span>.<p>
 </p>
 <figure id="fig:id-circuit">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/identification_circuit.png" class="tb-img-full"/>
-<p class="tb-caption">Graphical depiction of indirect-object identification
-circuit</p>
+<p class="tb-caption">Figure 3.6: An indirect-object identification circuit can be depicted graphically</p>
 <!--<figcaption>Graphical depiction of indirect-object identification-->
 <!--circuit</figcaption>-->
 </figure>

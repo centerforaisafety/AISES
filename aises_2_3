@@ -53,8 +53,9 @@ of machine learning, including supervised, unsupervised, and
 reinforcement learning.</p>
 <figure id="fig:venn-definitions">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_ML_DL_Venn.png" class="tb-img-full" style="width: 50%"/>
-<p class="tb-caption">Relationship between AI, machine learning, and deep
-learning</p>
+<p class="tb-caption">Figure 2.10: Machine learning is a type of artificial intelligence. Supervised, unsupervised, and
+reinforcement learning are common machine learning paradigms. Deep learning is a set of techniques
+that have proven useful for a variety of ML problems.</p>
 <!--<figcaption>Relationship between AI, machine learning, and deep-->
 <!--learning</figcaption>-->
 </figure>
@@ -164,7 +165,7 @@ characteristics.</p>
 <figure id="fig:neurons">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/artificial biological neuron.png"
      class="tb-img-full" style="width: 80%"/>
-    <p class="tb-caption">Comparison of biological and artificial neurons. - <span
+    <p class="tb-caption">Figure 2.11: Artificial neurons have structural similarities to biological neurons. <span
 class="citation" data-cites="wikineuron wikiperceptron">[2],
 [3]</span></p>
 <!--<figcaption>Comparison of biological and artificial neurons. - <span-->
@@ -210,8 +211,7 @@ of a pixel in a given image.<p>
 </p>
 <figure id="fig:pixel-mapping">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">Mapping from pixels of an example image to neurons in the
-input layer of a network - <span class="citation"
+    <p class="tb-caption">Figure 2.12: Information from each pixel is input to a neuron in the first layer. <span class="citation"
 data-cites="hula2018">[4]</span></p>
 <!--<figcaption>Mapping from pixels of an example image to neurons in the-->
 <!--input layer of a network - <span class="citation"-->
@@ -291,7 +291,8 @@ levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hidden_nn.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">A multi-layer neural network</p>
+    <p class="tb-caption">Figure 2.13: A classic multi-layer neural network has an input later, several hidden layers, and an
+output layer.</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
 <p><strong>Neural networks as matrix multiplication.</strong> If we put
@@ -399,9 +400,9 @@ architectures.<p>
 </p>
 <figure id="fig:relu-function">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relu_v2.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">The ReLU activation function, <span
+    <p class="tb-caption">Figure 2.14: The ReLU activation function, <span
 class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,
-passes on positive inputs.</p>
+passes on positive inputs to the next layer.</p>
 <!--<figcaption>The ReLU activation function, <span-->
 <!--class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,-->
 <!--passes on positive inputs.</figcaption>-->
@@ -416,9 +417,9 @@ widely used in and contributed to the success of many current models,
 including Transformer-based language models.</p>
 <figure id="fig:gelu-function">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">The GELU activation function, <span
+    <p class="tb-caption">Figure 2.15: The GELU activation function, <span
 class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,
-smoothes out the ReLU function.</p>
+smoothes out the ReLU function around zero, passing on small negative inputs as well.</p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" />-->
 <!--<figcaption>The GELU activation function, <span-->
 <!--class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,-->
@@ -432,9 +433,10 @@ graphed, it forms a characteristic S-shaped curve. We explored the
 sigmoid function in the previous section.</p>
 <figure id="fig:sigmoid-function">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">The Sigmoid activation function, <span
+    <p class="tb-caption">Figure 2.16: The Sigmoid activation function, <span
 class="math inline">$$\sigma(x) = \frac{1}{1 + e^{-x}}$$</span>, has a
-characteristic S-shape.</p>
+characteristic S-shape that
+squeezes inputs into the interval [0, 1].</p>
 
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" />-->
 <!--<figcaption>The Sigmoid activation function, <span-->
@@ -487,8 +489,10 @@ contribute more directly to the higher-level features of deeper layers,
 and information can be more readily preserved.</p>
 <figure id="fig:feed-forward-network">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feed_forward.png" class="tb-img-full" style="width:40%"/>
-    <p class="tb-caption">Traditional feedforward network and a network with residual
-connections.</p>
+    <p class="tb-caption">Figure 2.17: Adding residual connections can let information bypass blocks <span
+class="math inline">$$f_l$$</span> and <span
+class="math inline">$$f_{l+1}$$</span>, letting
+lower-level features from early layers contribute more directly to higher-level features in later ones.</p>
 <!--<figcaption>Traditional feedforward network and a network with residual-->
 <!--connections.</figcaption>-->
 </figure>
@@ -522,7 +526,8 @@ with the filter, and recording the results in a new matrix called a
 <em>feature map</em>.</p>
 <figure id="fig:convolution-1">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/convolution.jpeg" class="tb-img-full" style="width:60%"/>
-<p class="tb-caption">Convolution operation - <span class="citation"
+<p class="tb-caption">Figure 2.18: Convolution layers perform the convolution operation, sliding a filter over the input
+data to output a feature map. <span class="citation"
 data-cites="wikiconvolution">[8]</span></p>
 <!--<figcaption>Convolution operation - <span class="citation"-->
 <!--data-cites="wikiconvolution">[8]</span></figcaption>-->
@@ -558,7 +563,8 @@ selectively focusing on the most relevant connections.<p>
 </p>
 <figure id="fig:relations-example">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Example of relationships captured by two different attention heads - <span class="citation"
+<p class="tb-caption">Figure 2.19:  Different attention heads can capture different relationships between words in the same
+sentence. <span class="citation"
 data-cites="Vaswani2017">[9]</span></p>
 <!--<figcaption>Example of relationships captured by two different attention-->
 <!--heads - <span class="citation"-->
@@ -583,6 +589,9 @@ blocks.<p>
 <p><img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" style="width:40%" class="tb-img-full"
 alt="image" /></p>
+    <p class="tb-caption">Figure 2.20: Figure 2.20: Transformer blocks
+combine several other techniques, such as self-attention, MLPs, residual connections, and
+layer normalization. <span class="citation" data-cites="Vaswani2017">[31]</span></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
 MLPs (as we saw earlier) with optimization techniques such as residual
@@ -713,8 +722,7 @@ respect to the model’s parameters.<p>
 </p>
 <figure id="fig:gradient-example">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gradient-graph-design.png" class="tb-img-full" style="width: 70%"/>
-    <p class="tb-caption">Gradient descent over loss landscape given two different
-        weight initializations - <span class="citation"
+    <p class="tb-caption">Figure 2.21: Gradient descent can find different local minima given two different weight initializations. <span class="citation"
         data-cites="raj-enjoyalg">[10]</span>
     </p>
 <!--<figcaption>Gradient descent over loss landscape given two different-->

@@ -22,7 +22,8 @@ result.</p>
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Rubes-diagram.png"
         alt="image" class="tb-img-full" style="width: 70%"/>
 <span id="rube_goldberg" label="rube_goldberg"></span></p>
-<p class="tb-caption">Example of mechanistic approach - Rube Goldberg machine</p>
+<p class="tb-caption">Figure 5.1: A Rube Goldberg machine with many parts that each feed directly into the next can be
+well explained by the mechanistic approach.</p>
 <!--<figcaption>Example of mechanistic approach - Rube Goldberg-->
 <!--machine</figcaption>-->
 </figure>
@@ -147,7 +148,9 @@ This might offer clues as to how we can avoid potential negative
 consequences of using AI.</p>
 <figure id="approaches">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/approaches.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Three approaches to analysing systems</p>
+<p class="tb-caption">Figure 5.2: Often, we use mechanistic or statistical approaches to analyzing systems. When there
+are many components with strong interdependence, these are insufficient, and we need a complex
+systems approach.</p>
 <!--<figcaption>Three approaches to analysing systems</figcaption>-->
 </figure>
 <p><strong>Summary.</strong> Reductionist styles of analysis cannot give
@@ -528,7 +531,8 @@ generally considered difficult to predict.<p>
 </p>
 <figure id="approaches">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_map_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Logistic map</p>
+<p class="tb-caption">Figure 5.3: When systems are predictable, small changes in initial conditions can taper out. When
+they are chaotic, small changes in initial conditions lead to wildly different outcomes.</p>
 <!--<figcaption>Logistic map</figcaption>-->
 </figure>
 <p><strong>AIs as a self-reinforcing feedback loop.</strong> Since AIs
@@ -794,7 +798,8 @@ may be more or less than 1. We will now discuss these <em>power
 laws</em>, which are another hallmark of complex systems.</p>
 <figure id="approaches">
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/kleiber_v2.png" class="tb-img-full" style="width: 85%"/>
-<p class="tb-caption">Kleiber’s Law</p>
+<p class="tb-caption">Figure 5.4: Data on mammals and birds demonstrate Kleiber’s Law, with a power law relationship
+appearing as a straight line on a log-log graph.</p>
 <!--<figcaption>Kleiber’s Law</figcaption>-->
 </figure>
 <p><strong>Complex systems often obey power-law scalings of their

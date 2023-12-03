@@ -617,7 +617,7 @@ points into buckets.
 <figure id="fig:example-binary-class">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png"
          class="tb-img-full" style="width: 70%; "/>
-    <p class="tb-caption">ML models can classify data into different categories. <span
+    <p class="tb-caption">Figure 2.1: ML models can classify data into different categories. <span
 class="citation" data-cites="drouin2017class">[17]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png" />-->
 <!--<figcaption>ML models can classify data into different categories. <span-->
@@ -638,7 +638,7 @@ sigmoid function.<p>
 </p>
 <figure id="fig:logistic-classification">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" class="tb-img-full" style="width: 70%; ">
-            <p class="tb-caption">Example of binary classification with a sigmoid-like
+            <p class="tb-caption">Figure 2.2: Example of binary classification with a sigmoid-like
 logistic curve - <span class="citation"
 data-cites="wikipedia-logistic">[18]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" />-->
@@ -660,7 +660,8 @@ Regression is estimation: it involves guessing what a feature of a data
 point will be given the rest of its characteristics.</p>
 <figure id="fig:simple_regression">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" class="tb-img-full" style="width: 70%; "/>
-    <p class="tb-caption">Example regression plot - <span class="citation"
+    <p class="tb-caption">Figure 2.3: This linear regression model is the best linear predictor of an output (umbrellas sold)
+using only information from the input (precipitation). - <span class="citation"
 data-cites="drouin2017class">[17]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" />-->
 <!--<figcaption>Example regression plot - <span class="citation"-->
@@ -692,7 +693,8 @@ performance of models in real-world situations.</p>
 <!--style="width:50.0%" />-->
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time.png"
          class="tb-img-full" style="width: 75%"/>
-    <p class="tb-caption">Two examples of anomaly detection -<span class="citation"
+    <p class="tb-caption">Figure 2.4: The first graph shows the detection of atypical user activity. The second graph shows the
+detection of unusually high energy usage. In both cases, the model detects anomalies. <span class="citation"
 data-cites="hendrycks-anomaly">[20]</span></p>
 </figure>
 <p><strong>Black swan detection is an essential problem within anomaly
@@ -882,7 +884,8 @@ of positive.</p></li>
 <figure id="fig:confusion-matrix">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/predicted-actual-green-purple.png"
      class="tb-img-full" style="width: 80%" />
-    <p class="tb-caption">Confusion matrix</p>
+    <p class="tb-caption">Figure 2.5: A confusion matrix shows the four possible outcomes from a prediction: true positive,
+false positive, false negative, and true negative.</p>
 <!--<figcaption>Confusion matrix</figcaption>-->
 </figure>
 <p>Since each prediction must be in one of these categories, the number
@@ -941,7 +944,8 @@ and vice versa.<p>
 <figure id="fig:precision-recall">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/true-false-positives-green-purple.png"
      class="tb-img-full" style="width:80%"/>
-    <p class="tb-caption">Visualization of precision and recall - <span
+    <p class="tb-caption">Figure 2.6: Precision measures the correctness of positive predictions and penalizes false positives,
+while recall measures how many positives are detected and penalizes false negatives. <span
         class="citation"
         data-cites="wikipedia-precision">[21]</span>
     </p>
@@ -965,8 +969,8 @@ higher than a negative example.<p>
 </p>
 <figure id="fig:AUROC">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" class="tb-img-full" style="width: 60%;" />
-    <p class="tb-caption">The AUROC score increases as it moves in the northwest
-direction. <span class="citation"
+    <p class="tb-caption">Figure 2.7: The area under the ROC curve (AUROC) increases as it moves in the northwest direction,
+with more true positives and fewer false positives. <span class="citation"
 data-cites="wikipedia-roccurve">[22]</span></p>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" />-->
 <!--<figcaption>The AUROC score increases as it moves in the northwest-->
@@ -1037,7 +1041,8 @@ in any of these settings.<p>
 </p>
 <figure id="fig:learning-paradigm">
     <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:95%;"/>
-    <p class="tb-caption">Learning paradigms in machine learning</p>
+    <p class="tb-caption">Figure 2.8: The three main types of learning paradigms in machine learning are supervised learning,
+unsupervised learning, and reinforcement learning.</p>
 <!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" />-->
 <!--<figcaption>Learning paradigms in machine learning </figcaption>-->
 </figure>
@@ -1099,7 +1104,8 @@ can be used to generate new images.</p>
 <figure id="fig:inpainting">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inpainting.png"
 class="tb-img-full" style="width: 70%"/>
-    <p class="tb-caption">Image inpainting - <span class="citation"
+    <p class="tb-caption">Figure 2.9: In image inpainting, models are trained to predict hidden parts of images, causing them
+to learn relationships between pixels. <span class="citation"
 data-cites="elharrouss2019">[23]</span></p>
 <!--<figcaption>Image inpainting - <span class="citation"-->
 <!--data-cites="elharrouss2019">[23]</span></figcaption>-->

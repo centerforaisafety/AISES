@@ -342,7 +342,9 @@ that accidents cannot be solely explained by an action at the sharp
 end.</p>
 <figure id="fig:Rasmussen">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Rasmussen.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Rasmussen’s Risk Management Framework</p>
+<p class="tb-caption">Figure 4.9: Rasmussen’s risk management framework lays out six levels of organization and their
+interactions, aiming to mark consistent safety boundaries by identifying hazards and those responsible
+for them</p>
 <!--<figcaption>Rasmussen’s Risk Management Framework</figcaption>-->
 </figure>
 <p><strong>Systems can gradually migrate into unsafe states.</strong>
