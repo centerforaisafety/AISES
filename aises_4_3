@@ -78,9 +78,7 @@ during a journey where it has to make only 10 decisions.<p>
 </div>
 For a given level of reliability, we can calculate an expected time
 before failure. Imagine that we have several autonomous vehicles with
-different levels of reliability, as shown in Table <a
-href="#tab:nines-of-rel" data-reference-type="ref"
-data-reference="tab:nines-of-rel">Nines of Reliability</a>. Reliability is
+different levels of reliability, as shown in Table Nines of Reliability. Reliability is
 the probability that the vehicle will get any given decision correct.
 The second column shows the complementary probability: the probability
 that the AV will get any given decision wrong. The fourth column shows
@@ -97,8 +95,7 @@ the relationship between system reliability and expected time before failure is 
 </figure>
 <p><strong>Expected time before failure does not scale linearly with
 system reliability.</strong> We plot the information from the table in
-Figure <a href="#fig:reliability-vs-time" data-reference-type="ref"
-data-reference="fig:reliability-vs-time">1</a>. From looking at this
+Figure 4.2. From looking at this
 graph, it is clear that the expected time before failure does not scale
 linearly with the system’s reliability. A 25% change that increases the
 reliability from 50% to 75%, for example, doubles the expected time
@@ -116,9 +113,7 @@ later in this chapter.<p>
 <strong>A system with 3 “nines of reliability” is functioning 99.9% of
 the time.</strong> As we get close to 100% reliability, it gets
 inconvenient to use long decimals to express how reliable a system is.
-The third column in table <a href="#tab:nines-of-rel"
-data-reference-type="ref"
-data-reference="tab:nines-of-rel">Nines of Reliability</a> gives us
+The third column in table “Nines of Reliability” gives us
 information about a different metric: the nines of reliability <span
 class="citation" data-cites="Tao2021">[1]</span>. Informally, a system
 has nines of reliability equal to the number of nines at the beginning

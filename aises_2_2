@@ -865,9 +865,7 @@ classification algorithms.</strong> A confusion matrix is an evaluative
 tool for displaying different prediction errors. It is a table that
 compares a model’s predicted values with the actual values. For example,
 the performance of a binary classifier can be represented by a <span
-class="math inline">2 × 2</span> confusion matrix, as shown in Figure <a
-href="#fig:confusion-matrix" data-reference-type="ref"
-data-reference="fig:confusion-matrix">4</a>. In this context, when
+class="math inline">2 × 2</span> confusion matrix, as shown in Figure 2.5. In this context, when
 making predictions, there are four possible outcomes:</p>
 <ol>
 <li><p><strong>True positive (TP)</strong>: A true positive is a correct

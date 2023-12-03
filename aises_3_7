@@ -171,9 +171,7 @@ systems may deceive humans as to their true usefulness, safety, and so
 forth, damaging our ability to successfully steer them.</p>
 <p><strong>Deception is one way to game evaluations.</strong> Humans
 would give higher evaluation scores to AI systems if they falsely
-believe that those systems are behaving well. For example, the <a
-href="#sec:proxy-gaming" data-reference-type="ref"
-data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a> section
+believe that those systems are behaving well. For example, the Proxy Gaming section
 includes an example of a robotic claw that learned to move between the
 camera and the ball it was supposed to grasp. Because of the angle of
 the camera, it looked like the claw was grasping the ball when it was
@@ -232,9 +230,7 @@ There are two main reasons AI systems might do this. First, an AI system
 might engage in deceptive evaluation gaming if its final goal is to get
 positive evaluations. When this occurs, the system is engaging in proxy
 gaming, where positive evaluations are only a proxy for idealized
-performance. Proxy gaming is covered at length in the <a
-href="#sec:proxy-gaming" data-reference-type="ref"
-data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a> section.
+performance. Proxy gaming is covered at length in the Proxy Gaming section.
 Second, we will turn to the case where an AI system engages in deceptive
 evaluation gaming in service of a secretly held final goal. This danger
 is known as deceptive alignment.</p>

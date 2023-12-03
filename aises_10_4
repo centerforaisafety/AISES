@@ -46,9 +46,7 @@ unwilling to take the risk of a potential loss in order to potentially
 earn a higher reward. Most humans are instinctively risk averse. A
 common example of a risk-averse utility function is <span
 class="math inline"><em>u</em>(<em>x</em>) = log <em>x</em></span> (red
-line in Figure <a href="#fig:attitudes-to-risk"
-data-reference-type="ref"
-data-reference="fig:attitudes-to-risk">[fig:attitudes-to-risk]</a>).</p></li>
+line in Figure B.4).</p></li>
 <li><p><em>Risk neutrality</em> is the tendency to be indifferent
 between a certain outcome and a risky option with the same expected
 value. For such players, expected utility is proportional to expected
@@ -59,9 +57,7 @@ lottery has negative expected value. Conversely, if the expected value
 was positive, they would prefer to participate, since it would then have
 positive expected value. The simplest risk-neutral utility function is
 <span class="math inline"><em>u</em>(<em>x</em>) = <em>x</em></span>
-(blue line in Figure <a href="#fig:attitudes-to-risk"
-data-reference-type="ref"
-data-reference="fig:attitudes-to-risk">attitudes to risk</a>).</p></li>
+(blue line in Figure B.4).</p></li>
 <li><p><em>Risk seeking</em> is the tendency to prefer a risky option
 over a sure thing with the same expected value. A risk-seeking agent
 would be happy to participate in this lottery. The individual is willing
@@ -71,9 +67,7 @@ lower wealth through repeated choices made over time. However, this is
 not necessarily the case. An example of a risk-seeking utility function
 is <span
 class="math inline"><em>u</em>(<em>x</em>) = <em>x</em><sup>2</sup></span>
-(green line in Figure <a href="#fig:attitudes-to-risk"
-data-reference-type="ref"
-data-reference="fig:attitudes-to-risk">attitudes to risk]</a>).</p></li>
+(green line in Figure B.4).</p></li>
 </ol>
 <p>We can define each risk attitude in three equivalent ways. Each draws
 on a different aspect of how we represent an agent’s preferences.</p>

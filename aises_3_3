@@ -41,9 +41,7 @@ class="citation" data-cites="zoph2017neural">[2]</span></p>
 <p><strong>Even simple ML techniques suffer from opaqueness.</strong>
 Opaqueness is not unique to neural networks. Even simple ML techniques
 such as Principal Component Analysis (PCA), which are better understood
-theoretically than DL, suffer from similar flaws. For example, Figure <a
-href="#fig:Eigenfaces" data-reference-type="ref"
-data-reference="fig:Eigenfaces">2</a> depicts the results of performing
+theoretically than DL, suffer from similar flaws. For example, Figure 3.3 depicts the results of performing
 PCA on pictures of human faces. This yields a set of “eigenfaces”,
 capturing the most important features identifying a face. Any picture of
 a face can then be represented as a particular combination of these
@@ -96,9 +94,7 @@ on a pattern of the input that is clear to humans. For example, a neuron
 might activate only when an image contains dog ears. In other cases, we
 observe <em>polysemantic neurons</em>, which defy a single
 interpretation <span class="citation"
-data-cites="elhage2022softmax">[7]</span>. Consider Figure <a
-href="#fig:random-neuron" data-reference-type="ref"
-data-reference="fig:random-neuron">3</a> , which shows images that
+data-cites="elhage2022softmax">[7]</span>. Consider Figure 3.4, which shows images that
 highly activate a randomly chosen neuron in an image model. Judging from
 the natural images, it seems like the neuron often activates when text
 associated with traveling or moving is present, but it’s hard to be
@@ -344,8 +340,7 @@ illustration, we will describe a purported circuit from a language
 model. Researchers identified how a language model often predicts
 indirect objects of sentences (such as “Mary” in “John gave a drink to
 ...”) as a simple algorithm using all previous names in a sentence (see
-Figure <a href="#fig:id-circuit" data-reference-type="ref"
-data-reference="fig:id-circuit">5</a> below). This mechanism did not
+Figure 3.6 below). This mechanism did not
 merely agree with model behavior, but was directly derived from the
 model weights, giving more confidence that the algorithm is a faithful
 description of an internal model mechanism <span class="citation"

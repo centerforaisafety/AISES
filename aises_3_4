@@ -277,9 +277,7 @@ incentives. These <em>principal-agent problems</em> can cause the
 overall system not to faithfully pursue the original goal.<p>
 Each step in the chain of breaking goals down introduces further
 opportunity for approximation error to creep in. We speak more about
-failures due to delegation such as goal conflict in the <a
-href="#subsec:intrasys-goal" data-reference-type="ref"
-data-reference="subsec:intrasys-goal">Intrasystem Goal Conflict</a> section
+failures due to delegation such as goal conflict in the Intrasystem Goal Conflict section
 in Collective Action Problems.</p>
 <h3 id="limits-to-supervision">Limits to Supervision</h3>
 <p>Frequently occurring sources of approximation error mean that we do

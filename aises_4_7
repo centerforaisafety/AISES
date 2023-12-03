@@ -81,9 +81,7 @@ shift the mean but not the median of the event type’s impact.</p>
 </figure>
 </div>
 <p><strong>A tail event often changes the mean but not the
-median.</strong> Figure <a href="#wrap-fig:tails"
-data-reference-type="ref"
-data-reference="wrap-fig:tails">[wrap-fig:tails]</a> can help us
+median.</strong> Figure 4.10 can help us
 visualize how tail events affect the wider risk landscape. The graphs
 show data points representing individual events, with their placement
 along the x-axis indicating their individual impact.<p>
@@ -137,14 +135,10 @@ distributions tell us about the proportion of items in a dataset that
 have each possible value of a given variable. Suppose we want to study
 some quantity, such as the ages of buildings. We might plot a graph
 showing how many buildings there are in the world of each age, and it
-might look something like the generic graph shown in figure <a
-href="#fig:exponential" data-reference-type="ref"
-data-reference="fig:exponential">1</a>.<p>
+might look something like the generic graph shown in Figure 4.11.<p>
 The x-axis would represent building age, while the y-axis would indicate
 the number of buildings of each age—the frequency of a particular age
-appearing in the dataset. If our graph looked like figure <a
-href="#fig:exponential" data-reference-type="ref"
-data-reference="fig:exponential">1</a>, it would tell us that there are
+appearing in the dataset. If our graph looked like figure 4.11, it would tell us that there are
 many buildings that are relatively new, perhaps only a few decades or a
 hundred years old, fewer buildings that are several hundred or a
 thousand years old, and very few buildings, such as the Pyramids at
@@ -288,9 +282,7 @@ scale (top). Looking at extreme values (middle), especially on a log scale (bott
 </figure>
 </div>
 <p><strong>Exponential distributions are thin-tailed
-distributions.</strong> Figure <a href="#wrap-fig:exponentials"
-data-reference-type="ref"
-data-reference="wrap-fig:exponentials">[wrap-fig:exponentials]</a> shows
+distributions.</strong> Figure 4.13 shows
 an exponential distribution (in black) and a power-law distribution (in
 grey). At first glance, they look quite similar. However, in the second
 and third graphs, we zoom in to the tail end of the graph and change the
@@ -348,8 +340,7 @@ If another athlete jumps 8 meters at the training session, then we might
 expect that their personal best is around 8.5 meters. If yet another
 athlete jumps 8.5 meters, then we might think their personal best is
 around 8.7 meters.<p>
-Figure <a href="#fig:excess" data-reference-type="ref"
-data-reference="fig:excess">3</a> shows a plot of the observed jumps as
+Figure 4.14 shows a plot of the observed jumps as
 blue dots, and our best guess of each athlete’s personal best in dotted
 lines. Notice how, as the definite minimum value increases, we observe a
 shrinking margin between this lower bound and our estimate of the
@@ -386,8 +377,7 @@ years, then we might well expect it to remain so for another 100 because
 it has showed it is robust to the test of time; if it has already
 remained relevant and interesting for a long time, then it is more
 likely to continue to do so for a long time into the future.<p>
-Figure <a href="#fig:excess" data-reference-type="ref"
-data-reference="fig:excess">3</a> shows some hypothetical observations
+Figure 4.14 shows some hypothetical observations
 of the current ages of books as blue lines, and our estimate of what
 their actual lifespan will be in dotted lines. Notice how, as the known
 lower bound of lifespan increases, the amount of additional time we
