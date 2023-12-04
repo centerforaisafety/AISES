@@ -2084,7 +2084,8 @@ incentivizes the extortionist to execute their threat as punishment for
 their target’s refusal to submit.</p>
 <p><strong>AI agents extorting humans.</strong> AI agents might also
 extort human targets. One example scenario would be an AI developing
-both a weaponized biological pathogen, and an effective cure. If the
+both a weaponized biological pathogen, and an effective cure <span class="citation"
+data-cites="patel2023takeover">[27]</span>. If the
 pathogen is slow-acting, the AI agent could then extort humans by
 deploying the bioweapon, and leveraging the promise of its cure to force
 those infected into complying with this demands. Pathogens that are
@@ -2338,6 +2339,7 @@ in orchids,”</span> <em>Die Naturwissenschaften</em>, vol. 92, pp.
 255–64, Jul. 2005, doi: <a
 href="https://doi.org/10.1007/s00114-005-0636-y">10.1007/s00114-005-0636-y</a>.</div>
 </div>
+
 <div id="ref-mokkonen2015evolutionary" class="csl-entry"
 role="listitem">
 <div class="csl-left-margin">[26] M.
@@ -2345,5 +2347,9 @@ Mokkonen and L. Carita, <span>“The evolutionary ecology of
 deception,”</span> <em>Biological Reviews</em>, vol. 91, pp. n/a–n/a,
 Jun. 2015, doi: <a
 href="https://doi.org/10.1111/brv.12208">10.1111/brv.12208</a>.</div>
+</div>
+<div id="ref-patel2023takeover" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[27] D. Patel (Host) and Carl Shulman, <span>“AI Takeover, Bio &amp; Cyber Attacks, Detecting Deception, & Humanity's Far Future.,”</span>
+    <em>Dwarkesh Podcast</em>, 2023, <a href="https://www.youtube.com/watch?v=KUieFuV1fuo&ab_channel=DwarkeshPatel">Audio podcast episode</a></div>
 </div>
 </div>
