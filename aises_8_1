@@ -24,7 +24,8 @@ external synchronization, achieving this preferable state is impossible.
 All anyone can do is start and stop in response to each others’ starting
 and stopping, inching towards their destination slowly and
 haltingly.</p>
-<p><strong>Tall forests.</strong> In the Rockefeller forest of Northern
+<p><strong>Example: Tall forests <span class="citation"
+data-cites="dawkins1986blind">[2]</span>.</strong> In the Rockefeller forest of Northern
 California, the trees are more than 350 feet tall, on average. We can
 model these trees as agents competing for sunlight access. The taller a
 tree is, the more sunlight it can access, as its leaves are above its
@@ -38,7 +39,17 @@ costs. All the trees would profit from this arrangement. However, as
 there is no way to impose such an agreement between the trees, each
 races its neighbor ever higher, and all pay the large costs of growing
 so tall.</p>
-<p><strong>Military arms races.</strong> Like tree height, the major
+
+<strong> Example: excessive working hours <span class="citation"
+data-cites="warren2004two">[3]</span>.</strong> People often work far longer hours than they might ideally like to,
+rather than taking time off for their other interests, in order to be competitive in their field. For instance,
+they might be competing for limited prestigious positions within their field. In theory, if everyone in a given field
+were to reduce their work hours by the same amount, they could all free up time and increase their quality of life while
+maintaining their relative position in the competition. Each person would get the work outcome they
+would have otherwise, and everyone would benefit from this freed-up time. Yet no one does this, because if they alone
+were to decrease their work efforts, they would be out-competed by others who did not.
+
+<p><strong>Example: Military arms races.</strong> Like tree height, the major
 benefit of military power is not intrinsic, but relative: being less
 militarily capable than their neighbors makes a nation vulnerable to
 invasion. This competitive pressure drives nations to expend vast sums
@@ -55,7 +66,7 @@ vulnerable if it alone fails to do this. Military expenditure therefore
 remains high in spite of these seemingly avoidable costs.</p>
 <p><strong>Competitive and evolutionary pressures.</strong> The same
 basic structure underlies most of these examples <span class="citation"
-data-cites="alexander2016meditations">[2]</span>. A group of agents is
+data-cites="alexander2016meditations">[]</span>. A group of agents is
 engaged in a competition over a valuable and limited item (sunlight
 access, housing quality, military security). One way an agent can gain
 more of this valuable item is by sacrificing some of their other values
@@ -98,7 +109,7 @@ hazardous military AI applications. By observing AI races, we can
 anticipate that merely persuading these parties that their actions are
 high-risk may not be sufficient for ensuring that they act more
 cautiously, because they may be willing to tolerate high risk levels in
-order to “stay in the race.” For example, nations may chose to continue
+order to “stay in the race.” For example, nations may choose to continue
 investing in military AI technologies that could fail in catastrophic
 ways, if abstaining from doing so risks losing international
 conflict.</p></li>
@@ -147,7 +158,7 @@ immoral AI behaviors, such as deception and even extortion.</p>
 <p><strong>Central theme: Natural selection will promote AIs that behave
 selfishly.</strong> In this section, we first explore generalized
 Darwinism, which is the idea that evolution by natural selection can
-take place outside of the realm of biology. We explore examples in
+take place outside the realm of biology. We explore examples in
 linguistics, music, philosophy and sociology. We formalize generalized
 Darwinism using Lewontin’s conditions for evolution by natural selection
 and the Price equation for evolutionary change. Using both, we show that
@@ -227,11 +238,22 @@ role="listitem">
 <div class="csl-left-margin">[1] T.
 C. Schelling, <span>“Micromotives and macrobehavior,”</span> 1978.</div>
 </div>
+<div id="ref-dawkins1986blind" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[2] R. Dawkins, <span>“The Blind Watchmaker,”</span> New York and London, 1986.</div>
+</div>
+<div id="refs-warren" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-warren2004two" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[3] E. Warren and A. W. Tyagi, <span>“The Two Income Trap: Why Middle-Class Parents are Going Broke,”</span> Basic Books, 2004.</div>
+</div>
 <div id="ref-alexander2016meditations" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[2] S.
+<div class="csl-left-margin">[3] S.
 Alexander, <span>“Meditations on moloch.”</span> Accessed: Sep. 29,
 2023. [Online]. Available: <a
-href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">https://slatestarcodex.com/2014/07/30/meditations-on-moloch/</a></div>
+href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">https://slatestarcodex.com/2014/07/30/meditations-on-moloch/</a>
+</div>
 </div>
 </div>

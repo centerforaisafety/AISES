@@ -97,7 +97,7 @@ data-cites="allais1953comportement">[2]</span>.<p>
 </p>
 <br>
 <table class="tableLayout">
-<caption>Allais Paradox: Scenario A</caption>
+<caption>Table B.3: Allais Paradox: Scenario A</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Choice:</th>
@@ -117,7 +117,7 @@ million % chance of $0</td>
 <br>
 <br>
 <table class="tableLayout">
-<caption>Allais Paradox: Scenario B</caption>
+<caption>Table B.4: Allais Paradox: Scenario B</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Choice:</th>
@@ -162,7 +162,7 @@ class="math inline">$</span>1 million.<p>
 </p>
 <br>
 <table class="tableLayout">
-<caption>Allais Paradox: Scenario A reduced</caption>
+<caption>Table B.5: Allais Paradox: Scenario A reduced</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -195,7 +195,7 @@ class="math inline">%</span> chance of winning <span
 class="math inline">$</span>0 has simply been ignored.<p>
 </p>
 <table class="tableLayout">
-<caption>Allais Paradox: Scenario B reduced</caption>
+<caption>Table B.6: Allais Paradox: Scenario B reduced</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -304,7 +304,7 @@ presented in the table below.<p>
 </p>
 <br>
 <table class="tableLayout">
-<caption>Framing effects: Scenario A</caption>
+<caption>Table B.7: Framing effects: Scenario A</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Choice:</th>
@@ -323,7 +323,7 @@ saves no one.</td>
 </table>
 <br> <br>
 <table class="tableLayout">
-<caption>Framing effects: Scenario B</caption>
+<caption>Table B.8: Framing effects: Scenario B</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Choice:</th>
@@ -351,7 +351,7 @@ framing. Scenario A is presented in terms of lives saved, and Scenario B
 in terms of deaths caused. The equivalence is shown in this table.</p>
 <br>
 <table class="tableLayout">
-<caption>Framing effects: Scenarios A and B compared</caption>
+<caption>Table B.9: Framing effects: Scenarios A and B compared</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Choice:</th>
@@ -410,7 +410,7 @@ decisions in uncertain situations.</p>
 
 <figure id="fig:company-life">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/prospecttheory.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.7: Prospect Theory’s value function</p>
+<p class="tb-caption">Figure B.7: Prospect theory’s value function is steeper in losses than in gains.</p>
 </figure>
 
 <p><strong>Prospect theory’s value function approximates how humans
@@ -450,7 +450,7 @@ probabilities.<p>
 
 <figure id="fig:human-value">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/humanvalue.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.8: Human perceptions of probabilities</p>
+<p class="tb-caption">Figure B.8:  Humans often perceive probabilities incorrectly, overestimating the likelihood of low-probability events and underestimating the likelihood of high-probability events.</p>
 </figure>
 
 

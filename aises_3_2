@@ -38,8 +38,8 @@ unbiased AI systems requires proactively identifying and mitigating
 biases across the entire lifecycle.</p>
 <figure id="fig:enter-label">
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bias_diagram.png" class="tb-img-full" style="width: 90%"/>
-<p class="tb-caption">Systematic psychological, historical, and social biases can
-lead to algorithmic biases within AI systems.</p>
+<p class="tb-caption">Figure 3.1: Systematic psychological, historical, and social biases can lead to algorithmic biases
+within AI systems. </p>
 <!--<figcaption>Systematic psychological, historical, and social biases can-->
 <!--lead to algorithmic biases within AI systems.</figcaption>-->
 </figure>

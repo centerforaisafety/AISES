@@ -317,7 +317,8 @@ the resource we already have.<p>
 
 <figure id="fig:logarithms">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logarithms.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.1: The properties of logarithmic functions</p>
+<p class="tb-caption">Figure B.1: Logarithmic functions share several properties, such as being concave and crossing
+the y-axis at one. </p>
 </figure>
 
 </div>
@@ -362,7 +363,8 @@ calculations and reasonable human behavior.<p>
 
 <figure id="fig:stpetersburg">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/stpetersburg.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.2: St. Petersburg Paradox</p>
+<p class="tb-caption">Figure B.2: Winnings from the St. Petersburg Paradox double after each coin toss, offering small
+likelihoods of big prizes.</p>
 </figure>
 
 <p><strong>Logarithmic utility functions can represent decreasing
@@ -411,7 +413,8 @@ will explore in the next chapter.<p>
 
 <figure id="fig:flip">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/stpetersburg_ev_eu.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure B.3: St. Petersburg Paradox: expected utility and expected value</p>
+<p class="tb-caption">Figure B.3:  In the St. Petersburg Paradox, each subsequent flip has the same expected value but
+expected utility falls sharply.</p>
 </figure>
 
 <p><strong>Summary.</strong> In this section, we examined the properties

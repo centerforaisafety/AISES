@@ -128,14 +128,13 @@ purchased, and shipped.</p>
         <img
         src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/compute.png" style="width:70%"
         alt="image" />
-        <p class="tb-caption">Semiconductor Manufacturing Tool - ASML Twinscan NXE</p>
+        <p class="tb-caption">Figure 9.2: Advanced semiconductor manufacturing
+tools (such as the ASML Twinscan NXE) are large, highly specialized machines.</p>
     </figure>
 </div>
 <p><strong>Since compute is physical, it is trackable.</strong> Compute
 is trackable, from chip fabrication to its use in data centers. This is
-because compute is tangible and often sizable: figure <a
-href="#wrap-fig:governance" data-reference-type="ref"
-data-reference="wrap-fig:governance">Governance</a> shows a
+because compute is tangible and often sizable: Figure 9.2 shows a
 cutting-edge semiconductor tool used as compute that costs $200 million
 and requires 40 freight containers, 20 trucks, and 3 cargo planes to
 ship anywhere.<p>

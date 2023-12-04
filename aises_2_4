@@ -49,8 +49,7 @@ This is a linear equation (in the logarithmic space) where <span
 class="math inline"><em>a</em></span> is the slope and <span
 class="math inline">log (<em>b</em>)</span> is the y-intercept.
 Therefore, a power-law relationship will appear as a straight line on a
-log-log plot (such as <a href="#fig:log-log-plot"
-data-reference-type="ref" data-reference="fig:log-log-plot">1</a>), with
+log-log plot (such as Figure 2.22), with
 the <em>slope</em> of the line corresponding to the <em>exponent</em> in
 the power law.<p>
 </p>
@@ -68,7 +67,8 @@ the power law.<p>
         </figure>
     </div>
 </div>
-<p class="tb-caption">An object in free falling in a vacuum falls a distance proportion to the square of the time. On a log-log plot, this power law looks like a straight line.</p>
+<p class="tb-caption">Figure 2.22: An object in free falling in a vacuum falls a distance proportion to the square of the
+time. On a log-log plot, this power law looks like a straight line.</p>
 <!--<figcaption>A log-log plot for the power law <span-->
 <!--class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></span>.-->
 <!--This shows that the power law results in a straight line.</figcaption>-->
@@ -78,9 +78,7 @@ a robust mathematical framework that can describe, predict, and explain
 a vast range of phenomena in both nature and society. Power laws are
 pervasive in urban planning: log-log plots relating variables like city
 population to metrics such as the percentage of cities with at least
-that population often result in a straight line (see Fig <a
-href="#fig:city-pop" data-reference-type="ref"
-data-reference="fig:city-pop">2</a>). Similarly, animals’ metabolic
+that population often result in a straight line (see Fig 2.23). Similarly, animals’ metabolic
 rates are proportional to an exponent of their body mass, showcasing a
 clear power law. In social media, the distribution of user activity
 often follows a power law, where a small fraction of users generate most
@@ -99,12 +97,12 @@ and more.</p>
         </figure>
     </div>
     <div class="column">
-        <figure id="fig:city-pop">
+        <figure id="fig:city-pop-log">
         <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_log_v2.png" class="tb-img-full" style="width:95%"/>
         </figure>
     </div>
 </div>
-<p class="tb-caption">Power laws are used in many domains, such as city planning. - <span class="citation"
+<p class="tb-caption">Figure 2.23: Power laws are used in many domains, such as city planning. - <span class="citation"
         data-cites="Newman2005">[1]</span></p>
 <h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
@@ -177,7 +175,8 @@ depends on parameter count and data. This law demonstrated that larger
 models require much more data than was standard.</p>
 <figure id="fig:chinchilla">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/chinchilla.png" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Lighter colors indicate less loss - <span class="citation"
+<p class="tb-caption">Chinchilla’s loss is much lower (indicated by its lighter color) than other models of
+similar size. It used much more data than other models. <span class="citation"
 data-cites="chinchilla-image">[5]</span></p>
 <!--<figcaption>Lighter colors indicate less loss - <span class="citation"-->
 <!--data-cites="chinchilla-image">[5]</span></figcaption>-->
@@ -186,9 +185,7 @@ data-cites="chinchilla-image">[5]</span></p>
 relationships.</strong> The Chinchilla scaling law is estimated to be
 <span class="math display">$$\label{eq:chinchilla}
     L(N,D) = 406.4N^{-0.34} + 410.7D^{-0.28} +
-\underbrace{1.69}_{\text{Irreducible Error}}$$</span> In equation <a
-href="#eq:chinchilla" data-reference-type="ref"
-data-reference="eq:chinchilla">[eq:chinchilla]</a>, <span
+\underbrace{1.69}_{\text{Irreducible Error}}$$</span> In the equation above, <span
 class="math inline"><em>N</em></span> represents parameter count, <span
 class="math inline"><em>D</em></span> represents dataset size, and <span
 class="math inline"><em>L</em></span> stands for loss. This equation
@@ -208,7 +205,7 @@ size increases dramatically.<p>
 </p>
 <figure id="fig:enter-label">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/test_loss.png" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Scaling laws for different DL models - <span
+<p class="tb-caption">Figure 2.25: The scaling laws for different DL models look remarkably similar. <span
 class="citation" data-cites="brown2020language">[6]</span></p>
 <!--<figcaption>Scaling laws for different DL models - <span-->
 <!--class="citation" data-cites="brown2020language">[6]</span></figcaption>-->

@@ -229,10 +229,7 @@ partner will decide to do.<p>
 <figure id="fig:pris-dillema">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/world-one-and-two.png" alt="image"
         class="tb-img-full" style="width: 80%"/></p>
-<p class="tb-caption">The possible outcomes for Alice in the Prisoner’s
-Dilemma</p>
-<!--<figcaption>The possible outcomes for Alice in the Prisoner’s-->
-<!--Dilemma</figcaption>-->
+<p class="tb-caption">Figure 8.1: The possible outcomes for Alice in the Prisoner’s Dilemma.</p>
 </figure>
 <em>A) The four possible outcomes facing Alice, divided into “World
 1” and “World 2.” In both scenarios, Alice must choose whether to
@@ -280,8 +277,7 @@ fashion. Each is deciding between identical outcomes, and each wishes to
 minimize their own jail time. Let’s consider the four possible outcomes
 now in terms of both the suspects’ jail sentences; see Figure 3A. We can
 display this information in a <em>payoff matrix</em>, as shown in Table
-<a href="#tab:payoff-matrix" data-reference-type="ref"
-data-reference="tab:payoff-matrix">1</a>. Payoff matrices are commonly
+8.1. Payoff matrices are commonly
 used to visualize games. They show all the possible outcomes of a game
 in terms of the value of that outcome for each of the agents involved.
 In the Prisoner’s Dilemma, we show the decision outcomes as the payoffs
@@ -291,7 +287,8 @@ the two suspects’ decisions as the payoff to each suspect.<p>
 </p>
 <div id="tab:payoff-matrix">
 <table class="prisonTable">
-<caption>A Prisoner’s Dilemma payoff matrix</caption>
+<caption>Table 8.1: Each cell in this payoff matrix represents a payoff. If Alice cooperates and Bob defects,
+the top right cell tells us that Alice gets 8 years in jail while Bob goes free.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -357,20 +354,16 @@ some or all agents involved, and not worse for any, we call the switch
 to this more efficient outcome a <em>Pareto improvement</em>. In the
 Prisoner’s Dilemma, the <em>both cooperate</em> outcome is better for
 both agents than the Nash equilibrium of <em>both defect</em>; see
-Figure <a href="#fig:pareto-comparison" data-reference-type="ref"
-data-reference="fig:pareto-comparison">2</a>B. The only Pareto
+Figure 8.2B. The only Pareto
 improvement possible in this game is the move from the <em>both
-defect</em> to the <em>both cooperate</em> outcome; see Figure <a
-href="#fig:pareto-efficiency" data-reference-type="ref"
-data-reference="fig:pareto-efficiency">3</a>.<p>
+defect</em> to the <em>both cooperate</em> outcome; see Figure 8.3.<p>
 </p>
-<figure id="fig:pareto-comparison">
-<p><img
-src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
-alt="image" class="tb-img-full" style="width: 80%"/> <span id="fig:pareto-comparison"
-label="fig:pareto-comparison"></span></p>
-<p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
-Dilemma</p>
+<figure id="fig:choices">
+<p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice and Bob choices red green.png"
+alt="image" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 8.2: Looking at the possible outcomes for both suspects in the Prisoner’s Dilemma, we can
+see that there is a possible Pareto improvement from the Nash equilibrium. The numbers represent
+their payoffs (rather than the length of their jail sentence).</p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma</figcaption>-->
 </figure>
@@ -387,8 +380,9 @@ produce a Pareto improvement.</em><p>
 <figure id="fig:pareto-efficiency">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payout-purple-green.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">The possible outcomes for both suspects in the Prisoner’s
-Dilemma - adapted from <span class="citation"
+<p class="tb-caption">Figure 8.3: Both suspects’ payoffs, in each of the four decision outcomes. Moving right increases
+Alice’s payoff, and moving up improves Bob’s payoff. A Pareto improvement requires moving right
+and up, as shown by the green arrow. <span class="citation"
 data-cites="kuhn2019prisoner">[1]</span></p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma - adapted from <span class="citation"-->
@@ -482,19 +476,17 @@ chapter, and “AI consciences” in the Machine Ethics chapter.<p>
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Agents-may-cooperate-because updated.png" class="tb-img-full"/>
-<p class="tb-caption">Five reasons agents might cooperate - <span class="citation"> data-cites="parfit1984reasons">[2]</span></p>
-=======
-<figcaption>Five reasons agents might cooperate - <span class="citation">
-<!--data-cites="parfit1984reasons">[2]</span></figcaption>-->
+<p class="tb-caption">Figure 8.4: Five possible reasons why agents may cooperate in prisoner’s Dilemma-like scenarios.
+This section explores two: changes to the payoff matrix and increased agent altruism. <span class="citation" data-cites="parfit1984reasons">[2]</span></p>
 </figure>
+
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
 Dilemma-like scenarios. As highlighted, this section explores only two:
 
 <p><strong>External consideration: changing the payoffs to incentivize
 cooperation.</strong> By adjusting the values in the payoff matrix, we
 may more easily steer agents away from undesirable equilibria. As shown
-in Table <a href="#tab:abstract" data-reference-type="ref"
-data-reference="tab:abstract">2</a>, incentive structures are important.
+in Table 8.2, incentive structures are important.
 A Prisoner’s Dilemma-like scenario may arise wherever an individual
 agent will do better to defect whether their partner cooperates (<span
 class="math inline"><em>c</em> &gt; <em>a</em></span>) or defects (<span
@@ -528,7 +520,11 @@ defects</td>
 <td style="text-align: center;">d, d</td>
 </tr>
 </tbody>
-<caption>Abstract Prisoner’s Dilemma payoff matrix</caption>
+<caption>Table 8.2: if <span
+        class="math inline"><em>c > a</em></span> and <span class="math inline"><em>d > b</em></span>,
+        the highest payoff for either agent is to defect, regardless of what their opponent does:
+        Defection is the dominant strategy. Fostering cooperation requires avoiding this structure.
+</caption>
 </table>
 </div>
 <br>
@@ -548,8 +544,7 @@ organized crime groups: threatening members with extreme punishment if
 they ‘snitch’ to the police. In the Prisoner’s Dilemma game, we can
 model this by adding a punishment equivalent to three years of jail time
 for “snitching,” leading to the altered payoff matrix as shown in Figure
-<a href="#fig:snitches" data-reference-type="ref"
-data-reference="fig:snitches">5</a>. The Pareto efficient outcome
+8.5. The Pareto efficient outcome
 (-1,-1) is now also a Nash Equilibrium because snitching when the other
 player cooperates is worse than mutually cooperating (<span
 class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
@@ -559,10 +554,12 @@ class="math inline"><em>c</em> &lt; <em>a</em></span>).<p>
 </figure>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Alice-bob-payoff-graphs2.png" class="tb-img-half" style="width: 100%"/>
-
+<p class="tb-caption">Figure 8.5: Altering the payoff matrix to punish snitches, we can move from a Prisoner’s Dilemma
+(left) to a Stag Hunt (right), in which there is an additional Nash equilibrium. </p>
 <!--<figcaption>Altering the payoff matrix to “punish snitches”.-->
 <!--</figcaption>-->
 </figure>
+
 <p><em>A) The Prisoner’s Dilemma payoff matrix, with the single Nash
 equilibrium highlighted. B) If we add a punishment of three years jail
 time for being a “snitch,” the outcome (-1,-1) becomes a second Nash
@@ -643,8 +640,7 @@ outcome to the defect-defect one. An agent cannot influence their
 partner’s actions in a one-off interaction, but in an iterated scenario,
 one agent’s behavior in one round may influence how their partner
 responds in the next. We call this the <em>Iterated Prisoner’s
-Dilemma</em>; see Figure <a href="#fig:iterated"
-data-reference-type="ref" data-reference="fig:iterated">6</a>. This
+Dilemma</em>; see Figure 8.6. This
 provides an opportunity for the agents to cooperate with each other.</p>
 <p><strong>Iterating the Prisoner’s Dilemma opens the door to rational
 cooperation.</strong> In an Iterated Prisoner’s Dilemma, both agents can
@@ -672,8 +668,8 @@ both agents to cooperate with each other.<p>
 </p>
 <figure id="fig:iterated">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Tit-for-tat.png" class="tb-img-full"/>
-<p class="tb-caption">If the agents cooperate more, they can both gain better
-payoffs</p>
+<p class="tb-caption">Figure 8.6: Across six rounds, both players gain better payoffs if they consistently cooperate. But
+defecting creates short-term gains.</p>
 <!--<figcaption>If the agents cooperate more, they can both gain better-->
 <!--payoffs</figcaption>-->
 </figure>
@@ -730,9 +726,7 @@ where each agent not only interacts with their partner repeatedly, but
 also switches partners over time. Understanding the success of a
 strategy is more complicated in repeated rounds against many partners.
 Note that in this section, we define a “match” to mean repeated rounds
-of the Prisoner’s Dilemma between the same two agents; see Figure <a
-href="#fig:iterated" data-reference-type="ref"
-data-reference="fig:iterated">6</a>. We define a “tournament” to mean a
+of the Prisoner’s Dilemma between the same two agents; see Figure 8.6. We define a “tournament” to mean a
 population of more than two agents engaged in a set of pairwise
 matches.</p>
 <p><strong>In Iterated Prisoner Dilemma tournaments, each agent
@@ -748,14 +742,13 @@ cooperate or defect in each round, entirely independently of previous
 interactions with a given partner. By contrast, an agent using the
 <em>grudger</em> strategy would start out cooperating, but switch to
 defecting for all future interactions if its partner defected even once.
-See Table <a href="#tab:strategies" data-reference-type="ref"
-data-reference="tab:strategies">3</a> for examples of these
+See Table 8.3 for examples of these
 strategies.<p>
 </p>
 <br>
 <div id="tab:strategies">
 <table class="prisonTable">
-<caption>Strategy Descriptions</caption>
+<caption>Table 8.3: Popular strategies’ descriptions.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><strong>Strategy</strong></th>
@@ -817,8 +810,7 @@ being one way to escape the muck of defection.</p>
 <p><strong>The success of <em>Tit-for-tat</em> is
 counterintuitive.</strong> In any given match, an agent playing
 <em>Tit-for-tat</em> will tend to score slightly worse than or the same
-as their partner; see Figure <a href="#fig:iterated"
-data-reference-type="ref" data-reference="fig:iterated">6</a>a. By
+as their partner; see Figure 8.6a. By
 contrast, an agent who employs an uncooperative strategy such as
 <em>always defect</em> usually scores the same as or better than its
 partner; see Figure <a href="#fig:iterated" data-reference-type="ref"
@@ -829,18 +821,14 @@ However, it is an agent’s <em>average</em> score which dictates its
 success in a tournament, not its score in any particular match or with
 any particular partner. Two uncooperative partners will score worse on
 average than cooperative ones. Thus, the success of cooperative
-strategies such as <a href="#fig:iterated" data-reference-type="ref"
-data-reference="fig:iterated">6</a> depends on the population strategy
+strategies such as in Figure 8.6 depends on the population strategy
 composition (the assortment of strategies used by the agents in the
 population). If there are enough cooperative partners, cooperative
 agents may be more successful than uncooperative ones. We discuss this
-phenomenon in more detail in <em>Section <a
-href="#sec:evolutionary-stable-strategies" data-reference-type="ref"
-data-reference="sec:evolutionary-stable-strategies">1.6.2</a>
+phenomenon in more detail in <em>Section 1.6.2
 Evolutionarily stable strategies and frequency-dependent
 selection.</em><p>
-<em>In Figure <a href="#fig:iterated" data-reference-type="ref"
-data-reference="fig:iterated">6</a>, each panel shows a six-round
+<em>In Figure 8.6, each panel shows a six-round
 Iterated Prisoner’s Dilemma, with purple squares for defection and blue
 for cooperation. On the left is <em>Tit-for-tat</em>: An agent using
 this strategy tends to score the same as or worse than its partners in
@@ -1048,9 +1036,7 @@ nation, it might automatically “retaliate” to this non-existent threat.
 This could in turn trigger automated retaliations from the AI systems of
 other nations that detect this action. Thus, a small error could be
 exacerbated into an increasingly escalated war. We consider how a “flash
-war” such as this might come about in more detail in Section <a
-href="#sec:AI-races-Multiple" data-reference-type="ref"
-data-reference="sec:AI-races-Multiple">1.5.4</a>. Note that we can also
+war” such as this might come about in more detail in Section 1.5.4. Note that we can also
 use the “Attrition” model in the case of military AI arms races to model
 how military competitive pressures can motivate nations to cut corners
 on safety.</p></li>
@@ -1251,13 +1237,14 @@ in this Pareto inefficient state, free riding might still be the
 dominant strategy for each individual, since the cost of contributing
 outweighs the trivial increase in collective good they would contribute
 by contributing. Thus, escaping undesirable equilibria in a collective
-action problem can be exceedingly difficult; see Figure <a
-href="#fig:collective" data-reference-type="ref"
-data-reference="fig:collective">7</a>.<p>
+action problem can be exceedingly difficult; see Figure 8.7.<p>
 </p>
 <figure id="fig:collective">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/freeriding.png" class="tb-img-full"/>
-<p class="tb-caption">An abstract collective action problem</p>
+<p class="tb-caption">Figure 8.7: In this abstract collective action problem, we can move from everyone (contributes) to
+right (no one contributes). As more people free ride, the collective good disappears, leaving everyone
+in a state where they would all prefer to collectively contribute instead.
+</p>
 <!--<figcaption>An abstract collective action problem</figcaption>-->
 </figure>
 <p><em>A) All agents contribute, maximizing the collective good. B) A
@@ -1277,7 +1264,7 @@ As the matrix illustrates, the dominant strategy for a rational agent
 rides.<p>
 </p>
 <table class="prisonTable">
-<caption>Free Riding in a Group Environment</caption>
+<caption>Table 8.4: Free riding is always better for an individual: it is a dominant strategy</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1675,16 +1662,17 @@ uncooperative strategy such as <em>always defect</em>. If enough agents
 take this opportunity and switch to playing <em>always defect</em>,
 other agents who play <em>tit-for-tat</em> will once again start to
 outcompete these defectors (as outlined previously). Thus, a cycle can
-ensue, in which each strategy is replaced by another; see Figure <a
-href="#fig:cycle" data-reference-type="ref"
-data-reference="fig:cycle">8</a>. Many other examples of cyclical
+ensue, in which each strategy is replaced by another; see Figure 8.8. Many other examples of cyclical
 dynamics have been identified in Iterated Prisoner’s Dilemma tournaments
 <span class="citation"
 data-cites="garcia2018strategy">[16]</span>.<p>
 </p>
 <figure id="fig:cycle">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Evolutionary.png" class="tb-img-full" style="width: 50%"/>
-<p class="tb-caption">The population may cycle through different strategy compositions.</p>
+<p class="tb-caption">Figure 8.8: In an evolutionary tournament, the prevalence of current strategies determines which
+new strategies do best. In the bottom left, the prevalence of “always cooperate” means “always defect”
+is successful. In the top left, the prevalence of “always defect“ means “tit-for-tat” is successful. These
+dynamics can become cyclical.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
 </figure>
@@ -1730,7 +1718,7 @@ ability.<p>
 </p>
 <div id="tab:hawk-dove">
 <table class="prisonTable">
-<caption>Hawk-Dove payoff matrix</caption>
+<caption>Table 8.5: Payoff matrix for the Hawk-Dove game.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1756,11 +1744,10 @@ class="math inline">$$\frac{1}{2}b$$</span></td>
 </table>
 </div>
 <br>
-<p><span id="tab:hawk-dove" label="tab:hawk-dove"></span></p>
 <p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
 strategy.</strong> If all agents were Hawks, everyone would fight each
 other for the resource and only stop when hurt. Their average gain would
-be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
+be <span class="math inline">\frac{1}{2}(b-c)</span>. But since the
 price of fighting is more than the resource’s value <span
 class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
 be negative. If one agent switched to being a <em>Dove</em>, they would
@@ -1809,9 +1796,7 @@ more often a camouflage strategy is used, the more chances predators
 have to see through it. As a result, snails that “choose” (evolve) less
 popular camouflage strategies do the best. This results in a dynamic
 state in which the no snail color spreads to fixation in the population.
-Instead, snails of multiple colors coexist stably; see Figure <a
-href="#fig:freq-selection" data-reference-type="ref"
-data-reference="fig:freq-selection">9</a>.<p>
+Instead, snails of multiple colors coexist stably; see Figure 8.9.<p>
 The evolutionary biologist Richard Dawkins explains this using the
 following fictional scenario <span class="citation"
 data-cites="dawkins2015evolutionarily">[18]</span>. A population of
@@ -1836,7 +1821,9 @@ strategies.<p>
 </p>
 <figure id="fig:freq-selection">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Snails-graph.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">Frequency-dependent selection.</p>
+<p class="tb-caption">Figure 8.9: The rarest snails may have the highest fitness since predators are not used to them. They
+become more prevalent in the next generation, reducing their relative fitness. This is an example of
+frequency-dependent selection.</p>
 <!--<figcaption>Frequency-dependent selection.</figcaption>-->
 </figure>
 <p><em>In each population, snails “choose to” evolve one of three colors
@@ -1850,13 +1837,10 @@ generation. In this way, the population cycles through different color
 compositions.</em><p>
 <br><br>
 Frequency-dependent selection in game theory. We have encountered
-frequency-dependent selection already in this section. In Section <a
-href="#sec:formalization" data-reference-type="ref"
-data-reference="sec:formalization">1.5.2</a>, we briefly discussed how
+frequency-dependent selection already in this section. In Section 1.5.2, we briefly discussed how
 the ratio of contributors to free-riders in the population can alter the
 incentives for the agents engaged in a collective action problem. In
-Section <a href="#sec:dilemma-tournaments" data-reference-type="ref"
-data-reference="sec:dilemma-tournaments">1.6.1</a>, we used evolutionary
+Section 1.6.1, we used evolutionary
 Iterated Prisoner’s Dilemma tournaments to model the dynamics of natural
 selection, and found that there may be no stable equilibrium state.
 Instead, the best strategy for an agent to employ may depend on what
@@ -1908,8 +1892,7 @@ defections they can get away with without annihilating the motivation of
 their partner to continue cooperating with them. They decide whether to
 cooperate or defect using a set of probabilities. The most recent
 interaction with their partner determines which probability they select.
-An example strategy is shown in Figure <a href="#fig:extort-2"
-data-reference-type="ref" data-reference="fig:extort-2">10</a>. An
+An example strategy is shown in Figure 8.10. An
 extortionist’s partner is incentivized to acquiesce to the extortion
 since deviating in any way will yield them a lower payoff. However, in
 maximizing their own score, they attain an even higher score for the
@@ -1918,7 +1901,7 @@ partners in Iterated Prisoner’s Dilemma matches.<p>
 </p>
 <figure id="fig:extort-2">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">The <em>Extort-2</em> strategy - <span class="citation"
+<p class="tb-caption">Figure 8.10: The <em>Extort-2</em> strategy - <span class="citation"
 data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
 <!--data-cites="stewart2012extortion">[20]</span></figcaption>-->
@@ -1933,8 +1916,7 @@ their partner cooperated, the extortionist will cooperate with a
 probability of <span class="math inline">$$\frac{1}{3}$$</span> in this
 round.</p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
-out altogether.</strong> As we saw in Section <a href="#sec:tournaments"
-data-reference-type="ref" data-reference="sec:tournaments">1.4.2</a>,
+out altogether.</strong> As we saw in Section 1.4.2,
 many uncooperative strategies may gain a higher score than most of their
 partners in head-to-head matches, and yet still lose in tournaments. By
 contrast, extortionists can be somewhat successful in tournaments under
@@ -2102,7 +2084,8 @@ incentivizes the extortionist to execute their threat as punishment for
 their target’s refusal to submit.</p>
 <p><strong>AI agents extorting humans.</strong> AI agents might also
 extort human targets. One example scenario would be an AI developing
-both a weaponized biological pathogen, and an effective cure. If the
+both a weaponized biological pathogen, and an effective cure <span class="citation"
+data-cites="patel2023takeover">[27]</span>. If the
 pathogen is slow-acting, the AI agent could then extort humans by
 deploying the bioweapon, and leveraging the promise of its cure to force
 those infected into complying with this demands. Pathogens that are
@@ -2356,6 +2339,7 @@ in orchids,”</span> <em>Die Naturwissenschaften</em>, vol. 92, pp.
 255–64, Jul. 2005, doi: <a
 href="https://doi.org/10.1007/s00114-005-0636-y">10.1007/s00114-005-0636-y</a>.</div>
 </div>
+
 <div id="ref-mokkonen2015evolutionary" class="csl-entry"
 role="listitem">
 <div class="csl-left-margin">[26] M.
@@ -2363,5 +2347,9 @@ Mokkonen and L. Carita, <span>“The evolutionary ecology of
 deception,”</span> <em>Biological Reviews</em>, vol. 91, pp. n/a–n/a,
 Jun. 2015, doi: <a
 href="https://doi.org/10.1111/brv.12208">10.1111/brv.12208</a>.</div>
+</div>
+<div id="ref-patel2023takeover" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[27] D. Patel (Host) and Carl Shulman, <span>“AI Takeover, Bio &amp; Cyber Attacks, Detecting Deception, & Humanity's Far Future.,”</span>
+    <em>Dwarkesh Podcast</em>, 2023, <a href="https://www.youtube.com/watch?v=KUieFuV1fuo&ab_channel=DwarkeshPatel">Audio podcast episode</a></div>
 </div>
 </div>

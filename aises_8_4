@@ -285,7 +285,7 @@ Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full"  style="width: 70%"/>
-<p class="tb-caption">Overview of Bargaining ranges</p>
+<p class="tb-caption">Figure 8.11: The bargaining range is defined by the potential gains from cooperation.</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p><strong>Conflict in AIs.</strong> Let us assume that AI agents will
@@ -421,9 +421,7 @@ US’s entry into WWII.<p>
 </p>
 <br>
 <table class="tableLayout">
-<caption style="overflow: hidden; white-space: nowrap;">A pay-off matrix for competitors choosing <br>
-    whether to defend or
-preemptively attack (first strike)</caption>
+<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether to defend or preemptively attack.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -536,7 +534,7 @@ the value of the side payments outweighs the value of the good.<p>
 </p>
 <figure id="fig:first-strike">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range_2.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">First strike advantage</p>
+<p class="tb-caption">Figure 8.12: A first strike can create an advantage by changing the bargaining range.</p>
 <!--<figcaption>First strike advantage</figcaption>-->
 </figure>
 <p><strong>Issue indivisibility and AIs.</strong> Imagine there is a
@@ -613,7 +611,8 @@ the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Information problems</p>
+<p class="tb-caption">Figure 8.13: Misinformation can shift players’ perceptions of the bargaining range. If players’
+estimates of Green winning are too high, then they will agree on deals more favorable to Green.</p>
 <!--<figcaption>Information problems</figcaption>-->
 </figure>
 <p><strong>Misinformation and AI.</strong> AI technologies may produce
@@ -858,13 +857,12 @@ cost to themselves, they will only do so when the expected benefit of
 agent B returning the favor outweighs the cost of Agent A’s initially
 providing it. Thus, we have the rule <span
 class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
-Table <a href="#tab:reciprocity" data-reference-type="ref"
-data-reference="tab:reciprocity">1</a> below.<p>
+Table 8.7 below.<p>
 </p>
 <br>
 <div id="tab:reciprocity">
 <table class="tableLayout">
-<caption>Direct Reciprocity Matrix</caption>
+<caption>Table 8.7: Payoff matrix for direct reciprocity games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1011,14 +1009,13 @@ can discern another agent’s reputation (whether they are cooperative or
 not), outweighs the cost-benefit ratio of the helpful behavior to the
 donor. Thus, we have the rule <span
 class="math inline"><em>q</em> &gt; <em>c</em>/<em>b</em></span>; see
-Table <a href="#tab:indirect-repr" data-reference-type="ref"
-data-reference="tab:indirect-repr">2</a> below.<p>
+Table 8.2 below.<p>
 </p>
 <br>
 <p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
 <div id="tab:indirect-repr">
 <table class="tableLayout">
-<caption>Indirect Reciprocity Matrix</caption>
+<caption>Table 8.8: Payoff matrix for indirect reciprocity games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1121,13 +1118,12 @@ class="math inline"><em>m</em></span> is large and is the number of
 groups and n is the maximum group size, group selection can only promote
 cooperation when <span
 class="math inline"><em>b</em>/<em>c</em> &gt; 1 + <em>n</em>/<em>m</em></span>;
-see Table <a href="#tab:group" data-reference-type="ref"
-data-reference="tab:group">3</a> below.<p>
+see Table 8.9 below.<p>
 </p>
 <br>
 <div id="tab:group">
 <table class="tableLayout">
-<caption>Group Selection Matrix</caption>
+<caption>Table 8.9: Payoff matrix for group selection games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1214,12 +1210,11 @@ class="math inline"><em>r</em><em>b</em> &gt; <em>c</em></span>, or
 equivalently <span
 class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
 class="citation" data-cites="hamilton1964genetical">[15]</span>; see
-Table <a href="#tab:kin" data-reference-type="ref"
-data-reference="tab:kin">4</a> below.</p>
+Table 8.10 below.</p>
 <br>
 <div id="tab:kin">
 <table class="tableLayout">
-<caption>Kin Selection Matrix</caption>
+<caption>Table 8.10: Payoff matrix for kin selection games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1441,13 +1436,10 @@ agents may cooperate with one another, and MAC theory suggests that some
 of these mechanisms have driven the formation of our moral intuitions
 and customs. Here, we examine four cooperation problems, the mechanisms
 humans have evolved to solve them, and how these mechanisms may have
-generated our ideas of morality. These are overviewed in Table <a
-href="#tab:cooperation" data-reference-type="ref"
-data-reference="tab:cooperation">5</a>.</p>
+generated our ideas of morality. These are overviewed in Table 8.11.</p>
 <div id="tab:cooperation">
 <table class="tableLayout" style="">
-<caption>Mapping cooperation mechanisms to morality components - Adapted
-from <span class="citation"
+<caption>Table 8.11: Mapping cooperation mechanisms to components of morality. <span class="citation"
 data-cites="curry2016morality">[21]</span></caption>
 <thead>
 <tr class="header" style="background-color: #efefef">
@@ -1630,15 +1622,15 @@ his book, “The Better Angels of Our Nature,” Steven Pinker refers to
 this as the “Pacifist’s dilemma” <span class="citation"
 data-cites="pinker2012better">[8]</span>. In potential conflict
 scenarios, agents have little to gain and a lot to lose when they
-respond to aggression with pacifism; see Table <a href="#tab:pacifist"
-data-reference-type="ref" data-reference="tab:pacifist">6</a> below.
+respond to aggression with pacifism; see Table 8.12 below.
 This dynamic often inspires rational agents to choose conflict over
 peace.<p>
 </p>
 <br>
 <div id="tab:pacifist">
 <table class="tableLayout">
-<caption>Pacifist’s Dilemma Payoff Matrix (No leviathan) </caption>
+<caption>Table 8.12: Payoff matrix for the Pacifist’s dilemma without a Leviathan. <span class="citation"
+data-cites="pinker2012better">[8]</span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -1685,13 +1677,12 @@ deployment of peacekeeping forces such as military, police, and civilian
 personnel. These forces work to deter potential aggressors, enhance
 security, and set the stage for peaceful resolutions and negotiations as
 impartial mediators, usually by penalizing aggression and rewarding
-pacifism; see Table <a href="#tab:leviathan" data-reference-type="ref"
-data-reference="tab:leviathan">7</a> below.<p>
+pacifism; see Table 8.13 below.<p>
 </p>
 <br>
 <div id="tab:leviathan">
 <table class="tableLayout">
-<caption>Leviathan Payoff Matrix - <span class="citation"
+<caption>Table 8.13: Payoff matrix for the Pacifist’s dilemma with a Leviathan. <span class="citation"
 data-cites="pinker2012better">[8]</span></caption>
 <thead>
 <tr class="header">

@@ -10,9 +10,7 @@ operational decisions.</p>
 <h2 id="swiss-cheese-model">4.4.1 Swiss Cheese Model</h2>
 <p><strong>The Swiss cheese model helps us analyze defenses and identify
 pathways to accidents <span class="citation"
-data-cites="Reason1990">[2]</span>.</strong> The diagram in Figure <a
-href="#fig:cheese" data-reference-type="ref"
-data-reference="fig:cheese">1</a> shows multiple slices of Swiss cheese,
+data-cites="Reason1990">[2]</span>.</strong> The diagram in Figure 4.4 shows multiple slices of Swiss cheese,
 each representing a particular defense feature in a system. The holes in
 a slice represent the weaknesses in a defense feature—the ways in which
 it could be bypassed. If there are any places where holes in all the
@@ -23,7 +21,10 @@ reduces the probability of there being a pathway to an accident that can
 bypass them all.</p>
 <figure id="fig:cheese">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/swiss_cheese.png" class="tb-img-full"/>
-<p class="tb-caption">Swiss cheese defense model</p>
+<p class="tb-caption">Figure 4.4: Each layer of defense (safety culture, red teaming, etc.) is a layer of defense with its own
+holes in the Swiss cheese model. With enough layers, we hope to avoid pathways that can bypass
+them all.
+</p>
 <!--<figcaption>Swiss cheese defense model</figcaption>-->
 </figure>
 <p>Consider the example of an infectious disease as a hazard. There are
@@ -98,9 +99,7 @@ improving our system reliability by many nines of reliability.<p>
 <h2 id="bow-tie-model">4.4.2 Bow Tie Model</h2>
 <p><strong>The bow tie model splits defenses into preventative and
 protective measures<span class="citation"
-data-cites="Marsden2017">[1]</span>.</strong> In the diagram in figure
-<a href="#fig:bowtie" data-reference-type="ref"
-data-reference="fig:bowtie">2</a>, the triangle on the left-hand side
+data-cites="Marsden2017">[1]</span>.</strong> In the diagram in Figure 4.5, the triangle on the left-hand side
 contains features that are intended to prevent an accident from
 happening, while the triangle on the right-hand side contains features
 that are intended to mitigate damage if an accident does happen. The
@@ -111,7 +110,8 @@ measures in place against any potential adverse event.<p>
 </p>
 <figure id="fig:bowtie">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Bow-tie updated.png" class="tb-img-full"/>
-<p class="tb-caption">Bow tie diagram</p>
+<p class="tb-caption">Figure 4.5: The bow tie diagram can tie together hazards and their consequences with control and
+recovery measures to mitigate the effects of an adverse event.</p>
 <!--<figcaption>Bow tie diagram</figcaption>-->
 </figure>
 <p>For example, if an individual goes rock climbing, a potential
@@ -154,16 +154,15 @@ causes.<p>
 </p>
 <figure id="wrap-fig:water-pump">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FTA-diagram.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Water pump fault tree</p>
+<p class="tb-caption">Figure 4.6: Using a fault tree, we can work backwards from a failure (no water flow) to its possible
+causes (such as a mechanical shaft failure or power surge).</p>
 <!--<figcaption>Water pump fault tree</figcaption>-->
 </figure>
 <p>For each negative outcome, we work backward through the system,
 identifying potential causes of that event. We can then draw a “fault
 tree” showing all the possible pathways through the system to the
 negative outcome. By studying this fault tree, we can identify ways of
-improving the system that remove these pathways. In figure <a
-href="#wrap-fig:water-pump" data-reference-type="ref"
-data-reference="wrap-fig:water-pump">3</a>, we trace backwards from a
+improving the system that remove these pathways. In Figure 4.6, we trace backwards from a
 pump failure to two types of failure: mechanical and electrical failure.
 Each of these has further subtypes. For fuse failing, we know that we
 require a circuit overload, which can happen as a result of a wire
@@ -180,14 +179,12 @@ we can identify multiple combinations of events that could lead to the
 same negative outcome.</p>
 <figure id="fig:FTA-decision">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_harm.png" class="tb-img-full"/>
-<p class="tb-caption">AI FTA decision-tree <span class="citation"
-data-cites="critch2023tasra">[3]</span></p>
+<p class="tb-caption">Figure 4.7: An FTA decision-tree can identify several potential problems by interrogating important
+contextual questions. <span class="citation" data-cites="critch2023tasra">[3]</span></p>
 <!--<figcaption>AI FTA decision-tree <span class="citation"-->
 <!--data-cites="critch2023tasra">[3]</span></figcaption>-->
 </figure>
-<p><strong>FTA can be used to guide decisions.</strong> Figure <a
-href="#fig:FTA-decision" data-reference-type="ref"
-data-reference="fig:FTA-decision">4</a> shows how we can use fault-tree
+<p><strong>FTA can be used to guide decisions.</strong> Figure 4.7 shows how we can use fault-tree
 style reasoning to create concrete questions about risks. We can trace
 this through to identify risks depending on the answers to these
 questions. For instance, if there is no unified group accountable for
@@ -294,14 +291,14 @@ sociotechnical systems usually involve a large number of interactions
 and feedback loops. Due to the many interdependencies and circular
 processes, it is not always feasible to trace an accident back to a
 single “root cause.” The high degree of complexity involved in many
-systems of work is illustrated in figure <a href="#fig:complex-sys"
-data-reference-type="ref" data-reference="fig:complex-sys">5</a>. This
+systems of work is illustrated in figure 4.8. This
 shows the interconnectedness of a system cannot be accurately reduced to
 a single line from start to finish.<p>
 </p>
 <figure id="fig:complex-sys">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Complex-systems updated.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Complex systems with feedback loops</p>
+<p class="tb-caption">Figure 4.8: In a complex system, events, processes, and factors often influence each other in many
+ways, creating complex feedback loops.</p>
 <!--<figcaption>Complex systems with feedback loops</figcaption>-->
 </figure>
 <p><strong>AI systems can exhibit feedback loops and nonlinear
