@@ -54,12 +54,16 @@ than cooperate. We show how these multi-agent dynamics can generate
 undesirable outcomes, sometimes for all the agents involved. We consider
 risks created by interactions within and between human and AI agents,
 from human-directed companies and militaries engaging in perilous races
-to autonomous AIs using threats for extortion.</p>
-<p><strong>First, we provide an overview of the fundamentals of game
+to autonomous AIs using threats for extortion. These risks can be reduced
+ if mechanisms such as institutions are used ensure human agencies and AI 
+agents are able to cooperate with one another and avoid conflict. We will 
+be exploring means of overcoming commitment and information problems in 
+the Conflict and Cooperation section of this chapter.</p>
+<p><strong>We start with an overview of the fundamentals of game
 theory.</strong> We begin this section by setting out the
 characteristics of game theoretic agents. We also categorize the
 different kinds of games we are exploring.</p>
-<p><strong>Second, we focus on the Prisoner’s Dilemma.</strong> The
+<p><strong>We then focus on the Prisoner’s Dilemma.</strong> The
 Prisoner’s Dilemma is a simple example of how an interaction between two
 agents can generate an equilibrium state that is bad for both, even when
 each acts rationally and in their own self-interest. We explore how
@@ -69,7 +73,7 @@ campaigns. Finally, we examine ways we might foster rational cooperation
 between self-interested AI agents, such as by altering the values in the
 underlying payoff matrices. The key upshot is that intelligent and
 rational agents do not always achieve good outcomes.</p>
-<p><strong>Third, we add in the element of time by examining the
+<p><strong>We next add in the element of time by examining the
 Iterated Prisoner’s Dilemma.</strong> AI agents are unlikely to interact
 with others only once. When agents engage with each other multiple
 times, this creates its own hazards. We begin by examining how iterating
@@ -84,7 +88,7 @@ it is less so. Finally, we explore iterated multi-agent social dynamics
 amongst humans, such as corporate AI races and military AI arms races.
 The key upshot is that cooperation cannot be ensured merely by iterating
 interactions through time.</p>
-<p><strong>Fourth, we consider group-level interactions.</strong> AI
+<p><strong>We then move on to consider group-level interactions.</strong> AI
 agents might not interact with others in a neat, pairwise fashion, as
 assumed by the models previously explored. In the real world, social
 behavior is rarely so straightforward. Interactions can take place
