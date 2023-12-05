@@ -25,6 +25,7 @@
     }
 </style>
 
+
 <style>
     .clearfix::after {
       content: "";
@@ -485,7 +486,7 @@ This section explores two: changes to the payoff matrix and increased agent altr
 </figure>
 
 <p><em>Five possible reasons why agents may cooperate in prisoner’s
-Dilemma-like scenarios. As highlighted, this section explores only two:
+    Dilemma-like scenarios. As highlighted, this section explores only two: changes to the payoff matrix and increased agent altruism. </em></p>
 
 <p><strong>External consideration: changing the payoffs to incentivize
 cooperation.</strong> By adjusting the values in the payoff matrix, we
