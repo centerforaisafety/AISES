@@ -1,4 +1,4 @@
-<h1 id="sec:moral-parliament">Moral Parliament</h1>
+<h1 id="sec:moral-parliament">6.8 Moral Parliament</h1>
 <p>In previous sections, we have explored various frameworks to embed
 ethics into AIs, from the law to social welfare functions. In the next
 chapter, we will consider a few of the most influential ethical theories
@@ -31,11 +31,9 @@ processes to make decisions <span class="citation"
 data-cites="newberry2021parliamentary">[1]</span>.<p>
 </p>
 <figure id="fig:parliament">
-<p><img src="images/machine_ethics/parliament.png" alt="image" /> <span
-id="fig:parliament" label="fig:parliament"></span></p>
-<figcaption>Different AIs, each programmed to represent a unique moral
-theory, engage in negotiation and voting to decide on a course of
-action, simulating parliamentary processes.</figcaption>
+    <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/parliament.png" alt="image" class="tb-img-full" style="width: 90%"/> </p>
+<p class="tb-caption">Figure 6.8: Different AIs, each programmed to represent a unique moral theory, engage in negotiation
+and voting to decide on a course of action, simulating parliamentary processes.</p>
 </figure>
 <p>We can use advanced AIs to emulate these representatives by training
 AIs to act in accordance with a specific moral theory. This allows us to
@@ -78,7 +76,7 @@ concerned with feasibility and profitability. By considering these
 diverse views, the AI can make a more balanced decision that better
 aligns with overall societal interests in real time.<p>
 </p>
-<h2 id="advantages-of-a-moral-parliament">Advantages of a Moral
+<h2 id="advantages-of-a-moral-parliament">6.8.1 Advantages of a Moral
 Parliament</h2>
 <p>Using moral parliaments presents a wide array of benefits relative to
 just giving AIs certain sets of values directly. In this subsection, we
@@ -221,6 +219,11 @@ representation of changing human values over time, and increasing
 transparency and accountability in AI decision-making. We also noted
 that moral parliaments encourage compromise and negotiation, leading to
 more balanced and nuanced ethical decisions.</p>
+
+<br>
+<br>
+<h3>References</h3>
+
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-newberry2021parliamentary" class="csl-entry"

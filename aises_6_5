@@ -1,4 +1,4 @@
-<h1 id="preferences">Preferences</h1>
+<h1 id="preferences">6.5 Preferences</h1>
 <h4 id="should-we-have-ais-satisfy-peoples-preferences">Should we have
 AIs satisfy people’s preferences?</h4>
 <p>A preference is a tendency to favor one thing over another. Someone
@@ -36,7 +36,7 @@ equally valuable. This section considers three different types of
 preferences that could all potentially play a role in decision-making by
 AI systems: revealed preferences, stated preferences, and idealized
 preferences.</p>
-<h2 id="revealed-preferences">Revealed Preferences</h2>
+<h2 id="revealed-preferences">6.5.1 Revealed Preferences</h2>
 <p><strong>Preferences can be inferred from behavior.</strong> One set
 of techniques for getting AI systems to behave as we want—inverse
 reinforcement learning—is to have them deduce <em>revealed
@@ -185,7 +185,7 @@ relying solely on revealed preferences for AI training. It underscores
 the importance of supplementing revealed preferences with other methods
 to ensure a more comprehensive and accurate understanding of a user’s
 true preferences.</p>
-<h2 id="stated-preferences">Stated Preferences</h2>
+<h2 id="stated-preferences">6.5.2 Stated Preferences</h2>
 <p><strong>Preferences can be straightforwardly queried.</strong>
 Another set of techniques for getting AI systems to behave as we
 want—human supervision and feedback—rely on people to state their
@@ -353,7 +353,7 @@ kinds of preferences, such as ones that are only satisfied after the
 person has died, or ones that fundamentally alter who we are. For these
 reasons, we should be wary of using stated preferences alone to train
 AI.</p>
-<h2 id="idealized-preferences">Idealized Preferences</h2>
+<h2 id="idealized-preferences">6.5.3 Idealized Preferences</h2>
 <p><strong>We could idealize preferences to avoid problems like weakness
 of will.</strong> A third approach to getting AI systems to behave as we
 want is to make them able to infer what we would prefer if our
@@ -461,9 +461,7 @@ cases, the fundamental idea is to take an agent’s actual preferences,
 idealize them in certain ways, and then use the result to guide
 decision-making by advanced AI systems. Of course, having such an
 advisor requires that we solve many of the challenges that we presented
-in the <a href="#chap:single-agent-safety" data-reference-type="ref"
-data-reference="chap:single-agent-safety">[chap:single-agent-safety]</a>
-chapter, as well as settle on a clear way to identify and idealize
+in the Single Agent Safety chapter, as well as settle on a clear way to identify and idealize
 individual preferences.</p>
 <h4 id="summary.-2">Summary.</h4>
 <p>Idealized preferences overcome many of the difficulties of revealed
@@ -516,6 +514,11 @@ increase happiness, we might aim to overcome the human biases and
 limitations that stop us from pursuing our happiness and enable the
 system to make decisions that have a positive impact on overall
 wellbeing.</p>
+
+<br>
+<br>
+<h3>References</h3>
+
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-paul2014transformative" class="csl-entry" role="listitem">

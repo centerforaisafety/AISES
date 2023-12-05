@@ -20,7 +20,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:happiness">Happiness</h1>
+<h1 id="sec:happiness">6.6 Happiness</h1>
 <h4 id="should-we-have-ais-make-people-happy">Should we have AIs make
 people happy?</h4>
 <p>In this section, we will explore the concept of happiness and its
@@ -160,10 +160,8 @@ would lead to bad outcomes for humans and instead recommend those that
 best increase human wellbeing.<p>
 </p>
 <figure id="fig:wellbeing">
-<img src="images/machine_ethics/Wellbeing-value-purple-green.png" />
-<figcaption>A wellbeing function can estimate a wellbeing value for
-arbitrary scenarios. <span class="citation"
-data-cites="hendrycks2020aligning">[3]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Wellbeing-value-purple-green.png" class="tb-img-full" width="30%"/>
+<p class="tb-caption">Figure 6.6: A wellbeing function can estimate a wellbeing value for every possible scenario.</p>
 </figure>
 <h4
 id="we-can-supplement-ai-decision-making-with-an-artificial-conscience.">We
@@ -180,12 +178,10 @@ human wellbeing. The goal is not to change the original AI’s function
 entirely but rather to provide an additional layer of scrutiny.<p>
 </p>
 <figure>
-<img src="images/machine_ethics/image20.png" />
-<figcaption>An AI agent with an artificial conscience can adjust its
-<span class="math inline"><em>Q</em></span>-values if it estimates the
-morally relevant aspect of the outcome to be worse than a threshold.
-<span class="citation"
-data-cites="hendrycks2023natural">[4]</span>.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/agent_utility.png" class="tb-img-full"/>
+<p class="tb-caption">Figure 6.7: An AI agent with an artificial conscience can adjust its Q-values if it estimates the
+morally relevant aspect of the outcome to be worse than a threshold. <span
+class="citation" data-cites="hendrycks2023natural"></span></p>
 </figure>
 <p>One way to do this would be to adjust its estimates of <span
 class="math inline"><em>Q</em></span>-values by introducing an
@@ -220,8 +216,11 @@ this knowledge, one approach to using AI to increase happiness is to
 focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
-<div class="storybox">
-<p><span>A Note on Measuring Wellbeing</span> While the philosophical
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Measuring Wellbeing</b></span></p>
+</legend>
+While the philosophical
 foundations of wellbeing are not settled, quantitative research fields
 like public health and economics require the use of metrics in order to
 evaluate, track, or compare the subject of study. Researchers use many
@@ -276,7 +275,7 @@ QALYs, DALYs, and WELBYs provide different approximations of wellbeing
 that can be used to inform high-level decision-making and
 policy-setting.</p>
 </div>
-<h2 id="problems-for-happiness-focused-machine-ethics">Problems for
+<h2 id="problems-for-happiness-focused-machine-ethics">6.6.2 Problems for
 Happiness-Focused Machine Ethics</h2>
 <h4 id="happiness-is-a-subjective-experience.">Happiness is a subjective
 experience.</h4>
@@ -304,7 +303,7 @@ Even if properly trained AIs would not promote wireheading, the
 possibility that systems may pursue similar ideas because they want to
 maximize happiness might be concerning. One alternative that prevents
 this is the objective goods theory.</p>
-<h2 id="objective-goods">Objective Goods</h2>
+<h2 id="objective-goods">6.6.3 Objective Goods</h2>
 <h4 id="an-objective-good-is-good-for-us-whether-we-like-it-or-not.">An
 objective good is good for us whether we like it or not.</h4>
 <p>According to the objective goods theory, there are multiple different
@@ -339,8 +338,11 @@ which should also be on the list. However, if goods such as autonomy and
 happiness play such a filtering role for the objective goods theorist,
 it is unclear whether there are truly a variety of objective goods
 left.</p>
-<div class="storybox">
-<p><span>A Note on Digital Minds</span> Digital minds are artificial
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Digital Minds</b></span></p>
+</legend>
+Digital minds are artificial
 lifeforms with a mind. These could be advanced AIs or whole-brain
 emulations (WBE). If we entertain the possibility of digital minds
 coming into existence, we must assume that the functioning of a mind is
@@ -468,6 +470,10 @@ to wellbeing, including happiness, achievement, friendship, and
 knowledge. While a broad conception of happiness or wellbeing might be
 what we should aim to optimize, we must first better understand what it
 means to be happy.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-bloom2021sweet" class="csl-entry" role="listitem">

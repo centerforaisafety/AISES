@@ -1,4 +1,4 @@
-<h1 id="fairness">Fairness</h1>
+<h1 id="fairness">6.3 Fairness</h1>
 <h4 id="we-can-use-the-law-to-ensure-that-ais-make-fair-decisions.">We
 can use the law to ensure that AIs make fair decisions.</h4>
 <p>AIs are being used in many sensitive applications that affect human
@@ -36,7 +36,7 @@ data-cites="harvard2017state">[3]</span>. In this section, we will
 discuss some of the serious ethical questions raised by this case,
 examining what makes algorithms unfair and considering some methods to
 improve fairness.</p>
-<h2 id="ai-fairness-concepts">AI Fairness Concepts</h2>
+<h2 id="ai-fairness-concepts">6.3.1 AI Fairness Concepts</h2>
 <h4 id="fairness-is-difficult-to-specify.">Fairness is difficult to
 specify.</h4>
 <p>Fairness is a complicated and disputed concept with no single
@@ -112,7 +112,7 @@ However, there is no single mathematical definition of fairness that
 matches everyone’s complex social expectations. This is a problem
 because satisfying one definition can often violate others: there are
 tensions between statistical notions of fairness.</p>
-<h2 id="limitations-of-fairness">Limitations of Fairness</h2>
+<h2 id="limitations-of-fairness">6.3.2 Limitations of Fairness</h2>
 <p>There are several problems with trying to create fair AI systems.
 While we can try to improve models’ adherence to the many metrics of
 fairness, the three classic definitions of fairness are mathematically
@@ -197,7 +197,7 @@ class="citation" data-cites="harrison2020emperical">[14]</span>, such as
 whether race should be used by the model or whether the model’s accuracy
 or false positive rates are more important. It is unclear how to define
 fairness in a generally acceptable way.</p>
-<h2 id="approaches-to-improving-fairness">Approaches to Improving
+<h2 id="approaches-to-improving-fairness">6.3.3 Approaches to Improving
 Fairness</h2>
 <p>Due to the impossibility theorem and inconsistent and competing
 ideas, it is only possible to pursue some <em>definition</em> or
@@ -229,9 +229,7 @@ like gender and race from datasets to prevent sexism and racism, but
 fails miserably in practice because this data is embedded in correlates
 [as we explored in the Bias section in chapter]. A focus on narrow
 measures can ignore other relevant considerations, and measures are
-often subject to proxy gaming <a href="#sec:proxy-gaming"
-data-reference-type="ref"
-data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a>. A more
+often subject to proxy gaming (See the Proxy Gaming section). A more
 in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
@@ -253,9 +251,8 @@ focus on gradually deploying AI while assessing its impacts, ensuring
 there are strong oversight mechanisms and independent audits, and
 establishing methods to redress any harm. Audits can promote an
 understanding of the data sources and decision-making processes of ML
-models. This transparency is helpful but insufficient, as we saw in the
-chapter <a href="#sec:opaqueness" data-reference-type="ref"
-data-reference="sec:opaqueness">[sec:opaqueness]</a>. <em>Participatory
+models. This transparency is helpful but insufficient, as we saw in the Single Agent Safety
+chapter in the section on Opaqueness. <em>Participatory
 design</em> frameworks involve all of the impacted communities in the
 development of AI systems to surface unfairness early and ensure the
 product meets diverse human needs. Other frameworks focus on how
@@ -279,6 +276,10 @@ are currently being built and used, focusing on the implicit goal of
 wealth maximization within the Economic Engine that creates and shapes
 AIs. We will also consider a few days that the economy might, in turn,
 be transformed by AIs as well.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-angwin2016bias" class="csl-entry" role="listitem">

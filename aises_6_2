@@ -20,7 +20,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="law">Law</h1>
+<h1 id="law">6.2 Law</h1>
 <p><strong>Why not have AIs follow the law?</strong> We often argue that
 for AIs to be safe and beneficial, we need to align them with human
 values. However, some argue that simply getting AIs to follow the law is
@@ -38,7 +38,7 @@ diverging ways.<p>
 The next subsection will expand on these features of the law. We will
 see how these features contrast favorably with ethics before arguing
 that we do need ethics after all but alongside the law.</p>
-<h2 id="the-case-for-law">The Case For Law</h2>
+<h2 id="the-case-for-law">6.2.1 The Case For Law</h2>
 <h3 id="legitimate-aggregation-of-values">Legitimate Aggregation of
 Values</h3>
 <h4
@@ -134,10 +134,9 @@ Legal language can maintain a middle ground between rigid rules and more
 sensible standards.<p>
 </p>
 <figure>
-<img src="images/machine_ethics/image21.png" />
-<figcaption>Legal language balances being less ambiguous than ethical
-language while being more flexibly formatted than programming
-language.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/formatting.png" class="tb-img-full" style="width=70%"/>
+<p class="tb-caption">Figure 6.1: Legal language balances being less ambiguous than ethical language while being more
+flexibly formatted than programming language.</p>
 </figure>
 <h3 id="specific-and-adaptable">Specific and Adaptable</h3>
 <p>We can apply these insights about rules and standards in law to two
@@ -215,7 +214,7 @@ a rule against tax arrangements that are “abusive.” This is not an
 objective trigger: it is up to a judge to decide what is “abusive.” An
 AI system trained to follow the law can be accountable to rules and
 standards.</p>
-<h2 id="the-need-for-ethics">The Need for Ethics</h2>
+<h2 id="the-need-for-ethics">6.2.2 The Need for Ethics</h2>
 <p>This subsection will discuss why ethics is still indispensable in
 creating safe and beneficial AI, even though law is a powerful tool.
 Firstly, though the law is comprehensive, there are important areas of
@@ -298,9 +297,11 @@ the problem of figuring out how to act, given the range of differing
 views on ethics. A solution from the moral uncertainty literature which
 best embodies the democratic ideal is the <em>moral parliament</em>
 approach, which we will discuss later in this chapter.</p>
-<div class="storybox">
-<p><span>A Note On The Three Laws of Robotics</span> Some propose that
-Isaac Asimov’s “Three Laws of Robotics” provide a useful set of rules
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note On The Three Laws of Robotics</b></span></p>
+</legend>
+Some propose that Isaac Asimov’s “Three Laws of Robotics” provide a useful set of rules
 for resolving problems in machine ethics <span class="citation"
 data-cites="asimov1942run Shulman2021">[4], [5]</span>. These laws are
 as follows:</p>
@@ -359,6 +360,10 @@ law would leave many gaps that the AI could exploit, or make ethical
 errors within. To create beneficial AI that acts in the interests of
 humanity, we need to understand the ethical values that people hold over
 and above the law.</p>
+
+<br>
+<br>
+<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-clermont2020rules" class="csl-entry" role="listitem">
