@@ -1,13 +1,14 @@
-<h1 id="fairness"> 6.3 Fairness</h1>
-<h3 id="introduction-1"> Introduction</h3>
-<p>We have discussed how bias in AI systems can cause harm. AI is being
-used in many sensitive applications that affect human lives, from
-lending and employment to healthcare and criminal justice. As a result,
-unfair AI systems can cause serious harm. Methods for improving AI
-fairness could mitigate these harms, but they require overcoming
-challenges in formalizing and implementing fairness. This section
-explores algorithmic fairness, including its technical definitions,
-limitations, and real-world strategies for building fairer systems.</p>
+<h1 id="fairness">Fairness</h1>
+<h4 id="we-can-use-the-law-to-ensure-that-ais-make-fair-decisions.">We
+can use the law to ensure that AIs make fair decisions.</h4>
+<p>AIs are being used in many sensitive applications that affect human
+lives, from lending and employment to healthcare and criminal justice.
+As a result, unfair AI systems can cause serious harm. Methods for
+improving AI fairness could mitigate harms from biased systems, but they
+require overcoming challenges in formalizing and implementing fairness.
+This section explores <em>algorithmic fairness</em>, including its
+technical definitions, limitations, and real-world strategies for
+building fairer systems.</p>
 <h4 id="the-compas-case-study.">The COMPAS case study.</h4>
 <p>A famous example of algorithmic decision-making in criminal justice
 is the COMPAS (Correctional Offender Management Profiling for
@@ -15,13 +16,13 @@ Alternative Sanctions) software used by over 100 jurisdictions in the US
 justice system. This algorithm uses observed features such as criminal
 history to predict recidivism, or how likely defendants are to reoffend.
 A ProPublica report <span class="citation"
-data-cites="angwin2016bias"></span> showed that COMPAS
+data-cites="angwin2016bias">[1]</span> showed that COMPAS
 disproportionately labeled African-Americans as higher risk than white
 counterparts with nearly identical offense histories. However, COMPAS’s
 creators argued that it was <em>calibrated</em>, with accurate general
 probabilities of recidivism across the three general risk levels, and
 that it was less biased and better than human judgments <span
-class="citation" data-cites="dieterich2016compas"></span>. This
+class="citation" data-cites="dieterich2016compas">[2]</span>. This
 demonstrated the trade-off between different definitions of fairness: it
 was calibrated across risk levels, but it was also clear that COMPAS
 generated more false positives for African-American defendants
@@ -31,11 +32,11 @@ they in fact did. Adding to the concern, COMPAS is a black-box
 algorithm: its process is proprietary and hidden. One lawsuit argued
 this violates due process rights since its methods are hidden from the
 court and the defendants <span class="citation"
-data-cites="harvard2017state"></span>. In this section, we will discuss
-some of the serious ethical questions raised by this case, examining
-what makes algorithms unfair and considering some methods to improve
-fairness.</p>
-<h2 id="ai-fairness-concepts"> 6.3.1 AI Fairness Concepts</h2>
+data-cites="harvard2017state">[3]</span>. In this section, we will
+discuss some of the serious ethical questions raised by this case,
+examining what makes algorithms unfair and considering some methods to
+improve fairness.</p>
+<h2 id="ai-fairness-concepts">AI Fairness Concepts</h2>
 <h4 id="fairness-is-difficult-to-specify.">Fairness is difficult to
 specify.</h4>
 <p>Fairness is a complicated and disputed concept with no single
@@ -58,7 +59,7 @@ in different contexts.</p>
 <h4 id="justice-as-fairness.">Justice as fairness.</h4>
 <p>Ethics is useful for analyzing the idea of fairness. John Rawls’
 theory of justice as fairness argues that fairness is fundamental to
-achieving a more just social system. In the Ethics chapter in the social contract section, we explore his
+achieving a more just social system. In the chapter , we explore his
 <em>maximin</em> and <em>difference principles</em>, which state that
 inequalities in social goods can only be justified if they maximize
 benefits for the most disadvantaged people. He also argued that the
@@ -78,7 +79,7 @@ predicting an outcome from features based on training data. Several
 different technical definitions of fairness have been proposed, often
 formalized mathematically. These definitions aim to highlight unfairness
 in ML systems, but most possess inherent limitations. We will review
-three definitions below.<br />
+three definitions below.<p>
 <em>Statistical parity.</em> The concept of statistical parity, also
 known as demographic parity, requires that an algorithm makes positive
 decisions at an equal rate for different groups. This metric requires
@@ -87,14 +88,14 @@ attribute. A hiring algorithm satisfies statistical parity if the hiring
 rates for men and women are identical. While intuitive, statistical
 parity is a very simplistic notion; for instance, it does not account
 for potential differences between groups that could justify or explain
-different outcomes.<br />
+different outcomes.<p>
 <em>Equalized odds.</em> Equalized odds demands that the false positive
 rate and false negative rate are equal across different groups. A
 predictive health screening algorithm fulfills equalized odds if the
 false positive rate is identical for men and women. This metric ensures
 that the <em>accuracy</em> of the model is not dependent on the
 sensitive attribute value. However, enforcing equalized odds can reduce
-overall accuracy.<br />
+overall accuracy.<p>
 <em>Calibration.</em> Calibration measures how well predicted
 probabilities match empirical results. In a calibrated model, the actual
 long-run frequency of positives in the real population will match the
@@ -105,13 +106,13 @@ and it does not tell us about the correctness or fairness of an ML
 system for individuals. Calibration can improve fairness by preventing
 incorrect, discriminatory predictions. As it happens, ML models often
 train on losses that encourage calibration, and are therefore often
-calibrated naturally.<br />
+calibrated naturally.<p>
 These technical concepts can be useful for operationalizing fairness.
 However, there is no single mathematical definition of fairness that
 matches everyone’s complex social expectations. This is a problem
 because satisfying one definition can often violate others: there are
 tensions between statistical notions of fairness.</p>
-<h2 id="limitations-of-fairness"> 6.3.2 Limitations of Fairness</h2>
+<h2 id="limitations-of-fairness">Limitations of Fairness</h2>
 <p>There are several problems with trying to create fair AI systems.
 While we can try to improve models’ adherence to the many metrics of
 fairness, the three classic definitions of fairness are mathematically
@@ -132,13 +133,13 @@ Achieving calibration may require violating statistical parity when the
 characteristic being predicted is different across groups, such as
 re-offending upon release from prison being more common among
 disadvantaged minorities <span class="citation"
-data-cites="corbettdavies2018measure"></span>. This makes fulfilling all
-three notions of fairness at once difficult or impossible.<br />
+data-cites="corbettdavies2018measure">[4]</span>. This makes fulfilling
+all three notions of fairness at once difficult or impossible.<p>
 The <em>impossibility theorem</em> for AI fairness proves that no
 classifier can satisfy these three definitions of fairness unless the
 prevalence of the target characteristic is equal across groups or
 prediction is perfect <span class="citation"
-data-cites="chouldechova2016fair kleinberg2016inherent"></span>.
+data-cites="chouldechova2016fair kleinberg2016inherent">[5], [6]</span>.
 Requiring a model to be “fair” according to one metric may actually
 disadvantage certain groups according to another metric. This undermines
 attempts to create a universally applicable, precise definition of
@@ -150,15 +151,15 @@ can reduce performance if not achieved carefully.</h4>
 <p>Enforcing fairness constraints often reduces model accuracy. Two
 papers found that applying fairness techniques to an e-commerce
 recommendation system increased financial costs <span class="citation"
-data-cites="zahn2009cost"></span> and mitigating unfairness in Kaggle
+data-cites="zahn2009cost">[7]</span> and mitigating unfairness in Kaggle
 models by post-processing reduced performance <span class="citation"
-data-cites="biswas2020machine"></span>. However, these and others also
-find ways to simultaneously improve both fairness and accuracy; for
+data-cites="biswas2020machine">[8]</span>. However, these and others
+also find ways to simultaneously improve both fairness and accuracy; for
 example, work on healthcare models has managed to improve fairness with
 little effect on accuracy <span class="citation"
-data-cites="poulain2023improving"></span>. While aiming for fairness can
-reduce model accuracy in many cases, sometimes fairness can be improved
-without harming accuracy.</p>
+data-cites="poulain2023improving">[9]</span>. While aiming for fairness
+can reduce model accuracy in many cases, sometimes fairness can be
+improved without harming accuracy.</p>
 <h4
 id="difficulties-in-achieving-fairness-across-contexts.">Difficulties in
 achieving fairness across contexts.</h4>
@@ -169,17 +170,17 @@ incompatible solutions. These context-specific issues make generic
 solutions inadequate. Models trained on historical data might reflect
 historical patterns such as the underprescription of pain medication to
 women <span class="citation"
-data-cites="calderone1990influence"></span>. Removing gender information
-from the dataset seems like an obvious way to avoid this problem.
-However, this does not always work and can even be counterproductive.
-For instance, removing gender data from an algorithm that matches
-donated organs to people in need of transplants failed to eliminate
-unfairness, because implicit markers of gender like body size and
-creatinine levels still put women at a disadvantage <span
-class="citation" data-cites="rodriguez-castro2014female"></span>.
+data-cites="calderone1990influence">[10]</span>. Removing gender
+information from the dataset seems like an obvious way to avoid this
+problem. However, this does not always work and can even be
+counterproductive. For instance, removing gender data from an algorithm
+that matches donated organs to people in need of transplants failed to
+eliminate unfairness, because implicit markers of gender like body size
+and creatinine levels still put women at a disadvantage <span
+class="citation" data-cites="rodriguez-castro2014female">[11]</span>.
 Diagnostic systems without information about patients’ sex tend to
 mispredict disease in females because they are trained mostly on data
-from males <span class="citation" data-cites="Straw2022"></span>.
+from males <span class="citation" data-cites="Straw2022">[12]</span>.
 Finding ways to achieve fairness is difficult: there is no single method
 or definition of fairness that straightforwardly translates into fair
 outcomes for all.</p>
@@ -190,13 +191,13 @@ ML systems, even when a model fulfills technical fairness metrics; for
 instance, patients and doctors often disagree on what constitutes
 fairness. People often view identical decisions as more unfair if they
 come from a statistical model <span class="citation"
-data-cites="lee2018understanding"></span>; they also often disagree on
-which fairness-oriented features are the most important <span
-class="citation" data-cites="harrison2020emperical"></span>, such as
+data-cites="lee2018understanding">[13]</span>; they also often disagree
+on which fairness-oriented features are the most important <span
+class="citation" data-cites="harrison2020emperical">[14]</span>, such as
 whether race should be used by the model or whether the model’s accuracy
 or false positive rates are more important. It is unclear how to define
 fairness in a generally acceptable way.</p>
-<h2 id="approaches-to-improving-fairness"> 6.3.3 Approaches to Improving
+<h2 id="approaches-to-improving-fairness">Approaches to Improving
 Fairness</h2>
 <p>Due to the impossibility theorem and inconsistent and competing
 ideas, it is only possible to pursue some <em>definition</em> or
@@ -226,9 +227,11 @@ contexts and struggle to combat biases inherited from training data.
 “Fairness through unawareness” aims to remove protected characteristics
 like gender and race from datasets to prevent sexism and racism, but
 fails miserably in practice because this data is embedded in correlates
-[as we explored in the Bias section in the Single Agent Safety chapter]. A focus on narrow
+[as we explored in the Bias section in chapter]. A focus on narrow
 measures can ignore other relevant considerations, and measures are
-often subject to proxy gaming (See the Proxy Gaming section). A more
+often subject to proxy gaming <a href="#sec:proxy-gaming"
+data-reference-type="ref"
+data-reference="sec:proxy-gaming">[sec:proxy-gaming]</a>. A more
 in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
@@ -250,8 +253,9 @@ focus on gradually deploying AI while assessing its impacts, ensuring
 there are strong oversight mechanisms and independent audits, and
 establishing methods to redress any harm. Audits can promote an
 understanding of the data sources and decision-making processes of ML
-models. This transparency is helpful but insufficient, as we saw in the Single Agent Safety
-chapter in the section on Opaqueness. <em>Participatory
+models. This transparency is helpful but insufficient, as we saw in the
+chapter <a href="#sec:opaqueness" data-reference-type="ref"
+data-reference="sec:opaqueness">[sec:opaqueness]</a>. <em>Participatory
 design</em> frameworks involve all of the impacted communities in the
 development of AI systems to surface unfairness early and ensure the
 product meets diverse human needs. Other frameworks focus on how
@@ -271,5 +275,110 @@ sociotechnical solutions such as the participation of stakeholders in
 deciding the tradeoffs a model makes between various fairness criteria.
 Research on algorithmic fairness continues to influence how AI systems
 are built and used. In the next section, we will examine how AI systems
-are currently being built and used, discussing the Economic Engine that
-creates and shapes AIs, and might in turn be transformed by them.</p>
+are currently being built and used, focusing on the implicit goal of
+wealth maximization within the Economic Engine that creates and shapes
+AIs. We will also consider a few days that the economy might, in turn,
+be transformed by AIs as well.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-angwin2016bias" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] J.
+Angwin, J. Larson, S. Mattu, and L. Kirchner, <span>“Machine
+bias.”</span> [Online]. Available: <a
+href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a></div>
+</div>
+<div id="ref-dieterich2016compas" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] W.
+Dieterich, C. Mendoza, and T. Brennan, <span>“COMPAS risk scales:
+Demonstrating accuracy equity and predictive parity.”</span> vol. 7, pp.
+1–36, 2016.</div>
+</div>
+<div id="ref-harvard2017state" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div
+class="csl-right-inline"><span>“State v. loomis,”</span> <em>Harvard Law
+Review</em>, vol. 130, 2017.</div>
+</div>
+<div id="ref-corbettdavies2018measure" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] S.
+Corbett-Davies, J. D. Gaebler, H. Nilforoshan, R. Shroff, and S. Goel,
+<span>“The measure and mismeasure of fairness.”</span> 2018. Available:
+<a
+href="https://arxiv.org/abs/1808.00023">https://arxiv.org/abs/1808.00023</a></div>
+</div>
+<div id="ref-chouldechova2016fair" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] A.
+Chouldechova, <span>“Fair prediction with disparate impact: A study of
+bias in recidivism prediction instruments.”</span> 2016. Available: <a
+href="https://arxiv.org/abs/1610.07524">https://arxiv.org/abs/1610.07524</a></div>
+</div>
+<div id="ref-kleinberg2016inherent" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] J.
+Kleinberg, S. Mullainathan, and M. Raghavan, <span>“Inherent trade-offs
+in the fair determination of risk scores.”</span> 2016. Available: <a
+href="https://arxiv.org/abs/1609.05807">https://arxiv.org/abs/1609.05807</a></div>
+</div>
+<div id="ref-zahn2009cost" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] M.
+von Zahn and S. Feuerrigel, <span>“The cost of fairness in AI: Evidence
+from e-commerce,”</span> <em>Business and Information Systems
+Engineering</em>, vol. 64, 2009, doi: <a
+href="https://doi.org/10.1007/s12599-021-00716-w">10.1007/s12599-021-00716-w</a>.</div>
+</div>
+<div id="ref-biswas2020machine" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] S.
+Biswas and H. Rajan, <span>“Do the machine learning models on a crowd
+sourced platform exhibit bias? An empirical study on model
+fairness,”</span> in <em>Proceedings of the 28th <span>ACM</span> joint
+meeting on european software engineering conference and symposium on the
+foundations of software engineering</em>, <span>ACM</span>, Nov. 2020.
+doi: <a
+href="https://doi.org/10.1145/3368089.3409704">10.1145/3368089.3409704</a>.</div>
+</div>
+<div id="ref-poulain2023improving" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] R.
+Poulain, M. F. B. Tarek, and R. Beheshti, <span>“Improving fairness in
+AI models on electronic health records: The case for federated learning
+methods,”</span> 2023. Available: <a
+href="https://arxiv.org/abs/2305.11386">https://arxiv.org/abs/2305.11386</a></div>
+</div>
+<div id="ref-calderone1990influence" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] K.
+L. Calderone, <span>“The influence of gender on the frequency of pain
+and sedative medication administered to postoperative patients,”</span>
+<em>Sex Roles</em>, vol. 23, pp. 713–725, 1990, Available: <a
+href="https://doi.org/10.1007/bf00289259">https://doi.org/10.1007/bf00289259</a></div>
+</div>
+<div id="ref-rodriguez-castro2014female" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[11] K.
+I. Rodríguez-Castro, E. D. Martin, M. Gambato, S. Lazzaro, E. Villa, and
+P. Burra, <span>“Female gender in the setting of liver
+transplantation,”</span> <em>World J Transplant</em>, vol. 4, 2014, doi:
+<a
+href="https://doi.org/10.5500/wjt.v4.i4.229">10.5500/wjt.v4.i4.229</a>.</div>
+</div>
+<div id="ref-Straw2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] I.
+Straw and H. Wu, <span>“Investigating for bias in healthcare algorithms:
+A sex-stratified analysis of supervised machine learning models in liver
+disease prediction,”</span> <em>BMJ Health &amp; Care Informatics</em>,
+vol. 29, p. 100457, Apr. 2022, doi: <a
+href="https://doi.org/10.1136/bmjhci-2021-100457">10.1136/bmjhci-2021-100457</a>.</div>
+</div>
+<div id="ref-lee2018understanding" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] M.
+K. Lee, <span>“Understanding perception of algorithmic decisions:
+Fairness, trust, and emotion in response to algorithmic
+management,”</span> <em>Big Data &amp; Society</em>, vol. 5, 2018,
+Available: <a
+href="https://api.semanticscholar.org/CorpusID:149040922">https://api.semanticscholar.org/CorpusID:149040922</a></div>
+</div>
+<div id="ref-harrison2020emperical" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] G.
+Harrison, J. Hanson, C. Jacinto, J. Ramirez, and B. Ur, <span>“An
+empirical study on the perceived fairness of realistic, imperfect
+machine learning models,”</span> Jan. 2020, pp. 392–402. doi: <a
+href="https://doi.org/10.1145/3351095.3372831">10.1145/3351095.3372831</a>.</div>
+</div>
+</div>
