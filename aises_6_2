@@ -20,38 +20,38 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="law"> 6.2 Law</h1>
-<p><strong>Why not have AIs follow the law?</strong> In this textbook,
-we have often turned to ethics to answer the question of how we can
-ensure AI is safe and beneficial. But some argue that simply getting AIs
-to follow the law is a better solution.<br />
-The law has three features which give it an advantage over ethics as a
+<h1 id="law">Law</h1>
+<p><strong>Why not have AIs follow the law?</strong> We often argue that
+for AIs to be safe and beneficial, we need to align them with human
+values. However, some argue that simply getting AIs to follow the law is
+a better solution.<p>
+The law has three features that give it an advantage over ethics as a
 model for safe and beneficial AI. In democratic countries, the law is a
 <em>legitimate</em> representation of our moral codes: at least in
 theory, it is a democratically endorsed record of our shared values. Law
 is <em>time-tested</em> and <em>comprehensive</em>; it has developed
 over many generations to adjudicate the areas where humans have
 consequential disagreements. Finally, legal language can be
-<em>specific</em> and <strong>adaptable</strong> to new contexts,
-comparing favorably to ethical language, which can often be interpreted
-in diverging ways.<br />
+<em>specific</em> and <em>adaptable</em> to new contexts, comparing
+favorably to ethical language, which can often be interpreted in
+diverging ways.<p>
 The next subsection will expand on these features of the law. We will
 see how these features contrast favorably with ethics before arguing
 that we do need ethics after all but alongside the law.</p>
-<h2 id="the-case-for-law"> 6.2.1 The Case For Law</h2>
+<h2 id="the-case-for-law">The Case For Law</h2>
 <h3 id="legitimate-aggregation-of-values">Legitimate Aggregation of
 Values</h3>
 <h4
 id="in-a-democratic-country-the-law-is-influenced-by-the-opinions-of-the-populace.">In
 a democratic country, the law is influenced by the opinions of the
 populace.</h4>
-<p>Democratic citizens are able to elect judges and vote on new laws,
-directly or through representatives. If they don’t like part of an
-existing law, they have a range of legal means, such as advocating,
-protesting, and voting, to change it. Even though the law at any given
-time won’t perfectly reflect the values of the citizenry, the method of
-arriving at law is usually <em>legitimate</em>. In other words, the
-citizens have input into the law.</p>
+<p>Democratic citizens vote on new laws, directly or through
+representatives. If they don’t like part of an existing law, they have a
+range of legal means, such as advocating, protesting, and voting, to
+change it. Even though the law at any given time won’t perfectly reflect
+the values of the citizenry, the method of arriving at law is usually
+<em>legitimate</em>. In other words, the citizens have input into the
+law.</p>
 <h4
 id="legitimacy-provides-the-law-with-a-clear-advantage-over-ethics.">Legitimacy
 provides the law with a clear advantage over ethics.</h4>
@@ -62,7 +62,7 @@ actions, we have to either pick an ethical theory to follow, or decide
 how to weigh the differing opinions of multiple theories that we think
 might be true. But any of these options are likely to be more
 controversial than simply following the law. Ethics has no in-built
-method of democratic agreement.<br />
+method of democratic agreement.<p>
 However, just following the law isn’t a perfect solution: there will
 always be an act of interpretation between the written law and its
 application in a particular situation. There is often no agreement over
@@ -122,22 +122,22 @@ standards.</h4>
 <p>Using rules and standards alongside each other, the law can find the
 best equilibrium between carrying out the lawmaker’s intentions and
 accounting for situations they didn’t foresee <span class="citation"
-data-cites="clermont2020rules"></span>. This gives the law an advantage
-in the problem of maintaining human control of AI systems by displaying
-the right level of ambiguity.<br />
+data-cites="clermont2020rules">[1]</span>. This gives the law an
+advantage in the problem of maintaining human control of AI systems by
+displaying the right level of ambiguity.<p>
 Law is less ambiguous than ethical language, which can be very
 ambiguous. Phrases like “do the right thing”, “act virtuously” or “make
 sure you are acting consistently” can mean different things to different
 people. In contrast, it is more flexible than programming languages,
 which are brittle and designed to only fit into particular contexts.
 Legal language can maintain a middle ground between rigid rules and more
-sensible standards.<br />
+sensible standards.<p>
 </p>
 <figure>
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/formatting.png" class="tb-img-full" style="width=70%"/>
-<p class="tb-caption">Figure 6.1: Legal language balances being less ambiguous than ethical language while being more
-flexibly formatted than programming language.</p>
-<!--<figcaption>Ambiguity vs. flexibility in languages</figcaption>-->
+<img src="images/machine_ethics/image21.png" />
+<figcaption>Legal language balances being less ambiguous than ethical
+language while being more flexibly formatted than programming
+language.</figcaption>
 </figure>
 <h3 id="specific-and-adaptable">Specific and Adaptable</h3>
 <p>We can apply these insights about rules and standards in law to two
@@ -153,33 +153,42 @@ discourse, we see this problem raised by many thinkers; for example,
 Stuart Russell raised the concern that an AI, if asked to develop a cure
 for cancer, might experiment on people, giving them tumors as part of
 carrying out the request <span class="citation"
-data-cites="Russell2019HumanCA"></span>. A narrow, literal
+data-cites="Russell2019HumanCA">[2]</span>. A narrow, literal
 interpretation of “develop a cure for cancer,” which doesn’t take any of
 our typical considerations into account, could lead to this outcome.
 Misinterpretation risks are like wishes to a genie: we might get what we
 ask for but not what we want.</p>
 <h4
-id="the-capabilities-of-llms-give-us-some-reason-to-see-this-risk-as-unlikely.">The
-capabilities of LLMs give us some reason to see this risk as
-unlikely.</h4>
-<p>Fortunately, there are good reasons not to be concerned about this
-particular risk from AI. Our experience with large language models has
-shown that by being trained on human-generated language data, AIs can
-act on the meaning of our sentences in a way that is approximately
-similar to the way that a human speaker of the language would. The
+id="the-capabilities-of-llms-give-us-some-reason-to-see-misinterpretation-risks-as-unlikely.">The
+capabilities of LLMs give us some reason to see misinterpretation risks
+as unlikely.</h4>
+<p>Before LLMs, some AI researchers were concerned that most AI models
+would be trained in ways that would mean they had no understanding of
+many ordinary human concepts or values. However, this now seems less
+likely. Our experience with large language models has shown that by
+being trained on human-generated language data, AIs can respond to the
+meaning of our sentences in a way that is approximately similar to the
+way that a human speaker of the language would; for instance, the
 Happiness section below discusses two other systems that can predict
-human responses to video and text. Suppose similar systems are used in
-the future. In that case, we should not worry about extreme actions
-emerging from a misinterpretation of perfectly normal requests—although
-we might still worry that these emerge from optimization pressures.</p>
+human responses to video and text. If similar systems are used in the
+future, it seems plausible that AIs can apply laws in a sensible way,
+and we may not need to worry about extreme actions emerging from a
+misinterpretation of perfectly normal requests.<p>
+That said, we might still worry that these emerge from optimization
+pressures. Additionally, while AIs might usually interpret human
+concepts sensibly, they may still have representations that have rare
+quirks. This poses problems; for instance, it creates vulnerabilities
+that can be exploited by adversarial attacks. There is more work to be
+done before we can feel comfortable that systems will reliably be able
+to interpret laws and other commands in practice.</p>
 <h4
 id="however-we-still-face-the-risk-of-ais-gaming-our-commands-to-get-what-they-want.">However,
 we still face the risk of AIs gaming our commands to get what they
 want.</h4>
 <p>Stuart Russell raises a different concern with AI: gaming <span
-class="citation" data-cites="Russell2019HumanCA"></span>. An AI system
-may ‘play’ the system or rules, akin to strategizing in a game, to
-achieve its objectives in unexpected or undesired ways. He gives the
+class="citation" data-cites="Russell2019HumanCA">[2]</span>. An AI
+system may ‘play’ the system or rules, akin to strategizing in a game,
+to achieve its objectives in unexpected or undesired ways. He gives the
 example of tax codes. Humans have been designing tax laws for 6000
 years, yet many still avoid taxation. Creating a tax code not
 susceptible to gaming is particularly difficult because individuals are
@@ -187,20 +196,26 @@ incentivized to avoid paying taxes wherever possible. If our track
 record with creating rules to constrain each other is so bad, then we
 might be pessimistic about constraining AI systems that might have goals
 that we don’t understand.</p>
-<h4 id="a-partial-answer-is-found-in-the-use-of-standards.">A partial
-answer is found in the use of standards.</h4>
-<p>A standard can cover much more ground than a rule. A well-formulated
-standard can lead to the law finding the right answer, even in new and
-unique cases. Such approaches are sometimes applied in the case of
-taxes. In the UK, for example, there is a rule against tax arrangements
-that “are abusive.” This is not an objective trigger: it is up to a
-judge to decide what is “abusive.” An AI system trained to follow the
-law will be accountable to rules and standards.<br />
-Nothing we have considered will be able to eliminate the possibility of
-gaming. However, the problem of misinterpretation is less concerning
-now, and we can be hopeful about using standards to maintain control of
-AI systems.</p>
-<h2 id="the-need-for-ethics"> 6.2.2 The Need for Ethics</h2>
+<h4
+id="a-partial-solution-to-misinterpretation-and-gaming-is-found-in-rules-and-standards.">A
+partial solution to misinterpretation and gaming is found in rules and
+standards.</h4>
+<p>If we are concerned about misinterpretation, we might choose to rely
+on laws that are specific. Rules such as “any generated image must have
+a digital watermark” are specific enough that they are difficult to
+misinterpret. We might prefer using such laws rather than relying on
+abstract ethical principles, which are vaguer and easier to
+misinterpret.<p>
+Conversely, if we are concerned about AIs gaming rules, we might prefer
+to have standards, which can cover more ground than a rule. A
+well-formulated standard can lead to an agent consistently finding the
+right answer, even in new and unique cases. Such approaches are
+sometimes applied in the case of taxes. In the UK, for example, there is
+a rule against tax arrangements that are “abusive.” This is not an
+objective trigger: it is up to a judge to decide what is “abusive.” An
+AI system trained to follow the law can be accountable to rules and
+standards.</p>
+<h2 id="the-need-for-ethics">The Need for Ethics</h2>
 <p>This subsection will discuss why ethics is still indispensable in
 creating safe and beneficial AI, even though law is a powerful tool.
 Firstly, though the law is comprehensive, there are important areas of
@@ -223,20 +238,20 @@ too burdensome.</p>
 id="the-law-often-stops-short-of-compelling-us-to-do-clearly-good-things.">The
 law often stops short of compelling us to do clearly good things.</h4>
 <p>It is generally seen as good if someone steps in to rescue a stranger
-who is in danger. However, under US common law, the duty to rescue only
-applies in certain cases where we have special responsibility for
-someone. We face a penalty if we fail to rescue our spouse or employee,
-but there is no law against failing to rescue a stranger, even when it
-would be at no cost to us. Giving humans this kind of discretion may not
-have terrible outcomes, because many people have strong ethical
-intuitions anyway, and would carry out the rescue. But an AI that was
-only following the law would not unless it had a strong ethical drive as
-well. In cases like rescue, where AI systems may be <em>more</em>
-capable than humans to help, we could be passing up a major benefit by
-asking the AI to only follow the law. Likewise, in the US, AIs may be
-required to avoid uttering copyrighted content and libelous claims, but
-doxing, instructions for building bombs, or advice for how to break the
-law can be legal, even if it is not ethical.<br />
+who is in danger. However, in some jurisdictions like the US, the duty
+to rescue only applies in certain cases where we have special
+responsibility for someone. We face a penalty if we fail to rescue our
+spouse or employee, but there is no law against failing to rescue a
+stranger, even when it would be at no cost to us. Giving humans this
+kind of discretion may not have terrible outcomes, because many people
+have strong ethical intuitions anyway, and would carry out the rescue.
+But an AI that was only following the law would not unless it had a
+strong ethical drive as well. In cases like rescue, where AI systems may
+be <em>more</em> capable than humans to help, we could be passing up a
+major benefit by asking the AI to only follow the law. Likewise, in the
+US, AIs may be required to avoid uttering copyrighted content and
+libelous claims, but doxing, instructions for building bombs, or advice
+for how to break the law can be legal, even if it is not ethical.<p>
 Conversely, by constraining AI with laws rather than guiding it with
 ethics, we risk it acting in undesirable ways in zones of discretion. AI
 could recommend potentially harmful economic policies, trick humans into
@@ -256,9 +271,9 @@ regretted, legal slavery, legal discrimination on the basis of race and
 gender, and various other controversial laws which are later deemed
 morally wrong. There is also often a significant time delay between the
 moral opinions of a population changing, and the law changing to reflect
-them <span class="citation" data-cites="nay2023law"></span>. This means
-that laws formed in democracies can fall short of being moral, even in
-the eyes of the citizens of the country that made them.<br />
+them <span class="citation" data-cites="nay2023law">[3]</span>. This
+means that laws formed in democracies can fall short of being moral,
+even in the eyes of the citizens of the country that made them.<p>
 If solely constrained by a country’s fallible democratic laws, future AI
 systems could behave in ways most of the world would consider immoral.
 To mitigate this risk, it is necessary to train AI to respect the
@@ -283,16 +298,12 @@ the problem of figuring out how to act, given the range of differing
 views on ethics. A solution from the moral uncertainty literature which
 best embodies the democratic ideal is the <em>moral parliament</em>
 approach, which we will discuss later in this chapter.</p>
-<br>
-<div class="visionbox">
-<legend class="visionboxlegend">
-    <p><span><b>A Note On The Three Laws of Robotics</b></span></p>
-</legend>
-<p>Some propose that
+<div class="storybox">
+<p><span>A Note On The Three Laws of Robotics</span> Some propose that
 Isaac Asimov’s “Three Laws of Robotics” provide a useful set of rules
 for resolving problems in machine ethics <span class="citation"
-data-cites="asimov1942run Shulman2021"></span>. These laws are as
-follows:</p>
+data-cites="asimov1942run Shulman2021">[4], [5]</span>. These laws are
+as follows:</p>
 <ol>
 <li><p>“A robot may not injure a human being, or through inaction, allow
 a human being to come to harm,”</p></li>
@@ -309,11 +320,11 @@ Below, we explore some of these limitations.</p>
 <h4
 id="asimovs-laws-are-insufficient-for-guiding-ethical-behavior-in-ai-systems.">Asimov’s
 laws are insufficient for guiding ethical behavior in AI systems<span
-class="citation" data-cites="stokes2018"></span>.</h4>
+class="citation" data-cites="stokes2018">[6]</span>.</h4>
 <p>The three laws use under-defined terms like “harm” and “inaction.”
 Because they’re under-defined, they could be interpreted in multiple
 ways. It’s not clear precisely what “harm” means to humans, and it would
-be even more difficult to encode the same meaning in AI systems.<br />
+be even more difficult to encode the same meaning in AI systems.<p>
 Harm is a complex concept. It can be physical or psychological. Would a
 robot following Asimov’s first laws be required to intervene when humans
 are about to hurt each other’s feelings? Would it be required to
@@ -326,23 +337,20 @@ would also be forbidden from allowing the harmful spread of an infection
 through its inaction. These scenarios illustrate that the first law
 fails, and therefore, that the following two do not follow. The laws may
 need to be much more specific in order to reliably guide ethical
-behavior in future AI systems.<br />
+behavior in future AI systems.<p>
 Philosophy has yet to produce a sufficient set of rules to determine
 moral conduct. The safety of future AI systems cannot be guaranteed
 simply through a set of rules or axioms. Numerous factors, such as proxy
 gaming and competitive pressures, cannot be adequately captured in a set
 of rules. Rules may be useful, but AI safety will require a more dynamic
 and comprehensive approach that can address existing technical and
-sociotechnical issues.<br />
+sociotechnical issues.<p>
 Overall, Asimov’s Three Laws of Robotics fail to reliably guide ethical
 behavior in AI systems, even if they serve as a useful starting point
-for examining certain questions and problems in AI safety.<br />
+for examining certain questions and problems in AI safety.<p>
 </p>
 </div>
-<br>
-<h3 id="conclusions-about-law-and-ethics">Conclusions About Law and
-Ethics</h3>
-<h4 id="summary.">Summary.</h4>
+<h3 id="conclusions-about-law">Conclusions About Law</h3>
 <p>The law is comprehensive, but not comprehensive enough to ensure that
 the actions of an AI system are safe and beneficial. AI systems must
 follow the law as a baseline, but we must also develop methods to ensure
@@ -351,3 +359,40 @@ law would leave many gaps that the AI could exploit, or make ethical
 errors within. To create beneficial AI that acts in the interests of
 humanity, we need to understand the ethical values that people hold over
 and above the law.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-clermont2020rules" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] K.
+M. Clermont, <span>“Rules, standards, and such,”</span> <em>Buffalo Law
+Review</em>, 2020.</div>
+</div>
+<div id="ref-Russell2019HumanCA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] S.
+Russell, <span>“Human compatible: Artificial intelligence and the
+problem of control,”</span> 2019.</div>
+</div>
+<div id="ref-nay2023law" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+J. Nay, <span>“Law informs code: A legal informatics approach to
+aligning artificial intelligence with humans.”</span> 2023. Available:
+<a
+href="https://arxiv.org/abs/2209.13020">https://arxiv.org/abs/2209.13020</a></div>
+</div>
+<div id="ref-asimov1942run" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] I.
+Asimov, <em>Runaround</em>. 1942.</div>
+</div>
+<div id="ref-Shulman2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] C.
+Shulman and N. Bostrom, <span>“<span class="nocase">306C18Sharing the
+World with Digital Minds</span>,”</span> in <em><span>Rethinking Moral
+Status</span></em>, Oxford University Press, 2021. doi: <a
+href="https://doi.org/10.1093/oso/9780192894076.003.0018">10.1093/oso/9780192894076.003.0018</a>.</div>
+</div>
+<div id="ref-stokes2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] C.
+Stokes, <span>“Why the three laws of robotics do not work,”</span>
+<em>International Journal of Research in Engineering and
+Innovation</em>, vol. 2, 2018.</div>
+</div>
+</div>
