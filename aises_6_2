@@ -41,10 +41,9 @@ that we do need ethics after all but alongside the law.</p>
 <h2 id="the-case-for-law">6.2.1 The Case For Law</h2>
 <h3 id="legitimate-aggregation-of-values">Legitimate Aggregation of
 Values</h3>
-<h4
-id="in-a-democratic-country-the-law-is-influenced-by-the-opinions-of-the-populace.">In
+<strong>In
 a democratic country, the law is influenced by the opinions of the
-populace.</h4>
+populace.</strong>
 <p>Democratic citizens vote on new laws, directly or through
 representatives. If they don’t like part of an existing law, they have a
 range of legal means, such as advocating, protesting, and voting, to
@@ -52,9 +51,8 @@ change it. Even though the law at any given time won’t perfectly reflect
 the values of the citizenry, the method of arriving at law is usually
 <em>legitimate</em>. In other words, the citizens have input into the
 law.</p>
-<h4
-id="legitimacy-provides-the-law-with-a-clear-advantage-over-ethics.">Legitimacy
-provides the law with a clear advantage over ethics.</h4>
+<strong>Legitimacy
+provides the law with a clear advantage over ethics.</strong>
 <p>The law provides a collection of rules and standards that enable us
 to differentiate illegal from legal actions. Ethics, on the other hand,
 isn’t standardized or codified. To determine ethical and unethical
@@ -84,9 +82,8 @@ approximation of their values. This makes the law a particularly
 promising resource for aligning AI systems with the values of the
 population.</p>
 <h3 id="rules-and-standards">Rules and Standards</h3>
-<h4
-id="naively-we-might-think-of-the-law-as-a-system-of-rules.">Naively, we
-might think of the law as a system of rules.</h4>
+<strong>Naively, we
+might think of the law as a system of rules.</strong>
 <p>“Law” seems almost synonymous with “rule” in our language. When we
 talk about “the laws of physics” or “natural laws” in general, we mean
 something rigid and inflexible—when X happens, Y will follow. This is
@@ -97,8 +94,8 @@ will be fined $200.” In this case, there is an objective trigger
 isn’t much room for the judge to interpret the rule differently. This
 gives the lawmaker predictable control over how the law will be carried
 out.</p>
-<h4 id="a-law-based-on-rules-alone-would-be-flawed.">A law based on
-rules alone would be flawed.</h4>
+<strong>A law based on
+rules alone would be flawed.</strong>
 <p>However, a fixed speeding rule would mean fining someone who was
 accelerating momentarily to avoid hitting a pedestrian and not fining
 someone who continued to drive at the maximum speed limit around a blind
@@ -106,9 +103,8 @@ turn, creating a danger for other drivers. Rules are always
 over-inclusive (they will apply to some cases we would rather not be
 illegal) and under-inclusive (they won’t apply to all cases we would
 like to be illegal).</p>
-<h4
-id="to-remedy-this-problem-a-law-can-instead-be-based-on-a-standard.">To
-remedy this problem, a law can instead be based on a standard.</h4>
+<strong>To
+remedy this problem, a law can instead be based on a standard.</strong>
 <p>In the speeding case, a standard could be “when someone is driving
 unreasonably, they will be fined in proportion to the harm they pose.” A
 judge could apply this standard to get the correct result in both cases
@@ -117,8 +113,8 @@ turn). Standards have their own problems: with standards rather than
 rules, the judge is empowered to interpret the standards based on their
 own opinion, allowing them to act in ways that diverge from the
 lawmaker’s intentions.</p>
-<h4 id="the-law-uses-rules-and-standards.">The law uses rules and
-standards.</h4>
+<strong>The law uses rules and
+standards.</strong>
 <p>Using rules and standards alongside each other, the law can find the
 best equilibrium between carrying out the lawmaker’s intentions and
 accounting for situations they didn’t foresee <span class="citation"
@@ -143,9 +139,8 @@ flexibly formatted than programming language.</p>
 core problems in controlling AI systems: <em>misinterpretation</em> and
 <em>gaming</em>. The law is specific enough to avoid misinterpretation
 and adaptable enough to prevent many forms of gaming.</p>
-<h4
-id="given-commands-in-natural-language-ais-might-interpret-them-literally.">Given
-commands in natural language, AIs might interpret them literally.</h4>
+<strong>Given
+commands in natural language, AIs might interpret them literally.</strong>
 <p>The misinterpretation problem arises when the literal interpretation
 of our commands differs from our intended interpretation. In AI safety
 discourse, we see this problem raised by many thinkers; for example,
@@ -157,10 +152,10 @@ interpretation of “develop a cure for cancer,” which doesn’t take any of
 our typical considerations into account, could lead to this outcome.
 Misinterpretation risks are like wishes to a genie: we might get what we
 ask for but not what we want.</p>
-<h4
+<strong
 id="the-capabilities-of-llms-give-us-some-reason-to-see-misinterpretation-risks-as-unlikely.">The
 capabilities of LLMs give us some reason to see misinterpretation risks
-as unlikely.</h4>
+as unlikely.</strong>
 <p>Before LLMs, some AI researchers were concerned that most AI models
 would be trained in ways that would mean they had no understanding of
 many ordinary human concepts or values. However, this now seems less
@@ -180,10 +175,10 @@ quirks. This poses problems; for instance, it creates vulnerabilities
 that can be exploited by adversarial attacks. There is more work to be
 done before we can feel comfortable that systems will reliably be able
 to interpret laws and other commands in practice.</p>
-<h4
+<strong
 id="however-we-still-face-the-risk-of-ais-gaming-our-commands-to-get-what-they-want.">However,
 we still face the risk of AIs gaming our commands to get what they
-want.</h4>
+want.</strong>
 <p>Stuart Russell raises a different concern with AI: gaming <span
 class="citation" data-cites="Russell2019HumanCA">[2]</span>. An AI
 system may ‘play’ the system or rules, akin to strategizing in a game,
@@ -195,10 +190,9 @@ incentivized to avoid paying taxes wherever possible. If our track
 record with creating rules to constrain each other is so bad, then we
 might be pessimistic about constraining AI systems that might have goals
 that we don’t understand.</p>
-<h4
-id="a-partial-solution-to-misinterpretation-and-gaming-is-found-in-rules-and-standards.">A
+<strong>A
 partial solution to misinterpretation and gaming is found in rules and
-standards.</h4>
+standards.</strong>
 <p>If we are concerned about misinterpretation, we might choose to rely
 on laws that are specific. Rules such as “any generated image must have
 a digital watermark” are specific enough that they are difficult to
@@ -233,9 +227,8 @@ most contracts between private individuals. The law puts some limits on
 these areas of behavior. Still, lawmakers intentionally leave free space
 to enable actors to make their own choices and to avoid the law becoming
 too burdensome.</p>
-<h4
-id="the-law-often-stops-short-of-compelling-us-to-do-clearly-good-things.">The
-law often stops short of compelling us to do clearly good things.</h4>
+<strong>The
+law often stops short of compelling us to do clearly good things.</strong>
 <p>It is generally seen as good if someone steps in to rescue a stranger
 who is in danger. However, in some jurisdictions like the US, the duty
 to rescue only applies in certain cases where we have special
@@ -259,10 +252,9 @@ Without ethics, a law-abiding AI could carry out great harm because the
 law is silent in situations where we may want to guide behavior
 nonetheless.</p>
 <h3 id="immoral-law">Immoral Law</h3>
-<h4
-id="the-law-can-be-immoral-even-if-it-is-created-legitimately-and-interpreted-correctly.">The
+<strong>The
 law can be immoral even if it is created legitimately and interpreted
-correctly.</h4>
+correctly.</strong>
 <p>Democratic majorities can pass laws that a large number of fellow
 citizens think are immoral, or that will seem immoral to future
 populations of that country, such as the legalization of wars later
@@ -318,10 +310,9 @@ ethics is a common misconception. Asimov himself frequently tested the
 adequacy of these laws throughout his writing, showing that they are, in
 fact, limited in their ability to resolve machine ethics problems.
 Below, we explore some of these limitations.</p>
-<h4
-id="asimovs-laws-are-insufficient-for-guiding-ethical-behavior-in-ai-systems.">Asimov’s
+<strong>Asimov’s
 laws are insufficient for guiding ethical behavior in AI systems<span
-class="citation" data-cites="stokes2018">[6]</span>.</h4>
+class="citation" data-cites="stokes2018">[6]</span>.</strong>
 <p>The three laws use under-defined terms like “harm” and “inaction.”
 Because they’re under-defined, they could be interpreted in multiple
 ways. It’s not clear precisely what “harm” means to humans, and it would
