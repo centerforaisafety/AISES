@@ -1,11 +1,17 @@
 <!-- Machine Ethics -->
 
-<h1 id="introduction"> 6.1 Introduction</h1>
+<h1 id="introduction">Introduction</h1>
 <h4 id="how-should-we-direct-ais-to-promote-human-values">How should we
 direct AIs to promote human values?</h4>
 <p>As we continue to develop powerful AI systems, it is crucial to
-ensure that they are safe and beneficial for humanity. In this chapter,
-we discuss the challenges of embedding ethics into AIs.<br />
+ensure they are safe and beneficial for humanity. In this chapter, we
+discuss the challenges of embedding ethics into AIs. This is the problem
+of machine ethics. It is relevant for AIs that exist today in sectors
+such as healthcare or transportation, where artificial systems may be
+making decisions in situations that can harm or benefit humans. It is
+even more relevant for future systems that may be integrated more
+broadly across economies, governments, and militaries, making
+high-stakes decisions with many important moral considerations.<p>
 </p>
 <h4 id="many-people-have-incoherent-views-on-machine-ethics.">Many
 people have incoherent views on machine ethics.</h4>
@@ -27,21 +33,27 @@ of these are compatible, because they make <em>different normative
 assumptions</em> and <em>require different technical
 implementations</em>. Other suggestions such as “AIs should follow human
 intentions” are highly vague. Put straightforwardly, while these sound
-attractive and similar, they are not the same thing.<br />
+attractive and similar, they are not the same thing.<p>
 This should challenge the notion that machine ethics is a
 straightforward problem with a simple solution, and that the real
 challenges lie only elsewhere, such as in capabilities development. In
-fact, those who believe the machine ethics question is easily solvable
-may find themselves grappling with inconsistencies and confusion when
-confronted with the diverse range of perspectives and assumptions
-involved.</p>
+fact, those who believe there are easy ways to ensure that AIs act
+ethically may find themselves grappling with inconsistencies and
+confusion when confronted with instances in which their preferred
+methods appear to yield harmful behavior. Often, discussions of machine
+ethics require an understanding of considerations and theories from
+ethical theory, which we explore next in the Normative Ethics
+chapter.</p>
 <h4 id="preview.">Preview.</h4>
 <p>In this chapter, we will consider the intricacies of machine ethics,
-attempting to understand which of these answers, if any, takes us closer
-to creating safe and beneficial AIs. We will draw on the fundamental
-concepts from the study of AI, ethics, and utility functions discussed
-in prior chapters. The following subsections will provide an overview of
-various aspects of machine ethics:</p>
+attempting to understand which answers, if any, take us closer to
+creating safe and beneficial AIs. We start with frameworks that attempt
+to constrain AI goals, limiting the potential for AIs to pursue bad
+objectives, including constraints on actions to ensure that AIs follow
+existing laws and make fair decisions. The rest of the chapter explores
+positive goals for AIs, such as maximizing wealth, happiness, or
+preference satisfaction. This is divided into the following subsections,
+which will each provide an overview of an aspect of machine ethics:</p>
 <ol>
 <li><p><strong>Law</strong>: Why not have AIs follow the law? We examine
 whether we can design AIs that follow existing legal frameworks,
@@ -79,9 +91,15 @@ uncertainty by using a moral parliament, where ethical decisions
 regarding AI systems are made by simulating democratic
 processes.</p></li>
 </ol>
-<p>By examining these key aspects of machine ethics, we aim to provide
-an introductory understanding of the challenges and potential solutions
-in creating safe AI systems. Through the exploration of a variety of
-different concepts, we can examine the problems we face in deciding how
-to create beneficial AI and lay the foundation for responsible AI
-development and deployment.</p>
+<p>Some of these areas are much more developed than others: there has
+been a lot of work on developing laws to govern AIs, for instance, but
+only a handful of papers on using AIs to represent moral theories in a
+“moral parliament.’’ Additionally, different areas may be relevant for
+different systems: areas such as algorithmic fairness are highly
+relevant to AI systems today, such as predictive systems used for
+criminal sentencing, whereas goals such as “robustly estimate and
+optimize an individual’s wellbeing’’ might appear very challenging today
+but become more feasible in the future with more capable systems. By
+examining these key aspects of machine ethics, we aim to provide an
+introductory understanding of the challenges and potential solutions in
+creating safe AI systems.</p>
