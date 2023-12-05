@@ -1,6 +1,6 @@
 <!-- Collective Action Problems -->
 
-<h1 id="motivation">8.1 Motivation</h1>
+<h1 id="motivation">Motivation</h1>
 <h3 id="introduction">Introduction</h3>
 <p>In the chapters “Complex Systems” and “Safety Engineering,” we
 considered AI risks that arise not only from the technologies themselves
@@ -14,48 +14,51 @@ laureate Thomas Schelling, “Micromotives do not equal macrobehavior”
 <span class="citation"
 data-cites="Schelling1978MicromotivesAM">[1]</span>. Let us explore this
 idea using some examples.</p>
-<p><strong>Traffic jams.</strong> Consider a traffic jam, where the only
-obstacle to each motorist is the car in front. Everyone has the same
-goal, which is to reach their destination quickly. Since nobody wants to
-be stuck waiting, the solution might appear obvious to someone
+<p><strong>Example: traffic jams.</strong> Consider a traffic jam, where
+the only obstacle to each motorist is the car in front. Everyone has the
+same goal, which is to reach their destination quickly. Since nobody
+wants to be stuck waiting, the solution might appear obvious to someone
 unfamiliar with traffic: everyone should simply drive forward, starting
 at the same time and accelerating at the same rate. And yet, without
 external synchronization, achieving this preferable state is impossible.
 All anyone can do is start and stop in response to each others’ starting
 and stopping, inching towards their destination slowly and
 haltingly.</p>
-<p><strong>Example: Tall forests <span class="citation"
-data-cites="dawkins1986blind">[2]</span>.</strong> In the Rockefeller forest of Northern
-California, the trees are more than 350 feet tall, on average. We can
-model these trees as agents competing for sunlight access. The taller a
-tree is, the more sunlight it can access, as its leaves are above its
-neighbors’. However, there is no benefit to being tall other than
-avoiding being overshadowed by other trees. In fact, growing so tall
-costs each tree valuable resources and risks their structural integrity
-failing. If all the trees were 200 feet shorter, each tree would occupy
-the same position in the competition as before and each would get the
-same amount of sunlight as before, but with greatly reduced growing
-costs. All the trees would profit from this arrangement. However, as
-there is no way to impose such an agreement between the trees, each
-races its neighbor ever higher, and all pay the large costs of growing
-so tall.</p>
-
-<strong> Example: excessive working hours <span class="citation"
-data-cites="warren2004two">[3]</span>.</strong> People often work far longer hours than they might ideally like to,
-rather than taking time off for their other interests, in order to be competitive in their field. For instance,
-they might be competing for limited prestigious positions within their field. In theory, if everyone in a given field
-were to reduce their work hours by the same amount, they could all free up time and increase their quality of life while
-maintaining their relative position in the competition. Each person would get the work outcome they
-would have otherwise, and everyone would benefit from this freed-up time. Yet no one does this, because if they alone
-were to decrease their work efforts, they would be out-competed by others who did not.
-
-<p><strong>Example: Military arms races.</strong> Like tree height, the major
-benefit of military power is not intrinsic, but relative: being less
-militarily capable than their neighbors makes a nation vulnerable to
-invasion. This competitive pressure drives nations to expend vast sums
-of money on their military budgets each year, reducing each nation’s
-budgets for other areas, such as healthcare and education. Some forms of
-military investment, such as nuclear weaponry and military AI
+<p><strong>Example: tall forests. <span class="citation"
+data-cites="dawkins1986blind">[2]</span></strong> In the Rockefeller
+forest of Northern California, the trees are more than 350 feet tall, on
+average. We can model these trees as agents competing for sunlight
+access. The taller a tree is, the more sunlight it can access, as its
+leaves are above its neighbors’. However, there is no benefit to being
+tall other than avoiding being overshadowed by other trees. In fact,
+growing so tall costs each tree valuable resources and risks their
+structural integrity failing. If all the trees were 200 feet shorter,
+each tree would occupy the same position in the competition as before
+and each would get the same amount of sunlight as before, but with
+greatly reduced growing costs. All the trees would profit from this
+arrangement. However, as there is no way to impose such an agreement
+between the trees, each races its neighbor ever higher, and all pay the
+large costs of growing so tall.</p>
+<p><strong>Example: excessive working hours <span class="citation"
+data-cites="warren2004two">[3]</span>.</strong> People often work far
+longer hours than they might ideally like to, rather than taking time
+off for their other interests, in order to be competitive in their
+field. For instance, they might be competing for limited prestigious
+positions within their field. In theory, if everyone in a given field
+were to reduce their work hours by the same amount, they could all free
+up time and increase their quality of life while maintaining their
+relative position in the competition. Each person would get the work
+outcome they would have otherwise, and everyone would benefit from this
+freed-up time. Yet no one does this, because if they alone were to
+decrease their work efforts, they would be out-competed by others who
+did not.</p>
+<p><strong>Example: military arms races.</strong> Like tree height, the
+major benefit of military power is not intrinsic, but relative: being
+less militarily capable than their neighbors makes a nation vulnerable
+to invasion. This competitive pressure drives nations to expend vast
+sums of money on their military budgets each year, reducing each
+nation’s budgets for other areas, such as healthcare and education. Some
+forms of military investment, such as nuclear weaponry and military AI
 applications, also exacerbate the risks of large-scale catastrophes. If
 every nation were to decrease its military investment by the same
 amount, everyone would benefit from the reduced expenses and risks
@@ -66,7 +69,7 @@ vulnerable if it alone fails to do this. Military expenditure therefore
 remains high in spite of these seemingly avoidable costs.</p>
 <p><strong>Competitive and evolutionary pressures.</strong> The same
 basic structure underlies most of these examples <span class="citation"
-data-cites="alexander2016meditations">[]</span>. A group of agents is
+data-cites="alexander2016meditations">[4]</span>. A group of agents is
 engaged in a competition over a valuable and limited item (sunlight
 access, housing quality, military security). One way an agent can gain
 more of this valuable item is by sacrificing some of their other values
@@ -76,15 +79,15 @@ weeds out those who do not sacrifice their other values sufficiently,
 replacing them with agents who sacrifice more, until the competition is
 dominated by those agents who sacrificed the most. These agents gain no
 more of the valued item they are competing for than did the original
-group, yet are worse off for the losses of their other values.<p>
-<strong>Steering each agent <span class="math inline">≠</span> steering
-the system.</strong> These phenomena hint at the distinct challenges of
-ensuring safety in multi-agent systems. The danger posed by a collective
-of agents is greater than the sum of its parts. AI risk cannot be
-eradicated by merely ensuring that each individual AI agent is loyal and
-each individual human operator is well-intentioned. Even if all agents,
-both human and AI, share a common set of goals, this does not guarantee
-macrobehavior in line with these goals. The agents’
+group, yet are worse off for the losses of their other values.</p>
+<p><strong>Steering each agent <span class="math inline">≠</span>
+steering the system.</strong> These phenomena hint at the distinct
+challenges of ensuring safety in multi-agent systems. The danger posed
+by a collective of agents is greater than the sum of its parts. AI risk
+cannot be eradicated by merely ensuring that each individual AI agent is
+loyal and each individual human operator is well-intentioned. Even if
+all agents, both human and AI, share a common set of goals, this does
+not guarantee macrobehavior in line with these goals. The agents’
 <em>interactions</em> can produce undesirable outcomes.</p>
 <p><strong>Chapter focus.</strong> In this chapter, we use abstract
 models to understand how intelligent agents can, despite acting
@@ -109,7 +112,7 @@ hazardous military AI applications. By observing AI races, we can
 anticipate that merely persuading these parties that their actions are
 high-risk may not be sufficient for ensuring that they act more
 cautiously, because they may be willing to tolerate high risk levels in
-order to “stay in the race.” For example, nations may choose to continue
+order to “stay in the race.” For example, nations may chose to continue
 investing in military AI technologies that could fail in catastrophic
 ways, if abstaining from doing so risks losing international
 conflict.</p></li>
@@ -118,7 +121,7 @@ interactions with and between AI agents. In the future, we expect that
 AIs will increasingly be granted autonomy in their behavior, and will
 therefore interact with others under progressively less human oversight.
 This poses risks in at least three ways. First, evolutionary pressures
-may promote selfish, as well as generating various forms of intrasystem
+may promote selfish behavior and generate various forms of intrasystem
 conflict that could subvert our goals. Second, many of the mechanisms by
 which AI agents may cooperate with one another could promote undesirable
 behaviors, such as nepotism, outgroup hostility, and the development of
@@ -158,7 +161,7 @@ immoral AI behaviors, such as deception and even extortion.</p>
 <p><strong>Central theme: Natural selection will promote AIs that behave
 selfishly.</strong> In this section, we first explore generalized
 Darwinism, which is the idea that evolution by natural selection can
-take place outside the realm of biology. We explore examples in
+take place outside of the realm of biology. We explore examples in
 linguistics, music, philosophy and sociology. We formalize generalized
 Darwinism using Lewontin’s conditions for evolution by natural selection
 and the Price equation for evolutionary change. Using both, we show that
@@ -195,7 +198,7 @@ Then we explore 5 factors that drive conflict.</p>
 <ol>
 <li><p><em>Power shifts</em>: a shift in political power triggers
 preventative conflict.</p></li>
-<li><p><em>First strike advantage</em>: time-sensitive offensive
+<li><p><em>First-strike advantage</em>: time-sensitive offensive
 advantages motivate a party to initiate conflict preemptively.</p></li>
 <li><p><em>Information problems</em>: mis- and dis-information kindle
 defensive or offensive action over cooperation.</p></li>
@@ -227,10 +230,6 @@ reliance on others.</p></li>
 <li><p><em>Institutions</em>: large-scale external forces motivate
 cooperation through enforcement.</p></li>
 </ul>
-
-<br>
-<br>
-<h3>References</h3>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Schelling1978MicromotivesAM" class="csl-entry"
@@ -238,22 +237,23 @@ role="listitem">
 <div class="csl-left-margin">[1] T.
 C. Schelling, <span>“Micromotives and macrobehavior,”</span> 1978.</div>
 </div>
-<div id="ref-dawkins1986blind" class="csl-entry"
-role="listitem">
-<div class="csl-left-margin">[2] R. Dawkins, <span>“The Blind Watchmaker,”</span> New York and London, 1986.</div>
+<div id="ref-dawkins1986blind" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] R.
+Dawkins, <em>The blind watchmaker</em>. Penguin Books Limited, 1986.
+Available: <a
+href="https://books.google.com.au/books?id=-EDHRX3YYwgC">https://books.google.com.au/books?id=-EDHRX3YYwgC</a></div>
 </div>
-<div id="refs-warren" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
-<div id="ref-warren2004two" class="csl-entry"
-role="listitem">
-<div class="csl-left-margin">[3] E. Warren and A. W. Tyagi, <span>“The Two Income Trap: Why Middle-Class Parents are Going Broke,”</span> Basic Books, 2004.</div>
+<div id="ref-warren2004two" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] E.
+Warren and A. W. Tyagi, <em>The two income trap: Why middle-class
+parents are going broke</em>. Basic Books, 2004. Available: <a
+href="https://books.google.com.au/books?id=TmXhGJ0tg58C">https://books.google.com.au/books?id=TmXhGJ0tg58C</a></div>
 </div>
 <div id="ref-alexander2016meditations" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[3] S.
+<div class="csl-left-margin">[4] S.
 Alexander, <span>“Meditations on moloch.”</span> Accessed: Sep. 29,
 2023. [Online]. Available: <a
-href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">https://slatestarcodex.com/2014/07/30/meditations-on-moloch/</a>
-</div>
+href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">https://slatestarcodex.com/2014/07/30/meditations-on-moloch/</a></div>
 </div>
 </div>
