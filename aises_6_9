@@ -1,5 +1,5 @@
-<h1 id="conclusion-1"> 6.9 Conclusion</h1>
-<h4 id="overview.-5">Overview.</h4>
+<h1 id="conclusion">Conclusion</h1>
+<h4 id="overview.">Overview.</h4>
 <p>In this chapter, we have explored various ways in which we can embed
 ethics into AIs, ensuring that they are safe and beneficial. As it
 stands, it is far from guaranteed that the development of AIs will lead
@@ -34,11 +34,14 @@ ensure that AI systems are safe and beneficial. Laws have loopholes, are
 occasionally unethical and unrepresentative of the population, and are
 often silent on doing good in ways AIs should be required to do.
 However, if we can get AIs to follow the law, then we are at least
-guaranteed that they refrain from the illegal acts—-such as murder and
-theft—-that human societies have identified and outlawed.</p>
+guaranteed that they refrain from the illegal acts—such as murder and
+theft—that human societies have identified and outlawed. In addition, we
+might want to support regulation that ensures that AI decision-making
+must be fair—once we have a better understanding of what fairness
+requires.</p>
 <h4
-id="ais-should-increase-human-wellbeing-in-accordance-with-a-social-welfare-function.">AIs
-should increase human wellbeing in accordance with a social welfare
+id="ais-could-increase-human-wellbeing-in-accordance-with-a-social-welfare-function.">AIs
+could increase human wellbeing in accordance with a social welfare
 function.</h4>
 <p>Which conception of human wellbeing best matches reality and how we
 should distribute it are difficult questions that we have certainly not
