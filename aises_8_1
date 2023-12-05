@@ -1,6 +1,6 @@
 <!-- Collective Action Problems -->
 
-<h1 id="motivation">Motivation</h1>
+<h1 id="motivation">8.1 Motivation</h1>
 <h3 id="introduction">Introduction</h3>
 <p>In the chapters “Complex Systems” and “Safety Engineering,” we
 considered AI risks that arise not only from the technologies themselves
@@ -230,6 +230,11 @@ reliance on others.</p></li>
 <li><p><em>Institutions</em>: large-scale external forces motivate
 cooperation through enforcement.</p></li>
 </ul>
+
+<br>
+<br>
+<h3>References</h3>
+
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-Schelling1978MicromotivesAM" class="csl-entry"

@@ -47,7 +47,7 @@
     }
 </style>
 
-<h1 id="sec:economic-engine">The Economic Engine</h1>
+<h1 id="sec:economic-engine">6.4 The Economic Engine</h1>
 <h4
 id="what-if-we-allow-the-economy-to-decide-what-ais-will-be-like">What
 if we allow the economy to decide what AIs will be like?</h4>
@@ -168,7 +168,7 @@ their owners, or will they also increase social wellbeing and happiness
 in general? Throughout, we will examine how economic incentives can
 influence the development of AI systems, and thus shape their impact on
 society.</p>
-<h2 id="the-free-market">The Free Market</h2>
+<h2 id="the-free-market">6.4.1 The Free Market</h2>
 <p>Under ideal circumstances, competitive economic markets drive
 efficiency and foster collective prosperity. One can speculate that the
 integration of AI into the economic engine could further optimize
@@ -178,8 +178,11 @@ we will revisit introductory concepts from economics to examine the case
 that AIs (developed in accordance with market incentives) can create
 widespread benefits by improving efficiency and growth.<p>
 </p>
-<div class="storybox">
-<p><span>A Note on Gains from Trade</span> <strong>We can specialize and
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Gains from Trade</b></span></p>
+</legend>
+<strong>We can specialize and
 trade, making everyone better off.</strong> Trade is often seen as a
 win-win scenario, allowing for mutual benefit. Take a simple scenario.
 Suppose Alice and Bob are stranded on an island. Each of them has one
@@ -438,10 +441,10 @@ that economic growth can lead to vast improvements in human life through
 health, freedom, education, and more.<p>
 </p>
 <figure id="fig:preston">
-<embed src="images/machine_ethics/preston_v2.pdf" />
-<figcaption>Increases in GDP per capita strongly correlate with
-increases in life expectancy. <span class="citation"
-data-cites="wikiprestoncurve">[3]</span></figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 6.2: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
+<!--<figcaption>Increases in GDP per capita strongly correlate with-->
+<!--increases in life expectancy.</figcaption>-->
 </figure>
 <p>The Preston curve is compelling evidence of a positive correlation
 between a country’s gross domestic product (GDP) per capita—a measure of
@@ -538,7 +541,7 @@ cause problems such as inequality and market failures. These and other
 related issues will be discussed in further detail in the next
 section.<p>
 </p>
-<h2 id="inequality-market-failures">Inequality &amp; Market
+<h2 id="inequality-market-failures">6.4.2 Inequality &amp; Market
 Failures</h2>
 <p>The previous section on markets and efficiency painted a rosy picture
 of real-world markets. In reality, we rarely see markets perform at this
@@ -580,8 +583,7 @@ data-cites="UN2020inequality">[6]</span>.</p>
 <h4
 id="inequality-in-the-united-states-is-particularly-striking.">Inequality
 in the United States is particularly striking.</h4>
-<p>Figure <a href="#fig:gini" data-reference-type="ref"
-data-reference="fig:gini">2</a> shows that the Gini coefficient in the
+<p>Figure 6.3 shows that the Gini coefficient in the
 US has trended significantly upwards from 1969 to 2019. Over 50 years,
 the pre-tax Gini coefficient has increased by 30%, while the post-tax
 Gini coefficient has risen by 25%, suggesting that despite
@@ -595,10 +597,9 @@ from the bottom income bracket to the top—cements inequalities over
 generations.<p>
 </p>
 <figure id="fig:gini">
-<embed src="images/machine_ethics/gini_v2.pdf" />
-<figcaption>Inequality in the US (as measured by the Gini coefficient)
-has risen dramatically over the last five decades, even adjusting for
-taxation.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gini_v2.png" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 6.3: Inequality in the US (as measured by the Gini coefficient) has risen dramatically over the
+last five decades, even adjusting for taxation. </p>
 </figure>
 <h4 id="the-distribution-of-gains-from-growth-is-highly-unequal.">The
 distribution of gains from growth is highly unequal.</h4>
@@ -607,20 +608,18 @@ captured by the top 1% of income earners, while average
 inflation-adjusted wages have barely increased <span class="citation"
 data-cites="desilver2018workers">[7]</span>. A RAND Corporation working
 paper estimated how the US income distribution would look today if
-inequality was at the same level as in 1975—the results are in Table <a
-href="#tab:income" data-reference-type="ref"
-data-reference="tab:income">1</a>. Suppose my annual income is $15,000
+inequality was at the same level as in 1975—the results are in Table 6.1. Suppose my annual income is $15,000
 today. If inequality was at the same level as in 1975, I would be paid
 an extra $5,000. Someone else earning $65,000 today would instead have
 been paid $100,000 had inequality held constant! We can see in the table
 below that these increases in inequality have had massive effects on
 individual incomes for everyone outside the top 1%.<p>
 </p>
+<br>
 <div id="tab:income">
-<table>
-<caption>Real and counterfactual income distributions for all adults
-with income, in 2018 USD. <span class="citation"
-data-cites="hanauer2020top">[8]</span></caption>
+<table class="tableLayout">
+<caption>Table 6.1: Real and counterfactual income distributions for all adults with income, in 2018 USD.
+<span class="citation" data-cites="time2020trillion"></span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Percentile</th>
@@ -676,6 +675,7 @@ Constant</th>
 </tbody>
 </table>
 </div>
+<br>
 <h4 id="inequality-carries-serious-implications.">Inequality carries
 serious implications.</h4>
 <p>For those worst off in an unequal society, the implications are
@@ -708,16 +708,16 @@ strong predictor of political instability and violence as well. While it
 may seem like those with more wealth are insulated from the negative
 effects of inequality, in reality they suffer indirect consequences as
 well.<p>
-</p>
-<figure id="fig:homicide">
-<embed src="images/machine_ethics/inequality_crime_v2.pdf" />
-<figcaption>Countries with higher income inequality tend to have higher
-homicide rates.</figcaption>
+</p><figure id="fig:homicide">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-full" style="width:80%"/>
+<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.
+Data Source: Vienna University of Economics and Business</p>
 </figure>
 <figure id="fig:political">
-<embed src="images/machine_ethics/inequality_stability_v2.pdf" />
-<figcaption>Countries with higher income inequality tend to have higher
-rates of political instability.</figcaption>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-full" style="width:80%"/>
+<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.<br />
+Data Source: World Bank, World Governance Indicators and Gini
+Coefficient Data</p>
 </figure>
 <h4 id="the-causes-of-inequality-are-disputed.">The causes of inequality
 are disputed.</h4>
@@ -1039,7 +1039,7 @@ asymmetries, enabling monopolies, and generating negative externalities
 such as greenhouse gas emissions and violations of privacy. In the next
 section, we will expand upon the idea that economic models fail to
 capture many of the things we care about.</p>
-<h2 id="beyond-economic-models">Beyond Economic Models</h2>
+<h2 id="beyond-economic-models">6.4.3 Beyond Economic Models</h2>
 <p>In measuring societal wellbeing, we must recognize the shortcomings
 of traditional economic metrics. Here, we will discuss the disconnect
 between economic output and social value, why relying on economic models
@@ -1421,8 +1421,10 @@ we should take care to ensure that AIs’ potential is used to serve
 humanity, not just the economy.<p>
 </p>
 <div class="storybox">
-<p><span>A Note on Wellbeing in Social Science</span> Philosophers
-continue to debate what wellbeing is, or what it means to live a good
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Wellbeing in Social Science</b></span></p>
+</legend>
+Philosophers continue to debate what wellbeing is, or what it means to live a good
 life. However, over the years, researchers have developed ways to
 approximate wellbeing for practical purposes. Psychologists, economists,
 philanthropists, policy makers, and other professionals need–—at
@@ -1521,6 +1523,11 @@ we can use these theories as useful research tools. They can help us to
 evaluate the effectiveness of policies and other interventions aimed at
 improving wellbeing.</p>
 </div>
+
+<br>
+<br>
+<h3>References</h3>
+
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-lipton2019shareholder" class="csl-entry" role="listitem">
