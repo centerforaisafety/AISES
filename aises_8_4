@@ -1,61 +1,5 @@
-<style type="text/css">
-    table.tableLayout{
-        margin: auto;
-        border: 1px solid;
-        border-collapse: collapse;
-        border-spacing: 1px;
-        caption-side: bottom;
-    }
-
-
-
-    table.tableLayout > caption.title{
-        white-space: unset;
-        max-width: unset;
-    }
-
-    table.tableLayout tr{
-        border: 1px solid;
-        border-collapse: collapse;
-        padding: 5px;
-    }
-
-    table.tableLayout th{
-        border: 1px solid;
-        border-collapse: collapse;
-        padding: 3px;
-    }
-
-    table.tableLayout td{
-        border: 1px solid;
-        padding: 5px;
-    }
-</style>
-
-<style>
-    .visionbox{
-    border-radius: 15px;
-    border: 2px solid #3585d4;
-    background-color: #ebf3fb;
-    text-align: left;
-    padding: 10px;
-    }
-</style>
-
-<style>
-    .visionboxlegend{
-    border-bottom-style: solid;
-    border-bottom-color: #3585d4;
-    border-bottom-width: 0px;
-    margin-left: -12px;
-    margin-right: -12px; margin-top: -13px;
-    padding: 0.01em 1em; color: #ffffff;
-    background-color: #3585d4;
-    border-radius: 15px 15px 0px 0px}
-</style>
-
-<h1 id="conflict-and-cooperation">8.4 Conflict and Cooperation</h1>
-<h2 id="overview">8.4.1 Overview</h2>
+<h1 id="sec:conflict-cooperation">Conflict and Cooperation</h1>
+<h2 id="overview">Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -139,20 +83,23 @@ cooperation.<p>
 Cooperation between AI stakeholders may be vital for counteracting the
 competitive and evolutionary pressures of AI races we have explored in
 this chapter. For example, the “merge-and-assist” clause of OpenAI’s
-charter outlines their commitment to cease competition with—and provide
-assistance to—any “value-aligned, safety-conscious” AI developer who
-appears close to producing AGI, in order to reduce the risk of eroding
-safety precautions. Cooperation between AI agents is also necessary for
-reducing some of the multi-agent risks we have looked at: we want AIs to
-cooperate, rather than defect, in Prisoner’s Dilemma scenarios.<p>
-However, ensuring that AIs behave cooperatively may not be a total
-solution to the collective action problems we have examined in this
-chapter. By more closely examining how cooperative relationships can
-come about, it is possible to see how they may backfire with disastrous
-consequences for AI safety. Instead, we need a more nuanced view of the
-potential benefits and risks of promoting cooperation between AI
-systems. To do this, we study seven different mechanisms by which
-cooperation may arise in multi-agent systems, considering the
+charter <span class="citation"
+data-cites="openAImerge-assist">[1]</span> outlines their commitment to
+cease competition with—and provide assistance to—any “value-aligned,
+safety-conscious” AI developer who appears close to producing AGI, in
+order to reduce the risk of eroding safety precautions. Cooperation
+between AI agents is also necessary for reducing some of the multi-agent
+risks we have looked at: we want AIs to cooperate, rather than defect,
+in Prisoner’s Dilemma scenarios.<p>
+However, ensuring that AIs and human agencies behave cooperatively may
+not be a total solution to the collective action problems we have
+examined in this chapter. By more closely examining how cooperative
+relationships can come about, it is possible to see how they may
+backfire with disastrous consequences for AI safety. Instead, we need a
+more nuanced view of the potential benefits and risks of promoting
+cooperation between AI systems. To do this, we study seven different
+mechanisms by which cooperation may arise in multi-agent systems <span
+class="citation" data-cites="nowak2006five">[2]</span>, considering the
 ramifications of each for cooperation between and within human agencies
 and AI agents:</p>
 <ul>
@@ -178,7 +125,7 @@ require cooperation.</p></li>
 imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-<h2 id="conflict">8.4.2 Conflict</h2>
+<h2 id="conflict">Conflict</h2>
 <h3 id="introduction-to-conflict">Introduction to Conflict</h3>
 <p>In this section, we use the term “conflict” to describe the decision
 to defect rather than cooperate in competitive situations. This often,
@@ -238,7 +185,7 @@ Following this, we discuss the notion of commitment problems, which
 occur when agents cannot reliably commit to an agreement or have
 incentives to break it. Commitment problems increase the probability of
 conflict, and are motivated by specific factors, such as power shifts,
-first strike advantages, and issue indivisibility. We then explore how
+first-strike advantages, and issue indivisibility. We then explore how
 information problems and inequality can also increase the probability of
 conflict.</p>
 <p><strong>Bargaining theory.</strong> When agents compete for something
@@ -284,9 +231,16 @@ the highest acceptable outcome for the other party at the opposite end.
 Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full"  style="width: 70%"/>
-<p class="tb-caption">Figure 8.11: The bargaining range is defined by the potential gains from cooperation.</p>
-<!--<figcaption>Overview of Bargaining ranges</figcaption>-->
+<img src="images/multiagent-dynamics/image18.png" />
+<figcaption>A) An axis of expected value distribution between two
+competitors. “B” indicates the expected outcome of conflict: how likely
+each competitor is to win, multiplied by the value they gain by winning.
+The more positive B is (the further towards the right), the better for
+Green, and the worse for Red. B) Conflict is negative-sum: it destroys
+some value, and so reduces each competitor’s expected value. C)
+Bargaining is zero-sum: all the value is distributed between the
+competitors. This means there are possible bargains that offer both
+competitors greater expected value than conflict. </figcaption>
 </figure>
 <p><strong>Conflict in AIs.</strong> Let us assume that AI agents will
 act rationally in the pursuit of their goals (so, at the least, we model
@@ -302,7 +256,7 @@ resources in an effort to avoid war. If agents were to acquire these
 resources, they could invest them into military power. As a result,
 neither can credibly commit to use them only for peaceful purposes. This
 is one instance of a <em>commitment problem</em> <span class="citation"
-data-cites="fearon1995rationalist">[1]</span>, which is when agents
+data-cites="fearon1995rationalist">[3]</span>, which is when agents
 cannot reliably commit to an agreement, or when they may even have
 incentives to break an agreement. Commitment problems are usually
 motivated by specific factors, such as power shifts, first-strike
@@ -329,8 +283,8 @@ to opt for conflict in the present.</p>
 heavily in its military. This has included the acquisition or expansion
 of its capabilities in technologies such as nuclear and supersonic
 missiles, as well as drones. The future is uncertain, but if this trend
-continues, it increase the risk of conflict. If China were to gain a
-military advantage over the US, this would shift the balance of power.
+continues, it could increase the risk of conflict. If China were to gain
+a military advantage over the US, this could shift the balance of power.
 This possibility undermines the stability of bargains struck today
 between the US and China, because China’s expected outcome from conflict
 may increase in the future if they become more powerful. The US may
@@ -372,12 +326,12 @@ useful they will be. This could give rise to substantial uncertainty
 regarding how powerful potential adversaries using AI might become. If
 this is the case, there might be reason to engage in conflict to prevent
 the possibility of adversaries further increasing their power.</p>
-<p><strong>First strike advantage overview.</strong> If an agent has a
+<p><strong>First-strike advantage overview.</strong> If an agent has a
 <em>first-strike advantage</em>, they will do better to launch an attack
 than respond to one. This gives rise to the following commitment
 problem: an offensive advantage may be short-lived, so it is best to act
 on it before the enemy does instead. Some ways in which an agent may
-have a first strike advantage include:</p>
+have a first-strike advantage include:</p>
 <ol>
 <li><p>As explored above, anticipating a future power shift may motivate
 an attack on the rising power to prevent it from gaining the upper
@@ -419,30 +373,29 @@ battleships at the naval base at Pearl Harbor. The attack was successful
 in securing a first-strike advantage for Japan, but it also ensured the
 US’s entry into WWII.<p>
 </p>
-<br>
-<table class="tableLayout">
-<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether to defend or preemptively attack.</caption>
+<table>
+<caption>A pay-off matrix for competitors choosing whether to defend or
+preemptively attack.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
-<th style="text-align: center;">defend</th>
-<th style="text-align: center;">preempt</th>
+<th style="text-align: center;">Defend</th>
+<th style="text-align: center;">Preempt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">defend</td>
+<td style="text-align: left;">Defend</td>
 <td style="text-align: center;">2,2</td>
 <td style="text-align: center;">0,3</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">preempt</td>
+<td style="text-align: left;">Preempt</td>
 <td style="text-align: center;">3,0</td>
 <td style="text-align: center;">1,1</td>
 </tr>
 </tbody>
 </table>
-<br>
 <p><strong>Effect on the bargaining range.</strong> When the advantages
 of striking first outweigh the costs of conflict, it can shrink or
 destroy the bargaining range entirely. For any two parties to reach a
@@ -452,23 +405,24 @@ might have to reveal offensive advantages, which would increase their
 vulnerability to attack. The incentive to preserve and therefore conceal
 an offensive advantage from opponents’ pressures agents to defect from
 bargaining.</p>
-<p><strong>First Strike Advantage and AIs.</strong> One scenario in
-which an AI may be motivated to secure a first strike advantage is
+<p><strong>First-strike advantage and AIs.</strong> One scenario in
+which an AI may be motivated to secure a first-strike advantage is
 cyberwarfare. An AI might hack servers for a variety of reasons to
 secure an offensive advantage. AIs may want to disrupt and degrade an
 adversary’s capabilities by attacking and destroying critical
 infrastructure. Alternatively, an AI might gather sensitive information
 regarding a rival’s capabilities, vulnerabilities, and strategic plans
 to leverage potential offensive advantages.<p>
-AIs may provide first strike advantages in other ways, too. Sudden and
+AIs may provide first-strike advantages in other ways, too. Sudden and
 dramatic progress in AI capabilities could motivate one party to take
 offensive action. For example, if a nation very rapidly develops a much
 more powerful AI system than its military enemies, this could present a
-powerful first strike advantage: by attacking immediately, they may hope
+powerful first-strike advantage: by attacking immediately, they may hope
 to prevent their rivals from catching up with them, which would lose
 them their advantage. Similar incentives were likely at work when the US
 was considering a nuclear strike on the USSR to prevent them from
-developing nuclear weapons themselves.<p>
+developing nuclear weapons themselves <span class="citation"
+data-cites="condit1996joint">[4]</span>.<p>
 Reducing the possibility of first-strike advantages is challenging,
 especially with AI. However, we can lower the probability that they
 arise by ensuring that there is a balance between the offensive and
@@ -479,22 +433,31 @@ Therefore, we might reduce the probability that AIs are motivated to
 pursue a first-strike advantage by ensuring that humans maintain defense
 dominance, for instance, by requiring that advanced AIs have a built-in
 incorruptible fail-safe mechanism, such as a manual “off-switch.”</p>
+<figure id="fig:first-strike">
+<img src="images/multiagent-dynamics/image19.png" />
+<figcaption>At time T0, Green is more powerful relative to Red, or has a
+first-strike advantage that will be lost at T1. At T1, the bargaining
+range no longer extends past Green’s expected value from engaging in
+conflict at T0. Anticipating this leftward shift may incentivize Green
+to initiate conflict in the present rather than waiting for the
+bargaining offers to worsen in the future.</figcaption>
+</figure>
 <p><strong>Issue indivisibility overview.</strong> Settlements that fall
 within bargaining range will always be preferable to conflict, but this
 assumes that whatever issues agents bargain over are divisible. For
 instance, two agents can divide a territory in an infinite amount of
 ways insofar as the settlement they arrive at falls within the
 bargaining range, satisfying both their interests and outweighing the
-individual benefits of engaging in conflict. Unfortunately, however,
-some goods are indivisible, which inspires the following commitment
-problem: parties cannot always divide a good however they please—-some
-goods are “all or nothing.” When parties encounter <em>issue
-indivisibility</em> <span class="citation"
-data-cites="fearon1995rationalist">[1]</span>, the probability of
-conflict increases. Indivisible issues include monarchies, small
-territories like islands or holy sites, national religion or pride, and
-sovereign entities such as states or human beings, among several
-others.</p>
+individual benefits of engaging in conflict. However, some goods are
+indivisible, which inspires the following commitment problem <span
+class="citation" data-cites="powell2006war">[5]</span>: parties cannot
+always divide a good however they please—some goods are “all or
+nothing.” When parties encounter <em>issue indivisibility</em> <span
+class="citation" data-cites="fearon1995rationalist">[3]</span>, the
+probability of conflict increases. Indivisible issues include
+monarchies, small territories like islands or holy sites, national
+religion or pride, and sovereign entities such as states or human
+beings, among several others.</p>
 <p><strong>Examples: shopping, organ donation, and
 co-parenting.</strong> Imagine two friends that go out for a day of
 shopping. For lunch, they stop at their favorite deli and find that it
@@ -531,16 +494,10 @@ to Germany, but it ultimately failed, as Hitler’s aggressive
 expansionist ambitions were not satisfied, leading to the outbreak of
 World War II. Side payments can only resolve issue indivisibility when
 the value of the side payments outweighs the value of the good.<p>
-</p>
-<figure id="fig:first-strike">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range_2.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 8.12: A first strike can create an advantage by changing the bargaining range.</p>
-<!--<figcaption>First strike advantage</figcaption>-->
-</figure>
-<p><strong>Issue indivisibility and AIs.</strong> Imagine there is a
-very powerful AI training system, and that whoever has access to this
-system will eventually be able to dominate the world. In order to reduce
-the chance of being dominated, individual parties may compete with one
+<strong>Issue indivisibility and AIs.</strong> Imagine there is a very
+powerful AI training system, and that whoever has access to this system
+will eventually be able to dominate the world. In order to reduce the
+chance of being dominated, individual parties may compete with one
 another to secure access to this system. If parties were to split the
 AI’s compute up between themselves, it would no longer be as powerful as
 it was previously, perhaps not more powerful than their existing
@@ -556,7 +513,7 @@ the other hand, is the deliberate spreading of false or misleading
 information with the intent to deceive or manipulate others. Both of
 these types of information problem can cause bargains to fail,
 generating conflict.</p>
-<table class="tableLayout">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -580,7 +537,6 @@ class="math inline"><em>b</em>(1−<em>a</em>)</span></td>
 </tr>
 </tbody>
 </table>
-<br>
 <p>The term <span class="math inline"><em>a</em></span> is the
 probability of a player knowing the strategy of its partner. Relevant
 for AI since it might reduce uncertainty (though still chaos and
@@ -588,7 +544,7 @@ incentives to conceal or misrepresent information or compete).</p>
 <p><strong>Misinformation overview.</strong> Uncertainty regarding a
 rival’s power or intentions can increase the probability of
 conflict<span class="citation"
-data-cites="fearon1995rationalist">[1]</span>. Bargaining often requires
+data-cites="fearon1995rationalist">[3]</span>. Bargaining often requires
 placing trust in another not to break an agreement. This harder to
 achieve when one agent believes something false about the other’s
 preferences, resources, or commitments. This lack of shared, accurate
@@ -601,7 +557,8 @@ generating conflict may include Russia’s 2022 invasion of Ukraine.
 Russian President Putin reportedly miscalculated Ukraine’s willingness
 to resist invasion and fight back. With more accurate information
 regarding Ukraine’s abilities and determination, Putin may have been
-less likely to instigate conflict.</p>
+less likely to instigate conflict <span class="citation"
+data-cites="jenkins2022will">[6]</span>.</p>
 <p><strong>Effect on the bargaining range.</strong> Misinformation can
 prevent agents from finding a mutually-agreeable bargaining range, as
 shown in Figure 9.14. For example, if each agent believes themself to be
@@ -610,10 +567,12 @@ value they are competing for. Thus, each may reject any bargain offer
 the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 8.13: Misinformation can shift players’ perceptions of the bargaining range. If players’
-estimates of Green winning are too high, then they will agree on deals more favorable to Green.</p>
-<!--<figcaption>Information problems</figcaption>-->
+<img src="images/multiagent-dynamics/image20.png" />
+<figcaption>Green either believes themself to be—-or intentionally
+misrepresents themself as—-more powerful than they really are. This
+means that the range of bargain offers Green will choose over conflict
+does not overlap with the equivalent range for Red. Thus, there is no
+mutual bargaining range.</figcaption>
 </figure>
 <p><strong>Misinformation and AI.</strong> AI technologies may produce
 misinformation directly. Examples of this include large language models
@@ -679,33 +638,37 @@ Whereas, weaker parties may prefer conflict if they believe rivals are
 not as powerful as they believe themselves to be.<p>
 <strong>Disinformation and AI.</strong> AIs themselves may have
 incentives to misrepresent the facts. For example, the agent “Cicero,”
-developed by Meta, is capable of very high performance in the board
-wargame “Diplomacy.” Its success requires it to misrepresent certain
-information to the other players in strategic fashion. We have seen many
-other examples of AIs producing disinformation for a variety of reasons,
-such as large language models successfully persuading users that they
-are conversing with a human. The ability for AIs to misrepresent
-information successfully is only likely to increase in future. This
-could exacerbate disinformation problems, and thus contribute to greater
-risk of conflict by eroding the potential for peaceful negotiation.</p>
+developed by Meta <span class="citation"
+data-cites="meta2022human">[7]</span>, is capable of very high
+performance in the board wargame “Diplomacy.” Its success requires it to
+misrepresent certain information to the other players in strategic
+fashion. We have seen many other examples of AIs producing
+disinformation for a variety of reasons, such as large language models
+successfully persuading users that they are conversing with a human. The
+ability for AIs to misrepresent information successfully is only likely
+to increase in future <span class="citation"
+data-cites="chen2021always">[8]</span>. This could exacerbate
+disinformation problems, and thus contribute to greater risk of conflict
+by eroding the potential for peaceful negotiation <span class="citation"
+data-cites="Burtell2023ArtificialIA">[9]</span>.</p>
 <h3 id="factors-outside-of-bargaining-theory">Factors outside of
 bargaining theory</h3>
 <p><strong>Inequality is another factor that is highly predictive of
 conflict.</strong> Crime is a form of conflict. Income and educational
 inequality are robust predictors of violent crime <span class="citation"
-data-cites="kelly2000inequality">[2]</span>, with an elasticity in
+data-cites="kelly2000inequality">[10]</span>, with an elasticity in
 excess of 0.5 (elasticity measures how sensitive one variable is to
 changes in another variable) even when controlling for variables such as
 race and family composition. Similarly, individuals and families with a
 yearly income below $15,000 are three times more likely to be the
 victims of violent crime than are individuals and families with a yearly
 income over $75,000 <span class="citation"
-data-cites="victimrates2011">[3]</span>. Moreover, economists from the
+data-cites="victimrates2011">[11]</span>. Moreover, economists from the
 World Bank have also highlighted that the effects of inequality on both
 violent and property crime are robust between countries, finding that
 when economic growth improves in a country, violent crime rates decrease
 substantially <span class="citation"
-data-cites="fajnzylber2002inequality">[4]</span>. This is consistent
+data-cites="fajnzylber2002inequality">[12]</span>. This is consistent
 with evidence at the national level; in the US, for example, the Bureau
 of Justice reports that households below the federal poverty level have
 a rate of violent victimization that is more than twice as high as the
@@ -727,7 +690,7 @@ Relative deprivation is a form of strain, which may lead individuals to
 resort to various coping mechanisms, one of which is criminal behavior.
 For example, communities with a high prevalence of relative deprivation
 can evolve a subculture of violence <span class="citation"
-data-cites="horne2009effect">[5]</span>. Consider the emergence of
+data-cites="horne2009effect">[13]</span>. Consider the emergence of
 gangs, in which violence becomes a way to establish dominance, protect
 territory, and retaliate against rival groups, providing an alternative
 path for achieving a desired social standing.</p>
@@ -754,7 +717,9 @@ favored by natural selection over highly content and comfortable
 individuals. In many circumstances, natural selection could disfavor
 individuals who stop caring about acquiring more resources and expanding
 their influence; natural selection favors selfish behavior (for more
-detail, see the section "Levels of Selection and Selfish Behaviour"
+detail, see <em>section <a href="#subsec:selection-and-selfish"
+data-reference-type="ref"
+data-reference="subsec:selection-and-selfish">[subsec:selection-and-selfish]</a></em>
 of <em>Evolutionary Pressures</em>). Even under conditions of abundance,
 individuals may still compete for resources and influence because they
 perceive the situation as a zero-sum game, where resources and power
@@ -788,7 +753,7 @@ Governance; Section 3 - Distribution.</p>
 that drive conflict. When any one of these factors is present, agents’
 incentives to bargain for a peaceful settlement may shift such that
 conflict becomes an instrumentally rational choice. These factors
-include power shifts, first strike advantages, issue indivisibility,
+include power shifts, first-strike advantages, issue indivisibility,
 information problems and incentives to misrepresent, as well as
 inequality.<p>
 In our discussion of these factors, we have laid the groundwork for
@@ -831,13 +796,13 @@ promote conflict, no matter how small, could pose catastrophic risks to
 humans. It is thus important that we understand the drivers of conflict,
 especially in the context of advanced future AIs.<p>
 </p>
-<h2 id="cooperation">8.4.3 Cooperation</h2>
+<h2 id="cooperation">Cooperation</h2>
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
 performs a favor for another because they expect the recipient to return
 this favor in the future <span class="citation"
-data-cites="trivers1971evolution">[6]</span>. We capture this core idea
+data-cites="trivers1971evolution">[14]</span>. We capture this core idea
 in idioms like “quid pro quo,” or “you scratch my back, I’ll scratch
 yours.” Direct reciprocity requires repeated interaction between the
 agents: the more likely they are to meet again in the future, the
@@ -857,12 +822,12 @@ cost to themselves, they will only do so when the expected benefit of
 agent B returning the favor outweighs the cost of Agent A’s initially
 providing it. Thus, we have the rule <span
 class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
-Table 8.7 below.<p>
+Table <a href="#tab:reciprocity" data-reference-type="ref"
+data-reference="tab:reciprocity">1</a> below.<p>
 </p>
-<br>
 <div id="tab:reciprocity">
-<table class="tableLayout">
-<caption>Table 8.7: Payoff matrix for direct reciprocity games.</caption>
+<table>
+<caption>Payoff matrix for direct reciprocity games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -887,7 +852,6 @@ class="math inline"><em>b</em></span></td>
 </tbody>
 </table>
 </div>
-<br>
 <p><strong>Natural examples of direct reciprocity.</strong> Trees and
 fungi have evolved symbiotic relationships where they exchange sugars
 and nutrients for mutual benefit. Dolphins use cooperative hunting
@@ -898,12 +862,12 @@ behavior during subsequent hunts. Similarly, chimpanzees engage in
 reciprocal grooming, where they exchange grooming services with one
 another with the expectation that they will be returned during a later
 session <span class="citation"
-data-cites="schino2007grooming">[7]</span>.<p>
+data-cites="schino2007grooming">[15]</span>.<p>
 Direct reciprocity in human society. Among humans, one prominent example
 of direct reciprocity is commerce. Commerce is a form of direct
-reciprocity "which offers positive-sum benefits for both parties and
-gives each a selfish stake in the well-being of the other" <span
-class="citation" data-cites="pinker2012better">[8]</span>; commerce can
+reciprocity “which offers positive-sum benefits for both parties and
+gives each a selfish stake in the well-being of the other” <span
+class="citation" data-cites="pinker2012better">[16]</span>; commerce can
 be a win-win scenario for all parties involved. For instance, if Alice
 produces wine and Bob produces cheese, but neither Alice nor Bob has the
 resources to produce what the other can, both may realize they are
@@ -949,7 +913,7 @@ the chapter, we discussed the idea of “balancing” in international
 relations: state action to counteract the influence of a threatening
 power, such as by forming alliances with other states against their
 common adversary <span class="citation"
-data-cites="mearsheimer2007structural">[9]</span>. However, some
+data-cites="mearsheimer2007structural">[17]</span>. However, some
 scholars argue that states do not always respond to threatening powers
 by trying to thwart them. Rather than trying to prevent them from
 becoming too strong, states may instead “bandwagon”: joining up with and
@@ -994,7 +958,7 @@ consider the favor’s effect on their own reputation. If a donor gains a
 “helpful and trustworthy” reputation by providing a favor, this may
 motivate others to cooperate with them more often. We call this
 reputation-based mechanism of cooperation <em>indirect reciprocity</em>
-<span class="citation" data-cites="nowak1998evolution">[10]</span>.
+<span class="citation" data-cites="nowak1998evolution">[18]</span>.
 Agents may cooperate to develop and maintain good reputations since
 doing so is likely to benefit them in the long-term. Indirect
 reciprocity is particularly useful in larger groups, where the
@@ -1009,13 +973,13 @@ can discern another agent’s reputation (whether they are cooperative or
 not), outweighs the cost-benefit ratio of the helpful behavior to the
 donor. Thus, we have the rule <span
 class="math inline"><em>q</em> &gt; <em>c</em>/<em>b</em></span>; see
-Table 8.2 below.<p>
+Table <a href="#tab:indirect-repr" data-reference-type="ref"
+data-reference="tab:indirect-repr">2</a> below.<p>
 </p>
-<br>
 <p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
 <div id="tab:indirect-repr">
-<table class="tableLayout">
-<caption>Table 8.8: Payoff matrix for indirect reciprocity games.</caption>
+<table>
+<caption>Payoff matrix for indirect reciprocity games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1039,13 +1003,12 @@ class="math inline"><em>b</em>(1−<em>q</em>)</span></td>
 </tbody>
 </table>
 </div>
-<br>
 <p><strong>Natural examples of indirect reciprocity.</strong> Cleaner
 fish (fish that feed on parasites or mucus on the bodies of other fish)
 can either cooperate with client fish (fish that receive the “services”
 of cleaner fish) by feeding on parasites that live on their bodies, or
 cheat, by feeding on the mucus that client fish excrete <span
-class="citation" data-cites="bshary2006image">[11]</span>. Client fish
+class="citation" data-cites="bshary2006image">[19]</span>. Client fish
 tend to cooperate more frequently with cleaner fish that have a “good
 reputation,” which are those that feed on parasites rather than mucus.
 Similarly, while vampire bats are known to share food with their kin,
@@ -1053,7 +1016,7 @@ they also share food with unrelated members of their group. Vampire bats
 more readily share food with unrelated bats when they know the
 recipients of food sharing also have a reputation for being consistent
 and reliable food donors <span class="citation"
-data-cites="carter2013food">[12]</span>.</p>
+data-cites="carter2013food">[20]</span>.</p>
 <p><strong>Indirect reciprocity in human society.</strong> Language
 provides a way to obtain information about others without ever having
 interacted with them, allowing humans to adjust reputations accordingly
@@ -1067,7 +1030,7 @@ between others but are not a part of. Gossip allows us to track each
 others’ reputations and enforce cooperative social norms, reducing the
 probability that cooperative efforts are exploited by others with
 reputations for dishonesty <span class="citation"
-data-cites="balliet2020indirect">[13]</span>.</p>
+data-cites="balliet2020indirect">[21]</span>.</p>
 <p><strong>Indirect reciprocity in AIs.</strong> AIs could develop a
 reputation system where they observe and evaluate each others’
 behaviors, with each accumulating a reputation score based on their
@@ -1105,7 +1068,7 @@ fewer cooperators. Under such conditions, selection at the group level
 influences selection at the individual level (traits that benefit the
 group may not necessarily benefit the individual), and we refer to this
 mechanism as <em>group selection</em> <span class="citation"
-data-cites="west2007social">[14]</span>. Importantly, between groups,
+data-cites="west2007social">[22]</span>. Importantly, between groups,
 groups with a higher proportion of cooperators have an advantage.
 Cooperative groups are better able to coordinate their allocation of
 resources, establish channels for reciprocal exchange, and maintain
@@ -1118,12 +1081,12 @@ class="math inline"><em>m</em></span> is large and is the number of
 groups and n is the maximum group size, group selection can only promote
 cooperation when <span
 class="math inline"><em>b</em>/<em>c</em> &gt; 1 + <em>n</em>/<em>m</em></span>;
-see Table 8.9 below.<p>
+see Table <a href="#tab:group" data-reference-type="ref"
+data-reference="tab:group">3</a> below.<p>
 </p>
-<br>
 <div id="tab:group">
-<table class="tableLayout">
-<caption>Table 8.9: Payoff matrix for group selection games.</caption>
+<table>
+<caption>Payoff matrix for group selection games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1148,7 +1111,6 @@ class="math inline"><em>n</em><em>b</em></span></td>
 </tbody>
 </table>
 </div>
-<br>
 <p><strong>Natural examples of group selection.</strong> Group selection
 is widely viewed as a mechanism involved in the process of natural
 selection, however, direct causal attribution is difficult for many
@@ -1197,7 +1159,7 @@ and this could promote antagonism between AIs and humans.</p>
 <p><strong>Kin selection overview.</strong> When driven by <em>kin
 selection</em>, agents are more likely to cooperate with others with
 whom they share a higher degree of genetic relatedness <span
-class="citation" data-cites="hamilton1964genetical">[15]</span>. The
+class="citation" data-cites="hamilton1964genetical">[23]</span>. The
 more closely related agents are, the more inclined to cooperate they
 will be. Thus, kin selection favors cooperation under the following
 conditions: an agent will help their relative only when the benefit to
@@ -1209,12 +1171,12 @@ Hamilton’s rule: <span
 class="math inline"><em>r</em><em>b</em> &gt; <em>c</em></span>, or
 equivalently <span
 class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
-class="citation" data-cites="hamilton1964genetical">[15]</span>; see
-Table 8.10 below.</p>
-<br>
+class="citation" data-cites="hamilton1964genetical">[23]</span>; see
+Table <a href="#tab:kin" data-reference-type="ref"
+data-reference="tab:kin">4</a> below.</p>
 <div id="tab:kin">
-<table class="tableLayout">
-<caption>Table 8.10: Payoff matrix for kin selection games.</caption>
+<table>
+<caption>Payoff matrix for kin selection games.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -1239,7 +1201,6 @@ class="math inline"><em>b</em> − <em>r</em><em>c</em></span></td>
 </tbody>
 </table>
 </div>
-<br>
 <p><strong>Natural examples of kin selection.</strong> In social insect
 colonies, such as bees and ants, colony members are closely related.
 Such insects often assist their kin in raising and producing offspring
@@ -1297,17 +1258,17 @@ the veil of ignorance, agents are unaware of their personal
 characteristics and roles in society. This forces them to act as
 impartial observers when envisioning how the group or society should
 interact with each other. (For a more detailed discussion of the veil of
-ignorance, see <em>Section social contract of the Ethics chapter</em>: A Brief Introduction).
+ignorance, see <em>Section of the chapter</em>: A Brief Introduction).
 Because agents do not know what place they will hold (e.g., whether they
 will get an average position in society or a different position) in the
 society they envision, they often act more impartially and cooperatively
 when constructing a group or society. When rational agents are ignorant
-of their future position in society—-when they are forced to make
-decisions behind the veil of ignorance—-they are more likely to make
+of their future position in society—when they are forced to make
+decisions behind the veil of ignorance—they are more likely to make
 decisions that maximize collective wellbeing, enabling cooperation
 through the mechanism of <em>individual stakes to common stakes</em>
 <span class="citation"
-data-cites="nowak2011supercooperators">[16]</span>.</p>
+data-cites="nowak2011supercooperators">[24]</span>.</p>
 <p><strong>Natural examples of individual stakes to common
 stakes.</strong> Intragenomic conflict arises when an individual
 organism’s genes have differing interests with respect to their
@@ -1326,12 +1287,12 @@ organism, allowing it to pass on its genes to subsequent generations.
 However, by fostering genetic diversity, the process of meiosis opens
 the door to randomized success, allowing the forces of natural selection
 to impartially dictate which genes and their respective traits propagate
-<span class="citation" data-cites="okasha2012social">[17]</span>.</p>
+<span class="citation" data-cites="okasha2012social">[25]</span>.</p>
 <p><strong>Individual stakes to common stakes in human society.</strong>
 The “Hutterites” are a religious group known for their cooperative and
 communal lifestyle <span class="citation"
-data-cites="Harsanyi1955CardinalWI Dennett1995DarwinsDI">[18],
-[19]</span>. They represent a prime example of how the mechanism of
+data-cites="Harsanyi1955CardinalWI Dennett1995DarwinsDI">[26],
+[27]</span>. They represent a prime example of how the mechanism of
 individual stakes to common stakes can be used to promote cooperation.
 Within their communities, the Hutterites distribute all resources among
 themselves, and relinquish any personal wealth or possessions. This
@@ -1351,7 +1312,7 @@ they would be far less likely to row.</p>
 might perceive advanced future AIs as an outgroup threat, and this may
 motivate humans to cooperate against AIs. As AI’s become more widespread
 and powerful, they may begin to threaten human values at the global
-scale, motivating nations—-for instance, the US and China–—to set aside
+scale, motivating nations—for instance, the US and China—to set aside
 their differences and come together to address a common threat. If AI is
 someday viewed by humanity as an “invasive species,” it may promote
 global solidarity.</p>
@@ -1378,7 +1339,7 @@ provide, but they may also face a cost from the group which can
 influence their behaviors through norms or rules. This idea was
 pioneered by the political scientist and Nobel laureate, Herbert Simon,
 and we refer to it as <strong>Simon’s selection mechanism</strong> <span
-class="citation" data-cites="simon1990mechanism">[20]</span>.</p>
+class="citation" data-cites="simon1990mechanism">[28]</span>.</p>
 <p><strong>Simon’s selection mechanism in human society.</strong> Humans
 have a tendency to believe in facts and propositions that they have not
 had the opportunity to independently verify. Such knowledge is typically
@@ -1421,28 +1382,26 @@ to achieve their goals. AI collective intelligences would be vastly
 superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
-<br>
-<div class="visionbox">
-<legend class="visionboxlegend">
-    <p><span><b>A Note on Morality as Cooperation</b></span></p>
-</legend>
-The theory of
+<div class="storybox">
+<p><span>A Note on Morality as Cooperation</span> The theory of
 “Morality as Cooperation” (MAC) proposes that human morality was
 generated by evolutionary pressures to solve our most salient
 cooperation problems <span class="citation"
-data-cites="curry2016morality">[21]</span>. Natural selection has
+data-cites="curry2016morality">[29]</span>. Natural selection has
 discovered several mechanisms by which rational and self-interested
 agents may cooperate with one another, and MAC theory suggests that some
 of these mechanisms have driven the formation of our moral intuitions
 and customs. Here, we examine four cooperation problems, the mechanisms
 humans have evolved to solve them, and how these mechanisms may have
-generated our ideas of morality. These are overviewed in Table 8.11.</p>
+generated our ideas of morality. These are overviewed in Table <a
+href="#tab:cooperation" data-reference-type="ref"
+data-reference="tab:cooperation">5</a>.</p>
 <div id="tab:cooperation">
-<table class="tableLayout" style="">
-<caption>Table 8.11: Mapping cooperation mechanisms to components of morality. <span class="citation"
-data-cites="curry2016morality">[21]</span></caption>
+<table>
+<caption>Mapping cooperation mechanisms to components of morality. <span
+class="citation" data-cites="curry2016morality">[29]</span></caption>
 <thead>
-<tr class="header" style="background-color: #efefef">
+<tr class="header">
 <th style="text-align: left;"><strong>Cooperation Problem</strong></th>
 <th style="text-align: left;"><strong>Solutions/Mechanism</strong></th>
 <th style="text-align: left;"><strong>Component of
@@ -1450,44 +1409,71 @@ Morality</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd" style="background-color: #d9ead3">
-    <td rowspan="2" style="text-align: left;"><em> <b>Kinship</b> <br> Agents can benefit by treating genetic  relatives preferentially</em></td>
+<tr class="odd">
+<td style="text-align: left;"></td>
 <td style="text-align: left;">Kin selection</td>
 <td style="text-align: left;">Parental duties, family values</td>
 </tr>
-<tr class="even" style="background-color: #d9ead3">
+<tr class="even">
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Agents can benefit by treating genetic
+relatives preferentially</em></td>
 <td style="text-align: left;">Avoiding inbreeding</td>
 <td style="text-align: left;">Incest aversion</td>
 </tr>
-<tr class="even" style="background-color: #d0e0e3">
-    <td rowspan="2" style="text-align: left;"><em> <b> Mutualism </b> <br> Agents must coordinate their behavior to profit from mutually-benefical situations</em></td>
-    <td style="text-align: left;">Forming alliances and collaborating</td>
-    <td style="text-align: left;">Friendship, loyalty, commitment, team
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Forming alliances and collaborating</td>
+<td style="text-align: left;">Friendship, loyalty, commitment, team
 players</td>
 </tr>
-<tr class="even" style="background-color: #d0e0e3">
+<tr class="odd">
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Agents must coordinate their behavior
+to profit from mutually-benefical situations</em></td>
 <td style="text-align: left;">Developing theory-of-mind</td>
 <td style="text-align: left;">Understanding intention, not merely
 action</td>
 </tr>
-<tr class="odd" style="background-color: #d9d2e9">
-<td rowspan="2" style="text-align: left"><em> <b> Exchange </b> <br> Agents need each other to reciprocate
-and contribute despite incentives to free ride</em></td>
+<tr class="odd">
+<td style="text-align: left;"></td>
 <td style="text-align: left;">Direct reciprocity (e.g. tit-for-tat)</td>
-<td style="text-align: left;">Trust, gratitude, revenge, punishment, forgiveness</td>
+<td style="text-align: left;">Trust, gratitude, revenge, punishment,
+forgiveness</td>
 </tr>
-<tr class="odd" style="background-color: #d9d2e9">
+<tr class="even">
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Agents need each other to reciprocate
+and contribute despite incentives to free ride</em></td>
 <td style="text-align: left;">Indirect reciprocity (e.g. forming
 reputations)</td>
 <td style="text-align: left;">Patience, guilt, gratitude</td>
 </tr>
-<tr class="even" style="background-color: #ead1dc">
-<td rowspan="2" style="text-align: left;"> <b> Conflict Resolution</b> <br> <em>Agents can benefit from avoiding
-conflict, which is mutually costly</em></td>
+<tr class="even">
+<td style="text-align: left;"></td>
 <td style="text-align: left;">Division</td>
 <td style="text-align: left;">Fairness, negotiation, compromise</td>
 </tr>
-<tr class="even" style="background-color: #ead1dc">
+<tr class="odd">
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Agents can benefit from avoiding
+conflict, which is mutually costly</em></td>
 <td style="text-align: left;">Deference to prior ownership</td>
 <td style="text-align: left;">Respecting others’ property, punishing
 theft</td>
@@ -1495,37 +1481,36 @@ theft</td>
 </tbody>
 </table>
 </div>
-    <br>
 <p><strong>Kinship.</strong> Natural selection can favor agents who
 cooperate with their genetic relatives. This is because there may be
 copies of these agents’ genes in their relatives’ genomes, and so
 helping them may further propagate their own genes. We call this
 mechanism “kin selection” <span class="citation"
-data-cites="hamilton1964genetical">[15]</span>: an agent can gain a
+data-cites="hamilton1964genetical">[23]</span>: an agent can gain a
 fitness advantage by treating their genetic relatives preferentially, so
 long as the cost-benefit ratio of helping is less than the relatedness
 between the agent and their kin. Similarly, repeated inbreeding can
 reduce an agent’s fitness by increasing the probability of producing
 offspring with both copies of any recessive, deleterious alleles in the
 parents’ genomes <span class="citation"
-data-cites="charlesworth2009genetics">[22]</span>.<p>
+data-cites="charlesworth2009genetics">[30]</span>.<p>
 MAC theory proposes that the solutions to this cooperation problem
 (preferentially helping genetic relatives), such as kin selection and
 inbreeding avoidance, underpin several major moral ideas and customs.
 Evidence for this includes the fact that human societies are usually
 built around family units <span class="citation"
-data-cites="chagnon1979kin">[23]</span>, in which “family values” are
+data-cites="chagnon1979kin">[31]</span>, in which “family values” are
 generally considered highly moral. Loyalty to one’s close relatives and
 duties to one’s offspring are ubiquitous moral values across human
 cultures <span class="citation"
-data-cites="westermarck2022origin">[24]</span>. Our laws regarding
+data-cites="westermarck2022origin">[32]</span>. Our laws regarding
 inheritance <span class="citation"
-data-cites="smith1987inheritance">[25]</span> and our naming traditions
-<span class="citation" data-cites="oates2002nominal">[26]</span>
+data-cites="smith1987inheritance">[33]</span> and our naming traditions
+<span class="citation" data-cites="oates2002nominal">[34]</span>
 similarly reflect these moral intuitions, as do our rules and social
 taboos against incest <span class="citation"
-data-cites="lieberman2003does thornhill1991evolutionary">[27],
-[28]</span>.</p>
+data-cites="lieberman2003does thornhill1991evolutionary">[35],
+[36]</span>.</p>
 <p><strong>Mutualism.</strong> In game theory, some games are “positive
 sum” and “win-win”: the agents involved can increase the total available
 value by interacting with one another in particular ways, and all the
@@ -1533,11 +1518,11 @@ agents can then benefit from this additional value. Sometimes, securing
 these mutual benefits requires that the agents coordinate their behavior
 with each other. To solve this cooperation problem, agents may form
 alliances and coalitions <span class="citation"
-data-cites="connor1995benefits">[29]</span>. This may require the
+data-cites="connor1995benefits">[37]</span>. This may require the
 capacity for basic communication, rule-following <span class="citation"
-data-cites="van2008leadership">[30]</span>, and perhaps theory-of-mind
+data-cites="van2008leadership">[38]</span>, and perhaps theory-of-mind
 <span class="citation"
-data-cites="carruthers1996theories">[31]</span>.<p>
+data-cites="carruthers1996theories">[39]</span>.<p>
 MAC theory proposes that these cooperative mechanisms comprise important
 components of human morality. Examples include the formation of—and
 loyalty to—friendships, commitments to collaborative activities, and a
@@ -1551,14 +1536,14 @@ structured so as to incentivize “free riding” behaviors, the cooperation
 problem becomes how to ensure that others will reciprocate help and
 contribute to group efforts. To solve this problem, agents can enforce
 cooperation via systems of reward, punishment, policing, and reciprocity
-<span class="citation" data-cites="west2007evolutionary">[32]</span>.
+<span class="citation" data-cites="west2007evolutionary">[40]</span>.
 Direct reciprocity concerns doing someone a favor out of the expectation
 that they will reciprocate at a later date <span class="citation"
-data-cites="trivers1971evolution">[6]</span>. Indirect reciprocity
+data-cites="trivers1971evolution">[14]</span>. Indirect reciprocity
 concerns doing someone a favor to boost your reputation in the group,
 out of the expectation that this will increase the probability of a
 third party helping you in the future <span class="citation"
-data-cites="nowak1998evolution">[10]</span>.<p>
+data-cites="nowak1998evolution">[18]</span>.<p>
 Once again, MAC theory proposes that these mechanisms are found in our
 moral systems. Moral ideas such as trust, gratitude, patience, guilt,
 and forgiveness can all help to assure against free riding behaviors.
@@ -1573,25 +1558,24 @@ some amount of the total value available. Examples span from the wounds
 of rutting deer to the casualties of human wars. If the agents instead
 manage to cooperate with each other, they may both be able to benefit—a
 “win-win” outcome. One way to resolve conflict situations is division
-<span class="citation"
-data-cites="nash1950bargaining"><strong>nash1950bargaining?</strong></span>:
+<span class="citation" data-cites="nash1950bargaining">[41]</span>:
 dividing up the value between the agents, such as through striking a
 bargain. Another solution is to respect prior ownership, deferring to
 the original “owner” of the valuable item <span class="citation"
-data-cites="gintis2007evolution">[33]</span>.<p>
+data-cites="gintis2007evolution">[42]</span>.<p>
 According to MAC theory, we can see both of these solutions in our ideas
 of morality. The cross-culturally ubiquitous notions of fairness,
 equality, and compromise help us resolve conflict by promoting the
 division of value between competitors <span class="citation"
-data-cites="henrich2005economic">[34]</span>. We see this in ideas such
+data-cites="henrich2005economic">[43]</span>. We see this in ideas such
 as “taking turns” and “I cut, you choose” <span class="citation"
-data-cites="brams1996fair">[35]</span>: mechanisms for turning a
+data-cites="brams1996fair">[44]</span>: mechanisms for turning a
 negative sum situation (conflict) into a zero sum one (negotiation), to
 mutual benefit. Likewise, condemnation of theft and respect for others’
 property are extremely important and common moral values <span
 class="citation"
-data-cites="herskovits1952economic westermarck2022origin">[24],
-[36]</span>. This set of moral rules may stem from the conflict
+data-cites="herskovits1952economic westermarck2022origin">[32],
+[45]</span>. This set of moral rules may stem from the conflict
 resolution mechanism of deferring to prior ownership.</p>
 <p><strong>Conclusion.</strong> MAC theory argues that morality is
 composed of biological and cultural solutions humans evolved to the most
@@ -1600,7 +1584,6 @@ we explored four examples of cooperation problems, and how the solutions
 to them discovered by natural selection may have produced our moral
 values.</p>
 </div>
-<br>
 <h3 id="institutions">Institutions</h3>
 <p><strong>Institutions overview.</strong> Agents are more likely to be
 cooperative when there are laws or externally imposed incentives that
@@ -1620,54 +1603,67 @@ influence over other actors in a system.</p>
 one’s opponent is potentially aggressive, pacifism can be irrational. In
 his book, “The Better Angels of Our Nature,” Steven Pinker refers to
 this as the “Pacifist’s dilemma” <span class="citation"
-data-cites="pinker2012better">[8]</span>. In potential conflict
+data-cites="pinker2012better">[16]</span>. In potential conflict
 scenarios, agents have little to gain and a lot to lose when they
-respond to aggression with pacifism; see Table 8.12 below.
+respond to aggression with pacifism; see Table <a href="#tab:pacifist"
+data-reference-type="ref" data-reference="tab:pacifist">6</a> below.
 This dynamic often inspires rational agents to choose conflict over
 peace.<p>
 </p>
-<br>
 <div id="tab:pacifist">
-<table class="tableLayout">
-<caption>Table 8.12: Payoff matrix for the Pacifist’s dilemma without a Leviathan. <span class="citation"
-data-cites="pinker2012better">[8]</span></caption>
+<table>
+<caption>Payoff matrix for the Pacifist’s dilemma without a Leviathan.
+<span class="citation"
+data-cites="pinker2012better">[16]</span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
-<th style="text-align: center;">Pacifist</th>
-<th style="text-align: center;">Aggressor</th>
+<th style="text-align: center;"><span
+style="color: blue">Pacifist</span></th>
+<th style="text-align: center;"><span
+style="color: blue">Aggressor</span></th>
 </tr>
 </thead>
 <tbody>
-
-    <tr class="odd">
-        <td style="text-align: left;">Pacifist</td>
-        <td style="text-align: center;"> Peace + Profit
-            <span class="math inline">(100+5) = 105</span> <br>
-            Peace + Profit
-            <span class="math inline">(100+5) = 105</span></td>
-        <td style="text-align: center;">
-            Victory(10)<br>
-            Defeat(-100)<br>
-        </td>
-    </tr>
-<tr class="even">
-    <td style="text-align: left;">Aggressor</td>
-    <td style="text-align: center;">
-        Defeat(-100)<br>
-        Victory(10)
-    </td>
-    <td style="text-align: center;">
-        War(-50) <br>
-        War(-50)
-    </td>
+<tr class="odd">
+<td style="text-align: left;"><span
+style="color: red">Pacifist</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
-
+<tr class="even">
+<td style="text-align: left;"><span style="color: blue">Peace + Profit
+<span class="math inline">(100+5) = 105</span></span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: blue">Victory (<span
+class="math inline">10</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span
+style="color: red">Aggressor</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: blue">Defeat(<span
+class="math inline"> − 100</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: blue">War(<span
+class="math inline"> − 50</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-
 <p>However, we can shift the interests of agents in this context in
 favor of peace by introducing a Leviathan, in the form of a third-party
 peacekeeping or balancing mission, which establishes an authoritative
@@ -1677,45 +1673,63 @@ deployment of peacekeeping forces such as military, police, and civilian
 personnel. These forces work to deter potential aggressors, enhance
 security, and set the stage for peaceful resolutions and negotiations as
 impartial mediators, usually by penalizing aggression and rewarding
-pacifism; see Table 8.13 below.<p>
+pacifism; see Table <a href="#tab:leviathan" data-reference-type="ref"
+data-reference="tab:leviathan">7</a> below.<p>
 </p>
-<br>
 <div id="tab:leviathan">
-<table class="tableLayout">
-<caption>Table 8.13: Payoff matrix for the Pacifist’s dilemma with a Leviathan. <span class="citation"
-data-cites="pinker2012better">[8]</span></caption>
+<table>
+<caption>Payoff matrix for the Pacifist’s dilemma with a Leviathan.
+<span class="citation"
+data-cites="pinker2012better">[16]</span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
-<th style="text-align: center;">Pacifist</th>
-<th style="text-align: center;">Aggressor</th>
+<th style="text-align: center;"><span
+style="color: blue">Pacifist</span></th>
+<th style="text-align: center;"><span
+style="color: blue">Aggressor</span></th>
 </tr>
 </thead>
 <tbody>
-
-    <tr class="odd">
-        <td style="text-align: left;">Pacifist</td>
-        <td style="text-align: center;"> Peace(5) <br> Peace(5)</td>
-        <td style="text-align: center;">
-            Victory - Penalty (10 − 15 = −5)<br>
-            Defeat(-100)<br>
-        </td>
-    </tr>
+<tr class="odd">
+<td style="text-align: left;"><span
+style="color: red">Pacifist</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
 <tr class="even">
-    <td style="text-align: left;">Aggressor</td>
-    <td style="text-align: center;">
-        Defeat(-100)<br>
-        Victory - Penalty (10 − 15 − 5)
-    </td>
-    <td style="text-align: center;">
-        War - Penalty (−50 − 200 = −250) <br>
-        War - Penalty (−50 − 200 = −250)
-    </td>
+<td style="text-align: left;"><span style="color: blue">Peace (<span
+class="math inline">5</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: blue">Victory -
+Penalty (<span class="math inline">10 − 15 =  − 5</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span
+style="color: red">Aggressor</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span style="color: blue">Defeat (<span
+class="math inline"> − 100</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span style="color: blue">War - Penalty
+(<span class="math inline"> − 50 − 200 =  − 250</span>)</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 </div>
-<br>
 <p><strong>Institutions in human society.</strong> Institutions play a
 central role in promoting cooperation in international relations.
 Institutions, such as the UN, can broker agreements or treaties between
@@ -1833,41 +1847,84 @@ systems.<p>
 Finally, we concluded with a discussion of how institutions can
 incentivize cooperation through externally imposed incentives that
 enforce cooperation and punish defection <span class="citation"
-data-cites="buterin2022institution">[37]</span>. We related this concept
+data-cites="buterin2022institution">[46]</span>. We related this concept
 to the idea of an AI Leviathan used to counteract selfish, powerful AIs.
 However, we also stressed that humans should take care to ensure their
 relationship with the AI Leviathan is symbiotic and transparent,
 otherwise humans risk losing control of AIs.<p>
 In our discussion of these mechanisms, we not only illustrated their
 prevalence in our world, but also showed how they might influence
-cooperation with AI agents. In several cases, the mechanisms we discuss
-could promote cooperation in AI. However, no single mechanism provides a
-foolproof method for ensuring cooperation. In the following section, we
-discuss the nature of conflict, namely the various factors that may give
-rise to it. In doing so, we enhance our understanding of what might
-motivate conflict in AI, and subsequently, our abilities to predict and
-address AI-driven conflict scenarios.</p>
-
-<br>
-<br>
-<h3>References</h3>
+cooperation with and between AI agents. In several cases, the mechanisms
+we discuss could promote cooperation. However, no single mechanism
+provides a foolproof method for ensuring cooperation. In the following
+section, we discuss the nature of conflict, namely the various factors
+that may give rise to it. In doing so, we enhance our understanding of
+what might motivate conflict in AI, and subsequently, our abilities to
+predict and address AI-driven conflict scenarios.</p>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
+<div id="ref-openAImerge-assist" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div
+class="csl-right-inline">OpenAI, <span>“OpenAI charter.”</span>
+[Online]. Available: <a
+href="https://openai.com/charter">https://openai.com/charter</a></div>
+</div>
+<div id="ref-nowak2006five" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] M.
+A. Nowak, <span>“Five rules for the evolution of cooperation,”</span>
+<em>Science</em>, vol. 314, no. 5805, pp. 1560–1563, 2006, doi: <a
+href="https://doi.org/10.1126/science.1133755">10.1126/science.1133755</a>.</div>
+</div>
 <div id="ref-fearon1995rationalist" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] J.
+<div class="csl-left-margin">[3] J.
 D. Fearon, <span>“Rationalist explanations for war,”</span>
 <em>International Organization</em>, vol. 49, no. 3, pp. 379–414, 1995,
 Accessed: Oct. 14, 2023. [Online]. Available: <a
 href="http://www.jstor.org/stable/2706903">http://www.jstor.org/stable/2706903</a></div>
 </div>
+<div id="ref-condit1996joint" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] K.
+W. Condit <em>et al.</em>, <span>“The joint chiefs of staff and national
+policy, 1947-1949,”</span> <em>(No Title)</em>, 1996.</div>
+</div>
+<div id="ref-powell2006war" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] R.
+Powell, <span>“War as a commitment problem,”</span> <em>International
+organization</em>, vol. 60, no. 1, pp. 169–203, 2006.</div>
+</div>
+<div id="ref-jenkins2022will" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] B.
+M. Jenkins, <span>“The will to fight, lessons from ukraine.”</span>
+[Online]. Available: <a
+href="https://www.rand.org/pubs/commentary/2022/03/the-will-to-fight-lessons-from-ukraine.html">https://www.rand.org/pubs/commentary/2022/03/the-will-to-fight-lessons-from-ukraine.html</a></div>
+</div>
+<div id="ref-meta2022human" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] M.
+F. A. R. D. T. (FAIR)† <em>et al.</em>, <span>“Human-level play in the
+game of &lt;i&gt;diplomacy&lt;/i&gt; by combining language models with
+strategic reasoning,”</span> <em>Science</em>, vol. 378, no. 6624, pp.
+1067–1074, 2022, doi: <a
+href="https://doi.org/10.1126/science.ade9097">10.1126/science.ade9097</a>.</div>
+</div>
+<div id="ref-chen2021always" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] L.
+Chen, <span>“Always there’: The AI chatbot comforting china’s lonely
+millions,”</span> <em>The Jakarta Post</em>, 2021.</div>
+</div>
+<div id="ref-Burtell2023ArtificialIA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] M.
+Burtell and T. Woodside, <span>“Artificial influence: An analysis of
+AI-driven persuasion,”</span> <em>ArXiv</em>, vol. abs/2303.08721,
+2023.</div>
+</div>
 <div id="ref-kelly2000inequality" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] M.
+<div class="csl-left-margin">[10] M.
 Kelly, <span>“Inequality and crime,”</span> <em>The Review of Economics
 and Statistics</em>, vol. 82, pp. 530–539, Feb. 2000, doi: <a
 href="https://doi.org/10.1162/003465300559028">10.1162/003465300559028</a>.</div>
 </div>
 <div id="ref-victimrates2011" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div
+<div class="csl-left-margin">[11] </div><div
 class="csl-right-inline"><span>“Victimization rates for persons age 12
 or older, by type of crime and annual family income of victims.”</span>
 US Bureau of Justice, 2011. Available: <a
@@ -1876,56 +1933,56 @@ href="https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/cv0814.pd
 </div>
 <div id="ref-fajnzylber2002inequality" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[4] P.
+<div class="csl-left-margin">[12] P.
 Fajnzylber, D. Lederman, and N. Loayza, <span>“Inequality and violent
 crime,”</span> <em>The Journal of Law and Economics</em>, vol. 45, no.
 1, pp. 1–39, 2002, doi: <a
 href="https://doi.org/10.1086/338347">10.1086/338347</a>.</div>
 </div>
 <div id="ref-horne2009effect" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] A.
+<div class="csl-left-margin">[13] A.
 Horne, <span>“The effect of relative deprivation on delinquency: An
 assessment of juveniles.”</span> University of Central Florida,
 2009.</div>
 </div>
 <div id="ref-trivers1971evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] R.
+<div class="csl-left-margin">[14] R.
 Trivers, <span>“The evolution of reciprocal altruism,”</span>
 <em>Quarterly Review of Biology</em>, vol. 46, pp. 35–57., Mar. 1971,
 doi: <a href="https://doi.org/10.1086/406755">10.1086/406755</a>.</div>
 </div>
 <div id="ref-schino2007grooming" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] G.
+<div class="csl-left-margin">[15] G.
 Schino and F. Aureli, <span>“Grooming reciprocation among female
 primates: A meta-analysis,”</span> <em>Biology letters</em>, vol. 4, pp.
 9–11, Nov. 2007, doi: <a
 href="https://doi.org/10.1098/rsbl.2007.0506">10.1098/rsbl.2007.0506</a>.</div>
 </div>
 <div id="ref-pinker2012better" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] S.
+<div class="csl-left-margin">[16] S.
 Pinker, <em>The better angels of our nature: Why violence has
 declined</em>. Penguin Books, 2012.</div>
 </div>
 <div id="ref-mearsheimer2007structural" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[9] J.
+<div class="csl-left-margin">[17] J.
 J. Mearsheimer, <em>Structural realism</em>. 2007, pp. 77–94.</div>
 </div>
 <div id="ref-nowak1998evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] M.
+<div class="csl-left-margin">[18] M.
 A. Nowak and K. Sigmund, <span>“Evolution of indirect reciprocity by
 image scoring,”</span> <em>Nature</em>, vol. 393, no. 6685, pp. 573–577,
 1998.</div>
 </div>
 <div id="ref-bshary2006image" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[11] R.
+<div class="csl-left-margin">[19] R.
 Bshary and A. S. Grutter, <span>“Image scoring and cooperation in a
 cleaner fish mutualism,”</span> <em>Nature</em>, vol. 441, pp. 975–978,
 2006, Available: <a
 href="https://api.semanticscholar.org/CorpusID:4422277">https://api.semanticscholar.org/CorpusID:4422277</a></div>
 </div>
 <div id="ref-carter2013food" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] G.
+<div class="csl-left-margin">[20] G.
 Carter and G. Wilkinson, <span>“Food sharing in vampire bats: Reciprocal
 help predicts donations more than relatedness or harassment,”</span>
 <em>Proceedings. Biological sciences / The Royal Society</em>, vol. 280,
@@ -1933,12 +1990,12 @@ p. 20122573, Feb. 2013, doi: <a
 href="https://doi.org/10.1098/rspb.2012.2573">10.1098/rspb.2012.2573</a>.</div>
 </div>
 <div id="ref-balliet2020indirect" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] D.
+<div class="csl-left-margin">[21] D.
 Balliet, J. Wu, and P. Lange, <span>“Indirect reciprocity, gossip, and
 reputation-based cooperation,”</span> 2020, pp. 265–287.</div>
 </div>
 <div id="ref-west2007social" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] S.
+<div class="csl-left-margin">[22] S.
 A. WEST, A. S. GRIFFIN, and A. GARDNER, <span>“Social semantics:
 Altruism, cooperation, mutualism, strong reciprocity and group
 selection,”</span> <em>Journal of Evolutionary Biology</em>, vol. 20,
@@ -1946,81 +2003,81 @@ no. 2, pp. 415–432, 2007, doi: <a
 href="https://doi.org/10.1111/j.1420-9101.2006.01258.x">https://doi.org/10.1111/j.1420-9101.2006.01258.x</a>.</div>
 </div>
 <div id="ref-hamilton1964genetical" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[15] W.
+<div class="csl-left-margin">[23] W.
 D. Hamilton, <span>“The genetical evolution of social behaviour.
 i,”</span> <em>Journal of theoretical biology</em>, 1964.</div>
 </div>
 <div id="ref-nowak2011supercooperators" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[16] M.
+<div class="csl-left-margin">[24] M.
 A. Nowak, R. Highfield, <em>et al.</em>, <em>Supercooperators</em>.
 Canongate Edinburgh, 2011.</div>
 </div>
 <div id="ref-okasha2012social" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[17] S.
+<div class="csl-left-margin">[25] S.
 Okasha, <span>“Social justice, genomic justice and the veil of
 ignorance: Harsanyi meets mendel,”</span> <em>Economics &amp;amp;
 Philosophy</em>, vol. 28, no. 1, pp. 43–71, 2012, doi: <a
 href="https://doi.org/10.1017/S0266267112000119">10.1017/S0266267112000119</a>.</div>
 </div>
 <div id="ref-Harsanyi1955CardinalWI" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[18] J.
+<div class="csl-left-margin">[26] J.
 C. Harsanyi, <span>“Cardinal welfare, individualistic ethics, and
 interpersonal comparisons of utility,”</span> <em>Journal of Political
 Economy</em>, 1955.</div>
 </div>
 <div id="ref-Dennett1995DarwinsDI" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[19] D.
+<div class="csl-left-margin">[27] D.
 C. Dennett, <span>“Darwin’s dangerous idea: Evolution and the meanings
 of life,”</span> 1995.</div>
 </div>
 <div id="ref-simon1990mechanism" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[20] H.
+<div class="csl-left-margin">[28] H.
 A. Simon, <span>“A mechanism for social selection and successful
 altruism,”</span> <em>Science</em>, vol. 250, no. 4988, pp. 1665–1668,
 1990, doi: <a
 href="https://doi.org/10.1126/science.2270480">10.1126/science.2270480</a>.</div>
 </div>
 <div id="ref-curry2016morality" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[21] O.
+<div class="csl-left-margin">[29] O.
 S. Curry, <span>“Morality as cooperation: A problem-centred
 approach,”</span> <em>The evolution of morality</em>, pp. 27–51,
 2016.</div>
 </div>
 <div id="ref-charlesworth2009genetics" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[22] D.
+<div class="csl-left-margin">[30] D.
 Charlesworth and J. H. Willis, <span>“The genetics of inbreeding
 depression,”</span> <em>Nature reviews genetics</em>, vol. 10, no. 11,
 pp. 783–796, 2009.</div>
 </div>
 <div id="ref-chagnon1979kin" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[23] N.
+<div class="csl-left-margin">[31] N.
 A. Chagnon, <span>“Kin selection and conflict: An analysis of a
 yanomam<span>ö</span> ax fight,”</span> <em>Evolutionary biology and
 human social behavior: An anthropological perspective</em>, pp. 213–238,
 1979.</div>
 </div>
 <div id="ref-westermarck2022origin" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[24] E.
+<div class="csl-left-margin">[32] E.
 Westermarck, <em>The origin and development of the moral ideas</em>.
 DigiCat, 2022.</div>
 </div>
 <div id="ref-smith1987inheritance" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[25] M.
+<div class="csl-left-margin">[33] M.
 S. Smith, B. J. Kish, and C. B. Crawford, <span>“Inheritance of wealth
 as human kin investment,”</span> <em>Ethology and Sociobiology</em>,
 vol. 8, no. 3, pp. 171–182, 1987.</div>
 </div>
 <div id="ref-oates2002nominal" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[26] K.
+<div class="csl-left-margin">[34] K.
 Oates and M. Wilson, <span>“Nominal kinship cues facilitate
 altruism,”</span> <em>Proceedings of the Royal Society of London. Series
 B: Biological Sciences</em>, vol. 269, no. 1487, pp. 105–109,
 2002.</div>
 </div>
 <div id="ref-lieberman2003does" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[27] D.
+<div class="csl-left-margin">[35] D.
 Lieberman, J. Tooby, and L. Cosmides, <span>“Does morality have a
 biological basis? An empirical test of the factors governing moral
 sentiments relating to incest,”</span> <em>Proceedings of the Royal
@@ -2029,59 +2086,66 @@ Society of London. Series B: Biological Sciences</em>, vol. 270, no.
 </div>
 <div id="ref-thornhill1991evolutionary" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[28] N.
+<div class="csl-left-margin">[36] N.
 W. Thornhill, <span>“An evolutionary analysis of rules regulating human
 inbreeding and marriage,”</span> <em>Behavioral and Brain Sciences</em>,
 vol. 14, no. 2, pp. 247–261, 1991.</div>
 </div>
 <div id="ref-connor1995benefits" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[29] R.
+<div class="csl-left-margin">[37] R.
 C. Connor, <span>“The benefits of mutualism: A conceptual
 framework,”</span> <em>Biological Reviews</em>, vol. 70, no. 3, pp.
 427–457, 1995.</div>
 </div>
 <div id="ref-van2008leadership" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[30] M.
+<div class="csl-left-margin">[38] M.
 Van Vugt, R. Hogan, and R. B. Kaiser, <span>“Leadership, followership,
 and evolution: Some lessons from the past.”</span> <em>American
 psychologist</em>, vol. 63, no. 3, p. 182, 2008.</div>
 </div>
 <div id="ref-carruthers1996theories" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[31] P.
+<div class="csl-left-margin">[39] P.
 Carruthers and P. K. Smith, <em>Theories of theories of mind</em>.
 Cambridge university press, 1996.</div>
 </div>
 <div id="ref-west2007evolutionary" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[32] S.
+<div class="csl-left-margin">[40] S.
 A. West, A. S. Griffin, and A. Gardner, <span>“Evolutionary explanations
 for cooperation,”</span> <em>Current biology</em>, vol. 17, no. 16, pp.
 R661–R672, 2007.</div>
 </div>
+<div id="ref-nash1950bargaining" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[41] J.
+F. Nash, <span>“The bargaining problem,”</span> <em>Econometrica</em>,
+vol. 18, no. 2, pp. 155–162, 1950, Accessed: Nov. 19, 2023. [Online].
+Available: <a
+href="http://www.jstor.org/stable/1907266">http://www.jstor.org/stable/1907266</a></div>
+</div>
 <div id="ref-gintis2007evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[33] H.
+<div class="csl-left-margin">[42] H.
 Gintis, <span>“The evolution of private property,”</span> <em>Journal of
 Economic Behavior &amp; Organization</em>, vol. 64, no. 1, pp. 1–16,
 2007.</div>
 </div>
 <div id="ref-henrich2005economic" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[34] J.
+<div class="csl-left-margin">[43] J.
 Henrich <em>et al.</em>, <span>“<span>‘Economic man’</span> in
 cross-cultural perspective: Behavioral experiments in 15 small-scale
 societies,”</span> <em>Behavioral and brain sciences</em>, vol. 28, no.
 6, pp. 795–815, 2005.</div>
 </div>
 <div id="ref-brams1996fair" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[35] S.
+<div class="csl-left-margin">[44] S.
 J. Brams and A. D. Taylor, <em>Fair division: From cake-cutting to
 dispute resolution</em>. Cambridge University Press, 1996.</div>
 </div>
 <div id="ref-herskovits1952economic" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[36] M.
+<div class="csl-left-margin">[45] M.
 J. Herskovits, <em>Economic anthropology: A study in comparative
 economics</em>. Knopf New York, 1952.</div>
 </div>
 <div id="ref-buterin2022institution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[37] V.
+<div class="csl-left-margin">[46] V.
 Buterin, <span>“What even is an institution?”</span> [Online].
 Available: <a
 href="https://vitalik.ca/general/2022/12/30/institutions.html">https://vitalik.ca/general/2022/12/30/institutions.html</a></div>
