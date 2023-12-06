@@ -435,7 +435,7 @@ US’s entry into WWII.<p>
 
 <br>
 <table class="tableLayout">
-<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether to defend or preemptively attack.</caption>
+<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether <br> to defend or preemptively attack.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -578,6 +578,7 @@ information with the intent to deceive or manipulate others. Both of
 these types of information problem can cause bargains to fail,
 generating conflict.</p>
 <br>
+<div id="tab:distinguish">
 <table class="tableLayout">
 <thead>
 <tr class="header">
@@ -602,6 +603,7 @@ class="math inline"><em>b</em>(1−<em>a</em>)</span></td>
 </tr>
 </tbody>
 </table>
+</div>
 <br>
 <p>The term <span class="math inline"><em>a</em></span> is the
 probability of a player knowing the strategy of its partner. Relevant

@@ -216,6 +216,8 @@ this knowledge, one approach to using AI to increase happiness is to
 focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
+
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
 <p><span><b>A Note on Measuring Wellbeing</b></span></p>
@@ -275,6 +277,8 @@ QALYs, DALYs, and WELBYs provide different approximations of wellbeing
 that can be used to inform high-level decision-making and
 policy-setting.</p>
 </div>
+<br>
+
 <h2 id="problems-for-happiness-focused-machine-ethics">6.6.2 Problems for
 Happiness-Focused Machine Ethics</h2>
 <h4 id="happiness-is-a-subjective-experience.">Happiness is a subjective
@@ -338,6 +342,7 @@ which should also be on the list. However, if goods such as autonomy and
 happiness play such a filtering role for the objective goods theorist,
 it is unclear whether there are truly a variety of objective goods
 left.</p>
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
     <p><span><b>A Note on Digital Minds</b></span></p>
@@ -448,6 +453,7 @@ still considered an alignment failure, precisely because it may be
 incentivized to behave in ways that do not align with positive human
 values and preferences.</p>
 </div>
+<br>
 <h3 id="conclusions-about-happiness">Conclusions About Happiness</h3>
 <h4 id="summary.">Summary.</h4>
 <p>In this section, we explored the general approach of using AI systems
