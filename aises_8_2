@@ -1917,7 +1917,7 @@ point of view of the extortionist. “You” are the agent using the
 probabilistically to the most recent interaction had with a partner. As
 an example, in the previous round, if the extortionist defected, but
 their partner cooperated, the extortionist will cooperate with a
-probability of <span class="math inline">$$\frac{1}{3}$$</span> in this
+probability of 1/3 in this
 round.</p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
 out altogether.</strong> As we saw in Section 1.4.2,
