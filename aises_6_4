@@ -697,14 +697,11 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<p>
 </p><figure id="fig:homicide">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.
-Data Source: Vienna University of Economics and Business</p>
+<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.</p>
 </figure>
 <figure id="fig:political">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.<br />
-Data Source: World Bank, World Governance Indicators and Gini
-Coefficient Data</p>
+<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.</p>
 </figure>
 <strong>The causes of inequality
 are disputed.</strong>
@@ -803,10 +800,6 @@ from past technological advancements that both helped and displaced
 human workers. If we can automate any job inexpensively, it’s unclear
 where humans would fit into the economy.</p>
 <h3 id="market-failure">Market Failure</h3>
-<p><em>AI development is aligned with the economic engine. We thought
-that this was good because the economy creates efficiency. However, in
-many cases, markets fail to deliver efficient outcomes. AIs may amplify
-or create these failures.</em></p>
 <strong>There
 are a few common types of market failure that might concern us.</strong>
 While markets are often efficient and usually yield better outcomes
