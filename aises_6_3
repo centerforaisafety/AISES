@@ -10,7 +10,7 @@ This section explores <em>algorithmic fairness</em>, including its
 technical definitions, limitations, and real-world strategies for
 building fairer systems.</p>
 <strong>The COMPAS case study.</strong>
-<p>A famous example of algorithmic decision-making in criminal justice
+A famous example of algorithmic decision-making in criminal justice
 is the COMPAS (Correctional Offender Management Profiling for
 Alternative Sanctions) software used by over 100 jurisdictions in the US
 justice system. This algorithm uses observed features such as criminal
@@ -39,12 +39,12 @@ improve fairness.</p>
 <h2 id="ai-fairness-concepts">6.3.1 AI Fairness Concepts</h2>
 <strong>Fairness is difficult to
 specify.</strong>
-<p>Fairness is a complicated and disputed concept with no single
+Fairness is a complicated and disputed concept with no single
 agreed-upon definition. Different notions of fairness can come into
 conflict, making it challenging to ensure that an AI system will be
 considered fair by all stakeholders.</p>
 <strong>Five fairness concepts.</strong>
-<p>Some concepts of <em>individual fairness</em> focus on treating
+Some concepts of <em>individual fairness</em> focus on treating
 similar individuals similarly—for instance, ensuring job applicants with
 the same qualifications have similar chances of being shortlisted.
 Others focus on <em>group fairness</em>: ensuring that protected groups
@@ -70,7 +70,7 @@ be minimized, especially in ways that make the worst-off people better
 off. Theories of justice can help develop the background principles for
 fairness.</p>
 <strong>Algorithmic fairness.</strong>
-<p>The field of algorithmic fairness aims to understand and address
+The field of algorithmic fairness aims to understand and address
 unfairness issues that can arise in algorithmic systems, such as
 classifiers and predictive models. This field’s goal is to ensure that
 algorithms do not perpetuate disadvantages based on <em>protected
@@ -147,7 +147,7 @@ fairness. However, we can still use metrics to better approximate our
 ideals of fairness while remaining aware of their limitations.</p>
 <strong>Fairness
 can reduce performance if not achieved carefully.</strong>
-<p>Enforcing fairness constraints often reduces model accuracy. Two
+Enforcing fairness constraints often reduces model accuracy. Two
 papers found that applying fairness techniques to an e-commerce
 recommendation system increased financial costs <span class="citation"
 data-cites="zahn2009cost">[7]</span> and mitigating unfairness in Kaggle
@@ -161,7 +161,7 @@ can reduce model accuracy in many cases, sometimes fairness can be
 improved without harming accuracy.</p>
 <strong>Difficulties in
 achieving fairness across contexts.</strong>
-<p>Different fields have distinct problems: fairness criteria that make
+Different fields have distinct problems: fairness criteria that make
 sense in the context of employment may be inapplicable in healthcare.
 Even different fields within healthcare face different problems with
 incompatible solutions. These context-specific issues make generic
@@ -184,7 +184,7 @@ or definition of fairness that straightforwardly translates into fair
 outcomes for all.</p>
 <strong>Disagreements in
 intuitions about fairness.</strong>
-<p>There is widespread disagreement in intuitions about the fairness of
+There is widespread disagreement in intuitions about the fairness of
 ML systems, even when a model fulfills technical fairness metrics; for
 instance, patients and doctors often disagree on what constitutes
 fairness. People often view identical decisions as more unfair if they
@@ -205,7 +205,7 @@ more limited goal: technical approaches that focus directly on
 algorithmic systems, and <em>social approaches</em> that focus on
 related social factors.</p>
 <strong>Technical approaches.</strong>
-<p>Metrics of fairness such as statistical parity identify aspects of ML
+Metrics of fairness such as statistical parity identify aspects of ML
 systems that are relevant for fairness. Technical approaches to
 improving fairness include a host of methods to improve models’
 performance on these metrics, which can mitigate some forms of
@@ -219,7 +219,7 @@ adversarial testing, sensitivity analysis, and ranking feature
 importances.</p>
 <strong>Problems with technical
 approaches.</strong>
-<p>However, technical methods fall short of addressing the social
+However, technical methods fall short of addressing the social
 consequences of unfairness. They fail to adjust to sociocultural
 contexts and struggle to combat biases inherited from training data.
 “Fairness through unawareness” aims to remove protected characteristics
@@ -232,7 +232,7 @@ in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
 <strong>Social approaches.</strong>
-<p>Social approaches emphasize that unfairness is tied to systemic
+Social approaches emphasize that unfairness is tied to systemic
 social injustices propagated through technical systems. They highlight
 political, economic, and cultural factors and apply methods such as
 anti-discrimination policy, legal reform, and a design process focused
@@ -243,7 +243,7 @@ generally more expensive and difficult than technical approaches.
 However, they can be more impactful, reducing models’ negative social
 impacts.</p>
 <strong>Frameworks for fairness.</strong>
-<p>Ongoing research aims to create frameworks for AI fairness that blend
+Ongoing research aims to create frameworks for AI fairness that blend
 technical and social considerations. <em>Fair deployment</em> frameworks
 focus on gradually deploying AI while assessing its impacts, ensuring
 there are strong oversight mechanisms and independent audits, and
