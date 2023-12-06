@@ -1,6 +1,6 @@
 <h1 id="conclusion">6.9 Conclusion</h1>
-<h4 id="overview.">Overview.</h4>
-<p>In this chapter, we have explored various ways in which we can embed
+<strong>Overview.</strong>
+In this chapter, we have explored various ways in which we can embed
 ethics into AIs, ensuring that they are safe and beneficial. As it
 stands, it is far from guaranteed that the development of AIs will lead
 to socially beneficial outcomes. By default, AIs are likely to be
@@ -15,20 +15,19 @@ improve wellbeing across society. Lastly, we considered using moral
 parliaments to emulate democratic decision-making processes within AI
 systems, ensuring ethical behavior by representing human interests
 directly.</p>
-<h4
-id="we-should-strive-to-make-our-views-on-machine-ethics-less-contradictory.">We
+<strong>We
 should strive to make our views on machine ethics less
-contradictory.</h4>
-<p>We have considered several possible perspectives on how to ensure AIs
+contradictory.</strong>
+We have considered several possible perspectives on how to ensure AIs
 act ethically. As we have seen, there are deep tensions between many
 plausible views, such as “AIs should do what you choose” versus “AIs
 should do what you want” versus “AIs should do what makes you happy” and
 so on. It is quite difficult to resolve these tensions and choose which
 version of machine ethics best represents human values; however, before
 we deploy powerful AI systems, we must do so anyway.</p>
-<h4 id="as-a-baseline-we-want-ais-to-follow-the-law.">As a baseline, we
-want AIs to follow the law.</h4>
-<p>At the very least, we should require that AIs follow the law. This is
+<strong>As a baseline, we
+want AIs to follow the law.</strong>
+At the very least, we should require that AIs follow the law. This is
 imperfect: as we have seen, the law is insufficiently comprehensive to
 ensure that AI systems are safe and beneficial. Laws have loopholes, are
 occasionally unethical and unrepresentative of the population, and are
@@ -39,11 +38,10 @@ theft—that human societies have identified and outlawed. In addition, we
 might want to support regulation that ensures that AI decision-making
 must be fair—once we have a better understanding of what fairness
 requires.</p>
-<h4
-id="ais-could-increase-human-wellbeing-in-accordance-with-a-social-welfare-function.">AIs
+<strong>AIs
 could increase human wellbeing in accordance with a social welfare
-function.</h4>
-<p>Which conception of human wellbeing best matches reality and how we
+function.</strong>
+Which conception of human wellbeing best matches reality and how we
 should distribute it are difficult questions that we have certainly not
 resolved within this chapter. However, if we had to guess, we might want
 AIs to optimize continuous prioritarian social welfare functions where
@@ -53,10 +51,9 @@ which everyone is happy to live in. We might use AIs to estimate
 general-purpose wellbeing functions and directly increase what we
 observe makes people better off. While this is speculative, the rapid
 development of AIs forces us to speculate.</p>
-<h4
-id="ais-might-use-moral-parliaments-for-redundancy-and-adaptability.">AIs
-might use moral parliaments for redundancy and adaptability.</h4>
-<p>Especially if we are unsure about what comprises human wellbeing and
+<strong>AIs
+might use moral parliaments for redundancy and adaptability.</strong>
+Especially if we are unsure about what comprises human wellbeing and
 how we should best distribute it, we might want to embed redundancy and
 adaptability into our AIs so that they can act ethically even if we make
 mistakes or change our minds. Given the potential benefits and the
@@ -66,9 +63,9 @@ incorporating diverse perspectives of individual moral theories or
 stakeholders in real-time, moral parliaments can help ensure that AI
 systems act in accordance with human values and avoid extreme or biased
 behavior, even if human values change over time.</p>
-<h4 id="we-should-keep-thinking-about-machine-ethics.">We should keep
-thinking about machine ethics.</h4>
-<p>As we move forward, it is crucial that we continue to engage in
+<strong>We should keep
+thinking about machine ethics.</strong>
+As we move forward, it is crucial that we continue to engage in
 rigorous research, open dialogue, and interdisciplinary collaboration to
 address the ethical concerns associated with AI. By doing so, we can
 strive towards creating AI systems that not only avoid the worst harms

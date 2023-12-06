@@ -91,7 +91,7 @@ theory. We then examine some specific features of competitive situations
 that make it harder to reach negotiated agreements or avoid
 confrontation. We begin with five factors from bargaining theory that
 can influence the potential for conflict. These can be divided into the
-following two groups: <strong>Commitment problems.</strong> According to
+following two groups: <p> <strong>Commitment problems.</strong> According to
 bargaining theory, one reason bargains may fail is that some of the
 agents making an agreement may have the ability and incentive to break
 it. We explore three examples of commitment problems.</p>
@@ -636,7 +636,7 @@ the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 8.13: MGreen either believes themself to be—-or intentionally
+<p class="tb-caption">Figure 8.13: Green either believes themself to be—-or intentionally
 misrepresents themself as—-more powerful than they really are. This
 means that the range of bargain offers Green will choose over conflict
 does not overlap with the equivalent range for Red. Thus, there is no
@@ -1881,8 +1881,7 @@ predict and address AI-driven conflict scenarios.</p>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-openAImerge-assist" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div
-class="csl-right-inline">OpenAI, <span>“OpenAI charter.”</span>
+<div class="csl-left-margin">[1] OpenAI, <span>“OpenAI charter.”</span>
 [Online]. Available: <a
 href="https://openai.com/charter">https://openai.com/charter</a></div>
 </div>

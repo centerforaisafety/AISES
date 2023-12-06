@@ -1752,7 +1752,7 @@ class="math inline">$$\frac{1}{2}b$$</span></td>
 <p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
 strategy.</strong> If all agents were Hawks, everyone would fight each
 other for the resource and only stop when hurt. Their average gain would
-be <span class="math inline">\frac{1}{2}(b-c)</span>. But since the
+be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
 price of fighting is more than the resource’s value <span
 class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
 be negative. If one agent switched to being a <em>Dove</em>, they would
@@ -1760,8 +1760,7 @@ avoid the cost of fighting, but they would never win the resource. Their
 average payoff would be <span class="math inline">0</span>, which is
 better than the payoffs the <em>Hawks</em> would be getting. Also, this
 gain would increase as more agents choose Dove, as their average payoff
-when meeting <em>Doves</em> would be <span
-class="math inline">$$\frac{1}{2}b$$</span>. Therefore, <em>Doves</em>
+when meeting <em>Doves</em> would be 1/2b. Therefore, <em>Doves</em>
 could <em>invade</em> a <em>Hawk</em>-only group.<p>
 Similarly, if all agents were <em>Doves</em>, an agent who switched to
 <em>Hawk</em> would gain more without paying a price for fighting, as
@@ -1918,7 +1917,7 @@ point of view of the extortionist. “You” are the agent using the
 probabilistically to the most recent interaction had with a partner. As
 an example, in the previous round, if the extortionist defected, but
 their partner cooperated, the extortionist will cooperate with a
-probability of <span class="math inline">$$\frac{1}{3}$$</span> in this
+probability of 1/3 in this
 round.</p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
 out altogether.</strong> As we saw in Section 1.4.2,

@@ -1,7 +1,7 @@
 <h1 id="preferences">6.5 Preferences</h1>
-<h4 id="should-we-have-ais-satisfy-peoples-preferences">Should we have
-AIs satisfy people’s preferences?</h4>
-<p>A preference is a tendency to favor one thing over another. Someone
+<strong>Should we have
+AIs satisfy people’s preferences?</strong>
+A preference is a tendency to favor one thing over another. Someone
 might prefer chocolate ice cream over vanilla ice cream, or they might
 prefer that one party wins the election rather than another. These
 preferences will influence actions. If someone prefers chocolate ice
@@ -12,8 +12,8 @@ guiding us toward certain choices and actions over others. Preference is
 similar to desire but always comparative. Someone might desire something
 in itself—a new book, a vacation, or a delicious meal—but a preference
 always involves a comparison between two or more alternatives.</p>
-<h4 id="overview.">Overview.</h4>
-<p>In this section, we will consider whether preferences may have an
+<strong>Overview.</strong>
+In this section, we will consider whether preferences may have an
 important role to play in machine ethics. In particular, if we want to
 design an advanced AI system, the preferences of the people affected by
 its decisions should plausibly help guide its decision-making. In fact,
@@ -52,9 +52,9 @@ salad, at least in that specific context and time.<p>
 While all theories of preferences agree that there is an important link
 between preference and choice, the revealed preference account goes one
 step further and claims that preference simply <em>is</em> choice.</p>
-<h4 id="revealed-preferences-preserve-autonomy.">Revealed preferences
-preserve autonomy.</h4>
-<p>One advantage of revealed preferences is that we don’t have to guess
+<strong>Revealed preferences
+preserve autonomy.</strong>
+One advantage of revealed preferences is that we don’t have to guess
 what someone prefers. We can simply look at what they choose. In this
 way, revealed preferences can help us avoid paternalism. Paternalism is
 when leaders use their sovereignty to make decisions for their subjects,
@@ -63,9 +63,9 @@ good. However, we may think that typically people are themselves the
 best judges of what is good for them. If so, then by relying on people’s
 actions to reveal their preferences, we avoid the risk of
 paternalism.</p>
-<h4 id="however-there-are-problems-with-revealed-preferences.">However,
-there are problems with revealed preferences.</h4>
-<p>The next few subsections will explore the challenges of
+<strong>However,
+there are problems with revealed preferences.</strong>
+The next few subsections will explore the challenges of
 misinformation, weakness of will, and manipulation in the context of
 revealed preferences. We will discuss how misinformation can lead to
 choices that do not accurately reflect a person’s true preferences, and
@@ -75,10 +75,9 @@ preferences can be manipulated, ranging from advertising tactics to
 extreme cases like cults, and the ethical implications of preference
 manipulation.</p>
 <h3 id="misinformation">Misinformation</h3>
-<h4
-id="revealed-preferences-can-sometimes-be-based-on-misinformation.">Revealed
-preferences can sometimes be based on misinformation.</h4>
-<p>If someone buys a used car that turns out to be defective, it doesn’t
+<strong>Revealed
+preferences can sometimes be based on misinformation.</strong>
+If someone buys a used car that turns out to be defective, it doesn’t
 mean they preferred a faulty car. They intended to buy a reliable car,
 but due to a lack of information or deceit from the seller, they ended
 up with a substandard one. Similarly, losing at chess doesn’t indicate a
@@ -112,11 +111,10 @@ reasons—perhaps its designer wants to promote specific products—by
 presenting options in some particular way; for instance, by presenting a
 list of options that looks exhaustive and excluding something it doesn’t
 want us to consider.</p>
-<h4
-id="if-preference-satisfaction-is-important-perhaps-manipulation-is-acceptable.">If
+<strong>If
 preference satisfaction is important, perhaps manipulation is
-acceptable.</h4>
-<p>In at least some of these cases, it seems clear that preference
+acceptable.</strong>
+In at least some of these cases, it seems clear that preference
 manipulation is bad. However, it may be less clear exactly why it is
 bad. A natural answer is to say that people might be manipulated into
 preferring things that are bad for them. Someone who is manipulated by
@@ -128,10 +126,9 @@ satisfied is by definition good, regardless of whether those preferences
 have been manipulated. This might lead us to think that what matters is
 not (or at least not only) preference satisfaction, but happiness or
 enjoyment. We’ll discuss this in the section on happiness.</p>
-<h4
-id="disliking-manipulation-suggests-that-wellbeing-requires-autonomy.">Disliking
-manipulation suggests that wellbeing requires autonomy.</h4>
-<p>On the other hand, some may find that manipulation is bad even if the
+<strong>Disliking
+manipulation suggests that wellbeing requires autonomy.</strong>
+On the other hand, some may find that manipulation is bad even if the
 person is manipulated into doing something that is good for them. For
 example, suppose a doctor lies to her patient, telling him that unless
 he loses weight, he will likely die soon. As a result, the patient
@@ -146,10 +143,9 @@ the agent prefers. We’ll discuss this in the section on objective
 goods.</p>
 <h3 id="inverse-reinforcement-learning">Inverse Reinforcement
 Learning</h3>
-<h4
-id="inverse-reinforcement-learning-irl-relies-on-revealed-preferences.">Inverse
-Reinforcement Learning (IRL) relies on revealed preferences.</h4>
-<p>IRL is a powerful technique in the field of machine learning, which
+<strong>Inverse
+Reinforcement Learning (IRL) relies on revealed preferences.</strong>
+IRL is a powerful technique in the field of machine learning, which
 focuses on extracting an agent’s objectives or preferences by observing
 its behaviors. In more technical terms, IRL is about reverse engineering
 the reward function—an internal ranking system that an agent uses to
@@ -159,10 +155,9 @@ This technique can help ensure the alignment of AI system’s behaviors
 with human values and preferences. However, leveraging revealed
 preferences or observable choices of humans to train AI systems using
 IRL poses significant challenges pertaining to AI safety.</p>
-<h4
-id="using-revealed-preferences-as-a-training-mechanism-for-irl-can-be-risky.">Using
-revealed preferences as a training mechanism for IRL can be risky.</h4>
-<p>Reconsider the chess example: losing a game does not mean that we
+<strong>Using
+revealed preferences as a training mechanism for IRL can be risky.</strong>
+Reconsider the chess example: losing a game does not mean that we
 prefer to lose. This interpretation could be a misrepresentation of the
 player’s true preferences, potentially leading to undesirable outcomes.
 Furthermore, extending observed preferences to unfamiliar situations
@@ -175,8 +170,8 @@ misapply these to other scenarios. Therefore, while revealed preferences
 can offer significant insights for training AI, it is vital to
 understand their limitations to safeguard the safety and efficiency of
 AI systems.</p>
-<h4 id="summary.">Summary.</h4>
-<p>Revealed preferences can be a powerful tool, as they allow an
+<strong>Summary.</strong>
+Revealed preferences can be a powerful tool, as they allow an
 individual’s actions to speak for themselves, reducing the risk of
 paternalistic intervention. However, revealed preferences have inherent
 shortcomings such as susceptibility to misinformation and manipulation,
@@ -201,9 +196,9 @@ subject to weakness of will: when we are further removed from the
 situation, we are less inclined to fall for temptations. Therefore,
 stated preferences are more likely to reflect our stable, long-term
 interests.</p>
-<h4 id="stated-preferences-are-still-imperfect.">Stated preferences are
-still imperfect.</h4>
-<p>Stated preferences do not overcome all difficulties with revealed
+<strong>Stated preferences are
+still imperfect.</strong>
+Stated preferences do not overcome all difficulties with revealed
 preferences. Stated preferences can still be manipulated. Further,
 individuals might state preferences they believe to be socially
 acceptable or admirable rather than what they truly prefer, particularly
@@ -213,20 +208,18 @@ pressure and norms around environmental responsibility.</p>
 <h3 id="preference-accounting">Preference Accounting</h3>
 <p>One set of problems with stated preferences concern which types of
 preferences should be satisfied.</p>
-<h4
-id="first-someone-might-never-know-their-preference-was-fulfilled.">First,
-someone might never know their preference was fulfilled.</h4>
-<p>Suppose someone is on a trip far away. On a bus journey, they
+<strong>First,
+someone might never know their preference was fulfilled.</strong>
+Suppose someone is on a trip far away. On a bus journey, they
 exchange a few glances with a stranger whom they’ll never meet again.
 Nevertheless they form the preference that the stranger’s life goes
 well. Should this preference be taken into account? By assumption, they
 will never be in a position to know whether the preference has been
 satisfied or not. Therefore, they will never experience any of the
 enjoyment associated with having their preference satisfied.</p>
-<h4
-id="second-we-may-or-may-not-care-about-the-preferences-of-the-dead.">Second,
-we may or may not care about the preferences of the dead.</h4>
-<p>Suppose someone in the 18th century wanted to be famous long after
+<strong>Second,
+we may or may not care about the preferences of the dead.</strong>
+Suppose someone in the 18th century wanted to be famous long after
 their death. Should such preferences count? Do they give us reason to
 promote that person’s fame today? As in the previous example, the
 satisfaction of such preferences can’t contribute any enjoyment to the
@@ -234,10 +227,8 @@ person’s life. Could it be that what we really care about is enjoyment
 or happiness, and that preferences are a useful but imperfect guide
 toward what we enjoy? We will return to this in the section on
 happiness.</p>
-<h4
-id="third-preferences-can-be-about-others-preferences-being-fulfilled.">Third,
-preferences can be about others’ preferences being fulfilled.</h4>
-<p>Suppose a parent prefers that their children’s preferences are
+<strong>Third,
+preferences can be about others’ preferences being fulfilled.</strong>Suppose a parent prefers that their children’s preferences are
 satisfied. Should this preference count, in addition to their children’s
 preferences themselves? If we say yes, it follows that it is more
 important to satisfy the preferences of those who have many people who
@@ -246,9 +237,9 @@ form of double counting, and claim that it is unfair to those with fewer
 who care for them. On the other hand, one might take fairness to mean
 that we should treat everyone’s preferences equally—including their
 preferences about other people’s preferences.</p>
-<h4 id="fourth-preferences-might-be-harmful.">Fourth, preferences might
-be harmful.</h4>
-<p>Suppose someone hates their neighbor, and prefers that they meet a
+<strong>Fourth, preferences might
+be harmful.</strong>
+Suppose someone hates their neighbor, and prefers that they meet a
 cruel fate. We might think that such malicious or harmful preferences
 should not be included. On this view, we should only give weight to
 preferences that are in some sense morally acceptable. However,
@@ -258,9 +249,9 @@ preferences may negatively impact others. For example, whenever some
 good is scarce, giving more of it to one person necessarily implies that
 someone else will get less. Therefore, some more detailed account of
 which preferences should be excluded is needed.</p>
-<h4 id="fifth-we-might-be-confused-about-our-preferences.">Fifth, we
-might be confused about our preferences.</h4>
-<p>Suppose a mobile app asks its users to choose between two privacy
+<strong>Fifth, we
+might be confused about our preferences.</strong>
+Suppose a mobile app asks its users to choose between two privacy
 settings upon installation: allowing the app to access their location
 data all the time, or allowing the app to access their location data
 only while they’re using the app. While these options seem
@@ -271,9 +262,9 @@ advertising or profiling, what the privacy risks of data breaches are,
 and how the app’s use of data aligns with local data protection laws.
 However, we may not fully understand the alternatives we’re choosing
 between.</p>
-<h4 id="sixth-preferences-can-be-inconsistent-over-time.">Sixth,
-preferences can be inconsistent over time.</h4>
-<p>It could be that the choice we make will change us in some
+<strong>Sixth,
+preferences can be inconsistent over time.</strong>
+It could be that the choice we make will change us in some
 fundamental way. When we undergo such transformative experiences <span
 class="citation" data-cites="paul2014transformative">[1]</span>, our
 preferences might change. Some claim that becoming a parent,
@@ -311,11 +302,10 @@ attempts and the robot would use this information to understand how to
 make better coffee in the future. The feedback helps the robot learn not
 just from its own trial and error, but also from our expertise and
 judgment. However, this approach has some known difficulties.</p>
-<h4
-id="first-as-ai-systems-become-more-powerful-human-feedback-might-be-infeasible.">First,
+<strong>First,
 as AI systems become more powerful, human feedback might be
-infeasible.</h4>
-<p>As the problems AI solve become increasingly difficult, using human
+infeasible.</strong>
+As the problems AI solve become increasingly difficult, using human
 supervision and feedback to ensure that those systems behave as desired
 becomes difficult as well. In complex tasks like creating bug-free and
 secure code, generating arguments that are not only persuasive but true,
@@ -326,9 +316,9 @@ reliability: human feedback may be systematically biased in various
 ways. For example, inconvenient but true things may often be labeled as
 bad. In addition to any bias, relying on human feedback will inevitably
 mean some rate of human error.</p>
-<h4 id="second-rlhf-usually-does-not-account-for-ethics.">Second, RLHF
-usually does not account for ethics.</h4>
-<p>Approaches based on human supervision and feedback are very broad.
+<strong>Second, RLHF
+usually does not account for ethics.</strong>
+Approaches based on human supervision and feedback are very broad.
 These approaches primarily focus on task-specific performance, such as
 generating accurate book summaries or bug-free code. However, these
 task-specific evaluations may not necessarily translate into a
@@ -345,8 +335,8 @@ Specifically, while RLHF is effective for improving AI performance in
 specific tasks, it does not inherently equip AI systems with what’s
 needed to grapple with moral questions. This gap underscores the need
 for specific machine ethics research.</p>
-<h4 id="summary.-1">Summary.</h4>
-<p>We’ve seen that stated preferences have certain advantages over
+<strong>Summary.</strong>
+We’ve seen that stated preferences have certain advantages over
 revealed preferences. However, stated preferences still have issues of
 their own. It may not be clear how we should account for all different
 kinds of preferences, such as ones that are only satisfied after the
@@ -366,9 +356,9 @@ beliefs, nor would they be subject to weakness of will, manipulation, or
 framing effects. This makes it clearer how idealized preferences might
 be linked to wellbeing, and therefore something we might ask an AI
 system to implement.</p>
-<h4 id="it-is-unclear-how-we-idealize-preferences.">It is unclear how we
-idealize preferences.</h4>
-<p>What exactly do we need to do to figure out what someone’s idealized
+<strong>It is unclear how we
+idealize preferences.</strong>
+What exactly do we need to do to figure out what someone’s idealized
 preferences are, based on their revealed preferences or their stated
 preferences? It’s clear that the idealized preferences should not be
 based on any false beliefs. We might imagine a person’s idealized
@@ -389,9 +379,9 @@ view that advanced AI systems should be tasked with satisfying people’s
 idealized preferences. However, it shows that the view stands in need of
 further elaboration, and that different people may disagree over what
 exactly should go into the idealization procedure.</p>
-<h4 id="we-might-think-that-preferences-are-pointless.">We might think
-that preferences are pointless.</h4>
-<p>Suppose someone’s only preference, even after idealization, is to
+<strong>We might think
+that preferences are pointless.</strong>
+Suppose someone’s only preference, even after idealization, is to
 count the blades of grass on some lawn. This preference may strike us as
 valueless, even if we suppose that the person in question derives great
 enjoyment from the satisfaction of their preferences. It is unclear
@@ -408,9 +398,9 @@ impose our own judgments of what is valuable on other people using
 hypothetical thought experiments, especially when we know their actual
 preferences. Perhaps we should simply let people pursue their own
 conception of what is valuable.</p>
-<h4 id="we-might-disagree-with-our-idealized-preferences.">We might
-disagree with our idealized preferences.</h4>
-<p>Suppose someone mainly listens to country music, but it turns out
+<strong>We might
+disagree with our idealized preferences.</strong>
+Suppose someone mainly listens to country music, but it turns out
 that their idealized preference is to listen to opera. When they
 themselves actually listen to opera music, they have a miserable
 experience. It seems unlikely that we should insist that listening to
@@ -435,11 +425,10 @@ alters our preferences. If so, idealized preferences may well be so
 alien from the person’s actual preferences that they would not enjoy
 having them satisfied.</p>
 <h3 id="ai-ideal-advisor">AI Ideal Advisor</h3>
-<h4
-id="one-potential-application-of-idealized-preferences-is-the-ai-ideal-advisor.">One
+<strong>One
 potential application of idealized preferences is the AI ideal
-advisor.</h4>
-<p>Suppose someone who hates exploitation and takes serious
+advisor.</strong>
+Suppose someone who hates exploitation and takes serious
 inconvenience to avoid emissions would ideally want to buy food that has
 been ethically produced, but does not realize that some of their
 groceries are unethically produced. An AI ideal advisor would be
@@ -463,8 +452,8 @@ decision-making by advanced AI systems. Of course, having such an
 advisor requires that we solve many of the challenges that we presented
 in the Single Agent Safety chapter, as well as settle on a clear way to identify and idealize
 individual preferences.</p>
-<h4 id="summary.-2">Summary.</h4>
-<p>Idealized preferences overcome many of the difficulties of revealed
+<strong>Summary.</strong>
+Idealized preferences overcome many of the difficulties of revealed
 and stated preferences. Because idealized preferences are free from the
 misconceptions that may affect these other types of preferences, they
 are more plausibly ones that we would want an AI system to satisfy.
@@ -489,9 +478,9 @@ preferences would be. It seems, then, that preferences-—while important
 to wellbeing and useful to train AI in accordance with human values—are
 not a sufficient basis for a comprehensive account of machine
 ethics.</p>
-<h4 id="moving-from-preferences-to-happiness.">Moving from preferences
-to happiness.</h4>
-<p>People’s preferences can be easily influenced by external factors.
+<strong>Moving from preferences
+to happiness.</strong>
+People’s preferences can be easily influenced by external factors.
 For instance, individuals may be swayed by persuasive advertising and
 purchase products that do not truly fulfill their needs or bring them
 lasting happiness. Similarly, social media platforms often present an

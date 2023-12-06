@@ -48,10 +48,9 @@
 </style>
 
 <h1 id="sec:economic-engine">6.4 The Economic Engine</h1>
-<h4
-id="what-if-we-allow-the-economy-to-decide-what-ais-will-be-like">What
-if we allow the economy to decide what AIs will be like?</h4>
-<p>Most AI systems today are being developed by businesses. We could
+<strong>What
+if we allow the economy to decide what AIs will be like?</strong>
+Most AI systems today are being developed by businesses. We could
 therefore argue that AI development is most closely aligned to business,
 or economic, goals like wealth maximization, as opposed to improvements
 in social wellbeing. Many argue that AIs should maximize economic
@@ -61,10 +60,9 @@ the nature of work, and even displacing human workers. In this section,
 we will examine whether AIs shaped by economic incentives create the
 sort of society most people want. We examine both how the economy shapes
 the development of AI, and how AI might impact the economy.</p>
-<h4
-id="business-goals-influence-the-development-of-the-most-capable-ai-systems.">Business
-goals influence the development of the most capable AI systems.</h4>
-<p>AIs are increasingly more efficient than humans at tasks once
+<strong>Business
+goals influence the development of the most capable AI systems.</strong>
+AIs are increasingly more efficient than humans at tasks once
 considered difficult to automate. In the customer service industry, for
 example, many businesses rely on chatbots instead of human
 representatives. Chatbots reduce expenses and streamline operations,
@@ -80,9 +78,9 @@ focus narrowly on achieving their specific goals, compromising values
 such as community, personal freedom, privacy, and consumer choice. We
 can draw from economics to examine how AI usage in business contexts
 could either support or disrupt societal wellbeing.</p>
-<h4 id="using-ai-to-maximize-profits-creates-wealth.">Using AI to
-maximize profits creates wealth.</h4>
-<p>In a market system, businesses often prioritize maximizing profits
+<strong>Using AI to
+maximize profits creates wealth.</strong>
+In a market system, businesses often prioritize maximizing profits
 because the primary responsibility of company executives is to increase
 value for shareholders. This concept, called shareholder primacy, has
 been codified both implicitly and explicitly into American corporate law
@@ -102,9 +100,9 @@ other words, while these algorithms may be effective from a business
 standpoint, they may have negative impacts on individuals and society at
 large. While wealth creation is generally good, there are serious
 implications of prioritizing profit over all other values.</p>
-<h4 id="the-economy-is-the-backbone-of-our-daily-lives.">The economy is
-the backbone of our daily lives.</h4>
-<p>The economy is not just a network of businesses and transactions: it
+<strong>The economy is
+the backbone of our daily lives.</strong>
+The economy is not just a network of businesses and transactions: it
 touches every aspect of our lives. Every transaction, small or large
 that we make, is impacted by economic factors. At a highly simplified
 level, the economy determines the <em>prices</em> of goods and services
@@ -124,9 +122,9 @@ advance of AI in business affects everyone’s life at a basic level. The
 use of AI may lead to improvements, such as lower prices, or challenges,
 like widespread job losses due to automation, that impact us
 fundamentally.</p>
-<h4 id="technology-changes-the-economy-and-the-world.">Technology
-changes the economy and the world.</h4>
-<p>Throughout history, technology has been a pivotal driver of economic
+<strong>Technology
+changes the economy and the world.</strong>
+Throughout history, technology has been a pivotal driver of economic
 change. Consider the first agricultural revolution. The invention of
 farming tools and techniques transformed societies from hunter-gatherers
 to settled agricultural communities, fundamentally altering the economy
@@ -138,10 +136,9 @@ creating jobs and spurring the development of new sectors like rail and
 shipping. More recently, the internet and smartphones have connected
 billions of people, breaking down geographical barriers and enabling new
 types of businesses like e-commerce and remote work.</p>
-<h4
-id="artificial-intelligence-might-be-the-next-transformative-technology.">Artificial
-intelligence might be the next transformative technology.</h4>
-<p>As AI becomes increasingly critical for businesses, consumers, and
+<strong>Artificial
+intelligence might be the next transformative technology.</strong>
+As AI becomes increasingly critical for businesses, consumers, and
 governance, it may alter daily life, from work and education to
 interpersonal relationships and entertainment. As it evolves and
 permeates more sectors, its economic and societal effects of the AI
@@ -150,8 +147,8 @@ industrial revolutions <span class="citation"
 data-cites="pwc2017sizing">[2]</span>. Therefore, understanding AI’s
 potential risks and benefits is essential for navigating this new
 economic landscape.</p>
-<h4 id="preview.">Preview.</h4>
-<p>In this section, we discuss how economics and AI interact, using both
+<strong>Preview.</strong>
+In this section, we discuss how economics and AI interact, using both
 theoretical models of economies that make strong, idealized assumptions
 and empirical data collected from real-world economies. In many places,
 we will introduce and explain basic concepts from economics, such as
@@ -205,13 +202,15 @@ if Alice focuses on coconuts and Bob on fishing. In most cases, trading
 makes people better off. One role of the economy is to enable such
 trades on a large scale.</p>
 </div>
-
 <br>
 
 <h4
 id="markets-coordinate-trade-allowing-gains-from-specialization.">Markets
 coordinate trade, allowing gains from specialization.</h4>
 <p>A market is a venue for trade, a system that enables the exchange of
+<strong>Markets
+coordinate trade, allowing gains from specialization.</strong>
+A market is a venue for trade, a system that enables the exchange of
 goods and services. It can be a physical location or through any other
 matching mechanism like e-commerce platforms. Markets allow everyone to
 benefit from high levels of specialization and reap the benefits of
@@ -220,10 +219,9 @@ food, build their own houses, and make their own clothes, because
 everyone trades their time and skills for goods and services created by
 others. Markets can be thought of as a grand collaboration, facilitating
 cooperation among millions of people across the globe.</p>
-<h4
-id="markets-encourage-a-complex-blend-of-competition-and-collaboration.">Markets
-encourage a complex blend of competition and collaboration.</h4>
-<p>Companies like Toyota and Ford compete to sell their cars to
+<strong>Markets
+encourage a complex blend of competition and collaboration.</strong>
+Companies like Toyota and Ford compete to sell their cars to
 consumers. However, they also often collaborate on research and
 development projects. This cooperation can result in advancements like
 more efficient engines or safer car designs, benefiting both companies
@@ -233,11 +231,10 @@ strategic partners, suppliers, and vendors for mutual benefit.
 Cooperation helps companies optimize resources and improve products or
 services while competition drives innovation and offers consumers more
 choices.</p>
-<h4
-id="prices-enable-the-economy-to-be-an-adaptable-self-organizing-complex-system.">Prices
+<strong>Prices
 enable the economy to be an adaptable, self-organizing complex
-system.</h4>
-<p>Prices in a market economy are signals of changing demand and supply,
+system.</strong>
+Prices in a market economy are signals of changing demand and supply,
 created by individual agents acting in accordance with their incentives.
 As an example, let’s trace how the high oil prices in the 1970s
 reorganized the global flower market. In 1971, the price of oil
@@ -261,11 +258,10 @@ government would be able to do. The production of oil, flowers,
 chocolates, teddy bears, coffee, and many other goods was adjusted in
 order to create and deliver the most value possible given the available
 resources and information.</p>
-<h4
-id="ais-developed-by-actors-in-a-free-market-can-create-widespread-benefits.">AIs
+<strong>AIs
 developed by actors in a free market can create widespread
-benefits.</h4>
-<p>Market forces create incentives for entrepreneurs and firms to
+benefits.</strong>
+Market forces create incentives for entrepreneurs and firms to
 rapidly develop a wide range of services that use AIs to meet the needs
 of many different types of consumers. In the wake of the release of
 early LLMs, for instance, hundreds of startups were created to improve
@@ -278,9 +274,9 @@ extending human lifespans.</p>
 <h3 id="efficiency">Efficiency</h3>
 <p><em>AIs can increase allocative efficiency, ensuring that outcomes
 are efficient and contribute to social welfare.</em></p>
-<h4 id="the-free-market-creates-allocative-efficiency.">The free market
-creates allocative efficiency.</h4>
-<p>The First Fundamental Theorem of Welfare Economics states
+<strong>The free market
+creates allocative efficiency.</strong>
+The First Fundamental Theorem of Welfare Economics states
 that—subject to some strong assumptions—an equilibrium
 <em>allocation</em> of goods reached by trading on a free market must be
 <em>Pareto efficient</em>. An outcome is Pareto efficient if there is no
@@ -295,11 +291,10 @@ suggests that when individuals pursue their self-interest within a
 market, they unintentionally contribute to societal welfare. By creating
 gains from trade, there is an overall improvement in living standards
 for everyone.</p>
-<h4
-id="there-are-many-conditions-required-for-the-invisible-hand-argument-to-hold.">There
+<strong>There
 are many conditions required for the invisible hand argument to
-hold.</h4>
-<p>Without the following conditions, the invisible hand argument—which
+hold.</strong>
+Without the following conditions, the invisible hand argument—which
 holds that the presence of free markets with individuals acting in
 self-interest can create outcomes that are Pareto efficient—would
 fail.</p>
@@ -356,10 +351,9 @@ could stimulate economic growth. Later in this section, we will look at
 market failures and inequality: two reasons why free trade is
 insufficient to create social welfare. For now, we will focus on the
 benefits.</p>
-<h4
-id="competition-fosters-productive-efficiency-and-growth.">Competition
-fosters productive efficiency and growth.</h4>
-<p>Markets continuously incentivize the lowering of prices and the
+<strong>Competition
+fosters productive efficiency and growth.</strong>
+Markets continuously incentivize the lowering of prices and the
 improvement of quality. Let’s imagine two grocery stores in a town. If
 one store starts to offer lower prices, customers may flock to that
 store, putting pressure on the other store to match those prices or risk
@@ -392,10 +386,9 @@ for survival.</p>
 everyone better off without compromising value pluralism and improve
 society across correlated domains like health, freedom, and
 education.</em></p>
-<h4
-id="growth-is-widely-considered-essential-to-a-healthy-society.">Growth
-is widely considered essential to a healthy society.</h4>
-<p>Economic growth is an increase in the total value of the production
+<strong>Growth
+is widely considered essential to a healthy society.</strong>
+Economic growth is an increase in the total value of the production
 of goods and services. Such growth is a vital sign of a thriving
 economy. An expanding economy usually indicates more wealth,
 opportunities, and advancements, leading to overall improvements in
@@ -415,9 +408,9 @@ smartphone industry’s growth has led to a variety of advanced phones
 with innovative features that have given billions of people access to
 the global economy. We generally consider economic growth desirable
 because it means we get wealthier over time.</p>
-<h4 id="growth-might-let-us-promote-value-pluralism.">Growth might let
-us promote value pluralism.</h4>
-<p>Value pluralism is the notion that multiple important values often
+<strong>Growth might let
+us promote value pluralism.</strong>
+Value pluralism is the notion that multiple important values often
 conflict and that there’s no easy way to rank them in order of
 importance. For instance, a community might debate whether to spend its
 limited resources on building a new hospital or a cultural center. Some
@@ -439,9 +432,9 @@ fair resource distribution or balancing freedoms with obligations could
 still arise in a resource-abundant society. Despite not being a
 comprehensive solution for value pluralism, economic growth provides a
 helpful approach to achieving broader societal goals.</p>
-<h4 id="we-have-strong-reasons-for-encouraging-economic-growth.">We have
-strong reasons for encouraging economic growth.</h4>
-<p>Looking at the world over the last 200 years provides strong evidence
+<strong>We have
+strong reasons for encouraging economic growth.</strong>
+Looking at the world over the last 200 years provides strong evidence
 that economic growth can lead to vast improvements in human life through
 health, freedom, education, and more.<p>
 </p>
@@ -480,8 +473,8 @@ wealthier, more resources can be allocated to support cultural
 institutions, artists, and creative endeavors. This can lead to a
 flourishing of the arts, enriching societal culture and enhancing
 individual life experiences.</p>
-<h4 id="compound-growth-is-powerful.">Compound growth is powerful.</h4>
-<p>The effect of small increases in economic growth becomes apparent
+<strong>Compound growth is powerful.</strong>
+The effect of small increases in economic growth becomes apparent
 when we consider the effects of compound growth over time. Even small
 differences in annual growth rates can profoundly impact future
 generations. For instance, if an economy grows at 1% per year, our
@@ -491,9 +484,9 @@ would be double ours and our grandchildren’s income would quadruple.
 Economic growth has the potential to create a significantly more
 prosperous future. Prioritizing growth, therefore, can be a powerful
 strategy for enhancing societal wellbeing now and in the future.</p>
-<h4 id="increasing-growth-through-ai-seems-promising.">Increasing growth
-through AI seems promising.</h4>
-<p>AI might be a significant driver of economic growth in the coming
+<strong>Increasing growth
+through AI seems promising.</strong>
+AI might be a significant driver of economic growth in the coming
 decades. From automating tasks such as grading tests in the education
 sector to creating new sophisticated possibilities such as advanced
 radiology diagnostics in healthcare, AI has the potential to boost
@@ -505,20 +498,19 @@ gives us reason to be optimistic about the future. If economic growth
 improves health, education, and overall quality of life–—as we have
 considered is possible—the AI-driven economy could significantly enhance
 societal wellbeing.</p>
-<h4
-id="however-while-growth-is-correlated-with-welfare-its-benefits-are-neither-predictable-nor-uniform.">However,
+<strong>However,
 while growth is correlated with welfare, its benefits are neither
-predictable nor uniform.</h4>
-<p>Growth might be unsustainable, trading off long-term wellbeing for
+predictable nor uniform.</strong>
+Growth might be unsustainable, trading off long-term wellbeing for
 gains today. Even if we have sustainable growth, we need to consider the
 distribution of that growth. Will economic growth from AI benefit
 everyone or only a select few? AI might create jobs in some sectors and
 eliminate them in others due to automation. Therefore, while AI has the
 potential to boost economic growth, we need to address risks like the
 unequal distribution of benefits.</p>
-<h4 id="similarly-efficiency-is-desirable-but-insufficient.">Similarly,
-efficiency is desirable but insufficient.</h4>
-<p>While the concept of the “Invisible Hand” suggests that self-interest
+<strong>Similarly,
+efficiency is desirable but insufficient.</strong>
+While the concept of the “Invisible Hand” suggests that self-interest
 and free markets lead to competition and efficiency, these just as often
 lead to markets in which competition is eliminated. MBA programs teach
 business executives how to avoid Porter’s Five Forces, ensuring that
@@ -573,9 +565,9 @@ is sufficient for AIs to create widespread benefits for all.</p>
 <p><em>Inequality is on the rise and harms many people, including many
 of those getting richer. The widespread use of AIs might sharpen
 inequality, decreasing social wellbeing.</em></p>
-<h4 id="most-of-the-world-exhibits-high-levels-of-inequality.">Most of
-the world exhibits high levels of inequality.</h4>
-<p>In economics, inequality refers to the uneven distribution of
+<strong>Most of
+the world exhibits high levels of inequality.</strong>
+In economics, inequality refers to the uneven distribution of
 economic resources, including income and living conditions. The <em>Gini
 coefficient</em> is a commonly used statistical measure of income or
 wealth distribution within a country. It is a number between 0 and 1,
@@ -585,10 +577,9 @@ income or wealth, and everyone else has none). Looking at Gini
 coefficients, 71% of the world’s population lives in countries with
 increasing inequality over the last thirty years <span class="citation"
 data-cites="UN2020inequality">[6]</span>.</p>
-<h4
-id="inequality-in-the-united-states-is-particularly-striking.">Inequality
-in the United States is particularly striking.</h4>
-<p>Figure 6.3 shows that the Gini coefficient in the
+<strong>Inequality
+in the United States is particularly striking.</strong>
+Figure 6.3 shows that the Gini coefficient in the
 US has trended significantly upwards from 1969 to 2019. Over 50 years,
 the pre-tax Gini coefficient has increased by 30%, while the post-tax
 Gini coefficient has risen by 25%, suggesting that despite
@@ -606,9 +597,9 @@ generations.<p>
 <p class="tb-caption">Figure 6.3: Inequality in the US (as measured by the Gini coefficient) has risen dramatically over the
 last five decades, even adjusting for taxation. </p>
 </figure>
-<h4 id="the-distribution-of-gains-from-growth-is-highly-unequal.">The
-distribution of gains from growth is highly unequal.</h4>
-<p>Nearly all the wealth gains over the past five decades have been
+<strong>The
+distribution of gains from growth is highly unequal.</strong>
+Nearly all the wealth gains over the past five decades have been
 captured by the top 1% of income earners, while average
 inflation-adjusted wages have barely increased <span class="citation"
 data-cites="desilver2018workers">[7]</span>. A RAND Corporation working
@@ -681,9 +672,9 @@ Constant</th>
 </table>
 </div>
 <br>
-<h4 id="inequality-carries-serious-implications.">Inequality carries
-serious implications.</h4>
-<p>For those worst off in an unequal society, the implications are
+<strong>Inequality carries
+serious implications.</strong>
+For those worst off in an unequal society, the implications are
 severe. Beyond obvious problems like an inability to access essentials
 and maintain a basic standard of living, there are additional concerns
 in domains like health. A widening wealth gap often corresponds with a
@@ -694,10 +685,9 @@ dramatically based on income in unequal societies: the average life
 expectancy of the lowest-income classes in America now matches the
 averages in Sudan or Pakistan <span class="citation"
 data-cites="wilkinson2009spirit">[9]</span>.</p>
-<h4
-id="everyone-not-just-the-poorest-suffers-in-an-unequal-society.">Everyone,
-not just the poorest, suffers in an unequal society.</h4>
-<p>One of the most robust findings is that unequal societies have higher
+<strong>Everyone,
+not just the poorest, suffers in an unequal society.</strong>
+One of the most robust findings is that unequal societies have higher
 levels of crime <span class="citation"
 data-cites="kelly2000inequality">[10]</span>. When inequality is high,
 so too are levels of social tension, dissatisfaction, and shame, which
@@ -715,18 +705,15 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<p>
 </p><figure id="fig:homicide">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.
-Data Source: Vienna University of Economics and Business</p>
+<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.</p>
 </figure>
 <figure id="fig:political">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.<br />
-Data Source: World Bank, World Governance Indicators and Gini
-Coefficient Data</p>
+<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.</p>
 </figure>
-<h4 id="the-causes-of-inequality-are-disputed.">The causes of inequality
-are disputed.</h4>
-<p>Renowned economist Thomas Piketty, in his book “Capital in the 21st
+<strong>The causes of inequality
+are disputed.</strong>
+Renowned economist Thomas Piketty, in his book “Capital in the 21st
 Century,” posits that inequality results from the difference between the
 interest rate investments in capital receive (r) and the rate of
 economic growth (g) <span class="citation"
@@ -746,10 +733,9 @@ Other theories point to the decline of labor unions, which traditionally
 advocated for worker rights and better wages, as a contributing factor.
 The driving forces behind rising inequality are undoubtedly
 multifaceted, warranting a careful and nuanced examination.</p>
-<h4
-id="ai-might-prompt-higher-returns-on-investments-for-the-wealthy.">AI
-might prompt higher returns on investments for the wealthy.</h4>
-<p>AI could significantly impact income inequality, intensifying
+<strong>AI
+might prompt higher returns on investments for the wealthy.</strong>
+AI could significantly impact income inequality, intensifying
 existing disparities. Investments in AI may yield higher productivity
 compared to past opportunities, leading to a higher rate of return on
 capital. Following Piketty’s theory of inequality, AI might exacerbate
@@ -760,9 +746,9 @@ GPUs) are likely to be able to deploy and benefit from AIs far more than
 the average person. Additionally, the benefits from AIs might be
 concentrated among the owners of AI companies, giving them astronomical
 amounts of wealth rather than distributing these benefits widely.</p>
-<h4 id="automation-using-ai-might-increase-inequality.">Automation using
-AI might increase inequality.</h4>
-<p>If AIs are more productive than humans, as is likely to become the
+<strong>Automation using
+AI might increase inequality.</strong>
+If AIs are more productive than humans, as is likely to become the
 case in many industries, automating human labor will increase profits
 and returns on investment. Investors would likely opt for AI over human
 labor since AI presents a more cost-effective and productive
@@ -791,10 +777,9 @@ a low-cost and scalable alternative to using human labor. Mass
 unemployment could result in severe inequality—establishing a divide
 between the minority who own these transformative technologies and the
 majority unable to find work.</p>
-<h4
-id="past-revolutions-have-relocated-employment-not-destroyed-it.">Past
-revolutions have relocated employment, not destroyed it.</h4>
-<p>A common counterargument brought up in discussions about the
+<strong>Past
+revolutions have relocated employment, not destroyed it.</strong>
+A common counterargument brought up in discussions about the
 potential impact of AI on employment draws on historical evidence of
 technological revolutions. Advocates of this view argue that while past
 technological advancements–—like the industrial revolution or the
@@ -803,9 +788,9 @@ created entirely new types of work. Instead of an overall reduction in
 employment, the nature of employment was transformed. This phenomenon,
 called creative destruction, describes how outdated industries and jobs
 are replaced by new, often more efficient ones.</p>
-<h4 id="however-human-level-ai-might-destroy-employment.">However,
-human-level AI might destroy employment.</h4>
-<p>It is important to remember that past transformative technologies,
+<strong>However,
+human-level AI might destroy employment.</strong>
+It is important to remember that past transformative technologies,
 such as mechanized looms or computers, automated <em>specific</em> tasks
 or functions, leaving plenty of room for the workforce to adapt and
 evolve. For example, the advent of computers rendered certain roles
@@ -823,14 +808,12 @@ from past technological advancements that both helped and displaced
 human workers. If we can automate any job inexpensively, it’s unclear
 where humans would fit into the economy.</p>
 <h3 id="market-failure">Market Failure</h3>
-<p><em>AI development is aligned with the economic engine. We thought
-that this was good because the economy creates efficiency. However, in
-many cases, markets fail to deliver efficient outcomes. AIs may amplify
-or create these failures.</em></p>
-<h4
-id="there-are-a-few-common-types-of-market-failure-that-might-concern-us.">There
-are a few common types of market failure that might concern us.</h4>
-<p>While markets are often efficient and usually yield better outcomes
+<p><em>AI development is aligned with the economic engine. We have argued that 
+this may be good because the economy creates efficiency. However, in many cases, 
+markets fail to deliver efficient outcomes. AIs may amplify or create these failures.</em></p
+<strong>There
+are a few common types of market failure that might concern us.</strong>
+While markets are often efficient and usually yield better outcomes
 than alternative methods like the allocation of resources by the
 government, they are not perfectly suited to all types of trade.
 Sometimes, when left to their own devices, markets often fail to
@@ -843,10 +826,9 @@ In this section, we consider three more common types of market failures
 that are pertinent to our discussion about AI: <em>information
 asymmetries</em>, <em>monopoly power</em>, and
 <em>externalities</em>.</p>
-<h4
-id="information-known-to-only-some-can-create-market-failures.">Information
-known to only some can create market failures.</h4>
-<p>Information asymmetry captures the idea that buyers and sellers have
+<strong>Information
+known to only some can create market failures.</strong>
+Information asymmetry captures the idea that buyers and sellers have
 different information regarding the product they are trading. For
 instance, buyers are keenly aware of the product’s quality and
 specifications, and sellers know their true willingness to pay for the
@@ -866,9 +848,9 @@ referred to as <em>adverse selection</em>: when one party in a
 transaction uses their access to private information to their advantage.
 Here, the car dealer is using their private knowledge of the car’s
 condition to make a sale at an unfair profit.</p>
-<h4 id="ais-can-cause-strong-informational-asymmetries.">AIs can cause
-strong informational asymmetries.</h4>
-<p>AI holds the power to both create and exploit information asymmetries
+<strong>AIs can cause
+strong informational asymmetries.</strong>
+AI holds the power to both create and exploit information asymmetries
 in unprecedented ways. This capacity can be employed in beneficial ways,
 like providing highly personalized services or excellent
 recommendations. However, it can also be misused, leading to situations
@@ -892,10 +874,9 @@ power imbalance; for instance, AI can be used to predict who is most
 likely to accept these unfair loan terms based on their digital
 behavior, leading to even more targeted predatory lending. AI can both
 amplify existing issues and present new challenges.</p>
-<h4
-id="markets-can-be-monopolistic-instead-of-perfectly-competitive.">Markets
-can be monopolistic instead of perfectly competitive.</h4>
-<p>We earlier discussed how competition can create productive efficiency
+<strong>Markets
+can be monopolistic instead of perfectly competitive.</strong>
+We earlier discussed how competition can create productive efficiency
 and how a failure of competition might corrupt this equilibrium. A
 market is said to be perfectly competitive when it contains a large
 number of firms that sell effectively identical products, with no
@@ -916,9 +897,9 @@ considerable influence over the price of their products due to their
 market dominance and unique offerings. When a single company or a small
 group of companies has this level of control, consumers are left with
 limited product options and higher prices.</p>
-<h4 id="monopolies-can-harm-consumers.">Monopolies can harm
-consumers.</h4>
-<p>Consider De Beers, a company historically dominant in the diamond
+<strong>Monopolies can harm
+consumers.</strong>
+Consider De Beers, a company historically dominant in the diamond
 industry. For much of the 20th century, De Beers controlled a vast
 majority of the global diamond market. By monopolizing the supply chain,
 they were able to artificially inflate diamond prices and manipulate
@@ -932,11 +913,10 @@ availability of common goods. To prevent market control and preserve the
 benefits of competition, governments implement antitrust laws. These
 laws give governments the power to break up companies with too much
 control or prevent mergers between large competitors.</p>
-<h4
-id="high-initial-investment-requirements-can-impede-newcomers-from-entering-the-market.">High
+<strong>High
 initial investment requirements can impede newcomers from entering the
-market.</h4>
-<p>Historically, first-movers in capital-intensive industries have a
+market.</strong>
+Historically, first-movers in capital-intensive industries have a
 competitive advantage, such as rail companies that own large quantities
 of railway networks. In such industries, it is difficult for other firms
 to enter the market due to high up-front costs; in many cases, an
@@ -944,7 +924,7 @@ existing firm can block other firms from entering, such as by keeping
 prices below a sustainable level. AI development might be similar—at the
 very least, firms within it might have some monopoly power that allows
 them to avoid many competitive pressures.</p>
-<p>Developing a large model requires paying substantial fixed costs
+Developing a large model requires paying substantial fixed costs
 up-front, including expenses for computing power and datasets essential
 for training. However, once these initial investments are made, the
 subsequent cost per user for deploying and maintaining these models are
@@ -964,9 +944,9 @@ feedback loops and Matthew effect dynamics, which could enable them to
 raise more capital and pull ahead from many competitors. The possibility
 of monopoly power raises concerns that only a few powerful entities will
 have access to and benefit from AI technologies.</p>
-<h4 id="the-use-of-ai-might-create-monopolies.">The use of AI might
-create monopolies.</h4>
-<p>AI developers are striving to have their models achieve
+<strong>The use of AI might
+create monopolies.</strong>
+AI developers are striving to have their models achieve
 superintelligence: models that are able to carry out a wide range of
 tasks across various domains better than humans. If someone did manage
 to create such an AI, they might have a decisive advantage across large
@@ -978,11 +958,10 @@ more difficult for new entrants to gain market share. Large firms
 equipped with powerful AI systems could wield an enormous amount of
 power, potentially leading to less competition, higher prices, and
 slower innovation, hurting both labor and product markets.</p>
-<h4
-id="externalities-are-consequences-of-economic-activity-that-impact-unrelated-third-parties.">Externalities
+<strong>Externalities
 are consequences of economic activity that impact unrelated third
-parties.</h4>
-<p>An externality is a side effect that stems from an economic activity,
+parties.</strong>
+An externality is a side effect that stems from an economic activity,
 impacting individuals or groups who are not directly involved in that
 activity. Because of externalities, market prices for goods or services
 may not fully reflect the costs that third parties, who are neither the
@@ -997,11 +976,10 @@ factory, by producing these odors, was imposing a negative externality
 upon the town’s residents, but since the townspeople received no
 automatic compensation for this inconvenience, this was not reflected in
 the price of Sriracha.</p>
-<h4
-id="we-can-resolve-externalities-with-litigation-property-rights-and-taxation.">We
+<strong>We
 can resolve externalities with litigation, property rights, and
-taxation.</h4>
-<p>In 2013, locals sued the Sriracha factory: this legal action led the
+taxation.</strong>
+In 2013, locals sued the Sriracha factory: this legal action led the
 factory to install new filters to reduce pollution. Litigation can be an
 effective tool to resolve externalities by forcing compensation.
 Economic theory suggests that bargaining over the externality can also
@@ -1019,11 +997,10 @@ total cost. Determining the most effective method for resolving each
 externality is a topic of ongoing debate among economists. Externalities
 and their potential solutions provide crucial context when considering
 the broader impacts of AI on society.</p>
-<h4
-id="the-development-and-deployment-of-ai-systems-can-lead-to-negative-externalities.">The
+<strong>The
 development and deployment of AI systems can lead to negative
-externalities.</h4>
-<p>The high energy consumption of advanced AI is a significant negative
+externalities.</strong>
+The high energy consumption of advanced AI is a significant negative
 externality on the environment. Training advanced AI models requires
 vast computational resources, consuming a significant amount of energy
 and contributing to greenhouse gas emissions. Emissions can lead to
@@ -1034,8 +1011,8 @@ privacy can be compromised if data is obtained without consent,
 mishandled, misused, or leaked. Privacy breaches are costly to
 individuals whose data is exposed, but this cost isn’t borne by
 companies, who are rarely forced to compensate for damages.</p>
-<h4 id="summary.">Summary.</h4>
-<p>We examined why inequality and market failures are primary concerns
+<strong>Summary.</strong>
+We examined why inequality and market failures are primary concerns
 in market systems and understood a few concrete pathways that these take
 root. Unfortunately, AIs might exacerbate inequality, creating
 disproportionate gains for the wealthy individuals and firms that create
@@ -1057,20 +1034,19 @@ Gross Domestic Product</h3>
 maximizing it will often fail to maximize social wellbeing. Therefore,
 AIs should not be given the objective of maximizing economic
 output.</em></p>
-<h4
-id="economic-indicators-measure-what-we-can-quantify-not-necessarily-what-we-care-about.">Economic
+<strong>Economic
 indicators measure what we can quantify, not necessarily what we care
-about.</h4>
-<p>Indicators like Gross Domestic Product (GDP) measure the monetary
+about.</strong>
+Indicators like Gross Domestic Product (GDP) measure the monetary
 value of final goods and services–—that is, those that are bought by the
 final user–—produced in a country in a given period of time. When
 economists discuss growth, they are typically referring to increases in
 GDP. Measures of productive output like GDP are useful in gauging a
 country’s economic health, but they fail to capture the value of
 socially significant activities that aren’t priced in the market.</p>
-<h4 id="socially-important-tasks-are-not-captured-by-gdp.">Socially
-important tasks are not captured by GDP.</h4>
-<p>Many essential roles in society, such as parenthood, community
+<strong">Socially
+important tasks are not captured by GDP.</strong>
+Many essential roles in society, such as parenthood, community
 service, and early education, are crucial to the wellbeing of
 individuals and communities but are often undervalued or entirely
 overlooked in GDP calculations <span class="citation"
@@ -1081,10 +1057,9 @@ simple: GDP only accounts for activities that have a market price.
 Consequently, efforts expended in these socially important tasks,
 despite their high intrinsic value, are not reflected in the GDP
 figures.</p>
-<h4
-id="technologies-that-make-our-lives-better-may-not-be-measured-either.">Technologies
-that make our lives better may not be measured either.</h4>
-<p>Technological advancements and their resultant value often fail to be
+<strong>Technologies
+that make our lives better may not be measured either.</strong>
+Technological advancements and their resultant value often fail to be
 reflected adequately in GDP figures. For instance, numerous open-source
 projects like Wikipedia provide knowledge to internet users worldwide at
 no cost. However, because there’s no direct monetary transaction
@@ -1094,11 +1069,10 @@ the main contribution to GDP is through advertisement revenue and most
 creators aren’t compensated for the value they create. The value viewers
 derive from such platforms vastly outstrips the revenue generated from
 ads or sales on these platforms, but this is not reflected in GDP.</p>
-<h4
-id="there-might-be-a-similar-disconnect-between-gdp-and-the-social-value-of-ai.">There
+<strong>There
 might be a similar disconnect between GDP and the social value of
-AI.</h4>
-<p>As artificial intelligence systems become more integrated into our
+AI.</strong>
+As artificial intelligence systems become more integrated into our
 daily lives, the disconnect between GDP and social value might become
 more pronounced. For example, an AI system that provides free education
 resources may significantly improve learning outcomes for millions, but
@@ -1110,10 +1084,9 @@ that fail to harness the full potential of AI or inadvertently hamper
 its beneficial applications. Recognizing this gap is a vital step
 towards devising better ways of measuring and encouraging the socially
 beneficial use of AI.</p>
-<h4
-id="increasing-output-does-not-imply-increasing-social-value.">Increasing
-output does not imply increasing social value.</h4>
-<p>The true costs of economic output can often be hidden or overlooked
+<strong>Increasing
+output does not imply increasing social value.</strong>
+The true costs of economic output can often be hidden or overlooked
 in pursuit of growth. For instance, in the Democratic Republic of Congo,
 UNICEF estimates that 40,000 children work in cobalt mines, often in
 hazardous conditions. While this labor may contribute to the country’s
@@ -1141,9 +1114,9 @@ economic metrics when assessing the societal impact of policies and
 practices, particularly those involving AI systems. This perspective is
 especially important when deploying AI systems that could significantly
 influence the future of work.</p>
-<h4 id="the-financialization-of-everything.">The financialization of
-everything.</h4>
-<p>Another way in which economic output can be at odds with our values
+<strong>The financialization of
+everything.</strong>
+Another way in which economic output can be at odds with our values
 is through the growing trend of financialization—monetizing various
 aspects of private or public life <span class="citation"
 data-cites="sandel2012money">[17]</span>. Increasingly, potent
@@ -1174,10 +1147,9 @@ risk of allowing financialization into areas of life traditionally
 governed by non-market norms; we might inadvertently erode the very
 values we hold dear, like parental responsibility and respect for
 others’ time.</p>
-<h4
-id="the-proxy-purpose-distinction-is-especially-important-for-ai.">The
-proxy-purpose distinction is especially important for AI.</h4>
-<p>Imagine a future where an AI system is tasked with maximizing GDP,
+<strong>The
+proxy-purpose distinction is especially important for AI.</strong>
+Imagine a future where an AI system is tasked with maximizing GDP,
 often seen as a proxy for wellbeing. The system could potentially
 achieve this goal by promoting resource-intensive industries or
 fostering a work culture that prioritizes productivity over wellbeing.
@@ -1199,9 +1171,8 @@ the values we hold dear.</p>
 <p><em>Models of welfare economics try to maximize a quantity called
 “social surplus.” While this sounds good, social surplus differs from
 social wellbeing.</em></p>
-<h4
-id="the-most-basic-form-of-welfare-economics-maximizes-social-surplus.">The
-most basic form of welfare economics maximizes social surplus.</h4>
+<strong>The
+most basic form of welfare economics maximizes social surplus.</strong>
 <p>Social surplus is a measure of the total value created by a market:
 it is the sum of the consumer surplus and the producer surplus. The
 consumer surplus is the difference between the maximum price a consumer
@@ -1216,9 +1187,9 @@ surplus is $5. Similarly, if a producer is willing to sell the book for
 a minimum of $10, the producer surplus is $5. The social surplus, and
 hence the social value in this market, is $10: $5 consumer surplus plus
 $5 producer surplus.</p>
-<h4 id="we-should-be-wary-of-generalizing-from-simple-models.">We should
-be wary of generalizing from simple models.</h4>
-<p>The core model of welfare economics has its limitations. Notably,
+<strong>We should
+be wary of generalizing from simple models.</strong>
+The core model of welfare economics has its limitations. Notably,
 welfare economics is concerned with the maximization of surplus, but is
 indifferent to its distribution. This might not align with societal
 notions of fairness and equality. For example, an AI optimized to
@@ -1238,10 +1209,9 @@ As AI systems become more integral to our economies, we must be mindful
 of these complexities. A narrow focus on maximizing economic surplus
 could lead us to promote AIs which, while efficient in a purely economic
 sense, might have alarming consequences for society.</p>
-<h4
-id="basic-economic-theory-confuses-ability-with-willingness-to-pay.">Basic
-economic theory confuses ability with willingness to pay.</h4>
-<p>When determining social value, economic theory implicitly equates
+<strong>Basic
+economic theory confuses ability with willingness to pay.</strong>
+When determining social value, economic theory implicitly equates
 ability to pay with willingness to pay. This assumption can lead to
 distorted conclusions about what generates social value because these
 two concepts should be distinct: ability to pay reflects an individual’s
@@ -1269,9 +1239,9 @@ sensitive to ability to pay, not utility derived. As a result, the
 market is distorted: individuals with astronomically high wealth are
 prioritized astronomically, while those with nothing have no part to
 play in the free markets’ allocation of value.</p>
-<h4 id="economics-is-not-fundamentally-utilitarian.">Economics is not
-fundamentally utilitarian.</h4>
-<p>The economic engine violates Bentham’s basic principle of
+<strong>Economics is not
+fundamentally utilitarian.</strong>
+The economic engine violates Bentham’s basic principle of
 utilitarianism: “Everybody to count for one, nobody for more than one.”
 Instead, people count for how much they can pay. In general, economics
 is chiefly concerned with the efficient allocation of resources to help
@@ -1291,21 +1261,19 @@ which may only benefit a few.</p>
 <h3 id="happiness-in-economics">Happiness in Economics</h3>
 <p><em>Economists are unsure what exactly creates happiness, but
 material wealth is probably only one part of the picture.</em></p>
-<h4
-id="there-is-a-gap-between-human-happiness-and-material-prosperity.">There
-is a gap between human happiness and material prosperity.</h4>
-<p>Most people would agree that the goal of social sciences should not
+<strong>There
+is a gap between human happiness and material prosperity.</strong>
+Most people would agree that the goal of social sciences should not
 be to just increase material wealth. A more meaningful aim would be to
 enhance overall wellbeing or happiness. However, defining and measuring
 happiness can be challenging. Whether happiness is correlated with
 material wealth remains an ongoing research question; other aspects of
 life like physical and mental health, job satisfaction, social
 connections, and a sense of purpose seem important as well.</p>
-<h4
-id="debates-about-the-easterlin-paradox-highlight-the-complexity-of-understanding-happiness.">Debates
+<strong>Debates
 about the Easterlin paradox highlight the complexity of understanding
-happiness.</h4>
-<p>While wealthier people and countries are generally happier than their
+happiness.</strong>
+While wealthier people and countries are generally happier than their
 less affluent counterparts, long-term economic growth does not always
 correlate with long-term increases in happiness: this is the Easterlin
 paradox. Several studies have tried to explore the relationship between
@@ -1320,11 +1288,10 @@ instance, the recent rise in inequality may explain why there has been
 no significant increase in happiness in the US over the last few decades
 despite an approximately tenfold increase in real GDP and a fourfold
 increase in real GDP per capita.</p>
-<h4
-id="more-holistic-economic-measurements-can-get-closer-to-capturing-what-we-value.">More
+<strong>More
 holistic economic measurements can get closer to capturing what we
-value.</h4>
-<p>Due to the disconnect between economic prosperity and true wellbeing,
+value.</strong>
+Due to the disconnect between economic prosperity and true wellbeing,
 some economists now propose the adoption of broader metrics. These new
 measures aim to capture wellbeing more comprehensively, rather than
 solely focussing on economic growth. One such measure is the Human
@@ -1339,8 +1306,8 @@ nation’s wellbeing, rather than just depending on a single measure. By
 capturing various aspects of wellbeing, this approach could provide a
 more holistic and accurate representation of a nation’s quality of
 life.</p>
-<h4 id="summary.-1">Summary.</h4>
-<p>Traditional economic measures and models are insufficient for
+<strong>Summary.</strong>
+Traditional economic measures and models are insufficient for
 measuring and modeling what we care about. There is a disconnect between
 what we measure and what we value; for instance, GDP fails to account
 for essential unpaid labor and overvalues the production of goods and
@@ -1357,11 +1324,10 @@ and competition through market failures, highlighting the need for
 regulation. Additionally, while it’s been a driver of prosperity in
 human history, the economic engine is sometimes misaligned with
 wellbeing, so it is not something to align AI development to.</em></p>
-<h4
-id="ais-will-likely-be-designed-to-achieve-objectives-other-than-social-wellbeing.">AIs
+<strong>AIs
 will likely be designed to achieve objectives other than social
-wellbeing.</h4>
-<p>Economic forces incentivize the development of AIs that prioritize
+wellbeing.</strong>
+Economic forces incentivize the development of AIs that prioritize
 objectives such as financial gains for the companies deploying them,
 rather than social wellbeing. Consider the pharmaceutical industry: the
 primary goal of medicine is ideally to improve human health. Instead, in
@@ -1380,9 +1346,9 @@ societal wellbeing. This disconnect between the goals of businesses
 deploying AI systems and their users’ best interests underscores the
 need for regulations that ensure that the deployment of AI does not
 compromise societal wellbeing.</p>
-<h4 id="we-should-be-wary-of-using-ai-to-increase-wellbeing.">We should
-be wary of using AI to increase wellbeing.</h4>
-<p>If policymakers trust AI to create policies intended to improve
+<strong>We should
+be wary of using AI to increase wellbeing.</strong>
+If policymakers trust AI to create policies intended to improve
 society, they must be cautious about the objectives set for these
 systems. Our current economic system strongly incentivises the
 deployment of AI systems that optimize for economic growth rather than
@@ -1392,11 +1358,10 @@ such as equality, sustainability, or the smooth functioning of an
 economy without market failures. While economic objectives like GDP
 growth are quantifiable and easy to pursue, they may not truly reflect
 what makes a society happy and healthy.</p>
-<h4
-id="it-is-risky-to-blindly-trust-the-economic-engine-to-create-ai-that-maximizes-our-wellbeing.">It
+<strong>It
 is risky to blindly trust the economic engine to create AI that
-maximizes our wellbeing.</h4>
-<p>Created as a result of businesses pursuing economic goals, AI systems
+maximizes our wellbeing.</strong>
+Created as a result of businesses pursuing economic goals, AI systems
 are not designed to maximize societal wellbeing. Instead, they are
 geared towards wealth maximization for shareholders, with the potential
 to supercharge economic efficiency and drive economic growth. If we let
@@ -1404,7 +1369,7 @@ the economy decide what AIs do by letting largely unregulated markets
 create AIs, we will likely end up with an increase in inequality,
 exacerbation of market failures, and promotion of economic goals like
 wealth maximization that are notably different from increasing
-wellbeing.<p>
+wellbeing.</p>
 Pursuing societal wealth maximization is not as good as maximizing
 social welfare functions—discussed in the next section–—which account
 for how individual wellbeing changes with wealth and how wellbeing is
@@ -1437,8 +1402,8 @@ philanthropists, policy makers, and other professionals need–—at
 least–—a working definition of wellbeing in order to study, measure, and
 promote it. Here, we describe some common views of wellbeing and
 illustrate how they are used in social science.</p>
-<h4 id="preference-satisfaction.">Preference satisfaction.</h4>
-<p>Preference theorists view wellbeing as fulfilling desires or
+<strong>Preference satisfaction.</strong>
+Preference theorists view wellbeing as fulfilling desires or
 satisfying preferences, even if doing so does not always induce
 pleasure. Nonetheless, it remains an open question whether all desires
 are tied to wellbeing or just certain kinds, like higher-order or
@@ -1461,8 +1426,8 @@ such as income and education, on an individual’s psychological
 wellbeing. For example, to promote wellbeing, psychologists might
 research the effects of access to education on one’s ability to achieve
 the goals they set for themselves.</p>
-<h4 id="hedonism.">Hedonism.</h4>
-<p>Under hedonist theories of wellbeing, an individual’s wellbeing is
+<strong>Hedonism.</strong>
+Under hedonist theories of wellbeing, an individual’s wellbeing is
 determined by their mental states. In particular, the balance of
 positive mental states (like pleasure or happiness) over negative mental
 states (like pain or suffering).<p>
@@ -1486,8 +1451,8 @@ cell phone apps to periodically prompt participants to record their
 current emotions. Such research tactics may provide us with more precise
 measures of individuals’ overall <em>happiness</em> by evaluating the
 emotional responses to their everyday experiences in near real-time.</p>
-<h4 id="objective-goods.">Objective goods.</h4>
-<p>Under objective goods theories, wellbeing is determined by a certain
+<strong>Objective goods.</strong>
+Under objective goods theories, wellbeing is determined by a certain
 number of observable factors, independent of individuals’ preferences or
 experiences. There are multiple theories about what those factors may
 be. One of the most widely supported theories is <em>human

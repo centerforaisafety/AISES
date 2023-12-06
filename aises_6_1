@@ -1,9 +1,9 @@
 <!-- Machine Ethics -->
 
 <h1 id="introduction">Introduction</h1>
-<h4 id="how-should-we-direct-ais-to-promote-human-values">How should we
-direct AIs to promote human values?</h4>
-<p>As we continue to develop powerful AI systems, it is crucial to
+<strong>How should we
+direct AIs to promote human values?</strong>
+As we continue to develop powerful AI systems, it is crucial to
 ensure they are safe and beneficial for humanity. In this chapter, we
 discuss the challenges of embedding ethics into AIs. This is the problem
 of machine ethics. It is relevant for AIs that exist today in sectors
@@ -13,9 +13,9 @@ even more relevant for future systems that may be integrated more
 broadly across economies, governments, and militaries, making
 high-stakes decisions with many important moral considerations.<p>
 </p>
-<h4 id="many-people-have-incoherent-views-on-machine-ethics.">Many
-people have incoherent views on machine ethics.</h4>
-<p>People often talk about what AIs should do to promote human values.
+<strong>Many
+people have incoherent views on machine ethics.</strong>
+People often talk about what AIs should do to promote human values.
 They may agree with many of the following:</p>
 <ol>
 <li><p>AIs should do what you tell them to do.</p></li>
@@ -44,8 +44,8 @@ methods appear to yield harmful behavior. Often, discussions of machine
 ethics require an understanding of considerations and theories from
 ethical theory, which we explore next in the Normative Ethics
 chapter.</p>
-<h4 id="preview.">Preview.</h4>
-<p>In this chapter, we will consider the intricacies of machine ethics,
+<strong>Preview.</strong>
+In this chapter, we will consider the intricacies of machine ethics,
 attempting to understand which answers, if any, take us closer to
 creating safe and beneficial AIs. We start with frameworks that attempt
 to constrain AI goals, limiting the potential for AIs to pursue bad
