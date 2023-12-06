@@ -4,11 +4,11 @@
 <body>
 <h1 id="introduction"> 1.1 Introduction</h1>
 
-<p>In this chapter, we will give a brief and informal description of many major 
+<p><em>In this chapter, we give a brief and informal description of many major 
 societal-scale risks from AI, focussing on AI risks that could lead 
 to highly severe or even catastrophic societal outcomes. This provides some background 
 and motivation before we discuss specific challenges with more depth
-and rigor in the following chapters.<p>
+and rigor in the following chapters.</em><p>
 
 <p>The world as we know it is not normal. We take for granted that we
 can talk instantaneously with people thousands of miles away, fly to the
