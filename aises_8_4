@@ -435,7 +435,7 @@ US’s entry into WWII.<p>
 
 <br>
 <table class="tableLayout">
-<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether to defend or preemptively attack.</caption>
+<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether <br> to defend or preemptively attack.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -578,6 +578,7 @@ information with the intent to deceive or manipulate others. Both of
 these types of information problem can cause bargains to fail,
 generating conflict.</p>
 <br>
+<div id="tab:distinguish">
 <table class="tableLayout">
 <thead>
 <tr class="header">
@@ -602,6 +603,7 @@ class="math inline"><em>b</em>(1−<em>a</em>)</span></td>
 </tr>
 </tbody>
 </table>
+</div>
 <br>
 <p>The term <span class="math inline"><em>a</em></span> is the
 probability of a player knowing the strategy of its partner. Relevant
@@ -1450,6 +1452,8 @@ to achieve their goals. AI collective intelligences would be vastly
 superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
+
+<br>
 <div class="visionbox">
 <legend class="visionboxlegend">
     <p><span><b>A Note on Morality as Cooperation</b></span></p>
@@ -1522,6 +1526,7 @@ theft</td>
 </table>
 </div>
 <br>
+
 <p><strong>Kinship.</strong> Natural selection can favor agents who
 cooperate with their genetic relatives. This is because there may be
 copies of these agents’ genes in their relatives’ genomes, and so
