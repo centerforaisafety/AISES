@@ -1,7 +1,7 @@
 <h1 id="fairness">6.3 Fairness</h1>
 <strong>We
 can use the law to ensure that AIs make fair decisions.</strong>
-<p>AIs are being used in many sensitive applications that affect human
+AIs are being used in many sensitive applications that affect human
 lives, from lending and employment to healthcare and criminal justice.
 As a result, unfair AI systems can cause serious harm. Methods for
 improving AI fairness could mitigate harms from biased systems, but they
@@ -57,7 +57,7 @@ predictions are the same even if a protected characteristic like race
 were different, all else being equal. These concepts can all be useful
 in different contexts.</p>
 <strong>Justice as fairness.</strong>
-<p>Ethics is useful for analyzing the idea of fairness. John Rawls’
+Ethics is useful for analyzing the idea of fairness. John Rawls’
 theory of justice as fairness argues that fairness is fundamental to
 achieving a more just social system. In the chapter , we explore his
 <em>maximin</em> and <em>difference principles</em>, which state that
@@ -123,7 +123,7 @@ applications, such as healthcare and justice, and different stakeholders
 within each area have different views on what constitutes fairness.</p>
 <strong>Contradictions between
 fairness metrics.</strong>
-<p>Early AI fairness research largely focused on three metrics of
+Early AI fairness research largely focused on three metrics of
 fairness: statistical/demographic parity, equalized odds, and
 calibration. However, these ubiquitous metrics often contradict each
 other: statistical parity only considers overall prediction rates, not
