@@ -34,7 +34,7 @@ over many generations to adjudicate the areas where humans have
 consequential disagreements. Finally, legal language can be
 <em>specific</em> and <em>adaptable</em> to new contexts, comparing
 favorably to ethical language, which can often be interpreted in
-diverging ways.<p>
+diverging ways.
 The next subsection will expand on these features of the law. We will
 see how these features contrast favorably with ethics before arguing
 that we do need ethics after all but alongside the law.</p>
@@ -53,7 +53,7 @@ the values of the citizenry, the method of arriving at law is usually
 law.</p>
 <strong>Legitimacy
 provides the law with a clear advantage over ethics.</strong>
-<p>The law provides a collection of rules and standards that enable us
+The law provides a collection of rules and standards that enable us
 to differentiate illegal from legal actions. Ethics, on the other hand,
 isn’t standardized or codified. To determine ethical and unethical
 actions, we have to either pick an ethical theory to follow, or decide
@@ -84,7 +84,7 @@ population.</p>
 <h3 id="rules-and-standards">Rules and Standards</h3>
 <strong>Naively, we
 might think of the law as a system of rules.</strong>
-<p>“Law” seems almost synonymous with “rule” in our language. When we
+“Law” seems almost synonymous with “rule” in our language. When we
 talk about “the laws of physics” or “natural laws” in general, we mean
 something rigid and inflexible—when X happens, Y will follow. This is
 partly true: inflexible rules are a part of the law. For instance, take
@@ -96,7 +96,7 @@ gives the lawmaker predictable control over how the law will be carried
 out.</p>
 <strong>A law based on
 rules alone would be flawed.</strong>
-<p>However, a fixed speeding rule would mean fining someone who was
+However, a fixed speeding rule would mean fining someone who was
 accelerating momentarily to avoid hitting a pedestrian and not fining
 someone who continued to drive at the maximum speed limit around a blind
 turn, creating a danger for other drivers. Rules are always
@@ -105,7 +105,7 @@ illegal) and under-inclusive (they won’t apply to all cases we would
 like to be illegal).</p>
 <strong>To
 remedy this problem, a law can instead be based on a standard.</strong>
-<p>In the speeding case, a standard could be “when someone is driving
+In the speeding case, a standard could be “when someone is driving
 unreasonably, they will be fined in proportion to the harm they pose.” A
 judge could apply this standard to get the correct result in both cases
 above (speeding to avoid an accident and going full speed around a blind
@@ -115,7 +115,7 @@ own opinion, allowing them to act in ways that diverge from the
 lawmaker’s intentions.</p>
 <strong>The law uses rules and
 standards.</strong>
-<p>Using rules and standards alongside each other, the law can find the
+Using rules and standards alongside each other, the law can find the
 best equilibrium between carrying out the lawmaker’s intentions and
 accounting for situations they didn’t foresee <span class="citation"
 data-cites="clermont2020rules">[1]</span>. This gives the law an
@@ -141,7 +141,7 @@ core problems in controlling AI systems: <em>misinterpretation</em> and
 and adaptable enough to prevent many forms of gaming.</p>
 <strong>Given
 commands in natural language, AIs might interpret them literally.</strong>
-<p>The misinterpretation problem arises when the literal interpretation
+The misinterpretation problem arises when the literal interpretation
 of our commands differs from our intended interpretation. In AI safety
 discourse, we see this problem raised by many thinkers; for example,
 Stuart Russell raised the concern that an AI, if asked to develop a cure
@@ -152,11 +152,10 @@ interpretation of “develop a cure for cancer,” which doesn’t take any of
 our typical considerations into account, could lead to this outcome.
 Misinterpretation risks are like wishes to a genie: we might get what we
 ask for but not what we want.</p>
-<strong
-id="the-capabilities-of-llms-give-us-some-reason-to-see-misinterpretation-risks-as-unlikely.">The
+<strong>The
 capabilities of LLMs give us some reason to see misinterpretation risks
 as unlikely.</strong>
-<p>Before LLMs, some AI researchers were concerned that most AI models
+Before LLMs, some AI researchers were concerned that most AI models
 would be trained in ways that would mean they had no understanding of
 many ordinary human concepts or values. However, this now seems less
 likely. Our experience with large language models has shown that by
@@ -175,11 +174,10 @@ quirks. This poses problems; for instance, it creates vulnerabilities
 that can be exploited by adversarial attacks. There is more work to be
 done before we can feel comfortable that systems will reliably be able
 to interpret laws and other commands in practice.</p>
-<strong
-id="however-we-still-face-the-risk-of-ais-gaming-our-commands-to-get-what-they-want.">However,
+<strong>However,
 we still face the risk of AIs gaming our commands to get what they
 want.</strong>
-<p>Stuart Russell raises a different concern with AI: gaming <span
+Stuart Russell raises a different concern with AI: gaming <span
 class="citation" data-cites="Russell2019HumanCA">[2]</span>. An AI
 system may ‘play’ the system or rules, akin to strategizing in a game,
 to achieve its objectives in unexpected or undesired ways. He gives the
