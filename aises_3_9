@@ -1,3 +1,29 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px;
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h1 id="conclusion">3.9 Conclusion</h1>
 <p>In this chapter, we discussed several key themes: we do not know how
 to instill our values robustly in individual AI systems, we are unable
@@ -43,6 +69,115 @@ This chapter has touched on a number of research areas in machine
 learning and other subjects which may be useful to address risks from
 AI. These are summarised in the table below, which is not intended to be
 an exhaustive list.<p>
+
+<div>
+    <table class="tableLayout">
+        <thead>
+            <tr>
+                <th style="text-align: center;"><b>Area</b></th>
+                <th style="text-align: center;"><b>Description</b></th>
+            </tr>
+        </thead>
+        <tr>
+        <td style="text-align: center;">Transparency</td>
+        <td style="text-align: left;">
+            <ul>
+                <li>This involves better monitoring and controlling the inner workings of systems based on deep learning</li>
+                <li>Both bottom-up approaches (i.e., mechanistic interpretability) and top-down approaches (i.e., representation engineering) are valuable to explore</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Machine <br> Unlearning </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>This involves better monitoring and controlling the inner workings of systems based on deep learning</li>
+                <li>Both bottom-up approaches (i.e., mechanistic interpretability) and top-down approaches (i.e., representation engineering) are valuable to explore</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Adversarial <br> Robustness </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>Increasing the robustness of AI systems can help to prevent misuse. It can also reduce
+risks of proxy gaming by making models more robust against optimisers</li>
+                <li>While robustness is a well-developed field in some parts of machine learning such as
+computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">trojan <br> Detection </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>Machine learning systems may have hidden “backdoor” or “Trojan” controllable
+vulnerabilities. Backdoored models behave correctly and benignly in almost all scenarios,
+but in particular circumstances chosen by an adversary, they have been taught to
+behave incorrectly</li>
+                <li>Improving our ability to detect these backdoors is both directly useful to prevent misuse,
+and can also serve as a useful testbed for identifying risks of loss of control over AI
+systems in specific circumstances, such as a “treacherous turn”</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Anomaly <br> Detection </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>his area is about detecting potential novel hazards such as unknown unknowns,
+unexpected rare events, or emergent phenomena. There are numerous relevant hazards
+from AI and other sources that anomaly detection could possibly identify more reliably
+or identify earlier, including proxy gaming, rogue or unethical AI systems, deception
+from AI systems, Trojan models, and malicious use</li>
+                <li>Anomaly detection can allow models to flag salient anomalies for human review or
+execute a conservative fallback policy. A successful anomaly detector could serve as an
+AI watchdog that could reliably detect and triage rogue AI threats. Anomaly detectors
+could also be helpful for detecting other threats such as novel biological hazards
+</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Systemic <br> Safety </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>This theme covers a variety of topics that do not improve AI models themselves but
+help to make societies more robust against harms that AI systems might cause</li>
+                <li>Relevant research topics include deep learning for cyberdefense (e.g., deep
+learning for intrusion detection), detecting anomalous biological phenomena (e.g.,
+wastewater detection of pandemic pathogens), and proof-of-humanity mechanisms (e.g.,
+watermarks)</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Machine <br> Ethics </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>Machine ethics aims at creating actionable ethical objectives for systems to pursue, and
+improving the tradeoff between ethical behavior and practical performance. If advanced
+AIs are given objectives that are poorly specified, they could pursue undesirable
+actions and behave unethically. If these advanced AIs are sufficiently powerful, these
+misspecifications could lead the AIs to create a future that we would strongly dislike</li>
+                <li>Ambitious research goals in this area include building models with relevant abilities such
+as detecting situations where moral principles apply, assessing how to apply those moral
+principles, evaluating the moral worth of candidate actions, selecting and carrying out
+actions appropriate for the context, monitoring the success or failure of those actions,
+and adjusting responses accordingly</li>
+            </ul>
+        </td>
+        </tr>
+
+    </table>
+</div>
+
 In conclusion, single-agent systems present significant and
 hard-to-mitigate threats that could result in catastrophic risks—even
 before the considerations of misuse, multi-agent systems, and arms race
