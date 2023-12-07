@@ -53,19 +53,16 @@ log-log plot (such as Figure 2.22), with
 the <em>slope</em> of the line corresponding to the <em>exponent</em> in
 the power law.<p>
 </p>
-<div class="row">
-    <div class="column">
-        <figure id="fig:log-log-plot">
+<div>
+    <figure id="fig:log-log-plot">
         <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/power_law_v2.png"
-         class="tb-img-full" style="width:100%"/>
-        </figure>
-    </div>
-    <div class="column">
-        <figure>
-            <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/log_power_law_v2.png"
-         class="tb-img-full" style="width:100%"/>
-        </figure>
-    </div>
+
+         class="tb-img-full" style="width:80%"/>
+    </figure>
+    <figure>
+        <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/log_power_law_v2.png"
+         class="tb-img-full" style="width:80%"/>
+    </figure>
 </div>
 <p class="tb-caption">Figure 2.22: An object in free falling in a vacuum falls a distance proportion to the square of the
 time. On a log-log plot, this power law looks like a straight line.</p>
@@ -90,17 +87,13 @@ class="math inline"><em>y</em> = <em>b</em><em>x</em><sup><em>a</em></sup></
 Power laws govern many other things, such as the frequency of word usage
 in a language, the distribution of wealth, the magnitude of earthquakes,
 and more.</p>
-<div class="row">
-    <div class="column">
-        <figure id="fig:city-pop">
-        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_regular_v2.png" class="tb-img-full" style="width:95%"/>
-        </figure>
-    </div>
-    <div class="column">
-        <figure id="fig:city-pop-log">
-        <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_log_v2.png" class="tb-img-full" style="width:95%"/>
-        </figure>
-    </div>
+<div>
+    <figure id="fig:city-pop">
+    <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_regular_v2.png" class="tb-img-full" style="width:95%"/>
+    </figure>
+    <figure id="fig:city-pop-log">
+    <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/city_power_laws_log_v2.png" class="tb-img-full" style="width:95%"/>
+    </figure>
 </div>
 <p class="tb-caption">Figure 2.23: Power laws are used in many domains, such as city planning. - <span class="citation"
         data-cites="Newman2005">[1]</span></p>
