@@ -1,4 +1,4 @@
-<h1 id="component-failure-accident-models-and-methods">4.4 Component Failure
+<h1 id="component-failure-accident-models-and-methods">4.5 Component Failure
 Accident Models and Methods</h1>
 <p>As a system is being created and used, it is important to analyze it
 to identify potential risks. One way of doing this is to look at systems
@@ -7,7 +7,7 @@ happen in systems and the factors that lead to them <span
 class="citation" data-cites="Marsden2017">[1]</span>. We will now look
 at some common accident models. These impact system design and
 operational decisions.</p>
-<h2 id="swiss-cheese-model">4.4.1 Swiss Cheese Model</h2>
+<h2 id="swiss-cheese-model">4.5.1 Swiss Cheese Model</h2>
 <p><strong>The Swiss cheese model helps us analyze defenses and identify
 pathways to accidents <span class="citation"
 data-cites="Reason1990">[2]</span>.</strong> The diagram in Figure 4.4 shows multiple slices of Swiss cheese,
@@ -96,7 +96,7 @@ on robustness, the second on control, and the third on monitoring. By
 ensuring we have many defenses, we prevent a wider array of risks,
 improving our system reliability by many nines of reliability.<p>
 </p>
-<h2 id="bow-tie-model">4.4.2 Bow Tie Model</h2>
+<h2 id="bow-tie-model">4.5.2 Bow Tie Model</h2>
 <p><strong>The bow tie model splits defenses into preventative and
 protective measures<span class="citation"
 data-cites="Marsden2017">[1]</span>.</strong> In the diagram in Figure 4.5, the triangle on the left-hand side
@@ -143,7 +143,7 @@ The exact measures on either side of the bow tie depend on which event
 we put at the center. We can make a system safer by individually
 considering each hazard associated with it, and ensuring we implement
 both preventative and protective measures against that hazard.</p>
-<h2 id="fault-tree-analysis-method">4.4.3 Fault Tree Analysis Method</h2>
+<h2 id="fault-tree-analysis-method">4.5.3 Fault Tree Analysis Method</h2>
 <p><strong>Fault tree analysis works backward to identify possible
 causes of negative outcomes.</strong> Fault tree analysis (FTA) is a
 top-down process that starts by considering specific negative outcomes
@@ -196,7 +196,7 @@ could be caused, whether by a single component failing or by a
 combination of many smaller events, FTA can discover hazards that are
 important to find. However, the backchaining process that FTA relies on
 also has limitations, which we will discuss in the next section.</p>
-<h2 id="limitations">4.4.4 Limitations</h2>
+<h2 id="limitations">4.5.4 Limitations</h2>
 <p><strong>Chain-of-Events Reasoning.</strong> The Swiss cheese and bow
 tie models and the FTA method can be useful for identifying hazards and
 reducing risk in some systems. However, they share some limitations that
