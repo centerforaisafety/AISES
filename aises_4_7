@@ -293,7 +293,7 @@ distributions that decay more slowly than an exponential are generally
 considered long-tailed, while those that decay more quickly are
 considered thin-tailed.</p>
 <p><strong>There is a significant difference between extreme events
-being unlikely and astronomicallyunlikely.</strong> In practical terms,
+being unlikely and astronomically unlikely.</strong> In practical terms,
 foreventswith exponential distributions—and distributions that decay
 more quickly than them—the probability of extreme events rapidly becomes
 astronomically small. In fact, it becomes so small that, at some point,
