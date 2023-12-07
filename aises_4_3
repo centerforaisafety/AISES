@@ -74,7 +74,6 @@ risk. An autonomous vehicle, for example, is much more likely to make a
 mistake during a journey where it has to make 1000 decisions, than
 during a journey where it has to make only 10 decisions.<p>
 </p>
-<br>
     <table class="tableLayout">        
         <thead>
             <tr class="header">
@@ -131,8 +130,8 @@ during a journey where it has to make only 10 decisions.<p>
     </table>
 <caption> Table 4.1: From each level of system reliability, we can infer its probability of mistake, “nine or
         reliability,” and expected time before failure. </caption>
-</br>
-
+<p>
+</p>
 <p>For a given level of reliability, we can calculate an expected time
 before failure. Imagine that we have several autonomous vehicles with
 different levels of reliability, as shown in Table Nines of Reliability. Reliability is
