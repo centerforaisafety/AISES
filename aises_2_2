@@ -691,7 +691,7 @@ performance of models in real-world situations.</p>
          class="tb-img-full" style="width: 75%"/>
 <!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"-->
 <!--style="width:50.0%" />-->
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time.png"
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time_v2.png"
          class="tb-img-full" style="width: 75%"/>
     <p class="tb-caption">Figure 2.4: The first graph shows the detection of atypical user activity. The second graph shows the
 detection of unusually high energy usage. In both cases, the model detects anomalies. <span class="citation"
