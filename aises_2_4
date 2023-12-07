@@ -57,13 +57,13 @@ the power law.<p>
     <div class="column">
         <figure id="fig:log-log-plot">
         <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/power_law_v2.png"
-         class="tb-img-full" style="width:80%"/>
+         class="tb-img-full" style="width:100%"/>
         </figure>
     </div>
     <div class="column">
         <figure>
             <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/log_power_law_v2.png"
-         class="tb-img-full" style="width:80%"/>
+         class="tb-img-full" style="width:100%"/>
         </figure>
     </div>
 </div>
