@@ -480,7 +480,6 @@ state-action pair:<p>
 <br>
 <div id="tab:q-val-table">
 <table class="tableLayout">
-<caption>Table 2.1: Example Q-value table for Gridworld.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;"></th>
@@ -528,6 +527,7 @@ state-action pair:<p>
 </tr>
 </tbody>
 </table>
+<caption>Table 2.1: Example Q-value table for Gridworld.</caption>
 </div>
 <br>
 <p>In the beginning, all the Q-value estimates are zero because the
