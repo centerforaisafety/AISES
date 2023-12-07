@@ -92,8 +92,10 @@ an exhaustive list.<p>
         <td style="text-align: center;">Machine <br> Unlearning </td>
         <td style="text-align: left;">
             <ul>
-                <li>This involves better monitoring and controlling the inner workings of systems based on deep learning</li>
-                <li>Both bottom-up approaches (i.e., mechanistic interpretability) and top-down approaches (i.e., representation engineering) are valuable to explore</li>
+                <li>Deliberately removing specific capabilities from an AI system could be useful to ensure that AI systems that are broadly accessible do not have the 
+know-how to support serious misuse such as helping with creating bioweapons or conducting cyber-attacks</li>
+                <li>Unlearning could be particularly helpful for models fine-tuned through APIs; 
+before users can access their fine-tuned models, hazardous capabilities could be scrubbed before the models can be queried</li>
             </ul>
         </td>
         </tr>
@@ -129,7 +131,7 @@ systems in specific circumstances, such as a “treacherous turn”</li>
         <td style="text-align: center;">Anomaly <br> Detection </td>
         <td style="text-align: left;">
             <ul>
-                <li>his area is about detecting potential novel hazards such as unknown unknowns,
+                <li>This area is about detecting potential novel hazards such as unknown unknowns,
 unexpected rare events, or emergent phenomena. There are numerous relevant hazards
 from AI and other sources that anomaly detection could possibly identify more reliably
 or identify earlier, including proxy gaming, rogue or unethical AI systems, deception
