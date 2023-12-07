@@ -678,10 +678,16 @@ defecting creates short-term gains.</p>
 <!--<figcaption>If the agents cooperate more, they can both gain better-->
 <!--payoffs</figcaption>-->
 </figure>
-<p><em>Alice and Bob play a six-round Iterated Prisoner’s Dilemma. Red
-squares show defection; green squares show cooperation. The number in
-the square shows that agent’s payoff. Both agents end up with better
-total payoffs (less jail time) when they cooperate more.</em></p>
+<p>
+<em>In Figure 8.6, each panel shows a six-round
+Iterated Prisoner’s Dilemma, with purple squares for defection and blue
+for cooperation. On the left is <em>Tit-for-tat</em>: An agent using
+this strategy tends to score the same as or worse than its partners in
+each match. On the right, <em>always defect</em> tends to score the same
+as or better than its partner in each match. The average payoff attained
+by using either strategy are shown at the bottom: <em>Tit-for-tat</em>
+attains a better payoff (lower jail sentence) on average—and so is more
+successful in a tournament—than <em>always defect</em>.</em></p>
 <br><br>
 <p><strong>Defection is still the dominant strategy if agents know how
 many times they will interact.</strong> If the agents know when they are
@@ -830,18 +836,9 @@ strategies such as in Figure 8.6 depends on the population strategy
 composition (the assortment of strategies used by the agents in the
 population). If there are enough cooperative partners, cooperative
 agents may be more successful than uncooperative ones. We discuss this
-phenomenon in more detail in <em>Section 1.6.2
+phenomenon in more detail in the section <em>
 Evolutionarily stable strategies and frequency-dependent
-selection.</em><p>
-<em>In Figure 8.6, each panel shows a six-round
-Iterated Prisoner’s Dilemma, with purple squares for defection and blue
-for cooperation. On the left is <em>Tit-for-tat</em>: An agent using
-this strategy tends to score the same as or worse than its partners in
-each match. On the right, <em>always defect</em> tends to score the same
-as or better than its partner in each match. The average payoff attained
-by using either strategy are shown at the bottom: <em>Tit-for-tat</em>
-attains a better payoff (lower jail sentence) on average—and so is more
-successful in a tournament—than <em>always defect</em>.</em></p>
+selection.</em>
 <h3 id="sec:AI-races">Tail Risk: AI Races</h3>
 <p>Iterated interactions can generate “AI races.” We discuss two kinds
 of races concerning AI development: corporate AI races and military AI
