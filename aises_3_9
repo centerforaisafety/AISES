@@ -111,7 +111,7 @@ computer vision, new areas to explore include adversarial attacks against LLMs a
         </tr>
 
         <tr>
-        <td style="text-align: center;">trojan <br> Detection </td>
+        <td style="text-align: center;">Trojan <br> Detection </td>
         <td style="text-align: left;">
             <ul>
                 <li>Machine learning systems may have hidden “backdoor” or “Trojan” controllable
@@ -177,6 +177,8 @@ and adjusting responses accordingly</li>
 
     </table>
 </div>
+<p>
+</p>
 
 In conclusion, single-agent systems present significant and
 hard-to-mitigate threats that could result in catastrophic risks—even
