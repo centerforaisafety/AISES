@@ -1,3 +1,60 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        caption-side: bottom;
+    }
+
+
+
+    table.tableLayout > caption.title{
+        white-space: unset;
+        max-width: unset;
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.01em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+
 <h1 id="nines-of-reliability">4.3 Nines of Reliability</h1>
 <p>In the above discussion of risk evaluation, we have frequently
 referred to the probability of an adverse event occurring. When
