@@ -153,7 +153,7 @@ possible routes to those outcomes. In other words, FTA involves
 causes.<p>
 </p>
 <figure id="wrap-fig:water-pump">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FTA-diagram.png" class="tb-img-full" style="width: 70%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/NASA_FTA.png" class="tb-img-full" style="width: 70%"/>
 <p class="tb-caption">Figure 4.6: Using a fault tree, we can work backwards from a failure (no water flow) to its possible
 causes (such as a mechanical shaft failure or power surge).</p>
 <!--<figcaption>Water pump fault tree</figcaption>-->
