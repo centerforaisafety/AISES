@@ -65,7 +65,7 @@ contrast to traditional methods that focus on representing different
 moral theories, <em>stakeholder representation</em> prioritizes the
 views of those directly affected by the AI’s decisions. This could
 enhance the AI’s understanding of the intricate human social dynamics
-involved in any given situation.<p>
+involved in any given situation.</p>
 Let’s consider an AI suggesting new regulations for data privacy. By
 emulating the perspectives of users, advertisers, and developers, it can
 obtain a comprehensive understanding of the potential implications of
@@ -122,7 +122,7 @@ such as lying and stealing for the greater good, or just to avoid poor
 implementation from AIs optimizing for one moral theory. For example, a
 powerful AI told that utilitarianism is correct might implement
 utilitarianism in a particular way that is likely to lead to bad
-outcomes.<p>
+outcomes.</p>
 Imagine an AI that has to evaluate millions of possibilities for every
 decision it makes. Even with a small error rate, the cumulative effect
 could lead the AI to choose risky or unconventional actions. This is
@@ -133,7 +133,7 @@ actions based on the mistaken belief that they would yield substantial
 benefits. For instance, an AI following some form of utilitarianism
 might use many resources to create happy digital minds—at the expense of
 humanity-—even if that is not what we humans think is morally
-good.<p>
+good.</p>
 This is similar to the Winner’s Curse in auction theory: those that win
 auctions of goods with uncertain value often find that they won because
 they overestimated the value of the good relative to everyone else; for
@@ -142,7 +142,7 @@ overestimate how many coins there are will be more likely to win.
 Similarly, the AI might opt for actions that, in hindsight, were not
 truly beneficial. A moral parliament can make this less likely, because
 actions that would be judged morally extreme by most humans also
-wouldn’t be selected by a diverse moral parliament.<p>
+wouldn’t be selected by a diverse moral parliament.</p>
 The process of considering a range of theories inherently embeds
 redundancy and cross-checking into the system, reducing the probability
 of catastrophic outcomes arising from a single point of failure. It also
@@ -156,7 +156,7 @@ cooperation to reach agreeable outcomes and find common ground. We want
 our AIs to achieve similar outcomes, such as ones that are moderate
 instead of extreme. Ideally, we want AIs to select outcomes that many
 moral theories and stakeholders all like, rather than being forced to
-trade off between them.<p>
+trade off between them.</p>
 In particular, we might want to design our moral parliaments in specific
 ways to encourage this. One such feature is proportional chances voting,
 in which each option then gets a chance of winning that’s proportional
@@ -179,7 +179,7 @@ that many ethical viewpoints are considered. This wider view is helpful
 in dealing with moral problems and tough decisions AI systems may run
 into, by making sure that all important considerations are thought over
 in a balanced way. AIs using moral parliaments are less likely to ignore
-values that matter to different groups in society.<p>
+values that matter to different groups in society.</p>
 Further, the moral parliament allows the representation of human values
 to grow and change over time. We know that moral views change over time,
 so we should be humble about how much we know about morality: there
