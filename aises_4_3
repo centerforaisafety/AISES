@@ -133,7 +133,7 @@ during a journey where it has to make only 10 decisions.<p>
         reliability,” and expected time before failure. </caption>
 </br>
 
-For a given level of reliability, we can calculate an expected time
+<p>For a given level of reliability, we can calculate an expected time
 before failure. Imagine that we have several autonomous vehicles with
 different levels of reliability, as shown in Table Nines of Reliability. Reliability is
 the probability that the vehicle will get any given decision correct.
@@ -141,7 +141,8 @@ The second column shows the complementary probability: the probability
 that the AV will get any given decision wrong. The fourth column shows
 the number of decisions within which the AV is expected to make one
 mistake. This can be thought of as the AV’s expected time before
-failure.<p>
+failure.</p>
+<p>
 </p>
 <figure id="fig:reliability-vs-time">
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/nines_v2.png" class="tb-img-full" style="width: 75%"/>
