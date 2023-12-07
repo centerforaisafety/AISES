@@ -121,7 +121,6 @@ Table 7.1.<p>
 <br>
 <div id="tab:lying">
 <table class="tableLayout">
-<caption>Table 7.1: Example: Lying to save a life.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -147,8 +146,10 @@ life?</td>
 </tr>
 </tbody>
 </table>
+<caption>Table 7.2: Example: Lying to save a life.</caption>
 </div>
-<br>
+</br>
+<p>
 <p><strong>Under My Favorite Theory (MFT), Alex would pick whatever
 utilitarianism recommends.</strong> Alex thinks that utilitarianism is
 the most likely to be true. The MFT approach is to follow the
