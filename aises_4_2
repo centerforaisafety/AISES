@@ -1,4 +1,4 @@
-<h1 id="risk-decomposition">4.1 Risk Decomposition</h1>
+<h1 id="risk-decomposition">4.2 Risk Decomposition</h1>
 <p>To reduce risks, we need to understand the factors contributing to
 them. In this section, we will define some key terms from safety
 engineering. We will also discuss how we can decompose risks into
@@ -6,7 +6,7 @@ various factors and create risk equations based on these factors. These
 equations are useful for quantitatively assessing and comparing
 different risks, as well as for identifying which aspects of risk we can
 influence.</p>
-<h2 id="failure-modes-hazards-and-threats">4.1.1 Failure Modes, Hazards, and
+<h2 id="failure-modes-hazards-and-threats">4.2.1 Failure Modes, Hazards, and
 Threats</h2>
 <p>Failure modes, hazards, and threats are basic words in a safety
 engineer’s vocabulary. We will now define and give examples of each
@@ -41,7 +41,7 @@ weapons. One possible AI-related threat is someone deliberately
 contaminating training data to cause an AI to make incorrect and
 potentially harmful decisions based on hidden malicious
 functionality.</p>
-<h2 id="the-classic-risk-equation">4.1.2 The Classic Risk Equation</h2>
+<h2 id="the-classic-risk-equation">4.2.2 The Classic Risk Equation</h2>
 <p>Different hazards and threats present different levels of risk, so it
 can be helpful to quantify and compare them. We can do this by
 decomposing risk into multiple factors and constructing an equation. We
@@ -94,7 +94,7 @@ quantify total risk. However, even in these circumstances, we can use
 estimates. If estimates are difficult to obtain, it can still be useful
 to have an equation that helps us understand how different factors
 contribute to risk.</p>
-<h2 id="framing-the-goal-as-risk-reduction">4.1.3 Framing the Goal as Risk
+<h2 id="framing-the-goal-as-risk-reduction">4.2.3 Framing the Goal as Risk
 Reduction</h2>
 <p><strong>We should aim for risk reduction rather than trying to
 achieve zero risk.</strong> It might be an appealing goal to reduce the
@@ -117,7 +117,7 @@ alignment problem” but rather about “making AI safer” or “reducing risk
 from AIs.” A better goal could be to make catastrophic risks negligible
 (for instance, less than 0.01% of an existential catastrophe per
 century) rather than trying to have the risk become exactly zero.</p>
-<h2 id="disaster-risk-equation">4.1.4 Disaster Risk Equation </h2>
+<h2 id="disaster-risk-equation">4.2.4 Disaster Risk Equation </h2>
 <p>The classic risk equation is a useful starting point for evaluating
 risk. However, if we have more information about the situation, we can
 break down the risk from a hazard into finer categories. First we can
@@ -133,7 +133,7 @@ data-cites="Hendrycks2022xrisk">[1]</span>.</p>
 and severity together determine the “intrinsic hazard level.”</p>
 <!--<figcaption>Breaking down risk into four factors.</figcaption>-->
 </figure>
-<h2 id="elements-of-the-risk-equation">4.1.5 Elements of the Risk
+<h2 id="elements-of-the-risk-equation">4.2.5 Elements of the Risk
 Equation</h2>
 <p>Exposure and probability are relevant before the accident, while
 severity and vulnerability matter during it. We can explain these terms
@@ -182,7 +182,7 @@ system.<p>
 \sum_{\substack{\text{hazardous} \\ \text{event } h}} P(h) \times
 \text{severity}(h) \times \text{exposure}(h) \times
 \text{vulnerability}(h)$$</span></p>
-<h2 id="applying-the-disaster-risk-equation">4.1.6 Applying the Disaster Risk
+<h2 id="applying-the-disaster-risk-equation">4.2.6 Applying the Disaster Risk
 Equation</h2>
 <p><strong>Infection by a virus is an example hazard.</strong> Consider
 these ideas in the context of a viral infection. The hazard severity and
