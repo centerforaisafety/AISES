@@ -122,6 +122,7 @@ Table 7.2.</p>
 <br>
 <div id="tab:lying">
 <table class="tableLayout">
+<caption style="text-align: center;">Table 7.2: Example: Lying to save a life.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -147,7 +148,6 @@ life?</td>
 </tr>
 </tbody>
 </table>
-<caption style="text-align: center;">Table 7.2: Example: Lying to save a life.</caption>
 </div>
 </br>
 </p>
