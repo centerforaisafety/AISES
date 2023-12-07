@@ -79,7 +79,7 @@ predicting an outcome from features based on training data. Several
 different technical definitions of fairness have been proposed, often
 formalized mathematically. These definitions aim to highlight unfairness
 in ML systems, but most possess inherent limitations. We will review
-three definitions below.<p>
+three definitions below.</p>
 <em>Statistical parity.</em> The concept of statistical parity, also
 known as demographic parity, requires that an algorithm makes positive
 decisions at an equal rate for different groups. This metric requires
