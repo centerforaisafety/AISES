@@ -46,7 +46,7 @@ which ultimately increases stress and decreases overall happiness. Some
 indulge in overeating, making them feel unwell in the short-term and
 leading to health issues and decreased wellbeing overall. Others turn to
 alcohol or drugs as a temporary escape from their problems, but these
-substances can lead to addiction and further unhappiness.<p>
+substances can lead to addiction and further unhappiness.</p>
 Additionally, our choices are influenced by external factors beyond our
 control. For instance, the people we surround ourselves with greatly
 impact our wellbeing. If we are surrounded by trustworthy and unselfish
@@ -56,7 +56,7 @@ wellbeing; for instance, societal factors such as income disparities can
 affect our overall happiness. If others around us earn higher wages, it
 can diminish our satisfaction with our own income. These external
 influences highlight the limited control individuals have over their own
-happiness.<p>
+happiness.</p>
 AIs can play a crucial role. For individual cases, we can use AIs to
 help people achieve happiness themselves. In general, by leveraging
 their impartiality and ability to analyze vast amounts of data, AI
@@ -80,7 +80,7 @@ incredibly challenging task. Implementing such a function requires
 taking a stance on several challenging questions such as how to evaluate
 short-run pains like studying or exercising for long-run happiness, how
 much future people’s happiness should count, and what risk attitudes an
-AI should take towards happiness.<p>
+AI should take towards happiness.</p>
 Optimizing happiness is also difficult in principle because of the scale
 of the task. Paul Bloom argues that if we assume that the “psychological
 present” lasts for about three seconds, then one seventy-year life would
@@ -100,7 +100,7 @@ corresponding emotional ratings, the model learned to identify patterns
 and associations between visual and auditory cues in the videos and the
 emotions they elicited. In a sense, this allowed the model to understand
 how humans felt about the contents of different video clips <span
-class="citation" data-cites="mazeika2022viewer">[2]</span>.<p>
+class="citation" data-cites="mazeika2022viewer">[2]</span>.</p>
 Similarly, another AI model was trained to assess the wellbeing or
 pleasantness of arbitrary text scenarios <span class="citation"
 data-cites="hendrycks2020aligning">[3]</span>. By exposing the model to
