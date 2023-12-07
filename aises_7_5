@@ -205,11 +205,10 @@ calculation is</p></li>
 each moral theory and his determination of how each moral theory judges
 lying to save a life, lying has a higher expected choice-worthiness.
 Alex would lie because he judges that, on average, lying is the best
-possible action.<p>
-</p>
+possible action.</p>
+<p>
 <div id="tab:lying-2">
 <table class="tableLayout">
-<caption>Table 7.2: Example: Lying to save a life.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -241,8 +240,10 @@ judgement?</td>
 <td style="text-align: center;">+ 10</td>
 </tr>
 </tbody>
+<caption>Table 7.3: Example: Lying to save a life.</caption>
 </table>
 </div>
+</p>
 <p><strong>MEC gives us a way of balancing both how likely we think each
 theory is with how much each theory cares about our actions.</strong> We
 can see that utilitarianism and deontology’s relative contributions to
