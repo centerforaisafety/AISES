@@ -79,7 +79,12 @@ in its training data. This deceptive behavior likely had the effect of
 causing its opponent to continue to believe that it was a human. In
 short, deception can occur when an AI system mimics a human.<p>
 </p>
-<div class="storybox">
+<br>
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Logarithms</b></span></p>
+</legend>
+<p><strong>
 <p><span>A Note on Cognitive vs. Emotional vs. Compassionate
 Empathy</span> We generally think of <em>empathy</em> as the ability to
 understand and relate to the internal world of another person — “putting
