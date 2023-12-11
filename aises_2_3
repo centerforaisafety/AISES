@@ -528,7 +528,7 @@ with the filter, and recording the results in a new matrix called a
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Convolution updated.png" class="tb-img-full" style="width:60%"/>
 <p class="tb-caption">Figure 2.18: Convolution layers perform the convolution operation, sliding a filter over the input
 data to output a feature map. <span class="citation"
-data-cites="wikiconvolution">[8]</span></p>
+data-cites="convolutionupdated">[8]</span></p>
 <!--<figcaption>Convolution operation - <span class="citation"-->
 <!--data-cites="wikiconvolution">[8]</span></figcaption>-->
 </figure>
@@ -1110,10 +1110,10 @@ image recognition,”</span> in <em>2016 IEEE conference on computer
 vision and pattern recognition (CVPR)</em>, 2016, pp. 770–778. doi: <a
 href="https://doi.org/10.1109/CVPR.2016.90">10.1109/CVPR.2016.90</a>.</div>
 </div>
-<div id="ref-wikiconvolution" class="csl-entry" role="listitem">
+<div id="ref-convolutionupdated" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[8] </div><div
-class="csl-right-inline">Available: <a
-href="https://commons.wikimedia.org/wiki/File:2D_Convolution_Animation.gif">https://commons.wikimedia.org/wiki/File:2D_Convolution_Animation.gif</a></div>
+class="csl-right-inline">Febin Sunny, Mahdi Nikdast and Sudeep Pasricha. <span>“SONIC: A Sparse Neural Network Inference Accelerator with Silicon Photonics for Energy-Efficient Deep Learning,”</span>
+    2021.</div>
 </div>
 <div id="ref-Vaswani2017" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[9] A.

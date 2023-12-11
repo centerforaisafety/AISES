@@ -70,7 +70,7 @@ maximize.</p>
 safety.</strong> It is plausibly safer for AI systems to be satisficers,
 since maximizers may behave in undesirable ways while trying to
 relentlessly maximize some metric <span class="citation"
-data-cites="taylor2016quantilizers">[1]</span>. As discussed in ,
+data-cites="taylor2016quantilizers">[1]</span>. As discussed in Proxies,
 maximizers may optimize proxies in ways that differ from the idealized
 result. However, when AI agents are trained on human data and trained to
 interact with humans, they may pick up some of our biases and thereby

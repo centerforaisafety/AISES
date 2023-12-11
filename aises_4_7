@@ -228,7 +228,7 @@ extreme instances cannot substantially affect the overall landscape.
 Many human characteristics, such as height, general intelligence, and
 lifespan, have thin-tailed distributions. Note that these examples all
 follow something akin to a normal distribution, or bell curve, as shown
-in . Normal distributions have a maximum density at the most common
+in Figure 4.12. Normal distributions have a maximum density at the most common
 value and a tail on either side. The frequency decreases rapidly as we
 move away from the most common value.</p>
 <figure id="fig:excess">
