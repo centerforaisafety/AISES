@@ -1101,10 +1101,10 @@ model to learn visual features and relationships between objects that
 can be used to generate new images.</p>
 <figure id="fig:inpainting">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/information-13-00071-g001.png"
-class="tb-img-full" style="width: 30%"/>
+class="tb-img-full" style="width: 80%"/>
     <p class="tb-caption">Figure 2.9: In image inpainting, models are trained to predict hidden parts of images, causing them
 to learn relationships between pixels. <span class="citation"
-data-cites="elharrouss2019">[23]</span></p>
+data-cites="luo2022">[23]</span></p>
 <!--<figcaption>Image inpainting - <span class="citation"-->
 <!--data-cites="elharrouss2019">[23]</span></figcaption>-->
 </figure>
@@ -1328,11 +1328,8 @@ href="https://en.wikipedia.org/wiki/File:Precisionrecall.svg">https://en.wikiped
 class="csl-right-inline">cmglee and M. Thoma, 2018. Available: <a
 href="https://commons.wikimedia.org/wiki/File:Roc_curve.svg">https://commons.wikimedia.org/wiki/File:Roc_curve.svg</a></div>
 </div>
-<div id="ref-elharrouss2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[23] O.
-Elharrouss, N. Almaadeed, S. Al-Maadeed, and Y. Akbari, <span>“Image
-inpainting: A review,”</span> <em>Neural Processing Letters</em>, vol.
-51, no. 2, pp. 2007–2028, Dec. 2019, doi: <a
-href="https://doi.org/10.1007/s11063-019-10163-0">10.1007/s11063-019-10163-0</a>.</div>
+<div id="ref-luo2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] Haiyin Luo and Yuhui Zheng, <span>“Semantic Residual Pyramid Network for Image Inpainting,”</span> <em>Information</em>, vol.
+13, no. 2, pp. 2022.</div>
 </div>
 </div>
