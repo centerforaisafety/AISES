@@ -200,16 +200,8 @@ means that the agent is indifferent between lottery A and lottery B.
 These axioms and conclusions that can be derived from them are
 contentious, as we will see later on in this chapter. There are six such
 axioms, that we can split into two groups.<p>
-The first two axioms may seem obvious, but are nonetheless
-essential:</p>
-<ol>
-<li><p><span>Monotonicity</span>: Agents prefer higher probabilities of
-preferred outcomes.</p></li>
-<li><p><span>Decomposability</span>: The agent is indifferent between
-two lotteries that share the same probabilities for all the same
-outcomes, even if they are described differently.</p></li>
 </ol>
-<p><strong></strong> The remaining four axioms are:</p>
+<p><strong></strong> The classic four axioms are:</p>
 <ol>
 <li><p>Completeness: The agent can rank their preferences over all
 lotteries. For any two lotteries, it must be that <span
@@ -244,6 +236,16 @@ class="math inline"><em>p</em><em>L</em><sub><em>A</em></sub> + (1−<em>p</
 for any <span
 class="math inline"><em>L</em><sub><em>C</em></sub></span>.
 &gt;</p></li>
+</ol>
+The final two axioms represent relatively obvious characteristics of rational decision-making
+, although actual decision-making processes sometimes deviate from these. These axioms are 
+relatively ``weak'' and are implied by the previous four.</p>
+<ol>
+<li><p><span>Monotonicity</span>: Agents prefer higher probabilities of
+preferred outcomes.</p></li>
+<li><p><span>Decomposability</span>: The agent is indifferent between
+two lotteries that share the same probabilities for all the same
+outcomes, even if they are described differently.</p></li>
 </ol>
 <p><strong>Form of von Neumann-Morgenstern utility functions.</strong>
 If an agent’s preferences are consistent with the above axioms, their
