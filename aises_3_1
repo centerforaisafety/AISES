@@ -23,10 +23,15 @@ particularly harmful risks. Following this, we turn our attention to the
 topic of emergence in AI systems and explore how simple goals can cause
 these systems to spontaneously develop unanticipated capabilities and
 goals.<p>
-In the final section, we explore the issue of deception. We categorize
+In the next section, we explore the issue of deception. We categorize
 the varied forms of deception that these systems might employ, and
 analyze the risks involved in AI systems deceiving human and AI
 evaluators.<p>
+We conclude by explaining how researchers trying to improve AI safety 
+can uninentionally improve the capabilities of AI systems and potentially 
+end up increasing the overall risks that they pose. To avoid this, it is
+ important to pick research topics carefully to minimise the impacts that 
+successful research will have on capabilities.<p>
 This chapter argues that, even when considered in isolation, individual
 AI systems can pose catastrophic risks. As we will see in subsequent
 chapters, many of these risks become more pronounced when considering
