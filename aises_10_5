@@ -110,9 +110,8 @@ data-cites="allais1953comportement">[2]</span>.<p>
 <td style="text-align: left;">Scenario A</td>
 <td style="text-align: left;">100% chance of $1 million</td>
 <td style="text-align: left;">10% chance of $5 million 
-<td style="text-align: left;">89% chance of $1
-million 
-<td style="text-align: left;">1% chance of $0</td>
+>89% chance of $1 million 
+>1% chance of $0</td>
 </tr>
 </tbody>
 </table>
