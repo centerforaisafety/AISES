@@ -109,8 +109,8 @@ data-cites="allais1953comportement">[2]</span>.<p>
 <tr class="odd">
 <td style="text-align: left;">Scenario A</td>
 <td style="text-align: left;">100% chance of $1 million</td>
-<td style="text-align: left;">10% chance of $5 million 
->89% chance of $1 million 
+<td style="text-align: left;">10% chance of $5 million <br>
+>89% chance of $1 million <br>
 >1% chance of $0</td>
 </tr>
 </tbody>
@@ -129,10 +129,10 @@ data-cites="allais1953comportement">[2]</span>.<p>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Scenario B</td>
-<td style="text-align: left;">11% chance of $1 million 
-<td style="text-align: left;">89% chance of $0</td>
-<td style="text-align: left;">10% chance of $5 million 
-<td style="text-align: left;">90% chance of $0</td>
+<td style="text-align: left;">11% chance of $1 million <br>
+>89% chance of $0</td>
+<td style="text-align: left;">10% chance of $5 million <br>
+>90% chance of $0</td>
 </tr>
 </tbody>
 </table>
@@ -174,20 +174,17 @@ class="math inline">$</span>1 million.<p>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Scenario A</td>
-<td style="text-align: left;">89% chance of $1 million 
-<td style="text-align: left;">11% chance of $1
-million</td>
-<td style="text-align: left;">10% chance of $5 million 
-<td style="text-align: left;">89% chance of $ 1
-million 
-<td style="text-align: left;">1% chance of $0</td>
+<td style="text-align: left;">89% chance of $1 million <br>
+>11% chance of $1 million</td>
+<td style="text-align: left;">10% chance of $5 million <br>
+>89% chance of $ 1 million <br>
+>1% chance of $0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Scenario A reduced</td>
 <td style="text-align: left;">11% chance of 1 million</td>
-<td style="text-align: left;">10% chance of $ 5 million 
-<td style="text-align: left;">1% chance of
-$0</td>
+<td style="text-align: left;">10% chance of $ 5 million <br>
+>1% chance of $0</td>
 </tr>
 </tbody>
 </table>
@@ -211,19 +208,16 @@ class="math inline">$</span>0 has simply been ignored.<p>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Scenario B</td>
-<td style="text-align: left;">11% chance of $1 million 
-<td style="text-align: left;">89% chance of
-$0</td>
-<td style="text-align: left;">10% chance of $5 million 
-<td style="text-align: left;">90% chance of
-$0</td>
+<td style="text-align: left;">11% chance of $1 million <br>
+>89% chance of $0</td>
+<td style="text-align: left;">10% chance of $5 million <br>
+>90% chance of $0</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Scenario B reduced</td>
 <td style="text-align: left;">11% chance of $1 million</td>
-<td style="text-align: left;">10% chance of $5 million 
-<td style="text-align: left;">1% chance of
-$0</td>
+<td style="text-align: left;">10% chance of $5 million <br>
+>1% chance of $0</td>
 </tr>
 </tbody>
 </table>
