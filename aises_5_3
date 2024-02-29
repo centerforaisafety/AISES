@@ -92,8 +92,7 @@ that it will pollute the environment and worsen residents’ quality of
 life in some ways.</p>
 <p><strong>Future AI agents may break down difficult long-term goals
 into smaller subgoals.</strong> Creating subgoals can distort an AI’s
-objective and result in misalignment. As discussed in the emergence section of the
-Single Agent Safety chapter, optimization algorithms might produce emergent optimizers that
+objective and result in misalignment. As discussed in the Emergence subsection in 3.2, optimization algorithms might produce emergent optimizers that
 pursue subgoals, or AI agents may delegate goals to other agents and
 potentially have the goal be distorted or subverted. In more extreme
 cases, the subgoals could be pursued at the expense of the original one.
