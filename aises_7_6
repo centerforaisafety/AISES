@@ -1,4 +1,4 @@
-<h1 id="conclusion">8.5 Conclusion</h1>
+<h1 id="conclusion">7.6 Conclusion</h1>
 <p>In this chapter, we considered a variety of multi-agent dynamics in
 biological and social systems. Our underlying thesis was that these
 dynamics might produce undesirable outcomes with AI, mirroring patterns
@@ -29,6 +29,30 @@ agents, which could make it difficult to eradicate, especially if AIs
 learn to deceive or manipulate humans to obscure their true
 intentions.<p>
 </p>
+<h3 id="cooperation">Cooperation</h3>
+We then moved to an investigation of cooperation. Drawing from
+biological systems and human societies, we illustrated an array of
+mechanisms that may promote cooperation between and within AIs and human
+agencies. For each mechanism, however, we also highlighted some
+associated risks. These risks included nepotism, in-group favoritism,
+extortion, and the incentives to behave ruthlessly. Thus, we found that
+merely ensuring that AIs and humans act cooperatively may not be a total
+solution to our collective action problems. Rather, we need a more
+nuanced view of the potential benefits and risks of promoting
+cooperation between AI systems.<p>
+<h3 id="conflict">Conflict</h3>
+<p>We next turned to a closer examination of the drivers of conflict in the real world, and exploring how future AI systems may
+interact with these forces. Using the framework
+of bargaining theory, we discussed understand why, despite being costly for all
+involved, rational agents may sometimes opt for conflict over peaceful
+bargaining. We illustrated this idea by looking at how various factors
+can affect competitive dynamics, including commitment problems (such as
+power shifts, first-strike advantages, and issue indivisibility),
+information problems, and inequality. These factors may drive AIs to
+instigate, promote, or exacerbate conflicts, with potentially
+catastrophic effects.<p>
+
+</p>
 <h3 id="evolutionary-pressures">Evolutionary pressures</h3>
 <p>We began this section by examining generalized Darwinism: the idea
 that Darwinian mechanisms are a useful way to explain many phenomena
@@ -37,6 +61,7 @@ selection operating in non-biological domains, from culture, academia,
 and industry. By formalizing this idea using Lewinton’s conditions and
 the Price equation, we saw how AIs and their development may be subject
 to Darwinian forces.<p>
+
 We then turned to the ramifications of natural selection operating on
 AIs. We first looked at what AI traits or strategies natural selection
 may tend to favor. Using an information’s eye view of evolution by
@@ -52,29 +77,7 @@ information, evolution by natural selection tends to produce
 selfishness. Thus, we might expect a future shaped by natural selection
 to be dominated by selfish behavior.<p>
 </p>
-<h3 id="conflict-and-cooperation">Conflict and cooperation</h3>
-<p>We ended the chapter by closely examining the drivers of conflict and
-cooperation in the real world, and exploring how future AI systems may
-interact with these forces. We began with conflict: using the framework
-of bargaining theory to understand why, despite being costly for all
-involved, rational agents may sometimes opt for conflict over peaceful
-bargaining. We illustrated this idea by looking at how various factors
-can affect competitive dynamics, including commitment problems (such as
-power shifts, first-strike advantages, and issue indivisibility),
-information problems, and inequality. These factors may drive AIs to
-instigate, promote, or exacerbate conflicts, with potentially
-catastrophic effects.<p>
-We then moved to an investigation of cooperation. Drawing from
-biological systems and human societies, we illustrated an array of
-mechanisms that may promote cooperation between and within AIs and human
-agencies. For each mechanism, however, we also highlighted some
-associated risks. These risks included nepotism, in-group favoritism,
-extortion, and the incentives to behave ruthlessly. Thus, we found that
-merely ensuring that AIs and humans act cooperatively may not be a total
-solution to our collective action problems. Rather, we need a more
-nuanced view of the potential benefits and risks of promoting
-cooperation between AI systems.<p>
-</p>
+
 <h3 id="concluding-remarks">Concluding remarks</h3>
 <p>In summary, this chapter explored various kinds of collective action
 problems: intelligent agents, despite acting rationally and in
@@ -83,6 +86,7 @@ outcomes that none of them wants, even when they could seemingly have
 achieved preferable alternative outcomes. Even when we as individuals
 share similar goals, system-level dynamics can override our intentions
 and create undesirable results.<p>
+
 This is insight is of vital importance when envisioning a future with
 powerful AI systems. AIs, individual humans, and human agencies will all
 conduct their actions in light of how others are behaving and how each
