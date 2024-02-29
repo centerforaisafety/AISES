@@ -40,7 +40,7 @@ that is meaningful to humans.<p>
 </p>
 <figure id="fig:comp-graph">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/computational_graph.png" class="tb-img-full" style="width: 80%" />
-<p class="tb-caption">Figure 3.2: ML systems can be broken down into computational graphs with many sections. <span
+<p class="tb-caption">Figure 3.1: ML systems can be broken down into computational graphs with many sections. <span
 class="citation" data-cites="zoph2017neural">[2]</span></p>
 <!--<figcaption>A section of a computational graph for an ML system - <span-->
 <!--class="citation" data-cites="zoph2017neural">[2]</span></figcaption>-->
@@ -48,7 +48,7 @@ class="citation" data-cites="zoph2017neural">[2]</span></p>
 <p><strong>Even simple ML techniques suffer from opaqueness.</strong>
 Opaqueness is not unique to neural networks. Even simple ML techniques
 such as Principal Component Analysis (PCA), which are better understood
-theoretically than DL, suffer from similar flaws. For example, Figure 3.3 depicts the results of performing
+theoretically than DL, suffer from similar flaws. For example, Figure 3.2 depicts the results of performing
 PCA on pictures of human faces. This yields a set of “eigenfaces”,
 capturing the most important features identifying a face. Any picture of
 a face can then be represented as a particular combination of these
@@ -56,7 +56,7 @@ eigenfaces.<p>
 </p>
 <figure id="fig:Eigenfaces">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Eigenfaces.jpg" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Figure 3.3: A human face can be made by combining several eigenfaces, each of which represents
+<p class="tb-caption">Figure 3.2: A human face can be made by combining several eigenfaces, each of which represents
 different facial features. <span class="citation"
 data-cites="zhang2008eigenfaces">[3]</span></p>
 <!--<figcaption>Eigenfaces - <span class="citation"-->
@@ -84,7 +84,7 @@ also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feature_vis.png" />
-<p class="tb-caption">  Figure 3.4: Left: a feature visualization that “highly activates” a particularly neuron. Right: a
+<p class="tb-caption">  Figure 3.3: Left: a feature visualization that “highly activates” a particularly neuron. Right: a
 collection of natural images that activate a particular neuron. <span class="citation"
 data-cites="schubert2020openai">[6]</span></p>
 
@@ -101,7 +101,7 @@ on a pattern of the input that is clear to humans. For example, a neuron
 might activate only when an image contains dog ears. In other cases, we
 observe <em>polysemantic neurons</em>, which defy a single
 interpretation <span class="citation"
-data-cites="elhage2022softmax">[7]</span>. Consider Figure 3.4, which shows images that
+data-cites="elhage2022softmax">[7]</span>. Consider Figure 3.3, which shows images that
 highly activate a randomly chosen neuron in an image model. Judging from
 the natural images, it seems like the neuron often activates when text
 associated with traveling or moving is present, but it’s hard to be
@@ -265,7 +265,7 @@ image. Saliency map techniques have been popular in part due to the
 striking visualizations they produce.</p>
 <figure id="fig:saliency-map">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/saliency_map.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.5: A saliency map picks out features from an input that seem particularly relevant to the
+<p class="tb-caption">Figure 3.4: A saliency map picks out features from an input that seem particularly relevant to the
 model, such as the shirt and cowboy hat in the bottom left image. <span class="citation"
 data-cites="springenberg2015striving">[14]</span></p>
 <!--<figcaption>Example of a saliency map technique for various images - -->
@@ -347,7 +347,7 @@ illustration, we will describe a purported circuit from a language
 model. Researchers identified how a language model often predicts
 indirect objects of sentences (such as “Mary” in “John gave a drink to
 ...”) as a simple algorithm using all previous names in a sentence (see
-Figure 3.6 below). This mechanism did not
+Figure 3.5 below). This mechanism did not
 merely agree with model behavior, but was directly derived from the
 model weights, giving more confidence that the algorithm is a faithful
 description of an internal model mechanism <span class="citation"
@@ -355,7 +355,7 @@ data-cites="wang2022interpretability">[16]</span>.<p>
 </p>
 <figure id="fig:id-circuit">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/identification_circuit.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.6: An indirect-object identification circuit can be depicted graphically</p>
+<p class="tb-caption">Figure 3.5: An indirect-object identification circuit can be depicted graphically</p>
 <!--<figcaption>Graphical depiction of indirect-object identification-->
 <!--circuit</figcaption>-->
 </figure>
@@ -447,7 +447,7 @@ the task, and beyond which models begin to achieve higher
 performance.</p>
 <figure id="fig:emergent_graphs">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FLOPs.png" class="tb-img-full" />
-<p class="tb-caption">Figure 3.13: LLMs exhibit clear emergent capabilities on a variety of tasks. <span
+<p class="tb-caption">Figure 3.6: LLMs exhibit clear emergent capabilities on a variety of tasks. <span
 class="citation" data-cites="wei2022emergent">[3]</span></p>
 <!--<figcaption>Emergent AI capabilities across multiple benchmarks - <span-->
 <!--class="citation" data-cites="wei2022emergent">[3]</span></figcaption>-->
@@ -486,7 +486,7 @@ capabilities.<p>
 </p>
 <figure id="fig:unicorn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/unicorn.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.14: GPT-4 proved able to create illustrations of unicorns despite having not been trained to
+<p class="tb-caption">Figure 3.7: GPT-4 proved able to create illustrations of unicorns despite having not been trained to
 create images: another example an an unexpected emergent capability. <span class="citation"
 data-cites="bubeck2023sparks">[5]</span></p>
 <!--<figcaption>Unexpected capability example: illustrations of unicorns by-->
@@ -594,7 +594,7 @@ some the researchers had never anticipated.<p>
 </p>
 <figure id="fig:tool-use">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/3d_puzzle.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.15: In multi-agent hide-and-seek, AIs demonstrated emergent tool-use. <span
+<p class="tb-caption">Figure 3.8: In multi-agent hide-and-seek, AIs demonstrated emergent tool-use. <span
 class="citation" data-cites="2019openai">[10]</span>.</p>
 <!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
 <!--class="citation" data-cites="2019openai">[10]</span>.</figcaption>-->
@@ -624,7 +624,7 @@ social dynamics in the Collective Action Problems chapter.<p>
 </p>
 <figure id="fig:emergent-social-behaviour">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_in_game.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.16: Generative AI agents exhibited emergent social behavior. <span
+<p class="tb-caption">Figure 3.9: Generative AI agents exhibited emergent social behavior. <span
 class="citation" data-cites="park2023generative">[11]</span></p>
 <!--<figcaption>Emergent social behavior in generative agents - <span-->
 <!--class="citation"-->
