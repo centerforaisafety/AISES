@@ -1,6 +1,6 @@
 <!-- Machine Ethics -->
 
-<h1 id="introduction">Introduction</h1>
+<h1 id="introduction">6.1 Introduction</h1>
 <p><strong>How should we direct AIs to promote human values?</strong> As we continue to develop powerful AI systems, it is crucial to ensure they
  are safe and beneficial for humanity. In this chapter, we discuss the challenges of specifying appropriate values for AI systems to pursue. 
 Some of these questions are already relevant for AI systems that exist today in the healthcare or automotive sectors, where artificial systems 
