@@ -24,7 +24,7 @@
     }
 </style>
 
-<h1 id="sec:reinf-learning">C.1 Reinforcement Learning</h1>
+<h1 id="sec:reinf-learning">Appendix C - Reinforcement Learning</h1>
 <h3 id="introduction">Introduction</h3>
 <p>This section provides a high-level overview of reinforcement learning
 (RL). We introduce the basic structure and vocabulary of RL problems and
