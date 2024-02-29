@@ -24,17 +24,14 @@ order to reduce the risk of eroding safety precautions. Cooperation
 between AI agents is also necessary for reducing some of the multi-agent
 risks we have looked at: we want AIs to cooperate, rather than defect,
 in Prisoner’s Dilemma scenarios.<p>
-However, ensuring that AIs and human agencies behave cooperatively may
-not be a total solution to the collective action problems we have
-examined in this chapter. By more closely examining how cooperative
-relationships can come about, it is possible to see how they may
-backfire with disastrous consequences for AI safety. Instead, we need a
-more nuanced view of the potential benefits and risks of promoting
-cooperation between AI systems. To do this, we study seven different
+However, ensuring cooperative behavior from all parties may not be a total 
+solution to the collective action problems we have examined in this chapter. 
+By more closely examining how cooperative relationships can come about, it is 
+possible to see how making AI systems more cooperative may backfire with serious
+ consequences for AI safety. Instead, we need a more nuanced view of the potential
+ benefits and risks of promoting cooperation in AI systems. To do this, we study seven different
 mechanisms by which cooperation may arise in multi-agent systems <span
-class="citation" data-cites="nowak2006five">[2]</span>, considering the
-ramifications of each for cooperation between and within human agencies
-and AI agents:</p>
+class="citation" data-cites="nowak2006five">[2]</span>, considering the ramifications of each:</p>
 <ul>
 <li><p><em>Direct reciprocity</em>: when individuals are likely to
 encounter others in the future, they are more likely to cooperate with
