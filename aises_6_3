@@ -38,7 +38,6 @@ examining what makes algorithms unfair and considering some methods to
 improve fairness.</p>
 
 <h2 id="sec:bias">6.3.1 Bias</h2>
-<h3 id="introduction">3.2.1 Introduction</h3>
 <p><strong>AI systems can amplify undesirable biases.</strong> AI
 systems are being increasingly deployed throughout society. If these
 influential systems have biases, they can reinforce disparities and
