@@ -137,7 +137,7 @@ regardless of the consequences to others. Agents are said to be
 “rational” if they act as though they are maximizing their utility.</p>
 <p><strong>Games can be “zero sum” or “non-zero sum.”</strong> We can
 categorize the games we are studying in different ways. One distinction
-(made in Figure 1) is between zero sum and non-zero sum games. A
+is between zero sum and non-zero sum games. A
 <strong>zero sum</strong> game is one where, in every outcome, the
 agents’ payoffs all sum to zero. An example is “tug of war”: any benefit
 to one party from their pull is necessarily a cost to the other.
@@ -226,7 +226,7 @@ follows. They can either “cooperate” with their partner by remaining
 silent or “defect” on their partner by confessing to burglary. Each
 suspect faces four possible outcomes, which we can split into two
 possible scenarios. Let’s term these “World 1” and “World 2”; see Figure
-2. In World 1, their partner chooses to cooperate with them; in World 2,
+7.1. In World 1, their partner chooses to cooperate with them; in World 2,
 their partner chooses to defect. In both scenarios, the suspect decides
 whether to cooperate or defect themself. They do not know what their
 partner will decide to do.<p>
@@ -236,19 +236,10 @@ partner will decide to do.<p>
         class="tb-img-full" style="width: 80%"/></p>
 <p class="tb-caption">Figure 7.1: The possible outcomes for Alice in the Prisoner’s Dilemma.</p>
 </figure>
-<em>A) The four possible outcomes facing Alice, divided into “World
-1” and “World 2.” In both scenarios, Alice must choose whether to
-cooperate with her partner (Bob), or defect. In World 1, her partner
-chooses to cooperate; in World 2, her partner chooses to defect. The
-jail time for each outcome is shown on the right. B) The four possible
-outcomes are shown in a decision tree. In World 1, Alice gets a shorter
-jail sentence by defecting, than by cooperating. The same is true in
-World 2, by an even greater amount. In both cases, choosing to defect
-gets Alice the better outcome.</em></p>
 <br> <br>
 <p><strong>Defection is the dominant strategy.</strong> Alice does not
 know whether Bob will choose to cooperate or defect. She does not know
-whether she will find herself in World 1 or World 2; see Figure 2. She
+whether she will find herself in World 1 or World 2; see Figure 7.1. She
 can only decide whether to cooperate or defect herself. This means she
 is making one of two possible decisions. If she defects, she is…<p>
 </p>
@@ -280,7 +271,7 @@ the better option, so “wearing the coat” is their dominant strategy.</p>
 Importantly, both the suspects face this decision in a symmetric
 fashion. Each is deciding between identical outcomes, and each wishes to
 minimize their own jail time. Let’s consider the four possible outcomes
-now in terms of both the suspects’ jail sentences; see Figure 3A. We can
+now in terms of both the suspects’ jail sentences. We can
 display this information in a <em>payoff matrix</em>, as shown in Table
 7.1. Payoff matrices are commonly
 used to visualize games. They show all the possible outcomes of a game
@@ -359,7 +350,7 @@ some or all agents involved, and not worse for any, we call the switch
 to this more efficient outcome a <em>Pareto improvement</em>. In the
 Prisoner’s Dilemma, the <em>both cooperate</em> outcome is better for
 both agents than the Nash equilibrium of <em>both defect</em>; see
-Figure 7.2B. The only Pareto
+Figure 7.2. The only Pareto
 improvement possible in this game is the move from the <em>both
 defect</em> to the <em>both cooperate</em> outcome; see Figure 7.3.<p>
 </p>
@@ -372,7 +363,7 @@ their payoffs (rather than the length of their jail sentence).</p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma</figcaption>-->
 </figure>
-<p><em>A) Shown is the same decision tree as in Figure 2B, but for both
+<p><em>A) Shown is the same decision tree as in Figure 7.2, but for both
 suspects. Rather than jail sentences, we show payoffs (negative numbers,
 rather than positive). B) The outcome where both suspects get the “-3”
 payoff is the Nash equilibrium, since defection is the dominant strategy
@@ -464,9 +455,7 @@ mechanisms by which we can promote cooperation over defection.</p>
 <p><strong>Reasons to cooperate.</strong> There are many reasons why
 real-world agents might cooperate in situations which resemble the
 Prisoner’s Dilemma <span class="citation"
-data-cites="parfit1984reasons">[2]</span>, as shown in Figure <a
-href="#fig:cooperate" data-reference-type="ref"
-data-reference="fig:cooperate">4</a>. These can broadly be categorized
+data-cites="parfit1984reasons">[2]</span>, as shown in Figure 7.4. These can broadly be categorized
 by whether the agents have a choice, or whether defection is impossible.
 If the agents do have a choice, we can further divide the possibilities
 into those where they act in their own self-interest, and those where
@@ -650,8 +639,7 @@ provides an opportunity for the agents to cooperate with each other.</p>
 <p><strong>Iterating the Prisoner’s Dilemma opens the door to rational
 cooperation.</strong> In an Iterated Prisoner’s Dilemma, both agents can
 achieve higher payoffs by fostering a cooperative relationship with each
-other than they would if both were to defect every round; compare Figure
-8a and b. There are two basic mechanisms by which iteration can promote
+other than they would if both were to defect every round. There are two basic mechanisms by which iteration can promote
 cooperative behavior: punishing defection and rewarding cooperation. To
 see why, let us follow an example game of the Iterated Prisoner’s
 Dilemma in sequence.</p>
@@ -821,11 +809,10 @@ being one way to escape the muck of defection.</p>
 <p><strong>The success of <em>Tit-for-tat</em> is
 counterintuitive.</strong> In any given match, an agent playing
 <em>Tit-for-tat</em> will tend to score slightly worse than or the same
-as their partner; see Figure 7.6a. By
+as their partner; see Figure 7.6. By
 contrast, an agent who employs an uncooperative strategy such as
 <em>always defect</em> usually scores the same as or better than its
-partner; see Figure <a href="#fig:iterated" data-reference-type="ref"
-data-reference="fig:iterated">6</a>b. In a match between a cooperative
+partner. In a match between a cooperative
 agent and an uncooperative one, the uncooperative agent tends to end up
 with the better score.<p>
 However, it is an agent’s <em>average</em> score which dictates its
@@ -1146,7 +1133,7 @@ partners in Iterated Prisoner’s Dilemma matches.<p>
 </p>
 <figure id="fig:extort-2">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">Figure 7.10: The <em>Extort-2</em> strategy - <span class="citation"
+<p class="tb-caption">Figure 7.7: The <em>Extort-2</em> strategy - <span class="citation"
 data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
 <!--data-cites="stewart2012extortion">[20]</span></figcaption>-->
@@ -1442,11 +1429,11 @@ in this Pareto inefficient state, free riding might still be the
 dominant strategy for each individual, since the cost of contributing
 outweighs the trivial increase in collective good they would contribute
 by contributing. Thus, escaping undesirable equilibria in a collective
-action problem can be exceedingly difficult; see Figure 7.7.<p>
+action problem can be exceedingly difficult; see Figure 7.8.<p>
 </p>
 <figure id="fig:collective">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/freeriding.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 7.7: In this abstract collective action problem, we can move from everyone (contributes) to
+<p class="tb-caption">Figure 7.8: In this abstract collective action problem, we can move from everyone (contributes) to
 right (no one contributes). As more people free ride, the collective good disappears, leaving everyone
 in a state where they would all prefer to collectively contribute instead.
 </p>
