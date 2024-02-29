@@ -36,7 +36,249 @@ data-cites="harvard2017state">[3]</span>. In this section, we will
 discuss some of the serious ethical questions raised by this case,
 examining what makes algorithms unfair and considering some methods to
 improve fairness.</p>
-<h2 id="ai-fairness-concepts">6.3.1 AI Fairness Concepts</h2>
+
+<h2 id="sec:bias">6.3.1 Bias</h2>
+<h3 id="introduction">3.2.1 Introduction</h3>
+<p><strong>AI systems can amplify undesirable biases.</strong> AI
+systems are being increasingly deployed throughout society. If these
+influential systems have biases, they can reinforce disparities and
+produce widespread, long-term harms. In AI, <em>bias</em> refers to a
+consistent, systematic, or undesirable distortion in the outcomes
+produced by an AI system. These outcomes can be predictions,
+classifications, or decisions. Bias can be influenced by many factors,
+including erroneous assumptions, training data, or human biases. Biases
+in modern deep learning systems can be especially consequential. While
+not all forms of bias are harmful, we focus on biases that are socially
+relevant because of their harms. We must proactively prevent bias to
+avoid its harms. This section overviews bias in AI and outlines some
+mitigation strategies.</p>
+<p><strong>Aspects of bias in AI.</strong> A bias is <em>systematic</em>
+when it includes a pattern of repeated deviation from the true values in
+one direction. Unlike random unstructured errors, or “noise,” these
+biases are not reliably fixed by just adding more data. Resolving
+ingrained biases often requires changing algorithms, data collection
+practices, or how the AI system is applied. <em>Algorithmic bias</em>
+occurs when any computer system consistently produces results that
+disadvantage certain groups over others. Some biases are relatively
+harmless, like a speech recognition system that is better at
+interpreting human language than whale noises. However, other forms of
+bias can result in serious social harms, such as partiality to certain
+groups, inequity, or unfair treatment.</p>
+<p><strong>Bias can manifest at every stage of the AI
+lifecycle.</strong> From data collection to real-world deployment, bias
+can be introduced through multiple mechanisms at any step in the
+process. Historical and social prejudices produce skewed training data,
+propagating flawed assumptions into models. Flawed models can cement
+biases into the AI systems that help make important societal decisions.
+In addition, humans misinterpreting results can further compound bias.
+After deployment, biased AI systems can perpetuate discriminatory
+patterns through harmful feedback loops that exacerbate bias. Developing
+unbiased AI systems requires proactively identifying and mitigating
+biases across the entire lifecycle.</p>
+<figure id="fig:enter-label">
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bias_diagram.png" class="tb-img-full" style="width: 90%"/>
+<p class="tb-caption">Figure 3.1: Systematic psychological, historical, and social biases can lead to algorithmic biases
+within AI systems. </p>
+<!--<figcaption>Systematic psychological, historical, and social biases can-->
+<!--lead to algorithmic biases within AI systems.</figcaption>-->
+</figure>
+<p><strong>Biases in AI often reflect systemic biases.</strong>
+Systematic biases can occur even against developers’ intentions. For
+instance, Amazon developed an ML-based resume-screening algorithm
+trained on historical hiring decisions. However, as the tech industry is
+predominantly male, this data reflected skewed gender proportions in the
+data (about 60% male and 40% female) <span class="citation"
+data-cites="amazon_bias">[1]</span>. Consequently, the algorithm scored
+male applicants higher than equally qualified women, penalizing resumes
+with implicit signals like all-female colleges. The algorithm
+essentially reproduced real-world social biases in hiring and
+employment. This illustrates how biased data, when fed into AI systems,
+can inadvertently perpetuate discrimination. Organizations must be
+vigilant about biases entering any stage of the machine learning
+pipeline.</p>
+<p><strong>In many countries, some social categories are legally
+protected from discrimination.</strong> Groups called <em>protected
+classes</em> are legally protected from harmful forms of bias. These
+often include race, religion, sex/gender, sexual orientation, ancestry,
+disability, age, and others. Laws in many countries prohibit denying
+opportunities or resources to people solely based on these protected
+attributes. Thus, AI systems exhibiting discriminatory biases against
+protected classes can produce unlawful outcomes. Mitigating algorithmic
+bias is crucial for ensuring that AI complies with equal opportunity
+laws by avoiding discrimination.</p>
+<p><strong>Conclusion.</strong> Identifying and mitigating biases is
+crucial to build social trust in AI. This section discusses the main
+sources of bias as well as strategies researchers are exploring to
+mitigate bias. However, this overview aims to be brief, so it is not
+exhaustive.<p>
+</p>
+<h2 id="sources-of-bias">6.3.2 Sources of Bias</h2>
+<p>Biases can arise from multiple sources, both from properties of the
+AI system itself and human interaction with the system. This section
+discusses common sources of harmful biases in AI systems, although there
+are many more. First, we will discuss technical sources of bias,
+primarily from flawed data or objectives. Then, we will review some
+biases that arise from interactions between humans and AI systems.</p>
+<h3 id="technical-sources-of-bias-in-ai-systems">Technical Sources of
+Bias in AI Systems</h3>
+<p><strong>An overview of technical sources of bias.</strong> In this
+section, we will review some sources of bias in technical aspects of AI
+systems. First, we will investigate some <em>data-driven</em> sources of
+biases, including flawed training data, subtle patterns that can be used
+to discriminate, biases in how the data is generated or reported, and
+underlying societal biases. Flawed or skewed training data can propagate
+biases into the model’s weights and predictions. Then, we show how RL
+training environments and objectives can also reinforce bias.</p>
+<p><strong>ML models trained on biased datasets can learn and reinforce
+harmful societal biases.</strong> AI systems learn from human-generated
+data, absorbing both valuable knowledge and harmful biases. Even when
+unintentional, this data frequently mirrors ingrained societal
+prejudices. As a result, AI models can propagate real-world
+discrimination by learning biases from their input data. For instance, a
+lawsuit found that Facebook’s ad targeting algorithm violated the Fair
+Housing Act because it learned to exclude users from seeing housing ads
+based on race, gender, or other protected traits. Similarly, ML models
+can reflect political biases, deprioritizing users from specific
+political affiliations by showing their content to smaller audiences. As
+another example, an NLP model trained on a large corpus of internet text
+learned to reinforce gender stereotypes, completing sentence structures
+of the format “man is to X as woman is to Y” with content such as “man
+is to computer programmer as woman is to homemaker” <span
+class="citation" data-cites="bolukbasi2016man">[2]</span>. These
+examples show how ML models can amplify existing social biases.</p>
+<p><strong>Models can learn to discriminate based on subtle
+correlations.</strong> One intuitive way to fix bias is to remove
+protected attributes like gender and achieve “fairness through
+unawareness.” But this is not enough to remove bias. ML models can learn
+subtle correlations that serve as proxies for these attributes. For
+example, even in datasets with gender information removed,
+resume-screening models learned to associate women with certain colleges
+and assigned them lower scores <span class="citation"
+data-cites="amazon_bias">[1]</span>. In another study, ML models
+erroneously labeled images of people cooking as women, due to learned
+gender biases <span class="citation"
+data-cites="zhao2017men">[3]</span>. Thus, models can discriminate even
+when the data does not contain direct data about protected classes. This
+hidden discrimination can harm protected groups despite efforts to
+prevent bias.</p>
+<p><strong>Biased or unrepresentative data collection can lead to biased
+decisions.</strong> Training data reflects biases in how the data was
+collected. If the training data is more representative of some groups
+than others, the predictions from the model may also be systematically
+worse for the underrepresented groups. Thus, the model will make worse
+or biased decisions for the group that is represented less in the
+dataset. Imbalances in training data occur when the data is skewed with
+respect to output labels, input features, and data structure. For
+instance, a disease prediction dataset with 100,000 healthy patients but
+only 10 sick patients exhibits a large class imbalance. The minority
+class with fewer examples is underrepresented.</p>
+<p><strong>Several other problems can introduce bias in AI training
+data.</strong> Systematic problems in the data can add bias. For
+instance, <em>reporting bias</em> occurs when the relative frequency of
+examples in the training data misrepresents real-world frequencies.
+Often, the frequency of outcomes in legible data does not reflect their
+actual occurrence. For instance, the news amplifies shocking events and
+under-reports normal occurrences or systematic, ongoing
+problems—reporting shark attacks rather than cancer deaths. <em>Sampling
+bias</em> occurs when the data collection systematically over-samples
+some groups and undersamples others. For instance, facial recognition
+datasets in Western countries often include many more lighter-skinned
+individuals. <em>Labeling bias</em> is introduced later in the training
+process, when systematic errors in the data labeling process distort the
+training signal for the model. Humans may introduce their own subjective
+biases when labeling data.<p>
+Beyond problems with the training data, the training environments and
+objectives of RL models can also exhibit problems that promote bias.
+Now, we will review some of these sources of bias.</p>
+<p><strong>Training environments can also amplify bias.</strong>
+<em>Reward bias</em> occurs when the environments used to train RL
+models introduce biases through improper rewards. RL models learn based
+on the rewards received during training. If these rewards fail to
+penalize unethical or dangerous behavior, RL agents can learn to pursue
+immoral outcomes. For example, models trained in video games may learn
+to accomplish goals by harming innocents if these actions are not
+sufficiently penalized in training. Some training environments may fail
+to encourage good behaviors enough, while others can even incentivize
+bad behavior by rewarding RL agents for taking harmful actions. Humans
+must carefully design training environments and incentives that
+encourage ethical learning and behavior <span class="citation"
+data-cites="gilbert2022choices">[4]</span>.</p>
+<p><strong>RL models can optimize for training objectives that amplify
+bias or harm.</strong> Reinforcement learning agents will try to
+optimize the goals they are given in training, even if these objectives
+are harmful or biased, or reflect problematic assumptions about value.
+For example, a social media news feed algorithm trained to maximize user
+engagement may prioritize sensational, controversial, or inflammatory
+content to increase ad clicks or watch time. Technical RL objectives
+often make implicit value assumptions that cause harm, especially when
+heavily optimized by a powerful AI system <span class="citation"
+data-cites="stray2021optimizing kross2013facebook">[5], [6]</span>. News
+feed algorithms implicitly assume that how much a user engages with some
+content is a high-quality indicator of the <em>value</em> of that
+content, therefore showing it to even more users. After all, social
+media companies train ML models to maximize ad revenue by increasing
+product usage, rather than fulfilling goals that are harder to monetize
+or quantify, such as improving user experience or promoting accurate and
+helpful information. Especially when taken to their extreme and applied
+at a large scale, RL models with flawed training objectives can
+exacerbate polarization, echo chambers, and other harmful outcomes.
+Problems with the use of flawed training objectives are further
+discussed in the Proxy Gaming section.<p>
+In summary, biased training data, flawed objectives, and other technical
+aspects of ML models can introduce bias, illustrating how ML bias can
+perpetuate existing disparities. Carefully scrutinizing the technical
+details of models is crucial for mitigating these biases.</p>
+<h3 id="biases-from-human-ai-interactions">Biases from human-AI
+interactions</h3>
+<p><strong>Interactions between humans and AI systems can produce many
+kinds of bias.</strong> It is not enough to just ensure that AI systems
+have unbiased training data: humans interacting with AI systems can also
+introduce biases during development, usage, and monitoring. Flawed
+evaluations allow biases to go unnoticed before models are deployed.
+<em>Confirmation bias</em> in the context of AI is when people focus on
+algorithm outputs that reinforce their pre-existing views, dismissing
+opposing evidence. Humans may emphasize certain model results over
+others, skewing the outputs even if the underlying AI system is
+reliable. This distorts our interpretation of model decisions.
+<em>Overgeneralization</em> occurs when humans draw broad conclusions
+about entire groups based on limited algorithmic outputs that reflect
+only a subset. Irrationality and human cognitive bias play a substantial
+role in biasing AI systems.</p>
+<p><strong>Human-AI system biases can be reinforced by feedback
+loops.</strong> <em>Feedback loops</em> in human-AI systems often arise
+when the output of an AI system is used as input in future AI models. An
+AI system trained on biased data could make biased decisions that are
+fed into future models, reinforcing bias in a self-perpetuating cycle.
+We speak more about these feedback loops in the Complex Systems chapter.
+<em>Self-fulfilling prophecies</em> can occur when an algorithmic
+decision influences actual outcomes, as the model reinforces its own
+biases and influences future input data <span class="citation"
+data-cites="krueger2020hidden">[7]</span>. In this way, models can
+amplify real-world biases, making them even more real. For example, a
+biased loan-approval algorithm could deny loans to lower-income groups,
+reinforcing real-world income disparities that are then reflected in the
+training data for future models. This process can make bias more severe
+over time.</p>
+<p><strong>Automation and measurability induce bias.</strong> Bias can
+be amplified by <em>automation bias</em>, where humans favor algorithmic
+decisions over human decisions, even if the algorithm is wrong or
+biased. This blind trust can cause harm when the model is flawed.
+Similarly, a <em>bias toward the measurable</em> can promote a general
+preference for easily quantifiable attributes. Human-AI systems may
+overlook important qualitative aspects and less tangible factors.</p>
+<p><strong>Despite their problems, AI systems can be less biased than
+humans.</strong> Although there are legitimate concerns, AI systems used
+for hiring and other sensitive tasks may sometimes lead to <em>less</em>
+biased decisions when compared with human decision-makers. Humans often
+harbor strong biases that skew their judgment in these decisions. With
+careful oversight and governance, AI holds promise to reduce certain
+biases relative to human motivations.<p>
+In summary, human biases and blind spots during development, usage, and
+governance of AI systems contribute to biased outputs from AI systems. A
+holistic approach for critically examining human-AI interaction is
+required to address this.</p>
+
+<h2 id="ai-fairness-concepts">6.3.3 AI Fairness Concepts</h2>
 <strong>Fairness is difficult to
 specify.</strong>
 Fairness is a complicated and disputed concept with no single
@@ -112,7 +354,7 @@ However, there is no single mathematical definition of fairness that
 matches everyone’s complex social expectations. This is a problem
 because satisfying one definition can often violate others: there are
 tensions between statistical notions of fairness.</p>
-<h2 id="limitations-of-fairness">6.3.2 Limitations of Fairness</h2>
+<h2 id="limitations-of-fairness">6.3.4 Limitations of Fairness</h2>
 <p>There are several problems with trying to create fair AI systems.
 While we can try to improve models’ adherence to the many metrics of
 fairness, the three classic definitions of fairness are mathematically
@@ -195,28 +437,30 @@ class="citation" data-cites="harrison2020emperical">[14]</span>, such as
 whether race should be used by the model or whether the model’s accuracy
 or false positive rates are more important. It is unclear how to define
 fairness in a generally acceptable way.</p>
-<h2 id="approaches-to-improving-fairness">6.3.3 Approaches to Improving
+<h2 id="approaches-to-improving-fairness">6.3.5 Approaches to Combating Bias and Improving
 Fairness</h2>
 <p>Due to the impossibility theorem and inconsistent and competing
 ideas, it is only possible to pursue some <em>definition</em> or
 <em>metric</em> of fairness—fairness as conceptualized in a particular
-way. There are two fundamental and complementary ways to approach this
-more limited goal: technical approaches that focus directly on
-algorithmic systems, and <em>social approaches</em> that focus on
-related social factors.</p>
+way. This goal can be pursued both through technical approaches that focus 
+directly on algorithmic systems, and other approaches that focus on related social factors.</p>
+
 <strong>Technical approaches.</strong>
-Metrics of fairness such as statistical parity identify aspects of ML
-systems that are relevant for fairness. Technical approaches to
-improving fairness include a host of methods to improve models’
-performance on these metrics, which can mitigate some forms of
-unfairness. These often benefit from being broadly applicable with
-little domain-specific knowledge. Developers can test predictive models
-against various metrics for fairness and adjust models so that they
-perform better. Fairness toolkits offer programmatic methods for
-implementing technical fairness metrics into ML pipelines. Other methods
-for uncovering hidden sources of unfairness in ML models include audits,
-adversarial testing, sensitivity analysis, and ranking feature
-importances.</p>
+Metrics of fairness such as statistical parity identify aspects of ML systems that 
+are relevant for fairness. Technical approaches to improving fairness include a host
+ of methods to improve models’ performance on these metrics, which can mitigate some 
+forms of unfairness. These often benefit from being broadly applicable with little 
+domain-specific knowledge. Developers can test predictive models against various 
+metrics for fairness and adjust models so that they perform better. Fairness toolkits
+ offer programmatic methods for implementing technical fairness metrics into ML pipelines.
+ Other methods for uncovering hidden sources of unfairness in ML models include audits, 
+adversarial testing, sensitivity analysis, and ranking feature importances. One promising
+ technical approach involves training an adversarial network to predict a protected variable
+ from an ML model’s outputs <span
+class="citation" data-cites="zhang2018mitigating">[28]</span>. By penalizing the model when the 
+adversary succeeds at predicting a variable like race or political affiliation from the 
+model’s outputs, the model is forced to avoid discrimination and make predictions that do
+ not unfairly depend on sensitive attributes. When applied well, this can minimize biases.</p>
 <strong>Problems with technical
 approaches.</strong>
 However, technical methods fall short of addressing the social
@@ -224,15 +468,27 @@ consequences of unfairness. They fail to adjust to sociocultural
 contexts and struggle to combat biases inherited from training data.
 “Fairness through unawareness” aims to remove protected characteristics
 like gender and race from datasets to prevent sexism and racism, but
-fails miserably in practice because this data is embedded in correlates
-[as we explored in the Bias section in chapter]. A focus on narrow
+often fails in practice because this data is embedded in correlates. A focus on narrow
 measures can ignore other relevant considerations, and measures are
 often subject to proxy gaming (See the Proxy Gaming section). A more
 in-depth, qualitative, and socially grounded approach is often harder
 and does not scale as easily as technical methods, but it is still
 essential for navigating concerns in AI fairness.</p>
-<strong>Social approaches.</strong>
-Social approaches emphasize that unfairness is tied to systemic
+<p><strong>Engineering strategies for reducing bias must be paired with
+non-technical strategies.</strong> Ultimately, technical debiasing alone
+is insufficient. Social processes are crucial as humans adapt to AI. We
+speak about this at length in the Systemic Factors section in the Safety Engineering chapter, but here we will only
+mention a few ideas. For instance, <em>early bias detection</em>
+involves creating checks to identify risks of bias before the AI system
+is deployed or even trained, so that models that have discriminatory
+outputs can be rejected before they cause harm. Similarly, <em>gradual
+deployment</em> safely transitions AI systems into use while monitoring
+them for bias so that harms can be identified early and reversed.
+<em>Regulatory changes</em> can require effective mitigation strategies
+by law, mandating transparency and risk mitigation in safety-critical AI
+systems, as we discuss in the Governance chapter.</p>
+<strong>Other approaches.</strong>
+Other approaches emphasize that unfairness is tied to systemic
 social injustices propagated through technical systems. They highlight
 political, economic, and cultural factors and apply methods such as
 anti-discrimination policy, legal reform, and a design process focused
@@ -242,42 +498,170 @@ mitigate sources of unfairness early. Substantive social changes are
 generally more expensive and difficult than technical approaches.
 However, they can be more impactful, reducing models’ negative social
 impacts.</p>
-<strong>Frameworks for fairness.</strong>
-Ongoing research aims to create frameworks for AI fairness that blend
-technical and social considerations. <em>Fair deployment</em> frameworks
-focus on gradually deploying AI while assessing its impacts, ensuring
-there are strong oversight mechanisms and independent audits, and
-establishing methods to redress any harm. Audits can promote an
-understanding of the data sources and decision-making processes of ML
-models. This transparency is helpful but insufficient, as we saw in the Single Agent Safety
-chapter in the section on Opaqueness. <em>Participatory
-design</em> frameworks involve all of the impacted communities in the
-development of AI systems to surface unfairness early and ensure the
-product meets diverse human needs. Other frameworks focus on how
-hierarchies and distributions of power can intersect to produce
-unfairness or evaluating how AI affects the least advantaged in society.
-These broad frameworks recognize that effective solutions require
-combining technical interventions with social and legal policies to
-address underlying social factors.</p>
+<p><strong>Participatory design can mitigate bias in AI
+development.</strong> An important non-technical strategy for bias
+reduction is stakeholder engagement, or deeply engaging impacted groups
+in the design of the AI system to identify potential biases proactively.
+Diverse teams and users can also help engineering teams incorporate
+diverse perspectives into the R&amp;D process of AI models to anticipate
+potential biases proactively. One approach to proactively addressing
+bias is <em>participatory design</em>, which aims to include those
+affected by a developing technology as partners in the design process to
+ensure that the final product meets diverse human interests. For
+example, before implementing an AI notetaking assistant for doctors,
+participatory design can require hospitals to improve the system based
+on feedback from all stakeholders during iterative design sessions with
+nurses, doctors, and patients. Rather than just evaluating ML models on
+test sets, developers should consult with the affected groups during the
+design process. Adding oversight mechanisms for rejecting models with
+discriminatory outputs can also enable catching biases before AI models
+affect real decisions.</p>
+<p><strong>Independent audits are important for identifying biases in AI
+systems before deployment.</strong> Auditors can systematically evaluate
+datasets, models, and outputs to uncover discrimination and hold the
+developers of AI systems accountable. There are several signs of bias to
+look for when auditing datasets. For example, auditors can flag missing
+data for certain subgroups, which indicates underrepresentation.
+<em>Data skew</em>, where certain groups are misrepresented compared to
+their real-world prevalence, is another sign of bias. Patterns and
+correlations with protected classes could indicate illegal biases.
+Auditors can also check for disparities in the model outputs. By
+auditing throughout the process, developers can catch biases early,
+improving data and models <em>before</em> their biases propagate. Rather
+than waiting until after the system has harmful impacts, meticulous
+audits should be integrated as part of the engineering and design
+process for AI systems <span class="citation"
+data-cites="raji2020closing">[9]</span>. Audits are especially effective
+when conducted independently by organizations without a stake in the AI
+system’s development, allowing for impartial and rigorous auditing
+throughout the process.</p>
+<p><strong>Effective model evaluation is a crucial way to reduce
+bias.</strong> An important part of mitigating bias is proactively
+evaluating AI systems by analyzing their outputs for biases. Models can
+be tested by measuring performance metrics such as false positive and
+false negative rates separately for each subgroup. For instance,
+significant performance disparities between groups like men and women
+can reveal unfair biases. Ongoing monitoring across demographics is
+necessary to detect unintended discrimination before AI systems
+negatively impact people’s lives. Without rigorous evaluation of model
+outputs, harmful biases can easily go unnoticed.</p>
+<p><strong>Reducing toxicity in data aims to mitigate harmful biases in
+AI, but faces challenges.</strong> <em>Toxicity</em> refers to harmful
+content, such as inflammatory comments or hate speech. Models trained on
+unfiltered text can absorb these harmful elements. As a result, AI
+models can propagate toxic content and biases if not carefully designed.
+For example, language models can capture stereotypical and harmful
+associations between social groups and negative attributes based on the
+frequency of words occurring together. Reducing toxicity in the training
+data can mitigate some biases. For example, developers can use toxicity
+classifiers to clean up the internet data, using both sentiment and
+manual labels to identify toxic content. However, all of these
+approaches still run into major challenges and limitations. Classifiers
+are still subject to social bias, evaluations can be brittle and
+unreliable, and bias is often very hard to measure.</p>
+<p><strong>Trade-offs can emerge between correcting one form of bias and
+introducing new biases.</strong> Bias reduction methods can introduce
+new biases, as classifiers have social biases, evaluations are
+unreliable, and bias reduction can introduce new biases. For example,
+some experiments show that an attempt to correct for toxicity in
+OpenAI’s older content moderation system resulted in biased treatment
+towards certain political and demographic groups: a previous system
+classified negative comments about conservatives as not hateful, while
+flagging the exact same comments about liberals as hateful <span
+class="citation" data-cites="Rozado2023treatment">[10]</span>. It also
+exhibited disparities in classifying negative comments towards different
+nationalities, religions, identities, and more.<p>
+In summary, biases can arise at all stages of the AI lifecycle and
+compound in complicated ways. A multifaceted approach is necessary,
+combining development practices, technical strategies, and governance,
+to detect and reduce harmful biases in AI systems.</p>
+
 <h3 id="conclusion">Conclusion</h3>
-<p>Technical definitions of fairness are useful tools, but improving the
-fairness of AI necessitates broader approaches. There are inherent
-tradeoffs between fairness criteria which means that satisfying all the
-popular definitions of fairness is logically impossible. Additionally,
-satisfying some mathematical definitions does not guarantee fair
-outcomes anyway. Developing fair AIs might require broader
-sociotechnical solutions such as the participation of stakeholders in
-deciding the tradeoffs a model makes between various fairness criteria.
-Research on algorithmic fairness continues to influence how AI systems
-are built and used. In the next section, we will examine how AI systems
-are currently being built and used, focusing on the implicit goal of
-wealth maximization within the Economic Engine that creates and shapes
-AIs. We will also consider a few days that the economy might, in turn,
-be transformed by AIs as well.</p>
+<p>We have discussed some of the sources of bias in AI systems, including 
+problems with training data, data collection processes, training environments,
+ and flawed objectives that AI systems optimize. Human interactions with AI systems,
+ such as automation bias and confirmation bias, can introduce additional biases.</p>
+
+We can clarify which types of bias or unfairness we wish to avoid using 
+mathematical definitions such as statistical parity, equalized odds, and calibration. 
+However, there are inherent tensions and trade-offs between different notions of fairness. 
+There is also disagreement between stakeholders' intuitions about what constitutes fairness.</p>
+
+Technical approaches to debiasing including predictive models and adversarial 
+testing are useful tools to identify and remove biases. However, improving the fairness 
+of AI systems requires broader sociotechnical solutions such as participatory design, 
+independent audits, stakeholder engagement, and gradual deployment and monitoring of AI systems.
+</p>
 
 <br>
 <br>
 <h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-amazon_bias" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] J.
+Dastin, <span>“Amazon scraps secret AI recruiting tool that showed bias
+against women.”</span> [Online]. Available: <a
+href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G">https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G</a></div>
+</div>
+<div id="ref-bolukbasi2016man" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] T.
+Bolukbasi, K.-W. Chang, J. Zou, V. Saligrama, and A. Kalai, <span>“Man
+is to computer programmer as woman is to homemaker? Debiasing word
+embeddings.”</span> 2016. Available: <a
+href="https://arxiv.org/abs/1607.06520">https://arxiv.org/abs/1607.06520</a></div>
+</div>
+<div id="ref-zhao2017men" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+Zhao, T. Wang, M. Yatskar, V. Ordonez, and K.-W. Chang, <span>“Men also
+like shopping: Reducing gender bias amplification using corpus-level
+constraints.”</span> 2017. Available: <a
+href="https://arxiv.org/abs/1707.09457">https://arxiv.org/abs/1707.09457</a></div>
+</div>
+<div id="ref-gilbert2022choices" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] T.
+K. Gilbert, S. Dean, T. Zick, and N. Lambert, <span>“Choices, risks, and
+reward reports: Charting public policy for reinforcement learning
+systems.”</span> 2022. Available: <a
+href="https://arxiv.org/abs/2202.05716">https://arxiv.org/abs/2202.05716</a></div>
+</div>
+<div id="ref-stray2021optimizing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] J.
+Stray, I. Vendrov, J. Nixon, S. Adler, and D. Hadfield-Menell,
+<span>“What are you optimizing for? Aligning recommender systems with
+human values.”</span> 2021. Available: <a
+href="https://arxiv.org/abs/2107.10939">https://arxiv.org/abs/2107.10939</a></div>
+</div>
+<div id="ref-kross2013facebook" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] E.
+Kross <em>et al.</em>, <span>“Facebook use predicts declines in
+subjective well-being in young adults,”</span> <em>PloS one</em>.</div>
+</div>
+<div id="ref-krueger2020hidden" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] D.
+Krueger, T. Maharaj, and J. Leike, <span>“Hidden incentives for
+auto-induced distributional shift.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2009.09153">https://arxiv.org/abs/2009.09153</a></div>
+</div>
+<div id="ref-zhang2018mitigating" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] B.
+H. Zhang, B. Lemoine, and M. Mitchell, <span>“Mitigating unwanted biases
+with adversarial learning.”</span> 2018. Available: <a
+href="https://arxiv.org/abs/1801.07593">https://arxiv.org/abs/1801.07593</a></div>
+</div>
+<div id="ref-raji2020closing" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] I.
+D. Raji <em>et al.</em>, <span>“Closing the AI accountability gap:
+Defining an end-to-end framework for internal algorithmic
+auditing.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2001.00973">https://arxiv.org/abs/2001.00973</a></div>
+</div>
+<div id="ref-Rozado2023treatment" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] D.
+Rozado, <span>“The unequal treatment of demographic groups by
+ChatGPT/OpenAI content moderation system.”</span> [Online]. Available:
+<a
+href="https://davidrozado.substack.com/p/openaicms">https://davidrozado.substack.com/p/openaicms</a></div>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="0"
 role="list">
 <div id="ref-angwin2016bias" class="csl-entry" role="listitem">
