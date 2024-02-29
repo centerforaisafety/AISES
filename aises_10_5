@@ -44,7 +44,7 @@ as defined under the von Neumann-Morgenstern model, and how non-expected
 utility theories help us better understand human choices. Having a
 stronger model of human behavior will ultimately help us design AIs that
 behave in ways more aligned with humans.</p>
-<h2 id="humans-and-rationality">A.5.1 Humans and Rationality</h2>
+<h2 id="humans-and-rationality">B.5.1 Humans and Rationality</h2>
 <p><strong>Humans are not ideally rational agents.</strong> As we
 discussed before, rational agents have a thorough understanding of their
 own preferences, have complete and stable preferences, and are able to
@@ -78,7 +78,7 @@ not be ideally rational. AIs with many irrational behaviors could be
 harder to predict and therefore be harder to control. We will now
 proceed to formalize our understanding of why expected utility theory
 fails to capture human behavior.</p>
-<h2 id="evidence-against-expected-utility-theory">A.5.2 Evidence Against
+<h2 id="evidence-against-expected-utility-theory">B.5.2 Evidence Against
 Expected Utility Theory</h2>
 <p><strong>Overview.</strong> Humans violate the von Neumann-Morgenstern
 axioms in many different ways. We consider three examples in this
@@ -386,7 +386,7 @@ probabilities and outcomes, even if they are presented differently. In
 reality, an individual’s habits, environment, and cognitive biases can
 cause different responses to framings of the same underlying lottery.
 These are ways individuals can deviate from expected utility theory.</p>
-<h2 id="prospect-theory">A.5.3 Prospect Theory</h2>
+<h2 id="prospect-theory">B.5.3 Prospect Theory</h2>
 <p><strong>Prospect theory is a prominent non-expected utility model of
 human behavior.</strong> Prospect theory seeks to accurately describe
 how people make choices in risky situations by providing a psychological
@@ -456,7 +456,7 @@ probabilities.<p>
 </figure>
 
 
-<h2 id="models-of-decision-making">A.5.4 Models of Decision Making</h2>
+<h2 id="models-of-decision-making">B.5.4 Models of Decision Making</h2>
 <p><strong>Generalized decision-making models.</strong> We can put the
 above together to describe many different types of decision-making
 models more than expected utility theory. Recall that expected utility
@@ -539,7 +539,7 @@ Kahneman, <em>Thinking, fast and slow</em>. Farrar, Straus; Giroux,
 <div id="ref-mccarthy2016probability" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[4] D.
 McCarthy, <span>“Probability in ethics,”</span> in <em>The oxford
-handbook of philosophy and probability</em>, A. Ha?jek and C. Hitchcock,
+handbook of philosophy and probability</em>, A. Hajek and C. Hitchcock,
 Eds., Oxford University Press, 2016, pp. 705–737.</div>
 </div>
 <div id="ref-tversky1981framing" class="csl-entry" role="listitem">
