@@ -24,7 +24,7 @@
     }
 </style>
 
-<h1 id="conclusion">3.9 Conclusion</h1>
+<h1 id="conclusion">3.7 Conclusion</h1>
 <p>In this chapter, we discussed several key themes: we do not know how
 to instill our values robustly in individual AI systems, we are unable
 to predict future AI systems, and we cannot reliably evaluate AI
@@ -89,30 +89,6 @@ an exhaustive list.<p>
         </tr>
 
         <tr>
-        <td style="text-align: center;">Machine <br> Unlearning </td>
-        <td style="text-align: left;">
-            <ul>
-                <li>Deliberately removing specific capabilities from an AI system could be useful to ensure that AI systems that are broadly accessible do not have the 
-know-how to support serious misuse such as helping with creating bioweapons or conducting cyber-attacks</li>
-                <li>Unlearning could be particularly helpful for models fine-tuned through APIs; 
-before users can access their fine-tuned models, hazardous capabilities could be scrubbed before the models can be queried</li>
-            </ul>
-        </td>
-        </tr>
-
-        <tr>
-        <td style="text-align: center;">Adversarial <br> Robustness </td>
-        <td style="text-align: left;">
-            <ul>
-                <li>Increasing the robustness of AI systems can help to prevent misuse. It can also reduce
-risks of proxy gaming by making models more robust against optimisers</li>
-                <li>While robustness is a well-developed field in some parts of machine learning such as
-computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents</li>
-            </ul>
-        </td>
-        </tr>
-
-        <tr>
         <td style="text-align: center;">Trojan <br> Detection </td>
         <td style="text-align: left;">
             <ul>
@@ -141,6 +117,30 @@ execute a conservative fallback policy. A successful anomaly detector could serv
 AI watchdog that could reliably detect and triage rogue AI threats. Anomaly detectors
 could also be helpful for detecting other threats such as novel biological hazards
 </li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Adversarial <br> Robustness </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>Increasing the robustness of AI systems can help to prevent misuse. It can also reduce
+risks of proxy gaming by making models more robust against optimisers</li>
+                <li>While robustness is a well-developed field in some parts of machine learning such as
+computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Machine <br> Unlearning </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>Deliberately removing specific capabilities from an AI system could be useful to ensure that AI systems that are broadly accessible do not have the 
+know-how to support serious misuse such as helping with creating bioweapons or conducting cyber-attacks</li>
+                <li>Unlearning could be particularly helpful for models fine-tuned through APIs; 
+before users can access their fine-tuned models, hazardous capabilities could be scrubbed before the models can be queried</li>
             </ul>
         </td>
         </tr>
