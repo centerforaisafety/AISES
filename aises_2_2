@@ -1136,8 +1136,7 @@ responses from their environment. It assumes that tasks can be modeled
 as goals to be achieved by an agent maximizing rewards from its
 environment. RL is distinctive since it does not require pre-collected
 data, as the agent can begin with no information and interact with its
-environment to learn new things and acquire new data. This approach will
-be discussed in more depth later in the Reinforcement Learning Section.</p>
+environment to learn new things and acquire new data.</p>
 <p><strong>Examples of RL.</strong> RL can help robots learn to navigate
 an unknown environment by taking actions and receiving feedback in the
 form of rewards or penalties based on performance. Through trial and
