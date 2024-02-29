@@ -656,8 +656,7 @@ that adhere to ethical restrictions may avoid seeking power if that
 would require ethically unacceptable means. With an imperfect level of
 reliability, we can also design AI systems to refuse actions that will
 leave them with too much power. Approaches that impose penalties on
-power can reduce prospective power of AIs. We discuss methods for
-embedding ethics into AIs in the Machine Ethics chapter.</p>
+power can reduce prospective power of AIs.</p>
 <p><strong>Examples where shutting down can be rational.</strong> It is
 trivial to imagine goals where it is actually optimal to relinquish
 power, such as when the goal is “shut yourself down”. As another
