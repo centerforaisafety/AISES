@@ -1,61 +1,9 @@
+<h1 id="evolutionary-game-theory">Evolutionary Game Theory</h1>
+<p>In the main text, we began our discussion of game theory by exploring the Prisoner's Dilemma, a simple game that involves two agents who interact only once. 
+To model real-world multi-agent dynamics more closely, we first built on this by iterating the two agents' interactions. We next introduced more than two agents into the game.
 
-<h2 id="evolutionary-game-theory">8.2.6 Evolutionary Game Theory</h2>
-<p>We began our discussion of game theory by exploring the Prisoner’s
-Dilemma, a simple game that involves two agents who interact only once.
-To model real-world multi-agent dynamics more closely, we first built on
-this by iterating the two agents’ interactions. We next introduced more
-than two agents into the game. Now, we introduce a third elaboration:
-the ability for agents to adapt their strategies. We look at how the
-multi-agent dynamics we have explored so far change when the agents
-concerned can adapt their behaviors.<p>
-<h3 id="concealment-of-information">Concealment of information</h3>
-<p>Honesty is sometimes the best policy in an evolutionary game, but not
-always. Evolutionary equilibria may arise in which individual organisms
-use a mix of deceptive tactics to maximize their fitness. In other
-words, an ESS can entail the concealment of information. This section
-examines how evolutionary dynamics may pressure AI agents to evolve
-deceptive behaviors in contexts where these are more evolutionarily
-stable than honesty. Note that we examine other risks of deceptive AI in
-the section of the chapter.</p>
-<p><strong>Concealment of information can be an ESS.</strong> In an
-evolutionary setting, a certain frequency or degree of dishonest
-communication can be selected for <span class="citation"
-data-cites="hamblin2009evolution">[22]</span>. Non-venomous king snakes
-closely resemble venomous coral snakes to ward off predators <span
-class="citation" data-cites="greene1981coral">[23]</span>. Cannibalistic
-Portia spiders pluck the webs of other spiders to mimic the vibrations
-of struggling prey, thus luring their victim out into the open to be
-killed and eaten <span class="citation"
-data-cites="jackson1998spider">[24]</span>. Several flower species mimic
-the appearance of certain female insects in order to better attract
-males for pollination <span class="citation"
-data-cites="schiestl2005success">[25]</span>. Some bacteria produce
-specific molecules that act as misdirection signals to other competing
-bacteria, which reduce the probability of attack and detection, allowing
-the bacteria to maintain its competitive advantage <span
-class="citation" data-cites="mokkonen2015evolutionary">[26]</span>.
-Evolutionarily stable dishonesty is common in the natural world.</p>
-<p><strong>Natural selection may favor AIs that conceal
-information.</strong> Consider the following scenario: a game of Poker.
-Agents will be better off if they have a very good ‘poker face’ because
-other agents will not be able to deduce tell-tale signs associated with
-bluffing or a good hand. The incentive to have a good “poker face” is
-not malicious: it does not seek to exploit other agents and their
-strategies, but rather, to maximize one’s own payoff in a competitive
-game. We might extend this reasoning to AI. If multiple AIs operate
-within a competitive landscape where available resources are limited,
-they may be incentivized to conceal information from other AIs or humans
-in order to preserve a competitive advantage. In other words, an AI
-might develop a good ‘poker face’ since revealing certain kinds of
-information might affect their abilities to maximize payoff. Thus,
-strategies involving the concealment of information could be favored by
-natural selection among AIs, giving rise to immoral behaviors that
-emerge from amoral (morally neutral) grounds.</p>
-<p><strong>AI agents may develop immoral behaviors from amoral
-conditions.</strong> We’ve shown that dishonest communication can be an
-ESS. The effects of inter-agent engagement can incentivize behavior we
-view as immoral that nonetheless evolves from morally neutral
-circumstances.</p>
+<p>Here, we introduce a third elaboration: the ability for agents to adapt their strategies. We look at how the multi-agent dynamics we have explored so far change when the 
+agents concerned can adapt their behaviors.
 
 This section uses ideas from <em>Evolutionary Game Theory</em>. This
 field was born from a merging of economics and biology in the 1970s when
@@ -143,15 +91,7 @@ dynamics can become cyclical.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
 </figure>
-<p>In an evolutionary Iterated Prisoner’s Dilemma tournament, cyclical
-dynamics may emerge. Shown here is one such example, wherein each of the
-four boxes represents a different population strategy composition, in
-which the most frequent strategy is the one displayed in the box. For
-example, the bottom right green box represents a population strategy
-composition in which the majority of the agents are using the strategy
-<em>always cooperate</em>. A population in any of the four strategy
-compositions shown may be replaced by another composition (as shown by
-the arrows).<p>
+<p>{Example: extortion strategies.} Extortion strategies can perform particularly well in evolutionary tournaments \citep{hilbe2013evolution}. This is especially true in tournaments with more detailed replications of evolutionary dynamics. For instance, in some evolutionary tournaments, agents can produce offspring who inherit both their strategy and score. With the addition of noise, in the form of random mutations, extortionists enjoy great success in this context. In even more sophisticated models that replicate coevolutionary arms races, they are yet more successful. Moreover, simulating a dramatic environmental change in these models often produces an opportunity for exceptionally profitable extortion tactics.<p>
 </p>
 <h3 id="sec:evolutionary-stable-strategies">Evolutionarily Stable
 Strategies and Frequency-Dependent Selection</h3>
@@ -363,3 +303,52 @@ that AI agents may engage in extortion in order to pursue their goals.
 This could involve optimized disvalue at extreme scales. We discussed
 one such possibility: the torture of digital minds.<p>
 </p>
+
+<h3 id="concealment-of-information">Concealment of information</h3>
+<p>Honesty is sometimes the best policy in an evolutionary game, but not
+always. Evolutionary equilibria may arise in which individual organisms
+use a mix of deceptive tactics to maximize their fitness. In other
+words, an ESS can entail the concealment of information. This section
+examines how evolutionary dynamics may pressure AI agents to evolve
+deceptive behaviors in contexts where these are more evolutionarily
+stable than honesty. Note that we examine other risks of deceptive AI in
+the section of the chapter.</p>
+<p><strong>Concealment of information can be an ESS.</strong> In an
+evolutionary setting, a certain frequency or degree of dishonest
+communication can be selected for <span class="citation"
+data-cites="hamblin2009evolution">[22]</span>. Non-venomous king snakes
+closely resemble venomous coral snakes to ward off predators <span
+class="citation" data-cites="greene1981coral">[23]</span>. Cannibalistic
+Portia spiders pluck the webs of other spiders to mimic the vibrations
+of struggling prey, thus luring their victim out into the open to be
+killed and eaten <span class="citation"
+data-cites="jackson1998spider">[24]</span>. Several flower species mimic
+the appearance of certain female insects in order to better attract
+males for pollination <span class="citation"
+data-cites="schiestl2005success">[25]</span>. Some bacteria produce
+specific molecules that act as misdirection signals to other competing
+bacteria, which reduce the probability of attack and detection, allowing
+the bacteria to maintain its competitive advantage <span
+class="citation" data-cites="mokkonen2015evolutionary">[26]</span>.
+Evolutionarily stable dishonesty is common in the natural world.</p>
+<p><strong>Natural selection may favor AIs that conceal
+information.</strong> Consider the following scenario: a game of Poker.
+Agents will be better off if they have a very good ‘poker face’ because
+other agents will not be able to deduce tell-tale signs associated with
+bluffing or a good hand. The incentive to have a good “poker face” is
+not malicious: it does not seek to exploit other agents and their
+strategies, but rather, to maximize one’s own payoff in a competitive
+game. We might extend this reasoning to AI. If multiple AIs operate
+within a competitive landscape where available resources are limited,
+they may be incentivized to conceal information from other AIs or humans
+in order to preserve a competitive advantage. In other words, an AI
+might develop a good ‘poker face’ since revealing certain kinds of
+information might affect their abilities to maximize payoff. Thus,
+strategies involving the concealment of information could be favored by
+natural selection among AIs, giving rise to immoral behaviors that
+emerge from amoral (morally neutral) grounds.</p>
+<p><strong>AI agents may develop immoral behaviors from amoral
+conditions.</strong> We’ve shown that dishonest communication can be an
+ESS. The effects of inter-agent engagement can incentivize behavior we
+view as immoral that nonetheless evolves from morally neutral
+circumstances.</p>
