@@ -210,7 +210,7 @@ Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full"  style="width: 70%"/>
-<p class="tb-caption">Figure 7.11: The bargaining range is defined by the potential gains from cooperation.</p>
+<p class="tb-caption">Figure 7.9: The bargaining range is defined by the potential gains from cooperation.</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p>A) An axis of expected value distribution between two
@@ -419,7 +419,7 @@ dominance, for instance, by requiring that advanced AIs have a built-in
 incorruptible fail-safe mechanism, such as a manual “off-switch.”</p>
 <figure id="fig:first-strike">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range_2.png" class="tb-img-full" style="width: 70%"/>
-    <p class="tb-caption">Figure 7.12: At time <span class="math inline"> T_0 </span>, Green is more powerful relative to Red, or has a
+    <p class="tb-caption">Figure 7.10: At time <span class="math inline"> T_0 </span>, Green is more powerful relative to Red, or has a
         first-strike advantage that will be lost at <span class="math inline">T_1</span>. At <span class="math inline">T_1</span>, the bargaining
 range no longer extends past Green’s expected value from engaging in
         conflict at <span class="math inline">T_0</span>. Anticipating this leftward shift may incentivize Green
@@ -551,14 +551,14 @@ less likely to instigate conflict <span class="citation"
 data-cites="jenkins2022will">[6]</span>.</p>
 <p><strong>Effect on the bargaining range.</strong> Misinformation can
 prevent agents from finding a mutually-agreeable bargaining range, as
-shown in Figure 9.14. For example, if each agent believes themself to be
+shown in Figure 7.11. For example, if each agent believes themself to be
 the more powerful party, each may therefore want more than half the
 value they are competing for. Thus, each may reject any bargain offer
 the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 7.13: Green either believes themself to be—-or intentionally
+<p class="tb-caption">Figure 7.11: Green either believes themself to be—-or intentionally
 misrepresents themself as—-more powerful than they really are. This
 means that the range of bargain offers Green will choose over conflict
 does not overlap with the equivalent range for Red. Thus, there is no
