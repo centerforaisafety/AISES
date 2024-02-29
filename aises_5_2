@@ -494,7 +494,7 @@ for water and the number of additional bees recruited to the task.</p>
 </p>
 <figure id="feedback">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/ML Training Data Feedback Loop.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 5.2: There are feedback loops in the creation and deployment of AI systems. For example, the curation of training data used 
+<p class="tb-caption">Figure 5.3: There are feedback loops in the creation and deployment of AI systems. For example, the curation of training data used 
 for developing an AI system exhibits feedback loops.</p>
 <!--<figcaption>Feedback Loops in AI Training</figcaption>-->
 </figure>
@@ -538,7 +538,7 @@ generally considered difficult to predict.<p>
 </p>
 <figure id="approaches">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_map_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 5.3: When systems are predictable, small changes in initial conditions can taper out. When
+<p class="tb-caption">Figure 5.4: When systems are predictable, small changes in initial conditions can taper out. When
 they are chaotic, small changes in initial conditions lead to wildly different outcomes.</p>
 <!--<figcaption>Logistic map</figcaption>-->
 </figure>
@@ -805,7 +805,7 @@ may be more or less than 1. We will now discuss these <em>power
 laws</em>, which are another hallmark of complex systems.</p>
 <figure id="approaches">
 <embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/kleiber_v2.png" class="tb-img-full" style="width: 85%"/>
-<p class="tb-caption">Figure 5.4: Data on mammals and birds demonstrate Kleiber’s Law, with a power law relationship
+<p class="tb-caption">Figure 5.5: Data on mammals and birds demonstrate Kleiber’s Law, with a power law relationship
 appearing as a straight line on a log-log graph.</p>
 <!--<figcaption>Kleiber’s Law</figcaption>-->
 </figure>
