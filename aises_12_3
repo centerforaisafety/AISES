@@ -1,0 +1,306 @@
+This section uses ideas from <em>Evolutionary Game Theory</em>. This
+field was born from a merging of economics and biology in the 1970s when
+John Maynard-Smith and George Price found a way to describe living
+organisms’ traits and behaviors as game strategies. Using evolutionary
+game theory, we explore how evolutionary forces alter the multi-agent
+dynamics in the Iterated Prisoner’s Dilemma. In particular, we look at
+the conditions under which a population may cycle through different
+strategy compositions. We then move to a different game, known as the
+“Hawk-Dove game,” to illustrate how identical agents may tend towards
+Nash equilibria in which they use a range of different strategies.<p>
+We use these games to understand why predicting the behavior of many
+different AI agents may be very difficult. AI agents may evolve to
+employ extremely harmful strategies in repeated social interactions,
+including trying to extort or deceive others.By enhancing our
+understanding of these factors, we may better anticipate how to address
+potential risks stemming from multi-AI agent interactions.</p>
+<h3 id="sec:dilemma-tournaments">Evolutionary Iterated Prisoner’s
+Dilemma Tournaments</h3>
+<p>In this section, we investigate how evolutionary forces change the
+dynamics of a population of agents engaged in pairwise interactions. We
+explore how these forces can prevent a population from reaching a stable
+equilibrium at all. We see why, if AI agents are subject to evolutionary
+pressures, they may change how they interact with others in ways that
+are difficult to predict.</p>
+<p><strong>Evolutionary tournaments: agents can adapt their
+strategies.</strong> Following his first round of Iterated Prisoner
+Dilemma tournaments, Axelrod later ran a second set which he
+re-structured to resemble the dynamics of natural selection <span
+class="citation" data-cites="axelrod1981evolution">[13]</span>. We
+define these “evolutionary tournaments” as ones where a strategy’s
+success in one round determined the number of agents who used that
+strategy in the next round. The most numerous strategy at the end was
+the winner. Though strategies that have been successful in previous
+tournaments, such as <em>tit-for-tat</em>, were often still successful
+in evolutionary tournaments, their victory was by no means assured. The
+outcomes of these new tournaments were very sensitive to changes in
+conditions, which we explore next.</p>
+<p><strong>Cyclical dynamics can emerge; uncooperative strategies can
+persist.</strong> An interesting aspect of evolutionary tournaments is
+that they test how well a strategy performs against itself. As the
+success of a particular strategy increases, so does its relative
+frequency in the population. Thus, agents using this strategy will play
+against each other more often. In this context, strategies like
+<em>tit-for-tat</em> are vulnerable to what we call the “echo” problem
+<span class="citation" data-cites="nowak1992titfortat">[14]</span>.
+Consider a match between two agents both playing <em>tit-for-tat</em>.
+If one defects—either by accident, or by design if they are a less
+cooperative <em>tit-for-tat</em> variant—the other will retaliate by
+defecting as well. This will repeat, triggering a sequence of mutual
+defections. Both agents are thus locked into playing <em>always
+defect</em>. This gives them a lower score than if one were to forgive
+the other, allowing them to return to a state of cooperation. Thus, more
+“forgiving” strategies can fare better in a population with a high
+frequency of agents playing <em>tit-for-tat</em> by cutting short any
+string of mutual defections. This phenomenon is related to "frequency
+dependent selection," which we explore later in this chapter. More
+forgiving strategies include <em>generous tit-for-tat</em>, which
+occasionally overlooks partner defection.<p>
+In an evolutionary tournament, agents can switch to more successful
+strategies. So, if the strategy generous <em>tit-for-tat</em> is more
+successful than “normal” <em>tit-for-tat</em>, it may eventually become
+more frequent than <em>tit-for-tat</em> in the population <span
+class="citation" data-cites="Nowak2006FiveRF">[15]</span>. However, if
+generous <em>tit-for-tat</em> becomes a sufficiently common strategy in
+turn, agents playing <em>always cooperate</em> can achieve just as high
+a score, making this strategy popular too. If <em>always cooperate</em>
+reaches a sufficient frequency in the population, this creates an
+opportunity to exploit all these cooperators by switching to an
+uncooperative strategy such as <em>always defect</em>. If enough agents
+take this opportunity and switch to playing <em>always defect</em>,
+other agents who play <em>tit-for-tat</em> will once again start to
+outcompete these defectors (as outlined previously). Thus, a cycle can
+ensue, in which each strategy is replaced by another; see Figure 8.8. Many other examples of cyclical
+dynamics have been identified in Iterated Prisoner’s Dilemma tournaments
+<span class="citation"
+data-cites="garcia2018strategy">[16]</span>.<p>
+</p>
+<figure id="fig:cycle">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Evolutionary.png" class="tb-img-full" style="width: 50%"/>
+<p class="tb-caption">Figure 8.8: In an evolutionary tournament, the prevalence of current strategies determines which
+new strategies do best. In the bottom left, the prevalence of “always cooperate” means “always defect”
+is successful. In the top left, the prevalence of “always defect“ means “tit-for-tat” is successful. These
+dynamics can become cyclical.</p>
+<!--<figcaption>The population may cycle through different strategy-->
+<!--compositions.</figcaption>-->
+</figure>
+<p>In an evolutionary Iterated Prisoner’s Dilemma tournament, cyclical
+dynamics may emerge. Shown here is one such example, wherein each of the
+four boxes represents a different population strategy composition, in
+which the most frequent strategy is the one displayed in the box. For
+example, the bottom right green box represents a population strategy
+composition in which the majority of the agents are using the strategy
+<em>always cooperate</em>. A population in any of the four strategy
+compositions shown may be replaced by another composition (as shown by
+the arrows).<p>
+</p>
+<h3 id="sec:evolutionary-stable-strategies">Evolutionarily Stable
+Strategies and Frequency-Dependent Selection</h3>
+<p>In this section, we investigate how different strategies may come to
+replace one another within an evolving population. We start with the
+classic evolutionary game theoretic model known as the “Hawk-Dove game”
+to demonstrate how identical agents may reach a Nash equilibrium in
+which they employ different strategies to one another. This suggests
+that if AI agents are subject to evolutionary forces, it may be
+difficult to predict their behavior, because the incentives facing each
+may depend on what others in the population are doing.</p>
+<p><strong>Example: the Hawk-Dove game.</strong> Let us consider a
+simple evolutionary game-theoretic scenario. A group of agents is
+engaged in frequent, pairwise contests over an indivisible resource
+(such as nesting space). Each agent can choose one of two strategies.
+<em>“Hawks”</em> always fight for the prize and only back down when
+injured. <em>“Doves”</em> only threaten but never actually fight. We
+call this the ‘Hawk-Dove’ game <span class="citation"
+data-cites="Smith1982EvolutionAT">[17]</span>.<p>
+In a one-on-one game, a <em>Hawk</em> will always beat a <em>Dove</em>
+without any cost. When two agents choose the same strategy, each has a
+50% chance of winning or losing. But there is a difference in outcomes.
+The loser of a <em>Dove-Dove</em> contest suffers no injury costs.
+Whereas the loser of a <em>Hawk-Hawk</em> contest not only fails to gain
+the valuable resource but also incurs an injury cost from fighting. We
+show these two strategies’ average losses and gains in the payoff matrix
+below (where b is the benefit of winning the resource, and c is the cost
+incurred by fighting). We assume that b&lt;c, all <em>Hawks</em> have
+equal fighting ability, and all <em>Doves</em> have equal threatening
+ability.<p>
+</p>
+<div id="tab:hawk-dove">
+<table class="prisonTable">
+<caption>Table 8.5: Payoff matrix for the Hawk-Dove game.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Hawk <strong>(opponent)</strong></th>
+<th style="text-align: center;">Dove (<strong>Opponent</strong>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Hawk <strong>(self)</strong></td>
+<td style="text-align: center;"><span
+class="math inline">$$\frac{1}{2}(b-c)$$</span></td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Dove <strong>(self)</strong></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;"><span
+class="math inline">$$\frac{1}{2}b$$</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
+strategy.</strong> If all agents were Hawks, everyone would fight each
+other for the resource and only stop when hurt. Their average gain would
+be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
+price of fighting is more than the resource’s value <span
+class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
+be negative. If one agent switched to being a <em>Dove</em>, they would
+avoid the cost of fighting, but they would never win the resource. Their
+average payoff would be <span class="math inline">0</span>, which is
+better than the payoffs the <em>Hawks</em> would be getting. Also, this
+gain would increase as more agents choose Dove, as their average payoff
+when meeting <em>Doves</em> would be 1/2b. Therefore, <em>Doves</em>
+could <em>invade</em> a <em>Hawk</em>-only group.<p>
+Similarly, if all agents were <em>Doves</em>, an agent who switched to
+<em>Hawk</em> would gain more without paying a price for fighting, as
+<em>Doves</em> don’t fight back. So, <em>Hawks</em> could invade a
+<em>Dove</em>-only group. Hence, neither strategy is always better. The
+best strategy for an agent depends on what strategies the other agents
+are using. So the population strategy composition will include both
+<em>Doves</em> and <em>Hawks</em>.</p>
+<p><strong>Evolutionarily stable strategies.</strong> When the members
+of an evolving population adopt a strategy that makes it uninvadable by
+any rare novel mutants that may arise, we call this state an
+<em>evolutionarily stable strategy (ESS)</em> <span class="citation"
+data-cites="Smith1982EvolutionAT">[17]</span>. An ESS is a kind of Nash
+Equilibrium: when agents are at this equilibrium, they cannot improve
+their success by switching to any other strategy. In the Nash equilibria
+we have considered so far in this chapter, the agents have tended to use
+the same strategy as one another — if an agent used a different
+strategy, they would gain a lower payoff. However, a population can
+sometimes stably contain more than one strategy. Agents can use
+different strategies that are equally successful. For example, in the
+Hawk-Dove game, where fighting is more costly than the prize <span
+class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, the population
+will reach a stable equilibrium in which there are both <em>Hawks</em>
+and <em>Doves</em>.</p>
+<p><strong>Frequency-dependent selection.</strong> This kind of
+equilibrium, where agents use different strategies, is stabilized by the
+success of either strategy decreasing as it becomes more common, and
+increasing as it becomes rarer. When the success of a strategy depends
+on how common it is compared to others, we call this
+<em>frequency-dependent selection</em>. A strategy may succeed more as
+it becomes more common. For example, if more wasps evolve bright colors
+to warn predators, the warning works better. Alternatively, a strategy’s
+success might drop as it becomes more common. For example, certain
+snails have evolved to look like inedible objects. Frequency-dependent
+selection has caused them to look very different from one another. The
+more often a camouflage strategy is used, the more chances predators
+have to see through it. As a result, snails that “choose” (evolve) less
+popular camouflage strategies do the best. This results in a dynamic
+state in which the no snail color spreads to fixation in the population.
+Instead, snails of multiple colors coexist stably; see Figure 8.9.<p>
+The evolutionary biologist Richard Dawkins explains this using the
+following fictional scenario <span class="citation"
+data-cites="dawkins2015evolutionarily">[18]</span>. A population of
+seagulls lives on the coast where their only source of food is the fish
+in the sea. Each seagull can choose whether to behave as a
+“<em>fisher</em>” or as a “<em>pirate</em>”. <em>Fishers</em> catch fish
+themselves; <em>pirates</em> wait for <em>fishers</em> to catch a fish,
+then steal it from them. Neither of these is an ESS. In a population
+composed entirely of fishers, a seagull who mutates and becomes a
+<em>pirate</em> will benefit hugely; piracy is a profitable strategy
+because <em>pirates</em> do not expend energy fishing for themselves.
+Thus, the <em>pirate</em> strategy can invade the <em>fisher</em>
+strategy. On the other hand, a population composed entirely of
+<em>pirates</em> is invadable by a <em>fisher</em>. Without any fishers
+to prey on, the <em>pirates</em> have no fish to eat. A seagull who
+mutates and becomes a <em>fisher</em> can access food for themself,
+giving them an advantage. Thus, neither strategy is an ESS by itself.
+Some proportion of the population opt for one strategy, and another
+proportion opts for the other. Thus, this process of frequency-dependent
+selection can produce populations that stably contain more than two
+strategies.<p>
+</p>
+<figure id="fig:freq-selection">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Snails-graph.png" class="tb-img-full" width="40%"/>
+<p class="tb-caption">Figure 8.9: The rarest snails may have the highest fitness since predators are not used to them. They
+become more prevalent in the next generation, reducing their relative fitness. This is an example of
+frequency-dependent selection.</p>
+<!--<figcaption>Frequency-dependent selection.</figcaption>-->
+</figure>
+<p><em>In each population, snails “choose to” evolve one of three colors
+as camouflage: red, green, or blue. The frequency graph shows the
+proportion of snails of each color. The black arrows indicate the
+passage of time. The most successful color is indicated both by a gray
+border and a gray arrow. Whichever color is rarest in one iteration
+bestows the highest fitness, as predators are least used to spotting
+snails of that color. Thus, more snails use this color in the following
+generation. In this way, the population cycles through different color
+compositions.</em><p>
+<br><br>
+Frequency-dependent selection in game theory. We have encountered
+frequency-dependent selection already in this section. In Section 1.5.2, we briefly discussed how
+the ratio of contributors to free-riders in the population can alter the
+incentives for the agents engaged in a collective action problem. In
+Section 1.6.1, we used evolutionary
+Iterated Prisoner’s Dilemma tournaments to model the dynamics of natural
+selection, and found that there may be no stable equilibrium state.
+Instead, the best strategy for an agent to employ may depend on what
+others in the population are doing. In these cases, the population may
+cycle or undulate through different strategy compositions. Whichever
+strategy is most common may become less successful than a rarer
+alternative.</p>
+<p><strong>Identical AI agents may tend towards different
+strategies.</strong> A Nash equilibrium, or ESS, doesn’t always mean
+that all agents will use the same strategy. Frequency-dependent
+selection might cause AI agents to adopt different but equally
+successful strategies. Under certain conditions, like the size and
+variety of a population, harmful strategies like <em>extortion</em> can
+persist by stably cycling through different proportions of agents as the
+population evolves.</p>
+<p><strong>Evolutionarily stable strategies can be Pareto
+inefficient.</strong> Note that in the Hawk-Dove game, all agents would
+be better off if they were <em>Doves</em>, as every agent that plays
+<em>Hawk</em> lowers the average payoff for them all. Just as with the
+Prisoner’s Dilemma, the Nash equilibrium is Pareto inefficient. Hence,
+the ESS is not necessarily ‘good’ for the population, and what is good
+for the population is not necessarily evolutionary stable. <em>A
+population of altruistic AIs, for example, is not evolutionarily
+stable</em>, as that population is easily invadable; we explore this
+point in greater detail in “Evolutionary Pressures - Section 3.3.” This
+makes it likely that evolution is incompatible with achieving ideal
+outcomes.</p>
+
+<h3 id="summary-3">Summary</h3>
+<p>In this section, we began by exploring how evolutionary forces change
+the multi-agent dynamics of a simple game like the Iterated Prisoner’s
+Dilemma. One example was the potential for cyclical dynamics in place of
+a stable equilibrium state. We then moved to another effect of
+evolutionary dynamics: the potential for a Nash equilibrium in which
+agents behave very differently to one another, even when the agents
+themselves are identical and have identical incentives. As an example,
+we explored the “Hawk-Dove game,” finding that neither strategy is
+dominant over the other. Through this, we uncovered the force underlying
+this effect: “frequency-dependent selection.”<p>
+Using our understanding of how strategies may vary in terms of their
+“evolutionary stability,” we explored why AI agents might develop
+immoral behaviors even from amoral contexts. We examined why a set of
+strategies known as <em>extortion</em> strategies are especially
+successful in these evolutionary tournaments. Extortion not only works
+among unsophisticated agents involved in sequential, symmetrical
+competitions. We also see extortion in real-world scenarios between more
+sophisticated entities like individual humans or groups. This suggests
+that AI extortion could be a risk despite additional complications like
+asymmetries in capabilities, knowledge, or dispositions. Certain traits
+likely in future AI agents, such as heightened sensitivity to scope,
+strategic planning ability, and goal-preservation, could make AI
+extortion especially effective and destructive. Together, this suggests
+that AI agents may engage in extortion in order to pursue their goals.
+This could involve optimized disvalue at extreme scales. We discussed
+one such possibility: the torture of digital minds.<p>
+</p>
