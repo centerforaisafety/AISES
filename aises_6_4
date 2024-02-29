@@ -1009,70 +1009,13 @@ and competition through market failures, highlighting the need for
 regulation. Additionally, while it’s been a driver of prosperity in
 human history, the economic engine is sometimes misaligned with
 wellbeing, so it is not something to align AI development to.</em></p>
-<strong>AIs
-will likely be designed to achieve objectives other than social
-wellbeing.</strong>
-Economic forces incentivize the development of AIs that prioritize
-objectives such as financial gains for the companies deploying them,
-rather than social wellbeing. Consider the pharmaceutical industry: the
-primary goal of medicine is ideally to improve human health. Instead, in
-a number of cases, pharmaceutical companies have fostered patient
-dependencies on medications in order to ensure revenue and have used
-patented information to raise prices to a point that many consumers
-cannot afford life-saving drugs that cost little to produce. Similarly,
-AI systems ostensibly designed to connect us to our friends, such as
-social media algorithms, may instead result in users feeling
-isolated.<p>
-We must recognize such discrepancies in the context of AIs: AI systems
-claiming to enhance happiness might not align with our best interests.
-Perhaps a balance can be struck, where AIs continue to drive economic
-growth, but not at the cost of other equally important aspects of
-societal wellbeing. This disconnect between the goals of businesses
-deploying AI systems and their users’ best interests underscores the
-need for regulations that ensure that the deployment of AI does not
-compromise societal wellbeing.</p>
-<strong>We should be wary of using AI to increase metrics that are only proxies for wellbeing.</strong>
-If policymakers trust AI to create policies intended to improve
-society, they must be cautious about the objectives set for these
-systems. Our current economic system strongly incentivises the
-deployment of AI systems that optimize for economic growth rather than
-other objectives. As we discussed, increasing economic output is often a
-worthy goal, but may not capture essential aspects of societal health
-such as equality, sustainability, or the smooth functioning of an
-economy without market failures. While economic objectives like GDP
-growth are quantifiable and easy to pursue, they may not truly reflect
-what makes a society happy and healthy.</p>
-<strong>It
-is risky to blindly trust the economic engine to create AI that
-maximizes our wellbeing.</strong>
-Created as a result of businesses pursuing economic goals, AI systems
-are not designed to maximize societal wellbeing. Instead, they are
-geared towards wealth maximization for shareholders, with the potential
-to supercharge economic efficiency and drive economic growth. If we let
-the economy decide what AIs do by letting largely unregulated markets
-create AIs, we will likely end up with an increase in inequality,
-exacerbation of market failures, and promotion of economic goals like
-wealth maximization that are notably different from increasing
-wellbeing.</p>
-Pursuing societal wealth maximization is not as good as maximizing
-social welfare functions—discussed in section 6.8–—which account
-for how individual wellbeing changes with wealth and how wellbeing is
-distributed. The idea of using monetary equivalents as a proxy for
-social value might seem practical, but it can distort societal
-priorities; for instance, this system implies that the preferences of
-wealthier individuals hold more weight since they are willing and able
-to spend more. The preferences of a billionaire would be considered
-orders of magnitude more important than those of an average citizen,
-which is clearly disconnected from social value.</p>
-The examples in this chapter demonstrate a divergence between economic
-incentives and other important societal goals and should serve as a
-cautionary note, encouraging us to remain wary of integrating AI
-developed in line with economic incentives into all of our societal and
-economic structures. Both the generation and distribution of wealth
-matter, as well as how this wealth improves other aspects of social
-wellbeing, such as crime rates and physical health. As we move forward,
-we should take care to ensure that AIs’ potential is used to serve
-humanity, not just the economy.<p>
+<p><strong>AIs will likely be designed to achieve objectives other than social welfare.</strong> Economic forces incentivize the development of AIs that prioritize objectives such as financial gains for the companies deploying them, rather than social wellbeing. Consider the pharmaceutical industry: the primary goal of medicine is to improve human health. Instead, in a number of cases, pharmaceutical companies have fostered patient dependencies on medications in order to ensure revenue and have used patented information to raise prices to a point that many consumers cannot afford life-saving drugs that cost little to produce. Similarly, systems ostensibly designed to connect us to our friends, such as social media algorithms, may instead result in users feeling isolated.
+
+<p><strong>We should be wary of using AI to increase metrics that are only proxies for wellbeing.</strong> Policymakers must be cautious about the objectives set for AI systems. Our current economic system strongly incentivises the deployment of AI systems that optimize for economic growth rather than other objectives. As we discussed, increasing economic output is often a worthy goal, but may not capture essential aspects of societal health such as equality, sustainability, or the smooth functioning of an economy without market failures. While economic objectives like GDP growth are quantifiable and easy to pursue, they may not truly reflect what makes a society happy and healthy.
+
+<p><strong>It is risky to blindly trust the economic engine to create AIs.</strong> AI systems created by for-profit businesses are designed to maximize shareholder profits, not societal wellbeing. If we let the economy decide what AIs do by letting largely unregulated markets create AIs, we may end up with an increase in inequality, exacerbation of market failures, and promotion of economic goals like wealth maximization that are notably different from increasing wellbeing. Using money as a proxy for social value might seem practical, but it can distort societal priorities; for instance, this system implies that the preferences of wealthier individuals hold more weight since they are willing and able to spend more. The preferences of a billionaire would be considered orders of magnitude more important than those of an average citizen, which is clearly disconnected from social value. \\
+
+<p>The examples in this section demonstrate a divergence between economic incentives and other important societal goals and should serve as a cautionary note. Objections to both the preference view of wellbeing and the influence of the economy on AI development suggest that we ultimately care about something else. In the next section, we consider an alternative view: a framework that puts happiness front and center. By instructing an AI system to increase happiness, we might aim to overcome the human biases and limitations that stop us from pursuing our happiness and enable the system to make decisions that have a positive impact on overall wellbeing.
 </p>
 
 <br>
