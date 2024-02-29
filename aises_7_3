@@ -1,0 +1,1015 @@
+<h2 id="cooperation">7.3 Cooperation</h2>
+
+<h3 id="direct-reciprocity">Direct Reciprocity</h3>
+<p><strong>Direct reciprocity overview.</strong> One way agents may
+cooperate is through <em>direct reciprocity</em>: when one agent
+performs a favor for another because they expect the recipient to return
+this favor in the future <span class="citation"
+data-cites="trivers1971evolution">[14]</span>. We capture this core idea
+in idioms like “quid pro quo,” or “you scratch my back, I’ll scratch
+yours.” Direct reciprocity requires repeated interaction between the
+agents: the more likely they are to meet again in the future, the
+greater the incentive for them to cooperate in the present. We have
+already encountered this in the iterated Prisoner’s Dilemma: how an
+agent behaves in a present interaction can influence the behavior of
+others in future interactions . Game theorists sometimes refer to this
+phenomenon as the “shadow of the future.” When individuals know that
+future cooperation is valuable, they have increased incentives to behave
+in ways that benefit both themselves and others, fostering trust,
+reciprocity, and cooperation over time. Cooperation can only evolve as a
+consequence of direct reciprocity when the probability, <span
+class="math inline"><em>w</em></span>, of subsequent encounters between
+the same two individuals is greater than the cost-benefit ratio of the
+helpful act. In other words, if agent A decided to help agent B at some
+cost to themselves, they will only do so when the expected benefit of
+agent B returning the favor outweighs the cost of Agent A’s initially
+providing it. Thus, we have the rule <span
+class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
+Table 8.7 below.<p>
+</p>
+<br>
+<div id="tab:reciprocity">
+<table class="tableLayout">
+<caption>Table 8.7: Payoff matrix for direct reciprocity games.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cooperate</th>
+<th style="text-align: center;">Defect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Cooperate</td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em> − <em>c</em>/(1−<em>w</em>)</span></td>
+<td style="text-align: center;"><span
+class="math inline"> − <em>c</em></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Defect</td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em></span></td>
+<td style="text-align: center;"><span class="math inline">0</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Natural examples of direct reciprocity.</strong> Trees and
+fungi have evolved symbiotic relationships where they exchange sugars
+and nutrients for mutual benefit. Dolphins use cooperative hunting
+strategies where one dolphin herds schools of fish while the others form
+barriers to encircle them. The dynamics of the role reversal are decided
+by an expectation that other dolphins in the group will reciprocate this
+behavior during subsequent hunts. Similarly, chimpanzees engage in
+reciprocal grooming, where they exchange grooming services with one
+another with the expectation that they will be returned during a later
+session <span class="citation"
+data-cites="schino2007grooming">[15]</span>.<p>
+Direct reciprocity in human society. Among humans, one prominent example
+of direct reciprocity is commerce. Commerce is a form of direct
+reciprocity “which offers positive-sum benefits for both parties and
+gives each a selfish stake in the well-being of the other” <span
+class="citation" data-cites="pinker2012better">[16]</span>; commerce can
+be a win-win scenario for all parties involved. For instance, if Alice
+produces wine and Bob produces cheese, but neither Alice nor Bob has the
+resources to produce what the other can, both may realize they are
+better off trading. Different parties might both need the good the other
+has when they can’t produce it themselves, so it is mutually beneficial
+for them to trade, especially when they know they will encounter each
+other again in the future. If Alice and Bob both rely on each other for
+wine and cheese respectively, then they will naturally seek to prevent
+harm to one another because it is in their rational best interest. To
+this point, commerce can foster <em>complex interdependencies</em>
+between economies, which enhances the benefits gained through mutual
+exchange while decreasing the probability of conflict or war.</p>
+<p><strong>Direct reciprocity and AIs.</strong> The future may contain
+multiple AI agents, many of which might interact with one another to
+achieve different functions in human society. Such AI agents may
+automate parts of our economy and infrastructures, take over mundane and
+time-consuming tasks, or provide humans and other AIs with daily
+assistance. In a multi-AI agent system, where the probability that
+individual AIs would meet again is high, AIs might evolve cooperative
+behaviors through direct reciprocity. If one AI in this system has
+access to important resources that other AIs need to meet their
+objectives, it may decide to share these resources accordingly. However,
+since providing this favor would be costly to the given AI, it will do
+so only when the probability of meeting the recipient AIs (those that
+received the favor) outweighs the cost-benefit ratio of the favor
+itself.</p>
+<p><strong>Direct reciprocity can backfire: AIs may disfavor cooperation
+with humans.</strong> AIs may favor cooperation with other AIs over
+humans. As AIs become substantially more capable and efficient than
+humans, the benefit of interacting with humans may decrease. It may take
+a human several hours to reciprocate a favor provided by an AI, whereas
+it may take an AI only seconds to do so. It may therefore become
+extremely difficult to formulate exchanges between AIs and humans that
+benefit AIs more than exchanges with other AIs would. In other words,
+from an AIs perspective, the cost-benefit ratio for cooperation with
+humans is not worth it.</p>
+<p><strong>Direct reciprocity may backfire: offers of AI cooperation may
+undermine human alliances.</strong> The potential for direct reciprocity
+can undermine the stability of other, less straightforward cooperative
+arrangements within a larger group, thereby posing a collective action
+problem. One example of this involves “bandwagoning.” In the section of
+the chapter, we discussed the idea of “balancing” in international
+relations: state action to counteract the influence of a threatening
+power, such as by forming alliances with other states against their
+common adversary <span class="citation"
+data-cites="mearsheimer2007structural">[17]</span>. However, some
+scholars argue that states do not always respond to threatening powers
+by trying to thwart them. Rather than trying to prevent them from
+becoming too strong, states may instead “bandwagon”: joining up with and
+supporting the rising power to gain some personal benefit.<p>
+For instance, consider military coups. Sometimes, those attempting a
+takeover will offer their various enemies incentives to join forces with
+them, promising rewards to whoever allies with them first. If one of
+those being made this offer believes that the usurpers are ultimately
+likely to win, they may consider it to be in their own best interests to
+switch sides early enough to be on the “right side of history.” When
+others observe their allies switching sides, they may see their chances
+of victory declining and so in turn decide to defect. In this way,
+bandwagoning can escalate via positive feedback.<p>
+Bandwagoning may therefore present the following collective action
+problem: people may be motivated to cooperate with powerful and
+threatening AI systems via direct reciprocity, even though it would be
+in everyone’s collective best interest if none were to do so. Imagine
+that a future AI system, acting autonomously, takes actions that cause a
+large-scale catastrophe. In the wake of this event, the international
+community might agree that it would be in humanity’s best interest to
+constrain or roll back all autonomous AIs. Powerful AI systems might
+then offer some states rewards if they ally with them (direct
+reciprocity). This could mean protecting the AIs by simply allowing them
+to intermingle with the people, making it harder for outside forces to
+target the AIs without human casualties. Or the state could provide the
+AIs with access to valuable resources. Instead of balancing (cooperating
+with the international community to counteract this threatening power),
+these states may choose to bandwagon, defecting to form alliances with
+AIs. Even though the global community would all be better off if all
+states were to cooperate and act together to constrain AIs, individual
+states may benefit from defecting. As before, each defection would shift
+the balance of power, motivating others to defect in turn.</p>
+<h3 id="indirect-reciprocity">Indirect Reciprocity</h3>
+<p><strong>Indirect reciprocity overview.</strong> When someone judges
+whether to provide a favor to someone else, they may consider the
+recipient’s reputation. If the recipient is known to be generous, this
+would encourage the donor (the one that provides the favor) to offer
+their assistance. On the other hand, if the recipient has a stingy or
+selfish reputation, this could discourage the donor from offering a
+favor. In considering whether to provide a favor, donors may also
+consider the favor’s effect on their own reputation. If a donor gains a
+“helpful and trustworthy” reputation by providing a favor, this may
+motivate others to cooperate with them more often. We call this
+reputation-based mechanism of cooperation <em>indirect reciprocity</em>
+<span class="citation" data-cites="nowak1998evolution">[18]</span>.
+Agents may cooperate to develop and maintain good reputations since
+doing so is likely to benefit them in the long-term. Indirect
+reciprocity is particularly useful in larger groups, where the
+probability that the same two agents will encounter one another again is
+lower. It provides a mechanism for leveraging collective knowledge to
+promote cooperation. Where personal interactions are limited,
+reputation-based evaluations provide a way to assess the cooperative
+tendencies of others. Importantly, cooperation can only emerge within a
+population as a consequence of indirect reciprocity when the
+probability, <span class="math inline"><em>q</em></span>, that any agent
+can discern another agent’s reputation (whether they are cooperative or
+not), outweighs the cost-benefit ratio of the helpful behavior to the
+donor. Thus, we have the rule <span
+class="math inline"><em>q</em> &gt; <em>c</em>/<em>b</em></span>; see
+Table 8.8 below.<p>
+</p>
+<br>
+<p><span id="tab:indirect-repr" label="tab:indirect-repr"></span></p>
+<div id="tab:indirect-repr">
+<table class="tableLayout">
+<caption>Table 8.8: Payoff matrix for indirect reciprocity games.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Discern</th>
+<th style="text-align: center;">Defect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Discern</td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em> − <em>c</em></span></td>
+<td style="text-align: center;">-c(1-q)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Defect</td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em>(1−<em>q</em>)</span></td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Natural examples of indirect reciprocity.</strong> Cleaner
+fish (fish that feed on parasites or mucus on the bodies of other fish)
+can either cooperate with client fish (fish that receive the “services”
+of cleaner fish) by feeding on parasites that live on their bodies, or
+cheat, by feeding on the mucus that client fish excrete <span
+class="citation" data-cites="bshary2006image">[19]</span>. Client fish
+tend to cooperate more frequently with cleaner fish that have a “good
+reputation,” which are those that feed on parasites rather than mucus.
+Similarly, while vampire bats are known to share food with their kin,
+they also share food with unrelated members of their group. Vampire bats
+more readily share food with unrelated bats when they know the
+recipients of food sharing also have a reputation for being consistent
+and reliable food donors <span class="citation"
+data-cites="carter2013food">[20]</span>.</p>
+<p><strong>Indirect reciprocity in human society.</strong> Language
+provides a way to obtain information about others without ever having
+interacted with them, allowing humans to adjust reputations accordingly
+and facilitate conditional cooperation. Consider sites like Yelp and
+TripAdvisor, which allow internet users to gauge the reputations of
+businesses through reviews provided by other consumers. Similarly,
+gossip is a complex universal human trait that plays an important role
+in indirect reciprocity. Through gossip, individuals reveal the nature
+of their past interactions with others as well as exchanges they observe
+between others but are not a part of. Gossip allows us to track each
+others’ reputations and enforce cooperative social norms, reducing the
+probability that cooperative efforts are exploited by others with
+reputations for dishonesty <span class="citation"
+data-cites="balliet2020indirect">[21]</span>.</p>
+<p><strong>Indirect reciprocity in AIs.</strong> AIs could develop a
+reputation system where they observe and evaluate each others’
+behaviors, with each accumulating a reputation score based on their
+cooperative actions. AIs with higher reputation scores may be more
+likely to receive assistance and cooperation from others, thereby
+developing a reputation for reliability. Moreover, sharing insights and
+knowledge with <em>reliable</em> partners may establish a network of
+cooperative AIs, promoting future reciprocation.</p>
+<p><strong>Indirect reciprocity can backfire: extortionists can threaten
+reputational damage.</strong> The pressure to maintain a good reputation
+can make agents vulnerable to extortion. Other agents may be able to
+leverage the fear of reputational harm to extract benefits or force
+compliance. For example, political smear campaigns manipulate public
+opinion by spreading false information or damaging rumors about
+opponents. Similarly, blackmail often involves leveraging damaging
+information about others to extort benefits. AIs may manipulate or
+extort humans in order to better pursue their objectives. For instance,
+an AI might threaten to expose the sensitive, personal information it
+has accessed about a human target unless specific demands are met.</p>
+<p><strong>Indirect reciprocity can backfire: ruthless reputations may
+also work.</strong> Indirect reciprocity can also favor the emergence of
+“ruthless” reputations. A reputation for ruthlessness can sometimes be
+extremely successful in motivating compliance through fear. For
+instance, in military contexts, projecting a reputation for ruthlessness
+may deter potential adversaries or enemies. If others perceive an
+individual or group as willing to employ extreme measures without
+hesitation, they may be less likely to challenge or provoke them. Some
+AIs might similarly evolve ruthless reputations, perhaps as a defensive
+strategy to discourage potential attempts at exploitation, or control by
+others.</p>
+<h3 id="group-selection">Group Selection</h3>
+<p><strong>Group selection overview.</strong> When there is competition
+between groups, groups with more cooperators may outcompete those with
+fewer cooperators. Under such conditions, selection at the group level
+influences selection at the individual level (traits that benefit the
+group may not necessarily benefit the individual), and we refer to this
+mechanism as <em>group selection</em> <span class="citation"
+data-cites="west2007social">[22]</span>. Importantly, between groups,
+groups with a higher proportion of cooperators have an advantage.
+Cooperative groups are better able to coordinate their allocation of
+resources, establish channels for reciprocal exchange, and maintain
+steady communication, making them less likely to go extinct. Moreover,
+cooperative groups more frequently split in two: as cooperative groups
+grow in size, social tensions may emerge and threaten the cohesion of
+the group, leading members to break off into their own cooperative
+groups. It so happens that, if <span
+class="math inline"><em>m</em></span> is large and is the number of
+groups and n is the maximum group size, group selection can only promote
+cooperation when <span
+class="math inline"><em>b</em>/<em>c</em> &gt; 1 + <em>n</em>/<em>m</em></span>;
+see Table 8.9 below.<p>
+</p>
+<br>
+<div id="tab:group">
+<table class="tableLayout">
+<caption>Table 8.9: Payoff matrix for group selection games.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cooperate</th>
+<th style="text-align: center;">Defect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Cooperate</td>
+<td style="text-align: center;"><span
+class="math inline">(<em>n</em>+<em>m</em>)(<em>b</em>+<em>c</em>)</span></td>
+<td style="text-align: center;"><span
+class="math inline"><em>n</em>(−<em>c</em>) + <em>m</em>(<em>b</em>−<em>c</em>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Defect</td>
+<td style="text-align: center;"><span
+class="math inline"><em>n</em><em>b</em></span></td>
+<td style="text-align: center;"><span class="math inline">0</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Natural examples of group selection.</strong> Group selection
+is widely viewed as a mechanism involved in the process of natural
+selection, however, direct causal attribution is difficult for many
+species. Nonetheless, we may view chimpanzees that engage in lethal
+intergroup conflict as a likely example of group selection. Chimpanzees
+can be remarkably violent toward outgroups, such as by killing the
+offspring of rival males or engaging in brutal fights over territory.
+Such behaviors can help groups of chimpanzees secure competitive
+advantages over other groups of chimpanzees, by either reducing their
+abilities to mate successfully through infanticide, or by securing
+larger portions of available territory.</p>
+<p><strong>Group selection in human society.</strong> Among humans,
+warfare is a salient example of group selection. Imagine two armies: A
+and B. The majority of soldiers in army A are brave, while the majority
+of soldiers in army B are cowardly. For soldiers in army A, bravery may
+be individually costly, since brave soldiers are more willing to risk
+losing their lives on the battlefield. For soldiers in army B, cowardice
+may be individually beneficial, since cowardly soldiers will take fewer
+life-threatening risks on the battlefield. However, at the group-level,
+when these two armies conflict, army A will defeat army B: brave
+soldiers will be more willing to fight alongside each other for victory,
+while cowardly soldiers will not.</p>
+<p><strong>Group selection in AIs.</strong> Consider a future in which
+the majority of human labor has been fully automated by AIs, such that
+AIs are now running most companies. Under these circumstances, AIs may
+form corporations with other AIs, creating an economic landscape in
+which multiple AI corporations must compete with each other to produce
+economic value. AI corporations in which individual AIs work well
+together may outcompete those in which individual AIs do not work as
+well together. The more cooperative individual AIs within AI
+corporations are, the more economic value their corporations will be
+able to produce; AI corporations with less cooperative AIs may
+eventually run out of resources and lose the ability to sustain
+themselves.</p>
+<p><strong>Group selection can backfire: in-group favoritism can promote
+out-group hostility.</strong> Group selection can inspire in-group
+favoritism, which might lead to cruelty toward out-groups. Chimpanzees
+will readily cooperate with members of their own groups. However, when
+interacting with chimpanzees from other groups, they are often vicious
+and merciless. Moreover, when groups gain a competitive advantage, they
+may attempt to preserve it by mistreating, exploiting, or marginalizing
+outgroups such as people with different political or ideological
+beliefs. AIs may be more likely to see other AIs as part of their group,
+and this could promote antagonism between AIs and humans.</p>
+<h3 id="kin-selection">Kin Selection</h3>
+<p><strong>Kin selection overview.</strong> When driven by <em>kin
+selection</em>, agents are more likely to cooperate with others with
+whom they share a higher degree of genetic relatedness <span
+class="citation" data-cites="hamilton1964genetical">[23]</span>. The
+more closely related agents are, the more inclined to cooperate they
+will be. Thus, kin selection favors cooperation under the following
+conditions: an agent will help their relative only when the benefit to
+their relative “<span class="math inline"><em>b</em></span>,” multiplied
+by the relatedness between the two “<span
+class="math inline"><em>r</em></span>,” outweighs the cost to the agent
+“<span class="math inline"><em>c</em></span>.” This is known as
+Hamilton’s rule: <span
+class="math inline"><em>r</em><em>b</em> &gt; <em>c</em></span>, or
+equivalently <span
+class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
+class="citation" data-cites="hamilton1964genetical">[23]</span>; see
+Table 8.10 below.</p>
+<br>
+<div id="tab:kin">
+<table class="tableLayout">
+<caption>Table 8.10: Payoff matrix for kin selection games.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cooperate</th>
+<th style="text-align: center;">Defect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Cooperate</td>
+<td style="text-align: center;"><span
+class="math inline">(<em>b</em>−<em>c</em>)(1+<em>r</em>)</span></td>
+<td style="text-align: center;"><span
+class="math inline">(−<em>c</em>+<em>b</em><em>r</em>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Defect</td>
+<td style="text-align: center;"><span
+class="math inline"><em>b</em> − <em>r</em><em>c</em></span></td>
+<td style="text-align: center;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Natural examples of kin selection.</strong> In social insect
+colonies, such as bees and ants, colony members are closely related.
+Such insects often assist their kin in raising and producing offspring
+while “workers” relinquish their reproductive potential, devoting their
+lives to foraging and other means required to sustain the colony as a
+whole. Similarly, naked mole rats live in colonies with a single
+reproductive queen and non-reproductive workers. The workers are sterile
+but still assist in tasks such as foraging, nest building, and
+protecting the colony. This behavior benefits the queen’s offspring,
+which are their siblings, and enhances the colony’s overall survival
+capabilities. Alternatively, some bird species engage in cooperative
+breeding practices where older offspring delay breeding to help parents
+raise their siblings.</p>
+<p><strong>Kin selection in human society.</strong> Some evolutionary
+psychologists claim that we can see evidence of kin selection in many
+commonplace traditions and activities. For example, in humans, we might
+identify the mechanism of kin selection in the way that we treat our
+immediate relatives. For instance, people often leave wealth, property,
+and other resources to direct relatives upon their deaths. Leaving
+behind an inheritance offers no direct benefit to individuals, but it
+does help ensure the survival and success of their lineage in subsequent
+generations. Similarly, grandparents often care for their grandchildren,
+which increases the probability that their lineages will persist.</p>
+<p><strong>Kin selection in AIs.</strong> AIs that are similar could
+exhibit cooperative tendencies towards each other, similar to genetic
+relatedness in biological systems. For instance, AIs may create back ups
+or variants of themselves. They may then favor cooperation with these
+versions of themselves over other AIs or humans. Variant AIs may
+prioritize resource allocation and sharing among themselves, developing
+preferential mechanisms for sharing computational resources with other
+versions of themselves.</p>
+<p><strong>Kin selection can backfire: nepotism.</strong> Kin selection
+can lead to nepotism: prioritizing the interests of relatives above
+others. For instance, some bird species exhibit differential feeding and
+provisioning. When chicks hatch asynchronously, parents may allocate
+more resources to those that are older, and therefore more likely to be
+their genetic offspring, since smaller chicks are more likely to be the
+result of brood parasitism (when birds lay their eggs in other birds’
+nests). In humans, too, we often encounter nepotism. Company executives
+may hire their sons or daughters, even though they lack the experience
+required for the role, which can harm companies and their employees in
+the long-run. Similarly, parents often protect their children from the
+law, especially when they have committed serious criminal acts that can
+result in extended jail time. Such tendencies could apply to AIs as
+well: AIs might favor cooperation only with other similar AIs. This
+could be especially troubling for humans –— as the differences between
+humans and AIs increase, AIs may be increasingly less inclined to
+cooperate with humans.</p>
+<h3 id="individual-stakes-to-common-stakes">Individual stakes to common
+stakes</h3>
+<p><strong>Individual stakes to common stakes overview.</strong> The
+Nobel laureate economist John Harsanyi suggested a concept like the veil
+of ignorance to explore how we should structure our societies. Behind
+the veil of ignorance, agents are unaware of their personal
+characteristics and roles in society. This forces them to act as
+impartial observers when envisioning how the group or society should
+interact with each other. (For a more detailed discussion of the veil of
+ignorance, see <em>Section of the chapter</em>: A Brief Introduction).
+Because agents do not know what place they will hold (e.g., whether they
+will get an average position in society or a different position) in the
+society they envision, they often act more impartially and cooperatively
+when constructing a group or society. When rational agents are ignorant
+of their future position in society—when they are forced to make
+decisions behind the veil of ignorance—they are more likely to make
+decisions that maximize collective wellbeing, enabling cooperation
+through the mechanism of <em>individual stakes to common stakes</em>
+<span class="citation"
+data-cites="nowak2011supercooperators">[24]</span>.</p>
+<p><strong>Natural examples of individual stakes to common
+stakes.</strong> Intragenomic conflict arises when an individual
+organism’s genes have differing interests with respect to their
+transmission to the next generation. For example, some genes may have
+evolved mechanisms that increase their own replication at the expense of
+the organism’s wellbeing. The process of meiosis, however, can resolve
+the problem of intragenomic conflict through randomization or the
+creation of a “Darwinian veil of ignorance.” Meiosis is a process of
+cell division that occurs during the formation of reproductive cells in
+sexually reproducing organisms. Meiosis typically results in a 50-50
+distribution of genetic material from both parents to offspring,
+fostering genetic diversity. While it would be “better” for any
+individual gene to make more copies of itself in offspring, it cannot
+“know” whether doing so will actually increase the fitness of the
+organism, allowing it to pass on its genes to subsequent generations.
+However, by fostering genetic diversity, the process of meiosis opens
+the door to randomized success, allowing the forces of natural selection
+to impartially dictate which genes and their respective traits propagate
+<span class="citation" data-cites="okasha2012social">[25]</span>.</p>
+<p><strong>Individual stakes to common stakes in human society.</strong>
+The “Hutterites” are a religious group known for their cooperative and
+communal lifestyle <span class="citation"
+data-cites="Harsanyi1955CardinalWI Dennett1995DarwinsDI">[26],
+[27]</span>. They represent a prime example of how the mechanism of
+individual stakes to common stakes can be used to promote cooperation.
+Within their communities, the Hutterites distribute all resources among
+themselves, and relinquish any personal wealth or possessions. This
+allows the Hutterites to live under a collective identity, where focus
+on the common good often overrides individual interests. As another
+example, when their group gets too large, Hutterites set up another
+place for people to live, and once it is finished, they randomly select
+members from their community to go live there. Alternatively, consider a
+scenario in which a group of people must row to shore. The ship does not
+have enough food for everyone, so the group will have to throw some
+rowers overboard at the halfway point to ensure the rest of the group’s
+survival. However, no one in the group knows that they may be thrown
+overboard, but they do know that to make it to shore, they must all row
+now. If people knew that they would be thrown overboard at some point,
+they would be far less likely to row.</p>
+<p><strong>Individual stakes to common stakes and AIs.</strong> People
+might perceive advanced future AIs as an outgroup threat, and this may
+motivate humans to cooperate against AIs. As AI’s become more widespread
+and powerful, they may begin to threaten human values at the global
+scale, motivating nations—for instance, the US and China—to set aside
+their differences and come together to address a common threat. If AI is
+someday viewed by humanity as an “invasive species,” it may promote
+global solidarity.</p>
+<h3 id="simons-selection-mechanism">Simon’s Selection Mechanism</h3>
+<p><strong>Simon’s selection mechanism overview.</strong> Humans and
+other animals typically do not have access to all available information,
+time, and cognitive abilities required to make the best possible
+decision. Individuals are restricted by their “bounded rationality.” To
+overcome their bounded rationality and arrive at better solutions,
+people and organisms can benefit, on average, from relying on and
+receiving information through cooperative social channels. Individuals
+that take advantage of cooperative social channels have an increased
+ability to acquire socially transmitted skills and conform to socially
+established norms, thereby incurring a fitness advantage over those that
+do not participate in such channels. Moreover, when individuals choose
+to contribute to cooperative social channels, the information they
+provide can be freely utilized by anyone who participates in the system.
+If this information is widely used and benefits the entire social
+structure, social norms may emerge that compel others participating in
+the cooperative social channel to conform their behavior appropriately.
+In other words, when individuals participate in cooperative social
+channels, they may benefit from the collective intelligence they
+provide, but they may also face a cost from the group which can
+influence their behaviors through norms or rules. This idea was
+pioneered by the political scientist and Nobel laureate, Herbert Simon,
+and we refer to it as <strong>Simon’s selection mechanism</strong> <span
+class="citation" data-cites="simon1990mechanism">[28]</span>.</p>
+<p><strong>Simon’s selection mechanism in human society.</strong> Humans
+have a tendency to believe in facts and propositions that they have not
+had the opportunity to independently verify. Such knowledge is typically
+disseminated through established cooperative social channels, such as
+the internet or culture. For instance, many people believe that
+consuming too much of certain kinds of cholesterol is bad for one’s
+health, or that touching a hot stove should always be avoided. People
+generally agree upon these beliefs not because they are skilled medical
+literature reviewers or seasoned chefs, but because such beliefs have
+become socially transmitted common knowledge. In general, people are
+better off being a part of society, rather than isolating themselves
+from it. Societal isolation may prevent individuals from accessing
+critical information that is disseminated through social channels. For
+instance, a hermit living in the woods with no internet access might be
+unaware that there is steadily expanding forest fire in the
+vicinity.</p>
+<p><strong>Simon’s selection mechanism and free riding.</strong> One
+drawback of Simon’s selection mechanism is that it may enable free
+riding. Individuals may benefit from the information contained in
+cooperative social channels without themselves contributing to it.
+Consider the open-source knowledge base, Wikipedia, in this respect.
+Though anyone can, in theory, contribute to Wikipedia, few people
+actually do, because doing so can require extensive time and effort.
+This can result in a knowledge base that has much outdated content.</p>
+<p><strong>Simon’s selection mechanism and AIs.</strong> In a
+multi-agent setting, AIs may be interacting with one another directly.
+They may create new communication channels and protocols among
+themselves, and from their interactions, norms and information channels
+may emerge. Such dynamics can give rise to very complex social systems
+from which AIs are more able to benefit than humans are. In other words,
+AIs may incur fitness advantages over humans by developing and
+participating in their own cooperative social channels, which themselves
+may preclude human understanding. Moreover, such cooperative social
+channels may evolve into AI collective intelligences, just as the
+internet now represents a form of human collective intelligence.
+However, within these collective intelligences, AIs could maintain large
+numbers of complex relationships with other AIs simultaneously, arriving
+at potentially new forms of self-organization that increase AIs ability
+to achieve their goals. AI collective intelligences would be vastly
+superior to human collective intelligences, and as a consequence, humans
+may be prevented from participating in and understanding the decisions
+AIs make within such systems.</p>
+
+<br>
+<div class="visionbox">
+<legend class="visionboxlegend">
+    <p><span><b>A Note on Morality as Cooperation</b></span></p>
+</legend>
+The theory of “Morality as Cooperation” (MAC) proposes that human morality was
+generated by evolutionary pressures to solve our most salient
+cooperation problems <span class="citation"
+data-cites="curry2016morality">[29]</span>. Natural selection has
+discovered several mechanisms by which rational and self-interested
+agents may cooperate with one another, and MAC theory suggests that some
+of these mechanisms have driven the formation of our moral intuitions
+and customs. Here, we examine four cooperation problems, the mechanisms
+humans have evolved to solve them, and how these mechanisms may have
+generated our ideas of morality. These are overviewed in Table 8.11.</p><div id="tab:cooperation">
+<table class="tableLayout" style="">
+<caption>Table 8.11: Mapping cooperation mechanisms to components of morality. <span class="citation"
+data-cites="curry2016morality">[21]</span></caption>
+<thead>
+<tr class="header" style="background-color: #efefef">
+<th style="text-align: left;"><strong>Cooperation Problem</strong></th>
+<th style="text-align: left;"><strong>Solutions/Mechanism</strong></th>
+<th style="text-align: left;"><strong>Component of
+Morality</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd" style="background-color: #d9ead3">
+    <td rowspan="2" style="text-align: left;"><em> <b>Kinship</b> <br> Agents can benefit by treating genetic  relatives preferentially</em></td>
+<td style="text-align: left;">Kin selection</td>
+<td style="text-align: left;">Parental duties, family values</td>
+</tr>
+<tr class="even" style="background-color: #d9ead3">
+<td style="text-align: left;">Avoiding inbreeding</td>
+<td style="text-align: left;">Incest aversion</td>
+</tr>
+<tr class="even" style="background-color: #d0e0e3">
+    <td rowspan="2" style="text-align: left;"><em> <b> Mutualism </b> <br> Agents must coordinate their behavior to profit from mutually-benefical situations</em></td>
+    <td style="text-align: left;">Forming alliances and collaborating</td>
+    <td style="text-align: left;">Friendship, loyalty, commitment, team
+players</td>
+</tr>
+<tr class="even" style="background-color: #d0e0e3">
+<td style="text-align: left;">Developing theory-of-mind</td>
+<td style="text-align: left;">Understanding intention, not merely
+action</td>
+</tr>
+<tr class="odd" style="background-color: #d9d2e9">
+<td rowspan="2" style="text-align: left"><em> <b> Exchange </b> <br> Agents need each other to reciprocate
+and contribute despite incentives to free ride</em></td>
+<td style="text-align: left;">Direct reciprocity (e.g. tit-for-tat)</td>
+<td style="text-align: left;">Trust, gratitude, revenge, punishment, forgiveness</td>
+</tr>
+<tr class="odd" style="background-color: #d9d2e9">
+<td style="text-align: left;">Indirect reciprocity (e.g. forming
+reputations)</td>
+<td style="text-align: left;">Patience, guilt, gratitude</td>
+</tr>
+<tr class="even" style="background-color: #ead1dc">
+<td rowspan="2" style="text-align: left;"> <b> Conflict Resolution</b> <br> <em>Agents can benefit from avoiding
+conflict, which is mutually costly</em></td>
+<td style="text-align: left;">Division</td>
+<td style="text-align: left;">Fairness, negotiation, compromise</td>
+</tr>
+<tr class="even" style="background-color: #ead1dc">
+<td style="text-align: left;">Deference to prior ownership</td>
+<td style="text-align: left;">Respecting others’ property, punishing
+theft</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+
+<p><strong>Kinship.</strong> Natural selection can favor agents who
+cooperate with their genetic relatives. This is because there may be
+copies of these agents’ genes in their relatives’ genomes, and so
+helping them may further propagate their own genes. We call this
+mechanism “kin selection” <span class="citation"
+data-cites="hamilton1964genetical">[23]</span>: an agent can gain a
+fitness advantage by treating their genetic relatives preferentially, so
+long as the cost-benefit ratio of helping is less than the relatedness
+between the agent and their kin. Similarly, repeated inbreeding can
+reduce an agent’s fitness by increasing the probability of producing
+offspring with both copies of any recessive, deleterious alleles in the
+parents’ genomes <span class="citation"
+data-cites="charlesworth2009genetics">[30]</span>.<p>
+MAC theory proposes that the solutions to this cooperation problem
+(preferentially helping genetic relatives), such as kin selection and
+inbreeding avoidance, underpin several major moral ideas and customs.
+Evidence for this includes the fact that human societies are usually
+built around family units <span class="citation"
+data-cites="chagnon1979kin">[31]</span>, in which “family values” are
+generally considered highly moral. Loyalty to one’s close relatives and
+duties to one’s offspring are ubiquitous moral values across human
+cultures <span class="citation"
+data-cites="westermarck2022origin">[32]</span>. Our laws regarding
+inheritance <span class="citation"
+data-cites="smith1987inheritance">[33]</span> and our naming traditions
+<span class="citation" data-cites="oates2002nominal">[34]</span>
+similarly reflect these moral intuitions, as do our rules and social
+taboos against incest <span class="citation"
+data-cites="lieberman2003does thornhill1991evolutionary">[35],
+[36]</span>.</p>
+<p><strong>Mutualism.</strong> In game theory, some games are “positive
+sum” and “win-win”: the agents involved can increase the total available
+value by interacting with one another in particular ways, and all the
+agents can then benefit from this additional value. Sometimes, securing
+these mutual benefits requires that the agents coordinate their behavior
+with each other. To solve this cooperation problem, agents may form
+alliances and coalitions <span class="citation"
+data-cites="connor1995benefits">[37]</span>. This may require the
+capacity for basic communication, rule-following <span class="citation"
+data-cites="van2008leadership">[38]</span>, and perhaps theory-of-mind
+<span class="citation"
+data-cites="carruthers1996theories">[39]</span>.<p>
+MAC theory proposes that these cooperative mechanisms comprise important
+components of human morality. Examples include the formation of—and
+loyalty to—friendships, commitments to collaborative activities, and a
+certain degree of in-group favoritism and conformation to local
+conventions. Similarly, we often consider the agent’s intentions when
+judging the morality of their actions, which requires a certain degree
+of theory-of-mind.</p>
+<p><strong>Exchange.</strong> Sometimes, benefiting from “win-win”
+situations requires more than mere coordination. If the payoffs are
+structured so as to incentivize “free riding” behaviors, the cooperation
+problem becomes how to ensure that others will reciprocate help and
+contribute to group efforts. To solve this problem, agents can enforce
+cooperation via systems of reward, punishment, policing, and reciprocity
+<span class="citation" data-cites="west2007evolutionary">[40]</span>.
+Direct reciprocity concerns doing someone a favor out of the expectation
+that they will reciprocate at a later date <span class="citation"
+data-cites="trivers1971evolution">[14]</span>. Indirect reciprocity
+concerns doing someone a favor to boost your reputation in the group,
+out of the expectation that this will increase the probability of a
+third party helping you in the future <span class="citation"
+data-cites="nowak1998evolution">[18]</span>.<p>
+Once again, MAC theory proposes that these mechanisms are found in our
+moral systems. Moral ideas such as trust, gratitude, patience, guilt,
+and forgiveness can all help to assure against free riding behaviors.
+Likewise, punishment and revenge, both ideas with strong moral
+dimensions, can serve to enforce cooperation more assertively. Idioms
+such as “an eye for an eye”, or the “Golden Rule” of treating others as
+we would like to be treated ourselves, reflect the solutions we evolved
+to this cooperation problem.</p>
+<p><strong>Conflict resolution.</strong> Conflict is very often
+“negative sum”: the interaction of the agents themselves can destroy
+some amount of the total value available. Examples span from the wounds
+of rutting deer to the casualties of human wars. If the agents instead
+manage to cooperate with each other, they may both be able to benefit—a
+“win-win” outcome. One way to resolve conflict situations is division
+<span class="citation" data-cites="nash1950bargaining">[41]</span>:
+dividing up the value between the agents, such as through striking a
+bargain. Another solution is to respect prior ownership, deferring to
+the original “owner” of the valuable item <span class="citation"
+data-cites="gintis2007evolution">[42]</span>.<p>
+According to MAC theory, we can see both of these solutions in our ideas
+of morality. The cross-culturally ubiquitous notions of fairness,
+equality, and compromise help us resolve conflict by promoting the
+division of value between competitors <span class="citation"
+data-cites="henrich2005economic">[43]</span>. We see this in ideas such
+as “taking turns” and “I cut, you choose” <span class="citation"
+data-cites="brams1996fair">[44]</span>: mechanisms for turning a
+negative sum situation (conflict) into a zero sum one (negotiation), to
+mutual benefit. Likewise, condemnation of theft and respect for others’
+property are extremely important and common moral values <span
+class="citation"
+data-cites="herskovits1952economic westermarck2022origin">[32],
+[45]</span>. This set of moral rules may stem from the conflict
+resolution mechanism of deferring to prior ownership.</p>
+<p><strong>Conclusion.</strong> MAC theory argues that morality is
+composed of biological and cultural solutions humans evolved to the most
+salient cooperation problems of our ancestral social environment. Here,
+we explored four examples of cooperation problems, and how the solutions
+to them discovered by natural selection may have produced our moral
+values.</p>
+</div>
+<h3 id="institutions">Institutions</h3>
+<p><strong>Institutions overview.</strong> Agents are more likely to be
+cooperative when there are laws or externally imposed incentives that
+reward cooperation and punish defection. We define an
+<strong>institution</strong> as an intentionally designed large-scale
+structure that is publicly accepted and recognized, has a centralized
+logic, and serves to mediate human interaction. Some examples of
+institutions include governments, the UN, IAEA, and so on; in this
+section, by “institutions,” we do not mean widespread or standardized
+social customs such as the “institution” of marriage. Institutions
+typically aim to establish collective goals which require collaboration
+and engagement from large or diverse groups. Therefore, a possible way
+of representing many institutions, such as governments, is with the
+concept of a “Leviathan”: a powerful entity that can exert control or
+influence over other actors in a system.</p>
+<p><strong>The Pacifist’s dilemma and social control.</strong> When
+one’s opponent is potentially aggressive, pacifism can be irrational. In
+his book, “The Better Angels of Our Nature,” Steven Pinker refers to
+this as the “Pacifist’s dilemma” <span class="citation"
+data-cites="pinker2012better">[16]</span>. In potential conflict
+scenarios, agents have little to gain and a lot to lose when they
+respond to aggression with pacifism; see Table 8.12 below.
+This dynamic often inspires rational agents to choose conflict over
+peace.<p>
+</p>
+<br>
+<div id="tab:pacifist">
+<table class="tableLayout">
+<caption>Table 8.12: Payoff matrix for the Pacifist’s dilemma without a Leviathan. <span class="citation"
+data-cites="pinker2012better">[8]</span></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Pacifist</th>
+<th style="text-align: center;">Aggressor</th>
+</tr>
+</thead>
+<tbody>
+
+    <tr class="odd">
+        <td style="text-align: left;">Pacifist</td>
+        <td style="text-align: center;"> Peace + Profit
+            <span class="math inline">(100+5) = 105</span> <br>
+            Peace + Profit
+            <span class="math inline">(100+5) = 105</span></td>
+        <td style="text-align: center;">
+            Victory(10)<br>
+            Defeat(-100)<br>
+        </td>
+    </tr>
+<tr class="even">
+    <td style="text-align: left;">Aggressor</td>
+    <td style="text-align: center;">
+        Defeat(-100)<br>
+        Victory(10)
+    </td>
+    <td style="text-align: center;">
+        War(-50) <br>
+        War(-50)
+    </td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<br>
+
+<p>However, we can shift the interests of agents in this context in
+favor of peace by introducing a Leviathan, in the form of a third-party
+peacekeeping or balancing mission, which establishes an authoritative
+presence that maintains order and prevents conflict escalation.
+Peacekeeping missions can take several forms, but they often involve the
+deployment of peacekeeping forces such as military, police, and civilian
+personnel. These forces work to deter potential aggressors, enhance
+security, and set the stage for peaceful resolutions and negotiations as
+impartial mediators, usually by penalizing aggression and rewarding
+pacifism; see Table 8.13 below.<p>
+</p>
+<br>
+<div id="tab:leviathan">
+<table class="tableLayout">
+<caption>Table 8.13: Payoff matrix for the Pacifist’s dilemma with a Leviathan. <span class="citation"
+data-cites="pinker2012better">[8]</span></caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Pacifist</th>
+<th style="text-align: center;">Aggressor</th>
+</tr>
+</thead>
+<tbody>
+
+    <tr class="odd">
+        <td style="text-align: left;">Pacifist</td>
+        <td style="text-align: center;"> Peace(5) <br> Peace(5)</td>
+        <td style="text-align: center;">
+            Victory - Penalty (10 − 15 = −5)<br>
+            Defeat(-100)<br>
+        </td>
+    </tr>
+<tr class="even">
+    <td style="text-align: left;">Aggressor</td>
+    <td style="text-align: center;">
+        Defeat(-100)<br>
+        Victory - Penalty (10 − 15 − 5)
+    </td>
+    <td style="text-align: center;">
+        War - Penalty (−50 − 200 = −250) <br>
+        War - Penalty (−50 − 200 = −250)
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p><strong>Institutions in human society.</strong> Institutions play a
+central role in promoting cooperation in international relations.
+Institutions, such as the UN, can broker agreements or treaties between
+nations and across cultures through balancing and peacekeeping
+operations. The goal of such operations is to hold nations accountable
+on the international scale; when nations break treaties, other nations
+may punish them by refusing to cooperate, such as by cutting off trade
+routes or imposing sanctions and tariffs. On the other hand, when
+nations readily adhere to treaties, other nations may reward them, such
+as by fostering trade or providing foreign aid. Similarly, institutions
+can incentivize cooperation at the national scale by creating laws and
+regulations that reward cooperative behaviors and punish non-cooperative
+ones. For example, many nations attempt to prevent criminal behavior by
+leveraging the threat of extended jail-time as a legal deterrent to
+crime. On the other hand, some nations incentivize cooperative behaviors
+through tax breaks, such as those afforded to citizens that make
+philanthropic donations or use renewable energy resources like solar
+power.</p>
+<p><strong>Institutions and AI.</strong> Institutions are crucial in the
+context of international AI development. By establishing laws and
+regulations concerning AI development, institutions may be able to
+reduce AI races, lowering competitive pressures and the probability that
+countries cut corners on safety. Moreover, we may want concrete
+international agreements on AI development that serve to hold nations
+accountable; institutions could play a central role in helping us broker
+these kinds of agreements. Ultimately, institutions could improve
+coordination mechanisms and international standards for AI development,
+which would correspondingly improve AI safety.<p>
+Recall that institutions can punish defectors. In the future, harmful
+AIs or harmful malicious actors could be punished with or by AIs. In the
+future, humanity alone may not possess the power required to combat
+advanced dominance-seeking AIs, and existing laws and regulations may be
+insufficient if there is no way to enforce them. Such an AI Leviathan
+could help regulate other AIs and affect their evolution, in which
+selfish AIs are counteracted or domesticated.</p>
+<p><strong>How institutions can backfire: corruption, free riding,
+inefficiency.</strong> Institutions sometimes fail to achieve the goals
+they set for themselves, even if they are well-intended. Failure to
+achieve such goals is often the result of corruption, free riding, and
+inefficiency at the institutional scale. Some examples of corruption
+include bribery, misappropriation of public funds for private interests,
+voter fraud and manipulation, and price fixing, among many others.
+Examples of free-riding include scenarios like welfare fraud, where
+individuals fraudulently receive benefits they may not be entitled to,
+reducing the available supply of resources for those genuinely in need.
+Institutions can also struggle with inefficiency, which may stem from
+factors such as the satisfaction of bureaucratic requirements, the
+emergence of natural monopolies, or the development of diseconomies of
+scale, which may cause organizations to pay a higher average cost to
+produce more goods and services. Institutions can be undermined,
+corrupted, and poorly designed or outdated: they do not guarantee that
+we will be able to fix cooperation problems.<p>
+Like humans, AIs may be motivated to corrupt existing institutions.
+Advanced AIs might learn to leverage the institutions we have in place
+for their benefit, and might do so in ways that are virtually
+undetectable to us. Moreover, as we discussed previously, AIs might form
+an AI Leviathan. However, if humanity’s relationship with this Leviathan
+is not symbiotic and transparent, humans risk losing control of AIs. For
+instance, if groups of AIs within the Leviathan collude behind the
+scenes to further their own interests, or power and resources become
+concentrated with a few AIs at the “top,” humanity’s collective
+wellbeing could be threatened.</p>
+<h3 id="summary-1">Summary</h3>
+<p>Throughout this section, we discussed a variety of mechanisms that
+promote cooperation. These mechanisms included direct reciprocity,
+indirect reciprocity, group selection, kin selection, individual stakes
+to common stakes, Simon’s selection mechanism, and institutions.<p>
+First, we discussed how direct reciprocity may motivate AI agents in a
+multi-agent setting to cooperate with each other, if the probability
+that the same two AIs meet again is sufficiently high. However, we also
+considered the possibility that AIs may disfavor cooperation with humans
+as they become progressively more advanced: the cost-benefit ratio for
+cooperation with humans may simply be bad from an AI’s
+perspective.<p>
+Second, we explored how indirect reciprocity may promote cooperation in
+AIs that develop a reputation system where they observe and score each
+others’ behaviors. AIs with higher reputation scores may be more likely
+to receive assistance and cooperation from others. Still, this does not
+guarantee that AIs will be cooperative: AIs might leverage the fear of
+reputational harm to extort benefits from others, or themselves develop
+ruthless reputations to inspire cooperation through fear.<p>
+Third, we considered how group selection –– in a future where labor has
+been automated such that AIs now run the majority of companies –– could
+promote cooperation on a multi-agent scale. AIs may form corporate
+coalitions with other AIs to protect their interests; AI groups with a
+cooperative AI minority may be outcompeted by AI groups with a
+cooperative AI majority. Under such conditions, however, AIs may learn
+to favor in-group members and antagonize out-group members, in order to
+maintain group solidarity. AIs may be more likely to see other AIs as
+part of their group, and this could lead to conflict between AIs and
+humans.<p>
+Fourth, we explored the possibility that AIs may create variants of
+themselves, and the forces of kin selection may drive these related
+variants to cooperate with each other. However, this could also give
+rise to nepotism, where AIs prioritize the interests of their variants
+over other AIs and humans. As the differences between humans and AIs
+increase, AIs may be increasingly less inclined to cooperate with
+humans.<p>
+Fifth, we discussed the mechanism of individual stakes to common stakes.
+As an example, we explored the possibility that AIs may someday be
+viewed as an out-group, an existential threat by humanity. This may
+inspire humanity to set aside its differences, promoting global
+solidarity as a means to address catastrophic threats posed by AI.<p>
+Sixth, we broke down Simon’s selection mechanism, highlighting that to
+overcome their bounded rationality, agents may be better off
+establishing and relying on cooperative social channels. We extended
+this idea to AI agents as well, supposing that in a multi-agent setting,
+AIs may develop their own communication channels and protocols, which
+may give them a fitness advantage over humans. Moreover, we also
+considered the possibility that AIs might use their cooperative social
+channels to build collective intelligences, which, being vastly superior
+to human collective intelligences, would preclude humans from taking
+part in and understanding the decisions AIs make within such
+systems.<p>
+Finally, we concluded with a discussion of how institutions can
+incentivize cooperation through externally imposed incentives that
+enforce cooperation and punish defection <span class="citation"
+data-cites="buterin2022institution">[46]</span>. We related this concept
+to the idea of an AI Leviathan used to counteract selfish, powerful AIs.
+However, we also stressed that humans should take care to ensure their
+relationship with the AI Leviathan is symbiotic and transparent,
+otherwise humans risk losing control of AIs.<p>
+In our discussion of these mechanisms, we not only illustrated their
+prevalence in our world, but also showed how they might influence
+cooperation with and between AI agents. In several cases, the mechanisms
+we discuss could promote cooperation. However, no single mechanism
+provides a foolproof method for ensuring cooperation. In the following
+section, we discuss the nature of conflict, namely the various factors
+that may give rise to it. In doing so, we enhance our understanding of
+what might motivate conflict in AI, and subsequently, our abilities to
+predict and address AI-driven conflict scenarios.</p>
