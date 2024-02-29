@@ -404,12 +404,6 @@ activations when responding to these stimuli. We can use these
 techniques to find portions of models which are responsible for
 important behaviors like models refusing requests, planning undesirable
 behavior, or deception.</p>
-<p><strong>A control panel of AI operation.</strong> The result of
-representation reading could be a control panel of the most important
-indicators of model processing. Operators could detect anomalous model
-behavior by monitoring for unusual or concerning combinations of
-indicators. Though this research area is relatively new, its techniques
-show early promise.
 <p><strong>Conclusion.</strong> ML transparency is a challenging problem
 because of the difficulty of understanding complex systems. Its ongoing
 research areas are mechanistic interpretability and representation
