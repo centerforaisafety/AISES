@@ -1,8 +1,8 @@
-<!-- Appendix A - Utility Functions -->
+<!-- Appendix B - Utility Functions -->
 
-<h1 id="utility-and-utility-functions">A.1 Utility and Utility
+<h1 id="utility-and-utility-functions">B.1 Utility and Utility
 Functions</h1>
-<h2 id="fundamentals">A.1.1 Fundamentals</h2>
+<h2 id="fundamentals">B.1.1 Fundamentals</h2>
 <p><strong>A utility function is a mathematical representation of
 preferences.</strong> A utility function, <span
 class="math inline"><em>u</em></span>, takes inputs like goods or
@@ -60,7 +60,7 @@ understand and model agents’ <em>attitudes toward risk</em>. Finally, we
 examine <em>non-expected utility theories</em>, which seek to rectify
 some shortcomings of conventional expected utility theory when modeling
 real-life behavior.</p>
-<h2 id="motivations-for-learning-about-utility-functions">A.1.2 Motivations
+<h2 id="motivations-for-learning-about-utility-functions">B.1.2 Motivations
 for Learning About Utility Functions</h2>
 <p><strong>Utility functions are a central concept in economics and
 decision theory.</strong> Utility functions can be applied to a wide
