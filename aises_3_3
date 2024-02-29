@@ -384,7 +384,8 @@ escalating standards and new countermeasures.</p>
 <h2 id="adversarial-examples">3.3.3 Adversarial Examples</h2>
 <p>Adversarial examples are another type of risk due to optimization
 pressure, which, similar to proxy gaming, exploits the gap between a
-proxy and the idealized goal. In this section, we present an example of
+proxy and the idealized goal. These can enable adversarial attacks that cause an AI system to malfunction or produce outputs that were not intended by its developer. 
+In this section, we present an example of
 such an attack, explain the risk factors, and cover basic techniques for
 defending against adversarial attacks.</p>
 <p><strong>It is possible to optimize against a neural network.</strong>
