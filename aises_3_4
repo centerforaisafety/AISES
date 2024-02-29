@@ -54,7 +54,19 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:power">3.5 Power</h1>
+<h1 id="sec:power">3.4 Control</h1>
+
+<p> To reduce risks from AI, we not only want to reduce our exposure to hazards by monitoring
+ them, and make models more robust to adversarial attacks, but also to ensure AIs are controllable
+ and that they present less inherent hazards. One obstacle to both monitoring and controlling AI 
+systems is deceptive AI systems. This need not imply any self-awareness on the part of AI systems:
+ deception could be seriously harmful even if it is accidental or due to imitation of human behaviour.
+ There are also concerns that under certain circumstances, AI systems would be incentivized to seek to
+ accumulate resources and power in ways that would threaten human oversight and control. Power-seeking
+ AIs could be a particularly dangerous phenomenon, though one that may only emerge under more specific
+ and narrow circumstances than has been previously assumed in discussions of this topic. However, there
+ are nascent research areas that can help to make AI systems more controllable, including representation control and machine unlearning. </p>
+
 <p>This section begins by describing in detail what it means for an
 agent to have power. Then we will discuss why it sometimes makes
 rational sense for AI agents to seek power. Finally, we will discuss why
