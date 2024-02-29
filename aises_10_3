@@ -20,7 +20,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="tail-risk-corrigibility">A.3 Tail Risk: Corrigibility</h1>
+<h1 id="tail-risk-corrigibility">B.3 Tail Risk: Corrigibility</h1>
 <p><strong>Overview.</strong> In this section, we will explore how
 utility functions provide insight into whether an AI system is open to
 corrective interventions and discuss related implications for AI risks.
