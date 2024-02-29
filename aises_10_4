@@ -1,4 +1,4 @@
-<h1 id="attitudes-to-risk">A.4 Attitudes to Risk</h1>
+<h1 id="attitudes-to-risk">B.4 Attitudes to Risk</h1>
 <p><strong>Overview.</strong> The concept of risk is central to the
 discussion of utility functions. Knowing an agent’s attitude towards
 risk—whether they like, dislike, or are indifferent to risk—gives us a
@@ -17,7 +17,7 @@ situations. National governments, for example, will differ in risk
 outlook from rogue states, and big tech companies will differ from
 startups. Moreover, we should know how risk averse we should be with AI
 development, as it has both large upsides and downsides.</p>
-<h2 id="what-are-the-different-attitudes-to-risk">A.4.1 What Are the Different
+<h2 id="what-are-the-different-attitudes-to-risk">B.4.1 What Are the Different
 Attitudes to Risk?</h2>
 <p><strong>There are three broad types of risk preferences.</strong>
 Agents can be risk averse, risk neutral, or risk seeking. In this
@@ -104,7 +104,7 @@ inherent aversion to risk that is separate from preferences over
 outcomes. At the end of this chapter, we will explore how non-expected
 utility theories have attempted to more closely capture human behavior
 in risky situations.</p>
-<h2 id="risk-and-decision-making">A.4.2 Risk and Decision Making</h2>
+<h2 id="risk-and-decision-making">B.4.2 Risk and Decision Making</h2>
 <p><strong>Overview.</strong> Having defined risk attitudes, we will now
 consider situations where it is appropriate to act in a risk-averse,
 risk-neutral, or risk-seeking manner. Often, our risk approach in a
