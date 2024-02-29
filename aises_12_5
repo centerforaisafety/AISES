@@ -1,19 +1,5 @@
 <p><strong>Intrasystem goal conflict may cause an AI system not to
-behave as a unified agent.</strong> One reason why we might expect an AI
-system not to pursue a specified goal is because intrasystem goal
-conflict has eroded its “unity of purpose.” A system has achieved unity
-of purpose if there is alignment at all levels of internal organization
-<span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>.
-Undermining a system’s <em>unity of purpose</em> reduces its ability to
-carry out its system-level goals. A helpful analogy here is to consider
-political “coups.” A coup is characterized by a struggle for control
-within a political system, in which agents within the system act to
-seize power, often eroding the system’s unity of purpose by disrupting
-its stability and functionality. When political leaders are overthrown
-by their second-in-command, the goals of the political system usually
-change. Similarly, if we give an AI agent a goal to pursue, the agent
-may in turn assign parts of this goal to sub-agents, who may take over
-and subvert the original goal with their own.</p>
+behave as a unified agent.
 <p><strong>Intrasystem goal conflict can arise through
 modularization.</strong> There are two mechanisms by which intrasystem
 goal conflict may arise. The first is <em>modularization</em>: a goal
