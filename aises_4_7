@@ -1,4 +1,4 @@
-<h1 id="tail-events">4.7 Tail Events</h1>
+<h1 id="tail-events">4.7 Tail Events and Black Swans</h1>
 <p>In the first few sections of this chapter, we discussed failure modes
 and hazards, equations for understanding the risks they pose, and
 principles for designing safer systems. We also looked at methods of
