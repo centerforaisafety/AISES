@@ -142,7 +142,7 @@ failure.</p>
 <p><strong>Multi-agent dynamics could lead to selfish traits.</strong>
 Having a group of diverse AIs, as opposed to just one, could create the
 necessary conditions for a process of evolution by natural selection to
-take effect (for further detail, see ). This might cause AIs to evolve
+take effect (for further detail, see section 7.5). This might cause AIs to evolve
 in ways that we would not necessarily be able to predict or control. In
 many cases, evolutionary pressures have been observed to favor selfish
 traits in biological organisms. The same mechanism might promote AIs
@@ -152,7 +152,7 @@ failures.</strong> A group of AIs interacting with one another would
 form a complex system, and could therefore exhibit collective emergent
 properties that could not be predicted from understanding the behavior
 of just one. A group of AIs might therefore increase the risk of black
-swan events (See the section on Black Swans). Additionally,
+swan events (see section 4.7 for details). Additionally,
 interactions between AIs could form feedback loops, increasing the
 potential for rapid downward spirals that are difficult to intervene and
 stop. A group of powerful AIs in control of multiple military processes
@@ -374,7 +374,7 @@ of black swans.</strong> Although numerous risks associated with AIs
 have been identified, there may be more that we are unaware of. AIs
 themselves might even discover more technologies or ways of causing harm
 than humans have imagined. If this possibility were to result in a black
-swan event (see the section on Black Swans for a deeper
+swan event (see section 4.7 for a deeper
 discussion of black swans), it would likely favor offense over defense,
 at least to begin with, as decision makers would not immediately
 understand what was happening or how to counteract it.</p>
