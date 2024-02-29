@@ -1,4 +1,4 @@
-<h1 id="conclusion">7.6 Conclusion</h1>
+<h1 id="conclusion">A.6 Conclusion</h1>
 <p>Ethics is the study of moral principles and how they guide our
 decisions and actions. It encompasses questions of right and wrong, and
 it provides a framework for making choices based on our values and
@@ -45,27 +45,3 @@ ensuring that the AI’s value functions are not vulnerable to optimizers
 - representing more than just intrinsic goods, for example legal systems
 and normative factors including special obligations and deontological
 constraints</p>
-<p><strong>Because there is no consensus about which moral theory (if
-any) is correct, we must accommodate some degree of moral
-uncertainty.</strong> To navigate moral uncertainty, we might consider
-multiple perspectives when making moral decisions. In the context of AI
-development, moral uncertainty becomes especially significant due to the
-wide-ranging societal implications of AI systems. Designers and
-developers of AI technologies must carefully consider the ethical and
-moral implications of their actions and ensure that ethical
-considerations are integrated into the development process.</p>
-<p><strong>Being aware of moral uncertainty can help AI developers avoid
-negative outcomes.</strong> Uncertainty highlights complexity of moral
-judgments and the potential for unexpected consequences. To address
-moral uncertainty effectively, AI systems should be capable of
-recognizing and acknowledging a broad range of moral perspectives. This
-presents challenges in determining how to rationally balance the
-recommendations of different ethical theories and ensure alignment with
-human values.<p>
-There is no known solution to all ethical dilemmas, and the choice of
-approach may depend on context, the level of uncertainty, and personal
-preferences. It is crucial to incorporate diverse moral perspectives,
-quantify uncertainty, and employ strategies like maximizing expected
-choice-worthiness and moral parliament. By doing so, we can work to
-ensure AI systems act in accordance with our values and mitigate
-unintended harm.</p>
