@@ -852,8 +852,7 @@ class="math inline"><em>L</em></span>) exhibits a power-law dependency
 on each of model parameter count (<span
 class="math inline"><em>N</em></span>) and dataset size (<span
 class="math inline"><em>D</em></span>).<p>
-For more details on scaling laws in deep learning systems, see the
-section in Artificial Intelligence &amp; Machine Learning.</p>
+For more details on scaling laws in deep learning systems, see section 2.4.</p>
 <p><strong>Summary.</strong> Certain important properties of complex
 systems often scale nonlinearly with the size of the system. This means
 that two separate systems will not behave in the same way as one single
