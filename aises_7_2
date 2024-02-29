@@ -465,7 +465,7 @@ to the payoff structure, and future reward/punishment. We will explore
 two possibilities in this section — payoff changes and altruistic
 dispositions — and then “future reward/punishment” in the next section.
 Note that we effectively discuss “Defection is impossible” in the Single Agent Safety
-chapter, and “AI consciences” in the Machine Ethics chapter.<p>
+chapter, and “AI consciences” in the Beneficial AI and Machine Ethics chapter.<p>
 </p>
 <figure id="fig:cooperate">
 <img
@@ -577,7 +577,7 @@ in a less purely self-interested fashion. Rather than caring solely
 about maximizing their shareholder’s financial interests, AI companies
 might cooperate more with each other to steer away from Pareto
 inefficient outcomes, and avoid corporate AI races. We explore this in
-more detail in section 1.4.3 “Tail risk: AI races”</em>
+more detail in section 1.3</em>
 below.</p>
 <h3 id="summary">Summary</h3>
 <p><strong>Cooperation is not always rational, so intelligence alone may
@@ -1148,8 +1148,7 @@ their partner cooperated, the extortionist will cooperate with a
 probability of 1/3 in this
 round.</p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
-out altogether.</strong> As we saw in Section 7.2.4,
-many uncooperative strategies may gain a higher score than most of their
+out altogether.</strong> Many uncooperative strategies may gain a higher score than most of their
 partners in head-to-head matches, and yet still lose in tournaments. By
 contrast, extortionists can be somewhat successful in tournaments under
 certain conditions. Extortionists are vulnerable to the same problem as
