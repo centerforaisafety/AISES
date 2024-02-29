@@ -102,17 +102,6 @@ dataset sizes given computational constraints. Scaling laws hold across
 many modalities and orders of magnitude, though they do not necessarily
 apply to all deep learning models, such as many classification
 models.</p>
-<p><strong>Reinforcement learning.</strong> Finally, we turned our
-attention to reinforcement learning and explored the field’s basic
-concepts, terminology, and techniques. We examined RL problems, which
-provide the general framework through which reinforcement learning
-attempts to automate the capacity of an agent to learn from its actions
-and their consequences in an environment. In these problems, agents
-learn to make decisions through trial and error. Through the toy
-examples of multi-armed bandits and Gridworld, we introduced the major
-concepts and terms used in reinforcement learning. Lastly, we saw a few
-examples of groundbreaking applications of RL in gaming, including
-AlphaGo, AlphaStar, and Cicero.</p>
 <h2 id="key-takeaways">2.6.2 Key Takeaways</h2>
 <p><strong>AI created fundamental changes, offering benefits and
 presenting risks.</strong> AI is increasingly being integrated into
