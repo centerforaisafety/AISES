@@ -245,8 +245,7 @@ difficult, as we need to be able to specify precisely how these values
 can be combined and traded off against each other.<p>
 This challenge isn’t unique to YouTube. As long as AI systems’ goals
 rely on simple proxies and do not reflect the set of all of our
-intrinsic goods such as wellbeing (see the Machine Ethics chapter for more discussion
-of intrinsic goods), we leave room for optimizers to exploit those gaps.
+intrinsic goods such as wellbeing, we leave room for optimizers to exploit those gaps.
 In the future, machine learning models may become adept at representing
 our wider set of values. Then, their ability to work reliably with
 proxies will hinge largely on their resilience to the kinds of
