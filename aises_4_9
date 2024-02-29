@@ -1,4 +1,5 @@
-<h1 id="conclusion">4.9 Conclusion</h1>
+<h1 id="conclusion">4.8 Conclusion</h1>
+<h2 id="summary">4.8.1 Summary</h2>
 <p>In this chapter, we have explored various methods of analyzing and
 managing risks inherent in systems. We began by looking at how we can
 break risk down into two components: the probability and severity of an
@@ -134,7 +135,82 @@ systemic factors for improving safety.<p>
 We also described how following the precautionary principle can reduce
 our exposure to risks, and how improving decision-making processes
 around the use of AI and changing researchers’ incentives can improve
-prospects. In summary, while this may be a new and unfamiliar aspect of
-the world, posing many novel challenges, there is much that can be done
-to increase the likelihood that this technology is used in a safe way,
-for the benefit of humanity rather than to its detriment.</p>
+prospects.</p>
+
+<h2 id="key-takeaways">4.8.2 Key takeaways</h2>
+<p><strong>Tail events and black swans require a different approach to managing risks.</strong> <span
+class="citation" data-cites="Marsden2017blackswan">[3]</span> Some decisions require vastly more caution than others: for instance, 
+paraphrasing Richard Danzig, you should not ``need evidence'' that a gun is loaded to avoid playing Russian roulette <span class="citation"
+data-cites="danzig2018technology">[5]</span>. Instead, you should need evidence of safety. In situations where we are subject to the possibility 
+of tail events and black swans, this evidence might be impossible to find.</p>
+
+<p>One element of good decision making is to exercise more caution than we would under thin-tailed scenarios. In the case of new technologies such 
+as AI systems, this might mean not prematurely deploying them on a large scale. In some situations, we can be extremely wrong and things can still 
+end up being fine; in others, we can be just slightly wrong but suffer disastrous consequences. We must also be cautious while trying to solve our problems. 
+For example, while climate change poses a serious threat, many experts believe it would be unwise to attempt to fix it quickly by rushing into geoengineering 
+solutions like spraying sulfur particles into the atmosphere. There may be an urgent need to solve the problem, but we should take care that we are not pursuing
+ solutions that could cause many other problems.</p>
+
+<p>Although tail events may be challenging to predict, there are a variety of techniques discussed in this chapter that can help with this, such as expanding our 
+safety imagination, conducting horizon scanning exercises, and red-teaming.</p>
+
+<p><strong>Incorporating safe design principles can improve general
+safety.</strong> Following the safe design principles listed earlier in this chapter can
+be a good first step towards reducing systemic risks from AI, with the caveat that we should think carefully
+about which defense features are appropriate, and avoid too much
+complexity. In particular, focusing on increasing the controllability of
+the system might be a good idea. This can be done by adding loose
+coupling into the system, by supporting human operators to notice
+hazards and act on them early, and by devising negative feedback
+mechanisms that will down-regulate processes if control is lost.<p>
+Consider in detail the principle of least privilege. For one, it tells
+us that we should be cautious about giving AIs too much power, to limit
+the extent to which we are exposed to their tail risks. We might be
+concerned that AIs become enmeshed within society with the capacity to
+make big changes in the world when they do not need such access to
+perform their assigned duties. Additionally, for particularly powerful
+AI systems that have useful capabilities, it might be reasonable to keep
+them relatively isolated from wider society, and accessible only to
+verified individuals who have demonstrable and specific needs for such
+AIs. In general, being conservative about if and how we unleash
+technologies can reduce our exposure to black swans.</p>
+<p><strong>Targeting systemic factors is an important approach to reducing overall
+risk.</strong> As we discussed, tackling systemic safety issues can be
+more effective than focusing on details in complex systems. This can
+reduce the risk of both foreseeable accidents and black swans.</p>
+<p>Raising general awareness of risks associated with technologies can produce
+social pressures, and bring organizations operating those technologies
+under greater scrutiny. Developing and enforcing industry regulations
+can help ensure organizations maintain appropriate safety standards, as
+can encouraging best practices that improve safety culture. If there are
+ways of reducing the safety costs (e.g. through technical research), this can make it more likely that an
+organization will adopt them, also improving general safety.<p>
+<p>Other systemic factors to pay attention to include competitive
+pressures. These can undermine general safety by compelling management
+and employees to cut corners, whether to increase rates of production or
+to reach a goal before competitors. If there are ways of reducing these
+pressures and encouraging organizations to prioritize safety, this could
+substantially lessen overall risk.</p>
+<p><strong>Improving the incentives of decision-makers and reducing moral hazard can help to address systemic risks.</strong>
+We might want to influence the incentives of researchers developing AI. Researchers might
+currently be focused on increasing profits and reaching goals before
+competitors, pursuing scientific curiosity and a desire for
+rapid technological acceleration, or developing the best capabilities in deep
+learning models to find out what is possible. In this sense, these
+researchers might be somewhat disconnected from the risks they could be
+creating and the externalities they are imposing on the rest of society,
+creating a moral hazard. Encouraging more consideration of the possible
+risks, perhaps by making researchers liable for any consequences of the
+technologies they develop, could therefore improve general safety.</p>
+<p>
+Similarly, we might be able to improve decision-making by changing who has a say in
+decisions, perhaps by including citizens in decision-making processes,
+not only officials and scientists <span class="citation"
+data-cites="Marsden2017blackswan">[20]</span>. This reduces moral hazard
+by including the stakeholders that have “skin in the game.” It can also
+lead to better decisions in general due to the wisdom of crowds, the
+phenomenon where crowds composed of diverse individuals make much better
+decisions collectively than most members within it, when the conditions
+are right.</p>
+<p>In summary, while AI poses novel challenges, there is much we can learn from existing approaches to safety engineering and risk management in order to reduce the risk of catastrophic outcomes.</p>
+
