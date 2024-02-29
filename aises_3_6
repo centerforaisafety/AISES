@@ -98,13 +98,17 @@ level of risk compared to the most likely alternatives. This is called
 <em>differential technological development</em>, where we try to speed
 up the development of safety features and slow down the development of
 more dangerous features.<p>
-To conclude, naive AI safety research may inadvertently increase some
-risks even while reducing others. While this section covered the risk of
-accelerating general capabilities, we can also take a more general
-lesson that research on safety may have unintended consequences and
-could even paradoxically reduce safety. Researchers should guard against
-this by empirically assessing the impact of their works on multiple risk
-sources, not just the one they aim to target.</p>
+Overall, AI research can and should be directed towards goals that enhance the 
+safety of AI systems and increase societal resilience to risks from AI. Naive 
+AI safety research may inadvertently increase some risks even while reducing others. 
+While this section covered the risk of accelerating general capabilities, we can also
+ take a more general lesson that research on safety may have unintended consequences 
+and could even paradoxically reduce safety. Researchers should guard against this by 
+empirically assessing the impact of their works on multiple risk sources, not just the 
+one they aim to target. As discussed in the previous sections, there are many research 
+areas that can improve the safety of AI systems or provide society with defenses against
+ some AI risks, while avoiding dangerous acceleration of AI's general capabilities. 
+Boosting research in these areas could provide a robust way to reduce risks from AI while avoiding some of the pitfalls described in this section. </p>
 
 <br>
 <br>
