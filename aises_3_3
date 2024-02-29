@@ -1,4 +1,11 @@
-<h1 id="sec:opaqueness">3.3 Opaqueness</h1>
+<h1 id="sec:opaqueness">3.3 Monitoring</h1>
+
+<p>Obstacles to effective monitoring of AI systems to identify and avoid hazards include the opaqueness of 
+AI systems, the emergence of surprising ``emergent'' capabilities as they become more advanced, and the 
+potential for accidental or malicious introduction of hidden functionality that could cause models to behave 
+unexpectedly under certain circumstances.</p>
+
+<h2 id="ml-systems-are-opaque">3.3.1 ML Systems are Opaque</h2>
 <p>The internal operations of many AI systems are opaque. We might be
 able to reveal and prevent harmful behavior if we can make these systems
 more transparent. In this section, we will discuss why AI systems are
@@ -6,7 +13,7 @@ often called <em>black boxes</em> and explore ways to understand them.
 Although early research into transparency shows that the problem is
 highly difficult and conceptually fraught, its potential to improve AI
 safety is substantial.</p>
-<h2 id="ml-systems-are-opaque">3.3.1 ML Systems are Opaque</h2>
+
 <p>The most capable machine learning models today are based on deep
 neural networks. Whereas most conventional software is directly written
 by humans, deep learning (DL) systems independently learn how to
@@ -160,7 +167,7 @@ fairly assign blame in failures involving human-in-the-loop systems.</p>
 correspond with many intentions, an AI’s behavior can correspond to many
 internal processes, some of which are more acceptable than others. For
 example, competent deception is intrinsically difficult to distinguish
-from genuine helpfulness. We discuss this issue in more detail in the
+from genuine helpfulness. We discuss this issue in more detail in the Control
 section. For phenomena like deception that are difficult to detect from
 behavior alone, transparency tools might allow us to catch internal
 signs that show that a model is engaging in deceptive behavior.</p>
