@@ -953,15 +953,41 @@ provides techniques to identify at a high level which parts of models are involv
 The result of representation reading could be a control panel of the most important indicators of model processing. Operators could
  detect anomalous model behavior by monitoring for unusual or concerning combinations of indicators. Though this research area is relatively new, its techniques show early promise. </p>
 
-<p>With representation control, we can also use the outputs from representation reading (such as differences in activations in response to contrasting prompts) 
-to adjust a model’s representation. For example, we could use this to delete unintended knowledge or skills from a network \citep{belrose2023leace}. 
-As another example, we can use representation control to control whether an AI lies or is honest \citep{burns2022discovering}. Although it relies on representation reading techniques, representation control is not an area of transparency since its goal is control and not a general understanding of neural networks’ inner workings.
+<p> With <em>representation control</em>, we can also use the outputs from
+representation reading (such as differences in activations in response
+to contrasting prompts) to adjust a model’s representation. For example,
+we could use this to delete unintended knowledge or skills from a
+network <span class="citation"
+data-cites="belrose2023leace">[21]</span>. As another example, we can
+use representation control to control whether an AI lies or is honest
+<span class="citation" data-cites="burns2022discovering">[22]</span>.
+Although it relies on representation reading techniques, representation
+control is not an area of transparency since its goal is control and not
+a general understanding of neural networks’ inner workings.</p>
 
-\paragraph{Machine unlearning is a promising technique to reduce hazards posed by AI systems. } Machine unlearning refers to a set of approaches that aim to remove certain types of knowledge from an AI system. This was originally discussed in the context of privacy concerns and removing personal information that may have been included in training datasets. However, other types of unlearning techniques are highly relevant in the context of AI misuse or rogue AI systems. With effective unlearning techniques, we may be able to remove specific capabilities from AI systems so that they are not able to support these actors with planning terrorist acts or other kinds of severe misuse. For example, by removing certain types of virology knowledge from AI systems, we could make these systems less useful to anyone interested in creating bioweapons. As previously discussed in \ref{sec:malicious}, one of ways that AI systems could lead to societal-scale catastrophes is by enabling a much wider range of people to carry out catastrophic acts of terrorism such as unleashing a bio-engineered pandemic. More speculatively, we might be able to reduce the likelihood and potential danger posed by deceptive or power-seeking AI systems by removing certain types of knowledge about their environment or mode of operation.\\
+<p><strong>Machine unlearning is a promising technique to reduce hazards posed by AI systems.</strong> Machine unlearning refers to a set of approaches
+ that aim to remove certain types of knowledge from an AI system. This was originally discussed in the context of privacy concerns and removing personal
+ information that may have been included in training datasets. However, other types of unlearning techniques are highly relevant in the context of AI 
+misuse or rogue AI systems. With effective unlearning techniques, we may be able to remove specific capabilities from AI systems so that they are not 
+able to support these actors with planning terrorist acts or other kinds of severe misuse. For example, by removing certain types of virology knowledge
+ from AI systems, we could make these systems less useful to anyone interested in creating bioweapons. As previously discussed in section 1.2, 
+one of ways that AI systems could lead to societal-scale catastrophes is by enabling a much wider range of people to carry out catastrophic acts of 
+terrorism such as unleashing a bio-engineered pandemic. More speculatively, we might be able to reduce the likelihood and potential danger posed by 
+deceptive or power-seeking AI systems by removing certain types of knowledge about their environment or mode of operation.</p>
 
-\noindent Unlearning is only one of a variety of tools available to AI developers looking to restrict misuse of their systems. However, it presents some advantages over other approaches: machine unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, or training the model to reject malicious requests in a way that is robust to later fine-tuning or other alterations. Unlearning could make it easier for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users lack the know-how to support certain types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains knowledge that could enable  However, the sub-field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on limited fine-tuning data, this would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be removed without significantly degrading the model's general usefulness for many innocuous tasks.
+<p>Unlearning is only one of a variety of tools available to AI developers looking to restrict misuse of their systems. However, it presents some 
+advantages over other approaches: machine unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, 
+or training the model to reject malicious requests in a way that is robust to later fine-tuning or other alterations. Unlearning could make it easier
+ for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users lack the know-how to support certain 
+types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
+ However, the sub-field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on 
+limited fine-tuning data, this would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be 
+removed without significantly degrading the model's general usefulness for many innocuous tasks.</p>
 
-\paragraph{Conclusion.} Deceptive or power-seeking AI systems could pose severe challenges to our ability to control AI systems. In order to pre-empt these risks, we need to develop better tools that enable us to identify evidence of deceptive or power-seeking tendencies in AI systems and to remove or control these. Representation control and machine unlearning are emerging areas of research that show promise for tackling these challenges. There are many open questions to be explored in seeing how far these and other techniques can be applied in order to ensure that AI systems can be understood and controlled.
+<p><strong>Conclusion.</strong> Deceptive or power-seeking AI systems could pose severe challenges to our ability to control AI systems. In order to pre-empt 
+these risks, we need to develop better tools that enable us to identify evidence of deceptive or power-seeking tendencies in AI systems and to remove or control
+these. Representation control and machine unlearning are emerging areas of research that show promise for tackling these challenges. There are many open questions
+ to be explored in seeing how far these and other techniques can be applied in order to ensure that AI systems can be understood and controlled.</p>
 
 <br>
 <br>
