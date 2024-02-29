@@ -92,7 +92,7 @@ score. <em>Deceptive alignment</em> is a tail risk of AI deception where
 an AI system engages in deceptive evaluation gaming in the service of a
 secretly held goal <span class="citation"
 data-cites="Hubinger2019RisksFL">[2]</span>.</p>
-<h2 id="examples-of-deception">3.7.1 Examples of Deception</h2>
+
 <p>Deception may occur in a wide range of cases, as it may be useful for
 many goals. Deception may also occur for a range of more mundane
 reasons, such as when an AI system is simply incorrect.</p>
@@ -223,7 +223,7 @@ likely for goals that involve seeking power. We will now turn to those
 two forms of deception that are especially concerning because of how
 difficult they could be to counteract: deceptive evaluation gaming and
 deceptive alignment.</p>
-<h2 id="deceptive-evaluation-gaming">3.7.2 Deceptive Evaluation Gaming</h2>
+<h2 id="deceptive-evaluation-gaming">3.4.2 Deceptive Evaluation Gaming</h2>
 <p>AI systems are often subjected to evaluations, and they may be given
 rewards when they are evaluated favorably. AI systems may learn to game
 evaluations by deceiving their human evaluators into giving them higher
@@ -307,7 +307,7 @@ performance. Proxy gaming is covered at length in the Proxy Gaming section.
 Second, we will turn to the case where an AI system engages in deceptive
 evaluation gaming in service of a secretly held final goal. This danger
 is known as deceptive alignment.</p>
-<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns">3.7.3 Tail Risk:
+<h2 id="tail-risk-deceptive-alignment-and-treacherous-turns">3.4.3 Tail Risk:
 Deceptive Alignment and Treacherous Turns</h2>
 <p>For deceptively aligned systems, getting high evaluation scores from
 humans is merely an instrumental goal in service of a secretly held
@@ -523,7 +523,7 @@ which includes the idea that power could be understood as the expected
 impact an individual has on individuals’ wellbeing. Since there are many
 ways to conceptualize power, we provided concrete examples of how an AI
 system could seek power.</p>
-<h2 id="people-could-enlist-ais-for-power-seeking">3.5.2 People Could Enlist
+<h2 id="people-could-enlist-ais-for-power-seeking">3.4.5 People Could Enlist
 AIs for Power Seeking</h2>
 <p>The rest of this section will cover pathways and reasons why AI
 systems might engage in power-seeking behavior when they are deployed.
@@ -548,7 +548,7 @@ could function as a Pandora’s box which, once it has been opened, cannot
 be closed. This may feed into evolutionary pressures that force actors
 to adopt the technology themselves; we treat this subject in more detail
 in the Collective Action Problems chapter.</p>
-<h2 id="power-seeking-can-be-instrumentally-rational">3.5.3 Power Seeking Can
+<h2 id="power-seeking-can-be-instrumentally-rational">3.4.6 Power Seeking Can
 Be Instrumentally Rational</h2>
 <p>Another reason that AI systems might seek power is that it is useful
 for achieving a wide variety of goals. For example, an AI personal
@@ -800,7 +800,7 @@ with our analysis of power-seeking AI, but is also relevant to thinking
 about AI cooperation and conflict (which we discuss in the Collective Action Problems chapter) and
 international coordination (which we discuss in the Governance chapter).</p>
 </div>
-<h2 id="structural-pressures-towards-power-seeking-ai">3.5.4 Structural
+<h2 id="structural-pressures-towards-power-seeking-ai">3.4.7 Structural
 Pressures Towards Power-Seeking AI</h2>
 <p>As discussed in the box above, there are environmental conditions
 that can make power seeking instrumentally rational. This section
@@ -895,7 +895,7 @@ strength, or offensively, by attacking other agents which could pose a
 threat. By understanding the precise conditions that lead to
 power-seeking behavior, we can identify ways to reduce the threat of
 power-seeking AIs.</p>
-<h2 id="tail-risk-power-seeking-behavior">3.5.5 Tail Risk: Power-Seeking
+<h2 id="tail-risk-power-seeking-behavior">3.4.8 Tail Risk: Power-Seeking
 Behavior</h2>
 <p>Power-seeking AI, when deployed broadly and in high-stakes
 situations, might cause catastrophic outcomes. As we will describe in
