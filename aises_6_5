@@ -11,7 +11,7 @@ Three common accounts of wellbeing characterize it as 1) net pleasure
 over pain, 2) preference satisfaction, or 3) a collection of objective
 goods. Each account is elaborated below.</p>
 
-<h2 id="sec:pleasure">Wellbeing as the Net Balance of Pleasure over Pain</h2>
+<h2 id="sec:pleasure">6.5.1 Wellbeing as the Net Balance of Pleasure over Pain</h2>
 <p>Some philosophers, known as <em>hedonists</em>, argue that wellbeing
 is the achievement of the greatest balance of pleasure and happiness
 over pain and suffering. (For simplicity we do not distinguish, in this
@@ -36,7 +36,7 @@ valued. However, some philosophers argue that hedonism is an incomplete
 account of wellbeing. They argue there may be other factors that
 influence wellbeing, such as the pursuit of knowledge.</p>
 
-<h2 id="sec:preference-satisfaction">Wellbeing as Preference Satisfaction</h2>
+<h2 id="sec:preference-satisfaction">6.5.2 Wellbeing as Preference Satisfaction</h2>
 <p>Some philosophers claim that what really matters for wellbeing is
 that our preferences are satisfied, even if satisfying preferences does
 not always lead to pleasurable experiences.<p>
@@ -48,7 +48,7 @@ then their stated preference (eating healthy) diverges from their revealed prefe
 Suppose they would choose to eat healthy if fully informed of the costs and benefits: their idealized preferences, 
 then, would be to eat healthy. Each of these categories can be informative in different contexts: we explore their relevance in the next section.</p>
 
-<h2 id="sec:objective-goods">Wellbeing as a Collection of Objective Goods</h2>
+<h2 id="sec:objective-goods">6.5.3 Wellbeing as a Collection of Objective Goods</h2>
 <p>Others believe that wellbeing is the achievement of an objective set
 of “goods” or “values.” These goods are considered necessary for living
 a good life regardless of a person’s individual experiences or
@@ -201,6 +201,7 @@ evaluate the effectiveness of policies and other interventions aimed at
 improving wellbeing.</p>
 </div>
 
+<h2 id="sec:applying-wellbeing">6.5.4 Applying the Theories of Wellbeing</h2>
 <p>While people disagree about which account of wellbeing is correct, most people agree that wellbeing is an important moral consideration. All else equal, taking actions that promote wellbeing is generally considered morally superior to taking actions that reduce wellbeing. However, the three theories of wellbeing have different practical implications. In the future, we are likely to interact with AI chatbots in a variety of ways; in particular, we might have close personal interactions with them that influence our decision-making. Different theories of wellbeing would suggest different goals for these AIs.</p>
 
 <p><strong>Chatbots could prioritize pleasure.</strong> The hedonistic view suggests that wellbeing is primarily about experiencing pleasure and avoiding pain. This theory might recommend that AIs should be providing users with entertaining content that brings them pleasure or encouraging them to make decisions that maximize their balance of pain over pleasure over the long run. A common criticism is that this trades off with other goods considered valuable like friendship and knowledge. While this is sometimes true, these goals can also align. Providing content that is psychologically rich and supports users’ personal growth can contribute to a more fulfilling and meaningful life full of genuinely pleasurable experiences.</p>
