@@ -25,14 +25,14 @@
     }
 </style>
 
-<h1 id="sec:proxy-gaming">3.4 Proxies</h1>
+<h1 id="sec:proxy-gaming">3.3 Robustness</h1>
 <p>In this section, we begin to explore the need for proxies in machine
-learning and the associated risks. We do this by examining a potential
+learning and the challenges this poses for creating systems that are robust to adversarial attacks. We examine a potential
 failure mode known as proxy gaming, wherein a model optimizes for a
 proxy in a way that diverges from the idealized goals of its designers.
 We also analyze a related concept known as Goodhart’s law and explore
 some of the causes for these kinds of failure modes. Next, we consider
-the related phenomenon of adversarial examples, where an optimizer is
+the phenomenon of adversarial examples, where an optimizer is
 used to exploit vulnerabilities in a neural network. We close by looking
 at the tail risks of having AI systems themselves play the role of
 evaluators (i.e. proxy goals) for other other AI systems.</p>
@@ -635,6 +635,19 @@ examples. However, most adversarial training techniques assume
 unrealistically simple threat models. Moreover, an adversarial training
 technique is not without its downsides, as it often harms performance
 elsewhere. Furthermore, progress in this direction has been slow.</p>
+<p><strong>Risks from adversarial attacks.</strong> The difficulties 
+in building AI systems that are robust to adversarial attacks are concerning
+ for a number of reasons. AI developers may wish to prevent general-purpose AI
+ systems such as Large Language Models (LLMs) from being used for harmful purposes
+ such as assisting with fraud, cyber-attacks, or terrorism. There is already some 
+initial evidence that LLMs are being used for these purposes <span
+class="citation" data-cites="Malicious">[50]</span>. 
+Developers may therefore train their AI systems to reject requests to support with
+ these types of activities. However, there are many examples of adversarial attacks
+ that can bypass the guardrails of current AI systems such as large language models. 
+This is a serious obstacle to preventing the misuse of AI systems for malicious and 
+harmful purposes (see section 1.2 for further discussion of these risks). 
+
 <h2 id="tail-risk-ai-evaluator-gaming">3.4.4 Tail Risk: AI Evaluator
 Gaming</h2>
 <p><strong>AI evaluators must be robust to proxy gaming and adversarial
