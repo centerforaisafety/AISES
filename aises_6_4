@@ -218,7 +218,7 @@ health, freedom, education, and more.<p>
 </p>
 <figure id="fig:preston">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 6.2: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
+<p class="tb-caption">Figure 6.3: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
 <!--<figcaption>Increases in GDP per capita strongly correlate with-->
 <!--increases in life expectancy.</figcaption>-->
 </figure>
@@ -297,7 +297,7 @@ increasing inequality over the last thirty years <span class="citation"
 data-cites="UN2020inequality">[6]</span>.</p>
 <strong>Inequality
 in the United States is particularly striking.</strong>
-Figure 6.3 shows that the Gini coefficient in the
+Figure 6.4 shows that the Gini coefficient in the
 US has trended significantly upwards from 1969 to 2019. Over 50 years,
 the pre-tax Gini coefficient has increased by 30%, while the post-tax
 Gini coefficient has risen by 25%, suggesting that despite
@@ -312,7 +312,7 @@ generations.<p>
 </p>
 <figure id="fig:gini">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gini_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 6.3: Inequality in the US (as measured by the Gini coefficient) has risen dramatically over the
+<p class="tb-caption">Figure 6.4: Inequality in the US (as measured by the Gini coefficient) has risen dramatically over the
 last five decades, even adjusting for taxation. </p>
 </figure>
 <strong>The
@@ -423,11 +423,11 @@ effects of inequality, in reality they suffer indirect consequences as
 well.<p>
 </p><figure id="fig:homicide">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_crime_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.4: Countries with higher income inequality tend to have higher homicide rates.</p>
+<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher homicide rates.</p>
 </figure>
 <figure id="fig:political">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/inequality_stability_v2.png" class="tb-img-full" style="width:80%"/>
-<p class="tb-caption">Figure 6.5: Countries with higher income inequality tend to have higher rates of political instability.</p>
+<p class="tb-caption">Figure 6.6: Countries with higher income inequality tend to have higher rates of political instability.</p>
 </figure>
 <strong>The causes of inequality
 are disputed.</strong>
