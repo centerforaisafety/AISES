@@ -561,7 +561,22 @@ interests of different agents within a shared system. As we have seen, intrasyst
 conflict can arise within complex systems in a range of domains,
 from genomes to corporations.</p>
 
-<p><strong>Intrasystem goal conflict in AI systems.</strong> In the
+<p><strong>Intrasystem goal conflict in AI systems.</strong> One reason why we might expect an AI
+system not to pursue a specified goal is because intrasystem goal
+conflict has eroded its “unity of purpose.” A system has achieved unity
+of purpose if there is alignment at all levels of internal organization
+<span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>.
+Undermining a system’s <em>unity of purpose</em> reduces its ability to
+carry out its system-level goals. A helpful analogy here is to consider
+political “coups.” A coup is characterized by a struggle for control
+within a political system, in which agents within the system act to
+seize power, often eroding the system’s unity of purpose by disrupting
+its stability and functionality. When political leaders are overthrown
+by their second-in-command, the goals of the political system usually
+change. Similarly, if we give an AI agent a goal to pursue, the agent
+may in turn assign parts of this goal to sub-agents, who may take over
+and subvert the original goal with their own.</p>
+</strong> In the
 future, humans and AI agents may interact in many different ways,
 including by working together on collaborative projects. This provides
 the opportunity for goal distortion or subordination through intrasystem
