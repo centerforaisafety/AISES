@@ -91,7 +91,12 @@ dynamics can become cyclical.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
 </figure>
-<p>{Example: extortion strategies.} Extortion strategies can perform particularly well in evolutionary tournaments \citep{hilbe2013evolution}. This is especially true in tournaments with more detailed replications of evolutionary dynamics. For instance, in some evolutionary tournaments, agents can produce offspring who inherit both their strategy and score. With the addition of noise, in the form of random mutations, extortionists enjoy great success in this context. In even more sophisticated models that replicate coevolutionary arms races, they are yet more successful. Moreover, simulating a dramatic environmental change in these models often produces an opportunity for exceptionally profitable extortion tactics.<p>
+<p>{Example: extortion strategies.} Extortion strategies can perform particularly well in evolutionary tournaments <span
+class="citation" data-cites="hilbe2013evoluation">[1]</span>. This is especially true in tournaments with more detailed 
+replications of evolutionary dynamics. For instance, in some evolutionary tournaments, agents can produce offspring who 
+inherit both their strategy and score. With the addition of noise, in the form of random mutations, extortionists enjoy 
+great success in this context. In even more sophisticated models that replicate coevolutionary arms races, they are yet more 
+successful. Moreover, simulating a dramatic environmental change in these models often produces an opportunity for exceptionally profitable extortion tactics.<p>
 </p>
 <h3 id="sec:evolutionary-stable-strategies">Evolutionarily Stable
 Strategies and Frequency-Dependent Selection</h3>
@@ -271,38 +276,9 @@ the ESS is not necessarily ‘good’ for the population, and what is good
 for the population is not necessarily evolutionary stable. <em>A
 population of altruistic AIs, for example, is not evolutionarily
 stable</em>, as that population is easily invadable; we explore this
-point in greater detail in “Evolutionary Pressures - Section 3.3.” This
+point in greater detail in the Evolutionary Pressures section of the Collective Action Problems chapter. This
 makes it likely that evolution is incompatible with achieving ideal
 outcomes.</p>
-
-<h3 id="summary-3">Summary</h3>
-<p>In this section, we began by exploring how evolutionary forces change
-the multi-agent dynamics of a simple game like the Iterated Prisoner’s
-Dilemma. One example was the potential for cyclical dynamics in place of
-a stable equilibrium state. We then moved to another effect of
-evolutionary dynamics: the potential for a Nash equilibrium in which
-agents behave very differently to one another, even when the agents
-themselves are identical and have identical incentives. As an example,
-we explored the “Hawk-Dove game,” finding that neither strategy is
-dominant over the other. Through this, we uncovered the force underlying
-this effect: “frequency-dependent selection.”<p>
-Using our understanding of how strategies may vary in terms of their
-“evolutionary stability,” we explored why AI agents might develop
-immoral behaviors even from amoral contexts. We examined why a set of
-strategies known as <em>extortion</em> strategies are especially
-successful in these evolutionary tournaments. Extortion not only works
-among unsophisticated agents involved in sequential, symmetrical
-competitions. We also see extortion in real-world scenarios between more
-sophisticated entities like individual humans or groups. This suggests
-that AI extortion could be a risk despite additional complications like
-asymmetries in capabilities, knowledge, or dispositions. Certain traits
-likely in future AI agents, such as heightened sensitivity to scope,
-strategic planning ability, and goal-preservation, could make AI
-extortion especially effective and destructive. Together, this suggests
-that AI agents may engage in extortion in order to pursue their goals.
-This could involve optimized disvalue at extreme scales. We discussed
-one such possibility: the torture of digital minds.<p>
-</p>
 
 <h3 id="concealment-of-information">Concealment of information</h3>
 <p>Honesty is sometimes the best policy in an evolutionary game, but not
@@ -347,8 +323,12 @@ information might affect their abilities to maximize payoff. Thus,
 strategies involving the concealment of information could be favored by
 natural selection among AIs, giving rise to immoral behaviors that
 emerge from amoral (morally neutral) grounds.</p>
-<p><strong>AI agents may develop immoral behaviors from amoral
-conditions.</strong> We’ve shown that dishonest communication can be an
-ESS. The effects of inter-agent engagement can incentivize behavior we
-view as immoral that nonetheless evolves from morally neutral
-circumstances.</p>
+
+<div id="ref-hilbe2013evolution" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] C.
+Hilbe, M. Nowak, and K. Sigmund, <span>“The evolution of extortion in
+iterated prisoner’s dilemma games,”</span> <em>Proceedings of the
+National Academy of Sciences of the United States of America</em>, vol.
+110, Apr. 2013, doi: <a
+href="https://doi.org/10.1073/pnas.1214834110">10.1073/pnas.1214834110</a>.</div>
+</div>
