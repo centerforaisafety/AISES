@@ -832,21 +832,20 @@ wellbeing could be threatened.</p>
 promote cooperation. These mechanisms included direct reciprocity,
 indirect reciprocity, group selection, kin selection, individual stakes
 to common stakes, Simon’s selection mechanism, and institutions.<p>
-First, we discussed how direct reciprocity may motivate AI agents in a
+Direct reciprocity may motivate AI agents in a
 multi-agent setting to cooperate with each other, if the probability
-that the same two AIs meet again is sufficiently high. However, we also
-considered the possibility that AIs may disfavor cooperation with humans
+that the same two AIs meet again is sufficiently high. However,AIs may disfavor cooperation with humans
 as they become progressively more advanced: the cost-benefit ratio for
 cooperation with humans may simply be bad from an AI’s
 perspective.<p>
-Second, we explored how indirect reciprocity may promote cooperation in
+Indirect reciprocity may promote cooperation in
 AIs that develop a reputation system where they observe and score each
 others’ behaviors. AIs with higher reputation scores may be more likely
 to receive assistance and cooperation from others. Still, this does not
 guarantee that AIs will be cooperative: AIs might leverage the fear of
 reputational harm to extort benefits from others, or themselves develop
 ruthless reputations to inspire cooperation through fear.<p>
-Third, we considered how group selection –– in a future where labor has
+Group selection –– in a future where labor has
 been automated such that AIs now run the majority of companies –– could
 promote cooperation on a multi-agent scale. AIs may form corporate
 coalitions with other AIs to protect their interests; AI groups with a
@@ -856,30 +855,15 @@ to favor in-group members and antagonize out-group members, in order to
 maintain group solidarity. AIs may be more likely to see other AIs as
 part of their group, and this could lead to conflict between AIs and
 humans.<p>
-Fourth, we explored the possibility that AIs may create variants of
+AIs may create variants of
 themselves, and the forces of kin selection may drive these related
 variants to cooperate with each other. However, this could also give
 rise to nepotism, where AIs prioritize the interests of their variants
 over other AIs and humans. As the differences between humans and AIs
 increase, AIs may be increasingly less inclined to cooperate with
 humans.<p>
-Fifth, we discussed the mechanism of individual stakes to common stakes.
-As an example, we explored the possibility that AIs may someday be
-viewed as an out-group, an existential threat by humanity. This may
-inspire humanity to set aside its differences, promoting global
-solidarity as a means to address catastrophic threats posed by AI.<p>
-Sixth, we broke down Simon’s selection mechanism, highlighting that to
-overcome their bounded rationality, agents may be better off
-establishing and relying on cooperative social channels. We extended
-this idea to AI agents as well, supposing that in a multi-agent setting,
-AIs may develop their own communication channels and protocols, which
-may give them a fitness advantage over humans. Moreover, we also
-considered the possibility that AIs might use their cooperative social
-channels to build collective intelligences, which, being vastly superior
-to human collective intelligences, would preclude humans from taking
-part in and understanding the decisions AIs make within such
-systems.<p>
-Finally, we concluded with a discussion of how institutions can
+
+Institutions can
 incentivize cooperation through externally imposed incentives that
 enforce cooperation and punish defection <span class="citation"
 data-cites="buterin2022institution">[46]</span>. We related this concept
