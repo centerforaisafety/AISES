@@ -1,4 +1,4 @@
-<h1 id="evolutionary-game-theory">Evolutionary Game Theory</h1>
+<h1 id="evolutionary-game-theory">Appendix E - Evolutionary Game Theory</h1>
 <p>In the main text, we began our discussion of game theory by exploring the Prisoner's Dilemma, a simple game that involves two agents who interact only once. 
 To model real-world multi-agent dynamics more closely, we first built on this by iterating the two agents' interactions. We next introduced more than two agents into the game.
 
