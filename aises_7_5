@@ -1,30 +1,15 @@
-<h1 id="sec:evo-pressures">8.3 Evolutionary Pressures</h1>
-<h2 id="overview">8.3.1 Overview</h2>
+<h1 id="sec:evo-pressures">7.5 Evolutionary Pressures</h1>
+<h2 id="overview">7.5.1 Overview</h2>
 <p>This central focus of this chapter concerns the dynamics we expect in
 a multi-AI agent future. We must consider the risks that emerge from the
 interactions between these agents, and between humans and AI
-agents.<p>
-In the previous section, we began our investigation into multiagent
-dynamics using the mathematical framework of game theory. We found that
-rational agents do not always secure collectively good outcomes. We
-concluded with a brief exploration of evolutionary game theory. Using
-the concepts of “evolutionarily stable strategies” and
-“frequency-dependent selection,” we saw how multi-agent dynamics change
-when agents can alter and adapt their behavior in response to what
-others are doing.<p>
-We found that identical agents under initially identical conditions can
-evolve to select radically different strategies to one another.
-Sometimes, there may be no stable equilibrium at all, and a population
-of agents will instead undulate through different strategy compositions
-perpetually. These more complicated multi-agent dynamics provide the
-opportunity for behaviors we consider immoral, such as deception or
-extortion, to arise from entirely amoral starting conditions.<p>
-In this second part of the chapter, we use evolutionary theory to build
-on these ideas and flesh out the risks posed by the influence of natural
-selection on AI development. Our ultimate conclusions are that AI
-development is likely to be subject to evolutionary forces, and that we
-should expect the default outcome of this influence to be the promotion
-of selfish and undesirable AI behavior.</p>
+agents. In this last part of the Collective Action Problems chapter, we 
+use evolutionary theory to explore what happens when competitive pressures 
+play out over a longer time period, operating on a large group of interacting agents. 
+Exploring evolutionary pressures helps us understand the risks posed by the influence 
+of natural selection on AI development. Our ultimate conclusions are that AI development
+ is likely to be subject to evolutionary forces, and that we should expect the default 
+outcome of this influence to be the promotion of selfish and undesirable AI behavior.<p>
 <p> We begin this section by looking at how evolution
 by natural selection can operate in non-biological domains, an idea
 known as “generalized Darwinism.” We formalize this idea using the
@@ -48,7 +33,7 @@ upshot is that AI development is likely to be subject to evolutionary
 pressures. These pressures may distort the goals we specify if the
 interests of internal components of the AI system clash, and could also
 generate a trend towards increasingly selfish AI behavior.</p>
-<h2 id="generalized-darwinism">8.3.2 Generalized Darwinism </h2>
+<h2 id="generalized-darwinism">7.3.2 Generalized Darwinism </h2>
 <p>Our aim in this section is to understand <em>generalized
 Darwinism</em>—the idea that Darwinian mechanisms are a useful way to
 explain many phenomena outside of biology <span class="citation"
@@ -131,7 +116,7 @@ to understand how many phenomena tend to develop based on Darwinian
 principles, so that we can think about how to predict and mitigate these
 risks.<p>
 </p>
-<h2 id="formalizing-generalized-darwinism">8.3.3 Formalizing Generalized
+<h2 id="formalizing-generalized-darwinism">7.3.3 Formalizing Generalized
 Darwinism</h2>
 <p>In this section, we formalize generalized Darwinism. First, we
 overview the criteria necessary and sufficient for evolution by natural
@@ -264,7 +249,7 @@ information that propagates best is, of course, the information that
 propagates best. But it need not be, and often is not, “better” in any
 other sense. Fitness is a metric that describes how much information
 propagates, not an assessment of value.</p>
-<h2 id="generalized-darwinism-and-ai-populations">8.3.4 Generalized Darwinism
+<h2 id="generalized-darwinism-and-ai-populations">7.3.4 Generalized Darwinism
 and AI Populations </h2>
 <p>The three Lewontin conditions, of variation, retention, and
 differential fitness, are all that is needed for evolution by natural
@@ -404,7 +389,7 @@ Price equation. We found that AI development may be subject to
 evolutionary pressures by evaluating how it meets the Lewontin
 conditions. In the next section, we turn to the ramifications of this
 claim.</p>
-<h2 id="subsec:selection-and-selfish">8.3.5 Levels of Selection and Selfish
+<h2 id="subsec:selection-and-selfish">7.3.5 Levels of Selection and Selfish
 Behavior</h2>
 <p>Our aim in this section is to understand which AI characteristics are
 favored by natural selection. We explore this by first outlining an
@@ -527,7 +512,7 @@ one another, self-modifying to adopt traits and behaviors that seem
 useful. The AI information that propagates the most will take up more
 and more space-time volume, as it is copied into more AIs that multiply
 and endure over longer periods.</p>
-<h2 id="subsec:intrasys-goal">8.3.6 Intrasystem Goal Conflict</h2>
+<h2 id="subsec:intrasys-goal">7.3.6 Intrasystem Goal Conflict</h2>
 <p>The interests of an organism and its genetic information are usually
 aligned well. However, they can sometimes diverge from one another. In
 this section, we identify analogous, non-biological phenomena, where
@@ -545,18 +530,7 @@ no change due to mutation. Thus, mitochondrial genes which benefit only
 females may be selected for, even where they incur a cost upon males, as
 males represent a heritability deadend. These and other “selfish”
 genetic elements give rise to intragenomic conflict.<p>
-Another example concerns plants in the genus <em>Plantago</em>. These
-plants have organelles which are passed on only via females. Some genes
-in these organelle genomes have evolved to promote male sterility and
-thus favor female offspring, against the evolutionary interests of the
-organism itself. Intragenomic conflict can be exacerbated by other
-biological agents <span class="citation"
-data-cites="leveson2016engineering">[11]</span>. In crustaceans, genetic
-conflict of this kind can be exacerbated by a bacterium known as
-<em>Wolbachia</em>, which can only be passed on to future generations by
-eggs, not sperm. <em>Wolbachia</em> therefore often kills males or
-drives them to develop into females <span class="citation"
-data-cites="yen1971hypothesis">[12]</span>.</p>
+
 <p><strong>Conflict within organisms.</strong> We observe other kinds of
 internal conflict within organisms which do not concern their genomes.
 For example, the bacterial species that compose the human gut microbiome
@@ -566,9 +540,9 @@ the wake of disruptions like the use of antibiotics, many of these
 once-mutualists will propagate at accelerated rates, often at the
 expense of the host’s health. As the philosopher of evolutionary biology
 Samir Okasha notes, “intraorganismic conflict is relatively common among
-modern organisms”. <span class="citation">
+modern organisms”. <span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>>
 <p>
-<strong>Intrasystem conflict in AI companies.</strong> The concept of 
+<strong>Conflict within an AI company.</strong> The concept of 
 intrasystem conflict extends beyond biological examples and can be observed
  in organizations. A notable example is OpenAI. In 2017, there was a power 
 struggle in OpenAI, which led to Elon Musk's exit and Sam Altman becoming 
@@ -577,128 +551,16 @@ of some employees to found Anthropic. In 2023, the board of the nonprofit
 overseeing OpenAI came into conflict with Sam Altman and attempted to fire him as CEO.
 Challenging-to-resolve disagreements about who should influence AI's development 
 make intrasystem conflict at AI organizations likely in the future.
-data-cites="Okasha2018AgentsAG">[13]</span>.</p>
+.</p>
 <p><strong>Intrasystem goal conflict: between information and the larger
 entity that contains it.</strong> Just as in the case of intraorganismic
 conflict, the interests of propagating information and the entities that
-contain the information can diverge from one another. The basic melody
-of “Twinkle Twinkle” has been vastly more successful at propagating than
-the complete French song “Ah vous dirai-je, Maman,” because the tune
-itself has become a meme, propagated into many languages with different
-lyrics. Morphing into “Baa Baa Black Sheep,” is bad for the propagation
-of that song, but excellent for the propagation of its tune, which has
-changed very little. Intrapsychic conflict is similarly common. For
-instance, many people want to improve their diets, but crave unhealthy
-foods.<p>
-Thus, a great many complex systems may have internal conflict, where
-their functioning is distorted by the behavior of their component
-subsystems. We call the more general phenomenon that can describe all of
+contain the information can diverge from one another. We call the more general phenomenon that can describe all of
 these examples <em>intrasystem goal conflict</em>: the clash of
-interests of different agents within a shared system. Intrasystem goal
+interests of different agents within a shared system. As we have seen, intrasystem goal
 conflict can arise within complex systems in a range of domains,
-including social institutions, human psyches, organisms and genomes.</p>
-<p><strong>Intrasystem goal conflict may cause an AI system not to
-behave as a unified agent.</strong> One reason why we might expect an AI
-system not to pursue a specified goal is because intrasystem goal
-conflict has eroded its “unity of purpose.” A system has achieved unity
-of purpose if there is alignment at all levels of internal organization
-<span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>.
-Undermining a system’s <em>unity of purpose</em> reduces its ability to
-carry out its system-level goals. A helpful analogy here is to consider
-political “coups.” A coup is characterized by a struggle for control
-within a political system, in which agents within the system act to
-seize power, often eroding the system’s unity of purpose by disrupting
-its stability and functionality. When political leaders are overthrown
-by their second-in-command, the goals of the political system usually
-change. Similarly, if we give an AI agent a goal to pursue, the agent
-may in turn assign parts of this goal to sub-agents, who may take over
-and subvert the original goal with their own.</p>
-<p><strong>Intrasystem goal conflict can arise through
-modularization.</strong> There are two mechanisms by which intrasystem
-goal conflict may arise. The first is <em>modularization</em>: a goal
-may be broken down into components, each of which thus becomes a
-sub-goal. For example, consider a multi-agent system, such as a
-committee, which wishes to carry out a complicated big-picture goal. In
-this case, they may break their goal up into subgoals, and delegate each
-of these to “working groups” (different subsets of the committee). Each
-working group now pursues solely its delegated sub-goal and the
-different working groups compete with one another. Ultimately, this
-modularity enables the different working groups to grow and change
-independently of one another, and results in an uneven balance between
-the different sub-goals. Thus, the big-picture goal is distorted.<p>
-It is worth noting that some cases may differ from this story in terms
-of their causality. Rather than a single complex goal being modularized,
-sometimes individual agents may come together to form a coalition to
-pursue a larger-scale goal. Misalignments of interests between these
-agents can give rise to intrasystem goal conflict in these cases just as
-with modularized systemic goals. Examples include gut bacterial
-opportunistic pathogenicity, and some inter-sexual and intragenomic
-conflict. For instance, intersexual conflict in animals has produced
-species in which the males deliberately cause the females physical
-damage when mating. This strategic harming hinders the female’s ability
-to re-mate in future, and incentivizes her to allocate more resources
-towards raising that particular male’s genetic offspring. Females have
-in turn evolved defensive strategies against this, such as armor plating
-and spines <span class="citation"
-data-cites="morrow2003traumatic">[14]</span>. Intersexual coevolutionary
-“arms races” such as these have been documented in a diverse range of
-species, from ducks to fruit flies <span class="citation"
-data-cites="rowe2002sexually">[15]</span>. Rather than a unified goal
-being modularized, the goal conflict here has arisen in the context of a
-coalition. The female and male are collaborating through sexual
-reproduction, but even slight misalignments of their interests can
-result in dramatic goal conflict.</p>
-<p><strong>Intrasystem goal conflict can arise through
-delegation.</strong> The second mechanism by which intrasystem goal
-conflict may arise is in the <em>delegation</em> itself. In the above
-example, the working groups each pursue their assigned sub-goal
-faithfully. The problem is that the collective outcome of these
-agencies, each optimizing for their assigned subgoal is a distorted
-version of the original big-picture goal. However, the delegation of a
-goal to another agent can also itself generate intrasystem goal
-conflict.<p>
-In economics, this is called the <strong>principal-agent
-problem</strong>. Put simply, this is the problem of conflicting
-priorities that arises when one party (the <em>principal</em>) delegates
-a goal of theirs to another (the <em>agent</em>), who is not entirely
-value-aligned with the <em>principal</em>. The <em>agent</em> has other
-interests, such as self-preservation or gain of influence, which compete
-with the goal the <em>principal</em> has delegated to them. This can
-result in the distortion or subversion of the delegated goal: the agent
-pursues their own goals as well as (or instead of) that of the
-principal. Principal-agent problems are most common where there is a
-knowledge asymmetry, such that the agent knows more about the relevant
-matter than the principal. For example, consider a client who has hired
-a mechanic to fix their car. The client wishes their car to be fixed as
-cost-effectively as possible; the mechanic wishes to maximize their
-profits. The principal-agent problem is thus that the client cannot
-trust the mechanic to report the cost of the car fix accurately.<p>
-Principal-agent problems can generate intrasystem goal conflict wherever
-the components of a modularized big-picture goal are delegated to
-sub-agents. In particular, the sub-agents are likely to be motivated by
-self-preservation. If the goal the principal has delegated to them
-clashes with their own goal of self-preservation, this can produce
-strong intrasystem goal conflict. To build on the committee example
-above, now consider that each working group is incentivized to compete
-with the others to avoid being disbanded. Each exaggerates the
-importance of their own work, or reconfigures their assigned objective
-in order to achieve goals of their own. Ultimately, some even break away
-from the committee, to pursue their emergent goals without the
-constraints imposed by the committee from which they formed.<p>
-Intrasystem goal conflict often arises when a system both modularizes
-and delegates a complex goal. For example, the US Food and Drug
-Administration (FDA) and the Department of Agriculture (USDA) are
-sub-agencies of the same government <span class="citation"
-data-cites="moss2010warning">[16]</span>. The US government delegates
-sub-goals to each agency to carry out, yet sometimes their interests and
-actions conflict with one another. In 2010, the USDA implemented a
-marketing campaign to promote eating more cheese, to support the dairy
-industry. Simultaneously, the FDA implemented a marketing campaign of
-their own to promote eating less cheese, as part of an effort to reduce
-the saturated fat content of American diets. Despite the fact that both
-agencies were delegated sub-goals from the same government, their
-conflicting objectives resulted in their taking actions that hindered
-one another.</p>
+from genomes to corporations.</p>
+
 <p><strong>Intrasystem goal conflict in AI systems.</strong> In the
 future, humans and AI agents may interact in many different ways,
 including by working together on collaborative projects. This provides
@@ -713,7 +575,7 @@ actions based on these conflicting goals will not necessarily be
 equivalent to how a system with unity of purpose would pursue the goal
 set by the humans. The behavior of this emergent multi-agent system may
 thus distort our goals, or even subvert them altogether.</p>
-<h2 id="selfishness">8.3.7 Selfishness</h2>
+<h2 id="selfishness">7.3.7 Selfishness</h2>
 <p>In the previous section, we examined one risk generated by natural
 selection favoring the propagation of information: conflict between the
 information (such as genes, departments, or sub-agents) and the larger
