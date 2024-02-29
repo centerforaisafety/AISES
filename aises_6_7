@@ -62,7 +62,7 @@ help people achieve happiness themselves. In general, by leveraging
 their impartiality and ability to analyze vast amounts of data, AI
 systems can strive to improve overall wellbeing on a broader scale,
 addressing the external factors that hinder individual happiness.</p>
-<h2 id="the-general-approach-to-happiness">The General Approach to
+<h2 id="the-general-approach-to-happiness">6.7.1 The General Approach to
 Happiness</h2>
 <strong>We want
 AIs that increase happiness across the board.</strong>
@@ -161,7 +161,7 @@ best increase human wellbeing.<p>
 </p>
 <figure id="fig:wellbeing">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Wellbeing-value-purple-green.png" class="tb-img-full" width="30%"/>
-<p class="tb-caption">Figure 6.6: A wellbeing function can estimate a wellbeing value for every possible scenario.</p>
+<p class="tb-caption">Figure 6.7: A wellbeing function can estimate a wellbeing value for every possible scenario.</p>
 </figure>
 <strong>We
 can supplement AI decision-making with an artificial conscience.</strong>
@@ -178,7 +178,7 @@ entirely but rather to provide an additional layer of scrutiny.<p>
 </p>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/agent_utility.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 6.7: An AI agent with an artificial conscience can adjust its Q-values if it estimates the
+<p class="tb-caption">Figure 6.8: An AI agent with an artificial conscience can adjust its Q-values if it estimates the
 morally relevant aspect of the outcome to be worse than a threshold. <span
 class="citation" data-cites="hendrycks2023natural"></span></p>
 </figure>
@@ -215,7 +215,7 @@ focus on increasing some of these; for instance, we might use AIs to
 develop better tools to improve healthcare, increase literacy rates, and
 create more interesting and fulfilling jobs.</p>
 
-<h2 id="problems-for-happiness-focused-machine-ethics">.2 Problems for
+<h2 id="problems-for-happiness-focused-machine-ethics">6.7.2 Problems for
 Happiness-Focused Machine Ethics</h2>
 <strong>Happiness is a subjective
 experience.</strong>
