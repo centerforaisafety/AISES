@@ -25,7 +25,7 @@
     }
 </style>
 
-<h1 id="social-welfare-functions">6.7 Social Welfare Functions</h1>
+<h1 id="social-welfare-functions">6.8 Social Welfare Functions</h1>
 <p><strong>Should we have AIs maximize total wellbeing?</strong> We have
 explored different ways to increase social wellbeing, such as material
 wealth, preferences, and happiness. This section explores social welfare
@@ -163,7 +163,7 @@ utilitarian or prioritarian? What else, if anything, is morally valuable
 besides the aggregate of individual welfare? The idea of using social
 welfare functions to guide AIs is promising in theory but requires more
 exploration.</p>
-<h2 id="measuring-social-welfare">6.7.1 Measuring Social Welfare</h2>
+<h2 id="measuring-social-welfare">6.8.1 Measuring Social Welfare</h2>
 <p><strong>Overview.</strong> In this section, we will consider how
 social welfare functions work. We’ll use our earlier city planning
 scenario as a reference to understand the fundamental properties of
