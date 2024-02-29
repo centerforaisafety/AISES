@@ -64,8 +64,7 @@ method of democratic agreement.<p>
 However, just following the law isn’t a perfect solution: there will
 always be an act of interpretation between the written law and its
 application in a particular situation. There is often no agreement over
-the procedure for this interpretation (for example, in US constitutional
-cases). Therefore, even if AI systems were created in a way that bound
+the procedure for this interpretation. Therefore, even if AI systems were created in a way that bound
 them to follow the law, a legal system with human decision-makers would
 have to remain part of the process. The law is only legitimate when
 interpreted by someone democratically appointed or subject to democratic
@@ -81,6 +80,16 @@ record of what has worked for many people and is often considered an
 approximation of their values. This makes the law a particularly
 promising resource for aligning AI systems with the values of the
 population.</p>
+
+<p><strong>Laws are typically written without AIs in mind.</strong> Most laws are written with humans in mind. As a result, they assume things such as intent---for example, 
+American law holds it a crime to knowingly possess a biological agent that is intended for use as a weapon. Both `knowingly' and `intended' are terms we may not be able to 
+apply to AIs, since AIs may not have the ability to know or intend things. Having AIs follow laws that were written without AIs in mind might result in unusual interpretations
+ and applications of the law.</p>
+
+<p>Another area of ambiguity is copyright law.</p> AIs are trained on a vast corpus of training data, created by developers, and ultimately run by users. When AIs create content,
+ it is unclear whether the user, developer, or creator of the training data should be assigned the intellectual property rights. IP laws were written for humans and human-led 
+corporations creating content, not AIs.</p> 
+
 <h3 id="rules-and-standards">Rules and Standards</h3>
 <strong>Naively, we
 might think of the law as a system of rules.</strong>
@@ -155,18 +164,12 @@ ask for but not what we want.</p>
 <strong>The
 capabilities of LLMs give us some reason to see misinterpretation risks
 as unlikely.</strong>
-Before LLMs, some AI researchers were concerned that most AI models
-would be trained in ways that would mean they had no understanding of
-many ordinary human concepts or values. However, this now seems less
-likely. Our experience with large language models has shown that by
-being trained on human-generated language data, AIs can respond to the
-meaning of our sentences in a way that is approximately similar to the
-way that a human speaker of the language would; for instance, the
-Happiness section below discusses two other systems that can predict
-human responses to video and text. If similar systems are used in the
-future, it seems plausible that AIs can apply laws in a sensible way,
-and we may not need to worry about extreme actions emerging from a
-misinterpretation of perfectly normal requests.<p>
+Before LLMs, some AI researchers were concerned that most AI models would be trained in ways that would mean they had no understanding of many ordinary human concepts or values. 
+This might mean that we should be worried about extreme actions emerging from a misinterpretation of perfectly normal and mundane requests. However, this now seems less likely. 
+Our experience with large language models has shown that by being trained on human-generated language data, AIs can respond to the meaning of our sentences in a way that is approximately
+ similar to the way that a human speaker of the language would; for instance, the Happiness section below discusses two other systems that can predict human responses to video and text. 
+If similar systems are used in the future, it seems plausible that AIs can apply laws in a sensible way.</p>
+<p>
 That said, we might still worry that these emerge from optimization
 pressures. Additionally, while AIs might usually interpret human
 concepts sensibly, they may still have representations that have rare
@@ -262,7 +265,14 @@ morally wrong. There is also often a significant time delay between the
 moral opinions of a population changing, and the law changing to reflect
 them <span class="citation" data-cites="nay2023law">[3]</span>. This
 means that laws formed in democracies can fall short of being moral,
-even in the eyes of the citizens of the country that made them.<p>
+even in the eyes of the citizens of the country that made them.</p>
+
+<p><strong>On many issues, the boundaries of the law are surprising.</strong> Since laws are often developed ad hoc, with new legislation to tackle the issues of the day, 
+what laws actually permit and prohibit can often be unintuitive. For example, the `Anarchist's Cookbook', released in the US during the Vietnam War, had detailed instructions
+ on how to create narcotics and explosives and sold millions of copies without being taken out of circulation because the law permitted this use of mass media. Similarly, "doxing"
+ someone with publicly available information and generating compromising images and videos of real people are legal as well. Such acts seem intuitively illegal, but US law permits them.</p>
+
+<p>
 If solely constrained by a country’s fallible democratic laws, future AI
 systems could behave in ways most of the world would consider immoral.
 To mitigate this risk, it is necessary to train AI to respect the
@@ -281,12 +291,6 @@ on specific issues or arriving at informed, representative policy
 proposals. However, they aren’t suited to the general task of
 summarizing the values of the entire population across areas as
 comprehensive as those covered by the law.</p>
-<p>Perhaps for this general task we could turn to solutions in the moral
-uncertainty literature. The problem of moral uncertainty is precisely
-the problem of figuring out how to act, given the range of differing
-views on ethics. A solution from the moral uncertainty literature which
-best embodies the democratic ideal is the <em>moral parliament</em>
-approach, which we will discuss later in this chapter.</p>
 
 <br>
 <div class="visionbox">
