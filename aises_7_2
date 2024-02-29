@@ -1766,7 +1766,7 @@ others are engaging in strict domestic regulation, they might see this
 as a credible signal of commitment to an international standard. By
 easing the competitive pressures, we might be able to foster collective
 action to avoid driving up the collective risk level.</p>
-<h3 id="summary-2">Summary</h3>
+<h2 id="summary-2">Summary</h2>
 <p>We observe important and intractable collective action problems in
 many domains of life, such as environmental degradation, pandemic
 responses, maintenance of democracies, and common pool resource
@@ -1786,6 +1786,10 @@ lead to an “autonomous economy.” Either outcome would be disastrous and
 potentially irreversible, yet we can see how competitive pressures can
 drive rational and self-interested agents (such as nations or companies)
 down a path towards these calamities.</p>
+
+<p>In this section, we examined some simple, formal models of how rational agents may interact with each other under varying conditions. We used these game theoretic models to understand the natural dynamics in multi-agent biological and social systems. We explored how these multi-agent dynamics can generate undesirable outcomes for all those involved. We considered some tails risks posed by interactions between human and AI agents. These included human-directed companies and militaries engaging in perilous races, as well as autonomous AIs using threats for extortion.</p>
+
+<p>These risks can be reduced if mechanisms such as institutions are used ensure human agencies and AI agents are able to cooperate with one another and avoid conflict. We explore some means of achieving cooperative interactions in the next section of this chapter, 7.3.</p>
 
 <br>
 <br>
