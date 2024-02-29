@@ -138,7 +138,7 @@ and leading actors such as corporations and states are well-intentioned,
 humanity could still end up eroding away our power gradually until it
 cannot be recovered.</p>
 <h3 id="game-theory">Game Theory</h3>
-<p><strong>Central theme: Rational agents will not necessarily secure
+<p><strong>Rational agents will not necessarily secure
 good outcomes.</strong> Behavior that is individually rational and
 self-interested can produce collective outcomes that are suboptimal, or
 even catastrophic, for all involved. This section first examines the
@@ -150,17 +150,55 @@ sophistication. The first addition is time. We explore how cooperation
 is possible, though not assured, when agents interact repeatedly over
 <em>time</em>. The second addition is the introduction of <em>more than
 two agents</em>. We explore how collective action problems can generate
-and maintain undesirable states. Third, we explore evolutionary game
-theory, studying the dynamics produced by agents that can <em>adapt over
-time</em>.<p>
-Ultimately, we see how these natural dynamics can produce
-catastrophically bad outcomes. They perpetuate military arms races and
-corporate AI races, increasing the risks from both. They may also foster
-immoral AI behaviors, such as deception and even extortion.</p>
+and maintain undesirable states. Ultimately, we see how these natural dynamics 
+can produce catastrophically bad outcomes. They perpetuate military arms races 
+and corporate AI races, increasing the risks from both. They may also promote 
+dangerous AI behaviors, such as extortion.</p>
+<h3 id="cooperation">Cooperation</h3>
+<p>
+<strong>Cooperation is necessary, but not sufficient, for multi-AI agent safety.</strong> In this section, we turn to assessing how cooperation can help with 
+addressing the challenges outlined above. However, we also consider what problems cooperation may pose itself, in the context of AI. We explore five mechanisms
+that can promote or maintain cooperation:<p>
+</p>
+<ul>
+<li><p><em>Direct reciprocity</em>: the chance of a future meeting
+incentivizes cooperative behavior in the present.</p></li>
+<li><p><em>Indirect reciprocity</em>: cooperative reputations are
+rewarded.</p></li>
+<li><p><em>Group selection</em>: inter-group competition promotes
+intra-group unity.</p></li>
+<li><p><em>Kin selection</em>: indirect benefits of cooperation outweigh
+direct costs, motivating altruism towards genetic kin.</p></li>
+<li><p><em>Institutions</em>: large-scale external forces motivate
+cooperation through enforcement.</p></li>
+</ul>
+</p>
+<h3 id="conflict">Conflict</h3>
+<p><strong>Rational agents may sometimes choose destructive conflict instead of peaceful bargaining.</strong> This section explores the nature of
+conflict between agents. We start with an overview of bargaining theorya lens for understanding why rational agents sometimes choose mutually-costly conflict over peaceful alternatives. 
+We next explore several specific factors that drive conflict.
+</p>
+<ol>
+<li><p><em>Power shifts</em>: a shift in political power triggers
+preventative conflict.</p></li>
+<li><p><em>First-strike advantage</em>: time-sensitive offensive
+advantages motivate a party to initiate conflict preemptively.</p></li>
+<li><p><em>Information problems</em>: mis- and dis-information kindle
+defensive or offensive action over cooperation.</p></li>
+<li><p><em>Issue indivisibility</em>: wherever the entity over which
+parties are contesting is indivisible, it is harder to avoid resorting
+to conflict.</p></li>
+<li><p><em>Inequality</em>: inequality may increase the probability of
+conflict, due to factors such as relative deprivation and social
+envy.</p></li>
+</ol>
+<p>
+
 <h3 id="evolutionary-pressure">Evolutionary Pressure</h3>
-<p><strong>Central theme: Natural selection will promote AIs that behave
-selfishly.</strong> In this section, we first explore generalized
-Darwinism, which is the idea that evolution by natural selection can
+<p><strong>Natural selection will promote AIs that behave
+selfishly.</strong> In this final section, we use evolutionary theory to study what happens when a large number of agents interact many times over many generations. 
+We start with generalized
+Darwinism: the idea that evolution by natural selection can
 take place outside of the realm of biology. We explore examples in
 linguistics, music, philosophy and sociology. We formalize generalized
 Darwinism using Lewontin’s conditions for evolution by natural selection
@@ -188,48 +226,7 @@ catastrophic effects. Intrasystem goal conflict could prevent our goals
 from being carried out and generate unexpected actions. AI agents could
 develop selfish tendencies, increasing the risk that they might employ
 harmful strategies (including those covered earlier in the chapter, such
-as deception or extortion).</p>
-<h3 id="conflict-and-cooperation">Conflict and Cooperation</h3>
-<p><strong>Central theme: Ensuring cooperation, rather than conflict, is
-vital for AI safety.</strong> This section explores the nature of
-conflict and cooperation between agents. We start by looking at the
-nature of conflict, beginning with an overview of bargaining theory.
-Then we explore 5 factors that drive conflict.</p>
-<ol>
-<li><p><em>Power shifts</em>: a shift in political power triggers
-preventative conflict.</p></li>
-<li><p><em>First-strike advantage</em>: time-sensitive offensive
-advantages motivate a party to initiate conflict preemptively.</p></li>
-<li><p><em>Information problems</em>: mis- and dis-information kindle
-defensive or offensive action over cooperation.</p></li>
-<li><p><em>Issue indivisibility</em>: wherever the entity over which
-parties are contesting is indivisible, it is harder to avoid resorting
-to conflict.</p></li>
-<li><p><em>Inequality</em>: inequality may increase the probability of
-conflict, due to factors such as relative deprivation and social
-envy.</p></li>
-</ol>
-<p><p>
-Next, we turn to assessing how cooperation can help with addressing the
-challenges outlined above and what problems it may pose itself. We
-explore seven mechanisms that can promote or maintain cooperation:<p>
-</p>
-<ul>
-<li><p><em>Direct reciprocity</em>: the chance of a future meeting
-incentivizes cooperative behavior in the present.</p></li>
-<li><p><em>Indirect reciprocity</em>: cooperative reputations are
-rewarded.</p></li>
-<li><p><em>Group selection</em>: inter-group competition promotes
-intra-group unity.</p></li>
-<li><p><em>Kin selection</em>: indirect benefits of cooperation outweigh
-direct costs, motivating altruism towards genetic kin.</p></li>
-<li><p><em>Individual stakes to common stakes</em>: the alignment of
-interests between group members and the group as a whole.</p></li>
-<li><p><em>Simon’s selection</em>: limited knowledge necessitates
-reliance on others.</p></li>
-<li><p><em>Institutions</em>: large-scale external forces motivate
-cooperation through enforcement.</p></li>
-</ul>
+as deception or extortion).
 
 <br>
 <br>
