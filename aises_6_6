@@ -19,12 +19,7 @@ design an advanced AI system, the preferences of the people affected by
 its decisions should plausibly help guide its decision-making. In fact,
 some people (such as preference utilitarians) would say that preferences
 are all we need. However, even if we don’t take this view, we should
-recognize that preferences are still important. Preferences are further
-explored in the next two chapters. First, in the chapter on ethics, we
-discussed the idea that wellbeing might consist in having one’s
-preferences satisfied. Second, in the chapter on utility functions, we
-explain how preferences can be used to construct a utility function that
-assigns numerical values to options and outcomes.<p>
+recognize that preferences are still important.<p>
 To use preferences as the basis for increasing social wellbeing, we must
 somehow combine the conflicting preferences of different people. We’ll
 come to this later in this chapter, in a section on social welfare
@@ -139,8 +134,7 @@ is still bad, lack of enjoyment can’t be the whole story. This suggests
 that we object to manipulation in part because it violates autonomy. We
 might then think that autonomy—the ability to decide important matters
 for oneself, without coercion—is objectively valuable regardless of what
-the agent prefers. We’ll discuss this in the section on objective
-goods.</p>
+the agent prefers. </p>
 <h3 id="inverse-reinforcement-learning">Inverse Reinforcement
 Learning</h3>
 <strong>Inverse
