@@ -54,7 +54,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:conflict-cooperation">7.4 Conflict and Cooperation</h1>
+<h1 id="sec:conflict">7.4 Conflict</h1>
 <h2 id="overview">7.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
@@ -578,17 +578,11 @@ models. As automated warfare technologies become more widespread and
 sophisticated, nations may struggle to predict their probability of
 victory in any given conflict accurately. This increased potential for
 miscalculation may make warfare more likely.<p>
-There are other ways reducing information problems can reduce AI risk.
-If there are substantial existential risks from AIs but this is not
-widely agreed on, improving understanding of these risks could help make
-different actors (such as the US and China) get better estimates of the
-payoff matrix. With better understanding of AI risk, they may recognize
-that it is in their self-interest to cooperate (slow down AI development
-and militarization) instead of defecting (engaging in an AI race).
-Similarly, creating information channels such as summits can increase
-understanding and coordination; even if countries do not agree on shared
-commitments, the discussions on the sidelines can reduce
-misunderstandings and the risk of conflict.</p>
+Information problems could exacerbate other AI risks. For example, if there are substantial existential risks from AIs but this is not widely agreed on, improving understanding 
+of these risks could help make different actors (such as the US and China) get better estimates of the payoff matrix. With better understanding of AI risk, they may recognize that
+ it is in their self-interest to cooperate (slow down AI development and militarization) instead of defecting (engaging in an AI race). Similarly, creating information channels such
+ as summits can increase understanding and coordination; even if countries do not agree on shared commitments, the discussions on the sidelines can reduce misunderstandings and the 
+risk of conflict.</p>
 <p><strong>Disinformation overview.</strong> Unlike misinformation,
 where false information is propagated without deceptive intention,
 disinformation is the <em>deliberate</em> spreading of false
@@ -749,20 +743,20 @@ understanding the conditions under which decisions to instigate conflict
 may be considered instrumentally rational. This knowledge base allows us
 to better predict the risks and probability of AI-driven conflict
 scenarios.<p>
-First, we covered how power shifts can incentivize AI agents to pursue
+
+Power shifts can incentivize AI agents to pursue
 conflict, to maintain strategic advantages or deter potential attacks
 from stronger rivals, especially in the context of military AI
 use.<p>
-Second, we explored how the short-lived nature of offensive advantages
+The short-lived nature of offensive advantages
 may incentivize AIs to pursue first-strike advantages, to degrade or
 identify vulnerabilities in adversaries’ capabilities, as may be the
 case in cyberwarfare.<p>
-Third, we discussed issue indivisibility, imagining a future scenario in
-which individual parties must compete for access to a world-dominating
+In the future, individual parties may compete for access to a world-dominating
 AI. We reasoned that since dividing this AI between many stakeholders
 would reduce its power, parties may find it instrumentally rational to
 conflict for access to it.<p>
-Fourth, we discussed how AIs may make wars more uncertain, increasing
+AI may make wars more uncertain, increasing
 the probability of conflict. We expect that AI weaponry innovation will
 present an opportunity for superpowers to consolidate their dominance,
 whereas weaker states may be able to quickly increase their power by
@@ -770,20 +764,13 @@ taking advantage of these technologies early on. This dynamic may create
 a future in which power shifts are uncertain, which may lead states to
 incorrectly expect that there is something to gain from going to
 war.<p>
-Finally, we explored the relationship between inequality and conflict.
-We considered how even under conditions of abundance facilitated by
+Even under conditions of abundance facilitated by
 widespread automation and advanced AI implementation, relative
 deprivation, and therefore conflict may persist. We also explored the
 possibility that AIs may be motivated by social envy to compete with
 other humans or AIs for desired social standing. This may result in a
 global landscape in which the majority of humanity’s resources are
 controlled by selfish, power-seeking AIs.<p>
-Though AIs could evolve cooperative tendencies similarly to humans and
-other animals, the possibility that they pursue interests and goals that
-promote conflict, no matter how small, could pose catastrophic risks to
-humans. It is thus important that we understand the drivers of conflict,
-especially in the context of advanced future AIs.<p>
-</p>
 
 <br>
 <br>
