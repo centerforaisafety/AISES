@@ -409,18 +409,7 @@ representation reading could be a control panel of the most important
 indicators of model processing. Operators could detect anomalous model
 behavior by monitoring for unusual or concerning combinations of
 indicators. Though this research area is relatively new, its techniques
-show early promise.<p>
-With <em>representation control</em>, we can also use the outputs from
-representation reading (such as differences in activations in response
-to contrasting prompts) to adjust a model’s representation. For example,
-we could use this to delete unintended knowledge or skills from a
-network <span class="citation"
-data-cites="belrose2023leace">[21]</span>. As another example, we can
-use representation control to control whether an AI lies or is honest
-<span class="citation" data-cites="burns2022discovering">[22]</span>.
-Although it relies on representation reading techniques, representation
-control is not an area of transparency since its goal is control and not
-a general understanding of neural networks’ inner workings.</p>
+show early promise.
 <p><strong>Conclusion.</strong> ML transparency is a challenging problem
 because of the difficulty of understanding complex systems. Its ongoing
 research areas are mechanistic interpretability and representation
