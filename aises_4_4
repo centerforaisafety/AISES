@@ -57,7 +57,7 @@ documents on multiple hard drives, in case one of them stops working,
 and seeking multiple doctors’ opinions, in case one of them gets a
 diagnosis wrong.<p>
 A possible use of redundancy in AI would be having an inbuilt “moral
-parliament” (see Moral Parliament in the Machine Ethics chapter). If an AI agent has to make decisions
+parliament” (see 6.9 Moral Uncertainty). If an AI agent has to make decisions
 with moral implications, we are faced with the question of which theory
 of morality it should follow; there are many of these, and each often
 has counterintuitive recommendations in extreme cases. Therefore, we
