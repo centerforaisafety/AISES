@@ -1,0 +1,45 @@
+<h1 id="introduction"> 1.1 Introduction</h1>
+<h2 id="systemic-safety"> 3.5 Systemic safety</h2>
+<p>AI can be used to help defend against the potential risks it poses. Three important examples of this approach are use of AI to improve defenses against cyber-attacks,
+ to enhance security against pandemics, and to improve the information environment. This philosophy of leveraging AI’s capabilities for societal resilience has been called “systemic safety”
+<span class="citation" data-cites="hendrycks2022unsolved">[80], while the broader idea of focussing on technologies that defend against societal risks is sometimes described as “defensive accelerationism”
+<span class="citation" data-cites="Buterin2023">[81].   
+<p><strong>AI for cybersecurity. } Cyber-attacks on critical infrastructure are a growing concern. For example, a 2021 ransomware attack on the Colonial oil pipeline 
+led to regional gasoline shortages in the Eastern US for several days <span class="citation" data-cites="gao2024critical">[82]. AI systems are already quite capable at 
+writing code, and may exacerbate the threat of cyber-attacks by reducing the barrier to entry to hacking and identifying ways to increase their potency, success rate, 
+scale, speed, and stealth. While there is only some early evidence of AI system’s abilities in this domain, reducing the cost and difficulty of cyber-attacks could give
+ attackers a major advantage <span class="citation" data-cites="shao2024empirical">[83]. Since these attacks can undermine critical physical infrastructure such as power grids, they could prove highly destabilising and threaten international security.
+  
+<p>However, AI could also be used to find vulnerabilities in codebases, shoring up defenses against AI-enabled hacking. If applied appropriately, this could shift the 
+offense-defense balance of cyber-attacks and reduce the risk of catastrophic attacks on public services and critical infrastructure <span class="citation" data-cites="hendrycks2022unsolved">[80]. 
+For example, AI could be used to monitor systems and networks to detect unauthorized access or imposter threats. ML methods could analyze source code to find malicious payloads. 
+ML models could monitor program behaviors to flag abnormal network traffic. Such systems could provide early attack warnings and contextual explanations of threats. 
+Advances in code translation and generation also raise the possibility that future AI could not just identify bugs, but also automatically patch them by editing code to fix vulnerabilities.</p>   
+<p><strong>AI for biosecurity.</strong> As discussed in section 1.2, the use of AI to facilitate the creation of bio-engineered pandemics is a significant concern. 
+However, AI tools could also promote by biosecurity by enabling real-time epidemic detection, improving disease forecasting, screening gene sequences to prevent misuse, 
+and accelerating medical countermeasure development <span class="citation" data-cites="aiforbiosecurity">[84]. AI systems could improve our ability to analyze diverse data 
+streams to identify disease outbreaks early and enable rapid response. AI might be applied in other ways to provide early warning of potential pandemics, for example via 
+novel techniques for metagenomic sequencing of wastewater. Algorithms could also forecast future disease trends by parameterizing models and predicting new risks. 
+To prevent misuses of synthetic biology, AI may help with screening gene synthesis orders to flag potentially dangerous sequences. It would be particularly valuable 
+to improve available tools for identifying novel pathogens that might evade existing screening measures. AI has already started to be applied in drug discovery and 
+may be able to significantly expedite vaccine and treatment development <span class="citation" data-cites="aifordrugs">[85].   
+<p><strong>AI to improve the information environment.</strong> AI could help society to be more resilient to misinformation by detecting false claims and providing 
+evidence-backed answers to questions. For example, it could be used to provide automatic fact-checking or additional context for controversial claims and articles 
+shared on social media <span class="citation" data-cites="aifakenews">[86]. AI-generated content raises concerns about more credible misinformation, with some initial 
+reports appearing about use of this content to manipulate election results
+<span class="citation" data-cites="audiodeepfakes">[87]. Equally concerning is the prospect of eroded trust in content that is not in fact AI-generated, due to inability
+ to distinguish the two, which could contribute to a more fragmented and polarised information environment. Development of tools to enable effective watermarking of 
+AI-generated content could be a helpful first step towards building epistemic resilience.</p>
+</p>Many important decisions rely on human forecasts of future events, but machine learning systems may be able to make more accurate predictions by aggregating larger 
+volumes of unstructured information <span class="citation" data-cites="hendrycks2022unsolved">[80]. ML tools could analyze disparate data sources to forecast geopolitical, 
+epidemiological, and industrial developments over months or years. The accuracy of such systems could be evaluated by their ability to retroactively predict pivotal historical 
+events. Additionally, ML systems could help identify key questions, risks, and mitigation strategies that human forecasters may overlook. By processing extensive data and 
+learning from diverse situations, AI advisors could provide relevant prior scenarios and relevant statistics such as base rates. They could also identify stakeholders to consult, 
+metrics to track, and potential trade-offs to consider. In this way, ML forecasting and advisory systems could enhance judgment and correct misperceptions, ultimately improving 
+high-stakes decision making and reducing inadvertent escalation risks. However, safeguards would be needed to prevent overreliance and to avoid encouraging inappropriate risk-taking.</p>  
+<p><strong>Systemic safety requires investments in physical infrastructure and equipment, not just digital solutions.</strong> It is worth noting that while AI can provide valuable 
+defensive tools in these domains, it is not the only solution, and investment in other areas such as physical infrastructure and equipment could be even more valuable. 
+For example, the potential risk from pandemics could be reduced through improvements to buildings’ air ventilation, filtration, and germicidal ultraviolet lighting, 
+which would make it more difficult for respiratory viruses to travel from one person to another. Similarly, investments in stockpiling personal protective equipment 
+such as masks and gowns, and developing more effective and comfortable next-generation personal protective equipment, could prove valuable in countering the spread 
+of future pandemics and ensuring that healthcare and other essential services can continue to operate. </p>
