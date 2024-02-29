@@ -55,12 +55,7 @@ examine how these are often power laws—equations in which one variable
 increases in proportion to a power of another, such as the area of a
 square—and examine a few empirically determined scaling laws in recent
 AI systems.</p>
-<p><strong>Reinforcement Learning.</strong> Lastly, we will explore
-reinforcement learning (RL), a type of ML that enables an agent to learn
-how to behave in an environment by performing actions and receiving
-rewards. We will present the basic framework and terminology of RL and
-how it differs from other approaches in ML. We will conclude by
-discussing a few of its applications.<p>
+<p>
 Throughout the chapter, we focus on building intuition, breaking down
 technical terms and complex ideas to provide straightforward
 explanations of their core principles. Each section presents fundamental
