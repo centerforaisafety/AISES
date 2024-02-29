@@ -490,6 +490,15 @@ they should fly to find the source. This negative feedback process
 stabilizes the number of bees going out for water, leading to a
 nonlinear relationship between the number of bees currently flying out
 for water and the number of additional bees recruited to the task.</p>
+
+</p>
+<figure id="approaches">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_map_v2.png" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 5.3: When systems are predictable, small changes in initial conditions can taper out. When
+they are chaotic, small changes in initial conditions lead to wildly different outcomes.</p>
+<!--<figcaption>Logistic map</figcaption>-->
+</figure>
+
 <p><strong>AI systems involve feedback loops.</strong> In a system where
 agents can affect the environment, but the environment can also affect
 agents, the result is a continual, circular process of change—a feedback
