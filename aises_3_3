@@ -36,7 +36,7 @@ the phenomenon of adversarial examples, where an optimizer is
 used to exploit vulnerabilities in a neural network. We close by looking
 at the tail risks of having AI systems themselves play the role of
 evaluators (i.e. proxy goals) for other other AI systems.</p>
-<h2 id="proxies-in-machine-learning">3.4.1 Proxies in Machine Learning</h2>
+<h2 id="proxies-in-machine-learning">3.3.1 Proxies in Machine Learning</h2>
 <p>Here, we look at the concept of proxies, why they are necessary, and
 how they can lead to problems.</p>
 <p><strong>Many goals are difficult to specify exactly.</strong> It is
@@ -71,7 +71,7 @@ While proxies serve as useful and often necessary stand-ins for our
 idealized objectives, they are not without flaws. The wrong choice of
 proxies can lead to the optimized systems taking unanticipated and
 undesired actions.</p>
-<h2 id="proxy-gaming">3.4.2 Proxy Gaming</h2>
+<h2 id="proxy-gaming">3.3.2 Proxy Gaming</h2>
 <p>In this section, we explore a failure mode of proxies known as proxy
 gaming, where a model optimizes for a proxy in a way that produces
 undesirable or even harmful outcomes as judged from the idealized goal.
@@ -110,7 +110,7 @@ and, on several occasions, set itself ablaze. Points proved to be a poor
 proxy for doing well at the game.</p>
 <figure id="fig:coastrunners">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_1.png" class="tb-img-full" style="width: 90%"/>
-<p class="tb-caption">Figure 3.7: An AI playing CoastRunners 7 learned to crash and regenerate targets repeatedly rather
+<p class="tb-caption">Figure 3.10: An AI playing CoastRunners 7 learned to crash and regenerate targets repeatedly rather
 than win the race to get a higher score, exhibiting proxy gaming. <span class="citation"
 data-cites="clark2016faulty">[2]</span></p>
 <!--<figcaption>Proxy gaming in CoastRunners 7 - <span class="citation"-->
@@ -143,7 +143,7 @@ human systems and AI systems.<p>
 </p>
 <figure id="fig:optimisation_pressure">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_score.png" style="width: 70%" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.8: Often, as optimization pressure increases, the proxy diverges from the target with which
+<p class="tb-caption">Figure 3.11: Often, as optimization pressure increases, the proxy diverges from the target with which
 it was originally correlated. <span
 class="citation" data-cites="skalsedefining">[4]</span></p>
 <!--<figcaption>Often, as optimization pressure increases, the proxy-->
@@ -167,7 +167,7 @@ proceed without slowing down for joining traffic.<p>
 </div>
 <figure id="fig:proxy-reward">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Traffic control.png" style="width: 75%" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.9: Proxy gaming AIs can choose sub-optimal solutions when presented with simple proxies
+<p class="tb-caption">Figure 3.12: Proxy gaming AIs can choose sub-optimal solutions when presented with simple proxies
 like “maximize the mean velocity.” </p>
 <!--<figcaption>Sub-optimal traffic control solution due to proxy-->
 <!--gaming</figcaption>-->
@@ -310,7 +310,7 @@ afford to run them.</p>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_2_v2.png"
 style="width:85.0%" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.10: An AI without depth perception might learn to appear to grasp a ball instead of actually
+<p class="tb-caption">Figure 3.13: An AI without depth perception might learn to appear to grasp a ball instead of actually
 grasping it.</p>
 <!--<figcaption>Proxy gaming example - simulated claw appearing to grasp-->
 <!--ball rather than actually grasping it</figcaption>-->
@@ -382,7 +382,7 @@ system introduced a new grade, A* <span class="citation"
 data-cites="lambert2019great">[10]</span>. Any adjustment to the proxy
 can usher in new ways for agents to exploit it, setting off a cycle of
 escalating standards and new countermeasures.</p>
-<h2 id="adversarial-examples">3.4.3 Adversarial Examples</h2>
+<h2 id="adversarial-examples">3.3.3 Adversarial Examples</h2>
 <p>Adversarial examples are another type of risk due to optimization
 pressure, which, similar to proxy gaming, exploits the gap between a
 proxy and the idealized goal. In this section, we present an example of
@@ -440,7 +440,7 @@ make a mistake.<p>
 </p>
 <figure id="fig:quacatmole">
 <p><img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/advex.png" alt="image" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 3.11: Imperceptible crafted perturbations of a photo of a cat can cause a neural network to
+<p class="tb-caption">Figure 3.14: Imperceptible crafted perturbations of a photo of a cat can cause a neural network to
 label it guacamole.
 </p>
 <!--<figcaption>Example imperceptible perturbations leading to-->
@@ -616,7 +616,7 @@ class="citation" data-cites="zou2023universal">[13]</span>.<p>
 </p>
 <figure id="fig:gpt-jailbreak">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/chatgpt.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 3.12: Using adversarial prompts can cause LLMs to produce harmful outputs. <span class="citation"
+<p class="tb-caption">Figure 3.15: Using adversarial prompts can cause LLMs to produce harmful outputs. <span class="citation"
 data-cites="zou2023universal">[13]</span>.</p>
 <!--<figcaption>Harmful outputs produced by language models due to-->
 <!--automatically generated adversarial prompts - <span class="citation"-->
@@ -648,7 +648,7 @@ Developers may therefore train their AI systems to reject requests to support wi
 This is a serious obstacle to preventing the misuse of AI systems for malicious and 
 harmful purposes (see section 1.2 for further discussion of these risks). 
 
-<h2 id="tail-risk-ai-evaluator-gaming">3.4.4 Tail Risk: AI Evaluator
+<h2 id="tail-risk-ai-evaluator-gaming">3.3.4 Tail Risk: AI Evaluator
 Gaming</h2>
 <p><strong>AI evaluators must be robust to proxy gaming and adversarial
 examples.</strong> As the world becomes more and more automated, humans
