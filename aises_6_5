@@ -210,6 +210,69 @@ improving wellbeing.</p>
 <p><strong>We might want to promote the welfare of AIs.</strong> In the future, we might also come to view AIs as able to have wellbeing. This might depend on our understanding of wellbeing. An AI might have preferences but not experience pleasure, which would mean it could have wellbeing according to preference satisfaction theorists but not hedonists. Future AIs may have wellbeing according to all three accounts of wellbeing. This would potentially require that we dramatically reassess our relationship with AIs.</p>
 <p>In the following sections, we will focus on the different conceptions of wellbeing presented here, and explore what each theory implies about how we should embed ethics into AIs.</p>
 
+
+<br>
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Measuring Wellbeing</b></span></p>
+</legend>
+While the philosophical
+foundations of wellbeing are not settled, quantitative research fields
+like public health and economics require the use of metrics in order to
+evaluate, track, or compare the subject of study. Researchers use many
+different metrics to measure wellbeing, but the most common are HALYs
+and WELBYs.</p>
+<strong>Health-adjusted life years
+(HALYs).</strong>
+A very common unit for measuring wellbeing is the health-adjusted
+life year, or HALY. HALYs account for two factors: (1) the number of
+years lived by an individual, group, or population (also called “life
+years”), and (2) the health of those life years. Two common types of
+HALYs are QALYs and DALYs.</p>
+<strong>Quality-adjusted life years
+(QALYs).</strong>
+QALYs measure the number of years lived, adjusted according to
+health. One year of life in perfect health is equivalent to 1 QALY. One
+year of a less healthy life is worth between 0 and 1 QALYs. The value of
+a life year depends on how severely the life is impacted by health
+problems. For example, a year of life with asthma might be worth 0.9
+QALYs, while a year of life with a missing limb might be worth about 0.7
+QALYs.</p>
+<strong>Disability-adjusted life
+years (DALYs).</strong>
+While QALYs measure years of life as impacted by health, DALYs
+measure years of life lost, accounting for the impact of health. Whereas
+1 QALY is equivalent to a year in perfect health, 1 DALY is equivalent
+to the loss of a year in perfect health. A year of life with asthma
+might be worth 0.1 DALYs, while a year of life with a missing limb might
+be worth 0.3 DALYs.<p>
+Note that increases in wellbeing are indicated by higher numbers of
+QALYs but lower numbers of DALYs.<p>
+Using HALYs to measure wellbeing has some limitations. First, the extent
+to which different illnesses or injuries affect overall human health is
+not clear. Losing a limb probably has a larger health impact than
+getting asthma, but researchers must rely on subjective judgements to
+assign precise values to each problem. Second—and perhaps more
+importantly—HALYs measure the value of a span of life as it is impacted
+by health alone. In reality, there are many factors that can impact the
+value of life, like happiness, relationship quality, freedom, and a
+sense of purpose. Perhaps a more useful measurement of wellbeing would
+consider the effects of all of these factors, rather than health
+alone.</p>
+<strong>Wellbeing-adjusted life
+years (WELBYs).</strong>
+WELBYs have been developed to measure years of life as impacted by
+overall wellbeing. One WELBY is equivalent to one year of life at
+maximum wellbeing — namely, a life that is going as well as possible.
+Wellbeing can be assessed using self-reported outcomes like affect, life
+satisfaction, or degree of flourishing. There may also be some empirical
+ways to assess wellbeing like cortisol levels, income, or ability.</p>
+QALYs, DALYs, and WELBYs provide different approximations of wellbeing
+that can be used to inform high-level decision-making and
+policy-setting.</p>
+</div>
+<br>
+
 <br>
 <br>
 <h3>References</h3>
