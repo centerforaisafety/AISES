@@ -54,8 +54,8 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:conflict-cooperation">8.4 Conflict and Cooperation</h1>
-<h2 id="overview">8.4.1 Overview</h2>
+<h1 id="sec:conflict-cooperation">7.4 Conflict and Cooperation</h1>
+<h2 id="overview">7.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks that arise from
 interactions between multiple agents. So far, we have used game theory
 and evolutionary theory to understand how collective behavior can
@@ -72,21 +72,12 @@ rather than cooperate in a competitive situation. This may lead to
 violence in some cases, but not necessarily all. Our goal is to uncover
 how, despite being costly, conflict can sometimes be a rational choice
 nevertheless.<p>
-Microorganisms, humans, states, and nations all cooperate and conflict
-in different situations. In nature, we can observe cooperation in the
-form of social insect behavior, pack hunting, symbiotic relationships,
-and much more. In humans, we encounter cooperation in several areas
-including coordinated disaster responses, international peace
-negotiations, and community service, among many others. By contrast,
-conflict in both human and non-human organisms can occur as a
-consequence of resource competition, territorial disputes, mating
-access, the maintenance of social dominance hierarchies, including
-several other factors. Importantly, the mechanisms and factors that
-motivate cooperation and conflict are prevalent in various environments.
-Thus, we have good reason to suppose that AI agents will be similarly
-influenced by these various mechanisms and factors as they decide to
-cooperate or conflict with humans and other AIs.<p>
-We will begin our discussion of conflict with concepts in bargaining
+Conflict can take place between a wide variety of entities, from microorganisms to nation-states. 
+It can be sparked by many different factors, such as resource competition and territorial disputes. 
+Despite this variability, there are some general frameworks which we can use to analyse conflict 
+across many different situations. In this section, we look at how some of these frameworks might 
+be used to model conflict involving AI agents.<p>
+We begin our discussion of conflict with concepts in bargaining
 theory. We then examine some specific features of competitive situations
 that make it harder to reach negotiated agreements or avoid
 confrontation. We begin with five factors from bargaining theory that
@@ -129,76 +120,7 @@ to conflict with one another. We end by exploring one example:</p>
 fight for access to a larger share of available resources or a desired
 social standing.</p></li>
 </ul>
-<h3 id="cooperation-overview">Cooperation overview</h3>
-<p>Next, we turn to cooperation. We observe many forms of cooperation in
-biological systems: social insect colonies, pack hunting, symbiotic
-relationships, and much more. Humans perform community services,
-negotiate international peace agreements, and coordinate aid for
-disaster responses. Our very societies are built around
-cooperation.<p>
-Cooperation between AI stakeholders may be vital for counteracting the
-competitive and evolutionary pressures of AI races we have explored in
-this chapter. For example, the “merge-and-assist” clause of OpenAI’s
-charter <span class="citation"
-data-cites="openAImerge-assist">[1]</span> outlines their commitment to
-cease competition with—and provide assistance to—any “value-aligned,
-safety-conscious” AI developer who appears close to producing AGI, in
-order to reduce the risk of eroding safety precautions. Cooperation
-between AI agents is also necessary for reducing some of the multi-agent
-risks we have looked at: we want AIs to cooperate, rather than defect,
-in Prisoner’s Dilemma scenarios.<p>
-However, ensuring that AIs and human agencies behave cooperatively may
-not be a total solution to the collective action problems we have
-examined in this chapter. By more closely examining how cooperative
-relationships can come about, it is possible to see how they may
-backfire with disastrous consequences for AI safety. Instead, we need a
-more nuanced view of the potential benefits and risks of promoting
-cooperation between AI systems. To do this, we study seven different
-mechanisms by which cooperation may arise in multi-agent systems <span
-class="citation" data-cites="nowak2006five">[2]</span>, considering the
-ramifications of each for cooperation between and within human agencies
-and AI agents:</p>
-<ul>
-<li><p><em>Direct reciprocity</em>: when individuals are likely to
-encounter others in the future, they are more likely to cooperate with
-them.</p></li>
-<li><p><em>Indirect reciprocity</em>: when it benefits an individual’s
-reputation to cooperate with others, they are more likely to do
-so.</p></li>
-<li><p><em>Group selection</em>: when there is competition between
-groups, cooperative groups may outcompete non-cooperative
-groups.</p></li>
-<li><p><em>Kin selection</em>: when an individual is closely related to
-others, they are more likely to cooperate with them.</p></li>
-<li><p><em>Individual stakes to common stakes</em>: when individual
-interests become aligned with the collective good of the group,
-individuals are more likely to behave in ways that benefit the
-whole.</p></li>
-<li><p><em>Simon’s selection mechanism</em>: when available information
-is limited, individuals may be impelled to rely on social channels that
-require cooperation.</p></li>
-<li><p><em>Institutional mechanisms</em>: when there are externally
-imposed incentives (such as laws) that subsidize cooperation and punish
-defection, individuals and groups are more likely to cooperate.</p></li>
-</ul>
-<h2 id="conflict">8.4.2 Conflict</h2>
-<h3 id="introduction-to-conflict">Introduction to Conflict</h3>
-<p>In this section, we use the term “conflict” to describe the decision
-to defect rather than cooperate in competitive situations. This often,
-though not always, involves some form of violence, and destroys some
-amount of value. Conflict is common in nature. Organisms engage in
-conflict to maintain social dominance hierarchies, to hunt, and to
-defend territory. People also engage in conflict. Throughout human
-history, wars are common, often occurring as a consequence of
-power-seeking behavior, which inspired conflict over attempts at
-aggressive territorial expansion or resource acquisition.<p>
-We begin this section by discussing bargaining theory, which lays the
-groundwork for understanding why it may be rational for agents to engage
-in conflict. Next, we turn to the specific factors that may motivate
-agents to engage in conflict with one another, even when compromise
-might be the better option. We explore why AIs may be similarly affected
-by these factors, such that they may view conflict as an instrumentally
-rational choice in certain contexts.</p>
+
 <p><strong>Conflict can be rational.</strong> Though humans know
 conflict can be enormously costly, we often still pursue or instigate
 it, even when compromise might be the better option.<p>
@@ -230,7 +152,7 @@ costs. Therefore, a mutual settlement is the best option for both if
 $34,000, it would make sense for the owner to opt for conflict rather
 than bargaining. Similarly, if the proposed settlement were less than
 $14,000, it would be rational for the customer to opt for conflict.</p>
-<h3 id="bargaining-theory">Bargaining Theory</h3>
+<h3 id="bargaining-theory">7.4.2 Bargaining Theory</h3>
 <p>Here, we begin with a general overview of bargaining theory, to
 illustrate how pressures to outcompete rivals or preserve power and
 resources may make conflict an instrumentally rational choice. Next, we
@@ -288,7 +210,7 @@ Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full"  style="width: 70%"/>
-<p class="tb-caption">Figure 8.11: The bargaining range is defined by the potential gains from cooperation.</p>
+<p class="tb-caption">Figure 7.11: The bargaining range is defined by the potential gains from cooperation.</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p>A) An axis of expected value distribution between two
@@ -308,7 +230,7 @@ pursuing and fulfilling their goals, AI agents may encounter potential
 conflict scenarios, just as humans do. In certain scenarios, AIs may be
 motivated to pursue violent conflict over a peaceful resolution, for the
 reasons we now explore.</p>
-<h3 id="sec:commitment problems">Commitment problems</h3>
+<h3 id="sec:commitment problems">7.4.3 Commitment problems</h3>
 <p>Many conflicts occur over resources, which are key to an agent’s
 power. Consider a bargaining failure in which two agents bargain over
 resources in an effort to avoid war. If agents were to acquire these
@@ -435,7 +357,7 @@ US’s entry into WWII.<p>
 
 <br>
 <table class="tableLayout">
-<caption style="overflow: hidden; white-space: nowrap;">Table 8.6: A pay-off matrix for competitors choosing whether <br> to defend or preemptively attack.</caption>
+<caption style="overflow: hidden; white-space: nowrap;">Table 7.6: A pay-off matrix for competitors choosing whether <br> to defend or preemptively attack.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -497,7 +419,7 @@ dominance, for instance, by requiring that advanced AIs have a built-in
 incorruptible fail-safe mechanism, such as a manual “off-switch.”</p>
 <figure id="fig:first-strike">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range_2.png" class="tb-img-full" style="width: 70%"/>
-    <p class="tb-caption">Figure 8.12: At time <span class="math inline"> T_0 </span>, Green is more powerful relative to Red, or has a
+    <p class="tb-caption">Figure 7.12: At time <span class="math inline"> T_0 </span>, Green is more powerful relative to Red, or has a
         first-strike advantage that will be lost at <span class="math inline">T_1</span>. At <span class="math inline">T_1</span>, the bargaining
 range no longer extends past Green’s expected value from engaging in
         conflict at <span class="math inline">T_0</span>. Anticipating this leftward shift may incentivize Green
@@ -568,7 +490,7 @@ it was previously, perhaps not more powerful than their existing
 training systems. Since such an AI cannot be divided up among many
 stakeholders easily, it may be rational for parties to conflict over
 access to it, since doing so ensures global domination.</p>
-<h3 id="information-problems">Information problems</h3>
+<h3 id="information-problems">7.4.4 Information problems</h3>
 <p>Misinformation and disinformation both involve the spread of false
 information, but they differ in terms of intention. Misinformation is
 the dissemination of false information, without the intention to
@@ -636,7 +558,7 @@ the other makes, since they expect a better if they opt for conflict
 instead.</p>
 <figure id="fig:information-problems">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargaining_range_3.png" class="tb-img-full" style="width: 70%"/>
-<p class="tb-caption">Figure 8.13: Green either believes themself to be—-or intentionally
+<p class="tb-caption">Figure 7.13: Green either believes themself to be—-or intentionally
 misrepresents themself as—-more powerful than they really are. This
 means that the range of bargain offers Green will choose over conflict
 does not overlap with the equivalent range for Red. Thus, there is no
