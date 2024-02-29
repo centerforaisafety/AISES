@@ -1,4 +1,4 @@
-<h1 id="preferences">6.5 Preferences</h1>
+<h1 id="preferences">6.6 Preferences</h1>
 <strong>Should we have
 AIs satisfy people’s preferences?</strong>
 A preference is a tendency to favor one thing over another. Someone
@@ -36,7 +36,7 @@ equally valuable. This section considers three different types of
 preferences that could all potentially play a role in decision-making by
 AI systems: revealed preferences, stated preferences, and idealized
 preferences.</p>
-<h2 id="revealed-preferences">6.5.1 Revealed Preferences</h2>
+<h2 id="revealed-preferences">6.6.1 Revealed Preferences</h2>
 <p><strong>Preferences can be inferred from behavior.</strong> One set
 of techniques for getting AI systems to behave as we want—inverse
 reinforcement learning—is to have them deduce <em>revealed
@@ -180,7 +180,7 @@ relying solely on revealed preferences for AI training. It underscores
 the importance of supplementing revealed preferences with other methods
 to ensure a more comprehensive and accurate understanding of a user’s
 true preferences.</p>
-<h2 id="stated-preferences">6.5.2 Stated Preferences</h2>
+<h2 id="stated-preferences">6.6.2 Stated Preferences</h2>
 <p><strong>Preferences can be straightforwardly queried.</strong>
 Another set of techniques for getting AI systems to behave as we
 want—human supervision and feedback—rely on people to state their
@@ -343,7 +343,7 @@ kinds of preferences, such as ones that are only satisfied after the
 person has died, or ones that fundamentally alter who we are. For these
 reasons, we should be wary of using stated preferences alone to train
 AI.</p>
-<h2 id="idealized-preferences">6.5.3 Idealized Preferences</h2>
+<h2 id="idealized-preferences">6.6.3 Idealized Preferences</h2>
 <p><strong>We could idealize preferences to avoid problems like weakness
 of will.</strong> A third approach to getting AI systems to behave as we
 want is to make them able to infer what we would prefer if our
