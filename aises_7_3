@@ -1,20 +1,56 @@
 <h2 id="cooperation">7.3 Cooperation</h2>
 <h3 id="overview"> Overview</h3>
 
-<p>In this chapter, we have been exploring the risks that arise from interactions between multiple agents. So far, we have used game theory to understand how collective behavior can produce undesirable outcomes. In simple terms, securing morally good outcomes without cooperation can be extremely difficult, even for intelligent rational agents. Consequently, the importance of cooperation has emerged as a strong theme in this chapter. In this third section of this chapter, we begin by using evolutionary theory to examine cooperation in more detail.
-<p>We observe many forms of cooperation in biological systems: social insect colonies, pack hunting, symbiotic relationships, and much more. Humans perform community services, negotiate international peace agreements, and coordinate aid for disaster responses. Our very societies are built around cooperation.
-<p>Cooperation between AI stakeholders may be vital for counteracting the competitive and evolutionary pressures of AI races we have explored in this chapter. For example, the “merge-and-assist” clause of OpenAI’s charter [20] outlines their commitment to cease competition with—and provide assistance to—any “value-aligned, safety-conscious” AI developer who appears close to producing AGI, in order to reduce the risk of eroding safety precautions. Cooperation between AI agents is also necessary for reducing some of the multi-agent risks we have looked at: we want AIs to cooperate, rather than defect, in Prisoner’s Dilemma scenarios.
-<p>However, ensuring cooperative behavior from all parties may not be a total solution to the collective action problems we have examined in this chapter. By more closely examining how cooperative relationships can come about, it is possible to see how they may backfire with disastrous consequences for AI safety. Instead, we need a more nuanced view of the potential benefits and risks of promoting cooperation. To do this, we study five different mechanisms by which cooperation may arise in multi-agent systems [21], considering the ramifications of each:
+<h3 id="cooperation-overview">Cooperation overview</h3>
+<p>In this chapter, we have been exploring the risks that arise from interactions between multiple agents. So far, we have used game theory to understand how 
+collective behavior can produce undesirable outcomes. In simple terms, securing morally good outcomes without cooperation can be extremely difficult, even for 
+intelligent rational agents. Consequently, the importance of cooperation has emerged as a strong theme in this chapter. In this third section of this chapter, 
+we begin by using evolutionary theory to examine cooperation in more detail.
 
-</p>
+<p>We observe many forms of cooperation in
+biological systems: social insect colonies, pack hunting, symbiotic
+relationships, and much more. Humans perform community services,
+negotiate international peace agreements, and coordinate aid for
+disaster responses. Our very societies are built around
+cooperation.<p>
+Cooperation between AI stakeholders may be vital for counteracting the
+competitive and evolutionary pressures of AI races we have explored in
+this chapter. For example, the “merge-and-assist” clause of OpenAI’s
+charter <span class="citation"
+data-cites="openAImerge-assist">[1]</span> outlines their commitment to
+cease competition with—and provide assistance to—any “value-aligned,
+safety-conscious” AI developer who appears close to producing AGI, in
+order to reduce the risk of eroding safety precautions. Cooperation
+between AI agents is also necessary for reducing some of the multi-agent
+risks we have looked at: we want AIs to cooperate, rather than defect,
+in Prisoner’s Dilemma scenarios.<p>
+However, ensuring that AIs and human agencies behave cooperatively may
+not be a total solution to the collective action problems we have
+examined in this chapter. By more closely examining how cooperative
+relationships can come about, it is possible to see how they may
+backfire with disastrous consequences for AI safety. Instead, we need a
+more nuanced view of the potential benefits and risks of promoting
+cooperation between AI systems. To do this, we study seven different
+mechanisms by which cooperation may arise in multi-agent systems <span
+class="citation" data-cites="nowak2006five">[2]</span>, considering the
+ramifications of each for cooperation between and within human agencies
+and AI agents:</p>
 <ul>
-<li><p><em>Direct reciprocity</em>: when individuals are likely to encounter others in the future, they are more likely to cooperate with them.</p></li>
-<li><p><em>Indirect reciprocity</em>: when it benefits an individual’s reputation to cooperate with others, they are more likely to do so.</p></li>
-<li><p><em>Group selection</em>: when there is competition between groups, cooperative groups may outcompete non-cooperative groups.</p></li>
-<li><p><em>Kin selection</em>: when an individual is closely related to others, they are more likely to cooperate with them.</p></li>
-<li><p><em>Institutional mechanisms</em>: when there are externally imposed incentives (such as laws) that subsidize cooperation and punish defection, individuals and groups are more likely to cooperate.</p></li>
+<li><p><em>Direct reciprocity</em>: when individuals are likely to
+encounter others in the future, they are more likely to cooperate with
+them.</p></li>
+<li><p><em>Indirect reciprocity</em>: when it benefits an individual’s
+reputation to cooperate with others, they are more likely to do
+so.</p></li>
+<li><p><em>Group selection</em>: when there is competition between
+groups, cooperative groups may outcompete non-cooperative
+groups.</p></li>
+<li><p><em>Kin selection</em>: when an individual is closely related to
+others, they are more likely to cooperate with them.</p></li>
+<li><p><em>Institutional mechanisms</em>: when there are externally
+imposed incentives (such as laws) that subsidize cooperation and punish
+defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
-</p>
 
 <h3 id="direct-reciprocity">Direct Reciprocity</h3>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
