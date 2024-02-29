@@ -1114,6 +1114,213 @@ result in humans being unable to keep up. The pace and complexity of
 warfare could ascend out of human reach to where we are no longer able
 to comprehend or intervene. This could be an irreversible step putting
 us at high risk of catastrophic outcomes.</p>
+
+<h3 id="sec:extortion">Extortion</h3>
+<p>In this section ,we examine one last risk that arises when agents interact repeatedly: the discovery of extortion.</p>
+
+<p><strong><em>Extortion</em> strategies in the Iterated Prisoner’s
+Dilemma.</strong> In the real world, we describe the use of threats to
+force a victim to take an action they would otherwise not want to take
+(such as to relinquish something valuable) as “extortion.” Examples
+include criminal organizations ransoming those they have kidnapped to
+extort their families for money in exchange for their safe return.<p>
+In the Iterated Prisoner’s Dilemma, there is a set of <em>extortion</em>
+strategies that bear similarity to this real-world phenomenon. An agent
+playing the game can use an <em>extortion</em> strategy to ensure that
+their payoff in any match is higher than their partner’s <span
+class="citation" data-cites="press2012iterated">[19]</span>. The
+extortionist achieves this by acting similarly to an agent using
+<em>tit-for-tat</em>, responding to like with like. However, the
+extortionist will occasionally defect even when their partner has been
+cooperative. Extortionists effectively calculate the maximum number of
+defections they can get away with without annihilating the motivation of
+their partner to continue cooperating with them. They decide whether to
+cooperate or defect using a set of probabilities. The most recent
+interaction with their partner determines which probability they select.
+An example strategy is shown in Figure 7.7. An
+extortionist’s partner is incentivized to acquiesce to the extortion
+since deviating in any way will yield them a lower payoff. However, in
+maximizing their own score, they attain an even higher score for the
+extortionist. An extortionist thus scores higher than most of its
+partners in Iterated Prisoner’s Dilemma matches.<p>
+</p>
+<figure id="fig:extort-2">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
+<p class="tb-caption">Figure 8.10: The <em>Extort-2</em> strategy - <span class="citation"
+data-cites="stewart2012extortion">[20]</span></p>
+<!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
+<!--data-cites="stewart2012extortion">[20]</span></figcaption>-->
+</figure>
+<p>Shown is an extortion strategy called <em>Extort-2</em>, from the
+point of view of the extortionist. “You” are the agent using the
+<em>Extort-2</em> strategy, and “they” are your partner. As with all
+<em>extortion</em> strategies, <em>Extort-2</em> involves reacting
+probabilistically to the most recent interaction had with a partner. As
+an example, in the previous round, if the extortionist defected, but
+their partner cooperated, the extortionist will cooperate with a
+probability of 1/3 in this
+round.</p>
+<p><strong>Extortion strategies rarely win tournaments but seldom die
+out altogether.</strong> As we saw in Section 7.2.4,
+many uncooperative strategies may gain a higher score than most of their
+partners in head-to-head matches, and yet still lose in tournaments. By
+contrast, extortionists can be somewhat successful in tournaments under
+certain conditions. Extortionists are vulnerable to the same problem as
+many other uncooperative strategies: they gain low payoffs in matches
+against other extortionists. Each will therefore perform less well as
+the frequency of extortionists in the population increases. Thus, extortionists can persist for longer if they are sufficiently
+unlikely to meet one another. For instance, where a sufficiently small
+population of agents is engaged in a tournament, a single extortionist
+can achieve very high payoffs by exploiting cooperative strategies.</p>
+<p><strong>AI agents may use extortion: evidence from the Iterated
+Prisoner’s Dilemma.</strong> AI agents could use extortion in order to
+gain resources or power. As we have seen, agents can succeed in the
+Iterated Prisoner’s Dilemma by using <em>extortion</em> strategies. This
+is particularly true if the extortionist is part of a small group, if
+the social dynamics mirror evolution, or after major environmental
+changes. These findings are extremely worrying as they could describe
+future AI scenarios. Relationships might form among a small number of
+powerful AI agents. These agents may undulate through desirable and
+undesirable behaviors, or they might switch opportunistically to using
+extortion tactics in the wake of changes to their environment. However,
+since there are some fragile assumptions in these simple models, we must
+also consider evidence from real-world agents.</p>
+<p><strong>AI agents may use extortion: evidence from the real
+world.</strong> The widespread use of extortion among humans outside the
+world of game theoretic models suggests there is still a major cause for
+concern. Real-world extortion can still yield results even when the
+target is perfectly aware that it is taking place. The use of ransomware
+schemes to extort private individuals and companies is increasing
+rapidly. In fact, cybersecurity experts estimate that the annual
+economic cost of ransomware activity is in the billions of US dollars.
+Terrorist organizations such as ISIS rely on extortion through
+hostage-taking for a large portion of their total income. The ubiquity
+of successful extortion in so many contexts sets a powerful historical
+precedent for its efficacy.</p>
+<h3 id="tail-risk-extortion-with-digital-minds">Tail Risk: Extortion
+With Digital Minds</h3>
+<p>Here we examine the possibility of AI agents engaging in extortion to
+pursue their goals. Though the probability of AI extortion may be low,
+the impact could be immense. As an example, we consider the potential
+for extortionist AIs to simulate and torture sentient digital minds as
+leverage.</p>
+<p><strong>Real-world extortion is a form of optimized
+disvalue.</strong> An extortionist chooses to threaten their target
+using a personalized source of concern. They optimize their extortion to
+be prioritized over their target’s other concerns. Often, the worse the
+outcome being threatened, the more likely the target is to acquiesce.
+This incentivizes extortionists to threaten to bring about extremely
+disvaluable scenarios. In order to be effective, extortionist AIs might
+therefore leverage the threat of huge amounts of harm—far more than
+would likely come about incidentally, without design. If the disvaluable
+outcome the extortionist has designed for their target is also
+disvaluable to wider society, then we will share the potentially
+enormous costs of any executed threats.</p>
+<p><strong>AI extortion could entail torturing vast numbers of sentient
+digital minds.</strong> Human extortionists often threaten to inflict
+excruciating pain or death on those their victim cares about. AI
+extortionists might engage in similar behaviors, threatening to induce
+extreme levels of suffering, but on a vastly larger scale. This scale
+could potentially exceed any in human history. This is because
+extortionist AIs with greater-than-human technological capabilities
+might be able to simulate sentient digital minds. The potential for
+optimized disvalue in these simulations suggests near-unimaginable
+horrors. Vast numbers of digital people in these simulated environments
+could be subjected to immeasurably agonizing experiences.</p>
+<p><strong>Simulated torture at this scale could make the future more
+disvaluable than valuable.</strong> Simulations designed for the purpose
+of extortion would likely be far more disvaluable than simulations which
+contain disvalue unintentionally. The simulation’s designer would likely
+be able to choose what kinds of objects to simulate, so they could avoid
+wasting energy simulating non-sentient entities such as inanimate
+objects. Moreover, the designer could ensure that these sentient
+entities experience the greatest amount of suffering possible for the
+timespan of the simulation. They might even be able to simulate minds
+capable of more disvaluable experiences than have ever existed
+previously, deliberately designing the digital entities to be able to
+suffer as greatly as possible. Put together, a simulation optimized for
+disvalue could produce several orders of magnitude more disvalue than
+anything in history. This would be unprecedented in humanity’s history,
+and could make a horrifying—even net negative—future.</p>
+<p><strong>AI agents may be superhumanly proficient at wielding
+extortion.</strong> Future AI agents may far exceed humans in their
+ability to wield threats. One reason for this could be that they have
+superhuman tactical capabilities, as some do already in competitive
+games. Superior strategic intelligence could allow AI agents to conceive
+and execute far more advanced programs of extortion than that of which
+humans are generally capable. A second reason why AI agents may be
+especially adept at employing threats is if they have superhuman
+longevity or goal-preservation capabilities. With greater timespans
+available, the action space for extorting targets is larger. Finally,
+AIs may have technological capabilities that exceed those of current and
+historical humans. This could widen the option space for AI extortion
+still further.</p>
+<p><strong>Extortion may be exceptionally effective against
+AIs.</strong> Two goals of machine ethics are: 1) to foster in AI an
+intrinsic value for humanity (and humanity’s values); 2) to make AI
+agents that are impartial. Both goals could result in AI agents being
+more vulnerable to extortion than humans tend to be. Let us examine an
+example of this for each goal.<p>
+<em>Goal 1: Foster in AI an intrinsic value for humanity (and humanity’s
+values).</em><p>
+AI agents that value individual humans highly may be less prone to
+“scope insensitivity.” This is the human bias of failing to “feel”
+changes in the size of some value appropriately. Very small or very
+large numbers often appear to us to be of similar size to other very
+small or very large numbers, even when they actually differ by orders of
+magnitude. Human scope insensitivity may provide some protection against
+larger-scale extortion, as it lowers the motivation of extortionists to
+increase the scale of their threats. It is possible that AI agents may
+prioritize outcomes more accurately in accordance with their expected
+value. If this is the case, they would likely be more responsive to high
+stakes, and more vulnerable to large-scale extortion attempts.<p>
+<em>Goal 2: Make AI agents that are impartial.</em><p>
+Impartial AI agents may have far more altruistic values than any human
+or institution. These agents may be extremely vulnerable to extortion in
+the form of threats against their impartial moral codes. Extortionist AI
+agents could leverage the threat of extreme torture of countless digital
+sentients in simulated environments to extort more morally impartial AI
+targets. The execution of any such threat could immensely degrade the
+value of the future.</p>
+<p><strong>AI extortionists may execute higher-stakes threats more
+frequently than humans.</strong> A successful act of extortion is the
+deliberate creation of a state in which both the extortionists and their
+targets prefer the outcome the extortionist demands. In some sense, both
+parties therefore <em>want</em> the target to acquiesce to the extortion
+and the extortionist not to follow through on their threat. In this way,
+both usually have some incentive to avoid the threat being executed.
+However, out of a desire to signal credibility in future interactions,
+extortionists must follow through on threats occasionally. Consider
+examples such as hostage ransoming or criminal syndicate protection
+rackets. Successful future extortion requires a signal of commitment,
+such as destroying the property of those who defy the
+extortionists.<p>
+AIs may carry out more frequent and more severe threats than humans tend
+to. One reason for this is that they may have different value systems
+which tolerate higher risks, reducing their motivation to acquiesce to
+extortion. For example, an AI agent that sufficiently values the far
+future may prefer to demotivate future extortionists from trying to
+extort them. They may therefore defy a current extortion attempt,
+tolerating even very large costs to them and others, for the long-term
+benefit of credibly signaling that future extortion attempts will not
+work either.<p>
+More generally, with a greater variety of value systems, a greater
+number of agents, and a greater action space size, miscalibrated
+extortion attempts are more likely. Where the threat is insufficient to
+force compliance, the aforementioned need to signal credibility
+incentivizes the extortionist to execute their threat as punishment for
+their target’s refusal to submit.</p>
+<p><strong>AI agents extorting humans.</strong> AI agents might also
+extort human targets. One example scenario would be an AI developing
+both a weaponized biological pathogen, and an effective cure <span class="citation"
+data-cites="patel2023takeover">[27]</span>. If the
+pathogen is slow-acting, the AI agent could then extort humans by
+deploying the bioweapon, and leveraging the promise of its cure to force
+those infected into complying with this demands. Pathogens that are
+sufficiently fast to spread and difficult to detect could infect a very
+large number of human targets, so this tactic could enable extremely
+large-scale threats to be wielded effectively.</p>
+
 <h3 id="summary-1">Summary</h3>
 <p>The Iterated Prisoner’s Dilemma involves repeated rounds of the
 Prisoner’s Dilemma game. This iteration offers a chance for agent
@@ -1122,9 +1329,8 @@ which agents can attempt to maximize their overall payoffs. These
 strategies can be studied by competing agents against one another in
 tournaments, where each agent competes against others in multiple rounds
 before switching partners.<p>
-This provides cause for concern about multi-AI agent futures. The
-“races” governing the production, deployment and adoption of AI
-technologies, in both corporate and military settings, have the
+This provides cause for concern about multi-AI agent futures. One example of this is the phenomenon of 
+“races” between AI stakeholders. These races strongly influence the speed and direction of AI technological production, deployment and adoption, in both corporate and military settings, and have the
 potential to exacerbate many of the intrinsic risks from AI. The
 dynamics we have explored in this section might cause competing agencies
 to cut corners on safety, and to escalate weaponized AI applications and
@@ -1580,285 +1786,6 @@ lead to an “autonomous economy.” Either outcome would be disastrous and
 potentially irreversible, yet we can see how competitive pressures can
 drive rational and self-interested agents (such as nations or companies)
 down a path towards these calamities.</p>
-<h2 id="evolutionary-game-theory">8.2.6 Evolutionary Game Theory</h2>
-<p>We began our discussion of game theory by exploring the Prisoner’s
-Dilemma, a simple game that involves two agents who interact only once.
-To model real-world multi-agent dynamics more closely, we first built on
-this by iterating the two agents’ interactions. We next introduced more
-than two agents into the game. Now, we introduce a third elaboration:
-the ability for agents to adapt their strategies. We look at how the
-multi-agent dynamics we have explored so far change when the agents
-concerned can adapt their behaviors.<p>
-
-
-<h3 id="sec:extortion">Extortion</h3>
-<p><strong><em>Extortion</em> strategies in the Iterated Prisoner’s
-Dilemma.</strong> In the real world, we describe the use of threats to
-force a victim to take an action they would otherwise not want to take
-(such as to relinquish something valuable) as “extortion.” Examples
-include criminal organizations ransoming those they have kidnapped to
-extort their families for money in exchange for their safe return.<p>
-In the Iterated Prisoner’s Dilemma, there is a set of <em>extortion</em>
-strategies that bear similarity to this real-world phenomenon. An agent
-playing the game can use an <em>extortion</em> strategy to ensure that
-their payoff in any match is higher than their partner’s <span
-class="citation" data-cites="press2012iterated">[19]</span>. The
-extortionist achieves this by acting similarly to an agent using
-<em>tit-for-tat</em>, responding to like with like. However, the
-extortionist will occasionally defect even when their partner has been
-cooperative. Extortionists effectively calculate the maximum number of
-defections they can get away with without annihilating the motivation of
-their partner to continue cooperating with them. They decide whether to
-cooperate or defect using a set of probabilities. The most recent
-interaction with their partner determines which probability they select.
-An example strategy is shown in Figure 8.10. An
-extortionist’s partner is incentivized to acquiesce to the extortion
-since deviating in any way will yield them a lower payoff. However, in
-maximizing their own score, they attain an even higher score for the
-extortionist. An extortionist thus scores higher than most of its
-partners in Iterated Prisoner’s Dilemma matches.<p>
-</p>
-<figure id="fig:extort-2">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/The-extort-strategy.png" class="tb-img-full" width="40%"/>
-<p class="tb-caption">Figure 8.10: The <em>Extort-2</em> strategy - <span class="citation"
-data-cites="stewart2012extortion">[20]</span></p>
-<!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
-<!--data-cites="stewart2012extortion">[20]</span></figcaption>-->
-</figure>
-<p>Shown is an extortion strategy called <em>Extort-2</em>, from the
-point of view of the extortionist. “You” are the agent using the
-<em>Extort-2</em> strategy, and “they” are your partner. As with all
-<em>extortion</em> strategies, <em>Extort-2</em> involves reacting
-probabilistically to the most recent interaction had with a partner. As
-an example, in the previous round, if the extortionist defected, but
-their partner cooperated, the extortionist will cooperate with a
-probability of 1/3 in this
-round.</p>
-<p><strong>Extortion strategies rarely win tournaments but seldom die
-out altogether.</strong> As we saw in Section 1.4.2,
-many uncooperative strategies may gain a higher score than most of their
-partners in head-to-head matches, and yet still lose in tournaments. By
-contrast, extortionists can be somewhat successful in tournaments under
-certain conditions. Extortionists are vulnerable to the same problem as
-many other uncooperative strategies: they gain low payoffs in matches
-against other extortionists. Each will therefore perform less well as
-the frequency of extortionists in the population increases. (This again
-relates to “frequency dependent selection,” which we discuss later in
-this chapter.) Thus, <em>extortion</em> may arise as part of a cycle in
-large populations of interacting agents, but it is rarely stable.
-However, extortionists can persist for longer if they are sufficiently
-unlikely to meet one another. For instance, where a sufficiently small
-population of agents is engaged in a tournament, a single extortionist
-can achieve very high payoffs by exploiting cooperative strategies.</p>
-<p><strong>Extortion strategies perform even better in evolutionary
-tournaments <span class="citation"
-data-cites="hilbe2013evolution">[21]</span>.</strong> Extortionists can
-be highly successful in evolutionary tournaments. This is especially
-true in tournaments with more detailed replications of evolutionary
-dynamics. For instance, in some evolutionary tournaments, agents can
-produce offspring who inherit both their strategy and score. With the
-addition of noise, in the form of random mutations, extortionists enjoy
-great success in this context. In even more sophisticated models that
-replicate coevolutionary arms races, they are yet more successful.
-Moreover, simulating a dramatic environmental change in these models
-often produces an opportunity for exceptionally profitable extortion
-tactics.</p>
-<p><strong>AI agents may use extortion: evidence from the Iterated
-Prisoner’s Dilemma.</strong> AI agents could use extortion in order to
-gain resources or power. As we have seen, agents can succeed in the
-Iterated Prisoner’s Dilemma by using <em>extortion</em> strategies. This
-is particularly true if the extortionist is part of a small group, if
-the social dynamics mirror evolution, or after major environmental
-changes. These findings are extremely worrying as they could describe
-future AI scenarios. Relationships might form among a small number of
-powerful AI agents. These agents may undulate through desirable and
-undesirable behaviors, or they might switch opportunistically to using
-extortion tactics in the wake of changes to their environment. However,
-since there are some fragile assumptions in these simple models, we must
-also consider evidence from real-world agents.</p>
-<p><strong>AI agents may use extortion: evidence from the real
-world.</strong> The widespread use of extortion among humans outside the
-world of game theoretic models suggests there is still a major cause for
-concern. Real-world extortion can still yield results even when the
-target is perfectly aware that it is taking place. The use of ransomware
-schemes to extort private individuals and companies is increasing
-rapidly. In fact, cybersecurity experts estimate that the annual
-economic cost of ransomware activity is in the billions of US dollars.
-Terrorist organizations such as ISIS rely on extortion through
-hostage-taking for a large portion of their total income. The ubiquity
-of successful extortion in so many contexts sets a powerful historical
-precedent for its efficacy.</p>
-<h3 id="tail-risk-extortion-with-digital-minds">Tail Risk: Extortion
-With Digital Minds</h3>
-<p>Here we examine the possibility of AI agents engaging in extortion to
-pursue their goals. Though the probability of AI extortion may be low,
-the impact could be immense. As an example, we consider the potential
-for extortionist AIs to simulate and torture sentient digital minds as
-leverage.</p>
-<p><strong>Real-world extortion is a form of optimized
-disvalue.</strong> An extortionist chooses to threaten their target
-using a personalized source of concern. They optimize their extortion to
-be prioritized over their target’s other concerns. Often, the worse the
-outcome being threatened, the more likely the target is to acquiesce.
-This incentivizes extortionists to threaten to bring about extremely
-disvaluable scenarios. In order to be effective, extortionist AIs might
-therefore leverage the threat of huge amounts of harm—far more than
-would likely come about incidentally, without design. If the disvaluable
-outcome the extortionist has designed for their target is also
-disvaluable to wider society, then we will share the potentially
-enormous costs of any executed threats.</p>
-<p><strong>AI extortion could entail torturing vast numbers of sentient
-digital minds.</strong> Human extortionists often threaten to inflict
-excruciating pain or death on those their victim cares about. AI
-extortionists might engage in similar behaviors, threatening to induce
-extreme levels of suffering, but on a vastly larger scale. This scale
-could potentially exceed any in human history. This is because
-extortionist AIs with greater-than-human technological capabilities
-might be able to simulate sentient digital minds. The potential for
-optimized disvalue in these simulations suggests near-unimaginable
-horrors. Vast numbers of digital people in these simulated environments
-could be subjected to immeasurably agonizing experiences.</p>
-<p><strong>Simulated torture at this scale could make the future more
-disvaluable than valuable.</strong> Simulations designed for the purpose
-of extortion would likely be far more disvaluable than simulations which
-contain disvalue unintentionally. The simulation’s designer would likely
-be able to choose what kinds of objects to simulate, so they could avoid
-wasting energy simulating non-sentient entities such as inanimate
-objects. Moreover, the designer could ensure that these sentient
-entities experience the greatest amount of suffering possible for the
-timespan of the simulation. They might even be able to simulate minds
-capable of more disvaluable experiences than have ever existed
-previously, deliberately designing the digital entities to be able to
-suffer as greatly as possible. Put together, a simulation optimized for
-disvalue could produce several orders of magnitude more disvalue than
-anything in history. This would be unprecedented in humanity’s history,
-and could make a horrifying—even net negative—future.</p>
-<p><strong>AI agents may be superhumanly proficient at wielding
-extortion.</strong> Future AI agents may far exceed humans in their
-ability to wield threats. One reason for this could be that they have
-superhuman tactical capabilities, as some do already in competitive
-games. Superior strategic intelligence could allow AI agents to conceive
-and execute far more advanced programs of extortion than that of which
-humans are generally capable. A second reason why AI agents may be
-especially adept at employing threats is if they have superhuman
-longevity or goal-preservation capabilities. With greater timespans
-available, the action space for extorting targets is larger. Finally,
-AIs may have technological capabilities that exceed those of current and
-historical humans. This could widen the option space for AI extortion
-still further.</p>
-<p><strong>Extortion may be exceptionally effective against
-AIs.</strong> Two goals of machine ethics are: 1) to foster in AI an
-intrinsic value for humanity (and humanity’s values); 2) to make AI
-agents that are impartial. Both goals could result in AI agents being
-more vulnerable to extortion than humans tend to be. Let us examine an
-example of this for each goal.<p>
-<em>Goal 1: Foster in AI an intrinsic value for humanity (and humanity’s
-values).</em><p>
-AI agents that value individual humans highly may be less prone to
-“scope insensitivity.” This is the human bias of failing to “feel”
-changes in the size of some value appropriately. Very small or very
-large numbers often appear to us to be of similar size to other very
-small or very large numbers, even when they actually differ by orders of
-magnitude. Human scope insensitivity may provide some protection against
-larger-scale extortion, as it lowers the motivation of extortionists to
-increase the scale of their threats. It is possible that AI agents may
-prioritize outcomes more accurately in accordance with their expected
-value. If this is the case, they would likely be more responsive to high
-stakes, and more vulnerable to large-scale extortion attempts.<p>
-<em>Goal 2: Make AI agents that are impartial.</em><p>
-Impartial AI agents may have far more altruistic values than any human
-or institution. These agents may be extremely vulnerable to extortion in
-the form of threats against their impartial moral codes. Extortionist AI
-agents could leverage the threat of extreme torture of countless digital
-sentients in simulated environments to extort more morally impartial AI
-targets. The execution of any such threat could immensely degrade the
-value of the future.</p>
-<p><strong>AI extortionists may execute higher-stakes threats more
-frequently than humans.</strong> A successful act of extortion is the
-deliberate creation of a state in which both the extortionists and their
-targets prefer the outcome the extortionist demands. In some sense, both
-parties therefore <em>want</em> the target to acquiesce to the extortion
-and the extortionist not to follow through on their threat. In this way,
-both usually have some incentive to avoid the threat being executed.
-However, out of a desire to signal credibility in future interactions,
-extortionists must follow through on threats occasionally. Consider
-examples such as hostage ransoming or criminal syndicate protection
-rackets. Successful future extortion requires a signal of commitment,
-such as destroying the property of those who defy the
-extortionists.<p>
-AIs may carry out more frequent and more severe threats than humans tend
-to. One reason for this is that they may have different value systems
-which tolerate higher risks, reducing their motivation to acquiesce to
-extortion. For example, an AI agent that sufficiently values the far
-future may prefer to demotivate future extortionists from trying to
-extort them. They may therefore defy a current extortion attempt,
-tolerating even very large costs to them and others, for the long-term
-benefit of credibly signaling that future extortion attempts will not
-work either.<p>
-More generally, with a greater variety of value systems, a greater
-number of agents, and a greater action space size, miscalibrated
-extortion attempts are more likely. Where the threat is insufficient to
-force compliance, the aforementioned need to signal credibility
-incentivizes the extortionist to execute their threat as punishment for
-their target’s refusal to submit.</p>
-<p><strong>AI agents extorting humans.</strong> AI agents might also
-extort human targets. One example scenario would be an AI developing
-both a weaponized biological pathogen, and an effective cure <span class="citation"
-data-cites="patel2023takeover">[27]</span>. If the
-pathogen is slow-acting, the AI agent could then extort humans by
-deploying the bioweapon, and leveraging the promise of its cure to force
-those infected into complying with this demands. Pathogens that are
-sufficiently fast to spread and difficult to detect could infect a very
-large number of human targets, so this tactic could enable extremely
-large-scale threats to be wielded effectively.</p>
-<h3 id="concealment-of-information">Concealment of information</h3>
-<p>Honesty is sometimes the best policy in an evolutionary game, but not
-always. Evolutionary equilibria may arise in which individual organisms
-use a mix of deceptive tactics to maximize their fitness. In other
-words, an ESS can entail the concealment of information. This section
-examines how evolutionary dynamics may pressure AI agents to evolve
-deceptive behaviors in contexts where these are more evolutionarily
-stable than honesty. Note that we examine other risks of deceptive AI in
-the section of the chapter.</p>
-<p><strong>Concealment of information can be an ESS.</strong> In an
-evolutionary setting, a certain frequency or degree of dishonest
-communication can be selected for <span class="citation"
-data-cites="hamblin2009evolution">[22]</span>. Non-venomous king snakes
-closely resemble venomous coral snakes to ward off predators <span
-class="citation" data-cites="greene1981coral">[23]</span>. Cannibalistic
-Portia spiders pluck the webs of other spiders to mimic the vibrations
-of struggling prey, thus luring their victim out into the open to be
-killed and eaten <span class="citation"
-data-cites="jackson1998spider">[24]</span>. Several flower species mimic
-the appearance of certain female insects in order to better attract
-males for pollination <span class="citation"
-data-cites="schiestl2005success">[25]</span>. Some bacteria produce
-specific molecules that act as misdirection signals to other competing
-bacteria, which reduce the probability of attack and detection, allowing
-the bacteria to maintain its competitive advantage <span
-class="citation" data-cites="mokkonen2015evolutionary">[26]</span>.
-Evolutionarily stable dishonesty is common in the natural world.</p>
-<p><strong>Natural selection may favor AIs that conceal
-information.</strong> Consider the following scenario: a game of Poker.
-Agents will be better off if they have a very good ‘poker face’ because
-other agents will not be able to deduce tell-tale signs associated with
-bluffing or a good hand. The incentive to have a good “poker face” is
-not malicious: it does not seek to exploit other agents and their
-strategies, but rather, to maximize one’s own payoff in a competitive
-game. We might extend this reasoning to AI. If multiple AIs operate
-within a competitive landscape where available resources are limited,
-they may be incentivized to conceal information from other AIs or humans
-in order to preserve a competitive advantage. In other words, an AI
-might develop a good ‘poker face’ since revealing certain kinds of
-information might affect their abilities to maximize payoff. Thus,
-strategies involving the concealment of information could be favored by
-natural selection among AIs, giving rise to immoral behaviors that
-emerge from amoral (morally neutral) grounds.</p>
-<p><strong>AI agents may develop immoral behaviors from amoral
-conditions.</strong> We’ve shown that dishonest communication can be an
-ESS. The effects of inter-agent engagement can incentivize behavior we
-view as immoral that nonetheless evolves from morally neutral
-circumstances.</p>
 
 <br>
 <br>
