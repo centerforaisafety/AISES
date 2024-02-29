@@ -1,4 +1,4 @@
-<h1 id="why-learn-about-ethics">7.2 Why Learn About Ethics?</h1>
+<h1 id="why-learn-about-ethics">A.2 Why Learn About Ethics?</h1>
 <p>This chapter will help you understand ethics—both in the context of
 this book and in public discourse about AI safety. Here, we cover the
 most prominent theories in the history of ethical discourse. After
@@ -43,7 +43,7 @@ AI systems in a beneficial way. Rather than attempting to bypass or
 ignore such controversies, AI developers should accept that their design
 decisions may raise difficult ethical questions that need to be
 considered carefully.</p>
-<h2 id="is-ethics-relative">7.2.1 Is Ethics “Relative?”</h2>
+<h2 id="is-ethics-relative">A.2.1 Is Ethics “Relative?”</h2>
 <p><strong>Even after millennia of deliberation, we do not agree on all
 of morality.</strong> Philosophers have been thinking about and debating
 moral principles for millennia, yet they have not achieved consensus on
@@ -165,8 +165,7 @@ objective value. Moral relativism only recommends tolerance to cultures
 where it is already accepted. Indeed, to be tolerant, one need not be a
 normative moral relativist. There are alternatives views which can
 accommodate tolerance and multiple perspectives, such as
-cosmopolitanism, liberal principles, and value pluralism. We discuss
-adjudicating among competing moral views in Moral Uncertainty (Section 7.5).</p>
+cosmopolitanism, liberal principles, and value pluralism.</p>
 <p><strong>In practice, moral relativism can shut down ethics
 discussions <span class="citation"
 data-cites="gowans2021moral">[1]</span>.</strong> It is important to
@@ -193,7 +192,7 @@ they are responsible for ensuring that the values embodied in their AI
 systems are beneficial. Rather than a barrier, cultural variation means
 that making AIs ethical requires a broad, globally representative
 approach.</p>
-<h2 id="is-ethics-determined-by-religion">7.2.2 Is Ethics Determined by
+<h2 id="is-ethics-determined-by-religion">A.2.2 Is Ethics Determined by
 Religion?</h2>
 <p>Moral relativists may believe that studying ethics is futile because
 ethical questions are irresolvable. On the other hand, some people
