@@ -1,4 +1,4 @@
-<h1 id="sec:corp-gov">9.5 Corporate Governance</h1>
+<h1 id="sec:corp-gov">8.5 Corporate Governance</h1>
 <p><strong>Overview.</strong> AI companies need sound corporate
 governance: it is essential that these firms are guided in directions
 that enable the creation of safe and beneficial AIs. In this section, we
@@ -6,7 +6,7 @@ explain what corporate governance is, differentiating between
 shareholder and stakeholder theory. Then, we give an overview of
 different legal structures, ownership structures, organizational
 structures, as well as internal and external assurance mechanisms.</p>
-<h2 id="what-is-corporate-governance">9.5.1 What Is Corporate Governance?</h2>
+<h2 id="what-is-corporate-governance">8.5.1 What Is Corporate Governance?</h2>
 <p>There are different views on what the purpose of corporate governance
 is. These differences are related to different theories about
 capitalism.</p>
@@ -39,7 +39,7 @@ representation. We are mainly interested in how AI companies are or
 should be governed to best advance the public interest <span
 class="citation" data-cites="cihon2021corporate">[3]</span>. Next, we
 will consider how a firm’s legal structure can help permit this.</p>
-<h2 id="legal-structure">9.5.2 Legal Structure</h2>
+<h2 id="legal-structure">8.5.2 Legal Structure</h2>
 <p>A company’s legal structure refers to its legal form and place of
 incorporation, its statutes and bylaws.</p>
 <p><strong>Legal form.</strong> AI companies can have different legal
@@ -79,7 +79,7 @@ Ensuring that a firm’s legal structures enable its employees to act in
 the best interests of the firm’s stakeholders is important, and firms
 have many ways to do this. Next, we will consider how ownership can help
 solidify a firm’s safety-conscious goals.</p>
-<h2 id="ownership-structure">9.5.3 Ownership Structure</h2>
+<h2 id="ownership-structure">8.5.3 Ownership Structure</h2>
 <p>Companies are owned by shareholders, who elect the board of
 directors, which appoints the senior executives who actually run the
 company.</p>
@@ -129,7 +129,7 @@ It is important who owns AI companies because these owners have strong
 ways to influence operations. Next, we will put aside questions of
 ownership and examine how these organizations are structured and
 run.</p>
-<h2 id="organizational-structure">9.5.4 Organizational Structure</h2>
+<h2 id="organizational-structure">8.5.4 Organizational Structure</h2>
 <p>While shareholders own the company, it is governed by the board of
 directors and managed by the chief executive officer (CEO) and other
 senior executives.</p>
@@ -175,7 +175,7 @@ employees’ and managers’ best interests, creating shareholder value, or
 achieving their mission and ensuring societal wellbeing. In the last
 subsection, we will explore how we can ensure that these structures are
 well chosen and smoothly functioning.</p>
-<h2 id="assurance">9.5.5 Assurance</h2>
+<h2 id="assurance">8.5.5 Assurance</h2>
 <p>Different stakeholders within and outside AI companies need to know
 whether existing governance structures are adequate. AI companies
 therefore take a number of measures to evaluate and communicate the
