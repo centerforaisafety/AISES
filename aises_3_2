@@ -427,7 +427,8 @@ understand that system at some other scale <span class="citation"
 data-cites="anderson1972more steinhardt2022more">[1], [2]</span>. This
 means that control procedures may not transfer between scales and can
 lead to a weakening of control.<p>
-In this section, we will look at examples of emergence in neural
+The general phenomenon of emergence and its applicability to AI systems is 
+discussed at greater length in the section 5.2.In this section, we will look at examples of emergence in neural
 networks, ranging from emergent capabilities to emergent goal-directed
 behavior and emergent optimization. Then we will discuss the potential
 risks of AI systems intrinsifying unintended goals and examine how this
