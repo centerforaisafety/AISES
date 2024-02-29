@@ -36,19 +36,7 @@ valued. However, some philosophers argue that hedonism is an incomplete
 account of wellbeing. They argue there may be other factors that
 influence wellbeing, such as the pursuit of knowledge.</p>
 
-<h2 id="sec:preference-satisfaction">6.5.2 Wellbeing as Preference Satisfaction</h2>
-<p>Some philosophers claim that what really matters for wellbeing is
-that our preferences are satisfied, even if satisfying preferences does
-not always lead to pleasurable experiences.<p>
-One difficulty for preference-based theories is that there are different
-kinds of preferences, and it’s unclear which ones matter. Preferences
-can be split into three categories: stated preferences, revealed
-preferences, and idealized preferences. If someone expresses a preference for eating healthy but never does, 
-then their stated preference (eating healthy) diverges from their revealed preference (eating unhealthy). 
-Suppose they would choose to eat healthy if fully informed of the costs and benefits: their idealized preferences, 
-then, would be to eat healthy. Each of these categories can be informative in different contexts: we explore their relevance in the next section.</p>
-
-<h2 id="sec:objective-goods">6.5.3 Wellbeing as a Collection of Objective Goods</h2>
+<h2 id="sec:objective-goods">6.5.2 Wellbeing as a Collection of Objective Goods</h2>
 <p>Others believe that wellbeing is the achievement of an objective set
 of “goods” or “values.” These goods are considered necessary for living
 a good life regardless of a person’s individual experiences or
@@ -66,35 +54,19 @@ do benefit people, but only if those people do in fact enjoy them.</p>
 for living a good life. However, this uncertainty is not a unique
 problem for objective goods theory. It can be difficult for hedonists to
 explain why happiness is the only value that’s important for wellbeing, for instance.In the following sections we focus primarily on other interpretations of wellbeing
- and do not have space to discuss objective goods theory in depth, particularly given that there are many ways it can be specified.
+ and do not have space to discuss objective goods theory in depth, particularly given that there are many ways it can be specified.</p>
 
-<p>
-Many AI researchers think that, for now, we should avoid accidentally
-creating AIs that deserve rights <span class="citation"
-data-cites="sebo2022chatbot">[1]</span>; for instance, perhaps all
-entities that can experience suffering have natural rights to protect
-them from it. Some think we should especially avoid giving them positive
-rights; it might be fine to give them rights against being tortured but
-not the right to vote. If they come to deserve rights, this would create
-many complications and undermine our claim to control.</p>
-<h2 id="what-does-it-mean-for-an-action-to-be-right-or-wrong">7.3.3 What does
-it mean for an action to be right or wrong?</h2>
-<p>Some of the first questions we might ask about ethics are: Are all
-actions either right or wrong? Are some simply neutral? Are there other
-distinctions we might want to draw between the morality of different
-actions?<p>
-The answers to these questions, like most moral questions, are the
-subject of much debate. Here, we will simply examine what it might mean
-for an action to be right or wrong. We will also draw some other useful
-distinctions, like the distinction between obligatory and non-obligatory
-actions, and between permissible and impermissible actions. These
-distinctions will be useful in the following section, when we discuss
-the considerations that inform our moral judgments.</p>
-<h3 id="options">Options</h3>
-<p>Special obligations and constraints tell us what we should not do,
-and sometimes, what we must do. Intrinsic goods tell us about things
-that would be good, should they happen. But philosophers debate how much
-good we are required to do.</p>
+<h2 id="sec:preference-satisfaction">6.5.3 Wellbeing as Preference Satisfaction</h2>
+<p>Some philosophers claim that what really matters for wellbeing is
+that our preferences are satisfied, even if satisfying preferences does
+not always lead to pleasurable experiences.<p>
+One difficulty for preference-based theories is that there are different
+kinds of preferences, and it’s unclear which ones matter. Preferences
+can be split into three categories: stated preferences, revealed
+preferences, and idealized preferences. If someone expresses a preference for eating healthy but never does, 
+then their stated preference (eating healthy) diverges from their revealed preference (eating unhealthy). 
+Suppose they would choose to eat healthy if fully informed of the costs and benefits: their idealized preferences, 
+then, would be to eat healthy. Each of these categories can be informative in different contexts: we explore their relevance in the next section.</p>
 
 <br>
 <div class="visionbox">
