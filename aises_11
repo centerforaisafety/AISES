@@ -1,46 +1,41 @@
 Acknowledgements
 <h2 class="unnumbered" id="acknowledgements">Acknowledgements</h2>
-<p>It would not have been possible to complete a book of this scale on
-my own without spending several years on it, by which point it might
-have come out too late to help readers to understand and address
-important AI risks. To avoid this issue, I worked with various
-contributors to complete this tegittbook in a more timely manner. With a
-handful of exceptions, I was responsible for deciding the contents of
-the chapters, sections, and subsections and developed a detailed
-paragraph-level outline for these, as well as providing multiple rounds
-of feedback and revisions. The other contributors to this textbook wrote
-the bulk of the content and helped to organize, expound on, and
-explicate these ideas clearly. I would like to acknowledge the following
-contributors for each chapter:</p>
+<p>It would not have been possible to complete a book of this scale on my own without spending several years on it. This would have significantly delayed publication and 
+therefore reduced the book’s value, given how urgent it is for us to understand and address important AI risks. I received invaluable support during the research, writing 
+and editing process from various collaborators both at CAIS and externally that enabled me to complete this textbook in a more timely way.</p>
+
+<p>I would like to acknowledge the major contributions to the textbook’s chapters made by the following people:</p>
 <ol>
-<li><p><strong></strong> with Anna Swanson, Jeremy Hadfield, Adam
+<li><p><strong>Overview of Catastrophic AI Risks</strong>: Mantas Mazeika and Thomas Woodside</p></li>
+<li><p><strong>AI Fundamentals</strong>: Anna Swanson, Jeremy Hadfield, Adam
 Elwood, and Corin Katzke</p></li>
-<li><p><strong></strong> with Jesse Hoogland, Adam Khoja, Thomas
+<li><p><strong>Single-Agent Safety</strong>: Jesse Hoogland, Adam Khoja, Thomas
 Woodside, Abra Ganz, Aidan O’Gara, Spencer Becker-Kahn, Jeremy Hadfield,
 and Joshua Clymer</p></li>
-<li><p><strong></strong> with Toby Tremlett and Suryansh Mehta</p></li>
-<li><p><strong></strong> with Suryansh Mehta and Shankara
-Srikantan</p></li>
-<li><p><strong></strong> with Suryansh Mehta, Shankara Srikantan, Aron
-Vallinder, Jeremy Hadfield, and Toby Tremlett</p></li>
-<li><p><strong></strong> with Laura Hiscott and Max Heitmann</p></li>
-<li><p><strong></strong> Systems with Laura Hiscott and Suryansh
+<li><p><strong>Safety Engineering</strong>: Laura Hiscott and Suryansh
 Mehta</p></li>
-<li><p><strong></strong> with Ivo Andrews, Sasha Cadariu, Avital Morris,
+<li><p><strong>Complex Systems</strong>: Laura Hiscott and Max Heitmann</p></li>
+<li><p><strong>Beneficial AI and Machine Ethics</strong>: Suryansh Mehta, Shankara Srikantan, Aron
+Vallinder, Jeremy Hadfield, and Toby Tremlett</p></li>
+<li><p><strong>Collective Action Problems</strong>: Ivo Andrews, Sasha Cadariu, Avital Morris,
 and David Lambert</p></li>
-<li><p><strong></strong> with Jonas Schuett, Robert Trager, Lennart
+<li><p><strong>Governance</strong>: Jonas Schuett, Robert Trager, Lennart
 Heim, Matthew Barnett, Mauricio Baker, Thomas Woodside, Suryansh Mehta,
 Laura Hiscott, and Shankara Srikantan</p></li>
+<li><p><strong>Appendix - Normative Ethics</strong>: Toby Tremlett and Suryansh Mehta</p></li>
+<li><p><strong>Appendix - Utility Functions</strong>: Suryansh Mehta and Shankara
+Srikantan</p></li>
 </ol>
-<p>I would also like to thank the following key individuals for their
+<p>I am deeply grateful to the following key individuals for their
 help in driving this project forward:</p>
 <ul>
 <li><p>Jay Kim and William Hodgkins (Project Manager)</p></li>
 <li><p>Rebecca Rothwell and Suryansh Mehta (Editor)</p></li>
 <li><p>Corin Katzke (Course Manager)</p></li>
 </ul>
-<p>I also want to thank Mantas Mazeika, Paul Salmon, the 2023 CAIS
-philosophy fellows, and the participants in our AI Safety Sprint Course
+<p>I also want to thank MMantas Mazeika, Paul Salmon, Matthew Lutz, 
+Bryan Daniels, Martin Stoffel, Charlotte Siegmann, Lena Trabucco, 
+Casey Mahoney, the 2023 CAIS philosophy fellows, and the participants in our AI Safety Sprint Course
 for their invaluable feedback throughout the writing and revision
 process. All errors that remain are, of course, my own.</p>
 <div class="flushright">
