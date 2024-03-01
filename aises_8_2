@@ -1,112 +1,8 @@
-<h1 id="takeoff">8.2 Takeoff</h1>
-<p>In this section, we will explore the various ways in which AIs might
-see “takeoff” and how this would affect the world. Takeoff refers to the
-process of AIs going from being able to perform well on many tasks at a
-subhuman level to performing at human level or even becoming
-“super-intelligent,” surpassing human capabilities. There is serious
-uncertainty about how AI development will play out in the future. First,
-we will discuss how the development of AIs can speed up the economy.
-Then, we will discuss why we cannot rule out that advanced AIs might
-arrive soon. Lastly, we will discuss how AI takeoff could be continuous
-or discontinuous and fast or slow. Navigating these uncertainties is
-essential for formulating AI safety policies that are robust to the
-various routes AI development might take in the future.</p>
-<h2 id="economic-growth">8.2.1 Economic Growth</h2>
-<p>Economic growth has been limited by the growth rate of the human
-population. By enabling cheap and scalable automation, AIs that perform
-tasks at a human level might artificially augment the effective economic
-population. This might significantly speed up economic growth to levels
-much higher than those observed in most developed countries in recent
-decades.</p>
-<p><strong>AI automation may create explosive growth.</strong> Some
-researchers have argued that if we add AIs to standard models of
-economic growth (such as the Solow model) developed using economic
-theory and past data, we find that AIs could trigger a dramatic surge in
-economic growth. AIs that can substitute for human labor can augment a
-labor force by providing inexpensive and highly scalable automation.
-Some studies suggest that such AIs could spark unprecedented growth,
-causing the world economy to grow at rates exceeding ten times the
-current growth rate <span class="citation"
-data-cites="Davidson-growth">[1]</span>. This could result in an
-unprecedented acceleration of scientific and technological advancement,
-reshaping our economy and the trajectory of human history over a period
-of perhaps only a few years. Growth of this magnitude would be unlike
-anything in human history: for the past 10,000 years after the
-agricultural revolution, total world output grew at 0.1% per year,
-steadily increasing over the last 1000 years to single-digit percentage
-points.</p>
-<p><strong>Factors that could constrain AI automation and economic
-growth.</strong> AI automation itself might be slowed if there were
-limits on society’s ability to develop or deploy AI systems. A dramatic
-expansion in the use of AI might require enormous investments in
-computing hardware and electricity generation that could take several
-years to realize. Moreover, in order to generate explosive growth, AI
-automation may need to be extremely comprehensive. If there were still
-some tasks or functions that AI was unable to automate, these could act
-as bottlenecks on overall economic growth. For example, if AI exhibited
-above-human performance on cognitive tasks but its ability to move in
-the physical world lagged behind due to slow progress in robotics, this
-would cap the extent to which AI could accelerate economic growth.
-Alternatively, AI might be prevented from performing certain tasks due
-to restrictions imposed by regulations. There might be legal
-requirements that certain services (e.g., medical or legal services) be
-delivered by a human professional. Moreover, people might have a strong
-preference that some workers be human beings.</p>
-<p><strong>Population growth may drive economic growth.</strong> This
-worldwide economic acceleration in recent centuries has been variously
-attributed to the unique conditions of the industrial revolution, the
-technologies developed in 18th and 19th century Europe, and the growth
-in total population over time. Population growth is emphasized most by
-the <em>semi-endogenous theory of economic growth</em>. It holds that
-since economic growth causes population growth by reducing bottlenecks
-on population growth and population growth causes economic growth by
-providing a large labor force (including an increasing number of
-researchers driving technological progress), there is a positive
-feedback loop and so population growth is the key factor to consider
-when looking at the increase in the economic output over time.<p>
-According to this theory, human population growth was determined for
-many thousands of years by the availability of food. As agricultural
-technologies were developed, food became easier to produce, which
-allowed for more population growth. Since larger populations have more
-opportunities to innovate and develop better technology, this process
-loops back into itself recursively, producing a faster-than-exponential
-development curve over the long run.<p>
-This acceleration ultimately slowed down in the mid-20th century. The
-semi-endogenous theory explains this slowdown as a result of the
-independent decline in the population growth rate. Demographic changes
-such as falling birth rates uncoupled productivity and population
-growth. This helps explain why economic growth did not explode in the
-late 20th and early 21st centuries. If the population bottleneck were
-lifted, the multi-thousand-year trend of accelerating growth could
-continue again until we exhaust physical resources like energy and
-space.</p>
-<figure id="fig:homicide">
-<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/growth_v2 updated.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 8.1: Economic output could grow much faster than past trends if not constrained by population.</p>
-<!--<figcaption>Growth of economic output in two scenarios: growth slowdown,-->
-<!--and AI-driven growth explosion</figcaption>-->
-</figure>
-<p><strong>AIs may fuel effective population growth.</strong> If AIs can
-automate the majority of important human tasks (including further AI
-development), this would lift the bottleneck on labor that has prevented
-explosive growth. There are some reasons to think that AIs could boost
-the economic growth rate by substituting for human labor. As easily
-duplicable software, the AI population can grow at least as quickly as
-we can manufacture hardware to run it on—-much faster than humans take
-to reproduce and learn skills from adults. Additionally, the growth of
-AI capabilities driven by design is much faster than the growth of human
-capabilities driven by evolution: over the entire course of human
-evolution from primates, human brains grew roughly 4 times in size,
-whereas over the decade after AlexNet, the largest machine learning
-models increased in size by the same amount roughly every 16 months.
-Assuming we do not see a slowdown AI development or face other
-bottlenecks like energy production, AIs may cause explosive growth by
-lifting the population bottleneck.</p>
+<h1 id="timelines">8.2 Speed of AI Progress</h1>
+<p>In this section, we will explore the speed at which the capabilities of AI systems will develop.There is serious uncertainty about how AI development will play out in the future. First, we will discuss why we cannot rule out that advanced AIs might arrive soon. Then, we will discuss how AI takeoff could be continuous or discontinuous and fast or slow. Lastly, we will discuss how the development of AIs could lead to a dramatic acceleration in economic growth. Navigating these uncertainties is essential for formulating AI safety policies that are robust to the various routes AI development might take in the future.</p>
+
 <h2 id="timelines">8.2.2 Timelines</h2>
-<p>Advanced AIs could have significant impacts on our civilization such
-as the dramatic and unprecedented acceleration of economic growth.
-However, it is unclear when we will see such AIs being deployed. It is
-comfortable to believe that we are nowhere close to creating advanced
+<p>It is comfortable to believe that we are nowhere close to creating advanced
 AIs; however, given uncertainty among experts and current trends in
 compute and algorithmic efficiency, we do not have strong reasons to
 rule out the possibility that advanced AIs will exist in the near
@@ -171,7 +67,12 @@ advanced AIs arriving soon is impossible. This doesn’t imply that
 advanced AIs are right around the corner–—but it does mean that we
 should plan for this possibility.</p>
 <h2 id="types-of-ai-takeoff">8.2.3 Types of AI Takeoff</h2>
-<p>AI takeoff could be <em>discontinuous</em>, involving emergent
+<p>Assuming that rapid progress in AI research continues, there are various 
+ways in which AIs might see ``takeoff''. Takeoff refers to the process of
+ AIs going from being able to perform well on many tasks at a subhuman level
+ to becoming ``super-intelligent,'' surpassing human capabilities on many or 
+all cognitive tasks.
+AI takeoff could be <em>discontinuous</em>, involving emergent
 abilities that break from trendlines, or <em>continuous</em>, involving
 a smooth increase in capabilities over time. Relatedly, we are unsure
 how fast these abilities will develop: one view is that early progress
@@ -224,27 +125,114 @@ likely be safer, giving the world more time to understand and react to
 the situation with safety measures. While the current evidence points
 towards a slow takeoff, there is currently no consensus on which
 scenario is more likely.</p>
+
+<h2 id="economic-growth">8.2.1 Economic Growth</h2>
+<p>Economic growth has been limited by the growth rate of the human
+population. By enabling cheap and scalable automation, AIs that perform
+tasks at a human level might artificially augment the effective economic
+population. This might significantly speed up economic growth to levels
+much higher than those observed in most developed countries in recent
+decades.</p>
+<p><strong>Population growth may drive economic growth.</strong> This
+worldwide economic acceleration in recent centuries has been variously
+attributed to the unique conditions of the industrial revolution, the
+technologies developed in 18th and 19th century Europe, and the growth
+in total population over time. Population growth is emphasized most by
+the <em>semi-endogenous theory of economic growth</em>. It holds that
+since economic growth causes population growth by reducing bottlenecks
+on population growth and population growth causes economic growth by
+providing a large labor force (including an increasing number of
+researchers driving technological progress), there is a positive
+feedback loop and so population growth is the key factor to consider
+when looking at the increase in the economic output over time.<p>
+According to this theory, human population growth was determined for
+many thousands of years by the availability of food. As agricultural
+technologies were developed, food became easier to produce, which
+allowed for more population growth. Since larger populations have more
+opportunities to innovate and develop better technology, this process
+loops back into itself recursively, producing a faster-than-exponential
+development curve over the long run.<p>
+This acceleration ultimately slowed down in the mid-20th century. The
+semi-endogenous theory explains this slowdown as a result of the
+independent decline in the population growth rate. Demographic changes
+such as falling birth rates uncoupled productivity and population
+growth. This helps explain why economic growth did not explode in the
+late 20th and early 21st centuries. If the population bottleneck were
+lifted, the multi-thousand-year trend of accelerating growth could
+continue again until we exhaust physical resources like energy and
+space.</p>
+<figure id="fig:homicide">
+<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/growth_v2 updated.png" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 8.1: Economic output could grow much faster than past trends if not constrained by population.</p>
+<!--<figcaption>Growth of economic output in two scenarios: growth slowdown,-->
+<!--and AI-driven growth explosion</figcaption>-->
+</figure>
+<p><strong>AIs may fuel effective population growth.</strong> If AIs can
+automate the majority of important human tasks (including further AI
+development), this would lift the bottleneck on labor that has prevented
+explosive growth. There are some reasons to think that AIs could boost
+the economic growth rate by substituting for human labor. As easily
+duplicable software, the AI population can grow at least as quickly as
+we can manufacture hardware to run it on—-much faster than humans take
+to reproduce and learn skills from adults. Additionally, the growth of
+AI capabilities driven by design is much faster than the growth of human
+capabilities driven by evolution: over the entire course of human
+evolution from primates, human brains grew roughly 4 times in size,
+whereas over the decade after AlexNet, the largest machine learning
+models increased in size by the same amount roughly every 16 months.
+Assuming we do not see a slowdown AI development or face other
+bottlenecks like energy production, AIs may cause explosive growth by
+lifting the population bottleneck.</p>
+<p><strong>AI automation may create explosive growth.</strong> Some
+researchers have argued that if we add AIs to standard models of
+economic growth (such as the Solow model) developed using economic
+theory and past data, we find that AIs could trigger a dramatic surge in
+economic growth. AIs that can substitute for human labor can augment a
+labor force by providing inexpensive and highly scalable automation.
+Some studies suggest that such AIs could spark unprecedented growth,
+causing the world economy to grow at rates exceeding ten times the
+current growth rate <span class="citation"
+data-cites="Davidson-growth">[1]</span>. This could result in an
+unprecedented acceleration of scientific and technological advancement,
+reshaping our economy and the trajectory of human history over a period
+of perhaps only a few years. Growth of this magnitude would be unlike
+anything in human history: for the past 10,000 years after the
+agricultural revolution, total world output grew at 0.1% per year,
+steadily increasing over the last 1000 years to single-digit percentage
+points.</p>
+<p><strong>Factors that could constrain AI automation and economic
+growth.</strong> AI automation itself might be slowed if there were
+limits on society’s ability to develop or deploy AI systems. A dramatic
+expansion in the use of AI might require enormous investments in
+computing hardware and electricity generation that could take several
+years to realize. Moreover, in order to generate explosive growth, AI
+automation may need to be extremely comprehensive. If there were still
+some tasks or functions that AI was unable to automate, these could act
+as bottlenecks on overall economic growth. For example, if AI exhibited
+above-human performance on cognitive tasks but its ability to move in
+the physical world lagged behind due to slow progress in robotics, this
+would cap the extent to which AI could accelerate economic growth.
+Alternatively, AI might be prevented from performing certain tasks due
+to restrictions imposed by regulations. There might be legal
+requirements that certain services (e.g., medical or legal services) be
+delivered by a human professional. Moreover, people might have a strong
+preference that some workers be human beings.</p>
+
 <h3 id="conclusions-about-takeoff">Conclusions About Takeoff</h3>
-<p>We have considered the different routes AI development might take to
-create AI systems with performance that matches or exceeds that of human
-beings across a broad range of tasks. First, we explored the effects
-such advanced AI systems might have on the economy, examining how they
-might supercharge economic growth through automation, revolutionizing
-our world. Then, we considered timelines: whether advanced AIs are
-likely to arrive soon. Considering the vast uncertainty in experts’ best
-guesses and the lack of fundamental restrictions on factors like compute
-and algorithms that are necessary for AI production, we cannot assume
-that advanced AIs are a thing of the distant future.<p>
-Lastly, we considered uncertainties about the pace and predictability of
-the transition whereby AIs would go from performing at a human level to
-being superintelligent. We briefly examined evidence about trends in the
-development of AI, which suggests that most AI capabilities usually
-increase smoothly with scale but some are emergent. We also discussed
-the phenomenon of recursive self-improvement, which might lead to rapid
-takeoff speeds in the future. Understanding how takeoff might play out
-could greatly inform our approach to the regulation of AI. Next, we will
-consider matters of distribution of AI: of power, access, and costs and
-benefits.</p>
+<p>We have considered the different routes AI development might take to create 
+AI systems with performance that matches or exceeds that of human beings across a 
+broad range of tasks. First, we considered timelines: whether advanced AIs are likely
+ to arrive soon. Considering the vast uncertainty in experts’ best guesses and the 
+lack of fundamental restrictions on factors like compute and algorithms that are 
+necessary for AI production, we cannot assume that advanced AIs are a thing of the 
+distant future. Then, we considered uncertainties about the pace and predictability of
+ the transition whereby AIs would go from performing at a human level to being superintelligent.
+ We briefly examined evidence about trends in the development of AI, which suggests that most AI
+ capabilities usually increase smoothly with scale but some are emergent. We also discussed the 
+phenomenon of recursive self-improvement, which might lead to rapid takeoff speeds in the future. 
+Understanding how takeoff might play out could greatly inform our approach to the regulation of AI. 
+Lastly, we explored the effects such advanced AI systems might have on the economy, examining how 
+they might supercharge economic growth through automation. Next, we will consider matters of distribution of AI: of power, access, and costs and benefits.</p>
 
 <br>
 <br>
