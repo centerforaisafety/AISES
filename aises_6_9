@@ -90,7 +90,8 @@ that we set them, finding more creative and powerful solutions to
 achieve these. However, if they pursue very narrowly specified goals,
 there is a risk that these solutions come at the expense of other
 important values that we failed to adequately include as part of their
-goals. Given that philosophers have not yet converged on a single
+goals. 
+<p><strong>Moral disagreement is a reason for making AI systems cautious.</strong> Given that philosophers have not yet converged on a single
 consistent moral theory that can take account of all relevant arguments
 and intuitions, it seems important for us to design AI systems without
 encoding a false sense of certainty about moral issues that could lead
