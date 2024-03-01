@@ -786,8 +786,8 @@ shifts, and system failures. A key challenge is detecting rare and unpredictable
  Since malicious actors are likely to adopt novel strategies to avoid detection, anomaly detection could be particularly useful for identifying 
 malicious activity such as cyberattacks. Anomaly detection could also potentially be extended to identify unknown threats such as Trojaned, rogue,
  or scheming AI systems. Successful anomaly detectors could identify and flag  anomalies for human review or automatically carry out a conservative
- fallback policy. Anomaly detection could be useful for identifying other hazards such as malicious use. To ensure that anomaly detection tools are
- useful, it is important to ensure that they have high recall and low false alarm rate, to avoid alarm fatigue.</p>
+ fallback policy. Anomaly detection could be useful for identifying other hazards such as malicious use. For anomaly detection to be useful,
+ it is important to ensure that they have high recall and low false alarm rate, to avoid alarm fatigue.</p>
 
 <br>
 <br>
