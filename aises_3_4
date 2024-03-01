@@ -947,7 +947,9 @@ advanced AI agents.</p>
 
 <h2 id="sec:techniques-to-control-ai">3.4.9 Techniques to Control AI Systems</h2>
 
-<p>Even if a model has the capability to do something, it may not have the propensity to do this. One way of breaking down the challenge of controlling AI systems is to distinguish 
+<p>When evaluating risks from AI systems, we want to understand not only whether a model is theoretically capable of doing something harmful, but also whether it has a propensity to do this. 
+By controlling a model's propensities, we might be able to ensure that even models that have potentially hazardous capabilities do not use these in practice.  One way of breaking down the 
+challenge of controlling AI systems is to distinguish 
 the techniques that enable us to influence a model's propensities to produce certain types of outputs, and the values that shape what these outputs are. This section focuses primarily
 on the first topic, while the second one is discussed in more detail in the Beneficial AI and Machine Ethics chapter.
 
