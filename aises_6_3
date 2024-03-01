@@ -452,8 +452,7 @@ forms of unfairness. These often benefit from being broadly applicable with litt
 domain-specific knowledge. Developers can test predictive models against various 
 metrics for fairness and adjust models so that they perform better. Fairness toolkits
  offer programmatic methods for implementing technical fairness metrics into ML pipelines.
- Other methods for uncovering hidden sources of unfairness in ML models include audits, 
-adversarial testing, sensitivity analysis, and ranking feature importances. One promising
+ Other methods for uncovering hidden sources of unfairness in ML models include adversarial testing, sensitivity analysis, and ranking feature importances. One promising
  technical approach involves training an adversarial network to predict a protected variable
  from an ML model’s outputs <span
 class="citation" data-cites="zhang2018mitigating">[28]</span>. By penalizing the model when the 
