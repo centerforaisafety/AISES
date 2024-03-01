@@ -49,7 +49,7 @@ textbook provides some scaffolding for others to use as they build out a
 more detailed picture of these risks and the potential responses to
 them.<p>
 The textbook’s content falls into three sections: AI and Societal-Scale Risks, Safety,
- and Ethics and Society. In the \nameref{part:background} section, we outline major 
+ and Ethics and Society. In the AI and Societal-Scale Risks section, we outline major 
 categories of AI risks and introduce some key features of modern AI systems. In the Safety
  section, we discuss how to make individual AI systems more safe. However, if we can make them 
 safe, how should we direct them? To answer this, we turn to the Ethics and Society section 
