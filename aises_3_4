@@ -958,9 +958,9 @@ to learn how to explore different possible actions to attain as much reward as p
 from Human Feedback (RLHF) <span
 class="citation" data-cites="Ouyang2022TrainingLM">[18]</span> and Direct Preference Optimization (DPO) <span
 class="citation" data-cites="rafailov2023dpo">[19]</span>. These techniques involve collecting a dataset of 
-comparisons of responses from a language model. These comparisons indicate which responses were preferred by human users or by AI systems prompted to compare the responses. A large dataset of these comparisons can be collected
+comparisons of responses from a language model. These comparisons indicate which responses were preferred by human users or by AI systems prompted to compare the responses. They can be collected
 after the model's initial pre-training on a large text dataset. In RLHF, a reward model is fitted to this the dataset of comparisons and is then used to train the language model to 
-produce responses that get high reward from this reward model model. Direct Preference Optimization is intended to simplify this pipeline and directly train the model to produce outputs
+produce responses that get high reward from this reward model. Direct Preference Optimization is intended to simplify this pipeline and directly train the model to produce outputs
 that best fit the preferences in the dataset, without using reinforcement learning. RLHF and DPO have received a large amount of attention from commercial AI developers to make their 
 products more economically valuable.
 
@@ -990,14 +990,14 @@ environment or mode of operation.
 unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, or training the model to reject malicious requests in a way that is robust to 
 later fine-tuning or other alterations. Unlearning could make it easier for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users 
 lack the know-how to support certain types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
-However, the sub-field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on limited fine-tuning data, this
+However, the research field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on limited fine-tuning data, this
 would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be removed without significantly degrading the model's general 
 usefulness for many innocuous tasks.
 
-<p><strong>Conclusion.</strong> Deceptive or power-seeking AI systems could pose severe challenges to our ability to control AI systems. In order to pre-empt these risks, we need to develop
-better tools that enable us to identify evidence of deceptive or power-seeking tendencies in AI systems and to remove or control these. Representation control and machine unlearning are 
-emerging areas of research that show promise for tackling these challenges. There are many open questions to be explored in seeing how far these and other techniques can be applied in order
-to ensure that AI systems can be understood and controlled.
+<p><strong>Conclusion.</strong> Uncontrollable AI systems could pose severe risks, particularly if they exhibit deceptive or power-seeking tendencies. In order to pre-empt these risks, 
+we need to develop better tools that enable us to identify evidence of dangerous propensities in AI systems and to remove or control these. Representation control and machine unlearning
+ are emerging areas of research that show promise for tackling these challenges. There are many open questions to be explored in seeing how far these and other techniques can be applied
+ in order to ensure that AI systems can be controlled.</p>
 
 <br>
 <br>
