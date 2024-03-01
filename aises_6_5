@@ -1,3 +1,25 @@
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <h1 id="sec:wellbeing">6.5 Wellbeing</h1>
 <p>In the next few sections, we will explore how AIs can be used to increase human wellbeing. We start by asking: what is wellbeing?</p>
 
