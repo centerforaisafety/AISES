@@ -9,7 +9,7 @@ their ``black-box'' nature — hinders our ability to fully comprehend how they 
 intentions, if any, may be. In addition, models may spontaneously develop qualitatively new and unprecedented
  ``emergent'' capabilities as they become more advanced (for example, when we make them larger, train them for
  longer periods, or expose them to more data). Models may also contain hidden functionality that is hard to detect,
- such as backdoors that cause it to behave abnormally in a very small number of circumstances.<p>
+ such as backdoors that cause them to behave abnormally in a very small number of circumstances.<p>
 Next, we turn to problem of building models that are robust to adversarial attacks or extreme and unusual events. 
 In many cases, it is not possible to perfectly specify our idealized goals for an AI system. Inadequately specified
  goals can lead to systems diverging from our idealized goals, and introduce vulnerabilities that adversaries can attack and exploit. <p>
