@@ -508,27 +508,6 @@ against producing harmful outputs or writing about illegal acts. In some
 cases, such jailbreaks were not discovered until months after the
 targeted system was first publicly released <span class="citation"
 data-cites="Zou2022ForecastingFW">[7]</span>.</p>
-<p><strong>Emergent capabilities make control difficult.</strong>
-Whether certain capabilities develop suddenly or are discovered
-suddenly, they can be difficult to predict. This makes it a challenge to
-anticipate what future AI will be able to do even in the short term, and
-it could mean that we may have little time to react to novel
-capabilities jumps. It is difficult to make a system safe when it is
-unknown what that system will be able to do.</p>
-
-<p><strong>Better evaluations and other research techniques could make it easier to detect hazardous emergent capabilities.</strong>
- Researchers could try to detect potentially hazardous capabilities as they emerge or develop techniques to track and predict the 
-progress of models' capabilities in certain relevant domains and skills. They could also track capabilities relevant to mitigating hazards. 
-It could be valuable to create testbeds to continuously screen AI models for potentially hazardous capabilities, for example abilities that 
-could meaningfully assist malicious actors with the execution of cyber-attacks, exacerbate CBRN threats or generate persuasive content in a 
-way that could affect elections \citep{openai2023preparedness}. Ideally, we would be able to infer a model's latent abilities purely by analysing
- a model's weights, enabling us to infer its abilities beyond what's obviously visible through standard testing. </p>
-
-<p>To avoid a false sense of safety, it will be important to validate that these detection methods are sufficiently sensitive. 
-Researchers could intentionally add hidden functionality to check the testing methods catch this. Methods to predict future capabilities
- in a quantitative way and find new failure modes would also be valuable. Once a hazardous capability like deception is found, it must be eliminated. 
-Researchers could develop training techniques that ensure that models don't acquire undesirable skills in the first place, or that make models forget
- them after training. But verifying capabilities are fully removed, not just obscured or partially eliminated, could prove difficult.</p>
 
 <h2 id="emergent-goal-directed-behavior">3.2.5 Emergent Goal-Directed
 Behavior</h2>
@@ -779,32 +758,29 @@ society and susceptible to goal drift or emergent goals. Vigilance is
 needed to ensure we are not surprised by advanced AI systems acquiring
 dangerous capabilities or goals.</p>
 
-<h2 id="trojans and anomaly detection">3.2.7 Trojans and Anomaly Detection</h2>
+<h2 id="evaluation and anomaly detection">3.2.7 Evaluations and Anomaly Detection</h2>
 
-<p><strong>Models may contain hidden ``backdoors'' or ``Trojans''.</strong>
- Deep learning models are known to be vulnerable to Trojan attacks. 
-A ``Trojaned'' model will behave just as a normal model would behave in almost all circumstances.
- In a very small number of circumstances, however, it will behave very differently. For example, 
-a facial recognition system used to control access to a building might operate normally in almost 
-all circumstances, but have a backdoor that could be triggered by a specific item of clothing 
-chosen by the adversary. An adversary wearing this clothing would be allowed to enter the building
- by the facial recognition system. Backdoors could present particularly serious vulnerabilities 
-in the context of sequential decision making systems, where a trigger could lead an AI system to 
-carry out a coherent and harmful series of actions.</p>
+<p><strong>Emergent capabilities make control difficult.</strong>
+Whether certain capabilities develop suddenly or are discovered
+suddenly, they can be difficult to predict. This makes it a challenge to
+anticipate what future AI will be able to do even in the short term, and
+it could mean that we may have little time to react to novel
+capabilities jumps. It is difficult to make a system safe when it is
+unknown what that system will be able to do.</p>
 
-<p>Backdoors are created by adversaries during the training process, either by directly inserting 
-it into a model's weights, or by adding poisoned data into the datasets used for training or pretraining
- of AI systems. The insertion of backdoors through data poisoning becomes increasingly easy as AI systems
- are trained on enormous datasets scraped directly from the Internet with only limited filtering or curation.
- There is evidence that even a relatively small number of data points can be sufficient to poison a model - 
-simply by uploading a few carefully designed images, code snippets or sentences to online platforms, adversaries
- can inject a backdoor into future models that are trained used data scraped from these websites. Models that are
- derived from the original poisoned model might inherit this backdoor, leading to a proliferation of backdoors to multiple models.</p>
+<p><strong>Better evaluations and other research techniques could make it easier to detect hazardous emergent capabilities.</strong>
+ Researchers could try to detect potentially hazardous capabilities as they emerge or develop techniques to track and predict the 
+progress of models' capabilities in certain relevant domains and skills. They could also track capabilities relevant to mitigating hazards. 
+It could be valuable to create testbeds to continuously screen AI models for potentially hazardous capabilities, for example abilities that 
+could meaningfully assist malicious actors with the execution of cyber-attacks, exacerbate CBRN threats or generate persuasive content in a 
+way that could affect elections \citep{openai2023preparedness}. Ideally, we would be able to infer a model's latent abilities purely by analysing
+ a model's weights, enabling us to infer its abilities beyond what's obviously visible through standard testing. </p>
 
-<p>Trojan detection research aims to improve our ability to detect Trojans or other hidden functionality within ML models. 
-In this research, models are poisoned with a Trojan attack by one researcher. Another researcher then tries to detect Trojans
- in the neural network, perhaps with transparency tools or other neural networks. Typical techniques involve looking at the 
-model’s internal weights and identifying unusual patterns or behaviors that are only present in Trojan models.</p>
+<p>To avoid a false sense of safety, it will be important to validate that these detection methods are sufficiently sensitive. 
+Researchers could intentionally add hidden functionality to check the testing methods catch this. Methods to predict future capabilities
+ in a quantitative way and find new failure modes would also be valuable. Once a hazardous capability like deception is found, it must be eliminated. 
+Researchers could develop training techniques that ensure that models don't acquire undesirable skills in the first place, or that make models forget
+ them after training. But verifying capabilities are fully removed, not just obscured or partially eliminated, could prove difficult.</p>
 
 <p><strong>Better anomaly detection would be highly valuable for monitoring AI systems.</strong> As discussed in the AI Fundamentals section,
  anomaly detection involves identifying outliers or abnormal data points. Anomaly detection allows models to reliably detect and respond to 
