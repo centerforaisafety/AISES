@@ -26,16 +26,13 @@
 </style>
 
 <h1 id="sec:proxy-gaming">3.3 Robustness</h1>
-<p>In this section, we begin to explore the need for proxies in machine
-learning and the challenges this poses for creating systems that are robust to adversarial attacks. We examine a potential
-failure mode known as proxy gaming, wherein a model optimizes for a
-proxy in a way that diverges from the idealized goals of its designers.
-We also analyze a related concept known as Goodhart’s law and explore
-some of the causes for these kinds of failure modes. Next, we consider
-the phenomenon of adversarial examples, where an optimizer is
-used to exploit vulnerabilities in a neural network. We close by looking
-at the tail risks of having AI systems themselves play the role of
-evaluators (i.e. proxy goals) for other other AI systems.</p>
+<p>In this section, we begin to explore the need for proxies in machine learning and the challenges this poses for creating systems that are robust to adversarial attacks. 
+We examine a potential failure mode known as proxy gaming, wherein a model optimizes for a proxy in a way that diverges from the idealized goals of its designers. 
+We also analyze a related concept known as Goodhart’s law and explore some of the causes for these kinds of failure modes. Next, we consider the phenomenon of adversarial 
+examples, where an optimizer is used to exploit vulnerabilities in a neural network. This can enable adversarial attacks that allow an AI system to be misused. 
+Other adversarial threats to AI systems include Trojan attacks, which allow an adversary to insert hidden functionality. There are also techniques that allow adversaries
+ to surreptitiously extract a model’s weights or training data. We close by looking at the tail risks of having AI systems themselves play the role of evaluators
+(i.e. proxy goals) for other other AI systems.</p>
 <h2 id="proxies-in-machine-learning">3.3.1 Proxies in Machine Learning</h2>
 <p>Here, we look at the concept of proxies, why they are necessary, and
 how they can lead to problems.</p>
