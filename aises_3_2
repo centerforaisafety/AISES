@@ -770,7 +770,7 @@ unknown what that system will be able to do.</p>
 progress of models' capabilities in certain relevant domains and skills. They could also track capabilities relevant to mitigating hazards. 
 It could be valuable to create testbeds to continuously screen AI models for potentially hazardous capabilities, for example abilities that 
 could meaningfully assist malicious actors with the execution of cyber-attacks, exacerbate CBRN threats or generate persuasive content in a 
-way that could affect elections \citep{openai2023preparedness}. Ideally, we would be able to infer a model's latent abilities purely by analysing
+way that could affect elections. Ideally, we would be able to infer a model's latent abilities purely by analysing
  a model's weights, enabling us to infer its abilities beyond what's obviously visible through standard testing. </p>
 
 <p>To avoid a false sense of safety, it will be important to validate that these detection methods are sufficiently sensitive. 
