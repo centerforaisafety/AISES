@@ -170,8 +170,7 @@ Our experience with large language models has shown that by being trained on hum
  similar to the way that a human speaker of the language would; for instance, the Happiness section below discusses two other systems that can predict human responses to video and text. 
 If similar systems are used in the future, it seems plausible that AIs can apply laws in a sensible way.</p>
 <p>
-That said, we might still worry that these emerge from optimization
-pressures. Additionally, while AIs might usually interpret human
+That said, we might still worry that while AIs might usually interpret human
 concepts sensibly, they may still have representations that have rare
 quirks. This poses problems; for instance, it creates vulnerabilities
 that can be exploited by adversarial attacks. There is more work to be
