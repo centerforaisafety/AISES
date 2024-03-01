@@ -641,7 +641,7 @@ in building AI systems that are robust to adversarial attacks are concerning
  systems such as Large Language Models (LLMs) from being used for harmful purposes
  such as assisting with fraud, cyber-attacks, or terrorism. There is already some 
 initial evidence that LLMs are being used for these purposes <span
-class="citation" data-cites="Malicious">[50]</span>. 
+class="citation" data-cites="Malicious">[14]</span>. 
 Developers may therefore train their AI systems to reject requests to support with
  these types of activities. However, there are many examples of adversarial attacks
  that can bypass the guardrails of current AI systems such as large language models. 
@@ -663,7 +663,7 @@ decision making systems, where a trigger could lead an AI system to carry out a 
  pretraining of AI systems. The insertion of backdoors through data poisoning becomes increasingly easy as AI systems are trained on enormous datasets scraped directly from the Internet with
  only limited filtering or curation. There is evidence that even a relatively small number of data points can be sufficient to poison a model - simply by uploading a few carefully designed 
 images, code snippets or sentences to online platforms, adversaries can inject a backdoor into future models that are trained used data scraped from these websites <span
-class="citation" data-cites="carlini2023poisoning">[51]</span>.
+class="citation" data-cites="carlini2023poisoning">[15]</span>.
  Models that are derived from the original poisoned model might inherit this backdoor, leading to a proliferation of backdoors to multiple models.
 
 <p>Trojan detection research aims to improve our ability to detect Trojans or other hidden functionality within ML models. In this research, models are poisoned with a Trojan attack by one
@@ -673,9 +673,9 @@ inadvertently using poisoned data.
 
 <p><strong>Attackers can extract private data or model weights from AI systems.</strong> Models may be trained on private data or on large datasets scraped from the internet that include 
 private information about individuals. It has been demonstrated that attacks can recover individual examples of training data from a language model <span
-class="citation" data-cites="carlini2020trainingdata">[52]</span>. This 
+class="citation" data-cites="carlini2020trainingdata">[16]</span>. This 
 can be conducted on a large scale, extracting gigabytes of potentially confidential data from language models like ChatGPT <span
-class="citation" data-cites="nasr2023scalable">[53]</span>. Even if models are not publicly available
+class="citation" data-cites="nasr2023scalable">[17]</span>. Even if models are not publicly available
  to download and can only be accessed via a query interface or API, it is also possible to exfiltrate part or all of the model weights by making queries to its API, allow its functionality 
 to be replicated. Adversaries might be able to steal a model or its training data in order to use this for malicious purposes.
 
