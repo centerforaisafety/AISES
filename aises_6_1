@@ -62,15 +62,15 @@ of AI might have on the economy and society, how economic forces are
 shaping AI development, and why letting the economic engine create AIs
 without substantial regulation might not be a good idea.</p></li>
 
-<p><strong>Machine ethics.</strong> While all of these proposals seem to capture important values, we argue that they face important limitations and are not sufficient on their 
-own to ensure beneficial outcomes. We consider what it would mean to create AI systems that aim directly to improve human wellbeing. This provides a case study in thinking about 
+<p><strong>Machine ethics.</strong> While all of these proposals seem to capture important intuitions about what we value, we argue that they face significant limitations and are not sufficient on their own to ensure beneficial outcomes.
+ We consider what it would mean to create AI systems that aim directly to improve human wellbeing. This provides a case study in thinking about 
 how we can create AI systems that can respond appropriately to moral considerations, an emerging field known as machine ethics. While this is a highly ambitious goal, we believe 
-it is likely to become increasingly relevant in coming years. As AI capabilities improve, they may be operating in an increasing level of autonomy and a broadening scope of 
+it is likely to become increasingly relevant in coming years. As AI capabilities improve, they may be operating with an increasing level of autonomy and a broadening scope of 
 potential actions they could take. In this context, approaches based only on compliance with the law or profit maximisation are likely to prove increasingly inadequate in providing
  sufficient guardrails on AI systems' behaviour. To specify in greater detail how they should react in a particular situation, AI systems will need to be able to identify and respond
  appropriately to the relevant values at stake, such as human wellbeing.</p>
 
-<p><strong>Wellbeing.</strong> If we are set wellbeing or other values as goals for AI systems, one fundamental question that faces us is how we should specify these values. In the second
+<p><strong>Wellbeing.</strong> If we are to set wellbeing or other values as goals for AI systems, one fundamental question that faces us is how we should specify these values. In the second
  part of this chapter, we consider various interpretations of wellbeing and how attractive it would be to have AI systems pursue these, assuming that they became capable enough to do this. 
 We start by introducing several competing theories of wellbeing, which might present different goals for ethical AI systems. We examine theories of wellbeing that focus on pleasure, objective
  goods, and preference satisfaction. We then explore preference satisfaction in more detail and consider what kind of preferences AI systems should satisfy. AI systems can be created to satisfy
@@ -79,7 +79,7 @@ turn to considering whether AI systems should aim to make people happy and how w
  not just for an individual, but across the whole of society. We look at how to aggregate total wellbeing across society, focusing on social welfare functions. We discuss what social welfare 
 functions are and how to trade-off between equity and efficiency in a principled way.</p>
 
-<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain over what the right response is in particular situation due to conflicting moral considerations. 
+<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain over what the right response is to a particular situation due to conflicting moral considerations. 
 We consider how AI systems might respond to such situations. In the case of AI systems, we may deliberately want to introduce uncertainty into their reasoning to avoid over-confident 
-decisions that could be disastrous from some moral perspectives. One option to address moral uncertainty is using a moral parliament, where ethical decisions regarding AI systems are 
+decisions that could be disastrous from some moral perspectives. One option to address moral uncertainty is using a moral parliament, where ethical decisions are 
 made by simulating democratic processes.</p>
