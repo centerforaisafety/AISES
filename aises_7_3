@@ -13,23 +13,22 @@ relationships, and much more. Humans perform community services,
 negotiate international peace agreements, and coordinate aid for
 disaster responses. Our very societies are built around
 cooperation.<p>
-Cooperation between AI stakeholders may be vital for counteracting the
+<strong>Cooperation between AI stakeholders</strong> Mechanisms that can enable cooperation between the corporations developing AI and other stakeholders such as governments may be vital for counteracting the
 competitive and evolutionary pressures of AI races we have explored in
 this chapter. For example, the “merge-and-assist” clause of OpenAI’s
 charter <span class="citation"
 data-cites="openAImerge-assist">[1]</span> outlines their commitment to
 cease competition with—and provide assistance to—any “value-aligned,
 safety-conscious” AI developer who appears close to producing AGI, in
-order to reduce the risk of eroding safety precautions. Cooperation
-between AI agents is also necessary for reducing some of the multi-agent
-risks we have looked at: we want AIs to cooperate, rather than defect,
-in Prisoner’s Dilemma scenarios.<p>
-However, ensuring cooperative behavior from all parties may not be a total 
-solution to the collective action problems we have examined in this chapter. 
-By more closely examining how cooperative relationships can come about, it is 
-possible to see how making AI systems more cooperative may backfire with serious
- consequences for AI safety. Instead, we need a more nuanced view of the potential
- benefits and risks of promoting cooperation in AI systems. To do this, we study seven different
+order to reduce the risk of eroding safety precautions. 
+<p>
+<strong>Cooperation between AI agents</strong> Many also suggest that we must ensure the AI 
+systems themselves also act cooperatively with one another. Certainly, we do want AIs to cooperate, 
+rather than to defect, in Prisoner's Dilemma scenarios. However, this may not be a total solution
+ to the collective action problems we have examined in this chapter. By more closely examining how 
+cooperative relationships can come about, it is possible to see how making AIs more cooperative may
+ backfire with serious consequences for AI safety. Instead, we need a more nuanced view of the potential
+ benefits and risks of promoting cooperation between AIs. To do this, we study seven different
 mechanisms by which cooperation may arise in multi-agent systems <span
 class="citation" data-cites="nowak2006five">[2]</span>, considering the ramifications of each:</p>
 <ul>
@@ -147,9 +146,8 @@ since providing this favor would be costly to the given AI, it will do
 so only when the probability of meeting the recipient AIs (those that
 received the favor) outweighs the cost-benefit ratio of the favor
 itself.</p>
-<p><strong>Direct reciprocity can backfire: AIs may disfavor cooperation
-with humans.</strong> AIs may favor cooperation with other AIs over
-humans. As AIs become substantially more capable and efficient than
+<p><strong>Direct reciprocity can backfire: AIs may favor cooperation with other AIs over
+humans.</strong> As AIs become substantially more capable and efficient than
 humans, the benefit of interacting with humans may decrease. It may take
 a human several hours to reciprocate a favor provided by an AI, whereas
 it may take an AI only seconds to do so. It may therefore become
@@ -305,7 +303,7 @@ extort humans in order to better pursue their objectives. For instance,
 an AI might threaten to expose the sensitive, personal information it
 has accessed about a human target unless specific demands are met.</p>
 <p><strong>Indirect reciprocity can backfire: ruthless reputations may
-also work.</strong> Indirect reciprocity can also favor the emergence of
+also work.</strong> Indirect reciprocity may not always favor cooperative behavior: it can also promote the emergence of
 “ruthless” reputations. A reputation for ruthlessness can sometimes be
 extremely successful in motivating compliance through fear. For
 instance, in military contexts, projecting a reputation for ruthlessness
@@ -377,17 +375,7 @@ Such behaviors can help groups of chimpanzees secure competitive
 advantages over other groups of chimpanzees, by either reducing their
 abilities to mate successfully through infanticide, or by securing
 larger portions of available territory.</p>
-<p><strong>Group selection in human society.</strong> Among humans,
-warfare is a salient example of group selection. Imagine two armies: A
-and B. The majority of soldiers in army A are brave, while the majority
-of soldiers in army B are cowardly. For soldiers in army A, bravery may
-be individually costly, since brave soldiers are more willing to risk
-losing their lives on the battlefield. For soldiers in army B, cowardice
-may be individually beneficial, since cowardly soldiers will take fewer
-life-threatening risks on the battlefield. However, at the group-level,
-when these two armies conflict, army A will defeat army B: brave
-soldiers will be more willing to fight alongside each other for victory,
-while cowardly soldiers will not.</p>
+<p><strong>Group selection in human society.</strong> Among humans, we can imagine a crude of group selection example using warfare. Imagine two armies: A and B. The majority of soldiers in army A are brave, while the majority of soldiers in army B are cowardly. For soldiers in army A, bravery may be individually costly, since brave soldiers are more willing to risk losing their lives on the battlefield. For soldiers in army B, cowardice may be individually beneficial, since cowardly soldiers will take fewer life-threatening risks on the battlefield. In a conflict, group selection will favor army A over army B, since brave soldiers will be more willing to fight alongside each other for victory, while cowardly soldiers will not.</p>
 <p><strong>Group selection in AIs.</strong> Consider a future in which
 the majority of human labor has been fully automated by AIs, such that
 AIs are now running most companies. Under these circumstances, AIs may
@@ -467,7 +455,7 @@ reproductive queen and non-reproductive workers. The workers are sterile
 but still assist in tasks such as foraging, nest building, and
 protecting the colony. This behavior benefits the queen’s offspring,
 which are their siblings, and enhances the colony’s overall survival
-capabilities. Alternatively, some bird species engage in cooperative
+capabilities. As another example, some bird species engage in cooperative
 breeding practices where older offspring delay breeding to help parents
 raise their siblings.</p>
 <p><strong>Kin selection in human society.</strong> Some evolutionary
@@ -476,13 +464,13 @@ commonplace traditions and activities. For example, in humans, we might
 identify the mechanism of kin selection in the way that we treat our
 immediate relatives. For instance, people often leave wealth, property,
 and other resources to direct relatives upon their deaths. Leaving
-behind an inheritance offers no direct benefit to individuals, but it
+behind an inheritance offers no direct benefit to the deceased, but it
 does help ensure the survival and success of their lineage in subsequent
 generations. Similarly, grandparents often care for their grandchildren,
 which increases the probability that their lineages will persist.</p>
 <p><strong>Kin selection in AIs.</strong> AIs that are similar could
 exhibit cooperative tendencies towards each other, similar to genetic
-relatedness in biological systems. For instance, AIs may create back ups
+relatedness in biological systems. For instance, AIs may create back-ups
 or variants of themselves. They may then favor cooperation with these
 versions of themselves over other AIs or humans. Variant AIs may
 prioritize resource allocation and sharing among themselves, developing
@@ -502,7 +490,7 @@ the long-run. Similarly, parents often protect their children from the
 law, especially when they have committed serious criminal acts that can
 result in extended jail time. Such tendencies could apply to AIs as
 well: AIs might favor cooperation only with other similar AIs. This
-could be especially troubling for humans –— as the differences between
+could be especially troubling for humans: as the differences between
 humans and AIs increase, AIs may be increasingly less inclined to
 cooperate with humans.</p>
 
@@ -690,7 +678,7 @@ reward cooperation and punish defection. We define an
 <strong>institution</strong> as an intentionally designed large-scale
 structure that is publicly accepted and recognized, has a centralized
 logic, and serves to mediate human interaction. Some examples of
-institutions include governments, the UN, IAEA, and so on; in this
+institutions include governments, the UN, IAEA, and so on. In this
 section, by “institutions,” we do not mean widespread or standardized
 social customs such as the “institution” of marriage. Institutions
 typically aim to establish collective goals which require collaboration
