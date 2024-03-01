@@ -945,48 +945,57 @@ against human interests. Structural conditions and the need for
 self-preservation can potentially make power-seeking rational for some
 advanced AI agents.</p>
 
-<h2 id="sec:representation-control-and-machine-unlearning">3.4.9 Representation Control and Machine Unlearning</h2>
+<h2 id="sec:techniques-to-control-ai">3.4.9 Techniques to Control AI Systems</h2>
 
-<p><strong>A control panel of AI operation.</strong> Representation engineering, introduced above in section 3.2, 
-provides techniques to identify at a high level which parts of models are involved in representing certain concepts and behaviours. 
-The result of representation reading could be a control panel of the most important indicators of model processing. Operators could
- detect anomalous model behavior by monitoring for unusual or concerning combinations of indicators. Though this research area is relatively new, its techniques show early promise. </p>
+<p>Even if a model has the capability to do something, it may not have the propensity to do this. One way of breaking down the challenge of controlling AI systems is to distinguish 
+the techniques that enable us to influence a model's propensities to produce certain types of outputs, and the values that shape what these outputs are. This section focuses primarily
+on the first topic, while the second one is discussed in more detail in the Beneficial AI and Machine Ethics chapter.
 
-<p> With <em>representation control</em>, we can also use the outputs from
-representation reading (such as differences in activations in response
-to contrasting prompts) to adjust a model’s representation. For example,
-we could use this to delete unintended knowledge or skills from a
-network <span class="citation"
-data-cites="belrose2023leace">[21]</span>. As another example, we can
-use representation control to control whether an AI lies or is honest
-<span class="citation" data-cites="burns2022discovering">[22]</span>.
-Although it relies on representation reading techniques, representation
-control is not an area of transparency since its goal is control and not
-a general understanding of neural networks’ inner workings.</p>
+<p><strong>Control of AIs' propensities is commonly based on comparison of outputs.</strong> Reinforcement learning is a set of approaches to machine learning that allow AI systems
+to learn how to explore different possible actions to attain as much reward as possible. The most prominent techniques used for current language models are Reinforcement Learning 
+from Human Feedback (RLHF) <span
+class="citation" data-cites="Ouyang2022TrainingLM">[18]</span> and Direct Preference Optimization (DPO) <span
+class="citation" data-cites="rafailov2023dpo">[19]</span>. These techniques involve collecting a dataset of 
+comparisons of responses from a language model. These comparisons indicate which responses were preferred by human users or AIs. A large dataset of these comparisons can be collected
+after the model's initial pre-training on a large text dataset. In RLHF, a reward model is fitted to this the dataset of comparisons and is then used to train the language model to 
+produce responses that get high reward from this reward model model. Direct Preference Optimization is intended to simplify this pipeline and directly train the model to produce outputs
+that best fit the preferences in the dataset, without using reinforcement learning. RLHF and DPO have received a large amount of attention from commercial AI developers to make their 
+products more economically valuable.
 
-<p><strong>Machine unlearning is a promising technique to reduce hazards posed by AI systems.</strong> Machine unlearning refers to a set of approaches
- that aim to remove certain types of knowledge from an AI system. This was originally discussed in the context of privacy concerns and removing personal
- information that may have been included in training datasets. However, other types of unlearning techniques are highly relevant in the context of AI 
-misuse or rogue AI systems. With effective unlearning techniques, we may be able to remove specific capabilities from AI systems so that they are not 
-able to support these actors with planning terrorist acts or other kinds of severe misuse. For example, by removing certain types of virology knowledge
- from AI systems, we could make these systems less useful to anyone interested in creating bioweapons. As previously discussed in section 1.2, 
-one of ways that AI systems could lead to societal-scale catastrophes is by enabling a much wider range of people to carry out catastrophic acts of 
-terrorism such as unleashing a bio-engineered pandemic. More speculatively, we might be able to reduce the likelihood and potential danger posed by 
-deceptive or power-seeking AI systems by removing certain types of knowledge about their environment or mode of operation.</p>
+<p><strong>Output-based control vs. internal control.</strong> We can control AI systems' propensities by rewarding outputs or by shaping their internals directly. Techniques such as 
+RLHF and DPO are applied to an existing pre-trained model in order to shape its propensities. However, these techniques mostly do not change the model's underlying capabilities or 
+knowledge, which are acquired from their pre-training data. RLHF and DPO can be thought of as a form of control applied to shape the model's responses in order to make them more 
+helpful, without any fundamental changes to the representations that a model contains. Other techniques such as representation control and machine unlearning 
+aim to control or remove some internal representations in order to influence its behavior.
 
-<p>Unlearning is only one of a variety of tools available to AI developers looking to restrict misuse of their systems. However, it presents some 
-advantages over other approaches: machine unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, 
-or training the model to reject malicious requests in a way that is robust to later fine-tuning or other alterations. Unlearning could make it easier
- for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users lack the know-how to support certain 
-types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
- However, the sub-field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on 
-limited fine-tuning data, this would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be 
-removed without significantly degrading the model's general usefulness for many innocuous tasks.</p>
+<p><strong>Representation control.</strong> With representation control, we can adjust a model's representation, for example using differences in activations in response to contrasting
+prompts to identify relevant parts of a model to be targeted. We could use this to delete unintended knowledge or skills from a network <span
+class="citation" data-cites="li2024wmdp">[20]</span>. As another example, we can use 
+representation control to control whether an AI lies or is honest <span
+class="citation" data-cites="zou2023repe">[21]</span>. Though this research area is relatively new, its techniques show early promise.
 
-<p><strong>Conclusion.</strong> Deceptive or power-seeking AI systems could pose severe challenges to our ability to control AI systems. In order to pre-empt 
-these risks, we need to develop better tools that enable us to identify evidence of deceptive or power-seeking tendencies in AI systems and to remove or control
-these. Representation control and machine unlearning are emerging areas of research that show promise for tackling these challenges. There are many open questions
- to be explored in seeing how far these and other techniques can be applied in order to ensure that AI systems can be understood and controlled.</p>
+<p><strong>Machine unlearning is a promising way to reduce hazards posed by AI systems.</strong> Machine unlearning refers to a set of techniques that aim to remove certain types of knowledge
+from an AI system. This was originally discussed in the context of privacy concerns and removing personal information that may have been included in training datasets. However, other types
+of unlearning techniques are highly relevant in the context of AI misuse or rogue AI systems. With effective unlearning techniques, we may be able to remove specific capabilities from AI 
+systems so that they are not able to support these actors with planning terrorist acts or other kinds of severe misuse. For example, by removing certain types of virology knowledge from 
+AI systems, we could make these systems less useful to anyone interested in creating bioweapons <span
+class="citation" data-cites="li2024wmdp">[20]</span>. As previously discussed in 1.2, one of ways that AI 
+systems could lead to societal-scale catastrophes is by enabling a much wider range of people to carry out catastrophic acts of terrorism such as unleashing a bio-engineered pandemic. 
+More speculatively, we might be able to reduce the likelihood and potential danger posed by deceptive or power-seeking AI systems by removing certain types of knowledge about their 
+environment or mode of operation.
+
+<p>Unlearning is only one of a variety of tools available to AI developers looking to restrict misuse of their systems. However, it presents some advantages over other approaches: machine
+unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, or training the model to reject malicious requests in a way that is robust to 
+later fine-tuning or other alterations. Unlearning could make it easier for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users 
+lack the know-how to support certain types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
+However, the sub-field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on limited fine-tuning data, this
+would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be removed without significantly degrading the model's general 
+usefulness for many innocuous tasks.
+
+<p><strong>Conclusion.</strong> Deceptive or power-seeking AI systems could pose severe challenges to our ability to control AI systems. In order to pre-empt these risks, we need to develop
+better tools that enable us to identify evidence of deceptive or power-seeking tendencies in AI systems and to remove or control these. Representation control and machine unlearning are 
+emerging areas of research that show promise for tackling these challenges. There are many open questions to be explored in seeing how far these and other techniques can be applied in order
+to ensure that AI systems can be understood and controlled.
 
 <br>
 <br>
@@ -1189,5 +1198,17 @@ href="https://doi.org/10.1162/isec.2006.31.2.151">10.1162/isec.2006.31.2.151</a>
 <div class="csl-left-margin">[17] J.
 Carlsmith, <span>“Is power-seeking AI an existential risk?”</span>
 <em>ArXiv preprint arXiv: 2206.13353</em>, 2022.</div>
+</div>
+<div id="ref-ouyang2022training" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
+<em>ArXiv preprint arXiv: 2203.02155</em>, 2022.</div>
+</div>
+<div id="ref-rafailov2023direct" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
+<em>ArXiv preprint arXiv: 2203.02155</em>, 2022.</div>
+</div>
+<div id="ref-li2024wmdp" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] Rafael Rafailov et al., <span>“Direct Preference Optimization: Your Language Model is Secretly a Reward Model”</span>
+<em>ArXiv preprint arXiv: 2305.18290</em>, 2023.</div>
 </div>
 </div>
