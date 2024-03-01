@@ -1,3 +1,30 @@
+<style type="text/css">
+    table.tableLayout{
+        margin: auto;
+        border: 1px solid;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        caption-side: bottom;
+    }
+
+    table.tableLayout tr{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table.tableLayout th{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+
+    table.tableLayout td{
+        border: 1px solid;
+        padding: 5px;
+    }
+</style>
+
 <h2 id="cooperation">7.3 Cooperation</h2>
 <h2 id="overview"> 7.3.1 Overview</h2>
 
