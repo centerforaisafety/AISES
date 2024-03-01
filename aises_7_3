@@ -1,5 +1,5 @@
 <h2 id="cooperation">7.3 Cooperation</h2>
-<h3 id="overview"> Overview</h3>
+<h2 id="overview"> 7.3.1 Overview</h2>
 
 <p>In this chapter, we have been exploring the risks that arise from interactions between multiple agents. So far, we have used game theory to understand how 
 collective behavior can produce undesirable outcomes. In simple terms, securing morally good outcomes without cooperation can be extremely difficult, even for 
@@ -47,7 +47,7 @@ imposed incentives (such as laws) that subsidize cooperation and punish
 defection, individuals and groups are more likely to cooperate.</p></li>
 </ul>
 
-<h3 id="direct-reciprocity">Direct Reciprocity</h3>
+<h2 id="direct-reciprocity"> 7.3.2 Direct Reciprocity</h2>
 <p><strong>Direct reciprocity overview.</strong> One way agents may
 cooperate is through <em>direct reciprocity</em>: when one agent
 performs a favor for another because they expect the recipient to return
@@ -196,7 +196,7 @@ AIs. Even though the global community would all be better off if all
 states were to cooperate and act together to constrain AIs, individual
 states may benefit from defecting. As before, each defection would shift
 the balance of power, motivating others to defect in turn.</p>
-<h3 id="indirect-reciprocity">Indirect Reciprocity</h3>
+<h2 id="indirect-reciprocity">7.3.3 Indirect Reciprocity</h2>
 <p><strong>Indirect reciprocity overview.</strong> When someone judges
 whether to provide a favor to someone else, they may consider the
 recipient’s reputation. If the recipient is known to be generous, this
@@ -312,7 +312,7 @@ hesitation, they may be less likely to challenge or provoke them. Some
 AIs might similarly evolve ruthless reputations, perhaps as a defensive
 strategy to discourage potential attempts at exploitation, or control by
 others.</p>
-<h3 id="group-selection">Group Selection</h3>
+<h2 id="group-selection">7.3.4 Group Selection</h2>
 <p><strong>Group selection overview.</strong> When there is competition
 between groups, groups with more cooperators may outcompete those with
 fewer cooperators. Under such conditions, selection at the group level
@@ -397,7 +397,7 @@ may attempt to preserve it by mistreating, exploiting, or marginalizing
 outgroups such as people with different political or ideological
 beliefs. AIs may be more likely to see other AIs as part of their group,
 and this could promote antagonism between AIs and humans.</p>
-<h3 id="kin-selection">Kin Selection</h3>
+<h2 id="kin-selection">7.3.5 Kin Selection</h2>
 <p><strong>Kin selection overview.</strong> When driven by <em>kin
 selection</em>, agents are more likely to cooperate with others with
 whom they share a higher degree of genetic relatedness <span
@@ -670,7 +670,7 @@ we explored four examples of cooperation problems, and how the solutions
 to them discovered by natural selection may have produced our moral
 values.</p>
 </div>
-<h3 id="institutions">Institutions</h3>
+<h2 id="institutions">7.3.6 Institutions</h2>
 <p><strong>Institutions overview.</strong> Agents are more likely to be
 cooperative when there are laws or externally imposed incentives that
 reward cooperation and punish defection. We define an
