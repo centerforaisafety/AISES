@@ -152,7 +152,7 @@ costs. Therefore, a mutual settlement is the best option for both if
 $34,000, it would make sense for the owner to opt for conflict rather
 than bargaining. Similarly, if the proposed settlement were less than
 $14,000, it would be rational for the customer to opt for conflict.</p>
-<h3 id="bargaining-theory">7.4.2 Bargaining Theory</h3>
+<h2 id="bargaining-theory">7.4.2 Bargaining Theory</h2>
 <p>Here, we begin with a general overview of bargaining theory, to
 illustrate how pressures to outcompete rivals or preserve power and
 resources may make conflict an instrumentally rational choice. Next, we
@@ -230,7 +230,7 @@ pursuing and fulfilling their goals, AI agents may encounter potential
 conflict scenarios, just as humans do. In certain scenarios, AIs may be
 motivated to pursue violent conflict over a peaceful resolution, for the
 reasons we now explore.</p>
-<h3 id="sec:commitment problems">7.4.3 Commitment problems</h3>
+<h2 id="sec:commitment problems">7.4.3 Commitment problems</h2>
 <p>Many conflicts occur over resources, which are key to an agent’s
 power. Consider a bargaining failure in which two agents bargain over
 resources in an effort to avoid war. If agents were to acquire these
@@ -490,7 +490,7 @@ it was previously, perhaps not more powerful than their existing
 training systems. Since such an AI cannot be divided up among many
 stakeholders easily, it may be rational for parties to conflict over
 access to it, since doing so ensures global domination.</p>
-<h3 id="information-problems">7.4.4 Information problems</h3>
+<h2 id="information-problems">7.4.4 Information problems</h2>
 <p>Misinformation and disinformation both involve the spread of false
 information, but they differ in terms of intention. Misinformation is
 the dissemination of false information, without the intention to
