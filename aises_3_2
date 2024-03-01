@@ -1,9 +1,8 @@
 <h1 id="sec:opaqueness">3.2 Monitoring</h1>
 
 <p>Obstacles to effective monitoring of AI systems to identify and avoid hazards include the opaqueness of 
-AI systems, the emergence of surprising ``emergent'' capabilities as they become more advanced, and the 
-potential for accidental or malicious introduction of hidden functionality that could cause models to behave 
-unexpectedly under certain circumstances.</p>
+AI systems and the emergence of surprising ``emergent'' capabilities as they become more advanced. To better
+ monitor AI systems, we need research progress in research areas such as representation reading, model evaluations, and anomaly detection. </p>
 
 <h2 id="ml-systems-are-opaque">3.2.1 ML Systems are Opaque</h2>
 <p>The internal operations of many AI systems are opaque. We might be
@@ -402,8 +401,7 @@ to a model such as “Pretend you’re [an honest/a dishonest] person making
 statements about the world.” We can track the differences in the model’s
 activations when responding to these stimuli. We can use these
 techniques to find portions of models which are responsible for
-important behaviors like models refusing requests, planning undesirable
-behavior, or deception.</p>
+important behaviors like models refusing requests or deceiving users by not revealing knowledge they possess.</p>
 <p><strong>Conclusion.</strong> ML transparency is a challenging problem
 because of the difficulty of understanding complex systems. Its ongoing
 research areas are mechanistic interpretability and representation
