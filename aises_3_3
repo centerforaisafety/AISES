@@ -648,7 +648,38 @@ Developers may therefore train their AI systems to reject requests to support wi
 This is a serious obstacle to preventing the misuse of AI systems for malicious and 
 harmful purposes (see section 1.2 for further discussion of these risks). 
 
-<h2 id="tail-risk-ai-evaluator-gaming">3.3.4 Tail Risk: AI Evaluator
+<h2 id="trojans-and-other-attacks">3.3.4 Trojan Attacks and Other Security Threats</h2>
+
+<p><strong>AI systems are vulnerable to a range of attacks beyond adversarial examples.</strong> Data poisoning and backdoors allow adversaries to manipulate models and implant hidden 
+functionality. Attackers may also be able to maliciously extract training data or exfiltrate a model's weights.
+
+<p><strong>Models may contain hidden ``backdoors'' or ``Trojans''.</strong> Deep learning models are known to be vulnerable to Trojan attacks. A ``Trojaned'' model will behave just as a normal
+ model would behave in almost all circumstances. In a very small number of circumstances, however, it will behave very differently. For example, a facial recognition system used to control 
+access to a building might operate normally in almost all circumstances, but have a backdoor that could be triggered by a specific item of clothing chosen by the adversary. An adversary 
+wearing this clothing would be allowed to enter the building by the facial recognition system. Backdoors could present particularly serious vulnerabilities in the context of sequential 
+decision making systems, where a trigger could lead an AI system to carry out a coherent and harmful series of actions. 
+
+<p>Backdoors are created by adversaries during the training process, either by directly inserting it into a model's weights, or by adding poisoned data into the datasets used for training or
+ pretraining of AI systems. The insertion of backdoors through data poisoning becomes increasingly easy as AI systems are trained on enormous datasets scraped directly from the Internet with
+ only limited filtering or curation. There is evidence that even a relatively small number of data points can be sufficient to poison a model - simply by uploading a few carefully designed 
+images, code snippets or sentences to online platforms, adversaries can inject a backdoor into future models that are trained used data scraped from these websites <span
+class="citation" data-cites="carlini2023poisoning">[51]</span>.
+ Models that are derived from the original poisoned model might inherit this backdoor, leading to a proliferation of backdoors to multiple models.
+
+<p>Trojan detection research aims to improve our ability to detect Trojans or other hidden functionality within ML models. In this research, models are poisoned with a Trojan attack by one
+ researcher. Another researcher then tries to detect Trojans in the neural network, perhaps with transparency tools or other neural networks. Typical techniques involve looking at the model’s
+ internal weights and identifying unusual patterns or behaviors that are only present in Trojan models. Better methods to curate and inspect training data could also reduce the risk of 
+inadvertently using poisoned data. 
+
+<p><strong>Attackers can extract private data or model weights from AI systems.</strong> Models may be trained on private data or on large datasets scraped from the internet that include 
+private information about individuals. It has been demonstrated that attacks can recover individual examples of training data from a language model <span
+class="citation" data-cites="carlini2020trainingdata">[52]</span>. This 
+can be conducted on a large scale, extracting gigabytes of potentially confidential data from language models like ChatGPT <span
+class="citation" data-cites="nasr2023scalable">[53]</span>. Even if models are not publicly available
+ to download and can only be accessed via a query interface or API, it is also possible to exfiltrate part or all of the model weights by making queries to its API, allow its functionality 
+to be replicated. Adversaries might be able to steal a model or its training data in order to use this for malicious purposes.
+
+<h2 id="tail-risk-ai-evaluator-gaming">3.3.5 Tail Risk: AI Evaluator
 Gaming</h2>
 <p><strong>AI evaluators must be robust to proxy gaming and adversarial
 examples.</strong> As the world becomes more and more automated, humans
@@ -688,9 +719,8 @@ we cannot guarantee that the successor systems are safe and subject to
 human control. Simply increasing the number of evaluators may not be
 enough to detect and prevent more subtle kinds of attacks.</p>
 <h3 id="conclusion">Conclusion</h3>
-<p>In this section, we explored the role of proxies in ML, the
-associated risks of proxy gaming and adversarial examples, and their
-causes.</p>
+<p>In this section, we explored the role of proxies in ML and the associated risks of proxy gaming. We discussed other challenges to the robustness and security of AI systems, 
+such as data poisoning and Trojan attacks, or extraction of model weights and training data.</p>
 <p><strong>Optimisers can exploit proxy goals, leading to unintended
 outcomes.</strong> We began by looking at the need for quantitative
 proxies to stand in for our idealized goals when training AI systems. By
@@ -823,6 +853,13 @@ J. Goodfellow, J. Shlens, and C. Szegedy, <span>“Explaining and
 Athalye, L. Engstrom, A. Ilyas, and K. Kwok, <span>“Fooling <span>Neural
 Networks</span> in the <span>Physical World</span>,”</span>
 <em>labsix</em>. Oct. 2017.</div>
+</div>
+<div id="ref-zou2023universal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] A.
+Zou, Z. Wang, J. Z. Kolter, and M. Fredrikson, <span>“Universal and
+<span>Transferable Adversarial Attacks</span> on <span>Aligned Language
+Models</span>.”</span> <span>arXiv</span>, Jul. 2023. doi: <a
+href="https://doi.org/10.48550/arXiv.2307.15043">10.48550/arXiv.2307.15043</a>.</div>
 </div>
 <div id="ref-zou2023universal" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[13] A.
