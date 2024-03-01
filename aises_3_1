@@ -17,8 +17,8 @@ We then pivot to the topic of control of AI systems. We start by exploring the i
  varied forms of deception (including those already observed in existing AI systems), and analyze the risks involved
  in AI systems deceiving human and AI evaluators. We also explore the possible conditions that could give rise to power-seeking
  agents and the ways in which this could lead to particularly harmful risks. We discuss some techniques that have potential to 
-help with making AI systems more controllable and reducing the inherent hazards they may pose through representation control and
- unlearning specific capabilities or knowledge.<p>
+help with making AI systems more controllable and reducing the inherent hazards they may pose, including representation control and
+ unlearning specific capabilities.<p>
 Beyond making individual AIs more safe, we discuss how AI research can contribute to systemic safety by influencing the context 
 within which ML systems are used and reducing the risk that ML systems fail or are misused. AI can be used to create or improve 
 tools to defend against risks from AI. For example, AI can be applied to reduce risks from pandemic diseases, cyber-attacks or disinformation.<p>
