@@ -817,8 +817,8 @@ species scales with the three-quarters power of its body mass.</p>
 <p><span class="math display">$$R \propto M^\frac{3}{4}$$</span></p>
 <p>If we know that an elephant is five times heavier than a horse, we
 can guess that the elephant’s metabolic rate will be approximately 3.3
-times the horse’s (since <span class="math inline">$$5^\frac34 \approx
-3.3$$</span>). There are several other documented cases of this power-law
+times the horse’s: <span class="math inline">$$5^\frac34 \approx
+3.3$$</span>. There are several other documented cases of this power-law
 scaling behavior in complex systems. The average heart-rate for a
 typical member of a mammalian species scales with the minus one-quarter
 power of its body mass: <span class="math display">$$R \propto
