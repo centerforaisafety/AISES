@@ -403,11 +403,10 @@ activations when responding to these stimuli. We can use these
 techniques to find portions of models which are responsible for
 important behaviors like models refusing requests or deceiving users by not revealing knowledge they possess.</p>
 <p><strong>Conclusion.</strong> ML transparency is a challenging problem
-because of the difficulty of understanding complex systems. Its ongoing
-research areas are mechanistic interpretability and representation
-reading, the latter of which does not aim to make neural networks fully
-understood but aims to gain useful internal knowledge from a model’s
-representations.</p>
+because of the difficulty of understanding complex systems. Major ongoing research areas 
+include mechanistic interpretability and representation reading, the latter of which 
+does not aim to make neural networks fully understood from the bottom up, but aims 
+to gain useful internal knowledge from a model’s representations.</p>
 
 <h2 id="sec:emergence">3.2.4 Emergent Capabilities</h2>
 <p>We cannot predict all the properties of more advanced AI systems just
