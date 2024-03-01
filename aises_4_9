@@ -144,7 +144,7 @@ paraphrasing Richard Danzig, you should not ``need evidence'' that a gun is load
 data-cites="danzig2018technology">[5]</span>. Instead, you should need evidence of safety. In situations where we are subject to the possibility 
 of tail events and black swans, this evidence might be impossible to find.</p>
 
-<p>One element of good decision making is to exercise more caution than we would under thin-tailed scenarios. In the case of new technologies such 
+<p>One element of good decision making when dealing with long-tailed scenarios is to exercise more caution than we would otherwise. In the case of new technologies such 
 as AI systems, this might mean not prematurely deploying them on a large scale. In some situations, we can be extremely wrong and things can still 
 end up being fine; in others, we can be just slightly wrong but suffer disastrous consequences. We must also be cautious while trying to solve our problems. 
 For example, while climate change poses a serious threat, many experts believe it would be unwise to attempt to fix it quickly by rushing into geoengineering 
