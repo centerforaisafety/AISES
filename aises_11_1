@@ -56,7 +56,7 @@ utility function as opposed to just an explicit ranking of goods is that
 we can directly infer information about more complex goods. For example,
 we know <span class="math display"><em>u</em>(1 banana,5
 cherries) = 20 &gt; <em>u</em>(1 apple) = 12 &gt; <em>u</em>(1
-banana) = 10.</span> <strong>Utility functions, if accurate, reveal what
+banana) = 10.</span> <p><strong>Utility functions, if accurate, reveal what
 options agents would prefer and choose.</strong> If told to choose only
 one of the three fruits, Alice would pick the apple, since it gives her
 the most utility. Her preference follows from <em>rational choice
