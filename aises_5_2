@@ -491,14 +491,6 @@ stabilizes the number of bees going out for water, leading to a
 nonlinear relationship between the number of bees currently flying out
 for water and the number of additional bees recruited to the task.</p>
 
-</p>
-<figure id="feedback">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/ML Training Data Feedback Loop.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 5.3: There are feedback loops in the creation and deployment of AI systems. For example, the curation of training data used 
-for developing an AI system exhibits feedback loops.</p>
-<!--<figcaption>Feedback Loops in AI Training</figcaption>-->
-</figure>
-
 <p><strong>AI systems involve feedback loops.</strong> In a system where
 agents can affect the environment, but the environment can also affect
 agents, the result is a continual, circular process of change—a feedback
