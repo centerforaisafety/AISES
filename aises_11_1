@@ -551,28 +551,6 @@ functions, we can now examine the problem of incorrigibility, where AI
 systems do not accept corrective interventions because of rigid
 preferences.</p>
 
-<style>
-    .visionbox{
-    border-radius: 15px;
-    border: 2px solid #3585d4;
-    background-color: #ebf3fb;
-    text-align: left;
-    padding: 10px;
-    }
-</style>
-
-<style>
-    .visionboxlegend{
-    border-bottom-style: solid;
-    border-bottom-color: #3585d4;
-    border-bottom-width: 0px;
-    margin-left: -12px;
-    margin-right: -12px; margin-top: -13px;
-    padding: 0.01em 1em; color: #ffffff;
-    background-color: #3585d4;
-    border-radius: 15px 15px 0px 0px}
-</style>
-
 <h1 id="tail-risk-corrigibility">B.3 Tail Risk: Corrigibility</h1>
 <p><strong>Overview.</strong> In this section, we will explore how
 utility functions provide insight into whether an AI system is open to
