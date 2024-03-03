@@ -172,7 +172,7 @@ reward: call the estimates of this quality Q-values (as discussed in
 section ). By default, models like these aren’t trained with ethical
 restrictions. Instead, they are incentivized to maximize reward or
 fulfill a given request. We might want to have a layer of safety by
-ensuring that AIs avoid wanton harm—-actions that cause dramatically low
+ensuring that AIs avoid wanton harm - actions that cause dramatically low
 human wellbeing. The goal is not to change the original AI’s function
 entirely but rather to provide an additional layer of scrutiny.<p>
 </p>
@@ -253,7 +253,7 @@ The objective goods theory claims that some goods contribute to a
 person’s wellbeing whether or not they enjoy or care for that good. This
 distinguishes it from the preference satisfaction theory: something
 could be good for us, according to the objective goods theory, even if
-it does not satisfy any of our preferences—-a life devoted to our
+it does not satisfy any of our preferences - a life devoted to our
 community might be better than one spent counting blades of grass in a
 field, even if we are less happy or fewer of our preferences are
 satisfied.</p>
