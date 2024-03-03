@@ -551,6 +551,161 @@ functions, we can now examine the problem of incorrigibility, where AI
 systems do not accept corrective interventions because of rigid
 preferences.</p>
 
+<style>
+    .visionbox{
+    border-radius: 15px;
+    border: 2px solid #3585d4;
+    background-color: #ebf3fb;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .visionboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: #3585d4;
+    border-bottom-width: 0px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.01em 1em; color: #ffffff;
+    background-color: #3585d4;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
+<h1 id="tail-risk-corrigibility">B.3 Tail Risk: Corrigibility</h1>
+<p><strong>Overview.</strong> In this section, we will explore how
+utility functions provide insight into whether an AI system is open to
+corrective interventions and discuss related implications for AI risks.
+The von Neumann-Morgenstern (vNM) axioms of completeness and
+transitivity can lead to strict preferences over shutting down or being
+shut down, which affects how easily an agent can be corrected. We will
+emphasize the importance of developing corrigible AI systems that are
+responsive to human feedback and that can be safely controlled to
+prevent unwanted AI behavior.</p>
+<p><strong>Corrigibility measures our ability to correct an AI if and
+when things go wrong.</strong> An AI system is <em>corrigible</em> if it
+accepts and cooperates with corrective interventions like being shut
+down or having its utility function changed <span class="citation"
+data-cites="pacecorrigibility">[1]</span>. Without many assumptions, we
+can argue that typical rational agents will resist corrective measures:
+changing an agent’s utility function necessarily means that the agent
+will pursue goals that result in less utility relative to their current
+preferences.</p>
+<p><strong>Suppose we own an AI that fetches coffee for us every
+morning.</strong> Its utility function assigns “10 utils” to getting us
+coffee quickly, “5 utils” to getting us coffee slowly, and “0 utils” to
+not getting us coffee at all. Now, let’s say we want to change the AI’s
+objective to instead make us breakfast. A regular agent would resist
+this change, reasoning that making breakfast would mean it is less able
+to efficiently make coffee, resulting in lower utility. However, a
+corrigible AI would recognize that making breakfast could be just as
+valuable to humans as fetching coffee and would be open to the change in
+objective. The AI would move on to maximizing its new utility function.
+In general, corrigible AIs are more amenable to feedback and
+corrections, rather than stubbornly adhering to their initial goals or
+directives. When AIs are corrigible, humans can more easily correct
+rogue actions and prevent any harmful or unwanted behavior.</p>
+<p><strong>Completeness and transitivity imply that an AI has strict
+preferences over shutting down.</strong> Assume that an agent’s
+preferences satisfy the vNM axioms of completeness, such that it can
+rank all options, as well as transitivity, such that its preferences are
+consistent. For instance, the AI can see that preferring an apple to a
+banana and a banana to a cherry implies that we prefer an apple to a
+cherry. Then, we know that the agent’s utility function ranks every
+option.<p>
+Consider again the coffee-fetching AI. Suppose that in addition to
+getting us coffee quickly (10 utils), getting us coffee slowly (5
+utils), and not getting us coffee (0 utils), there is a fourth option,
+where the agent gets shut down immediately. The AI expected that
+immediate shutdown will result in its owner getting coffee slowly
+without AI assistance, which appears to be valued at 5 units of utility
+(the same as it getting us coffee slowly). The agent thus strictly
+prefers getting us coffee quickly to shutting down, and strictly prefers
+shutting down to us not having coffee at all.<p>
+Generally, unless indifferent between everything, completeness and
+transitivity imply that the AI has unspecified preferences about
+potentially shutting down <span class="citation"
+data-cites="thornley2023shutdown">[2]</span>. Without completeness, the
+agent could have no preference between shutting down immediately and all
+other actions. Without transitivity, the agent could be indifferent
+between shutting down immediately and all other possible actions without
+that implying that the agent is indifferent between all possible
+actions.</p>
+<p><strong>It is bad if an AI either increases or reduces the
+probability of immediate shutdown.</strong> Suppose that in trying to
+get us coffee quickly, the AI drives at unsafe speeds. We’d like to shut
+down the AI until we can reprogram it safely. A corrigible AI would
+recognize our intention to shut down as a signal that it is misaligned.
+However, an incorrigible AI would instead stay the course with what it
+wanted to do initially—get us coffees—since that results in the most
+utility. If possible, the AI would decrease the probability of immediate
+shutdown, say by disabling its off-switch or locking the entrance to its
+server rooms. Clearly, this would be bad.<p>
+Consider a different situation where the AI realizes that making coffee
+is actually quite difficult and that we would make coffee faster
+manually, but fails to realize that we don’t want to exert the effort to
+do so. The AI may then try to shut down, so that we’d have to make the
+coffee ourselves. Suppose we tell the AI to continue making coffee at
+its slow pace, rather than shut down. A corrigible AI would recognize
+our instruction as a signal that it is misaligned and would continue to
+make coffee. However, an incorrigible AI would instead stick with its
+decision to shut down without our permission, since shutting down
+provides it more utility. Clearly, this is also bad. We’d like to be
+able to alter AIs without facing resistance.</p>
+<p><strong>Summary.</strong> In this section, we introduced the concept
+of corrigibility in AI systems. We discussed the relevance of utility
+functions in determining corrigibility, particularly challenges that
+arise if an AI’s preferences are complete and transitive, which can lead
+to strict preferences over shutting down. We explored the potential
+problems of an AI system reducing or increasing the probability of
+immediate shutdown. The takeaway is that developing corrigible AI
+systems—systems that are responsive and adaptable to human feedback and
+changes—is essential in ensuring safe and effective control over AIs’
+behavior. Examining the properties of utility functions illuminates
+potential problems in implementing corrigibility.<p>
+</p>
+<br>
+<div class="visionbox">
+<legend class="visionboxlegend">
+<p><span><b>A Note on Utility Functions vs. Reward Functions</b></span></p>
+</legend>
+<p> Utility
+functions and reward functions are two interrelated yet distinct
+concepts in understanding agent behavior. Utility functions represent an
+agent’s preferences about states or the choice-worthiness of a state,
+while rewards functions represent externally imposed reinforcement. The
+fact that an outcome is rewarded externally does not guarantee that it
+will become part of an agent’s internal utility function.<p>
+An example where utility and reinforcement comes apart can be seen with
+Galileo Galilei. Despite the safety and societal acceptance he could
+gain by conforming to the widely accepted geocentric model, Galileo
+maintained his heliocentric view. His environment provided ample
+reinforcement to conform, yet he deemed the pursuit of scientific truth
+more choiceworthy, highlighting a clear difference between environmental
+reinforcement and the concepts of choice-worthiness or utility.<p>
+As another example, think of evolutionary processes as selecting or
+reinforcing some traits over others. If we considered taste buds as
+components that help maximize fitness, we would expect more people to
+want the taste of salads over cheeseburgers. However, it is more
+accurate to view taste buds as “adaptation executors” rather than
+“fitness maximizers,” as taste buds evolved in our ancestral environment
+where calories were scarce. This illustrates the concept that agents act
+on adaptations without necessarily adopting behavior that reliably helps
+maximize reward.<p>
+The same could be true for reinforcement learning agents. RL agents
+might execute learned behaviors without necessarily maximizing reward;
+they may form <em>decision procedures</em> that are not fully aligned
+with its reinforcement. The fact that what is rewarded is not
+necessarily what an agent thinks is choiceworthy could lead to AIs that
+are not fully aligned with externally designed rewards. The AI might not
+inherently consider reinforced behaviors as choiceworthy or of high
+utility, so its utility function may differ from the one we want it to
+have.<p>
+</p>
+</div>
+<br>
+
 <br>
 <br>
 <h3>References</h3>
@@ -584,5 +739,18 @@ Peterson, <span>“<span>The St. Petersburg Paradox</span>,”</span> in
 href="https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/"
 class="uri">https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/</a>;
 Metaphysics Research Lab, Stanford University, 2023.</div>
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-pacecorrigibility" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] Nate Soares et al., “Corrigibility.”</span> Machine Intelligence Research Institute.
+Available: <a
+href="https://intelligence.org/files/Corrigibility.pdf">Intelligence Corrigibility</a></div>
+</div>
+<div id="ref-thornley2023shutdown" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] E.
+Thornley, <span>“The shutdown problem: Two theorems, incomplete
+preferences as a solution,”</span> <em>AI Alignment Awards</em>,
+2023.</div>
 </div>
 </div>
