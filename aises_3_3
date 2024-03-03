@@ -306,8 +306,7 @@ afford to run them.</p>
 <figure>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/proxy_gaming_ex_2_v2.png"
 style="width:85.0%" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.13: An AI without depth perception might learn to appear to grasp a ball instead of actually
-grasping it.</p>
+<p class="tb-caption">Figure 3.13: A sensor without depth perception can be fooled by AIs that only appear to grasp a ball.</p>
 <!--<figcaption>Proxy gaming example - simulated claw appearing to grasp-->
 <!--ball rather than actually grasping it</figcaption>-->
 </figure>
