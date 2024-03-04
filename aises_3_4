@@ -988,8 +988,7 @@ environment or mode of operation.
 
 <p>Unlearning is only one of a variety of tools available to AI developers looking to restrict misuse of their systems. However, it presents some advantages over other approaches: machine
 unlearning does not depend on being able to control inputs or outputs of the model so as to filter these, or training the model to reject malicious requests in a way that is robust to 
-later fine-tuning or other alterations. Unlearning could make it easier for developers to ensure that AI systems that have been open-sourced or made available for fine-tuning by users 
-lack the know-how to support certain types of misuse. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
+later fine-tuning or other alterations. Unlearning can be complemented by other approaches such as filtering training data to remove data that contains hazardous knowledge.
 However, the research field of unlearning is nascent and there are open questions to be answered. If hazardous knowledge is easy for models to re-learn based on limited fine-tuning data, this
 would reduce the value of unlearning. There is also a need to identify empirically which types of hazardous knowledge can be removed without significantly degrading the model's general 
 usefulness for many innocuous tasks.
