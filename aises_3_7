@@ -146,20 +146,6 @@ before users can access their fine-tuned models, hazardous capabilities could be
         </tr>
 
         <tr>
-        <td style="text-align: center;">Systemic <br> Safety </td>
-        <td style="text-align: left;">
-            <ul>
-                <li>This theme covers a variety of topics that do not improve AI models themselves but
-help to make societies more robust against harms that AI systems might cause</li>
-                <li>Relevant research topics include deep learning for cyberdefense (e.g., deep
-learning for intrusion detection), detecting anomalous biological phenomena (e.g.,
-wastewater detection of pandemic pathogens), and proof-of-humanity mechanisms (e.g.,
-watermarks)</li>
-            </ul>
-        </td>
-        </tr>
-
-        <tr>
         <td style="text-align: center;">Machine <br> Ethics </td>
         <td style="text-align: left;">
             <ul>
@@ -173,6 +159,20 @@ as detecting situations where moral principles apply, assessing how to apply tho
 principles, evaluating the moral worth of candidate actions, selecting and carrying out
 actions appropriate for the context, monitoring the success or failure of those actions,
 and adjusting responses accordingly</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
+        <td style="text-align: center;">Systemic <br> Safety </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>This theme covers a variety of topics that do not improve AI models themselves but
+help to make societies more robust against harms that AI systems might cause</li>
+                <li>Relevant research topics include deep learning for cyberdefense (e.g., deep
+learning for intrusion detection), detecting anomalous biological phenomena (e.g.,
+wastewater detection of pandemic pathogens), and proof-of-humanity mechanisms (e.g.,
+watermarks)</li>
             </ul>
         </td>
         </tr>
