@@ -117,7 +117,7 @@ consequence of direct reciprocity when the probability, <span
 class="math inline"><em>w</em></span>, of subsequent encounters between
 the same two individuals is greater than the cost-benefit ratio of the
 helpful act. In other words, if agent A decided to help agent B at some
-cost to themselves, they will only do so when the expected benefit of
+cost <em>c</em> to themselves, they will only do so when the expected benefit <em>b</em> of
 agent B returning the favor outweighs the cost of Agent A’s initially
 providing it. Thus, we have the rule <span
 class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
