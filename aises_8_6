@@ -137,7 +137,7 @@ occur.</p>
 <h2 id="improving-resilience">8.6.3 Improving Resilience</h2>
 <p>The government actions already discussed focus on preventing unsafe
 AI development and deployment, but another useful intervention point may
-be mitigating damages during deployment.</p>
+be mitigating damages during deployment.  We discuss this briefly here and at greater length in the "Systemic Safety" section (3.5). </p>
 <p><strong>Resilience may protect against extreme risks.</strong>
 Governments may be able to improve societal resilience to AI accidents
 or misuse through promoting cybersecurity, biosecurity, and AI
