@@ -56,9 +56,16 @@
 
 <h1 id="sec:power">3.4 Control</h1>
 
-<p> To reduce risks from AI, we not only want to reduce our exposure to hazards by monitoring
- them, and make models more robust to adversarial attacks, but also to ensure AIs are controllable
- and that they present less inherent hazards. One obstacle to both monitoring and controlling AI 
+<p> To reduce risks from AI, we not only want to reduce our exposure to hazards by monitoring them, and make models more robust to adversarial attacks, but also to ensure AIs are 
+controllable and that they present less inherent hazards. This falls under the broader goal of AI alignment. Alignment is a thorny concept to define, as it can be interpreted
+ in a variety of ways. A relatively narrow definition of alignment would be ensuring that AI systems follow the goals or preferences of the entity that operates them. However,
+ this definition leaves a number of important considerations unaddressed, including how to deal with conflicting preferences at a societal level, whether alignment should be 
+based on stated preferences or other concepts such as idealised preferences or ethical principles, and what to do when there is uncertainty over what course of action our 
+preferences or values would recommend. This cluster of questions around values and societal impacts is discussed further in the Beneficial AI and Machine Ethics chapter. 
+In this section, we focus on the narrower question of how to avoid AI systems that cannot be controlled by their operators. In this way, we split the topic of alignment
+ into two parts: control and machine ethics. Control is about directly influencing the propensities of AI systems and reducing their inherent hazards, while machine ethics
+ is about making an AI's propensities beneficial to other individuals and society.
+<p> One obstacle to both monitoring and controlling AI 
 systems is deceptive AI systems. This need not imply any self-awareness on the part of AI systems:
  deception could be seriously harmful even if it is accidental or due to imitation of human behaviour.
  There are also concerns that under certain circumstances, AI systems would be incentivized to seek to
