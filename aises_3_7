@@ -104,6 +104,21 @@ systems in specific circumstances, such as a “treacherous turn”</li>
         </tr>
 
         <tr>
+        <td style="text-align: center;">Evaluation  <br> of <br> Hazardous <br> Capabilities </td>
+        <td style="text-align: left;">
+            <ul>
+                <li>AI systems may exhibit hazardous capabilities in domains such as cyber-attacks or bio-engineering. Capabilities may emerge is a way that we cannot predict as 
+AI systems are scaled up or otherwise improved. There are a variety of challenges to effective evaluation including the generality and large "surface area" of many pre-trained models,
+ a high degree of sensitivity to the details of how prompts and evaluations are constructed, and limited available benchmarks and techniques for assessing certain capabilities</li>
+                <li>Evaluations can support pre-deployment assessment and ongoing monitoring of risks from AI systems, including risks from hazardous capabilities. Ideally, evaluations 
+would not only detect existing hazardous capabilities, but also make it easier to track and predict the progress of models' capabilities in relevant domains and skills, and be suitable
+ not just for one-off tests but for ongoing monitoring of systems during both training and deployment. It will also be important to develop ways to test the validity of evaluations to 
+avoid false negatives</li>
+            </ul>
+        </td>
+        </tr>
+
+        <tr>
         <td style="text-align: center;">Anomaly <br> Detection </td>
         <td style="text-align: left;">
             <ul>
