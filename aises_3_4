@@ -54,7 +54,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:power">3.4 Control</h1>
+<h1 id="sec:power">3.4 Alignment</h1>
 
 <p> To reduce risks from AI, we not only want to reduce our exposure to hazards by monitoring them, and make models more robust to adversarial attacks, but also to ensure AIs are 
 controllable and that they present less inherent hazards. This falls under the broader goal of AI alignment. Alignment is a thorny concept to define, as it can be interpreted
