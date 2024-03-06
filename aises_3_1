@@ -13,7 +13,8 @@ intentions, if any, may be. In addition, models may spontaneously develop qualit
 <strong>Robustness.</strong> Next, we turn to problem of building models that are robust to adversarial attacks. 
 In many cases, it is not possible to perfectly specify our idealized goals for an AI system. Inadequately specified
  goals can lead to systems diverging from our idealized goals, and introduce vulnerabilities that adversaries can attack and exploit. <p>
-<strong>Control.</strong> We then pivot to the topic of control of AI systems. We start by exploring the issue of deception, categorizing the
+<strong>Control.</strong> We then pivot to the topic of alignment, focussing primarily on control of AI systems (other components of alignment 
+are discussed in the Beneficial AI and Machine Ethics chapter). We start by exploring the issue of deception, categorizing the
  varied forms of deception (including those already observed in existing AI systems), and analyze the risks involved
  in AI systems deceiving human and AI evaluators. We also explore the possible conditions that could give rise to power-seeking
  agents and the ways in which this could lead to particularly harmful risks. We discuss some techniques that have potential to 
