@@ -5,7 +5,8 @@
  are safe and beneficial for humanity. In this chapter, we discuss the challenges of specifying appropriate values for AI systems to pursue. 
 Some of these questions are already relevant for AI systems that exist today in the healthcare or automotive sectors, where artificial systems 
 may be making decisions in situations that can harm or benefit humans. They will become even more critical for future systems that may be 
-integrated more broadly across economies, governments, and militaries, making high-stakes decisions with many important moral considerations.
+integrated more broadly across economies, governments, and militaries, making high-stakes decisions with many important moral considerations. As discussed in section 3.4, 
+these questions are core components of the overall challenge of "AI alignment".
 </p>
 <p><strong>Many
 people have incoherent views on embedding values into AIs.</strong>
