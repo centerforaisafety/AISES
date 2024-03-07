@@ -321,7 +321,7 @@ different technical definitions of fairness have been proposed, often
 formalized mathematically. These definitions aim to highlight unfairness
 in ML systems, but most possess inherent limitations. We will review
 three definitions below.</p>
-<em>Statistical parity.</em> The concept of statistical parity, also
+<p><em>Statistical parity.</em> The concept of statistical parity, also
 known as demographic parity, requires that an algorithm makes positive
 decisions at an equal rate for different groups. This metric requires
 that the model’s predictions are <em>independent</em> of the sensitive
@@ -330,7 +330,7 @@ rates for men and women are identical. While intuitive, statistical
 parity is a very simplistic notion; for instance, it does not account
 for potential differences between groups that could justify or explain
 different outcomes.<p>
-<em>Equalized odds.</em> Equalized odds demands that the false positive
+<p><em>Equalized odds.</em> Equalized odds demands that the false positive
 rate and false negative rate are equal across different groups. A
 predictive health screening algorithm fulfills equalized odds if the
 false positive rate is identical for men and women. This metric ensures
@@ -362,7 +362,7 @@ often at odds with accuracy. Another practical problem is that creating
 fair systems means different things across different areas of
 applications, such as healthcare and justice, and different stakeholders
 within each area have different views on what constitutes fairness.</p>
-<strong>Contradictions between
+<p><strong>Contradictions between
 fairness metrics.</strong>
 Early AI fairness research largely focused on three metrics of
 fairness: statistical/demographic parity, equalized odds, and
@@ -376,7 +376,7 @@ re-offending upon release from prison being more common among
 disadvantaged minorities <span class="citation"
 data-cites="corbettdavies2018measure">[4]</span>. This makes fulfilling
 all three notions of fairness at once difficult or impossible.<p>
-The <em>impossibility theorem</em> for AI fairness proves that no
+<p>The <em>impossibility theorem</em> for AI fairness proves that no
 classifier can satisfy these three definitions of fairness unless the
 prevalence of the target characteristic is equal across groups or
 prediction is perfect <span class="citation"
