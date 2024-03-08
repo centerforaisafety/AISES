@@ -1,7 +1,7 @@
 <h1 id="sec:evo-pressures">7.5 Evolutionary Pressures</h1>
 <h2 id="overview">7.5.1 Overview</h2>
 <p>This central focus of this chapter concerns the dynamics we expect in
-a multi-AI agent future. We must consider the risks that emerge from the
+a future containing many AI agents. We must consider the risks that emerge from the
 interactions between these agents, and between humans and AI
 agents. In this last part of the Collective Action Problems chapter, we 
 use evolutionary theory to explore what happens when competitive pressures 
@@ -405,7 +405,7 @@ selfish traits over altruistic ones. Although on the level of an
 individual organism, individuals may behave altruistically under
 specific conditions (such as genetic relatedness), on the level of
 information, evolution by natural selection tends to produce
-selfishness. We conclude by outlining how a multi-agent AI future shaped
+selfishness. We conclude by outlining how a future containing many AI agents shaped
 by natural selection will be dominated by selfish behavior.</p>
 <h3 id="informations-eye-view">Information’s Eye View</h3>
 <p>We often consider individual organisms to be the unit on which
@@ -598,7 +598,7 @@ entity that contains it (such as an organism, government, or AI system).
 In this section, we consider a second risk: that natural selection tends
 to favor selfish traits and strategies over altruistic ones. We conclude
 that the greater the influence of evolutionary pressures on AI
-development, the more we should expect a multi-AI agent future to be one
+development, the more we should expect a a future containing many AI agents to be one
 dominated by selfish behavior.</p>
 <p><strong>Selfishness: furthering one’s own information propagation at
 the expense of others.</strong> In evolutionary theory, “selfishness”
