@@ -1,6 +1,6 @@
 <h1 id="intrasystem-conflict">Appendix G - Intrasystem Conflict Causes</h1>
 <p><strong>Intrasystem goal conflict may cause an AI system not to
-behave as a unified agent.
+behave as a unified agent.</strong>
 <p><strong>Intrasystem goal conflict can arise through
 modularization.</strong> There are two mechanisms by which intrasystem
 goal conflict may arise. The first is <em>modularization</em>: a goal
