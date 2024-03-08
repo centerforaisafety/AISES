@@ -56,28 +56,18 @@
 
 <h1 id="sec:conflict">7.4 Conflict</h1>
 <h2 id="overview">7.4.1 Overview</h2>
-<p>In this chapter, we have been exploring the risks that arise from
-interactions between multiple agents. So far, we have used game theory
-and evolutionary theory to understand how collective behavior can
-produce undesirable outcomes. In simple terms, securing morally good
-outcomes without cooperation can be extremely difficult, even for
-intelligent rational agents. Consequently, the potential for conflict
-and the importance of cooperation has emerged as a strong theme in this
-chapter. In this third section of this chapter, we examine conflict and
-cooperation in more detail.</p>
-<h3 id="conflict-overview">Conflict Overview</h3>
-<p>We begin this section by exploring the drivers of conflict. Here, we
-use the term “conflict” loosely, to describe the decision to defect
-rather than cooperate in a competitive situation. This may lead to
-violence in some cases, but not necessarily all. Our goal is to uncover
-how, despite being costly, conflict can sometimes be a rational choice
-nevertheless.<p>
-Conflict can take place between a wide variety of entities, from microorganisms to nation-states. 
-It can be sparked by many different factors, such as resource competition and territorial disputes. 
-Despite this variability, there are some general frameworks which we can use to analyse conflict 
-across many different situations. In this section, we look at how some of these frameworks might 
-be used to model conflict involving AI agents.<p>
-We begin our discussion of conflict with concepts in bargaining
+<p>In this chapter, we have been exploring the risks generated or exacerbated by the interactions of multiple agents, both human and AI. In the previous section, we explored a variety of 
+mechanisms by which agents can achieve stable cooperation. In this section we address how, despite the fact that cooperation can be so beneficial to all involved, a group of agents may 
+instead enter a state of conflict.</p>
+<p> We begin this section by exploring the drivers of conflict. Here, we use the term ``conflict'' loosely, to describe the decision to defect rather than cooperate in a competitive situation. 
+This often, though not always, involves some form of violence, and destroys some amount of value. Conflict is common in nature. Organisms engage in conflict to maintain social dominance 
+hierarchies, to hunt, and to defend territory. People also engage in conflict. Throughout human history, wars are common, often occurring as a consequence of power-seeking behavior, which
+inspired conflict over attempts at aggressive territorial expansion or resource acquisition. Our goal is to uncover how, despite being costly, conflict can sometimes be a rational choice 
+nevertheless.</p>
+<p>Conflict can take place between a wide variety of entities, from microorganisms to nation-states. It can be sparked by many different factors, such as resource competition and territorial 
+disputes. Despite this variability, there are some general frameworks which we can use to analyse conflict across many different situations. In this section, we look at how some of these 
+frameworks might be used to model conflict involving AI agents. </p>
+<p>We begin our discussion of conflict with concepts in bargaining
 theory. We then examine some specific features of competitive situations
 that make it harder to reach negotiated agreements or avoid
 confrontation. We begin with five factors from bargaining theory that
@@ -213,7 +203,7 @@ agreements.</p>
 <p class="tb-caption">Figure 7.9: The bargaining range is defined by the potential gains from cooperation.</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
-<p>A) An axis of expected value distribution between two
+<p><em>A) An axis of expected value distribution between two
 competitors. “B” indicates the expected outcome of conflict: how likely
 each competitor is to win, multiplied by the value they gain by winning.
 The more positive B is (the further towards the right), the better for
@@ -221,7 +211,7 @@ Green, and the worse for Red. B) Conflict is negative-sum: it destroys
 some value, and so reduces each competitor’s expected value. C)
 Bargaining is zero-sum: all the value is distributed between the
 competitors. This means there are possible bargains that offer both
-competitors greater expected value than conflict. </p>
+competitors greater expected value than conflict. </em></p>
 
 <p><strong>Conflict in AIs.</strong> Let us assume that AI agents will
 act rationally in the pursuit of their goals (so, at the least, we model
@@ -728,7 +718,7 @@ compete for social standing when doing so enables access to larger
 shares of available resources. Although AIs may produce many forms of
 abundance, there would still be dimensions on which to compete.
 Moreover, AI development could itself exacerbate various forms of
-inequality to extreme levels. We discuss this possibility in section 9.3 - Distribution.</p>
+inequality to extreme levels. We discuss this possibility in the Governance chapter in section 9.3 - Distribution.</p>
 <h3 id="summary">Summary</h3>
 <p>Throughout this section, we have discussed some of the major factors
 that drive conflict. When any one of these factors is present, agents’
