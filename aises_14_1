@@ -91,7 +91,7 @@ dynamics can become cyclical.</p>
 <!--<figcaption>The population may cycle through different strategy-->
 <!--compositions.</figcaption>-->
 </figure>
-<p>{Example: extortion strategies.} Extortion strategies can perform particularly well in evolutionary tournaments <span
+<p><strong>Example: extortion strategies.</strong> Extortion strategies can perform particularly well in evolutionary tournaments <span
 class="citation" data-cites="hilbe2013evoluation">[1]</span>. This is especially true in tournaments with more detailed 
 replications of evolutionary dynamics. For instance, in some evolutionary tournaments, agents can produce offspring who 
 inherit both their strategy and score. With the addition of noise, in the form of random mutations, extortionists enjoy 
@@ -159,7 +159,8 @@ class="math inline">$$\frac{1}{2}b$$</span></td>
 <p><strong>Neither <em>Hawk</em> nor <em>Dove</em> is the dominant
 strategy.</strong> If all agents were Hawks, everyone would fight each
 other for the resource and only stop when hurt. Their average gain would
-be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>. But since the
+be <span class="math inline">$$\frac{1}{2}(b-c)$$</span>
+But since the
 price of fighting is more than the resource’s value <span
 class="math inline">(<em>b</em>&lt;<em>c</em>)</span>, this payoff would
 be negative. If one agent switched to being a <em>Dove</em>, they would
@@ -238,7 +239,7 @@ frequency-dependent selection.</p>
 <!--<figcaption>Frequency-dependent selection.</figcaption>-->
 </figure>
 <p><em>In each population, snails “choose to” evolve one of three colors
-as camouflage: red, green, or blue. The frequency graph shows the
+as camouflage: grey, teal, or blue. The frequency graph shows the
 proportion of snails of each color. The black arrows indicate the
 passage of time. The most successful color is indicated both by a gray
 border and a gray arrow. Whichever color is rarest in one iteration
@@ -247,7 +248,7 @@ snails of that color. Thus, more snails use this color in the following
 generation. In this way, the population cycles through different color
 compositions.</em><p>
 <br><br>
-Frequency-dependent selection in game theory. We have encountered
+<p><strong>Frequency-dependent selection in game theory.</strong> We have encountered
 frequency-dependent selection already in this section. In Section 1.5.2, we briefly discussed how
 the ratio of contributors to free-riders in the population can alter the
 incentives for the agents engaged in a collective action problem. In
