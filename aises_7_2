@@ -105,23 +105,7 @@ AI agents or the automation of economies to the point of human
 enfeeblement. The key upshot is that achieving cooperation and ensuring
 collectively good outcomes is even more difficult in interactions
 involving more than two agents.</p>
-<p><strong>Finally, we explore how AI agents may adapt their behavior to
-their environments.</strong> We use evolutionary game theory to
-understand how social environments might shape multi-agent dynamics
-involving humans and AIs. We start by considering how evolutionary
-forces alter the dynamics in the Iterated Prisoner’s Dilemma: when
-agents can adapt their strategies, the results are more complicated. As
-we explore in a later section, they include the emergence of “cyclical
-dynamics” and some undesirable strategies such as extortion. We use this
-to examine the risk of AI extortion in the real world. We also consider
-the “Hawk-Dove game” as an example of how agents may reach an
-equilibrium state in which they employ a variety of different
-strategies, even when they themselves are identical to one another. We
-examine how some strategies might be selected over others in AI
-populations. In particular, evolutionary pressures could promote
-dangerous behaviors in AIs, such as concealing information. The key
-upshot is that evolutionary dynamics might drive AIs to employ harmful
-social strategies, such as deception, rather than cooperating.</p>
+
 <h2 id="game-theory-fundamentals">7.2.2 Game Theory Fundamentals</h2>
 <p>In this section, we briefly run through some of the fundamental
 principles in game theory. Game theory is the branch of mathematics
@@ -363,7 +347,7 @@ their payoffs (rather than the length of their jail sentence).</p>
 <!--<figcaption>The possible outcomes for both suspects in the Prisoner’s-->
 <!--Dilemma</figcaption>-->
 </figure>
-<p><em>A) Shown is the same decision tree as in Figure 7.2, but for both
+<p><em>A) Shown is the same decision tree as in Figure 7.1, but for both
 suspects. Rather than jail sentences, we show payoffs (negative numbers,
 rather than positive). B) The outcome where both suspects get the “-3”
 payoff is the Nash equilibrium, since defection is the dominant strategy
@@ -459,9 +443,7 @@ data-cites="parfit1984reasons">[2]</span>, as shown in Figure 7.4. These can bro
 by whether the agents have a choice, or whether defection is impossible.
 If the agents do have a choice, we can further divide the possibilities
 into those where they act in their own self-interest, and those where
-they do not (altruism). Finally, we can differentiate three reasons why
-self-interested agents may choose to cooperate: a conscience, a change
-to the payoff structure, and future reward/punishment. We will explore
+they do not (altruism). Finally, we can differentiate two reasons why self-interested agents may choose to cooperate: a tendency toward this, such as a conscience or guilt, and future reward/punishment. We will explore
 two possibilities in this section — payoff changes and altruistic
 dispositions — and then “future reward/punishment” in the next section.
 Note that we effectively discuss “Defection is impossible” in the Single Agent Safety
@@ -470,11 +452,11 @@ chapter, and “AI consciences” in the Beneficial AI and Machine Ethics chapte
 <figure id="fig:cooperate">
 <img
 src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/why_cooperate.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 7.4: Five possible reasons why agents may cooperate in prisoner’s Dilemma-like scenarios.
+<p class="tb-caption">Figure 7.4: Four possible reasons why agents may cooperate in prisoner’s Dilemma-like scenarios.
 This section explores two: changes to the payoff matrix and increased agent altruism. <span class="citation" data-cites="parfit1984reasons">[2]</span></p>
 </figure>
 
-<p><em>Five possible reasons why agents may cooperate in prisoner’s
+<p><em>Four possible reasons why agents may cooperate in prisoner’s
     Dilemma-like scenarios. As highlighted, this section explores only two: changes to the payoff matrix and increased agent altruism. </em></p>
 
 <p><strong>External consideration: changing the payoffs to incentivize
@@ -560,8 +542,8 @@ time for being a “snitch,” the outcome (-1,-1) becomes a second Nash
 Equilibrium. Note that this is known as the “Stag Hunt” in game
 theory.</em><p>
 <br><br>
-Internal consideration: making agents more altruistic to promote
-cooperation. A second potential mechanism to foster cooperation is to
+<p><strong>Internal consideration: making agents more altruistic to promote
+cooperation.</strong> A second potential mechanism to foster cooperation is to
 make agents more altruistic. If each agent also values the outcome for
 their partner, this effectively changes the payoff matrix. Now, the
 length of their partner’s jail sentence matters to each of them. In the
@@ -823,7 +805,7 @@ strategies such as in Figure 7.6 depends on the population strategy
 composition (the assortment of strategies used by the agents in the
 population). If there are enough cooperative partners, cooperative
 agents may be more successful than uncooperative ones.
-<h3 id="sec:AI-races">Tail Risk: AI Races</h3>
+<h3 id="sec:AI-races">AI Races</h3>
 <p>Iterated interactions can generate “AI races.” We discuss two kinds
 of races concerning AI development: corporate AI races and military AI
 arms races. Both kinds center around competing parties participating in
@@ -1103,7 +1085,7 @@ to comprehend or intervene. This could be an irreversible step putting
 us at high risk of catastrophic outcomes.</p>
 
 <h3 id="sec:extortion">Extortion</h3>
-<p>In this section ,we examine one last risk that arises when agents interact repeatedly: the discovery of extortion.</p>
+<p>In this section, we examine one last risk that arises when agents interact repeatedly: the discovery of extortion.</p>
 
 <p><strong><em>Extortion</em> strategies in the Iterated Prisoner’s
 Dilemma.</strong> In the real world, we describe the use of threats to
@@ -1138,7 +1120,7 @@ data-cites="stewart2012extortion">[20]</span></p>
 <!--<figcaption>The <em>Extort-2</em> strategy - <span class="citation"-->
 <!--data-cites="stewart2012extortion">[20]</span></figcaption>-->
 </figure>
-<p>Shown is an extortion strategy called <em>Extort-2</em>, from the
+<p><em>Shown is an extortion strategy called <em>Extort-2</em>, from the
 point of view of the extortionist. “You” are the agent using the
 <em>Extort-2</em> strategy, and “they” are your partner. As with all
 <em>extortion</em> strategies, <em>Extort-2</em> involves reacting
@@ -1146,7 +1128,7 @@ probabilistically to the most recent interaction had with a partner. As
 an example, in the previous round, if the extortionist defected, but
 their partner cooperated, the extortionist will cooperate with a
 probability of 1/3 in this
-round.</p>
+round.</em></p>
 <p><strong>Extortion strategies rarely win tournaments but seldom die
 out altogether.</strong> Many uncooperative strategies may gain a higher score than most of their
 partners in head-to-head matches, and yet still lose in tournaments. By
@@ -1614,7 +1596,7 @@ solve common pool resource problems by having AIs manage them. If we
 simply pass the buck to AI representatives, the AIs will inherit the
 same incentive structure that produces the common pool resource problem,
 and so the problem will likely remain.</p>
-<h3 id="sec:AI-races-Multiple">Tail Risk: AI Races Between More Than Two
+<h3 id="sec:AI-races-Multiple">AI Races Between More Than Two
 Competitors</h3>
 <p>In the previous section, we looked at how corporations and militaries
 may compete with one another in “AI races.” We used a two-player
@@ -1753,7 +1735,7 @@ as a credible signal of commitment to an international standard. By
 easing the competitive pressures, we might be able to foster collective
 action to avoid driving up the collective risk level.</p>
 <h2 id="summary-2">Summary</h2>
-<p>We observe important and intractable collective action problems in
+<p>We observe important and seemingly intractable collective action problems in
 many domains of life, such as environmental degradation, pandemic
 responses, maintenance of democracies, and common pool resource
 depletion. We can understand these as Iterated Prisoner’s Dilemmas with
