@@ -162,7 +162,7 @@ class="math inline"><em>Δ</em><em>z̄</em></span> is the change in the
 average value of <span class="math inline"><em>z</em></span> between the
 parent generation and the offspring generation. If <span
 class="math inline"><em>z</em></span> is height, and the parent
-generation is 5 ’5 " on average and the next generation is 5’ 7” on
+generation is 5' 5'' on average and the next generation is 5’ 7'' on
 average, then <span class="math inline"><em>Δ</em><em>z̄</em></span> is 2
 inches. <span class="math inline"><em>ω</em></span> is relative fitness:
 how many offspring does an individual have relative to the average for
@@ -513,34 +513,10 @@ useful. The AI information that propagates the most will take up more
 and more space-time volume, as it is copied into more AIs that multiply
 and endure over longer periods.</p>
 <h2 id="subsec:intrasys-goal">7.5.6 Intrasystem Goal Conflict</h2>
-<p>The interests of an organism and its genetic information are usually
-aligned well. However, they can sometimes diverge from one another. In
-this section, we identify analogous, non-biological phenomena, where
-conflict arises between a system and the sub-systems in which it stores
-its information. Evolutionary pressures might generate internal conflict
-within AI systems. This could distort or subvert goals set for AIs by
-human operators, even when the goal was specified and understood
-correctly.</p>
-<p><strong>Conflict within genomes.</strong> As we have seen, selection
-on the level of genes does not always result in the best outcomes for
-the organism. As briefly mentioned above, human mitochondrial DNA is
-only transferred to offspring through biological females. A human’s
-mitochondrial genome is identical to their biological mother’s, assuming
-no change due to mutation. Thus, mitochondrial genes which benefit only
-females may be selected for, even where they incur a cost upon males, as
-males represent a heritability deadend. These and other “selfish”
-genetic elements give rise to intragenomic conflict.<p>
+<p>The interests of an organism and its genetic information are usually aligned well. However, they can sometimes diverge from one another. In this section, we identify analogous, non-biological phenomena, where conflict arises between a system and the sub-systems in which it stores its information. Evolutionary pressures might generate this kind of internal conflict within AI systems, distorting or subverting goals set for AIs by human operators, even when such goals are specified and understood correctly.</p>
+<p><strong>Conflict within a genome.</strong> Selection on the level of genes does not always result in the best outcomes for the organism. For instance, as discussed in the previous section, human mitochondrial DNA is only transferred to offspring through biological females. A human’s mitochondrial genome is identical to their biological mother’s, assuming no change due to mutation. Since males represent a reproductive dead-end, mitochondrial genes that benefit only females may therefore be selected for, even when they incur a cost upon males. These and other ``selfish'' genetic elements give rise to intragenomic conflict.<p>
 
-<p><strong>Conflict within organisms.</strong> We observe other kinds of
-internal conflict within organisms which do not concern their genomes.
-For example, the bacterial species that compose the human gut microbiome
-can exist in a mutually-beneficial symbiosis with their host. However,
-some bacteria reveal themselves to be “opportunistically pathogenic”: in
-the wake of disruptions like the use of antibiotics, many of these
-once-mutualists will propagate at accelerated rates, often at the
-expense of the host’s health. As the philosopher of evolutionary biology
-Samir Okasha notes, “intraorganismic conflict is relatively common among
-modern organisms”. <span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>>
+<p><strong>Conflict within an organism.</strong> We observe other kinds of internal conflict within organisms which do not concern their genomes. For example, the bacterial species that compose the human gut microbiome can exist in a mutually-beneficial symbiosis with their host. However, some bacteria are ``opportunistically pathogenic'': in the wake of disruptions (like the use of antibiotics), many of these once-mutualists will propagate at accelerated rates, often at the expense of the host’s health. As the philosopher of evolutionary biology Samir Okasha notes, ``intraorganismic conflict is relatively common among modern organisms. <span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>>
 <p>
 <strong>Conflict within an AI company.</strong> The concept of 
 intrasystem conflict extends beyond biological examples and can be observed
@@ -553,43 +529,10 @@ Challenging-to-resolve disagreements about who should influence AI's development
 make intrasystem conflict at AI organizations likely in the future.
 .</p>
 <p><strong>Intrasystem goal conflict: between information and the larger
-entity that contains it.</strong> Just as in the case of intraorganismic
-conflict, the interests of propagating information and the entities that
-contain the information can diverge from one another. We call the more general phenomenon that can describe all of
-these examples <em>intrasystem goal conflict</em>: the clash of
-interests of different agents within a shared system. As we have seen, intrasystem goal
-conflict can arise within complex systems in a range of domains,
-from genomes to corporations.</p>
+entity that contains it.</strong> All the above examples concern the interests of propagating information and those of the entities that contain the information diverging from one another. We call the more general phenomenon that can describe all of these examples \textit{intrasystem goal conflict}: the clash of different subsystems' interests, causing the functioning of the overall system to be distorted. As we have seen, intrasystem goal conflict can arise within complex systems in a range of domains, from genomes to corporations.</p>
 
-<p><strong>Intrasystem goal conflict in AI systems.</strong> One reason why we might expect an AI
-system not to pursue a specified goal is because intrasystem goal
-conflict has eroded its “unity of purpose.” A system has achieved unity
-of purpose if there is alignment at all levels of internal organization
-<span class="citation" data-cites="Okasha2018AgentsAG">[13]</span>.
-Undermining a system’s <em>unity of purpose</em> reduces its ability to
-carry out its system-level goals. A helpful analogy here is to consider
-political “coups.” A coup is characterized by a struggle for control
-within a political system, in which agents within the system act to
-seize power, often eroding the system’s unity of purpose by disrupting
-its stability and functionality. When political leaders are overthrown
-by their second-in-command, the goals of the political system usually
-change. Similarly, if we give an AI agent a goal to pursue, the agent
-may in turn assign parts of this goal to sub-agents, who may take over
-and subvert the original goal with their own.</p>
-</strong> In the
-future, humans and AI agents may interact in many different ways,
-including by working together on collaborative projects. This provides
-the opportunity for goal distortion or subordination through intrasystem
-goal conflict. For instance, when humans enlist AI agents to collaborate
-on tasks, principal-agent problems may arise. Just as how human
-collaborators may betray or overturn their principals, AI agents may
-behave similarly. If an AI collaborator has a goal of self-preservation,
-they may try to remove any leverage or power others have over them. In
-this way, the system (of principal and agent) that ends up executing
-actions based on these conflicting goals will not necessarily be
-equivalent to how a system with unity of purpose would pursue the goal
-set by the humans. The behavior of this emergent multi-agent system may
-thus distort our goals, or even subvert them altogether.</p>
+<p><strong>Intrasystem goal conflict in AI systems.</strong> One reason why we might expect an AI system not to pursue a specified goal is because intrasystem goal conflict has eroded its \textit{unity of purpose}. A system has achieved unity of purpose if there is alignment at all levels of internal organization \citep{Okasha2018AgentsAG}. Undermining a system’s unity of purpose reduces its ability to carry out its system-level goals. A helpful analogy here is to consider political ``coups.'' A coup is characterized by a struggle for control within a political system whereby agents within the system act to seize power, often eroding the system’s unity of purpose by disrupting its stability and functionality. When political leaders are overthrown, the goals of the political system usually change. Similarly, if we give an AI agent a goal to pursue, the agent may in turn assign parts of this goal to sub-agents, who may take over and subvert the original goal with their own.</p>
+<p>In the future, humans and AI agents may interact in many different ways, including by working together on collaborative projects. This provides the opportunity for goal distortion or subordination through intrasystem goal conflict. For instance, humans may enlist AI agents to collaborate on tasks. Just as how human collaborators may betray or overturn their principals, AI agents may behave similarly. If an AI collaborator has a goal of self-preservation, they may try to remove any power others have over them. In this way, the system that ends up executing actions based on these conflicting goals will not necessarily be equivalent to how a system with unity of purpose would pursue the goal set by the humans. The behavior of this emergent multi-agent system may thus distort our goals, or even subvert them altogether.</p>
 <h2 id="selfishness">7.5.7 Selfishness</h2>
 <p>In the previous section, we examined one risk generated by natural
 selection favoring the propagation of information: conflict between the
@@ -646,8 +589,7 @@ in these examples, cooperative behavior ultimately helps the
 individual’s information propagate. Chimpanzees who groom others expect
 to have the favor returned in future. Filamentous bacteria live in
 colonies made up of their clones, so one bacterium sacrificing itself to
-save copies of itself still propagates its information. We cover this in
-more detail in the next section: <em>Conflict and Cooperation</em>.</p>
+save copies of itself still propagates its information.</p>
 <p><strong>Natural selection tends to produce selfish traits.</strong>
 Organisms that further their own information propagation will typically
 propagate more. A lancet liver fluke that developed the ability to give
