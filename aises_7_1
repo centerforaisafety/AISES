@@ -145,7 +145,7 @@ even catastrophic, for all involved. This section first examines the
 Prisoner’s Dilemma, a canonical game theoretic example that illustrates
 this theme—though cooperation would produce an outcome that is better
 for both agents, for either one to cooperate would be irrational.<p>
-We then build on this by introducing three additional levels of
+We then build on this by introducing two additional levels of
 sophistication. The first addition is time. We explore how cooperation
 is possible, though not assured, when agents interact repeatedly over
 <em>time</em>. The second addition is the introduction of <em>more than
