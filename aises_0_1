@@ -32,7 +32,7 @@ governance challenges that we will need to meet in order to harness advanced AI 
 
 In order to have a solid grasp of the challenges of AI safety, it is important to consider the broader context within 
 which AI systems are being developed and applied. The decisions of and interplay between AI developers, policy-makers, 
-militaries and other actors will play an important role in shaping this context. Since AI influences many different spheres,
+militaries, and other actors will play an important role in shaping this context. Since AI influences many different spheres,
  we have deliberately selected time-tested, formal frameworks to provide multiple lenses for thinking about AI, relevant actors,
  and AI's impacts. The frameworks and concepts we use are highly general and are useful for reasoning about various forms of 
 intelligence, ranging from individual human beings to corporations, states, and AI systems. While some sections of the book 
@@ -87,15 +87,15 @@ The Ethics and Society section focuses on how to instill beneficial objectives a
  how to enable effective collaboration between stakeholders to mitigate risks. In the Beneficial AI and Machine Ethics chapter, 
 we introduce the challenge of giving AI systems objectives that will reliably lead to beneficial outcomes for society,
  and discuss various proposals along with the challenges they face. In Collective Action Problems, we utilize game theory to 
-illustrate the many ways in which multiple agents (humans, AIs, groups of humans and AIs) can fail to secure good outcomes
+illustrate the many ways in which multiple agents (humans, AIs, groups of humans, and AIs) can fail to secure good outcomes
  and come into conflict. We also consider the evolutionary dynamics shaping AI development and how these drive AI risks. 
 These frameworks help us to understand the challenges of managing competitive pressures between AI developers, militaries,
  or AI systems themselves. Finally, in the Governance chapter, we discuss strategic variables such as the 
-rate at which AI systems evolves and how widely access to powerful AI systems is distributed. We introduce a variety of 
+rate at which AI systems evolve and how widely access to powerful AI systems is distributed. We introduce a variety of 
 potential paths for managing AI risks, including corporate governance, national regulation, and international coordination. <p>
 
 The website for this textbook (www.aisafetybook.com) includes a range of additional content. It contains further educational 
-resources such as videos, slides, quizzes and discussion questions. For readers interested in contributing to mitigating risks
+resources such as videos, slides, quizzes, and discussion questions. For readers interested in contributing to mitigating risks
  from AI, it offers some brief suggestions and links to other resources on this topic. A range of appendices can also be found
  on the website with further material that could not be included in the textbook itself. <p>
 
