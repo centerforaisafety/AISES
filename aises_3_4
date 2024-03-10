@@ -67,7 +67,7 @@ In this section, we focus on the narrower question of how to avoid AI systems th
  is about making an AI's propensities beneficial to other individuals and society.
 <p> One obstacle to both monitoring and controlling AI 
 systems is deceptive AI systems. This need not imply any self-awareness on the part of AI systems:
- deception could be seriously harmful even if it is accidental or due to imitation of human behaviour.
+ deception could be seriously harmful even if it is accidental or due to imitation of human behavior.
  There are also concerns that under certain circumstances, AI systems would be incentivized to seek to
  accumulate resources and power in ways that would threaten human oversight and control. Power-seeking
  AIs could be a particularly dangerous phenomenon, though one that may only emerge under more specific
