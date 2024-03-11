@@ -290,7 +290,7 @@ representations. Simply put, more layers capture more features at more
 levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/hidden_nn.png" class="tb-img-full" style="width: 60%"/>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/neural_network.png" class="tb-img-full" style="width: 60%"/>
     <p class="tb-caption">Figure 2.13: A classic multi-layer neural network has an input later, several hidden layers, and an
 output layer.</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
