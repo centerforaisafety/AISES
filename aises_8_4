@@ -129,7 +129,8 @@ purchased, and shipped.</p>
         src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/compute.png" style="width:70%"
         alt="image" />
         <p class="tb-caption">Figure 8.2: Advanced semiconductor manufacturing
-tools (such as the ASML Twinscan NXE) are large, highly specialized machines.</p>
+tools (such as the ASML Twinscan NXE) are large, highly specialized machines. <span class="citation"
+data-cites="asml">[5]</span></p>
     </figure>
 </div>
 <p><strong>Since compute is physical, it is trackable.</strong> Compute
@@ -168,11 +169,11 @@ single firm, Taiwan Semiconductor Manufacturing Company (TSMC). These
 chips are based on designs from a few major companies, such as Nvidia
 and Google, and TSMC’s production processes rely on photolithography
 machines from a similarly monopolistic industry led by ASML <span
-class="citation" data-cites="arnold2022eto">[5]</span>. Entities such as
+class="citation" data-cites="arnold2022eto">[6]</span>. Entities such as
 the US and EU can, therefore, regulate these companies to control the
 supply of compute—if the supply chain dynamics do not change
 dramatically over time <span class="citation"
-data-cites="khan2021semiconductor">[6]</span>. This simplifies the
+data-cites="khan2021semiconductor">[7]</span>. This simplifies the
 tracking of frontier AI chips and enforcing of regulatory guidelines;
 it’s what made the US export ban of cutting-edge AI chips to China in
 2022 feasible. This example illustrates that these chips can be
@@ -184,7 +185,7 @@ quickly.</strong> The price performance of AI chips is increasing
 exponentially. With new chips frequently making recent products
 obsolete, compute becomes more excludable. Historical trends show that
 GPUs double their price performance approximately every 2.5 years <span
-class="citation" data-cites="epoch2023mltrends">[4]</span>. In
+class="citation" data-cites="epoch2023mltrends">[8]</span>. In
 conjunction with the rapidly increasing demand for more compute, data
 centers frequently refresh their chips and purchase vast quantities of
 new compute regularly to retain competitiveness. This frequent chip
@@ -277,19 +278,22 @@ artificial-intelligence-powered drug discovery,”</span> <em>Nature
 Machine Intelligence</em>, 2022.</div>
 </div>
 <div id="ref-epoch2023mltrends" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div
-class="csl-right-inline">Epoch, <span>“Key trends and figures in machine
-learning.”</span> 2023. Available: <a
+<div class="csl-left-margin">[4] Epoch, <span>“Key trends and figures in machine
+learning.”</span> 2023. [Online]. Available: <a
 href="https://epochai.org/trends">https://epochai.org/trends</a></div>
 </div>
+<div id="ref-asml" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] <span>“The $150m Machine Keeping Moore's Law Alive.”</span> 2021. Available: <a
+href="https://www.wired.com/story/asml-extreme-ultraviolet-lithography-chips-moores-law/">Wired</a></div>
+</div>
 <div id="ref-arnold2022eto" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] Z.
+<div class="csl-left-margin">[6] Z.
 Arnold, J. VerWey, J. Melot, and N. Signh, <span>“ETO supply chain
 explorer.”</span> [Online]. Available: <a
 href="https://cset.georgetown.edu/publication/eto-supply-chain-explorer/">https://cset.georgetown.edu/publication/eto-supply-chain-explorer/</a></div>
 </div>
 <div id="ref-khan2021semiconductor" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] S.
+<div class="csl-left-margin">[7] S.
 M. Khan, A. Mann, and D. Peterson, <span>“The semiconductor supply
 chain: Assessing national competitiveness,”</span> <em>Center for
 Security and Emerging Technology</em>, vol. 8, no. 8, 2021.</div>
