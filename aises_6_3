@@ -16,13 +16,13 @@ Alternative Sanctions) software used by over 100 jurisdictions in the US
 justice system. This algorithm uses observed features such as criminal
 history to predict recidivism, or how likely defendants are to reoffend.
 A ProPublica report <span class="citation"
-data-cites="angwin2016bias">[1]</span> showed that COMPAS
+data-cites="angwin2016bias">[11]</span> showed that COMPAS
 disproportionately labeled African-Americans as higher risk than white
 counterparts with nearly identical offense histories. However, COMPAS’s
 creators argued that it was <em>calibrated</em>, with accurate general
 probabilities of recidivism across the three general risk levels, and
 that it was less biased and better than human judgments <span
-class="citation" data-cites="dieterich2016compas">[2]</span>. This
+class="citation" data-cites="dieterich2016compas">[12]</span>. This
 demonstrated the trade-off between different definitions of fairness: it
 was calibrated across risk levels, but it was also clear that COMPAS
 generated more false positives for African-American defendants
@@ -32,7 +32,7 @@ they in fact did. Adding to the concern, COMPAS is a black-box
 algorithm: its process is proprietary and hidden. One lawsuit argued
 this violates due process rights since its methods are hidden from the
 court and the defendants <span class="citation"
-data-cites="harvard2017state">[3]</span>. In this section, we will
+data-cites="harvard2017state">[13]</span>. In this section, we will
 discuss some of the serious ethical questions raised by this case,
 examining what makes algorithms unfair and considering some methods to
 improve fairness.</p>
@@ -374,13 +374,13 @@ Achieving calibration may require violating statistical parity when the
 characteristic being predicted is different across groups, such as
 re-offending upon release from prison being more common among
 disadvantaged minorities <span class="citation"
-data-cites="corbettdavies2018measure">[4]</span>. This makes fulfilling
+data-cites="corbettdavies2018measure">[14]</span>. This makes fulfilling
 all three notions of fairness at once difficult or impossible.<p>
 <p>The <em>impossibility theorem</em> for AI fairness proves that no
 classifier can satisfy these three definitions of fairness unless the
 prevalence of the target characteristic is equal across groups or
 prediction is perfect <span class="citation"
-data-cites="chouldechova2016fair kleinberg2016inherent">[5], [6]</span>.
+data-cites="chouldechova2016fair kleinberg2016inherent">[15], [16]</span>.
 Requiring a model to be “fair” according to one metric may actually
 disadvantage certain groups according to another metric. This undermines
 attempts to create a universally applicable, precise definition of
@@ -391,13 +391,13 @@ can reduce performance if not achieved carefully.</strong>
 Enforcing fairness constraints often reduces model accuracy. Two
 papers found that applying fairness techniques to an e-commerce
 recommendation system increased financial costs <span class="citation"
-data-cites="zahn2009cost">[7]</span> and mitigating unfairness in Kaggle
+data-cites="zahn2009cost">[17]</span> and mitigating unfairness in Kaggle
 models by post-processing reduced performance <span class="citation"
-data-cites="biswas2020machine">[8]</span>. However, these and others
+data-cites="biswas2020machine">[18]</span>. However, these and others
 also find ways to simultaneously improve both fairness and accuracy; for
 example, work on healthcare models has managed to improve fairness with
 little effect on accuracy <span class="citation"
-data-cites="poulain2023improving">[9]</span>. While aiming for fairness
+data-cites="poulain2023improving">[19]</span>. While aiming for fairness
 can reduce model accuracy in many cases, sometimes fairness can be
 improved without harming accuracy.</p>
 <strong>Difficulties in
@@ -409,17 +409,17 @@ incompatible solutions. These context-specific issues make generic
 solutions inadequate. Models trained on historical data might reflect
 historical patterns such as the underprescription of pain medication to
 women <span class="citation"
-data-cites="calderone1990influence">[10]</span>. Removing gender
+data-cites="calderone1990influence">[20]</span>. Removing gender
 information from the dataset seems like an obvious way to avoid this
 problem. However, this does not always work and can even be
 counterproductive. For instance, removing gender data from an algorithm
 that matches donated organs to people in need of transplants failed to
 eliminate unfairness, because implicit markers of gender like body size
 and creatinine levels still put women at a disadvantage <span
-class="citation" data-cites="rodriguez-castro2014female">[11]</span>.
+class="citation" data-cites="rodriguez-castro2014female">[21]</span>.
 Diagnostic systems without information about patients’ sex tend to
 mispredict disease in females because they are trained mostly on data
-from males <span class="citation" data-cites="Straw2022">[12]</span>.
+from males <span class="citation" data-cites="Straw2022">[22]</span>.
 Finding ways to achieve fairness is difficult: there is no single method
 or definition of fairness that straightforwardly translates into fair
 outcomes for all.</p>
@@ -430,9 +430,9 @@ ML systems, even when a model fulfills technical fairness metrics; for
 instance, patients and doctors often disagree on what constitutes
 fairness. People often view identical decisions as more unfair if they
 come from a statistical model <span class="citation"
-data-cites="lee2018understanding">[13]</span>; they also often disagree
+data-cites="lee2018understanding">[23]</span>; they also often disagree
 on which fairness-oriented features are the most important <span
-class="citation" data-cites="harrison2020emperical">[14]</span>, such as
+class="citation" data-cites="harrison2020emperical">[24]</span>, such as
 whether race should be used by the model or whether the model’s accuracy
 or false positive rates are more important. It is unclear how to define
 fairness in a generally acceptable way.</p>
@@ -660,54 +660,52 @@ Rozado, <span>“The unequal treatment of demographic groups by
 ChatGPT/OpenAI content moderation system.”</span> [Online]. Available:
 <a
 href="https://davidrozado.substack.com/p/openaicms">https://davidrozado.substack.com/p/openaicms</a></div>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-angwin2016bias" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] J.
+<div class="csl-left-margin">[11] J.
 Angwin, J. Larson, S. Mattu, and L. Kirchner, <span>“Machine
 bias.”</span> [Online]. Available: <a
 href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a></div>
 </div>
 <div id="ref-dieterich2016compas" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] W.
+<div class="csl-left-margin">[12] W.
 Dieterich, C. Mendoza, and T. Brennan, <span>“COMPAS risk scales:
 Demonstrating accuracy equity and predictive parity.”</span> vol. 7, pp.
 1–36, 2016.</div>
 </div>
 <div id="ref-harvard2017state" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div
+<div class="csl-left-margin">[13] </div><div
 class="csl-right-inline"><span>“State v. loomis,”</span> <em>Harvard Law
 Review</em>, vol. 130, 2017.</div>
 </div>
 <div id="ref-corbettdavies2018measure" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[4] S.
+<div class="csl-left-margin">[14] S.
 Corbett-Davies, J. D. Gaebler, H. Nilforoshan, R. Shroff, and S. Goel,
 <span>“The measure and mismeasure of fairness.”</span> 2018. Available:
 <a
 href="https://arxiv.org/abs/1808.00023">https://arxiv.org/abs/1808.00023</a></div>
 </div>
 <div id="ref-chouldechova2016fair" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] A.
+<div class="csl-left-margin">[15] A.
 Chouldechova, <span>“Fair prediction with disparate impact: A study of
 bias in recidivism prediction instruments.”</span> 2016. Available: <a
 href="https://arxiv.org/abs/1610.07524">https://arxiv.org/abs/1610.07524</a></div>
 </div>
 <div id="ref-kleinberg2016inherent" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] J.
+<div class="csl-left-margin">[16] J.
 Kleinberg, S. Mullainathan, and M. Raghavan, <span>“Inherent trade-offs
 in the fair determination of risk scores.”</span> 2016. Available: <a
 href="https://arxiv.org/abs/1609.05807">https://arxiv.org/abs/1609.05807</a></div>
 </div>
 <div id="ref-zahn2009cost" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] M.
+<div class="csl-left-margin">[17] M.
 von Zahn and S. Feuerrigel, <span>“The cost of fairness in AI: Evidence
 from e-commerce,”</span> <em>Business and Information Systems
 Engineering</em>, vol. 64, 2009, doi: <a
 href="https://doi.org/10.1007/s12599-021-00716-w">10.1007/s12599-021-00716-w</a>.</div>
 </div>
 <div id="ref-biswas2020machine" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] S.
+<div class="csl-left-margin">[18] S.
 Biswas and H. Rajan, <span>“Do the machine learning models on a crowd
 sourced platform exhibit bias? An empirical study on model
 fairness,”</span> in <em>Proceedings of the 28th <span>ACM</span> joint
@@ -717,14 +715,14 @@ doi: <a
 href="https://doi.org/10.1145/3368089.3409704">10.1145/3368089.3409704</a>.</div>
 </div>
 <div id="ref-poulain2023improving" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] R.
+<div class="csl-left-margin">[19] R.
 Poulain, M. F. B. Tarek, and R. Beheshti, <span>“Improving fairness in
 AI models on electronic health records: The case for federated learning
 methods,”</span> 2023. Available: <a
 href="https://arxiv.org/abs/2305.11386">https://arxiv.org/abs/2305.11386</a></div>
 </div>
 <div id="ref-calderone1990influence" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] K.
+<div class="csl-left-margin">[20] K.
 L. Calderone, <span>“The influence of gender on the frequency of pain
 and sedative medication administered to postoperative patients,”</span>
 <em>Sex Roles</em>, vol. 23, pp. 713–725, 1990, Available: <a
@@ -732,7 +730,7 @@ href="https://doi.org/10.1007/bf00289259">https://doi.org/10.1007/bf00289259</a>
 </div>
 <div id="ref-rodriguez-castro2014female" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[11] K.
+<div class="csl-left-margin">[21] K.
 I. Rodríguez-Castro, E. D. Martin, M. Gambato, S. Lazzaro, E. Villa, and
 P. Burra, <span>“Female gender in the setting of liver
 transplantation,”</span> <em>World J Transplant</em>, vol. 4, 2014, doi:
@@ -740,7 +738,7 @@ transplantation,”</span> <em>World J Transplant</em>, vol. 4, 2014, doi:
 href="https://doi.org/10.5500/wjt.v4.i4.229">10.5500/wjt.v4.i4.229</a>.</div>
 </div>
 <div id="ref-Straw2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] I.
+<div class="csl-left-margin">[22] I.
 Straw and H. Wu, <span>“Investigating for bias in healthcare algorithms:
 A sex-stratified analysis of supervised machine learning models in liver
 disease prediction,”</span> <em>BMJ Health &amp; Care Informatics</em>,
@@ -748,7 +746,7 @@ vol. 29, p. 100457, Apr. 2022, doi: <a
 href="https://doi.org/10.1136/bmjhci-2021-100457">10.1136/bmjhci-2021-100457</a>.</div>
 </div>
 <div id="ref-lee2018understanding" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] M.
+<div class="csl-left-margin">[23] M.
 K. Lee, <span>“Understanding perception of algorithmic decisions:
 Fairness, trust, and emotion in response to algorithmic
 management,”</span> <em>Big Data &amp; Society</em>, vol. 5, 2018,
@@ -756,7 +754,7 @@ Available: <a
 href="https://api.semanticscholar.org/CorpusID:149040922">https://api.semanticscholar.org/CorpusID:149040922</a></div>
 </div>
 <div id="ref-harrison2020emperical" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] G.
+<div class="csl-left-margin">[24] G.
 Harrison, J. Hanson, C. Jacinto, J. Ramirez, and B. Ur, <span>“An
 empirical study on the perceived fairness of realistic, imperfect
 machine learning models,”</span> Jan. 2020, pp. 392–402. doi: <a

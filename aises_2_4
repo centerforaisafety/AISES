@@ -100,9 +100,9 @@ and more.</p>
 <h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
 <h3 id="introduction-1">Introduction</h3>
-<p><strong>Power laws in the context of DL are called scaling laws <span
+<p><strong>Power laws in the context of DL are called scaling laws.</strong> Scaling laws <span
 class="citation" data-cites="hestness2017deep kaplan2020scaling">[2],
-[3]</span>.</strong> Scaling laws predict loss given model size and
+[3]</span> predict loss given model size and
 dataset size in a power-law relationship. Model size is usually measured
 in parameters, while dataset size is measured in tokens. As both
 variables increase, the model’s loss tends to decrease. This decrease in
@@ -199,7 +199,7 @@ size increases dramatically.<p>
 <figure id="fig:enter-label">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/test_loss.png" class="tb-img-full" style="width: 60%"/>
 <p class="tb-caption">Figure 2.25: The scaling laws for different DL models look remarkably similar. <span
-class="citation" data-cites="brown2020language">[6]</span></p>
+class="citation" data-cites="brown2020language">[3]</span></p>
 <!--<figcaption>Scaling laws for different DL models - <span-->
 <!--class="citation" data-cites="brown2020language">[6]</span></figcaption>-->
 </figure>
@@ -224,7 +224,7 @@ systems.</strong> Hard-coding AI systems to follow pre-defined processes
 using expert insights has proven slower and more failure-prone than
 building large models that learn from large datasets. The following
 observation is Richard Sutton’s "bitter lesson" <span class="citation"
-data-cites="sutton2019bitter">[7]</span>:<p>
+data-cites="sutton2019bitter">[6]</span>:<p>
 </p>
 <ol>
 <li><p>AI researchers have often tried to build knowledge into
@@ -272,12 +272,18 @@ Hestness <em>et al.</em>, <span>“Deep learning scaling is predictable,
 empirically.”</span> 2017. Available: <a
 href="https://arxiv.org/abs/1712.00409">https://arxiv.org/abs/1712.00409</a></div>
 </div>
-<div id="ref-kaplan2020scaling" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] J.
-Kaplan <em>et al.</em>, <span>“Scaling laws for neural language
-models.”</span> 2020. Available: <a
-href="https://arxiv.org/abs/2001.08361">https://arxiv.org/abs/2001.08361</a></div>
+<div id="ref-brown2020language" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] T.
+B. Brown <em>et al.</em>, <span>“Language models are few-shot
+learners.”</span> 2020. Available: <a
+href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a></div>
 </div>
+<!--<div id="ref-kaplan2020scaling" class="csl-entry" role="listitem">-->
+<!--<div class="csl-left-margin">[3] J.-->
+<!--Kaplan <em>et al.</em>, <span>“Scaling laws for neural language-->
+<!--models.”</span> 2020. Available: <a-->
+<!--href="https://arxiv.org/abs/2001.08361">https://arxiv.org/abs/2001.08361</a></div>-->
+<!--</div>-->
 <div id="ref-hoffmann2022training" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[4] J.
 Hoffmann <em>et al.</em>, <span>“Training compute-optimal large language
@@ -290,14 +296,8 @@ class="csl-right-inline">nostalgebraist, <span>“Chinchilla’s wild
 implications.”</span> Accessed: Sep. 28, 2023. [Online]. Available: <a
 href="https://www.alignmentforum.org/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications">https://www.alignmentforum.org/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications</a></div>
 </div>
-<div id="ref-brown2020language" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] T.
-B. Brown <em>et al.</em>, <span>“Language models are few-shot
-learners.”</span> 2020. Available: <a
-href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a></div>
-</div>
 <div id="ref-sutton2019bitter" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] R.
+<div class="csl-left-margin">[6] R.
 Sutton, <span>“The bitter lesson.”</span> Accessed: Sep. 28, 2023.
 [Online]. Available: <a
 href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">http://www.incompleteideas.net/IncIdeas/BitterLesson.html</a></div>

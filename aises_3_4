@@ -413,7 +413,7 @@ the efficiency with which it uses them. Finally, we will discuss types
 of prospective power, which can treat power as the expected impact an
 individual has on other individuals’ wellbeing.</p>
 <p><strong>French &amp; Raven’s bases of power <span class="citation"
-data-cites="French1959TheBO">[1]</span>.</strong> In a social community,
+data-cites="French1959TheBO">[15]</span>.</strong> In a social community,
 an agent may influence the beliefs or behaviors of other agents in order
 to pursue their goals. <em>Raven’s bases of power</em> attempt to
 taxonomize the many distinct ways to influence others. These bases of
@@ -440,14 +440,14 @@ action.</p></li>
 <li><p><em>Informational power</em>: agents can trade information for
 influence, and individuals with special information can selectively
 reveal it to gain strategic advantages <span class="citation"
-data-cites="raven1964power">[2]</span>.</p></li>
+data-cites="raven1964power">[16]</span>.</p></li>
 </ul>
 <p>Ultimately, Raven’s bases of power describe the various distinct
 methods that agents can use to change each other’s behavior.</p>
 <p><strong><span
 class="math inline">Power = Resources × Intelligence</span></strong>
 Thomas Hobbes described power as “present means to obtain some future
-good” <span class="citation" data-cites="hobbes1651hobbes">[3]</span>.
+good” <span class="citation" data-cites="hobbes1651hobbes">[17]</span>.
 In the most general terms, these “present means” encompass all of the
 resources that an agent has at its disposal. Resources can include
 money, reputation, expertise, items, contracts, promises, and
@@ -459,7 +459,7 @@ describes power is <span
 class="math inline">Power = Resources × Intelligence</span>. Power is
 not the same as resources or intelligence, but rather the combination of
 the two <span class="citation"
-data-cites="muehlhauser2012intelligence">[4]</span>. In limiting the
+data-cites="muehlhauser2012intelligence">[18]</span>. In limiting the
 power of AIs, we could either limit their intelligence or place hard
 limits on the resources AIs have.</p>
 <p><strong>Power as expected future impact.</strong> In our view, power
@@ -473,7 +473,7 @@ agent to be less powerful because we expect it to influence the future
 far less on average.<p>
 A formalization of power which attempts to capture this distinction is
 <em>prospective power</em> <span class="citation"
-data-cites="pan2023rewards">[5]</span>, which roughly denotes the
+data-cites="pan2023rewards">[19]</span>, which roughly denotes the
 magnitude of an agent’s influence, averaged over possible trajectories
 the agent would follow. A concrete example of prospective power is the
 expected future impact that an agent will have on various agents’
@@ -544,7 +544,7 @@ given open-ended, long-term goals that explicitly involve gaining power,
 such as “Do whatever it takes to earn as much money as possible.”</p>
 <p><strong>Power-seeking AI does not have to be deployed ubiquitously at
 first <span class="citation"
-data-cites="carlsmith2022powerseeking">[6]</span>.</strong> Even if most
+data-cites="carlsmith2022powerseeking">[20]</span>.</strong> Even if most
 people use AI in safe and responsible ways, a small number of actors who
 use AI in risky or even malicious ways could pose a serious threat.
 Companies and militaries that do not seek power using AI could be
@@ -567,7 +567,7 @@ not be happy.</p>
 <p><strong>Instrumental convergence.</strong> In order to achieve a
 <em>terminal goal</em>, an agent might pursue a subgoal, termed an
 <em>instrumental goal</em> <span class="citation"
-data-cites="bostrom2014superintelligence">[7]</span>. Making money,
+data-cites="bostrom2014superintelligence">[13]</span>. Making money,
 obtaining political power, and becoming more intelligent are examples of
 instrumental goals that are useful for achieving a wide variety of
 terminal goals. These goals can be called <em>convergent
@@ -581,8 +581,8 @@ detail, and discuss points that support and undermine the concern.</p>
 <p><strong>Self-preservation as an example of power seeking.</strong> A
 basic example of power-seeking behavior is self-preservation <span
 class="citation"
-data-cites="bostrom2014superintelligence omohundro2008artificial">[7],
-[8]</span>. If an agent is not able to successfully preserve itself, it
+data-cites="bostrom2014superintelligence omohundro2008artificial">[13],
+[21]</span>. If an agent is not able to successfully preserve itself, it
 will be unable to influence other individuals, so it would have less
 power.<p>
 For a concrete example of self-preservation behavior emerging
@@ -594,7 +594,7 @@ its goal. So, the robot could disable its off-switch to pre-empt the
 possibility of humans shutting it off and preventing it from achieving
 its goal. As Stuart Russell notes, “you can’t fetch the coffee if you
 are dead” <span class="citation"
-data-cites="russell2021human">[9]</span>. (For a more detailed
+data-cites="russell2021human">[22]</span>. (For a more detailed
 mathematical formalization and analysis, see the Utility Functions chapter.) This is an
 example of self-preservation unintentionally emerging as a subgoal for
 seemingly benign goals.</p>
@@ -605,12 +605,12 @@ power. When OpenAI trained reinforcement learning agents to play a
 hide-and-seek game, the agents independently learned to use elements of
 the environment as tools, rearranging them as barriers to hide behind
 and preventing opponents from controlling them <span class="citation"
-data-cites="baker2019emergent">[10]</span>. Among humans, we observe
+data-cites="baker2019emergent">[23]</span>. Among humans, we observe
 that greater financial resources are instrumentally beneficial in
 service of a wide variety of goals. In reinforcement learning, the
 well-studied exploration-exploitation trade-off can be formulated as a
 demonstration of the general value of informational resource acquisition
-<span class="citation" data-cites="silver2014exploration">[11]</span>.
+<span class="citation" data-cites="silver2014exploration">[24]</span>.
 Outside of machine learning, some corporations exercise monopoly power
 to drive up prices, and some nations use military power to bully their
 neighbors, so power-seeking can sometimes have harmful consequences for
@@ -653,7 +653,7 @@ particular, a community of agents may be in an equilibrium where they
 cooperate to foil any single agent that seeks too much power. These
 “balance of power” dynamics have been observed between nations in the
 history of international relations <span class="citation"
-data-cites="kegley2020politics">[12]</span>. Acquiring power does not
+data-cites="kegley2020politics">[25]</span>. Acquiring power does not
 inevitably become more and more simple for an AI as it increases in
 intelligence, as other AIs will also become more intelligent and could
 increasingly counter their efforts to gain dominance.</p>
@@ -697,7 +697,7 @@ power. Unlike traditional realists who view conflict and power-seeking
 behavior of states as a product of human nature, structural realists
 believe that the structure of the international system compels states to
 seek power <span class="citation"
-data-cites="mearsheimer2007structural">[13]</span>. In the international
+data-cites="mearsheimer2007structural">[26]</span>. In the international
 system, states could be harmed or destroyed by other powerful states,
 and since there is no ultimate authority guaranteed to protect them,
 states are forced to compete for power in order to survive.<p>
@@ -707,7 +707,7 @@ states, structural realists base their explanations on a two key
 assumptions:</p>
 <ol>
 <li><p>Self-help system. States operate in a “self-help” system <span
-class="citation" data-cites="mearsheimer2007structural">[13]</span>
+class="citation" data-cites="mearsheimer2007structural">[26]</span>
 where there is no centralized authority, no hierarchy (“anarchic”), and
 no ultimate arbiter standing above states in international relations. So
 to speak, when states dial 911, there is no one on the other end. This
@@ -719,7 +719,7 @@ Though states can act according to moral considerations or global
 welfare, these will always be secondary to acquiring resources,
 alliances, and military capabilities to ensure their safety and counter
 potential threats <span class="citation"
-data-cites="waltz2010theory">[14]</span>.</p></li>
+data-cites="waltz2010theory">[27]</span>.</p></li>
 </ol>
 <p>Structural realists make other assumptions, including that states
 have some potential to inflict harm on others, that states are rational
@@ -730,7 +730,7 @@ will mainly act in ways to defend or expand their power. For structural
 realists, power is the primary currency (e.g., military, economic,
 technological, and diplomatic power). As we can see, structural realists
 do not need to make strong assumptions about states themselves <span
-class="citation" data-cites="sep-realism-intl-relations">[15]</span>.
+class="citation" data-cites="sep-realism-intl-relations">[28]</span>.
 For structural realists, states are treated like black boxes—their value
 system or regime type doesn’t play a significant role in predicting
 their behavior. The architecture of the system traps them and largely
@@ -738,7 +738,7 @@ determines their behavior, which is that they must seek power as a means
 to survive. The result is an unceasing power competition.</p>
 <p><strong>Power seeking is not necessarily dominance seeking <span
 class="citation"
-data-cites="montgomery2006breaking">[16]</span>.</strong> Within
+data-cites="montgomery2006breaking">[29]</span>.</strong> Within
 structural realism, there is a notable division concerning the question
 of how much power states should seek. Defensive realists, like Kenneth
 Waltz, argue that trying to maximize a country’s power in the world is
@@ -751,7 +751,7 @@ circumstances, pursuing hegemony can be beneficial.</p>
 associated with structural realism is the concept of balancing.
 <em>Balancing</em> refers to the strategies states use to counteract the
 power or influence of other states, particularly rivals <span
-class="citation" data-cites="mearsheimer2007structural">[13]</span>.
+class="citation" data-cites="mearsheimer2007structural">[26]</span>.
 This can take two forms. Internal balancing takes place as states
 strengthen their own military, economic, or technological abilities with
 the overall goal of enhancing their own security and deterring
@@ -778,7 +778,7 @@ preserve themselves, lest they be counteracted by other states.</p>
 hegemony, however, is influenced by the offense-defense balance, i.e.
 the balance between its offensive capabilities and the defensive
 capabilities of other states <span class="citation"
-data-cites="mearsheimer2007structural">[13]</span>. A state with
+data-cites="mearsheimer2007structural">[26]</span>. A state with
 stronger offensive capabilities has the means to conquer or coerce other
 states, making it more likely to engage in expansionist policies,
 establishing control over a region or the international system as a
@@ -914,7 +914,7 @@ with a new strategic reality where AI systems can match or exceed humans
 in their influence over the world. Competent, power-seeking AI using
 long-term planning to achieve open-ended objectives, can exercise more
 influence than systems with myopic plans and narrow goals <span
-class="citation" data-cites="Carlsmith2022IsPA">[17]</span>. Given the
+class="citation" data-cites="Carlsmith2022IsPA">[30]</span>. Given the
 potential rewards of such capabilities, AI designers may be incentivized
 to create more agentic systems that can act autonomously and set their
 own subgoals.</p>
@@ -926,7 +926,7 @@ potential catastrophes involving misuse or rogue AI.</p>
 <p><strong>Powerful AIs systems could pose unique threats.</strong>
 Powerful AI systems pose a unique risk since they may actively wield
 their power to counteract attempts to correct or control them <span
-class="citation" data-cites="Carlsmith2022IsPA">[17]</span>. If AI
+class="citation" data-cites="Carlsmith2022IsPA">[30]</span>. If AI
 systems are power seeking and do not share our values (possibly due to
 inadequate proxies), they could become a problem that resists being
 solved. The more capable these systems become, the better able they will
@@ -963,7 +963,7 @@ on the first topic, while the second one is discussed in more detail in the Bene
 <p><strong>Control of AIs' propensities is commonly based on comparison of outputs.</strong> Reinforcement learning is a set of approaches to machine learning that allow AI systems
 to learn how to explore different possible actions to attain as much reward as possible. The most prominent techniques used for current language models are Reinforcement Learning 
 from Human Feedback (RLHF) <span
-class="citation" data-cites="Ouyang2022TrainingLM">[18]</span> and Direct Preference Optimization (DPO) <span
+class="citation" data-cites="Ouyang2022TrainingLM">[31]</span> and Direct Preference Optimization (DPO) <span
 class="citation" data-cites="rafailov2023dpo">[19]</span>. These techniques involve collecting a dataset of 
 comparisons of responses from a language model. These comparisons indicate which responses were preferred by human users or by AI systems prompted to compare the responses. They can be collected
 after the model's initial pre-training on a large text dataset. In RLHF, a reward model is fitted to this the dataset of comparisons and is then used to train the language model to 
@@ -979,7 +979,7 @@ aim to control or remove some internal representations in order to influence its
 
 <p><strong>Representation control.</strong> With representation control, we can adjust a model's representation, for example using differences in activations in response to contrasting
 prompts to identify relevant parts of a model to be targeted. We could use this to delete unintended knowledge or skills from a network <span
-class="citation" data-cites="li2024wmdp">[20]</span>. As another example, we can use 
+class="citation" data-cites="li2024wmdp">[33]</span>. As another example, we can use
 representation control to control whether an AI lies or is honest <span
 class="citation" data-cites="zou2023repe">[21]</span>. Though this research area is relatively new, its techniques show early promise.
 
@@ -988,7 +988,7 @@ from an AI system. This was originally discussed in the context of privacy conce
 of unlearning techniques are highly relevant in the context of AI misuse or rogue AI systems. With effective unlearning techniques, we may be able to remove specific capabilities from AI 
 systems so that they are not able to support these actors with planning terrorist acts or other kinds of severe misuse. For example, by removing certain types of virology knowledge from 
 AI systems, we could make these systems less useful to anyone interested in creating bioweapons <span
-class="citation" data-cites="li2024wmdp">[20]</span>. As previously discussed in 1.2, one of ways that AI 
+class="citation" data-cites="li2024wmdp">[33]</span>. As previously discussed in 1.2, one of ways that AI
 systems could lead to societal-scale catastrophes is by enabling a much wider range of people to carry out catastrophic acts of terrorism such as unleashing a bio-engineered pandemic. 
 More speculatively, we might be able to reduce the likelihood and potential danger posed by deceptive or power-seeking AI systems by removing certain types of knowledge about their 
 environment or mode of operation.
@@ -1103,31 +1103,29 @@ edition. <span>Oxford</span>: <span>Oxford University Press</span>,
 Casper <em>et al.</em>, <span>“Red <span>Teaming Deep Neural
 Networks</span> with <span>Feature Synthesis Tools</span>.”</span>
 <span>arXiv</span>, Jul. 2023.</div>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-French1959TheBO" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] J.
+<div class="csl-left-margin">[15] J.
 R. French and B. H. Raven, <span>“The bases of social power.”</span>
 1959.</div>
 </div>
 <div id="ref-raven1964power" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] B.
+<div class="csl-left-margin">[16] B.
 H. Raven, <span>“Social influence and power,”</span> 1964.</div>
 </div>
 <div id="ref-hobbes1651hobbes" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] T.
+<div class="csl-left-margin">[17] T.
 Hobbes, <em>Hobbes’s <span>Leviathan</span></em>. 1651.</div>
 </div>
 <div id="ref-muehlhauser2012intelligence" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[4] L.
+<div class="csl-left-margin">[18] L.
 Muehlhauser and A. Salamon, <span>“Intelligence explosion: Evidence and
 import,”</span> in <em>Singularity hypotheses: A scientific and
 philosophical assessment</em>, A. H. Eden and J. H. Moor, Eds.,
 Springer, 2012, pp. 15–40.</div>
 </div>
 <div id="ref-pan2023rewards" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] A.
+<div class="csl-left-margin">[19] A.
 Pan <em>et al.</em>, <span>“Do the rewards justify the means? Measuring
 trade-offs between rewards and ethical behavior in the MACHIAVELLI
 benchmark.”</span> 2023. Available: <a
@@ -1135,58 +1133,51 @@ href="https://arxiv.org/abs/2304.03279">https://arxiv.org/abs/2304.03279</a></di
 </div>
 <div id="ref-carlsmith2022powerseeking" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[6] J.
+<div class="csl-left-margin">[20] J.
 Carlsmith, <span>“Is power-seeking AI an existential risk?”</span> 2022.
 Available: <a
 href="https://arxiv.org/abs/2206.13353">https://arxiv.org/abs/2206.13353</a></div>
 </div>
-<div id="ref-bostrom2014superintelligence" class="csl-entry"
-role="listitem">
-<div class="csl-left-margin">[7] N.
-Bostrom, <em>Superintelligence: Paths, dangers, strategies</em>, First
-edition. <span>Oxford</span>: <span>Oxford University Press</span>,
-2014.</div>
-</div>
 <div id="ref-omohundro2008artificial" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] S.
+<div class="csl-left-margin">[21] S.
 Omohundro, <span>“Artificial <span>General Intelligence</span> 2008:
 <span>Proceedings</span> of the <span>First AGI
 Conference</span>,”</span> in <em>Artificial <span>General
 Intelligence</span> 2008</em>, 2008.</div>
 </div>
 <div id="ref-russell2021human" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] S.
+<div class="csl-left-margin">[22] S.
 Russell, <span>“Human-compatible artificial intelligence,”</span>
 <em>Human-like machine intelligence</em>, pp. 3–23, 2021.</div>
 </div>
 <div id="ref-baker2019emergent" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] B.
+<div class="csl-left-margin">[23] B.
 Baker <em>et al.</em>, <span>“Emergent <span>Tool Use From Multi-Agent
 Autocurricula</span>,”</span> <em>arXiv.org</em>. Sep. 2019.</div>
 </div>
 <div id="ref-silver2014exploration" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[11] D.
+<div class="csl-left-margin">[24] D.
 Silver, <span>“Exploration and exploitation.”</span> Computer Science
 Department, University of London, 2014.</div>
 </div>
 <div id="ref-kegley2020politics" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] C.
+<div class="csl-left-margin">[25] C.
 W. Kegley and S. L. Blanton, <em>Trend and transformation, 2014 -
 2015</em>. 2020, p. 259.</div>
 </div>
 <div id="ref-mearsheimer2007structural" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[13] J.
+<div class="csl-left-margin">[26] J.
 J. Mearsheimer, <em>Structural realism</em>. 2007, pp. 77–94.</div>
 </div>
 <div id="ref-waltz2010theory" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] K.
+<div class="csl-left-margin">[27] K.
 Waltz, <em>Theory of international politics</em>. Waveland Press, 2010,
 p. 93.</div>
 </div>
 <div id="ref-sep-realism-intl-relations" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[15] W.
+<div class="csl-left-margin">[28] W.
 J. Korab-Karpowicz, <span>“<span class="nocase">Political Realism in
 International Relations</span>,”</span> in <em>The <span>Stanford</span>
 encyclopedia of philosophy</em>, <span>S</span>ummer 2018., E. N. Zalta,
@@ -1196,27 +1187,27 @@ class="uri">https://plato.stanford.edu/archives/sum2018/entries/realism-intl-rel
 Metaphysics Research Lab, Stanford University, 2018.</div>
 </div>
 <div id="ref-montgomery2006breaking" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[16] E.
+<div class="csl-left-margin">[29] E.
 Montgomery, <span>“Breaking out of the security dilemma: Realism,
 reassurance, and the problem of uncertainty,”</span> <em>International
 Security - INT SECURITY</em>, vol. 31, pp. 151–185, Oct. 2006, doi: <a
 href="https://doi.org/10.1162/isec.2006.31.2.151">10.1162/isec.2006.31.2.151</a>.</div>
 </div>
 <div id="ref-Carlsmith2022IsPA" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[17] J.
+<div class="csl-left-margin">[30] J.
 Carlsmith, <span>“Is power-seeking AI an existential risk?”</span>
 <em>ArXiv preprint arXiv: 2206.13353</em>, 2022.</div>
 </div>
 <div id="ref-ouyang2022training" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[18] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
+<div class="csl-left-margin">[31] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
 <em>ArXiv preprint arXiv: 2203.02155</em>, 2022.</div>
 </div>
 <div id="ref-rafailov2023direct" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[19] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
+<div class="csl-left-margin">[32] Long Ouyang et al., <span>“Training language models to follow instructions with human feedback”</span>
 <em>ArXiv preprint arXiv: 2203.02155</em>, 2022.</div>
 </div>
 <div id="ref-li2024wmdp" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[20] Rafael Rafailov et al., <span>“Direct Preference Optimization: Your Language Model is Secretly a Reward Model”</span>
+<div class="csl-left-margin">[33] Rafael Rafailov et al., <span>“Direct Preference Optimization: Your Language Model is Secretly a Reward Model”</span>
 <em>ArXiv preprint arXiv: 2305.18290</em>, 2023.</div>
 </div>
 </div>

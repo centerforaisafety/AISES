@@ -65,7 +65,7 @@ cooperation.<p>
 competitive and evolutionary pressures of AI races we have explored in
 this chapter. For example, the “merge-and-assist” clause of OpenAI’s
 charter <span class="citation"
-data-cites="openAImerge-assist">[1]</span> outlines their commitment to
+data-cites="ref-openAI">[1]</span> outlines their commitment to
 cease competition with—and provide assistance to—any “value-aligned,
 safety-conscious” AI developer who appears close to producing AGI, in
 order to reduce the risk of eroding safety precautions. 
@@ -101,7 +101,7 @@ defection, individuals and groups are more likely to cooperate.</p></li>
 cooperate is through <em>direct reciprocity</em>: when one agent
 performs a favor for another because they expect the recipient to return
 this favor in the future <span class="citation"
-data-cites="trivers1971evolution">[14]</span>. We capture this core idea
+data-cites="trivers1971evolution">[3]</span>. We capture this core idea
 in idioms like “quid pro quo,” or “you scratch my back, I’ll scratch
 yours.” Direct reciprocity requires repeated interaction between the
 agents: the more likely they are to meet again in the future, the
@@ -162,12 +162,12 @@ behavior during subsequent hunts. Similarly, chimpanzees engage in
 reciprocal grooming, where they exchange grooming services with one
 another with the expectation that they will be returned during a later
 session <span class="citation"
-data-cites="schino2007grooming">[15]</span>.<p>
+data-cites="schino2007grooming">[4]</span>.<p>
 Direct reciprocity in human society. Among humans, one prominent example
 of direct reciprocity is commerce. Commerce is a form of direct
 reciprocity “which offers positive-sum benefits for both parties and
 gives each a selfish stake in the well-being of the other” <span
-class="citation" data-cites="pinker2012better">[16]</span>; commerce can
+class="citation" data-cites="pinker2012better">[5]</span>; commerce can
 be a win-win scenario for all parties involved. For instance, if Alice
 produces wine and Bob produces cheese, but neither Alice nor Bob has the
 resources to produce what the other can, both may realize they are
@@ -257,7 +257,7 @@ consider the favor’s effect on their own reputation. If a donor gains a
 “helpful and trustworthy” reputation by providing a favor, this may
 motivate others to cooperate with them more often. We call this
 reputation-based mechanism of cooperation <em>indirect reciprocity</em>
-<span class="citation" data-cites="nowak1998evolution">[18]</span>.
+<span class="citation" data-cites="nowak1998evolution">[7]</span>.
 Agents may cooperate to develop and maintain good reputations since
 doing so is likely to benefit them in the long-term. Indirect
 reciprocity is particularly useful in larger groups, where the
@@ -308,7 +308,7 @@ fish (fish that feed on parasites or mucus on the bodies of other fish)
 can either cooperate with client fish (fish that receive the “services”
 of cleaner fish) by feeding on parasites that live on their bodies, or
 cheat, by feeding on the mucus that client fish excrete <span
-class="citation" data-cites="bshary2006image">[19]</span>. Client fish
+class="citation" data-cites="bshary2006image">[8]</span>. Client fish
 tend to cooperate more frequently with cleaner fish that have a “good
 reputation,” which are those that feed on parasites rather than mucus.
 Similarly, while vampire bats are known to share food with their kin,
@@ -316,7 +316,7 @@ they also share food with unrelated members of their group. Vampire bats
 more readily share food with unrelated bats when they know the
 recipients of food sharing also have a reputation for being consistent
 and reliable food donors <span class="citation"
-data-cites="carter2013food">[20]</span>.</p>
+data-cites="carter2013food">[10]</span>.</p>
 <p><strong>Indirect reciprocity in human society.</strong> Language
 provides a way to obtain information about others without ever having
 interacted with them, allowing humans to adjust reputations accordingly
@@ -330,7 +330,7 @@ between others but are not a part of. Gossip allows us to track each
 others’ reputations and enforce cooperative social norms, reducing the
 probability that cooperative efforts are exploited by others with
 reputations for dishonesty <span class="citation"
-data-cites="balliet2020indirect">[21]</span>.</p>
+data-cites="balliet2020indirect">[11]</span>.</p>
 <p><strong>Indirect reciprocity in AIs.</strong> AIs could develop a
 reputation system where they observe and evaluate each others’
 behaviors, with each accumulating a reputation score based on their
@@ -368,7 +368,7 @@ fewer cooperators. Under such conditions, selection at the group level
 influences selection at the individual level (traits that benefit the
 group may not necessarily benefit the individual), and we refer to this
 mechanism as <em>group selection</em> <span class="citation"
-data-cites="west2007social">[22]</span>. Importantly, between groups,
+data-cites="west2007social">[12]</span>. Importantly, between groups,
 groups with a higher proportion of cooperators have an advantage.
 Cooperative groups are better able to coordinate their allocation of
 resources, establish channels for reciprocal exchange, and maintain
@@ -440,7 +440,7 @@ and this could promote antagonism between AIs and humans.</p>
 <p><strong>Kin selection overview.</strong> When driven by <em>kin
 selection</em>, agents are more likely to cooperate with others with
 whom they share a higher degree of genetic relatedness <span
-class="citation" data-cites="hamilton1964genetical">[23]</span>. The
+class="citation" data-cites="hamilton1964genetical">[13]</span>. The
 more closely related agents are, the more inclined to cooperate they
 will be. Thus, kin selection favors cooperation under the following
 conditions: an agent will help their relative only when the benefit to
@@ -452,7 +452,7 @@ Hamilton’s rule: <span
 class="math inline"><em>r</em><em>b</em> &gt; <em>c</em></span>, or
 equivalently <span
 class="math inline"><em>r</em> &gt; <em>c</em>/<em>b</em></span> <span
-class="citation" data-cites="hamilton1964genetical">[23]</span>; see
+class="citation" data-cites="hamilton1964genetical">[13]</span>; see
 Table 7.10 below.</p>
 <br>
 <div id="tab:kin">
@@ -540,7 +540,7 @@ cooperate with humans.</p>
 The theory of “Morality as Cooperation” (MAC) proposes that human morality was
 generated by evolutionary pressures to solve our most salient
 cooperation problems <span class="citation"
-data-cites="curry2016morality">[29]</span>. Natural selection has
+data-cites="curry2016morality">[14]</span>. Natural selection has
 discovered several mechanisms by which rational and self-interested
 agents may cooperate with one another, and MAC theory suggests that some
 of these mechanisms have driven the formation of our moral intuitions
@@ -549,7 +549,7 @@ humans have evolved to solve them, and how these mechanisms may have
 generated our ideas of morality. These are overviewed in Table 7.11.</p><div id="tab:cooperation">
 <table class="tableLayout" style="">
 <caption>Table 7.11: Mapping cooperation mechanisms to components of morality. <span class="citation"
-data-cites="curry2016morality">[21]</span></caption>
+data-cites="curry2016morality">[14]</span></caption>
 <thead>
 <tr class="header" style="background-color: #efefef">
 <th style="text-align: left;"><strong>Cooperation Problem</strong></th>
@@ -611,31 +611,31 @@ cooperate with their genetic relatives. This is because there may be
 copies of these agents’ genes in their relatives’ genomes, and so
 helping them may further propagate their own genes. We call this
 mechanism “kin selection” <span class="citation"
-data-cites="hamilton1964genetical">[23]</span>: an agent can gain a
+data-cites="hamilton1964genetical">[13]</span>: an agent can gain a
 fitness advantage by treating their genetic relatives preferentially, so
 long as the cost-benefit ratio of helping is less than the relatedness
 between the agent and their kin. Similarly, repeated inbreeding can
 reduce an agent’s fitness by increasing the probability of producing
 offspring with both copies of any recessive, deleterious alleles in the
 parents’ genomes <span class="citation"
-data-cites="charlesworth2009genetics">[30]</span>.<p>
+data-cites="charlesworth2009genetics">[15]</span>.<p>
 MAC theory proposes that the solutions to this cooperation problem
 (preferentially helping genetic relatives), such as kin selection and
 inbreeding avoidance, underpin several major moral ideas and customs.
 Evidence for this includes the fact that human societies are usually
 built around family units <span class="citation"
-data-cites="chagnon1979kin">[31]</span>, in which “family values” are
+data-cites="chagnon1979kin">[16]</span>, in which “family values” are
 generally considered highly moral. Loyalty to one’s close relatives and
 duties to one’s offspring are ubiquitous moral values across human
 cultures <span class="citation"
-data-cites="westermarck2022origin">[32]</span>. Our laws regarding
+data-cites="westermarck2022origin">[17]</span>. Our laws regarding
 inheritance <span class="citation"
-data-cites="smith1987inheritance">[33]</span> and our naming traditions
-<span class="citation" data-cites="oates2002nominal">[34]</span>
+data-cites="smith1987inheritance">[18]</span> and our naming traditions
+<span class="citation" data-cites="oates2002nominal">[19]</span>
 similarly reflect these moral intuitions, as do our rules and social
 taboos against incest <span class="citation"
-data-cites="lieberman2003does thornhill1991evolutionary">[35],
-[36]</span>.</p>
+data-cites="lieberman2003does thornhill1991evolutionary">[20],
+[21]</span>.</p>
 <p><strong>Mutualism.</strong> In game theory, some games are “positive
 sum” and “win-win”: the agents involved can increase the total available
 value by interacting with one another in particular ways, and all the
@@ -643,11 +643,11 @@ agents can then benefit from this additional value. Sometimes, securing
 these mutual benefits requires that the agents coordinate their behavior
 with each other. To solve this cooperation problem, agents may form
 alliances and coalitions <span class="citation"
-data-cites="connor1995benefits">[37]</span>. This may require the
+data-cites="connor1995benefits">[22]</span>. This may require the
 capacity for basic communication, rule-following <span class="citation"
-data-cites="van2008leadership">[38]</span>, and perhaps theory-of-mind
+data-cites="van2008leadership">[23]</span>, and perhaps theory-of-mind
 <span class="citation"
-data-cites="carruthers1996theories">[39]</span>.<p>
+data-cites="carruthers1996theories">[24]</span>.<p>
 MAC theory proposes that these cooperative mechanisms comprise important
 components of human morality. Examples include the formation of—and
 loyalty to—friendships, commitments to collaborative activities, and a
@@ -661,14 +661,14 @@ structured so as to incentivize “free riding” behaviors, the cooperation
 problem becomes how to ensure that others will reciprocate help and
 contribute to group efforts. To solve this problem, agents can enforce
 cooperation via systems of reward, punishment, policing, and reciprocity
-<span class="citation" data-cites="west2007evolutionary">[40]</span>.
+<span class="citation" data-cites="west2007evolutionary">[25]</span>.
 Direct reciprocity concerns doing someone a favor out of the expectation
 that they will reciprocate at a later date <span class="citation"
-data-cites="trivers1971evolution">[14]</span>. Indirect reciprocity
+data-cites="trivers1971evolution">[3]</span>. Indirect reciprocity
 concerns doing someone a favor to boost your reputation in the group,
 out of the expectation that this will increase the probability of a
 third party helping you in the future <span class="citation"
-data-cites="nowak1998evolution">[18]</span>.<p>
+data-cites="nowak1998evolution">[7]</span>.<p>
 Once again, MAC theory proposes that these mechanisms are found in our
 moral systems. Moral ideas such as trust, gratitude, patience, guilt,
 and forgiveness can all help to assure against free riding behaviors.
@@ -683,24 +683,24 @@ some amount of the total value available. Examples span from the wounds
 of rutting deer to the casualties of human wars. If the agents instead
 manage to cooperate with each other, they may both be able to benefit—a
 “win-win” outcome. One way to resolve conflict situations is division
-<span class="citation" data-cites="nash1950bargaining">[41]</span>:
+<span class="citation" data-cites="nash1950bargaining">[26]</span>:
 dividing up the value between the agents, such as through striking a
 bargain. Another solution is to respect prior ownership, deferring to
 the original “owner” of the valuable item <span class="citation"
-data-cites="gintis2007evolution">[42]</span>.<p>
+data-cites="gintis2007evolution">[27]</span>.<p>
 According to MAC theory, we can see both of these solutions in our ideas
 of morality. The cross-culturally ubiquitous notions of fairness,
 equality, and compromise help us resolve conflict by promoting the
 division of value between competitors <span class="citation"
-data-cites="henrich2005economic">[43]</span>. We see this in ideas such
+data-cites="henrich2005economic">[28]</span>. We see this in ideas such
 as “taking turns” and “I cut, you choose” <span class="citation"
-data-cites="brams1996fair">[44]</span>: mechanisms for turning a
+data-cites="brams1996fair">[29]</span>: mechanisms for turning a
 negative sum situation (conflict) into a zero sum one (negotiation), to
 mutual benefit. Likewise, condemnation of theft and respect for others’
 property are extremely important and common moral values <span
 class="citation"
 data-cites="herskovits1952economic westermarck2022origin">[32],
-[45]</span>. This set of moral rules may stem from the conflict
+[17]</span>. This set of moral rules may stem from the conflict
 resolution mechanism of deferring to prior ownership.</p>
 <p><strong>Conclusion.</strong> MAC theory argues that morality is
 composed of biological and cultural solutions humans evolved to the most
@@ -728,7 +728,7 @@ influence over other actors in a system.</p>
 one’s opponent is potentially aggressive, pacifism can be irrational. In
 his book, “The Better Angels of Our Nature,” Steven Pinker refers to
 this as the “Pacifist’s dilemma” <span class="citation"
-data-cites="pinker2012better">[16]</span>. In potential conflict
+data-cites="pinker2012better">[5]</span>. In potential conflict
 scenarios, agents have little to gain and a lot to lose when they
 respond to aggression with pacifism; see Table 7.12 below.
 This dynamic often inspires rational agents to choose conflict over
@@ -738,7 +738,7 @@ peace.<p>
 <div id="tab:pacifist">
 <table class="tableLayout">
 <caption>Table 7.12: Payoff matrix for the Pacifist’s dilemma without a Leviathan. <span class="citation"
-data-cites="pinker2012better">[8]</span></caption>
+data-cites="pinker2012better">[5]</span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -791,7 +791,7 @@ pacifism; see Table 7.13 below.<p>
 <div id="tab:leviathan">
 <table class="tableLayout">
 <caption>Table 7.13: Payoff matrix for the Pacifist’s dilemma with a Leviathan. <span class="citation"
-data-cites="pinker2012better">[8]</span></caption>
+data-cites="pinker2012better">[5]</span></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -918,7 +918,7 @@ humans.<p>
 Institutions can
 incentivize cooperation through externally imposed incentives that
 enforce cooperation and punish defection <span class="citation"
-data-cites="buterin2022institution">[46]</span>. We related this concept
+data-cites="buterin2022institution">[30]</span>. We related this concept
 to the idea of an AI Leviathan used to counteract selfish, powerful AIs.
 However, we also stressed that humans should take care to ensure their
 relationship with the AI Leviathan is symbiotic and transparent,
@@ -932,3 +932,177 @@ section, we discuss the nature of conflict, namely the various factors
 that may give rise to it. In doing so, we enhance our understanding of
 what might motivate conflict in AI, and subsequently, our abilities to
 predict and address AI-driven conflict scenarios.</p>
+
+
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+
+<div id="ref-openAI" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] OpenAI.   <em> OpenAI Charter.</em> 2018. url: <a href="https://openai.com/charter">https://openai.com/charter</a>
+</div>
+</div>
+
+<div id="ref-Nowak2006FiveRF" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] M.
+A. Nowak, <span>“Five rules for the evolution of cooperation,”</span>
+<em>Science</em>, 2006.</div>
+
+<div id="ref-trivers1971evolution" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] Robert Trivers, <em>“The Evolution of Reciprocal Altruism” </em>. In: Quarterly Review of Biology 46 (Mar.
+1971), pp. 35–57. doi: 10.1086/406755.
+</div>
+</div>
+
+<div id="ref-schino2007grooming" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4]  Gabriele Schino and Filippo Aureli. <em> “Grooming reciprocation among female primates: A meta-analysis”.</em>. In: Biology letters 4 (Nov. 2007), pp. 9–11. doi: 10.1098/rsbl.2007.0506.
+</div>
+</div>
+
+<div id="ref-pinker2012better" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6]  <em>“The better angels of our nature: Why violence has declined”.</em>. Penguin Books, 2012.
+</div>
+</div>
+
+<div id="nowak1998evolution" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] Martin A Nowak and Karl Sigmund. <em> “Evolution of indirect reciprocity by image scoring”.</em> In: Nature
+393.6685 (1998), pp. 573–577.
+</div>
+</div>
+
+<div id="ref-bshary2006image" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] Redouan Bshary and Alexandra Sara Grutter. <em> “Image scoring and cooperation in a cleaner fish
+mutualism”.</em> In: Nature 441 (2006), pp. 975–978. url: https://api.semanticscholar.org/CorpusID:
+4422277.
+</div>
+</div>
+
+<div id="ref-carter2013food" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10]  Gerald Carter and Gerald Wilkinson. <em> “Food sharing in vampire bats: Reciprocal help predicts donations
+more than relatedness or harassment”. </em> In: Proceedings. Biological sciences / The Royal Society 280
+(Feb. 2013), doi: 10.1098/rspb.2012.2573.
+</div>
+</div>
+
+<div id="ref-balliet2020indirect" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11]  Daniel Balliet, Junhui Wu, and Paul Lange. <em> “Indirect Reciprocity, Gossip, and Reputation-Based
+Cooperation”.</em> In: Oct. 2020, pp. 265–287. isbn: 9781462543984
+</div>
+</div>
+
+<div id="ref-west2007social" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12]  S. A. West, A. S. Griffin, and A. Gardner. <em> “Social semantics: altruism, cooperation, mutualism,
+strong reciprocity and group selection”. </em> In: Journal of Evolutionary Biology 20.2 (2007), pp. 415–432.
+</div>
+</div>
+
+<div id="ref-hamilton1964genetical" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] W. D. Hamilton. <em> “The genetical evolution of social behaviour. I”.</em> In: Journal of theoretical biology
+(1964).
+</div>
+</div>
+
+<div id="ref-curry2016morality" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] Oliver Scott Curry. <em> “Morality as cooperation: A problem-centred approach” </em> In: The evolution of
+morality (2016), pp. 27–51.
+</div>
+</div>
+
+<div id="ref-charlesworth2009genetics" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] Deborah Charlesworth and John H Willis. <em> “The genetics of inbreeding depression”.</em> In: Nature reviews
+genetics 10.11 (2009), pp. 783–796.
+</div>
+</div>
+
+<div id="ref-chagnon1979kin" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] Napoleon A Chagnon. <em> “Kin selection and conflict: An analysis of a Yanomamö ax fight”. </em> In: Evolutionary
+biology and human social behavior: An anthropological perspective (1979), pp. 213–238.
+</div>
+</div>
+
+<div id="ref-westermarck2022origin" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17]  Edward Westermarck. <em> The origin and development of the moral ideas. </em> DigiCat, 2022.
+</div>
+</div>
+
+
+<div id="ref-smith1987inheritance" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] Martin S Smith, Bradley J Kish, and Charles B Crawford. <em> “Inheritance of wealth as human kin
+investment”. </em>  In: Ethology and Sociobiology 8.3 (1987), pp. 171–182.
+</div>
+</div>
+
+<div id="ref-oates2002nominal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] Kerris Oates and Margo Wilson. <em>“Nominal kinship cues facilitate altruism”. </em> In: Proceedings of the
+Royal Society of London. Series B: Biological Sciences 269.1487 (2002), pp. 105–109.
+</div>
+</div>
+
+<div id="ref-lieberman2003does" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] Debra Lieberman, John Tooby, and Leda Cosmides. <em> . “Does morality have a biological basis? An
+empirical test of the factors governing moral sentiments relating to incest”. </em> In: Proceedings of the
+Royal Society of London. Series B: Biological Sciences 270.1517 (2003), pp. 819–826.
+</div>
+</div>
+
+<div id="ref-thornhill1991evolutionary" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] Nancy Wilmsen Thornhill. <em> “An evolutionary analysis of rules regulating human inbreeding and
+marriage”. </em> In: Behavioral and Brain Sciences 14.2 (1991), pp. 247–261
+</div>
+</div>
+
+<div id="ref-connor1995benefits" class="csl-entry" role="listitem">
+    <div class="csl-left-margin">[22] Richard C Connor. <em> “The benefits of mutualism: a conceptual framework”</em> In: Biological Reviews 70.3
+(1995), pp. 427–457.
+</div>
+</div>
+
+<div id="ref-van2008leadership" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] Mark Van Vugt, Robert Hogan, and Robert B Kaiser. <em> “Leadership, followership, and evolution: some
+lessons from the past.”</em> In: American psychologist 63.3 (2008), p. 182.
+</div>
+</div>
+
+<div id="ref-carruthers1996theories" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[24] Peter Carruthers and Peter K Smith. <em> Theories of theories of mind. </em> Cambridge university press, 1996.
+</div>
+</div>
+
+<div id="ref-west2007evolutionary" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[25] Stuart A West, Ashleigh S Griffin, and Andy Gardner. <em> “Evolutionary explanations for cooperation”. </em> In: Current biology 17.16 (2007), R661–R672.
+</div>
+</div>
+
+<div id="ref-nash1950bargaining" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[26] John F. Nash. <em> “The Bargaining Problem”.  </em> In: Econometrica 18.2 (1950), pp. 155–162. issn: 00129682,
+14680262.
+</div>
+</div>
+
+<div id="ref-gintis2007evolution" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[27] Herbert Gintis. <em> “The evolution of private property”. </em> In: Journal of Economic Behavior & Organization
+64.1 (2007), pp. 1–16.
+</div>
+</div>
+
+<div id="ref-henrich2005economic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[28] Joseph Henrich et al. <em> ““Economic man” in cross-cultural perspective: Behavioral experiments in 15
+small-scale societies”</em>  In: Behavioral and brain sciences 28.6 (2005), pp. 795–815.
+</div>
+</div>
+
+<div id="ref-brams1996fair" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[29] Steven J Brams and Alan D Taylor. <em> “Fair Division: From cake-cutting to dispute resolution.” </em> Cambridge
+University Press, 1996.
+</div>
+</div>
+
+<div id="ref-buterin2022institution" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[30] V. Buterin. <em>“What even is an institution?” </em> ? 2022. url: <a href="https://vitalik.ca/general/2022/12/30/
+institutions.html"> https://vitalik.ca/general/2022/12/30/institutions.html</a>
+</div>
+</div>
+
+</div>

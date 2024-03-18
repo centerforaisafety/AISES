@@ -156,7 +156,7 @@ causes.<p>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/NASA_FTA.png" class="tb-img-full" style="width: 70%"/>
 <p class="tb-caption">Figure 4.6: Using a fault tree, we can work backwards from a failure (no water flow) to its possible
 causes (such as a blockage or lack of flow at source). <span class="citation"
-data-cites="nasafta">[7]</span></p>
+data-cites="nasafta">[8]</span></p>
 <!--<figcaption>NASA example fault tree</figcaption>-->
 </figure>
 <p>For each negative outcome, we work backward through the system,
@@ -396,7 +396,7 @@ identifying broad interventions that could yield significant results is
 to consider Meadows’ twelve leverage points. These are twelve points
 within a system, described by environmental scientist Donella Meadows,
 where a small change can make a large difference <span class="citation"
-data-cites="meadows1999leverage">[7]</span>. Depending on the system
+data-cites="ref-pan2022effects">[8]</span>. Depending on the system
 under consideration, some of these characteristics may be difficult or
 impossible to change, for example large physical infrastructure or the
 laws of physics. The points are therefore often listed in order of
@@ -481,16 +481,20 @@ lander and deep space 2 missions,”</span> Jet propulsion Laboratory -
 California Institute of Technology, 2000.</div>
 </div>
 <div id="ref-rismani2023beyond" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] S. Rismani <em>et al.</em>, <span>“Beyond the ML Model: Applying Safety Engineering Frameworks to Text-to-Image Development”</span> Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 2023.</div>
+<div class="csl-left-margin">[6] S. Rismani <em>et al.</em>, <span>“Beyond the ML Model: Applying Safety Engineering Frameworks to Text-to-Image Development”</span> Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 2023.</div>
 </div>
 <div id="ref-meadows1999leverage" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] D.
+<div class="csl-left-margin">[7] D.
 H. Meadows, <span>“Leverage points: Places to intervene in a
 system,”</span> 1999.</div>
 </div>
 <div id="ref-nasafta" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] D.
+<div class="csl-left-margin">[8] D.
 William Vesely, Joanne Dugan, Joseph Fragola, Joseph Minarick III, Jan Railsback and Michael Stamatelatos, <span>“Fault Tree Handbook with Aerospace Fault Tree Handbook with Aerospace Applications Applications,”</span> 2002.</div>
 Available: <a
 href="http://www.mwftr.com/CS2/Fault%20Tree%20Handbook_NASA.pdf">link</a></div>
+</div>
+<div id="ref-pan2022effects" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] Alexander Pan, Kush Bhatia, and Jacob Steinhardt, <span>“The Effects of Reward Misspecification: Mapping
+and Mitigating Misaligned Models,”</span> 2022.</div> arXiv: 2201.03544
 </div>

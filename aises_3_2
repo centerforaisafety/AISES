@@ -421,7 +421,7 @@ volume, nothing much happens, but with a much larger amount, you end up
 with a qualitatively new nuclear reaction. When more is different,
 understanding the system at one scale does not guarantee that one can
 understand that system at some other scale <span class="citation"
-data-cites="anderson1972more steinhardt2022more">[1], [2]</span>. This
+data-cites="anderson1972more steinhardt2022more">[23], [24]</span>. This
 means that control procedures may not transfer between scales and can
 lead to a weakening of control.<p>
 The general phenomenon of emergence and its applicability to AI systems is 
@@ -435,7 +435,7 @@ could result in catastrophic consequences.</p>
 we make AI models larger, train them for longer periods, or expose them
 to more data, these systems spontaneously develop qualitatively new and
 unprecedented <em>emergent capabilities</em> <span class="citation"
-data-cites="wei2022emergent">[3]</span>. These range from simple
+data-cites="wei2022emergent">[25]</span>. These range from simple
 capabilities including solving arithmetic problems and unscrambling
 words to more advanced capabilities including passing college-level
 exams, programming, writing poetry, and explaining jokes. For these
@@ -446,7 +446,7 @@ performance.</p>
 <figure id="fig:emergent_graphs">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/FLOPs.png" class="tb-img-full" />
 <p class="tb-caption">Figure 3.6: LLMs exhibit clear emergent capabilities on a variety of tasks. <span
-class="citation" data-cites="wei2022emergent">[3]</span></p>
+class="citation" data-cites="wei2022emergent">[25]</span></p>
 <!--<figcaption>Emergent AI capabilities across multiple benchmarks - <span-->
 <!--class="citation" data-cites="wei2022emergent">[3]</span></figcaption>-->
 </figure>
@@ -460,7 +460,7 @@ sense is instrumental towards lowering the loss, even if it was not
 explicitly selected for by the loss.<p>
 As another example, large language models may also learn how to create
 text art and how to draw illustrations with text-based formats like TiKZ
-and SVG <span class="citation" data-cites="wei2022emergent">[3]</span>.
+and SVG <span class="citation" data-cites="wei2022emergent">[25]</span>.
 They develop a rudimentary spatial reasoning ability not directly
 encoded in the purely text-based loss function. Beforehand, it was
 unclear even to experts that such a simple loss could give rise to such
@@ -473,7 +473,7 @@ model reaches a critical threshold, beyond which performance begins to
 improve dramatically. For example, the AlphaZero chess model develops
 human-like chess concepts such as material value and mate threats in a
 short burst around 32,000 training steps <span class="citation"
-data-cites="McGrath_2022">[4]</span>.<p>
+data-cites="McGrath_2022">[26]</span>.<p>
 Despite specific capabilities often developing through discontinuous
 jumps, the average performance tends to scale according to smooth and
 predictable scaling laws. The average loss behaves much more regularly
@@ -485,8 +485,8 @@ capabilities.<p>
 <figure id="fig:unicorn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/unicorn.png" class="tb-img-full"/>
 <p class="tb-caption">Figure 3.7: GPT-4 proved able to create illustrations of unicorns despite having not been trained to
-create images: another example an an unexpected emergent capability. <span class="citation"
-data-cites="bubeck2023sparks">[5]</span></p>
+create images: another example an unexpected emergent capability. <span class="citation"
+data-cites="bubeck2023sparks">[27]</span></p>
 <!--<figcaption>Unexpected capability example: illustrations of unicorns by-->
 <!--GPT-4 - <span class="citation"-->
 <!--data-cites="bubeck2023sparks">[5]</span></figcaption>-->
@@ -498,13 +498,13 @@ introducing safety mitigations, GPT-4 was evaluated to be capable of
 offering detailed guidance on planning attacks or violence, building
 various weapons, drafting phishing materials, finding illegal content,
 and encouraging self-harm <span class="citation"
-data-cites="2023gpt4">[6]</span>. Other examples of capabilities
+data-cites="2023gpt4">[28]</span>. Other examples of capabilities
 discovered after training include prompting strategies that improve
 model performance on specific tasks or jailbreaks that bypass rules
 against producing harmful outputs or writing about illegal acts. In some
 cases, such jailbreaks were not discovered until months after the
 targeted system was first publicly released <span class="citation"
-data-cites="Zou2022ForecastingFW">[7]</span>.</p>
+data-cites="Zou2022ForecastingFW">[29]</span>.</p>
 
 <h2 id="emergent-goal-directed-behavior">3.2.5 Emergent Goal-Directed
 Behavior</h2>
@@ -520,7 +520,7 @@ environment, learn behaviors such as digging tunnel systems,
 bridge-building, blocking and dodging, sheltering, and even
 farming—behaviors that were not explicitly selected for by the reward
 function <span class="citation"
-data-cites="hafner2022benchmarking">[8]</span>.<p>
+data-cites="hafner2022benchmarking">[30]</span>.<p>
 As with emergent capabilities, models can acquire these emergent
 strategies suddenly and discontinuously. One such example was observed
 in the video game, StarCraft II, where players take the role of opposing
@@ -546,7 +546,7 @@ hiders and seekers competed against each other in toy environments
 involving movable boxes and ramps. Over time, the agents learned to
 manipulate these tools in novel and unexpected ways, progressing through
 distinct stages of learning in a way similar to AlphaStar <span
-class="citation" data-cites="baker2019emergent">[9]</span>. In the
+class="citation" data-cites="baker2019emergent">[31]</span>. In the
 initial (pre-tool) phase, the agents adopted simple chase and escape
 tactics. Later, hiders evolved their strategy by constructing forts
 using the available boxes and walls.<p>
@@ -572,7 +572,7 @@ some the researchers had never anticipated.<p>
 <figure id="fig:tool-use">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/3d_puzzle.png" class="tb-img-full"/>
 <p class="tb-caption">Figure 3.8: In multi-agent hide-and-seek, AIs demonstrated emergent tool-use. <span
-class="citation" data-cites="2019openai">[10]</span>.</p>
+class="citation" data-cites="2019openai">[32]</span>.</p>
 <!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
 <!--class="citation" data-cites="2019openai">[10]</span>.</figcaption>-->
 </figure>
@@ -583,12 +583,12 @@ Five, a model trained to play the video game Dota II, learned a basic
 ability to cooperate with other teammates, even though it was trained in
 a setting where it only competed against bots. It acquired an emergent
 ability not explicitly represented in its training data <span
-class="citation" data-cites="2019openai">[10]</span>.<p>
+class="citation" data-cites="2019openai">[32]</span>.<p>
 Another salient example of emergent social dynamics and emergent goals
 involves <em>generative agents</em>, which are built on top of language
 models by equipping them with external scaffolding that lets them take
 actions and access external memory <span class="citation"
-data-cites="park2023generative">[11]</span>. In a simple 2D village
+data-cites="park2023generative">[34]</span>. In a simple 2D village
 environment, these generative agents manage to form lasting
 relationships and coordinate on joint objectives. By placing a single
 thought in one agent’s mind at the start of a “week” that the agent
@@ -602,7 +602,7 @@ social dynamics in the Collective Action Problems chapter.<p>
 <figure id="fig:emergent-social-behaviour">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_in_game.png" class="tb-img-full"/>
 <p class="tb-caption">Figure 3.9: Generative AI agents exhibited emergent social behavior. <span
-class="citation" data-cites="park2023generative">[11]</span></p>
+class="citation" data-cites="park2023generative">[34]</span></p>
 <!--<figcaption>Emergent social behavior in generative agents - <span-->
 <!--class="citation"-->
 <!--data-cites="park2023generative">[11]</span></figcaption>-->
@@ -613,7 +613,7 @@ optimization process such as Stochastic Gradient Descent (SGD) can
 discover solutions that are themselves optimizers. This phenomenon
 introduces an additional layer of complexity in understanding the
 behaviors of AI models and can introduce additional control issues <span
-class="citation" data-cites="Hubinger2019RisksFL">[12]</span>.<p>
+class="citation" data-cites="Hubinger2019RisksFL">[35]</span>.<p>
 For example, if we train a model on a maze-solving task, we might end up
 with a model implementing simple maze-solving heuristics (e.g.
 “right-hand on the wall”). We might also end up with a model
@@ -638,8 +638,8 @@ behaves as an approximation of SGD. That is, Transformers are performing
 a kind of internal optimization procedure, where as they receive more
 examples of the task at hand, they qualitatively change the kind of
 model they are implementing <span class="citation"
-data-cites="vonoswald2023uncovering oswald2023transformers">[13],
-[14]</span>.</p>
+data-cites="vonoswald2023uncovering oswald2023transformers">[36],
+[37]</span>.</p>
 <h2 id="tail-risk-emergent-goals">3.2.6 Tail Risk: Emergent Goals</h2>
 <p>Just as AIs can develop emergent capabilities and emergent
 goal-seeking behavior, they may develop <em>emergent goals</em> that
@@ -664,7 +664,7 @@ in-context learning, recent work has argued that the Transformer is
 performing something analogous to “simulating” and fine-tuning a much
 simpler model, in which case it is clear that the objectives will be
 related <span class="citation"
-data-cites="oswald2023transformers">[14]</span>. However, in general,
+data-cites="oswald2023transformers">[37]</span>. However, in general,
 the exact relation between a mesa-objective and original objective is
 unknown.</p>
 <p><strong>Mesa-optimizers may be difficult to control.</strong> If a
@@ -674,7 +674,7 @@ have different goals than us and are sufficiently more intelligent and
 powerful than us, then this could result in catastrophic outcomes.</p>
 <h3 id="risks-from-intrinsification">Risks from Intrinsification</h3>
 <p><strong>Models can intrinsify goals <span class="citation"
-data-cites="bostrom2022base">[15]</span>.</strong> It is helpful to
+data-cites="bostrom2022base">[38]</span>.</strong> It is helpful to
 distinguish goals that are instrumental from those that are intrinsic.
 <em>Instrumental goals</em> are goals that serve as a means to an end.
 They are goals that are valued only insofar as they bring about other
@@ -683,7 +683,7 @@ in and of themselves. They are terminally valued by a goal-directed
 system.<p>
 Next, <em>intrinsification</em> is a process whereby models acquire such
 intrinsic goals <span class="citation"
-data-cites="bostrom2022base">[15]</span>. The risk is that these newly
+data-cites="bostrom2022base">[38]</span>. The risk is that these newly
 acquired intrinsic goals can end up taking precedence over the
 explicitly specified objectives or expressed goals, potentially leading
 to those original objectives no longer being operationally pursued.</p>
@@ -951,84 +951,84 @@ knowledge in language models without supervision.”</span> 2022.
 Available: <a
 href="https://arxiv.org/abs/2212.03827">https://arxiv.org/abs/2212.03827</a></div>
 <div id="ref-anderson1972more" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] P.
+<div class="csl-left-margin">[23] P.
 W. Anderson, <span>“More <span>Is Different</span>,”</span>
 <em>Science</em>, vol. 177, no. 4047, pp. 393–396, Aug. 1972, doi: <a
 href="https://doi.org/10.1126/science.177.4047.393">10.1126/science.177.4047.393</a>.</div>
 </div>
 <div id="ref-steinhardt2022more" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] J.
+<div class="csl-left-margin">[24] J.
 Steinhardt, <span>“More <span>Is Different</span> for
 <span>AI</span>,”</span> <em>Bounded Regret</em>. Jan. 2022.</div>
 </div>
 <div id="ref-wei2022emergent" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] J.
+<div class="csl-left-margin">[25] J.
 Wei <em>et al.</em>, <span>“Emergent abilities of large language
 models.”</span> 2022. Available: <a
 href="https://arxiv.org/abs/2206.07682">https://arxiv.org/abs/2206.07682</a></div>
 </div>
 <div id="ref-McGrath_2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] T.
+<div class="csl-left-margin">[26] T.
 McGrath <em>et al.</em>, <span>“Acquisition of chess knowledge in
 <span>AlphaZero</span>,”</span> <em>Proceedings of the National Academy
 of Sciences</em>, vol. 119, no. 47, Nov. 2022, doi: <a
 href="https://doi.org/10.1073/pnas.2206625119">10.1073/pnas.2206625119</a>.</div>
 </div>
 <div id="ref-bubeck2023sparks" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] S.
+<div class="csl-left-margin">[27] S.
 Bubeck <em>et al.</em>, <span>“Sparks of artificial general
 intelligence: Early experiments with GPT-4.”</span> 2023. Available: <a
 href="https://arxiv.org/abs/2303.12712">https://arxiv.org/abs/2303.12712</a></div>
 </div>
 <div id="ref-2023gpt4" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div
+<div class="csl-left-margin">[28] </div><div
 class="csl-right-inline"><span>“<span>GPT-4 System Card</span>,”</span>
 <span>OpenAI</span>, Mar. 2023.</div>
 </div>
 <div id="ref-Zou2022ForecastingFW" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] A.
+<div class="csl-left-margin">[29] A.
 Zou <em>et al.</em>, <span>“Forecasting future world events with neural
 networks,”</span> <em>NeurIPS</em>, 2022.</div>
 </div>
 <div id="ref-hafner2022benchmarking" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] D.
+<div class="csl-left-margin">[30] D.
 Hafner, <span>“Benchmarking the spectrum of agent capabilities.”</span>
 2022. Available: <a
 href="https://arxiv.org/abs/2109.06780">https://arxiv.org/abs/2109.06780</a></div>
 </div>
 <div id="ref-baker2019emergent" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] B.
+<div class="csl-left-margin">[31] B.
 Baker <em>et al.</em>, <span>“Emergent <span>Tool Use From Multi-Agent
 Autocurricula</span>,”</span> <em>arXiv.org</em>. Sep. 2019.</div>
 </div>
 <div id="ref-2019openai" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] </div><div
+<div class="csl-left-margin">[32] </div><div
 class="csl-right-inline"><span>“<span>OpenAI Five</span> defeats
 <span>Dota</span> 2 world champions,”</span> <em>OpenAI</em>. Apr. 2019.
 Accessed: Sep. 16, 2023. [Online]. Available: <a
 href="https://openai.com/research/openai-five-defeats-dota-2-world-champions">https://openai.com/research/openai-five-defeats-dota-2-world-champions</a></div>
 </div>
 <div id="ref-park2023generative" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[11] J.
+<div class="csl-left-margin">[34] J.
 S. Park, J. C. O’Brien, C. J. Cai, M. R. Morris, P. Liang, and M. S.
 Bernstein, <span>“Generative agents: Interactive simulacra of human
 behavior.”</span> 2023. Available: <a
 href="https://arxiv.org/abs/2304.03442">https://arxiv.org/abs/2304.03442</a></div>
 </div>
 <div id="ref-Hubinger2019RisksFL" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] E.
+<div class="csl-left-margin">[35] E.
 Hubinger, C. van Merwijk, V. Mikulik, J. Skalse, and S. Garrabrant,
 <span>“Risks from learned optimization in advanced machine learning
 systems,”</span> <em>ArXiv</em>, 2019.</div>
 </div>
 <div id="ref-vonoswald2023uncovering" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] J.
+<div class="csl-left-margin">[36] J.
 von Oswald <em>et al.</em>, <span>“Uncovering mesa-optimization
 algorithms in <span>Transformers</span>.”</span> <span>arXiv</span>,
 Sep. 2023.</div>
 </div>
 <div id="ref-oswald2023transformers" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] J.
+<div class="csl-left-margin">[37] J.
 V. Oswald <em>et al.</em>, <span>“Transformers <span>Learn
 In-Context</span> by <span>Gradient Descent</span>,”</span> in
 <em>Proceedings of the 40th <span>International Conference</span> on
@@ -1036,7 +1036,7 @@ In-Context</span> by <span>Gradient Descent</span>,”</span> in
 35151–35174.</div>
 </div>
 <div id="ref-bostrom2022base" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[15] N.
+<div class="csl-left-margin">[38] N.
 Bostrom, <span>“Base <span>Camp</span> for <span>Mt</span>.
 <span>Ethics</span>,”</span> 2022.</div>
 </div>

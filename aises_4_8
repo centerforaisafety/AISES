@@ -139,9 +139,9 @@ prospects.</p>
 
 <h2 id="key-takeaways">4.8.2 Key takeaways</h2>
 <p><strong>Tail events and black swans require a different approach to managing risks.</strong> <span
-class="citation" data-cites="Marsden2017blackswan">[3]</span> Some decisions require vastly more caution than others: for instance, 
+class="citation" data-cites="Marsden2017blackswan">[1]</span> Some decisions require vastly more caution than others: for instance,
 paraphrasing Richard Danzig, you should not ``need evidence'' that a gun is loaded to avoid playing Russian roulette <span class="citation"
-data-cites="danzig2018technology">[5]</span>. Instead, you should need evidence of safety. In situations where we are subject to the possibility 
+data-cites="danzig2018technology">[2]</span>. Instead, you should need evidence of safety. In situations where we are subject to the possibility
 of tail events and black swans, this evidence might be impossible to find.</p>
 
 <p>One element of good decision making when dealing with long-tailed scenarios is to exercise more caution than we would otherwise. In the case of new technologies such 
@@ -206,7 +206,7 @@ technologies they develop, could therefore improve general safety.</p>
 Similarly, we might be able to improve decision-making by changing who has a say in
 decisions, perhaps by including citizens in decision-making processes,
 not only officials and scientists <span class="citation"
-data-cites="Marsden2017blackswan">[20]</span>. This reduces moral hazard
+data-cites="Marsden2017blackswan">[1]</span>. This reduces moral hazard
 by including the stakeholders that have “skin in the game.” It can also
 lead to better decisions in general due to the wisdom of crowds, the
 phenomenon where crowds composed of diverse individuals make much better
@@ -214,3 +214,18 @@ decisions collectively than most members within it, when the conditions
 are right.</p>
 <p>In summary, while AI poses novel challenges, there is much we can learn from existing approaches to safety engineering and risk management in order to reduce the risk of catastrophic outcomes.</p>
 
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Marsden2017blackswan" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] E.
+Marsden, <span>“Black swans: The limits of probabilistic
+modelling.”</span> Accessed: Jul. 31, 2017. [Online]. Available: <a
+href="https://risk-engineering.org/black-swans/">https://risk-engineering.org/black-swans/</a></div>
+</div>
+<div id="ref-danzig2018technology" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] R.
+Danzig, <span>“Technology roulette.”</span> Center for a new American
+Security, 2018.</div>
