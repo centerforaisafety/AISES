@@ -198,7 +198,7 @@ outcomes of the coin flip into a number that represents the utility of
 each outcome, which can then be compared directly against the utility of
 receiving the fruits with certainty. The von Neumann-Morgenstern (vNM)
 utility functions help us do this <span class="citation"
-data-cites="vonneumann1947theory">[1]</span>. They are extensions of
+data-cites="vonneumann1947theory">[3]</span>. They are extensions of
 Bernoulli utility functions, and work specifically for situations with
 uncertainty, represented as <em>lotteries</em> (denoted <strong><span
 class="math inline"><em>L</em></span></strong>), like this coin flip.
@@ -310,7 +310,7 @@ chapter.</p>
 following axioms are satisfied, we can assume a utility function of an
 expected utility form, where agents prefer lotteries that have higher
 expected utility <span class="citation"
-data-cites="vonneumann1947theory">[1]</span>. <span
+data-cites="vonneumann1947theory">[3]</span>. <span
 class="math inline"><em>L</em></span> is a lottery. <span
 class="math inline"><em>L</em><sub><em>A</em></sub> ≽ <em>L</em><sub><em>B</em></sub></span>
 means that the agent prefers lottery A to lottery B, whereas <span
@@ -455,7 +455,7 @@ ultimately lands tails. The game concludes when the coin first lands
 tails, and the gambler receives the appropriate returns. Now, the
 question is, how much should a gambler be willing to pay from the
 pension fund to play this game <span class="citation"
-data-cites="peterson2019paradox">[2]</span>?<p>
+data-cites="peterson2019paradox">[4]</span>?<p>
 With probability <span class="math inline">$\frac{1}{2}$</span>, the
 first toss will land on tails, in which case the gambler wins two
 dollars. With probability <span
@@ -565,7 +565,7 @@ prevent unwanted AI behavior.</p>
 when things go wrong.</strong> An AI system is <em>corrigible</em> if it
 accepts and cooperates with corrective interventions like being shut
 down or having its utility function changed <span class="citation"
-data-cites="pacecorrigibility">[1]</span>. Without many assumptions, we
+data-cites="pacecorrigibility">[5]</span>. Without many assumptions, we
 can argue that typical rational agents will resist corrective measures:
 changing an agent’s utility function necessarily means that the agent
 will pursue goals that result in less utility relative to their current
@@ -604,7 +604,7 @@ shutting down to us not having coffee at all.<p>
 Generally, unless indifferent between everything, completeness and
 transitivity imply that the AI has unspecified preferences about
 potentially shutting down <span class="citation"
-data-cites="thornley2023shutdown">[2]</span>. Without completeness, the
+data-cites="thornley2023shutdown">[6]</span>. Without completeness, the
 agent could have no preference between shutting down immediately and all
 other actions. Without transitivity, the agent could be indifferent
 between shutting down immediately and all other possible actions without
@@ -709,7 +709,7 @@ Attitudes to Risk?</h2>
 Agents can be risk averse, risk neutral, or risk seeking. In this
 section, we first explore what these terms mean. We consider a few
 equivalent definitions by examining different concepts associated with
-risk <span class="citation" data-cites="dixitslides">[1]</span>. Then,
+risk <span class="citation" data-cites="dixitslides">[7]</span>. Then,
 we analyze what the advantages to adopting each certain attitude toward
 risk might be.</p>
 <p><strong>Let’s consider these in the context of a bet on a coin
@@ -812,7 +812,7 @@ clear mind—a better decision procedure would be to focus on the
 breath.<p>
 As another example, the <em>hedonistic paradox</em> reminds us that
 people who directly aim at pleasure rarely secure it <span
-class="citation" data-cites="sidgwick2019methods">[2]</span>. While a
+class="citation" data-cites="sidgwick2019methods">[8]</span>. While a
 person’s pleasure level could be a criterion of rightness, it is not
 necessarily a good guide to increasing pleasure—that is, not necessarily
 a good decision procedure. Whatever one’s vision of pleasure looks
@@ -881,7 +881,7 @@ containing two types of flowers: one with consistent amounts of nectar
 and one with variable amounts. They found that the birds never preferred
 the latter, and that their preference for the consistent variety was
 intensified when the birds were provided fewer resources in total <span
-class="citation" data-cites="wunderle1987risk">[3]</span>. This risk
+class="citation" data-cites="wunderle1987risk">[9]</span>. This risk
 aversion helps the birds survive and procreate, as risk-neutral or
 risk-seeking species are more likely to die out over time: it is much
 worse to have no nectar than it is better to have double the nectar.
@@ -919,7 +919,7 @@ shrink towards extinction. Notice that maximizing long-run growth in
 this case is equivalent to maximizing the sum of the logarithm of the
 growth rates—this is risk aversion. The stable growth population, or
 equivalently the risk-averse population, is favored by natural selection
-<span class="citation" data-cites="okasha2007rational">[4]</span>.</p>
+<span class="citation" data-cites="okasha2007rational">[10]</span>.</p>
 <p><strong>Avoid risk of ruin.</strong> Risk aversion’s key benefit is
 that it avoids risk of ruin. Consider a repeated game of equal
 probability “triple-or-nothing” bets. That is, players are offered a
@@ -986,7 +986,7 @@ value at any arbitrary percentile of wealth. It even maximizes the
 mode—the most likely outcome. Mathematically, maximizing a logarithmic
 utility function in wealth outperforms any other investment strategy in
 the long run, with probability one (certainty) <span class="citation"
-data-cites="kelly1956new">[5]</span>. Thus, variations on maximizing the
+data-cites="kelly1956new">[11]</span>. Thus, variations on maximizing the
 logarithm of wealth are widely used in the financial sector.<p>
 </p>
 <h3 id="why-be-risk-neutral">Why Be Risk Neutral?</h3>
@@ -1039,7 +1039,7 @@ financial institutions during the 2008 financial crisis, which sparked
 the Great Recession, is a famous example of poor risk assessment. Take
 the American International Group (AIG), a multinational insurance
 company worth hundreds of billions of dollars <span class="citation"
-data-cites="mcdonald2015went">[6]</span>. By 2008, they had accumulated
+data-cites="mcdonald2015went">[12]</span>. By 2008, they had accumulated
 billions of dollars worth of financial products related to the real
 estate sector. AIG believed that their investments were sufficiently
 uncorrelated, and therefore ruled out risk of ruin. However, AIG had not
@@ -1100,7 +1100,7 @@ goals—but might also create the only possibility of winning.</p>
 of collapsing (or merely enduring) when unlikely, bad events occur, an
 <em>antifragile system</em> is one in which the risk taker actually
 benefits, becoming stronger and more resilient to future challenges
-<span class="citation" data-cites="taleb2012antifragile">[7]</span>.
+<span class="citation" data-cites="taleb2012antifragile">[13]</span>.
 Antifragility is therefore the property of being able to benefit from
 risk. Systems, institutions, or individuals that exhibit antifragility
 may thus seek risk exposure. The human body is antifragile in many
@@ -1271,7 +1271,7 @@ maximize.</p>
 safety.</strong> It is plausibly safer for AI systems to be satisficers,
 since maximizers may behave in undesirable ways while trying to
 relentlessly maximize some metric <span class="citation"
-data-cites="taylor2016quantilizers">[1]</span>. As discussed in Proxies,
+data-cites="taylor2016quantilizers">[14]</span>. As discussed in Proxies,
 maximizers may optimize proxies in ways that differ from the idealized
 result. However, when AI agents are trained on human data and trained to
 interact with humans, they may pick up some of our biases and thereby
@@ -1294,7 +1294,7 @@ decomposability axioms.</p>
 The Allais Paradox, described in 1953 to highlight an inconsistency
 between utility theory and human behavior, presents two scenarios where
 players must make a choice between two gambles <span class="citation"
-data-cites="allais1953comportement">[2]</span>.<p>
+data-cites="allais1953comportement">[15]</span>.<p>
 </p>
 <br>
 <table class="tableLayout">
@@ -1439,7 +1439,7 @@ choice isn’t unreasonable, but that the von Neumann-Morgenstern axioms
 are a flawed characterization of rationality. Indeed, Kahneman and
 Tversky concluded that the expected utility model fails to capture
 important nuances in human decision making <span class="citation"
-data-cites="kahneman2011thinking">[3]</span>.</p>
+data-cites="kahneman2011thinking">[16]</span>.</p>
 <h3 id="fairness">Fairness</h3>
 <p><strong>It is sometimes thought that the independence axiom is at
 odds with concepts of fairness.</strong> The independence axiom tells us
@@ -1448,7 +1448,7 @@ to an agent’s preference between two other lotteries. However, in some
 cases, we do care what else could happen: we make all-things-considered
 judgments of how we value outcomes. In particular, we care about
 fairness <span class="citation"
-data-cites="mccarthy2016probability">[4]</span>.</p>
+data-cites="mccarthy2016probability">[17]</span>.</p>
 <p><strong>If an agent cares about fairness, they may be forced to
 abandon independence.</strong> Suppose Rachel, on her deathbed, has to
 leave everything she owns to one person. She is indifferent between
@@ -1493,7 +1493,7 @@ options.</p>
 choices.</strong> Kahneman and Tversky noticed that humans will make
 different decisions depending on how options are presented, even when
 the underlying lotteries remain unchanged <span class="citation"
-data-cites="tversky1981framing">[5]</span>. While a vNM-rational
+data-cites="tversky1981framing">[18]</span>. While a vNM-rational
 decision maker would ignore the presentation of options and focus only
 on its probabilities and outcomes, humans tend to be unaware of the
 large degree of influence that <em>framing</em> has on their decision
@@ -1596,7 +1596,7 @@ accurately describe human behavior in situations when facing risk,
 rather than provide a description of how humans “should” behave, like in
 the vNM utility model. Thus, prospect theory explains common behavioral
 patterns that are considered irrational in expected utility theory <span
-class="citation" data-cites="kahneman2013prospect">[6]</span>.</p>
+class="citation" data-cites="kahneman2013prospect">[19]</span>.</p>
 <p><strong>Prospect theory is a multi-stage decision-making
 model.</strong> Prospect theory views decision making over two stages:
 editing and evaluation. In the editing stage, outcomes are re-framed as
@@ -1777,15 +1777,13 @@ enough,”</span> <em>Artificial Intelligence</em>, vol. 299, p. 103535,
 2021, doi: <a
 href="https://doi.org/10.1016/j.artint.2021.103535">https://doi.org/10.1016/j.artint.2021.103535</a>.</div>
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-vonneumann1947theory" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] J.
+<div class="csl-left-margin">[3] J.
 V. Neumann and O. Morgenstern, <em>Theory of games and economic
 behavior</em>. Princeton University Press, 1947.</div>
 </div>
 <div id="ref-peterson2019paradox" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] M.
+<div class="csl-left-margin">[4] M.
 Peterson, <span>“<span>The St. Petersburg Paradox</span>,”</span> in
 <em>The <span>Stanford</span> encyclopedia of philosophy</em>,
 <span>F</span>all 2023., E. N. Zalta and U. Nodelman, Eds., <a
@@ -1793,71 +1791,65 @@ href="https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/
 class="uri">https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/</a>;
 Metaphysics Research Lab, Stanford University, 2023.</div>
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-pacecorrigibility" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] Nate Soares et al., “Corrigibility.”</span> Machine Intelligence Research Institute.
+<div class="csl-left-margin">[5] Nate Soares et al., “Corrigibility.”</span> Machine Intelligence Research Institute.
 Available: <a
 href="https://intelligence.org/files/Corrigibility.pdf">Intelligence Corrigibility</a></div>
 </div>
 <div id="ref-thornley2023shutdown" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] E.
+<div class="csl-left-margin">[6] E.
 Thornley, <span>“The shutdown problem: Two theorems, incomplete
 preferences as a solution,”</span> <em>AI Alignment Awards</em>,
 2023.</div>
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-dixitslides" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] A.
+<div class="csl-left-margin">[7] A.
 Dixit, <span>“Slides and notes.”</span> Available: <a
 href="https://www.princeton.edu/~dixitak/Teaching/EconomicsOfUncertainty/Slides&amp;Notes/ ‌">https://www.princeton.edu/~dixitak/Teaching/EconomicsOfUncertainty/Slides&amp;Notes/
 ‌</a></div>
 </div>
 <div id="ref-sidgwick2019methods" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] H.
+<div class="csl-left-margin">[8] H.
 Sidgwick, <em>The methods of ethics</em>. Good Press, 2019.</div>
 </div>
 <div id="ref-wunderle1987risk" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] J.
+<div class="csl-left-margin">[9] J.
 Wunderle Jr, M. Castro, and N. Fetcher, <span>“Risk-averse foraging by
 bananaquits on negative energy budgets,”</span> <em>Behavioral Ecology
 and Sociobiology</em>, vol. 21, pp. 249–255, Jan. 1987, doi: <a
 href="https://doi.org/10.1007/BF00292506">10.1007/BF00292506</a>.</div>
 </div>
 <div id="ref-okasha2007rational" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] S.
+<div class="csl-left-margin">[10] S.
 Okasha, <span>“Rational choice, risk aversion, and evolution,”</span>
 <em>The Journal of philosophy</em>, vol. 104, no. 5, pp. 217–235,
 2007.</div>
 </div>
 <div id="ref-kelly1956new" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] J.
+<div class="csl-left-margin">[11] J.
 L. Kelly, <span>“A new interpretation of information rate,”</span>
 <em>the bell system technical journal</em>, vol. 35, no. 4, pp. 917–926,
 1956.</div>
 </div>
 <div id="ref-mcdonald2015went" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] R.
+<div class="csl-left-margin">[12] R.
 McDonald and A. Paulson, <span>“What went wrong at AIG,”</span>
 <em>Kellogg Insight</em>, vol. 3, 2015.</div>
 </div>
 <div id="ref-taleb2012antifragile" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] N.
+<div class="csl-left-margin">[13] N.
 N. Taleb, <em>Antifragile: Things that gain from disorder</em>. in
 Incerto. Random House Publishing Group, 2012. Available: <a
 href="https://books.google.com.au/books?id=5fqbz_qGi0AC">https://books.google.com.au/books?id=5fqbz_qGi0AC</a></div>
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-taylor2016quantilizers" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] J.
+<div class="csl-left-margin">[14] J.
 Taylor, <span>“Quantilizers: A safer alternative to maximizers for
 limited optimization.”</span> in <em>AAAI workshop: AI, ethics, and
 society</em>, 2016.</div>
 </div>
 <div id="ref-allais1953comportement" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] M.
+<div class="csl-left-margin">[15] M.
 Allais, <span>“Le comportement de l’homme rationnel devant le risque:
 Critique des postulats et axiomes de l’ecole americaine,”</span>
 <em>Econometrica</em>, vol. 21, no. 4, pp. 503–546, 1953, Accessed: Oct.
@@ -1865,24 +1857,24 @@ Critique des postulats et axiomes de l’ecole americaine,”</span>
 href="http://www.jstor.org/stable/1907921">http://www.jstor.org/stable/1907921</a></div>
 </div>
 <div id="ref-kahneman2011thinking" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] D.
+<div class="csl-left-margin">[16] D.
 Kahneman, <em>Thinking, fast and slow</em>. Farrar, Straus; Giroux,
 2011.</div>
 </div>
 <div id="ref-mccarthy2016probability" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] D.
+<div class="csl-left-margin">[17] D.
 McCarthy, <span>“Probability in ethics,”</span> in <em>The oxford
 handbook of philosophy and probability</em>, A. Hajek and C. Hitchcock,
 Eds., Oxford University Press, 2016, pp. 705–737.</div>
 </div>
 <div id="ref-tversky1981framing" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] A.
+<div class="csl-left-margin">[18] A.
 Tversky and D. Kahneman, <span>“The framing of decisions and the
 psychology of choice,”</span> <em>science</em>, vol. 211, no. 4481, pp.
 453–458, 1981.</div>
 </div>
 <div id="ref-kahneman2013prospect" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] D.
+<div class="csl-left-margin">[19] D.
 Kahneman and A. Tversky, <span>“Prospect theory: An analysis of decision
 under risk,”</span> in <em>Handbook of the fundamentals of financial
 decision making: Part i</em>, World Scientific, 2013, pp. 99–127.</div>

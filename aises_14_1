@@ -115,7 +115,7 @@ engaged in frequent, pairwise contests over an indivisible resource
 <em>“Hawks”</em> always fight for the prize and only back down when
 injured. <em>“Doves”</em> only threaten but never actually fight. We
 call this the ‘Hawk-Dove’ game <span class="citation"
-data-cites="Smith1982EvolutionAT">[17]</span>.<p>
+data-cites="Smith1982EvolutionAT">[1]</span>.<p>
 In a one-on-one game, a <em>Hawk</em> will always beat a <em>Dove</em>
 without any cost. When two agents choose the same strategy, each has a
 50% chance of winning or losing. But there is a difference in outcomes.
@@ -181,7 +181,7 @@ are using. So the population strategy composition will include both
 of an evolving population adopt a strategy that makes it uninvadable by
 any rare novel mutants that may arise, we call this state an
 <em>evolutionarily stable strategy (ESS)</em> <span class="citation"
-data-cites="Smith1982EvolutionAT">[17]</span>. An ESS is a kind of Nash
+data-cites="Smith1982EvolutionAT">[1]</span>. An ESS is a kind of Nash
 Equilibrium: when agents are at this equilibrium, they cannot improve
 their success by switching to any other strategy. In the Nash equilibria
 we have considered so far in this chapter, the agents have tended to use
@@ -211,7 +211,7 @@ state in which the no snail color spreads to fixation in the population.
 Instead, snails of multiple colors coexist stably; see Figure 8.9.<p>
 The evolutionary biologist Richard Dawkins explains this using the
 following fictional scenario <span class="citation"
-data-cites="dawkins2015evolutionarily">[18]</span>. A population of
+data-cites="dawkins2015evolutionarily">[2]</span>. A population of
 seagulls lives on the coast where their only source of food is the fish
 in the sea. Each seagull can choose whether to behave as a
 “<em>fisher</em>” or as a “<em>pirate</em>”. <em>Fishers</em> catch fish
@@ -293,20 +293,20 @@ the section of the chapter.</p>
 <p><strong>Concealment of information can be an ESS.</strong> In an
 evolutionary setting, a certain frequency or degree of dishonest
 communication can be selected for <span class="citation"
-data-cites="hamblin2009evolution">[22]</span>. Non-venomous king snakes
+data-cites="hamblin2009evolution">[3]</span>. Non-venomous king snakes
 closely resemble venomous coral snakes to ward off predators <span
-class="citation" data-cites="greene1981coral">[23]</span>. Cannibalistic
+class="citation" data-cites="greene1981coral">[4]</span>. Cannibalistic
 Portia spiders pluck the webs of other spiders to mimic the vibrations
 of struggling prey, thus luring their victim out into the open to be
 killed and eaten <span class="citation"
-data-cites="jackson1998spider">[24]</span>. Several flower species mimic
+data-cites="jackson1998spider">[5]</span>. Several flower species mimic
 the appearance of certain female insects in order to better attract
 males for pollination <span class="citation"
-data-cites="schiestl2005success">[25]</span>. Some bacteria produce
+data-cites="schiestl2005success">[6]</span>. Some bacteria produce
 specific molecules that act as misdirection signals to other competing
 bacteria, which reduce the probability of attack and detection, allowing
 the bacteria to maintain its competitive advantage <span
-class="citation" data-cites="mokkonen2015evolutionary">[26]</span>.
+class="citation" data-cites="mokkonen2015evolutionary">[7]</span>.
 Evolutionarily stable dishonesty is common in the natural world.</p>
 <p><strong>Natural selection may favor AIs that conceal
 information.</strong> Consider the following scenario: a game of Poker.
@@ -328,57 +328,59 @@ emerge from amoral (morally neutral) grounds.</p>
 <br>
 <br>
 <h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
 <div id="ref-Smith1982EvolutionAT" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[17] J.
+<div class="csl-left-margin">[1] J.
 M. Smith, <span>“Evolution and the theory of games,”</span> <em>American
 scientist</em>, 1982.</div>
 </div>
 <div id="ref-dawkins2015evolutionarily" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[18] R.
+<div class="csl-left-margin">[2] R.
 Dawkins, <span>“Evolutionarily stable strategies ft. Richard
 dawkins.”</span> [Online]. Available: <a
 href="https://www.youtube.com/watch?v=mUxt--mMjwA&amp;ab_channel=Veritasium">https://www.youtube.com/watch?v=mUxt--mMjwA&amp;ab_channel=Veritasium</a></div>
 </div>
-<div id="ref-press2012iterated" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[19] W.
-Press and F. Dyson, <span>“Iterated prisoners dilemma contains
-strategies that dominate any evolutionary opponent,”</span>
-<em>Proceedings of the National Academy of Sciences of the United States
-of America</em>, vol. 109, pp. 10409–13, May 2012, doi: <a
-href="https://doi.org/10.1073/pnas.1206569109">10.1073/pnas.1206569109</a>.</div>
-</div>
-<div id="ref-stewart2012extortion" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[20] A.
-Stewart and J. Plotkin, <span>“Extortion and cooperation in the
-prisoner’s dilemma,”</span> <em>Proceedings of the National Academy of
-Sciences</em>, vol. 109, pp. 10134–10135, Jun. 2012, doi: <a
-href="https://doi.org/10.1073/pnas.1208087109">10.1073/pnas.1208087109</a>.</div>
-</div>
-<div id="ref-hilbe2013evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[21] C.
-Hilbe, M. Nowak, and K. Sigmund, <span>“The evolution of extortion in
-iterated prisoner’s dilemma games,”</span> <em>Proceedings of the
-National Academy of Sciences of the United States of America</em>, vol.
-110, Apr. 2013, doi: <a
-href="https://doi.org/10.1073/pnas.1214834110">10.1073/pnas.1214834110</a>.</div>
-</div>
+<!--<div id="ref-press2012iterated" class="csl-entry" role="listitem">-->
+<!--<div class="csl-left-margin">[19] W.-->
+<!--Press and F. Dyson, <span>“Iterated prisoners dilemma contains-->
+<!--strategies that dominate any evolutionary opponent,”</span>-->
+<!--<em>Proceedings of the National Academy of Sciences of the United States-->
+<!--of America</em>, vol. 109, pp. 10409–13, May 2012, doi: <a-->
+<!--href="https://doi.org/10.1073/pnas.1206569109">10.1073/pnas.1206569109</a>.</div>-->
+<!--</div>-->
+<!--<div id="ref-stewart2012extortion" class="csl-entry" role="listitem">-->
+<!--<div class="csl-left-margin">[20] A.-->
+<!--Stewart and J. Plotkin, <span>“Extortion and cooperation in the-->
+<!--prisoner’s dilemma,”</span> <em>Proceedings of the National Academy of-->
+<!--Sciences</em>, vol. 109, pp. 10134–10135, Jun. 2012, doi: <a-->
+<!--href="https://doi.org/10.1073/pnas.1208087109">10.1073/pnas.1208087109</a>.</div>-->
+<!--</div>-->
+<!--<div id="ref-hilbe2013evolution" class="csl-entry" role="listitem">-->
+<!--<div class="csl-left-margin">[3] C.-->
+<!--Hilbe, M. Nowak, and K. Sigmund, <span>“The evolution of extortion in-->
+<!--iterated prisoner’s dilemma games,”</span> <em>Proceedings of the-->
+<!--National Academy of Sciences of the United States of America</em>, vol.-->
+<!--110, Apr. 2013, doi: <a-->
+<!--href="https://doi.org/10.1073/pnas.1214834110">10.1073/pnas.1214834110</a>.</div>-->
+<!--</div>-->
 <div id="ref-hamblin2009evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[22] S.
+<div class="csl-left-margin">[3] S.
 Hamblin and P. L. Hurd, <span>“When will evolution lead to deceptive
 signaling in the sir philip sidney game?”</span> <em>Theoretical
 Population Biology</em>, vol. 75, no. 2, pp. 176–182, 2009, doi: <a
 href="https://doi.org/10.1016/j.tpb.2009.02.002">https://doi.org/10.1016/j.tpb.2009.02.002</a>.</div>
 </div>
 <div id="ref-greene1981coral" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[23] H.
+<div class="csl-left-margin">[4] H.
 W. Greene and R. W. McDiarmid, <span>“Coral snake mimicry: Does it
 occur?”</span> <em>Science</em>, vol. 213, no. 4513, pp. 1207–1212,
 1981, doi: <a
 href="https://doi.org/10.1126/science.213.4513.1207">10.1126/science.213.4513.1207</a>.</div>
 </div>
 <div id="ref-jackson1998spider" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[24] R.
+<div class="csl-left-margin">[5] R.
 R. Jackson and R. S. Wilcox, <span>“Spider-eating spiders: Despite the
 small size of their brain, jumping spiders in the genus portia outwit
 other spiders with hunting techniques that include trial and
@@ -387,7 +389,7 @@ error,”</span> <em>American Scientist</em>, vol. 86, no. 4, pp. 350–357,
 href="http://www.jstor.org/stable/27857059">http://www.jstor.org/stable/27857059</a></div>
 </div>
 <div id="ref-schiestl2005success" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[25] F.
+<div class="csl-left-margin">[6] F.
 Schiestl, <span>“On the success of a swindle: Pollination by deception
 in orchids,”</span> <em>Die Naturwissenschaften</em>, vol. 92, pp.
 255–64, Jul. 2005, doi: <a
@@ -395,19 +397,11 @@ href="https://doi.org/10.1007/s00114-005-0636-y">10.1007/s00114-005-0636-y</a>.<
 </div>
 <div id="ref-mokkonen2015evolutionary" class="csl-entry"
 role="listitem">
-<div class="csl-left-margin">[26] M.
+<div class="csl-left-margin">[7] M.
 Mokkonen and L. Carita, <span>“The evolutionary ecology of
 deception,”</span> <em>Biological Reviews</em>, vol. 91, pp. n/a–n/a,
 Jun. 2015, doi: <a
 href="https://doi.org/10.1111/brv.12208">10.1111/brv.12208</a>.</div>
 </div>
 </div>
-</div>
-<div id="ref-hilbe2013evolution" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[21] C.
-Hilbe, M. Nowak, and K. Sigmund, <span>“The evolution of extortion in
-iterated prisoner’s dilemma games,”</span> <em>Proceedings of the
-National Academy of Sciences of the United States of America</em>, vol.
-110, Apr. 2013, doi: <a
-href="https://doi.org/10.1073/pnas.1214834110">10.1073/pnas.1214834110</a>.</div>
 </div>
