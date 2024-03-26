@@ -116,9 +116,9 @@ reciprocity, and cooperation over time. Cooperation can only evolve as a
 consequence of direct reciprocity when the probability, <span
 class="math inline"><em>w</em></span>, of subsequent encounters between
 the same two individuals is greater than the cost-benefit ratio of the
-helpful act. In other words, if agent A decided to help agent B at some
+helpful act. In other words, if agent A decides to help agent B at some
 cost <em>c</em> to themselves, they will only do so when the expected benefit <em>b</em> of
-agent B returning the favor outweighs the cost of Agent A’s initially
+agent B returning the favor outweighs the cost of agent A initially
 providing it. Thus, we have the rule <span
 class="math inline"><em>w</em> &gt; <em>c</em>/<em>b</em></span>; see
 Table 7.7 below.<p>
@@ -201,7 +201,7 @@ a human several hours to reciprocate a favor provided by an AI, whereas
 it may take an AI only seconds to do so. It may therefore become
 extremely difficult to formulate exchanges between AIs and humans that
 benefit AIs more than exchanges with other AIs would. In other words,
-from an AIs perspective, the cost-benefit ratio for cooperation with
+from an AI perspective, the cost-benefit ratio for cooperation with
 humans is not worth it.</p>
 <p><strong>Direct reciprocity may backfire: offers of AI cooperation may
 undermine human alliances.</strong> The potential for direct reciprocity
@@ -413,7 +413,7 @@ class="math inline"><em>n</em><em>b</em></span></td>
 </div>
 <br>
 <p><strong>Natural examples of group selection.</strong> Most proposed examples of group selection are highly contested. Nonetheless, some consider chimpanzees that engage in lethal intergroup conflict to be a likely example of group selection. Chimpanzees can be remarkably violent toward outgroups, such as by killing the offspring of rival males or engaging in brutal fights over territory. Such behaviors can help groups of chimpanzees secure competitive advantages over other groups of chimpanzees, by either reducing their abilities to mate successfully through infanticide, or by securing larger portions of available territory.</p>
-<p><strong>Group selection in human society.</strong> Among humans, we can imagine a crude of group selection example using warfare. Imagine two armies: A and B. The majority of soldiers in army A are brave, while the majority of soldiers in army B are cowardly. For soldiers in army A, bravery may be individually costly, since brave soldiers are more willing to risk losing their lives on the battlefield. For soldiers in army B, cowardice may be individually beneficial, since cowardly soldiers will take fewer life-threatening risks on the battlefield. In a conflict, group selection will favor army A over army B, since brave soldiers will be more willing to fight alongside each other for victory, while cowardly soldiers will not.</p>
+<p><strong>Group selection in human society.</strong> Among humans, we can imagine a crude group selection example using warfare. Imagine two armies: A and B. The majority of soldiers in army A are brave, while the majority of soldiers in army B are cowardly. For soldiers in army A, bravery may be individually costly, since brave soldiers are more willing to risk losing their lives on the battlefield. For soldiers in army B, cowardice may be individually beneficial, since cowardly soldiers will take fewer life-threatening risks on the battlefield. In a conflict, group selection will favor army A over army B, since brave soldiers will be more willing to fight alongside each other for victory, while cowardly soldiers will not.</p>
 <p><strong>Group selection in AIs.</strong> Consider a future in which
 the majority of human labor has been fully automated by AIs, such that
 AIs are now running most companies. Under these circumstances, AIs may
@@ -569,7 +569,7 @@ Morality</strong></th>
 <td style="text-align: left;">Incest aversion</td>
 </tr>
 <tr class="even" style="background-color: #d0e0e3">
-    <td rowspan="2" style="text-align: left;"><em> <b> Mutualism </b> <br> Agents must coordinate their behavior to profit from mutually-benefical situations</em></td>
+    <td rowspan="2" style="text-align: left;"><em> <b> Mutualism </b> <br> Agents must coordinate their behavior to profit from mutually-beneficial situations</em></td>
     <td style="text-align: left;">Forming alliances and collaborating</td>
     <td style="text-align: left;">Friendship, loyalty, commitment, team
 players</td>
