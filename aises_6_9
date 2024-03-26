@@ -115,7 +115,7 @@ each option (<em>Maximize Expected Choice-Worthiness</em>). The third is
 treating the decision as a negotiation in a parliament, considering
 multiple moral views to find a mutually acceptable solution (<em>Moral
 Parliament</em>).<p>
-Consider whether we should we lie to save a life. Imagine that a
+Consider whether we should lie to save a life. Imagine that a
 notorious murderer asks Alex where his friend, Jordan, is. Alex knows
 that revealing Jordan’s location will likely lead to his friend’s death,
 while lying would save Jordan’s life. However, lying is morally
@@ -195,8 +195,8 @@ context, it is how morally good a choice is. This is an expression of
 the size of the moral value of an action. We can represent the
 choice-worthiness of an action as a number. For instance, we might think
 that under utilitarianism, the choice-worthiness of murder could be
--1000, of littering could be -2, of helping an old lady cross the street
-could be +10, and of averting existential risk could be +10000.</p></li>
+-1000, that of littering could be -2, that of helping an old lady cross the street
+could be +10, and that of averting existential risk could be +10000.</p></li>
 <li><p><strong>Multiply choice-worthiness by credence.</strong> We can
 consider the average choice-worthiness of an action, weighted by how
 likely we think each theory is to be true. This gives us a sense of our
