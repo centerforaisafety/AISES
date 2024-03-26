@@ -69,7 +69,7 @@ without substantial regulation might not be a good idea.</p></li>
  We consider what it would mean to create AI systems that aim directly to improve human wellbeing. This provides a case study in thinking about 
 how we can create AI systems that can respond appropriately to moral considerations, an emerging field known as machine ethics. While this is a highly ambitious goal, we believe 
 it is likely to become increasingly relevant in coming years. As AI capabilities improve, they may be operating with an increasing level of autonomy and a broadening scope of 
-potential actions they could take. In this context, approaches based only on compliance with the law or profit maximisation are likely to prove increasingly inadequate in providing
+potential actions they could take. In this context, approaches based only on compliance with the law or profit maximization are likely to prove increasingly inadequate in providing
  sufficient guardrails on AI systems' behavior. To specify in greater detail how they should react in a particular situation, AI systems will need to be able to identify and respond
  appropriately to the relevant values at stake, such as human wellbeing.</p>
 
