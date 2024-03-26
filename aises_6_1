@@ -82,7 +82,7 @@ turn to consider whether AI systems should aim to make people happy and how we m
  not just for an individual, but across the whole of society. We look at how to aggregate total wellbeing across society, focusing on social welfare functions. We discuss what social welfare 
 functions are and how to trade-off between equity and efficiency in a principled way.</p>
 
-<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain over what the right response is to a particular situation due to conflicting moral considerations. 
+<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain about what the right response is to a particular situation due to conflicting moral considerations. 
 We consider how AI systems might respond to such situations. In the case of AI systems, we may deliberately want to introduce uncertainty into their reasoning to avoid over-confident 
 decisions that could be disastrous from some moral perspectives. One option to address moral uncertainty is using a moral parliament, where ethical decisions are 
 made by simulating democratic processes.</p>
