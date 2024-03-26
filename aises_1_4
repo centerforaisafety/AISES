@@ -387,8 +387,8 @@ but this does not necessarily make them more just, power-averse, or
 honest—an intelligent AI is not necessarily a beneficial AI. Several
 research areas mentioned throughout this document improve safety
 relative to general capabilities. For example, improving methods to
-detect dangerous or undesirable behavior hidden inside AI systems do not
-improve their general capabilities, such the ability to code, but they
+detect dangerous or undesirable behavior hidden inside AI systems does not
+improve their general capabilities, such the ability to code, but it
 can greatly improve safety.</p>
 <p>Research that empirically demonstrates an improvement of safety
 relative to capabilities can reduce overall risk and help avoid
