@@ -78,7 +78,7 @@ potential actions they could take. In this context, approaches based only on com
 We start by introducing several competing theories of wellbeing, which might present different goals for ethical AI systems. We examine theories of wellbeing that focus on pleasure, objective
  goods, and preference satisfaction. We then explore preference satisfaction in more detail and consider what kind of preferences AI systems should satisfy. AI systems can be created to satisfy
  individual preferences, but which preferences they should focus on is an open question. We focus on the challenges of deciding between revealed, stated, and idealized preferences. Next, we 
-turn to considering whether AI systems should aim to make people happy and how we might use AIs to promote human happiness. Finally, we consider the challenge of having AIs maximize wellbeing
+turn to consider whether AI systems should aim to make people happy and how we might use AIs to promote human happiness. Finally, we consider the challenge of having AIs maximize wellbeing
  not just for an individual, but across the whole of society. We look at how to aggregate total wellbeing across society, focusing on social welfare functions. We discuss what social welfare 
 functions are and how to trade-off between equity and efficiency in a principled way.</p>
 
