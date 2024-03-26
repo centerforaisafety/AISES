@@ -138,7 +138,7 @@ main governing body of the company. Board members have a legal
 obligation to act in the best interests of the company, so-called
 <em>fiduciary duties</em>. These duties can vary: board members of
 Alphabet have the typical fiduciary duties of a C-Corp, while board
-members of OpenAI’s nonprofit’s have a duty to “to ensure that AGI
+members of OpenAI’s nonprofit have a duty to “to ensure that AGI
 benefits all of humanity,” not to maximize shareholder value. The board
 has a number of powers they can use to steer the company in a more
 prosocial direction. It sets the strategic priorities, is responsible
@@ -196,7 +196,7 @@ the board of directors.</p>
 required to publicly report certain aspects of their governance
 structures, such as whether the board of directors has an audit
 committee. Often, AI companies also publish information about their
-released models and often in the form of model or system cards. Some
+released models, for example in the form of model or system cards. Some
 organizations disclose parts of their safety strategy and their
 governance practices as well; for instance, how they plan to ensure
 their powerful AI systems are safe, whether they have an ethics board,
