@@ -18,7 +18,7 @@ selection, and Price’s equation for describing evolutionary change over
 time. We thus set out the case that evolutionary pressures are
 influencing AIs. We turn to the ramifications of this claim in the
 second section.</p>
-<p>We next move onto exploring why evolutionary pressures may 
+<p>We next move on to exploring why evolutionary pressures may 
 promote selfish AI behavior. To consider what traits and strategies 
 natural selection tends to favor, we begin by setting out the
 “information’s eye view” of evolution as a generalized Darwinian
@@ -349,7 +349,7 @@ others.</strong> There are many traits which could cause some AI models
 or traits to be propagated more than others (increasing their
 “fitness”). Some of these traits could be highly undesirable to humans.
 For example, <em>being safer</em> than alternatives may confer a fitness
-advantage to an AI. However, <em>merely appearing to be safer</em> might
+advantage on an AI. However, <em>merely appearing to be safer</em> might
 also improve an AI’s fitness. Similarly, <em>being good at automating
 human jobs</em> could result in an AI being propagated more. On the
 other hand, <em>being easy to deactivate</em> could reduce an AI’s
