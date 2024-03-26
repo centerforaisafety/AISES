@@ -585,8 +585,8 @@ results.</p></li>
 model generates these results, predictions, or decisions based on the
 input data.</p></li>
 <li><p><strong>Type of Machine Learning: What technique is used to
-accomplish the task?</strong> This describes how the models converts its
-inputs into outputs (called inference), and learn the best way to
+accomplish the task?</strong> This describes how the model converts its
+inputs into outputs (called inference), and learns the best way to
 convert its inputs into outputs (a learning process called training). An
 ML system can be categorized by how it uses training data, what type of
 output it generates, and how it reaches results.</p></li>
