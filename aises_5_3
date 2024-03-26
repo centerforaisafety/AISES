@@ -199,7 +199,7 @@ are:</p>
 <ol>
 <li><p>We cannot predict every possible outcome of AI deployment by
 theorizing, so some trial and error will be needed</p></li>
-<li><p>Even if we specify an AI’s goals perfectly, it may start not
+<li><p>Even if we specify an AI’s goals perfectly, it may start not to
 pursue them in practice, as it may instead pursue unexpected, distorted
 subgoals</p></li>
 <li><p>A small system that is safe will not necessarily remain safe if
