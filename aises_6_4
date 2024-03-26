@@ -464,7 +464,7 @@ existing disparities. Investments in AI may yield higher productivity
 compared to past opportunities, leading to a higher rate of return on
 capital. Following Piketty’s theory of inequality, AI might exacerbate
 inequality if it increases the capital return rate more than it
-increases total growth if the wealthy can invest in AIs more than
+increases total growth if the wealthy can invest in AI more than
 everyone else. This seems likely: those with existing capital (such as
 GPUs) are likely to be able to deploy and benefit from AIs far more than
 the average person. Additionally, the benefits from AIs might be
@@ -612,7 +612,7 @@ them to avoid many competitive pressures.</p>
 Developing a large model requires paying substantial fixed costs
 up-front, including expenses for computing power and datasets essential
 for training. However, once these initial investments are made, the
-subsequent cost per user for deploying and maintaining these models are
+subsequent cost per user for deploying and maintaining these models is
 considerably lower. Since the average cost per unit decreases as the
 number of customers increases, it becomes substantially more
 cost-effective for a single AI company to provide access to many people
@@ -626,7 +626,7 @@ high-quality datasets. High resource requirements for developing
 advanced AI can limit market entry, stifling competition. Additionally,
 early capability advantages for a leading firm can have positive
 feedback loops and Matthew effect dynamics, which could enable them to
-raise more capital and pull ahead from many competitors. The possibility
+raise more capital and pull ahead of many competitors. The possibility
 of monopoly power raises concerns that only a few powerful entities will
 have access to and benefit from AI technologies.</p>
 <strong>The use of AI might
@@ -650,7 +650,7 @@ An externality is a side effect that stems from an economic activity,
 impacting individuals or groups who are not directly involved in that
 activity. Because of externalities, market prices for goods or services
 may not fully reflect the costs that third parties, who are neither the
-consumers or the producers of that market, bear as a result of the
+consumers nor the producers of that market, bear as a result of the
 economic activity.<p>
 A classic example of a negative externality–—a harm to a third party—is
 the case of pollution. Consider the Sriracha factory in Irwindale,
