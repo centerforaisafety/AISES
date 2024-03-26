@@ -330,7 +330,7 @@ rates for men and women are identical. While intuitive, statistical
 parity is a very simplistic notion; for instance, it does not account
 for potential differences between groups that could justify or explain
 different outcomes.<p>
-<p><em>Equalized odds.</em> Equalized odds demands that the false positive
+<p><em>Equalized odds.</em> Equalized odds require that the false positive
 rate and false negative rate are equal across different groups. A
 predictive health screening algorithm fulfills equalized odds if the
 false positive rate is identical for men and women. This metric ensures
@@ -368,7 +368,7 @@ Early AI fairness research largely focused on three metrics of
 fairness: statistical/demographic parity, equalized odds, and
 calibration. However, these ubiquitous metrics often contradict each
 other: statistical parity only considers overall prediction rates, not
-accuracy, while equalized odds focuses on accuracy across groups and
+accuracy, while an equalized odds approach focuses on accuracy across groups and
 calibration emphasizes correct probability estimates on average.
 Achieving calibration may require violating statistical parity when the
 characteristic being predicted is different across groups, such as
