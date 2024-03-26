@@ -254,7 +254,7 @@ restrictions on who is given access, with “Know Your Customer” policies
 for verifying users’ identities. In this scenario, the actor controlling
 the AI has ultimate authority over who can access it, how they can
 access it, what they can use it for, and if and how they can modify it.
-They can also grant access selectively for other developers to integrate
+They can also grant access selectively to other developers to integrate
 the AI within their own applications, with consideration of these
 developers’ safety standards.<p>
 One practical way of implementing structured access is to have users
@@ -544,7 +544,7 @@ expensive, so governments are interested in maintaining one large,
 well-regulated company. The French government owns the utility company
 Électricité de France, whose nuclear plants power the majority of the
 country’s electricity. AIs may be similar to public utilities if they
-are ubiquitous through the economy, essential to everyday activity, and
+are ubiquitous throughout the economy, essential to everyday activity, and
 require special safety considerations.<p>
 A common argument against nationalization is that it destroys
 competition. One potential concern about undermining competition is that
@@ -578,7 +578,7 @@ and contentious debates over the economic effects of taxation.</p>
 <h3 id="distribution-of-risks">Distribution of Risks</h3>
 <p>This textbook presents many risks from AI. It is important to discuss
 how these risks are distributed, since impacts from these societal-scale
-risks materialising would not fall only on those who develop them. Risks
+risks materializing would not fall only on those who develop them. Risks
 might even fall disproportionately on those who play no part in the
 development or control of AIs. We will first introduce the idea of moral
 hazards and discuss moral hazards from AIs. Then we will consider ways
@@ -643,7 +643,7 @@ do so.<p>
 The second idea is to impose strict regulations. Although regulations do
 not necessarily cause internalization of risks, they can help prevent
 the materialization of risks by ensuring good practices. Regulations
-have been the United States’s main policy tool in existing fields like
+have been the United States’ main policy tool in existing fields like
 nuclear power and biological research, which entail societal-scale
 risks.<p>
 A third idea is to facilitate public ownership, which we previously
