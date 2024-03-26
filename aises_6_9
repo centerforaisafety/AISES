@@ -255,7 +255,7 @@ judgement?</td>
 </table>
 </div>
 </p>
-<p><strong>MEC gives us a way of balancing both how likely we think each
+<p><strong>MEC gives us a way of balancing how likely we think each
 theory is with how much each theory cares about our actions.</strong> We
 can see that utilitarianism and deontology’s relative contributions to
 the total moral value cancel out, and we are left with an overall “+10”
@@ -328,7 +328,7 @@ reasonable—it is difficult to choose between them.</p>
 <p><strong>The outcome of the moral parliament is not determined
 externally.</strong> Instead, it is a matter of our imagination, subject
 to our biases. Often, individuals resist imagining things that
-contradict our preconceived notions. This means that moral parliament
+contradict their preconceived notions. This means that moral parliament
 may not be very helpful for individuals thinking about what is right to
 do in practice. With enough resources, however, we might be able to
 simulate model parliaments to recommend such decisions for us, such as
@@ -337,7 +337,7 @@ bargain—or by assigning moral views to multiple AI systems and having
 them come to a collective decision.</p>
 
 <h2 id="sec:implementing-moral-parliament">6.9.2 Implementing a Moral Parliament in AI Systems</h2>
-<strong>AIs might use simulate moral parliaments to account for moral uncertainty.</strong>
+<strong>AIs might use simulated moral parliaments to account for moral uncertainty.</strong>
 If we want AIs to be guided by moral theories while accounting for moral uncertainty, we might use AI systems to simulate a moral parliament. 
 We could imagine using advanced AI systems to emulate these representatives by training AIs to act in accordance with a specific moral theory. 
 This would enable us to run moral parliaments artificially, permitting real-time decision-making. Just like in real parliaments, we would have delegates---AIs 
@@ -376,7 +376,7 @@ stakeholders, ranging from individual users to large corporations, and
 from local communities to global societies. By emulating a large set of
 stakeholders, we can ensure that a diverse set of views are represented.
 This allows AIs to effectively respond to a wide range of scenarios and
-contexts, providing a robust framework for ensuring AIs decisions
+contexts, providing a robust framework for ensuring AI decisions
 reflect the values, interests, and expectations of all relevant
 stakeholders. Additionally, moral parliaments are scalable: if we are
 concerned about a lack of representation, we can simply emulate more
@@ -494,7 +494,7 @@ Uncertainty</h3>
 <strong>Summary.</strong>
 <p><strong>Taking moral uncertainty into account is difficult but
 important.</strong> As AI systems become increasingly embedded across
-various part of society and take more consequential decisions, it will
+various parts of society and take more consequential decisions, it will
 become more important to ensure that they can handle moral uncertainty.
 The same AI systems may be used by a wide variety of people with
 different moral theories, who would demand that AI acts as far as
