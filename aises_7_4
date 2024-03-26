@@ -282,7 +282,7 @@ prefers to gamble on conflict even if the probability that A wins is
 lower than B; the costs of war do not outweigh the benefits of a
 peaceful but unreasonable settlement. Consider the 1956 Suez Crisis.
 Egypt was seen as a rising power in the Middle East, having secured
-control over the Suez canal. This threatened the interests of the
+control over the Suez Canal. This threatened the interests of the
 British and French governments in the region, who responded by
 instigating war. To safeguard their diminishing influence, the British
 and French launched a swift and initially successful military
@@ -308,7 +308,7 @@ have a first-strike advantage include:</p>
 an attack on the rising power to prevent it from gaining the upper
 hand.</p></li>
 <li><p>The costs of conflict might be lower for the attacker than they
-are for the defender, so the attacker is better off securing on
+are for the defender, so the attacker is better off securing an
 offensive advantage while the defender is still in a position of
 relative weakness.</p></li>
 <li><p>The odds of victory may be higher for whichever agent attacks
@@ -336,7 +336,7 @@ On the international level, we note similar dynamics, such as in the
 case of Pearl Harbor. Though Japan and the US were not at war in 1941,
 their peacetime was destabilized by a commitment problem: if one nation
 were to attack the other, they would have an advantage in the ensuing
-conflict. The US’ Pacific fleet posed a threat to Japan’s military plans
+conflict. The US Pacific fleet posed a threat to Japan’s military plans
 in Southeast Asia. Japan had the ability to launch a surprise long-range
 strategic attack. Thus, neither the US nor Japan could credibly commit
 not to attack the other. In the end, Japan struck first, bombing the US
@@ -470,7 +470,7 @@ to Germany, but it ultimately failed, as Hitler’s aggressive
 expansionist ambitions were not satisfied, leading to the outbreak of
 World War II. Side payments can only resolve issue indivisibility when
 the value of the side payments outweighs the value of the good.<p>
-<strong>Issue indivisibility and AIs.</strong> Imagine there is a very
+<strong>Issue indivisibility and AIs.</strong> Imagine that there is a very
 powerful AI training system, and that whoever has access to this system
 will eventually be able to dominate the world. In order to reduce the
 chance of being dominated, individual parties may compete with one
@@ -593,7 +593,7 @@ emerge between sellers and buyers. Sellers sometimes withhold critical
 information about the property’s condition to increase the probability
 that the property gets purchased. Buyers, on the other hand, may be
 incentivized to misrepresent their budget or willingness to pay to
-pressure sellers to lower their price. Oftentimes, this can result in
+pressure sellers to lower their prices. Oftentimes, this can result in
 legal battles or disputes as well as the breakdown of property
 transactions.</p>
 <p><strong>Effect on the bargaining range.</strong> Consider two agents:
@@ -615,11 +615,11 @@ incentives to misrepresent the facts. For example, the agent “Cicero,”
 developed by Meta <span class="citation"
 data-cites="meta2022human">[7]</span>, is capable of very high
 performance in the board wargame “Diplomacy.” Its success requires it to
-misrepresent certain information to the other players in strategic
+misrepresent certain information to the other players in a strategic
 fashion. We have seen many other examples of AIs producing
 disinformation for a variety of reasons, such as large language models
 successfully persuading users that they are conversing with a human. The
-ability for AIs to misrepresent information successfully is only likely
+ability of AIs to misrepresent information successfully is only likely
 to increase in future <span class="citation"
 data-cites="chen2021always">[8]</span>. This could exacerbate
 disinformation problems, and thus contribute to greater risk of conflict
@@ -734,7 +734,7 @@ to better predict the risks and probability of AI-driven conflict
 scenarios.<p>
 
 Power shifts can incentivize AI agents to pursue
-conflict, to maintain strategic advantages or deter potential attacks
+conflict, maintain strategic advantages or deter potential attacks
 from stronger rivals, especially in the context of military AI
 use.<p>
 The short-lived nature of offensive advantages
