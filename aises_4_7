@@ -275,7 +275,7 @@ are on our radar.<p>
 <h2 id="known-unknowns-and-unknown-unknowns">4.7.6 Known Unknowns and Unknown
 Unknowns</h2>
 <p><strong>Black swans are “unknown unknown” tail events <span
-class="citation" data-cites="taleb2007blackswan">[1]</span>.</strong> We
+class="citation" data-cites="taleb2007blackswan">[5]</span>.</strong> We
 can sort events into four categories, as shown in the table below.<p>
 </p>
 <br>
@@ -372,7 +372,7 @@ the turkey’s best interests at heart. Then, one day, the turkey is taken
 to the slaughterhouse. This is very much an unknown unknown, or a black
 swan, for the turkey, since nothing in its experience suggested that
 this might happen <span class="citation"
-data-cites="taleb2007blackswan">[1]</span>.<p>
+data-cites="taleb2007blackswan">[5]</span>.<p>
 This illustrates that we might have a model or worldview that does a
 good job of explaining all our evidence to date, but then a black swan
 can turn up and show us that our model was incorrect. The turkey’s
@@ -567,7 +567,7 @@ sufficiently accurate information about their probabilities and impacts.
 Trying to precisely estimate risk when we might be subject to tail
 events or black swans can be viewed as an “unscientific overestimation
 of the reach of scientific knowledge” <span class="citation"
-data-cites="taleb2012antifragile">[2]</span>.</p>
+data-cites="taleb2012antifragile">[6]</span>.</p>
 <p><strong>When making risk-related decisions, we should consider
 extremes, not only the average.</strong> Aside from whether or not we
 can calculate an accurate average outcome under the risk of tail events
@@ -748,7 +748,7 @@ not all black swans are completely unpredictable, especially not for
 people who have the relevant expertise. Ways of putting more black swans
 on our radar include expanding our safety imagination, conducting stress
 tests, and red-teaming <span class="citation"
-data-cites="Marsden2017blackswan">[3]</span>.<p>
+data-cites="Marsden2017blackswan">[7]</span>.<p>
 Expanding our “safety imagination” can help us envision a wider range of
 possibilities. We can do this by playing a game of “what if” to increase
 the range of possible scenarios we can imagine unfolding. Brainstorming
@@ -760,7 +760,7 @@ order to imagine a richer set of eventualities.<p>
 Some HROs use a technique called horizon scanning, which involves
 monitoring potential future threats and opportunities before they
 arrive, to minimize the risk of unknown unknowns <span class="citation"
-data-cites="boult2018horizon">[4]</span>. AI systems could be used to
+data-cites="boult2018horizon">[9]</span>. AI systems could be used to
 enhance horizon-scanning capabilities by simulating situations that
 mirror the real world with a high degree of complexity. The simulations
 might generate data that reveal potential black swan risks to be aware
@@ -804,32 +804,30 @@ href="https://risk-engineering.org/safe-design/">https://risk-engineering.org/sa
 Ord, <span>“The lindy effect.”</span> 2023. Available: <a
 href="https://arxiv.org/abs/2308.09045">https://arxiv.org/abs/2308.09045</a></div>
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
 <div id="ref-taleb2007blackswan" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] N.
+<div class="csl-left-margin">[5] N.
 N. Taleb, <em>The black swan: The impact of the highly improbable</em>,
 vol. 2. Random House, 2007.</div>
 </div>
 <div id="ref-taleb2012antifragile" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] N.
+<div class="csl-left-margin">[6] N.
 N. Taleb, <em>Antifragile: Things that gain from disorder</em>. in
 Incerto. Random House Publishing Group, 2012. Available: <a
 href="https://books.google.com.au/books?id=5fqbz_qGi0AC">https://books.google.com.au/books?id=5fqbz_qGi0AC</a></div>
 </div>
 <div id="ref-Marsden2017blackswan" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] E.
+<div class="csl-left-margin">[7] E.
 Marsden, <span>“Black swans: The limits of probabilistic
 modelling.”</span> Accessed: Jul. 31, 2017. [Online]. Available: <a
 href="https://risk-engineering.org/black-swans/">https://risk-engineering.org/black-swans/</a></div>
 </div>
 <div id="ref-boult2018horizon" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] M.
+<div class="csl-left-margin">[8] M.
 Boult <em>et al.</em>, <em>Horizon scanning: A practitioner’s
 guide</em>. IRM - Institute of Risk Management, 2018.</div>
 </div>
 <div id="ref-danzig2018technology" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] R.
+<div class="csl-left-margin">[9] R.
 Danzig, <span>“Technology roulette.”</span> Center for a new American
 Security, 2018.</div>
 </div>

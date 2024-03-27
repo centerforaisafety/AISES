@@ -18,7 +18,7 @@ decisions behind the veil of ignorance—they are more likely to make
 decisions that maximize collective wellbeing, enabling cooperation
 through the mechanism of <em>individual stakes to common stakes</em>
 <span class="citation"
-data-cites="nowak2011supercooperators">[24]</span>.</p>
+data-cites="nowak2011supercooperators">[1]</span>.</p>
 <p><strong>Natural examples of individual stakes to common
 stakes.</strong> Intragenomic conflict arises when an individual
 organism’s genes have differing interests with respect to their
@@ -37,12 +37,12 @@ organism, allowing it to pass on its genes to subsequent generations.
 However, by fostering genetic diversity, the process of meiosis opens
 the door to randomized success, allowing the forces of natural selection
 to impartially dictate which genes and their respective traits propagate
-<span class="citation" data-cites="okasha2012social">[25]</span>.</p>
+<span class="citation" data-cites="okasha2012social">[2]</span>.</p>
 <p><strong>Individual stakes to common stakes in human society.</strong>
 The “Hutterites” are a religious group known for their cooperative and
 communal lifestyle <span class="citation"
-data-cites="Harsanyi1955CardinalWI Dennett1995DarwinsDI">[26],
-[27]</span>. They represent a prime example of how the mechanism of
+data-cites="Harsanyi1955CardinalWI Dennett1995DarwinsDI">[3],
+[4]</span>. They represent a prime example of how the mechanism of
 individual stakes to common stakes can be used to promote cooperation.
 Within their communities, the Hutterites distribute all resources among
 themselves, and relinquish any personal wealth or possessions. This
@@ -89,7 +89,7 @@ provide, but they may also face a cost from the group which can
 influence their behaviors through norms or rules. This idea was
 pioneered by the political scientist and Nobel laureate, Herbert Simon,
 and we refer to it as <strong>Simon’s selection mechanism</strong> <span
-class="citation" data-cites="simon1990mechanism">[28]</span>.</p>
+class="citation" data-cites="simon1990mechanism">[5]</span>.</p>
 <p><strong>Simon’s selection mechanism in human society.</strong> Humans
 have a tendency to believe in facts and propositions that they have not
 had the opportunity to independently verify. Such knowledge is typically
@@ -132,3 +132,42 @@ to achieve their goals. AI collective intelligences would be vastly
 superior to human collective intelligences, and as a consequence, humans
 may be prevented from participating in and understanding the decisions
 AIs make within such systems.</p>
+
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+    <div id="ref-nowak2011supercooperators" class="csl-entry"
+    role="listitem">
+    <div class="csl-left-margin">[1] M.
+    A. Nowak, R. Highfield, <em>et al.</em>, <em>Supercooperators</em>.
+    Canongate Edinburgh, 2011.</div>
+    </div>
+<div id="ref-okasha2012social" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] S.
+Okasha, <span>“Social justice, genomic justice and the veil of
+ignorance: Harsanyi meets mendel,”</span> <em>Economics &amp;amp;
+Philosophy</em>, vol. 28, no. 1, pp. 43–71, 2012, doi: <a
+href="https://doi.org/10.1017/S0266267112000119">10.1017/S0266267112000119</a>.</div>
+</div>
+<div id="ref-Harsanyi1955CardinalWI" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] J.
+C. Harsanyi, <span>“Cardinal welfare, individualistic ethics, and
+interpersonal comparisons of utility,”</span> <em>Journal of Political
+Economy</em>, 1955.</div>
+</div>
+<div id="ref-Dennett1995DarwinsDI" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] D.
+C. Dennett, <span>“Darwin’s dangerous idea: Evolution and the meanings
+of life,”</span> 1995.</div>
+</div>
+<div id="ref-simon1990mechanism" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] H.
+A. Simon, <span>“A mechanism for social selection and successful
+altruism,”</span> <em>Science</em>, vol. 250, no. 4988, pp. 1665–1668,
+1990, doi: <a
+href="https://doi.org/10.1126/science.2270480">10.1126/science.2270480</a>.</div>
+</div>
+
+</div>

@@ -476,7 +476,7 @@ deep learning models.</p>
 network, preserving information.</strong> Also known as <em>skip</em>
 connections, residual connections provide a pathway for information to
 bypass specific layers or groups of layers (called <em>blocks</em>) in a
-neural network <span class="citation" data-cites="He2016">[7]</span>.
+neural network <span class="citation" data-cites="hendrycks2023gaussian">[5]</span>.
 Without residual connections, all information must travel sequentially
 through every layer of the network, undergoing continual, significant
 change as each layer receives and transforms the output of the previous
@@ -565,7 +565,7 @@ selectively focusing on the most relevant connections.<p>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width: 70%"/>
 <p class="tb-caption">Figure 2.19:  Different attention heads can capture different relationships between words in the same
 sentence. <span class="citation"
-data-cites="Vaswani2017">[9]</span></p>
+data-cites="convolutionupdated">[8]</span></p>
 <!--<figcaption>Example of relationships captured by two different attention-->
 <!--heads - <span class="citation"-->
 <!--data-cites="Vaswani2017">[9]</span></figcaption>-->
@@ -591,7 +591,7 @@ src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transfo
 alt="image" /></p>
     <p class="tb-caption">Figure 2.20: Figure 2.20: Transformer blocks
 combine several other techniques, such as self-attention, MLPs, residual connections, and
-layer normalization. <span class="citation" data-cites="Vaswani2017">[31]</span></p>
+layer normalization. <span class="citation" data-cites="Vaswani2017">[9]</span></p>
 </div>
 <p>A <em>Transformer block</em> primarily combines self-attention and
 MLPs (as we saw earlier) with optimization techniques such as residual

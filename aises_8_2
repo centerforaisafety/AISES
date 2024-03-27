@@ -19,7 +19,7 @@ capabilities. For example, in 2023 Geoffrey Hinton (who was awarded the
 Turing award in 2018 for his contributions to deep learning) argued that
 AI development is moving quicker than expected and that he now expected
 AI systems with broadly super-human performance within 5 to 20 years
-<span class="citation" data-cites="hinton2023doomer">[2]</span>. AI
+<span class="citation" data-cites="hinton2023doomer">[1]</span>. AI
 systems are now able to perform a variety of tasks that were once
 treated as very hard, such as providing explanations for jokes or
 producing artistic creations.<p>
@@ -192,7 +192,7 @@ labor force by providing inexpensive and highly scalable automation.
 Some studies suggest that such AIs could spark unprecedented growth,
 causing the world economy to grow at rates exceeding ten times the
 current growth rate <span class="citation"
-data-cites="Davidson-growth">[1]</span>. This could result in an
+data-cites="Davidson-growth">[2]</span>. This could result in an
 unprecedented acceleration of scientific and technological advancement,
 reshaping our economy and the trajectory of human history over a period
 of perhaps only a few years. Growth of this magnitude would be unlike
@@ -237,19 +237,19 @@ they might supercharge economic growth through automation. Next, we will conside
 <br>
 <br>
 <h3>References</h3>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
-<div id="ref-Davidson-growth" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] T.
-Davidson, <span>“Could advanced AI drive explosive economic
-growth?”</span> [Online]. Available: <a
-href="https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/">https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/</a></div>
-</div>
 <div id="ref-hinton2023doomer" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div
+<div class="csl-left-margin">[1] </div><div
 class="csl-right-inline"><span>“What really made Hinton an AI
 doomer.”</span> [Online]. Available: <a
 href="https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/#:~:text=Hinton%20concluded%20that%20as%20AI,to%20be%20five%20to%2020.”">https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/#:~:text=Hinton%20concluded%20that%20as%20AI,to%20be%20five%20to%2020.”</a></div>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Davidson-growth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] T.
+Davidson, <span>“Could advanced AI drive explosive economic
+growth?”</span> [Online]. Available: <a
+href="https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/">https://www.openphilanthropy.org/research/could-advanced-ai-drive-explosive-economic-growth/</a></div>
 </div>
 <div id="ref-cotra2020forecasting" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[3] A.

@@ -161,7 +161,8 @@ best increase human wellbeing.<p>
 </p>
 <figure id="fig:wellbeing">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Wellbeing-value-purple-green.png" class="tb-img-full" width="30%"/>
-<p class="tb-caption">Figure 6.7: A wellbeing function can estimate a wellbeing value for every possible scenario.</p>
+<p class="tb-caption">Figure 6.7: A wellbeing function can estimate a wellbeing value for every possible scenario.</p> <span class="citation"
+data-cites="hendrycks2020aligning">[3]</span>
 </figure>
 <strong>We
 can supplement AI decision-making with an artificial conscience.</strong>
@@ -180,7 +181,7 @@ entirely but rather to provide an additional layer of scrutiny.<p>
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/agent_utility.png" class="tb-img-full"/>
 <p class="tb-caption">Figure 6.8: An AI agent with an artificial conscience can adjust its Q-values if it estimates the
 morally relevant aspect of the outcome to be worse than a threshold. <span
-class="citation" data-cites="hendrycks2023natural"></span></p>
+class="citation" data-cites="hendrycks2023natural">[4]</span></p>
 </figure>
 <p>One way to do this would be to adjust its estimates of <span
 class="math inline"><em>Q</em></span>-values by introducing an

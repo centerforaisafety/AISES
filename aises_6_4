@@ -243,11 +243,11 @@ the 20th century, whereas today, with a much higher global GDP per
 capita, the average person expects to live for 70 years. Nobel laureate
 Amartya Sen suggests that one pathway through which growth improves
 health is by reducing poverty and increasing investments in healthcare
-<span class="citation" data-cites="sen1999economics">[4]</span>.<p>
+<span class="citation" data-cites="sen1999economics">[3]</span>.<p>
 The benefits of economic growth extend beyond physical health. There is
 a strong association between economic prosperity and enhancements in
 freedom and education <span class="citation"
-data-cites="heckelman2000economic">[5]</span>. Prosperous societies can 
+data-cites="heckelman2000economic">[4]</span>. Prosperous societies can
 afford stronger institutions to safeguard democratic freedoms and human rights. As societies become wealthier, more resources can be allocated to support cultural institutions, 
 artists, and creative endeavors. Economic growth can enable Pareto improvements: changes that improve people’s lives without leaving anyone worse off, like growing a pie 
 to give everyone bigger slices. Instead of debating whether to spend limited resources on a new hospital, school, or cultural center, encouraging economic growth can allow us to 
@@ -304,7 +304,7 @@ wealth), and 1 signifies maximum inequality (one person has all the
 income or wealth, and everyone else has none). Looking at Gini
 coefficients, 71% of the world’s population lives in countries with
 increasing inequality over the last thirty years <span class="citation"
-data-cites="UN2020inequality">[6]</span>.</p>
+data-cites="UN2020inequality">[5]</span>.</p>
 <strong>Inequality
 in the United States is particularly striking.</strong>
 Figure 6.4 shows that the Gini coefficient in the
@@ -314,7 +314,7 @@ Gini coefficient has risen by 25%, suggesting that despite
 redistributive taxation policies, the US income gap has widened
 substantially. (For reference, this change in Gini coefficient is the
 same size as moving from Canada to Saudi Arabia today. <span
-class="citation" data-cites="UN2020inequality">[6]</span>) This increase
+class="citation" data-cites="UN2020inequality">[5]</span>) This increase
 in the Gini coefficient is evidence of a growing inequality crisis. An
 associated fall in social mobility—the ability of an individual to move
 from the bottom income bracket to the top—cements inequalities over
@@ -330,7 +330,7 @@ distribution of gains from growth is highly unequal.</strong>
 Nearly all the wealth gains over the past five decades have been
 captured by the top 1% of income earners, while average
 inflation-adjusted wages have barely increased <span class="citation"
-data-cites="desilver2018workers">[7]</span>. A RAND Corporation working
+data-cites="desilver2018workers">[6]</span>. A RAND Corporation working
 paper estimated how the US income distribution would look today if
 inequality was at the same level as in 1975—the results are in Table 6.1. Suppose my annual income is $15,000
 today. If inequality was at the same level as in 1975, I would be paid
@@ -412,12 +412,12 @@ higher stress levels. For instance, life expectancy often varies
 dramatically based on income in unequal societies: the average life
 expectancy of the lowest-income classes in America now matches the
 averages in Sudan or Pakistan <span class="citation"
-data-cites="wilkinson2009spirit">[9]</span>.</p>
+data-cites="wilkinson2009spirit">[8]</span>.</p>
 <strong>Everyone,
 not just the poorest, suffers in an unequal society.</strong>
 One of the most robust findings is that unequal societies have higher
 levels of crime <span class="citation"
-data-cites="kelly2000inequality">[10]</span>. When inequality is high,
+data-cites="kelly2000inequality">[9]</span>. When inequality is high,
 so too are levels of social tension, dissatisfaction, and shame, which
 can contribute to higher crime rates. This can lead to a cycle where the
 fear of crime drives further inequality, as wealthier individuals and
@@ -445,7 +445,7 @@ Renowned economist Thomas Piketty, in his book “Capital in the 21st
 Century,” posits that inequality results from the difference between the
 interest rate investments in capital receive (r) and the rate of
 economic growth (g) <span class="citation"
-data-cites="piketty2014capital">[11]</span>. Essentially, when the
+data-cites="piketty2014capital">[10]</span>. Essentially, when the
 returns from investing wealth (r) surpass the overall growth rate (g),
 society tends to become more unequal. This happens because the rich can
 profit significantly from investing their existing wealth, while average
@@ -499,7 +499,7 @@ models, robotics, and computer vision. The advent of self-driving cars
 could potentially displace the vast portion of the 5 million Americans
 driving for a living. Similarly, advancements in robotics might threaten
 the employment of the 12 million Americans working in manufacturing
-<span class="citation" data-cites="yang2018war">[12]</span>. Since
+<span class="citation" data-cites="yang2018war">[11]</span>. Since
 software is cheap to duplicate, AI presents firms around the globe with
 a low-cost and scalable alternative to using human labor. Mass
 unemployment could result in severe inequality—establishing a divide
@@ -580,7 +580,7 @@ recommendations. However, it can also be misused, leading to situations
 in which those using AIs can manipulate consumers. AI-powered analytics
 allows companies to create sophisticated profiles of consumers that can
 uncover deep insights into individual personalities and behaviors. <span
-class="citation" data-cites="rust2005psychometrics">[13]</span> Big tech
+class="citation" data-cites="rust2005psychometrics">[12]</span> Big tech
 companies already use social media and device activity to understand an
 individual’s preferences and vulnerabilities better than ever before.
 This knowledge can be cunningly used to shape targeted advertisements or
@@ -676,7 +676,7 @@ create efficient outcomes; for instance, if the property right to the
 air was understood to belong to the townspeople, and that the factory
 would have to stop polluting or compensate the townspeople at an
 acceptable rate for their inconvenience <span class="citation"
-data-cites="lafleur2013coase">[14]</span>.<p>
+data-cites="lafleur2013coase">[13]</span>.<p>
 A third commonly used resolution to externalities is taxation. Smoking
 cigarettes imposes negative externalities on those near the smoker;
 governments will thus impose taxes on the sale of tobacco, which both
@@ -739,7 +739,7 @@ Many essential roles in society, such as parenthood, community
 service, and early education, are crucial to the wellbeing of
 individuals and communities but are often undervalued or entirely
 overlooked in GDP calculations <span class="citation"
-data-cites="jones2016gdp">[15]</span>. While their effects might be
+data-cites="jones2016gdp">[14]</span>. While their effects might be
 captured–—education, for instance, will increase productivity, which
 increases GDP–—the initial activity does not count. The reason is
 simple: GDP only accounts for activities that have a market price.
@@ -796,7 +796,7 @@ as China, might have a different perspective on the balance between work
 and leisure. Despite the country’s impressive economic growth in recent
 decades, levels of self-reported happiness haven’t increased
 proportionally, potentially due to growing income inequality <span
-class="citation" data-cites="earterlin2012china">[16]</span>. Such
+class="citation" data-cites="earterlin2012china">[15]</span>. Such
 evidence suggests that an increase in output does not always translate
 to an improvement in quality of life. We must consider factors beyond
 economic metrics when assessing the societal impact of policies and
@@ -808,7 +808,7 @@ everything.</strong>
 Another way in which economic output can be at odds with our values
 is through the growing trend of financialization—monetizing various
 aspects of private or public life <span class="citation"
-data-cites="sandel2012money">[17]</span>. Increasingly, potent
+data-cites="sandel2012money">[16]</span>. Increasingly, potent
 algorithms are deployed to "optimize" life in various ways, with a
 primary focus on profitability, sometimes at the expense of intrinsic
 human values. These algorithms can distort the alignment between
@@ -831,7 +831,7 @@ tardiness. When the fine was eventually eliminated, the late pickups
 didn’t decrease but rather increased. The financial penalty had
 disappeared, but the original sense of guilt associated with late
 pickups did not return <span class="citation"
-data-cites="raworth2017doughnut">[18]</span>. This case demonstrates the
+data-cites="raworth2017doughnut">[17]</span>. This case demonstrates the
 risk of allowing financialization into areas of life traditionally
 governed by non-market norms; we might inadvertently erode the very
 values we hold dear, like parental responsibility and respect for
@@ -967,7 +967,7 @@ less affluent counterparts, long-term economic growth does not always
 correlate with long-term increases in happiness: this is the Easterlin
 paradox. Several studies have tried to explore the relationship between
 happiness and economic growth <span class="citation"
-data-cites="earterlin2012china">[16]</span>. While some findings suggest
+data-cites="earterlin2012china">[15]</span>. While some findings suggest
 a correlation, others don’t, highlighting that our understanding of the
 happiness-growth relationship is still evolving.<p>
 We do, however, have strong evidence that inequality is unhelpful.
@@ -1017,7 +1017,7 @@ wellbeing, so it is not something to align AI development to.</em></p>
 
 <p><strong>We should be wary of using AI to increase metrics that are only proxies for wellbeing.</strong> Policymakers must be cautious about the objectives set for AI systems. Our current economic system strongly incentivises the deployment of AI systems that optimize for economic growth rather than other objectives. As we discussed, increasing economic output is often a worthy goal, but may not capture essential aspects of societal health such as equality, sustainability, or the smooth functioning of an economy without market failures. While economic objectives like GDP growth are quantifiable and easy to pursue, they may not truly reflect what makes a society happy and healthy.
 
-<p><strong>It is risky to blindly trust the economic engine to create AIs.</strong> AI systems created by for-profit businesses are designed to maximize shareholder profits, not societal wellbeing. If we let the economy decide what AIs do by letting largely unregulated markets create AIs, we may end up with an increase in inequality, exacerbation of market failures, and promotion of economic goals like wealth maximization that are notably different from increasing wellbeing. Using money as a proxy for social value might seem practical, but it can distort societal priorities; for instance, this system implies that the preferences of wealthier individuals hold more weight since they are willing and able to spend more. The preferences of a billionaire would be considered orders of magnitude more important than those of an average citizen, which is clearly disconnected from social value. \\
+<p><strong>It is risky to blindly trust the economic engine to create AIs.</strong> AI systems created by for-profit businesses are designed to maximize shareholder profits, not societal wellbeing. If we let the economy decide what AIs do by letting largely unregulated markets create AIs, we may end up with an increase in inequality, exacerbation of market failures, and promotion of economic goals like wealth maximization that are notably different from increasing wellbeing. Using money as a proxy for social value might seem practical, but it can distort societal priorities; for instance, this system implies that the preferences of wealthier individuals hold more weight since they are willing and able to spend more. The preferences of a billionaire would be considered orders of magnitude more important than those of an average citizen, which is clearly disconnected from social value.
 
 <p>The examples in this section demonstrate a divergence between economic incentives and other important societal goals and should serve as a cautionary note. Objections to both the preference view of wellbeing and the influence of the economy on AI development suggest that we ultimately care about something else. In the next section, we consider an alternative view: a framework that puts happiness front and center. By instructing an AI system to increase happiness, we might aim to overcome the human biases and limitations that stop us from pursuing our happiness and enable the system to make decisions that have a positive impact on overall wellbeing.
 </p>
@@ -1033,89 +1033,89 @@ role="list">
 M. Lipton, <span>“What we talk about when we talk about shareholder
 primacy,”</span> <em>69 Case W. Rsrv. L. Rev.</em>, vol. 69, 2019.</div>
 </div>
-<div id="ref-pwc2017sizing" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div
-class="csl-right-inline"><span>“Sizing the prize,”</span> PwC’s Global
-Artificial Intelligence Study: Exploiting the AI Revolution.</div>
-</div>
+<!--<div id="ref-pwc2017sizing" class="csl-entry" role="listitem">-->
+<!--<div class="csl-left-margin">[2] </div><div-->
+<!--class="csl-right-inline"><span>“Sizing the prize,”</span> PwC’s Global-->
+<!--Artificial Intelligence Study: Exploiting the AI Revolution.</div>-->
+<!--</div>-->
 <div id="ref-wikiprestoncurve" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div
+<div class="csl-left-margin">[2] </div><div
 class="csl-right-inline">Radeksz, [Online]. Available: <a
 href="https://commons.wikimedia.org/wiki/File:PrestonCurve2005.JPG">https://commons.wikimedia.org/wiki/File:PrestonCurve2005.JPG</a></div>
 </div>
 <div id="ref-sen1999economics" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] A.
+<div class="csl-left-margin">[3] A.
 Sen, <span>“Economics and health,”</span> <em>The Lancet</em>,
 1999.</div>
 </div>
 <div id="ref-heckelman2000economic" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] J.
+<div class="csl-left-margin">[4] J.
 Heckelman, <span>“Economic freedom and economic growth: A short-run
 causal investigation,”</span> <em>Journal of Applied Economics</em>,
 vol. III, pp. 71–91, May 2000, doi: <a
 href="https://doi.org/10.1080/15140326.2000.12040546">10.1080/15140326.2000.12040546</a>.</div>
 </div>
 <div id="ref-UN2020inequality" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div
+<div class="csl-left-margin">[5] </div><div
 class="csl-right-inline"><span>“Inequality - bridging the
 divide.”</span> [Online]. Available: <a
 href="https://www.un.org/en/un75/inequality-bridging-divide">https://www.un.org/en/un75/inequality-bridging-divide</a></div>
 </div>
 <div id="ref-desilver2018workers" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] D.
+<div class="csl-left-margin">[6] D.
 Desilver, <span>“For most u.s. Workers, real wages have barely budged in
 decades.”</span> [Online]. Available: <a
 href="https://www.pewresearch.org/short-reads/2018/08/07/for-most-us-workers-real-wages-have-barely-budged-for-decades/">https://www.pewresearch.org/short-reads/2018/08/07/for-most-us-workers-real-wages-have-barely-budged-for-decades/</a></div>
 </div>
 <div id="ref-hanauer2020top" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[8] N.
+<div class="csl-left-margin">[7] N.
 Hanauer and D. M. Rolf, <span>“The top 1% of americans have taken $50
 trillion from the bottom 90% — and that’s made the u.s. Less
 secure.”</span></div>
 </div>
 <div id="ref-wilkinson2009spirit" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[9] R.
+<div class="csl-left-margin">[8] R.
 D. Wilkinson and K. Pickett, <em>The spirit level: Why more equal
 societies almost always do better.</em> Bloomsbury Publishing,
 2009.</div>
 </div>
 <div id="ref-kelly2000inequality" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[10] M.
+<div class="csl-left-margin">[9] M.
 Kelly, <span>“Inequality and crime,”</span> <em>The Review of Economics
 and Statistics</em>, vol. 82, pp. 530–539, Feb. 2000, doi: <a
 href="https://doi.org/10.1162/003465300559028">10.1162/003465300559028</a>.</div>
 </div>
 <div id="ref-piketty2014capital" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[11] T.
+<div class="csl-left-margin">[10] T.
 Piketty, <em>Capital in the twenty-first century</em>. Belknap Press,
 2014.</div>
 </div>
 <div id="ref-yang2018war" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[12] A.
+<div class="csl-left-margin">[11] A.
 Yang, <em>The war on normal people: The truth about america’s
 disappearing jobs and why universal basic income is our future</em>.
 Hachette Books, 2018.</div>
 </div>
 <div id="ref-rust2005psychometrics" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] J.
+<div class="csl-left-margin">[12] J.
 Rust, <span>“Psychometrics and artificial intelligence.”</span> UK Test
 Users Conference., 2005.</div>
 </div>
 <div id="ref-lafleur2013coase" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[14] S.
+<div class="csl-left-margin">[13] S.
 Lafleur, <span>“Coase, pigou, and sriracha sauce.”</span> [Online].
 Available: <a
 href="https://fcpp.org/2013/12/16/coase-pigou-and-sriracha-sauce/">https://fcpp.org/2013/12/16/coase-pigou-and-sriracha-sauce/</a></div>
 </div>
 <div id="ref-jones2016gdp" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[15] C.
+<div class="csl-left-margin">[14] C.
 Jones and P. Klenow, <span>“Beyond GDP? Welfare across countries and
 time,”</span> <em>American Economic Review</em>, vol. 106, pp.
 2426–2457, Sep. 2016, doi: <a
 href="https://doi.org/10.1257/aer.20110236">10.1257/aer.20110236</a>.</div>
 </div>
 <div id="ref-earterlin2012china" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[16] R.
+<div class="csl-left-margin">[15] R.
 Easterlin, R. Morgan, M. Switek, and F. Wang, <span>“China’s life
 satisfaction, 1990-2010,”</span> <em>Proceedings of the National Academy
 of Sciences of the United States of America</em>, vol. 109, pp. 9775–80,
@@ -1123,13 +1123,13 @@ May 2012, doi: <a
 href="https://doi.org/10.1073/pnas.1205672109">10.1073/pnas.1205672109</a>.</div>
 </div>
 <div id="ref-sandel2012money" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[17] S.
+<div class="csl-left-margin">[16] S.
 M. J., <em>What money can<span>’</span>t buy: The moral limits of
 markets</em>. Farrar, Straus; Giroux; Farrar, Straus; Giroux,
 2012.</div>
 </div>
 <div id="ref-raworth2017doughnut" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[18] K.
+<div class="csl-left-margin">[17] K.
 Raworth, <em>Doughnut economics: Seven ways to think like a 21st century
 economist</em>. Chelsea Green Publishing, 2017.</div>
 </div>

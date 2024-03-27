@@ -101,7 +101,7 @@ machines—Colossus, ENIAC, the Automatic Computing Engine, and several
 others—marked the dawn of the computer age and set the stage for future
 computer science research.</p>
 <p><strong>The Turing Test.</strong> Turing created a thought experiment
-to assess if an AI could convincingly simulate human conversation<span
+to assess if an AI could convincingly simulate human conversation <span
 class="citation" data-cites="Turing1950">[3]</span>. In what Turing
 called the <em>Imitation Game</em>, a human evaluator interacts with a
 human and a machine, both hidden from view. If the evaluator fails to

@@ -1,37 +1,36 @@
 <h1 id="systemic-safety"> 3.5 Systemic safety</h1>
 <p>AI can be used to help defend against the potential risks it poses. Three important examples of this approach are use of AI to improve defenses against cyber-attacks,
  to enhance security against pandemics, and to improve the information environment. This philosophy of leveraging AI’s capabilities for societal resilience has been called “systemic safety”
-<span class="citation" data-cites="hendrycks2022unsolved">[80], while the broader idea of focussing on technologies that defend against societal risks is sometimes described as “defensive accelerationism”
-<span class="citation" data-cites="Buterin2023">[81].   
+<span class="citation" data-cites="hendrycks2022unsolved">[1], while the broader idea of focussing on technologies that defend against societal risks is sometimes described as “defensive accelerationism”
+<span class="citation" data-cites="Buterin2023">[2].
 <p><strong>AI for cybersecurity.</strong> Cyber-attacks on critical infrastructure are a growing concern. For example, a 2021 ransomware attack on the Colonial oil pipeline 
-led to regional gasoline shortages in the Eastern US for several days <span class="citation" data-cites="gao2024critical">[82]. AI systems are already quite capable at 
+led to regional gasoline shortages in the Eastern US for several days <span class="citation" data-cites="gao2024critical">[3]. AI systems are already quite capable at
 writing code, and may exacerbate the threat of cyber-attacks by reducing the barrier to entry to hacking and identifying ways to increase the potency, success rate, scale, 
 speed, and stealth of attacks. There is some early evidence of AI system's abilities in this domain and reducing the cost and difficulty of cyber-attacks could give attackers
- a major advantage <span class="citation" data-cites="shao2024empirical">[83]. Since these attacks can undermine critical physical infrastructure such as power grids,
- they could prove highly destabilizing and threaten international security.
-  
+ a major advantage <span class="citation" data-cites="shao2024empirical">[4]. Since these attacks can undermine critical physical infrastructure such as power grids,
+ they could prove highly destabilising and threaten international security.
 <p>However, AI could also be used to find vulnerabilities in codebases, shoring up defenses against AI-enabled hacking. If applied appropriately, this could shift the 
-offense-defense balance of cyber-attacks and reduce the risk of catastrophic attacks on public services and critical infrastructure <span class="citation" data-cites="hendrycks2022unsolved">[80]. 
+offense-defense balance of cyber-attacks and reduce the risk of catastrophic attacks on public services and critical infrastructure <span class="citation" data-cites="hendrycks2022unsolved">[1].
 For example, AI could be used to monitor systems and networks to detect unauthorized access or imposter threats. ML methods could analyze source code to find malicious payloads. 
 ML models could monitor program behaviors to flag abnormal network traffic. Such systems could provide early attack warnings and contextual explanations of threats. 
 Advances in code translation and generation also raise the possibility that future AI could not just identify bugs, but also automatically patch them by editing code to fix vulnerabilities.</p>   
 <p><strong>AI for biosecurity.</strong> As discussed in section 1.2, the use of AI to facilitate the creation of bio-engineered pandemics is a significant concern. 
 However, AI tools could also promote biosecurity by enabling real-time epidemic detection, improving disease forecasting, screening synthesis of gene sequences to prevent misuse, 
-and accelerating medical countermeasure development <span class="citation" data-cites="aiforbiosecurity">[84]. AI systems could improve our ability to analyze diverse data 
+and accelerating medical countermeasure development <span class="citation" data-cites="aiforbiosecurity">[5]. AI systems could improve our ability to analyze diverse data
 streams to identify disease outbreaks early and enable rapid response. AI might be applied in other ways to provide early warning of potential pandemics, for example via 
 novel techniques for metagenomic sequencing of wastewater. Algorithms could also forecast future disease trends by parameterizing models and predicting new risks. 
 To prevent misuses of synthetic biology, AI may help with screening gene synthesis orders to flag potentially dangerous sequences. It would be particularly valuable 
 to improve available tools for identifying novel pathogens that might evade existing screening measures. AI has already started to be applied in drug discovery and 
-may be able to significantly expedite vaccine and treatment development <span class="citation" data-cites="aifordrugs">[85].   
+may be able to significantly expedite vaccine and treatment development <span class="citation" data-cites="aifordrugs">[6].
 <p><strong>AI to improve the information environment.</strong> AI could help society to be more resilient to misinformation by detecting false claims and providing 
 evidence-backed answers to questions. For example, it could be used to provide automatic fact-checking or additional context for controversial claims and articles 
-shared on social media <span class="citation" data-cites="aifakenews">[86]. AI-generated content raises concerns about more credible misinformation, with some initial 
+shared on social media <span class="citation" data-cites="aifakenews">[7]. AI-generated content raises concerns about more credible misinformation, with some initial
 reports appearing about use of this content to manipulate election results
-<span class="citation" data-cites="audiodeepfakes">[87]. Equally concerning is the prospect of eroded trust in content that is not in fact AI-generated, due to inability
+<span class="citation" data-cites="audiodeepfakes">[8]. Equally concerning is the prospect of eroded trust in content that is not in fact AI-generated, due to inability
  to distinguish the two, which could contribute to a more fragmented and polarised information environment. Development of tools to enable effective watermarking of 
 AI-generated content could be a helpful first step towards building epistemic resilience.</p>
 </p>Many important decisions rely on human forecasts of future events, but machine learning systems may be able to make more accurate predictions by aggregating larger 
-volumes of unstructured information <span class="citation" data-cites="hendrycks2022unsolved">[80]. ML tools could analyze disparate data sources to forecast geopolitical, 
+volumes of unstructured information <span class="citation" data-cites="hendrycks2022unsolved">[1]. ML tools could analyze disparate data sources to forecast geopolitical,
 epidemiological, and industrial developments over months or years. The accuracy of such systems could be evaluated by their ability to retroactively predict pivotal historical 
 events. Additionally, ML systems could help identify key questions, risks, and mitigation strategies that human forecasters may overlook. By processing extensive data and 
 learning from diverse situations, AI advisors could provide relevant prior scenarios and relevant statistics such as base rates. They could also identify stakeholders to consult, 
@@ -43,3 +42,59 @@ For example, the potential risk from pandemics could be reduced through improvem
 which would make it more difficult for respiratory viruses to travel from one person to another. Similarly, investments in stockpiling personal protective equipment 
 such as masks and gowns, and developing more effective and comfortable next-generation personal protective equipment, could prove valuable in countering the spread 
 of future pandemics and ensuring that healthcare and other essential services can continue to operate. </p>
+
+
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+
+<div id="ref-hendrycks2022unsolved" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] Dan Hendrycks et al.
+“<span>Unsolved Problems in ML Safety.”</span> <span>arXiv</span>, Aug. 2023. arXiv: 2109.13916.</div>
+</div>
+<div id="ref-Buterin2023" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[2] <span> My techno-optimism. </span>
+ <a href="https://vitalik.eth.limo/general/2023/11/27/techno_optimism.
+html">https://vitalik.eth.limo/general/2023/11/27/techno_optimism.
+html.</a></div>
+</div>
+<div id="ref-gao2024critical" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[3] United States Government Accountability Office
+ <span>Critical Infrastructure Protection: Agencies Need to
+Enhance Oversight of Ransomware Practices and Assess Federal Support
+html.</span> 2024.</div>
+</div>
+<div id="ref-shao2024empirical" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[4] Minghao Shao et al.
+ <span>An Empirical Evaluation of LLMs for Solving Offensive Security Challenges. </span> 2024. arXiv: 2402.11814.</div>
+</div>
+<div id="ref-aiforbiosecurity" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[5]
+ <span>“How AI Can Help Prevent Biosecurity Disasters.” </span> <a href="https://ifp.org/how-ai-can-help-preventbiosecurity-disasters/"> https://ifp.org/how-ai-can-help-preventbiosecurity-disasters/</a></div>
+</div>
+<div id="ref-aifordrugs" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[6]
+ <span>“Biotech begins human trials of drug designed by artificial intelligence.” </span> <a href="https://www.ft.com/
+content/82071cf2-f0da-432b-b815-606d602871fc">https://www.ft.com/
+content/82071cf2-f0da-432b-b815-606d602871fc</a></div>
+</div>
+<div id="ref-aifakenews" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[7] Maialen Berrondo-Otermin and Antonio Sarasa-Cabezuelo.
+ <span>“Application of Artificial Intelligence
+Techniques to Detect Fake News: A Review.” </span> In: Electronics 12.24 (2023). issn: 2079-9292. doi:
+10.3390/electronics12245041.
+</div>
+<div id="ref-audiodeepfakes" class="csl-entry" role="listitem">
+ <div class="csl-left-margin">[7] Maialen Berrondo-Otermin and Antonio Sarasa-Cabezuelo.
+ <span>“Audio deepfakes emerge as weapon of choice in election disinformation” </span> <a href=": https://www.ft.com/
+content/bd75b678-044f-409e-b987-8704d6a704ea"> : https://www.ft.com/
+content/bd75b678-044f-409e-b987-8704d6a704ea
+</a>
+</div>
+
+
+
+
+</div>

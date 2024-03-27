@@ -856,11 +856,18 @@ Zou, Z. Wang, J. Z. Kolter, and M. Fredrikson, <span>“Universal and
 Models</span>.”</span> <span>arXiv</span>, Jul. 2023. doi: <a
 href="https://doi.org/10.48550/arXiv.2307.15043">10.48550/arXiv.2307.15043</a>.</div>
 </div>
-<div id="ref-zou2023universal" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[13] A.
-Zou, Z. Wang, J. Z. Kolter, and M. Fredrikson, <span>“Universal and
-<span>Transferable Adversarial Attacks</span> on <span>Aligned Language
-Models</span>.”</span> <span>arXiv</span>, Jul. 2023. doi: <a
-href="https://doi.org/10.48550/arXiv.2307.15043">10.48550/arXiv.2307.15043</a>.</div>
+<div id="ref-Malicious" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] OpenAI <span>“Disrupting malicious uses of AI by state-affiliated threat actors.” </span> Available on: <a
+href="https://openai.com/blog/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors">OpenAi</a>.</div>
 </div>
+<div id="ref-carlini2023poisoning" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] Nicholas Carlini et al. <span>“Poisoning Web-Scale Training Datasets is Practical.” </span> 2023, arXiv: 2302.10149.</div>
+</div>
+<div id="ref-carlini2020trainingdata" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] Nicholas Carlini et al. <span>“Extracting Training Data from Large Language Models.” </span> 2020,  arXiv: 2012.07805.</div>
+</div>
+<div id="ref-nasr2023scalable" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] Milad Nasr et al. <span>“. Scalable Extraction of Training Data from (Production) Language Models.” </span> 2023,  arXiv: 2311.17035.</div>
+</div>
+
 </div>
