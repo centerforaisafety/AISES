@@ -141,7 +141,7 @@ could also be helpful for detecting other threats such as novel biological hazar
         <td style="text-align: left;">
             <ul>
                 <li>Increasing the robustness of AI systems can help to prevent misuse. It can also reduce
-risks of proxy gaming by making models more robust against optimisers</li>
+risks of proxy gaming by making models more robust against optimizers</li>
                 <li>While robustness is a well-developed field in some parts of machine learning such as
 computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents</li>
             </ul>

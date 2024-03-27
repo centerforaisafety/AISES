@@ -291,7 +291,7 @@ levels of abstraction.<p>
 </p>
 <figure id="fig:multilayer-nn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/neural_network.png" class="tb-img-full" style="width: 60%"/>
-    <p class="tb-caption">Figure 2.13: A classic multi-layer neural network has an input later, several hidden layers, and an
+    <p class="tb-caption">Figure 2.13: A classic multi-layer neural network has an input layer, several hidden layers, and an
 output layer.</p>
 <!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
@@ -1006,7 +1006,7 @@ language models launched by OpenAI. The size of these models and scale
 at which they were trained led to a remarkable improvement in fluency
 and accuracy in various language tasks, significantly advancing the
 state-of-the-art in natural language processing. One of the key reasons
-GPT models are more popular than BERT models is because they are better
+GPT models are more popular than BERT models is that they are better
 at generating text. While BERT learns really good representations
 through being trained to fill in blanks in the middle of sentences, GPT
 models are trained to predict what comes next, enabling them to generate
@@ -1014,7 +1014,7 @@ long-form sequences (e.g. sentences, paragraphs, and essays) much more
 naturally.<p>
 Many important developments have been left out in this brief timeline.
 Perhaps more importantly, future developments might revolutionize model
-architectures in new ways, perhaps bringing to light older innovations
+architectures in new ways, potentially bringing to light older innovations
 that have currently fallen to the wayside. Next, we will explore some
 common applications of deep learning models.</p>
 <h2 id="applications">2.3.4 Applications</h2>

@@ -40,14 +40,12 @@ focus more directly on AI risks that have already been identified and discussed 
  to ideas from game theory, complex systems, international relations, and more. We hope that providing these flexible conceptual
  tools will help readers to adapt robustly to the ever-changing landscape of AI risks.<p>
 
-This book does not aim to be the final word on all possible AI risks, as
-research on AI risk is still relatively new. Rather, we aim to highlight
-some concepts and frameworks that we have found highly productive for
-thinking about various AI risks. Given the broad scope of the problems
-involved, it is easy to become disoriented. Our hope is that this
-textbook provides some scaffolding for others to use as they build out a
-more detailed picture of these risks and the potential responses to
-them.<p>
+This book does not aim to be the final word on all possible AI risks, as research on AI risk is still relatively new and is developing rapidly. 
+The range of topics covered in this book also means that there are many details and nuances that we do not have room to address. A book aiming at 
+maximal rigour and depth would be much longer than this one and would likely also introduce more technical jargon and formalism, reducing its accessibility. 
+Instead of this, we aim to introduce some concepts and frameworks that we have found highly productive for thinking about various AI risks. Given the broad 
+scope of the problems involved, it is easy to become disoriented. Our hope is that this textbook provides a starting point for others as they build out a more
+ detailed picture of these risks and the potential responses to them.<p>
 The textbook’s content falls into three sections: AI and Societal-Scale Risks, Safety,
  and Ethics and Society. In the AI and Societal-Scale Risks section, we outline major 
 categories of AI risks and introduce some key features of modern AI systems. In the Safety

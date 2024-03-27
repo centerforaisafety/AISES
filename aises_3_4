@@ -129,7 +129,7 @@ about the extent of their power seeking in order to reduce the
 probability that they are stopped.</p>
 <p><strong>Accidental Deception.</strong> An AI system may provide false
 information simply because it does not know the correct answer. Many
-errors made by an AI system that are relied on by humans would count as
+errors made by an AI system that is relied on by humans would count as
 accidental deception. For example, suppose a student asks a language
 model what the current price of gasoline is. If the language model does
 not have access to up-to-date information, it may give outdated
@@ -182,14 +182,14 @@ caregivers, such as doctors, allowing them insight into their patients’
 subjective experiences. However, it can also be valuable for
 manipulating and deceiving others <span class="citation"
 data-cites="Wai2012">[8]</span>: there is evidence that human
-psychopaths often are often highly cognitively empathetic <span
+psychopaths are often highly cognitively empathetic <span
 class="citation" data-cites="Cohen2011">[9]</span>. On its own, this
 kind of empathy is no guarantee of desirable behavior.</p>
 <p><strong>Emotional empathy.</strong> The second type is emotional
 empathy. An emotional empath not only understands how someone else is
-feeling but experiences some of those same feelings themself. Where a
+feeling but experiences some of those same feelings personally. Where a
 cognitive empath may detect anger or sadness in another person, an
-emotional empath may themself begin to feel angry or sad in response. In
+emotional empath may personally begin to feel angry or sad in response. In
 contrast to cognitive empathy, emotional empathy may be a disadvantage
 in certain contexts. For instance, doctors who feel the emotional
 turmoil of their patients too strongly may be less effective in their
@@ -347,7 +347,7 @@ data-cites="bostrom2014superintelligence">[13]</span>.</p>
 <p><strong>Not all misaligned goals would lead to deceptive
 alignment.</strong> Systems with very short-term goals would be unlikely
 to gain anything from being evaluated positively and gaining more
-optionality at some point in the future. Nevertheless, there are a large
+optionality at some point in the future. Nevertheless, there is a large
 set of longer-term goals that an AI system would only be able to pursue
 in a deployment environment with less supervision. If the AI system’s
 only chance at working towards its goal requires deployment or relaxed
@@ -646,7 +646,7 @@ achieving many goals, but it would not be instrumentally rational for
 many agents to spend their time pursuing this instrumental goal. Power
 is often not instrumentally rational since it can often require
 substantial time and risk to acquire and maintain.</p>
-<p><strong>Power seeking can be face the threat of retaliation.</strong>
+<p><strong>Power seeking can face the threat of retaliation.</strong>
 Power-seeking can be irrational if there is the threat of retaliation or
 there are heavy social or reputational costs to seeking power. In
 particular, a community of agents may be in an equilibrium where they
@@ -703,7 +703,7 @@ and since there is no ultimate authority guaranteed to protect them,
 states are forced to compete for power in order to survive.<p>
 <strong>Assumptions that give rise to power seeking.</strong> To explain
 why power seeking is the main instrumental goal driving the behavior of
-states, structural realists base their explanations on a two key
+states, structural realists base their explanations on two key
 assumptions:</p>
 <ol>
 <li><p>Self-help system. States operate in a “self-help” system <span
@@ -713,7 +713,7 @@ no ultimate arbiter standing above states in international relations. So
 to speak, when states dial 911, there is no one on the other end. This
 stands in contrast to the hierarchical ordering principle seen in
 domestic politics.</p></li>
-<li><p>Self-preservation is a main goal. Survival through the pursuit of
+<li><p>Self-preservation is the main goal. Survival through the pursuit of
 a state’s own self-interest takes precedence over all other goals.
 Though states can act according to moral considerations or global
 welfare, these will always be secondary to acquiring resources,
@@ -793,7 +793,7 @@ offense-defense balance. Even if a state has superior offensive
 capabilities, if it believes that other states can effectively defend
 themselves or form a united front against hegemonic ambitions, it might
 be less inclined to pursue a path of dominance. On the other hand, if it
-is overconfident of its own offensive capabilities or underestimates the
+is overconfident in its own offensive capabilities or underestimates the
 defensive capabilities of rivals, it will be more likely to pursue
 aggressive politics.<p>
 The concept of an offense-defense balance underscores the intricate
@@ -966,7 +966,7 @@ from Human Feedback (RLHF) <span
 class="citation" data-cites="Ouyang2022TrainingLM">[31]</span> and Direct Preference Optimization (DPO) <span
 class="citation" data-cites="rafailov2023dpo">[19]</span>. These techniques involve collecting a dataset of 
 comparisons of responses from a language model. These comparisons indicate which responses were preferred by human users or by AI systems prompted to compare the responses. They can be collected
-after the model's initial pre-training on a large text dataset. In RLHF, a reward model is fitted to this the dataset of comparisons and is then used to train the language model to 
+after the model's initial pre-training on a large text dataset. In RLHF, a reward model is fitted to this dataset of comparisons and is then used to train the language model to 
 produce responses that get high reward from this reward model. Direct Preference Optimization is intended to simplify this pipeline and directly train the model to produce outputs
 that best fit the preferences in the dataset, without using reinforcement learning. RLHF and DPO have received a large amount of attention from commercial AI developers to make their 
 products more economically valuable.

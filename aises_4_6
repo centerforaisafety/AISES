@@ -62,7 +62,7 @@ productivity and slow progress toward a goal, reducing profits. The
 higher the costs of safety measures, the more reluctant an organization
 might be to adopt them.<p>
 Developers of AI systems may want to put more effort into transparency
-and interpretability. However, investigating these areas are costly: at
+and interpretability. However, investigating these areas is costly: at
 the very least, there will be personnel and compute costs that could
 otherwise have been used to directly create more capable systems.
 Additionally, it may delay the completion of the finished product. There
@@ -104,7 +104,7 @@ power plants.<p>
 Instead, it is more beneficial to approach AI safety from a broader
 perspective of making complex, sociotechnical systems safer. To this
 end, we can draw on the theory of sociotechnical systems, which offers
-“a method of viewing organizations which emphasises the interrelatedness
+“a method of viewing organizations which emphasizes the interrelatedness
 of the functioning of the social and technological subsystems of the
 organization and the relation of the organization as a whole to the
 environment in which it operates.”<p>
@@ -216,7 +216,7 @@ how a system is operating.</strong> HROs invest in the close monitoring
 of systems to maintain a continual, comprehensive understanding of how
 they are behaving, whether through excellent monitoring tools or hiring
 operators with deep situational awareness. This can ensure that
-operations are going as planned, and notice it early if anything
+operations are going as planned, and notice early if anything
 unexpected happens, permitting taking corrective action early, before
 the situation escalates. AI systems that dynamically aggregate
 information in real-time can help improve situational
@@ -263,7 +263,7 @@ data-cites="Leveson2009MovingBN">[2]</span>. This is because the theory
 was developed from a relatively small group of example systems, and
 certain features of them cannot be replicated in all systems.</p>
 <p><strong>It is difficult to understand systems sufficiently
-well.</strong> First, in the example HROs (such as air traffic control
+well.</strong> First, in the the examples of HROs identified (such as air traffic control
 or nuclear power plants), operators usually have near-complete knowledge
 of the technical processes involved. These organizations’ processes have
 also remained largely unchanged for decades, allowing for lessons to be
@@ -525,10 +525,10 @@ uses the AI to pursue a harmful outcome, such as the release of a deadly
 pathogen.<p>
 In this case, the AI race has not directly led to an existential risk by
 causing companies to, for example, bring AIs with insufficient safety
-measures to market. Nevertheless it has indirectly contributed to the
+measures to market. Nevertheless, it has indirectly contributed to the
 existential threat of a pandemic by amplifying the risk of malicious
 use.<p>
-This echoes our earlier discussion of catastrophes in complex system,
+This echoes our earlier discussion of catastrophes in complex systems,
 where we discussed how it is often impractical and infeasible to
 attribute blame to one major “root cause” of failure. Instead, systems
 often “drift into failure” through an accumulation and combination of

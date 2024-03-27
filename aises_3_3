@@ -32,7 +32,7 @@ We also analyze a related concept known as Goodhart’s law and explore some of 
 examples, where an optimizer is used to exploit vulnerabilities in a neural network. This can enable adversarial attacks that allow an AI system to be misused. 
 Other adversarial threats to AI systems include Trojan attacks, which allow an adversary to insert hidden functionality. There are also techniques that allow adversaries
  to surreptitiously extract a model’s weights or training data. We close by looking at the tail risks of having AI systems themselves play the role of evaluators
-(i.e. proxy goals) for other other AI systems.</p>
+(i.e. proxy goals) for other AI systems.</p>
 <h2 id="proxies-in-machine-learning">3.3.1 Proxies in Machine Learning</h2>
 <p>Here, we look at the concept of proxies, why they are necessary, and
 how they can lead to problems.</p>
@@ -92,7 +92,7 @@ off the tail and release the rat, allowing it to potentially breed and
 produce more tails in the future. The proxy—rat tails—proved to be a
 poor substitute for the goal of managing the local rat population.<p>
 So too, proxy gaming can occur in ML. A notorious example comes from
-when researchers at OpenAI trained an AI systems to play a game called
+when researchers at OpenAI trained an AI system to play a game called
 CoastRunners. In this game, players need to race around a course and
 finish before others. Along the course, there are targets which players
 can hit to earn points <span class="citation"
@@ -117,7 +117,7 @@ data-cites="clark2016faulty">[2]</span></p>
 outcomes.</strong> If a proxy is sufficiently unfaithful to the
 idealized goal it is meant to represent, it can result in AI systems
 taking actions that are not just undesirable but actively harmful. For
-example, a 2019 study on a US. healthcare algorithm used to evaluate the
+example, a 2019 study on a US healthcare algorithm used to evaluate the
 health risk of 200 million Americans revealed that the algorithm
 inaccurately evaluated black patients as healthier than they actually
 were <span class="citation"
@@ -125,8 +125,7 @@ data-cites="obermeyer2019dissecting">[3]</span>. The algorithm used past
 spending on similar patients as a proxy for health, equating lower
 spending with better health. Due to black patients historically getting
 fewer resources, this system perpetuated a lower and inadequate standard
-of care for black patients—assigning half the amount of care as equally
-sick non-marginalized patients. When deployed at scale, AI systems that
+of care for black patients—assigning half the amount to them of care as to equally sick non-marginalized patients. When deployed at scale, AI systems that
 optimize inaccurate proxies can have significant, harmful effects.</p>
 <p><strong>Optimizers often “game” proxies in ways that diverge from our
 idealized goals.</strong> As we saw in the Hanoi example and the
@@ -176,17 +175,17 @@ optimizing a particular proxy is the <em>optimization pressure</em>
 Optimization pressure depends on factors like the incentives present,
 the capability of the optimizer, and how much time the optimizer has had
 to optimize.<p>
-In many cases, the correlation between a proxy and idealized goal will
+In many cases, the correlation between a proxy and an idealized goal will
 decrease as optimization pressure increases. The approximation error
-between proxy and idealized goal may at first be negligible, but as the
-system becomes more capable at achieving high performance (according to
+between the proxy and the idealized goal may at first be negligible, but as the
+system becomes more capable of achieving high performance (according to
 the proxy) or as the incentives to achieve high performance increases,
 the approximation error can increase. In the boat-racing example, the
 proxy (number of points) initially advanced the designers’ intentions:
 the respective AI systems learned to maneuver the boat. It was only
 under additional optimization pressure that the correlation broke down
 with the boat getting stuck in a loop.<p>
-Sometimes, the correlation between a proxy and idealized goal can vanish
+Sometimes, the correlation between a proxy and an idealized goal can vanish
 or reverse. According to <em>Goodhart’s Law</em>, “any observed
 statistical regularity will tend to collapse once pressure is placed
 upon it for control purposes” <span class="citation"
@@ -658,7 +657,7 @@ decision making systems, where a trigger could lead an AI system to carry out a 
 <p>Backdoors are created by adversaries during the training process, either by directly inserting it into a model's weights, or by adding poisoned data into the datasets used for training or
  pretraining of AI systems. The insertion of backdoors through data poisoning becomes increasingly easy as AI systems are trained on enormous datasets scraped directly from the Internet with
  only limited filtering or curation. There is evidence that even a relatively small number of data points can be sufficient to poison a model - simply by uploading a few carefully designed 
-images, code snippets or sentences to online platforms, adversaries can inject a backdoor into future models that are trained used data scraped from these websites <span
+images, code snippets or sentences to online platforms, adversaries can inject a backdoor into future models that are trained using data scraped from these websites <span
 class="citation" data-cites="carlini2023poisoning">[15]</span>.
  Models that are derived from the original poisoned model might inherit this backdoor, leading to a proliferation of backdoors to multiple models.
 
@@ -672,7 +671,7 @@ private information about individuals. It has been demonstrated that attacks can
 class="citation" data-cites="carlini2020trainingdata">[16]</span>. This 
 can be conducted on a large scale, extracting gigabytes of potentially confidential data from language models like ChatGPT <span
 class="citation" data-cites="nasr2023scalable">[17]</span>. Even if models are not publicly available
- to download and can only be accessed via a query interface or API, it is also possible to exfiltrate part or all of the model weights by making queries to its API, allow its functionality 
+ to download and can only be accessed via a query interface or API, it is also possible to exfiltrate part or all of the model weights by making queries to its API, allowing its functionality 
 to be replicated. Adversaries might be able to steal a model or its training data in order to use this for malicious purposes.
 
 <h2 id="tail-risk-ai-evaluator-gaming">3.3.5 Tail Risk: AI Evaluator
@@ -717,7 +716,7 @@ enough to detect and prevent more subtle kinds of attacks.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p>In this section, we explored the role of proxies in ML and the associated risks of proxy gaming. We discussed other challenges to the robustness and security of AI systems, 
 such as data poisoning and Trojan attacks, or extraction of model weights and training data.</p>
-<p><strong>Optimisers can exploit proxy goals, leading to unintended
+<p><strong>Optimizers can exploit proxy goals, leading to unintended
 outcomes.</strong> We began by looking at the need for quantitative
 proxies to stand in for our idealized goals when training AI systems. By
 definition, proxies may miss certain aspects of these idealized goals.
@@ -758,7 +757,7 @@ adversary can design inputs that achieve good performance according to
 the model while minimizing performance according to some outside
 criterion. If we use AIs to instantiate our proxies, adversarial
 examples make room for optimizers to actively take advantage of the gap
-between a proxy and idealized goal.</p>
+between a proxy and an idealized goal.</p>
 <p><strong>All proxies are wrong, some are useful, and some are
 catastrophic.</strong> If we rely increasingly on AI systems evaluating
 other systems, proxy gaming and adversarial attacks (more broadly,

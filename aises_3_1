@@ -10,7 +10,7 @@ intentions, if any, may be. In addition, models may spontaneously develop qualit
  ``emergent'' capabilities as they become more advanced (for example, when we make them larger, train them for
  longer periods, or expose them to more data). Models may also contain hidden functionality that is hard to detect,
  such as backdoors that cause them to behave abnormally in a very small number of circumstances.<p>
-<strong>Robustness.</strong> Next, we turn to problem of building models that are robust to adversarial attacks. 
+<strong>Robustness.</strong> Next, we turn to the problem of building models that are robust to adversarial attacks. 
 In many cases, it is not possible to perfectly specify our idealized goals for an AI system. Inadequately specified
  goals can lead to systems diverging from our idealized goals, and introduce vulnerabilities that adversaries can attack and exploit. <p>
 <strong>Control.</strong> We then pivot to the topic of alignment, focussing primarily on control of AI systems (other components of alignment 
@@ -25,7 +25,7 @@ within which ML systems are used and reducing the risk that ML systems fail or a
 tools to defend against risks from AI. For example, AI can be applied to reduce risks from pandemic diseases, cyber-attacks or disinformation.<p>
 <strong>Capabilities.</strong> We conclude by explaining how researchers trying to improve AI safety can unintentionally improve the capabilities of AI systems
  and potentially end up increasing the overall risks that they pose. To avoid this, it is important to pick research topics carefully
- to minimise the impacts that successful research will have on capabilities.<p>
+ to minimize the impacts that successful research will have on capabilities.<p>
 This chapter argues that, even when considered in isolation, individual
 AI systems can pose catastrophic risks. As we will see in subsequent
 chapters, many of these risks become more pronounced when considering

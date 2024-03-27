@@ -55,6 +55,10 @@ Many believe this is good, arguing that the development of AIs should be guided 
 Additionally, it seems increasingly likely that AIs will transform the economy by enabling new forms of business, changing the nature of work, and even displacing human workers. 
 In this section, we will examine whether AIs shaped by economic incentives create the sort of society most people want. We examine both how the economy shapes the development of AI,
  and how AI might impact the economy.</p>
+<p>In our discussion of how economics and AI interact, we will use both theoretical models of economies that make strong, idealized assumptions and empirical data collected from real-world
+ economies. In many places, we will introduce and explain basic concepts from economics, such as benefits of economic growth and market externalities. This background content is an essential
+ foundation for discussing the dramatic impact that AI systems might have on our societies. For those already familiar with economic theory, it serves as a reminder and an explanation of how
+ these concepts can be relevant to AI. We use these tools to address questions around AI’s economic effects.</p>
 <strong>Business
 goals influence the development of the most capable AI systems.</strong>
 AIs are increasingly more efficient than humans at tasks once considered difficult to automate, which suggests that many powerful AI systems will be deployed to serve business objectives. 
@@ -252,8 +256,8 @@ build all three. The increased wealth effectively allows us to accommodate multi
 The effect of small increases in economic growth becomes apparent
 when we consider the effects of compound growth over time. Even small
 differences in annual growth rates can profoundly impact future
-generations. For instance, if an economy grows at 1% per year, our
-grandchildren would have twice our current income in 70 years. However,
+generations. For instance, if our economy grows at 1% per year, our
+grandchildren will have twice our current income in 70 years. However,
 if the economy grows at 2% per year, our children’s income in 35 years
 would be double ours and our grandchildren’s income would quadruple.
 Many believe that AIs could significantly accelerate the economy, creating unprecedented levels of economic growth. This could have hugely positive impacts on society. </p>
@@ -449,8 +453,8 @@ individuals cannot realize the same benefits from overall economic
 growth. However, Piketty’s theory has met criticisms, especially when
 considering its application to the future; for instance, he assumes that
 the technological frontier can only grow at 1.5% per year, a limitation
-that could potentially be overturned by advancements in AI.<p>
-Many other theories seek to explain the rise in inequality. One
+that could potentially be overturned by advancements in AI.</p>
+<p>Many other theories seek to explain the rise in inequality. One
 possibility is that an increased reward for technical skills has led to
 a widening gap between those with high-skill jobs and those without.
 Other theories point to the decline of labor unions, which traditionally
@@ -464,7 +468,7 @@ existing disparities. Investments in AI may yield higher productivity
 compared to past opportunities, leading to a higher rate of return on
 capital. Following Piketty’s theory of inequality, AI might exacerbate
 inequality if it increases the capital return rate more than it
-increases total growth if the wealthy can invest in AIs more than
+increases total growth if the wealthy can invest in AI more than
 everyone else. This seems likely: those with existing capital (such as
 GPUs) are likely to be able to deploy and benefit from AIs far more than
 the average person. Additionally, the benefits from AIs might be
@@ -555,8 +559,8 @@ product. Information asymmetry isn’t inherently problematic and is, in
 fact, often a positive aspect of market dynamics. We trust specialists
 to provide valuable services in their respective fields; for instance,
 we rely on our mechanics to know more about our car’s inner workings
-than we do.<p>
-However, issues arise when an imbalance of information is exploited
+than we do.</p>
+<p>However, issues arise when an imbalance of information is exploited
 disingenuously. A classic example of this can be found in the used car
 market. A dealer may be aware that a car’s axle is rapidly wearing out,
 a defect that isn’t immediately noticeable to a potential buyer. By
@@ -612,13 +616,13 @@ them to avoid many competitive pressures.</p>
 Developing a large model requires paying substantial fixed costs
 up-front, including expenses for computing power and datasets essential
 for training. However, once these initial investments are made, the
-subsequent cost per user for deploying and maintaining these models are
+subsequent cost per user for deploying and maintaining these models is
 considerably lower. Since the average cost per unit decreases as the
 number of customers increases, it becomes substantially more
 cost-effective for a single AI company to provide access to many people
 than for multiple companies to independently develop and maintain
-similar models.<p>
-Additionally, only a few companies might have access to enough resources
+similar models.</p>
+<p>Additionally, only a few companies might have access to enough resources
 and data to create the best AI models. In the chapter), we discussed how
 scaling laws demonstrate that improving AI performance has required
 access to costly resources like high-performance processors and vast,
@@ -626,7 +630,7 @@ high-quality datasets. High resource requirements for developing
 advanced AI can limit market entry, stifling competition. Additionally,
 early capability advantages for a leading firm can have positive
 feedback loops and Matthew effect dynamics, which could enable them to
-raise more capital and pull ahead from many competitors. The possibility
+raise more capital and pull ahead of many competitors. The possibility
 of monopoly power raises concerns that only a few powerful entities will
 have access to and benefit from AI technologies.</p>
 <strong>The use of AI might
@@ -650,7 +654,7 @@ An externality is a side effect that stems from an economic activity,
 impacting individuals or groups who are not directly involved in that
 activity. Because of externalities, market prices for goods or services
 may not fully reflect the costs that third parties, who are neither the
-consumers or the producers of that market, bear as a result of the
+consumers nor the producers of that market, bear as a result of the
 economic activity.<p>
 A classic example of a negative externality–—a harm to a third party—is
 the case of pollution. Consider the Sriracha factory in Irwindale,

@@ -237,12 +237,12 @@ feasible to monitor the development and deployment of potentially
 dangerous AI systems. This is a precondition for effective enforcement
 of AI regulations. Similarly, compute’s features can support
 verification of compliance with national or international standards and
-agreements. This makes is easier to implement regulatory regimes,
+agreements. This makes it easier to implement regulatory regimes,
 particularly at an international level.</p>
 <p>Compute governance is currently made simpler by certain factors such
 as the controllability of the supply chain or requirement of large-scale
 compute for highly capable models. If the supply chain of hardware for
-training and running AI systems making much less concentrated, this
+training and running AI systems became much less concentrated, this
 would make it harder to enforce potential restrictions on access to
 relevant hardware as a governance mechanism. Similarly, if the required
 compute resources to train dangerous AI systems were within the means of

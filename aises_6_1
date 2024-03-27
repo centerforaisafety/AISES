@@ -56,7 +56,7 @@ unrepresentativeness of established law.</p></li>
 <li><p><strong>Bias and Fairness</strong>: Should we make AIs be fair? We explore
 fairness in AI systems and the challenges associated with ensuring
 outcomes created by AIs are fair. We will discuss different definitions
-fairness and see how they are incompatible, as well as consider
+of fairness and see how they are incompatible, as well as consider
 approaches to mitigating biases.</p></li>
 <li><p><strong>Economic Engine</strong>: Should we let the economy
 decide what AIs will be like? We consider the potential impact the use
@@ -69,7 +69,7 @@ without substantial regulation might not be a good idea.</p></li>
  We consider what it would mean to create AI systems that aim directly to improve human wellbeing. This provides a case study in thinking about 
 how we can create AI systems that can respond appropriately to moral considerations, an emerging field known as machine ethics. While this is a highly ambitious goal, we believe 
 it is likely to become increasingly relevant in coming years. As AI capabilities improve, they may be operating with an increasing level of autonomy and a broadening scope of 
-potential actions they could take. In this context, approaches based only on compliance with the law or profit maximisation are likely to prove increasingly inadequate in providing
+potential actions they could take. In this context, approaches based only on compliance with the law or profit maximization are likely to prove increasingly inadequate in providing
  sufficient guardrails on AI systems' behavior. To specify in greater detail how they should react in a particular situation, AI systems will need to be able to identify and respond
  appropriately to the relevant values at stake, such as human wellbeing.</p>
 
@@ -78,11 +78,11 @@ potential actions they could take. In this context, approaches based only on com
 We start by introducing several competing theories of wellbeing, which might present different goals for ethical AI systems. We examine theories of wellbeing that focus on pleasure, objective
  goods, and preference satisfaction. We then explore preference satisfaction in more detail and consider what kind of preferences AI systems should satisfy. AI systems can be created to satisfy
  individual preferences, but which preferences they should focus on is an open question. We focus on the challenges of deciding between revealed, stated, and idealized preferences. Next, we 
-turn to considering whether AI systems should aim to make people happy and how we might use AIs to promote human happiness. Finally, we consider the challenge of having AIs maximize wellbeing
+turn to consider whether AI systems should aim to make people happy and how we might use AIs to promote human happiness. Finally, we consider the challenge of having AIs maximize wellbeing
  not just for an individual, but across the whole of society. We look at how to aggregate total wellbeing across society, focusing on social welfare functions. We discuss what social welfare 
 functions are and how to trade-off between equity and efficiency in a principled way.</p>
 
-<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain over what the right response is to a particular situation due to conflicting moral considerations. 
+<p><strong>Moral uncertainty.</strong> There are many cases where we may feel uncertain about what the right response is to a particular situation due to conflicting moral considerations. 
 We consider how AI systems might respond to such situations. In the case of AI systems, we may deliberately want to introduce uncertainty into their reasoning to avoid over-confident 
 decisions that could be disastrous from some moral perspectives. One option to address moral uncertainty is using a moral parliament, where ethical decisions are 
 made by simulating democratic processes.</p>

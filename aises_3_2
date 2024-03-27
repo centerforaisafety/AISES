@@ -25,10 +25,9 @@ predictions about a model’s behavior when given new inputs. This section
 will present a handful of analogies and results that illustrate the
 difficulty of understanding machine learning systems.</p>
 <p><strong>Deep learning models as a black box.</strong> Machine
-learning researchers often refer to a DL models as a <em>black box</em>
+learning researchers often refer to deep learning models as a <em>black box</em>
 <span class="citation"
-data-cites="lipton2018interpretability">[1]</span>, a system that can be
-viewed in terms of its input-output behavior without insight on its
+data-cites="lipton2018interpretability">[1]</span>, a system that can only be understood in terms of its input-output behavior without insight into its
 internal workings. Humans are black boxes—we see their behavior, but not
 the internal brain activity that produces it, let alone how fully
 understand that brain activity. Although a deep neural network’s weights
@@ -83,7 +82,7 @@ also examine natural images that highly activate that neuron.<p>
 </p>
 <figure id="fig:random-neuron">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feature_vis.png" />
-<p class="tb-caption">  Figure 3.3: Left: a feature visualization that “highly activates” a particularly neuron. Right: a
+<p class="tb-caption">  Figure 3.3: Left: a feature visualization that “highly activates” a particular neuron. Right: a
 collection of natural images that activate a particular neuron. <span class="citation"
 data-cites="schubert2020openai">[6]</span></p>
 
@@ -150,7 +149,7 @@ damage their systems cause. However, we might not want to hold people
 responsible for the behavior of systems they cannot predict or
 understand. The growing autonomy and complexity of AI systems means that
 people will have less control over AI behavior. Meanwhile, the scope and
-generality of modern AI systems makes it impossible to verify desirable
+generality of modern AI systems make it impossible to verify desirable
 behavior in every case. In “human-in-the-loop” systems, where decisions
 depend on both humans and AIs, human operators might be blamed for
 failures over which they had little control <span class="citation"
@@ -317,7 +316,7 @@ maintain a coherent description across many different inputs: a “this is
 in Paris” feature would not be very valuable if it was highly activated
 by “Statue of Liberty.” Recall that most neurons are polysemantic,
 meaning they don’t individually represent features that are
-straightforwardly recognisable by humans. Instead, most features are
+straightforwardly recognizable by humans. Instead, most features are
 actually combinations of neurons, making them difficult to identify due
 to the sheer number of possible combinations. Despite this challenge,
 features can help us think about the relationship between the internal
@@ -359,7 +358,7 @@ data-cites="wang2022interpretability">[16]</span>.<p>
 <!--circuit</figcaption>-->
 </figure>
 <p><strong>Complex system understanding through mechanisms is
-limited.</strong> There are number of reasons to be concerned about the
+limited.</strong> There are several reasons to be concerned about the
 ability of mechanistic interpretability research to achieve its
 ambitions. It is challenging to reduce a complex system’s behavior into
 many different low-level mechanisms. Even if we understood each of a
@@ -456,7 +455,7 @@ Instead, these capabilities emerge because they are instrumentally
 useful for lowering the training loss. For example, large language
 models trained to predict the next token of text about everyday events
 develop some understanding of the events themselves. Developing common
-sense is instrumental towards lowering the loss, even if it was not
+sense is instrumental in lowering the loss, even if it was not
 explicitly selected for by the loss.<p>
 As another example, large language models may also learn how to create
 text art and how to draw illustrations with text-based formats like TiKZ
@@ -533,7 +532,7 @@ some of these steps are continuous and piecemeal, others involve more
 dramatic changes in strategy. Comparatively simple reward functions can
 give rise to highly sophisticated strategies and complex learning
 dynamics.</p>
-<p><strong>RL agents learn emergent tool-use.</strong> RL agents can
+<p><strong>RL agents learn emergent tool use.</strong> RL agents can
 learn emergent behaviors involving tools and the manipulation of the
 environment. Typically, as in the Crafter example, teaching RL agents to
 use tools has required introducing intermediate rewards
@@ -571,8 +570,8 @@ some the researchers had never anticipated.<p>
 </p>
 <figure id="fig:tool-use">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/3d_puzzle.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 3.8: In multi-agent hide-and-seek, AIs demonstrated emergent tool-use. <span
-class="citation" data-cites="2019openai">[32]</span>.</p>
+<p class="tb-caption">Figure 3.8: In multi-agent hide-and-seek, AIs demonstrated emergent tool use. <span
+class="citation" data-cites="2019openai">[10]</span>.</p>
 <!--<figcaption>Emergent tool-use in multi-agent hide-and-seek - <span-->
 <!--class="citation" data-cites="2019openai">[10]</span>.</figcaption>-->
 </figure>
@@ -592,8 +591,8 @@ data-cites="park2023generative">[34]</span>. In a simple 2D village
 environment, these generative agents manage to form lasting
 relationships and coordinate on joint objectives. By placing a single
 thought in one agent’s mind at the start of a “week” that the agent
-wants to have a Valentine’s day party, the entire village ends up
-planning, organizing, and attending a Valentine’s day party. Note that
+wants to have a Valentine’s Day party, the entire village ends up
+planning, organizing, and attending a Valentine’s Day party. Note that
 these generative agents are language models, not classical RL agents,
 which demonstrates that emergent goal-directed behavior and social
 dynamics are not exclusive to RL settings. We further discuss emergent
@@ -629,7 +628,7 @@ optimizer).</p>
 <p><strong>Few-shot learning is a form of emergent
 optimization.</strong> Perhaps the clearest example of emergent
 optimization is <em>few-shot learning</em>. By providing large language
-models several examples of a new task that the system has not yet seen
+models with several examples of a new task that the system has not yet seen
 during training, the model may still be able to learn to perform that
 task entirely during inference. The resemblance between few-shot or
 “in-context” learning and other learning processes like SGD is not just
@@ -690,7 +689,7 @@ to those original objectives no longer being operationally pursued.</p>
 <p><strong>Over time, instrumental goals can become intrinsic.</strong>
 A teenager may begin listening to a particular genre or musicians in
 order to fit into a particular group but ultimately come to enjoy it for
-its own sake. Similarly, a seven-year-old who joins the cub scouts may
+its own sake. Similarly, a seven-year-old who joins the Cub Scouts may
 initially see the group as a means to enjoyable activities but over time
 may come to value the scout pack itself. This can even apply to
 acquiring money, which is initially sought for purchasing desired items,
@@ -746,7 +745,7 @@ we could face an existential risk.</p>
 capabilities that are difficult to predict and control, such as solving
 novel problems or accomplishing tasks in unexpected ways. These
 capabilities can appear suddenly as models scale up. In itself, the
-emergent of new and dangerous capabilities (e.g. capabilities to develop
+emergence of new and dangerous capabilities (e.g. capabilities to develop
 biological or chemical weapons) could pose catastrophic risks. There
 could be further risks if AI systems were to develop emergent goals
 diverging from the interests of society and these systems became
@@ -770,7 +769,7 @@ unknown what that system will be able to do.</p>
 progress of models' capabilities in certain relevant domains and skills. They could also track capabilities relevant to mitigating hazards. 
 It could be valuable to create testbeds to continuously screen AI models for potentially hazardous capabilities, for example abilities that 
 could meaningfully assist malicious actors with the execution of cyber-attacks, exacerbate CBRN threats or generate persuasive content in a 
-way that could affect elections. Ideally, we would be able to infer a model's latent abilities purely by analysing
+way that could affect elections. Ideally, we would be able to infer a model's latent abilities purely by analyzing
  a model's weights, enabling us to infer its abilities beyond what's obviously visible through standard testing. </p>
 
 <p>To avoid a false sense of safety, it will be important to validate that these detection methods are sufficiently sensitive. 

@@ -561,7 +561,7 @@ w_n^{1-\gamma}\right).$$</span></p>
 <p>If we think we should give no priority to the worse-off, then we can
 set <span class="math inline"><em>γ</em> = 0</span>: the entire equation
 is then just a sum of welfare levels, which is the utilitarian social
-welfare function. By contrast, if we were maximally prioriarian, taking
+welfare function. By contrast, if we were maximally prioritarian, taking
 the limit of <span class="math inline"><em>γ</em></span> as it gets
 infinitely large, then we recover Rawls’ maximin function. Similarly, if
 we took the limit of <span class="math inline"><em>γ</em></span> as it

@@ -87,7 +87,7 @@ emergent capabilities to manage. An additional layer of defense is
 screening for hazardous capabilities, which could involve deploying
 comprehensive test beds, and red teaming with behavioral tests and
 representation reading. Another defense is staged releases; rather than
-release the model to all uses at once, gradually release it to more and
+release the model to all users at once, gradually release it to more and
 more users, and manage discovered capabilities as they emerge. Finally,
 post-deployment monitoring through anomaly detection adds another layer
 of defense.</p>
@@ -131,7 +131,7 @@ To analyze this hazard, we can draw a bow tie diagram, with the center
 representing the event of an AI gaming its proxy goals in a
 counterproductive way. On the left-hand side, we list preventative
 measures, such as ensuring that we can control AI drives like
-power-seeking. If the AI system has less power (for example less
+power-seeking. If the AI system has less power (for example fewer
 resources), this would reduce the probability that it finds a way to
 optimize its goal in a way that conflicts with our values (as well as
 the severity of the impact if it does). On the right-hand side, we list

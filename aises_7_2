@@ -108,7 +108,7 @@ involving more than two agents.</p>
 
 <h2 id="game-theory-fundamentals">7.2.2 Game Theory Fundamentals</h2>
 <p>In this section, we briefly run through some of the fundamental
-principles in game theory. Game theory is the branch of mathematics
+principles of game theory. Game theory is the branch of mathematics
 concerned with agents’ choices and strategies in multi-agent
 interactions. Game theory is so-called because we reduce complex
 situations to abstract games where agents maximize their payoffs. Using
@@ -136,7 +136,7 @@ playing the game. Thus, one agent’s win does not necessarily require
 another’s loss. For instance, in cooperation games such as those where
 players must meet at an undetermined location, players only get the
 payoff together if they manage to find each other. As we shall see, the
-Prisoner’s dilemma is a non-zero sum game, as the sum of payoffs change
+Prisoner’s dilemma is a non-zero sum game, as the sum of payoffs changes
 across different outcomes.</p>
 <p><strong>Non-zero sum games can have “positive sum” or “negative sum”
 outcomes.</strong> We can categorize the outcomes of non-zero sum games
@@ -930,7 +930,7 @@ impact at the scale of the historical development of gunpowder and
 nuclear weapons. There are many causes for concern about the adoption of
 AI technologies in military contexts. These include increased rates of
 weapon development, lethal autonomous weapons usage, advanced
-cyberattacks execution, and automation of decision-making. These could
+cyberattack execution, and automation of decision-making. These could
 in turn produce more frequent and destructive wars, acts of terrorism,
 and catastrophic accidents. Perhaps even more important than the
 immediate dangers from military deployment of AI is the possibility that
@@ -1017,7 +1017,7 @@ halted the military use of these weapons, their existence has enabled
 many acts of bioterrorism. Examples include the 2001 deployment of
 anthrax letters to kill US senators and media executives. The creation
 of knowledge of how to make and use these weapons is irreversible. Thus,
-their existence, and the risk they pose, is permanent.</p></li>
+their existence and the risk they pose are permanent.</p></li>
 <li><p><strong>Military AI risks may interact.</strong> Importantly, the
 risks posed by military AI applications are not entirely independent of
 one another. The increased potential for anonymity when executing
@@ -1124,7 +1124,7 @@ data-cites="stewart2012extortion">[20]</span></p>
 point of view of the extortionist. “You” are the agent using the
 <em>Extort-2</em> strategy, and “they” are your partner. As with all
 <em>extortion</em> strategies, <em>Extort-2</em> involves reacting
-probabilistically to the most recent interaction had with a partner. As
+probabilistically to the most recent interaction with a partner. As
 an example, in the previous round, if the extortionist defected, but
 their partner cooperated, the extortionist will cooperate with a
 probability of 1/3 in this
@@ -1284,7 +1284,7 @@ both a weaponized biological pathogen, and an effective cure <span class="citati
 data-cites="patel2023takeover">[27]</span>. If the
 pathogen is slow-acting, the AI agent could then extort humans by
 deploying the bioweapon, and leveraging the promise of its cure to force
-those infected into complying with this demands. Pathogens that are
+those infected into complying with its demands. Pathogens that are
 sufficiently fast to spread and difficult to detect could infect a very
 large number of human targets, so this tactic could enable extremely
 large-scale threats to be wielded effectively.</p>
@@ -1301,7 +1301,7 @@ This provides cause for concern about a future containing many AI agents. One ex
 “races” between AI stakeholders. These races strongly influence the speed and direction of AI technological production, deployment and adoption, in both corporate and military settings, and have the
 potential to exacerbate many of the intrinsic risks from AI. The
 dynamics we have explored in this section might cause competing agencies
-to cut corners on safety, and to escalate weaponized AI applications and
+to cut corners on safety, escalate weaponized AI applications and
 automate warfare. These are two examples of how competitive pressures,
 modeled as iterated interactions between agents, can generate races
 which increase the risk of catastrophe for everyone. Fostering
@@ -1323,7 +1323,7 @@ One class of scenarios that can be described by such a model is
 <em>collective action problems</em>. Throughout this section, we first
 discuss the core characteristics of collective action problems. Then, we
 introduce a series of real-world examples to highlight the ubiquity of
-these problems in human society, as well as showing how AI races can be
+these problems in human society and show how AI races can be
 modeled in this way. Following this, we transition to a brief discussion
 of common pool resource problems to further illustrate the difficulty
 with which rational agents, especially AI agents, may secure
@@ -1361,7 +1361,7 @@ effort. Just as with the Prisoner’s Dilemma, “slacking” is their
 dominant strategy. If the others work hard and the project is completed,
 they get to enjoy the benefits of this success without expending too
 much effort themselves. If the others fail to work hard and the project
-is not completed, they at least saved themselves the effort they might
+is not completed, they at least save themselves the effort they might
 otherwise have wasted.<p>
 As groups increase in size and heterogeneity, complexity increases
 accordingly. Agents in a population may have a diverse set of goals.
@@ -1497,7 +1497,7 @@ real world: climate change, public health, and democratic voting. We end
 by briefly looking at AI races through this same lens.</p>
 <p><strong>Public health.</strong> We can model some public health
 emergencies, such as disease epidemics, as collective action problems.
-The COVID-19 pandemic took the lives millions worldwide. Some of these
+The COVID-19 pandemic took the lives of millions worldwide. Some of these
 deaths could have been avoided with stricter compliance with public
 health measures such as social distancing, frequent testing, and
 vaccination. We can model those adhering to these measures as
@@ -1651,7 +1651,7 @@ instructions.<p>
 Collective action between nations could avoid these and other dire
 outcomes. Limiting the capabilities of their military AIs by decreasing
 funding and halting or slowing down development would require that each
-nation gives up a potential military advantage. In a high stakes
+nation give up a potential military advantage. In a high stakes
 scenario such as this one, rational agents (nations) may be unwilling to
 give up such an advantage because it dramatically increases the
 vulnerability of their nation to attack. The individual cost of
@@ -1757,7 +1757,7 @@ down a path towards these calamities.</p>
 
 <p>In this section, we examined some simple, formal models of how rational agents may interact with each other under varying conditions. We used these game theoretic models to understand the natural dynamics in multi-agent biological and social systems. We explored how these multi-agent dynamics can generate undesirable outcomes for all those involved. We considered some tails risks posed by interactions between human and AI agents. These included human-directed companies and militaries engaging in perilous races, as well as autonomous AIs using threats for extortion.</p>
 
-<p>These risks can be reduced if mechanisms such as institutions are used ensure human agencies and AI agents are able to cooperate with one another and avoid conflict. We explore some means of achieving cooperative interactions in the next section of this chapter, 7.3.</p>
+<p>These risks can be reduced if mechanisms such as institutions are used to ensure human agencies and AI agents are able to cooperate with one another and avoid conflict. We explore some means of achieving cooperative interactions in the next section of this chapter, 7.3.</p>
 
 <br>
 <br>
