@@ -54,7 +54,7 @@
     border-radius: 15px 15px 0px 0px}
 </style>
 
-<h1 id="sec:conflict">7.4 Conflict</h1>
+<h1 id="conflict">7.4 Conflict</h1>
 <h2 id="overview">7.4.1 Overview</h2>
 <p>In this chapter, we have been exploring the risks generated or exacerbated by the interactions of multiple agents, both human and AI. In the previous section, we explored a variety of 
 mechanisms by which agents can achieve stable cooperation. In this section we address how, despite the fact that cooperation can be so beneficial to all involved, a group of agents may 
@@ -220,7 +220,7 @@ pursuing and fulfilling their goals, AI agents may encounter potential
 conflict scenarios, just as humans do. In certain scenarios, AIs may be
 motivated to pursue violent conflict over a peaceful resolution, for the
 reasons we now explore.</p>
-<h2 id="sec:commitment problems">7.4.3 Commitment problems</h2>
+<h2 id="commitment problems">7.4.3 Commitment problems</h2>
 <p>Many conflicts occur over resources, which are key to an agent’s
 power. Consider a bargaining failure in which two agents bargain over
 resources in an effort to avoid war. If agents were to acquire these
