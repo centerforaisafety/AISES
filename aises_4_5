@@ -298,7 +298,7 @@ a single line from start to finish.<p>
 </p>
 <figure id="feedback">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/ML Training Data Feedback Loop.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 5.3: There are feedback loops in the creation and deployment of AI systems. For example, the curation of training data used 
+<p class="tb-caption">Figure 4.8: There are feedback loops in the creation and deployment of AI systems. For example, the curation of training data used 
 for developing an AI system exhibits feedback loops. <span class="citation"
 data-cites="rismani2023beyond">[6]</p>
 <!--<figcaption>Feedback Loops in AI Training</figcaption>-->
