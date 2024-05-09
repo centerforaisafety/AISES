@@ -489,10 +489,7 @@ contribute more directly to the higher-level features of deeper layers,
 and information can be more readily preserved.</p>
 <figure id="fig:feed-forward-network">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feed_forward.png" class="tb-img-full" style="width:40%"/>
-    <p class="tb-caption">Figure 2.17: Adding residual connections can let information bypass blocks <span
-class="math inline">$$f_l$$<span> and <span
-class="math inline">$$f_{l+1}$$<span>, letting
-lower-level features from early layers contribute more directly to higher-level features in later ones.</p>
+    <p class="tb-caption">Figure 2.17: Adding residual connections can let information bypass blocks <span class="math inline">\(\(f_l\)\)</span> and <span class="math inline">\(\(f_{l+1}\)\)</span>, letting lower-level features from early layers contribute more directly to higher-level features in later ones.</p>
 <!--<figcaption>Traditional feedforward network and a network with residual-->
 <!--connections.</figcaption>-->
 </figure>
