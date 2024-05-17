@@ -200,7 +200,7 @@ Within this range, there is room for negotiation and potential
 agreements.</p>
 <figure id="fig:overview-barg">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/bargain_range.png" class="tb-img-full"  style="width: 70%"/>
-<p class="tb-caption">Figure 7.9: The bargaining range is defined by the potential gains from cooperation.</p>
+<p class="tb-caption">Figure 7.9: A) An axis of expected value distribution between two competitors. “B” indicates the expected outcome of conflict: how likely each competitor is to win, multiplied by the value they gain by winning. The more positive B is (the further towards the right), the better for Green, and the worse for Red. B) Conflict is negative- sum: it destroys some value, and so reduces each competitor’s expected value. C) Bargaining is zero-sum: all the value is distributed between the competitors. This means there are possible bargains that offer both competitors greater expected value than conflict.</p>
 <!--<figcaption>Overview of Bargaining ranges</figcaption>-->
 </figure>
 <p><em>A) An axis of expected value distribution between two
