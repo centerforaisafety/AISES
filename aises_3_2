@@ -484,7 +484,7 @@ capabilities.<p>
 <figure id="fig:unicorn">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/unicorn.png" class="tb-img-full"/>
 <p class="tb-caption">Figure 3.7: GPT-4 proved able to create illustrations of unicorns despite having not been trained to
-create images: another example an unexpected emergent capability. <span class="citation"
+create images: another example of an unexpected emergent capability. <span class="citation"
 data-cites="bubeck2023sparks">[27]</span></p>
 <!--<figcaption>Unexpected capability example: illustrations of unicorns by-->
 <!--GPT-4 - <span class="citation"-->
