@@ -168,7 +168,7 @@ depends on parameter count and data. This law demonstrated that larger
 models require much more data than was standard.</p>
 <figure id="fig:chinchilla">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/chinchilla_scaling_2.jpeg" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Chinchilla scaling laws provide an influential estimate of compute-optimal scaling laws, specifying the optimal ratio of model parameters and training tokens for a given training compute budget in FLOPs. The green lines show projections of optimal model size and training token count based on the number of FLOPs used to train Google's Gopher. <span class="citation"
+<p class="tb-caption">Chinchilla scaling laws provide an influential estimate of compute-optimal scaling laws, specifying the optimal ratio of model parameters and training tokens for a given training compute budget in FLOPs. The green lines show projections of optimal model size and training token count based on the number of FLOPs used to train Google's Gopher model. <span class="citation"
 data-cites="chinchilla-image">[5]</span></p>
 <!--<figcaption>Lighter colors indicate less loss - <span class="citation"-->
 <!--data-cites="chinchilla-image">[5]</span></figcaption>-->
