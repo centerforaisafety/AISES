@@ -10,7 +10,7 @@ intentions, if any, may be. In addition, models may spontaneously develop qualit
  ``emergent'' capabilities as they become more advanced (for example, when we make them larger, train them for
  longer periods, or expose them to more data). Models may also contain hidden functionality that is hard to detect,
  such as backdoors that cause them to behave abnormally in a very small number of circumstances.<p>
-<strong>Robustness.</strong> \paragraph{Robustness.} Next, we turn to the problem of building models that are robust to adversarial attacks. 
+<strong>Robustness.</strong> Next, we turn to the problem of building models that are robust to adversarial attacks. 
 AI systems based on deep learning are typically vulnerable to attacks such as adversarial examples, deliberately crafted inputs that have been slightly 
 modified to deceive the model into producing predictions or other outputs that are incorrect. Achieving adversarial robustness involves designing models 
 that can withstand such manipulations. Without this, malicious actors can use attacks to circumvent safeguards and use AI systems for harmful purposes. 
