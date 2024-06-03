@@ -220,7 +220,7 @@ pursuing and fulfilling their goals, AI agents may encounter potential
 conflict scenarios, just as humans do. In certain scenarios, AIs may be
 motivated to pursue violent conflict over a peaceful resolution, for the
 reasons we now explore.</p>
-<h2 id="commitment problems">7.4.3 Commitment problems</h2>
+<h2 id="commitment problems">7.4.3 Commitment Problems</h2>
 <p>Many conflicts occur over resources, which are key to an agent’s
 power. Consider a bargaining failure in which two agents bargain over
 resources in an effort to avoid war. If agents were to acquire these
@@ -480,7 +480,7 @@ it was previously, perhaps not more powerful than their existing
 training systems. Since such an AI cannot be divided up among many
 stakeholders easily, it may be rational for parties to conflict over
 access to it, since doing so ensures global domination.</p>
-<h2 id="information-problems">7.4.4 Information problems</h2>
+<h2 id="information-problems">7.4.4 Information Problems</h2>
 <p>Misinformation and disinformation both involve the spread of false
 information, but they differ in terms of intention. Misinformation is
 the dissemination of false information, without the intention to
@@ -625,8 +625,8 @@ data-cites="chen2021always">[8]</span>. This could exacerbate
 disinformation problems, and thus contribute to greater risk of conflict
 by eroding the potential for peaceful negotiation <span class="citation"
 data-cites="Burtell2023ArtificialIA">[9]</span>.</p>
-<h3 id="factors-outside-of-bargaining-theory">Factors outside of
-bargaining theory</h3>
+<h3 id="factors-outside-of-bargaining-theory">Factors Outside of
+Bargaining Theory</h3>
 <p><strong>Inequality is another factor that is highly predictive of
 conflict.</strong> Crime is a form of conflict. Income and educational
 inequality are robust predictors of violent crime <span class="citation"
