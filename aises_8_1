@@ -37,20 +37,8 @@ requires a combination of approaches across sectors and levels.</p>
 <p><strong>Overview.</strong> We begin by examining the ecosystem in
 which governance takes place, including the relevant actors, such as
 companies, governments, and individuals, and the tools available to
-govern them. Then, we explore different scenarios around the speed of
-growth in AI systems’ capabilities and their implications. Next, we
-consider issues around the distribution of power of AI systems, access
-to AI, as well as costs, benefits and risks.<p>
-We then survey policy tools for AI governance at the corporate, national
-and international levels. For corporations, we explore legal structures,
-ownership models, and assurance mechanisms that impact AI safety. At the
-national level, we consider regulations, liability frameworks,
-resilience, and competitiveness. For international governance, we
-examine tools ranging from standards and certification for civilian AIs
-to non-proliferation agreements, verification schemes, and monopolies
-for military systems. By highlighting levers across multiple levels,
-this chapter provides an introduction to a range of governance
-approaches aimed at ensuring AI is developed safely.</p>
+govern them. Then, we explore the potential impact of AI on economic growth. Next, we consider issues around the distribution of costs, benefits and risks of AI across society.</p>
+<p>We then survey policy tools for AI governance at the corporate, national and international levels. For corporations, we explore legal structures, ownership models, and assurance mechanisms that impact AI safety. At the national level, we consider regulations, liability frameworks, resilience, and competitiveness. For international governance, we examine tools ranging from standards and certification for civilian AIs to non-proliferation agreements, verification schemes, and monopolies for military systems. We conclude by examining the role of AI inputs as potential nodes for AI governance, focusing on the role that governance of computing hardware could play. By highlighting levers across multiple levels, this chapter provides an introduction to a range of governance approaches aimed at ensuring AI is developed safely.</p>
 <h2 id="the-landscape">8.1.1 The Landscape</h2>
 <p>To govern AI, we must understand the system in which AIs are being
 developed and deployed. Two crucial aspects for governance are the list
