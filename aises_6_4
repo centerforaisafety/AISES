@@ -50,59 +50,14 @@
 <h1 id="sec:economic-engine">6.4 The Economic Engine</h1>
 <strong>What
 if we allow the economy to decide what AIs will be like?</strong>
-Most AI systems today are being developed by businesses. We could therefore argue that AI development is most closely aligned with business or economic goals such as wealth maximization. 
-Many believe this is good, arguing that the development of AIs should be guided by market forces that encourage innovations that may spur economic growth or extend human lifespans. 
-Additionally, it seems increasingly likely that AIs will transform the economy by enabling new forms of business, changing the nature of work, and even displacing human workers. 
-In this section, we will examine whether AIs shaped by economic incentives create the sort of society most people want. We examine both how the economy shapes the development of AI,
- and how AI might impact the economy.</p>
-<p>In our discussion of how economics and AI interact, we will use both theoretical models of economies that make strong, idealized assumptions and empirical data collected from real-world
- economies. In many places, we will introduce and explain basic concepts from economics, such as benefits of economic growth and market externalities. This background content is an essential
- foundation for discussing the dramatic impact that AI systems might have on our societies. For those already familiar with economic theory, it serves as a reminder and an explanation of how
- these concepts can be relevant to AI. We use these tools to address questions around AI’s economic effects.</p>
-<strong>Business
-goals influence the development of the most capable AI systems.</strong>
-AIs are increasingly more efficient than humans at tasks once considered difficult to automate, which suggests that many powerful AI systems will be deployed to serve business objectives. 
-This might be a cause for optimism: the economy, left to its own devices, often encourages efficiency and competition, creating lower costs and greater innovation. However, business-oriented
- AIs may focus narrowly on achieving specific financial goals, exacerbating inequalities, market externalities, and monopolies. <p>
-Whether this is a reason for optimism or concern depends on to what
-extent we think that the economy, left to its own devices, will produce
-good outcomes. On one hand, AI has the potential to enhance efficiency
-and foster competition, which can lower consumer costs and spur the
-creation of innovative products. However, business-oriented AIs may
-focus narrowly on achieving their specific goals, compromising values
-such as community, personal freedom, privacy, and consumer choice. We
-can draw from economics to examine how AI usage in business contexts
-could either support or disrupt societal wellbeing.</p>
-<p><strong>By default, businesses are likely to prioritize using AI to maximize profits.</strong>
-In a market system, businesses often prioritize maximizing profits
-because the primary responsibility of company executives is to increase
-value for shareholders. This concept, called shareholder primacy, has
-been codified both implicitly and explicitly into American corporate law
-<span class="citation" data-cites="lipton2019shareholder">[1]</span>. In
-theory, corporations that explicitly prioritize other values such as
-safety or social responsibility above profit in the long run can be sued
-for neglecting their obligation to maximize shareholder value. While wealth creation is generally good, there are serious implications of prioritizing profit over all other values.</p>
-<p>
-Consider recommendation algorithms on streaming platforms. These AI
-systems are designed to keep us engaged for as long as possible, thereby
-increasing ad revenue and profit for the platform. Since these
-algorithms prioritize viewer engagement over everything else, they may
-recommend content that fuels addiction or spreads misinformation. In
-other words, while these algorithms may be effective from a business
-standpoint, they may have negative impacts on individuals and society at
-large.</p>
-<h2 id="the-free-market">6.4.1 The Free Market</h2>
-<p>Under ideal circumstances, competitive economic markets drive efficiency and foster collective prosperity. Historically, market forces have led to specialization at a vast scale 
-and worldwide competition, permitting the production of better goods and services at lower prices. The global economy is a complex system that allows for mass coordination. Prices, 
-for instance, help producers and consumers reach equilibria in which they trade efficiently in the face of dynamic market conditions. One can speculate that the integration of AI 
-into the economic engine could further optimize efficiency and enhance competition, ultimately contributing to accelerated economic growth and improved wellbeing. In this subsection,
- we will examine the case that AIs (developed under market incentives) can create widespread benefits by improving efficiency and growth.
-</p>
+Unlike some prior technological breakthroughs (such as the development of nuclear energy and nuclear weapons), most investment in AI today is coming from businesses. Leading commercial AI developers have acquired the enormous computational resources required to train state-of-the-art systems and have hired many of the world's best researchers. We could therefore argue that AI development is most closely aligned with business or economic goals such as wealth maximization. Many believe this is good, arguing that the development of AIs should be guided by market forces. If AI can accelerate economic growth, provided we can also ensure a fair distribution of costs and benefits of AI across society, this could be positive for people's welfare around the globe. We examine the specific impacts of AI on economic growth and its distributional effects in the Governance chapter.</p>
 
-<h3 id="efficiency">Efficiency</h3>
-<p><em>AIs can increase allocative efficiency, ensuring that outcomes
-are efficient and contribute to social welfare.</em></p>
-<strong>Under the right conditions, the free market can create allocative efficiency.</strong>
+Here, we consider the broader attractions and limitations of allowing economic growth to be the main force determining how AI systems are developed. As part of this discussion, we will briefly introduce and explain a few basic concepts from economics, such as market externalities, which provide an essential foundation for our analysis. We argue that while economic incentives can be powerful forces for prosperity and innovation, they do not adequately capture many important values. AI systems that are primarily created in order to maximise growth and profit for their developers could have a range of harmful side-effects. This highlights the need to better capture different facets of individual and societal wellbeing within the AI development process. Alternative approaches are discussed further in the following sections.</p>
+
+<h2 id="the-free-market">6.4.1 Allocative Efficiency of Free Markets</h2>
+<p>Competitive economic markets can drive efficiency and foster collective prosperity. Historically, market forces have led to specialization at a vast scale and worldwide competition, permitting the production of better goods and services at lower prices. The global economy is a complex system that allows for mass coordination. Prices, for instance, help producers and consumers find efficient trading equilibria in the face of dynamic market conditions. One can speculate that the integration of AI into the economic engine could further optimize production and enhance competition, ultimately contributing to accelerated economic growth and improved wellbeing.</p>
+
+<strong>Under the right conditions, the free market can also create allocative efficiency.</strong>
 The First Fundamental Theorem of Welfare Economics states
 that—subject to some strong assumptions—an equilibrium
 <em>allocation</em> of goods reached by trading on a free market must be
@@ -168,131 +123,192 @@ these, trading would be difficult to achieve and much more costly,
 making it more difficult for everyone to achieve optimal
 outcomes.</p></li>
 </ol>
-<p>If the conditions for the invisible hand theorem always held, then we
-might be more optimistic about AI’s role in enhancing social welfare. If
-companies use AI to boost productive efficiency, lower costs, and
-improve products, then these actions should eventually translate into
-widespread advantages. Lower prices, improved products, and better
-services could enhance consumer wellbeing, while increased efficiency
-could stimulate economic growth. Later in this section, we will look at
-market failures and inequality: two reasons why free trade is
-insufficient to create social welfare. For now, we will focus on the
-benefits.</p>
-<p><strong>Competition
-fosters productive efficiency and growth.</strong>
-Markets continuously incentivize the lowering of prices and the
-improvement of quality. Let’s imagine two grocery stores in a town. If
-one store starts to offer lower prices, customers may flock to that
-store, putting pressure on the other store to match those prices or risk
-losing business. This encourages firms to be more <em>productively
-efficient</em>–—to produce goods at lower costs–—so that they can lower
-their prices while still making a profit. This competition can lead to
-lower prices or higher quality products for consumers and more
-attractive employment options for workers.</p>
-<p>By leveraging AI, businesses can become more competitive by increasing
-their productive efficiency. For example, many companies now use
-AI-driven chatbots to handle customer service inquiries. These chatbots
-can manage numerous queries simultaneously, around the clock, and
-without human error, reducing the need for large customer service teams
-and significantly reducing costs. AI can automate tasks that were
-traditionally labor-intensive, leading to considerable savings.
-Furthermore, AI can enhance decision-making processes. For instance,
-companies can use AI to analyze large volumes of data and generate
-insights about market trends, customer preferences, and operational
-efficiencies. Such insights can inform strategic decisions, providing a
-competitive advantage. Firms that do not leverage AI may find themselves
-at a disadvantage, struggling to keep up with competitors that have
-harnessed the power of AI to optimize their operations and enhance their
-offerings.</p>
-<h3 id="growth">Growth</h3>
-<p><em>AIs have the potential to drive economic growth, which can make
-everyone better off without compromising value pluralism and improve
-society across correlated domains like health, freedom, and
-education.</em></p>
-<strong>Growth
-is widely considered essential to a healthy society.</strong>
-Economic growth is an increase in the total value of the production
-of goods and services. Such growth is a vital sign of a thriving
-economy. An expanding economy usually indicates more wealth,
-opportunities, and advancements, leading to overall improvements in
-living standards. Growth plays a key role in sparking innovation and
-entrepreneurship by creating incentives for companies to invest in ways
-to accelerate production and additional funding available for research
-and development. Growth encourages the creation of new ventures,
-products, and ideas.</p>
-<p><strong>We have
-strong reasons for encouraging economic growth.</strong>
-Looking at the world over the last 200 years provides strong evidence
-that economic growth can lead to vast improvements in human life through
-health, freedom, education, and more.<p>
-</p>
-<figure id="fig:preston">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full" style="width: 80%"/>
-<p class="tb-caption">Figure 6.3: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
-<!--<figcaption>Increases in GDP per capita strongly correlate with-->
-<!--increases in life expectancy.</figcaption>-->
-</figure>
-<p>The Preston curve is compelling evidence of a positive correlation
-between a country’s gross domestic product (GDP) per capita—a measure of
-the total production of goods and services–—and health outcomes. This
-relationship illustrates that countries with higher GDP per capita have
-better health outcomes, and particularly that poorer countries stand to
-benefit immensely from improvements in GDP. This also holds across time:
-average global life expectancy was just below 40 years at the start of
-the 20th century, whereas today, with a much higher global GDP per
-capita, the average person expects to live for 70 years. Nobel laureate
-Amartya Sen suggests that one pathway through which growth improves
-health is by reducing poverty and increasing investments in healthcare
-<span class="citation" data-cites="sen1999economics">[3]</span>.<p>
-The benefits of economic growth extend beyond physical health. There is
-a strong association between economic prosperity and enhancements in
-freedom and education <span class="citation"
-data-cites="heckelman2000economic">[4]</span>. Prosperous societies can
-afford stronger institutions to safeguard democratic freedoms and human rights. As societies become wealthier, more resources can be allocated to support cultural institutions, 
-artists, and creative endeavors. Economic growth can enable Pareto improvements: changes that improve people’s lives without leaving anyone worse off, like growing a pie 
-to give everyone bigger slices. Instead of debating whether to spend limited resources on a new hospital, school, or cultural center, encouraging economic growth can allow us to 
-build all three. The increased wealth effectively allows us to accommodate multiple values, protecting value pluralism.</p>
-<strong>Increasing growth through AI could yield massive benefits.</strong>
-The effect of small increases in economic growth becomes apparent
-when we consider the effects of compound growth over time. Even small
-differences in annual growth rates can profoundly impact future
-generations. For instance, if our economy grows at 1% per year, our
-grandchildren will have twice our current income in 70 years. However,
-if the economy grows at 2% per year, our children’s income in 35 years
-would be double ours and our grandchildren’s income would quadruple.
-Many believe that AIs could significantly accelerate the economy, creating unprecedented levels of economic growth. This could have hugely positive impacts on society. </p>
+<p>Given the stringency of these conditions, it is obvious that they will not always hold in practice and that there may be market failures. Unregulated markets do not always create efficient outcomes: instead, unregulated markets often see informational asymmetries, market concentration, and externalities. Unfortunately, AIs may exacerbate these market failures and increase income and wealth inequality, creating disproportionate gains for the wealthy individuals and firms that create it while decreasing job opportunities for others.</p>
 
-<p>While we've focussed on the potential benefits of efficiency and growth thus far, free markets do not always lead to good outcomes. 
-Although growth is correlated with welfare, it can create serious inequalities if the benefits of growth are gained by a few. Unregulated markets do not always create efficient 
-ones: instead, unregulated markets often see informational asymmetries, monopolies, and externalities. In the next section, we explore these problems in more detail.</p>
+<h2 id="market-failure">6.4.2 Market Failure</h2>
+<p>In this section, we consider three common types of market failures
+that are especially relevant in the context of AI: <em>information
+asymmetries</em>, <em>monopoly power</em>, and
+<em>externalities</em>. We also discuss the idea of <em>moral hazard</em>, which can be applied to the development of AI systems which can generate profit for their owners but could prove harmful to others</p>
+<h3 id="information-asymmetries">Information Asymmetries</h3>
+<strong>Information
+known to only some can create market failures.</strong>
+Information asymmetry captures the idea that buyers and sellers have
+different information regarding the product they are trading. For
+instance, buyers are keenly aware of the product’s quality and
+specifications, and sellers know their true willingness to pay for the
+product. Information asymmetry isn’t inherently problematic and is, in
+fact, often a positive aspect of market dynamics. We trust specialists
+to provide valuable services in their respective fields; for instance,
+we rely on our mechanics to know more about our car’s inner workings
+than we do.</p>
+<p>However, issues arise when an imbalance of information is exploited
+disingenuously. A classic example of this can be found in the used car
+market. A dealer may be aware that a car’s axle is rapidly wearing out,
+a defect that isn’t immediately noticeable to a potential buyer. By
+withholding this information, the dealer could sell the car at a price
+higher than its true value. The buyer, left in the dark, may end up
+facing unexpected repair costs soon after purchase. This is also
+referred to as <em>adverse selection</em>: when one party in a
+transaction uses their access to private information to their advantage.
+Here, the car dealer is using their private knowledge of the car’s
+condition to make a sale at an unfair profit.</p>
+<strong>AIs may exacerbate informational asymmetries.</strong>
+AI holds the power to both create and exploit information asymmetries in unprecedented ways. This capacity can be employed in beneficial ways, like providing highly personalized services or excellent recommendations. However, it can also be misused, leading to situations in which those using AIs can manipulate consumers. AI-powered analytics allows companies to create sophisticated profiles of consumers that can uncover deep insights into individual personalities and behaviors. <span
+class="citation" data-cites="rust2005psychometrics">[12]</span> Big tech companies already use social media and device activity to understand an individual's preferences and vulnerabilities better than ever before. This knowledge can be used to shape targeted advertisements or manipulations that are more effective. While these are not market failures in the technical sense, they can lead to exploitation and other undesirable outcomes.</p>
+<p>Though AI may magnify the potential for information asymmetries, such
+strategies have long standing precedents in non-AI contexts. Predatory
+lending is a common practice where lenders, often equipped with more
+information than borrowers, use deceptive practices to encourage
+individuals into accepting unfair loan terms. These tactics tend to
+target lower-income and less-educated individuals who might not have the
+time or background to understand the fine-print of what they’re signing,
+or the resources to find legal counsel. AI can further increase the
+power imbalance; for instance, AI can be used to predict who is most
+likely to accept these unfair loan terms based on their digital
+behavior, leading to even more targeted predatory lending. AI can both
+amplify existing issues and present new challenges.</p>
 
-<h2 id="inequality-market-failures">6.4.2 Inequality &amp; Market
-Failures</h2>
-<p>The previous section on markets and efficiency painted a rosy picture
-of real-world markets. In reality, we rarely see markets perform at this
-ideal standard. Economic growth is often talked about as an intrinsic
-good, but is only ever an instrumental one: it is not valuable for
-itself, but for the positive effects it has on society. However, even
-when markets are productively and allocatively efficient, creating
-wealth for everyone, they might impose harmful side effects. Two reasons
-for this are that markets generate <em>inequality</em> and are often
-subject to <em>market failures</em>.<p>
-First, we will explore the relevance of inequality in understanding
-societal wellbeing, what tools can be used to measure its effects, and
-why concerns about inequality are not just limited to those at the
-bottom. Then, we will consider the potential implications of AI on
-employment and income inequality, and how societies across the globe may
-be impacted by an economy restructured by AI. We will also examine
-various types of market failures: instances where markets fail to
-allocate goods and services optimally. We will discuss information
-asymmetries, the monopolistic power of large firms, and negative
-externalities—consequences that extend beyond the direct participants of
-a trade. All of these undermine the argument that an unregulated market
-is sufficient for AIs to create widespread benefits for all.</p>
-<h3 id="inequality">Inequality</h3>
-<p><em>Inequality is on the rise and harms many people, including many
-of those getting richer. The widespread use of AIs might sharpen
-inequality, decreasing social wellbeing.</em></p>
+<h3 id="oligopolies">Oligopolies</h3>
+<strong>Markets can tend towards concentration, leaving consumers worse off.</strong>
+While competition can create productive efficiency, some firms can avoid competitive pressures; for instance, utilities that are the exclusive provider of power or gas in a region might be able to raise their prices without losing many consumers to competitors due to lack of alternatives. When a single company or a small group of companies has a high level of control over a market, consumers are often left with limited product options and high prices. Markets in which a small number of companies are the only available suppliers are sometimes described as oligopolies. To preserve the benefits of competition, governments implement regulations such as antitrust laws, which they can use to limit market concentration by preventing mergers between companies that would give them excessive market power.</p>
+<strong>High
+initial investment requirements can impede newcomers from entering the
+market.</strong>
+Historically, first-movers in capital-intensive industries have a
+competitive advantage, such as rail companies that own large quantities
+of railway networks. In such industries, it is difficult for other firms
+to enter the market due to high up-front costs; in many cases, an
+existing firm can block other firms from entering, such as by keeping
+prices below a sustainable level. AI development might be similar—at the
+very least, firms within it might have some monopoly power that allows
+them to avoid many competitive pressures.</p>
+Developing a large model requires paying substantial fixed costs
+up-front, including expenses for computing power and datasets essential
+for training. However, once these initial investments are made, the
+subsequent cost per user for deploying and maintaining these models is
+considerably lower. Since the average cost per unit decreases as the
+number of customers increases, it becomes substantially more
+cost-effective for a single AI company to provide access to many people
+than for multiple companies to independently develop and maintain
+similar models.</p>
+<p>Additionally, only a few companies might have access to enough resources
+and data to create the best AI models. In the chapter), we discussed how
+scaling laws demonstrate that improving AI performance has required
+access to costly resources like high-performance processors and vast,
+high-quality datasets. High resource requirements for developing
+advanced AI can limit market entry, stifling competition. Early capability advantages for a leading firm can have positive feedback loops, which could enable them to raise more capital and pull ahead of many competitors. This raises concerns that only a few powerful entities will have access to and benefit from AI technologies.</p>
+<strong>The use of AI might create or strengthen oligopolies.</strong>
+AI developers are striving to have their models achieve
+superintelligence: models that are able to carry out a wide range of
+tasks across various domains better than humans. If someone did manage
+to create such an AI, they might have a decisive advantage across large
+swathes of industry, being sufficiently versatile to become an expert in
+many or every market. It may become difficult or impossible for smaller
+firms to carve out niche market spaces. The advanced capabilities of
+general AI may outpace specialized models in diverse domains, making it
+more difficult for new entrants to gain market share. Large firms
+equipped with powerful AI systems could wield an enormous amount of
+power, potentially leading to less competition, higher prices, and
+slower innovation, hurting both labor and product markets.</p>
+
+<h3 id="externalities">Externalities</h3>
+<strong>Externalities
+are consequences of economic activity that impact unrelated third
+parties.</strong>
+An externality is a side effect that stems from an economic activity,
+impacting individuals or groups who are not directly involved in that
+activity. Because of externalities, market prices for goods or services
+may not fully reflect the costs that third parties, who are neither the
+consumers nor the producers of that market, bear as a result of the
+economic activity.<p>
+A classic example of a negative externality–—a harm to a third party—is
+the case of pollution. Consider the Sriracha factory in Irwindale,
+California, where jalapeño peppers are ground and roasted. Residents of
+Irwingdale claimed that odors from the factory caused lung and eye
+irritation and created an overall unpleasant smell in the town. The
+factory, by producing these odors, was imposing a negative externality
+upon the town’s residents, but since the townspeople received no
+automatic compensation for this inconvenience, this was not reflected in
+the price of Sriracha.</p>
+<strong>We
+can resolve externalities with litigation, property rights, and
+taxation.</strong>
+In 2013, locals sued the Sriracha factory: this legal action led the
+factory to install new filters to reduce pollution. Litigation can be an
+effective tool to resolve externalities by forcing compensation.
+Economic theory suggests that bargaining over the externality can also
+create efficient outcomes; for instance, if the property right to the
+air was understood to belong to the townspeople, and that the factory
+would have to stop polluting or compensate the townspeople at an
+acceptable rate for their inconvenience <span class="citation"
+data-cites="lafleur2013coase">[13]</span>.<p>
+A third commonly used resolution to externalities is taxation. Smoking cigarettes imposes negative externalities on those near the smoker; governments will thus impose taxes on the sale of tobacco, which both raise revenues for the state to run social programs and discourage smoking by increasing the price of cigarettes to better reflect its true total cost. Determining the most effective method for resolving each externality is a topic of ongoing debate among economists. These debates extend to the externalities of AI on society. Potential policy responses are further discussed in the Governance chapter.</p>
+<strong>The
+development and deployment of AI systems can lead to negative
+externalities.</strong>
+The high energy consumption of advanced AI is a significant negative
+externality on the environment. Training advanced AI models requires vast computational resources, consuming a significant amount of energy and contributing to greenhouse gas emissions. Emissions can lead to climate change, a cost borne by society at large, rather than only by those who pollute---unless the externality is corrected, such as by charging companies for the carbon they emit. Beyond emissions, several other issues such as worker displacement, the potential for misuse or accidents, and the risk of the loss of control of advanced systems present serious externalities as well.</p>
+<strong>Summary.</strong>
+We examined why inequality and market failures are primary concerns
+in market systems and understood a few concrete pathways that these take
+root. Unfortunately, AIs might exacerbate inequality, creating
+disproportionate gains for the wealthy individuals and firms that create
+it. AIs may also cause market failures by intensifying informational
+asymmetries, enabling monopolies, and generating negative externalities
+such as greenhouse gas emissions and violations of privacy. In the next
+section, we will expand upon the idea that economic models fail to
+capture many of the things we care about.</p>
+
+<h3 id="moral-hazard">Moral hazard</h3>
+<p><strong>Moral hazards occur when risks are externalized.</strong>
+Moral hazards are situations where an entity is encouraged to take on
+risks, knowing that any costs will be borne by another party. Insurance
+policies are a classic example: people with damage insurance on their
+phones might handle them less carefully, secure in the knowledge that
+any repair costs will be absorbed by the insurance company, not
+them.<p>
+The bankruptcy system ensures that no matter how much a company damages
+society, the biggest risk it faces is its own dissolution, provided it
+violates no laws. Companies may rationally gamble to impose very large
+risks on the rest of society, knowing that if those risks ever come back
+to the company, the worst case is the company going under. The company
+will never bear the full cost of damage caused to society due to its
+risk taking. Sometimes, the government may step in even prior to
+bankruptcy. For example, American big banks took on massive risks in the
+lead up to the 2008 financial crisis, but many of them were considered
+"too big to fail", leading to an expectation that the government would
+bail them out in time of need <span class="citation"
+data-cites="acharya2016end">[9]</span>. These dynamics ultimately
+contributed to the Great Recession.</p>
+<p><strong>Developing advanced AIs is a moral hazard.</strong>
+Throughout this textbook, we have outlined great risks from advanced
+AIs. However, while the potential costs to society are immense, the
+maximum financial downside to a tech company developing these AIs is
+filing for bankruptcy.<p>
+Consider the following, admittedly extreme, scenario. Suppose that a
+company is on the cusp of inventing an AI system that would boost its
+profits by a thousand-fold, making every employee a thousand times
+richer. However, the company estimates that their invention comes with a
+0.1% chance of a catastrophic accident leading to large-scale loss of life. In the likely case, the average person
+in the economy would see some benefits due to increased productivity in
+the economy, and possibly from wealth redistribution. Still, most people
+view this gamble as irrational, preferring not to risk extinction for
+modest economic improvements. On the other hand, the company may see
+this as a worthwhile gamble, as it would make each employee considerably
+richer.</p>
+<p><strong>Risk internalization encourages safer behavior.</strong> In
+the above examples of moral hazards, companies take risks that would
+more greatly affect external parties than themselves. The converse of
+this is risk internalization, where risks are primarily borne by the
+party that takes them. Risk internalization compels the risk-taker to
+exercise caution, knowing that they would directly suffer the
+consequences of reckless behavior. If AI companies bear the risk of
+their actions, they would be more incentivized to invest in safety
+research, take measures to prevent malicious use, and be generally
+disincentivized from creating potentially dangerous systems.</p>
+
+<h2 id="inequality">6.4.3 Inequality</h2>
 <strong>Most of
 the world exhibits high levels of inequality.</strong>
 In economics, inequality refers to the uneven distribution of
@@ -409,9 +425,7 @@ in domains like health. A widening wealth gap often corresponds with a
 health gap, where those with fewer resources have poorer health outcomes
 due to less access to quality healthcare, lower quality nutrition, and
 higher stress levels. For instance, life expectancy often varies
-dramatically based on income in unequal societies: the average life
-expectancy of the lowest-income classes in America now matches the
-averages in Sudan or Pakistan <span class="citation"
+dramatically based on income in unequal societies <span class="citation"
 data-cites="wilkinson2009spirit">[8]</span>.</p>
 <strong>Everyone,
 not just the poorest, suffers in an unequal society.</strong>
@@ -445,273 +459,43 @@ Renowned economist Thomas Piketty, in his book “Capital in the 21st
 Century,” posits that inequality results from the difference between the
 interest rate investments in capital receive (r) and the rate of
 economic growth (g) <span class="citation"
-data-cites="piketty2014capital">[10]</span>. Essentially, when the
-returns from investing wealth (r) surpass the overall growth rate (g),
-society tends to become more unequal. This happens because the rich can
-profit significantly from investing their existing wealth, while average
-individuals cannot realize the same benefits from overall economic
-growth. However, Piketty’s theory has met criticisms, especially when
-considering its application to the future; for instance, he assumes that
-the technological frontier can only grow at 1.5% per year, a limitation
-that could potentially be overturned by advancements in AI.</p>
-<p>Many other theories seek to explain the rise in inequality. One
-possibility is that an increased reward for technical skills has led to
-a widening gap between those with high-skill jobs and those without.
-Other theories point to the decline of labor unions, which traditionally
-advocated for worker rights and better wages, as a contributing factor.
-The driving forces behind rising inequality are undoubtedly
-multifaceted, warranting a careful and nuanced examination.</p>
-<strong>AI
-might prompt higher returns on investments for the wealthy.</strong>
-AI could significantly impact income inequality, intensifying
-existing disparities. Investments in AI may yield higher productivity
-compared to past opportunities, leading to a higher rate of return on
-capital. Following Piketty’s theory of inequality, AI might exacerbate
-inequality if it increases the capital return rate more than it
-increases total growth if the wealthy can invest in AI more than
-everyone else. This seems likely: those with existing capital (such as
-GPUs) are likely to be able to deploy and benefit from AIs far more than
-the average person. Additionally, the benefits from AIs might be
-concentrated among the owners of AI companies, giving them astronomical
-amounts of wealth rather than distributing these benefits widely.</p>
-<strong>Automation using
-AI might increase inequality.</strong>
-If AIs are more productive than humans, as is likely to become the
-case in many industries, automating human labor will increase profits
-and returns on investment. Investors would likely opt for AI over human
-labor since AI presents a more cost-effective and productive
-alternative. A broad shift towards AI as a form of capital might prompt
-the wealthy to invest more heavily in AI technologies than businesses
-that rely on human labor. As businesses transition towards AI, the
-demand for human labor may decrease, resulting in job losses. As a
-result, workers’ bargaining power could be significantly reduced: a
-surplus of labor could force wages down and weaken workers’ conditions,
-benefits, and protections. If a job is automated, then conventional
-bargaining tactics like striking are no longer an option. Such a
-scenario would contribute to growing inequality and negatively impact
-the livelihoods of workers.</p>
-Although new technologies may create novel job opportunities, the
-large-scale integration of AI could render many existing roles
-redundant. Numerous job sectors are susceptible to replacement by AI.
-Unlike in the past, even knowledge-based jobs such as writing and
-programming are at risk due to advancements in AI such as large language
-models, robotics, and computer vision. The advent of self-driving cars
-could potentially displace the vast portion of the 5 million Americans
-driving for a living. Similarly, advancements in robotics might threaten
-the employment of the 12 million Americans working in manufacturing
-<span class="citation" data-cites="yang2018war">[11]</span>. Since
-software is cheap to duplicate, AI presents firms around the globe with
-a low-cost and scalable alternative to using human labor. Mass
-unemployment could result in severe inequality—establishing a divide
-between the minority who own these transformative technologies and the
-majority unable to find work.</p>
-<strong>Past
-revolutions have relocated employment, not destroyed it.</strong>
-A common counterargument brought up in discussions about the
-potential impact of AI on employment draws on historical evidence of
-technological revolutions. Advocates of this view argue that while past
-technological advancements–—like the industrial revolution or the
-computer age–—did indeed displace certain jobs, they simultaneously
-created entirely new types of work. Instead of an overall reduction in
-employment, the nature of employment was transformed. This phenomenon,
-called creative destruction, describes how outdated industries and jobs
-are replaced by new, often more efficient ones.</p>
-<strong>However,
-human-level AI might destroy employment.</strong>
-uman-level AI has the potential to automate tasks across most sectors in the long run. 
-This could be through individual AIs excelling in specific tasks or an artificial general
- intelligence capable of doing it all. If we can automate any job inexpensively, it's unclear
- where humans would fit into the economy. This would represent a fundamental difference from 
-past technological advancements that both helped and displaced human workers.</p>
-<p><strong>The impacts of automation on employment are uncertain and could be delayed or offset by countervailing forces.</strong>
- It is unclear whether AIs will be able to automate any job inexpensively. We might create transformative AI systems that are nonetheless 
-bad at some tasks, because of technical limitations or a simple preference for humans in a role (such as in the care industry). These bottlenecks
- would then become key industries for humans to work in. If the pace of automation is sufficiently slow, perhaps because AI capabilities do not 
-increase uniformly or because they are limited by physical infrastructure like chip manufacturing, then the economy may be able to adapt relatively
- smoothly. Additionally, if automation creates dramatic increases in purchasing power due to decreasing prices of automated goods, then demand for
- human-provided goods and services may increase by enough that employment rates stay largely stable. </p>
-<h3 id="market-failure">Market Failure</h3>
-<p><em>AI development is aligned with the economic engine. We have argued that 
-this may be good because the economy creates efficiency. However, in many cases, 
-markets fail to deliver efficient outcomes. AIs may amplify or create these failures.</em></p
-<strong>There
-are a few common types of market failure that might concern us.</strong>
-While markets are often efficient and usually yield better outcomes
-than alternative methods like the allocation of resources by the
-government, they are not perfectly suited to all types of trade.
-Sometimes, when left to their own devices, markets often fail to
-allocate resources in the most efficient way, leading to outcomes that
-may be unfavorable from a societal standpoint, even if they appear to be
-operating smoothly. These issues can be especially amplified in the
-context of powerful AI systems. The chapter analyzes market failures
-involving the overuse of common access resources like fish in the sea.
-In this section, we consider three more common types of market failures
-that are pertinent to our discussion about AI: <em>information
-asymmetries</em>, <em>monopoly power</em>, and
-<em>externalities</em>.</p>
-<strong>Information
-known to only some can create market failures.</strong>
-Information asymmetry captures the idea that buyers and sellers have
-different information regarding the product they are trading. For
-instance, buyers are keenly aware of the product’s quality and
-specifications, and sellers know their true willingness to pay for the
-product. Information asymmetry isn’t inherently problematic and is, in
-fact, often a positive aspect of market dynamics. We trust specialists
-to provide valuable services in their respective fields; for instance,
-we rely on our mechanics to know more about our car’s inner workings
-than we do.</p>
-<p>However, issues arise when an imbalance of information is exploited
-disingenuously. A classic example of this can be found in the used car
-market. A dealer may be aware that a car’s axle is rapidly wearing out,
-a defect that isn’t immediately noticeable to a potential buyer. By
-withholding this information, the dealer could sell the car at a price
-higher than its true value. The buyer, left in the dark, may end up
-facing unexpected repair costs soon after purchase. This is also
-referred to as <em>adverse selection</em>: when one party in a
-transaction uses their access to private information to their advantage.
-Here, the car dealer is using their private knowledge of the car’s
-condition to make a sale at an unfair profit.</p>
-<strong>AIs can cause
-strong informational asymmetries.</strong>
-AI holds the power to both create and exploit information asymmetries
-in unprecedented ways. This capacity can be employed in beneficial ways,
-like providing highly personalized services or excellent
-recommendations. However, it can also be misused, leading to situations
-in which those using AIs can manipulate consumers. AI-powered analytics
-allows companies to create sophisticated profiles of consumers that can
-uncover deep insights into individual personalities and behaviors. <span
-class="citation" data-cites="rust2005psychometrics">[12]</span> Big tech
-companies already use social media and device activity to understand an
-individual’s preferences and vulnerabilities better than ever before.
-This knowledge can be cunningly used to shape targeted advertisements or
-manipulations that are hard for people to resist.</p>
-<p>While AI magnifies the potential for information asymmetries, such
-strategies have long standing precedents in non-AI contexts. Predatory
-lending is a common practice where lenders, often equipped with more
-information than borrowers, use deceptive practices to encourage
-individuals into accepting unfair loan terms. These tactics tend to
-target lower-income and less-educated individuals who might not have the
-time or background to understand the fine-print of what they’re signing,
-or the resources to find legal counsel. AI can further increase the
-power imbalance; for instance, AI can be used to predict who is most
-likely to accept these unfair loan terms based on their digital
-behavior, leading to even more targeted predatory lending. AI can both
-amplify existing issues and present new challenges.</p>
-<strong>Markets can be monopolistic instead of perfectly competitive.</strong>
-While competition can create productive efficiency, some firms can avoid competitive pressures; for example, utilities that are the exclusive provider of power or gas in a region might be able
-to raise their prices without losing many consumers to competitors due to lack of alternatives. This ability is referred to as market control or monopoly power. When a single company or a small group of companies has a 
-high level of control over a market, consumers are often left with limited product options and high prices. To prevent market control and preserve the benefits of competition, governments
- implement regulations such as antitrust laws, which they can use to prevent companies from obtaining too much control.</p>
-<strong>High
-initial investment requirements can impede newcomers from entering the
-market.</strong>
-Historically, first-movers in capital-intensive industries have a
-competitive advantage, such as rail companies that own large quantities
-of railway networks. In such industries, it is difficult for other firms
-to enter the market due to high up-front costs; in many cases, an
-existing firm can block other firms from entering, such as by keeping
-prices below a sustainable level. AI development might be similar—at the
-very least, firms within it might have some monopoly power that allows
-them to avoid many competitive pressures.</p>
-Developing a large model requires paying substantial fixed costs
-up-front, including expenses for computing power and datasets essential
-for training. However, once these initial investments are made, the
-subsequent cost per user for deploying and maintaining these models is
-considerably lower. Since the average cost per unit decreases as the
-number of customers increases, it becomes substantially more
-cost-effective for a single AI company to provide access to many people
-than for multiple companies to independently develop and maintain
-similar models.</p>
-<p>Additionally, only a few companies might have access to enough resources
-and data to create the best AI models. In the chapter), we discussed how
-scaling laws demonstrate that improving AI performance has required
-access to costly resources like high-performance processors and vast,
-high-quality datasets. High resource requirements for developing
-advanced AI can limit market entry, stifling competition. Additionally,
-early capability advantages for a leading firm can have positive
-feedback loops and Matthew effect dynamics, which could enable them to
-raise more capital and pull ahead of many competitors. The possibility
-of monopoly power raises concerns that only a few powerful entities will
-have access to and benefit from AI technologies.</p>
-<strong>The use of AI might
-create monopolies.</strong>
-AI developers are striving to have their models achieve
-superintelligence: models that are able to carry out a wide range of
-tasks across various domains better than humans. If someone did manage
-to create such an AI, they might have a decisive advantage across large
-swathes of industry, being sufficiently versatile to become an expert in
-many or every market. It may become difficult or impossible for smaller
-firms to carve out niche market spaces. The advanced capabilities of
-general AI may outpace specialized models in diverse domains, making it
-more difficult for new entrants to gain market share. Large firms
-equipped with powerful AI systems could wield an enormous amount of
-power, potentially leading to less competition, higher prices, and
-slower innovation, hurting both labor and product markets.</p>
-<strong>Externalities
-are consequences of economic activity that impact unrelated third
-parties.</strong>
-An externality is a side effect that stems from an economic activity,
-impacting individuals or groups who are not directly involved in that
-activity. Because of externalities, market prices for goods or services
-may not fully reflect the costs that third parties, who are neither the
-consumers nor the producers of that market, bear as a result of the
-economic activity.<p>
-A classic example of a negative externality–—a harm to a third party—is
-the case of pollution. Consider the Sriracha factory in Irwindale,
-California, where jalapeño peppers are ground and roasted. Residents of
-Irwingdale claimed that odors from the factory caused lung and eye
-irritation and created an overall unpleasant smell in the town. The
-factory, by producing these odors, was imposing a negative externality
-upon the town’s residents, but since the townspeople received no
-automatic compensation for this inconvenience, this was not reflected in
-the price of Sriracha.</p>
-<strong>We
-can resolve externalities with litigation, property rights, and
-taxation.</strong>
-In 2013, locals sued the Sriracha factory: this legal action led the
-factory to install new filters to reduce pollution. Litigation can be an
-effective tool to resolve externalities by forcing compensation.
-Economic theory suggests that bargaining over the externality can also
-create efficient outcomes; for instance, if the property right to the
-air was understood to belong to the townspeople, and that the factory
-would have to stop polluting or compensate the townspeople at an
-acceptable rate for their inconvenience <span class="citation"
-data-cites="lafleur2013coase">[13]</span>.<p>
-A third commonly used resolution to externalities is taxation. Smoking
-cigarettes imposes negative externalities on those near the smoker;
-governments will thus impose taxes on the sale of tobacco, which both
-raise revenues for the state to run social programs and discourage
-smoking by increasing the price of cigarettes to better reflect its true
-total cost. Determining the most effective method for resolving each
-externality is a topic of ongoing debate among economists. Externalities
-and their potential solutions provide crucial context when considering
-the broader impacts of AI on society.</p>
-<strong>The
-development and deployment of AI systems can lead to negative
-externalities.</strong>
-The high energy consumption of advanced AI is a significant negative
-externality on the environment. Training advanced AI models requires
-vast computational resources, consuming a significant amount of energy
-and contributing to greenhouse gas emissions. Emissions can lead to
-climate change, a cost borne by society at large, rather than only by
-those who pollute. Another externality is related to data privacy. AI
-systems require large volumes of data to learn and improve. People’s
-privacy can be compromised if data is obtained without consent,
-mishandled, misused, or leaked. Privacy breaches are costly to
-individuals whose data is exposed, but this cost isn’t borne by
-companies, who are rarely forced to compensate for damages.</p>
-<strong>Summary.</strong>
-We examined why inequality and market failures are primary concerns
-in market systems and understood a few concrete pathways that these take
-root. Unfortunately, AIs might exacerbate inequality, creating
-disproportionate gains for the wealthy individuals and firms that create
-it. AIs may also cause market failures by intensifying informational
-asymmetries, enabling monopolies, and generating negative externalities
-such as greenhouse gas emissions and violations of privacy. In the next
-section, we will expand upon the idea that economic models fail to
-capture many of the things we care about.</p>
-<h2 id="beyond-economic-models">6.4.3 Beyond Economic Models</h2>
-<p>In measuring societal wellbeing, we must recognize the shortcomings
+data-cites="piketty2014capital">[10]</span>. Piketty's key unorthodox claim is that capital is a ``gross substitute’’ for labor. On this view, as capital owners generate more wealth and capital, they are increasingly able to use capital to replace labor---imagine this as robots outcompeting human workers. Piketty argues that if the interest rate, which is the rate at which capital (or ``robots’’) can self-replicate, is greater than than the overall rate of economic growth, and thus faster than labor’s wage growth, then capital owners can become substantially and continuously richer than workers. This contrasts with the standard view that capital is a ``gross complement’’ to labor, with both labour and capital needed to produce goods. According to the standard view, increases in capital lead to higher labor productivity, which makes workers more efficient and valuable. Increased productivity raises wages; thus, increases in capital benefit both workers and capital owners.</p>
+
+If AI serves as a gross substitute for labour, investment in AIs, with an effective interest rate (r) higher than the overall growth rate (g), will permit capital owners to continue accumulating capital, outcompeting workers and increasing inequality. While on the standard view, this would be a fundamentally new phenomenon, Piketty would argue that this is the exacerbation of a centuries-old trend. Such a scenario would contribute to growing inequality and negatively impact the livelihoods of workers. Issues of automation through AI and its broader societal consequences are discussed further in the Governance chapter.</p>
+
+<h3 id="growth">6.4.4 Growth</h3>
+<strong>Growth
+is widely considered essential to a healthy society.</strong>
+Some have claimed that societies should place less importance on economic growth, whether to reduce environment impacts or for other reasons.  However, looking at the world over the last 200 years provides strong evidence that economic growth can lead to vast improvements in human welfare in the domains of health, education, and more.</p>
+<figure id="fig:preston">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/preston_v2.png" class="tb-img-full" style="width: 80%"/>
+<p class="tb-caption">Figure 6.3: Increases in GDP per capita strongly correlate with increases in life expectancy.</p>
+<!--<figcaption>Increases in GDP per capita strongly correlate with-->
+<!--increases in life expectancy.</figcaption>-->
+</figure>
+<p><strong>We have strong reasons for encouraging economic growth.</strong> The Preston curve is compelling evidence of a positive correlation
+between a country’s gross domestic product (GDP) per capita—a measure of
+the total production of goods and services–—and health outcomes. This
+relationship illustrates that countries with higher GDP per capita have
+better health outcomes, and particularly that poorer countries stand to
+benefit immensely from improvements in GDP. This also holds across time:
+average global life expectancy was just below 40 years at the start of
+the 20th century, whereas today, with a much higher global GDP per
+capita, the average person expects to live for 70 years. Nobel laureate
+Amartya Sen suggests that one pathway through which growth improves
+health is by reducing poverty and increasing investments in healthcare
+<span class="citation" data-cites="sen1999economics">[3]</span>.<p>
+<strong> rowth makes it easier for societies to support a wide range of values.</strong>The benefits of economic growth extend beyond physical health. There is
+a strong association between economic prosperity and enhancements in
+freedom and education <span class="citation"
+data-cites="heckelman2000economic">[4]</span>. Prosperous societies can
+afford stronger institutions to safeguard democratic freedoms and human rights. As societies become wealthier, more resources can be allocated to support cultural institutions, 
+artists, and creative endeavors. Economic growth can enable Pareto improvements: changes that improve people’s lives without leaving anyone worse off, like growing a pie 
+to give everyone bigger slices. Instead of debating whether to spend limited resources on a new hospital, school, or cultural center, encouraging economic growth can allow us to 
+build all three. The increased wealth effectively allows us to accommodate multiple values, protecting value pluralism.</p>
+
+<h2 id="beyond-economic-models">6.4.5 Beyond Economic Models</h2>
+<p>However, in measuring societal wellbeing, we must recognize the shortcomings
 of traditional economic metrics. Here, we will discuss the disconnect
 between economic output and social value, why relying on economic models
 of welfare economics can be inadequate in describing human goals, and
@@ -773,69 +557,6 @@ that fail to harness the full potential of AI or inadvertently hamper
 its beneficial applications. Recognizing this gap is a vital step
 towards devising better ways of measuring and encouraging the socially
 beneficial use of AI.</p>
-<strong>Increasing
-output does not imply increasing social value.</strong>
-The true costs of economic output can often be hidden or overlooked
-in pursuit of growth. For instance, in the Democratic Republic of Congo,
-UNICEF estimates that 40,000 children work in cobalt mines, often in
-hazardous conditions. While this labor may contribute to the country’s
-economic output, the adverse effects on these children’s health and
-education plausibly outweigh the short-term economic gains, and these
-practices conflict with commonly held principles around the exploitation
-of children. Much like in the high-frequency trading example above, more
-output doesn’t necessarily correspond to increased social value. AIs
-that maximize GDP as a proxy for social value may attempt high-frequency
-trading or the use of exploitative labor practices, proxy gaming to
-maximize its reward.<p>
-Similarly, an increase in work hours could lead to heightened
-productivity and output, but not necessarily enhanced societal
-wellbeing. In the US, for example, workers highly value their leisure
-time and often prioritize it over potential economic benefits of working
-longer hours. In contrast, cultures with longer average work hours, such
-as China, might have a different perspective on the balance between work
-and leisure. Despite the country’s impressive economic growth in recent
-decades, levels of self-reported happiness haven’t increased
-proportionally, potentially due to growing income inequality <span
-class="citation" data-cites="earterlin2012china">[15]</span>. Such
-evidence suggests that an increase in output does not always translate
-to an improvement in quality of life. We must consider factors beyond
-economic metrics when assessing the societal impact of policies and
-practices, particularly those involving AI systems. This perspective is
-especially important when deploying AI systems that could significantly
-influence the future of work.</p>
-<strong>The financialization of
-everything.</strong>
-Another way in which economic output can be at odds with our values
-is through the growing trend of financialization—monetizing various
-aspects of private or public life <span class="citation"
-data-cites="sandel2012money">[16]</span>. Increasingly, potent
-algorithms are deployed to "optimize" life in various ways, with a
-primary focus on profitability, sometimes at the expense of intrinsic
-human values. These algorithms can distort the alignment between
-technology and societal values. Consider aspects like love, friendship,
-human rights, freedom, and environmental preservation. These are areas
-we instinctively try to protect from the realm of commerce; for example,
-people who sell friendship are often seen as degrading the value of
-friendship. Unlike commodities that get depleted with use, altruism,
-solidarity, and civic spirit can actually increase with use, much like
-muscles that develop and become stronger when regularly used. These are
-reasons we do not want to financialize virtues or many aspects of
-life.<p>
-However, economic incentives within markets often compel innovators to
-monetize these aspects. Consider an experiment where a daycare center
-imposed fines on parents who were late in picking up their children.
-Instead of serving as a deterrent, the fine doubled the number of late
-arrivals. Parents saw the fine not as a penalty, but as a service charge
-for extended care, effectively absolving them of any guilt related to
-tardiness. When the fine was eventually eliminated, the late pickups
-didn’t decrease but rather increased. The financial penalty had
-disappeared, but the original sense of guilt associated with late
-pickups did not return <span class="citation"
-data-cites="raworth2017doughnut">[17]</span>. This case demonstrates the
-risk of allowing financialization into areas of life traditionally
-governed by non-market norms; we might inadvertently erode the very
-values we hold dear, like parental responsibility and respect for
-others’ time.</p>
 <strong>The
 proxy-purpose distinction is especially important for AI.</strong>
 Imagine a future where an AI system is tasked with maximizing GDP,
@@ -897,56 +618,8 @@ for the consumers.<p>
 As AI systems become more integral to our economies, we must be mindful
 of these complexities. A narrow focus on maximizing economic surplus
 could lead us to promote AIs which, while efficient in a purely economic
-sense, might have alarming consequences for society.</p>
-<strong>Basic
-economic theory confuses ability with willingness to pay.</strong>
-When determining social value, economic theory implicitly equates
-ability to pay with willingness to pay. This assumption can lead to
-distorted conclusions about what generates social value because these
-two concepts should be distinct: ability to pay reflects an individual’s
-financial capacity, while willingness to pay expresses their desire or
-need for a good or service. The person who pays the most for a good is
-not the person who values it the most.<p>
-Consider a situation where both a billionaire and an average-income
-individual require a life-saving drug. Both parties are willing to pay
-whatever they can to obtain it. The billionaire is able to pay
-astronomically more due to their wealth, despite the fact that the drug
-provides the same life-saving value to both the billionaire and the
-average-income person. The welfare economics model, in maximizing total
-surplus, would interpret the billionaire’s purchase as creating a vastly
-greater social value because the difference between the billionaire’s
-purchase price and their willingness to pay is so great—an unsettling
-conclusion that contradicts most moral perspectives.<p>
-This disconnect is highlighted by differences between the developed and
-developing world; those in the former have a relatively tiny ability to
-pay. It seems unlikely that the preferences of someone in a wealthy
-country are 100 times more intense than someone from the third world,
-and yet their ability to pay is. It is similarly unlikely that Jeff
-Bezos’s preferences are a million times more intense than the average US
-citizen’s; yet, his ability to pay is. The economic engine is only
-sensitive to ability to pay, not utility derived. As a result, the
-market is distorted: individuals with astronomically high wealth are
-prioritized astronomically, while those with nothing have no part to
-play in the free markets’ allocation of value.</p>
-<strong>Economics is not
-fundamentally utilitarian.</strong>
-The economic engine violates Bentham’s basic principle of
-utilitarianism: “Everybody to count for one, nobody for more than one.”
-Instead, people count for how much they can pay. In general, economics
-is chiefly concerned with the efficient allocation of resources to help
-satisfy people’s revealed economic preferences: what consumers and
-producers are shown as willing to demand and supply at various prices.
-However, revealed preferences about products are a narrow subset of
-revealed preferences in general, and revealed economic preferences are
-distinct from other sorts of preferences, such as idealized preferences.
-Consequently, economics has differing objectives from theories like
-preference utilitarianism that aim to maximize the satisfaction of
-preferences in general. The economic engine is not a preference
-maximization engine; instead, it is better thought of as a wealth
-maximization engine. For example, although many people would welcome AIs
-that aid education or assist medical research to benefit many, we may
-just as soon see AIs that conduct highly effective subliminal marketing,
-which may only benefit a few.</p>
+sense, might have harmful consequences for society.</p>
+
 <h3 id="happiness-in-economics">Happiness in Economics</h3>
 <p><em>Economists are unsure what exactly creates happiness, but
 material wealth is probably only one part of the picture.</em></p>
@@ -1006,21 +679,11 @@ and examine the matter of societal wellbeing with a more holistic
 lens.</p>
 <h3 id="conclusions-about-the-economic-engine">Conclusions About the
 Economic Engine</h3>
-<p><em>AIs can drive competition, efficiency, and growth, creating
-tangible benefits for everyone in society. However, they might
-unintentionally create problems like inequality and reduce efficiency
-and competition through market failures, highlighting the need for
-regulation. Additionally, while it’s been a driver of prosperity in
-human history, the economic engine is sometimes misaligned with
-wellbeing, so it is not something to align AI development to.</em></p>
-<p><strong>AIs will likely be designed to achieve objectives other than social welfare.</strong> Economic forces incentivize the development of AIs that prioritize objectives such as financial gains for the companies deploying them, rather than social wellbeing. Consider the pharmaceutical industry: the primary goal of medicine is to improve human health. Instead, in a number of cases, pharmaceutical companies have fostered patient dependencies on medications in order to ensure revenue and have used patented information to raise prices to a point that many consumers cannot afford life-saving drugs that cost little to produce. Similarly, systems ostensibly designed to connect us to our friends, such as social media algorithms, may instead result in users feeling isolated.
+<p><strong>We should be wary of using AI to increase metrics that are only proxies for wellbeing.</strong> Our current economic system strongly incentivises the deployment of AI systems that optimize for economic growth which, while often a worthy goal, may not capture essential aspects of societal health such as equality or sustainability (due to unequal distribution of gains, externalities, and other market failures). While economic objectives like GDP growth are quantifiable and easy to pursue, they may not truly reflect what makes a society happy and healthy.</p>
 
-<p><strong>We should be wary of using AI to increase metrics that are only proxies for wellbeing.</strong> Policymakers must be cautious about the objectives set for AI systems. Our current economic system strongly incentivises the deployment of AI systems that optimize for economic growth rather than other objectives. As we discussed, increasing economic output is often a worthy goal, but may not capture essential aspects of societal health such as equality, sustainability, or the smooth functioning of an economy without market failures. While economic objectives like GDP growth are quantifiable and easy to pursue, they may not truly reflect what makes a society happy and healthy.
+<p><strong>It is risky to let the goals of AI systems be determined entirely by economic incentives.</strong> AI systems created by for-profit businesses are designed to maximize shareholder profits, not societal wellbeing. If we let the economy decide what AIs do by letting largely unregulated markets create AIs, we may end up with an increase in inequality and exacerbation of market failures. Using money as a proxy for social value might seem practical, but it can distort societal priorities; for instance, this system implies that the preferences of wealthier individuals hold more weight since they are willing and able to spend more.</p>
 
-<p><strong>It is risky to blindly trust the economic engine to create AIs.</strong> AI systems created by for-profit businesses are designed to maximize shareholder profits, not societal wellbeing. If we let the economy decide what AIs do by letting largely unregulated markets create AIs, we may end up with an increase in inequality, exacerbation of market failures, and promotion of economic goals like wealth maximization that are notably different from increasing wellbeing. Using money as a proxy for social value might seem practical, but it can distort societal priorities; for instance, this system implies that the preferences of wealthier individuals hold more weight since they are willing and able to spend more. The preferences of a billionaire would be considered orders of magnitude more important than those of an average citizen, which is clearly disconnected from social value.
-
-<p>The examples in this section demonstrate a divergence between economic incentives and other important societal goals and should serve as a cautionary note. Objections to both the preference view of wellbeing and the influence of the economy on AI development suggest that we ultimately care about something else. In the next section, we consider an alternative view: a framework that puts happiness front and center. By instructing an AI system to increase happiness, we might aim to overcome the human biases and limitations that stop us from pursuing our happiness and enable the system to make decisions that have a positive impact on overall wellbeing.
-</p>
+<p>The examples in this section demonstrate a divergence between economic incentives and other important societal goals and should serve as a cautionary note. In the next section, we consider an alternative view: a framework that puts happiness front and center. Perhaps if we can direct AI systems to focus directly on promoting human happiness, we might aim to overcome the human biases and limitations that stop us from pursuing our happiness and enable the system to make decisions that have a positive impact on overall wellbeing.</p>
 
 <br>
 <br>
