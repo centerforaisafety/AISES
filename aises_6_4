@@ -249,16 +249,6 @@ development and deployment of AI systems can lead to negative
 externalities.</strong>
 The high energy consumption of advanced AI is a significant negative
 externality on the environment. Training advanced AI models requires vast computational resources, consuming a significant amount of energy and contributing to greenhouse gas emissions. Emissions can lead to climate change, a cost borne by society at large, rather than only by those who pollute---unless the externality is corrected, such as by charging companies for the carbon they emit. Beyond emissions, several other issues such as worker displacement, the potential for misuse or accidents, and the risk of the loss of control of advanced systems present serious externalities as well.</p>
-<strong>Summary.</strong>
-We examined why inequality and market failures are primary concerns
-in market systems and understood a few concrete pathways that these take
-root. Unfortunately, AIs might exacerbate inequality, creating
-disproportionate gains for the wealthy individuals and firms that create
-it. AIs may also cause market failures by intensifying informational
-asymmetries, enabling monopolies, and generating negative externalities
-such as greenhouse gas emissions and violations of privacy. In the next
-section, we will expand upon the idea that economic models fail to
-capture many of the things we care about.</p>
 
 <h3 id="moral-hazard">Moral hazard</h3>
 <p><strong>Moral hazards occur when risks are externalized.</strong>
