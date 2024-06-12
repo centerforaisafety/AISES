@@ -242,6 +242,7 @@ techniques designed by human researchers—demoralizing for researchers
 who spent years developing those complex approaches. Rather than just
 human ingenuity, scale and computational power are also key factors that
 drive progress in AI.</p>
+<p>It is worth noting that while the general trend of improved performance through scaling has held over many order of magnitude of computation, the equations used to model this trend are subject to criticism and debate. The original scaling laws identified by a team at OpenAI in 2020 were superseded by the Chinchilla scaling laws described above, which may in turn be replaced in future. While there do seem to be interesting and important regularities at work, the equations that have been developed are less well-established than in some other areas of science, such as the laws of thermodynamics.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p><strong>In AI, scaling laws describe how loss changes with model and
 dataset size.</strong> We observed that the performance of a DL model
