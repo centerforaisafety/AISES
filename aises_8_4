@@ -224,6 +224,15 @@ capabilities, unlike with algorithms where there is no comparable metric
 and data for which metrics are much less precise. In addition to compute
 being physical and so traceable, this enables the enforcement of rules
 and thresholds.</p>
+
+<h3 id="forms-of-compute-governance">Forms of Compute Governance</h3>
+
+<p><strong>Compute governance can focus on individual chips or on clusters of such chips.</strong> As alluded to previously, GPUs used for training and running AI systems are typically housed in purpose-built data center facilities which are equipped to handle their high demands for power and cooling. These data centers usually also have high levels of physical security to protect this valuable hardware and the AI models that are run on it. One approach to monitoring compute which is imperfect but requires limited new technologies or regulation is to track these data center facilities. However, such an approach faces challenges in terms of identifying which facilities are housing chips used for training AI as opposed to other types of computing hardware, or understanding how many chips they house and what they are being used for. Other approaches rely more heavily on tracking the individual chips suitable for AI training and inference, for example via some form of registry of chip sales, or via ``on-chip mechanisms.''</p>
+
+<p><strong>{Providers of cloud services can support compute governance.</strong> Data centers can be owned and operated by the companies that are developing AI, but more commonly AI developers rent access to computing hardware from providers of cloud computing services which own large pools of computing hardware rented out to third parties. These cloud providers could be required to support relevant authorities with compute governance. For example, they could implement know-your-customer (KYC) policies to ensure that AI developers subject to export controls or other sanctions are not able to use cloud providers' hardware to train powerful AI systems.</p>
+
+<p><strong>On-chip mechanisms.</strong> On-chip governance mechanisms have been proposed as a way to make monitoring and verification schemes for compute more robust to attempts at circumventing them. These could take the form of secure modules implemented within the chip's hardware and firmware that make it easier for authorized parties such as regulators to detect the location of chips suitable for training powerful AI systems. Such features do not exist today, but could likely be implemented in forms that leverage existing secure hardware features and do not require re-designing chips or compromising users' privacy by monitoring what software is being run on the chips. More ambitious forms of compute governance might aim to provide information on whether chips are actually being used to train large AI systems. This could be done at the hardware level by monitoring whether GPUs are being interconnected into the large clusters of chips required for such purposes.</p>
+
 <h3 id="conclusions-about-compute-governance">Conclusions About Compute
 Governance</h3>
 <p><strong>Compute governance is a promising route to AI
