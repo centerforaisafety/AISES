@@ -9,10 +9,7 @@ public interest. More abstractly, as we saw in the Collective Action Problems ch
 can help agents avoid harmful coordination failures. For example,
 penalties for unsafe AI development can counter incentives to cut
 corners on safety.<p>
-This section provides an overview of four ways governments may be able
-to advance AI safety: safety standards and regulations, liability for AI
-harms, improving societal resilience, and not falling behind while
-focusing on developing safe AI.</p>
+This section provides an overview of some potential ways governments may be able to advance AI safety including safety standards and regulations, liability for AI harms, targeted taxation, and public ownership of AI. We also describe various levers for improving societal resilience and for ensuring that countries focused on developing AI safely to do not fall behind less responsible actors.</p>
 <h2 id="standards-and-regulations">8.6.1 Standards and Regulations</h2>
 <p>To ensure that frontier AI development and deployment is safe, two
 complementary approaches are formally establishing strong safety
@@ -134,6 +131,46 @@ Ensuring legal liability for harms that result from deployed AIs helps
 align the interests of AI developers with broader social interests.
 Next, we will consider how governments can mitigate harms when they do
 occur.</p>
+<h2 id="taxation">8.6.3 Targeted Taxation</h2>
+<p>Although taxes do not directly force risk internalization, they can provide government revenues that can be reserved for risk mitigation or disaster relief efforts. For example, the Superfund is a US government program that funds the cleanup of abandoned hazardous waste sites. It is funded by excise taxes--—a special tax on some good, service, or activity---on chemicals. The excise tax ensures that the chemical manufacturing industry pays for the handling of dangerous waste sites that it has created. Special taxes on AIs could support government programs to prevent risks or address disasters.</p>
+
+<p><strong>Taxation is the most straightforward redistribution
+policy.</strong> Wealth redistribution or social spending is most often
+funded by taxes. Progressive tax policies, adopted today by most but not
+all nations, require that those who earn more money pay a greater
+proportion of their earnings than those who earn less. Governments then
+seek to redistribute wealth through a wide variety of programs, from
+healthcare and education to direct checks to people. In light of massive
+earnings by tech companies, economists and policymakers have already
+proposed specialized taxes on robots, digital goods and services, and
+AI. If AI enables big tech companies to make orders of magnitude more
+money than any previous company, while much of the population is unable
+to pay income tax, targeted taxes on AI may be necessary to maintain
+government revenues.<p>
+Seeking to encourage innovation, the US’s tax landscape currently favors
+capital investment over labor investment. If a firm wants to hire a
+worker, they have to pay payroll taxes and employees have to pay a
+number of separate taxes. If a firm replaced their worker with an AI,
+they would presently only pay corporate tax, which was incurred anyway
+<span class="citation" data-cites="acemoglu2020does">[8]</span>. As with
+other redistributive policies surveyed in this chapter, there are
+political barriers to high taxes, including the ability of companies to
+lobby the government in favor of lower taxes, as well as long-standing
+and contentious debates over the economic effects of taxation.</p>
+
+<h2 id="public-ownership">8.6.4 Public Ownership</h2>
+<p>Another approach to aligning AI development with societal interests would be public ownership over some AI systems. Public ownership means that the public receives both the benefits and the costs (risks) of AIs, addressing moral hazards. Governments might seek to assume partial or full ownership of powerful AI systems both in order to control their operations safely and to guarantee equitable revenue distribution.
+<p>
+Public utilities are often nationalized because they benefit from
+economies of scale, where larger organizations are cheaper and more
+efficient. For example, building power plants and transmission lines is
+expensive, so governments are interested in maintaining one large,
+well-regulated company. The French government owns the utility company
+Électricité de France, whose nuclear plants power the majority of the
+country’s electricity. AIs may be similar to public utilities if they
+are ubiquitous throughout the economy, essential to everyday activity, and
+require special safety considerations.The potential tendency of AI to strengthen concentration of market power is discussed further in the Economic Engine section in the Beneficial AI and Machine Ethics chapter.</p>
+
 <h2 id="improving-resilience">8.6.3 Improving Resilience</h2>
 <p>The government actions already discussed focus on preventing unsafe
 AI development and deployment, but another useful intervention point may
