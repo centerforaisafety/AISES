@@ -102,9 +102,7 @@ misrepresent the truth intentionally. Even the expectation of
 disinformation can make it more difficult to reach a negotiated
 settlement.</p></li>
 </ul>
-<p><strong>Factors outside of bargaining theory.</strong> Bargaining
-frameworks do not encompass all possible reasons why agents may decide
-to conflict with one another. We end by exploring one example:</p>
+<p><strong>{Factors outside of bargaining theory.} Bargaining frameworks do not encompass all possible reasons why agents may decide to conflict with one another. These approaches to analyzing conflict are <em>rationalist</em>, assuming that both parties are rationally considering whether and how to engage in conflict. However, non-rationalist approaches to conflict (taking into account factors such as identity, status, or relative deprivation) may turn out to be more applicable to analyzing conflicts involving some AIs; for example, AIs trained on decisions made by human agents may focus on the social acceptability of actions rather than their consequences. We end by exploring one example of a factor standing outside of rationalist approaches that can help to predict and explain conflict:</p>
 <ul>
 <li><p><em>Inequality</em>: under conditions of inequality, agents may
 fight for access to a larger share of available resources or a desired
@@ -142,6 +140,9 @@ costs. Therefore, a mutual settlement is the best option for both if
 $34,000, it would make sense for the owner to opt for conflict rather
 than bargaining. Similarly, if the proposed settlement were less than
 $14,000, it would be rational for the customer to opt for conflict.</p>
+
+<p><strong>AIs and large-scale conflicts.</strong> Several of the examples we consider in this section are large-scale conflicts such as interstate war. If the use of AI were to increase the likelihood or severity of such conflicts, it could have a devastating effect. AIs have the potential to accelerate our wartime capabilities, from augmenting intelligence gathering and weaponizing information such as deep fakes to dramatically improving the capabilities of lethal autonomous weapons and cyberattacks. If these use-cases and other capabilities become prevalent and powerful, AI will change the nature of conflict. If armies are eventually composed of mainly automated weapons rather than humans, the barrier to violence might be much lower for politicians who will face reduced public backlash against lives lost, making conflicts between states (with automated armies) more commonplace. Such changes to the nature and severity of war are important possibilities with significant ramifications. In this section, we focus on analyzing the decision to enter a conflict, continuing to focus on how rational, intelligent agents acting in their own self-interest can collectively produce outcomes that none of them wants. To do this, we ground our discussion of conflict in bargaining theory, highlighting some ways in which AI might increase the odds that states or other entities decide to start a conflict.</p>
+
 <h2 id="bargaining-theory">7.4.2 Bargaining Theory</h2>
 <p>Here, we begin with a general overview of bargaining theory, to
 illustrate how pressures to outcompete rivals or preserve power and
