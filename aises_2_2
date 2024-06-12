@@ -853,8 +853,7 @@ and values that inform how we can assess the quality of a model.</p>
 <p><strong>Accuracy is a measure of the overall performance of a
 classification model.</strong> Accuracy is defined as the percentage of
 correct predictions: <span class="math display">$$\text{Accuracy} =
-\frac{\# \text{ of correct predictions}}{\# \text{ of total
-predictions}}.$$</span> Accuracy can be misleading if there is an
+\frac{\# \text{ of correct predictions}}{\# \text{ of total predictions}}.$$</span> Accuracy can be misleading if there is an
 imbalance in the number of examples of each class. For instance, if 95%
 of emails received are not spam, a classifier assigning all emails to
 the “not spam” category could achieve 95% accuracy. Accuracy applies
