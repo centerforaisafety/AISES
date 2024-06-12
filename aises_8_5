@@ -1,4 +1,4 @@
-<h1 id="sec:nat-gov">8.6 National Governance</h1>
+<h1 id="sec:nat-gov">8.5 National Governance</h1>
 <p><strong>Overview.</strong> Government action may be crucial for AI
 safety. Governments have the authority to enforce AI regulations, to
 direct their own AI activities, and to influence other governments
@@ -10,7 +10,7 @@ can help agents avoid harmful coordination failures. For example,
 penalties for unsafe AI development can counter incentives to cut
 corners on safety.<p>
 This section provides an overview of some potential ways governments may be able to advance AI safety including safety standards and regulations, liability for AI harms, targeted taxation, and public ownership of AI. We also describe various levers for improving societal resilience and for ensuring that countries focused on developing AI safely to do not fall behind less responsible actors.</p>
-<h2 id="standards-and-regulations">8.6.1 Standards and Regulations</h2>
+<h2 id="standards-and-regulations">8.5.1 Standards and Regulations</h2>
 <p>To ensure that frontier AI development and deployment is safe, two
 complementary approaches are formally establishing strong safety
 measures as best practices for AI labs, and requiring the implementation
@@ -85,7 +85,7 @@ Standards and regulations give governments some ways to shape the
 behavior of AI developers. Next, we will consider legal means to ensure
 that the developers of AI have incentives in line with the rest of
 society.</p>
-<h2 id="liability-for-ai-harms">8.6.2 Liability for AI Harms</h2>
+<h2 id="liability-for-ai-harms">8.5.2 Liability for AI Harms</h2>
 <p>In addition to standards and regulations, legal liability could
 advance AI safety. When AI accidents or misuse cause harm, liability
 rules determine who (if anyone) has to pay compensation. For example, an
@@ -131,7 +131,7 @@ Ensuring legal liability for harms that result from deployed AIs helps
 align the interests of AI developers with broader social interests.
 Next, we will consider how governments can mitigate harms when they do
 occur.</p>
-<h2 id="taxation">8.6.3 Targeted Taxation</h2>
+<h2 id="taxation">8.5.3 Targeted Taxation</h2>
 <p>Although taxes do not directly force risk internalization, they can provide government revenues that can be reserved for risk mitigation or disaster relief efforts. For example, the Superfund is a US government program that funds the cleanup of abandoned hazardous waste sites. It is funded by excise taxes--—a special tax on some good, service, or activity---on chemicals. The excise tax ensures that the chemical manufacturing industry pays for the handling of dangerous waste sites that it has created. Special taxes on AIs could support government programs to prevent risks or address disasters.</p>
 
 <p><strong>Taxation is the most straightforward redistribution
@@ -158,7 +158,7 @@ political barriers to high taxes, including the ability of companies to
 lobby the government in favor of lower taxes, as well as long-standing
 and contentious debates over the economic effects of taxation.</p>
 
-<h2 id="public-ownership">8.6.4 Public Ownership</h2>
+<h2 id="public-ownership">8.5.4 Public Ownership</h2>
 <p>Another approach to aligning AI development with societal interests would be public ownership over some AI systems. Public ownership means that the public receives both the benefits and the costs (risks) of AIs, addressing moral hazards. Governments might seek to assume partial or full ownership of powerful AI systems both in order to control their operations safely and to guarantee equitable revenue distribution.
 <p>
 Public utilities are often nationalized because they benefit from
@@ -171,7 +171,7 @@ country’s electricity. AIs may be similar to public utilities if they
 are ubiquitous throughout the economy, essential to everyday activity, and
 require special safety considerations.The potential tendency of AI to strengthen concentration of market power is discussed further in the Economic Engine section in the Beneficial AI and Machine Ethics chapter.</p>
 
-<h2 id="improving-resilience">8.6.3 Improving Resilience</h2>
+<h2 id="improving-resilience">8.5.3 Improving Resilience</h2>
 <p>The government actions already discussed focus on preventing unsafe
 AI development and deployment, but another useful intervention point may
 be mitigating damages during deployment.  We discuss this briefly here and at greater length in the "Systemic Safety" section (3.5). </p>
@@ -226,7 +226,7 @@ insufficient for safety if the countries that implement them all fall
 behind the frontier of AI development. Next, we will consider how
 countries can remain competitive while ensuring safety in domestic AI
 production.</p>
-<h2 id="not-falling-behind">8.6.4 Not Falling Behind</h2>
+<h2 id="not-falling-behind">8.5.4 Not Falling Behind</h2>
 <p>If some countries take a relatively slow and careful approach to AI
 development, they may risk falling behind other countries that take less
 cautious approaches. It would be risky for the global leaders in AI
