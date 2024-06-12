@@ -1099,7 +1099,7 @@ images in which information is missing or covered up. This allows the
 model to learn visual features and relationships between objects that
 can be used to generate new images.</p>
 <figure id="fig:inpainting">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/inpainting.png"
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/images/inpainting.png"
 class="tb-img-full" style="width: 80%"/>
     <p class="tb-caption">Figure 2.9: In image inpainting, models are trained to predict hidden parts of images, causing them
 to learn relationships between pixels. <span class="citation"
