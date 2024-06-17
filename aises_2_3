@@ -621,7 +621,7 @@ enabling the training of deeper networks. Convolution uses sliding
 filters to allow models to detect local features in input data, an
 especially useful capability in vision-related tasks. Self-attention
 enables models to weigh the relevance of different inputs based on their
-context. By leveraging these mechanisms mechanism to handle complex
+context. By leveraging these mechanisms to handle complex
 dependencies in sequential data, Transformers revolutionized the field
 of natural language processing (NLP).</p>
 <h2 id="training-and-inference">2.3.2 Training and Inference</h2>
