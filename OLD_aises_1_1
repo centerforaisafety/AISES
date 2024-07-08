@@ -1,0 +1,162 @@
+<!-- Overview of Catastrophic AI Risks -->
+
+</head>
+<body>
+<h1 id="introduction"> 1.1 Introduction</h1>
+
+<p><em>In this chapter, we give a brief and informal description of many major 
+societal-scale risks from AI, focussing on AI risks that could lead 
+to highly severe or even catastrophic societal outcomes. This provides some background 
+and motivation before we discuss specific challenges with more depth
+and rigor in the following chapters.</em><p>
+
+<p>The world as we know it is not normal. We take for granted that we
+can talk instantaneously with people thousands of miles away, fly to the
+other side of the world in less than a day, and access vast mountains of
+accumulated knowledge on devices we carry around in our pockets. These
+realities seemed far-fetched decades ago, and would have been
+inconceivable to people living centuries ago. The ways we live, work,
+travel, and communicate have only been possible for a tiny fraction of
+human history.<p>
+Yet, when we look at the bigger picture, a broader pattern emerges:
+accelerating development. Hundreds of thousands of years elapsed between
+the time Homo sapiens appeared on Earth and the agricultural revolution.
+Then, thousands of years passed before the industrial revolution. Now,
+just centuries later, the artificial intelligence (AI) revolution is
+beginning. The march of history is not constant—it is rapidly
+accelerating.<p>
+</p>
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gwp_v2.png" class="tb-img-full" style="width: 80%; "/>
+<p class="tb-caption"> Figure 1.1 World production has grown rapidly over the course of human
+history. AI could further this trend, catapulting humanity into a new
+period of unprecedented change.</p>
+</p> We can capture this trend quantitatively in Figure 1.1, which shows how
+estimated gross world product has changed over time <span
+class="citation" data-cites="Roodman2020OnTP Davidson2021">[1],
+[2]</span>. The hyperbolic growth it depicts might be explained by the
+fact that, as technology advances, the rate of technological advancement
+also tends to increase. Empowered with new technologies, people can
+innovate faster than they could before. Thus, the gap in time between
+each landmark development narrows.<p>
+It is the rapid pace of development, as much as the sophistication of
+our technology, that makes the present day an unprecedented time in
+human history. We have reached a point where technological advancements
+can transform the world beyond recognition within a human lifetime. For
+example, people who have lived through the creation of the internet can
+remember a time when our now digitally-connected world would have seemed
+like science fiction.<p>
+From a historical perspective, it appears possible that the same amount
+of development could now be condensed in an even shorter timeframe. We
+might not be certain that this will occur, but neither can we rule it
+out. We therefore wonder: what new technology might usher in the next
+big acceleration? In light of recent advances, AI seems an increasingly
+plausible candidate. Perhaps, as AI continues to become more powerful,
+it could lead to a qualitative shift in the world, more profound than
+any we have experienced so far. It could be the most impactful period in
+history, though it could also be the last.<p>
+Although technological advancement has often improved people’s lives, we
+ought to remember that, as our technology grows in power, so too does
+its destructive potential. Consider the invention of nuclear weapons.
+Last century, for the first time in our species’ history, humanity
+possessed the ability to destroy itself, and the world suddenly became
+much more fragile.<p>
+Our newfound vulnerability revealed itself in unnerving clarity during
+the Cold War. On a Saturday in October 1962, the Cuban Missile Crisis
+was cascading out of control. US warships enforcing the blockade of Cuba
+detected a Soviet submarine and attempted to force it to the surface by
+dropping low-explosive depth charges. The submarine was out of radio
+contact, and its crew had no idea whether World War III had already
+begun. A broken ventilator raised the temperature up to <span
+class="math inline">140<sup>∘</sup></span>F in some parts of the
+submarine, causing crew members to fall unconscious as depth charges
+exploded nearby.
+<p>The submarine carried a nuclear-armed torpedo, which required consent
+from both the captain and political officer to launch. Both provided it.
+On any other submarine in Cuban waters that day, that torpedo would have
+launched—and a nuclear third world war may have followed. Fortunately, a
+man named Vasili Arkhipov was also on the submarine. Arkhipov was the
+commander of the entire flotilla and by sheer luck happened to be on
+that particular submarine. He talked the captain down from his rage,
+convincing him to await further orders from Moscow. He averted a nuclear
+war and saved millions or billions of lives—and possibly civilization
+itself.</p>
+<p>Carl Sagan once observed, “If we continue to accumulate only power
+and not wisdom, we will surely destroy ourselves” <span class="citation"
+data-cites="sagan1994pale">[3]</span>. Sagan was correct: The power of
+nuclear weapons was not one we were ready for. Overall, it has been luck
+rather than wisdom that has saved humanity from nuclear annihilation,
+with multiple recorded instances of a single individual preventing a
+full-scale nuclear war.<p>
+AI is now poised to become a powerful technology with destructive
+potential similar to nuclear weapons. We do not want to repeat the Cuban
+Missile Crisis. We do not want to slide toward a moment of peril where
+our survival hinges on luck rather than the ability to use this
+technology wisely. Instead, we need to work proactively to mitigate the
+risks it poses. This necessitates a better understanding of what could
+go wrong and what to do about it.<p>
+Luckily, AI systems are not yet advanced enough to contribute to every
+risk we discuss. But that is cold comfort in a time when AI development
+is advancing at an unprecedented and unpredictable rate. We consider
+risks arising from both present-day AIs and AIs that are likely to exist
+in the near future. It is possible that if we wait for more advanced
+systems to be developed before taking action, it may be too late.<p>
+In this chapter, we will explore various ways in which powerful AIs could bring about catastrophic events with devastating consequences for vast numbers of people. We will also discuss how AIs could present existential risks---catastrophes from which humanity would be unable to recover. The most obvious such risk is extinction, but there are other outcomes, such as creating a permanent dystopian society, which would also constitute an existential catastrophe. As further discussed in this book's Introduction, we do not intend to cover all risks or harms that AI may pose in an exhaustive manner, and many of these fall outside the scope of this chapter. We outline many possible scenarios, some of which are more likely than others and some of which are mutually incompatible with each other. This approach is motivated by the principles of risk management. We prioritize asking ``what could go wrong?'' rather than reactively waiting for catastrophes to occur. This proactive mindset enables us to anticipate and mitigate catastrophic risks before it's too late.<p>
+To help orient the discussion, we decompose catastrophic risks from AIs
+into four risk sources that warrant intervention:</p>
+<ul>
+<li><p><strong>Malicious use</strong>: Malicious actors using AIs to
+cause large-scale devastation.</p></li>
+<li><p><strong>AI race</strong>: Competitive pressures that could drive
+us to deploy AIs in unsafe ways, despite this being in no one’s best
+interest.</p></li>
+<li><p><strong>Organizational risks</strong>: Accidents arising from the
+complexity of AIs and the organizations developing them.</p></li>
+<li><p><strong>Rogue AIs</strong>: The problem of controlling a
+technology more intelligent than we are.</p></li>
+</ul>
+<p>These four sections Malicious Use, AI Races, Organizational Risks, and Rogue AI describe causes of AI risks that are
+<em>intentional</em>, <em>environmental/structural</em>,
+<em>accidental</em>, and <em>internal</em>, respectively <span
+class="citation" data-cites="Yampolskiy2016TaxonomyOP">[4]</span>. The
+risks that are briefly outlined in this chapter are discussed in greater
+depth in the rest of this book.<p>
+In this chapter, we will describe how concrete, small-scale examples of
+each risk might escalate into catastrophic outcomes. We also include
+hypothetical stories to help readers conceptualize the various processes
+and dynamics discussed in each section. We hope this survey will serve
+as a practical introduction for readers interested in learning about and
+mitigating catastrophic AI risks.<p>
+</p>
+
+<br>
+<br>
+<h3>References</h3>
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Roodman2020OnTP" class="csl-entry" role="listitem">
+<div class="csl-left-margin"> [1] D.
+M. Roodman, <span>“On the probability distribution of long-term changes
+in the growth rate of the global economy: An outside view.”</span>
+2020.</div>
+</div>
+<div id="ref-Davidson2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] T.
+Davidson, <span>“Could advanced AI drive explosive economic
+growth?”</span> 2021.</div>
+</div>
+<div id="ref-sagan1994pale" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] C.
+Sagan, <em>Pale blue dot: A vision of the human future in space</em>.
+New York: Random House, 1994.</div>
+</div>
+<div id="ref-Yampolskiy2016TaxonomyOP" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] R.
+V. Yampolskiy, <span>“Taxonomy of pathways to dangerous artificial
+intelligence,”</span> in <em>AAAI workshop: AI, ethics, and
+society</em>, 2016.</div>
+</div>
+</div>
+</body>
+</html>
