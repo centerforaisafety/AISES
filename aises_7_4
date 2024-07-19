@@ -102,7 +102,7 @@ misrepresent the truth intentionally. Even the expectation of
 disinformation can make it more difficult to reach a negotiated
 settlement.</p></li>
 </ul>
-<p><strong>{Factors outside of bargaining theory.}</strong> Bargaining frameworks do not encompass all possible reasons why agents may decide to conflict with one another. These approaches to analyzing conflict are <em>rationalist</em>, assuming that both parties are rationally considering whether and how to engage in conflict. However, non-rationalist approaches to conflict (taking into account factors such as identity, status, or relative deprivation) may turn out to be more applicable to analyzing conflicts involving some AIs; for example, AIs trained on decisions made by human agents may focus on the social acceptability of actions rather than their consequences. We end by exploring one example of a factor standing outside of rationalist approaches that can help to predict and explain conflict:</p>
+<p><strong>Factors outside of bargaining theory.</strong> Bargaining frameworks do not encompass all possible reasons why agents may decide to conflict with one another. These approaches to analyzing conflict are <em>rationalist</em>, assuming that both parties are rationally considering whether and how to engage in conflict. However, non-rationalist approaches to conflict (taking into account factors such as identity, status, or relative deprivation) may turn out to be more applicable to analyzing conflicts involving some AIs; for example, AIs trained on decisions made by human agents may focus on the social acceptability of actions rather than their consequences. We end by exploring one example of a factor standing outside of rationalist approaches that can help to predict and explain conflict:</p>
 <ul>
 <li><p><em>Inequality</em>: under conditions of inequality, agents may
 fight for access to a larger share of available resources or a desired
@@ -289,8 +289,8 @@ instigating war. To safeguard their diminishing influence, the British
 and French launched a swift and initially successful military
 intervention.</p>
 <p><strong>Power shifts and AI.</strong> AIs could shift power as they
-gain greater intelligence and more access to resources. Recall the
-chapter on , where we saw that an agent’s power is highly related to the
+gain greater intelligence and more access to resources. Recall the Single-Agent Safety
+chapter, where we saw that an agent’s power is highly related to the
 efficiency with which they can exploit resources for their benefit,
 which often depends on their level of intelligence. The power of future
 AI systems is largely unpredictable; we do not know how intelligent or
