@@ -1,85 +1,24 @@
-<!-- AI Background -->
-
-<h1 id="introduction">2.1 Introduction</h1>
-<p><strong>To reduce risks from AI systems, we need to understand their
-technical foundations.</strong> Like many other technologies, AI
-presents benefits and dangers on both individual and societal scales. In
-addition, AI poses unique risks, as it involves the creation of
-autonomous systems that can intelligently pursue objectives without
-human assistance. This represents a significant departure from existing
-technologies, and we have yet to understand its full implications,
-especially since the internal workings of AI systems are often opaque
-and difficult to observe or interpret. Nevertheless, the field is
-progressing at a remarkable speed, and AI technologies are being
-increasingly integrated into everyday life. Understanding the technical
-underpinnings of AI can inform our understanding of what risks it poses,
-how they may arise, and how they can be prevented or controlled.</p>
-<p><strong>Overview.</strong> This chapter mostly focuses on machine
-learning (ML), the approach that powers most modern AI systems. We
-provide an overview of the essential elements of ML and discuss some
-specific techniques. While the term “AI” is most commonly used to refer
-to these technologies and will be the default in most of this book, in
-this chapter we distinguish between AI, ML, and their subfields.</p>
-<p><strong>Artificial Intelligence.</strong> We will begin our
-exploration by discussing AI: the overarching concept of creating
-machines that perform tasks typically associated with human
-intelligence. We will introduce its history, scope, and how it permeates
-our daily lives, as well as its practical and conceptual origins and how
-it has developed over time. Then, we will survey different “types” or
-“levels” commonly used to describe AI systems, including narrow AI,
-artificial general intelligence (AGI), human-level AI (HLAI),
-transformative AI (TAI), and artificial superintelligence (ASI) <span
-class="citation"
-data-cites="bostrom2014superintelligence">[1]</span>.</p>
-<p><strong>Machine Learning.</strong> Next, we will narrow our
-discussion to machine learning (ML), the subfield of AI focused on
-creating systems that learn from data, making predictions or decisions
-without being explicitly programmed. We will present fundamental
-vocabulary and concepts related to ML systems: what they are composed
-of, how they are developed, and common tasks they are used to achieve.
-We will survey various types of machine learning, including supervised,
-unsupervised, reinforcement, and deep learning, discussing their
-applications, nuances, and interrelations.</p>
-<p><strong>Deep Learning.</strong> Then, we will delve into deep
-learning (DL), a further subset of ML that uses neural networks with
-many layers to model and understand complex patterns in datasets. We
-will discuss the structure and function of deep learning models,
-exploring key building blocks and principles of how they learn. We will
-present a timeline of influential deep learning architectures and
-highlight a few of the countless applications of these models.</p>
-<p><strong>Scaling Laws.</strong> Having established a basic
-understanding of AI, ML, and DL, we will then explore scaling laws.
-These are equations that model the improvements in performance of DL
-models when increasing their parameter count and dataset size. We will
-examine how these are often power laws—equations in which one variable
-increases in proportion to a power of another, such as the area of a
-square—and examine a few empirically determined scaling laws in recent
-AI systems.</p>
-<p>
-Throughout the chapter, we focus on building intuition, breaking down
-technical terms and complex ideas to provide straightforward
-explanations of their core principles. Each section presents fundamental
-principles, shows prominent algorithms and techniques, and provides
-examples of real-world applications. We aim to demystify these fields,
-empowering us to grasp the concepts that underpin AI systems. By the end
-of this chapter, we should have a well-rounded understanding of machine
-learning, ready to delve deeper into the complexities and challenges of
-AI systems, the risks they pose, and how they interact with our society.
-This will provide the technical foundation we need for the following
-chapters, which will explore the risks and ethical considerations that
-these technologies present from a wide array of perspectives.</p>
-
-
-<br>
-<br>
-<h3>References</h3>
-<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
-role="list">
-<div id="ref-bostrom2014superintelligence" class="csl-entry"
-role="listitem">
-<div class="csl-left-margin">[1] N.
-Bostrom, <em>Superintelligence: Paths, dangers, strategies</em>, First
-edition. <span>Oxford</span>: <span>Oxford University Press</span>,
-2014.</div>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en" xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Introduction to AI Safety Ethics, and Society</title>
+<meta http-equiv="default-style" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="../style.css"/>
+</head>
+<body>
+<div class="chapter">
+<h1 class="section" id="sec2-1">2.1 INTRODUCTION</h1>
+<p class="nonindent1"><b><i>To reduce risks from AI systems, we need to understand their technical foundations.</i></b> Like many other technologies, AI presents benefits and dangers on both individual and societal scales. In addition, AI poses unique risks, as it involves the creation of autonomous systems that can intelligently pursue objectives without human assistance. This represents a significant departure from existing technologies, and we have yet to understand its full implications, especially since the internal workings of AI systems are often opaque and difficult to observe or interpret. Nevertheless, the field is progressing at a remarkable speed, and AI technologies are being increasingly integrated into everyday life. Understanding the technical underpinnings of AI can inform our understanding of what risks it poses, how they may arise, and how they can be prevented or controlled.</p>
+<p class="nonindent1"><b><i>Overview.</i></b> This chapter mostly focuses on machine learning (ML), the approach that powers most modern AI systems. We provide an overview of the essential elements of ML and discuss some specific techniques. While the term &#x201C;AI&#x201D; is most commonly used to refer to these technologies and will be the default in most of this book, in this chapter we distinguish between AI, ML, and their subfields.</p>
+<p class="nonindent1"><b><i>Artificial Intelligence.</i></b> We will begin our exploration by discussing AI: the overarching concept of creating machines that perform tasks typically associated with human intelligence. We will introduce its history, scope, and how it permeates our daily lives, as well as its practical and conceptual origins and how it has developed over time. Then, we will survey different &#x201C;types&#x201D; or &#x201C;levels&#x201D; commonly used to describe AI systems, including narrow AI, artificial general intelligence (AGI), human-level AI (HLAI), transformative AI (TAI), and artificial superintelligence (ASI) [1].</p>
+<p class="nonindent1"><b><i>Machine Learning.</i></b> Next, we will narrow our discussion to machine learning (ML), the subfield of AI focused on creating systems that learn from data, making predictions or decisions without being explicitly programmed. We will present fundamental vocabulary and concepts related to ML systems: what they are composed of, how they are developed, and common tasks they are used to achieve. We will survey various types of machine learning, including supervised, unsupervised, reinforcement, and deep learning, discussing their applications, nuances, and interrelations.</p>
+<p class="nonindent1"><b><i>Deep Learning.</i></b> Then, we will delve into deep learning (DL), a further subset of ML that uses neural networks with many layers to model and understand complex patterns in datasets. We will discuss the structure and function of deep learning models, exploring key building blocks and principles of how they learn. We will present a timeline of influential deep learning architectures and highlight a few of the countless applications of these models.</p>
+<p class="nonindent1"><b><i>Scaling Laws.</i></b> Having established a basic understanding of AI, ML, and DL, we will then explore scaling laws. These are equations that model the improvements in performance of DL models when increasing their parameter count and dataset size. We will examine how these are often power laws&#x2014;equations in which one variable increases in proportion to a power of another, such as the area of a square&#x2014;and examine a few empirically determined scaling laws in recent AI systems.</p>
+<p class="nonindent1"><b><i>Speed of AI Development.</i></b> Scaling laws are closely related to the broader question of how fast the capabilities of AI systems are improving. We will discuss some of the key trends that are currently driving increasing AI capabilities and whether we should expect these to continue in coming years. We will relate this to the broader debate around when we might see AI systems that match (or surpass) human performance across all or nearly all cognitive tasks.</p>
+<p class="nonindent1">Throughout the chapter, we focus on building intuition, breaking down technical terms and complex ideas to provide straightforward explanations of their core principles. Each section presents fundamental principles, lays out prominent algorithms and techniques, and provides examples of real-world applications. We aim to demystify these fields, empowering readers to grasp the concepts that underpin AI systems. By the end of this chapter, we should have a basic understanding of machine learning and be in a stronger position to consider the complexities and challenges of AI systems, the risks they pose, and how they interact with our society. This will provide the technical foundation we need for the following chapters, which will explore the risks and ethical considerations that these technologies present from a wide array of perspectives.</p>
+<h2 class="section">References</h2>
+<p class="ref">[1] Nick Bostrom. &#x201C;Superintelligence: Paths, Dangers, Strategies&#x201D;. In: <i>Oxford University Press</i> (2014).</p>
 </div>
-</div>
+</body>
+</html>
