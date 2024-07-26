@@ -1,249 +1,1172 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html lang="en" xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Introduction to AI Safety Ethics, and Society</title>
-<meta http-equiv="default-style" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" type="text/css" href="../style.css"/>
-</head>
-<body>
-<div class="chapter">
-<h1 class="section" id="sec2-3">2.3 DEEP LEARNING</h1>
-<h3 class="section0"><i>Introduction</i></h3>
-<p class="nonindent1">In this section, we present the fundamentals of deep learning (DL), a branch of machine learning that uses neural networks to learn from data and perform complex tasks [1]. First, we will consider the essential building blocks of deep learning models and explore how they learn. Then, we will discuss the history of critical architectures and see how the field developed over time. Finally, we will explore how deep learning is reshaping our world by reviewing a few of its groundbreaking applications.</p>
-<h3 class="section"><i>Why Deep Learning Matters</i></h3>
-<p class="nonindent">Deep learning is a remarkably useful, powerful, and scalable technology that has been the primary source of progress in machine learning since the early 2010s. Deep learning methods have dramatically advanced the state-of-the-art in computer vision, speech recognition, natural language processing, drug discovery, and many other areas.</p>
-<p class="nonindent1"><b><i>Performance.</i></b> Some deep learning models have demonstrated better-than-human performance in specific tasks, though unreliably. These models have excelled in tasks such as complex image recognition and outmatched world experts in chess, Go, and challenging video games such as StarCraft. However, their victories are far from comprehensive or absolute. Model performance is variable, and deep learning models sometimes make errors or misclassifications obvious to a human observer. Therefore, despite their impressive accomplishments in specific tasks, deep learning models have yet to consistently surpass human intelligence or capabilities across all tasks or domains.</p>
-<p class="nonindent1"><b><i>Real-world usefulness.</i></b> Beyond games and academia, deep learning techniques have proven useful in a wide variety of real-world applications. They are increasingly integrated into everyday life, from healthcare and social media to chatbots and autonomous vehicles. Deep learning can generate product recommendations, predict energy load in a power grid, fly a drone, or create original works of art.</p>
-<p class="nonindent1"><b><i>Scalability.</i></b> Deep learning models are highly scalable and positioned to continue to advance in capability as data, hardware, and training techniques progress. A key strength of these models is their ability to process and learn from increasingly large amounts of data. Many traditional machine learning algorithms&#x2019; performance gains taper off with additional data; by contrast, the performance of deep learning models improves faster and longer.</p>
-<h3 class="section"><i>Defining Deep Learning</i></h3>
-<p class="nonindent">Deep learning is a type of machine learning that uses neural networks with many layers to learn and extract useful patterns from large datasets. It is characterized by its ability to learn hierarchical representations of the world.</p>
-<p class="nonindent1"><b><i>ML/DL distinction.</i></b> As we saw in the previous section, ML is the field of study that aims to give computers the ability to learn without explicitly being programmed. DL is a highly adaptable and remarkably effective approach to ML. Deep learning techniques are employed in and represent the cutting edge of many areas of machine learning, including supervised, unsupervised, and reinforcement learning.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_ML_DL_Venn.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.10 Machine learning is a type of artificial intelligence. Supervised, unsupervised, and reinforcement learning are common machine learning paradigms. Deep learning is a set of techniques that have proven useful for a variety of ML problems.</p>
+<h1 id="deep-learning">2.3 Deep Learning</h1>
+<h3 id="introduction">2.3.1 Introduction</h3>
+<p>In this section, we present the fundamentals of deep learning (DL), a
+branch of machine learning that uses neural networks to learn from data
+and perform complex tasks <span class="citation"
+data-cites="LeCun2015">[1]</span>. First, we will consider the essential
+building blocks of deep learning models and explore how they learn.
+Then, we will discuss the history of critical architectures and see how
+the field developed over time. Finally, we will explore how deep
+learning is reshaping our world by reviewing a few of its groundbreaking
+applications.</p>
+<h3 id="why-deep-learning-matters">Why Deep Learning Matters</h3>
+<p>Deep learning is a remarkably useful, powerful, and scalable
+technology that has been the primary source of progress in machine
+learning since the early 2010s. Deep learning methods have dramatically
+advanced the state-of-the-art in computer vision, speech recognition,
+natural language processing, drug discovery, and many other areas.</p>
+<p><strong>Performance.</strong> Some deep learning models have
+demonstrated better-than-human performance in specific tasks, though
+unreliably. These models have excelled in tasks such as complex image
+recognition and outmatched world experts in chess, Go, and challenging
+video games such as StarCraft. However, their victories are far from
+comprehensive or absolute. Model performance is variable, and deep
+learning models sometimes make errors or misclassifications obvious to a
+human observer. Therefore, despite their impressive accomplishments in
+specific tasks, deep learning models have yet to consistently surpass
+human intelligence or capabilities across all tasks or domains.</p>
+<p><strong>Real-world usefulness.</strong> Beyond games and academia,
+deep learning techniques have proven useful in a wide variety of
+real-world applications. They are increasingly integrated into everyday
+life, from healthcare and social media to chatbots and autonomous
+vehicles. Deep learning can generate product recommendations, predict
+energy load in a power grid, fly a drone, or create original works of
+art.</p>
+<p><strong>Scalability.</strong> Deep learning models are highly
+scalable and positioned to continue to advance in capability as data,
+hardware, and training techniques progress. A key strength of these
+models is their ability to process and learn from increasingly large
+amounts of data. Many traditional machine learning algorithms’
+performance gains taper off with additional data; by contrast, the
+performance of deep learning models improves faster and longer.</p>
+<h3 id="defining-deep-learning">Defining Deep Learning</h3>
+<p>Deep learning is a type of machine learning that uses neural networks
+with many layers to learn and extract useful patterns from large
+datasets. It is characterized by its ability to learn hierarchical
+representations of the world.</p>
+<p><strong>ML/DL distinction.</strong> As we saw in the previous
+section, ML is the field of study that aims to give computers the
+ability to learn without explicitly being programmed. DL is a highly
+adaptable and remarkably effective approach to ML. Deep learning
+techniques are employed in and represent the cutting edge of many areas
+of machine learning, including supervised, unsupervised, and
+reinforcement learning.</p>
+<figure id="fig:venn-definitions">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/AI_ML_DL_Venn.png" class="tb-img-full" style="width: 50%"/>
+<p class="tb-caption">Figure 2.10: Machine learning is a type of artificial intelligence. Supervised, unsupervised, and
+reinforcement learning are common machine learning paradigms. Deep learning is a set of techniques
+that have proven useful for a variety of ML problems.</p>
+<!--<figcaption>Relationship between AI, machine learning, and deep-->
+<!--learning</figcaption>-->
 </figure>
-<p class="nonindent1"><b><i>Automatically learned representations.</i></b> Representations are, in general, stand-ins or substitutes for the objects they represent. For example, the word &#x201C;airplane&#x201D; is a simple representation of a complex object. Similarly, ML systems use representations of data to complete tasks. Ideally, these representations are distillations that capture all essential elements or features of the data without extraneous information. While many traditional ML algorithms build representations from features hand-picked and engineered by humans, features are learned in deep learning. The primary objective of deep learning is to enable models to learn useful features and meaningful representations from data. These representations, which capture the underlying patterns and structure of the data, form the base on which a model solves problems. Therefore, model performance is directly related to representation quality. The more insightful and informative a model&#x0027;s representations are, the better it can complete tasks. Thus, the key to deep learning is learning good representations.</p>
-<p class="nonindent1"><b><i>Hierarchical representations.</i></b> Deep learning models represent the world as a nested hierarchy of concepts or features. In this hierarchy, features build on one another to capture progressively more abstract features. Higher-level representations are defined by and computed in terms of simpler ones. In object detection, for example, a model may learn first to recognize edges, then corners and contours, and finally parts of objects. Each set of features builds upon those that precede it:</p>
-<ol class="num">
-<li>Edges are (usually) readily apparent in raw pixel data.</li>
-<li>Corners and contours are collections of edges.</li>
-<li>Object parts are edges, corners, and contours.</li>
-<li>Objects are collections of object parts.</li>
+<p><strong>Automatically learned representations.</strong>
+Representations are, in general, stand-ins or substitutes for the
+objects they represent. For example, the word “airplane” is a simple
+representation of a complex object. Similarly, ML systems use
+representations of data to complete tasks. Ideally, these
+representations are distillations that capture all essential elements or
+features of the data without extraneous information.<p>
+While many traditional ML algorithms build representations from features
+hand-picked and engineered by humans, features are learned in deep
+learning. The primary objective of deep learning is to enable models to
+learn useful features and meaningful representations from data. These
+representations, which capture the underlying patterns and structure of
+the data, form the base on which a model solves problems. Therefore,
+model performance is directly related to representation quality. The
+more insightful and informative a model’s representations are, the
+better it can complete tasks. Thus, the key to deep learning is learning
+good representations.</p>
+<p><strong>Hierarchical representations.</strong> Deep learning models
+represent the world as a nested hierarchy of concepts or features. In
+this hierarchy, features build on one another to capture progressively
+more abstract features. Higher-level representations are deﬁned by and
+computed in terms of simpler ones. In object detection, for example, a
+model may learn first to recognize edges, then corners and contours, and
+finally parts of objects. Each set of features builds upon those that
+precede it:</p>
+<ol>
+<li><p>Edges are (usually) readily apparent in raw pixel data.</p></li>
+<li><p>Corners and contours are collections of edges.</p></li>
+<li><p>Object parts are edges, corners, and contours.</p></li>
+<li><p>Objects are collections of object parts.</p></li>
 </ol>
-<p class="nonindent1">This is analogous to how visual information is processed in the human brain. Edge detection is done in early visual areas like the primary visual cortex, more complex shape detection in temporal regions, and a complete visual scene is assembled in the brain&#x0027;s frontal regions. Hierarchical representations enable deep neural networks to learn abstract concepts and develop sophisticated models of the world. They are essential to deep learning and why it is so powerful.</p>
-<h3 class="section"><i>What Deep Learning Models Do</i></h3>
-<p class="nonindent1"><b><i>Deep learning models learn complicated relationships in data.</i></b> In general, machine learning models can be thought of as a way of transforming any input into a meaningful output. Deep learning models are an especially useful kind of machine learning model that can capture an extensive family of relationships between input and output.</p>
-<p class="nonindent1"><b><i>Function approximation.</i></b> In theory, neural networks&#x2014;the backbone of deep learning models&#x2014;can learn almost any function that maps inputs to outputs, given enough data and a suitable network architecture. Under some strong assumptions, a sufficiently large neural network can approximate any continuous function (like <i>y</i> = <i>ax<sup>2</sup></i> + <i>bx</i> + <i>c</i>) with a combination of weights and biases. For this reason, neural networks are sometimes called &#x201C;universal function approximators.&#x201D; While largely theoretical, this idea provides an intuition for how deep learning models achieve such immense flexibility and utility in their tasks.</p>
-<p class="nonindent1"><b><i>Challenges and limitations.</i></b> Deep learning models do not have unlimited capabilities. Although neural networks are very powerful, they are not the best suited to all tasks. Like any other model, they are subject to tradeoffs, limitations, and real-world constraints. In addition, the performance of deep neural networks often depends on the quality and quantity of data available to train the model, the algorithms and architectures used, and the amount of computational power available.</p>
-<h3 class="section"><i>Summary</i></h3>
-<p class="nonindent">Deep learning is an approach to machine learning that leverages multi-layer neural networks to achieve impressive performance. Deep learning models can capture a remarkable family of relationships between inputs and outputs by developing hierarchical representations. They have a number of advantages over traditional ML models, including scaling more effectively, learning more sophisticated relationships with less human input, and adapting more readily to different tasks with specialized components. Next, we will make our understanding more concrete by looking more closely at exactly what these components are and how they operate.</p>
-<h2 class="section" id="sec2-3-1">2.3.1 Model Building Blocks</h2>
-<p class="nonindent">In this section, we will explore some of the foundational building blocks of deep learning models. We will begin by defining what a neural network is and then discuss the fundamental elements of neural networks through the example of multi-layer perceptrons (MLPs), one of the most basic and common types of deep learning architecture. Then, we will cover a few more technical concepts, including activation functions, residual connections, convolution, and self-attention. Finally, we will see how these concepts come together in the <i>Transformer,</i> another type of deep learning architecture.</p>
-<p class="nonindent1"><b><i>Neural networks.</i></b> Neural networks are a type of machine learning algorithm composed of layers of interconnected nodes or neurons. They are loosely inspired by the structure and function of the human brain. <i>Neurons</i> are the basic computational units of neural networks. In essence, a neuron is a function that takes in a weighted sum of its inputs and applies an <i>activation function</i> to transform it, generating an output signal that is passed along to other neurons.</p>
-<p class="nonindent1"><b><i>Biological inspiration.</i></b> The &#x201C;artificial neurons&#x201D; in neural networks were named after their biological counterparts. Both artificial and biological neurons operate on the same basic principle. They receive inputs from multiple sources, process them by performing a computation, and produce outputs that depend on the inputs&#x2014;in the case of biological neurons, firing only when a certain threshold is exceeded. However, while biological neurons are intricate physical structures with many components and interacting cells, artificial neurons are simplified computational units designed to mimic a few of their characteristics.</p>
-<p class="nonindent1"><b><i>Building blocks.</i></b> Neural networks are made of simple building blocks that can produce complex abilities when combined at scale. Despite their simplicity, the resulting network can display remarkable behaviors when thousands&#x2014;or even millions&#x2014;of artificial neurons are joined together. Neural networks consist of densely connected layers of neurons, each contributing a tiny fraction to the overall processing power of the network. Within this basic blueprint, there is much room for variation; for instance, neurons can be connected in many ways and employ various activation functions. These network structure and design differences shape what and how a model can learn.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/artificial biological neuron.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.11 Artificial neurons have some structural similarities to biological neurons [2, 3].</p>
+<p>This is analogous to how visual information is processed in the human
+brain. Edge detection is done in early visual areas like the primary
+visual cortex, more complex shape detection in temporal regions, and a
+complete visual scene is assembled in the brain’s frontal regions.
+Hierarchical representations enable deep neural networks to learn
+abstract concepts and develop sophisticated models of the world. They
+are essential to deep learning and why it is so powerful.</p>
+<h3 id="what-deep-learning-models-do">What Deep Learning Models Do</h3>
+<p><strong>Deep learning models learn complicated relationships in
+data.</strong> In general, machine learning models can be thought of as
+a way of transforming any input into a meaningful output. Deep learning
+models are an especially useful kind of machine learning model that can
+capture an extensive family of relationships between input and
+output.</p>
+<p><strong>Function approximation.</strong> In theory, neural
+networks—the backbone of deep learning models—can learn almost any
+function that maps inputs to outputs, given enough data and a suitable
+network architecture. Under some strong assumptions, a sufficiently
+large neural network can approximate any continuous function (like <span
+class="math inline"><em>y</em> = <em>a</em><em>x</em><sup>2</sup> + <em>b</em><em>x</em> + <em>c</em></span>)
+with a combination of weights and biases. For this reason, neural
+networks are sometimes called “universal function approximators.” While
+largely theoretical, this idea provides an intuition for how deep
+learning models achieve such immense flexibility and utility in their
+tasks.</p>
+<p><strong>Challenges and limitations.</strong> Deep learning models do
+not have unlimited capabilities. Although neural networks are very
+powerful, they are not the best suited to all tasks. Like any other
+model, they are subject to tradeoffs, limitations, and real-world
+constraints. In addition, the performance of deep neural networks often
+depends on the quality and quantity of data available to train the
+model, the algorithms and architectures used, and the amount of
+computational power available.</p>
+<h3 id="summary">Summary</h3>
+<p>Deep learning is an approach to machine learning that leverages
+multi-layer neural networks to achieve impressive performance. Deep
+learning models can capture a remarkable family of relationships between
+inputs and outputs by developing hierarchical representations. They have
+a number of advantages over traditional ML models, including scaling
+more effectively, learning more sophisticated relationships with less
+human input, and adapting more readily to different tasks with
+specialized components. Next, we will make our understanding more
+concrete by looking more closely at exactly what these components are
+and how they operate.</p>
+<h2 id="model-building-blocks">2.3.1 Model Building Blocks</h2>
+<p>In this section, we will explore some of the foundational building
+blocks of deep learning models. We will begin by defining what a neural
+network is and then discuss the fundamental elements of neural networks
+through the example of multi-layer perceptrons (MLPs), one of the most
+basic and common types of deep learning architecture. Then, we will
+cover a few more technical concepts, including activation functions,
+residual connections, convolution, and self-attention. Finally, we will
+see how these concepts come together in the <em>Transformer</em>,
+another type of deep learning architecture.</p>
+<p><strong>Neural networks.</strong> Neural networks are a type of
+machine learning algorithm composed of layers of interconnected nodes or
+neurons. They are loosely inspired by the structure and function of the
+human brain. <em>Neurons</em> are the basic computational units of
+neural networks. In essence, a neuron is a function that takes in a
+weighted sum of its inputs and applies an <em>activation function</em>
+to transform it, generating an output signal that is passed along to
+other neurons.</p>
+<p><strong>Biological inspiration.</strong> The “artificial neurons” in
+neural networks were named after their biological counterparts. Both
+artificial and biological neurons operate on the same basic principle.
+They receive inputs from multiple sources, process them by performing a
+computation, and produce outputs that depend on the inputs—in the case
+of biological neurons, firing only when a certain threshold is exceeded.
+However, while biological neurons are intricate physical structures with
+many components and interacting cells, artificial neurons are simplified
+computational units designed to mimic a few of their
+characteristics.</p>
+<figure id="fig:neurons">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/artificial biological neuron.png"
+     class="tb-img-full" style="width: 80%"/>
+    <p class="tb-caption">Figure 2.11: Artificial neurons have structural similarities to biological neurons. <span
+class="citation" data-cites="wikineuron wikiperceptron">[2],
+[3]</span></p>
+<!--<figcaption>Comparison of biological and artificial neurons. - <span-->
+<!--class="citation" data-cites="wikineuron wikiperceptron">[2],-->
+<!--[3]</span></figcaption>-->
 </figure>
-<h3 class="section"><i>Multi-Layer Perceptrons</i></h3>
-<p class="nonindent">Multi-layer perceptrons (MLPs) are a foundational neural network architecture consisting of multiple layers of nodes, each performing a weighted sum of its inputs and passing the result through an activation function. They belong to a class of architectures known as &#x201C;feedforward&#x201D; neural networks, where information flows in only one direction, from one layer to the next. MLPs are composed of at least three layers: an <i>input layer,</i> one or more <i>hidden layers,</i> and an <i>output layer.</i></p>
-<p class="nonindent1"><b><i>The input layer serves as the entry point for data into a network.</i></b> The input layer consists of nodes that encode information from input data to pass on to the next layer. Unlike in other layers, the nodes do not perform any computation. Instead, each node in the input layer captures some small raw input data and directly relays this information to the nodes in the subsequent layer. As with other ML systems, input data for neural networks comes in many forms. For illustration, we will focus on just one: image data. Specifically, we will draw from the classic example of digit recognition with MNIST.</p>
-<p class="nonindent1">The MNIST (Modified National Institute of Standards and Technology) database is a large collection of images of handwritten digits, each with dimensions 28 &#x00D7; 28. Consider a neural network trained to classify these images. The input layer of this network consists of 784 nodes, each corresponding to the grayscale value of a pixel in a given image.</p>
-<p class="nonindent1"><b><i>The output layer is the final layer of a neural network.</i></b> The output layer contains neurons representing the results of the computations performed within the network. Like inputs, neural network outputs come in many forms, such as predictions or classifications. In the case of MNIST (a classification task), the output is categorical, predicting the digit represented by a particular image.</p>
-<p class="nonindent1">For classification tasks, the number of neurons in the output layer is equal to the number of possible classes. In the MNIST example, the output layer will have ten neurons, one for each of the ten classes (digits 0-9). The value of each neuron represents the predicted probability that an example belongs to that class. The output value of the network is the class of the output neuron with the highest value.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.12 Each pixel&#x0027;s value is transferred to a neuron in the first layer [4].</p>
+<p><strong>Building blocks.</strong> Neural networks are made of simple
+building blocks that can produce complex abilities when combined at
+scale. Despite their simplicity, the resulting network can display
+remarkable behaviors when thousands—or even millions—of artificial
+neurons are joined together. Neural networks consist of densely
+connected layers of neurons, each contributing a tiny fraction to the
+overall processing power of the network. Within this basic blueprint,
+there is much room for variation; for instance, neurons can be connected
+in many ways and employ various activation functions. These network
+structure and design differences shape what and how a model can
+learn.</p>
+<h3 id="multi-layer-perceptrons">Multi-Layer Perceptrons</h3>
+<p>Multi-layer perceptrons (MLPs) are a foundational neural network
+architecture consisting of multiple layers of nodes, each performing a
+weighted sum of its inputs and passing the result through an activation
+function. They belong to a class of architectures known as “feedforward”
+neural networks, where information flows in only one direction, from one
+layer to the next. MLPs are composed of at least three layers: an
+<em>input layer</em>, one or more <em>hidden layers</em>, and an
+<em>output layer</em>.</p>
+<p><strong>The input layer serves as the entry point for data into a
+network.</strong> The input layer consists of nodes that encode
+information from input data to pass on to the next layer. Unlike in
+other layers, the nodes do not perform any computation. Instead, each
+node in the input layer captures some small raw input data and directly
+relays this information to the nodes in the subsequent layer. As with
+other ML systems, input data for neural networks comes in many forms.
+For illustration, we will focus on just one: image data. Specifically,
+we will draw from the classic example of digit recognition with
+MNIST.<p>
+The MNIST (Modified National Institute of Standards and Technology)
+database is a large collection of images of handwritten digits, each
+with dimensions 28 <span class="math inline">×</span> 28. Consider a
+neural network trained to classify these images. The input layer of this
+network consists of 784 nodes, each corresponding to the grayscale value
+of a pixel in a given image.<p>
+</p>
+<figure id="fig:pixel-mapping">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/pixel_mapping.png" class="tb-img-full" style="width: 60%"/>
+    <p class="tb-caption">Figure 2.12: Information from each pixel is input to a neuron in the first layer. <span class="citation"
+data-cites="hula2018">[4]</span></p>
+<!--<figcaption>Mapping from pixels of an example image to neurons in the-->
+<!--input layer of a network - <span class="citation"-->
+<!--data-cites="hula2018">[4]</span></figcaption>-->
 </figure>
-<p class="nonindent1"><b><i>Hidden layers are the intermediate layers between the input and output layers.</i></b> Each hidden layer is a collection of neurons that receive outputs from the previous layer, perform a computation, and pass the results to the next layer. These are &#x201C;hidden&#x201D; because they are internal to the network and not directly observable from its inputs or outputs. These layers are where representations of features are learned.</p>
-<p class="nonindent1"><b><i>Weights represent the strength of the connection between two neurons.</i></b> Every connection is associated with a weight that determines how much the input signal from a given neuron will influence the output of the next neuron. This value represents the importance or contribution of the first neuron to the second. The larger the magnitude, the greater the influence. Neural networks learn by modifying the values of their weights, which we will explore shortly.</p>
-<p class="nonindent1"><b><i>Biases are additional learned parameters used to adjust neuron outputs.</i></b> Every neuron has a bias that helps control its output. This bias acts as a constant term that shifts the activation function along the input axis, allowing the neuron to learn more complex, flexible decision boundaries. Similar to the constant <i>b</i> of a linear equation <i>y</i> = <i>mx</i> + <i>b</i>, the bias allows shifting the output of each layer. In doing so, biases increase the range of the representations a neural network can learn.</p>
-<p class="nonindent1"><b><i>Activation functions control the output or &#x201C;activation&#x201D; of neurons.</i></b> Activation functions are nonlinear functions applied to each neuron&#x0027;s weighted input sum within a neural network layer. They are mathematical equations that control the output signal of the neurons, effectively determining the degree to which each neuron &#x201C;fires.&#x201D;</p>
-<p class="nonindent1">Each neuron in a network takes some inputs, multiplies them by weights, adds a bias, and applies an activation function. The activation function transforms this weighted input sum into an output signal. For many activation functions, the more input a neuron receives, the more it activates, translating to a larger output signal.</p>
-<p class="nonindent1"><b><i>Activation functions allow for intricate representations.</i></b> Without activation functions, neural networks would operate similarly to linear regression models, with added layers failing to contribute any complexity to the model&#x0027;s representations. Activation functions enable neural networks to learn and express more sophisticated patterns and relationships by managing the output of neurons.</p>
-<p class="nonindent1"><b><i>Single-layer and multi-layer networks.</i></b> Putting all of these elements together, single-layer neural networks are the simplest form of neural network. They have only one hidden layer, comprising an input layer, an output layer, and a hidden layer. Multi-layer neural networks add more hidden layers in the middle. These networks are the basis of deep learning models.</p>
-<p class="nonindent1"><b><i>Multi-layer neural networks are required for hierarchical representations.</i></b> While single-layer networks can learn many things, they cannot learn the hierarchical representations that form the cornerstone of deep learning. Layers provide the scaffolding of the pyramid. No layers means no hierarchy. As the features learned in each layer build on those of previous layers, additional hidden layers enable a neural network to learn more sophisticated and powerful representations. Simply put, more layers capture more features at more levels of abstraction.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/neural_network.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.13 A classic multi-layer artificial neural network (ANN) has an input layer, several hidden layers, and an output layer [5].</p>
+<p><strong>The output layer is the final layer of a neural
+network.</strong> The output layer contains neurons representing the
+results of the computations performed within the network. Like inputs,
+neural network outputs come in many forms, such as predictions or
+classifications. In the case of MNIST (a classification task), the
+output is categorical, predicting the digit represented by a particular
+image.<p>
+For classification tasks, the number of neurons in the output layer is
+equal to the number of possible classes. In the MNIST example, the
+output layer will have ten neurons, one for each of the ten classes
+(digits 0-9). The value of each neuron represents the predicted
+probability that an example belongs to that class. The output value of
+the network is the class of the output neuron with the highest
+value.</p>
+<p><strong>Hidden layers are the intermediate layers between the input
+and output layers.</strong> Each hidden layer is a collection of neurons
+that receive outputs from the previous layer, perform a computation, and
+pass the results to the next layer. These are “hidden” because they are
+internal to the network and not directly observable from its inputs or
+outputs. These layers are where representations of features are
+learned.</p>
+<p><strong>Weights represent the strength of the connection between two
+neurons.</strong> Every connection is associated with a weight that
+determines how much the input signal from a given neuron will influence
+the output of the next neuron. This value represents the importance or
+contribution of the first neuron to the second. The larger the
+magnitude, the greater the influence. Neural networks learn by modifying
+the values of their weights, which we will explore shortly.</p>
+<p><strong>Biases are additional learned parameters used to adjust
+neuron outputs.</strong> Every neuron has a bias that helps control its
+output. This bias acts as a constant term that shifts the activation
+function along the input axis, allowing the neuron to learn more
+complex, flexible decision boundaries. Similar to the constant <span
+class="math inline"><em>b</em></span> of a linear equation <span
+class="math inline"><em>y</em> = <em>m</em><em>x</em> + <em>b</em></span>,
+the bias allows shifting the output of each layer. In doing so, biases
+increase the range of the representations a neural network can
+learn.</p>
+<p><strong>Activation functions control the output or “activation” of
+neurons.</strong> Activation functions are nonlinear functions applied
+to each neuron’s weighted input sum within a neural network layer. They
+are mathematical equations that control the output signal of the
+neurons, effectively determining the degree to which each neuron
+“fires.”<p>
+Each neuron in a network takes some inputs, multiplies them by weights,
+adds a bias, and applies an activation function. The activation function
+transforms this weighted input sum into an output signal. For many
+activation functions, the more input a neuron receives, the more it
+activates, translating to a larger output signal.</p>
+<p><strong>Activation functions allow for intricate
+representations.</strong> Without activation functions, neural networks
+would operate similarly to linear regression models, with added layers
+failing to contribute any complexity to the model’s representations.
+Activation functions enable neural networks to learn and express more
+sophisticated patterns and relationships by managing the output of
+neurons.</p>
+<p><strong>Single-layer and multi-layer networks.</strong> Putting all
+of these elements together, single-layer neural networks are the
+simplest form of neural network. They have only one hidden layer,
+comprising an input layer, an output layer, and a hidden layer.
+Multi-layer neural networks add more hidden layers in the middle. These
+networks are the basis of deep learning models.</p>
+<p><strong>Multi-layer neural networks are required for hierarchical
+representations.</strong> While single-layer networks can learn many
+things, they cannot learn the hierarchical representations that form the
+cornerstone of deep learning. Layers provide the scaffolding of the
+pyramid. No layers means no hierarchy. As the features learned in each
+layer build on those of previous layers, additional hidden layers enable
+a neural network to learn more sophisticated and powerful
+representations. Simply put, more layers capture more features at more
+levels of abstraction.<p>
+</p>
+<figure id="fig:multilayer-nn">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/neural_network.png" class="tb-img-full" style="width: 60%"/>
+    <p class="tb-caption">Figure 2.13: A classic multi-layer neural network has an input layer, several hidden layers, and an
+output layer.</p>
+<!--<figcaption>A multi-layer neural network</figcaption>-->
 </figure>
-<p class="nonindent1"><b><i>Neural networks as matrix multiplication.</i></b> If we put aside the intuitive diagrammatic representation, a neural network is a mathematical function that takes in a set of input values and produces a set of output values via a series of steps. All the neurons in a layer can be represented as a list or <i>vector</i> of activations. In any layer, this activation vector is multiplied with an input and then transformed by applying an <i>element-wise nonlinear function</i> to the result. This is the layer&#x0027;s output, which becomes the input to the next layer. The network as a whole is the composition of all of its layers.</p>
-<p class="nonindent1"><b><i>A toy example.</i></b> Consider an MLP with two hidden layers, activation function g, and an input <i>x</i>. This network could be expressed as <i>W</i><sub>3</sub><i>g</i>(<i>W</i><sub>2</sub><i>g</i>(<i>W</i><sub>1</sub><i>x</i>)):</p>
-<ol class="num">
-<li>In the input layer, the input vector <i>x</i> is passed on.</li>
-<li>In the first hidden layer,
-<p class="numlist">(a)<span class="bull"></span>the input vector <i>x</i> is multiplied by the weight vector, <i>W</i><sub>1</sub>, yielding <i>W</i><sub>1</sub><i>x</i>,</p>
-<p class="numlist">(b)<span class="bull"></span>then the activation function <i>g</i> is applied, yielding g(<i>W</i><sub>1</sub><i>x</i>),</p>
-<p class="numlist">(c)<span class="bull"></span>which is passed on to the next layer.</p>
-</li>
-<li>In the second hidden layer,
-<p class="numlist">(a)<span class="bull"></span>the vector passed to the layer is multiplied by the weight vector, <i>W</i><sub>2</sub>, yielding <i>W</i><sub>2</sub><i>g</i>(<i>W</i><sub>1</sub><i>x</i>),</p>
-<p class="numlist">(b)<span class="bull"></span>then the activation function <i>g</i> is applied, yielding <i>g</i>(<i>W<sub>2</sub>g</i>(<i>W</i><sub>1</sub><i>x</i>)),</p>
-<p class="numlist">(c)<span class="bull"></span>which is passed on to the output layer.</p>
-</li>
-<li>In the output layer,
-<p class="numlist">(a)<span class="bull"></span>the input to the layer is multiplied by the weight vector, <i>W</i><sub>3</sub>, yielding <i>W</i><sub>3</sub><i>g</i>(<i>W</i><sub>2</sub><i>g</i>(<i>W</i><sub>1</sub><i>x</i>)),</p>
-<p class="numlist">(b)<span class="bull"></span>which is the output vector.</p>
-</li>
+<p><strong>Neural networks as matrix multiplication.</strong> If we put
+aside the intuitive diagrammatic representation, a neural network is a
+mathematical function that takes in a set of input values and produces a
+set of output values via a series of steps. All the neurons in a layer
+can be represented as a list or <em>vector</em> of activations. In any
+layer, this activation vector is multiplied with an input and then
+transformed by applying an <em>element-wise nonlinear function</em> to
+the result. This is the layer’s output, which becomes the input to the
+next layer. The network as a whole is the composition of all of its
+layers.</p>
+<p><strong>A toy example.</strong> Consider an MLP with two hidden
+layers, activation function g, and an input <span
+class="math inline"><em>x</em></span>. This network could be expressed
+as <span
+class="math inline"><em>W</em><sub>3</sub><em>g</em>(<em>W</em><sub>2</sub><em>g</em>(<em>W</em><sub>1</sub><em>x</em>))</span>:</p>
+<ol>
+<li><p>In the input layer, the input vector <span
+class="math inline"><em>x</em></span> is passed on.</p></li>
+<li><p>In the first hidden layer,</p>
+<ol>
+<li><p>the input vector <span class="math inline"><em>x</em></span> is
+multiplied by the weight vector, <span
+class="math inline"><em>W</em><sub>1</sub></span>, yielding <span
+class="math inline"><em>W</em><sub>1</sub><em>x</em></span>,</p></li>
+<li><p>then the activation function <span
+class="math inline"><em>g</em></span> is applied, yielding <span
+class="math inline"><em>g</em>(<em>W</em><sub>1</sub><em>x</em>)</span>,</p></li>
+<li><p>which is passed on to the next layer.</p></li>
+</ol></li>
+<li><p>In the second hidden layer,</p>
+<ol>
+<li><p>the vector passed to the layer is multiplied by the weight
+vector, <span class="math inline"><em>W</em><sub>2</sub></span>,
+yielding <span
+class="math inline"><em>W</em><sub>2</sub><em>g</em>(<em>W</em><sub>1</sub><em>x</em>)</span>,</p></li>
+<li><p>then the activation function <span
+class="math inline"><em>g</em></span> is applied, yielding <span
+class="math inline"><em>g</em>(<em>W</em><sub>2</sub><em>g</em>(<em>W</em><sub>1</sub><em>x</em>))</span>,</p></li>
+<li><p>which is passed on to the output layer.</p></li>
+</ol></li>
+<li><p>In the output layer,</p>
+<ol>
+<li><p>the input to the layer is multiplied by the weight vector, <span
+class="math inline"><em>W</em><sub>3</sub></span>, yielding <span
+class="math inline"><em>W</em><sub>3</sub><em>g</em>(<em>W</em><sub>2</sub><em>g</em>(<em>W</em><sub>1</sub><em>x</em>))</span>,</p></li>
+<li><p>which is the output vector.</p></li>
+</ol></li>
 </ol>
-<p class="nonindent1">This process is mathematically equivalent to matrix multiplication. This trait has significant implications for the computational properties of neural networks. Since matrix multiplication lends itself to being run in parallel, this equivalence allows specialized, more efficient processors such as GPUs to be used during training.</p>
-<p class="nonindent1"><b><i>Summary.</i></b> MLPs are models of a versatile and popular type of neural network that has been successfully applied to many tasks. They are often a key component in many larger, more sophisticated deep learning architectures. However, MLPs have limitations and are only sometimes the best-suited approach to a task. Some of the building blocks we will see later on address the shortcomings of MLPs and critical issues that can arise in deep learning more generally. Before that, we will look at activation functions&#x2014;the mechanisms that control how and when information is transmitted between neurons&#x2014;in more detail.</p>
-<h3 class="section"><i>Key Activation Functions</i></h3>
-<p class="nonindent">Activation functions are a vital component of neural networks. They introduce nonlinearity, which allows the network to model intricate patterns and relationships in data. By defining the activations of each neuron within the network, activation functions act as informational gatekeepers that control data transfer from one layer of the network to the next.</p>
-<p class="nonindent1"><b><i>Using activation functions.</i></b> There are many activation functions, each with unique properties and applications. Even within a single network, different layers may use other activation functions. The selection and placement of activation functions can significantly change the network&#x0027;s capability and performance. In most cases, the same activation will be applied in all the hidden layers within a network.</p>
-<p class="nonindent1">While many possible activation functions exist, only a handful are commonly used in practice. Here, we highlight four that are of particular practical or historical significance. Although there are many other functions and variations of each, these four&#x2014;ReLU, GELU [6], sigmoid, and softmax&#x2014;have been highly influential in developing and applying deep learning. The Transformer architecture, which we will describe later, uses GELU and softmax functions. Historically, many architectures used ReLUs and sigmoids. Together, these functions illustrate the essential characteristics of the properties and uses of activation functions in neural networks.</p>
-<p class="nonindent1"><b><i>Rectified Linear Unit (ReLU).</i></b> The rectified linear unit (ReLU) function is a piecewise linear function that returns the input value for positive inputs and zero for negative inputs [7]. It is the identity function (<i>f</i>(<i>x</i>) = <i>x</i>) for positive inputs and zero otherwise. This means that if a neuron&#x0027;s weighted input sum is positive, it will be passed directly to the following layer without any modification. However, no signal will be passed on if the sum is negative. Due to its piecewise nature, the graph of the ReLU function takes the form of a distinctive &#x201C;kinked&#x201D; line. Due to its computational efficiency, the ReLU function was widely used and played a critical role in developing more sophisticated deep learning architectures.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relu_v2.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.14 The ReLU activation function, ReLU(<i>x</i>) = max{0,<i>x</i>}, passes on positive inputs to the next layer.</p>
+<p>This process is mathematically equivalent to matrix multiplication.
+This trait has significant implications for the computational properties
+of neural networks. Since matrix multiplication lends itself to being
+run in parallel, this equivalence allows specialized, more efficient
+processors such as GPUs to be used during training.</p>
+<p><strong>Summary.</strong> MLPs are models of a versatile and popular
+type of neural network that has been successfully applied to many tasks.
+They are often a key component in many larger, more sophisticated deep
+learning architectures. However, MLPs have limitations and are only
+sometimes the best-suited approach to a task. Some of the building
+blocks we will see later on address the shortcomings of MLPs and
+critical issues that can arise in deep learning more generally. Before
+that, we will look at activation functions—the mechanisms that control
+how and when information is transmitted between neurons—in more
+detail.</p>
+<h3 id="key-activation-functions">Key Activation Functions</h3>
+<p>Activation functions are a vital component of neural networks. They
+introduce nonlinearity, which allows the network to model intricate
+patterns and relationships in data. By defining the activations of each
+neuron within the network, activation functions act as informational
+gatekeepers that control data transfer from one layer of the network to
+the next.</p>
+<p><strong>Using activation functions.</strong> There are many
+activation functions, each with unique properties and applications. Even
+within a single network, different layers may use other activation
+functions. The selection and placement of activation functions can
+significantly change the network’s capability and performance. In most
+cases, the same activation will be applied in all the hidden layers
+within a network.<p>
+While many possible activation functions exist, only a handful are
+commonly used in practice. Here, we highlight four that are of
+particular practical or historical significance. Although there are many
+other functions and variations of each, these four—ReLU, GELU <span
+class="citation" data-cites="hendrycks2023gaussian">[5]</span>, sigmoid,
+and softmax—have been highly influential in developing and applying deep
+learning. The Transformer architecture, which we will describe later,
+uses GELU and softmax functions. Historically, many architectures used
+ReLUs and sigmoids. Together, these functions illustrate the essential
+characteristics of the properties and uses of activation functions in
+neural networks.</p>
+<p><strong>Rectified Linear Unit (ReLU).</strong> The rectified linear
+unit (ReLU) function is a piecewise linear function that returns the
+input value for positive inputs and zero for negative inputs <span
+class="citation" data-cites="Nair2010">[6]</span>. It is the identity
+function <span
+class="math inline">(<em>f</em>(<em>x</em>)=<em>x</em>)</span> for
+positive inputs and zero otherwise. This means that if a neuron’s
+weighted input sum is positive, it will be passed directly to the
+following layer without any modification. However, no signal will be
+passed on if the sum is negative. Due to its piecewise nature, the graph
+of the ReLU function takes the form of a distinctive “kinked” line. Due
+to its computational efficiency, the ReLU function was widely used and
+played a critical role in developing more sophisticated deep learning
+architectures.<p>
+</p>
+<figure id="fig:relu-function">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relu_v2.png" class="tb-img-full" style="width: 60%"/>
+    <p class="tb-caption">Figure 2.14: The ReLU activation function, <span
+class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,
+passes on positive inputs to the next layer.</p>
+<!--<figcaption>The ReLU activation function, <span-->
+<!--class="math inline">ReLU(<em>x</em>) = max {0, <em>x</em>}</span>,-->
+<!--passes on positive inputs.</figcaption>-->
 </figure>
-<p class="nonindent1"><b><i>Gaussian error linear unit (GELU).</i></b> The GELU (Gaussian error linear unit) function is an upgrade of the ReLU function that uses approximation to smooth out the non-differentiable component. This is important for optimization. It is &#x201C;Gaussian&#x201D; because it leverages the Gaussian cumulative distribution function (CDF), &#x03A6;(<i>x</i>). The GELU has been widely used in and contributed to the success of many current models, including Transformer-based language models.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.15 The GELU activation function, GELU(<i>x</i>) = <i>x &#x2022;</i> &#x03A6;(<i>x</i>), smooths out the ReLU function around zero, passing on small negative inputs as well.</p>
+<p><strong>Gaussian error linear unit (GELU).</strong> The GELU
+(Gaussian error linear unit) function is an upgrade of the ReLU function
+that uses approximation to smooth out the non-differentiable component.
+This is important for optimization. It is “Gaussian” because it
+leverages the Gaussian cumulative distribution function (CDF), <span
+class="math inline"><em>Φ</em>(<em>x</em>)</span>. The GELU has been
+widely used in and contributed to the success of many current models,
+including Transformer-based language models.</p>
+<figure id="fig:gelu-function">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" class="tb-img-full" style="width: 60%"/>
+    <p class="tb-caption">Figure 2.15: The GELU activation function, <span
+class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,
+smoothes out the ReLU function around zero, passing on small negative inputs as well.</p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gelu_v2.png" />-->
+<!--<figcaption>The GELU activation function, <span-->
+<!--class="math inline">GELU(<em>x</em>) = <em>x</em> ⋅ <em>Φ</em>(<em>x</em>)</span>,-->
+<!--smoothes out the ReLU function.</figcaption>-->
 </figure>
-<p class="nonindent1"><b><i>Sigmoid.</i></b> A sigmoid is a smooth, differentiable function that maps any real-valued numerical input to a value between zero and one. It is sometimes called a <i>squashing function</i> because it compresses all real numbers to values in this range. When graphed, it forms a characteristic S-shaped curve. We explored the sigmoid function in the previous section.</p>
-<p class="nonindent1"><b><i>Softmax.</i></b> Softmax is a popular activation function due to its ability to model multi-class probabilities. Unlike other activation functions that operate on each input individually, softmax considers all inputs simultaneously to create a probability distribution across many dimensions. This is useful in settings with multiple classes or categories, such as natural language processing, where each word in a sentence can belong to one of numerous classes.</p>
-<p class="nonindent1">The softmax function can be considered a generalization of the sigmoid function. While the sigmoid function maps a single input value to a number between 0 and 1, interpreted as a binary probability of class membership, softmax normalizes a set of real values into a probability distribution over multiple classes. Though it is typically applied to the output layer of neural networks for multi-class classification tasks&#x2014;an example of when different activation functions are used within one network&#x2014;softmax may also be used in intermediate layers to readjust weights at bottleneck locations within a network.</p>
-<p class="nonindent1">We can revisit the example of handwritten digit recognition. In this classification task, softmax is applied in the last layer of the network as the final activation function. It takes in a 10-dimensional vector of the raw outputs from the network and rescales the values to generate a probability distribution over the ten predicted classes. Each class represents a digit from 0 to 9, and each output value represents the probability that an input image is an instance of a given class. The digit corresponding to the highest probability will be selected as the network&#x0027;s prediction.</p>
-<p class="nonindent1">Now, having explored ReLU, GELU, sigmoid, and softmax, we will set aside activation functions and turn our attention to other building blocks of deep learning models.</p>
-<h3 class="section"><i>Residual Connections</i></h3>
-<p class="nonindent1"><b><i>Residual connections create alternative pathways in a network, preserving information.</i></b> Also known as <i>skip</i> connections, residual connections provide a pathway for information to bypass specific layers or groups of layers (called <i>blocks</i>) in a neural network [8]. Without residual connections, all information must travel sequentially through every layer of the network, undergoing continual, significant change as each layer receives and transforms the output of the previous one. Residual connections allow data to skip these transformations, preserving its original content. With residual connections, layers can access more than just the previous layer&#x0027;s representations as information flows through and around each block in the network. Consequently, lower-level features learned in earlier layers can contribute more directly to the higher-level features of deeper layers, and information can be more readily preserved.</p>
-<p class="nonindent1"><b><i>Residual connections facilitate learning.</i></b> Residual connections improve learning dynamics in several ways by facilitating the flow of information during the training process. This improves iterative and hierarchical feature representations, particularly for deeper networks.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.16 The Sigmoid activation function, <span class="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mi>&#x3C3;</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow data-mjx-texclass="ORD"><mo>&#x2212;</mo><mi>x</mi></mrow></msup></mrow></mfrac></math></span> has a characteristic S-shape that squeezes inputs into the interval [0, 1].</p>
+<p><strong>Sigmoid.</strong> A sigmoid is a smooth, differentiable
+function that maps any real-valued numerical input to a value between
+zero and one. It is sometimes called a <em>squashing function</em>
+because it compresses all real numbers to values in this range. When
+graphed, it forms a characteristic S-shaped curve. We explored the
+sigmoid function in the previous section.</p>
+<figure id="fig:sigmoid-function">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" class="tb-img-full" style="width: 60%"/>
+    <p class="tb-caption">Figure 2.16: The Sigmoid activation function, <span
+class="math inline">$$\sigma(x) = \frac{1}{1 + e^{-x}}$$</span>, has a
+characteristic S-shape that
+squeezes inputs into the interval [0, 1].</p>
+
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/sigmoid_v2.png" />-->
+<!--<figcaption>The Sigmoid activation function, <span-->
+<!--class="math inline">$\sigma(x) = \frac{1}{1 + e^{-x}}$</span>, has a-->
+<!--characteristic S-shape.</figcaption>-->
 </figure>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feed_forward.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.17 Adding residual connections can let information bypass blocks <i>f<sub>l</sub></i> and <i>f<sub>l</sub></i><sub>+1</sub>, letting lower-level features from early layers contribute more directly to higher-level features in later ones.</p>
+<p><strong>Softmax.</strong> Softmax is a popular activation function
+due to its ability to model multi-class probabilities. Unlike other
+activation functions that operate on each input individually, softmax
+considers all inputs simultaneously to create a probability distribution
+across many dimensions. This is useful in settings with multiple classes
+or categories, such as natural language processing, where each word in a
+sentence can belong to one of numerous classes.<p>
+The softmax function can be considered a generalization of the sigmoid
+function. While the sigmoid function maps a single input value to a
+number between 0 and 1, interpreted as a binary probability of class
+membership, softmax normalizes a set of real values into a probability
+distribution over multiple classes. Though it is typically applied to
+the output layer of neural networks for multi-class classification
+tasks—an example of when different activation functions are used within
+one network—softmax may also be used in intermediate layers to readjust
+weights at bottleneck locations within a network.<p>
+We can revisit the example of handwritten digit recognition. In this
+classification task, softmax is applied in the last layer of the network
+as the final activation function. It takes in a 10-dimensional vector of
+the raw outputs from the network and rescales the values to generate a
+probability distribution over the ten predicted classes. Each class
+represents a digit from 0 to 9, and each output value represents the
+probability that an input image is an instance of a given class. The
+digit corresponding to the highest probability will be selected as the
+network’s prediction.<p>
+Now, having explored ReLU, GELU, sigmoid, and softmax, we will set aside
+activation functions and turn our attention to other building blocks of
+deep learning models.</p>
+<h3 id="residual-connections">Residual Connections</h3>
+<p><strong>Residual connections create alternative pathways in a
+network, preserving information.</strong> Also known as <em>skip</em>
+connections, residual connections provide a pathway for information to
+bypass specific layers or groups of layers (called <em>blocks</em>) in a
+neural network <span class="citation" data-cites="hendrycks2023gaussian">[5]</span>.
+Without residual connections, all information must travel sequentially
+through every layer of the network, undergoing continual, significant
+change as each layer receives and transforms the output of the previous
+one. Residual connections allow data to skip these transformations,
+preserving its original content. With residual connections, layers can
+access more than just the previous layer’s representations as
+information flows through and around each block in the network.
+Consequently, lower-level features learned in earlier layers can
+contribute more directly to the higher-level features of deeper layers,
+and information can be more readily preserved.</p>
+<figure id="fig:feed-forward-network">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/feed_forward.png" class="tb-img-full" style="width:40%"/>
+    <p class="tb-caption">Figure 2.17: Adding residual connections can let information bypass blocks <span class="math inline">\(\(f_l\)\)</span> and <span class="math inline">\(\(f_{l+1}\)\)</span>, letting lower-level features from early layers contribute more directly to higher-level features in later ones.</p>
+<!--<figcaption>Traditional feedforward network and a network with residual-->
+<!--connections.</figcaption>-->
 </figure>
-<p class="nonindent1">Neural networks typically learn by decomposing data into a hierarchy of features, where each layer learns a distinct representation. Residual connections allow for a different kind of learning in which learned representations are gradually refined. Each block improves upon the representation of the previous block, but the overall meaning captured by each layer remains consistent across successive blocks. This allows feature maps learned in earlier layers to be reused and networks to learn representations (such as <i>identity mappings</i>) in deeper layers that may otherwise not be possible due to optimization difficulties.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Convolution updated.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.18 Convolution layers perform the convolution operation, sliding a filter over the input data to output a feature map [9].</p>
+<p><strong>Residual connections facilitate learning.</strong> Residual
+connections improve learning dynamics in several ways by facilitating
+the flow of information during the training process. This improves
+iterative and hierarchical feature representations, particularly for
+deeper networks.<p>
+Neural networks typically learn by decomposing data into a hierarchy of
+features, where each layer learns a distinct representation. Residual
+connections allow for a different kind of learning in which learned
+representations are gradually refined. Each block improves upon the
+representation of the previous block, but the overall meaning captured
+by each layer remains consistent across successive blocks. This allows
+feature maps learned in earlier layers to be reused and networks to
+learn representations (such as <em>identity mappings</em>) in deeper
+layers that may otherwise not be possible due to optimization
+difficulties.<p>
+Residual connections are general purpose, used in many different problem
+settings and architectures. By facilitating the learning process and
+expanding the kinds of representations networks can learn, they are a
+valuable building block that can be a helpful addition to a wide variety
+of networks.</p>
+<h3 id="convolution">Convolution</h3>
+<p>In machine learning, convolution is a process used to detect patterns
+or features in input data by applying a small matrix called a
+<em>filter</em> or <em>kernel</em> and looking for cross-correlations.
+This process involves <em>sliding</em> the filter over the input data,
+systematically comparing relevant sections using matrix multiplication
+with the filter, and recording the results in a new matrix called a
+<em>feature map</em>.</p>
+<figure id="fig:convolution-1">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/Convolution updated.png" class="tb-img-full" style="width:60%"/>
+<p class="tb-caption">Figure 2.18: Convolution layers perform the convolution operation, sliding a filter over the input
+data to output a feature map. <span class="citation"
+data-cites="convolutionupdated">[8]</span></p>
+<!--<figcaption>Convolution operation - <span class="citation"-->
+<!--data-cites="wikiconvolution">[8]</span></figcaption>-->
 </figure>
-<p class="nonindent1">Residual connections are general purpose, used in many different problem settings and architectures. By facilitating the learning process and expanding the kinds of representations networks can learn, they are a valuable building block that can be a helpful addition to a wide variety of networks.</p>
-<h3 class="section"><i>Convolution</i></h3>
-<p class="nonindent">In machine learning, convolution is a process used to detect patterns or features in input data by applying a small matrix called a <i>filter</i> or <i>kernel</i> and looking for cross-correlations. This process involves <i>sliding</i> the filter over the input data, systematically comparing relevant sections using matrix multiplication with the filter, and recording the results in a new matrix called a <i>feature map.</i></p>
-<p class="nonindent1"><b><i>Convolutional layers.</i></b> Convolutional layers are specialized layers that perform the &#x201C;convolution&#x201D; operation to detect local features in the input data. These layers commonly comprise multiple filters, each learning a different feature. Convolution is considered a localized process because the filter usually operates on small, specific regions of the input data at a time (such as parts of an image). This allows the network to recognize features regardless of their position in the input data, making convolution well-suited for tasks like image recognition.</p>
-<p class="nonindent1"><b><i>Convolutional neural networks (CNNs).</i></b> Convolution has become a key technique in modern computer vision models because it effectively captures local features in images and can deal with variations in their position or appearance. This helps improve the accuracy of models for tasks like object detection or facial recognition compared to fully connected networks. Convolutional neural networks (CNNs) use convolution to process spatial data, such as images or videos, by applying convolutional filters that extract local features from the input.</p>
-<p class="nonindent1">Convolution was instrumental in the transition of deep learning from MLPs to more sophisticated architectures and has maintained significant influence, especially in vision-related tasks.</p>
-<h3 class="section"><i>Self-Attention</i></h3>
-<p class="nonindent1"><b><i>Self-attention can produce more coherent representations.</i></b> Self-attention encodes the relationships between elements in a sequence to better understand and represent the information within the sequence. In self-attention, each element attends to every other element by determining its relative importance and selectively focusing on the most relevant connections.</p>
-<p class="nonindent1">This process allows the model to capture dependencies and relationships within the sequence, even when they are separated by long distances. As a result, deep learning models can create a more context-aware representation of the sequence. When summarizing a long book, self-attention can help the model understand which parts of the text are most relevant and central to the overall meaning, leading to a more coherent summary.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.19 Different attention heads can capture different relationships between words in the same sentence [10].</p>
+<p><strong>Convolutional layers.</strong> Convolutional layers are
+specialized layers that perform the “convolution” operation to detect
+local features in the input data. These layers commonly comprise
+multiple filters, each learning a different feature. Convolution is
+considered a localized process because the filter usually operates on
+small, specific regions of the input data at a time (such as parts of an
+image). This allows the network to recognize features regardless of
+their position in the input data, making convolution well-suited for
+tasks like image recognition.</p>
+<p><strong>Convolutional neural networks (CNNs).</strong> Convolution
+has become a key technique in modern computer vision models because it
+effectively captures local features in images and can deal with
+variations in their position or appearance. This helps improve the
+accuracy of models for tasks like object detection or facial recognition
+compared to fully connected networks. Convolutional neural networks
+(CNNs) use convolution to process spatial data, such as images or
+videos, by applying convolutional filters that extract local features
+from the input.<p>
+Convolution was instrumental in the transition of deep learning from
+MLPs to more sophisticated architectures and has maintained significant
+influence, especially in vision-related tasks.</p>
+<h3 id="self-attention">Self-Attention</h3>
+<p><strong>Self-attention can produce more coherent
+representations.</strong> Self-attention encodes the relationships
+between elements in a sequence to better understand and represent the
+information within the sequence. In self-attention, each element attends
+to every other element by determining its relative importance and
+selectively focusing on the most relevant connections.<p>
+</p>
+<figure id="fig:relations-example">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/relationships.png" class="tb-img-full" style="width: 70%"/>
+<p class="tb-caption">Figure 2.19:  Different attention heads can capture different relationships between words in the same
+sentence. <span class="citation"
+data-cites="convolutionupdated">[8]</span></p>
+<!--<figcaption>Example of relationships captured by two different attention-->
+<!--heads - <span class="citation"-->
+<!--data-cites="Vaswani2017">[9]</span></figcaption>-->
 </figure>
-<h3 class="section"><i>Transformers</i></h3>
-<p class="nonindent">The Transformer is a groundbreaking deep learning model that leverages self-attention [10]. It is a very general and versatile architecture that can achieve outstanding performance across many data types. The model itself consists of a series of Transformer blocks.</p>
-<p class="nonindent1">A <i>Transformer block</i> primarily combines self-attention and MLPs (as we saw earlier) with optimization techniques such as residual connections and layer normalization.</p>
-<p class="nonindent1"><b><i>Large language models (LLMs).</i></b> LLMs are a class of language models with many parameters (often in the billions) trained on vast quantities of data. These models excel in various language tasks, including question-answering, text generation, coding, translation, and sentiment analysis. Most LLMs, such as the Generative Pre-trained Transformer (GPT) series, utilize Transformers because they can effectively model long-range dependencies.</p>
-<h3 class="section"><i>Summary</i></h3>
-<p class="nonindent">Deep learning models are networks composed of many layers of interconnected nodes. The structure of this network plays a vital role in shaping how a model functions. Creating a successful model requires carefully assembling numerous components. Different components are used in different settings, and each building block serves a unique purpose, contributing to a model&#x0027;s overall performance and capabilities.</p>
-<p class="nonindent1">This section discussed multi-layer perceptrons (MLPs), activation functions, residual connections, convolution, and self-attention, culminating with an introduction to the Transformer architecture. We saw how MLPs, an archetypal deep learning model, paved the way for other architectures and remain an essential component of many more sophisticated models. Many building blocks each play a distinct role in the structure and function of a model.</p>
-<p class="nonindent1">Activation functions like ReLU, softmax, and GELU introduce nonlinearity in networks, enabling models to learn complex patterns. Residual connections facilitate the flow of information in a network, thereby enabling the training of deeper networks. Convolution uses sliding filters to allow models to detect local features in input data, an especially useful capability in vision-related tasks. Self-attention enables models to weigh the relevance of different inputs based on their context. By leveraging these mechanisms to handle complex dependencies in sequential data, Transformers revolutionized the field of natural language processing (NLP).</p>
-<h2 class="section" id="sec2-3-2">2.3.2 Training and Inference</h2>
-<p class="nonindent">Having explored the components of deep learning models, we will now explore how the models work. First, we will briefly describe training and inference: the two key phases of developing a deep learning model. Next, we will examine learning mechanics and see how the training process enables models to learn and continually refine their representations. Then, we will discuss a few techniques and approaches to learning and training deep learning models and consider how model evaluation can help us understand a model&#x0027;s potential for real-world applications.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.20 Transformer blocks combine several other techniques, such as self-attention, MLPs, residual connections, and layer normalization [10].</p>
-</figure>
-<p class="nonindent1"><b><i>Training is learning and inference is executing.</i></b> As we saw previously in section 2.2, <i>training</i> is the process through which the model learns from data. During training, a model is fed data and makes iterative parameter adjustments to predict target outcomes better. <i>Inference</i> is the process of using a trained model to make predictions on new, unseen data. Inference is when a model applies what it has learned during training. We will now turn to training and examine how models learn in more detail.</p>
-<h3 class="section"><i>Mechanics of Learning</i></h3>
-<p class="nonindent">In deep learning, training is a carefully coordinated system involving loss functions, optimization algorithms, backpropagation, and other techniques. It allows a model to refine its predictions iteratively. By making incremental adjustments to its parameters, training enables a model to gradually reduce its error, improving its performance over time.</p>
-<p class="nonindent1"><b><i>Loss quantifies a model&#x0027;s error.</i></b> Loss is a measure of a model&#x0027;s error, used to evaluate its performance. It is calculated by a <i>loss function</i> that compares target and predicted values to measure how well the neural network models &#x201C;fits&#x201D; the training data. Typically, neural networks are trained by systematically minimizing this function. There are many different kinds of loss functions. Here, we will present two: cross entropy loss and mean squared error (MSE).</p>
-<p class="nonindent1"><i>Cross entropy loss.</i> Cross entropy is a concept from information theory that measures the difference between two probability distributions. In deep learning, cross entropy loss is often used in classification problems, where it compares the probability distribution predicted by a model and the target distribution we want the model to predict.</p>
-<p class="nonindent1">Consider a binary classification problem where a model is tasked with classifying images as either apples or oranges. When given an image of an apple, a perfect model would predict &#x201C;apple&#x201D; with 100% probability. In other words, with classes [apple, orange], the target distribution would be [1, 0]. The cross entropy would be low if the model predicts &#x201C;apple&#x201D; with 90% probability (outputting a predicted distribution of [0.9, 0.1]). However, if the model predicts &#x201C;orange&#x201D; with 99% probability, it would have a much higher loss. The model learns to generate predictions closer to the true class labels by minimizing the cross entropy loss during training.</p>
-<p class="nonindent1">Cross entropy quantifies the difference between predicted and true probabilities. If the predicted distribution is close to the true distribution, the cross entropy will be low, indicating better model performance. High cross entropy, on the other hand, signals poor performance. When used as a loss function, the more incorrect the model&#x0027;s predictions are, the larger the error and, in turn, the larger the training update.</p>
-<p class="nonindent1"><i>Mean squared error (MSE).</i> Mean squared error is one of the most popular loss functions for regression problems. It is calculated as the average of the squared differences between target and predicted values.</p>
-<p class="eq"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mtext>MSE</mtext><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><munderover><mo data-mjx-texclass="OP">&#x2211;</mo><mrow data-mjx-texclass="ORD"><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></munderover><mo stretchy="false">(</mo><msub><mi>y</mi><mi>i</mi></msub><mo>&#x2212;</mo><msub><mrow data-mjx-texclass="ORD"><mover><mi>y</mi><mo stretchy="false">^</mo></mover></mrow><mi>i</mi></msub><msup><mo stretchy="false">)</mo><mn>2</mn></msup></math></p>
-<p class="nonindent1">MSE gives a good measure of how far away an output is from its target in a way that is not affected by the direction of errors. Like cross entropy, MSE provides a larger error signal the more wrong the output guess, helping the training process converge more quickly. One weakness of MSE is that it is highly sensitive to outliers, as squaring amplifies large differences, although there are variants and alternatives such as mean absolute error (MAE) and Huber loss which are more robust to outliers.</p>
-<p class="nonindent1"><b><i>Loss is minimized through optimization.</i></b> Optimization is the process of minimizing (or maximizing) an objective function. In deep learning, optimization involves finding the set of parameters that minimize the loss function. This is achieved with <i>optimizers</i>&#x2013;&#x2014;algorithms that adjust a model&#x0027;s parameters, such as weights and biases, to reduce the loss.</p>
-<p class="nonindent1"><b><i>Gradient descent is a crucial optimization algorithm.</i></b> Gradient descent is a foundational optimization algorithm that provides the basis for many advanced optimizers used in deep learning. It was among the earliest techniques developed for optimization.</p>
-<p class="nonindent1">To understand the basic idea behind gradient descent, imagine a blindfolded hiker standing on a hill trying to reach the bottom of a valley. With each step, they can feel the slope of the hill beneath their feet and move in the direction that goes downhill the most. While the hiker cannot tell where exactly they are going or where they are ending up, they can continue this process, always taking steps toward the steepest descent until they have reached the lowest point.</p>
-<p class="nonindent1">In machine learning, the hill is the loss function, and the steps are updates to the model&#x0027;s parameters. The direction of steepest descent is calculated using the gradients (derivatives) of the loss function with respect to the model&#x0027;s parameters.</p>
-<figure id="fig:swiss_cheese">
-<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gradient-graph-design.png" class="tb-img-full"/>
-<p class="tb-caption">Figure 2.21 Gradient descent can find different local minima given two different weight initializations [11].</p>
-</figure>
-<p class="nonindent1">The size of the steps is determined by the <i>learning rate,</i> a parameter of the model configuration (known as a <i>hyperparameter</i>) used to control how much a model&#x0027;s weights are changed with each update. If the learning rate is too large, the high learning rate may destroy information faster than information is learned. However, the optimization process may be very slow if the learning rate is too small. Therefore, proper learning rate selection is often key to effective training.</p>
-<p class="nonindent1">Though powerful, gradient descent in its simplest form can be quite slow. Several variants, including <i>Adam</i> (Adaptive Moment Estimation), were developed to address these weaknesses and are more commonly used in practice.</p>
-<p class="nonindent1"><b><i>Backpropagation facilitates parameter updates.</i></b> Backpropagation is a widely used method to compute the gradients in a neural network [12]. This process is essential for updating the model&#x0027;s parameters and makes gradient descent possible. Backpropagation is a way to send the error signal from the output layer of the neural network back to the input layer. It allows the model to understand how much each parameter contributes to the overall error and adjust them accordingly to minimize the loss.</p>
-<p class="nonindent1"><b><i>Steps to training a deep learning model.</i></b> Putting all of these components together, training is a multi-step process that typically involves the following:</p>
-<ol class="num">
-<li><b>Initialization:</b> A model&#x0027;s parameters (weights and biases) are set to some initial values, often small random numbers. These values define the starting point for the model&#x0027;s training and can significantly influence its success.</li>
-<li><b>Forward Propagation:</b> Input data is passed through the model, layer by layer. The neurons in each layer perform their specific operations via weights, biases, and activation functions. Once the final layer is reached, an output is produced. This procedure can be carried out on individual examples or on <i>batches</i> of multiple data points.</li>
-<li><b>Loss Calculation:</b> The model&#x0027;s output is compared to the target output using a loss function that quantifies the difference between predicted and actual values. The loss represents the model&#x0027;s error&#x2014;how far its output was from what it should have been.</li>
-<li><b>Backpropagation:</b> The error is propagated back through the model, starting from the output layer and going backward to the input layer. This process calculates gradients that determine how much each parameter contributed to the overall loss.</li>
-<li><b>Parameter Update:</b> The model&#x0027;s weights and biases are adjusted using an optimization algorithm based on the gradients. This is typically done using gradient descent or one of its variants.</li>
-<li><b>Iteration:</b> Steps 2&#x2013;5 are repeated many times, often reaching millions or billions of iterations. With each pass, the loss should decrease as the model&#x0027;s predictions improve.</li>
-<li><b>Stopping Criterion:</b> Training continues until the model reaches a stopping point, which can be defined in many ways. We may stop training when the loss stops decreasing or when the model has gone through the entire training dataset a specific number of times.</li>
-</ol>
-<p class="nonindent1">While this sketch provides a high-level overview of the training process, many factors can shape its course. For example, the network architecture and choice of loss function, optimizer, batch size, learning rate, and other hyperparameters influence how training proceeds. Moreover, different methods and approaches to learning determine how training is carried out. We will explore some of these techniques in the next section.</p>
-<h3 class="section"><i>Training Methods and Techniques</i></h3>
-<p class="nonindent">Effective training is essential to the ability of deep learning models to learn how to accomplish tasks. Various methods have been developed to address key issues many models face in training. Some techniques offer distinct approaches to learning, whereas others solve specific computational difficulties. Each has unique characteristics and applications that can significantly enhance a model&#x0027;s performance and adaptability. Different techniques are often used together, like a recipe using many ingredients.</p>
-<p class="nonindent1">In this section, we limit our discussion to <i>pre-training, fine-tuning,</i> and <i>few-shot learning.</i> These three methods illustrate different ways of approaching the learning process. Notably, there are ways to learn during training (during backpropagation and model weight adjustment), and there are also ways to learn after training (during inference). Pre-training and fine-tuning belong to the former, and few-shot learning belongs to the latter.</p>
-<p class="nonindent1"><b><i>Pre-training is the bulk of generic training.</i></b> Pre-training is training a model on vast quantities of data to give the model an array of generally useful representations that it can use to achieve specific tasks. If we want a model that can write movie scripts, we want it to have a broad education, knowing rules about grammar and language and how to write more generally, rather than just seeing existing movie scripts.</p>
-<p class="nonindent1">Pre-training endows models with weights that capture a rich set of learned representations from the outset rather than being assigned random values. This can offer several advantages over training for specific purposes from scratch, including faster and more effective training on downstream tasks. Indeed, the name <i>pre-training</i> is somewhat of a historical artifact. As pre-training makes up most of the development process for many models, pre-training and training have become synonymous.</p>
-<p class="nonindent1">The preprocessing step <b>tokenization</b> is common in machine learning and natural language processing (NLP). It involves breaking down text, such as a sentence or a document, into smaller units called tokens. Tokens are typically words or subword units such as &#x201C;play&#x201D; (from &#x201C;playing&#x201D;), &#x201C;un&#x201D; (from &#x201C;unbelievable&#x201D;), punctuation tokens, and so on. Tokenization allows a machine learning model to factor text data as consistent discrete units, making it faster to process.</p>
-<p class="nonindent1"><b><i>Models can either be fine-tuned or used only pre-trained.</i></b> Pre-trained models can be used as is (known as <i>off-the-shelf</i>) or subjected to further training (known as <i>fine-tuned</i>) on a target task or dataset. In natural language processing and computer vision, it is common to use models that have been pre-trained on large datasets. Many CNNs are pre-trained on the ImageNet dataset, enabling them to learn many essential characteristics of the visual world.</p>
-<p class="nonindent1"><b><i>Fine-tuning specializes models for specific tasks.</i></b> Fine-tuning is the process of adapting a pre-trained model to a new dataset or task through additional training. In fine-tuning, the weights from the pre-trained model are used as the starting point for the new model. Then, some or all layers are trained on the new task or data, often with a lower learning rate.</p>
-<p class="nonindent1">Layers that are not trained are said to be <i>frozen.</i> Their weights will remain unchanged to preserve helpful representations learned in pre-training. Typically, layers are modified in reverse order, from the output layer toward the input layer. This allows the more specialized, high-level representations of later layers to be tailored to the new task while conserving the more general representations of earlier layers.</p>
-<p class="nonindent1"><b><i>After training, few-shot learning can teach new capabilities.</i></b> Few-shot learning is a method that enables models to learn and adapt quickly to new tasks with limited data. It works best when a model has already learned good representations for the tasks it needs to perform. In few-shot learning, models are trained to perform tasks using a minimal number of examples. This approach tests the model&#x0027;s ability to learn quickly and effectively from a small dataset. Few-shot learning can be used to train an image classifier to recognize new categories of animals after seeing only a few images of each animal.</p>
-<p class="nonindent1"><b><i>Zero-shot learning.</i></b> Zero-shot learning is an extreme version of few-shot learning. It tests a model&#x0027;s ability to perform on characteristically new data without being provided any examples during training. The goal is to enable the model to generalize to new classes or tasks by leveraging its understanding of relationships in the data derived from seen examples to predict new, unseen examples.</p>
-<p class="nonindent1">Zero-shot learning often relies on additional information, such as attributes or natural language descriptions of unseen data, to bridge the gap between known and unknown. For instance, consider a model trained to identify common birds, where each species is represented by images and a set of attributes (such as size, color, diet, and range) or a brief description of the bird&#x0027;s appearance and behavior. The model is trained to associate the images with these descriptions or attributes. When presented with the attributes or description of a new species, the model can use this information to infer characteristics about the unknown bird and recognize it in images.</p>
-<p class="nonindent1"><b><i>LLMs, few-shot, and zero-shot learning.</i></b> Some large language models (LLMs) have demonstrated a capacity to perform few- and zero-shot learning tasks without explicit training. As model and training datasets increased in size, these models developed the ability to solve a variety of tasks when provided with a few examples (few-shot) or only instructions describing the task (zero-shot) during inference; for instance, an LLM can be asked to classify a paragraph as having positive or negative sentiments without specific training. These capabilities arose organically as the models increased in size and complexity, and their unexpected emergence raises questions about what enables LLMs to perform these tasks, especially when they are only explicitly trained to predict the next token in a sequence. Moreover, as these models continue to evolve, this prompts speculation about what other capabilities may arise with greater scale.</p>
-<p class="nonindent1"><b><i>Summary.</i></b> There are many training techniques used in deep learning. Pre-training and fine-tuning are the foundation of many successful models, allowing them to learn valuable representations from one task or dataset and apply them to another. Few-shot and zero-shot learning enable models to solve tasks based on scarce or no example data. Notably, the emergence of few- and zero-shot learning capabilities in large language models illuminates the potential for these models to adapt and generalize beyond their explicit training. Ongoing advancements in training techniques continue to drive the growth of AI capabilities, highlighting both exciting opportunities and important questions about the future of the field.</p>
-<h2 class="section" id="sec2-3-3">2.3.3 History and Timeline of Key Architectures</h2>
-<p class="nonindent">Having built our technical understanding of deep learning models and how they work, we will see how these concepts come together in some of the groundbreaking architectures that have shaped the field. We will take a chronological tour of key deep learning models, from the pioneering LeNet in 1989 to the revolutionary Transformer-based BERT and GPT in 2018. These architectures, varying in design and purpose, have paved the way for developing increasingly sophisticated and capable models. While the history of deep learning extends far beyond these examples, this snapshot sheds light on a handful of critical moments as neural networks evolved from a marginal theory in the mid-1900s to the vanguard of artificial intelligence development by the early 2010s.</p>
-<h4 class="section"><b><i>1989: LeNet</i></b></h4>
-<p class="nonindent"><b><i>LeNet paves the way for future deep learning models [13].</i></b> LeNet is a convolutional neural network (CNN) proposed by Yann LeCun and his colleagues at Bell Labs in 1989. This prototype was the first practical application of backpropagation, and after multiple iterations of refinement, LeCun et al. presented the flagship model, LeNet-5, in 1998. This model demonstrated the utility of neural networks in everyday applications and inspired many deep learning architectures in the years to follow. However, due to computational constraints, CNNs did not rise in popularity for over a decade after LeNet-5 was released.</p>
-<h4 class="section"><b><i>1997: Recurrent Neural Networks (RNNs) &#x0026; Long Short-Term Memory (LSTM) Networks</i></b></h4>
-<p class="nonindent"><b><i>Recurrent neural networks (RNNs) use feedback loops to remember.</i></b> RNNs are a neural network architecture designed to process sequential or time-series data, such as text and speech. They were developed to address failures of traditional feedforward neural networks in modeling the temporal dependencies inherent to these types of data. RNNs incorporate a concept of &#x201C;memory&#x201D; to capture patterns that occur over time, like trends in stock prices or weather observations and relationships between words in a sentence. They use a feedback loop with a hidden state that stores information from prior inputs, giving them the ability to &#x201C;remember&#x201D; and take historical information into account when processing future inputs. While this marked a significant architectural advancement, RNNs were difficult to train and struggled to learn patterns that occur over more extended amounts of time.</p>
-<p class="nonindent1"><b><i>Long short-term memory (LSTM) networks improved memory [14].</i></b> LSTMs are a type of RNN that address some of the shortcomings of standard RNNs, allowing them to model long-term dependencies more effectively. LSTMs introduce three <i>gates</i> (input, output, and forget) to the memory cell of standard RNNs to regulate the flow of information in and out of the unit. These gates determine how much information is let in (input gate), how much information is retained (forget gate), and how much information is passed along (output gate). This approach allows the network to learn more efficiently and maintain relevant information for longer.</p>
-<h4 class="section"><b><i>2012: AlexNet</i></b></h4>
-<p class="nonindent"><b><i>AlexNet achieves unprecedented performance in image recognition [15].</i></b> As we saw in section 2.2, the <b>ImageNet Challenge</b> was a large-scale image recognition competition that spurred the development and adoption of deep learning methods for computer vision. The challenge involved classifying images into 1,000 categories using a dataset of over one million images.</p>
-<p class="nonindent1">In 2012, a CNN called <i>AlexNet,</i> developed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, achieved a breakthrough performance of 15.3% top-5 error rate, beating the previous best result of 26.2% by a large margin and winning the ImageNet Large Scale Visual Recognition Challenge (ILSVRC). AlexNet consists of eight layers: five convolutional layers and three fully connected layers. It uses a ReLU activation function and specialized techniques such as dropout and data augmentation to improve accuracy.</p>
-<h4 class="section"><b><i>2015: ResNets (Residual Networks)</i></b></h4>
-<p class="nonindent"><b><i>ResNets employ residual connections [8].</i></b> ResNets were introduced in 2015 by Microsoft researchers Kaiming He and collaborators. The original model was the first architecture to implement residual connections. By adding these connections to a traditional 34-layer network, the authors were able to achieve great success. In 2015, it won first place in the ImageNet classification challenge with a top-5 error rate of 3.57%.</p>
-<h4 class="section"><b><i>2017: Transformers</i></b></h4>
-<p class="nonindent"><b><i>Transformers introduce self-attention.</i></b> The Transformer architecture was introduced by Vaswani et al. in their revolutionary paper &#x201C;Attention is All You Need.&#x201D; Like RNNs and LSTMs, Transformers are a type of neural network that can process sequential data. However, the approach used in the Transformer was markedly different from those of its predecessors. The Transformer uses self-attention mechanisms that allow the model to focus on relevant parts of the input and the output.</p>
-<h4 class="section"><b><i>2018: BERT (Bidirectional Encoder Representations from Transformers) &#x0026; GPT (Generative Pre-Trained Transformer)</i></b></h4>
-<p class="nonindent">BERT and GPT, both launched in 2018, are two models based on the Transformer architecture [16].</p>
-<p class="nonindent1"><b><i>BERT uses pre-training and bidirectional processing [17].</i></b> BERT is a Transformer-based model that can learn contextual representations of natural language by pre-training on large-scale corpora. Unlike previous models that process words in one direction (left-to-right or right-to-left), BERT takes a bidirectional approach. It is pre-trained on massive amounts of text to perform masked language modeling and next sentence prediction tasks. Then, the pre-trained model can be fine-tuned on various natural language understanding tasks, such as question answering, sentiment analysis, and named entity recognition. BERT was the first wide-scale, successful use of Transformers, and its contextual approach allowed it to achieve state-of-the-art results on several benchmarks.</p>
-<p class="nonindent1"><b><i>The GPT models use scale and unidirectional processing.</i></b> The GPT models are a series of Transformer-based language models launched by OpenAI. The size of these models and scale at which they were trained led to a remarkable improvement in fluency and accuracy in various language tasks, significantly advancing the state-of-the-art in natural language processing. One of the key reasons GPT models are more popular than BERT models is that they are better at generating text. While BERT learns really good representations through being trained to fill in blanks in the middle of sentences, GPT models are trained to predict what comes next, enabling them to generate long-form sequences (e.g. sentences, paragraphs, and essays) much more naturally.</p>
-<p class="nonindent1">Many important developments have been left out in this brief timeline. Perhaps more importantly, future developments might revolutionize model architectures in new ways, potentially bringing to light older innovations that have currently fallen to the wayside. Next, we will explore some common applications of deep learning models.</p>
-<h2 class="section" id="sec2-3-4">2.3.4 Applications</h2>
-<p class="nonindent">Deep learning has seen a dramatic rise in popularity since the early 2010s, increasingly becoming a part of our daily lives. Its applications are broad, powering countless services and technologies across many industries, some of which are highlighted below.</p>
-<p class="nonindent1"><b><i>Communication and entertainment.</i></b> Deep learning powers the chatbots and generative tools that sparked the surge in global interest in AI that began in late 2022. It fuels the recommendation systems of many streaming services like Netflix, YouTube, and Spotify, curating personalized content based on viewing or listening habits. Social media platforms, like Facebook or Instagram, use deep learning for image and speech recognition to enable features such as auto-tagging in photos or video transcription. Personal assistants like Siri, Google Assistant, and Alexa utilize deep learning techniques for speech recognition and natural language understanding, providing us with more natural, interactive voice interfaces.</p>
-<p class="nonindent1"><b><i>Transportation and logistics.</i></b> Deep learning is central to the development of autonomous vehicles. It helps these vehicles understand their environment, recognize objects, and make decisions. Retail and logistics companies like Amazon use deep learning for inventory management, sales forecasting, and to enable robots to navigate their warehouses.</p>
-<p class="nonindent1"><b><i>Healthcare.</i></b> Deep learning has been used to assist in diagnosing diseases, analyzing medical images, predicting patient outcomes, and personalizing treatment plans. It has played a significant role in drug discovery, reducing the time and costs associated with traditional methods.</p>
-<p class="nonindent1">Beyond this, deep learning is also used in cybersecurity, agriculture, finance, business analytics, and many other settings that can benefit from decision making based on large unstructured datasets. With the more general abilities of LLMs, the impact of deep learning is set to disrupt more industries, such as through automatic code generation and writing.</p>
-<h4 class="section"><b><i>Conclusion</i></b></h4>
-<p class="nonindent">Deep learning has come a long way since its early days, with advancements in architectures, techniques, and applications driving significant progress in artificial intelligence. Deep learning models have been used to solve complex problems and provide valuable insights in many different domains. As data and computing power become more available and algorithmic techniques continue to improve in the years to come, we can expect deep learning to become even more prevalent and impactful.</p>
-<p class="nonindent1">In the next section, we will discuss scaling laws: a set of principles which can quantitatively predict the effects of more data, larger models, and more computing power on the performance of deep learning models. These laws shape how deep learning models are constructed.</p>
-<h2 class="section">References</h2>
-<p class="ref">[1] Y. LeCun, Y. Bengio, and G. Hinton. &#x201C;Deep Learning&#x201D;. In: <i>Nature</i> (521 2015), pp. 436&#x2013;444. url: <a href="https://doi.org/10.1038/nature14539">https://doi.org/10.1038/nature14539</a>.</p>
-<p class="ref">[2] Notjim. Creative Commons Attribution-Share Alike 3.0 Unported License. url: <a href="https://commons.wikimedia.org/wiki/File">https://commons.wikimedia.org/wiki/File</a>:Neuron_-_annotated.svg.</p>
-<p class="ref">[3] T. M. Mitchell. url: <a href="https://commons.wikimedia.org/wiki/File">https://commons.wikimedia.org/wiki/File</a>:Rosenblattperceptron.png.</p>
-<p class="ref">[4] <i>Machine Learning for Artists, MNIST Input, 2018</i>. GPL 2.0 License. url: <a href="https://ml4a.github.io/demos/f_mnist_input/">https://ml4a.github.io/demos/f_mnist_input/</a> (visited on 04/28/2024).</p>
-<p class="ref">[5] Chuan Lin, Qing Chang, and Xianxu Li. &#x201C;A Deep Learning Approach for MIMO-NOMA Downlink Signal Detection&#x201D;. In: <i>Sensors</i> 19 (June 2019), p. 2526. doi: 10.3390/s19112526.</p>
-<p class="ref">[6] Dan Hendrycks and Kevin Gimpel. <i>Gaussian Error Linear Units (GELUs)</i>. 2023. arXiv: 1606.08415 [cs.LG].</p>
-<p class="ref">[7] Vinod Nair and Geoffrey Hinton. &#x201C;Rectified Linear Units Improve Restricted Boltzmann Machines Vinod Nair&#x201D;. In: vol. 27. June 2010, pp. 807&#x2013;814.</p>
-<p class="ref">[8] Kaiming He et al. &#x201C;Deep Residual Learning for Image Recognition&#x201D;. In: <i>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>. 2016, pp. 770&#x2013;778. doi: 10.1109/CVPR.2016.90.</p>
-<p class="ref">[9] Febin Sunny, Mahdi Nikdast, and Sudeep Pasricha. <i>SONIC: A Sparse Neural Network Inference Accelerator with Silicon Photonics for Energy-Efficient Deep Learning</i>. Creative Commons Attribution 4.0 International license. Sept. 2021.</p>
-<p class="ref">[10] Ashish Vaswani et al. &#x201C;Attention is All you Need&#x201D;. In: <i>Advances in Neural Information Processing Systems</i>. Ed. by I. Guyon et al. Vol. 30. Curran Associates, Inc., 2017. url: <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf</a>.</p>
-<p class="ref">[11] Ravish Raj. Ed. by Andrew Ng Lectures. url: <a href="https://www.enjoyalgorithms.com/blog/parameter-learning-and-gradient-descent-in-ml">https://www.enjoyalgorithms.com/blog/parameter-learning-and-gradient-descent-in-ml</a> (visited on 09/28/2023).</p>
-<p class="ref">[12] David E. Rumelhart, Geoffrey E. Hinton, and Ronald J. Williams. &#x201C;Learning representations by back-propagating errors&#x201D;. In: <i>Nature</i> 323 (1986), pp. 533&#x2013;536. url: <a href="https://api.semanticscholar.org/CorpusID">https://api.semanticscholar.org/CorpusID</a>:205001834.</p>
-<p class="ref">[13] Y. LeCun et al. &#x201C;Gradient-based learning applied to document recognition&#x201D;. In: <i>Proceedings of the IEEE</i> 86.11 (1998), pp. 2278&#x2013;2324. doi: 10.1109/5.726 791.</p>
-<p class="ref">[14] Sepp Hochreiter and J&#x00FC;rgen Schmidhuber. &#x201C;Long Short-Term Memory&#x201D;. In: <i>Neural Computation</i> 9.8 (Nov. 1997), pp. 1735&#x2013;1780. issn: 0899-7667. doi: 10.1162/neco.1997.9.8.1735. eprint: <a href="https://direct.mit.edu/neco/article-pdf/9/8/1735/813796/neco.1997.9.8.1735.pdf">https://direct.mit.edu/neco/article-pdf/9/8/1735/813796/neco.1997.9.8.1735.pdf</a>. url: <a href="https://doi.org/10.1162/neco.1997.9.8.1735">https://doi.org/10.1162/neco.1997.9.8.1735</a>.</p>
-<p class="ref">[15] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. &#x201C;ImageNet Classification with Deep Convolutional Neural Networks&#x201D;. In: <i>Advances in Neural Information Processing Systems</i>. Ed. by F. Pereira et al. Vol. 25. Curran Associates, Inc., 2012. url: <a href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a>.</p>
-<p class="ref">[16] Alec Radford et al. &#x201C;Language Models are Unsupervised Multitask Learners&#x201D;. In: 2019. url: <a href="https://api.semanticscholar.org/CorpusID">https://api.semanticscholar.org/CorpusID</a>:160025533.</p>
-<p class="ref">[17] Jacob Devlin et al. <i>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</i>. 2019. arXiv: 1810.04805 [cs.CL].</p>
+<p>This process allows the model to capture dependencies and
+relationships within the sequence, even when they are separated by long
+distances. As a result, deep learning models can create a more
+context-aware representation of the sequence. When summarizing a long
+book, self-attention can help the model understand which parts of the
+text are most relevant and central to the overall meaning, leading to a
+more coherent summary.</p>
+<h3 id="transformers">Transformers</h3>
+<p>The Transformer is a groundbreaking deep learning model that
+leverages self-attention <span class="citation"
+data-cites="Vaswani2017">[9]</span>. It is a very general and versatile
+architecture that can achieve outstanding performance across many data
+types. The model itself consists of a series of Transformer
+blocks.<p>
+</p>
+<div class="wrapfigure">
+<p><img
+src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/transformer_block.png" style="width:40%" class="tb-img-full"
+alt="image" /></p>
+    <p class="tb-caption">Figure 2.20: Figure 2.20: Transformer blocks
+combine several other techniques, such as self-attention, MLPs, residual connections, and
+layer normalization. <span class="citation" data-cites="Vaswani2017">[9]</span></p>
 </div>
-</body>
-</html>
+<p>A <em>Transformer block</em> primarily combines self-attention and
+MLPs (as we saw earlier) with optimization techniques such as residual
+connections and layer normalization.</p>
+<p><strong>Large language models (LLMs).</strong> LLMs are a class of
+language models with many parameters (often in the billions) trained on
+vast quantities of data. These models excel in various language tasks,
+including question-answering, text generation, coding, translation, and
+sentiment analysis. Most LLMs, such as the Generative Pre-trained
+Transformer (GPT) series, utilize Transformers because they can
+effectively model long-range dependencies.</p>
+<h3 id="summary-1">Summary</h3>
+<p>Deep learning models are networks composed of many layers of
+interconnected nodes. The structure of this network plays a vital role
+in shaping how a model functions. Creating a successful model requires
+carefully assembling numerous components. Different components are used
+in different settings, and each building block serves a unique purpose,
+contributing to a model’s overall performance and capabilities.<p>
+This section discussed multi-layer perceptrons (MLPs), activation
+functions, residual connections, convolution, and self-attention,
+culminating with an introduction to the Transformer architecture. We saw
+how MLPs, an archetypal deep learning model, paved the way for other
+architectures and remain an essential component of many more
+sophisticated models. Many building blocks each play a distinct role in
+the structure and function of a model.<p>
+Activation functions like ReLU, softmax, and GELU introduce nonlinearity
+in networks, enabling models to learn complex patterns. Residual
+connections facilitate the flow of information in a network, thereby
+enabling the training of deeper networks. Convolution uses sliding
+filters to allow models to detect local features in input data, an
+especially useful capability in vision-related tasks. Self-attention
+enables models to weigh the relevance of different inputs based on their
+context. By leveraging these mechanisms to handle complex
+dependencies in sequential data, Transformers revolutionized the field
+of natural language processing (NLP).</p>
+<h2 id="training-and-inference">2.3.2 Training and Inference</h2>
+<p>Having explored the components of deep learning models, we will now
+explore how the models work. First, we will briefly describe training
+and inference: the two key phases of developing a deep learning model.
+Next, we will examine learning mechanics and see how the training
+process enables models to learn and continually refine their
+representations. Then, we will discuss a few techniques and approaches
+to learning and training deep learning models and consider how model
+evaluation can help us understand a model’s potential for real-world
+applications.<p>
+<strong>Training is learning and inference is executing.</strong> As we
+saw previously in section Artificial Intelligence &amp; Machine
+Learning, <em>training</em> is
+the process through which the model learns from data. During training, a
+model is fed data and makes iterative parameter adjustments to predict
+target outcomes better. <em>Inference</em> is the process of using a
+trained model to make predictions on new, unseen data. Inference is when
+a model applies what it has learned during training. We will now turn to
+training and examine how models learn in more detail.</p>
+<h3 id="mechanics-of-learning">Mechanics of Learning</h3>
+<p>In deep learning, training is a carefully coordinated system
+involving loss functions, optimization algorithms, backpropagation, and
+other techniques. It allows a model to refine its predictions
+iteratively. By making incremental adjustments to its parameters,
+training enables a model to gradually reduce its error, improving its
+performance over time.</p>
+<p><strong>Loss quantifies a model’s error.</strong> Loss is a measure
+of a model’s error, used to evaluate its performance. It is calculated
+by a <em>loss function</em> that compares target and predicted values to
+measure how well the neural network models “fits” the training data.
+Typically, neural networks are trained by systematically minimizing this
+function. There are many different kinds of loss functions. Here, we
+will present two: cross entropy loss and mean squared error (MSE).<p>
+<em>Cross entropy loss.</em> Cross entropy is a concept from information
+theory that measures the difference between two probability
+distributions. In deep learning, cross entropy loss is often used in
+classification problems, where it compares the probability distribution
+predicted by a model and the target distribution we want the model to
+predict.<p>
+Consider a binary classification problem where a model is tasked with
+classifying images as either apples or oranges. When given an image of
+an apple, a perfect model would predict “apple” with 100% probability.
+In other words, with classes [apple, orange], the target distribution
+would be [1, 0]. The cross entropy would be low if the model predicts
+“apple” with 90% probability (outputting a predicted distribution of
+[0.9, 0.1]). However, if the model predicts “orange” with 99%
+probability, it would have a much higher loss. The model learns to
+generate predictions closer to the true class labels by minimizing the
+cross entropy loss during training.<p>
+Cross entropy quantifies the difference between predicted and true
+probabilities. If the predicted distribution is close to the true
+distribution, the cross entropy will be low, indicating better model
+performance. High cross entropy, on the other hand, signals poor
+performance. When used as a loss function, the more incorrect the
+model’s predictions are, the larger the error and, in turn, the larger
+the training update.<p>
+<em>Mean squared error (MSE).</em> Mean squared error is one of the most
+popular loss functions for regression problems. It is calculated as the
+average of the squared differences between target and predicted
+values.</p>
+<p><span class="math display">$$\text{MSE} = \frac{1}{n} \sum^{n}_{i=1}
+(y_i - \hat{y}_i)^2$$</span></p>
+<p>MSE gives a good measure of how far away an output is from its target
+in a way that is not affected by the direction of errors. Like cross
+entropy, MSE provides a larger error signal the more wrong the output
+guess, helping the training process converge more quickly. One weakness
+of MSE is that it is highly sensitive to outliers, as squaring amplifies
+large differences, although there are variants and alternatives such as
+mean absolute error (MAE) and Huber loss which are more robust to
+outliers.</p>
+<p><strong>Loss is minimized through optimization.</strong> Optimization
+is the process of minimizing (or maximizing) an objective function. In
+deep learning, optimization involves finding the set of parameters that
+minimize the loss function. This is achieved with
+<em>optimizers</em>–—algorithms that adjust a model’s parameters, such
+as weights and biases, to reduce the loss.</p>
+<p><strong>Gradient descent is a crucial optimization
+algorithm.</strong> Gradient descent is a foundational optimization
+algorithm that provides the basis for many advanced optimizers used in
+deep learning. It was among the earliest techniques developed for
+optimization.<p>
+To understand the basic idea behind gradient descent, imagine a
+blindfolded hiker standing on a hill trying to reach the bottom of a
+valley. With each step, they can feel the slope of the hill beneath
+their feet and move in the direction that goes downhill the most. While
+the hiker cannot tell where exactly they are going or where they are
+ending up, they can continue this process, always taking steps toward
+the steepest descent until they have reached the lowest point.<p>
+In machine learning, the hill is the loss function, and the steps are
+updates to the model’s parameters. The direction of steepest descent is
+calculated using the gradients (derivatives) of the loss function with
+respect to the model’s parameters.<p>
+</p>
+<figure id="fig:gradient-example">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/gradient-graph-design.png" class="tb-img-full" style="width: 70%"/>
+    <p class="tb-caption">Figure 2.21: Gradient descent can find different local minima given two different weight initializations. <span class="citation"
+        data-cites="raj-enjoyalg">[10]</span>
+    </p>
+<!--<figcaption>Gradient descent over loss landscape given two different-->
+<!--weight initializations - <span class="citation"-->
+<!--data-cites="raj-enjoyalg">[10]</span></figcaption>-->
+</figure>
+<p>The size of the steps is determined by the <em>learning rate</em>, a
+parameter of the model configuration (known as a
+<em>hyperparameter</em>) used to control how much a model’s weights are
+changed with each update. If the learning rate is too large, the high
+learning rate may destroy information faster than information is
+learned. However, the optimization process may be very slow if the
+learning rate is too small. Therefore, proper learning rate selection is
+often key to effective training.<p>
+Though powerful, gradient descent in its simplest form can be quite
+slow. Several variants, including <em>Adam</em> (Adaptive Moment
+Estimation), were developed to address these weaknesses and are more
+commonly used in practice.</p>
+<p><strong>Backpropagation facilitates parameter updates.</strong>
+Backpropagation is a widely used method to compute the gradients in a
+neural network <span class="citation"
+data-cites="Rumelhart1986">[11]</span>. This process is essential for
+updating the model’s parameters and makes gradient descent possible.
+Backpropagation is a way to send the error signal from the output layer
+of the neural network back to the input layer. It allows the model to
+understand how much each parameter contributes to the overall error and
+adjust them accordingly to minimize the loss.</p>
+<p><strong>Steps to training a deep learning model.</strong> Putting all
+of these components together, training is a multi-step process that
+typically involves the following:<p>
+</p>
+<ol>
+<li><p><strong>Initialization</strong>: A model’s parameters (weights
+and biases) are set to some initial values, often small random numbers.
+These values define the starting point for the model’s training and can
+significantly influence its success.</p></li>
+<li><p><strong>Forward Propagation</strong>: Input data is passed
+through the model, layer by layer. The neurons in each layer perform
+their specific operations via weights, biases, and activation functions.
+Once the final layer is reached, an output is produced. This procedure
+can be carried out on individual examples or on <em>batches</em> of
+multiple data points.</p></li>
+<li><p><strong>Loss Calculation</strong>: The model’s output is compared
+to the target output using a loss function that quantifies the
+difference between predicted and actual values. The loss represents the
+model’s error—how far its output was from what it should have
+been.</p></li>
+<li><p><strong>Backpropagation</strong>: The error is propagated back
+through the model, starting from the output layer and going backward to
+the input layer. This process calculates gradients that determine how
+much each parameter contributed to the overall loss.</p></li>
+<li><p><strong>Parameter Update</strong>: The model’s weights and biases
+are adjusted using an optimization algorithm based on the gradients.
+This is typically done using gradient descent or one of its
+variants.</p></li>
+<li><p><strong>Iteration</strong>: Steps 2–5 are repeated many times,
+often reaching millions or billions of iterations. With each pass, the
+loss should decrease as the model’s predictions improve.</p></li>
+<li><p><strong>Stopping Criterion</strong>: Training continues until the
+model reaches a stopping point, which can be defined in many ways. We
+may stop training when the loss stops decreasing or when the model has
+gone through the entire training dataset a specific number of
+times.</p></li>
+</ol>
+<p>While this sketch provides a high-level overview of the training
+process, many factors can shape its course. For example, the network
+architecture and choice of loss function, optimizer, batch size,
+learning rate, and other hyperparameters influence how training
+proceeds. Moreover, different methods and approaches to learning
+determine how training is carried out. We will explore some of these
+techniques in the next section.</p>
+<h3 id="training-methods-and-techniques">Training Methods and
+Techniques</h3>
+<p>Effective training is essential to the ability of deep learning
+models to learn how to accomplish tasks. Various methods have been
+developed to address key issues many models face in training. Some
+techniques offer distinct approaches to learning, whereas others solve
+specific computational difficulties. Each has unique characteristics and
+applications that can significantly enhance a model’s performance and
+adaptability. Different techniques are often used together, like a
+recipe using many ingredients.<p>
+In this section, we limit our discussion to <em>pre-training</em>,
+<em>fine-tuning</em>, and <em>few-shot learning</em>. These three
+methods illustrate different ways of approaching the learning process.
+Notably, there are ways to learn during training (during backpropagation
+and model weight adjustment), and there are also ways to learn after
+training (during inference). Pre-training and fine-tuning belong to the
+former, and few-shot learning belongs to the latter.</p>
+<p><strong>Pre-training is the bulk of generic training.</strong>
+Pre-training is training a model on vast quantities of data to give the
+model an array of generally useful representations that it can use to
+achieve specific tasks. If we want a model that can write movie scripts,
+we want it to have a broad education, knowing rules about grammar and
+language and how to write more generally, rather than just seeing
+existing movie scripts.<p>
+Pre-training endows models with weights that capture a rich set of
+learned representations from the outset rather than being assigned
+random values. This can offer several advantages over training for
+specific purposes from scratch, including faster and more effective
+training on downstream tasks. Indeed, the name <em>pre-training</em> is
+somewhat of a historical artifact. As pre-training makes up most of the
+development process for many models, pre-training and training have
+become synonymous.<p>
+The preprocessing step <strong>tokenization</strong> is common in
+machine learning and natural language processing (NLP). It involves
+breaking down text, such as a sentence or a document, into smaller units
+called tokens. Tokens are typically words or subword units such as
+“play” (from “playing”), “un“ (from “unbelievable”), punctuation tokens,
+and so on. Tokenization allows a machine learning model to factor text
+data as consistent discrete units, making it faster to process.</p>
+<p><strong>Models can either be fine-tuned or used only
+pre-trained.</strong> Pre-trained models can be used as is (known as
+<em>off-the-shelf</em>) or subjected to further training (known as
+<em>fine-tuned</em>) on a target task or dataset. In natural language
+processing and computer vision, it is common to use models that have
+been pre-trained on large datasets. Many CNNs are pre-trained on the
+ImageNet dataset, enabling them to learn many essential characteristics
+of the visual world.</p>
+<p><strong>Fine-tuning specializes models for specific tasks.</strong>
+Fine-tuning is the process of adapting a pre-trained model to a new
+dataset or task through additional training. In fine-tuning, the weights
+from the pre-trained model are used as the starting point for the new
+model. Then, some or all layers are trained on the new task or data,
+often with a lower learning rate.<p>
+Layers that are not trained are said to be <em>frozen</em>. Their
+weights will remain unchanged to preserve helpful representations
+learned in pre-training. Typically, layers are modified in reverse
+order, from the output layer toward the input layer. This allows the
+more specialized, high-level representations of later layers to be
+tailored to the new task while conserving the more general
+representations of earlier layers.</p>
+<p><strong>After training, few-shot learning can teach new
+capabilities.</strong> Few-shot learning is a method that enables models
+to learn and adapt quickly to new tasks with limited data. It works best
+when a model has already learned good representations for the tasks it
+needs to perform. In few-shot learning, models are trained to perform
+tasks using a minimal number of examples. This approach tests the
+model’s ability to learn quickly and effectively from a small dataset.
+Few-shot learning can be used to train an image classifier to recognize
+new categories of animals after seeing only a few images of each
+animal.</p>
+<p><strong>Zero-shot learning.</strong> Zero-shot learning is an extreme
+version of few-shot learning. It tests a model’s ability to perform on
+characteristically new data without being provided any examples during
+training. The goal is to enable the model to generalize to new classes
+or tasks by leveraging its understanding of relationships in the data
+derived from seen examples to predict new, unseen examples.<p>
+Zero-shot learning often relies on additional information, such as
+attributes or natural language descriptions of unseen data, to bridge
+the gap between known and unknown. For instance, consider a model
+trained to identify common birds, where each species is represented by
+images and a set of attributes (such as size, color, diet, and range) or
+a brief description of the bird’s appearance and behavior. The model is
+trained to associate the images with these descriptions or attributes.
+When presented with the attributes or description of a new species, the
+model can use this information to infer characteristics about the
+unknown bird and recognize it in images.</p>
+<p><strong>LLMs, few-shot, and zero-shot learning.</strong> Some large
+language models (LLMs) have demonstrated a capacity to perform few- and
+zero-shot learning tasks without explicit training. As model and
+training datasets increased in size, these models developed the ability
+to solve a variety of tasks when provided with a few examples (few-shot)
+or only instructions describing the task (zero-shot) during inference;
+for instance, an LLM can be asked to classify a paragraph as having
+positive or negative sentiments without specific training. These
+capabilities arose organically as the models increased in size and
+complexity, and their unexpected emergence raises questions about what
+enables LLMs to perform these tasks, especially when they are only
+explicitly trained to predict the next token in a sequence. Moreover, as
+these models continue to evolve, this prompts speculation about what
+other capabilities may arise with greater scale.</p>
+<p><strong>Summary.</strong> There are many training techniques used in
+deep learning. Pre-training and fine-tuning are the foundation of many
+successful models, allowing them to learn valuable representations from
+one task or dataset and apply them to another. Few-shot and zero-shot
+learning enable models to solve tasks based on scarce or no example
+data. Notably, the emergence of few- and zero-shot learning capabilities
+in large language models illuminates the potential for these models to
+adapt and generalize beyond their explicit training. Ongoing
+advancements in training techniques continue to drive the growth of AI
+capabilities, highlighting both exciting opportunities and important
+questions about the future of the field.</p>
+<h2 id="history-and-timeline-of-key-architectures">2.3.3 History and Timeline
+of Key Architectures</h2>
+<p>Having built our technical understanding of deep learning models and
+how they work, we will see how these concepts come together in some of
+the groundbreaking architectures that have shaped the field. We will
+take a chronological tour of key deep learning models, from the
+pioneering LeNet in 1989 to the revolutionary Transformer-based BERT and
+GPT in 2018. These architectures, varying in design and purpose, have
+paved the way for developing increasingly sophisticated and capable
+models. While the history of deep learning extends far beyond these
+examples, this snapshot sheds light on a handful of critical moments as
+neural networks evolved from a marginal theory in the mid-1900s to the
+vanguard of artificial intelligence development by the early 2010s.</p>
+<p><strong>LeNet paves the way for future deep learning models <span
+class="citation" data-cites="lecun1998gradient">[12]</span>.</strong>
+LeNet is a convolutional neural network (CNN) proposed by Yann LeCun and
+his colleagues at Bell Labs in 1989. This prototype was the first
+practical application of backpropagation, and after multiple iterations
+of refinement, LeCun et al. presented the flagship model, LeNet-5, in
+1998. This model demonstrated the utility of neural networks in everyday
+applications and inspired many deep learning architectures in the years
+to follow. However, due to computational constraints, CNNs did not rise
+in popularity for over a decade after LeNet-5 was released.</p>
+<p><strong>Recurrent neural networks (RNNs) use feedback loops to
+remember.</strong> RNNs are a neural network architecture designed to
+process sequential or time-series data, such as text and speech. They
+were developed to address failures of traditional feedforward neural
+networks in modeling the temporal dependencies inherent to these types
+of data. RNNs incorporate a concept of “memory” to capture patterns that
+occur over time, like trends in stock prices or weather observations and
+relationships between words in a sentence. They use a feedback loop with
+a hidden state that stores information from prior inputs, giving them
+the ability to “remember” and take historical information into account
+when processing future inputs. While this marked a significant
+architectural advancement, RNNs were difficult to train and struggled to
+learn patterns that occur over more extended amounts of time.</p>
+<p><strong>Long short-term memory (LSTM) networks improved memory <span
+class="citation" data-cites="hochreither1997lstm">[13]</span>.</strong>
+LSTMs are a type of RNN that address some of the shortcomings of
+standard RNNs, allowing them to model long-term dependencies more
+effectively. LSTMs introduce three <em>gates</em> (input, output, and
+forget) to the memory cell of standard RNNs to regulate the flow of
+information in and out of the unit. These gates determine how much
+information is let in (input gate), how much information is retained
+(forget gate), and how much information is passed along (output gate).
+This approach allows the network to learn more efficiently and maintain
+relevant information for longer.</p>
+<p><strong>AlexNet achieves unprecedented performance in image
+recognition <span class="citation"
+data-cites="krizhevsky2012advances">[14]</span>.</strong> As we saw in
+section Artificial Intelligence &amp; Machine
+Learning, the <strong>ImageNet
+Challenge</strong> was a large-scale image recognition competition that
+spurred the development and adoption of deep learning methods for
+computer vision. The challenge involved classifying images into 1,000
+categories using a dataset of over one million images.<p>
+In 2012, a CNN called <em>AlexNet</em>, developed by Alex Krizhevsky,
+Ilya Sutskever, and Geoffrey Hinton, achieved a breakthrough performance
+of 15.3% top-5 error rate, beating the previous best result of 26.2% by
+a large margin and winning the ImageNet Large Scale Visual Recognition
+Challenge (ILSVRC). AlexNet consists of eight layers: five convolutional
+layers and three fully connected layers. It uses a ReLU activation
+function and specialized techniques such as dropout and data
+augmentation to improve accuracy.<p>
+<strong>ResNets employ residual connections <span class="citation"
+data-cites="He2016">[7]</span>.</strong> ResNets were introduced in 2015
+by Microsoft researchers Kaiming He and collaborators. The original
+model was the first architecture to implement residual connections. By
+adding these connections to a traditional 34-layer network, the authors
+were able to achieve great success. In 2015, it won first place in the
+ImageNet classification challenge with a top-5 error rate of 3.57%.</p>
+<p><strong>Transformers introduce self-attention.</strong> The
+Transformer architecture was introduced by Vaswani et al. in their
+revolutionary paper “Attention is All You Need.” Like RNNs and LSTMs,
+Transformers are a type of neural network that can process sequential
+data. However, the approach used in the Transformer was markedly
+different from those of its predecessors. The Transformer uses
+self-attention mechanisms that allow the model to focus on relevant
+parts of the input and the output.</p>
+<p>BERT and GPT, both launched in 2018, are two models based on the
+Transformer architecture <span class="citation"
+data-cites="Radford2019LanguageMA">[15]</span>.</p>
+<p><strong>BERT uses pre-training and bidirectional processing <span
+class="citation" data-cites="Devlin2019">[16]</span>.</strong> BERT is a
+Transformer-based model that can learn contextual representations of
+natural language by pre-training on large-scale corpora. Unlike previous
+models that process words in one direction (left-to-right or
+right-to-left), BERT takes a bidirectional approach. It is pre-trained
+on massive amounts of text to perform masked language modeling and next
+sentence prediction tasks. Then, the pre-trained model can be fine-tuned
+on various natural language understanding tasks, such as question
+answering, sentiment analysis, and named entity recognition. BERT was
+the first wide-scale, successful use of Transformers, and its contextual
+approach allowed it to achieve state-of-the-art results on several
+benchmarks.</p>
+<p><strong>The GPT models use scale and unidirectional
+processing.</strong> The GPT models are a series of Transformer-based
+language models launched by OpenAI. The size of these models and scale
+at which they were trained led to a remarkable improvement in fluency
+and accuracy in various language tasks, significantly advancing the
+state-of-the-art in natural language processing. One of the key reasons
+GPT models are more popular than BERT models is that they are better
+at generating text. While BERT learns really good representations
+through being trained to fill in blanks in the middle of sentences, GPT
+models are trained to predict what comes next, enabling them to generate
+long-form sequences (e.g. sentences, paragraphs, and essays) much more
+naturally.<p>
+Many important developments have been left out in this brief timeline.
+Perhaps more importantly, future developments might revolutionize model
+architectures in new ways, potentially bringing to light older innovations
+that have currently fallen to the wayside. Next, we will explore some
+common applications of deep learning models.</p>
+<h2 id="applications">2.3.4 Applications</h2>
+<p>Deep learning has seen a dramatic rise in popularity since the early
+2010s, increasingly becoming a part of our daily lives. Its applications
+are broad, powering countless services and technologies across many
+industries, some of which are highlighted below.</p>
+<p><strong>Communication and entertainment.</strong> Deep learning
+powers the chatbots and generative tools that sparked the surge in
+global interest in AI that began in late 2022. It fuels the
+recommendation systems of many streaming services like Netflix, YouTube,
+and Spotify, curating personalized content based on viewing or listening
+habits. Social media platforms, like Facebook or Instagram, use deep
+learning for image and speech recognition to enable features such as
+auto-tagging in photos or video transcription. Personal assistants like
+Siri, Google Assistant, and Alexa utilize deep learning techniques for
+speech recognition and natural language understanding, providing us with
+more natural, interactive voice interfaces.</p>
+<p><strong>Transportation and logistics.</strong> Deep learning is
+central to the development of autonomous vehicles. It helps these
+vehicles understand their environment, recognize objects, and make
+decisions. Retail and logistics companies like Amazon use deep learning
+for inventory management, sales forecasting, and to enable robots to
+navigate their warehouses.</p>
+<p><strong>Healthcare.</strong> Deep learning has been used to assist in
+diagnosing diseases, analyzing medical images, predicting patient
+outcomes, and personalizing treatment plans. It has played a significant
+role in drug discovery, reducing the time and costs associated with
+traditional methods.<p>
+Beyond this, deep learning is also used in cybersecurity, agriculture,
+finance, business analytics, and many other settings that can benefit
+from decision making based on large unstructured datasets. With the more
+general abilities of LLMs, the impact of deep learning is set to disrupt
+more industries, such as through automatic code generation and
+writing.</p>
+<p>Deep learning has come a long way since its early days, with
+advancements in architectures, techniques, and applications driving
+significant progress in artificial intelligence. Deep learning models
+have been used to solve complex problems and provide valuable insights
+in many different domains. As data and computing power become more
+available and algorithmic techniques continue to improve in the years to
+come, we can expect deep learning to become even more prevalent and
+impactful.<p>
+In the next section, we will discuss scaling laws: a set of principles
+which can quantitatively predict the effects of more data, larger
+models, and more computing power on the performance of deep learning
+models. These laws shape how deep learning models are constructed.</p>
+
+
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-LeCun2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] Y.
+LeCun, Y. Bengio, and G. Hinton, <span>“Deep learning,”</span>
+<em>Nature</em>, pp. 436–444, 2015, Available: <a
+href="https://doi.org/10.1038/nature14539">https://doi.org/10.1038/nature14539</a></div>
+</div>
+<div id="ref-wikineuron" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div
+class="csl-right-inline">Available: <a
+href="https://commons.wikimedia.org/wiki/File:Neuron_-_annotated.svg">https://commons.wikimedia.org/wiki/File:Neuron_-_annotated.svg</a></div>
+</div>
+<div id="ref-wikiperceptron" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div
+class="csl-right-inline">Available: <a
+href="https://commons.wikimedia.org/wiki/File:Rosenblattperceptron.png">https://commons.wikimedia.org/wiki/File:Rosenblattperceptron.png</a></div>
+</div>
+<div id="ref-hula2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] H.
+Hula, <span>“MNIST dataset.”</span> Accessed: Sep. 28, 2023. [Online].
+Available: <a
+href="https://twoearth.tistory.com/31">https://twoearth.tistory.com/31</a></div>
+</div>
+<div id="ref-hendrycks2023gaussian" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] D.
+Hendrycks and K. Gimpel, <span>“Gaussian error linear units
+(GELUs).”</span> 2023. Available: <a
+href="https://arxiv.org/abs/1606.08415">https://arxiv.org/abs/1606.08415</a></div>
+</div>
+<div id="ref-Nair2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] V.
+Nair and G. Hinton, <span>“Rectified linear units improve restricted
+boltzmann machines vinod nair,”</span> in <em>Proceedings of ICML</em>,
+Jun. 2010, pp. 807–814.</div>
+</div>
+<div id="ref-He2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] K.
+He, X. Zhang, S. Ren, and J. Sun, <span>“Deep residual learning for
+image recognition,”</span> in <em>2016 IEEE conference on computer
+vision and pattern recognition (CVPR)</em>, 2016, pp. 770–778. doi: <a
+href="https://doi.org/10.1109/CVPR.2016.90">10.1109/CVPR.2016.90</a>.</div>
+</div>
+<div id="ref-convolutionupdated" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] </div><div
+class="csl-right-inline">Febin Sunny, Mahdi Nikdast and Sudeep Pasricha. <span>“SONIC: A Sparse Neural Network Inference Accelerator with Silicon Photonics for Energy-Efficient Deep Learning,”</span>
+    2021.</div>
+</div>
+<div id="ref-Vaswani2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] A.
+Vaswani <em>et al.</em>, <span>“Attention is all you need,”</span> in
+<em>Advances in neural information processing systems</em>, I. Guyon, U.
+V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R.
+Garnett, Eds., Curran Associates, Inc., 2017. Available: <a
+href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf</a></div>
+</div>
+<div id="ref-raj-enjoyalg" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] R.
+Raj, Accessed: Sep. 28, 2023. [Online]. Available: <a
+href="https://www.enjoyalgorithms.com/blog/parameter-learning-and-gradient-descent-in-ml">https://www.enjoyalgorithms.com/blog/parameter-learning-and-gradient-descent-in-ml</a></div>
+</div>
+<div id="ref-Rumelhart1986" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] D.
+E. Rumelhart, G. E. Hinton, and R. J. Williams, <span>“Learning
+representations by back-propagating errors,”</span> <em>Nature</em>,
+vol. 323, pp. 533–536, 1986, Available: <a
+href="https://api.semanticscholar.org/CorpusID:205001834">https://api.semanticscholar.org/CorpusID:205001834</a></div>
+</div>
+<div id="ref-lecun1998gradient" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] Y.
+Lecun, L. Bottou, Y. Bengio, and P. Haffner, <span>“Gradient-based
+learning applied to document recognition,”</span> <em>Proceedings of the
+IEEE</em>, vol. 86, no. 11, pp. 2278–2324, 1998, doi: <a
+href="https://doi.org/10.1109/5.726791">10.1109/5.726791</a>.</div>
+</div>
+<div id="ref-hochreither1997lstm" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] S.
+Hochreiter and J. Schmidhuber, <span>“<span>Long Short-Term
+Memory</span>,”</span> <em>Neural Computation</em>, vol. 9, no. 8, pp.
+1735–1780, Nov. 1997, doi: <a
+href="https://doi.org/10.1162/neco.1997.9.8.1735">10.1162/neco.1997.9.8.1735</a>.</div>
+</div>
+<div id="ref-krizhevsky2012advances" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] A.
+Krizhevsky, I. Sutskever, and G. E. Hinton, <span>“ImageNet
+classification with deep convolutional neural networks,”</span> in
+<em>Advances in neural information processing systems</em>, F. Pereira,
+C. J. Burges, L. Bottou, and K. Q. Weinberger, Eds., Curran Associates,
+Inc., 2012. Available: <a
+href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a></div>
+</div>
+<div id="ref-Radford2019LanguageMA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] A.
+Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever,
+<span>“Language models are unsupervised multitask learners,”</span>
+2019. Available: <a
+href="https://api.semanticscholar.org/CorpusID:160025533">https://api.semanticscholar.org/CorpusID:160025533</a></div>
+</div>
+<div id="ref-Devlin2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] J.
+Devlin, M.-W. Chang, K. Lee, and K. Toutanova, <span>“BERT: Pre-training
+of deep bidirectional transformers for language understanding.”</span>
+2019. Available: <a
+href="https://arxiv.org/abs/1810.04805">https://arxiv.org/abs/1810.04805</a></div>
+</div>
+</div>
