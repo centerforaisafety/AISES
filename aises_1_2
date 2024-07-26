@@ -1,3 +1,25 @@
+<style>
+    .storybox{
+    border-radius: 15px;
+    border: 2px solid gray;
+    background-color: lightgray;
+    text-align: left;
+    padding: 10px;
+    }
+</style>
+
+<style>
+    .storyboxlegend{
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 3px;
+    margin-left: -12px;
+    margin-right: -12px; margin-top: -13px;
+    padding: 0.2em 1em; color: #ffffff;
+    background-color: gray;
+    border-radius: 15px 15px 0px 0px}
+</style>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html lang="en" xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml">
