@@ -1,26 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html lang="en" xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Introduction to AI Safety Ethics, and Society</title>
-<meta http-equiv="default-style" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" type="text/css" href="../style.css"/>
-</head>
-<body>
-<div class="chapter">
-<h1 class="section" id="sec2-6">2.6 CONCLUSION</h1>
-<p class="nonindent1">Understanding the technical underpinnings of AI systems&#x2014;the underlying models and algorithms, how they work, how they are used, and how they are evaluated&#x2014;is essential to understanding the safety, ethics, and societal impact of these technologies. This foundation equips us with the necessary grounding and context to identify and critically analyze their capabilities and potential, as well as the risks that they pose. It allows us to discern potential pitfalls in their design, implementation, and deployment and devise strategies to ensure their safe, ethical, and beneficial use.</p>
-<h2 class="section" id="sec2-6-1">2.6.1 Summary</h2>
-<p class="nonindent1">In this chapter, we presented the fundamentals of artificial intelligence (AI) and its subfield, machine learning (ML), which aims to create systems that can learn without being explicitly instructed. We examined its foundational principles, methodologies, and evolution, detailing key techniques, concepts, and practical applications.</p>
-<p class="nonindent1"><b><i>Artificial intelligence.</i></b> We first discussed AI, the vast umbrella that encapsulates the idea of machines performing tasks typically associated with human intelligence. AI and its conceptual origins date back to the 1940s and 1950s when the project of creating &#x201C;intelligent machines&#x201D; came to the fore. The field experienced periods of flux over the following decades, waxing and waning until the modern deep learning era was ushered in by the groundbreaking release of AlexNet in 2012, driven by increased data availability and advances in hardware.</p>
-<p class="nonindent1"><b><i>Defining AI.</i></b> The term &#x201C;artificial intelligence&#x201D; has many meanings, and the capabilities of AI systems exist on a continuum. Five widely used conceptual categories to distinguish between different types of AI are narrow AI, artificial general intelligence (AGI), human-level AI (HLAI), transformative AI (TAI), and artificial superintelligence (ASI). While these concepts provide a basis for thinking about the intelligence and generality of AI systems, they are not well-defined or complete, often overlapping and used in different, conflicting ways. Therefore, in evaluating risk, it is essential to consider AI systems based on their specific capabilities instead of broad categorizations.</p>
-<p class="nonindent1"><b><i>The ML model development process.</i></b> We presented a general framework for understanding ML models by considering five aspects of a model: its task, input data, output, and what type of machine learning it uses. We then discussed each of these aspects in turn. We explored common tasks for ML models, including classification, regression, anomaly detection, and sequence modeling. We highlighted a few of the many types of data that these models work with and discussed the model development process. Creating an ML model is a multi-step process that typically includes data collection, model selection, training, evaluation, and deployment. Measuring the performance of a model in evaluation is a critical step in the development process. We surveyed several metrics used to achieve this, as well as the broader, often conflicting goals that guide this process.</p>
-<p class="nonindent1"><b><i>Types of ML.</i></b> We discussed different approaches to machine learning and how these categories are neither well-defined nor complete, even though distinctions are often drawn between different &#x201C;types&#x201D; of machine learning. We surveyed four common approaches to ML: supervised learning, unsupervised learning, reinforcement learning, and deep learning. At a high level, supervised learning is learning from labeled data, unsupervised learning is learning from unlabeled data, and reinforcement learning is learning from agent-gathered data. Deep learning techniques are used in all three settings, leveraging deep neural networks to achieve remarkable results.</p>
-<p class="nonindent1"><b><i>Deep learning.</i></b> We then examined deep learning in more depth. We saw how, beyond its use of multi-layer neural networks, deep learning is characterized by its ability to learn hierarchical representations that provide deep learning models with great flexibility and power. Machine learning models are functions that capture relationships between inputs and outputs with representations that allow them to capture an especially broad family of relationships.</p>
-<p class="nonindent1"><b><i>Components of DL models.</i></b> We explored the essential components of deep learning models and neural networks. Through the example of multi-layer perceptrons (MLPs), we broke down neural networks, structures composed of layers of neurons, into an input layer, an output layer, one or more hidden layers, weights, biases, and activation functions. We highlighted a few significant activation functions and examined other fundamental building blocks of deep learning models, including residual connections, convolution, and self-attention. We also presented influential architectures, such as CNNs and Transformers.</p>
-<p class="nonindent1"><b><i>Processes in DL models.</i></b> We discussed how deep learning models learn and are used in training and inference. We walked through the steps to training a deep learning model, beginning with initialization and then cycling through sending information forward to make a prediction, measuring its error or quality, sending this error backward, and adjusting parameters accordingly until a stopping criterion is reached. We discussed training techniques such as pre-training, fine-tuning, few-shot learning, and zero-shot learning, and how training typically involves a combination of many methods and techniques used in conjunction. We considered the importance of scalability, computational efficiency, and interpretability in evaluating deep learning models and their suitability for deployment. We plotted the course of technical and architectural development in the field, from LeNet in 1989 to BERT and GPT models in 2018. We considered real-world applications of deep learning in communication and entertainment, transportation and logistics, and healthcare.</p>
-<p class="nonindent1"><b><i>Scaling laws.</i></b> Scaling laws describe mathematical relationships between model performance and key factors like model size and dataset size in deep learning. These power law equations show that as models grow in parameters and are trained on more data, their loss tends to decrease substantially and predictably. Scaling up computational resources used to train a model can enable an increase in both model parameters and the amount of data used in training. Researchers can leverage scaling laws to determine optimal model and dataset sizes given computational constraints. Scaling laws hold across many modalities and orders of magnitude, though they do not necessarily apply to all deep learning models, such as many classification models.</p>
-<p class="nonindent1"><b><i>Speed of AI development.</i></b> Trends in compute and algorithmic efficiency suggest that the capabilities of AI systems may continue to improve rapidly and could surpass human performance across a broad range of tasks in coming decades. There is considerable uncertainty among experts about when human-level AI (HLAI) might be achieved, with recent surveys indicating shorter timelines than previously anticipated. Increasing investment in compute and algorithmic advances have driven significant increases in AI capabilities. However, achieving HLAI may require conceptual breakthroughs, and challenges such as the availability of high-quality training data and the economic viability of further investments could lead to a slowdown. Despite these uncertainties, vigilance is warranted due to the high stakes and potential risks associated with advanced AI, even before reaching HLAI.</p>
-</div>
-</body>
-</html>
+<h1 id="conclusion">2.5 Conclusion</h1>
+<p>Understanding the technical underpinnings of AI systems—the
+underlying models and algorithms, how they work, how they are used, and
+how they are evaluated—is essential to understanding the safety, ethics,
+and societal impact of these technologies. This foundation equips us
+with the necessary grounding and context to identify and critically
+analyze their capabilities and potential, as well as the risks that they
+pose. It allows us to discern potential pitfalls in their design,
+implementation, and deployment and devise strategies to ensure their
+safe, ethical, and beneficial use.</p>
+<h2 id="summary">2.5.1 Summary</h2>
+<p>In this chapter, we presented the fundamentals of artificial
+intelligence (AI) and its subfield, machine learning (ML), which aims to
+create systems that can learn without being explicitly instructed. We
+examined its foundational principles, methodologies, and evolution,
+detailing key techniques, concepts, and practical applications.</p>
+<p><strong>Artificial intelligence.</strong> We first discussed AI, the
+vast umbrella that encapsulates the idea of machines performing tasks
+typically associated with human intelligence. AI and its conceptual
+origins date back to the 1940s and 1950s when the project of creating
+“intelligent machines” came to the fore. The field experienced periods
+of flux over the following decades, waxing and waning until the modern
+deep learning era was ushered in by the groundbreaking release of
+AlexNet in 2012, driven by increased data availability and advances in
+hardware.</p>
+<p><strong>Defining AI.</strong> The term “artificial intelligence” has
+many meanings, and the capabilities of AI systems exist on a continuum.
+Five widely used conceptual categories to distinguish between different
+types of AI are narrow AI, artificial general intelligence (AGI),
+human-level AI (HLAI), transformative AI (TAI), and artificial
+superintelligence (ASI). While these concepts provide a basis for
+thinking about the intelligence and generality of AI systems, they are
+not well-defined or complete, often overlapping and used in different,
+conflicting ways. Therefore, in evaluating risk, it is essential to
+consider AI systems based on their specific capabilities instead of
+broad categorizations.</p>
+<p><strong>The ML process.</strong> We presented a general framework for
+understanding ML models by considering five aspects of a model: its
+task, input data, output, and what type of machine learning it uses. We
+then discussed each of these aspects in turn. We explored common tasks
+for ML models, including classification, regression, anomaly detection,
+and sequence modeling. We highlighted a few of the many types of data
+that these models work with and discussed the model development process.
+Creating an ML model is a multi-step process that typically includes
+data collection, model selection, training, evaluation, and deployment.
+Measuring the performance of a model in evaluation is a critical step in
+the development process. We surveyed several metrics used to achieve
+this, as well as the broader, often conflicting goals that guide this
+process.</p>
+<p><strong>Types of ML.</strong> We discussed different approaches to
+machine learning and how these categories are neither well-defined nor
+complete, even though distinctions are often drawn between different
+“types” of machine learning. We surveyed four common approaches to ML:
+supervised learning, unsupervised learning, reinforcement learning, and
+deep learning. At a high level, supervised learning is learning from
+labeled data, unsupervised learning is learning from unlabeled data, and
+reinforcement learning is learning from agent-gathered data. Deep
+learning techniques are used in all three settings, leveraging deep
+neural networks to achieve remarkable results.</p>
+<p><strong>Deep learning.</strong> We then examined deep learning in
+more depth. We saw how, beyond its use of multi-layer neural networks,
+deep learning is characterized by its ability to learn hierarchical
+representations that provide deep learning models with great flexibility
+and power. Machine learning models are functions that capture
+relationships between inputs and outputs with representations that allow
+them to capture an especially broad family of relationships.</p>
+<p><strong>Components of DL models.</strong> We explored the essential
+components of deep learning models and neural networks. Through the
+example of multi-layer perceptrons (MLPs), we broke down neural
+networks, structures composed of layers of neurons, into an input layer,
+an output layer, one or more hidden layers, weights, biases, and
+activation functions. We highlighted a few significant activation
+functions and examined other fundamental building blocks of deep
+learning models, including residual connections, convolution, and
+self-attention. We also presented influential architectures, such as
+CNNs and Transformers.</p>
+<p><strong>Processes in DL models.</strong> We discussed how deep
+learning models learn and are used in training and inference. We walked
+through the steps to training a deep learning model, beginning with
+initialization and then cycling through sending information forward to
+make a prediction, measuring its error or quality, sending this error
+backward, and adjusting parameters accordingly until a stopping
+criterion is reached. We discussed training techniques such as
+pre-training, fine-tuning, few-shot learning, and zero-shot learning,
+and how training typically involves a combination of many methods and
+techniques used in conjunction. We considered the importance of
+scalability, computational efficiency, and interpretability in
+evaluating deep learning models and their suitability for deployment. We
+plotted the course of technical and architectural development in the
+field, from LeNet in 1989 to BERT and GPT models in 2018. We considered
+real-world applications of deep learning in communication and
+entertainment, transportation and logistics, and healthcare.</p>
+<p><strong>Scaling laws.</strong> Scaling laws describe mathematical
+relationships between model performance and key factors like model size
+and dataset size in deep learning. These power law equations show that
+as models grow in parameters and are trained on more data, their loss
+tends to decrease substantially and predictably. Scaling up
+computational resources used to train a model can enable an increase in
+both model parameters and the amount of data used in training.
+Researchers can leverage scaling laws to determine optimal model and
+dataset sizes given computational constraints. Scaling laws hold across
+many modalities and orders of magnitude, though they do not necessarily
+apply to all deep learning models, such as many classification
+models.</p>
+<p><strong>Speed of AI development.</strong> Trends in compute and algorithmic efficiency suggest that the capabilities of AI systems may continue to improve rapidly and could surpass human performance across a broad range of tasks in coming decades. There is considerable uncertainty among experts about when human-level AI (HLAI) might be achieved, with recent surveys indicating shorter timelines than previously anticipated. Increasing investment in compute and algorithmic advances have driven significant increases in AI capabilities. However, achieving HLAI may require conceptual breakthroughs, and challenges such as the availability of high-quality training data and the economic viability of further investments could lead to a slowdown. Despite these uncertainties, vigilance is warranted due to the high stakes and potential risks associated with advanced AI, even before reaching HLAI.
