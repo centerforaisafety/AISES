@@ -1,0 +1,1333 @@
+<h1 id="sec:AI-and-ML">2.2 Artificial Intelligence &amp; Machine
+Learning</h1>
+<p>Artificial intelligence (AI) is reshaping our society, from its small
+effects on daily interactions to sweeping changes across many industries
+and implications for the future of humanity. This section explains what
+AI is, discusses what AI can and cannot do, and helps develop a critical
+perspective on the potential benefits and risks of artificial
+intelligence. Firstly, we will discuss what AI means, its different
+types, and its history. Then, in the second part of this section, we
+will analyze the field of machine learning (ML).</p>
+<h2 id="artificial-intelligence">2.2.1 Artificial Intelligence</h2>
+<p><strong>Defining Artificial Intelligence.</strong> In general, AI
+systems are computer systems performing tasks typically associated with
+intelligent beings (such as problem solving, making decisions, and
+forecasting future events) <span class="citation"
+data-cites="Russell2020">[1]</span>. However, due to its fast-paced
+evolution and the variety of technologies it encompasses, AI lacks a
+universally accepted definition, leading to varying interpretations.
+Moreover, the term is used to refer to different but related ideas.
+Therefore, it is essential to understand the contexts in which people
+use the term. For instance, AI can refer to a branch of computer
+science, a type of machine, a tool, a component of business models, or a
+philosophical idea. We might use the term to discuss physical objects
+with human-like capabilities, like robots or smart speakers. We may also
+use AI in a thought experiment that prompts questions about what it
+means to be intelligent or human and encourages debates on the ethics of
+learning and decision-making machines. This textbook primarily uses AI
+to refer to an intelligent computer system.</p>
+<p><strong>Different meanings of intelligence.</strong> While
+intelligence is fundamental to AI, there is no widespread consensus on
+its definition <span class="citation" data-cites="Legg2007">[2]</span>.
+Generally, we consider something intelligent if it can learn to achieve
+goals in various environments. Therefore, one definition of intelligence
+is the ability to learn, solve problems, and perform tasks to achieve
+goals in various changing, hard-to-predict situations. Some theorists
+see intelligence as not just one skill among others but the ultimate
+skill that allows us to learn all other abilities. Ultimately, the line
+between what is considered <em>intelligent</em> and what is not is often
+unclear and contested.<p>
+Just as we consider animals and other organisms intelligent to varying
+degrees, AIs may be regarded as intelligent at many different levels of
+capability. An artificial system does not need to surpass all (or even
+any) human abilities for some people to call it intelligent. Some would
+consider GPT intelligent, and some would not. Similarly, outperforming
+humans at specific tasks does not automatically qualify a machine as
+intelligent. Calculators are usually much better than humans at
+performing rapid and accurate mathematical calculations, but this does
+not mean they are intelligent in a more general sense.</p>
+<p><strong>Continuum of intelligence.</strong> Rather than classifying
+systems as “AI” or “not AI,” it is helpful to think of the capabilities
+of AI systems on a continuum. Evaluating the intelligence of particular
+AI systems by their capabilities is more helpful than categorizing each
+AI using theoretical definitions of intelligence. Even if a system is
+imperfect and does not understand everything as a human would, it could
+still learn new skills and perform tasks in a helpful, meaningful way.
+Furthermore, an AI system that is not considered human-level or highly
+intelligent could pose serious risks; for example, weaponized AIs such
+as autonomous drones are not generally intelligent but still dangerous.
+We will dive into these distinctions in more detail when we discuss the
+different types of AI. First, we will explore the rich history of AI and
+see its progression from myth and imagination to competent,
+world-changing technology.</p>
+<h3 id="history">History</h3>
+<p>We will now follow the journey of AI, tracing its path from ancient
+times to the present day. We will discuss its conceptual and practical
+origins, which laid the foundation for the field’s genesis at the
+<em>Dartmouth Conference</em> in 1956. We will then survey a few early
+approaches and attempts to create AI, including <em>symbolic AI</em>,
+<em>perceptrons</em>, and the chatbot ELIZA. Next, we will discuss how
+the <em>First AI Winter</em> and subsequent periods of reduced funding
+and interest have shaped the field. Then, we will chart how the
+internet, algorithmic progress, and advancements in hardware led to
+increasingly rapid developments in AI from the late 1980s to the early
+2010s. Finally, we will explore the modern deep learning era and see a
+few examples of the power and ubiquity of present-day AI systems—and how
+far they have come.</p>
+<p><strong>Early historical ideas of AI.</strong> Dreams of creating
+intelligent machines have been present since the earliest human
+civilizations. The ancient Greeks speculated about automatons—mechanical
+devices that mimicked humans or animals. It was said that Hephaestus,
+the god of craftsmen, built the giant Talos from bronze to patrol an
+island.</p>
+<p><strong>The modern conception of AI.</strong> Research to create
+intelligent machines using computers began in the 1950s, laying the
+foundation for a technological revolution that would unfold over the
+following century. AI development gained momentum over the decades,
+supercharged by groundbreaking technical algorithmic advances,
+increasing access to data, and rapid growth in computing power. Over
+time, AI evolved from a distant theoretical concept into a powerful
+force transforming our world.</p>
+<p><strong><em>Origins and Early Concepts (1941–1956)</em></strong></p>
+<p><strong>Early computing research.</strong> The concept of computers
+as we know them today was formalized by British mathematician Alan
+Turing at the University of Cambridge in 1936. The following years
+brought the development of several electromechanical machines (including
+Turing’s own <em>bombes</em> used to decipher messages encrypted with
+the German Enigma code) in the turmoil of World War II and, by the
+mid-1940s, the first functioning digital computers emerged in their
+wake. Though rudimentary by today’s standards, the creation of these
+machines—Colossus, ENIAC, the Automatic Computing Engine, and several
+others—marked the dawn of the computer age and set the stage for future
+computer science research.</p>
+<p><strong>The Turing Test.</strong> Turing created a thought experiment
+to assess if an AI could convincingly simulate human conversation <span
+class="citation" data-cites="Turing1950">[3]</span>. In what Turing
+called the <em>Imitation Game</em>, a human evaluator interacts with a
+human and a machine, both hidden from view. If the evaluator fails to
+identify the machine’s responses reliably, then the machine passes the
+test, qualifying it as intelligent. This framework offers a method for
+evaluating machine intelligence, yet it has many limitations. Critics
+argue that machines could pass the Turing Test merely by mimicking human
+conversation without truly understanding it or possessing intelligence.
+As a result, some researchers see the Turing Test as a philosophical
+concept rather than a helpful benchmark. Nonetheless, since its
+inception, the Turing Test has substantially influenced how we think
+about machine intelligence.</p>
+<p><strong><em>The Birth of AI (1956–1974)</em></strong></p>
+<p><strong>The Dartmouth Conference.</strong> Dr. John McCarthy coined
+the term “artificial intelligence” in a seminal conference at Dartmouth
+College in the summer of 1956. He defined AI as “the science and
+engineering of making intelligent machines,” laying the foundation for a
+new field of study. In this period, AI research took off in earnest,
+becoming a significant subfield of computer science.</p>
+<p><strong>Early approaches to AI.</strong> During this period, research
+in AI usually built on a framework called symbolic AI, which uses
+symbols and rules to represent and manipulate knowledge. This method
+theorized that symbolic representation and computation alone could
+produce intelligence. Good Old-Fashioned AI (GOFAI) is an early approach
+to symbolic AI that specifically involves programming explicit rules for
+systems to follow, attempting to mimic human reasoning. This intuitive
+approach was popular during the early years of AI research, as it aimed
+to replicate human intelligence by modeling how humans think, instilling
+our reasoning, decision-making, and information-processing abilities
+into machines.<p>
+These “old-fashioned” approaches to AI allowed machines to accomplish
+well-described, formalizable tasks, but they faced severe difficulties
+in handling ambiguity and learning new tasks. Some early systems
+demonstrated problem-solving and learning capabilities, further
+cementing the importance and potential of AI research. For instance, one
+proof of concept was the General Problem Solver, a program designed to
+mimic human problem-solving strategies using a trial-and-error approach.
+The first <em>learning machines</em> were built in this period, offering
+a glimpse into the future of machine learning.</p>
+<p><strong>The first neural network.</strong> One of the earliest
+attempts to create AI was the perceptron, a method implemented by Frank
+Rosenblatt in 1958 and inspired by biological neurons <span
+class="citation" data-cites="rosenblatt1958perceptron">[4]</span>. The
+perceptron could learn to classify patterns of inputs by adjusting a set
+of numbers based on a learning rule. It is an important milestone
+because it made an immense impact in the long run, inspiring further
+research into deep learning and neural networks. However, scholars
+initially criticized it for its lack of theoretical foundations, minimal
+generalizability, and inability to separate data clusters with more than
+just a straight line. Nonetheless, perceptrons prepared the ground for
+future progress.</p>
+<p><strong>The first chatbot.</strong> Another early attempt to create
+AI was the ELIZA chatbot, a program that simulated a conversation with a
+psychotherapist. Joseph Weizenbaum created ELIZA in 1966 to use pattern
+matching and substitution to generate responses based on keywords in the
+user’s input. He did not intend the ELIZA chatbot to be a serious model
+of natural language understanding but rather a demonstration of the
+superficiality of communication between humans and machines. However,
+some users became convinced that the ELIZA chatbot had genuine
+intelligence and empathy despite Weizenbaum’s insistence to the
+contrary.</p>
+<p><strong><em>AI Winters and Resurgences (1974–1995)</em></strong></p>
+<p><strong>First AI Winter.</strong> The journey of AI research was not
+always smooth. Instead, it was characterized by <em>hype cycles</em> and
+hindered by several <em>winters</em>: periods of declining interest and
+progress in AI. The late 1970s saw the onset of the first and most
+substantial decline. In this period, called the <em>First AI Winter</em>
+(from around 1974 to 1980), AI research and funding declined markedly
+due to disillusionment and unfulfilled promises, resulting in a slowdown
+in the field’s progress.</p>
+<p><strong>The first recovery.</strong> After this decline, the 1980s
+brought a resurgence of interest in AI. Advances in computing power and
+the emergence of systems that emulate human decision-making
+reinvigorated AI research. Efforts to build expert systems that imitated
+the decision-making ability of a human expert in a specific field, using
+pre-defined rules and knowledge to solve complex problems, yielded some
+successes. While these systems were limited, they could leverage and
+scale human expertise in various fields, from medical diagnosis to
+financial planning, setting a precedent for AI’s potential to augment
+and even replace human expertise in specialized domains.</p>
+<p><strong>The second AI winter.</strong> Another stagnation in AI
+research started around 1987. Many AI companies closed, and AI
+conference attendance fell by two thirds. Despite widespread lofty
+expectations, expert systems had proven to be fundamentally limited.
+They required an arduous, expensive, top-down process to encode rules
+and heuristics in computers. Yet expert systems remained inflexible,
+unable to model complex tasks or show common-sense reasoning. This
+winter ended by 1995, as increasing computing power and new methods
+aided a resurgence in AI research.</p>
+<p><strong><em>Advancements in Machine Learning
+(1995–2012)</em></strong></p>
+<p><strong>Accelerating computing power and the Internet.</strong> The
+invention of the Internet, which facilitated rapid information sharing,
+with exponential growth in computing power (often called
+<em>compute</em>) helped the recovery of AI research and enabled the
+development of more complex systems. Between 1995 and 2000, the number
+of Internet users grew by 2100%, which led to explosive growth in
+digital data. This abundant digitized data served as a vast resource for
+machines to learn from, eventually driving advancements in AI
+research.</p>
+<p><strong>A significant victory of AI over humans.</strong> In 1997,
+IBM’s AI system <em>Deep Blue</em> defeated world chess champion Garry
+Kasparov, marking the first time a computer triumphed over a human in a
+highly cognitive task <span class="citation"
+data-cites="campbell2002deep">[5]</span>. This win demonstrated that AI
+could excel in complex problem-solving, challenging the notion that such
+tasks were exclusively in the human domain. It offered an early glimpse
+of AI’s potential.</p>
+<p><strong>The rise of probabilistic graphical models (PGMs) <span
+class="citation" data-cites="Koller2009">[6]</span>.</strong> PGMs
+became prominent in the 2000s due to their versatility, computational
+efficiency, and ability to model complex relationships. These models
+consist of nodes representing variables and edges indicating
+dependencies between them. By offering a systematic approach to
+representing uncertainty and learning from data, PGMs paved the way for
+more advanced ML systems. In bioinformatics, for instance, PGMs have
+been employed to predict protein interactions and gene regulatory
+networks, providing insights into biological processes.</p>
+<p><strong>Developments in tree-based algorithms.</strong> Decision
+trees are an intuitive and widely used ML method. They consist of a
+graphical representation of a series of rules that lead to a prediction
+based on the input features; for example, researchers can use a decision
+tree to classify whether a person has diabetes based on age, weight, and
+blood pressure. However, these trees have many limitations, a tendency
+to make predictions based on the training data without generalizing well
+to new data (called overfitting).<p>
+Researchers in the early 2000s created methods for combining multiple
+decision trees to overcome these issues. <em>Random forests</em> are a
+collection of decision trees trained independently on different subsets
+of data and features <span class="citation"
+data-cites="Breiman2001">[7]</span>. The final prediction is the average
+or majority vote of the predictions of all the trees. <em>Gradient
+boosting</em> combines decision trees in a more sequential, adaptive
+way, starting with a single tree that makes a rough prediction and then
+adding more trees to correct the errors of previous trees <span
+class="citation" data-cites="Friedman2001">[8]</span>. Gradient-boosted
+decision trees are the state-of-the-art method for tabular data (such as
+spreadsheets), usually outperforming deep learning.</p>
+<p><strong>The impact of support vector machines (SVMs).</strong> The
+adoption of SVM models in the 2000s was a significant development. SVMs
+operate by finding an optimal boundary that best separates different
+categories of data points, permitting efficient classification <span
+class="citation" data-cites="Cortes1995">[9]</span>; for instance, an
+SVM could help distinguish between handwritten characters. Though these
+models were used across various fields during this period, SVMs have
+fallen out of favor in modern machine learning due to the rise of deep
+learning methods.</p>
+<p><strong>New chips and even more compute.</strong> In the late 2000s,
+the proliferation of massive datasets (known as <em>big data</em>) and
+rapid growth in computing power allowed the development of advanced AI
+techniques. Around the early 2010s, researchers began using <em>Graphics
+Processing Units</em> (GPUs)—traditionally used for rendering graphics
+in video games—for faster and more efficient training of intricate ML
+models. Platforms that enabled leveraging GPUs for general-purpose
+computing facilitated the transition to the deep learning era.</p>
+<p><strong><em>Deep Learning Era (2012– )</em></strong></p>
+<p><strong>Deep learning revolutionizes AI.</strong> The trends of
+increasing data and compute availability laid the foundation for
+groundbreaking ML techniques. In the early 2010s, researchers pioneered
+applications of <em>deep learning (DL)</em>, a subset of ML that uses
+artificial neural networks with many layers, enabling computers to learn
+and recognize patterns in large amounts of data. This approach led to
+significant breakthroughs in AI, especially in areas including image
+recognition and natural language understanding.<p>
+Massive datasets provided researchers with the data needed to train deep
+learning models effectively. A pivotal example is the <em>ImageNet</em>
+(<span class="citation" data-cites="deng2009imagenet">[10]</span>)
+dataset, which provided a large-scale dataset for training and
+evaluating computer vision algorithms. It hosted an annual competition,
+which spurred breakthroughs and advancements in deep learning. In 2012,
+the <em>AlexNet</em> model revolutionized the field as it won the
+ImageNet Large Scale Visual Recognition Challenge <span class="citation"
+data-cites="krizhevsky2012advances">[11]</span>. This breakthrough
+showcased the superior performance of deep learning over traditional
+machine learning methods in computer vision tasks, sparking a surge in
+deep learning applications across various domains. From this point
+onward, deep learning has dominated AI and ML research and the
+development of real-world applications.</p>
+<p><strong>Advancements in DL.</strong> In the 2010s, deep learning
+techniques led to considerable improvements in <em>natural language
+processing (NLP)</em>, a field of AI that aims to enable computers to
+understand and generate human language. These advancements facilitated
+the widespread use of virtual assistants Alexa and ChatGPT, introducing
+consumers to products that integrated machine learning. Later, in 2016,
+Google DeepMind’s AlphaGo became the first AI system to defeat a
+world champion Go player in a five-game match <span class="citation"
+data-cites="silver2016masteringgo">[12]</span>.</p>
+<p><strong>Breakthroughs in natural language processing.</strong> In
+2018, Google researchers introduced the <em>Transformer</em>
+architecture, which enabled the development of highly effective NLP
+models. Researchers built the first <em>large language models</em>
+(LLMs) using this Transformer architecture, many layers of neural
+networks, and billions of words of data. <em>Generative Pre-trained
+Transformer</em> (GPT) models have demonstrated impressive and near
+human-level language processing capabilities <span class="citation"
+data-cites="Radford2019LanguageMA">[13]</span>. ChatGPT was released in
+November 2022 and became the first example of a viral AI product,
+reaching 100 million users in just two months. The success of the GPT
+models also sparked widespread public discussion on the potential risks
+of advanced AI systems, including congressional hearings and calls for
+regulation. In the early 2020s, AI is used for many complex tasks, from
+image recognition to autonomous vehicles, and continues to evolve and
+proliferate rapidly.</p>
+<h2 id="types-of-ai">2.2.2 Types of AI</h2>
+<p>The field has developed a set of concepts to describe distinct types
+or levels of AI systems. However, they often overlap, and definitions
+are rarely well-formalized, universally agreed upon, or precise. It is
+important to consider an AI system’s particular capabilities rather than
+simply placing it in one of these broad categories. Labeling a system as
+a “weak AI” does not always improve our understanding of it; we need to
+elaborate further on its abilities and why they are limited.<p>
+This section introduces five widely used conceptual categories for AI
+systems. We will present these types of AI in roughly their order of
+intelligence, generality, and potential impact, starting with the least
+potent AI systems.</p>
+<ol>
+<li><p><strong>Narrow AI</strong> can perform specific tasks.</p></li>
+<li><p><strong>Artificial general intelligence</strong> (AGI) can
+perform many cognitive tasks across multiple domains at a human or
+superhuman level.</p></li>
+<li><p><strong>Human-level AI</strong> (HLAI) could do virtually
+everything humans do.</p></li>
+<li><p><strong>Transformative AI</strong> (TAI) is a term for systems
+with a dramatic impact on the world, at least at the level of the
+Industrial Revolution.</p></li>
+<li><p><strong>Artificial superintelligence</strong> (ASI) is the most
+powerful, describing systems vastly outclassing human performance on
+virtually all intellectual tasks <span class="citation"
+data-cites="Bostrom2014">[14]</span>.</p></li>
+</ol>
+<p>There are not always clear distinctions between these types; these
+concepts often overlap. We can use these types to describe a system’s
+level of capability, which can be roughly decomposed into its degree of
+intelligence and its generality: the range of domains where it can learn
+to perform tasks well. This helps us explain two key ways AI systems can
+vary: an AI system can be more or less intelligent and more or less
+general. These two factors are related but distinct: an AI system that
+can play chess at a grandmaster level is intelligent in that domain, but
+we would not consider it general because it can only play chess. On the
+other hand, an advanced chatbot may show some forms of general
+intelligence while not being particularly good at chess.</p>
+<h3 id="narrow-ai">Narrow AI</h3>
+<p><strong>Narrow AI is specialized in one area.</strong> Also called
+<em>weak AI</em>, narrow AI refers to systems designed to perform
+specific tasks or solve particular problems within a specialized domain
+of expertise. A narrow AI has a limited domain of competence—it can
+solve individual problems but is not competent at learning new tasks in
+a wide range of domains. While they often excel in their designated
+tasks, these limitations mean that a narrow AI does not exhibit high
+behavioral flexibility. Narrow AI systems struggle to learn new
+behaviors effectively, perform well outside their specific domain, or
+generalize to new situations.</p>
+<p><strong>Examples of narrow AI.</strong> One example of narrow AI is a
+digital personal assistant that can receive voice commands and perform
+tasks like transcribing and sending text messages but cannot learn how
+to write an essay or drive a car. Alternatively, image recognition
+algorithms can identify objects like people, plants, or buildings in
+photos but do not have other skills or abilities. Another example is a
+program that excels at summarizing news articles. While it can do this
+narrow task, it cannot diagnose a medical condition or compose new
+music, as these are outside its specific domain. More generally,
+intelligent beings such as humans can learn and perform all these
+tasks.</p>
+<p><strong>Narrow AI vs. general AI.</strong> Some narrow AI systems
+have surpassed human performance in specific tasks, such as chess.
+However, these systems exhibit narrow rather than general intelligence
+because they cannot learn new tasks and perform well outside their
+domain. For instance, IBM’s Deep Blue famously beat world chess champion
+Garry Kasparov in 1997. This system was an excellent chess player but
+was only good at chess. If one tried to use Deep Blue to play a
+different game, recognize faces in a picture, or translate a sentence,
+it would fail miserably. Therefore, although narrow AI may be able to do
+certain things better than any human could, even highly capable ones
+remain limited to a small range of tasks.</p>
+<h3 id="artificial-general-intelligence-agi">Artificial General
+Intelligence (AGI)</h3>
+<p><strong>AGI is far more generally capable.</strong> Generally
+intelligent systems called AGIs can learn and perform various tasks in
+various areas. Unlike narrow AIs, which only excel in specific domains,
+AGI refers to more flexible systems. An AGI can apply its intelligence
+to nearly any real-world task, matching or surpassing human cognitive
+abilities across many domains. An AGI can reason, learn, and respond
+well to new situations it has never encountered before. It can even
+learn to generalize its strong performance to many domains without
+requiring specialized training for each one: it could initially learn to
+play chess, then continue to expand its knowledge and abilities by
+learning video games, diagnosing diseases, or navigating a city.
+Although it may not be helpful as a guide to implementation or even
+precisely defined, AGI is a useful theoretical concept for reasoning
+about the capabilities of advanced systems.</p>
+<p><strong>There is no single consensus definition of AGI.</strong>
+Constructing a precise and detailed definition of AGI is challenging and
+often creates disagreement among experts; for instance, some argue that
+an AGI must have a physical embodiment to interact with the world,
+allowing it to cook a meal, move around, and see and interact with
+objects. Others contend that a system could be generally intelligent
+without any ability to physically interact with the world, as
+intelligence does not require a human-like body. Some would say ChatGPT
+is an AGI because it is not narrow and is, in many senses, general.
+Still, an AI that can interact physically may be more general than a
+non-embodied system. This shows the difficulty of reaching a consensus
+on the precise meaning of AGI.</p>
+<p><strong>Predicting AGI.</strong> Predicting when distinct AI
+capabilities will appear (often called “AI timelines”) can also be
+challenging. Many once believed that AI systems would master physical
+tasks before tackling “higher-level” cognitive tasks such as coding or
+writing. However, some existing language model systems can write
+functional code yet cannot perform physical tasks such as moving a ball.
+While there are many explanations for this observation—cognitive tasks
+bypass the challenge of building robotic bodies; domains like coding and
+writing benefit from abundant training data—the evidence suggests
+experts face difficulties predicting how AI will develop.</p>
+<p><strong>Risks and capabilities.</strong> Rather than debating whether
+a system meets the criteria for being an AGI, evaluating a specific AI
+system’s capabilities is often more helpful. Historical evidence and the
+unpredictability of AI development suggest that AIs can perform
+complicated tasks such as scientific research, hacking, or synthesizing
+bioweapons before AIs can drive vehicles autonomously. Some highly
+relevant and dangerous capabilities may arrive long before others.
+Moreover, we could have narrow AI systems that can teach anyone how to
+enrich uranium and build nuclear weapons but cannot learn other tasks.
+These dangers show how AIs can pose risks at many different levels of
+capabilities. With this in mind, instead of simply asking about AGI
+(“When will AGI arrive?”), it might be more relevant and productive to
+consider when AIs will be able to do particularly concerning tasks
+(“When will this specific capability arrive?”).</p>
+<h3 id="human-level-artificial-intelligence-hlai">Human-Level Artificial
+Intelligence (HLAI)</h3>
+<p><strong>Human-level artificial intelligence (HLAI) can do almost
+everything humans can do.</strong> HLAIs exist when machines can perform
+approximately every task as well as human workers. Some definitions of
+HLAI emphasize three conditions: first, that these systems can perform
+every task humans can; second, they can do it at least as well as humans
+can; and third, they can do it at a lower cost. If a smart AI is highly
+expensive, it may make economic sense to continue to use human labor. If
+a smart AI took several minutes to think before doing a task a human
+could do, its usefulness would have limitations. Like humans, an HLAI
+system could hypothetically master a wide range of tasks, from cooking
+and driving to advanced mathematics and creative writing. Unlike AGI,
+which can perform some—but not all—the tasks humans can, an HLAI can
+complete any conceivable human task. Notably, some reserve the term HLAI
+to describe only cognitive tasks. Furthermore, evaluating whether a
+system is “human level’ is fraught with biases. We are often biased to
+dismiss or underrate unfamiliar forms of intelligence simply because
+they do not look or act like human intelligence.</p>
+<h3 id="transformative-ai-tai">Transformative AI (TAI)</h3>
+<p><strong>Transformative AI (TAI) has impacts comparable to the
+Industrial Revolution.</strong> The Industrial Revolution fundamentally
+altered the fabric of human life globally, heralding an era of
+tremendous economic growth, increased life expectancy, expanded energy
+generation, a surge in technological innovation, and monumental social
+changes. Similarly, a transformative AI could catalyze dramatic changes
+in our world. The focus here is not on the specific design or built-in
+capabilities of the AI itself but on the consequences of the AI system
+for humans, our societies, and our economies.</p>
+<p><strong>Many kinds of AI systems could be transformative.</strong> It
+is conceivable that some systems could be transformative but below the
+human level. To bring about dramatic change, AI does not need to mimic
+the powerful systems of science fiction that behave indistinguishably
+from humans or surpass human reasoning. Computer systems that can
+perform tasks traditionally handled by people (narrow AIs) could also be
+transformative by enabling inexpensive, scalable, and clean energy
+production. Advanced AI systems could transform society without reaching
+or exceeding human-level cognitive abilities, such as by allowing a wide
+array of fundamental tasks to be performed at virtually zero cost. Some
+systems could be transformative long after being above the human level.
+Even when some forms of AGI, HLAI, or ASI are available, the technology
+might take time to diffuse widely, and its economic impacts may come
+years afterward, creating a <em>diffusion lag</em>.</p>
+<h3 id="superintelligence-asi">Superintelligence (ASI)</h3>
+<p><strong>Superintelligence (ASI) is the most advanced type of AI <span
+class="citation" data-cites="Bostrom2014">[14]</span>.</strong>
+Superintelligence refers to the ability to outclass human performance in
+virtually all domains of interest. A system with this set of
+capabilities could have immense practical applications, including
+advanced problem-solving, automation of complex tasks, and scientific
+discovery. It represents the most powerful type of AI. However, it
+should be noted that surpassing humans on only some capabilities does
+not make an AI superintelligent—a calculator is superhuman at
+arithmetic, but not a superintelligence.</p>
+<p><strong>Risks of superintelligence.</strong> The risks associated
+with superintelligence are substantial. ASIs could become uncontrollable
+and even pose existential threats—risks to the survival of humanity.
+That said, an AI system must not be superintelligent to be dangerous. An
+AGI, human-level AI, or narrow AI could all pose severe risks to
+humanity. These systems may vary in intelligence across different tasks
+and domains, but they can be dangerous at many levels of intelligence
+and generality. If a narrow AI is superhuman at a specific dangerous
+task like synthesizing viruses, it could be an extraordinary hazard for
+humanity.</p>
+<p><strong>Superintelligence is not omnipotence.</strong> Separately, we
+should not assume that superintelligence must be omnipotent or
+omniscient. Superintelligence does not mean that an AI can instantly
+predict how events worldwide will unfold in the far future, nor that the
+system can completely predict the actions of all other agents with
+perfect accuracy. Likewise, it does not mean that the ASI could
+instantly overpower humanity. Moreover, many problems cannot be solved
+by intelligence or contemplation alone; research and development require
+real-world experimentation, which involves physical-world processes that
+take a long time, presenting a key constraint to AIs’ ability to
+influence the world. However, we know very little about what a system
+that is significantly smarter than humans could do. Therefore, it is
+difficult to make confident claims about superintelligence.</p>
+<p><strong>Intelligence beyond human understanding.</strong> A
+superintelligent AI would significantly outstrip human capabilities,
+potentially solving problems and making discoveries beyond our
+comprehension. Of course, this is not exclusive to superintelligence:
+even narrow AIs solve problems humans find difficult to understand.
+AlphaFold, for instance, astonished scientists by predicting the 3D
+structure of proteins—a complex problem that stumped biochemists for
+decades. Ultimately, a superintelligence exceeds these other types of AI
+in the degree to which it exceeds human abilities across a variety of
+cognitive tasks.</p>
+<h3 id="summary">Summary</h3>
+<p>This section provided an introduction to artificial intelligence
+(AI), the broad umbrella that encompasses the area of computer science
+focused on creating machines that perform tasks typically associated
+with human intelligence. First, we discussed the nuances and
+difficulties of defining AI and detailed its history. Then, we explored
+AI systems in more detail and how they are often categorized into
+different types. Of these, we surveyed the five most common—narrow AI,
+human-level AI, artificial general intelligence, transformative AI, and
+superintelligence—and saw how specificity is often the best way to
+evaluate AIs. Considering specific capabilities and individual systems
+rather than broad categories or abstractions is far more
+informative.<p>
+Next, we will narrow our focus to machine learning (ML), an approach
+within AI that emphasizes the development of systems that can learn from
+data. Whereas many classical approaches to AI relied on logical rules
+and formal, structured knowledge, ML systems use pattern recognition to
+extract information from data.</p>
+<h2 id="machine-learning">2.2.3 Machine Learning</h2>
+<h3 id="overview-and-definition">Overview and Definition</h3>
+<p>Machine learning (ML) is a subfield of AI that focuses on developing
+computer systems that can learn directly from data without following
+explicit pre-set instructions <span class="citation"
+data-cites="Bishop2006 Murphy2022">[15], [16]</span>. It accomplishes
+this by creating computational models that discern patterns and
+correlations within data. The knowledge encoded in these models allows
+them to inform decision-making or to reason about and act in the world.
+For instance, an email spam filter uses ML to improve its ability to
+distinguish spam from legitimate emails as it sees more examples. ML is
+the engine behind most modern AI applications, from personalized
+recommendations on streaming services to autonomous vehicles. One of the
+most popular and influential algorithmic techniques for ML applications
+is deep learning (DL), which uses deep neural networks to process
+data.</p>
+<p><strong>Machine learning algorithms.</strong> An <em>algorithm</em>
+is a recipe for getting something done—a procedure for solving a problem
+or accomplishing a task, often expressed in a precise programming
+language. Machine learning (ML) models are algorithms designed to learn
+from data by identifying patterns and relationships, which enables them
+to make predictions or decisions as they process new inputs. They often
+learn from information called training data. What makes ML models
+different from other algorithms is that they automatically learn
+patterns in data without explicit task-specific instructions. Instead,
+they identify correlations, dependencies, or relationships in the data
+and use this information to make predictions or decisions about new
+data; for instance, a content curation application may use ML algorithms
+to refine its recommendations.</p>
+<p><strong>Benefits of ML.</strong> One of the key benefits of ML is its
+ability to automate complicated tasks, enabling humans to focus on other
+activities. Developers use ML for applications from medical diagnosis
+and autonomous vehicles to financial forecasting and writing. ML is
+becoming increasingly important for businesses, governments, and other
+organizations to stay competitive and make empirically informed
+decisions.</p>
+<p><strong>Guidelines for understanding ML models.</strong> ML models
+can be intricate and varied, making understanding their characteristics
+and distinctions a challenge. It can be helpful to focus on key
+high-level aspects that almost all ML systems have:</p>
+<ul>
+<li><p><strong>General Task: What is the primary goal of the ML
+model?</strong> We design models to achieve objectives. Some example
+tasks are predicting housing prices, generating images or text, or
+devising strategies to win a game.</p></li>
+<li><p><strong>Inputs: What data does the ML system receive?</strong>
+This is the information that the model processes to deliver its
+results.</p></li>
+<li><p><strong>Outputs: What does the ML system produce?</strong> The
+model generates these results, predictions, or decisions based on the
+input data.</p></li>
+<li><p><strong>Type of Machine Learning: What technique is used to
+accomplish the task?</strong> This describes how the model converts its
+inputs into outputs (called inference), and learns the best way to
+convert its inputs into outputs (a learning process called training). An
+ML system can be categorized by how it uses training data, what type of
+output it generates, and how it reaches results.</p></li>
+</ul>
+<p>The rest of this section delves deeper into these aspects of ML
+systems.</p>
+<h3 id="key-ml-tasks">Key ML Tasks</h3>
+<p>In this section, we will explore four fundamental ML
+tasks—classification, regression, anomaly detection, and sequence
+modeling—that describe different problems or types of problems that ML
+models are designed to solve.</p>
+<p><strong><em>Classification</em></strong></p>
+<p><strong>Classification is predicting categories or classes.</strong>
+In classification tasks, models use characteristics or <em>features</em>
+of an input data point (example) to determine which specific category
+the data point belongs to. In medical diagnostics, a classification
+model might predict whether a tumor is cancerous or benign based on
+features such as a patient’s age, tumor size, and tobacco use. This is
+an example of <em>binary classification</em>—the special case in which
+models predict one of two categories. <em>Multi-class
+classification</em>, on the other hand, involves predicting one of
+multiple categories. An image classification model might classify an
+image as belonging to one of multiple different classes such as dog,
+cat, hat, or ice cream. <em>Computer vision</em> often applies these
+methods to enable computers to interpret and understand visual data from
+the world. Classification is categorization: it involves putting data
+points into buckets.
+<figure id="fig:example-binary-class">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png"
+         class="tb-img-full" style="width: 70%; "/>
+    <p class="tb-caption">Figure 2.1: ML models can classify data into different categories. <span
+class="citation" data-cites="drouin2017class">[17]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/binary_classification_v2.png" />-->
+<!--<figcaption>ML models can classify data into different categories. <span-->
+<!--class="citation" data-cites="drouin2017class">[17]</span></figcaption>-->
+</figure>
+<p><strong>The sigmoid function produces probabilistic outputs.</strong>
+A sigmoid is one of several mathematical functions used in
+classification to transform general real numbers into values between 0
+and 1. Suppose we wanted to predict the likelihood that a student will
+pass an exam or that a prospective borrower will default on a loan. The
+sigmoid function is instrumental in settings like these—problems that
+rely on computing probabilities. As a further example, in binary
+classification, one might use a function like the sigmoid to estimate
+the likelihood that a customer makes a purchase or clicks on an
+advertisement. However, it is important to note that other widely used
+models can provide similar probabilistic outputs without employing a
+sigmoid function.<p>
+</p>
+<figure id="fig:logistic-classification">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" class="tb-img-full" style="width: 70%; ">
+            <p class="tb-caption">Figure 2.2: Example of binary classification with a sigmoid-like
+logistic curve - <span class="citation"
+data-cites="wikipedia-logistic">[18]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/logistic_regression_v2.png" />-->
+<!--<figcaption>Example of binary classification with a sigmoid-like-->
+<!--logistic curve - <span class="citation"-->
+<!--data-cites="wikipedia-logistic">[18]</span></figcaption>-->
+</figure>
+<p><strong><em>Regression</em></strong></p>
+<p><strong>Regression is predicting numbers.</strong> In regression
+tasks, models use features of input data to predict numerical outputs. A
+real estate company might use a regression model to predict house prices
+from a dataset with features such as location, square footage, and
+number of bedrooms. While classification models produce
+<em>discrete</em> outputs that place inputs into a finite set of
+categories, regression models produce <em>continuous</em> outputs that
+can assume any value within a range. Therefore, regression is predicting
+a continuous output variable based on one or more input variables.
+Regression is estimation: it involves guessing what a feature of a data
+point will be given the rest of its characteristics.</p>
+<figure id="fig:simple_regression">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" class="tb-img-full" style="width: 70%; "/>
+    <p class="tb-caption">Figure 2.3: This linear regression model is the best linear predictor of an output (umbrellas sold)
+using only information from the input (precipitation). - <span class="citation"
+data-cites="drouin2017class">[17]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/linear_regression_v2.png" />-->
+<!--<figcaption>Example regression plot - <span class="citation"-->
+<!--data-cites="drouin2017class">[17]</span></figcaption>-->
+</figure>
+<p><strong>Linear regression.</strong> One type of regression, linear
+regression, assumes a linear relationship between features and predicted
+values for a target variable. A linear relationship means that the
+output changes at a constant rate with respect to the input variables,
+such that plotting the input-output relationship on a graph forms a
+straight line. Linear regression models are often helpful but have many
+limitations; for instance, their assumption that the features and the
+target variable are linearly related is often false. In general, linear
+regression can struggle with modeling complicated data patterns in the
+real world since they are roughly only as complex as their input
+variables and struggle to add additional structures themselves.</p>
+<p><strong><em>Anomaly Detection</em></strong></p>
+<p><strong>Anomaly detection is the identification of outliers or
+abnormal data points <span class="citation"
+data-cites="hendrycks2018baseline">[19]</span>.</strong> Anomaly
+detection is vital in identifying hazards, including unexpected inputs,
+attempted cyberattacks, sudden behavioral shifts, and unanticipated
+failures. Early detection of anomalies can substantially improve the
+performance of models in real-world situations.</p>
+<figure>
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter.png"
+         class="tb-img-full" style="width: 75%"/>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_scatter_v2.png"-->
+<!--style="width:50.0%" />-->
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/anomaly_time_v2.png"
+         class="tb-img-full" style="width: 75%"/>
+    <p class="tb-caption">Figure 2.4: The first graph shows the detection of atypical user activity. The second graph shows the
+detection of unusually high energy usage. In both cases, the model detects anomalies. <span class="citation"
+data-cites="hendrycks-anomaly">[20]</span></p>
+</figure>
+<p><strong>Black swan detection is an essential problem within anomaly
+detection.</strong> Black swans are unpredictable and rare events with a
+significant impact on the broader world. These events are difficult to
+predict because they may not have happened before, so they are not
+represented in the training data that ML models use to extrapolate the
+future. Due to their extreme and uncommon nature, such events make
+anomaly detection challenging. In the Black Swans section in the Safety Engineering chapter, we discuss these ideas in more detail.</p>
+<p><strong><em>Sequence Modeling</em></strong></p>
+<p><strong>Sequence modeling is analyzing and predicting patterns in
+sequential data.</strong> Sequence modeling is a broadly defined task
+that involves processing or predicting data where temporal or sequential
+order matters. It may be applied to time-series data or natural language
+text to capture dependencies between items in the sequence to forecast
+future elements. An integral part of this process is <em>representation
+learning</em>, where models learn to convert raw data into more
+informative formats for the task at hand. Language models use these
+techniques to predict subsequent words in a sequence, transforming
+previous words into meaningful representations to detect patterns and
+make predictions. There are several major subtypes of sequence modeling.
+Here, we will discuss two: <em>generative modeling</em> and
+<em>sequential decision-making</em>.<p>
+<em>Generative modeling.</em> Generative modeling is a subtype of
+sequence modeling that creates new data that resembles the input data,
+thereby drawing from the same distribution of features (conditioned on
+specific inputs). It can generate new outputs from many input types,
+such as text, code, images, and protein sequences.<p>
+<em>Sequential decision-making (SDM).</em> SDM equips a model with the
+capability to make informed choices over time, considering the dynamic
+and uncertain nature of real-world environments. An essential feature of
+SDM is that prior decisions can shape later ones. Related to SDM is
+<em>reinforcement learning (RL)</em>, where a model learns to make
+decisions by interacting with its environment and receiving feedback
+through rewards or penalties. An example of SDM in complex, real-world
+tasks is a robot performing a sequence of actions based on its current
+understanding of the environment.</p>
+<h3 id="types-of-input-data">Types of Input Data</h3>
+<p>In machine learning, a <em>modality</em> refers to how data is
+collected or represented—the type of input data. Some models, such as
+image recognition models, use only one type of input data. In contrast,
+<em>multimodal</em> systems integrate information from multiple
+modalities (such as images and text) to improve the performance of
+learning-based approaches. Humans are naturally multimodal, as we
+experience the world by seeing objects, hearing sounds, feeling
+textures, smelling odors, tasting flavors, and more.<p>
+Below, we briefly describe the significant modalities in ML. However,
+this list is not exhaustive. Many specific types of inputs, such as data
+from physical sensors, fMRI scans, topographic maps, and so on, do not
+fit easily into this categorization.</p>
+<ul>
+<li><p><strong>Tabular data</strong>: Structured data is stored in rows
+and columns, usually with each row corresponding to an observation and
+each column representing a variable in the dataset. An example is a
+spreadsheet of customer purchase histories.</p></li>
+<li><p><strong>Text data</strong>: Unstructured textual data in natural
+language, code, or other formats. An example is a collection of posts
+and comments from an online forum.</p></li>
+<li><p><strong>Image data</strong>: Digital representations of visual
+information that can train ML models to classify images, segment images,
+or perform other tasks. An example is a database of plant leaf images
+for identifying species of plants.</p></li>
+<li><p><strong>Video data</strong>: A sequence of visual information
+over time that can train ML models to recognize actions, gestures, or
+objects in the footage. An example is a collection of sports videos for
+analyzing player movements.</p></li>
+<li><p><strong>Audio data</strong>: Sound recordings, such as speech or
+music. An example is a set of voice recordings for training speech
+recognition models.</p></li>
+<li><p><strong>Time-series data</strong>: Data collected over time that
+represents a sequence of observations or events. An example is
+historical stock price data.</p></li>
+<li><p><strong>Graph data</strong>: Data representing a network or graph
+structure, such as social networks or road networks. An example is a
+graph that represents user connections in a social network.</p></li>
+<li><p><strong>Set-valued data</strong>: Unstructured data in the form
+of collections of features or input vectors. An example is point clouds
+obtained from LiDAR sensors.</p></li>
+</ul>
+<h3 id="components-of-the-ml-pipeline">Components of the ML
+Pipeline</h3>
+<p>An <em>ML pipeline</em> is a series of interconnected steps in
+developing a machine learning model, from training it on data to
+deploying it in the real world. Next, we will examine these steps in
+turn.</p>
+<p><strong>Data collection.</strong> The first step in building an ML
+model is data collection. Data can be collected in various ways, such as
+by purchasing datasets from owners of data or scraping data from the
+web. The foundation of any ML model is the dataset used to train it: the
+quality and quantity of data are essential for accurate predictions and
+performance.</p>
+<p><strong>Selecting features and labels.</strong> After the data is
+collected, developers of ML models must choose what they want the model
+to do and what information to use. In ML, a <em>feature</em> is a
+specific and measurable part of the data used to make predictions or
+classifications. Most ML models focus on prediction. When predicting the
+price of a house, features might include the number of bedrooms, square
+footage, and the age of the house. Part of creating an ML model is
+selecting, transforming, or creating the most relevant features for the
+problem. The quality and type of features can significantly impact the
+model’s performance, making it more or less accurate and efficient.</p>
+<p><strong>ML aims to predict labels.</strong> A <em>label</em> (or a
+<em>target</em>) is the value we want to predict or estimate using the
+features. Labels in training data are only present in supervised ML
+tasks, discussed later in this section. Some models use a sample with
+correct labels to teach the model the output for a given set of input
+features: a model could use historical data on housing prices to learn
+how prices are related to features like square footage. However, other
+(unsupervised) ML models learn to make predictions using unlabelled
+input data—without knowing the correct answers—by identifying patterns
+instead.</p>
+<p><strong>Choosing an ML architecture.</strong> After ML model
+developers have collected the data and chosen a task, they can process
+it. An ML <em>architecture</em> refers to a model’s overall structure
+and design. It can include the type and configuration of the algorithm
+used and the arrangement of input and output layers. The architecture of
+an ML model shapes how it learns from data, identifies patterns, and
+makes predictions or decisions.</p>
+<p><strong>ML models have parameters.</strong> Within an architecture,
+<em>parameters</em> are adjustable values within the model that
+influence its performance. In the house pricing example, parameters
+might include the weights assigned to different features of a house,
+like its size or location. During training, the model adjusts these
+weights, or parameters, to minimize the difference between its predicted
+house prices and the actual prices. The optimal set of parameters
+enables the model to make the best possible predictions for unseen data,
+generalizing from the training dataset.</p>
+<p><strong>Training and using the ML model.</strong> Once developers
+have built the model and collected all necessary data, they can begin
+training and applying it. ML model <em>training</em> is adjusting a
+model’s parameters based on a dataset, enabling it to recognize patterns
+and make predictions. During training, the model learns from the
+provided data and modifies its parameters to minimize errors.</p>
+<p><strong>Model performance can be evaluated</strong> Model
+<em>evaluation</em> measures the performance of the trained model by
+testing it on data the model has never encountered before. Evaluating
+the model on unseen data helps assess its generalizability and
+suitability for the intended problem. We may try to predict housing
+prices for a new country beyond the original ML model’s original
+training data.</p>
+<p><strong>Once ready, models are deployed.</strong> Finally, once the
+model is trained and evaluated, it can be deployed in real-world
+applications. ML <em>deployment</em> involves integrating the model into
+a larger system, using it, and then maintaining or updating it as
+needed.</p>
+<h3 id="evaluating-ml-models">Evaluating ML Models</h3>
+<p>Evaluation is a crucial step in model development. When developing a
+machine learning model, it is essential to understand its performance.
+Evaluation—the process of measuring the performance of a trained model
+on new, unseen data—provides insight into how well the model has
+learned. We can use different metrics to understand a model’s strengths,
+weaknesses, and potential for real-world applications. These
+quantitative performance measures are part of a broader context of goals
+and values that inform how we can assess the quality of a model.</p>
+<p><strong><em>Metrics</em></strong></p>
+<p><strong>Accuracy is a measure of the overall performance of a
+classification model.</strong> Accuracy is defined as the percentage of
+correct predictions: <span class="math display">$$\text{Accuracy} =
+\frac{\# \text{ of correct predictions}}{\# \text{ of total predictions}}.$$</span> Accuracy can be misleading if there is an
+imbalance in the number of examples of each class. For instance, if 95%
+of emails received are not spam, a classifier assigning all emails to
+the “not spam” category could achieve 95% accuracy. Accuracy applies
+when there is a well-defined sense of right and wrong. Regression models
+focus on minimizing the error in their predictions.</p>
+<p><strong>Confusion matrices summarize the performance of
+classification algorithms.</strong> A confusion matrix is an evaluative
+tool for displaying different prediction errors. It is a table that
+compares a model’s predicted values with the actual values. For example,
+the performance of a binary classifier can be represented by a <span
+class="math inline">2 × 2</span> confusion matrix, as shown in Figure 2.5. In this context, when
+making predictions, there are four possible outcomes:</p>
+<ol>
+<li><p><strong>True positive (TP)</strong>: A true positive is a correct
+prediction of the positive class.</p></li>
+<li><p><strong>False positive (FP)</strong>: A false positive is an
+incorrect prediction of the positive class, predicting positive instead
+of negative.</p></li>
+<li><p><strong>True negative (TN)</strong>: A true negative is a correct
+prediction of the negative class.</p></li>
+<li><p><strong>False negative (FN)</strong>: A false negative is an
+incorrect prediction of the negative class, predicting negative instead
+of positive.</p></li>
+</ol>
+<figure id="fig:confusion-matrix">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/predicted-actual-green-purple.png"
+     class="tb-img-full" style="width: 80%" />
+    <p class="tb-caption">Figure 2.5: A confusion matrix shows the four possible outcomes from a prediction: true positive,
+false positive, false negative, and true negative.</p>
+<!--<figcaption>Confusion matrix</figcaption>-->
+</figure>
+<p>Since each prediction must be in one of these categories, the number
+of total predictions will be the sum of the number of predictions in
+each category. The number of correct predictions will be the sum of true
+positives and true negatives. Therefore, <span
+class="math display">$$\text{Accuracy} = \frac{\text{TP} +
+\text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}}$$</span></p>
+<p><strong>False positives vs. false negatives.</strong> The impact of
+false positives and false negatives can vary greatly depending on the
+setting. Which metric to choose depends on the specific context and the
+error types one most wants to avoid. In cancer detection, while a false
+positive (incorrectly identifying cancer in a cancer-free patient) may
+cause emotional distress, unnecessary further testing, and potentially
+invasive procedures for the patient, a false negative can be much more
+dangerous: it may delay diagnosis and treatment that allows cancer to
+progress, reducing the patient’s chances of survival. By contrast, an
+autonomous vehicle with a water sensor that senses roads are wet when
+they are dry (predicting false positives) might slow down and drive more
+cautiously, causing delays and inconvenience, but one that senses the
+road is dry when it is wet (false negatives) might end up in serious
+road accidents and cause fatalities.<p>
+While accuracy assigns equal cost to false positives and false
+negatives, other metrics isolate one or weigh the two differently and
+might be more appropriate in some settings. <em>Precision</em> and
+<em>recall</em> are two standard metrics that measure the extent of the
+error attributable to false positives and false negatives,
+respectively.<p>
+<em>Precision measures the correctness of a model’s positive
+predictions.</em> This metric represents the fraction of positive
+predictions that are actually correct. It is calculated as <span
+class="math inline">$$\frac{\text{TP}}{\text{TP} + \text{FP}}$$</span>,
+dividing true positives (hits) by the sum of true positives and false
+positives. High precision implies that when a model predicts a positive
+class, it is usually correct—but it might incorrectly classify many
+positives as negatives as well. Precision is like the model’s aim: when
+the system says it hit, how often is it right?<p>
+<em>Recall measures a model’s breadth.</em> On the other hand, recall
+measures how good a model is at finding all of the positive examples
+available. It is like the model’s net: how many real positives does it
+catch? It is calculated as <span
+class="math inline">$$\frac{\text{TP}}{\text{TP}+\text{FN}}$$</span>,
+signifying the fraction of real positives that the model successfully
+detected. High recall means a model is good at recognizing or
+“recalling” positive instances, but not necessarily that these
+predictions are accurate. Therefore, a model with high recall may
+incorrectly classify many negatives as positives.<p>
+In simple terms, precision is about a model being right when it makes a
+guess, and recall is about the model finding as many of the right
+answers as possible. Together, these two metrics provide a way to
+quantify how accurately and effectively a model can detect positive
+examples. Moreover, there is a trade-off between precision and recall:
+for a given model, increasing precision will necessarily decrease recall
+and vice versa.<p>
+</p>
+<figure id="fig:precision-recall">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/true-false-positives-green-purple.png"
+     class="tb-img-full" style="width:80%"/>
+    <p class="tb-caption">Figure 2.6: Precision measures the correctness of positive predictions and penalizes false positives,
+while recall measures how many positives are detected and penalizes false negatives. <span
+        class="citation"
+        data-cites="wikipedia-precision">[21]</span>
+    </p>
+<!--<figcaption>Visualization of precision and recall - <span-->
+<!--class="citation"-->
+<!--data-cites="wikipedia-precision">[21]</span></figcaption>-->
+</figure>
+<p><strong>AUROC scores measure a model’s discernment.</strong> The
+AUROC (Area Under the Receiver Operating Characteristic) score measures
+how well a classification model can distinguish between different
+classes. The ROC curve shows the performance of a classification model
+by plotting the rate of true positives against false positives as
+thresholds in a model are changed. AUROC scores range from zero to one,
+where a score of 50% indicates random-chance performance and 100%
+indicates perfect performance. To determine whether examples are
+positive (belong to a certain class) or negative (do not belong to a
+certain class), a classification model will assign a score to each
+example and compare that score to a threshold or benchmark value. We can
+interpret the AUROC as the probability that a positive example scores
+higher than a negative example.<p>
+</p>
+<figure id="fig:AUROC">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" class="tb-img-full" style="width: 60%;" />
+    <p class="tb-caption">Figure 2.7: The area under the ROC curve (AUROC) increases as it moves in the northwest direction,
+with more true positives and fewer false positives. <span class="citation"
+data-cites="wikipedia-roccurve">[22]</span></p>
+<!--<embed src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/roc_curve_v2.png" />-->
+<!--<figcaption>The AUROC score increases as it moves in the northwest-->
+<!--direction. <span class="citation"-->
+<!--data-cites="wikipedia-roccurve">[22]</span></figcaption>-->
+</figure>
+<p>Since it considers performance at all possible decision thresholds,
+the AUROC is useful for comparing the performance of different
+classifiers. The AUROC is also helpful in cases of imbalanced data, as
+it does not depend on the ratio of positive to negative examples.</p>
+<p><strong>Mean squared error (MSE) quantifies how “wrong” a model’s
+predictions are.</strong> Mean squared error is a valuable and popular
+metric of prediction error. It is found by taking the average of the
+squared differences between the model’s predictions and the labels,
+thereby ensuring that positive and negative deviations from the truth
+are penalized the same and that larger mistakes are penalized heavily.
+The MSE is the most popular loss function for regression problems.</p>
+<p><strong>Reasonably vs. reliably solved.</strong> The distinction
+between <em>reasonable</em> and <em>reliable</em> solutions can be
+instrumental in developing a machine learning model, evaluating its
+performance, and thinking about tradeoffs between goals. A task is
+reasonably solved if a model performs well enough to be helpful in
+practice, but it may still have consistent limitations or make errors. A
+task is reliably solved if a model achieves sufficiently high accuracy
+and consistency for safety-critical applications. While models that
+reasonably solve problems may be sufficient in some settings, they may
+cause harm in others. Chatbots currently give reasonable results, which
+is frustrating but essentially harmless. However, if autonomous vehicles
+show reasonable but not reliable results, people’s lives are at
+stake.</p>
+<p><strong>Goals and Tradeoffs.</strong> Above and beyond quantitative
+performance measures are multiple goals and values that influence how we
+can assess the quality of a machine learning model. These goals—and the
+tradeoffs that often arise between them—shape how models are judged and
+developed.<p>
+One such goal is <em>predictive power</em>, which measures the amount of
+error in predictions. Inference <em>time</em> (or <em>latency</em>)
+measures how quickly a machine learning model can produce results from
+input data—in many applications, such as self-driving cars, prediction
+speed is crucial. <em>Transparency</em> refers to the interpretability
+of a machine learning model’s inner workings and how well humans can
+understand its decision-making process. <em>Reliability</em> assesses
+the consistency of a model’s performance over time and in varying
+conditions. <em>Scalability</em> is the capacity of a model to maintain
+or improve its performance as a key variable—compute, parameter count,
+dataset size, and so on—–scales.<p>
+Sometimes, these goals are in opposition, and improvements in one area
+can come at the cost of declines in others. Therefore, developing a
+machine learning model requires careful consideration of multiple
+competing goals.</p>
+<h2 id="types-of-machine-learning">2.2.4 Types of Machine Learning</h2>
+<p><strong>One key dimension along which ML approaches vary is the
+degree of supervision.</strong> We can divide ML approaches into groups
+based on how they use the training data and what they produce as an
+output. In ML, <em>supervision</em> is the process of guiding a model’s
+learning with some kind of label. The model uses this label as a kind of
+<em>ground truth</em> or <em>gold standard</em>: a signal that can be
+trusted as accurate and used to supervise the model to achieve the
+intended results better. Labels can allow the model to capture
+relationships between inputs and their corresponding outputs more
+effectively. Supervision is often vital to help models learn patterns
+and predict new, unseen data accurately.<p>
+There are distinct approaches in machine learning for dealing with
+different amounts of supervision. Here, we will explore three key
+approaches: supervised, unsupervised, and reinforcement learning. We
+will also discuss deep learning, a set of techniques that can be applied
+in any of these settings.<p>
+</p>
+<figure id="fig:learning-paradigm">
+    <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" class="tb-img-full" style="width:95%;"/>
+    <p class="tb-caption">Figure 2.8: The three main types of learning paradigms in machine learning are supervised learning,
+unsupervised learning, and reinforcement learning.</p>
+<!--<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/learning_paradigms.png" />-->
+<!--<figcaption>Learning paradigms in machine learning </figcaption>-->
+</figure>
+<p><strong><em>Supervised Learning</em></strong></p>
+<p><strong>Supervised learning is learning from labeled data.</strong>
+Supervised learning is a type of machine learning that uses a labeled
+dataset to learn the relationship between input data and output labels.
+These labels are almost always human-generated: people will go through
+examples in a dataset and give each one a label. They might be shown
+pictures of dogs and asked to label the breed. The training process
+involves iteratively adjusting the model’s parameters to minimize the
+difference between predicted outputs and the true output labels in the
+training data. Once trained, the model can predict new, unlabeled
+data.</p>
+<p><strong>Examples of supervised learning.</strong> Some examples of
+these labeled inputs and outputs include mapping a photo of a plant to
+its species, a song to its genre, or an email to either “spam” or “not
+spam.” A computer can use a set of dog pictures labeled by humans to
+predict the breed of any dog in any given image. Supervised learning is
+analogous to a practice book, which offers a student a series of
+questions (inputs) and then provides the answers (outputs) at the end of
+the book. This book can help the student (like an ML model) find the
+correct answers when given new questions. Without instruction or
+guidance, the student must learn to answer questions correctly by
+reviewing the problems and checking their answers. Over time, they learn
+and improve through this checking process.</p>
+<p><strong>Advantages and disadvantages.</strong> Supervised learning
+can excel in classification and regression tasks. Furthermore, it can
+result in high accuracy and reliable predictions when given large,
+labeled datasets with well-defined features and target variables.
+However, this method performs poorly on more loosely defined tasks, such
+as generating poems or new images. Supervision may also require manual
+labeling for the training process, which can be prohibitively
+time-consuming and costly. Critically, supervised learning is
+bottlenecked by the amount of labels, which can often result in less
+data available than when using unsupervised learning.</p>
+<p><strong><em>Unsupervised Learning</em></strong></p>
+<p><strong>Unsupervised learning is learning from unlabeled
+data.</strong> Unsupervised learning involves training a model on a
+dataset without specific output labels. Instead of matching its inputs
+to the correct labels, the model must identify patterns within the data
+to help it understand the underlying relationships between the
+variables. As no labels are provided, a model is left to its own devices
+to discover valuable patterns in the data. In some cases, a model
+leverages these patterns to generate supervisory signals, guiding its
+own training. For this reason, unsupervised learning can also be called
+self-supervised learning.</p>
+<p><strong>Examples of unsupervised learning.</strong> Language models
+use unsupervised learning to learn patterns in language using large
+datasets of unlabeled text. LLMs often learn to predict the next word in
+a sentence, which enables the models to understand context and language
+structure without explicit labels like word definitions and grammar
+instructions. After a model trains on this task, it can apply what it
+learned to downstream tasks like answering questions or summarizing
+texts. In image inpainting, models are trained to predict portions of
+images in which information is missing or covered up. This allows the
+model to learn visual features and relationships between objects that
+can be used to generate new images.</p>
+<figure id="fig:inpainting">
+<img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/images/information-13-00071-g001.png"
+class="tb-img-full" style="width: 80%"/>
+    <p class="tb-caption">Figure 2.9: In image inpainting, models are trained to predict hidden parts of images, causing them
+to learn relationships between pixels. <span class="citation"
+data-cites="luo2022">[23]</span></p>
+<!--<figcaption>Image inpainting - <span class="citation"-->
+<!--data-cites="elharrouss2019">[23]</span></figcaption>-->
+</figure>
+<p><strong>ML models exist on a spectrum of supervision.</strong>
+Unsupervised and supervised learning are valuable concepts for thinking
+about ML models, not a dichotomy with a clear dividing line. Therefore,
+ML models are on a continuum of supervision, from datasets with clear
+labels for every data point on one extreme to datasets with no labels on
+the other. In between lies partial or weak supervision, which provides
+incomplete or noisy labels such as hashtags loosely describing features
+of images. This is analogous to a practice book where some solution
+pages are excessively brief, have errors, or are omitted entirely.</p>
+<p><strong>We can reframe many tasks into different types of
+ML.</strong> Anomaly detection is typically framed as an unsupervised
+task that identifies unusual data points without labels. However, it can
+be refashioned as a supervised classification problem, such as labeling
+financial transactions as “fraudulent” or “not fraudulent.” Similarly,
+while stock price prediction is usually approached as a supervised
+regression task, it could be reframed as a classification task in which
+a model predicts whether a stock price will increase or decrease. The
+choice in framing depends on the task’s specific requirements, the data
+available, and which frame gives a more useful model. Ultimately, this
+flexibility allows us to better cater to our goals and problems.</p>
+<p><strong><em>Reinforcement Learning</em></strong></p>
+<p><strong>Reinforcement learning (RL) is learning from agent-gathered
+data.</strong> Reinforcement learning focuses on training artificial
+agents to make decisions and improve their performance based on
+responses from their environment. It assumes that tasks can be modeled
+as goals to be achieved by an agent maximizing rewards from its
+environment. RL is distinctive since it does not require pre-collected
+data, as the agent can begin with no information and interact with its
+environment to learn new things and acquire new data.</p>
+<p><strong>Examples of RL.</strong> RL can help robots learn to navigate
+an unknown environment by taking actions and receiving feedback in the
+form of rewards or penalties based on performance. Through trial and
+error, agents learn to make better decisions and maximize rewards by
+adjusting their actions or improving their model of the environment. It
+refines its strategy based on the consequences of its activities. RL
+enables agents to learn techniques and decision-making skills through
+interaction with their environment, which can adapt to dynamic and
+uncertain situations. However, it requires a well-designed reward
+function and can be computationally expensive, especially for complex
+environments with many possibilities for states and actions.</p>
+<p><strong><em>Deep Learning</em></strong></p>
+<p><strong>Deep learning (DL) is a set of techniques that can be used in
+many learning settings.</strong> Deep learning uses neural networks with
+many layers to create models that can learn from large datasets.
+<em>Neural networks</em> are the building blocks of deep learning models
+and use layers of interconnected nodes to transform inputs into outputs.
+The structure and function of biological neurons loosely inspired their
+design. Deep learning is not a new distinct learning type but rather a
+computational approach that can accomplish any of the three types of
+learning discussed above. It is most applicable to unsupervised learning
+tasks as it can perform well without any labels; for instance, a deep
+neural network trained for object recognition in images can learn to
+identify patterns in the raw pixel data.</p>
+<p><strong>Advantages and challenges in DL.</strong> Deep learning
+excels in handling high-dimensional and complex data, providing critical
+capabilities in image recognition, natural language processing, and
+generative modeling. In ML, <em>dimensionality</em> denotes the number
+of features or variables in the data, each representing a unique
+dimension. High-dimensional data has many features, as in image
+recognition, where each pixel can be a feature. However, deep learning
+also requires vast data and substantial computational power. Moreover,
+the models can be challenging to interpret.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>AI is one of the most impactful and rapidly developing fields of
+computer science. Artificial intelligence involves developing computer
+systems that can perform tasks that typically require human
+intelligence, from visual perception to decision-making.<p>
+Machine learning is an approach to AI that involves developing models
+that can learn from data to perform tasks without being explicitly
+programmed. A robust approach to understanding any machine learning
+model is breaking it down into its fundamental components: the task, the
+input data, the output, and the type of machine learning it uses.
+Different approaches to ML offer various ways to tackle complex tasks
+and solve real-world problems. Deep learning is a powerful and popular
+method that uses many-layered neural networks to identify intricate
+patterns in large datasets. The following section will delve deeper into
+deep learning and its applications in artificial intelligence.</p>
+
+<br>
+<br>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-Russell2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] S.
+J. Russell and P. Norvig, <span>“Artificial intelligence: A modern
+approach.”</span> 2020.</div>
+</div>
+<div id="ref-Legg2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] S.
+Legg and M. Hutter, <span>“Universal intelligence: A definition of
+machine intelligence.”</span> <em>Minds and Machines</em>, vol. 17, pp.
+391–444, 2007.</div>
+</div>
+<div id="ref-Turing1950" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] A.
+M. Turing, <span>“Computing machinery and intelligence,”</span>
+<em>Mind</em>, vol. 59, pp. 433–460, 1950.</div>
+</div>
+<div id="ref-rosenblatt1958perceptron" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[4] F.
+Rosenblatt, <span>“<span class="nocase">The perceptron: A probabilistic
+model for information storage and organization in the
+brain.</span>”</span> <em>Psychological Review</em>, vol. 65, no. 6, pp.
+386–408, 1958, doi: <a
+href="https://doi.org/10.1037/h0042519">10.1037/h0042519</a>.</div>
+</div>
+<div id="ref-campbell2002deep" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] M.
+Campbell, A. J. Hoane Jr, and F. Hsu, <span>“Deep blue,”</span>
+<em>Artificial intelligence</em>, vol. 134, no. 1–2, pp. 57–83,
+2002.</div>
+</div>
+<div id="ref-Koller2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] D.
+Koller and N. Friedman, <em>Probabilistic graphical models: Principles
+and techniques.</em> MIT Press, 2009.</div>
+</div>
+<div id="ref-Breiman2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] L.
+Breiman, <span>“Random forests,”</span> <em>Machine Learning</em>, vol.
+20, pp. 273–297, 1995, Available: <a
+href="https://doi.org/10.1023/a:1010933404324">https://doi.org/10.1023/a:1010933404324</a></div>
+</div>
+<div id="ref-Friedman2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] J.
+H. Friedman, <span>“Greedy function approximation: A gradient boosting
+machine.”</span> <em>The Annals of Statistics</em>, vol. 29, pp.
+1189–232, 2001, Available: <a
+href="http://www.jstor.org/stable/2699986">http://www.jstor.org/stable/2699986</a></div>
+</div>
+<div id="ref-Cortes1995" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] C.
+Cortes and V. Vapnik, <span>“Support-vector networks.”</span>
+<em>Machine learning</em>, vol. 20.</div>
+</div>
+<div id="ref-deng2009imagenet" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] J.
+Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei,
+<span>“ImageNet: A large-scale hierarchical image database,”</span> in
+<em>2009 IEEE conference on computer vision and pattern
+recognition</em>, 2009, pp. 248–255. doi: <a
+href="https://doi.org/10.1109/CVPR.2009.5206848">10.1109/CVPR.2009.5206848</a>.</div>
+</div>
+<div id="ref-krizhevsky2012advances" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] A.
+Krizhevsky, I. Sutskever, and G. E. Hinton, <span>“ImageNet
+classification with deep convolutional neural networks,”</span> in
+<em>Advances in neural information processing systems</em>, F. Pereira,
+C. J. Burges, L. Bottou, and K. Q. Weinberger, Eds., Curran Associates,
+Inc., 2012. Available: <a
+href="https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf</a></div>
+</div>
+<div id="ref-silver2016masteringgo" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] D.
+Silver <em>et al.</em>, <span>“Mastering the game of go with deep neural
+networks and tree search,”</span> <em>Nature</em>, vol. 529, pp.
+484–489, Jan. 2016, doi: <a
+href="https://doi.org/10.1038/nature16961">10.1038/nature16961</a>.</div>
+</div>
+<div id="ref-Radford2019LanguageMA" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] A.
+Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever,
+<span>“Language models are unsupervised multitask learners,”</span>
+2019. Available: <a
+href="https://api.semanticscholar.org/CorpusID:160025533">https://api.semanticscholar.org/CorpusID:160025533</a></div>
+</div>
+<div id="ref-Bostrom2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] N.
+Bostrom, <span>“<a href="">Superintelligence: Paths, dangers,
+strategies.</a>”</span> <em>Oxford University Press</em>, 2014.</div>
+</div>
+<div id="ref-Bishop2006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] C.
+M. Bishop, <span>“Pattern recognition and machine learning.”</span>
+2016.</div>
+</div>
+<div id="ref-Murphy2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] K.
+P. Murphy, <em>Probabilistic machine learning: An introduction.</em> MIT
+Press, 2022.</div>
+</div>
+<div id="ref-drouin2017class" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] A.
+Drouin and F. Laviolette, <span>“Classification vs regression.”</span>
+2017. Accessed: Sep. 28, 2023. [Online]. Available: <a
+href="https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png">https://github.com/aldro61/microbiome-summer-school-2017/blob/master/figures/figure.classification.vs.regression.png</a></div>
+</div>
+<div id="ref-wikipedia-logistic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] </div><div
+class="csl-right-inline">Canley, <span>“Probability of passing exam
+versus hours studying.”</span> 2022. Available: <a
+href="https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg">https://en.wikipedia.org/wiki/File:Exam_pass_logistic_curve.svg</a></div>
+</div>
+<div id="ref-hendrycks2018baseline" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] D.
+Hendrycks and K. Gimpel, <span>“A baseline for detecting misclassified
+and out-of-distribution examples in neural networks.”</span> 2018.
+Available: <a
+href="https://arxiv.org/abs/1610.02136">https://arxiv.org/abs/1610.02136</a></div>
+</div>
+<div id="ref-hendrycks-anomaly" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] D.
+Hendrycks, <span>“Anomaly and out-of-distribution detection.”</span>
+Available: <a
+href="https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0">https://docs.google.com/presentation/d/1WEzSFUbcl1Rp4kQq1K4uONMJHBAUWhCZTzWVHnLcSV8/edit#slide=id.g60c1429d79_0_0</a></div>
+</div>
+<div id="ref-wikipedia-precision" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] </div><div
+class="csl-right-inline">Walber, <span>“Precision recall.”</span> 2014.
+Available: <a
+href="https://en.wikipedia.org/wiki/File:Precisionrecall.svg">https://en.wikipedia.org/wiki/File:Precisionrecall.svg</a></div>
+</div>
+<div id="ref-wikipedia-roccurve" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] </div><div
+class="csl-right-inline">cmglee and M. Thoma, 2018. Available: <a
+href="https://commons.wikimedia.org/wiki/File:Roc_curve.svg">https://commons.wikimedia.org/wiki/File:Roc_curve.svg</a></div>
+</div>
+<div id="ref-luo2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] Haiyin Luo and Yuhui Zheng, <span>“Semantic Residual Pyramid Network for Image Inpainting,”</span> <em>Information</em>, vol.
+13, no. 2, pp. 2022.</div>
+</div>
+</div>
