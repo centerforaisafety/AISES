@@ -1,0 +1,38 @@
+<!-- Single Agent Safety -->
+
+<h1 id="introduction">3.1 Introduction</h1>
+<p>To understand the risks associated with artificial intelligence (AI),
+we begin by examining the challenge of making single agents safe. In this chapter, 
+we review core components of this challenge including monitoring, robustness, alignment and systemic safety.<p>
+<strong>Monitoring.</strong> To start, we discuss the problem of monitoring AI systems. The opaqueness of machine learning (ML) systems — 
+their ``black-box'' nature — hinders our ability to fully comprehend how they make decisions and what their 
+intentions, if any, may be. In addition, models may spontaneously develop qualitatively new and unprecedented
+ ``emergent'' capabilities as they become more advanced (for example, when we make them larger, train them for
+ longer periods, or expose them to more data). Models may also contain hidden functionality that is hard to detect,
+ such as backdoors that cause them to behave abnormally in a very small number of circumstances.<p>
+<strong>Robustness.</strong> Next, we turn to the problem of building models that are robust to adversarial attacks. 
+AI systems based on deep learning are typically vulnerable to attacks such as adversarial examples, deliberately crafted inputs that have been slightly 
+modified to deceive the model into producing predictions or other outputs that are incorrect. Achieving adversarial robustness involves designing models 
+that can withstand such manipulations. Without this, malicious actors can use attacks to circumvent safeguards and use AI systems for harmful purposes. 
+Robustness is related to the more general problem of proxy gaming. In many cases, it is not possible to perfectly specify our idealized goals for an AI system. 
+Inadequately specified goals can lead to systems diverging from our idealized goals, and introduce vulnerabilities that adversaries can attack and exploit.<p>
+<strong>Control.</strong> We then pivot to the topic of alignment, focussing primarily on control of AI systems (another key component of alignment, the
+ choice of values to which an AI system is to be aligned, is discussed in the Beneficial AI and Machine Ethics chapter). We start by exploring the issue of deception, categorizing the
+ varied forms of deception (including those already observed in existing AI systems), and analyze the risks involved
+ in AI systems deceiving human and AI evaluators. We also explore the possible conditions that could give rise to power-seeking
+ agents and the ways in which this could lead to particularly harmful risks. We discuss some techniques that have potential to 
+help with making AI systems more controllable and reducing the inherent hazards they may pose, including representation control and
+ unlearning specific capabilities.<p>
+<strong>Systemic Safety.</strong> Beyond making individual AIs more safe, we discuss how AI research can contribute to "systemic safety". 
+AI research can help to address real-world risks that may be exacerbated by AI progress, such as cyber-attacks or engineered pandemics. 
+While AI is not a silver bullet for all risks, AI can be used to create or improve tools to defend against some risks from AI, leveraging AI’s capabilities for societal resilience. 
+For example, AI can be applied to reduce risks from pandemic diseases, cyber-attacks or disinformation.<p>
+<strong>Capabilities.</strong> We conclude by explaining how researchers trying to improve AI safety can unintentionally improve the capabilities of AI systems. 
+As a result, work on AI safety can potentially end up increasing the overall risks that AI systems may pose by accelerating progress towards more capable AI systems
+ that are more widely deployed and pose more risks. To avoid this, researchers that are aiming to differentially improve safety should pick research topics carefully
+ to minimize the impacts that successful research will have on capabilities.<p>
+This chapter argues that, even when considered in isolation, individual
+AI systems can pose catastrophic risks. As we will see in subsequent
+chapters, many of these risks become more pronounced when considering
+multi-agent systems and collective action problems.<p>
+</p>
