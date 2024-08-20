@@ -285,7 +285,7 @@ the top right cell tells us that Alice gets 8 years in jail while Bob goes free.
 <tr class="even">
 <td style="text-align: center;"> Alice defects</td>
 <td style="text-align: center;">0, -8</td>
-<td style="text-align: center;">3, -3</td>
+<td style="text-align: center;">-3, -3</td>
 </tr>
 </tbody>
 </table>
