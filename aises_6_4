@@ -171,7 +171,7 @@ amplify existing issues and present new challenges.</p>
 
 <h3 id="oligopolies">Oligopolies</h3>
 <strong>Markets can tend towards concentration, leaving consumers worse off.</strong>
-While competition can create productive efficiency, some firms can avoid competitive pressures; for instance, utilities that are the exclusive provider of power or gas in a region might be able to raise their prices without losing many consumers to competitors due to lack of alternatives. When a single company or a small group of companies has a high level of control over a market, consumers are often left with limited product options and high prices. Markets in which a small number of companies are the only available suppliers are sometimes described as oligopolies. To preserve the benefits of competition, governments implement regulations such as antitrust laws, which they can use to limit market concentration by preventing mergers between companies that would give them excessive market power.</p>
+While competition can create productive efficiency, some firms can avoid competitive pressures; for instance, utilities that are the exclusive provider of power or gas in a region might be able to raise their prices without losing many consumers to competitors due to lack of alternatives. When a single company (monopoly) or a small group of companies (oligopoly) has a high level of control over a market, consumers are often left with limited product options and high prices. To preserve the benefits of competition, governments implement regulations such as antitrust laws, which they can use to limit market concentration by preventing mergers between companies that would give them excessive market power.</p>
 <strong>High
 initial investment requirements can impede newcomers from entering the
 market.</strong>
@@ -193,7 +193,7 @@ cost-effective for a single AI company to provide access to many people
 than for multiple companies to independently develop and maintain
 similar models.</p>
 <p>Additionally, only a few companies might have access to enough resources
-and data to create the best AI models. In the chapter), we discussed how
+and data to create the best AI models. In the AI Fundamentals chapter, we discussed how
 scaling laws demonstrate that improving AI performance has required
 access to costly resources like high-performance processors and vast,
 high-quality datasets. High resource requirements for developing
@@ -475,7 +475,7 @@ capita, the average person expects to live for 70 years. Nobel laureate
 Amartya Sen suggests that one pathway through which growth improves
 health is by reducing poverty and increasing investments in healthcare
 <span class="citation" data-cites="sen1999economics">[3]</span>.<p>
-<strong> rowth makes it easier for societies to support a wide range of values.</strong>The benefits of economic growth extend beyond physical health. There is
+<strong> Growth makes it easier for societies to support a wide range of values.</strong> The benefits of economic growth extend beyond physical health. There is
 a strong association between economic prosperity and enhancements in
 freedom and education <span class="citation"
 data-cites="heckelman2000economic">[4]</span>. Prosperous societies can
