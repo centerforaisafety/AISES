@@ -119,8 +119,7 @@ agent-like. They are programmed to consider the potential outcomes of
 different actions and to choose the option that is most likely to lead
 to the optimal result. It is a reasonable approximation to say that many
 artificial agents make choices that they predict will give them the
-highest utility. For instance, in reinforcement learning (introduced in
-the previous chapter), artificial agents explore their environment and
+highest utility. For instance, in reinforcement learning, artificial agents explore their environment and
 are rewarded for desirable behavior. These agents are explicitly
 constructed to maximize reward functions, which strongly shape an
 agent’s internal utility function, should it exist, and its
