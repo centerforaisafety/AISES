@@ -1,30 +1,20 @@
 <h1 id="sec:AI-and-ML">2.2 Artificial Intelligence &amp; Machine
 Learning</h1>
 
-<style type="text/css">
-    table.tableLayout{
-        margin: auto;
-        border: 1px solid;
-        border-collapse: collapse;
-        border-spacing: 1px
-    }
-
-    table.tableLayout tr{
-        border: 1px solid;
-        border-collapse: collapse;
-        padding: 5px;
-    }
-
-    table.tableLayout th{
-        border: 1px solid;
-        border-collapse: collapse;
-        padding: 3px;
-    }
-
-    table.tableLayout td{
-        border: 1px solid;
-        padding: 5px;
-    }
+<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 
 <p>Artificial intelligence (AI) is reshaping our society, from its small
 effects on daily interactions to sweeping changes across many industries
@@ -376,51 +366,43 @@ all humans in skill.</p>
 <p>
 </p>
 <br>
-<table class="tableLayout">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Skill</th>
-<th style="text-align: center;">Narrow</th>
-<th style="text-align: center;">General</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">No AI</td>
-<td style="text-align: center;">Narrow Non-AI: calculator software;
-compiler</td>
-<td style="text-align: center;">General Non-AI:
-human-in-the-loop
-computing, e.g.
-Amazon Mechanical
-Turk</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Emerging: equal
-to or somewhat
-better than an
-un-skilled human</td>
-<td style="text-align: center;">Emerging Narrow AI: simple
-rule-based systems</td>
-<td style="text-align: center;">Emerging AGI:
-ChatGPT, Bard,
-Llama 2, Gemini</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Competent: at
-least 50th percentile
-of skilled adults</td>
-<td style="text-align: center;">Competent Narrow AI: Smart
-Speakers such as Siri (Apple); VQA
-systems such as Watson (IBM); SOTA
-LLMs for some tasks (e.g. short essay
-writing)</td>
-<td style="text-align: center;">Competent AGI:
-not yet achieved (at
-least across all tasks)</td>
-</tr>
-</tbody>
-</table>
+<table>
+        <tr>
+            <th>Skill</th>
+            <th>Narrow</th>
+            <th>General</th>
+        </tr>
+        <tr>
+            <td>No AI</td>
+            <td><strong>Narrow Non-AI:</strong> calculator software; compiler</td>
+            <td><strong>General Non-AI:</strong> human-in-the-loop computing, e.g. Amazon Mechanical Turk</td>
+        </tr>
+        <tr>
+            <td>Emerging: equal to or somewhat better than an unskilled human</td>
+            <td><strong>Emerging Narrow AI:</strong> simple rule-based systems</td>
+            <td><strong>Emerging AGI:</strong> ChatGPT, Bard, Llama 2, Gemini</td>
+        </tr>
+        <tr>
+            <td>Competent: at least 50th percentile of skilled adults</td>
+            <td><strong>Competent Narrow AI:</strong> Smart Speakers such as Siri (Apple); VQA systems such as Watson (IBM); SOTA LLMs for some tasks (e.g. short essay writing)</td>
+            <td><strong>Competent AGI:</strong> not yet achieved (at least across all tasks)</td>
+        </tr>
+        <tr>
+            <td>Expert: at least 90th percentile of skilled adults</td>
+            <td><strong>Expert Narrow AI:</strong> spelling & grammar checkers such as Grammarly; generative image models such as Dall-E 2</td>
+            <td><strong>Expert AGI:</strong> not yet achieved</td>
+        </tr>
+        <tr>
+            <td>Virtuoso: at least 99th percentile of skilled adults</td>
+            <td><strong>Virtuoso Narrow AI:</strong> DeepBlue; AlphaGo</td>
+            <td><strong>Virtuoso AGI:</strong> not yet achieved</td>
+        </tr>
+        <tr>
+            <td>Superhuman: outperforms 100% of humans</td>
+            <td><strong>Superhuman Narrow AI:</strong> Stockfish; AlphaFold; AlphaZero</td>
+            <td><strong>Artificial Superintelligence (ASI):</strong> not yet achieved</td>
+        </tr>
+    </table>
 <caption style="text-align: center;">Table 2.1. A matrix showing one potential approach to breaking down the skill and generality
 of existing AI systems. Note that this is just one example and that we do not
 attempt to apply this exact terminology throughout the book.</caption>
