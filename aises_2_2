@@ -332,17 +332,20 @@ powerful, describing systems vastly outclassing human performance on
 virtually all intellectual tasks <span class="citation"
 data-cites="Bostrom2014">[14]</span>.</p></li>
 </ol>
-<p>There are not always clear distinctions between these types; these
-concepts often overlap. We can use these types to describe a system’s
-level of capability, which can be roughly decomposed into its degree of
-intelligence and its generality: the range of domains where it can learn
-to perform tasks well. This helps us explain two key ways AI systems can
-vary: an AI system can be more or less intelligent and more or less
-general. These two factors are related but distinct: an AI system that
-can play chess at a grandmaster level is intelligent in that domain, but
-we would not consider it general because it can only play chess. On the
-other hand, an advanced chatbot may show some forms of general
-intelligence while not being particularly good at chess.</p>
+<p><strong>Generality and skill level of AI systems.</strong> The concepts we discuss here do not
+provide a neat gradation of capabilities as there are at least two different axes along
+which these can be measured. When considering a system’s level of capability, it can
+be helpful to decompose this into its degree of skill or intelligence and its generality:
+the range of domains where it can learn to perform tasks well. This helps us explain
+two key ways AI systems can vary: an AI system can be more or less skillful and more
+or less general. These two factors are related but distinct: an AI system that can play
+chess at a grandmaster level is skillful in that domain, but we would not consider
+it general because it can only play chess. On the other hand, an advanced chatbot
+may show some forms of general intelligence while not being particularly good at
+chess. Skill can be further broken down by reference to varying skill levels among
+humans. An AI system could match the skill of the average adult (50th percentile),
+or of experts in this skill at varying levels (e.g. 90th of 99th percentile), or surpass
+all humans in skill.</p>
 <h3 id="narrow-ai">Narrow AI</h3>
 <p><strong>Narrow AI is specialized in one area.</strong> Also called
 <em>weak AI</em>, narrow AI refers to systems designed to perform
@@ -378,20 +381,16 @@ certain things better than any human could, even highly capable ones
 remain limited to a small range of tasks.</p>
 <h3 id="artificial-general-intelligence-agi">Artificial General
 Intelligence (AGI)</h3>
-<p><strong>AGI is far more generally capable.</strong> Generally
-intelligent systems called AGIs can learn and perform various tasks in
-various areas. Unlike narrow AIs, which only excel in specific domains,
-AGI refers to more flexible systems. An AGI can apply its intelligence
-to nearly any real-world task, matching or surpassing human cognitive
-abilities across many domains. An AGI can reason, learn, and respond
-well to new situations it has never encountered before. It can even
-learn to generalize its strong performance to many domains without
-requiring specialized training for each one: it could initially learn to
-play chess, then continue to expand its knowledge and abilities by
-learning video games, diagnosing diseases, or navigating a city.
-Although it may not be helpful as a guide to implementation or even
-precisely defined, AGI is a useful theoretical concept for reasoning
-about the capabilities of advanced systems.</p>
+<p><strong>AGI can refer to generality, adaptability or be a shorthand for matching
+human performance.</strong> As generally intelligent systems, AGIs can learn and
+perform various tasks in various areas. On some interpretations, an AGI can reason,
+learn, and respond well to new situations it has never encountered before. It can
+even learn to generalize its strong performance to many domains without requiring
+specialized training for each one: it could initially learn to play chess, then continue
+to expand its knowledge and abilities by learning video games, diagnosing diseases,
+or navigating a city. Some would extend this further and define AGIs as systems that
+can apply their intelligence to nearly any real-world task, matching or surpassing
+human cognitive abilities across many domains.</p>
 <p><strong>There is no single consensus definition of AGI.</strong>
 Constructing a precise and detailed definition of AGI is challenging and
 often creates disagreement among experts; for instance, some argue that
