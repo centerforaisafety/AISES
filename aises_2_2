@@ -373,37 +373,37 @@ all humans in skill.</p>
             <th>General</th>
         </tr>
         <tr>
-            <td>No AI</td>
+            <td><strong>No AI</strong></td>
             <td><strong>Narrow Non-AI:</strong> calculator software; compiler</td>
             <td><strong>General Non-AI:</strong> human-in-the-loop computing, e.g. Amazon Mechanical Turk</td>
         </tr>
         <tr>
-            <td>Emerging: equal to or somewhat better than an unskilled human</td>
+            <td><strong>Emerging:</strong> equal to or somewhat better than an unskilled human</td>
             <td><strong>Emerging Narrow AI:</strong> simple rule-based systems</td>
             <td><strong>Emerging AGI:</strong> ChatGPT, Bard, Llama 2, Gemini</td>
         </tr>
         <tr>
-            <td>Competent: at least 50th percentile of skilled adults</td>
+            <td><strong>Competent:</strong> at least 50th percentile of skilled adults</td>
             <td><strong>Competent Narrow AI:</strong> Smart Speakers such as Siri (Apple); VQA systems such as Watson (IBM); SOTA LLMs for some tasks (e.g. short essay writing)</td>
             <td><strong>Competent AGI:</strong> not yet achieved (at least across all tasks)</td>
         </tr>
         <tr>
-            <td>Expert: at least 90th percentile of skilled adults</td>
+            <td><strong>Expert:</strong> at least 90th percentile of skilled adults</td>
             <td><strong>Expert Narrow AI:</strong> spelling & grammar checkers such as Grammarly; generative image models such as Dall-E 2</td>
             <td><strong>Expert AGI:</strong> not yet achieved</td>
         </tr>
         <tr>
-            <td>Virtuoso: at least 99th percentile of skilled adults</td>
+            <td><strong>Virtuoso:</strong> at least 99th percentile of skilled adults</td>
             <td><strong>Virtuoso Narrow AI:</strong> DeepBlue; AlphaGo</td>
             <td><strong>Virtuoso AGI:</strong> not yet achieved</td>
         </tr>
         <tr>
-            <td>Superhuman: outperforms 100% of humans</td>
+            <td><strong>Superhuman:</strong> outperforms 100% of humans</td>
             <td><strong>Superhuman Narrow AI:</strong> Stockfish; AlphaFold; AlphaZero</td>
             <td><strong>Artificial Superintelligence (ASI):</strong> not yet achieved</td>
         </tr>
     </table>
-<caption style="text-align: center;">Table 2.1. A matrix showing one potential approach to breaking down the skill and generality
+<caption style="text-align: center;"><strong>Table 2.1</strong>. A matrix showing one potential approach to breaking down the skill and generality
 of existing AI systems. Note that this is just one example and that we do not
 attempt to apply this exact terminology throughout the book.</caption>
 <br>
