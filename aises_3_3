@@ -205,7 +205,7 @@ becomes a target, it ceases to be a good measure” <span class="citation"
 data-cites="strathern1997improving">[7]</span>. Though memorable, this
 overly simplified version falsely suggests that robustness to
 optimization pressure is a binary all or nothing. In reality, robustness
-to optimization pressure occupies a spectrum. Some are more robust than
+to optimization pressure occupies a spectrum. Some proxies are more robust than
 others.</p>
 <h3 id="types-of-proxy-defects">Types of Proxy Defects</h3>
 <p>Intuitively, the cause of proxy gaming is straightforward: the
@@ -225,7 +225,7 @@ artificially inflate viewing time, potentially diluting the genuine
 quality of their content. Tactics included using misleading titles and
 thumbnails to lure viewers, and presenting ever more extreme and hateful
 content to retain attention. Instead of promoting high-quality,
-monetizable content, the platform started endorsing exaggerating or
+monetizable content, the platform started endorsing exaggerated or
 inflammatory videos.<p>
 YouTube’s reliance on watch time as a metric highlights a common
 problem: many simple metrics don’t include everything we value. It is
@@ -235,7 +235,7 @@ failing to include other values it cared about (such as what was
 acceptable to advertisers) led to the platform promoting content that
 violated its own values. Eventually, YouTube updated its recommendation
 algorithm, de-emphasizing watch-time and incorporating a wider range of
-metrics. Including one’s broader set of values requires incorporating a
+metrics. To reflect a broader set of values, we need to incorporate a
 larger and more granular set of proxies. In general, this is highly
 difficult, as we need to be able to specify precisely how these values
 can be combined and traded off against each other.<p>
@@ -273,7 +273,7 @@ overall system not to faithfully pursue the original goal.<p>
 Each step in the chain of breaking goals down introduces further
 opportunity for approximation error to creep in. We speak more about
 failures due to delegation such as goal conflict in the Intrasystem Goal Conflict section
-in Collective Action Problems.</p>
+in the Collective Action Problems chapter.</p>
 <h3 id="limits-to-supervision">Limits to Supervision</h3>
 <p>Frequently occurring sources of approximation error mean that we do
 not have a perfect instantiation of our idealized goals. One approach to
@@ -367,13 +367,10 @@ higher because agents optimize for better rewards <span class="citation"
 data-cites="john2023deada">[1]</span>. As agents excel at gaming the
 system, the standards have to be continually recalibrated upwards to
 keep the proxy meaningful.<p>
-Consider an example from some education systems: “teaching to the test”
+Consider an example from some education systems: some argue that “teaching to the test”
 has led to ever-rising median test scores. This hasn’t necessarily meant
 that students improved academically but rather that they’ve become
-better at meeting test criteria. In the UK, to combat this tendency and
-ensure educators could continue to differentiate student abilities, the
-system introduced a new grade, A* <span class="citation"
-data-cites="lambert2019great">[10]</span>. Any adjustment to the proxy
+better at meeting test criteria. Any adjustment to the proxy
 can usher in new ways for agents to exploit it, setting off a cycle of
 escalating standards and new countermeasures.</p>
 <h2 id="adversarial-examples">3.3.3 Adversarial Examples</h2>
@@ -654,7 +651,7 @@ access to a building might operate normally in almost all circumstances, but hav
 wearing this clothing would be allowed to enter the building by the facial recognition system. Backdoors could present particularly serious vulnerabilities in the context of sequential 
 decision making systems, where a trigger could lead an AI system to carry out a coherent and harmful series of actions. 
 
-<p>Backdoors are created by adversaries during the training process, either by directly inserting it into a model's weights, or by adding poisoned data into the datasets used for training or
+<p>Backdoors are created by adversaries during the training process, either by directly inserting them into a model's weights, or by adding poisoned data into the datasets used for training or
  pretraining of AI systems. The insertion of backdoors through data poisoning becomes increasingly easy as AI systems are trained on enormous datasets scraped directly from the Internet with
  only limited filtering or curation. There is evidence that even a relatively small number of data points can be sufficient to poison a model - simply by uploading a few carefully designed 
 images, code snippets or sentences to online platforms, adversaries can inject a backdoor into future models that are trained using data scraped from these websites <span
@@ -663,7 +660,7 @@ class="citation" data-cites="carlini2023poisoning">[15]</span>.
 
 <p>Trojan detection research aims to improve our ability to detect Trojans or other hidden functionality within ML models. In this research, models are poisoned with a Trojan attack by one
  researcher. Another researcher then tries to detect Trojans in the neural network, perhaps with transparency tools or other neural networks. Typical techniques involve looking at the model’s
- internal weights and identifying unusual patterns or behaviors that are only present in Trojan models. Better methods to curate and inspect training data could also reduce the risk of 
+ internal weights and identifying unusual patterns or behaviors that are only present in models with Trojans. Better methods to curate and inspect training data could also reduce the risk of 
 inadvertently using poisoned data. 
 
 <p><strong>Attackers can extract private data or model weights from AI systems.</strong> Models may be trained on private data or on large datasets scraped from the internet that include 

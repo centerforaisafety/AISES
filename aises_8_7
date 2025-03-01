@@ -1,7 +1,8 @@
 <h1 id="sec:compute-gov">8.7 Compute Governance</h1>
 <p>A common shorthand for computational resources or computing power
 used for AI is <em>compute</em>. In this section, we will discuss how
-compute governance enables AI governance. First, we will examine how
+compute governance might help to enable AI governance on a national and 
+international level. First, we will examine how
 since compute is indispensable for AI development, governing it would
 help us govern AIs. Then, we will examine the key properties of compute
 that make it governable—–physicality, excludability, and
@@ -257,13 +258,7 @@ relevant hardware as a governance mechanism. Similarly, if the required
 compute resources to train dangerous AI systems were within the means of
 a small business or even an individual, this would dramatically increase
 the challenge of monitoring relevant compute resources as part of AI
-governance.<p>
-While describing compute governance, we have touched upon various ideas
-about how to use compute to ensure companies produce safe AIs,
-governments create and enforce regulations, and international
-cooperation can control the compute supply chain. In the rest of this
-chapter, we further discuss governance tools aimed at corporate,
-national, and international governance.</p>
+governance.
 
 <br>
 <br>

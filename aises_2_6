@@ -34,7 +34,7 @@ not well-defined or complete, often overlapping and used in different,
 conflicting ways. Therefore, in evaluating risk, it is essential to
 consider AI systems based on their specific capabilities instead of
 broad categorizations.</p>
-<p><strong>The ML process.</strong> We presented a general framework for
+<p><strong>The ML model development process.</strong> We presented a general framework for
 understanding ML models by considering five aspects of a model: its
 task, input data, output, and what type of machine learning it uses. We
 then discussed each of these aspects in turn. We explored common tasks

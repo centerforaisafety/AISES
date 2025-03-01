@@ -334,14 +334,14 @@ systems. We will present these types of AI in roughly their order of
 intelligence, generality, and potential impact, starting with the least
 potent AI systems.</p>
 <ol>
-<li><p><strong>Narrow AI</strong> can perform specific tasks.</p></li>
+<li><p><strong>Narrow AI</strong> can perform specific tasks, potentially 
+at a level that matches or surpasses human performance.</p></li>
 <li><p><strong>Artificial general intelligence</strong> (AGI) can
-perform many cognitive tasks across multiple domains at a human or
-superhuman level.</p></li>
-<li><p><strong>Human-level AI</strong> (HLAI) could do virtually
-everything humans do.</p></li>
-<li><p><strong>Transformative AI</strong> (TAI) is a term for systems
-with a dramatic impact on the world, at least at the level of the
+perform many cognitive tasks across multiple domains. It is sometimes interpreted as referring to AI 
+that can perform a wide range of tasks at a human or superhuman level.</p></li>
+<li><p><strong>Human-level AI</strong> (HLAI) could perform all tasks that humans can do.</p></li>
+<li><p><strong>Transformative AI</strong> (TAI) is a term for AI systems
+with a dramatic impact on society, at least at the level of the
 Industrial Revolution.</p></li>
 <li><p><strong>Artificial superintelligence</strong> (ASI) is the most
 powerful, describing systems vastly outclassing human performance on
@@ -420,7 +420,10 @@ a wide range of domains. While they often excel in their designated
 tasks, these limitations mean that a narrow AI does not exhibit high
 behavioral flexibility. Narrow AI systems struggle to learn new
 behaviors effectively, perform well outside their specific domain, or
-generalize to new situations.</p>
+generalize to new situations. However, narrow AI is still relevant from 
+the perspective of catastrophic risks, as systems with superhuman 
+capabilities in high-risk domains such as virology or cyber-offense could 
+present serious threats.</p>
 <p><strong>Examples of narrow AI.</strong> One example of narrow AI is a
 digital personal assistant that can receive voice commands and perform
 tasks like transcribing and sending text messages but cannot learn how

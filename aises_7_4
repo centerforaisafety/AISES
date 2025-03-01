@@ -59,10 +59,11 @@
 <p>In this chapter, we have been exploring the risks generated or exacerbated by the interactions of multiple agents, both human and AI. In the previous section, we explored a variety of 
 mechanisms by which agents can achieve stable cooperation. In this section we address how, despite the fact that cooperation can be so beneficial to all involved, a group of agents may 
 instead enter a state of conflict.</p>
-<p> We begin this section by exploring the drivers of conflict. Here, we use the term ``conflict'' loosely, to describe the decision to defect rather than cooperate in a competitive situation. 
+<p> Here, we use the term ``conflict'' loosely, to describe the decision to defect rather than cooperate in a competitive situation. 
 This often, though not always, involves some form of violence, and destroys some amount of value. Conflict is common in nature. Organisms engage in conflict to maintain social dominance 
-hierarchies, to hunt, and to defend territory. People also engage in conflict. Throughout human history, wars have been common, often occurring as a consequence of power-seeking behavior, which
-inspired conflict over attempts at aggressive territorial expansion or resource acquisition. Our goal is to uncover how, despite being costly, conflict can sometimes be a rational choice 
+hierarchies, to hunt, and to defend territory. Throughout human history, wars have been common, often occurring as a consequence of power-seeking behavior, which
+inspired conflict over attempts at aggressive territorial expansion or resource acquisition. Another lens on relations between power-seeking states and other entities is provided by the theory 
+of <i>structural realism</i> discussed in the chapter Single Agent Safety. Our goal is to uncover how, despite being costly, conflict can sometimes be a rational choice 
 nevertheless.</p>
 <p>Conflict can take place between a wide variety of entities, from microorganisms to nation-states. It can be sparked by many different factors, such as resource competition and territorial 
 disputes. Despite this variability, there are some general frameworks which we can use to analyse conflict across many different situations. In this section, we look at how some of these 
@@ -289,7 +290,7 @@ instigating war. To safeguard their diminishing influence, the British
 and French launched a swift and initially successful military
 intervention.</p>
 <p><strong>Power shifts and AI.</strong> AIs could shift power as they
-gain greater intelligence and more access to resources. Recall the Single-Agent Safety
+acquire greater capabilities and gain more access to resources. Recall the Single-Agent Safety
 chapter, where we saw that an agent’s power is highly related to the
 efficiency with which they can exploit resources for their benefit,
 which often depends on their level of intelligence. The power of future

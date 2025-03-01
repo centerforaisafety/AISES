@@ -432,7 +432,7 @@ failure models.<p>
 Analysis (STPA).</strong> On a practical level, there are methods of
 analyzing systems that take the holistic approach outlined by STAMP.
 These include System-Theoretic Process Analysis (STPA), which can be
-used at the design stage, including steps such as identifying hazards
+used at the design stage, and involves steps such as identifying hazards
 and constructing a control structure to mitigate their effects and
 improve system safety.</p>
 <p><strong>Decrementalism is the deterioration of system processes

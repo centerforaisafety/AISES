@@ -511,16 +511,18 @@ Behavior</h2>
 individual problems, models can develop <em>emergent goal-directed
 behavior</em>. This includes behaviors that extend beyond individual
 tasks and into more complex, multifaceted environments.</p>
-<h3 id="emergence-in-rl">Emergence in RL</h3>
+<h3 id="emergence-in-rl">Emergence in Reinforcement Learning</h3>
+<p><strong>Reinforcement Learning (RL) techniques attempt to automate the capacity for an agent to learn from its actions and their consequences in an environment.</strong>
+This is distinct from other ML problems, where a system can learn from an existing dataset. Instead, an RL system (or \textit{agent}) learns the hard way, collecting data through experience. An RL agent must learn how to explore different possible actions to attain as much reward as possible. Reward measures the agent’s progress towards its goal and acts as feedback in the learning process..<p>
+
 <p><strong>RL agents develop emergent goal-directed behavior.</strong>
-AIs can learn tactics and strategies involving many intermediate steps.
-For instance, models trained on Crafter, a Minecraft-inspired toy
-environment, learn behaviors such as digging tunnel systems,
-bridge-building, blocking and dodging, sheltering, and even
-farming—behaviors that were not explicitly selected for by the reward
-function <span class="citation"
-data-cites="hafner2022benchmarking">[30]</span>.<p>
-As with emergent capabilities, models can acquire these emergent
+AIs can learn tactics and strategies involving many intermediate steps. 
+For instance, models trained on Crafter, a Minecraft-inspired toy environment, 
+learn behaviors such as digging tunnel systems, bridge-building, blocking and 
+dodging, sheltering, and even farming---behaviors that were not explicitly 
+selected for by the reward function.<,p>
+
+<p>As with emergent capabilities, models can acquire these emergent
 strategies suddenly and discontinuously. One such example was observed
 in the video game, StarCraft II, where players take the role of opposing
 military commanders managing troops and resources in real-time. During

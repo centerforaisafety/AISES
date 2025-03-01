@@ -38,7 +38,7 @@ ethically may find themselves grappling with inconsistencies and
 confusion when confronted with instances in which their preferred
 methods appear to yield harmful behavior.</p>
 <p>
-In this chapter, we will consider the intricacies of this problem,
+In this chapter, we will explore these issues,
 attempting to understand which answers, if any, take us closer to
 creating safe and beneficial AIs. We start by considering some goals 
 commonly proposed to ensure that AI systems are beneficial for society. 
@@ -59,10 +59,9 @@ outcomes created by AIs are fair. We will discuss different definitions
 of fairness and see how they are incompatible, as well as consider
 approaches to mitigating biases.</p></li>
 <li><p><strong>Economic Engine</strong>: Should we let the economy
-decide what AIs will be like? We consider the potential impact the use
-of AI might have on the economy and society, how economic forces are
-shaping AI development, and why letting the economic engine create AIs
-without substantial regulation might not be a good idea.</p></li>
+decide what AIs will be like? We consider how economic forces are shaping AI development, 
+and why we might be concerned about letting economic incentives alone determine how AI is developed
+and which objectives AI systems pursue.</p></li>
 </ol>
 
 <p><strong>Machine ethics.</strong> While all of these proposals seem to capture important intuitions about what we value, we argue that they face significant limitations and are not sufficient on their own to ensure beneficial outcomes.
