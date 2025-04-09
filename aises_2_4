@@ -2,17 +2,16 @@
 <h3 id="introduction">Introduction</h3>
 <p>Compelling evidence shows that increases in the performance of many
 AI systems can be modeled with equations called <em>scaling laws</em>.
-Common knowledge suggests that larger models with more data will perform
-better, frequently reiterated in phrases like “add more layers” or “use
-more data.” Scaling laws make this folk knowledge mathematically
-precise. In this section, we show that the performance of a deep
-learning model scales according to parameter count and dataset size—both
+Machine learning researchers have often found that larger models with more data will perform
+better, and scaling laws attempt make this folk knowledge mathematically
+precise. In this section, we discuss how the performance of deep
+learning models has scaled according to parameter count and dataset size, both
 of which are primarily bottlenecked by the computational resources
 available. Scaling laws describe the relationship between a model’s
-performance and primary inputs.</p>
+performance and the computational inputs that it receives.</p>
 <h3 id="conceptual-background-power-laws">Conceptual Background: Power
 Laws </h3>
-<p>Power laws are mathematical equations that model how a particular
+<p>Scaling laws are a type of power law. Power laws are mathematical equations that model how a particular
 quantity varies as the power of another. In power laws, the variation in
 one quantity is proportional to a power (exponent) of the variation in
 another. The power law <span
@@ -100,10 +99,10 @@ and more.</p>
 <h2 id="scaling-laws-in-deep-learning">2.4.1 Scaling Laws in Deep
 Learning</h2>
 <h3 id="introduction-1">Introduction</h3>
-<p><strong>Power laws in the context of DL are called scaling laws.</strong> Scaling laws <span
+<p><strong>Power laws in the context of deep learning are called scaling laws.</strong> Scaling laws <span
 class="citation" data-cites="hestness2017deep kaplan2020scaling">[2],
 [3]</span> predict loss given model size and
-dataset size in a power-law relationship. Model size is usually measured
+dataset size in a power law relationship. Model size is usually measured
 in parameters, while dataset size is measured in tokens. As both
 variables increase, the model’s loss tends to decrease. This decrease in
 loss with scale often follows a power law: the loss drops substantially,
@@ -111,9 +110,9 @@ but not linearly, with increases in data and model size. For instance,
 if we doubled the number of parameters, the loss does not just halve: it
 might decrease to one-fourth or one-eighth, depending on the exponent in
 the scaling law. This power-law behavior in AI systems allows
-researchers to anticipate and strategize how to improve models by
+researchers to anticipate and strategize on how to improve models by
 investing more in increasing the data or the parameters.</p>
-<p><strong>Scaling laws in DL predict loss based on model size and
+<p><strong>Scaling laws in deep learning predict loss based on model size and
 dataset size.</strong> In deep learning, power-law relationships exist
 between the model’s performance and other variables. These scaling laws
 can forecast the performance of a model given different values for its
@@ -139,7 +138,7 @@ modalities.</p></li>
 <p>Improving model performance is typically bottlenecked by one of these
 variables.</p>
 <p><strong>The computational resources used to train a model are vital
-for scaling.</strong> This factor, called <em>compute</em>, is most
+for scaling.</strong> This factor, often referred to as <em>compute</em>, is most
 often measured by the number of calculations performed over a certain
 time. The key metric for compute is FLOP/s, the number of floating-point
 operations the computer performs per second. Practically, increasing
@@ -165,7 +164,8 @@ billion parameters, Chinchilla outperformed much larger models because
 it was trained on far more tokens than pre-existing models. This led to
 the <em>Chinchilla scaling law</em>, which provides a scaling law that
 depends on parameter count and data. This law demonstrated that larger
-models require much more data than was standard.</p>
+models require much more data than was typically assumed at the time to 
+achieve the desired gains in performance..</p>
 <figure id="fig:chinchilla">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/chinchilla_scaling_2.jpeg" class="tb-img-full" style="width: 60%"/>
 <p class="tb-caption">Chinchilla scaling laws provide an influential estimate of compute-optimal scaling laws, specifying the optimal ratio of model parameters and training tokens for a given training compute budget in FLOPs. The green lines show projections of optimal model size and training token count based on the number of FLOPs used to train Google's Gopher model. <span class="citation"
@@ -185,7 +185,7 @@ describes a power-law relationship. Understanding this law can help us
 understand the interplay between these factors, and knowing these values
 helps developers make optimal decisions about investments in increasing
 model and dataset size.</p>
-<p><strong>Scaling laws for DL hold across many modalities and orders of
+<p><strong>Scaling laws for deep learning hold across many modalities and orders of
 magnitude.</strong> An <em>order of magnitude</em> is a factor of 10x—if
 something increases by an order of magnitude, it increases by 10 times.
 In deep learning, evidence suggests that scaling laws hold across many
@@ -197,7 +197,7 @@ size increases dramatically.<p>
 </p>
 <figure id="fig:enter-label">
 <img src="https://raw.githubusercontent.com/WilliamHodgkins/AISES/main/images/test_loss.png" class="tb-img-full" style="width: 60%"/>
-<p class="tb-caption">Figure 2.25: The scaling laws for different DL models look remarkably similar. <span
+<p class="tb-caption">Figure 2.25: The scaling laws for different deep learning models look remarkably similar. <span
 class="citation" data-cites="brown2020language">[3]</span></p>
 <!--<figcaption>Scaling laws for different DL models - <span-->
 <!--class="citation" data-cites="brown2020language">[6]</span></figcaption>-->
@@ -216,7 +216,7 @@ model size increase.</p>
 the board.</strong> An improved algorithm increases the constant term in
 the scaling law, allowing models to perform better with a given number
 of tokens or parameters. However, crafting better learning algorithms is
-quite difficult. Therefore, improving DL models generally focuses on
+quite difficult. Therefore, improving deep learning models generally focuses on
 increasing the core variables for scaling: tokens and parameters.</p>
 <p><strong>The bitter lesson: scaling beats intricate, expert-designed
 systems.</strong> Hard-coding AI systems to follow pre-defined processes
@@ -239,13 +239,13 @@ most effective way to do this seems to be scaling up deep learning
 models such as LLMs. This lesson is “bitter” because it shows that
 simpler scaling approaches tend to beat more elegant and complex
 techniques designed by human researchers—demoralizing for researchers
-who spent years developing those complex approaches. Rather than just
-human ingenuity, scale and computational power are also key factors that
+who spent years developing those complex approaches. Rather than 
+human ingenuity alone, scale and computational power are also key factors that
 drive progress in AI.</p>
 <p>It is worth noting that while the general trend of improved performance through scaling has held over many order of magnitude of computation, the equations used to model this trend are subject to criticism and debate. The original scaling laws identified by a team at OpenAI in 2020 were superseded by the Chinchilla scaling laws described above, which may in turn be replaced in future. While there do seem to be interesting and important regularities at work, the equations that have been developed are less well-established than in some other areas of science, such as the laws of thermodynamics.</p>
 <h3 id="conclusion">Conclusion</h3>
 <p><strong>In AI, scaling laws describe how loss changes with model and
-dataset size.</strong> We observed that the performance of a DL model
+dataset size.</strong> We observed that the performance of a deep learning model
 scales according to the number of parameters and tokens—both shaped by
 the amount of compute used. Evidence from generative models like LLMs
 indicates a smooth reduction in loss with increases in model size and

@@ -5,49 +5,30 @@ wanted to understand how to organize, manage, and steer the development
 and deployment of AI technologies using an array of tools including
 norms, policies, and institutions. To set the scene, we considered a set
 of actors and tools that governance needs to consider.</p>
-<p><strong>Takeoff.</strong> We explored potential scenarios for
-advanced AI takeoff. There is serious uncertainty regarding when these
-transformative AIs will arise and whether progress will follow
-continuous trends or exhibit abrupt, discontinuous jumps in
-capabilities. However, once they emerge, advanced AIs would likely
-massively accelerate technological advancement and economic growth. This
-acceleration could profoundly reshape human civilization, potentially
-within a short timeframe. Careful governance, informed by answers to
-questions about how AI development will progress, will be essential for
-steering it in broadly positive directions that benefit humanity.</p>
-<p><strong>Distribution.</strong> We then explored three key dimensions
-around which the impacts of advanced AI systems may be distributed:
-power among AIs, access to AIs, and costs/benefits of AIs. First, in
-terms of distributing power among AIs, concentrating capabilities and
-control in a single AI or small group of AIs poses risks like
-permanently locking in certain values or goals. However, distributing
-power more widely among a large, diverse ecosystem of AIs also has
-downsides, like increasing the potential for misuse or making it more
-difficult to correct AI systems that begin behaving undesirably.<p>
-Second, regarding access to AIs, it is unclear whether availability
-should be tightly restricted or widely open to the general public.
-Limiting access risks misuse by powerful groups whereas open access
-risks misuse by malicious actors. Third, equitable distribution of the
-economic and social impacts of AI will be crucial, including dealing
-with potential technologically-induced unemployment while ensuring that
-productivity gains are shared broadly rather than accruing only to a
-small group like AI developers and investors. Distributing these three
-key aspects of advanced AI fairly will require thoughtful
-governance.</p>
-<p><strong>Compute Governance.</strong> Next, we explored how governing
-access to and use of the computing resources that enable AI development
-could provide an important lever for influencing the trajectory of AI
-progress. Compute is an indispensable input to developing advanced AI
-capabilities. It also has properties like physicality, excludability,
-and quantifiability that make governing it more feasible than other
-inputs like data and algorithms. Compute governance can allow control
-over who is granted access to what levels of computational capabilities,
-controlling who can create advanced AIs. It also facilitates setting and
-enforcing safety standards for how compute can be used, enabling the
-steering of AI development.</p>
-<p><strong>Corporate Governance.</strong> At the organizational level,
-we discussed how aspects of corporate structure and governance like
-legal form, ownership models, policies, practices, and assurance
+<p><strong>Growth.</strong> We explored how much AI might accelerate economic growth. AI has the 
+potential to significantly boost economic growth by augmenting the workforce, improving labor efficiency, and accelerating technological progress. However, the extent
+of this impact is debated, with some predicting explosive growth while others believe
+it will be tempered by social and economic factors. The semi-endogenous growth
+theory suggests that population growth, by expanding the labor force and fostering
+innovation, has historically driven economic acceleration. Similarly, AI could enhance
+economic output by substituting for human labor and self-improving, creating a positive feedback loop. Nonetheless, constraints such as limited physical resources, diminishing returns on research and development, gradual technology adoption, regulatory
+measures, and tasks that resist automation could moderate the growth induced by
+AI. Therefore, while AI’s contribution to economic growth is likely to be significant,
+whether it will result in unprecedented expansion or face limitations remains uncertain.</p>
+<p><strong>Distribution.</strong> We then explored three key dimensions of the distribution of advanced AI systems: benefits and costs of AI, access to AI, and power of AI systems.
+Equitable distribution of the economic and social impacts of AI will be crucial to 
+ensure that productivity gains are shared broadly rather than accruing only to a 
+small group like AI developers and investors. There are conflicting considerations
+with regard to access to AI, which make it is unclear whether availability should be
+tightly restricted or widely open to the general public. Limiting access risks misuse
+by powerful groups whereas open access risks misuse by malicious actors. In terms
+of distributing power among AI systems, concentrating capabilities and control in a
+single AI or small group of AIs poses risks like permanently locking in certain values or goals. However, distributing power more widely among a large, diverse ecosystem
+of AIs also has downsides, like increasing the potential for misuse or making it more
+difficult to correct AI systems that begin behaving undesirably.</p>
+<p><strong>Corporate Governance.</strong> Turning to the various stakeholders 
+that will shape AI governance, we discussed how aspects of corporate 
+structure and governance like legal form, ownership models, policies, practices, and assurance
 mechanisms can help steer technology companies away from solely
 maximizing profits and shareholder value. Instead, they can guide
 corporate AI work in directions that prioritize broader societal
@@ -73,6 +54,17 @@ concentrating advanced AI development within select transnational
 groups, may all help promote global flourishing. A lack of any
 meaningful international governance could lead to a dangerous spiral of
 competitive dynamics and erosion of safety standards.</p>
+<p><strong>Compute Governance.</strong> Next, we explored how governing
+access to and use of the computing resources that enable AI development
+could provide an important lever for influencing the trajectory of AI
+progress. Compute is an indispensable input to developing advanced AI
+capabilities. It also has properties like physicality, excludability,
+and quantifiability that make governing it more feasible than other
+inputs like data and algorithms. Compute governance can allow control
+over who is granted access to what levels of computational capabilities,
+controlling who can create advanced AIs. It also facilitates setting and
+enforcing safety standards for how compute can be used, enabling the
+steering of AI development.</p>
 <p><strong>Conclusion.</strong> This chapter provides an overview of a
 diverse selection of governance solutions spanning from policies within
 technology firms to agreements between nations in global institutions.

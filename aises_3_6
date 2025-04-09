@@ -86,7 +86,7 @@ general capabilities. To determine how a research goal affects general
 capabilities, it is important to empirically measure how a method
 affects safety metrics and capabilities metrics, as its impact is often
 not obvious beforehand.</p>
-<p><strong>Researchers should avoid general capabilities
+<p><strong> Safety researchers should avoid general capabilities
 externalities.</strong> Because safety and general capabilities are
 interconnected, it is wholly insufficient to argue that one’s research
 reduces or eliminates a particular hazard. Many general capabilities

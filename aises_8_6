@@ -257,7 +257,10 @@ without compromising the confidentiality of privileged technical
 details. However, this requires investment: we must make progress on our
 ability to verify characteristics of AIs before we can implement
 effective international regulation. Until then, establishing an
-equilibrium to deter the dangerous use of AIs may not be possible.</p>
+equilibrium to deter the dangerous use of AIs may not be possible.
+If compute governance (further discussed in the next section) can provide reliable 
+approaches to verify that other parties are complying, for example through on-chip mechanisms,
+this could make it easier to make international agreements and to ensure that these are being adhered to.</p>
 <h3 id="is-it-catastrophic-for-international-agreements-to-fail">Is It
 Catastrophic for International Agreements to Fail?</h3>
 <p><strong>Whether agreements failing is catastrophic changes how

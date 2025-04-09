@@ -14,7 +14,7 @@ offense-defense balance of cyber-attacks and reduce the risk of catastrophic att
 For example, AI could be used to monitor systems and networks to detect unauthorized access or imposter threats. ML methods could analyze source code to find malicious payloads. 
 ML models could monitor program behaviors to flag abnormal network traffic. Such systems could provide early attack warnings and contextual explanations of threats. 
 Advances in code translation and generation also raise the possibility that future AI could not just identify bugs, but also automatically patch them by editing code to fix vulnerabilities.</p>   
-<p><strong>AI for biosecurity.</strong> As discussed in section 1.2, the use of AI to facilitate the creation of bio-engineered pandemics is a significant concern. 
+<p><strong>AI for biosecurity.</strong> As discussed in the Malicious Use section of the Overview of Catastrophic AI Risks chapter, the use of AI to facilitate the creation of bio-engineered pandemics is a significant concern. 
 However, AI tools could also promote biosecurity by enabling real-time epidemic detection, improving disease forecasting, screening synthesis of gene sequences to prevent misuse, 
 and accelerating medical countermeasure development <span class="citation" data-cites="aiforbiosecurity">[5]. AI systems could improve our ability to analyze diverse data
 streams to identify disease outbreaks early and enable rapid response. AI might be applied in other ways to provide early warning of potential pandemics, for example via 

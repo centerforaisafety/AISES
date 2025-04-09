@@ -75,7 +75,7 @@ systems is deceptive AI systems. This need not imply any self-awareness on the p
  are nascent research areas that can help to make AI systems more controllable, including representation control and machine unlearning. </p>
 
 <h2 id="sec:deception">3.4.1 Deception</h2>
-<p>Many proposed mitigations to AI control rely on detecting and
+<p>Many proposed approaches to controlling AI systems rely on detecting and
 correcting flaws in AI systems so that they more consistently act in
 accordance with human values. However, these solutions may be undermined
 by the potential for AI systems to deceive humans about their
@@ -378,9 +378,7 @@ data-cites="casper2023red">[14]</span>.</strong> One
 particular form of transparency research that is especially relevant to
 deceptive alignment is research that is capable of detecting Trojan
 attacks (see section 3.2). Although Trojans are inserted by malicious humans,
- studying them might be a good way to study deceptive alignment. Trojan detection
- research is helpful for deceptive alignment because while we cannot easily create
- many examples of deceptively aligned models, we can do so for Trojaned models. 
+ studying them might be a good way to study deceptive alignment. 
 Trojan detection also operates in a worst-case environment, where human adversaries
  are actively trying to make Trojans difficult to detect using transparency tools. 
 Techniques for detecting Trojans may thus be adaptable to detecting deceptive alignment.</p>

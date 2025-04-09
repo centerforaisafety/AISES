@@ -95,10 +95,10 @@ an exhaustive list.<p>
                 <li>Machine learning systems may have hidden “backdoor” or “Trojan” controllable
 vulnerabilities. Backdoored models behave correctly and benignly in almost all scenarios,
 but in particular circumstances chosen by an adversary, they have been taught to
-behave incorrectly</li>
+behave incorrectly.</li>
                 <li>Improving our ability to detect these backdoors is both directly useful to prevent misuse,
 and can also serve as a useful testbed for identifying risks of loss of control over AI
-systems in specific circumstances, such as a “treacherous turn”</li>
+systems in specific circumstances, such as a “treacherous turn”.</li>
             </ul>
         </td>
         </tr>
@@ -109,11 +109,11 @@ systems in specific circumstances, such as a “treacherous turn”</li>
             <ul>
                 <li>AI systems may exhibit hazardous capabilities in domains such as cyber-attacks or bio-engineering. Capabilities may emerge is a way that we cannot predict as 
 AI systems are scaled up or otherwise improved. There are a variety of challenges to effective evaluation of these capabilities including the generality and large "surface area" of many pre-trained models,
- a high degree of sensitivity to the details of how prompts and evaluations are constructed, and limited available benchmarks and techniques for assessing certain capabilities</li>
+ a high degree of sensitivity to the details of how prompts and evaluations are constructed, and limited available benchmarks and techniques for assessing certain capabilities.</li>
                 <li>Evaluations can support pre-deployment assessment and ongoing monitoring of risks from AI systems, including risks from hazardous capabilities. Ideally, evaluations 
 would not only detect existing hazardous capabilities, but also make it easier to track and predict the progress of models' capabilities in relevant domains and skills, and be suitable
  not just for one-off tests but for ongoing monitoring of systems during both training and deployment. It will also be important to develop ways to test the validity of evaluations to 
-avoid false negatives</li>
+avoid false negatives.</li>
             </ul>
         </td>
         </tr>
@@ -126,11 +126,11 @@ avoid false negatives</li>
 unexpected rare events, or emergent phenomena. There are numerous relevant hazards
 from AI and other sources that anomaly detection could possibly identify more reliably
 or identify earlier, including proxy gaming, rogue or unethical AI systems, deception
-from AI systems, Trojan models, and malicious use</li>
+from AI systems, Trojan models, and malicious use.</li>
                 <li>Anomaly detection can allow models to flag salient anomalies for human review or
 execute a conservative fallback policy. A successful anomaly detector could serve as an
 AI watchdog that could reliably detect and triage rogue AI threats. Anomaly detectors
-could also be helpful for detecting other threats such as novel biological hazards
+could also be helpful for detecting other threats such as novel biological hazards.
 </li>
             </ul>
         </td>
@@ -141,9 +141,9 @@ could also be helpful for detecting other threats such as novel biological hazar
         <td style="text-align: left;">
             <ul>
                 <li>Increasing the robustness of AI systems can help to prevent misuse. It can also reduce
-risks of proxy gaming by making models more robust against optimizers</li>
+risks of proxy gaming by making models more robust against optimizers.</li>
                 <li>While robustness is a well-developed field in some parts of machine learning such as
-computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents</li>
+computer vision, new areas to explore include adversarial attacks against LLMs and multimodal agents.</li>
             </ul>
         </td>
         </tr>
@@ -153,9 +153,9 @@ computer vision, new areas to explore include adversarial attacks against LLMs a
         <td style="text-align: left;">
             <ul>
                 <li>Deliberately removing specific capabilities from an AI system could be useful to ensure that AI systems that are broadly accessible do not have the 
-know-how to support serious misuse such as helping with creating bioweapons or conducting cyber-attacks</li>
+know-how to support serious misuse such as helping with creating bioweapons or conducting cyber-attacks.</li>
                 <li>Unlearning could be particularly helpful for models fine-tuned through APIs; 
-before users can access their fine-tuned models, hazardous capabilities could be scrubbed before the models can be queried</li>
+before users can access their fine-tuned models, hazardous capabilities could be scrubbed before the models can be queried.</li>
             </ul>
         </td>
         </tr>
@@ -168,12 +168,12 @@ before users can access their fine-tuned models, hazardous capabilities could be
 improving the tradeoff between ethical behavior and practical performance. If advanced
 AIs are given objectives that are poorly specified, they could pursue undesirable
 actions and behave unethically. If these advanced AIs are sufficiently powerful, these
-misspecifications could lead the AIs to create a future that we would strongly dislike</li>
+misspecifications could lead the AIs to create a future that we would strongly dislike.</li>
                 <li>Ambitious research goals in this area include building models with relevant abilities such
 as detecting situations where moral principles apply, assessing how to apply those moral
 principles, evaluating the moral worth of candidate actions, selecting and carrying out
 actions appropriate for the context, monitoring the success or failure of those actions,
-and adjusting responses accordingly</li>
+and adjusting responses accordingly.</li>
             </ul>
         </td>
         </tr>
@@ -183,11 +183,11 @@ and adjusting responses accordingly</li>
         <td style="text-align: left;">
             <ul>
                 <li>This theme covers a variety of topics that do not improve AI models themselves but
-help to make societies more robust against harms that AI systems might cause</li>
+help to make societies more robust against harms that AI systems might cause.</li>
                 <li>Relevant research topics include deep learning for cyberdefense (e.g., deep
 learning for intrusion detection), detecting anomalous biological phenomena (e.g.,
 wastewater detection of pandemic pathogens), and proof-of-humanity mechanisms (e.g.,
-watermarks)</li>
+watermarks).</li>
             </ul>
         </td>
         </tr>

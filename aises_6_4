@@ -50,9 +50,9 @@
 <h1 id="sec:economic-engine">6.4 The Economic Engine</h1>
 <strong>What
 if we allow the economy to decide what AIs will be like?</strong>
-Unlike some prior technological breakthroughs (such as the development of nuclear energy and nuclear weapons), most investment in AI today is coming from businesses. Leading commercial AI developers have acquired the enormous computational resources required to train state-of-the-art systems and have hired many of the world's best researchers. We could therefore argue that AI development is most closely aligned with business or economic goals such as wealth maximization. Many believe this is good, arguing that the development of AIs should be guided by market forces. If AI can accelerate economic growth, provided we can also ensure a fair distribution of costs and benefits of AI across society, this could be positive for people's welfare around the globe. We examine the specific impacts of AI on economic growth and its distributional effects in the Governance chapter.</p>
+Unlike some prior technological breakthroughs (such as the development of nuclear energy and nuclear weapons), most investment in AI today is coming from businesses. Leading commercial AI developers have acquired the enormous computational resources required to train state-of-the-art systems and have hired many of the world's best researchers. We could therefore argue that AI development is most closely aligned with business or economic goals such as wealth maximization. Many believe this is good, arguing that the development of AIs should be guided by market forces. If AI can accelerate economic growth, provided we can also ensure a fair distribution of costs and benefits of AI across society, this could be positive for people's welfare around the globe. We examine the specific impacts of AI on economic growth and its distributional effects in the Governance chapter. </p>
 
-Here, we consider the broader attractions and limitations of allowing economic growth to be the main force determining how AI systems are developed. As part of this discussion, we will briefly introduce and explain a few basic concepts from economics, such as market externalities, which provide an essential foundation for our analysis. We argue that while economic incentives can be powerful forces for prosperity and innovation, they do not adequately capture many important values. AI systems that are primarily created in order to maximise growth and profit for their developers could have a range of harmful side-effects. This highlights the need to better capture different facets of individual and societal wellbeing within the AI development process. Alternative approaches are discussed further in the following sections.</p>
+Here, we consider the broader attractions and limitations of allowing economic growth to be the main force determining how AI systems are developed. As part of this discussion, we will briefly introduce and explain a few basic concepts from economics, such as market externalities, which provide an essential foundation for our analysis. We argue that while economic incentives can be powerful forces for prosperity and innovation, they do not adequately capture many important values. AI systems that are primarily created in order to maximise growth and profit for their developers could have a range of harmful side-effects. Alternative goals are discussed further in the following sections.</p>
 
 <h2 id="the-free-market">6.4.1 Allocative Efficiency of Free Markets</h2>
 <p>Competitive economic markets can drive efficiency and foster collective prosperity. Historically, market forces have led to specialization at a vast scale and worldwide competition, permitting the production of better goods and services at lower prices. The global economy is a complex system that allows for mass coordination. Prices, for instance, help producers and consumers find efficient trading equilibria in the face of dynamic market conditions. One can speculate that the integration of AI into the economic engine could further optimize production and enhance competition, ultimately contributing to accelerated economic growth and improved wellbeing.</p>
@@ -74,18 +74,13 @@ market, they unintentionally contribute to societal welfare. By creating
 gains from trade, there is an overall improvement in living standards
 for everyone.</p>
 <strong>There
-are many conditions required for the invisible hand argument to
-hold.</strong>
-Without the following conditions, the invisible hand argument—which
-holds that the presence of free markets with individuals acting in
-self-interest can create outcomes that are Pareto efficient—would
-fail.</p>
+are many conditions required for the First Fundamental Theorem of Welfare Economics to hold:</strong></p>
 <ol>
 <li><p><strong>There must be an open market.</strong> There should be no
 barriers to entry for producers or buyers, so that everyone can
 participate in this market. This openness stimulates competition,
 promoting economic efficiency.</p></li>
-<li><p><strong>There should be no seller big enough to move prices up
+<li><p><strong>No seller should be big enough to move prices up
 alone.</strong> If there are many sellers, then anyone who raises prices
 will lose consumers. There must be no monopoly power: anyone with the
 ability to raise prices without being forced down by competition will
@@ -93,8 +88,7 @@ create distortions that leave consumers worse off.</p></li>
 <li><p><strong>No producer should privately hold a pivotal
 technology.</strong> This means that other producers should be able to
 copy the production of the first-mover. While the first-mover will make
-profits in the short run, in the long run the market allocation will be
-Pareto optimal.</p></li>
+profits in the short run, the market allocation will be Pareto optimal in the long run.</p></li>
 <li><p><strong>No buyer should be big enough to move prices down
 alone.</strong> Similar to the condition for producers, no buyer should
 be big enough to force producers to take lower prices than others would
@@ -106,17 +100,17 @@ Producers and consumers must have access to perfect information, such as
 about product quality and pricing. If consumers don’t know, for
 instance, that a seller’s product is defective or that other sellers are
 offering lower prices, then markets cannot achieve efficiency.</p></li>
-<li><p><strong>Preferences must be non-satiated.</strong> The first
-welfare theorem does not hold for all types of preferences; one
-technical restriction is that consumers should always prefer more of a
-good. If someone gains no further value from extra consumption, their
-trading equilibria may not be Pareto efficient.</p></li>
 <li><p><strong>There must be no externalities in consumption.</strong>
 When one consumes a good, there must be no effect—positive or
 negative—on anyone else. Second-hand smoke has a negative externality on
 anyone nearby but this is unaccounted for in the price of cigarettes,
 creating inefficiency.</p></li>
-<li><p><strong>The state enforces property and contract laws.</strong>
+<li><p><strong>Preferences must be non-satiated.</strong> The first
+welfare theorem does not hold for all types of preferences; one
+technical restriction is that consumers should always prefer more of a
+good. If someone gains no further value from extra consumption, their
+trading equilibria may not be Pareto efficient.</p></li>
+<li><p><strong>The state must enforce property and contract laws.</strong>
 Most economic theory assumes that contracts are enforceable, and that
 individuals and corporations have protected property rights. Without
 these, trading would be difficult to achieve and much more costly,
@@ -272,7 +266,7 @@ bail them out in time of need <span class="citation"
 data-cites="acharya2016end">[9]</span>. These dynamics ultimately
 contributed to the Great Recession.</p>
 <p><strong>Developing advanced AIs is a moral hazard.</strong>
-Throughout this textbook, we have outlined great risks from advanced
+In the first chapter, we outlined severe risks to society from advanced
 AIs. However, while the potential costs to society are immense, the
 maximum financial downside to a tech company developing these AIs is
 filing for bankruptcy.<p>
@@ -283,7 +277,7 @@ richer. However, the company estimates that their invention comes with a
 0.1% chance of a catastrophic accident leading to large-scale loss of life. In the likely case, the average person
 in the economy would see some benefits due to increased productivity in
 the economy, and possibly from wealth redistribution. Still, most people
-view this gamble as irrational, preferring not to risk extinction for
+view this gamble as irrational, preferring not to risk catastrophe for
 modest economic improvements. On the other hand, the company may see
 this as a worthwhile gamble, as it would make each employee considerably
 richer.</p>
@@ -302,12 +296,12 @@ disincentivized from creating potentially dangerous systems.</p>
 <strong>Most of
 the world exhibits high levels of inequality.</strong>
 In economics, inequality refers to the uneven distribution of
-economic resources, including income and living conditions. The <em>Gini
+economic resources, including income and wealth. The <em>Gini
 coefficient</em> is a commonly used statistical measure of income or
 wealth distribution within a country. It is a number between 0 and 1,
 where 0 represents perfect equality (everyone has the same income or
 wealth), and 1 signifies maximum inequality (one person has all the
-income or wealth, and everyone else has none). Looking at Gini
+income, and everyone else has none). Looking at Gini
 coefficients, 71% of the world’s population lives in countries with
 increasing inequality over the last thirty years <span class="citation"
 data-cites="UN2020inequality">[5]</span>.</p>
