@@ -278,7 +278,7 @@ help governments avoid both unwarranted complacency and unwarranted
 insecurity about their own AI industries.<p>
 Governments can use a range of measures to remain internationally
 competitive while maintaining the safety of domestic AI development.</p>
-<h3 id="information-security">Information Security</h3>
+<h3 id="information-security">8.5.5 Information Security</h3>
 
 <p><strong>Model theft as a national security concern.</strong> If model weights from advanced AI systems are stolen or leaked, this could allow state or non-state actors to misuse these models. For example, they could maliciously use models for offensive purposes such as cyberattacks or the development of novel weapons (as discussed in more detail in Chapter 1). Assuming AI systems were sufficiently capable and valuable from a military and economic perspective, the leaking of this intellectual property to competitors would represent a major blow. 
 
